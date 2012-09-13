@@ -1,0 +1,29 @@
+# Colobot text model
+
+### HEAD
+version 1
+total_triangles 2
+
+### TRIANGLES
+p1 c 0.8 1 0 n 0 0 -1 t1 0.416016 0.00195312 t2 0 0
+p2 c 0 -1 -0 n 0 0 -1 t1 0.369141 0.123047 t2 0 0
+p3 c 0 1 0 n 0 0 -1 t1 0.369141 0.00195312 t2 0 0
+mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
+tex1 vegetal.png
+tex2 
+var_tex2 N
+min 0
+max 1e+06
+state 4096
+
+p1 c 0 -1 -0 n 0 0 -1 t1 0.369141 0.123047 t2 0 0
+p2 c 0.8 1 0 n 0 0 -1 t1 0.416016 0.00195312 t2 0 0
+p3 c 0.8 -1 -0 n 0 0 -1 t1 0.416016 0.123047 t2 0 0
+mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
+tex1 vegetal.png
+tex2 
+var_tex2 N
+min 0
+max 1e+06
+state 4096
+
