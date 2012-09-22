@@ -12,17 +12,17 @@ DeepView       air=125.00 water=25.00
 FogStart       air=0.9 water=0.5
 SecondTexture  rank=1
 //BackgroundName up=78;78;127;0 down=78;78;127;0
-FrontsizeName  image="lens5.tga"
-Planet         pos=3.0;0.2 dim=0.35 speed= 0.001 dir=0.4 image="planet03.tga" uv1=0.5;0.5 uv2=1.0;1.0
-Planet         pos=0.0;0.7 dim=0.20 speed= 0.002 dir=0.3 image="planet03.tga" uv1=0.0;0.5 uv2=0.5;1.0
-Planet         pos=0.5;0.5 dim=0.15 speed=-0.005 dir=0.5 image="planet03.tga" uv1=0.5;0.0 uv2=1.0;0.5
+FrontsizeName  image="lens5.png"
+Planet         pos=3.0;0.2 dim=0.35 speed= 0.001 dir=0.4 image="planet03.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet         pos=0.0;0.7 dim=0.20 speed= 0.002 dir=0.3 image="planet03.png" uv1=0.0;0.5 uv2=0.5;1.0
+Planet         pos=0.5;0.5 dim=0.15 speed=-0.005 dir=0.5 image="planet03.png" uv1=0.5;0.0 uv2=1.0;0.5
 
 TerrainGenerate     vision=250.00 depth=1 slope=3.0 hard=0.3
 TerrainWind         speed=-2.0;0.0
-TerrainRelief       image="textures\relief02.bmp" factor=1.0
-TerrainResource     image="textures\res00.bmp"
-TerrainCloud        image="cloud02.tga" level=87.5
-TerrainWater        image="water12.tga" level=30.0 moveX=1.0 moveY=0.3
+TerrainRelief       image="relief02.png" factor=1.0
+TerrainResource     image="res00.png"
+TerrainCloud        image="cloud02.png" level=87.5
+TerrainWater        image="water12.png" level=30.0 moveX=1.0 moveY=0.3
 //TerrainInitTextures image="moon" dx=1 dy=1 table=101
 
 TerrainMaterial id=1 image="roca2" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.8

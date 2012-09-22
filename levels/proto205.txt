@@ -12,19 +12,19 @@ DeepView       air=125.00 water=25.00
 FogStart       air=0.9 water=0.5
 SecondTexture  rank=1
 BackgroundName up=43;45;143;0 down=189;177;191;0
-FrontsizeName  image="lens1.tga"
-Planet         pos=1.2;0.2 dim=0.35 speed= 0.001 dir=0.1 image="planet02.tga" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
-Planet         pos=4.0;0.4 dim=0.20 speed= 0.012 dir=0.7 image="planet02.tga" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
-Planet         pos=4.4;0.3 dim=0.30 speed=-0.002 dir=0.3 image="planet02.tga" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
-Planet         pos=3.5;0.4 dim=0.12 speed= 0.001 dir=0.8 image="planet02.tga" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
-Planet         pos=5.0;0.5 dim=0.04 speed= 0.025 dir=1.2 image="planet02.tga" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
+FrontsizeName  image="lens1.png"
+Planet         pos=1.2;0.2 dim=0.35 speed= 0.001 dir=0.1 image="planet02.png" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
+Planet         pos=4.0;0.4 dim=0.20 speed= 0.012 dir=0.7 image="planet02.png" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
+Planet         pos=4.4;0.3 dim=0.30 speed=-0.002 dir=0.3 image="planet02.png" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
+Planet         pos=3.5;0.4 dim=0.12 speed= 0.001 dir=0.8 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
+Planet         pos=5.0;0.5 dim=0.04 speed= 0.025 dir=1.2 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
 
 TerrainGenerate     vision=250.00 depth=1 slope=3.0
 TerrainWind         speed=-2.0;0.0
-TerrainRelief       image="textures\relief02.bmp" factor=1.0
-TerrainResource     image="textures\res00.bmp"
-TerrainWater        image="water16.tga" level=30.0 moveX=1.0 moveY=0.0 glint=0.5 air=TO
-TerrainCloud        image="cloud04.tga" level=125.0
+TerrainRelief       image="relief02.png" factor=1.0
+TerrainResource     image="res00.png"
+TerrainWater        image="water16.png" level=30.0 moveX=1.0 moveY=0.0 glint=0.5 air=TO
+TerrainCloud        image="cloud04.png" level=125.0
 //TerrainInitTextures image="stone" dx=1 dy=1 table=1
 
 TerrainMaterial id=10 image="green01" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2

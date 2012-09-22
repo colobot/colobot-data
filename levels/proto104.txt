@@ -12,17 +12,17 @@ InsectColor    color=75;108;7;0  // braun
 DeepView       air=125.00 water=25.00 
 FogStart       air=0.8 water=0.5
 SecondTexture  rank=1
-BackgroundName image="back23.tga"
-FrontsizeName  image="lens1.tga"
-//Planet         pos=0.0;0.5 dim=0.2 speed=0.0 dir=0.0 image="planet01.tga" uv1=0.0;0.0 uv2=0.5;0.5
-//Planet         pos=0.5;0.5 dim=0.4 speed=0.1 dir=0.3 image="planet01.tga" uv1=0.0;0.5 uv2=0.5;1.0
+BackgroundName image="back23.png"
+FrontsizeName  image="lens1.png"
+//Planet         pos=0.0;0.5 dim=0.2 speed=0.0 dir=0.0 image="planet01.png" uv1=0.0;0.0 uv2=0.5;0.5
+//Planet         pos=0.5;0.5 dim=0.4 speed=0.1 dir=0.3 image="planet01.png" uv1=0.0;0.5 uv2=0.5;1.0
 
 TerrainGenerate     vision=250.00 depth=1 hard=0.3
 TerrainWind         speed=0.0;0.0
 //TerrainBlitz        intensity=1
-TerrainRelief       image="textures\relief01.bmp" factor=1.0
-TerrainResource     image="textures\res01.bmp"
-TerrainWater        image="water07.tga" level=30.0 moveX=1.0 moveY=0.3
+TerrainRelief       image="relief01.png" factor=1.0
+TerrainResource     image="res01.png"
+TerrainWater        image="water07.png" level=30.0 moveX=1.0 moveY=0.3
 TerrainInitTextures image="moon" dx=1 dy=1 table=101
 TerrainCreate
 

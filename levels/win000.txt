@@ -9,9 +9,9 @@ Background    up=100;100;90;0 down=100;100;90;0
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0
 TerrainWind     speed=-3.0;0.0
-TerrainRelief   image="textures\relief12.bmp" factor=1.0
-TerrainResource image="textures\res00.bmp"
-TerrainCloud    image="cloud03.tga" level=125.0
+TerrainRelief   image="relief12.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainCloud    image="cloud03.png" level=125.0
 
 TerrainMaterial id=1 image="desert6" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
 TerrainMaterial      image="desert6" u=0.25 v=0.00 up=2 down=1 left=1 right=1 hard=0.3

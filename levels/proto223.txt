@@ -17,21 +17,21 @@ DeepView      air=125.00 water=25.00
 FogStart      air=0.9 water=0.5
 SecondTexture rank=1
 Background    up=128;136;192;0 down=239;248;207;0 cloudUp=43;45;143;0 cloudDown=200;255;0;0
-FrontsizeName image="lens1.tga"
-Planet        pos=6.0;0.9 dim=0.35 speed=0.0 dir=0.1 image="planet04.tga" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
-Planet        pos=0.2;0.3 dim=0.20 speed=0.0 dir=0.7 image="planet04.tga" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
-//Planet        pos=1.2;0.2 dim=0.35 speed=0.0 dir=0.1 image="planet04.tga" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
-//Planet        pos=4.0;0.4 dim=0.20 speed=0.0 dir=0.7 image="planet04.tga" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
-//Planet        pos=4.4;0.3 dim=0.30 speed=0.0 dir=0.3 image="planet04.tga" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
-//Planet        pos=3.5;0.4 dim=0.12 speed=0.0 dir=0.8 image="planet04.tga" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
-//Planet        pos=5.0;0.5 dim=0.04 speed=0.0 dir=1.2 image="planet04.tga" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
+FrontsizeName image="lens1.png"
+Planet        pos=6.0;0.9 dim=0.35 speed=0.0 dir=0.1 image="planet04.png" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
+Planet        pos=0.2;0.3 dim=0.20 speed=0.0 dir=0.7 image="planet04.png" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
+//Planet        pos=1.2;0.2 dim=0.35 speed=0.0 dir=0.1 image="planet04.png" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
+//Planet        pos=4.0;0.4 dim=0.20 speed=0.0 dir=0.7 image="planet04.png" uv1=0.5;0.0 uv2=1.0;0.5  // bleu
+//Planet        pos=4.4;0.3 dim=0.30 speed=0.0 dir=0.3 image="planet04.png" uv1=0.0;0.5 uv2=0.5;1.0  // jaune
+//Planet        pos=3.5;0.4 dim=0.12 speed=0.0 dir=0.8 image="planet04.png" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
+//Planet        pos=5.0;0.5 dim=0.04 speed=0.0 dir=1.2 image="planet04.png" uv1=0.5;0.5 uv2=1.0;1.0  // rouge
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0
 TerrainWind     speed=-2.0;0.0
-TerrainRelief   image="textures\relief14.bmp" factor=1.0
-TerrainResource image="textures\res00.bmp"
-TerrainWater    image="water16.tga" level=30.0 moveX=1.0 moveY=0.3 color=0;240;100;0 brightness=0.2
-TerrainCloud    image="cloud04.tga" level=125.0
+TerrainRelief   image="relief14.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainWater    image="water16.png" level=30.0 moveX=1.0 moveY=0.3 color=0;240;100;0 brightness=0.2
+TerrainCloud    image="cloud04.png" level=125.0
 
 TerrainMaterial id=10 image="green01" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
 TerrainMaterial id=11 image="green01" u=0.25 v=0.00 up=1 down=1 left=1 right=1 hard=0.2

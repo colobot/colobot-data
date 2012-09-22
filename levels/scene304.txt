@@ -17,12 +17,12 @@ DeepView      air=125.00 water=25.00
 FogStart      air=0.9 water=0.5
 SecondTexture rank=2
 Background    up=128;136;192;0 down=239;248;207;0
-FrontsizeName image="lens1.tga"
+FrontsizeName image="lens1.png"
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0
 TerrainWind     speed=0.0;2.0
-TerrainRelief   image="textures\relief30.bmp" factor=1.0
-TerrainResource image="textures\res00.bmp"
+TerrainRelief   image="relief30.png" factor=1.0
+TerrainResource image="res00.png"
 
 TerrainMaterial id=10 image="green01" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
 TerrainMaterial id=11 image="green01" u=0.25 v=0.00 up=1 down=1 left=1 right=1 hard=0.2

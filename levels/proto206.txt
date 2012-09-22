@@ -12,18 +12,18 @@ GreeneryColor  color=250;187;69;0
 DeepView       air=125.00 water=25.00 
 FogStart       air=0.9 water=0.5
 SecondTexture  rank=1
-//BackgroundName image="back36.tga"
+//BackgroundName image="back36.png"
 BackgroundName up=0;0;0;0 down=205;86;21;0
-FrontsizeName  image="lens5.tga"
-Planet         pos=4.8;0.0 dim=2.0 image="effect01.tga" uv1=0.00;0.25 uv2=0.25;0.50
+FrontsizeName  image="lens5.png"
+Planet         pos=4.8;0.0 dim=2.0 image="effect01.png" uv1=0.00;0.25 uv2=0.25;0.50
 
 TerrainGenerate     vision=250.00 depth=1 slope=3.0 hard=0.6
 TerrainWind         speed=0.0;-5.0
-TerrainRelief       image="textures\relief02.bmp" factor=1.0
-TerrainResource     image="textures\res00.bmp"
-//TerrainWater        image="water12r.tga" level=30.0 moveX=1.0 moveY=0.0 air=TO water=TO
-TerrainWater        image="lava05.tga" level=30.0 moveX=2.0 moveY=1.0 air=TO water=TO
-TerrainCloud        image="cloud05.tga" level=125.0
+TerrainRelief       image="relief02.png" factor=1.0
+TerrainResource     image="res00.png"
+//TerrainWater        image="water12r.png" level=30.0 moveX=1.0 moveY=0.0 air=TO water=TO
+TerrainWater        image="lava05.png" level=30.0 moveX=2.0 moveY=1.0 air=TO water=TO
+TerrainCloud        image="cloud05.png" level=125.0
 TerrainLava         mode=1
 TerrainInitTextures image="chili" dx=1 dy=1 table=100
 

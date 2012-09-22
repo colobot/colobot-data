@@ -14,14 +14,14 @@ GreeneryColor color=161;151;41;0
 DeepView      air=125.00 water=25.00 
 FogStart      air=0.1 water=0.5
 SecondTexture rank=1
-FrontsizeName image="lens5.tga"
+FrontsizeName image="lens5.png"
 Background    up=111;103;111;0 down=143;143;127;0 cloudUp=1;1;1;0 cloudDown=1;1;1;0
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0
 TerrainWind     speed=0.0;2.0
-TerrainRelief   image="textures\relief11.bmp" factor=1.0
-TerrainResource image="textures\res05.bmp"
-TerrainCloud    image="cloud09.tga" level=125.0
+TerrainRelief   image="relief11.png" factor=1.0
+TerrainResource image="res05.png"
+TerrainCloud    image="cloud09.png" level=125.0
 
 TerrainMaterial id=1 image="desert6" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
 TerrainMaterial      image="desert6" u=0.25 v=0.00 up=2 down=1 left=1 right=1 hard=0.3
