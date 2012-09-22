@@ -7,14 +7,14 @@ DeepView      air=125.00 water=25.00
 FogStart      air=0.9 water=0.5
 SecondTexture rank=1
 Background    up=192;72;0;0 down=207;192;15;0 cloudUp=0;0;0;0 cloudDown=205;86;21;0
-FrontsizeName image="lens5.tga"
-Planet        pos=4.8;0.0 dim=2.0 image="effect01.tga" uv1=0.00;0.25 uv2=0.25;0.50
+FrontsizeName image="lens5.png"
+Planet        pos=4.8;0.0 dim=2.0 image="effect01.png" uv1=0.00;0.25 uv2=0.25;0.50
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0 hard=0.6
 TerrainWind     speed=0.0;-5.0
-TerrainRelief   image="textures\relief18.bmp" factor=1.0
-TerrainResource image="textures\resae.bmp"
-TerrainCloud    image="cloud05.tga" level=125.0
+TerrainRelief   image="relief18.png" factor=1.0
+TerrainResource image="resae.png"
+TerrainCloud    image="cloud05.png" level=125.0
 
 TerrainMaterial id=10 image="chili01" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.8
 TerrainMaterial id=11 image="chili01" u=0.25 v=0.00 up=1 down=1 left=1 right=1 hard=0.7

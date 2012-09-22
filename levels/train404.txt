@@ -15,15 +15,15 @@ VehicleColor  color=168;158;118;0  // sable
 DeepView      air=125.00 water=25.00 
 FogStart      air=0.9 water=0.5
 SecondTexture rank=1
-FrontsizeName image="lens5.tga"
+FrontsizeName image="lens5.png"
 Background    up=192;160;160;0 down=208;192;128;0 cloudUp=128;64;64;0 cloudDown=210;210;0;0
 
 TerrainGenerate vision=250.00 depth=1 slope=3.0
 TerrainWind     speed=-3.0;0.0
-TerrainRelief   image="textures\relief02.bmp" factor=1.0
-TerrainResource image="textures\res00.bmp"
-//TerrainWater    image="water12.tga" level=30.0 moveX=1.0 moveY=0.3
-TerrainCloud    image="cloud03.tga" level=125.0
+TerrainRelief   image="relief02.png" factor=1.0
+TerrainResource image="res00.png"
+//TerrainWater    image="water12.png" level=30.0 moveX=1.0 moveY=0.3
+TerrainCloud    image="cloud03.png" level=125.0
 
 TerrainMaterial id=1 image="desert4" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
 TerrainMaterial      image="desert4" u=0.25 v=0.00 up=2 down=1 left=1 right=1 hard=0.4

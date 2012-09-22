@@ -16,13 +16,13 @@ DeepView      air=100.00 water=25.00
 FogStart      air=0.1 water=0.1
 SecondTexture rank=3
 Background    up=180;222;255;0 down=180;222;255;0
-FrontsizeName image="lens5.tga"
+FrontsizeName image="lens5.png"
 
 TerrainGenerate     vision=400.00 depth=1 hard=0.7
 TerrainWind         speed=0.0;0.1
-TerrainRelief       image="textures\relief20.bmp" factor=1.0
-TerrainResource     image="textures\resae.bmp"
-//TerrainWater        image="lava04.tga" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0;128;255;0
+TerrainRelief       image="relief20.png" factor=1.0
+TerrainResource     image="resae.png"
+//TerrainWater        image="lava04.png" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0;128;255;0
 TerrainInitTextures image="terra" dx=1 dy=1 table=2
 TerrainCreate
 

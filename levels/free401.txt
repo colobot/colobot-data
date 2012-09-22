@@ -14,22 +14,22 @@ DeepView      air=100.00 water=25.00
 FogStart      air=0.1 water=0.1
 SecondTexture rank=3
 Background    up=76;105;226;0 down=192;250;255;0
-FrontsizeName image="lens5.tga"
-Planet        pos=0.00;0.70 dim=0.03 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=1.00;0.60 dim=0.02 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=1.20;0.40 dim=0.03 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=2.00;0.40 dim=0.03 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=2.50;0.50 dim=0.04 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=3.00;0.30 dim=0.04 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=3.85;0.30 dim=0.06 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=4.00;0.70 dim=0.02 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=4.10;0.50 dim=0.03 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
-Planet        pos=5.30;0.30 dim=0.08 image="effect01.tga" uv1=0.00;0.50 uv2=0.25;0.75
+FrontsizeName image="lens5.png"
+Planet        pos=0.00;0.70 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=1.00;0.60 dim=0.02 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=1.20;0.40 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=2.00;0.40 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=2.50;0.50 dim=0.04 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=3.00;0.30 dim=0.04 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=3.85;0.30 dim=0.06 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=4.00;0.70 dim=0.02 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=4.10;0.50 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
+Planet        pos=5.30;0.30 dim=0.08 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
 
 TerrainGenerate     vision=400.00 depth=1 hard=0.7
-TerrainRelief       image="textures\relief05.bmp" factor=1.0
-TerrainResource     image="textures\res08.bmp"
-TerrainWater        image="lava04.tga" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0;128;255;0
+TerrainRelief       image="relief05.png" factor=1.0
+TerrainResource     image="res08.png"
+TerrainWater        image="lava04.png" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0;128;255;0
 TerrainInitTextures image="terra" dx=1 dy=1 table=2
 TerrainCreate
 

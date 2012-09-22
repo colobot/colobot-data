@@ -13,18 +13,18 @@ VehicleColor  color=158;120;82;0  // ocre
 DeepView      air=200.00 water=25.00 
 FogStart      air=0.5 water=0.5
 SecondTexture rank=2
-Background    image="back01.tga" up=50;30;10;0 down=50;30;10;0
-Planet        pos=1.2;0.2 dim=0.40 speed= 0.000 dir=0.5 image="planet02.tga" uv1=0.0;0.0 uv2=0.5;0.5
-Planet        pos=4.0;0.4 dim=0.20 speed= 0.012 dir=0.7 image="planet02.tga" uv1=0.5;0.0 uv2=1.0;0.5
-Planet        pos=4.4;0.3 dim=0.30 speed=-0.002 dir=0.3 image="planet02.tga" uv1=0.0;0.5 uv2=0.5;1.0
-Planet        pos=3.5;0.4 dim=0.12 speed= 0.001 dir=0.8 image="planet02.tga" uv1=0.5;0.5 uv2=1.0;1.0
-Planet        pos=5.0;0.5 dim=0.04 speed= 0.025 dir=1.2 image="planet02.tga" uv1=0.5;0.5 uv2=1.0;1.0
-Planet        pos=0.0;0.2 dim=0.06 speed=-0.035 dir=0.4 image="planet02.tga" uv1=0.0;0.0 uv2=0.5;0.5
-Planet        pos=2.0;0.5 dim=0.05 speed= 0.015 dir=2.0 image="planet02.tga" uv1=0.5;0.5 uv2=1.0;1.0
+Background    image="back01.png" up=50;30;10;0 down=50;30;10;0
+Planet        pos=1.2;0.2 dim=0.40 speed= 0.000 dir=0.5 image="planet02.png" uv1=0.0;0.0 uv2=0.5;0.5
+Planet        pos=4.0;0.4 dim=0.20 speed= 0.012 dir=0.7 image="planet02.png" uv1=0.5;0.0 uv2=1.0;0.5
+Planet        pos=4.4;0.3 dim=0.30 speed=-0.002 dir=0.3 image="planet02.png" uv1=0.0;0.5 uv2=0.5;1.0
+Planet        pos=3.5;0.4 dim=0.12 speed= 0.001 dir=0.8 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet        pos=5.0;0.5 dim=0.04 speed= 0.025 dir=1.2 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet        pos=0.0;0.2 dim=0.06 speed=-0.035 dir=0.4 image="planet02.png" uv1=0.0;0.0 uv2=0.5;0.5
+Planet        pos=2.0;0.5 dim=0.05 speed= 0.015 dir=2.0 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
 
 TerrainGenerate     vision=125.00 depth=1 hard=0.5
-TerrainRelief       image="textures\relief01.bmp" factor=1.0
-TerrainResource     image="textures\res01.bmp"
+TerrainRelief       image="relief01.png" factor=1.0
+TerrainResource     image="res01.png"
 TerrainInitTextures image="mars" dx=4 dy=2 table=1;2;3;4;5;6;7;8
 TerrainCreate
 
