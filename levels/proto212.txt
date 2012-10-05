@@ -10,13 +10,13 @@ HelpFile     name="cbot.txt"
 EndingFile   win=-1 lost=0
 
 Audio         track=2
-AmbiantColor  air=102;102;102;102 water=20;20;20;20  // grey
-FogColor      air=180;222;255;0 water=10;20;100;0  // grey
+AmbientColor  air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078  // grey
+FogColor      air=0.706;0.871;1.000;0.000 water=0.039;0.078;0.392;0.000  // grey
 DeepView      air=100.00 water=25.00 
 FogStart      air=0.1 water=0.1
 SecondTexture rank=3
-Background    up=180;222;255;0 down=180;222;255;0
-FrontsizeName image="lens5.png"
+Background    up=0.706;0.871;1.000;0.000 down=0.706;0.871;1.000;
+ForegroundName image="lens5.png"
 
 TerrainGenerate     vision=400.00 depth=1 hard=0.7
 TerrainWind         speed=0.0;0.1
@@ -28,7 +28,7 @@ TerrainCreate
 
 //GroundSpot color=000;000;255 min=-10 max=31.25 smooth=10
 //GroundSpot color=250;150;100 min=31.25 max=999 smooth=60
-GroundSpot pos= 12; -75 radius=30 color=150;200;250  // base
+GroundSpot pos= 12; -75 radius=30 color=0.588;0.784;0.980  // base
 
 BeginObject
 CreateObject pos=32.50;-75.00 dir=0.0 type=SpaceShip run=0
@@ -223,7 +223,7 @@ CreateLight dir= 0.0;-1.0; 0.0 color= 0.30; 0.00; 0.30 type=Quartz
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.30; 0.30; 0.00 type=Quartz
 WaterColor color=-0.6;-0.1;-0.1;0.0
 
-MapColor floor=115;193;237 water=188;225;246
+MapColor floor=0.451;0.757;0.929 water=0.737;0.882;0.965
 MapZoom  factor=1
 
 NewScript name="exchg1.txt" type=WheeledGrabber
