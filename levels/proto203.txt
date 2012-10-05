@@ -4,13 +4,13 @@ Title.E  text="Aride gris"
 Resume.E text="Aride gris"
 HelpFile name="cbot.txt"
 
-AmbiantColor   air=102;102;102;102 water=20;20;20;20  // grey
+AmbientColor   air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078  // grey
 BackColor      air=104;104;104;0 water=10;100;20;0  // grey
-FogColor       air=104;104;104;0 water=10;100;20;0  // grey
+FogColor       air=0.408;0.408;0.408;0.000 water=0.039;0.392;0.078;0.000  // grey
 DeepView       air=125.00 water=25.00 
 FogStart       air=0.5 water=0.1
 SecondTexture  rank=3
-FrontsizeName  image="lens5.png"
+ForegroundName  image="lens5.png"
 
 TerrainGenerate     vision=400.00 depth=1 hard=0.7
 TerrainWind         speed=-2.0;0.0
@@ -91,7 +91,7 @@ CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
 CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
 CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
 WaterColor color=-0.6;-0.1;-0.1;0.0
-MapColor floor=106;104;102 water=131;152;131
+MapColor floor=0.416;0.408;0.400 water=0.514;0.596;0.514
 
 EnableBuild type=FACTORY
 EnableBuild type=RADAR

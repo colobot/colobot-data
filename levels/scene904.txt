@@ -10,14 +10,14 @@ HelpFile     name="cbot.txt"
 EndingFile   win=904 lost=0
 
 Audio         track=9
-AmbiantColor  air=102;102;102;102 water=20;20;20;20  // grey
-FogColor      air=208;200;223;0 water=94;153;180;0  // magenta
-VehicleColor  color=200;196;174;0  // sable
+AmbientColor  air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078  // grey
+FogColor      air=0.816;0.784;0.875;0.000 water=0.369;0.600;0.706;0.000  // magenta
+VehicleColor  color=0.784;0.769;0.682;0.000  // sable
 DeepView      air=125.00 water=25.00 
 FogStart      air=0.9 water=0.5
 SecondTexture rank=1
-Background    up=239;223;224;0 down=191;192;223;0 cloudUp=78;78;127;0 cloudDown=78;78;127;0
-FrontsizeName image="lens5.png"
+Background    up=0.937;0.875;0.878;0.000 down=0.749;0.753;0.875;0.000 cloudUp=0.306;0.306;0.498;0.000 cloudDown=0.306;0.306;0.498;
+ForegroundName image="lens5.png"
 Planet        pos=3.0;0.2 dim=0.35 speed= 0.001 dir=0.4 image="planet03.png" uv1=0.5;0.5 uv2=1.0;1.0
 Planet        pos=0.0;0.7 dim=0.20 speed= 0.002 dir=0.3 image="planet03.png" uv1=0.0;0.5 uv2=0.5;1.0
 Planet        pos=0.5;0.5 dim=0.15 speed=-0.005 dir=0.5 image="planet03.png" uv1=0.5;0.0 uv2=1.0;0.5
@@ -71,10 +71,10 @@ TerrainLevel    id=2 min=25.0 max=37.5 slope=9.0 freq= 70.0  // grass
 
 TerrainCreate
 
-GroundSpot color=0;128;255 min=-10 max=24 smooth=10
-GroundSpot pos=-92;261 radius=70 color=0;255;0  // pondeuse
-GroundSpot pos=-250;-47 radius=100 color=255;128;0  // ouest (uranium)
-GroundSpot pos=256;-49 radius=60 color=0;128;128  // est (clé)
+GroundSpot color=0.000;0.502;1.000 min=-10 max=24 smooth=10
+GroundSpot pos=-92;261 radius=70 color=0.000;1.000;0.000  // pondeuse
+GroundSpot pos=-250;-47 radius=100 color=1.000;0.502;0.000  // ouest (uranium)
+GroundSpot pos=256;-49 radius=60 color=0.000;0.502;0.502  // est (cl)
 
 MaxFlyingHeight max=45
 
@@ -180,7 +180,7 @@ CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
 CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
 WaterColor color=-0.3;0.0;0.2
 
-MapColor floor=165;142;107 water=154;235;255
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
 MapZoom  factor=2
 
 NewScript name="shield3.txt" type=Shielder
