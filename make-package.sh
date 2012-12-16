@@ -4,25 +4,28 @@
 
 # Get current date (UTC)
 date=`date -u '+%Y-%m-%d'`
-# Temp working dir
-temp_dir="/tmp/colobot-data.$RANDOM"
 # Name of directory in zip
 dir_name="colobot-data-$date"
 # Name of zip
 zip_name="$dir_name.zip"
 
-echo "Copying files to temp dir: $temp_dir"
-mkdir "$temp_dir"
-cp -R . "$temp_dir/$dir_name"
+# git branches
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+release_branch=${current_branch}_release_$date
 
-old_pwd=`pwd`
-cd "$temp_dir"
-sed -i 's/\[\[\[date\]\]\]/'"$date"'/' "$dir_name/README.txt"
-echo "Zipping files"
-zip -9 -r "$zip_name" "$dir_name" > /dev/null
+# Create new branch for the date substitution
+git checkout -b $release_branch >/dev/null 2>&1
+# Prepare the release where needed
+sed -i 's/\[\[\[date\]\]\]/'"$date"'/' README.txt
 
-cd "$old_pwd"
-mv "$temp_dir/$zip_name" .
-echo "Removing temp files"
-rm -rf "$temp_dir"
-echo "Package $zip_name created"
+# Commit the changes
+git commit README.txt -m "colobot-data $date release" >/dev/null
+
+# Create the zipfile
+echo -n "Creating package $zip_name …"
+git archive --prefix=$dir_name/ --format=zip $release_branch > ../$dir_name.zip
+echo " done!"
+
+# Cleanup our trails
+git checkout $current_branch >/dev/null 2>&1
+git branch -D $release_branch >/dev/null
