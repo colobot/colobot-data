@@ -1,6 +1,6 @@
 # Colobot Data Files
 
-## Development Release 2012-10-05
+## Development Release [[[date]]]
 
 This package contains the data files for the Colobot project (https://github.com/colobot/colobot).
 It includes (or will include):
