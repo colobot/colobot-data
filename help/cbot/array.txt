@@ -13,7 +13,7 @@ Actually when the CBOT interpreter encounters an array declaration, it just crea
 As soon as you put values into the array, the elements are created and the reference is initialized:
 \c;
 \s;a[2] = 213;  // a points to
-\s;             // 3 élements [0], [1] et [2]
+\s;             // 3 Ã©lements [0], [1] et [2]
 \n;
 After this operation, \c;a\n; contains a reference to the elements of the array. Elements \c;[0]\n; and \c;[1]\n; are created but not initialized because an array cannot contain empty elements. The \c;\l;sizeof\u cbot\sizeof;\n; instruction allows you to obtain the number of elements contained in an array.
 
