@@ -1,11 +1,11 @@
 \b;Instruction \c;testinfo\n;
-Syntax¦:
+SyntaxÂ¦:
 \s;\c;testinfo ( name, power );\n;
 
 Tests if an information exists in the closest \l;information exchange post\u object\exchange;.
 
 \t;name: \c;string\n;
-Name of the information to be tested in the exchange post. This name is a string: it must be written in quotation marks "¦".
+Name of the information to be tested in the exchange post. This name is a string: it must be written in quotation marks "Â¦".
 
 \t;power: \c;float\n;
 Power of the transmitter, which corresponds to the maximal distance between the transmitter and the exchange post. If the distance is longer, the function returns \c;false\n;. Default value is 10 metres.

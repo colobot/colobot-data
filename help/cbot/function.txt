@@ -1,6 +1,6 @@
 \b;Functions
 With functions you can divide your program into several parts, each of them will execute a specific task.
-Let's imagine following program¦:
+Let's imagine following programÂ¦:
 \c;
 \s;extern void object::Remote( )
 \s;{
@@ -29,7 +29,7 @@ Let's imagine following program¦:
 \s;	SendToPost(4);
 \s;}
 \n;
-A function can have paramteters¦:
+A function can have paramtetersÂ¦:
 \c;
 \s;void Example( int a, float x, string s )
 \n;
@@ -51,7 +51,7 @@ A function can also return a result with the \c;\l;return\u cbot\return;\n; inst
 \s;	message( value );  // will display 4
 \s;}
 \n;
-Some other examples¦:
+Some other examplesÂ¦:
 \c;
 \s;float Pi( )
 \s;{
@@ -61,11 +61,11 @@ Some other examples¦:
 \s;string Sign( float a )
 \s;{
 \s;	if ( a > 0 )  return "positive";
-\s;	if ( a < 0 )  return "négative";
+\s;	if ( a < 0 )  return "nÃ©gative";
 \s;	return "null";
 \s;}
 \n;
-You can declare several functions with the same name but different parameters¦:
+You can declare several functions with the same name but different parametersÂ¦:
 \c;
 \s;float Pythagoras( float a, float b )
 \s;{
