@@ -1,5 +1,5 @@
 Title.F      text="Au secours"
-Resume.F     text="Défendez-vous de toutes les attaques ennemies."
+Resume.F     text="DÃ©fendez-vous de toutes les attaques ennemies."
 Title.E      text="Help"
 Resume.E     text="Defend yourself agains all alien attacks."
 ScriptName.F text="Protect"
@@ -80,13 +80,13 @@ CreateObject pos=  36.00;-150.00 dir=1.0 type=AlienAnt reset=1 script1="tprot1a.
 CreateObject pos=  89.00; -29.00 dir=1.0 type=AlienAnt reset=1 script1="tprot1a.txt" run=1
 CreateObject pos= -30.00;-100.00 dir=1.0 type=AlienAnt reset=1 script1="tprot1a.txt" run=1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos=12.50;-67.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-67.50 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-67.50 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-67.50 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos=12.50;-87.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-87.50 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-87.50 dir=0.0 type=Barrier1

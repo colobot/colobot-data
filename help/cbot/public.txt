@@ -1,5 +1,5 @@
 \b;Instruction \c;public\n; (for specialists)
-This instruction has two distinct purposes¦:
+This instruction has two distinct purposesÂ¦:
 
 1) Make a function available to other bots.
 2) Make a class member accessible from outside the class definition.
@@ -7,7 +7,7 @@ This instruction has two distinct purposes¦:
 \b;Instruction \c;public\n; for functions
 If you put \c;public\n; before a \l;function\u cbot\function; definition, you can make the function available to programs in other bots in the same mission.
 
-For example in the first bot we would have¦:
+For example in the first bot we would haveÂ¦:
 \c;
 \s;public void object::Segment(float dist, float angle)
 \s;{
@@ -15,7 +15,7 @@ For example in the first bot we would have¦:
 \s;	turn(angle);
 \s;}
 \n;
-And in another bot we would have¦:
+And in another bot we would haveÂ¦:
 \c;
 \s;extern void object::Square( )
 \s;{

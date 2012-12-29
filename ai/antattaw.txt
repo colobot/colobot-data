@@ -1,11 +1,11 @@
 extern void object::Attack( )
 {
-	int         list[], i;  // liste des objets cherchés
+	int         list[], i;  // liste des objets cherchÃ©s
 	object      target;     // info sur la cible
-	point       lastPos;    // dernière position (pr test si bloquée)
+	point       lastPos;    // derniÃ¨re position (pr test si bloquÃ©e)
 	float       distTar;    // distance de la cible
 	float       dirTar;     // direction de la cible
-	float       r;          // valeur aléatoire
+	float       r;          // valeur alÃ©atoire
 	float       mp;         // puissance moteur
 	float       tangle;     // angle d'esquive en cas d'eau
 	boolean	    ifmove;     // si on avance en tirant ou pas
@@ -52,7 +52,7 @@ extern void object::Attack( )
 	wait(cmdline(0));  // attend pour entrer en action
 	lastPos = position;  // initialise
 	ifmove = true;
-	while ( true )  // répète à l'infini
+	while ( true )  // rÃ©pÃ¨te Ã  l'infini
 	{
 		target = radar(list);
 		dirTar = direction(target.position);
@@ -82,7 +82,7 @@ extern void object::Attack( )
 		{
 			ifmove = true;
 			if (distance(lastPos, position) < 0.2)
-			{   //si elle est bloquée par obstacle
+			{   //si elle est bloquÃ©e par obstacle
 				lastPos = position;
 				turn(rand()*360-180);
 				motor(1,1);

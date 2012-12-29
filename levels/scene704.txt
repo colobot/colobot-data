@@ -1,5 +1,5 @@
 Title.F      text="Halte au massacre"
-Resume.F     text="Récupérez la boîte noire sans tuer une seule fourmi."
+Resume.F     text="RÃ©cupÃ©rez la boÃ®te noire sans tuer une seule fourmi."
 Title.E      text="New Policies"
 Resume.E     text="Try a more humane method of dealing with insects."
 Instructions name="mhcent4.txt"
@@ -96,7 +96,7 @@ CreateObject pos=125;-120 cmdline=115;-120;40;2 type=AlienAnt script1="antich2.t
 CreateObject pos=125;-125 cmdline=115;-120;40;2 type=AlienAnt script1="antich2.txt" run=1
 CreateObject pos=125;-130 cmdline=115;-120;40;2 type=AlienAnt script1="antich2.txt" run=1
 
-// Cratère ouest.
+// CratÃ¨re ouest.
 CreateObject pos=-230;   2 dir=0.2 type=TitaniumOre
 CreateObject pos=-233;   1 dir=0.0 type=TitaniumOre
 CreateObject pos=-234;   3 dir=0.1 type=TitaniumOre
@@ -110,7 +110,7 @@ CreateObject pos=-235;  51 dir=0.0 type=Greenery2
 CreateObject pos=-243;  55 dir=0.1 type=Greenery3
 CreateObject pos=-246;  79 dir=0.3 type=Greenery4
 
-// Cratère sud-ouest.
+// CratÃ¨re sud-ouest.
 CreateObject pos=-126;-126 dir=0.2 type=TitaniumOre
 CreateObject pos=-131;-131 dir=0.0 type=TitaniumOre
 CreateObject pos=-133;-132 dir=0.1 type=TitaniumOre
@@ -120,7 +120,7 @@ CreateObject pos=-107;-137 dir=0.3 type=Greenery2
 CreateObject pos=-111; -92 dir=0.3 type=Greenery0
 CreateObject pos= -94; -66 dir=0.3 type=Greenery1
 
-// Cratère sud.
+// CratÃ¨re sud.
 CreateObject pos= -10;-194 dir=0.0 type=TitaniumOre
 CreateObject pos=  -6;-197 dir=0.2 type=TitaniumOre
 CreateObject pos= -14;-200 dir=0.1 type=TitaniumOre
@@ -145,7 +145,7 @@ CreateFog pos= 103;-134 height=  3 dim=30 delay=5.0 type=5
 CreateFog pos= 155;-125 height=-25 dim=20 delay=4.0 type=4
 CreateFog pos= 155;-125 height=-26 dim=20 delay=5.0 type=5
 
-// Cratère ouest.
+// CratÃ¨re ouest.
 CreateFog pos=-217;  -2 height=  3 dim=20 delay=4.0 type=4
 CreateFog pos=-217;  -2 height=  4 dim=20 delay=5.0 type=5
 CreateFog pos=-233;   6 height=  2 dim=10 delay=4.0 type=4
@@ -153,13 +153,13 @@ CreateFog pos=-233;   6 height=  3 dim=10 delay=5.0 type=5
 CreateFog pos=-186;  -2 height=  3 dim=30 delay=4.0 type=4
 CreateFog pos=-186;  -2 height=  4 dim=30 delay=5.0 type=5
 
-// Cratère sud-ouest.
+// CratÃ¨re sud-ouest.
 CreateFog pos=-138;-140 height=  3 dim=20 delay=4.0 type=4
 CreateFog pos=-138;-140 height=  4 dim=20 delay=5.0 type=5
 CreateFog pos=-112;-150 height=  3 dim=40 delay=4.0 type=4
 CreateFog pos=-112;-150 height=  4 dim=40 delay=5.0 type=5
 
-// Cratère sud.
+// CratÃ¨re sud.
 CreateFog pos= -13;-185 height=  4 dim=30 delay=4.0 type=4
 CreateFog pos= -13;-185 height=  5 dim=30 delay=5.0 type=5
 
