@@ -1,5 +1,5 @@
-Title.F      text="La vallée perdue"
-Resume.F     text="Récupérer la boîte noire dans une vallée profonde et remplie de brouillard."
+Title.F      text="La vallÃ©e perdue"
+Resume.F     text="RÃ©cupÃ©rer la boÃ®te noire dans une vallÃ©e profonde et remplie de brouillard."
 Title.E      text="The Lost Valley"
 Resume.E     text="Explore a foggy and perilous valley."
 Instructions name="mhcrys4.txt"
@@ -36,11 +36,11 @@ CreateObject pos=32.50;-75.00 dir=0.0 type=SpaceShip run=1
 CreateObject pos=32.50;-78.25 dir=1.5 type=Me
 CreateObject pos=29.50;-78.25 dir=1.5 type=WingedGrabber script3="exchg1.txt" script2="charge2.txt" script1="titan2.txt"
 
-// Cratère entrée
+// CratÃ¨re entrÃ©e
 CreateObject pos=  32;103 dir=0.3 type=WreckBotw1
 CreateObject pos=  28; 84 dir=1.2 type=TrackedShooter power=0 proxyActivate=1
 
-// Cratère ouest
+// CratÃ¨re ouest
 CreateObject pos=-136;200 dir=0.7 type=RuinBotFactory
 CreateObject pos=-130;204 dir=0.3 type=WreckBott2
 CreateObject pos=-135;200 dir=0.4 type=PowerCell power=0.0 proxyActivate=1
@@ -75,7 +75,7 @@ CreateObject pos=-147;234 dir=0.5 type=Quartz0
 CreateObject pos=-140;246 dir=1.5 type=Quartz2
 CreateObject pos=-149;267 dir=0.1 type=Quartz3
 
-// Cratère est
+// CratÃ¨re est
 CreateObject pos=  79;204 dir=0.7 type=RuinRadar
 CreateObject pos= 105;223 dir=0.8 type=TrackedShooter power=0 proxyActivate=1
 CreateObject pos=  97;223 dir=0.9 type=WreckBott2
@@ -94,7 +94,7 @@ CreateObject pos= 181;293 dir=0.9 type=PowerStation proxyActivate=1
 CreateObject pos= 190;300 dir=1.3 type=RuinBotFactory
 CreateObject pos= 194;295 dir=0.2 type=PowerCell power=0.3 proxyActivate=1
 
-// Cratère central
+// CratÃ¨re central
 CreateObject pos= -15;180 dir=0.0 type=RuinBaseCamp h=-9.0
 CreateObject pos=  13;184 dir=0.1 type=RuinHeadCamp
 CreateObject pos= -21;187 dir=0.1 type=BlackBox
@@ -107,7 +107,7 @@ CreateObject pos=  10; 170 cmdline=  10; 170; 25 dir=0.0 type=AlienAnt script1="
 CreateObject pos=  10; 175 cmdline=  10; 170; 25 dir=0.0 type=AlienAnt script1="antict.txt" run=1
 CreateObject pos=  50; 175 cmdline=  50; 175; 15 dir=0.0 type=AlienAnt script1="antict.txt" run=1
 
-// Vallée ouest
+// VallÃ©e ouest
 CreateObject pos=-289; 37 dir=0.5 type=Quartz3
 CreateObject pos=-284; 35 dir=0.8 type=Quartz0
 CreateObject pos=-285; 44 dir=0.5 type=Quartz2

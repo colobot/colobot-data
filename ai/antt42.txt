@@ -1,11 +1,11 @@
 extern void object::Attack( )
 {
-	int      list[], i; // liste des objets cherchés
+	int      list[], i; // liste des objets cherchÃ©s
 	object   target;    // info sur la cible
-	point    center;    // coordonnées du centre de la zone
+	point    center;    // coordonnÃ©es du centre de la zone
 	float    distCent;  // rayon de la zone
-	float    r;         // valeur aléatoire
-	int      ifTarget;  // si on a trouvé une cible et quel genre
+	float    r;         // valeur alÃ©atoire
+	int      ifTarget;  // si on a trouvÃ© une cible et quel genre
 
 	errmode(0);  // ne stoppe pas si erreur
 	while ( ismovie() != 0 )  wait(1);
@@ -34,14 +34,14 @@ extern void object::Attack( )
 	list[i++] = Subber;
 	list[i++] = Me;
 
-	center.x = -65; // prend les coordonnée
+	center.x = -65; // prend les coordonnÃ©e
 	center.y = 255; // du centre de la zone
-	center.z = 0;   // à patrouiller
+	center.z = 0;   // Ã  patrouiller
 	distCent = 140; // rayon de la zone
 
 	motor(1,1);     // en avant toute
-	ifTarget = 0;   // pas de cible précise
-	while ( true )  // répète à l'infini
+	ifTarget = 0;   // pas de cible prÃ©cise
+	while ( true )  // rÃ©pÃ¨te Ã  l'infini
 	{
 		target = radar(list);
 		if(target.position.y > 65)
@@ -90,10 +90,10 @@ void object::Random(point center, float distCent)
 
 void object::HorsZone(point center, float distCent)
 {   // si la fourmi est en dehors de la zone
-	motor(0, 0); //s'arrête
-	wait(0.5);   //marque un arrêt
+	motor(0, 0); //s'arrÃªte
+	wait(0.5);   //marque un arrÃªt
 	motor (-0.5, -0.5);//recule lentement
-	wait (1.5);  //attend qu'ait reculé
+	wait (1.5);  //attend qu'ait reculÃ©
 	turn(direction(center));
 	motor (1, 1); //puis en avant toute
 	do 
@@ -108,13 +108,13 @@ void object::DansZone()
 	float r = rand();
 	if (r > 0.8)
 	{  //dans un cas sur dix
-		motor (1, 0.8); // tourne à droite
+		motor (1, 0.8); // tourne Ã  droite
 		wait(rand()*2); // pendant un moment
 		motor (1, 1);   // puis tout droit
 	}
 	if (r < 0.2)
 	{   //dans un cas sur dix
-		motor (0.8, 1); // tourne à gauche
+		motor (0.8, 1); // tourne Ã  gauche
 		wait(rand()*2); // pendant un moment
 		motor (1, 1);   // puis tout droit
 	}
@@ -123,7 +123,7 @@ void object::DansZone()
 }
 
 void object::shoot(point tarPos)
-{   // si cible à proximité
+{   // si cible Ã  proximitÃ©
 	turn(direction(tarPos));
 	fire(tarPos); // tourne vers la cible
 	fire(tarPos); // et tire deux fois

@@ -18,7 +18,7 @@ extern void object::Convert( )
 			p = radar(TitaniumOre);
 			if ( p == null )
 			{
-				message("Minerai pas trouvé");
+				message("Minerai pas trouvÃ©");
 				return;
 			}
 			goto(p.position);
@@ -27,26 +27,26 @@ extern void object::Convert( )
 			p = radar(Converter);
 			if ( p == null )
 			{
-				message("Convertisseur pas trouvé");
+				message("Convertisseur pas trouvÃ©");
 				return;
 			}
 			goto(p.position);
-			drop();  // dépose minerai
+			drop();  // dÃ©pose minerai
 			move(-4);
 			wait(15);  // attend conversion
 			move(4);
-			grab();  // prend métal
+			grab();  // prend mÃ©tal
 			move(-4);
 		}
 
 		p = radar(SpaceShip);
 		if ( p == null )
 		{
-			message("Vaisseau spatial pas trouvé");
+			message("Vaisseau spatial pas trouvÃ©");
 			return;
 		}
 		goto(p.position);
-		drop();  // dépose minerai
+		drop();  // dÃ©pose minerai
 
 		if ( energyCell.energyLevel < 0.25 )
 		{

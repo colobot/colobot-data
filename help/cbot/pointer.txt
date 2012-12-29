@@ -23,7 +23,7 @@ If you pass a \l;class\u cbot\class; instance as parameter to a function, the fu
 \s;	item.a = 33;          // modifie the local instance
 \s;}
 \n;
-Calling the fucntion \c;Test()\n;¦:
+Calling the fucntion \c;Test()\n;Â¦:
 \c;\s;{
 \s;	MyClass toto();
 \s;	Test(toto);
@@ -32,7 +32,7 @@ Calling the fucntion \c;Test()\n;¦:
 \n;
 The instance containing the field \c;a = 33\n; is referenced only by the newly created instance \c;item\n; inside the fucntion \c;Test\n;. At the end of \c;Test\n; this newly created instance referenced by \c;item\n; is automatically deleted.
 
-A function can return an instance¦:
+A function can return an instanceÂ¦:
 \c;\s;MyClass Test2( )
 \s;{
 \s;	MyClass item = new MyClass();

@@ -15,14 +15,14 @@ extern void object::Attack( )
 	{
 		if ( load == null )  // ne porte rien ?
 		{
-			p = radar(OrgaMatter);  // cherche matière
+			p = radar(OrgaMatter);  // cherche matiÃ¨re
 			if ( p == null )
 			{
 				jet(1);  // monte
 				dest = position;
 				dest.x += (rand()-0.5)*10;
 				dest.y += (rand()-0.5)*10;
-				goto(dest);  // va n'importe où
+				goto(dest);  // va n'importe oÃ¹
 				wait(2);
 			}
 			else
@@ -34,17 +34,17 @@ extern void object::Attack( )
 				if ( dist > 1.25 )
 				{
 					jet(1);  // monte
-					goto(p.position);  // va sur la matière
+					goto(p.position);  // va sur la matiÃ¨re
 				}
 				else
 				{
 					jet(-1);  // descend
 					while ( altitude > 0 );
-					grab();  // prend la matière
+					grab();  // prend la matiÃ¨re
 				}
 			}
 		}
-		else  // porte matière ?
+		else  // porte matiÃ¨re ?
 		{
 			jet(1);  // monte
 			p = radar(list, 0, 360, 0, 1000, 1, FilterOnlyLanding);
@@ -53,7 +53,7 @@ extern void object::Attack( )
 				dest = center;
 				dest.x += (rand()-0.5)*100;
 				dest.y += (rand()-0.5)*100;
-				goto(dest, 0, 1, 0);  // va n'importe où
+				goto(dest, 0, 1, 0);  // va n'importe oÃ¹
 			}
 			else
 			{
@@ -66,7 +66,7 @@ extern void object::Attack( )
 				}
 				else
 				{
-					drop();  // lâche la matière
+					drop();  // lÃ¢che la matiÃ¨re
 				}
 			}
 		}
