@@ -2,8 +2,8 @@
 
 set -e
 
-lang_short="E F"
-lang_long="en fr"
+lang_short="E F" # P"
+lang_long="en fr" # pl"
 
 categories="defi free lost perso proto scene1 scene2 scene3 scene4 scene5 scene6 scene7 scene8 scene9 train1 train2 train3 train4 train5 train6 train7"
 empty_categories="win"
@@ -28,6 +28,7 @@ for lang in $lang_short; do
 	case $lang in
 		E) dot="";;
 		F) langcode=fr;;
+		P) langcode=pl;;
 	esac
 	destfile=$levelfile$dot$langcode.xml;
 	allsfile=$allsfile_c$dot$langcode.$allsfile_e;
@@ -85,7 +86,7 @@ echo "* Category: $category "
 	echo -n " * Generate translation files: "
 	for lang in $lang_long; do
 		if [ $lang = "en" ]; then continue; fi;
-		echo -n "$lang"
+		echo -n "$lang "
 		echo "</body></html>" >> $category.$lang.$allsfile_e
 		pofile=$category-po/$lang.po
 		if [ ! -f $pofile ]; then
@@ -109,10 +110,13 @@ for levelfile in $(ls *.txt); do
 	rootfilename=$(echo $levelfile | sed 's/\.txt$//g')
 	mv $levelfile $levelfile.old
 	for lang in $lang_long; do
+		dotlang=".$lang"
 		case $lang in
-			en) xmlfile=$rootfilename.xml; langcode=".E";;
-			fr) xmlfile=$rootfilename.$lang.xml; langcode=".F";;
+			en) dotlang=""; langcode=".E";;
+			fr) langcode=".F";;
+			pl) langcode=".P";;
 		esac
+		xmlfile=$rootfilename$dotlang.xml
 		echo -n "."
 		if [ -f $xmlfile ]; then
 			for key in Title Resume ScriptName; do
