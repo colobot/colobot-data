@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-12-30 17:39+0100\n"
+"POT-Creation-Date: 2012-12-30 17:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,15 @@ msgid "Move the bot along a given path."
 msgstr "Déplacer un robot le long d'une trajectoire donnée."
 
 #
+#. type: Content of: <train602><ScriptName_text>
+#: defi101.xml:6 defi300.xml:3 defi401.xml:6 defi402.xml:6 train201.xml:6
+#: train202.xml:6 train203.xml:6 train204.xml:6 train205.xml:6 train301.xml:6
+#: train302.xml:6 train403.xml:6 train500.xml:3 train601.xml:6 train602.xml:6
+#, no-wrap
+msgid "Move"
+msgstr "Déplace"
+
+#
 #. type: Content of: <train303><Title_text>
 #: defi102.xml:2 train303.xml:2
 #, no-wrap
@@ -50,6 +59,12 @@ msgstr "Massacre"
 #, no-wrap
 msgid "Use a loop in order to destroy four targets."
 msgstr "Détruire quatre cibles à l'aide d'une boucle."
+
+#. type: Content of: <train303><ScriptName_text>
+#: defi102.xml:6 train303.xml:6
+#, no-wrap
+msgid "Go"
+msgstr "Go"
 
 #
 #. type: Content of: <defi103><Title_text>
@@ -65,6 +80,12 @@ msgstr "Bornes"
 msgid "Collect lots of valuable information from information exchange posts."
 msgstr "Récolter des informations de direction et de distance."
 
+#. type: Content of: <train305><ScriptName_text>
+#: defi103.xml:6 train304.xml:6 train305.xml:6
+#, no-wrap
+msgid "Info"
+msgstr "Info"
+
 #
 #. type: Content of: <defi104><Title_text>
 #: defi104.xml:2
@@ -78,6 +99,13 @@ msgstr "Labyrinthe"
 #, no-wrap
 msgid "Teach your bot how to find its way out of the labyrinth."
 msgstr "Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+
+#. type: Content of: <train307><ScriptName_text>
+#: defi104.xml:6 train306.xml:6 train307.xml:6
+#, no-wrap
+#| msgid "Labyrinth 3"
+msgid "Labyrinth"
+msgstr "Labyrinth"
 
 #
 #. type: Content of: <train400><Title_text>
@@ -108,6 +136,13 @@ msgid "Use the radar to put some order into a big mess left behind by a crazy bo
 msgstr "Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
 
 #
+#. type: Content of: <train402><Title_text>
+#: defi201.xml:6 train402.xml:2
+#, no-wrap
+msgid "Radar"
+msgstr "Radar"
+
+#
 #. type: Content of: <defi202><Title_text>
 #: defi202.xml:2
 #, no-wrap
@@ -120,6 +155,13 @@ msgstr "Copieur ..."
 #, no-wrap
 msgid "Follow a bot, as if you were its shadow."
 msgstr "Suivez un robot, sans le heurter."
+
+#. type: Content of: <train405><ScriptName_text>
+#: defi202.xml:6 train405.xml:6
+#, no-wrap
+#| msgid "Follow a path"
+msgid "Follow"
+msgstr "Follow"
 
 #
 #. type: Content of: <defi203><Title_text>
@@ -135,6 +177,13 @@ msgstr "Au secours"
 msgid "Defend yourself agains all alien attacks."
 msgstr "Défendez-vous de toutes les attaques ennemies."
 
+#. type: Content of: <defi203><ScriptName_text>
+#: defi203.xml:6
+#, no-wrap
+#| msgid "Self-defense"
+msgid "Defense"
+msgstr "Defense"
+
 #
 #. type: Content of: <defi204><Title_text>
 #: defi204.xml:2
@@ -148,6 +197,13 @@ msgstr "Radar et pièges 1"
 #, no-wrap
 msgid "Use your radar to look for various items, but watch out for the mines."
 msgstr "Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+
+#. type: Content of: <defi205><ScriptName_text>
+#: defi204.xml:6 defi205.xml:6
+#, no-wrap
+#| msgid "The Trap"
+msgid "Traps"
+msgstr "Traps"
 
 #
 #. type: Content of: <defi205><Title_text>
@@ -164,18 +220,12 @@ msgid "Try to figure out how to survive in a hostile environment."
 msgstr "A vous d'imaginer comment survivre dans un milieu hostile."
 
 #
-#. type: Content of: <train500><Title_text>
-#: defi300.xml:2 train500.xml:2
+#. type: Content of: <train504><ScriptName_text>
+#: defi300.xml:2 defi301.xml:6 defi302.xml:6 train500.xml:2 train501.xml:6
+#: train502.xml:6 train503.xml:6 train504.xml:6
 #, no-wrap
 msgid "Mover"
 msgstr "Déplacements"
-
-#
-#. type: Content of: <train500><Title_resume>
-#: defi300.xml:3 train500.xml:3
-#, no-wrap
-msgid "Move"
-msgstr "Déplace"
 
 #
 #. type: Content of: <train501><Title_text>
@@ -1164,6 +1214,13 @@ msgstr "Araignées 1"
 msgid "Kill three spiders with a small program."
 msgstr "Tuer trois araignées avec un petit programme."
 
+#. type: Content of: <train101><ScriptName_text>
+#: train101.xml:6
+#, no-wrap
+#| msgid "Spiders 1"
+msgid "Spider1"
+msgstr "Spider1"
+
 #
 #. type: Content of: <train102><Title_text>
 #: train102.xml:2
@@ -1177,6 +1234,13 @@ msgstr "Pile 1"
 #, no-wrap
 msgid "Instruct a bot to change the power cell of a nearby winged shooter."
 msgstr "Programmer un robot pour qu'il change la pile d'un autre robot"
+
+#. type: Content of: <train106><ScriptName_text>
+#: train102.xml:6 train105.xml:6 train106.xml:6
+#, no-wrap
+#| msgid "Spiders 2"
+msgid "Spider2"
+msgstr "Spider2"
 
 #
 #. type: Content of: <train103><Title_text>
@@ -1192,6 +1256,13 @@ msgstr "Titanium 1"
 msgid "Take a chunk of titanium ore and bring it to the converter."
 msgstr "Programmer un robot pour qu'il aille chercher un minerai de titanium et l'amène sur le convertisseur"
 
+#. type: Content of: <train103><ScriptName_text>
+#: train103.xml:6
+#, no-wrap
+#| msgid "Titanium 1"
+msgid "Titanium1"
+msgstr "Titanium1"
+
 #
 #. type: Content of: <train104><Title_text>
 #: train104.xml:2
@@ -1205,6 +1276,13 @@ msgstr "Titanium 2"
 #, no-wrap
 msgid "Use the bot's radar to look for the titanium ore and bring it to the converter."
 msgstr "Utiliser le radar pour aller chercher un minerai de titanium"
+
+#. type: Content of: <train104><ScriptName_text>
+#: train104.xml:6
+#, no-wrap
+#| msgid "Titanium 2"
+msgid "Titanium2"
+msgstr "Titanium2"
 
 #
 #. type: Content of: <train105><Title_text>
@@ -1247,6 +1325,13 @@ msgstr "Araignées 3"
 #, no-wrap
 msgid "Learn to move the bot so that no spider can escape."
 msgstr "Allez à la rencontre des araignées."
+
+#. type: Content of: <train107><ScriptName_text>
+#: train107.xml:6
+#, no-wrap
+#| msgid "Spiders 3"
+msgid "Spider3"
+msgstr "Spider3"
 
 #
 #. type: Content of: <train200><Title_text>
@@ -1346,6 +1431,12 @@ msgstr "Chasseur de guêpes 1"
 msgid "Shoot down the flying wasps."
 msgstr "Attrapez des guêpes en vol"
 
+#. type: Content of: <train206><ScriptName_text>
+#: train206.xml:6
+#, no-wrap
+msgid "Wasp1"
+msgstr "Wasp1"
+
 #
 #. type: Content of: <train207><Title_text>
 #: train207.xml:2
@@ -1359,6 +1450,12 @@ msgstr "Chasseur de guêpes 2"
 #, no-wrap
 msgid "Get better at shooting down the wasps."
 msgstr "Attrapez des guêpes de manière plus efficace"
+
+#. type: Content of: <train207><ScriptName_text>
+#: train207.xml:6
+#, no-wrap
+msgid "Wasp2"
+msgstr "Wasp2"
 
 #
 #. type: Content of: <train302><Title_text>
@@ -1444,6 +1541,13 @@ msgstr "Le chercheur d'or"
 msgid "Instruct your bot to search a zone for subsoil resources."
 msgstr "Recherche de minerai en sous-sol en programmant un robot pour quadriller une zone."
 
+#. type: Content of: <train308><ScriptName_text>
+#: train308.xml:6
+#, no-wrap
+#| msgid "Gold Digger"
+msgid "Digger"
+msgstr "Diggger"
+
 #
 #. type: Content of: <train309><Title_text>
 #: train309.xml:2
@@ -1458,9 +1562,15 @@ msgstr "Télécommande #1"
 msgid "Remote control a robot using an information exchange post, so it will transport uranium ore."
 msgstr "Télécommandez un robot par le biais d'une borne d'information."
 
+#. type: Content of: <train603><ScriptName_text>
+#: train309.xml:6 train603.xml:6
+#, no-wrap
+msgid "remote"
+msgstr "remote"
+
 #
-#. type: Content of: <train401><Title_text>
-#: train401.xml:2
+#. type: Content of: <train401><ScriptName_text>
+#: train401.xml:2 train401.xml:6
 #, no-wrap
 msgid "Dragster"
 msgstr "Dragster"
@@ -1473,18 +1583,17 @@ msgid "Program a progressive deceleration in order to avoid the mines right behi
 msgstr "Décélération avec commande directe des moteurs."
 
 #
-#. type: Content of: <train402><Title_text>
-#: train402.xml:2
-#, no-wrap
-msgid "Radar"
-msgstr "Radar"
-
-#
 #. type: Content of: <train402><Resume_text>
 #: train402.xml:4
 #, no-wrap
 msgid "Use the radar to find lots of stupid blue crosses."
 msgstr "Utilisez le radar pour trouver des objets répartis aléatoirement."
+
+#. type: Content of: <train402><ScriptName_text>
+#: train402.xml:6
+#, no-wrap
+msgid "Find"
+msgstr "Find"
 
 #
 #. type: Content of: <train403><Title_text>
@@ -1506,6 +1615,13 @@ msgstr "Chasse à l'homme"
 #, no-wrap
 msgid "Be patient enough not to waste your ammunitions."
 msgstr "Abattre quatre cibles mouvantes sans gaspiller un seul coup."
+
+#. type: Content of: <train404><ScriptName_text>
+#: train404.xml:6
+#, no-wrap
+#| msgid "Patient hunter"
+msgid "Patient"
+msgstr "Patient"
 
 #
 #. type: Content of: <train405><Title_text>
@@ -1612,6 +1728,12 @@ msgstr "Télécommande #3"
 msgid "Remote control a bot without using an information exchange post by using a string."
 msgstr "Télécommandez un robot sans borne d'information en utilisant une simple chaîne de caractère."
 
+#. type: Content of: <train701><ScriptName_text>
+#: train701.xml:6
+#, no-wrap
+msgid "Remote3"
+msgstr "Remote3"
+
 #
 #. type: Content of: <train702><Title_text>
 #: train702.xml:2
@@ -1626,6 +1748,12 @@ msgstr "Télécommande #4"
 msgid "Remote control a bot without using an information exchange post by defining a class for the orders."
 msgstr "Télécommandez un robot sans borne d'information en utilisant une classe définissant un ordre."
 
+#. type: Content of: <train702><ScriptName_text>
+#: train702.xml:6
+#, no-wrap
+msgid "Remote4"
+msgstr "Remote4"
+
 #
 #. type: Content of: <train703><Title_text>
 #: train703.xml:2
@@ -1639,3 +1767,10 @@ msgstr "Télécommande #5"
 #, no-wrap
 msgid "Remote control a bot without using an information exchange post by storing the orders."
 msgstr "Télécommandez un robot en mémorisant tous les ordres."
+
+#. type: Content of: <train703><ScriptName_text>
+#: train703.xml:6
+#, no-wrap
+msgid "Remote5"
+msgstr "Remote5"
+

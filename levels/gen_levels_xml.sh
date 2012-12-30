@@ -29,11 +29,11 @@ for lang in $lang_short; do
 	allsfile=$allsfile_c$dot$langcode.$allsfile_e;
 	echo "<$levelfile>" > $destfile
 	echo "<h1><!-- Level: $levelfile --></h1>" >> $allsfile
-	for key in Title Resume; do
+	for key in Title Resume ScriptName; do
 		for subkey in text resume; do
 			subval=$(grep "^$key.$lang.*$subkey" $levelfileorig | sed -e "s/^.*$subkey=\"\([^\"]*\)\".*$/\1/")
 			echo "<${key}_$subkey>$subval</${key}_$subkey>" >> $destfile
-			echo "<p><!-- $key ($subkey) -->$subval</p>" >> $allsfile
+			echo "<p type=\"$key $subkey\"><!-- $key ($subkey) -->$subval</p>" >> $allsfile
 		done
 	done
 	echo "</$levelfile>" >> $destfile
@@ -82,9 +82,8 @@ for lang in $lang_long; do
 	if [ ! -f $pofile ]; then
 		po4a-gettextize -M UTF-8 -L UTF-8 -f xhtml -m levels.xhtml -l levels.$lang.xhtml > $pofile 2>/dev/null
 		sed -e 's/, fuzzy//g' -i $pofile
-	else
-		po4a-updatepo -M UTF-8 -f xhtml -m levels.xhtml -p $pofile 2>/dev/null
 	fi
+	po4a-updatepo -M UTF-8 -f xhtml -m levels.xhtml -p $pofile 2>/dev/null
 done
 echo " done"
 
@@ -104,7 +103,7 @@ for levelfile in $(ls *.txt); do
 		esac
 		echo -n "."
 		if [ -f $xmlfile ]; then
-			for key in Title Resume; do
+			for key in Title Resume ScriptName; do
 				lineend=""
 				for subkey in text resume; do
 					keyval=$(grep "^<${key}_${subkey}>" $xmlfile | sed -e "s|^<${key}\_${subkey}>\(.*\)<\/${key}\_${subkey}>$|\1|g")
@@ -118,7 +117,7 @@ for levelfile in $(ls *.txt); do
 			done
 		fi
 	done
-	sed -e '/^Title/d;/^Resume/d' $levelfile.old >> $levelfile
+	sed -e '/^Title/d;/^Resume/d;/^ScriptName/d' $levelfile.old >> $levelfile
 	rm $levelfile.old
 done
 
