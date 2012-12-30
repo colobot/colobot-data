@@ -5,8 +5,14 @@ set -e
 lang_short="E F" # P"
 lang_long="en fr" # pl"
 
-categories="defi free lost perso proto scene1 scene2 scene3 scene4 scene5 scene6 scene7 scene8 scene9 train1 train2 train3 train4 train5 train6 train7"
-empty_categories="win"
+categories="defi free lost perso proto"
+for sc_i in $(seq 1 9); do
+	categories="$categories scene$sc_i"
+done
+for tr_i in $(seq 1 7); do
+	categories="$categories train$tr_i"
+done
+# Empty categories: "win"
 
 allsfile_e=xhtml
 
