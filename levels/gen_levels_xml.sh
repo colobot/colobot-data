@@ -72,12 +72,12 @@ rm -f *po4a.cfg
 for category in $categories; do
 echo "* Category: $category "
 
-	echo " * Create initial files"
+	echo " 0 - Create initial files"
 
 	echo "[po_directory] $category-po/" > $category-po4a.cfg
 	mkdir -p $category-po
 
-	echo -n " * Generate transitional translation files "
+	echo -n " 1 - Generate transitional source translation files from level files"
 
 	echo "<html><body>" > $category.$allsfile_e
 	for lang in $lang_long; do
@@ -88,16 +88,15 @@ echo "* Category: $category "
 	for level in $(ls $category*.txt); do
 		gen_i18n_file $level $category
 	done
-	echo "done"
-
 	echo "</body></html>" >> $category.$allsfile_e
 
+	echo "done"
 
-	echo -n " * Generate pristine potfile: "
+	echo -n " 3 - Generate pristine potfile: "
 	po4a-gettextize -M UTF-8 -f xhtml -m $category.$allsfile_e > $category-po/$category.pot 2>/dev/null
 	echo "done"
 
-	echo -n " * Generate translation files: "
+	echo -n " 4 - Generate translation files: "
 	for lang in $lang_long; do
 		if [ $lang = "en" ]; then continue; fi;
 		echo -n "$lang "
@@ -112,7 +111,7 @@ echo "* Category: $category "
 	done
 	echo " done"
 
-	echo -n " * Cleanup po4a infrastructure, run po4a … "
+	echo -n " 5 - Cleanup po4a infrastructure, run po4a … "
 	po4a -f $category-po4a.cfg 2>/dev/null 1>&2
 	echo "done"
 
