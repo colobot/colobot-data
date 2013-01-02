@@ -2,6 +2,13 @@
 
 set -e
 
+outdir=$1
+
+if [ -z "$outdir" ] || [ "$outdir" = "." ] || [ ! -d $outdir ]; then
+	echo "No existing output directory provided; syntax is : $0 output_directory"
+	return 1;
+fi
+
 lang_short="E F" # P"
 lang_long="en fr" # pl"
 
@@ -31,6 +38,7 @@ fi
 for lang in $lang_short; do
 	dot=".";
 	langcode="";
+	src_dotlang=".$lang";
 	case $lang in
 		E) dot="";;
 		F) langcode=fr;;
@@ -42,7 +50,7 @@ for lang in $lang_short; do
 	echo "<h1><!-- Level: $levelfile --></h1>" >> $allsfile
 	for key in Title Resume ScriptName; do
 		for subkey in text resume; do
-			subval=$(grep "^$key.$lang.*$subkey" $levelfileorig | sed -e "s/^.*$subkey=\"\([^\"]*\)\".*$/\1/")
+			subval=$(grep "^$key$src_dotlang.*$subkey" $levelfileorig | sed -e "s/^.*$subkey=\"\([^\"]*\)\".*$/\1/")
 			# Always write entries, even when empty, otherwise breaks po4a-gettextize
 			echo "<${key}_$subkey>$levelfile:$subval</${key}_$subkey>" >> $destfile
 			echo "<p type=\"$key $subkey\">$levelfile:$subval</p>" >> $allsfile
@@ -114,9 +122,9 @@ echo -n "* Inject translation in level files: "
 
 for levelfile in $(ls *.txt); do
 	rootfilename=$(echo $levelfile | sed 's/\.txt$//g')
-	mv $levelfile $levelfile.old
 	for lang in $lang_long; do
 		dotlang=".$lang"
+		langcode="";
 		case $lang in
 			en) dotlang=""; langcode=".E";;
 			fr) langcode=".F";;
@@ -134,13 +142,12 @@ for levelfile in $(ls *.txt); do
 					fi
 				done
 				if [ -n "$lineend" ]; then
-					echo "$key$langcode$lineend" >> $levelfile
+					echo "$key$langcode$lineend" >> $outdir/$levelfile
 				fi
 			done
 		fi
 	done
-	sed -e '/^Title/d;/^Resume/d;/^ScriptName/d' $levelfile.old >> $levelfile
-	rm $levelfile.old
+	sed -e '/^Title/d;/^Resume/d;/^ScriptName/d' $levelfile >> $outdir/$levelfile
 done
 
 echo "done."
