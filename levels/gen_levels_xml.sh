@@ -54,11 +54,8 @@ echo "[type:xml] $levelfile.xml \$lang:$levelfile.\$lang.xml" >> $common_i18n_fi
 echo -n "."
 }
 
-echo "* Cleanup"
-
-
 for category in $categories; do
-echo "* Category: $category "
+	echo "* Category: $category "
 
 	rm -f $category*.xml
 	rm -f $category-po4a.cfg
