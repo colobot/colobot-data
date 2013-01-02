@@ -9,8 +9,8 @@ if [ -z "$outdir" ] || [ "$outdir" = "." ] || [ ! -d $outdir ]; then
 	return 1;
 fi
 
-lang_short="E F" # P"
-lang_long="en fr" # pl"
+linguas="en fr" # pl"
+linguas_onechar="E F" # P"
 
 categories="defi free lost perso proto"
 for sc_i in $(seq 1 9); do
@@ -21,31 +21,33 @@ for tr_i in $(seq 1 7); do
 done
 # Empty categories: "win"
 
-allsfile_e=xhtml
+common_i18n_ext=xhtml
 
 gen_i18n_file () {
 
 levelfileorig=$1
-allsfile_c=$2
-
-levelfile=$(echo $levelfileorig | sed -e "s/\.txt$//g")
+common_i18n_file=$2
 
 if [ -z "$levelfileorig" ] || [ ! -f $levelfileorig ]; then
 	echo "No file name provided; syntax is : $0 filename.txt"
 	return 1;
 fi
 
-for lang in $lang_short; do
-	dot=".";
-	langcode="";
-	src_dotlang=".$lang";
+levelfile=$(echo $levelfileorig | sed -e "s/\.txt$//g")
+
+for lang in $linguas_onechar; do
+	dot="."
+	langcode=""
+	src_dotlang=".$lang"
 	case $lang in
 		E) dot="";;
 		F) langcode=fr;;
 		P) langcode=pl;;
 	esac
-	destfile=$levelfile$dot$langcode.xml;
-	allsfile=$allsfile_c$dot$langcode.$allsfile_e;
+	dest_dotlang="$dot$langcode"
+	destfile=$levelfile$dest_dotlang.xml;
+	allsfile=$common_i18n_file$dest_dotlang.$common_i18n_ext;
+
 	echo "<$levelfile>" > $destfile
 	echo "<h1><!-- Level: $levelfile --></h1>" >> $allsfile
 	for key in Title Resume ScriptName; do
@@ -59,7 +61,7 @@ for lang in $lang_short; do
 	echo "</$levelfile>" >> $destfile
 done
 
-echo "[type:xml] $levelfile.xml \$lang:$levelfile.\$lang.xml" >> $allsfile_c-po4a.cfg
+echo "[type:xml] $levelfile.xml \$lang:$levelfile.\$lang.xml" >> $common_i18n_file-po4a.cfg
 
 echo -n "."
 }
@@ -79,34 +81,34 @@ echo "* Category: $category "
 
 	echo -n " 1 - Generate transitional source translation files from level files"
 
-	echo "<html><body>" > $category.$allsfile_e
-	for lang in $lang_long; do
+	echo "<html><body>" > $category.$common_i18n_ext
+	for lang in $linguas; do
 		if [ $lang = "en" ]; then continue; fi;
-		echo "<html><body>" > $category.$lang.$allsfile_e
+		echo "<html><body>" > $category.$lang.$common_i18n_ext
 	done
 
 	for level in $(ls $category*.txt); do
 		gen_i18n_file $level $category
 	done
-	echo "</body></html>" >> $category.$allsfile_e
+	echo "</body></html>" >> $category.$common_i18n_ext
 
 	echo "done"
 
 	echo -n " 3 - Generate pristine potfile: "
-	po4a-gettextize -M UTF-8 -f xhtml -m $category.$allsfile_e > $category-po/$category.pot 2>/dev/null
+	po4a-gettextize -M UTF-8 -f xhtml -m $category.$common_i18n_ext > $category-po/$category.pot 2>/dev/null
 	echo "done"
 
 	echo -n " 4 - Generate translation files: "
-	for lang in $lang_long; do
+	for lang in $linguas; do
 		if [ $lang = "en" ]; then continue; fi;
 		echo -n "$lang "
-		echo "</body></html>" >> $category.$lang.$allsfile_e
+		echo "</body></html>" >> $category.$lang.$common_i18n_ext
 		pofile=$category-po/$lang.po
 		if [ ! -f $pofile ]; then
-			po4a-gettextize -M UTF-8 -L UTF-8 -f xhtml -m $category.$allsfile_e -l $category.$lang.$allsfile_e > $pofile
+			po4a-gettextize -M UTF-8 -L UTF-8 -f xhtml -m $category.$common_i18n_ext -l $category.$lang.$common_i18n_ext > $pofile
 			sed -e 's/, fuzzy//g' -i $pofile
 		else
-			po4a-updatepo -M UTF-8 -f xhtml -m $category.$allsfile_e -p $pofile 2>/dev/null
+			po4a-updatepo -M UTF-8 -f xhtml -m $category.$common_i18n_ext -p $pofile 2>/dev/null
 		fi
 	done
 	echo " done"
@@ -121,7 +123,7 @@ echo -n "* Inject translation in level files: "
 
 for levelfile in $(ls *.txt); do
 	rootfilename=$(echo $levelfile | sed 's/\.txt$//g')
-	for lang in $lang_long; do
+	for lang in $linguas; do
 		dotlang=".$lang"
 		langcode="";
 		case $lang in
