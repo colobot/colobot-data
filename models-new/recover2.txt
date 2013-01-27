@@ -12,8 +12,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 -0.492168 0.023616 n 0 0 1 t1 0.189453 0.962891 t2 0.486768 0.848805
@@ -23,8 +22,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 0.507832 -0.476384 n 0 0 -1 t1 0.498047 0.912109 t2 0.986768 0.401195
@@ -34,8 +32,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 -0.492168 -0.476384 n -0 0 -1 t1 0.189453 0.962891 t2 0.513232 0.848805
@@ -45,8 +42,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 -0.492168 -0.476384 n 0 -1 0 t1 0.833984 0.833984 t2 0.986768 0.348805
@@ -56,8 +52,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 -0.492168 0.023616 n 0 -1 0 t1 0.751953 0.751953 t2 0.486768 0.848805
@@ -67,8 +62,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 0.507832 -0.476384 n 1 -0 0 t1 0.751953 0.751953 t2 0.986768 0.401195
@@ -78,8 +72,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 -0.492168 0.023616 n 1 0 0 t1 0.833984 0.833984 t2 0.0132323 0.348805
@@ -89,8 +82,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 0.507832 -0.476384 n 0 1 0 t1 0.751953 0.833984 t2 0.513232 0.901195
@@ -100,8 +92,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 0.507832 0.023616 n 0 1 0 t1 0.833984 0.751953 t2 0.0132323 0.401195
@@ -111,8 +102,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 -0.492168 -0.476384 n -1 -0 0 t1 0.751953 0.833984 t2 0.513232 0.848805
@@ -122,8 +112,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c -0.507655 0.507832 0.023616 n -1 0 0 t1 0.833984 0.751953 t2 0.486768 0.901195
@@ -133,8 +122,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-min 0
-max 100
+lod_level 3
 state 0
 
 p1 c 5.49234 0.507832 -0.10764 n 0 0 1 t1 0.498047 0.912109 t2 0.875 0.651284
@@ -144,8 +132,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 200
-max 1e+06
+lod_level 1
 state 4096
 
 p1 c -0.507655 -0.492168 -0.10764 n 0 0 1 t1 0.189453 0.962891 t2 0.375 0.0987157
@@ -155,8 +142,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 200
-max 1e+06
+lod_level 1
 state 4096
 
 p1 c 5.49234 0.507832 -0.10764 n 0 0 1 t1 0.498047 0.912109 t2 0.875 0.651284
@@ -166,8 +152,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 100
-max 200
+lod_level 2
 state 4096
 
 p1 c -0.507655 -0.492168 -0.10764 n 0 0 1 t1 0.189453 0.962891 t2 0.375 0.0987157
@@ -177,7 +162,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-min 100
-max 200
+lod_level 2
 state 4096
 
