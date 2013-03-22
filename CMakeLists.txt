@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
 if(NOT DEFINED COLOBOT_INSTALL_DATA_DIR)
-	set(COLOBOT_INSTALL_DATA_DIR ${CMAKE_INSTALL_PREFIX}/share/games/colobot CACHE PATH "Colobot shared data directory")
+    if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+        set(COLOBOT_INSTALL_DATA_DIR ${CMAKE_INSTALL_PREFIX}/data CACHE PATH "Colobot shared data directory")
+    else()
+        set(COLOBOT_INSTALL_DATA_DIR ${CMAKE_INSTALL_PREFIX}/share/games/colobot CACHE PATH "Colobot shared data directory")
+    endif()
 endif()
 
 install(DIRECTORY ai         DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
