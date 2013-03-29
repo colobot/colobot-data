@@ -1,0 +1,129 @@
+\b;Ćwiczenie
+Pokieruj zdalnie robotem podległym bez używania \l;stacji przekaźnikowej informacji\u object\exchange;. Robot powinien przejść przez 6 niebieskich plusów. Musisz użyć zmiennej zadeklarowanej jako \c;\l;static\u cbot\static;\n; do przekazania rozkazów robotowi podległemu.
+
+Dwoma głównymi postaciami tego ćwiczenia są¦:
+1) \l;Transporter na kołach\u object\botgr; bez ogniwa elektrycznego, wobec czego unieruchomiony. Jest to robot nadrzędny, który powinien zostać zaprogramowany aby mógł przesyłać rozkazy do podległego mu robota.
+2) Podległy \l;robot treningowy\u object\bottr;, który jest już zaprogramowany i tylko czeka na rozkazy od robota nadrzędnego.
+
+\b;Robot podległy
+Najpierw musimy zrozumieć jak działa program robota podległego. \l;Klasa\u cbot\class; \c;order\n; zawiera dwa elementy: \c;m_type\n; jest rozkazem do wykonania (move lub turn), a \c;m_param\n; jest odległością do pokonania lub kątem obrotu¦:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
+\s;{
+\s;	\l;int\u cbot\int;    m_type = \l;nan\u cbot\nan;;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Druga \l;klasa\u cbot\class; \c;exchange\n; zawiera mechanizm przekazywania rozkazów. Deklarujemy jako \c;\l;static\u cbot\static;\n; element klasy \c;m_order\n;, który będzie zawierał rozkaz do wykonania. Słowo \c;static\n; zapewnia, że element \c;m_order\n; będzie współużytkowany przez wszystkie instancje \l;klasy\u cbot\class; exchange.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_order = new order;
+\n;
+\n;Metoda \c;put\n; będzie używana przez robota nadrzędnego do przesyłania rozkazów. Jeśli zmienna \c;m_order\n; jest różna od \c;\l;nan\u cbot\nan;\n;, robot podległy nie zakończył wykonywania rozkazu a metoda \c;put\n; zwróci wartość \c;false\n; i niczego nie zrobi¦:
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(order a)
+\s;	{
+\s;		if ( m_order.m_type == nan )
+\s;		{
+\s;			m_order = a;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Kolejna metoda \c;get\n; będzie używana przez robota podległego do otrzymywania rozkazów. Metoda ta jako wynik zwraca rozkaz do wykonania:
+
+\c;\s;	\l;synchronized\u cbot\synchro; order get()
+\s;	{
+\s;		return m_order;
+\s;	}
+\n;
+Trzecia metoda \c;delete\n; będzie używana przez robota podległego do zaznaczenia, że rozkaz został wykonany:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void delete()
+\s;	{
+\s;		m_order.m_type = nan;
+\s;	}
+\s;}
+\n;
+Główny program robota podległego zawiera instancję klasy \c;exchange\n; nazwaną \c;list\n;. Po słowie \c;list\n; należy napisać nawiasy (), w celu utworzenia instancji klasy \c;exchange\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave3( )
+\s;{
+\s;	exchange list();
+\s;	order    todo;
+\n;
+Zewnętrzna pętla \c;while\n; działa w nieskończoność. Wewnętrzna pętla \c;while\n; czeka na rozkaz używając metody \c;get\n; z klasy \c;exchange\n;. Pętla zatrzymuje się gdy \c;get\n; zwróci wartość różną od \c;nan\n;.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo.m_type != nan )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Po otrzymaniu rozkazu i zapisaniu go w zmiennej \c;todo\n; wystarczy jedynie go wykonać:
+
+\c;\s;		if ( todo.m_type == 1 )
+\s;		{
+\s;			move(todo.m_param);
+\s;		}
+\s;		else if ( todo.m_type == 2 )
+\s;		{
+\s;			turn(todo.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Nieznany rozkaz");
+\s;		}
+\n;
+Po zakończeniu wykonywania rozkazu, należy wywołać metodę \c;delete\n;, aby powiadomić robota nadrzędnego, że może już przesłać następny rozkaz¦:
+
+\c;\s;		list.delete();
+\s;	}
+\s;}
+\n;
+\b;Robot nadrzędny
+W robocie nadrzędnym należy napisać funkcję nazwaną \c;SendOrder\n;, która wyśle rozkaz do robota podległego:
+
+\c;\s;void object::SendOrder(float order, float param)
+\s;{
+\s;	exchange list();
+\s;	order    todo();
+\s;	
+\s;	todo.m_type = order;
+\s;	todo.m_param = param;
+\s;	
+\s;	while ( list.put(todo) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Pętla \c;while\n; czeka na zakończenie oczekującego rozkazu, czyli na wyjście przez robota podległego z metody \c;get\n; i wywołanie metody \c;delete\n;.
+Główny program robota nadrzędnego jest bardzo prosty:
+
+\c;\s;extern void object::Remote4( )
+\s;{
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2,-90);  // turn(-90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;}
+\n;
+Klawisz \key;\key help;\norm; umożliwia wyświetlenie tych informacji w dowolnej chwili.
+
+
+\t;Zobacz również
+\l;Sterowanie\u command; i \l;programowanie\u cbot;.

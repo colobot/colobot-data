@@ -1,0 +1,20 @@
+\b;Ćwiczenie
+\l;Robot\u object\bottr; musi przejść przez wszystkie \l;niebieskie plusy\u object\waypoint; znajdujące się na ziemi. Jego droga składa się z dwóch kwadratów. Pierwszy ma 15, a drugi 25 metrów.
+
+\image tproc1a 8 8;
+\b;Ogólny algorytm
+Najbardziej efektywne rozwiązanie tego problemu polega na utworzeniu \l;funkcji\u cbot\function; polecającej robotowi poruszanie się po kwadracie o określonym rozmiarze. Znacznie upraszcza to główny program:\c;
+\c;
+\s;	extern void object::Funkcja3( )
+\s;	{
+\s;		Kwadrat(15);
+\s;		Kwadrat(25);
+\s;	}
+\n;
+\b;Przydatne instrukcje
+\c;\l;for\u cbot\for;\n; pętla powtarzająca instrukcje
+\c;\l;move\u cbot\move;\n; poruszanie robotem
+\c;\l;turn\u cbot\turn;\n; obracanie robota
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

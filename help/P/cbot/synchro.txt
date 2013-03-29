@@ -1,0 +1,25 @@
+\b;Instrukcja \c;synchronized\n; (dla specjalistów)
+Metoda \l;klasy\u cbot\class; może być zadeklarowana jako \c;synchronized\n;. Dzięki temu można zapewnić, że metoda będzie uruchamiana nie więcej niż przez jednego robota w tym samym czasie.
+
+Następujący przykład pomoże zilustrować problem:
+\c;
+\s;class blokowanie
+\s;{
+\s;	static int nb = 33;
+\s;	synchronized int inc( )
+\s;	{
+\s;		int val = nb;
+\s;		wait ( 2 );  // czekaj 2 sekundy
+\s;		nb = nb + 1;
+\s;		return val;
+\s;	}
+\s;}
+\n;
+Co się dzieje, gdy dwa roboty wykonają metodę \c;inc\n; w tym samym czasie¦?
+Oba wykonają polecenie \c;val=nb\n; i poczekają 2 sekundy, a więc oba otrzymają \c;val=33\n;. Gdy użyjemy instrukcji \c;synchronized\n; pierwszy robot rozpocznie wykonywanie z \c;val=33\n; poczeka 2 sekundy i wyjdzie z metody. Dopiero po zakończeniu wykonywania metody \c;inc\n; przez pierwszego robota, drugi robot będzie miał możliwość wykonania metody \c;inc\n;, wobec czego otrzyma on zawsze \c;val=34\n;.
+
+Można mieć więcej niż jedną zsynchronizowaną metodę w \l;klasie\u cbot\class; w celu zapobieżenia równoczesnemu wykonywaniu więcej niż jednej metody. Innymi słowy: tak długo, jak długo robot jest wewnątrz zsynchronizowanej metody, żaden inny robot nie może wykonywać żadnej zsynchronizowanej metody tej samej klasy.
+
+\t;Zobacz również
+\c;\l;klasa\u cbot\class;\n;, \c;\l;static\u cbot\static;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

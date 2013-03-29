@@ -1,0 +1,35 @@
+\b;Instrukcja \c;goto\n;
+Instrukcja \c;goto();\n; rozkazuje robotowi udać się do podanej pozycji.
+
+\b;Podstawowe użycie
+Najczęstsze użycie polega na wysłaniu robota do obiektu zlokalizowanego przy użyciu instrukcji \c;\l;radar\u cbot\radar;();\n;. Jeśli jego dane zastały zapisane w zmiennej, należy po nazwie zmiennej napisać \c;.position\n; aby otrzymać pozycję obiektu. Oto przykładowy program znajdujący \l;kostkę tytanu\u object\titan; idący na jej pozycję i podnoszący ją:
+\c;
+\s;	element = \l;radar\u cbot\radar;(Titanium);
+\s;	goto(element.position);
+\s;	\l;grab\u cbot\grab;();
+\n;
+\b;Dla specjalistów
+Składnia:
+\s;\c;goto ( pozycja, wysokość, cel, zderzenie );\n;
+
+Rozkazuje robotowi udać się w podane miejsce unikając wszelkich przeszkód, jeśli to możliwe. 
+
+\t;pozycja: \c;\l;point\u cbot\point;\n;
+Współrzędne pozycji docelowej.
+
+\t;wysokość: \c;\l;float\u cbot\float;\n;
+Wysokość lotu \l;robota latającego\u object\botgj;. Parametr ten jest użyteczny tylko w przypadku \l;robota latającego\u object\botgj;. Z wysokości początkowej, robot wznosi się do góry, do czasu osiągnięcia określonej wysokości. Po zbliżeniu się do miejsca docelowego, zmniejsza wysokość, aby opaść na ziemię w zadanej pozycji. Jeśli nie określono wysokości, domyślną wartością jest 10 metrów. Przy bardzo krótkich trasach, nawet robot latający może poruszać się po ziemi. Parametr ten jest ignorowany dla wszystkich robotów poza robotem latającym. 
+
+\t;cel: \c;\l;int\u cbot\int;\n; (domyślna wartość: \c;0\n;)
+Określa sposób w jaki robot powinien osiągnąć swoj cel: 
+\c;0\n;  zatrzymuje się dokładnie w pozycji docelowej
+\c;1\n;  zbliża się do pozycji docelowej bez zatrzymywania się.
+Jeśli nie określono wartości, domyślnie przyjmowane jest \c;1\n; (dokładnie). 
+
+\t;Typ wyniku: \c;\l;int\u cbot\int;\n;
+Zwykle wystąpienie błędu powoduje zatrzymanie programu. Można wyłączyć zatrzymywanie się programu w przypadku wystąpienia błędu, używając instrukcji \c;\l;errmode\u cbot\errmode;(0)\n;. Wtedy w przypadku wystąpienia błędu instrukcja \c;goto()\n; zwraca w wyniku wartość różną od zera.
+\c;== 0 \n;Pozycja docelowa została osiągnięta
+\c;!= 0 \n;Osiągnięcie pozycji docelowej jest niemożliwe
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

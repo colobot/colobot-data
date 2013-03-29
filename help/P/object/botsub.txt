@@ -1,0 +1,16 @@
+\b;\button 149; Nurek
+\image botsub 8 8;
+Robot-amfibia na gąsienicach wyposażony w zacisk chwytający. Jest on jedynym robotem zdolnym do poruszania się i działania pod wodą.
+
+Przed zanurzeniem należy sprawdzić wskaźniki poziomu naładowania \l;ogniwa elektrycznego\u object\power;, gdyż jego wymiana ani doładowanie pod wodą nie jest możliwe. Robot nurek może podnosić przedmioty jedynie z ziemi, w odróżnieniu od np. baterii z tyłu innego robota.
+
+\t;Programowanie
+Do zaprogramowania poruszania robotem można używać następujących instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Do zaprogramowania zacisku chwytającego można używać instrukcji \c;\l;grab\u cbot\grab;\n; i \c;\l;drop\u cbot\drop;\n;.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;Subber\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

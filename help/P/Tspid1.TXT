@@ -1,0 +1,66 @@
+\b;Zadanie
+Napisz krótki program zabijający trzy pająki.
+
+\t;Procedura
+1) Aby zaprogramować robota, zaznacz go.
+2) Liczby od 1 do 4 odpowiadające programom zawartym w robocie są widoczne w lewej dolnej części ekranu. Zaznacz pierwszą linię.
+3) Kliknij przycisk z klamrami \button 22; a dostaniesz się do edytora, w którym możesz pisać program.
+4) Podczas pisania programu, klawisz key \key;\key help;\norm; wyświetli czytany właśnie przez Ciebie tekst. Po skończeniu pisania programu, kliknij przycisk "OK".
+5) Aby wykonać program, kliknij przycisk strzałki \button 21;.
+
+\t;Program
+Musisz dokładnie, krok po kroku wyjaśnić robotowi co powinien zrobić, aby zabić trzy pająki. Robot rozumie tylko precyzyjne instrukcje, które wykona jedną po drugiej.
+
+Po kliknięciu przycisku z klamrami \button 22; w celu pisania programu, będzie już tam jego część:
+\c;
+\s;extern void object::Spider1( )
+\s;{
+\s;	
+\s;	\n;tutaj napisz Twój program...\c;
+\s;	
+\s;}
+\n;
+Nie zmieniaj tego, co zostało już napisane w edytorze, gdy go otworzysz. Dopisz tylko niezbędne instrukcje w miejscu kursora.
+
+Potrzebne Ci będą następujące instrukcje:
+\c;
+\s;aim(0);\n;
+\n;Ustawia działko w poziomie.
+\c;
+\s;turn();\n;
+\n;Wykonuje obrót o zadany kąt, podany w nawiasach w stopniach. Na przykład \c;turn(90);\n; obróci robota o 90 stopni czyli ćwierć obrotu w lewo. \c;turn(-90);\n; obróci o 90 stopni w prawo (również ćwierć obrotu). Wartości dodatnie obracają w prawo, ujemne w lewo. \c;turn(180);\n; spowoduje obrót w przeciwnym kierunku.
+\c;
+\s;fire(1);
+\n;Strzela z działka. Liczba w nawiasach określa czas trwania serii. W większości przypadków wystarcza 1 sekundowa seria.
+
+Zobaczmy początek programu:
+o  ustaw działo poziomo: \c;aim(0);\n;
+o  zastrzel pająka przed robotem: \c;fire(1);\n;
+o  obróć o 90 stopni w lewo: \c;turn(90)\n;
+o  strzelaj: \c;fire(1);\n;
+o  itd.
+
+Oto program wykonujący to wszystko:
+\c;
+\s;extern void object::Spider1( )
+\s;{
+\s;	
+\s;	aim(0);
+\s;	fire(1);
+\s;	turn(90);
+\s;	fire(1);
+\s;	
+\s;}
+\n;
+Teraz do Ciebie należy napisanie reszty programu!
+
+Jeśli masz problem, zawsze możesz obejrzeć rozwiązanie: zaznacz program\c;Rozwiązanie\n; w lewej dolnej części ekranu i kliknij przycisk z klamrami \button 22;. Możesz nawet uruchomić program rozwiązanie, klikając przycisk strzałki \button 21;.
+
+\t;Uwagi
+Uważaj, żeby dokładnie pisać instrukcje, zwracając uwagę na małe i wielkie litery.
+
+Pisz zawsze jedną instrukcję w wierszy, kończąc każdy wiersz średnikiem.
+
+Jeśli program nie działa dokładnie w pożądany sposób, zawsze możesz umieścić robota w punkcie startowym, klikając przycisk \button 59;. Możesz również rozpocząć zadanie od samego początku (klikając przycisk "Esc", a następnie "Uruchom ponownie"). Napisany program nie będzie stracony.
+
+Klawisz \key;\key help;\norm; pozwala wyświetlić te instrukcje w dowolnej chwili.

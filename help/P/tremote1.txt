@@ -1,0 +1,39 @@
+\b;Ćwiczenie
+Pokieruj zdalnie robotem, używając \l;stacji przekaźnikowej informacji\u object\exchange;, aby przetransportować \l;rudę uranu\u object\uranore;.
+Głównymi postaciami tego ćwiczenia są¦:
+
+1) Robot \l;szperacz\u object\botsr; (nie może niczego przenosić).
+2) \l;Stacja przekaźnikowa informacji\u object\exchange;, otrzymująca informacje od nadawcy i przekazująca je do odbiorcy.
+3) \l;Transporter\u object\botgr;, czekający na rozkazy ze stacji przekaźnikowej. Nie jest możliwe bezpośrednie kontrolowania tego robota.
+
+\image tremot1a 16 8;
+Stacja przekaźnikowa informacji przechowuje pary "nazwa/wartość". Aby kontrolować robota podległego wystarczy użyć tylko jednej pary¦:
+
+    nazwa="order", wartoscr=numer rozkazu
+
+Robot odbiorca rozumie następujące rozkazy¦:
+\c;
+    1 -> grab();     // podnieś obiekt
+    2 -> drop();     // upuść obiekt
+    3 -> move(10);   // przesuń robota 10 metrów naprzód
+    4 -> move(-10);  // cofnij robota o 10 metrów
+\n;
+Aby rozkazać robotowi podległemu przemieścić się 10 metrów naprzód, wystarczy napisać¦:
+\c;\s;	\l;send\u cbot\send;("order", 3, 100);  // order 3 -> "move(10)"
+\n;
+Po wysłaniu instrukcji odczekaj 5 sekund, aby upewnić się, że ruch został wykonany.
+\c;\s;	\l;wait\u cbot\wait;(5);
+\n;
+Wskazówka: Jest lepszy sposób na czekanie na zakończenie wykonywania rozkazu, ale zobaczymy to w późniejszym ćwiczeniu "Kontrola zdalna #2".
+
+Aby zakończyć ćwiczenie, robot musi¦:
+
+1) Podnieść rudę uranu
+2) Iść od przodu o 10 metrów
+3) Zostawić rudę uranu
+4) Cofnąć się o 10 metrów
+
+Do Ciebie należy dokończenie programu...
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

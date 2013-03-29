@@ -1,0 +1,40 @@
+\b;Zadanie
+Aby zapobiec marnowaniu energii przystosuj program \c;Tower1\n; tak, aby nie strzelał do mrówek będących poza zasięgiem.
+
+\t;Program
+Program \c;Tower1\n; strzela w kierunku najbliższej mrówki, nawet jeśli wciąż jest ona poza zasięgiem:
+\c;
+\s;extern void object::Tower1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	jet(0.2);
+\s;	while(position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while(true)
+\s;	{
+\s;		item = radar(AlienAnt);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Jeśli robot musi wykonać to samo zadanie co poprzednio z dostępnym jedynie \l;zwykłym ogniwem elektrycznym\u object\power;, wstaw pętlę oczekującą na wystarczające zbliżenie się mrówki (czyli mniej niż 40 metrów). Wtedy dla każdej mrówki wystarczy jedna seria strzałów.
+
+Instrukcji \c;\l;radar\u cbot\radar();\n; można podać więcej parametrów (liczb) oznaczających gdzie radar powinien szukać mrówek. Na przykład \c;radar(AlienAnt,0,360,0,40);\n; będzie szukał tylko mrówek będących bliżej niż 40 metrów. Dwie pierwsze liczby określają, że radar powinien szukać we wszystkich kierunkach, dwie ostatnie określają, że radar powinien wykrywać tylko mrówki w odległości od 0 do 40 metrów. Jeśli nie zostanie znaleziona mrówka będąca bliżej niż 40 metrów, instrukcja \c;\l;radar\u cbot\radar();\n; zwróci wartość \c;null\n;. Wobec czego można więc napisać pętlę warunkową podobną do napisanej w poprzednim ćwiczeniu, która czeka na pojawienie się mrówki bliżej niż 40 metrów:
+\c;
+\s;		while (radar(AlienAnt, 0, 360, 0, 40) == null)
+\s;		{
+\s;			wait(0.2);
+\s;		}
+\n;
+Zauważ, że podwójny znak równości "==" jest konieczny do wykonania sprawdzenia równości stron.
+
+Aby robot czekał ze strzałem, aż mrówka będzie bliżej niż 40 metrów, wystarczy wstawić te dwie linie przed instrukcją \c;fire(0);\n;,. Wtedy nawet zwykłe ogniwo elektryczne wystarczy do zabicia wszystkich mrówek. 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

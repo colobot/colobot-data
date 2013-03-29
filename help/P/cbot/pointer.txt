@@ -1,0 +1,53 @@
+\b;Wskaźniki (dla specjalistów)
+CBOT używa odwołań do \l;klas\u cbot\class; i \l;tablic\u cbot\array;. Każda zmienna w rzeczywistości zawiera odwołanie do instancji. Instancja natomiast zawiera pola klasy. Wiele wskaźników może odwoływać się do tej samej instancji. Wskaźnik \c;\l;null\u cbot\null;\n; nie odwołuje się do niczego. Instancję można porównać do teczki, a wskaźnik do trzymającego. Za każdym razem gdy potrzebujemy nowej teczki, tworzymy nową instancję z trzymającym. Ale teczka może być trzymana przez więcej niż jedną osobę. Osoba nie trzymająca żadnej teczki to wskaźnik na \c;\l;null\u cbot\null;\n;.
+
+Przykład:
+\c;\s;{
+\s;	MojaKlasa item1();// utwórz nową instancję
+\s;	                  // wskazywaną przez item1
+\s;	MojaKlasa item2;  // utwórz wskaźnik null
+\s;	item2 = item1;    // skopiuj wskaźnik,
+\s;	                  // item2 i item1 wskazują
+\s;	                  // teraz tę samą instancję
+\s;	item1.a = 12;     // zmodyfikuj instancję 
+\s;	                  // wskazywaną przez item1 (i item2)
+\s;	message(item2.a); // wyświetla liczbę 12
+\s;}
+\n;
+W przypadku przekazania instancji \l;klasy\u cbot\class; jako parametru funkcji, funkcja otrzymuje wskaźnik do tej instancji. Oznacza to, że w przypadku modyfikacji instancji wewnątrz funkcji, zostanie zmodyfikowana instancja podana przy wywołaniu funkcji jako parametr.
+
+\c;\s;void Test( MojaKlasa item )
+\s;{
+\s;	item.a = 12;            // zmodyfikuj oryginalną instancję
+\s;	item = new MojaKlasa(); // nowa instancja lokalna
+\s;	item.a = 33;            // zmodyfikuj instancję lokalną
+\s;}
+\n;
+Wywołanie funkcji \c;Test()\n;¦:
+\c;\s;{
+\s;	MojaKlasa toto();
+\s;	Test(toto);
+\s;	message(toto.a);  // wyświetla 12
+\s;}
+\n;
+Instancja zawierająca pole \c;a = 33\n; jest wskazywana tylko przez nowoutworzoną instancję \c;item\n; wewnątrz funkcji \c;Test\n;. Na końcu funkcji \c;Test\n; ta instancja wskazywana przez \c;item\n; jest automatycznie usuwana.
+
+Funkcja może zwrócić instancję¦:
+\c;\s;MojaKlasa Test2( )
+\s;{
+\s;	MojaKlasa item = new MojaKlasa();
+\s;	item.x = 33;
+\s;	return item;
+\s;}
+\n;
+W taki sposób należy wywoływać funkcję:
+\c;\s;{
+\s;	MojaKlasa toto;
+\s;	toto = Test2(); // toto będzie zawierać wskaźnik do
+\s;	                // instancji utworzonej przez Test2()
+\s;	message(toto.a); // wyświetla 33
+\s;}
+\n;
+\t;Zobacz również
+\c;\l;class\u cbot\class;\n;, \c;\l;new\u cbot\new;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

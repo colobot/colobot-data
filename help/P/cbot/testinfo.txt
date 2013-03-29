@@ -1,0 +1,18 @@
+\b;Instrukcja \c;testinfo\n;
+Składnia¦:
+\s;\c;testinfo ( nazwa, moc );\n;
+
+Sprawdza czy istnieje żądana informacja w najbliższej \l;stacji przekaźnikowej\u object\exchange;.
+
+\t;nazwa: \c;string\n;
+Nazwa informacji do sprawdzenia. Jest ona łańcuchem i powinna być zapisana w cudzysłowach "¦".
+
+\t;moc: \c;float\n;
+Moc transmitera, odpowiadająca maksymalnej odległości pomiędzy transmiterem i stacją przekaźnikową. Jeśli odległość jest większa, funkcja zwraca wartość \c;false\n;. Domyślna wartość to 10 metrów.
+
+\t;Typ wyniku: \c;\l;bool\u cbot\bool;\n;
+Daje w wyniku \c;true\n; jesli informacja istnieje, oraz \c;false\n; jeśli informacja nie istnieje lub odbiorca jest za daleko od stacji przekaźnikowej.
+
+\t;Zobacz również
+\c;\l;receive\u cbot\receive;\n;, \c;\l;send\u cbot\send;\n; i \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

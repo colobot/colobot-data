@@ -1,0 +1,25 @@
+\b;Instrukcja \c;message\n;
+Składnia:
+\s;\c;message ( tekst, typ );\n;
+
+Wyświetla wiadomość na górze ekranu. Wiadomość znika automatycznie po kilku sekundach. 
+
+\t;tekst: \c;\l;string\u cbot\string;\n;
+Tekst do wyświetlenia. Możliwe jest złączanie tekstów i/lub wartości przy użyciu operatora \c;+\n;:
+\c;message("Nie znaleziono");\n; 
+\c;message(kąt);\n; 
+\c;message(n + " obiektów");\n; 
+\c;message("Odległość = " + dist + " metrów");\n; 
+
+\t;typ: \c;\l;int\u cbot\int;\n; (domyślna wartość: \c;DisplayMessage\n;)
+Typ wiadomości, określający kolor tła. 
+o  \c;DisplayMessage\n;  Standardowa wiadomość na żółtym tle.
+o  \c;DisplayInfo   \n;  Informacja na zielonym tle.
+o  \c;DisplayWarning\n;  Ostrzeżenie na niebieskim tle.
+o  \c;DisplayError  \n;  Błąd na czerwonym tle.
+
+\t;Typ wyniku: \c;\l;void\u cbot\void;\n;
+Brak.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
