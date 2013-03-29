@@ -1,0 +1,16 @@
+\b;Typ \c;nan\n;
+Specjalna wartość oznaczająca, że \l;zmienna\u cbot\var; typu \c;\l;int\u cbot\int;\n; lub \c;\l;float\u cbot\float;\n; nie zawiera liczby ale "nic". 
+Na przykład jeśli instrukcja \c;\l;receive\u cbot\receive;\n; nie może uzyskać żądanej informacji, zwraca w wyniku wartość \c;nan\n;:
+\c;
+\s;	wartość = receive("Length");
+\s;	if ( wartość == nan )  // nie znaleziono?
+\s;	{
+\s;		
+\s;	}
+\n;
+\t;Słownik
+\c;nan\n; = Not A Number (nie liczba) 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

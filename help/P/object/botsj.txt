@@ -1,0 +1,22 @@
+\b;\button 142; Szperacz latający
+\image botsj 8 8;
+Robot latający z napędem odrzutowym przystosowany do badania struktury geologicznej podglebia. Gdy znajdzie coś użytecznego, zostawia na ziemi następujące znaczniki:
+
+- \l;czerwony plus\u object\stonspot;       -> \l;ruda tytanu\u object\titanore;.
+- \l;żółte kółko\u object\uranspot;  -> \l;ruda uranu\u object\uranore;.
+- \l;zielony plus\u object\enerspot;   -> źródło energii, niezbędne dla \l;stacji energetycznej\u object\station; lub \l;elektrowni\u object\energy;.
+
+Wyświetlacz na dole ekranu pokazuje temperaturę reaktora. Należy zwracać na niego uwagę. Jeśli reaktor się przegrzeje, silnik się zatrzyma i robot spadnie.
+
+Roboty latające mogą przemieszczać się ponad naturalnymi przeszkodami, takimi jak góry lub jeziora ale ich zapas energii szybko się zużywa. Na ziemi są one powolne. Na krótkich odległościach, nie wymagających latania, polecane jest użycie \l;szperacza na kołach\u object\botsr;.
+
+\t;Programowanie
+Do zaprogramowania poruszania robotem można używać następujących instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;jet\u cbot\jet;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Do zaprogramowania ramienia detekcyjnego można użyć instrukcji \c;\l;sniff\u cbot\sniff;\n;.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;WingedSniffer\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

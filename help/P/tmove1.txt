@@ -1,0 +1,33 @@
+\b;Ćwiczenie
+Zaprogramuj robota aby dotarł na platformę końcową po przejściu przez trzy niebieskie plusy.
+
+\b;Procedura
+1) Weź ogniwo elektryczne i umieść je z tyłu robota.
+2) Zrób rekonesans, aby zrozumieć co powinien zrobić robot. 
+3) Zaprogramuj robota. Aby to zrobić, musisz go zaznaczyć, a następnie kliknąć przycisk z klamrami \button 22;; dostaniesz się do edytora programu.
+4) Po zakończeniu pisania programu, kliknij przycisk "OK" i uruchom program przyciskiem strzałki \button 21;.
+
+\b;Program
+Odległości między platformami wynoszą po 20 metrów.
+Instrukcja \c;move(20);\n; przemieszcza robota 20 metrów do przodu. 
+Instrukcja \c;turn(90);\n; obraca robota w lewo o 90 stopni. 
+Instrukcja \c;turn(-90);\n; obraca robota w prawo o 90 stopni. 
+
+Schemat programu wygląda następująco:
+\c;
+\s;	extern void object::MoveBot( )
+\s;	{
+\s;		\n;\\tutaj wpisz potrzebne instrukcje...\c;
+\s;	}
+\n;
+Jak na razie nie musisz zmieniać tego schematu. Wystarczy pomiędzy klamry \c;{ }\n; wstawić potrzebne instrukcje, poruszające robotem.
+
+\b;Uwaga
+Zwracaj uwagę na wielkie i małe litery!
+Każda instrukcja powinna być zakończona średnikiem. 
+
+\b;Przydatna sztuczka
+Podczas pisania programu możesz obserwować scenę, klikając przycisk <Zmniejsz> \button 51; i poruszając myszą w kierunku krawędzi ekranu w celu obrócenia kamery. 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

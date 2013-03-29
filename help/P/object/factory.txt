@@ -1,0 +1,33 @@
+\b;\button 160; Fabryka robotów
+\image factory 8 8;
+Ten budynek jest przeznaczony do wytwarzania robotów z \l;tytanu\u object\titan;.
+
+1) Umieść kostkę tytanu w fabryce.
+2) Cofnij się.
+3) Zaznacz fabrykę.
+4) Kliknij przycisk odpowiadający symbolowi robota, który ma zostać złożony (np.\button 137; dla \l;transportera na kołach\u object\botgr;).
+
+Gotowy robot nie ma na pokładzie \l;ogniwa elektrycznego\u object\power;. Aby mógł opuścić fabrykę, należy go w nie wyposażyć.
+
+Lista dostępnych robotów zależy od postępu prac badawczych w \l;centrum badawczym\u object\research;.
+
+\t;Wymagania
+Płaska powierzchnia szeroka na minimum 7,5 metra.
+
+\t;Wejście
+Tytan.
+
+\t;Wyjście
+Gotowy robot.
+
+\t;Źródło zasilania
+Brak.
+
+\t;Czas działania
+15 sekund.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;BotFactory\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

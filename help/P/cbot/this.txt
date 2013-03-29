@@ -1,0 +1,54 @@
+\b;Instrukcja \c;this\n;
+Czasami metoda \l;klasy\u cbot\class; potrzebuje wskaźnika do instancji, w której działa. Na przykład instancja może chcieć przekazać wskaźnik do samej siebie jako parametr dla innej  funkcji. Odwołanie wprost poprzez \c;this\n; jest dostępne również dla metod; \c;this\n; jest odwołaniem do bieżącej instancji.
+\c;
+\s;public class MojaKlasa
+\s;{
+\s;	int    m_int;
+\s;	string m_str;
+\s;	void MojaFunkcja()
+\s;	{
+\s;		InnaFunkcja(this);
+\s;		m_int = 2;
+\s;	}
+\s;}
+\s;
+\s;void InnaFunkcja(MojaKlasa obj)
+\s;{
+\s;	message(obj.m_str);
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	MojaKlasa item();
+\s;	item.m_str = "Cześć";
+\s;	item.MojaFunkcja();  // wyświetla "Cześć"
+\s;}
+\n;
+Można również umieścić \c;this\n; przed nazwą pola w metodzie, ale nie jest to konieczne. W powyższym przykładzie metody \c;MojaFunkcja()\n; następujące dwie linie mają identyczne znaczenie:
+\c;
+\s;	m_int = 2;
+\s;	this.m_int = 2;  // identyczne
+\n;
+Również w metodzie klasy \c;\l;object\u cbot\object;\n; można użyć \c;this.\n; przed nazwą pola.
+\c;
+\s;extern void object::Display()
+\s;{
+\s;	message(orientation);
+\s;	message(this.orientation); // to samo ale
+\s;	                           // bardziej jednoznacznie
+\s;}
+\n;
+Jednakże jeśli nazwa pola jest ukryta poprzez deklarację parametru lub zmiennej, należy użyć \c;this\n;. W następującym przykładzie nazwa parametru \c;value\n; jest taka sama jak nazwa pola \c;value\n; w \l;klasie\u cbot\class; \c;MojaKlasa\n;, wobec tego w celu rozróżnienia pola od parametru, konieczne jest napisanie \c;this.value\n;.
+\c;
+\s;public class MojaKlasa
+\s;{
+\s;	int  value;
+\s;	void Put( int value )
+\s;	{
+\s;		this.value = value;
+\s;	}
+\s;}
+\n;
+\t;Zobacz również
+\c;\l;class\u cbot\class;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

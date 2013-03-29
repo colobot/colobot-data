@@ -1,0 +1,34 @@
+\b;\button 150; Transporter na nogach
+\image botgs 8 8;
+Robot pełzający na mrówczych odnóżach, wyposażony w ramię chwytające.
+
+\button 32; Chwyta przedmiot lub odkłada go, w miejscu określonym przez jedną z następujących opcji:
+\button 33; Przedmiot leżący przed robotem, na ziemi lub z tyłu innego robota.
+\button 35; Własne ogniwo elektryczne robota.
+\button 34; Przedmiot leżący za robotem, na ziemi.
+
+Następujące przedmioty mogą być przenoszone:
+o  \l;Ruda tytanu\u object\titanore;.
+o  \l;Ruda uranu\u object\uranore;.
+o  \l;Kostka tytanu\u object\titan;.
+o  \l;Zwykłe ogniwo elektryczne\u object\power;.
+o  \l;Atomowe ogniwo elektryczne\u object\atomic;.
+o  \l;Czarna skrzynka\u object\bbox;.
+o  \l;Klucze A, B, C i D\u object\key;.
+o  \l;Materia organiczna\u object\bullet;.
+
+Podczas poruszania się, transporter na nogach zużywa o połowę mniej energii od \l;transportera na kołach\u object\botgr;. Robot na nogach jest też idealnie przystosowany do wspinania się nawet po najbardziej stromych pochyłościach.
+
+Transporter nie działa pod wodą. Zamiast niego należy użyć robota \l;nurka\u object\botsub;.
+
+\t;Programowanie
+Do zaprogramowania poruszania robotem można używać następujących instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Do zaprogramowania ramienia chwytającego można używać instrukcji \c;\l;grab\u cbot\grab;\n; i \c;\l;drop\u cbot\drop;\n;.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;LeggedGrabber\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+

@@ -1,0 +1,103 @@
+\b;Ćwiczenie
+Zdalnie pokieruj robotem bez używania \l;stacji przekaźnikowej informacji\u object\exchange;. Robot powinien przejść przez 6 niebieskich plusów. Musisz użyć \l;łańcucha\u cbot\string; do przekazania rozkazów podległemu robotowi. Łańcuch zawiera rozkaz, który powinien być wykonany przez tego robota, na przykład \c;"move(20)"\n;. Możesz użyć tej samej składni co w języku CBOT, choć możesz też wybrać dowolną inną, na przykład podobną do tej: \c;"advance=20"\n;. Łańcuch będzie elementem klasy zdefiniowanym jako \c;\l;static\u cbot\static;\n;, używanym do komunikacji pomiędzy robotem nadrzędnym i podległym.
+
+Dwoma głównymi postaciami tego ćwiczenia są¦:
+1) \l;Transporter na kołach\u object\botgr; bez ogniwa elektrycznego, wobec czego unieruchomiony. Jest to robot nadrzędny, który powinien zostać zaprogramowany aby mógł przesyłać rozkazy do podległego mu robota.
+2) Podległy \l;robot treningowy\u object\bottr;, który jest już zaprogramowany i tylko czeka na rozkazy od robota nadrzędnego.
+
+\b;Robot podległy
+Najpierw musisz zrozumieć jak działa program robota podległego. \l;Klasa\u cbot\class; \c;exchange\n; zawiera mechanizmy przekazywania rozkazów. Należy zadeklarować element klasy \c;m_order\n; jako \c;\l;static\u cbot\static;\n;, będzie on zawierał rozkazy do wykonania. Słowo \c;static\n; zapewnia, że element \c;m_order\n; jest współużytkowany przez wszystkie instancje \l;klasy\u cbot\class; exchange.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; \l;string\u cbot\string; m_order = "";
+
+\n;Metoda \c;put\n; będzie używana przez robota nadrzędnego do przesyłania rozkazów. Jeśli łańcuch \c;m_order\n; nie jest pusty, robot podległy nie zakończył wykonywania rozkazu a metoda \c;put\n; zwróci wartość \c;false\n; i niczego nie zrobi.
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(string order)
+\s;	{
+\s;		if ( m_order == "" )
+\s;		{
+\s;			m_order = order;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Inna metoda \c;get\n; zostanie użyta przez robota podległego do pobrania rozkazów. Metoda ta zwraca łańcuch zawarty w zmiennej \c;m_order\n; i opróżnia ją, aby mógł być przyjęty nowy rozkaz:
+
+\c;\s;	\l;synchronized\u cbot\synchro; string get()
+\s;	{
+\s;		string ret = m_order;
+\s;		m_order = "";
+\s;		return ret;
+\s;	}
+\s;}
+\n;
+Główny program niewolnika zawiera instancję klasy \c;exchange\n; nazwaną \c;list\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave3( )
+\s;{
+\s;	exchange list();
+\s;	string   todo;
+\n;
+Zewnętrzna pętla \c;while\n; działa w nieskończoność. Wewnętrzna pętla \c;while\n; czeka na rozkaz używając metody \c;get\n; z klasy \c;exchange\n;. Pętla zatrzymuje się gdy metoda \c;get\n; zwróci pusty łańcuch.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo != "" )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Po otrzymaniu rozkazu i zapisaniu go w zmiennej \c;todo\n; wystarczy jedynie go wykonać:
+
+\c;\s;		if ( \l;strfind\u cbot\strfind;(todo, "move") == 0 )
+\s;		{
+\s;			move(\l;strval\u cbot\strval;(\l;strmid\u cbot\strmid;(todo,5)));
+\s;		}
+\s;		if ( strfind(todo, "turn") == 0 )
+\s;		{
+\s;			turn(strval(strmid(todo,5)));
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Robot nadrzędny
+W robocie nadrzędnym należy napisać funkcję nazwaną \c;SendOrder\n;, która wyśle rozkaz do robota podległego:
+
+\c;\s;void object::SendOrder(string order)
+\s;{
+\s;	exchange list();
+\s;	
+\s;	while ( list.put(order) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Pętla \c;while\n; czeka na zakończenie oczekującego rozkazu, czyli na wyjście przez robota podległego z metody \c;get\n;.
+Główny program robota nadrzędnego jest bardzo prosty:
+
+\c;\s;extern void object::Remote3( )
+\s;{
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(-90)");
+\s;	SendOrder("move(10)");
+\s;}
+\n;
+Klawisz \key;\key help;\norm; umożliwia wyświetlenie tych informacji w dowolnej chwili.
+
+\t;Zobacz również
+\l;Sterowanie\u command; i \l;programowanie\u cbot;.
