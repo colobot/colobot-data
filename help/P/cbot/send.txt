@@ -1,0 +1,19 @@
+\b;Instrukcja \c;send\n;
+Składnia¦:
+\s;\c;send ( nazwa, wartość, moc );\n;
+
+Wysyła informację do najbliższej \l;stacji przekaźnikowej\u object\exchange;.
+
+\t;nazwa: \c;string\n;
+Nazwa informacji wysyłanej do stacji przekaźnikowej. Jest to łańcuch, który powinien być zapisany w cudzysłowach "¦".
+Jeśli nie ma informacji o podanej nazwie, tworzony jest nowy wpis, o ile ich liczba nie przekroczy 10. Jeśli istnieje już informacja o podanej nazwie, zastępowana jest ona nową wartością.
+
+\t;wartość: \c;float\n;
+Wartość informacji do wysłania.
+
+\t;moc: \c;float\n;
+Moc transmitera, odpowiadająca maksymalnej odległości gdzie ma być przesłana informacja. Domyślna wartość to 10 metrów.
+
+\t;Zobacz również
+\c;\l;receive\u cbot\receive;\n;, \c;\l;testinfo\u cbot\testinfo;\n; i \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

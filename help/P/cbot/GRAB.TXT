@@ -1,0 +1,29 @@
+\b;Instrukcja \c;grab\n;
+Instrukcja \c;grab();\n; rozkazuje robotowi podnieść za pomocą ramienia chwytającego przedmiot znajdujący się na ziemi, platformie budynku lub miejscu na ogniwo robota.
+
+\b;Podstawowe użycie
+Instrukcja \c;grab();\n; napisana w ten sposób, podniesie przedmiot znajdujący się przed robotem. Oto krótki program podnoszący przedmiot przed robotem i upuszczający go 5 metrów dalej:
+\c;
+\s;	grab();
+\s;	\l;move\u cbot\move;(5);
+\s;	\l;drop\u cbot\drop;();
+\n;
+\b;Dla specjalistów
+Składnia:
+\s;\c;grab ( oper );\n;
+
+Instrukcja ta odwołuje się do ramienia \l;robota transportera\u object\botgr;, powodując chwycenie najbliższego obiektu.
+
+\t;oper: \c;\l;int\u cbot\int;\n; (domyślna wartość \c;InFront\n;)
+Parametr oper określa gdzie robot powinien szukać przedmiotu do podniesienia. Jeśli nie jest to określone, podnoszony jest obiekt znajdujący się przed robotem:
+\c;InFront   \n;  przed (domyślnie).
+\c;Behind    \n;  za.
+\c;EnergyCell\n;  wyjmuje własne ogniwo elektryczne.
+
+\t;Typ wyniku: \c;\l;int\u cbot\int;\n;
+Zwykle wystąpienie błędu powoduje zatrzymanie programu. Można wyłączyć zatrzymywanie się programu w przypadku wystąpienia błędu, używając instrukcji \c;\l;errmode\u cbot\errmode;(0)\n;. Wtedy w przypadku wystąpienia błędu instrukcja \c;grab();\n; zwraca w wyniku wartość różną od zera.
+\c;== 0 \n;obiekt został chwycony
+\c;!= 0 \n;błąd, obiekt nie został chwycony
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

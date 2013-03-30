@@ -1,0 +1,40 @@
+\b;Instrukcja \c;for\n;
+Składnia:
+\s;\c;for ( przed ; warunek ; koniec )
+\s;{
+\s;	\n;Instrukcje...\c;
+\s;}
+\n;
+Instrukcja ta pozwala na powtórzenie określoną ilość razy instrukcji zawartych w \l;bloku\u cbot\bloc;.
+
+\t;\c;przed\n;
+Instrukcja wykonywana przed pierwszym przejściem pętli.
+
+\t;\c;warunek\n;
+\l;Warunek\u cbot\cond; określa, czy powinno być wykonane następne przejście pętli. Jest on sprawdzany przed każdym jej przejściem. 
+
+\t;\c;koniec\n;
+Instrukcja wykonywana po każdym przejściu pętli. 
+
+Przykład: liczenie od 1 do 4
+\c;\s;\c;for ( i = 0 ; i <= 4 ; i++ )
+\s;{
+\s;	message(i) ;
+\s;}
+\n;
+Następujący przykład, równoważny pętli \c;for\n;, używa instrukcji \c;\l;while\u cbot\while;\n;:
+\s;\c;przed;
+\s;while ( warunek )
+\s;{
+\s;	\n;Instrukcje...\c;
+\s;	koniec;
+\s;}
+\n;
+\t;Uwaga
+Na końcu instrukcji \c;for ( )\n; nie należy umieszczać \l;średnika\u cbot\term;.
+
+Instrukcje \c;\l;break\u cbot\break;\n; i \c;\l;continue\u cbot\continue;\n; mogą być przydatne wewnątrz bloku instrukcji \c;for \n;.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

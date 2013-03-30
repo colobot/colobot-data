@@ -1,0 +1,17 @@
+\b;Instrukcja \c;sniff\n;
+Składnia:
+\s;\c;sniff ( );\n;
+
+Analizuje grunt przed robotem \l;szperaczem\u object\botsr;. W zależności od wykrytego surowca, pojawia się następujący znacznik: 
+
+\c;Złoże tytanu\n;  ->  \l;Czerwony plus\u object\stonspot;
+\c;Złoże uranu \n;  ->  \l;Żółte kółko\u object\uranspot;
+\c;Źródło energii  \n;  ->  \l;Zielony plus\u object\enerspot;
+
+\t;Typ wyniku: \c;\l;int\u cbot\int;\n;
+Zero jeśli wszystko jest w porządku, lub wartość inna od zera w przypadku wystąpienia błędu. 
+\c;== 0 \n;analiza wykonana
+\c;!= 0 \n;analiza niemożliwa
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

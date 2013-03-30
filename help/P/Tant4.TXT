@@ -1,0 +1,10 @@
+\b;Zadanie
+Zaprogramuj \l;działo latające\u object\botfj; do zabicia wszystkich mrówek w okolicy.
+
+\t;Program
+Na tych bagnach działa na kołach lub gąsienicach będą niezbyt przydatne. A mrówki, w odróżnieniu od pająków, poruszają się: nie wystarczy obrócić się w kierunku najbliższej mrówki, podejść i strzelić.
+
+Najprostszy sposób rozwiązania tego problemu polega na lataniu na wysokości 10 metrów, celowaniu w dół: \c;aim(-20);\n; i zbliżaniu się do mrówki używając pętli warunkowej, o ile \l;odległość\u cbot\dist; jest większa niż 20 m. W pętli warunkowej musisz znaleźć najbliższą mrówkę, obrócić się w jej kierunku, ustawić silniki na pełną moc instrukcją \c;motor(1,1);\n; i chwilę poczekać, na przykład 0,2 sekundy. Te wszystkie instrukcje muszą być powtarzane aż do zbliżenia się na odległość mniejszą niż 20 metrów od mrówki. Wtedy wystarczy tylko ją zastrzelić.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

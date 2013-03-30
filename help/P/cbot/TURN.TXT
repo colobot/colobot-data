@@ -1,0 +1,33 @@
+\b;Instrukcja \c;turn\n;
+Instrukcja \c;turn();\n; służy do wykonania przez robota obrotu o określoną liczbę stopni.
+
+\b;Podstawowe użycie
+90 stopni oznacza ćwierć obrotu, 180 stopni to pół obrotu. Kąt dodatni to obrót przeciwny do ruchu wskazówek zegara, kąt ujemny oznacza obrót zgodny z ruchem wskazówek zegara. Oto kilka przykładów użycia instrukcji \c;turn();\n;:
+
+\c;turn(90);\n;  ćwierć obrotu w lewo
+\c;turn(-90);\n; ćwierć obrotu w prawo (ujemny kąt)
+\c;turn(180);\n; połowa obrotu
+
+Aby obrócić robota w kierunku obiektu znalezionego przy użyciu instrukcji \c;\l;radar\u cbot\radar;();\n;, należy obliczyć kąt obrotu przy pomocy instrukcji \c;\l;direction\u cbot\direct;()\n;:
+\c;
+\s;	item = \l;radar\u cbot\radar;(AlienSpider);
+\s;	turn(\l;direction\u cbot\direct;(item.position));
+\n;
+Po tych liniach wystarczy wystrzelić z działa i już mamy jednego wroga mniej.
+
+\b;Dla specjalistów
+Składnia:
+\s;\c;turn ( kąt );\n;
+
+Obraca robota o podany kąt, w prawo lub w lewo, bez poruszania do przodu ani do tyłu. 
+
+\t;kąt: \c;\l;float\u cbot\float;\n;
+Kąt obrotu w stopniach. Wartość dodatnia to obrót w lewo, ujemna - w prawo. \c;turn(180)\n; obraca do tyłu. 
+
+\t;Typ wyniku: \c;\l;int\u cbot\int;\n;
+Zero w przypadku powodzenia lub inna wartość, jeśli wystąpił błąd. 
+\c;== 0 \n;obrót wykonany
+\c;!= 0 \n;obrót niemożliwy
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

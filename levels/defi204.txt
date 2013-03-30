@@ -1,8 +1,5 @@
-Title.F      text="Radar et pièges 1"
-Resume.F     text="Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
-Title.E      text="Radar and traps 1"
-Resume.E     text="Use your radar to look for various items, but watch out for the mines."
-ScriptName.F text="Cherche"
+Title.E text="Radar and traps 1"
+Resume.E text="Use your radar to look for various items, but watch out for the mines."
 ScriptName.E text="Traps"
 Instructions name="dtrap1.txt" immediat=1
 HelpFile     name="cbot.txt"
@@ -69,7 +66,7 @@ BeginObject
 CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
 CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 soluce="ttrap1.txt" select=1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos= 7.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-62.50 dir=0.0 type=Barrier1
@@ -77,7 +74,7 @@ CreateObject pos=22.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=32.50;-62.50 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos= 7.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-92.50 dir=0.0 type=Barrier1

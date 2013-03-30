@@ -1,0 +1,64 @@
+\b;Ćwiczenie
+Dotrzyj jak najszybciej do platformy końcowej (25 m przed Tobą), używając instrukcji \c;motor( , )\n;. Przed końcem ruchu musisz stopniowo zwalniać, aby robot nie wpadł na \l;miny\u object\mine; i nie wybuchł.
+
+Równie dobrze możesz napisać jedynie instrukcję \c;\l;move\u cbot\move;(25);\n;, która wykona to samo zadanie, jednak celem tego ćwiczenia jest nauka używania instrukcji \c;\l;motor\u cbot\motor;\n;.
+
+Instrukcja ta potrzebuje dwóch wartości:
+1) Prędkości lewego silnika.
+2) Prędkości prawego silnika.
+
+\s;\c;	motor( lewy, prawy );
+\n;
+Wartości muszą się zawierać w przedziale od -1 do 1:
+-1 = pełny ciąg wstecz
+ 0 = silnik zatrzymany
+ 1 = pełny ciąg naprzód
+
+Na przykład instrukcja \c;motor(0.5, 0.5);\n; będzie poruszała robotem naprzód z połową prędkości, aż do podania silnikom nowych instrukcji.
+
+Po napotkaniu instrukcji \c;motor(0.5, 0.6);\n;, robot będzie się poruszał do przodu z połową prędkości, wykonując w tym samym czasie niewielki obrót w lewo: prawy silnik porusza się nieco szybciej (\c;0.6\n;) niż lewy (\c;0.5\n;).
+
+\b;Ogólny algorytm
+Aby przejechać dokładnie 25 metrów, należy jechać z pełną prędkością przez pierwsze 23 metry, a następnie stopniowo zmniejszać prędkość przez ostatnie dwa metry.
+\l;Zmienna\u cbot\var; \l;position\u cbot\object; podaje bieżącą pozycję robota, a instrukcja \c;\l;distance\u cbot\dist;( , );\n; oblicza odległość między dwoma punktami. Najlepszy sposób na poznanie własnej pozycji, polega na zachowaniu bieżącej pozycji przed startem w \l;zmiennej\u cbot\var;, nazwanej na przykład \c;start\n;. Następnie można obliczyć odległość między pozycją startową i bieżącą pozycją za pomocą instrukcji \c;distance(position, start)\n;.
+
+\b;Program
+1) zadeklaruj zmienne
+\s;\c;	point start;
+\s;	float len;
+\n;
+2) zapisz pozycję startową
+\s;\c;	start = position;
+\n;
+3) na początek z pełną mocą:
+\s;\c;	motor(1, 1);
+\n;
+4) wykonaj pętlę nieskończoną \c;\l;while\u cbot\while;\n;:
+\s;\c;	while ( true )
+\s;	{
+\s;		len = distance(position, start);
+\s;		if ( len > 25-2 )
+\s;		{
+\s;			motor( mniej niż poprzednio! );
+\s;		}
+\s;	}
+\n;
+Tak długo jak odległość pomiędzy pozycją startową i bieżącą jest mniejsza od 23m, instrukcje w klamrach po instrukcji \c;\l;if\u cbot\if;\n; nie będą wykonywane, więc silniki utrzymają maksymalną prędkość nadaną im instrukcją \c;\l;motor\u cbot\motor;(1,1);\n;.
+
+Aby stopniowo zwalniać, prędkość silników musi być proporcjonalna do pozostałej odległości:
+o  zostały \c;2.0\n; metry  -> prędkość = \c;1.00\n; (maksymalna)
+o  zostało \c;1.5\n; metra  -> prędkość = \c;0.75\n;
+o  został  \c;1.0\n; metr   -> prędkość = \c;0.50\n;
+o  zostało \c;0.5\n; metra  -> prędkość = \c;0.25\n;
+o  zostało \c;0.0\n; metrów -> prędkość = \c;0.00\n; (zatrzymanie)
+
+\image tdragst1 12 6;
+Do obliczenia prędkości, która zostanie podana silnikom możesz użyć następującego \l;wyrażenia\u cbot\expr;: \c;(25-len)/2\n;.
+
+Do Ciebie należy złożenie tego wszystkiego razem i przetestowanie programu.
+
+\t;Uwaga
+Możesz używać wartości większych od 1 dla instrukcji \c;\l;motor\u cbot\motor;();\n;, ale robot nie będzie poruszał się szybciej.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,8 +1,5 @@
-Title.F      text="Le petit poucet"
-Resume.F     text="Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
-Title.E      text="Crazy bot 2"
-Resume.E     text="Use the radar to put some order into a big mess left behind by a crazy bot."
-ScriptName.F text="Ramasse"
+Title.E text="Crazy bot 2"
+Resume.E text="Use the radar to put some order into a big mess left behind by a crazy bot."
 ScriptName.E text="Radar"
 Instructions name="dradar1.txt" immediat=1
 HelpFile     name="cbot.txt"
@@ -70,7 +67,7 @@ CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
 CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 soluce="tradar1.txt" select=1
 CreateObject pos=20.00;-77.50 dir=1.0 type=WheeledSniffer reset=1 script1="tradar2.txt" run=1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos= 7.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-62.50 dir=0.0 type=Barrier1
@@ -78,7 +75,7 @@ CreateObject pos=22.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=32.50;-62.50 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos= 7.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-92.50 dir=0.0 type=Barrier1

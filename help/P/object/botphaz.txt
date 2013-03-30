@@ -1,0 +1,14 @@
+\b;\button 147; Działo fazowe
+\image botphaz 8 8;
+Robot na gąsienicach wyposażony w bardzo silne działko fazowe, skuteczne przeciwko większości wrogów. Wycelowane w górę ma zasięg do 60 metrów. Jest to jedyna broń, z której można zabić \l;Królową obcych\u object\mother;.
+
+\t;Programowanie
+Do zaprogramowania poruszania robotem można używać następujących instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Do zaprogramowania działka fazowego służy instrukcja \c;\l;fire\u cbot\fire;\n;. Lufę można podnieść lub opuścić używając instrukcji \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;PhazerShooter\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

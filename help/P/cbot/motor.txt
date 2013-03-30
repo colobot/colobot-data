@@ -1,0 +1,39 @@
+\b;Instrukcja \c;motor\n;
+Instrukcja \c;motor( , );\n; ustawia prędkość lewego i prawego silnika robota.
+
+\b;Podstawowe użycie
+Prędkość nadana robotowi pozostaje niezmienna podczas wykonywania następujących instrukcji. Dzięki temu możliwe jest obracanie robota podczas wykonywania instrukcji \c;\l;fire\u cbot\fire;();\n;. Pozwala to na omiecenie całego obszaru jedną serią. Oto program omiatający całą strefę przed robotem:
+\c;
+\s;	\l;turn\u cbot\turn;(45);         // obróć o 45 stopnie w lewo
+\s;	motor(0.5, -0.5); // powoli obracaj w prawo
+\s;	\l;fire\u cbot\fire;(2);          // strzelaj
+\s;	motor(0,0);       // zatrzymaj obracanie
+\n;
+Z lewym silnikiem obracającym się z połową prędkości do przodu i prawym obracającym się z połową prędkości do tyłu, robot będzie się powoli obracał podczas 2 sekundowej serii strzałów.
+
+\b;Dla specjalistów
+Składnia:
+\s;\c;motor ( lewy, prawy );\n;
+
+Ustala prędkości prawego i lewego silnika. Silniki będą poruszały się z tą prędkością do czasu ustalenia nowej prędkości silników lub wykonania jednej z instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n; lub \c;\l;goto\u cbot\goto;\n;.
+
+\t;lewy: \c;\l;float\u cbot\float;\n;
+Prędkość lewego silnika; wartości w zakresie od -1 do 1. 
+
+\t;prawy: \c;\l;float\u cbot\float;\n;
+Prędkość prawego silnika; wartości w zakresie od -1 do 1. 
+
+Przykłady :
+\c;motor(1, 1);\n; ruch do przodu z maksymalną prędkością.
+\c;motor(-0.5, -0.5);\n; ruch do tyłu z połową prędkości.
+\c;motor(1, -1);\n; obrót w prawo z maksymalną prędkością. 
+
+Uwaga:
+\c;motor(2, 2);\n; nie będzie poruszało robotem do przodu szybciej niż \c;motor(1, 1)\n; 
+\c;motor(-2, -2);\n; nie będzie poruszało robotem do tyłu szybciej niż  \c;motor(-1, -1)\n;
+
+\t;Typ wyniku: \c;\l;void\u cbot\void;\n;
+Brak.
+
+\t;Zobacz również
+\l;Instrukcje\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

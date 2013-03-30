@@ -1,0 +1,24 @@
+\b;\button 169; Warsztat
+\image repair 8 8;
+W warsztacie można zregenerować uszkodzone osłony robotów. Osłona robota wchłania pewną ilość strzałów \l;wroga\u object\mother;. Brak osłony oznacza, że robot zostanie zniszczony przy następnym ataku.
+
+\t;Wymagania
+Płaska powierzchnia szeroka na minimum 6 metrów.
+
+\t;Wejście
+Uszkodzony robot.
+
+\t;Wyjście
+Naprawiony robot ze zregenerowaną osłoną.
+
+\t;Źródło zasilania
+Brak.
+
+\t;Czas działania
+Kilka sekund, w zależności od stopnia uszkodzenia robota.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;RepairCenter\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

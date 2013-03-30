@@ -1,0 +1,18 @@
+\b;Instrukcja \c;search\n;
+Składnia:
+\s;\c;search ( kategoria, pozycja );\n;
+
+Znajduje obiekt o określonej kategorii, będący najbliżej podanej pozycji. 
+
+\t;kategoria: \c;\l;int\u cbot\int;\n;
+\l;Kategoria\u cbot\category; poszukiwanego obiektu.
+
+\t;pozycja: \c;\l;point\u cbot\point;\n;
+Funkcja \c;search\n; zwraca obiekt o podanej kategorii znajdujący się najbliżej określonej tutaj pozycji. 
+
+\t;Typ wyniku: \c;\l;object\u cbot\object;\n;
+Charakterystyka znalezionego obiektu. Wartość \c;\l;null\u cbot\null;\n; oznacza, że nie znaleziono obiektu o podanej kategorii. 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

@@ -1,0 +1,13 @@
+\b;Instrukcja \c;thump\n;
+Składnia:
+\s;\c;thump ( );\n;
+
+Uruchamia system broni robota \l;uderzacza\u object\bottump;, który przewraca mrówki i pająki do góry brzuchem, powodując ich chwilowe unieszkodliwienie.
+
+\t;Typ wyniku: \c;\l;int\u cbot\int;\n;
+Zero w przypadku powodzenia lub inna wartość, jeśli wystąpił błąd. 
+\c;== 0 \n;Uderzenie wykonane
+\c;!= 0 \n;Operacja niemożliwa
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

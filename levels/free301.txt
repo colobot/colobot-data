@@ -1,7 +1,5 @@
-Title.F      text="Jeu libre"
-Resume.F     text="Construisez quelques bâtiments et robots, juste pour vous amuser, sans but précis."
-Title.E      text="Free game"
-Resume.E     text="Do whatever you want, build a base camp and some bots, without any precise objective."
+Title.E text="Free game"
+Resume.E text="Do whatever you want, build a base camp and some bots, without any precise objective."
 Instructions name="fglobal.txt"
 HelpFile     name="cbot.txt"
 EndingFile   win=-1 lost=-1
@@ -222,7 +220,7 @@ CreateObject pos= 210; 141 dir=1.1 type=Greenery19
 CreateObject pos= 211; 138 dir=0.3 type=Greenery17
 CreateObject pos= 188; 143 dir=0.7 type=Greenery16
 
-// Vallée nord
+// VallÃ©e nord
 CreateObject pos= -63; 245 dir=0.2 type=MegaStalk5
 CreateObject pos= -73; 255 dir=1.0 type=MegaStalk3
 CreateObject pos= -68; 231 dir=0.6 type=MegaStalk1

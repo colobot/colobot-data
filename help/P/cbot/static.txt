@@ -1,0 +1,22 @@
+\b;Instrukcja \c;static\n; (dla specjalistów)
+Elementy \l;klasy\u cbot\class; zadeklarowane jako \c;static\n; są współdzielone przez wszystkie instancje klasy.
+\c;
+\s;public class MojaKlasa
+\s;{
+\s;	static int nb = 1;
+\s;	static string [ ] list = null;
+\s;}
+\s;void Test ()
+\s;{
+\s;	MojaKlasa item1();
+\s;	MojaKlasa item2();
+\s;	item1.nb = 3;
+\s;	item1.list[item1.nb] = "Cześć";
+\s;	message( item2.list[item2.nb] ); // wyświetla komunikat "Cześć"
+\s;}
+\n;
+Elementy \c;static\n; mogą być zadeklarowane jako \c;\l;private\u cbot\private;\n;, co spowoduje, że będą dostępne tylko dla elementów klasy (włączając konstruktory i destruktory).
+
+\t;Zobacz również
+\c;\l;class\u cbot\class;\n;, \c;\l;synchronized\u cbot\synchro;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

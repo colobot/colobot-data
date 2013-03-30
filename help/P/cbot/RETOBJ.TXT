@@ -1,0 +1,15 @@
+\b;Instrukcja \c;retobject\n;
+Składnia:
+\s;\c;retobject ( numer );\n;
+
+Zwraca obiekt odpowiadający podanemu numerowi.
+
+\t;numer: \c;\l;int\u cbot\int;\n;
+Numer obiektu, pomiędzy 0 i n, gdzie "n" to liczba wszystkich obiektów na planecie. 
+
+\t;Typ wyniku: \c;\l;object\u cbot\object;\n;
+Obiekt odpowiadający numerowi. Wartość \c;\l;null\u cbot\null;\n; oznacza, że nie ma obiektu odpowiadającego podanemu numerowi, gdyż nie ma aż tylu obiektów na tej planecie. 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

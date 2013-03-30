@@ -1,0 +1,21 @@
+\b;Instrukcja \c;new\n; (dla specjalistów)
+Operator \c;new\n; tworzy nową instancję \l;klasy\u cbot\class;:
+\c;\s;	MojaKlasa element;         // jest teraz wskaźnikiem null
+\s;	element = new MojaKlasa(); // jest teraz wskaźnikiem
+\s;	                           // do nowej instancji klasy
+\n;
+W przypadku tworzenia nowej instancji podczas deklaracji, można ominąć operator \c;new\n;, dodając () na końcu deklaracji:
+
+Zamiast:
+\c;\s;	MojaKlasa element = new MojaKlasa();
+\n;można napisać:
+\c;\s;	MojaKlasa element();
+\n;
+Jeśli klasa ma konstruktor z parametrami, można napisać:
+\c;\s;	MojaKlasa element = new MojaKlasa(2, 3);
+\n;lub:
+\c;\s;	MojaKlasa element(2, 3);
+\n;
+\t;Zobacz również
+\c;\l;klasa\u cbot\class;\n;, \c;\l;wskaźnik\u cbot\pointer;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

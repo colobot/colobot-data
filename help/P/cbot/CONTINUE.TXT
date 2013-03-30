@@ -1,0 +1,25 @@
+\b;Instrukcja \c;continue\n;
+Składnia:
+\s;\c;while ( warunek )
+\s;{
+\s;	continue;
+\s;}
+\n;
+Przy użyciu tej instrukcji, można przeskoczyć resztę instrukcji w \c;\l;bloku\u cbot\bloc;\n; pętli \c;\l;while\u cbot\while;\n; lub \c;\l;for\u cbot\for;\n;: Działanie zostanie wznowione na początku bloku przy następnym powtórzeniu pętli.
+ 
+Oto przykład:
+\s;\c;int i = 0;
+\s;while ( i < 5 )
+\s;{
+\s;	i = i+1;
+\s;	if ( i == 3 )
+\s;	{
+\s;		continue;
+\s;	}
+\s;	\n;Instrukcje ...\c;
+\s;}
+\n;
+Instrukcje będą wykonane tylko dla wartości \c;i\n; 1, 2, 4 i 5.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
