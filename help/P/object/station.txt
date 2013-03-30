@@ -1,0 +1,28 @@
+\b;\button 164; Stacja energetyczna
+\image station 8 8;
+Stacja energetyczna pobiera energię spod ziemi i poprzez indukcję ładuje  \l;zwykłe ogniwa elektryczne \u object\power;. Aby naładować ogniwo elektryczne umieszczone na robocie, należy przesunąć go na środek platformy i poczekać kilka sekund. \l;Ogniwo elektryczne\u object\power; trzymane przez robota lub astronautę również może zostać doładowane. \l;Atomowe ogniwa elektryczne\u object\atomic; nie są ładowalne.
+
+Stacja energetyczna wymaga pewnego źródła energii w podglebiu. Jeśli z raportu satelitarnego wynika, że energia dostępna jest tylko w niektórych miejscach, należy wcześniej przebadać podglebie przy użyciu \l;robota szperacza\u object\botsr;. Pozostawione przez niego oznaczenia informują o rodzaju znalezionego surowca: \l;zielony plus\u object\enerspot; oznacza znajdujące się pod ziemią źródło energii, wymagane przy budowie stacji energetycznej lub \l;elektrowni\u object\energy;.
+
+Jeśli duże ogniwo elektryczny u góry stacji energetycznej pozostaje czerwone po jej wybudowaniu, oznacza to, że wybrane miejsce nie spełnia wymaganych warunków geologicznych.
+
+\t;Wymagania
+Płaska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 6 metrów.
+
+\t;Wejście
+Puste ogniwo elektryczne.
+
+\t;Wyjście
+Naładowane ogniwo elektryczne.
+
+\t;Źródło zasilania
+Podziemne źródło energii.
+
+\t;Czas działania
+Kilka sekund, zależnie od pojemności ogniwa, które ma być naładowane.
+
+\t;\l;Kategoria\u cbot\category; obiektu
+\c;PowerStation\n;
+
+\t;Zobacz również
+\l;Język CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -89,8 +89,8 @@ extern void object::Attack( )
 	}
 }
 
-// Cherche une cible sur l'île. Si la cible est plus loin,
-// elle est ignorée.
+// Cherche une cible sur l'Ã®le. Si la cible est plus loin,
+// elle est ignorÃ©e.
 
 object object::TargetSearch(int[] list)
 {
@@ -102,7 +102,7 @@ object object::TargetSearch(int[] list)
 	if ( p == null )  return null;
 
 	center.x = 0;
-	center.y = 100;  // sommet de l'île
+	center.y = 100;  // sommet de l'Ã®le
 	center.z = p.position.z;
 	dist = distance(p.position, center);
 	if ( dist > 80 )  return null;  // ignore si trop loin

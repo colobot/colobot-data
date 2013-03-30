@@ -1,0 +1,30 @@
+\b;Programy przysłane z Houston
+Zgodnie z danymi dostarczonymi przez satelitę, nasi inżynierowie napisali dwa programy. Pierwszy z nich prowadzi \l;robota osłaniacza\u object\botshld; przez wąską dolinę na północ, w pobliże klucza. Możesz za nim iść nie obawiając się żadnego ataku:
+\c;
+\s;extern void object::Outward()
+\s;{
+\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij osłonę
+\s;	\l;goto\u cbot\goto;(6,160);    // podejdź do klucza
+\s;	\l;shield\u cbot\shield;(0,15);   // wyłącz osłonę
+\s;}
+\n;
+Drugi program kieruje \l;robota osłaniacza\u object\botshld; z powrotem do \l;statku kosmicznego\u object\base;:
+\c;
+\s;extern void object::Return()
+\s;{
+\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij osłonę
+\s;	\l;goto\u cbot\goto;(8,60);     // wróć na statek kosmiczny
+\s;	\l;shield\u cbot\shield;(0,15);   // wyłącz osłonę
+\s;}
+\n;
+\b;Archiwum
+Lista programów przysłanych w poprzednich misjach:
+
+o  \c;\l;ServiceTower1\u mlvolca2;\n;
+o  \c;\l;CollectTitanium3\u mlvolca1;\n;
+o  \c;\l;KillAnt1\u mlsaari2;\n;
+o  \c;\l;CollectTitanium2\u mlcrys2;\n;
+o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;Recharge2\u mltropi3;\n;
+o  \c;\l;Recharge1\u mllune4;\n;
+o  \c;\l;SwitchCell1\u mllune1;\n;

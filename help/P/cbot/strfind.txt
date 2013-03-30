@@ -1,0 +1,20 @@
+\b;Instrukcja \c;strfind\n;
+Znajduje podciąg w łańcuchu i zwraca pozycję pierwszego znalezionego podciągu lub wartość \l;nan\u cbot\nan; jeśli podciągu nie znaleziono.
+
+Składnia¦:
+\s;\c;strfind ( łańcuch, sub );\n;
+
+\t;łańcuch: \c;\l;string\u cbot\string;\n;
+Przeszukiwany łańcuch.
+
+\t;sub: \c;\l;string\u cbot\string;\n;
+Podciąg, który ma zostać znaleziony.
+
+Przykłady¦:
+\s;\c;	int pos = strfind("abcdef", "ab"); // pos równe 0
+\s;	int pos = strfind("abcdef", "de"); // pos równe 3
+\s;	int pos = strfind("abcdef", "xy"); // pos równe \l;nan\u cbot\nan;
+\n;
+\t;Zobacz również
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

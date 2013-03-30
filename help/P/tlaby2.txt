@@ -1,0 +1,55 @@
+\b;Ćwiczenie
+To ćwiczenie jest bardzo podobne do poprzedniego. Tym razem robot powinien samodzielnie znaleźć drogę od startu do celu; musisz uruchomić program tylko jeden raz.
+
+\b;Uwaga
+Labirynt nie jest dokładnie taki sam ale powinno to być bez znaczenia, gdyż program przystosowuje się do tego co "widzi".
+
+\image tlaby1 10 10;
+\b;Ogólny algorytm
+Użyj nieskończonej pętli \c;\l;while\u cbot\while;\n; aby wielokrotnie wykonać poprzedni program:
+\s;\c;while ( true )
+\s;{
+\s;	\n;Jeśli nie ma niczego z przodu, idź naprzód\c;
+\s;	\n;Jeśli nie ma niczego po lewej, skręć w lewo\c;
+\s;	\n;Jeśli nie ma niczego po prawej, skręć w prawo\c;
+\s;}
+\n;
+Wewnątrz pętli \c;while\n; zastąp instrukcje \c;return\n; instrukcjami \c;\l;continue\u cbot\continue;\n;. \c;return\n; kończy działanie programu, co nie jest pożądane w tym przypadku. \c;continue\n; wznawia wykonywanie na początku pętli \c;\l;while\u cbot\while;\n;:
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	continue;
+\s;}
+\n;
+\b;Zapamiętaj
+Oto jeszcze raz program z poprzedniego ćwiczenia:
+\c;
+\s;object   front, left, right;
+\s;
+\s;front = radar(Barrier,   0, 45, 0, 5);
+\s;left  = radar(Barrier,  90, 45, 0, 5);
+\s;right = radar(Barrier, -90, 45, 0, 5);
+\s;
+\s;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( right == null )
+\s;{
+\s;	turn(-90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+\b;Pomoc
+Jeśli potrzebujesz pomocy, kliknij na hiperłączu instrukcji \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; lub \c;\l;turn\u cbot\turn;\n;.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

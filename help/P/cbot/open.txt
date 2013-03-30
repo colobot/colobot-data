@@ -1,0 +1,20 @@
+\b;Instrukcja \c;open\n;
+Otwiera plik tekstowy w folderze files/. Jest to metoda klasy \c;\l;file\u cbot\file;\n;, dlatego zawsze należy używać konstrukcji \c;handle.open()\n;¦:
+\c;
+\s;	handle.open("test.txt", "w");
+\n;
+Aby otworzyć plik, należy postępować następująco¦:
+\c;
+\s;	file handle();
+\s;	handle.open("nazwapliku", "w");
+\s;	handle.writeln("abc");
+\s;	handle.close();
+\n;
+\c;"r"\n; tryb: otwarty do odczytu.
+\c;"w"\n; tryb: otwarty do zapisu.
+
+Pliki mogą być tworzone tylko w folderze files/ znajdującym się w folderze, w którym została zainstalowana gra Colobot. Nie jest możliwe tworzenie ani otwieranie plików znajdujących się w innych folderach.
+
+\t;Zobacz również
+\c;\l;file\u cbot\file;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; i \c;\l;eof\u cbot\eof;\n;.
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

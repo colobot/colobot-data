@@ -1,11 +1,11 @@
 extern void object::Attack( )
 {
-	int		list[], i;	// liste des objets cherchés
+	int		list[], i;	// liste des objets cherchÃ©s
 	object	target;	// info sur la cible
-	point		center;	// coordonnées du centre de la zone
-	point		lastPos;	// dernière position (pr test si bloquée)
+	point		center;	// coordonnÃ©es du centre de la zone
+	point		lastPos;	// derniÃ¨re position (pr test si bloquÃ©e)
 	float		distCent;	// rayon de la zone
-	float		r;		// valeur aléatoire
+	float		r;		// valeur alÃ©atoire
 
 	errmode(0);  // ne stoppe pas si erreur
 	while ( ismovie() != 0 )  wait(1);
@@ -34,24 +34,24 @@ extern void object::Attack( )
 	list[i++] = Subber;
 	list[i++] = Me;
 
-	center.x = cmdline(0);	// prend les coordonnée
+	center.x = cmdline(0);	// prend les coordonnÃ©e
 	center.y = cmdline(1);	// du centre de la zone
-	center.z = 0;		// à patrouiller
+	center.z = 0;		// Ã  patrouiller
 	distCent = cmdline(2); 	// rayon de la zone
 
 	lastPos = position;	// initialise
 	motor(1,1);			// en avant toute
-	while ( true )		// répère à l'infini
+	while ( true )		// rÃ©pÃ¨re Ã  l'infini
 	{
 		target = radar(list, 0, 360, 0, 40);
-		if (target == null or topo(position)<0)// pas de cible à proximité
+		if (target == null or topo(position)<0)// pas de cible Ã  proximitÃ©
 		{                                      // ou pieds dans l'eau
 			if (distance2d(position, center) > distCent or topo(position)<0)
 			{   // si la fourmi est en dehors de la zone
-				motor(0, 0); //s'arrête
-				wait(0.5);   //marque un arrêt
+				motor(0, 0); //s'arrÃªte
+				wait(0.5);   //marque un arrÃªt
 				motor (-0.5, -0.5);//recule lentement
-				wait (1.5);  //attend qu'ait reculé
+				wait (1.5);  //attend qu'ait reculÃ©
 				turn(direction(center));
 				motor (1, 1); //puis en avant toute
 				do 
@@ -59,7 +59,7 @@ extern void object::Attack( )
 					lastPos = position;
 					wait(1); //tant que pas dans la zone
 					if (distance2d(lastPos, position) < 0.2)
-					{   //si elle est bloquée par obstacle
+					{   //si elle est bloquÃ©e par obstacle
 						turn(rand()*360-180);
 						motor(1,1);
 						wait(1);
@@ -71,7 +71,7 @@ extern void object::Attack( )
 			else
 			{   //si elle est bien dans la zone
 				if (distance2d(lastPos, position) < 0.2)
-				{   //si elle est bloquée par obstacle
+				{   //si elle est bloquÃ©e par obstacle
 					turn(rand()*360-180);
 					motor(1,1);
 					wait(1);
@@ -79,13 +79,13 @@ extern void object::Attack( )
 				r = rand();
 				if (r > 0.6)
 				{  //dans un cas sur dix
-					motor (1, 0.5);// tourne à droite
+					motor (1, 0.5);// tourne Ã  droite
 					wait(rand()*3);// pendant un moment
 					motor (1, 1);  // puis tout droit
 				}
 				if (r < 0.4)
 				{   //dans un cas sur dix
-					motor (0.5, 1);// tourne à gauche
+					motor (0.5, 1);// tourne Ã  gauche
 					wait(rand()*3);// pendant un moment
 					motor (1, 1);  // puis tout droit
 				}
@@ -94,7 +94,7 @@ extern void object::Attack( )
 			}
 		}
 		else
-		{   // si cible à proximité
+		{   // si cible Ã  proximitÃ©
 			turn(direction(target.position));
 			fire(target.position); // tourne vers la cible
 		}

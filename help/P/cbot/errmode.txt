@@ -1,0 +1,33 @@
+\b;Instrukcja \c;errmode\n;
+Instrukcja \c;errmode();\n; pozwala wybrać, czy program powinien zatrzymywać się w przypadku wystąpienia błędu w wykonywaniu jednej z następujących instrukcji: \c;\l;goto\u cbot\goto;\n;, \c;\l;move\u cbot\move;\n;, \c;\l;grab\u cbot\grab;\n;, \c;\l;drop\u cbot\drop;\n;, itd.
+
+\b;Dla specjalistów
+Składnia¦:
+\s;\c;errmode ( tryb );\n;
+
+Zwykle program zatrzymuje się po wystąpieniu błędu. Po użyciu instrukcji \c;errmode(0);\n; na początku programu, wymienione powyżej instrukcje dają w wyniku wartość różną od zera jeśli instrukcja nie mogła być wykonana.
+
+\t;tryb: \c;\l;float\u cbot\float;\n; (domyślnie \c;1\n;)
+Sposób traktowania błędu.
+\c;0\n; -> kontynuuje działanie programu i daje w wyniku wartość różną od zera
+\c;1\n; -> zatrzymuje program (działanie domyślne)
+
+Przykład 1¦:
+\s;\c;errmode(0);
+\s;while ( goto(pos) != 0 )
+\s;{
+\s;	wait(2);
+\s;}
+\n;
+Przykład 2¦:
+\s;\c;errmode(0);
+\s;int err;
+\s;err = goto(pozycja);
+\s;if ( err != 0 )
+\s;{
+\s;	\n;instrukcji goto nie udało się wykonać...\c;
+\s;	\n;podejmij odpowienie działania...\c;
+\s;}
+\n;
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,0 +1,29 @@
+\b;Warunki
+Warunek, to \l;wyrażenie\u cbot\expr; dające w wyniku wartość \l;logiczną\u cbot\bool;, którą może być \c;\l;true\u cbot\true;\n; (prawda) lub \c;\l;false\u cbot\false;\n; (fałsz). Używając warunku można wybrać czy instrukcje w pętli \c;\l;while\u cbot\while;\n; powinny być wykonane jeszcze raz lub czy instrukcje w bloku \c;\l;if\u cbot\if;\n; powinny być wykonywane.
+Oto kilka operatorów, których można używać do porównywania dwóch wartości:
+
+\c;a == b  \n;\c;a\n; równe \c;b\n;
+\c;a != b  \n;\c;a\n; różne od \c;b\n;
+\c;a <  b  \n;\c;a\n; mniejsze od \c;b\n;
+\c;a <= b  \n;\c;a\n; mniejsze od lub równe \c;b\n;
+\c;a >  b  \n;\c;a\n; większe od \c;b\n;
+\c;a >= b  \n;\c;a\n; większe od lub równe \c;b\n;
+
+Na przykład:
+
+\c;12 == 12  \n;daje w wyniku true
+\c;45 != 47  \n;daje w wyniku true 
+\c;99 == 98  \n;daje w wyniku false
+\c;12 <  -1  \n;daje w wyniku false
+\c;12 >= 10  \n;daje w wyniku true 
+\c;12 >= 12  \n;daje w wyniku true 
+
+\t;Uwaga
+Nie należy mylić operatora porównania \c;==\n; z operatorem przypisania wartości \l;zmiennej\u cbot\var; \c;=\n;.
+
+\c;a == b\n; jest wyrażeniem porównującym \c;a\n; z \c;b\n;.
+\c;a = b\n; jest wyrażeniem kopiującym wartość \c;b\n; do \c;a\n;.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

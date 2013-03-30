@@ -1,8 +1,5 @@
-Title.F      text="Chasse à l'homme"
-Resume.F     text="Abattre quatre cibles mouvantes sans gaspiller un seul coup."
-Title.E      text="Patient hunter"
-Resume.E     text="Be patient enough not to waste your ammunitions."
-ScriptName.F text="Abattre"
+Title.E text="Patient hunter"
+Resume.E text="Be patient enough not to waste your ammunitions."
 ScriptName.E text="Patient"
 Instructions name="tchasse.txt"
 HelpFile     name="cbot.txt"
@@ -78,13 +75,13 @@ CreateObject pos=20.00;-77.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-75.00 dir=0.5 type=Barrier1
 CreateObject pos=22.50;-75.00 dir=0.5 type=Barrier1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos=12.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-65.00 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos=12.50;-85.00 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-85.00 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-85.00 dir=0.0 type=Barrier1

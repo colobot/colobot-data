@@ -1,0 +1,20 @@
+\b;Typ \c;int\n;
+Jest to typ zmiennych zawierających tylko liczby całkowite, dodatnie albo ujemne. Na przykład: 
+\c;
+\s;	12
+\s;	1000
+\s;	-4
+\n;
+Do reprezentacji liczb rzeczywistych, takich jak 12,05 lub -0,005 należy używać typu \c;\l;float\u cbot\float;\n;.
+
+\t;Uwaga
+Nie należy używać spacji ani przecinków w zapisie liczby. 
+
+\t;Dla specjalistów
+Reprezentacja liczb typu \c;int\n; zajmuje 32 bity.
+Największa reprezentowalna liczba to (2^31)-1, czyli 2 147 483 647.
+Najmniejsza reprezentowalna liczba to -(2^31), czyli -2 147 483 648.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+

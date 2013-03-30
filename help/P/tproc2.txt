@@ -1,0 +1,34 @@
+\b;Ćwiczenie
+Idź drogą w kształcie spirali. Robot musi przejść 2 razy 25 metrów naprzód i skręcić, a następnie 2 razy przejść po 20 metrów naprzód i skręcić, itd.
+\image tproc2 8 8;
+\b;Funkcja
+Warto zauważyć, że "L"-kształtne części pasują do siebie. Pierwsza część (ciemno niebieska) ma rozmiar dwa razy po 25 metrów. Druga (jasno niebieska) jest 5 metrów krótsza. Zacznijmy od napisania \l;funkcji\u cbot\function; która będzie poruszać robotem po "L"-kształtnej części o długości podanej jako parametr:
+\c;
+\s;void object::Part(float length)
+\s;{
+\s;	for ( int i=0 ; i<2 ; i=i+1 )
+\s;	{
+\s;		move(length);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+Teraz wystarczy tylko napisać główną funkcję, która będzie wywoływała funkcję \c;Part\n;. Na początku zmienna \c;rest\n; będzie miała wartość 25m. Pętla \c;while\n; będzie powtarzała instrukcje wewnątrz bloku tak długo, jak długo zmienna \c;rest\n; będzie większa od zera. Wewnątrz pętli najpierw należy wywołać funkcję \c;Part\n; (zobacz powyżej), a następnie odjąć 5m od długości L.
+\c;
+\s;extern void object::Funkcja2( )
+\s;{
+\s;	float	rest = 25;
+\s;	while ( rest > 0 )
+\s;	{
+\s;		Part(rest);
+\s;		rest = rest-5;
+\s;	}
+\s;}
+\n;
+Funkcja \c;Part\n; zostanie po raz ostatni wywołana z wartością \c;5\n;. Następnie wyrażenie \c;rest-5\n; przypisze zmiennej \c;rest\n; wartość zero i pętla \c;while\n; zatrzyma się.
+
+\b;Uwaga
+Można zauważyć, że w poprzednim ćwiczeniu główna funkcja była na początku programu, podczas gdy w tym ćwiczeniu jest ona na końcu programu, za funkcją \c;Part\n;. Kolejność funkcji w programie nie ma znaczenia, można je uszeregować dowolnie.
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

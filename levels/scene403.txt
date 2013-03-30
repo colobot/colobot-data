@@ -1,7 +1,5 @@
-Title.F      text="La panne"
-Resume.F     text="Poursuivez un robot fou."
-Title.E      text="System Failure"
-Resume.E     text="Pursue a rogue bot."
+Title.E text="System Failure"
+Resume.E text="Pursue a rogue bot."
 Instructions name="mhcrys3.txt"
 Satellite    name="micrys3.txt"
 Loading      name="mlcrys3.txt"
@@ -48,7 +46,7 @@ CreateObject pos= 168;  -5 dir=1.2 type=Quartz3
 CreateObject pos= 154; -26 dir=0.4 type=Quartz2
 CreateObject pos= 143; -32 dir=0.1 type=Quartz1
 
-// Arrivée :
+// ArrivÃ©e :
 //CreateObject pos=-233;-208 dir=0.0 type=PowerCell power=0.6
 //CreateObject pos=-239;-214 dir=0.0 type=PowerCell power=0.2
 CreateObject pos=-222;-218 dir=0.0 type=Quartz2
@@ -58,7 +56,7 @@ CreateObject pos=-239;-217 dir=0.4 type=Quartz3
 CreateObject pos=-244;-211 dir=1.2 type=Quartz3
 CreateObject pos=-241;-206 dir=1.2 type=Quartz2
 
-// Première combe (nord-est) :
+// PremiÃ¨re combe (nord-est) :
 CreateFog pos= 220; 235 height= 5 dim=15 delay=4.0 type=4
 CreateFog pos= 220; 235 height= 6 dim=15 delay=5.0 type=5
 CreateFog pos= 268; 156 height= 5 dim=20 delay=4.0 type=4
@@ -78,7 +76,7 @@ CreateFog pos= 242;  62 height= 6 dim=15 delay=5.0 type=5
 CreateFog pos= 257; 135 height=25 dim=99 delay=4.0 type=4
 CreateFog pos= 257; 135 height=26 dim=99 delay=5.0 type=5
 
-// Deuxième combe (sud) :
+// DeuxiÃ¨me combe (sud) :
 CreateFog pos=  25;-317 height= 5 dim=30 delay=4.0 type=4
 CreateFog pos=  25;-317 height= 6 dim=30 delay=5.0 type=5
 CreateFog pos=   9;-277 height=10 dim=50 delay=4.0 type=4

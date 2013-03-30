@@ -1,0 +1,60 @@
+\b;Instrukcja \c;radar\n;
+Przy użyciu instrukcji \c;radar()\n;, można znajdować różne obiekty, takie jak \l;wrogów\u object\mother;, roboty, budynki lub surowce.
+
+\b;Podstawowe użycie
+W nawiasach należy napisać \l;nazwę poszukiwanego obiektu\u cbot\category;. Wynik należy umieścić w zmiennej \l;typu\u cbot\type; \c;object\n;. Oto przykład znajdujący najbliższą mrówkę:
+\c;
+\s;// Na początku programu:
+\s;object  item; // deklaracja zmiennej
+\s;
+\s;// Znajdź najbliższą mrówkę
+\s;item = radar(AlienAnt);
+\n;
+\b;Dla specjalistów
+Składnia:
+\s;\c;radar ( category, angle, focus, min, max, way );\n;
+
+Wykrywa obiekty w zależnie od różnych parametrów. 
+
+\image radar1 8 8;
+Patrząc z góry, czerwona strefa odpowiada strefie, w której będą wykrywane obiekty. 
+
+\t;category: \c;\l;int\u cbot\int;\n;
+\l;Kategoria\u cbot\category; poszukiwanego obiektu. Na przykład szukając mrówki, należy napisać \c;radar (AlienAnt)\n;. 
+
+\t;angle: \c;\l;float\u cbot\float;\n; (domyślna wartość: \c;0\n;)
+Kierunek, w którym "patrzy" radar, w stopniach: 
+\c;  0\n; -> na wprost 
+\c;-90\n; -> ćwierć obrotu w prawo
+\c; 90\n; -> ćwierć obrotu w lewo
+
+\t;focus: \c;\l;float\u cbot\float;\n; (domyślna wartość: \c;360\n;)
+Kąt widzenia radaru, w stopniach. 
+
+\t;min: \c;\l;float\u cbot\float;\n; (domyślna wartość: \c;0\n;)
+Minimalna odległość wykrywania, w metrach. Obiekty znajdujące się bliżej nie będą wykryte. 
+
+\t;max: \c;\l;float\u cbot\float;\n; (domyślna wartość: \c;1000\n;)
+Maksymalna odległość wykrywania, w metrach. Obiekty znajdujące się dalej nie będą wykryte. 
+
+\t;way: \c;\l;float\u cbot\float;\n; (domyślna wartość: \c;1\n;)
+Określa sposób wykrywania obiektu. Przy wartości \c;1\n;, znajduje najbliższy obiekt w podanej strefie. Przy wartości\c;-1\n;, znajduje najdalszy obiekt w strefie. 
+
+\t;Typ wyniku: \c;\l;object\u cbot\object;\n;
+Zwraca pierwszy znaleziony obiekt odpowiadający podanej kategorii w podanej strefie. Jeśli nie znaleziono obiektu, zwracana jest wartość \c;\l;null\u cbot\null;\n;.
+
+\t;Uwaga
+Nie jest konieczne podawanie wszystkich parametrów. Oto dwa przykłady równoważnych instrukcji: 
+\c;
+\s;	radar(Titanium, 0, 360, 0, 1000);
+\s;	radar(Titanium);  // równoważne
+
+\s;	radar(Titanium, 0, 90, 0, 1000);
+\s;	radar(Titanium, 0, 90);  // równoważne
+\n;
+Jeśli pominięto jeden lub więcej parametrów, przyjmowane są wymienione powyżej wartości domyślne; tylko pierwszy parametr jest obowiązkowy.
+Zwykle określony jest tylko pierwszy parametr, np. \c;radar (AlienAnt)\n; wykrywa najbliższą mrówkę, niezależnie od jej położenia. 
+
+\t;Zobacz również
+\l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
+
