@@ -11,14 +11,13 @@ fi
 
 linguas="en fr"
 
-categories="defi free lost perso proto"
+categories="defi free win lost perso proto"
 for sc_i in $(seq 1 9); do
 	categories="$categories scene$sc_i"
 done
 for tr_i in $(seq 1 7); do
 	categories="$categories train$tr_i"
 done
-# Empty categories: "win"
 
 common_i18n_ext=xhtml
 
