@@ -1,19 +1,22 @@
 \b;Instruction \c;shield\n;
-Syntax:
-\s;\c;shield ( oper );\n;
+Syntaxe:
+\s;\c;shield ( oper, radius );\n;
 
-Activates or deactivates the shield of the \l;ahielder\u object\botshld;. You can of course move the shielder when the shield is active. It protects all objects that are inside the shielded sphere from enemy fire. The radius of the sphere can range between 10 and 25 meters.
- 
+Déploie ou replie le bouclier du \l;robot\u object\botshld;. Lorsque le bouclier est déployé, il est possible d'avancer. Le bouclier protège de toutes les attaques \l;ennemies\u object\mother; dans un rayon compris entre 10 et 25 mètres.
+
 \t;oper: \c;\l;float\u cbot\float;\n;
-\c;1\n; activates the shield.
-\c;0\n; deactivates the shield
-A normal \l;power cell\u object\power; fully charged can maintain the shield active during 20 seconds. When the cell is empty, the shield deactivates.
- 
+\c;1\n; déploie le bouclier.
+\c;0\n; replie le bouclier.
+Une \l;pile normale\u object\power; à pleine charge permet de maintenir le bouclier pendant 20 secondes avec le rayon maximal de 25 mètres. Lorsque la pile est plate, le bouclier se replie.
+
 \t;radius: \c;\l;float\u cbot\float;\n;
-Radius of the shield, ranging between 10 and 25 meters.
+Rayon du bouclier, compris entre 10 et 25 mètres.
 
-\t;Return value: \c;\l;void\u cbot\void;\n;
-None.
+\t;Valeur retournée: \c;\l;void\u cbot\void;\n;
+Aucune.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;shield\n; = bouclier
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

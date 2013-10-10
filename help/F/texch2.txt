@@ -1,36 +1,40 @@
-\b;Exercise
-In this exercise, the \l;information exchange posts\u object\exchange; along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal.
+\b;Exercice
+9 \l;bornes\u object\exchange; d'informations sont placées le long d'un chemin. Lorsque le \l;robot\u object\bottr; est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la borne suivante.
 
-\b;General principle
-	Repeat forever:
-	o  Retrieve the direction from the \l;exchange post\u object\exchange;.
-	o  Retrieve the distance from the \l;exchange post\u object\exchange;.
-	o  If no information could be retrieved, stop the program.
-	o  Execute the rotation.
-	o  Move forward to the next post.
+\b;Principe
+\s;o  Répéter 9 fois:
+\s;	o  Lire la direction dans la \l;borne\u object\exchange;.
+\s;	o  Lire la longueur dans la \l;borne\u object\exchange;.
+\s;	o  Tourner dans la direction obtenue.
+\s;	o  Avancer de la longueur obtenue.
 
-In order to repeat always, use a \c;\l;while\u cbot\while; (true)\n; loop. The instructions between the braces \c;{ }\n; will be repeated over and over, or until a \c;\l;break\u cbot\break;\n; instruction is executed.
-\s;\c;	while ( true )
+La répétition s'effectue avec une boucle \c;\l;repeat\u cbot\repeat;\n; comme vu précédemment:
+\s;\c;	repeat ( 9 )
+\s;	{
+\s;		\n;instructions à répéter ...\c;
+\s;	}
 \n;
-This time you need 2 \l;variables\u cbot\var;, one for the rotation angle, one for the distance, for example \c;dir\n; and \c;len\n; :
+La lecture de la \l;borne\u object\exchange; s'obtient avec \c;\l;receive\u cbot\receive;("name");\n;. Ceci n'est évidemment possible que lorsque le \l;robot\u object\bottr; est proche de la borne. L'orientation du robot n'a pas d'importance.
+Il faut définir deux \l;variables\u cbot\var; \c;dir\n; et \c;len\n;:
 \s;\c;	float  dir, len;
 \n;
-Then you can retrieve the information:
+Et ensuite leur assigner la direction à prendre et la longueur à avancer:
 \s;\c;	dir = receive("Direction");
 \s;\c;	len = receive("Length");
 \n;
-A variable of the \l;type\u cbot\type; \c;\l;float\u cbot\float;\n; can take a special value called \c;\l;nan\u cbot\nan;\n;. This value means that the variable contains no number (Not A Number).
-When there is no \l;exchange post\u object\exchange; nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables \c;dir\n; and \c;len\n; contain this value. You can test this with the instruction \c;\l;if\u cbot\if;\n;, and stop the program if necessary with the instruction \c;\l;break\u cbot\break;\n;:
-\s;\c;	if ( dir == nan )  break;
-\n;
-If the information retrieval from the \l;exchange post\u object\exchange; has been performed successfully, execute the rotation:
+Il faut ensuite tourner dans la bonne direction avec:
 \s;\c;	turn(dir);
 \n;
-And move forward:
+Puis avancer avec:
 \s;\c;	move(len);
 \n;
-\b;Remark
-You can click on an \l;information exchange post\u object\exchange; in order to read what information it contains. In this exercise, every exchange post contains two values called \c;"Direction"\n; and \c;"Length"\n;.
+\b;Remarque
+En cliquant sur une \l;borne\u object\exchange; pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient deux informations appelées \c;"Direction"\n; et \c;"Length"\n;.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\b;Et pendant qu'on y est
+N'oubliez pas que, pendant que le robot avance de borne en borne, vous pouvez changer de vue en cliquant sur l'icône \button 13; ou en appuyant sur la barre d'espace. Vous pouvez également sélectionner le \l;cosmonaute\u object\human; et suivre le robot à l'aide des \l;touches flèches\u command;. Mais attention, dans ce cas, à ne pas le heurter, ce qui le ferait dévier inéxorablement de sa trajectoire!
+
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u texch1; et \l;programmation\u cbot;.

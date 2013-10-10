@@ -1,34 +1,34 @@
-\b;Exercise
-Move the \l;titanium cube\u object\titan; on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60.
+\b;Exercice
+Déplacez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivée. On ne connaît pas la position du titanium. En revanche, on sait que la plate-forme est à la position x=10 et y=-60.
 
-\b;The instruction \c;goto\n;
-The winged bot can get across obstacles. The instruction \c;\l;goto\u cbot\goto;\n;, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.
-This instruction can actually receive a second parameter, which is not compulsory: the flying altitude. If no second parameter is given, the flying altitude will be set to the default value of 10m.
+\b;L'instruction \c;goto\n;
+Le robot volant permet de passer par dessus les obstacles. L'instruction \c;\l;goto\u cbot\goto;\n; élève les robots volants automatiquement, avec un décollage au début du déplacement et un atterrissage à la fin.
+En fait, cette instruction peut recevoir un deuxième paramètre optionnel qui est l'altitude de croisière. Mais il n'est même pas obligatoire de le donner, car une altitude de 10 mètres est prise si ce paramètre manque, et bien entendu, si le robot peut voler.
 
-Therefore, the instruction:
+Donc, l'instruction:
 \c;\s;goto(item.position);\n;
 
-Is equivalent to:
+Est équivalente à:
 \c;\s;goto(item.position, 10);\n;
 
-\b;The program
-Use the instruction \c;\l;radar\u cbot\radar;(Titanium);\n; in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:
-\c;
-\s;object  item;
+\b;Solution
+Pour trouver le titanium, utilisez l'instruction \c;\l;radar\u cbot\radar;(Titanium);\n;. La troisième ligne teste si le titanium est trouvé. Dans cet exercice, c'est inutile, mais il vaut mieux prendre l'habitude de faire ce genre de test systématiquement:
+\s;\c;object  item;
 \s;item = radar(Titanium);
 \s;if ( item == null )  return;
 \s;goto(item.position);
 \n;
-The variable \c;item\n; is of type \c;\l;object\u cbot\object;\n;. In order to know the exact location of the object described by the variable, just write \c;item.position\n;.
+La variable \c;item\n; est de type \c;\l;object\u cbot\object;\n;. Pour connaître la position de l'objet décrit par la variable, il faut donc écrire \c;item.position\n;.
 
-In order to take the titanium cube, use the instruction \c;\l;grab\u cbot\grab;()\n; without any parameter.
+Pour prendre le titanium, il suffit d'effectuer \c;\l;grab\u cbot\grab;()\n;, sans aucun paramètre.
+Pour déposer le titanium, il suffit d'effectuer \c;\l;drop\u cbot\drop;()\n;, sans aucun paramètre.
 
-In order to drop the titanium, use the instruction \c;\l;drop\u cbot\drop;()\n; without any parameter.
+Les coordonnées de la plate-forme d'arrivée sont connues: x=10 et y=-60. Il faut donc déclarer une \l;variable\u cbot\var; de type \l;point\u cbot\point;, puis lui assigner les bonnes coordonnées. Cette variable pourra ensuite être donnée comme argument à l'instruction \c;\l;goto\u cbot\goto;\n;.
+Remarque: la coordonnée \c;z\n; peut être ignorée dans le cas d'un robot qui ne vole pas!
 
-We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a \l;variable\u cbot\var; of the type \l;point\u cbot\point;, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction \c;\l;goto\u cbot\goto;\n;.
-Remark: You do not have to take care of the \c;z\n; coordinate in the case of a bot that can not fly.
+A vous de terminer le programme ...
 
-It is now up to you to finish the program...
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Exercice précédent\u tremova3; et \l;programmation\u cbot;.

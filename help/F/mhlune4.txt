@@ -1,20 +1,22 @@
-\b;From Mission Control
-We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going.
+\b;Instructions de Houston
+Nous ne savons pas avec précision où la première expédition s'est dirigée après avoir quitté la lune, ni les raisons de ce choix.
 
-Locate the \l;black box\u object\bbox; they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit.
+Trouvez et ramenez la \l;boîte noire\u object\bbox; qu'ils ont laissée avant de poursuivre votre exploration. Cette boîte noire contient les coordonnées de la planète vers laquelle l'expédition est partie.
 
-Your bot's \l;power cells\u object\power; are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional \l;power station\u object\station; on any flat surface.
+Les \l;piles\u object\power; de vos robots sont presque déchargées. Il faudra donc en priorité les recharger. Le satellite d'observation \button 186; nous transmet que le sous-sol lunaire est très riche en énergie. Vous pouvez donc construire une \l;station de recharge\u object\station; sur n'importe quelle zone plane.
 
-We have developed a program that will recharge the \l;power cell\u object\power; of a bot. Refer to the program page of your SatCom \button 53;.
+Nous vous avons envoyé un petit programme très utile pour recharger la \l;pile\u object\power; des robots. Consultez la page \button 53;.
 
-\b;Procedure
-1) You first need to build a \l;converter\u object\convert; that converts the chunks of titanium ore already in your possession into usable \l;titanium cubes\u object\titan;.
+\b;Marche à suivre
+1) Construisez un \l;convertisseur\u object\convert; avec le seul \l;cube de titanium\u object\titan; disponible.
+2) Ce bâtiment transforme le \l;minerai de titanium\u object\titanore; en \l;cubes de titanium\u object\titan; utilisables pour construire des bâtiments ou des robots.
+3) Construisez une \l;station de recharge\u object\station;.
+4) Construisez un \l;radar\u object\radar; pour voir la boîte noire sur la mini-carte.
+5) Après avoir rechargé la \l;pile\u object\power;, partez chercher la \l;boîte noire\u object\bbox; avec le \l;robot déménageur volant\u object\botgj;.
+6) Ramenez la boîte noire sur le \l;vaisseau\u object\base;.
+7) Décollez.
 
-2) You should then build both a \l;power station\u object\station; and a \l;radar\u object\radar; which will indicate the location of the black box on your mini map.
+\key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 
-3) With your power cells fully charged, retrieve the black box. It needs to be placed on the \l;spaceship\u object\base; platform for you to be able to take off.
-
-\key;\key help;\norm; allows you to review these instructions at all times on your personal SatCom \button 63;.
-
-\t;See also
-\l;Controls\u command; and \l;CBOT Language\u cbot;
+\t;Voir aussi
+\l;Commandes\u command;.
