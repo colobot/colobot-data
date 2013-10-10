@@ -1,20 +1,22 @@
 \b;Type \c;int\n;
-Use this type for variables that contain only whole numbers, negative or positive. For example: 
+Ce type permet de représenter des nombres entiers positifs ou négatifs. Par exemple:
 \c;
 \s;	12
 \s;	1000
 \s;	-4
 \n;
-To represent real numbers like 12.05 or -0.005, use the type \c;\l;float\u cbot\float;\n;.
+Pour représenter un nombre réel (12.05 ou -0.005 par exemple) il faut utiliser le type \c;\l;float\u cbot\float;\n;.
 
-\t;Attention
-Do not put space or colon signs inside a number. 
+\t;Remarque
+Vous ne pouvez pas utiliser d'espace ou d'apostrophe dans un nombre.
 
-\t;For specialists
-Numbers of the type \c;int\n; are represented with 32 bits.
-The highest number that can be represented is (2^31)-1, that is 2'147'483'647.
-The smallest number that can be represented is -(2^31), that is -2'147'483'648.
+\t;Le coin du spécialiste
+Sachez que ce type utilise 32 bits.
+La valeur maximale représentable est (2^31)-1, soit 2'147'483'647.
+La valeur minimale représentable est -(2^31), soit -2'147'483'648.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;integer\n; = nombre entier
 
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

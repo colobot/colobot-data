@@ -1,16 +1,14 @@
 \b;Type \c;nan\n;
-This special value indicates that a \l;variable\u cbot\var; of type \c;\l;int\u cbot\int;\n; or \c;\l;float\u cbot\float;\n; contains no number, but "nothing". 
-For example, if the instruction \c;\l;receive\u cbot\receive;\n; can not get the requested information, it returns \c;nan\n; :
+Cette valeur spéciale indique qu'une \l;variable\u cbot\var; de type \c;\l;int\u cbot\int;\n; ou \c;\l;float\u cbot\float;\n; ne contient pas un nombre, mais "rien".
+Par exemple, lorsque l'instruction \c;\l;receive\u cbot\receive;\n; n'arrive pas à recevoir l'information demandée, elle retourne \c;nan\n;:
 \c;
-\s;	value = receive("Length");
-\s;	if ( value == nan )  // not found ?
+\s;	value = receive("Longueur");
+\s;	if ( value == nan )  // pas trouvé?
 \s;	{
-\s;		
 \s;	}
 \n;
-\t;Dictionnary
-\c;nan\n; = Not A Number 
+\t;Dictionnaire anglais-français
+\c;nan\n; (not a number) = pas un nombre
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
-
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

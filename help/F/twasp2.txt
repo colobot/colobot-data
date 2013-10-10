@@ -1,60 +1,62 @@
-\b;Objective
-Bring down the flying wasps in a more efficient way than with the previous program.
+\b;Objectif
+Attraper des \l;guêpes\u object\wasp; en vol de manière plus efficace qu'avec le programme précédent.
 
-\b;Program
-Here is again the program of the previous exercise that shoots down all the wasps after many, many unsuccessful attempts:
+\b;Programme
+Voici encore une fois le programme de l'exercice précédent qui tire sur les guêpes:
 \c;
-\s;extern void object::Wasp1()
+\s;extern void object::Guêpes1()
 \s;{
-\s;	\l;object\u cbot\type;    item;
+\s;	object    chose;
 \s;	
-\s;	\l;aim\u cbot\aim;(0);
+\s;	aim(0);
 \s;	
-\s;	\l;while\u cbot\while; (true)
+\s;	while ( true )
 \s;	{
-\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienWasp, 0, 360, 0, 20) == null)
+\s;		while ( radar(AlienWasp, 0, 360, 0, 20) == null )
 \s;		{
-\s;			item = \l;radar\u cbot\radar;(AlienWasp);
-\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
-\s;			\l;motor\u cbot\motor;(1,1);
+\s;			chose = radar(AlienWasp);
+\s;			turn(direction(chose.position));
+\s;			motor(1,1);
 \s;			
-\s;			\l;jet\u cbot\jet;(0);
-\s;			\l;if\u cbot\if; (position.z > item.position.z)
+\s;			jet(0);
+\s;			if ( position.z > chose.position.z )
 \s;			{
-\s;				\l;jet\u cbot\jet;(-0.3);
+\s;				jet(-0.3);
 \s;			}
 \s;			
-\s;			\l;if\u cbot\if; (position.z < item.position.z - 1)
+\s;			if ( position.z < chose.position.z - 1 )
 \s;			{
-\s;				\l;jet\u cbot\jet;(0.3);
+\s;				jet(0.3);
 \s;			}
 \s;			
-\s;			\l;wait\u cbot\wait;(0.2);
+\s;			wait(0.2);
 \s;		}
-\s;		item = \l;radar\u cbot\radar;(AlienWasp);
-\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
-\s;		\l;fire\u cbot\fire;(1);
+\s;		chose = radar(AlienWasp);
+\s;		turn(direction(chose.position));
+\s;		fire(1);
 \s;	}
 \s;}
 \n;
-The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst.
+Comme vous l'avez constaté, le taux de réussite de ce programme n'est pas très élevé, car les guèpes ont souvent le temps de partir.
 
-Just before the shot, the program adjusts a last time the direction with \c;turn(direction(item.position));\n;. In order to follow the wasp during the burst, you have to "remember" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right.
+Le seul moyen pour rendre le programme plus efficace consiste à régler la vitesse des moteurs de gauche et de droite ainsi que du réacteur de manière à ce que le mouvement du robot pendant la salve de tir accompagne le mouvement de la cible.
 
-In order to "remember" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it \c;angle\n;, we must define the variable with the following line at the beginning of the program:
+Juste avant le tir, le programme fait un dernier ajustement avec un \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(chose.position));\n;. Pour suivre la guêpe, il faut mémoriser l'angle de cette dernière rotation: si l'angle est positif, il faut continuer à tourner à gauche pendant le tir; si l'angle est négatif, il faut continuer à tourner à droite.
+
+Pour mémoriser l'angle de la dernière rotation, nous avons besoin d'une variable qui puisse contenir un simple nombre. Nous définissons donc tout au début du programme une variable \c;angle\n; du type \c;\l;float\u cbot\float;\n;:
 \c;
-\s;	\l;float\u cbot\type; angle;
+\s;	float    angle;
 \n;
-The variable type \l;float\u cbot\type; is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the \l;text about variable types\u cbot\type; if you want to know more about the different types of variables and what they can contain.
+Référez-vous au texte sur les \l;types de variables\u cbot\type; pour en savoir plus.
 
-Just before the instruction \c;fire(1);\n;, instead of writing \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n;, we will put the rotation angle into the variable \c;angle\n;:
+Juste avant l'instruction \c;\l;fire\u cbot\fire;(1);\n;, au lieu de tourner directement de l'angle nécessaire, nous mettons la valeur dans la variable \c;angle\n;:
 \c;
-\s;	angle = direction(item.position);
+\s;	angle = direction(chose.position);
 \n;
-Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:
+Puis nous tournons de l'angle nécessaire, et nous réglons la puissance des moteurs pour que le robot continue le mouvement:
 \c;
 \s;	turn(angle);
-\s;	if (angle < 0)
+\s;	if ( angle < 0 )
 \s;	{
 \s;		motor(1,0.5);
 \s;	}
@@ -63,22 +65,21 @@ Then we perform the rotation, and we set the power of the motors so that the bot
 \s;		motor(0.5,1);
 \s;	}
 \n;
-The instruction \c;else\n; determines what instructions the program should execute if the condition stated in the \c;if\n; instruction is false.
+L'instruction \c;else\n; indique ce qu'il faut faire dans le cas où la condition de \c;\l;if\u cbot\if;\n; n'est pas remplie.
 
-Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:
+Puis il faut remettre les instructions qui règlent la puissance du réacteur pour que le robot suive le mouvement de la guêpe dans la direction verticale:
 \c;
 \s;	jet(0);
-\s;	if(position.z > item.position.z)
+\s;	if ( position.z > chose.position.z )
 \s;	{
 \s;		jet(-0.3);
 \s;	}
 \s;	
-\s;	if(position.z < item.position.z - 1)
+\s;	if ( position.z < chose.position.z - 1 )
 \s;	{
 \s;		jet(0.3);
 \s;	}
 \n;
-As you will see, this program is much more efficient than the previous one!
+Comme vous pourrez le constater, le taux de réussite est nettement plus élevé que dans l'exercice précédent.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!

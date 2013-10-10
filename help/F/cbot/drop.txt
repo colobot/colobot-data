@@ -1,29 +1,32 @@
 \b;Instruction \c;drop\n;
-The instruction \c;drop();\n; instructs the bot to drop whatever the operating arm is carrying on the ground, on the platform of a building or on the power cell location of a bot.
+L'instruction \c;drop()\n; permet de poser au sol, sur l'emplacement arrière d'un robot ou sur le socle d'un bâtiment, l'objet que le robot tient dans la pince de son bras manipulateur.
 
-\b;Basic use
-The instruction \c;drop();\n; written in this form drops the object in front of the bot. Here is a short program that grabs an object in front of the bot and drops it 5 meters further:
+\b;Utilisation courante
+L'instruction \c;drop();\n; écrite sous cette forme pose devant le robot l'objet que le robot tient. Voici par exemple comment saisir ce qui se trouve devant le robot pour le poser 5m plus loin:
 \c;
 \s;	\l;grab\u cbot\grab;();
 \s;	\l;move\u cbot\move;(5);
 \s;	drop();
 \n;
-\b;For specialists
-Syntax:
+\b;Pour spécialistes
+Syntaxe:
 \s;\c;drop ( oper );\n;
 
-This instruction appeals to the operating arm of a \l;grabber bot\u object\botgr;, in order to drop what it is holding.
+Actionne le bras manipulateur du \l;robot déménageur\u object\botgr;, pour déposer l'objet saisi.
 
-\t;oper: \c;\l;int\u cbot\int;\n; (default value\c;InFront\n;)
-Oper indicates where the robot should drop the object. If no indication is given, the object is dropped in front of the bot. 
-\c;InFront   \n;  Drops in front (default value).
-\c;Behind    \n;  Drops behind.
-\c;EnergyCell\n;  Drops on the bot's own power cell location.
+\t;oper: \c;\l;int\u cbot\int;\n; (\c;InFront\n; par défaut)
+Position à atteindre avec la bras manipulateur. Si cette indication n'est pas fournie, on suppose qu'il s'agit du cas le plus fréquent où l'objet est pris ou déposé devant le robot.
+\c;InFront   \n;  Dépose devant (par défaut).
+\c;Behind    \n;  Dépose derrière.
+\c;EnergyCell\n;  Dépose sa propre pile.
 
-\t;Return value: \c;\l;int\u cbot\int;\n;
-Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;drop();\n;.
-\c;== 0 \n;object was dropped
-\c;!= 0 \n;error, no object was dropped
+\t;Valeur retournée: \c;\l;int\u cbot\int;\n;
+Normalement, une erreur stoppe l'exécution du programme. Si l'instruction \c;drop\n; est précédée de \c;\l;errmode\u cbot\errmode;(0);\n;, une valeur nulle est retournée si tout est ok, ou valeur non nulle si une erreur est intervenue.
+\c;== 0 \n;objet déposé
+\c;!= 0 \n;erreur, pas d'objet déposé
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;drop\n; = laisser tomber
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

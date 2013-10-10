@@ -1,26 +1,26 @@
-\b;Instructions \c;if\n; and \c;else\n;
-With the instruction \c;if() {}\n; you can execute a set of instructions only if a certain condition is true. Write the condition in brackets \c;()\n;, and the instructions in braces \c;{}\n;.
+\b;Instructions \c;if\n; et \c;else\n;
+L'instruction \c;if() {}\n; permet d'exécuter des instructions seulement à une certaine condition. La condition est donnée entre parenthèses \c;()\n;, les instructions entre accolades \c;{}\n;.
 
-\b;Basic use
-Here is a concrete example: The bot will shoot only if the target is closer than 40 meters:
+\b;Utilisation courante
+Voici par exemple comment faire en sorte que le robot tire seulement si la distance à la cible est inférieure à 40m:
 \c;
-\s;	item = \l;radar\u cbot\radar;(AlienAnt);
-\s;	if (\l;distance\u cbot\dist;(position, item.position) < 40)
+\s;	chose = \l;radar\u cbot\radar;(AlienAnt);
+\s;	if (\l;distance\u cbot\dist;(position, chose.position) < 40)
 \s;	{
 \s;		fire(1);
 \s;	}
 \n;
-You can also test if an object exists at all. If the instruction \c;\l;radar\u cbot\radar;();\n; does not find the requested object, it returns the value \c;null\n;. So you can test if an object does not exists with the condition  \c;(item == null)\n;, or test if it exists with  \c;(item != null)\n;. Two equal signs \c;==\n; test equality, an exclamation mark followed by an equal sign \c;!=\n; test inequality. Here is a test that will go to rechage the \l;power cell\u object\power; only if there is a \l;power station\u object\station;:
+Si l'instruction \c;\l;radar\u cbot\radar;();\n; ne trouve pas l'objet cherché, elle rend la valeur \c;null\n;. Ainsi il est possible de tester si un objet n'existe pas avec \c;(chose == null)\n;, ou de tester si l'objet existe avec \c;(chose!= null)\n;. Deux signes égal \c;==\n; testent l'égalité, un point d'exclamation suivi d'un signe égal \c;!=\n; teste l'inégalité. Voici comment aller se recharger seulement s'il y a une station de recharge:
 \c;
-\s;	item = \l;radar\u cbot\radar;(PowerStation);
-\s;	if (item != null)
+\s;	chose = \l;radar\u cbot\radar;(PowerStation);
+\s;	if (chose!= null)
 \s;	{
-\s;		\l;goto\u cbot\goto;(item.position);
+\s;		\l;goto\u cbot\goto;(chose.position);
 \s;		\l;wait\u cbot\wait;(5);
 \s;	}
 \n;
-\b;For specialists
-Syntax:
+\b;Pour spécialistes
+Syntaxe:
 \s;\c;if ( condition )
 \s;{
 \s;	\n;Instructions A ...\c;
@@ -30,11 +30,15 @@ Syntax:
 \s;	\n;Instructions B ...\c;
 \s;}
 \n;
-With this conditional structure you can execute a \l;bloc\u cbot\bloc; A or a \l;bloc\u cbot\bloc; B depending on a \l;condition\u cbot\cond;. If the condition is true, bloc A is executed. If the condition is false, bloc B is executed. 
-Part \c;else { }\n; is not compulsory. 
+Cette structure de choix permet d'exécuter le \l;bloc\u cbot\bloc; A ou le \l;bloc\u cbot\bloc; B en fonction d'une \l;condition\u cbot\cond;. Si la condition est vraie, le bloc A est exécuté. Si elle est fausse, c'est le bloc B qui est exécuté.
+La partie \c;else { }\n; est facultative.
 
 \t;Attention
-Do not put a \l;semicolon\u cbot\term; at the end of the line \c;if ( )\n;.
+Il ne faut pas mettre un \l;point-virgule\u cbot\term; à la fin de la ligne \c;if ( )\n;.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;if  \n; = si
+\c;else\n; = autrement
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

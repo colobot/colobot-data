@@ -1,23 +1,23 @@
-\b;Blocks
-You can use braces \c;{ }\n; to group a number of instructions together in order to make one single block out of them, for example: 
+\b;Les blocs
+Les accolades \c;{ }\n; permettent de grouper plusieurs instructions dans un bloc. Par exemple:
 \c;
 \s;	{
 \s;		float  t;
 \s;		t = a;
 \s;		a = b;
-\s;		b = t;  // switches round a and b
+\s;		b = t;  // permute a et b
 \s;	}
 \n;
-Every instruction in the block is followed by a \l;semicolon\u cbot\term;, but the block itself is not. 
-Let us take the following example with the instruction \c;\l;if\u cbot\if;\n; to illustrate the use of blocks in a program:
+Chaque instruction dans le bloc est terminée par un \l;point-virgule\u cbot\term;, mais pas le bloc lui-même.
+Considérons l'exemple suivant utilisant l'instruction \c;\l;if\u cbot\if;\n;:
 \c;
 \s;	if ( a < b )
 \s;		\n;instruction 1\c;;
 \s;		\n;instruction 2\c;;
 \s;	\n;instruction 3\c;;
 \n;
-If the \l;condition\u cbot\cond; is true, instructions 1, 2 and 3 are performed. If the condition is false, only instruction 1 is ignored, instructions 2 and 3 are performed. The fact that instruction 2 is lined up with instruction 1 does not matter. 
-If you want to perform instructions 1 and 2 only if the condition is true, you have to bracket them together in a block: 
+Si la \l;condition\u cbot\cond; est vraie, les instructions 1, 2 et 3 sont exécutées. En revanche, si la condition est fausse, seule l'instruction 1 est sautée (on exécute donc les instructions 2 et 3). Le fait que l'instruction 2 soit alignée avec la 1 n'y change rien.
+Pour n'exécuter les instructions 1 et 2 que si la condition est vraie, il faut les grouper dans un bloc:
 \c;
 \s;	if ( a < b )
 \s;	{
@@ -26,8 +26,8 @@ If you want to perform instructions 1 and 2 only if the condition is true, you h
 \s;	}
 \s;	\n;instruction 3\c;;
 \n;
-Blocks may be needed with instructions \c;\l;if\u cbot\if;\n;, \c;\l;while\u cbot\while;\n; and \c;\l;for\u cbot\for;\n;, in order to group several instructions that should be performed only if a condition is true, or repeated several times. 
-You can fit blocks into other blocks, on as many levels as you need. Here is an example of imbrication on two levels :
+Les blocs sont très utilisés avec les instructions \c;\l;if\u cbot\if;\n;, \c;\l;while\u cbot\while;\n; et \c;\l;for\u cbot\for;\n;, pour grouper plusieurs instructions à exécuter ou à répéter.
+On imbrique très souvent des blocs dans d'autres blocs, et ceci à autant de niveaux que nécessaire. Voici un exemple d'imbrication à deux niveaux:
 \c;
 \s;	if ( a > b )
 \s;	{
@@ -40,10 +40,10 @@ You can fit blocks into other blocks, on as many levels as you need. Here is an 
 \s;		}
 \s;	}
 \n;
-You had better line up the open brace \c;{\n; with the closing brace \c;}\n; in order to improve readability, but it is not compulsory. The following example takes less space, is equivalent to the previous example, but it is not advisable to write your programs in the following style : 
+En général, pour des questions de lisibilité, on aligne verticalement l'accolade ouvrante \c;{\n; avec sa partenaire fermante \c;}\n;. Mais cela n'est pas obligatoire. L'exemple suivant, beaucoup plus compact mais déconseillé, est strictement équivalent à l'exemple précédent:
 \c;
 \s;	if(a>b) { int i=0; while(i<18) {
 \s;	move(10);turn(5);i=i+1; }}
 \n;
-\t;See also
-\l;Instructions\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
