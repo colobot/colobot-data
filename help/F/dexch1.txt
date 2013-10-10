@@ -1,19 +1,24 @@
 \b;Exercice
-Several \l;information exchange posts\u object\exchange; are standing along the way. When the bot is close enough to a post, it can read the instructions it contains. The \l;information exchange posts\u object\exchange; along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal.
+Des \l;bornes\u object\exchange; d'informations sont placées le long d'un chemin. Lorsque le \l;robot\u object\bottr; est proche d'une borne, il peut lire les informations qu'elle contient. Ces informations donnent la direction et la distance jusqu'à la borne suivante.
 
-\b;General principle
-	Always repeat:
-	o  Retrieve the direction from the \l;exchange post\u object\exchange;.
-	o  Retrieve the distance from the \l;exchange post\u object\exchange;.
-	o  If no information could be retrieved, stop the program.
-	o  Execute the rotation.
-	o  Move forward to the next post.
+\b;Principe
+	Répéter toujours:
+	o  Lire la direction dans la \l;borne\u object\exchange;.
+	o  Lire la longueur dans la \l;borne\u object\exchange;.
+	o  Si rien n'a été lu, stopper.
+	o  Tourner dans la direction obtenue.
+	o  Avancer de la longueur obtenue.
 
-\b;Useful instructions
-\c;\l;while\u cbot\while;\n; to repeat the instructions
-\c;\l;receive\u cbot\receive;\n; to get the information from a post
-\c;\l;move\u cbot\move;\n; to move the bot
-\c;\l;turn\u cbot\turn;\n; to turn the bot
+\b;Instructions utiles
+\c;\l;while\u cbot\while;\n; pour répéter des instructions
+\c;\l;receive\u cbot\receive;\n; pour lire les informations d'une borne
+\c;\l;move\u cbot\move;\n; pour avancer le robot
+\c;\l;turn\u cbot\turn;\n; pour tourner le robot
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\b;Pour tuer le temps
+N'oubliez pas que, pendant que le robot avance de borne en borne, vous pouvez changer de vue en cliquant sur l'icône \button 13; ou en appuyant sur la barre d'espace. Vous pouvez également sélectionner le \l;cosmonaute\u object\human; et suivre le robot. Mais attention à ne pas le heurter, ce qui le ferait dévier de sa trajectoire!
+
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Programmation\u cbot;.

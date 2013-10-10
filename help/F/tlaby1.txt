@@ -1,62 +1,71 @@
-\b;Exercise
-Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each.
+\b;Exercice
+Programmez le \l;robot\u object\bottr; pour qu'il avance sans se cogner dans un labyrinthe. On part du principe que le labyrinthe n'est pas connu d'avance, et qu'il n'est constitué que d'un chemin, sans aucune bifurcation ni cul-de-sac. Les cases du labyrinthe sont des carrés de 5 mètres de côté.
 
-\b;The instruction \c;radar\n;
-The instruction \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5);\n; will find any \l;barrier\u object\barrier; in front of the radar that is closer than 5m. Let us take a closer look at the five parameters used:
+\b;Principe
+Le programme s'occupe de résoudre le déplacement d'une case dans la suivante. Comme il y a un nombre de cases inconnu, il faudrait englober tout le programme dans une boucle \c;\l;repeat\u cbot\repeat;(9999)\n;. Bien que cela fonctionnerait parfaitement, il est préférable d'utiliser un autre concept. Pour répéter un \l;bloc\u cbot\bloc; d'instructions à l'infini, on écrit \c;\l;while\u cbot\while;(true)\n;. Le programme sera donc:
+\s;\c;while ( true )
+\s;{
+\s;	\n;o  Si rien devant, avancer\c;
+\s;	\n;o  Si rien à gauche, quart de tour à gauche puis avancer\c;
+\s;	\n;o  Si rien à droite, quart de tour à droite puis avancer\c;
+\s;}
+\n;
+\b;L'instruction \c;radar\n;
+L'instruction \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5);\n; teste la présence d'une \l;barrière\u object\barrier; devant le robot. Détaillons les cinq paramètres utilisés:
 
 \s;\c;Barrier\n;
-\l;Category\u cbot\category; of the object that the radar must look for, i.e. a barrier.
+\l;Catégorie\u cbot\category; de l'objet cherché. Il s'agit ici d'une barrière.
 
 \s;\c;0\n;
-Direction of the radar. \c;0\n; means that the radar must search straight forward.
+Direction dans laquelle est braqué le radar. \c;0\n; signifie que le radar est braqué droit devant.
 
 \s;\c;45\n;
-Opening angle in degrees. With an opening angle of 45 degrees, barriers situated between 22.5 degrees to the left and 22.5 degrees to the right will be detected.
+Angle d'ouverture en degrés. On détecte donc les barrières situées entre 22.5 degrés à gauche et 22.5 degrés à droite.
 
 \s;\c;0\n;
-Minimum detection distance. \c;0\n; means that even object that are very close to the bot will be detected.
+Distance minimale de détection. \c;0\n; signifie que même les objets très proches sont détectés.
 
 \s;\c;5\n;
-Maximum detection range. Any barrier situated beyond \c;5\n; meters will not be detected.
+Distance maximale de détection. Au delà de \c;5\n; mètres, les barrières sont ignorées. Donc, une barrière située une case plus loin dans le labyrinthe sera ignorée, ce qui est indispensable.
 
-To take another example, \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; will direct the radar 90 degrees to the left, in order to test if the way to the left is free.
+Par exemple, \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; dirige le radar 90 degrés sur la gauche, pour tester si le chemin est libre à gauche.
 
 \image tlaby1 10 10;
-\b;General principle
-The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad.
-o  If there is nothing in front, move forward.
-o  If there is nothing on the left side, quarter turn left, move forward.
-o  If there is nothing on the right side, quarter turn right, move forward.
-
-1) First of all declare three \l;variables\u cbot\var; of type \c;\l;object\u cbot\object;\n;, that we call \c;front\n;, \c;left\n; and \c;right\n;. Variables of this type can contain the description of any object, for example of a barrier found by the radar.
+\b;Programme
+1) On déclare trois \l;variables\u cbot\var; de type \c;\l;object\u cbot\object;\n;, appelées \c;front\n;, \c;left\n; et \c;right\n;. Ce type indique une variable qui décrit l'objet trouvé.
 \s;\c;	object   front, left, right;\n;
 
-2) Look for barriers in all three directions, and put the result of the \c;radar\n; instruction into the three variables defined at point 1). If the radar finds nothing, the variable will contain the value \c;\l;null\u cbot\null;\n;.
+2) On teste la présence des barrières dans les trois directions. Les objets trouvés seront contenus dans les trois variables définies au point 1). Si l'objet n'existe pas, la variable prend la valeur \c;\l;null\u cbot\null;\n;.
 \s;\c;	front = radar(Barrier,   0, 45, 0, 5);
 \s;	left  = radar(Barrier,  90, 45, 0, 5);
 \s;	right = radar(Barrier, -90, 45, 0, 5);
 \n;
-3) Test if the way is free in front of the bot with the instruction \c;\l;if\u cbot\if;\n;. If the test is true, the instructions in braces \c;{ }\n; will be executed, otherwise the execution will resume after the closing brace \c;}\n;.
-The instruction \c;return\n; leaves the program: the job is done.
+3) On teste s'il est possible d'avancer avec \c;\l;move\u cbot\move;\n; à l'aide d'un branchement conditionnel \c;\l;if\u cbot\if;\n;. Si le test est vrai, les instructions entre les accolades \c;{ }\n; sont exécutées. Si le test est faux, les instructions entre \c;{ }\n; sont sautées.
+Le \c;\l;continue\u cbot\continue;\n; stoppe l'exécution des instructions suivantes dans la boucle \c;\l;while\u cbot\while;\n;, car le travail à effectuer est alors terminé. On recommencera la boucle \c;while\n; depuis le début.
 \s;\c;if ( front == null )
 \s;{
 \s;	move(5);
-\s;	return;
+\s;	continue;
 \s;}
 \n;
-4) Test if it is possible to turn left; if so, turn left with the instruction \c;\l;turn\u cbot\turn;\n; and move 5m forward.
+4) On teste s'il est possible de tourner à gauche avec \c;\l;turn\u cbot\turn;\n;.
 \s;\c;if ( left == null )
 \s;{
 \s;	turn(90);
 \s;	move(5);
-\s;	return;
+\s;	continue;
 \s;}
 \n;
-5) Test if it is possible to turn right.
+5) On teste s'il est possible de tourner à droite.
     ...
 
 \b;Attention
-The instruction \c;if ( )\n; must never be followed by a \l;semicolon\u cbot\term;.
+La ligne \c;if ( )\n; ne doit jamais être suivie d'un \l;point-virgule\u cbot\term;.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\b;Enregistrer
+Lorsque le programme est terminé et qu'il fonctionne, il est conseillé de l'enregistrer, car vous en aurez encore besoin dans l'exercice suivant. Pour cela, cliquez sur \button 58; dans l'éditeur de programmes, puis donnez un nom à votre programme.
+
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u ttarg2; et \l;programmation\u cbot;.

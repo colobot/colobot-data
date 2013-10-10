@@ -1,13 +1,12 @@
-\b;Instruction \c;public\n; (for specialists)
-This instruction has two distinct purposes¦:
+\b;Instruction \c;public\n; (pour spécialistes)
+Cette instruction a deux rôles distincts:
 
-1) Make a function available to other bots.
-2) Make a class member accessible from outside the class definition.
+1) Rendre une fonction accessible de tous les robots.
+2) Rendre une méthode d'une classe accessible de l'extérieur.
 
-\b;Instruction \c;public\n; for functions
-If you put \c;public\n; before a \l;function\u cbot\function; definition, you can make the function available to programs in other bots in the same mission.
-
-For example in the first bot we would have¦:
+\b;Instruction \c;public\n; pour les fonctions
+La présence de ce mot rend la \l;fonction\u cbot\function; disponible partout dans la mission. Cette fonction peut alors être utilisée dans le programme d'un autre robot.
+Par exemple, dans un premier robot:
 \c;
 \s;public void object::Segment(float dist, float angle)
 \s;{
@@ -15,7 +14,7 @@ For example in the first bot we would have¦:
 \s;	turn(angle);
 \s;}
 \n;
-And in another bot we would have¦:
+Et dans un autre robot:
 \c;
 \s;extern void object::Square( )
 \s;{
@@ -26,26 +25,25 @@ And in another bot we would have¦:
 \s;	}
 \s;}
 \n;
-If you have declared a function \c;public\n;, you cannot define a function with the same name and arguments in another bot of the same mission.
+Il ne peut y avoir qu'une seule fonction ayant le même nom, parmi tous les programmes des robots de la mission en cours.
+Si le robot qui contenait la fonction déclarée \c;public\n; est détruit, les autres robots qui utilisent cette fonction sont stoppés sur une erreur!
 
-If a bot containing a \c;public\n; function is destroyed, the other bots that make use of this function will be stopped with an error.
-
-\b;Instruction \c;public\n; for classes
-\l;Class\u cbot\class; members can be public (by default) or \l;privat\u cbot\private;. A member can be declared private by putting \c;private\n; before the member type. Private members are not accessible from outside the class definition.
+\b;Instruction \c;public\n; pour les classes
+Les éléments déclarés dans une \l;classe\u cbot\class; peuvent être publics (par défaut) ou \l;privés\u cbot\private;. Un élément est privé en plaçant \c;private\n; devant le type de l'élément. Dès lors, ces éléments ne seront plus accessibles depuis l'extérieur de la définition de la classe elle-même.
 \c;
-\s;public class MyClass
+\s;public class MaClasse
 \s;{
-\s;	int    b;                // public by default
-\s;	public int a;            // also public 
-\s;	private point position;  // privat
+\s;	int    b;                // public par défaut
+\s;	public int a;            // public aussi
+\s;	private point position;  // privé
 \s;}
 \s;void Test()
 \s;{
-\s;	MyClass item;
+\s;	MaClasse item;
 \s;	item.a = item.b = 12;      // ok
-\s;	message( item.position );  // this is an error
+\s;	message( item.position );  // erreur
 \s;}
 \n;
-\t;See also
-\c;\l;class\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;functions\u cbot\function;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\c;\l;class\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

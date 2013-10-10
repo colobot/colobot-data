@@ -1,11 +1,14 @@
 \b;Instruction \c;abstime\n;
-Syntax¦:
+Syntaxe:
 \s;\c;abstime ( );\n;
 
-Return the time in seconds elapsed since the beginning of the mission.
+Retourne le temps absolu depuis lequel la partie est commencée.
 
-\t;Return: \c;\l;float\u cbot\float;\n;
-Time in seconds.
+\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+Temps en secondes.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;time\n; = temps
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,25 +1,27 @@
 \b;Type \c;float\n;
-Use this type for most variables that contains numbers. Variables of this type can contain positive and negative numbers, whole or real numbers, for example: 
+Ce type permet de représenter, de manière approchée,  des nombres réels positifs ou négatifs. Par exemple:
 \c;
 \s;	12.9
 \s;	1.125
 \s;	0.002
 \s;	-4.1
 \n;
-If you need only whole numbers (f. ex. 12 or -5000), you should rather use the type \c;\l;int\u cbot\int;\n;.
+Pour représenter un nombre entier (12 ou -5000 par exemple) il faut utiliser le type \c;\l;int\u cbot\int;\n;.
 
-\t;Attention
-Do not insert space or colon characters into a number. To separate the whole part from the fractional part, use a dot. 
-\c;
-\s;   Write       and not
-\s;   12.56       12 . 56
-\s;  -54.34       -54,34
-\s;12895.69    12,895.69
-\n;
-\t;For specialists
-Floating point numbers are represented in Colobot with 32 bits.
-The highest value that can be represented is 3.4E+38.
-The smallest value that can be represented is 3.4E-38.
+\t;Remarque
+Vous ne pouvez pas utiliser d'espace ou d'apostrophe dans un nombre.
+En informatique, la virgule est désignée par un point.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\c;4. \n;représente un nombre réel.
+\c;4  \n;représente un nombre entier.
+
+\t;Le coin du spécialiste
+Sachez que ce type utilise 32 bits.
+La valeur maximale représentable est 3.4E+38.
+La valeur minimale représentable est 3.4E-38.
+
+\t;Dictionnaire anglais-français
+\c;float\n; = flotter
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

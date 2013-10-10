@@ -1,18 +1,23 @@
 \b;Instruction \c;receive\n;
-Syntax:
+Syntaxe:
 \s;\c;receive ( name, power );\n;
 
-Retrieves an information from the closest \l;information exchange post\u object\exchange;.
+Reçoit une information de la \l;borne\u object\exchange; la plus proche.
 
 \t;name: \c;string\n;
-Name of the information required from the exchange post. This name is a string: it must be written in quotation marks "¦".
+Nom de l'information à lire dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets "".
 
 \t;power: \c;float\n;
-Power of the receiver, which corresponds to maximal distance between the receiver and the exchange post. If the distance is longer, no information is received. Default value is 10 metres.
+Puissance du récepteur, qui correspond à la distance maximale jusqu'où peut être la borne. La valeur par défaut est de 10 mètres.
 
-\t;Return value: \c;\l;float\u cbot\float;\n;
-Value of the retrieved information. If no exchange post is close enough, or if the name of the requested information does not exist in the exchange post, the value \c;nan\n; is returned.
+\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+Valeur de l'information lue. Si aucune borne d'informations n'est à proximité, ou si le nom de l'information à lire n'existe pas dans la borne, la valeur \c;nan\n; est retournée.
 
-\t;See also
-\c;\l;send\u cbot\send;\n;, \c;\l;testinfo\u cbot\testinfo;\n; and \c;\l;deleteinfo\u cbot\delinfo;\n;.
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;receive\n; = recevoir
+\c;name   \n; = nom
+\c;power  \n; = puissance
+
+\t;Voir aussi
+\c;\l;send\u cbot\send;\n;, \c;\l;testinfo\u cbot\testinfo;\n; et \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

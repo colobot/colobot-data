@@ -1,38 +1,37 @@
-\b;Programs dispatched by Houston
-Below is one of the programs that has been developed by our engineers.
-An upgrade on the previous program: the \l;grabber\u object\botgr;, on its way back from the converter, makes a stop, if necessary, at the \l;power station\u object\station; to recharge its power cell.
+\b;Programmes envoyés par Houston
+Voilà une version améliorée du programme précédent. En effet, le robot refait le plein d'énergie sur une \l;station de recharge\u object\station; après avoir déposé le minerai, si nécessaire.
 
-This program also works on \l;winged grabbers\u object\botgj;, if the \l;derrick\u object\derrick; is on another island than the \l;converter\u object\convert;.
+Ce programme fonctionne aussi avec des \l;déménageurs volants\u object\botgj;, dans le cas où le \l;derrick\u object\derrick; serait sur une autre île que le \l;convertisseur\u object\convert;.
 \c;
-\s;extern void object::CollectTitanium2()
+\s;extern void object::ApporteTitanium2()
 \s;{
-\s;	// 1) Variable definition.
-\s;	\l;object\u cbot\type;  item;            // info. about objects
+\s;	// 1) Définition des variables.
+\s;	\l;object\u cbot\type;	chose;               // déclaration variable
 \s;	
-\s;	// 2) Go to the titanium ore and grab it.
-\s;	item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// look for titanium ore
-\s;	\l;goto\u cbot\goto;(item.position);     // go to the position
-\s;	\l;grab\u cbot\grab;();                  // grab the titanium
+\s;	// 2) Va vers le minerai et le prend.
+\s;	chose = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);  // cherche le minerai
+\s;	\l;goto\u cbot\goto;(chose.position);        // va à la position
+\s;	\l;grab\u cbot\grab;();                      // prend le titanium
 \s;	
-\s;	// 3) Go to the converter and drop it.
-\s;	item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // look for converter
-\s;	\l;goto\u cbot\goto;(item.position);     // go to the position
-\s;	\l;drop\u cbot\drop;();                  // drop the titanium
-\s;	\l;move\u cbot\move;(-2.5);              // step back 2.5 m
-\s;		
-\s;	// 4) If power cell half empty, recharges.
-\s;	if ( energyCell.energyLevel < 0.5 )
-\s;	{                               // if so:
-\s;		item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // look for station
-\s;		\l;goto\u cbot\goto;(item.position);        // go there
-\s;		\l;wait\u cbot\wait;(5);                    // wait
+\s;	// 3) Va vers le convertisseur et pose le minerai.
+\s;	chose = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;);    // cherche convertisseur
+\s;	\l;goto\u cbot\goto;(chose.position);        // va à la position
+\s;	\l;drop\u cbot\drop;();                      // pose le titanium
+\s;	\l;move\u cbot\move;(-2.5);                  // recule de 2.5 m.
+\s;	
+\s;	// 4) Si pile à moitié déchargée, va recharger.
+\s;	if ( \l;energyCell.energyLevel\u cbot\object; < 0.5 ) 
+\s;	{                                // si oui:
+\s;		chose = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // cherche station
+\s;		\l;goto\u cbot\goto;(chose.position);        // va recharger
+\s;		\l;wait\u cbot\wait;(5);                     // attend
 \s;	}
 \s;}
 \n;
 \b;Archives
-Index of the programs dispatched in former missions:
+Résumé des programmes déjà reçus:
 
-o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;ApporteTitanium1\u mlcrys1;\n;
 o  \c;\l;Recharge2\u mltropi3;\n;
 o  \c;\l;Recharge1\u mllune4;\n;
-o  \c;\l;SwitchCell1\u mllune1;\n;
+o  \c;\l;EchangePile1\u mllune1;\n;

@@ -1,10 +1,12 @@
 \b;Instruction \c;deletefile\n;
-The deletefile instruction deletes an existing file in the files/ folder. 
+L'instruction \c;deletefile();\n; supprime un fichier dans le dossier files/.
 
-Files can only be deleted in the files/ folder which is located in the folder where Colobot has been installed. You cannot not delete files that are located elsewhere than in the files/ folder.
-
-Syntax¦:
+Syntaxe:
 \s;\c;deletefile ( filename );\n;
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;delete\n; = effacer
+\c;file  \n; = fichier
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
