@@ -1,24 +1,27 @@
-\b;From Mission Control
-Your \l;spaceship\u object\base; is now standing on the launching pad, ready for takeoff.
+\b;Objectif
+Votre \l;vaisseau spatial\u object\base; est arrivé sur l'aire de lancement. Votre dernière mission d'entraînement consiste à l'équiper de sa \l;boîte noire\u object\bbox;.
 
-The last drill left for \l;you\u object\human; to perform before embarking on your journey is to equip your spaceship with its \l;black box\u object\bbox;. The only way to reach the \l;black box\u object\bbox; is by a steep path that can only be climbed by a \l;tracked grabber\u object\botgc; which you need to build.
+Celle-ci se trouve sur une montagne proche. Le seul moyen d'accès est une route à forte déclivité, qui ne peut être pratiquée qu'avec un robot équipé de chenilles que vous devez construire.
 
-Unfortunately your \l;bot factory\u object\factory; hasn't yet got the capacity to assemble this type of bot. You need to request your \l;research center\u object\research; to come up with a blueprint for this particular propeller.
+Votre \l;fabrique de robots\u object\factory; n'a pas les informations nécessaires pour produire ce type de robot. Activez votre \l;centre de recherches\u object\research;, doté d'une énorme puissance de calcul, afin qu'il fournisse les plans de ce nouveau mode de propulsion.
 
-\b;Procedure
-1) Power the research center with one of the green \l;power cells\u object\power;.
-2) Click on the <tracked bot research program> button \button 64;.
-3) Drop a \l;titanium cube\u object\titan; in the center of the \l;bot factory\u object\factory; and build a \l;tracked grabber\u object\botgc;.
-4) Power and radio-control the \l;tracked grabber\u object\botgc; to the top of the southwest-oriented mountain.
-5) Bring the black box back aboard your spaceship.
-6) Don't forget to take the \l;wheeled grabber\u object\botgr; along. These bots may prove very useful in the future.
-7) Climb aboard the \l;spaceship\u object\base;.
-11) Select the \l;spaceship\u object\base; and take off \button 28;.
+\b;Marche à suivre
+1) Amenez une \l;pile\u object\power; sur le \l;centre de recherches\u object\research;.
+2) Sélectionnez le centre de recherches et cliquez sur le bouton <Recherche les chenilles> \button 64;.
+3) Déposez un bloc de \l;titanium\u object\titan; dans la \l;fabrique de robots\u object\factory;.
+4) Reculez, puis sélectionnez la fabrique.
+5) Cliquez sur le bouton <Fabrique un déménageur à chenilles> \button 138;.
+6) Equipez le \l;robot déménageur\u object\botgc; d'une \l;pile\u object\power;.
+7) Prenez les commandes du \l;robot déménageur à chenilles\u object\botgc;, et faites-lui gravir la montagne située au sud-ouest pour chercher la \l;boîte noire\u object\bbox;.
+8) Amenez cette boîte noire sur votre \l;vaisseau spatial\u object\base;.
+9) Prenez avec vous le \l;robot déménageur à roues\u object\botgr;, qui sera très utile par la suite.
+10) Prenez place sur le vaisseau spatial.
+11) Sélectionnez le \l;vaisseau spatial\u object\base;
+12) Décollez \button 28;.
 
+Remarque: Pour travailler plus efficacement, vous pouvez utiliser le \l;robot déménageur\u object\botgr;.
 
-Please note: To work more efficiently, you can use the \l;wheeled grabber\u object\botgr;.
+\key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 
-\key;\key help;\norm; allows you to review these instructions at all times on your personal SatCom \button 63;.
-
-\t;See also
-\l;Controls\u command;
+\t;Voir aussi
+\l;Commandes\u command;.

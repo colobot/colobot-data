@@ -1,20 +1,24 @@
 \b;Instruction \c;strfind\n;
-Find a substring in a string and returns the position of the first substring found or \l;nan\u cbot\nan; if the substring has not been found.
+Cette instruction cherche une sous-chaîne dans une chaîne et retourne la position du début de la sous-chaîne.
 
-Syntax¦:
+Syntaxe:
 \s;\c;strfind ( string, sub );\n;
 
 \t;string: \c;\l;string\u cbot\string;\n;
-String we are searching in.
+Chaîne dans laquelle on effectue la recherche.
 
 \t;sub: \c;\l;string\u cbot\string;\n;
-Substring we are searching for.
+Sous-chaîne recherchée.
 
-Examples¦:
-\s;\c;	int pos = strfind("abcdef", "ab"); // pos will be 0
-\s;	int pos = strfind("abcdef", "de"); // pos will be 3
-\s;	int pos = strfind("abcdef", "xy"); // pos will be \l;nan\u cbot\nan;
+Exemples:
+\s;\c;	int pos = strfind("abcdef", "ab");  // pos vaut 0
+\s;	int pos = strfind("abcdef", "de");  // pos vaut 3
+\s;	int pos = strfind("abcdef", "xy");  // pos vaut \l;nan\u cbot\nan;
 \n;
-\t;See also
+\t;Dictionnaire anglais-français
+\c;string\n; = chaîne de caractères
+\c;find  \n; = trouve
+
+\t;Voir aussi
 \c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

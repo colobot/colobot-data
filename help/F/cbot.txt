@@ -1,91 +1,100 @@
-\b;Programming - the CBOT language
-The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.
-This language is made up of instructions (see below), \l;blocks\u cbot\bloc;, \l;functions\u cbot\function;, \l;classes\u cbot\class;, \l;variables\u cbot\var;, \l;arrays\u cbot\array;, \l;expressions\u cbot\expr; and \l;conditions\u cbot\cond;.
+\b;Programmation - le langage CBOT
+Le langage CBOT est très proche du C++ et du Java. Il est adapté à COLOBOT, et également adapté à une approche pédagogique simple.
+Ce langage est constitué d'instructions, de \l;blocs\u cbot\bloc;, de \l;fonctions\u cbot\function;, de \l;classes\u cbot\class;, de \l;variables\u cbot\var;, de \l;tableaux\u cbot\array;, d'\l;expressions\u cbot\expr; et de \l;conditions\u cbot\cond;.
 
-o  \c;\token;Instructions\norm;\n;
-In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. 
+o  \c;\token;Instruction\norm;\n;
+Dans l'éditeur de programmes, une instruction du langage est coloriée en orange. Si une instruction n'est pas coloriée, c'est que son nom est mal orthographié. Il faut par exemple frapper tout le nom en minuscules.
 
 o  \c;\type;Type\norm;\n;
-The \l;type\u cbot\type; of a variable appears with a green background. 
+Le \l;type\u cbot\type; d'une variable est colorié en vert.
 
-o  \c;\const;Constants\norm;\n;
-Constants like \l;categories\u cbot\category; are displayed with a red background. 
+o  \c;\const;Constante\norm;\n;
+Une constante telle qu'une \l;catégorie\u cbot\category; est coloriée en rouge.
 
-\t;Instructions in the CBOT language:
-\c;\l;extern\u cbot\extern;     \n;Indicate the main function
-\c;\l;if\u cbot\if;         \n;Choice structure
-\c;\l;else\u cbot\if;       \n;Alternative choice structure
-\c;\l;for\u cbot\for;        \n;Loop structure
-\c;\l;while\u cbot\while;      \n;Control structure
-\c;\l;do\u cbot\do;         \n;Control structure
-\c;\l;break\u cbot\break;      \n;Exit from a loop
-\c;\l;continue\u cbot\continue;   \n;Continues the loop
-\c;\l;return\u cbot\return;     \n;Exit from a function
-\c;\l;sizeof\u cbot\sizeof;     \n;Size of an array
+\t;Instructions générales du langage:
+\c;\l;extern\u cbot\extern;     \n;Indique le programme principal
+\c;\l;if\u cbot\if;         \n;Structure de choix
+\c;\l;else\u cbot\if;       \n;Structure de choix
+\c;\l;repeat\u cbot\repeat;     \n;Structure de répétition
+\c;\l;for\u cbot\for;        \n;Structure de répétition
+\c;\l;while\u cbot\while;      \n;Stucture de contrôle
+\c;\l;do\u cbot\do;         \n;Stucture de contrôle
+\c;\l;break\u cbot\break;      \n;Sortie d'un boucle
+\c;\l;continue\u cbot\continue;   \n;Continue une boucle
+\c;\l;return\u cbot\return;     \n;Sort d'une fonction
+\c;\l;sizeof\u cbot\sizeof;     \n;Taille d'un tableau
 
-\t;Specific instructions for bots:
-\c;\l;radar\u cbot\radar;      \n;Object detection
-\c;\l;direction\u cbot\direct;  \n;Calculates a rotation angle
-\c;\l;distance\u cbot\dist;   \n;Calculates a distance
-\c;\l;distance2d\u cbot\dist2d; \n;Calculates a distance
-\c;\l;wait\u cbot\wait;       \n;Waits
-\c;\l;move\u cbot\move;       \n;Moves forward or backward
-\c;\l;turn\u cbot\turn;       \n;Turns
-\c;\l;goto\u cbot\goto;       \n;Goes to a given position
-\c;\l;motor\u cbot\motor;      \n;Direct motor control
-\c;\l;jet\u cbot\jet;        \n;Direct jet engine control
-\c;\l;message\u cbot\message;    \n;Displays a message
-\c;\l;retobject\u cbot\retobj;  \n;Returns an object from a function
-\c;\l;errmode\u cbot\errmode;    \n;Error treatement control
-\c;\l;abstime\u cbot\abstime;    \n;Returns the absolute time
+\t;Instructions pour les robots:
+\c;\l;find\u cbot\find;       \n;Va vers un objet
+\c;\l;detect\u cbot\detect;     \n;Détection simple d'objets
+\c;\l;radar\u cbot\radar;      \n;Détection généralisée d'objets
+\c;\l;direction\u cbot\direct;  \n;Calcule une direction
+\c;\l;distance\u cbot\dist;   \n;Calcule une distance
+\c;\l;distance2d\u cbot\dist2d; \n;Calcule une distance "à plat"
+\c;\l;wait\u cbot\wait;       \n;Attend
+\c;\l;move\u cbot\move;       \n;Avance ou recule
+\c;\l;turn\u cbot\turn;       \n;Tourne
+\c;\l;goto\u cbot\goto;       \n;Va à une position donnée
+\c;\l;motor\u cbot\motor;      \n;Commande directe des moteurs
+\c;\l;jet\u cbot\jet;        \n;Commande directe du réacteur
+\c;\l;message\u cbot\message;    \n;Affiche un message
+\c;\l;retobject\u cbot\retobj;  \n;Retourne un objet
+\c;\l;errmode\u cbot\errmode;    \n;Mode de gestion des erreurs
+\c;\l;abstime\u cbot\abstime;    \n;Retourne le temps absolu
 
-\t;Instructions about topology:
-\c;\l;space\u cbot\space;      \n;Calculates a free space
-\c;\l;topo\u cbot\topo;       \n;Returns the altitude of a point
-\c;\l;flatground\u cbot\flatgrnd; \n;Returns radius of a flat area
+\t;Instructions pour dessiner:
+\c;\l;pendown\u cbot\pendown;    \n;Abaisse le crayon du robot
+\c;\l;penup\u cbot\penup;      \n;Relève le crayon du robot
+\c;\l;pencolor\u cbot\pencolor;   \n;Choix de la couleur
+\c;\l;penwidth\u cbot\penwidth;   \n;Choix de l'épaisseur du trait
 
-\t;Instructions specific to some bots:
-\c;\l;grab\u cbot\grab;       \n;Picks up an object
-\c;\l;drop\u cbot\drop;       \n;Puts down an object
-\c;\l;sniff\u cbot\sniff;      \n;Sounds the subsoil
-\c;\l;thump\u cbot\thump;      \n;Overturns alien insects
-\c;\l;recycle\u cbot\recycle;    \n;Recycles a derelict bot
-\c;\l;shield\u cbot\shield;     \n;Extends or withdraws the shield
-\c;\l;fire\u cbot\fire;       \n;Fires the cannon
-\c;\l;aim\u cbot\aim;        \n;Vertical angle of the cannon
+\t;Instructions sur le terrain:
+\c;\l;space\u cbot\space;      \n;Calcule une position libre
+\c;\l;topo\u cbot\topo;       \n;Retourne l'élévation d'un point
+\c;\l;flatground\u cbot\flatgrnd; \n;Retourne le rayon d'une zone plate
 
-\t;Specific instructions for exchange posts:
-\c;\l;receive\u cbot\receive;    \n;Receives an information
-\c;\l;send\u cbot\send;       \n;Sends a new information
-\c;\l;testinfo\u cbot\testinfo;   \n;Tests if an information exists
-\c;\l;deleteinfo\u cbot\delinfo; \n;Deletes an existing information
+\t;Instructions spécifiques à certains robots:
+\c;\l;grab\u cbot\grab;       \n;Prend un objet
+\c;\l;drop\u cbot\drop;       \n;Dépose un objet
+\c;\l;sniff\u cbot\sniff;      \n;Sonde le sous-sol
+\c;\l;thump\u cbot\thump;      \n;Secoue
+\c;\l;recycle\u cbot\recycle;    \n;Recycle une épave
+\c;\l;shield\u cbot\shield;     \n;Déploie le bouclier
+\c;\l;fire\u cbot\fire;       \n;Fait feu avec le canon
+\c;\l;aim\u cbot\aim;        \n;Hausse du canon
 
-\t;Specific instructions for classes:
-\c;\l;class\u cbot\class;      \n;Class declararion
-\c;\l;public\u cbot\public;     \n;Declares a public function
-\c;\l;private\u cbot\private;    \n;Declares a private class member
-\c;\l;static\u cbot\static;     \n;Declares a static class member
-\c;\l;synchronized\u cbot\synchro; \n;Prevents simultaneous execution
-\c;\l;new\u cbot\new;        \n;Creates a new instance
-\c;\l;this\u cbot\this;       \n;Reference to the current instance
+\t;Instructions pour les bornes d'infomation:
+\c;\l;receive\u cbot\receive;    \n;Reçoit une information
+\c;\l;send\u cbot\send;       \n;Envoie une information
+\c;\l;testinfo\u cbot\testinfo;   \n;Teste la présence d'une information
+\c;\l;deleteinfo\u cbot\delinfo; \n;Supprime une information
 
-\t;Specific instructions for strings:
-\c;\l;strlen\u cbot\strlen;     \n;Gets string length
-\c;\l;strleft\u cbot\strleft;    \n;Extracts left part
-\c;\l;strright\u cbot\strright;   \n;Extracts right part
-\c;\l;strmid\u cbot\strmid;     \n;Extracts center part
-\c;\l;strfind\u cbot\strfind;    \n;Finds a substring.
-\c;\l;strval\u cbot\strval;     \n;Converts string to number
-\c;\l;strupper\u cbot\strupper;   \n;Converts to upper case
-\c;\l;strlower\u cbot\strlower;   \n;Converts to lower case
+\t;Instructions pour les classes:
+\c;\l;class\u cbot\class;      \n;Déclaration d'une classe
+\c;\l;public\u cbot\public;     \n;Indique une fonction publique
+\c;\l;private\u cbot\private;    \n;Indique un champ privée dans une classe
+\c;\l;static\u cbot\static;     \n;Indique un champ statique dans une classe
+\c;\l;synchronized\u cbot\synchro; \n;Empêche l'exécution simultanée
+\c;\l;new\u cbot\new;        \n;Crée une nouvelle instance
+\c;\l;this\u cbot\this;       \n;Référence l'instance courante
 
-\t;Specific instructions for files:
-\c;\l;open\u cbot\open;       \n;Opens a file
-\c;\l;close\u cbot\close;      \n;Closes a file
-\c;\l;writeln\u cbot\writeln;    \n;Writes line to a file
-\c;\l;readln\u cbot\readln;     \n;Reads line from a file
-\c;\l;eof\u cbot\eof;        \n;Tests if end of file
-\c;\l;deletefile\u cbot\deletef; \n;Deletes a file
+\t;Instructions pour les chaînes de caractères:
+\c;\l;strlen\u cbot\strlen;     \n;Longueur d'une chaîne.
+\c;\l;strleft\u cbot\strleft;    \n;Extrait la partie gauche.
+\c;\l;strright\u cbot\strright;   \n;Extrait la partie droite.
+\c;\l;strmid\u cbot\strmid;     \n;Extrait la partie centrale.
+\c;\l;strfind\u cbot\strfind;    \n;Cherche une sous-chaîne.
+\c;\l;strval\u cbot\strval;     \n;Convertit en un nombre.
+\c;\l;strupper\u cbot\strupper;   \n;Convertit en majuscules.
+\c;\l;strlower\u cbot\strlower;   \n;Convertit en minuscules.
 
-\t;See also
-\l;Types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Instructions pour les fichiers:
+\c;\l;open\u cbot\open;       \n;Ouvre un fichier
+\c;\l;close\u cbot\close;      \n;Ferme un fichier
+\c;\l;writeln\u cbot\writeln;    \n;Ecrit une ligne
+\c;\l;readln\u cbot\readln;     \n;Lit une ligne
+\c;\l;eof\u cbot\eof;        \n;Teste la fin du fichier
+\c;\l;deletefile\u cbot\deletef; \n;Supprime un fichier
+
+\t;Voir aussi
+\l;Types\u cbot\type; et \l;catégories\u cbot\category;.

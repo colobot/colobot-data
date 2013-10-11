@@ -1,15 +1,20 @@
 \b;Instruction \c;deleteinfo\n;
-Syntax¦:
+Syntaxe:
 \s;\c;deleteinfo ( name, power );\n;
 
-Delete an existing information in the closest \l;information exchange post\u object\exchange;.
+Supprime une information de la \l;borne\u object\exchange; la plus proche.
 
 \t;name: \c;string\n;
-Name of the information to be deleted. This name is a string: it must be written in quotation marks "¦".
+Nom de l'information à supprimer dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets "".
 
 \t;power: \c;float\n;
-Power of the transmitter, which corresponds to the maximal distance between the sender and the exchange post. If the distance is longer, the information won't be deleted. Default value is 10 metres.
+Puissance de l'émetteur, qui correspond à la distance maximale jusqu'où peut être la borne. La valeur par défaut est de 10 mètres.
 
-\t;See also
-\c;\l;receive\u cbot\receive;\n;, \c;\l;send\u cbot\send;\n; and \c;\l;testinfo\u cbot\testinfo;\n;.
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;delete\n; = effacer
+\c;name  \n; = nom
+\c;power \n; = puissance
+
+\t;Voir aussi
+\c;\l;receive\u cbot\receive;\n;, \c;\l;send\u cbot\send;\n; et \c;\l;testinfo\u cbot\testinfo;\n;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

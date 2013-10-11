@@ -1,43 +1,41 @@
-\b;Objective
-Shoot down the flying wasps.
+\b;Objectif
+Attraper des \l;guêpes\u object\wasp; en vol.
 
-\t;Program
-Here is again the program of the previous exercise that shoots all ants and adapts to the terrain:
+\b;Programme
+Voici encore une fois le programme de l'exercice précédent qui tire sur les fourmis en s'adaptant à la topologie du terrain:
 \c;
-\s;extern void object::JetFighter2()
+\s;extern void object::Chasseur2()
 \s;{
-\s;	\l;object\u cbot\type; item;
+\s;	object    chose;
 \s;	
-\s;	\l;aim\u cbot\aim;(-20);
+\s;	aim(-20);
 \s;	
-\s;	\l;while\u cbot\while; (true)
+\s;	while ( true )
 \s;	{
-\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienAnt, 0, 360, 0, 20) == null)
+\s;		while ( radar(AlienAnt, 0, 360, 0, 20) == null )
 \s;		{
-\s;			item = \l;radar\u cbot\radar;(AlienAnt);
-\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
-\s;			\l;motor\u cbot\motor;(1,1);
-\s;			
-\s;			\l;jet\u cbot\jet;(0);
-\s;			\l;if\u cbot\if; (position.z-topo(position) < 6)
+\s;			chose = radar(AlienAnt);
+\s;			turn(direction(chose.position));
+\s;			motor(1,1);
+\s;			jet(0);
+\s;			if ( position.z-topo(position) < 6 )
 \s;			{
-\s;				\l;jet\u cbot\jet;(1);
+\s;				jet(1);
 \s;			}
 \s;			
-\s;			\l;if\u cbot\if; (position.z-topo(position) > 9)
+\s;			if ( position.z-topo(position) > 9 )
 \s;			{
-\s;				\l;jet\u cbot\jet;(-1);
+\s;				jet(-1);
 \s;			}
-\s;			\l;wait\u cbot\wait;(0.2);
+\s;			wait(0.2);
 \s;		}
-\s;		\l;fire\u cbot\fire;(1);
+\s;		fire(1);
 \s;	}
 \s;}
 \n;
-In order to adapt the program to shooting wasps, you need to make a few changes. Replace all \c;radar(AlienAnt)\n; with \c;radar(AlienWasp)\n;. The cannon must aim straight forward and not downward, replace \c;aim(-20);\n; with \c;aim(0);\n;. And the bot must fly at the same height as the wasp. For this, you must compare the altitude of the bot given by \c;position.z\n; with the altitude of the wasp given by \c;item.position.z\n;: if \c;position.z > item.position.z\n;, go down slowly with \c;jet(-0.3);\n;. If \c;position.z < item.position.z-1\n;, climb slowly with \c;jet(0.3);\n;. A winged shooter is higher than a wasp, therefore it is better if the altitude of the bot is a little lower than the altitude of the wasp. In this case, we admit that the altitude of the bot ranges between the altitude of the wasp and the altitude of the wasp minus 1.
+Pour que le shooter soit capable d'attraper des guêpes en vol, il faut faire quelques changements. Il faut remplacer tous les \c;\l;radar\u cbot\radar;(AlienAnt)\n; par \c;radar(AlienWasp)\n;. Le canon doit viser tout droit et non pas vers le bas, remplacez \c;\l;aim\u cbot\aim;(-20);\n; par \c;aim(0);\n;. Et le robot doit voler à la même altitude que la guêpe. Pour cela, il faut comparer l'altitude du robot donnée par \c;position.z\n; avec l'altitude de la guêpe donné par \c;chose.position.z\n;. Si \c;position.z > chose.position.z\n;, il faut descendre doucement avec \c;\l;jet\u cbot\jet;(-0.3);\n;. Si \c;position.z < chose.position.z-1\n;, il faut monter doucement avec \c;\l;jet\u cbot\jet;(0.3);\n;. Comme un robot shooter est plus haut qu'une guêpe, il vaut mieux que le robot soit un peu plus bas: on admet donc que l'altitude du robot soit située entre l'altitude de la guêpe et l'altitude de la guêpe moins 1.
 
-\t;Further improvement
-Wasps move very fast. In order to increase your chances to get them, better to repeat just before the \c;fire(1);\n; a \c;radar\n; and a \c;turn\n; in order to perform a last readjustment of the direction before the shot.
+\b;Perfectionnement
+Les guêpes se déplacent très vite. Pour avoir plus de chances de les attraper, il vaut mieux juste avant le \c;\l;fire\u cbot\fire;(1);\n; refaire un \c;\l;radar\u cbot\radar;()\n; et un \c;\l;turn\u cbot\turn;()\n; pour faire un dernier ajustement de la direction avant le tir.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!

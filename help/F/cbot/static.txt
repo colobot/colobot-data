@@ -1,22 +1,22 @@
-\b;Instruction \c;static\n; (for specialists)
-\l;Class\u cbot\class; members declared with \c;static\n; are shared between all instances of the class.
+\b;Instruction \c;static\n; (pour spécialistes)
+Les éléments d'une \l;classe\u cbot\class; précédés du mot \c;static\n; sont partagés en commun avec toutes les instances de cette classe. C'est à dire qu'une valeur écrite par l'une des instances sera lisible par toutes les autres.
 \c;
-\s;public class MyClass
+\s;public class MaClass
 \s;{
 \s;	static int nb = 1;
-\s;	static string [ ] list = null;
+\s;	static string [ ] liste = null;
 \s;}
 \s;void Test ()
 \s;{
-\s;	MyClasse item1();
-\s;	MyClasse item2();
+\s;	MaClasse item1();
+\s;	MaClasse item2();
 \s;	item1.nb = 3;
-\s;	item1.list[item1.nb] = "Hello";
-\s;	message( item2.list[item2.nb] ); // display "Hello"
+\s;	item1.liste[item1.nb] = "Hello";
+\s;	message( item2.liste[item2.nb] ); // affiche "Hello"
 \s;}
 \n;
-\c;Static\n; members can be declared \c;\l;private\u cbot\private;\n; so they will be only acessible from within class members (including constructors and destructors).
+Les éléments \c;static\n; peuvent également être déclarés comme \c;\l;private\u cbot\private;\n;. Dans ce cas, ces éléments ne sont accessibles que dans les méthodes de la classe (constructeur et destructeur inclus).
 
-\t;See also
+\t;Voir aussi
 \c;\l;class\u cbot\class;\n;, \c;\l;synchronized\u cbot\synchro;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

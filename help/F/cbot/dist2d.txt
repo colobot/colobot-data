@@ -1,14 +1,17 @@
 \b;Instruction \c;distance2d\n;
-Syntax:
+Syntaxe:
 \s;\c;distance2d ( pos1, pos2 );\n;
 
-Calculates the distance between two positions (ignores the z coordinate).
+Calcule la distance "à plat" entre deux points, c'est-à-dire sans tenir compte de l'élévation (coordonnée z).
 
 \t;pos1, pos2: \c;\l;point\u cbot\point;\n;
-Coordinates of the two positions. 
+Coordonnées des deux points.
 
-\t;Return value: \c;\l;float\u cbot\float;\n;
-Distance between the two positions.
+\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+Distance entre les deux points.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;distance\n; = distance
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,5 +1,5 @@
 \b;Instruction \c;this\n;
-Occasionally, a \l;class\u cbot\class; method needs to know the reference to the instance it is acting upon. For example the instance might want to pass it's own reference to another function. An implicit reference name \c;this\n; is available to methods and \c;this\n; is a reference to the current instance.
+A l'intérieur d'une méthode d'une \l;classe\u cbot\class;, il est possible d'utiliser le mot \c;this\n; qui est une référence à l'instance courante. La plupart du temps, la référence \c;this\n; est utilisée lorsqu'on désire passer une référence à l'instance courante comme paramètre à une fonction.
 \c;
 \s;public class MyClass
 \s;{
@@ -21,26 +21,25 @@ Occasionally, a \l;class\u cbot\class; method needs to know the reference to the
 \s;{
 \s;	MyClass item();
 \s;	item.m_str = "Hello";
-\s;	item.MyFunction();  // display "Hello"
+\s;	item.MyFunction();  // affiche "Hello"
 \s;}
 \n;
-You can also put \c;this\n; before a field name in a method but this is not necessary. In the example above in the method \c;MyFunction()\n; following two lines have strictly the same meaning:
+Il est aussi possible d'écrire \c;this.\n; devant un nom de champ, ce qui est plus explicite mais pas nécessaire. Dans l'exemple ci-dessus, nous pouvons écrire dans la fonction \c;MyFunction()\n;:
 \c;
 \s;	m_int = 2;
-\s;	this.m_int = 2;  // identical
+\s;	this.m_int = 2;  // identique
 \n;
-In a method of the \c;\l;object\u cbot\object;\n; class, you can also use \c;this.\n; before a fieldname.
+Dans une fonction de la classe \c;\l;object\u cbot\object;\n;, il est possible d'accéder à la position du robot, à son orientation, etc. En fait, on accède ainsi implicitement à l'instance du robot. Il est aussi possible d'écrire \c;this.\n; devant un nom de champ, ce qui est plus explicite:
 \c;
 \s;extern void object::Display()
 \s;{
 \s;	message(orientation);
-\s;	message(this.orientation); // same thing but
-\s;	                           // more explicit
+\s;	message(this.orientation);  // plus explicite
 \s;}
 \n;
-However if a field name is hidden by a parameter declaration or a variable declaration you must use \c;this\n;. In the following example the name \c;value\n; of the parameter is the same as the name of the field \c;value\n; of the \l;class\u cbot\class; \c;MyClass\n;, we must therefore write \c;this.value\n; in order to distinguish the field from the parameter.
+Il est cependant nécessaire d'utiliser \c;this\n; lorsque le nom d'un champ est caché par une déclaration de variable ou de paramètre. L'exemple suivant montre une \l;classe\u cbot\class; appelée \c;MaClasse\n; avec une méthode \c;Put\n;. Comme le nom \c;value\n; du paramètre est le même que le nom du champ de la classe, il est nécessaire d'utiliser \c;this.value\n; pour utiliser le champ de la classe:
 \c;
-\s;public class MyClass
+\s;public class MaClasse
 \s;{
 \s;	int  value;
 \s;	void Put( int value )
@@ -49,6 +48,8 @@ However if a field name is hidden by a parameter declaration or a variable decla
 \s;	}
 \s;}
 \n;
-\t;See also
-\c;\l;class\u cbot\class;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;this\n; = ce
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

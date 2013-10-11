@@ -1,36 +1,32 @@
 \b;Instruction \c;while\n;
-The instruction \c;while () {}\n; is used to repeat a set of instructions several times.
+L'instruction \c;while () {}\n; permet de répéter des instructions plusieurs fois.
 
-\b;Basic use
-The most frequent use of \c;while\n; consists in repeating a set of instructions again and again. In order to achieve this, write \c;while (true) {}\n; and put the instructions to be repeated in braces \c;{}\n;. As an example, here is a program that repeats again and again the following actions:
-o  look for a spider,
-o  turn towards it,
-o  shoot.
+\b;Utilisation courante
+L'utilisation la plus courante de \c;while\n; consiste à répéter des instructions encore et encore, à l'infini. Pour ce faire, on écrit \c;while (true) {}\n; et on met les instructions à répéter entre les accolades \c;{}\n;. Voici comment répéter le fait de chercher une araignée, de se tourner vers elle et de tirer:
 \c;
 \s;	while (true)
 \s;	{
-\s;		item = \l;radar\u cbot\radar;(AlienSpider);
-\s;		\l;turn\u cbot\turn;(direction(item.position));
+\s;		chose = \l;radar\u cbot\radar;(AlienSpider);
+\s;		\l;turn\u cbot\turn;(direction(chose.position));
 \s;		\l;fire\u cbot\fire;(1);
 \s;	}
 \n;
-Just execute this program once, and it will kill all spiders around it.
+Il suffit d'exécuter ce programme une seule fois, il tuera toutes les araignées autour de lui.
 
-\b;For specialists
-Syntax :
+\b;Pour spécialistes
+Syntaxe:
 \s;\c;while ( condition )
 \s;{
 \s;	\n;Instructions ...\c;
 \s;}
 \n;
-This instruction allows you to perform the instructions inside the \l;block\u cbot\bloc; several times.
-
-Be careful not to confuse the instruction \c;while( ) { }\n; with the instruction \c;\l;do\u cbot\do; { } while( );\n;; the latter tests the condition only after the instructions in the block have been performed a first time. 
+Cette structure de boucle permet d'exécuter plusieurs fois les instructions comprises dans le \l;bloc\u cbot\bloc;.
+Attention de ne pas confondre \c;while( ) { }\n; avec \c;\l;do\u cbot\do; { } while( );\n;, qui n'effectue le test qu'après le premier tour de boucle.
 
 \t;\c;condition\n;
-The instructions in the block are performed over and over again, as long as the \l;condition\u cbot\cond; is true. 
+Tant que cette \l;condition\u cbot\cond; est vraie, les instructions dans le bloc sont exécutées.
 
-Here is an example :
+Voici un exemple d'utilisation:
 \s;\c;int i = 0;
 \s;while ( i < 10 )
 \s;{
@@ -39,9 +35,12 @@ Here is an example :
 \s;}
 \n;
 \t;Attention
-Do not put a \l;semicolon\u cbot\term; at the end of the line \c;while ( )\n;.
+Il ne faut pas mettre un \l;point-virgule\u cbot\term; à la fin de la ligne \c;while ( )\n;.
 
-The instructions \c;\l;break\u cbot\break;\n; and \c;\l;continue\u cbot\continue;\n; can be useful inside a block following the instruction \c;while { }\n;.
+Les instructions \c;\l;break\u cbot\break;\n; et \c;\l;continue\u cbot\continue;\n; sont utiles à l'intérieur d'un bloc \c;while { }\n;.
 
-\t;See also
-\l;Instructions\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;while\n; = tant que
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
