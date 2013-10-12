@@ -1,50 +1,48 @@
-\b;Programs dispatched by Houston
-Below is a program that has been developed by our engineers.
-
-It instructs the \l;shielder\u object\botshld; to follow and protect the \l;phazer\u object\botphaz;.
+\b;Programmes envoyés par Houston
+Voilà un programme développé par nos ingénieurs. Il permet au \l;robot bouclier\u object\botshld; de suivre et de protéger le \l;robot phazer\u object\botphaz;.
 \c;
-\s;extern void object::FollowPhazer()
+\s;extern void object::SuivrePhazer()
 \s;{
-\s;	\l;object\u cbot\type;    item;              // info. about phazer
-\s;	\l;point\u cbot\type;     dest;              // position where to go
-\s;	\l;float\u cbot\type;     dist;              // distance to phazer
+\s;	object  item;
+\s;	point   dest;
+\s;	float   dist;
 \s;	
-\s;	item = \l;radar\u cbot\radar;(\l;PhazerShooter\u cbot\category;);
-\s;	\l;if\u cbot\if; ( item == null )
+\s;	item = radar(PhazerShooter);
+\s;	if ( item == null )
 \s;	{
-\s;		\l;message\u cbot\message;("No phazer found");
-\s;		\l;return\u cbot\return;;                  // stop the program
+\s;		message("Phazer pas trouvé");
+\s;		return;
 \s;	}
-\s;	\l;shield\u cbot\shield;(1, 25);               // activate the shield
+\s;	shield(1);  // déploie le bouclier
 \s;	
-\s;	\l;while\u cbot\while; ( true )               // repeat forever
+\s;	while ( true )
 \s;	{
-\s;		item = \l;radar\u cbot\radar;(PhazerShooter);// look for phazer
-\s;		\l;if\u cbot\if; ( item == null )  break;
+\s;		item = radar(PhazerShooter);
+\s;		if ( item == null )  break;
 \s;		
-\s;		dist = \l;distance\u cbot\dist;(item.position, position);
-\s;		\l;if\u cbot\if; ( dist < 5 )
-\s;		{                        // if closer than 5 m:
-\s;			\l;wait\u cbot\wait;(1);             // wait
+\s;		dist = distance(item.position, position);
+\s;		if ( dist < 5 )
+\s;		{
+\s;			wait(1);
 \s;		}
-\s;		\l;else\u cbot\if;                     // otherwise:
-\s;		{ // Calculate a position 5 m before the phazer
+\s;		else
+\s;		{
 \s;			dest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;
 \s;			dest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;
 \s;			dest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;
-\s;			\l;goto\u cbot\goto;(dest, 0, 1, 1); // and go there
+\s;			goto(dest, 0, 1, 1);
 \s;		}
 \s;	}
 \s;}
 \n;
 \b;Archives
-Index of the programs dispatched in former missions:
+Résumé des programmes déjà reçus:
 
-o  \c;\l;ServiceTower1\u mlvolca2;\n;
-o  \c;\l;CollectTitanium3\u mlvolca1;\n;
-o  \c;\l;KillAnt1\u mlsaari2;\n;
-o  \c;\l;CollectTitanium2\u mlcrys2;\n;
-o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;ServiceTour1\u mlvolca2;\n;
+o  \c;\l;ApporteTitanium3\u mlvolca1;\n;
+o  \c;\l;TueFourmi1\u mlsaari2;\n;
+o  \c;\l;ApporteTitanium2\u mlcrys2;\n;
+o  \c;\l;ApporteTitanium1\u mlcrys1;\n;
 o  \c;\l;Recharge2\u mltropi3;\n;
 o  \c;\l;Recharge1\u mllune4;\n;
-o  \c;\l;SwitchCell1\u mllune1;\n;
+o  \c;\l;EchangePile1\u mllune1;\n;

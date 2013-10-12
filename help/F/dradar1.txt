@@ -1,14 +1,16 @@
-\b;Exercise
-In this exercise, a "crazy bot" places many \l;blue crosses\u object\waypoint; on the ground. Just try to find them all.
+\b;Exercice
+Le robot <petit poucet> sème des \l;croix bleues\u object\waypoint; sur le sol. A vous de les trouver toutes.
 
-\b;Useful instructions
-\c;\l;radar\u cbot\radar;\n; to detect the blue crosses (category \c;\l;WayPoint\u object\waypoint;\n;)
-\c;\l;direction\u cbot\direct;\n; to calculate a direction
-\c;\l;if\u cbot\if;\n; to test a condition
-\c;\l;motor\u cbot\motor;\n; to set the motor speeds
+\b;Instructions utiles
+\c;\l;radar\u cbot\radar;\n; pour détecter une croix (catégorie \c;\l;WayPoint\u object\waypoint;\n;)
+\c;\l;direction\u cbot\direct;\n; pour calculer une direction
+\c;\l;if\u cbot\if;\n; pour tester une condition
+\c;\l;motor\u cbot\motor;\n; pour commander les moteurs du robot
 
-\t;Remark
-Do not wait too long, because the crazy bot gets down to work immediately. Fortunately, as long as you are in the program editor, the game will pause.
+\t;Remarque
+N'attendez pas trop, car le petit poucet se met au travail tout de suite. Heureusement, pendant l'édition d'un programme, le jeu se met en pause, y compris le petit poucet.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Programmation\u cbot;.

@@ -1,13 +1,13 @@
 \b;Instruction \c;continue\n;
-Syntax :
+Syntaxe:
 \s;\c;while ( condition )
 \s;{
 \s;	continue;
 \s;}
 \n;
-With this instruction, you can jump over the rest of instructions in the \c;\l;bloc\u cbot\bloc;\n; of a \c;\l;while\u cbot\while;\n; or \c;\l;for\u cbot\for;\n; loop: The execution will resume at the beginning of the bloc, the next time the loop is repeated.
- 
-Here is an example:
+Cette instruction permet de passer prématurément au tour de boucle suivant. On peut l'utiliser dans un bloc après une instruction \c;\l;while\u cbot\while;\n; ou \c;\l;for\u cbot\for;\n;.
+
+Voici un exemple d'utilisation:
 \s;\c;int i = 0;
 \s;while ( i < 5 )
 \s;{
@@ -19,7 +19,10 @@ Here is an example:
 \s;	\n;Instructions ...\c;
 \s;}
 \n;
-The instructions will only be executed for the values of \c;i\n; 1, 2, 4 and 5.
+Les instructions seront exécutées pour les valeurs de \c;i\n; 1, 2, 4 et 5.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;continue\n; = continuer
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

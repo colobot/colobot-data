@@ -1,21 +1,19 @@
-\b;Instruction \c;new\n; (for specialists)
-The \c;new\n; operator creates a \l;class\u cbot\class; instance:
-\c;\s;	MyClass item;    // now item is a null reference
-\s;	item = new MyClass(); // now item is a reference
-\s;	                      // to a new class instance
+\b;Instruction \c;new\n; (pour spécialistes)
+Une instance de \l;classe\u cbot\class; peut être créée par l'opérateur \c;new\n;:
+\c;\s;	MaClasse item;  // item vaut null
+\s;	item = new MaClasse();
 \n;
-If you want to create a new instance at declaration time you can ommit the new \c;new\n; operator by putting () after the declaration:
+Lorsque l'instance est créée en même temps que la déclaration, il est possible de simplifier l'écriture:
+\c;\s;	MaClasse item = new MaClasse();
+\s;	MaClasse item();  // identique
+\n;
+Si, par exemple, la classe contient un constructeur avec deux paramètres numériques, il est possible d'écrire:
+\c;\s;	MaClasse item = new MaClasse(2, 3);
+\s;	MaClasse item(2, 3);  // identique
+\n;
+\t;Dictionnaire anglais-français
+\c;new\n; = nouveau
 
-Instead of:
-\c;\s;	MyClass item = new MyClass();
-\n;you can write:
-\c;\s;	MyClass item();
-\n;
-If your class has a constructor with parameters you can write:
-\c;\s;	MyClass item = new MyClass(2, 3);
-\n;or:
-\c;\s;	MyClass item(2, 3);
-\n;
-\t;See also
-\c;\l;class\u cbot\class;\n;, \c;\l;reference\u cbot\pointer;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Références\u cbot\pointer;
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

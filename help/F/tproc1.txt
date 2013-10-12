@@ -1,52 +1,53 @@
-\b;Exercise
-The \l;bot\u object\bottr; must pass over all the \l;blue crosses\u object\waypoint; on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters.
+\b;Exercice
+Programmez le \l;robot\u object\bottr; pour qu'il trouve toutes les \l;croix bleues\u object\waypoint; posées au sol. Le trajet à effectuer est composé de deux carrés. Le premier mesure 15 mètres de côté, et le deuxième 25 mètres.
 
 \image tproc1a 8 8;
-\b;General principle
-In order to solve this problem, the most efficient solution consists in creating a \l;function\u cbot\function; that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:\c;
-\s;extern void object::Function1( )
+\b;Fonction
+Pour résoudre ce problème, il est intéressant de créer une \l;fonction\u cbot\function; qui déplace le robot le long d'un carré. La fonction principale devient alors très simple:
+\c;
+\s;extern void object::Déplacer( )
 \s;{
-\s;	Square(15);
-\s;	Square(25);
+\s;	Carré(15);
+\s;	Carré(25);
 \s;}
 \n;
-You still have to define the function called \c;Square\n;. In order to do this, you will have to write some instructions outside the \l;block\u cbot\bloc; that until now was the frame of each one of your programs. At the very end of the program, after the last closing brace, we will define the function \c;Square\n;. The program will take the following shape:
+Évidemment, à ce stade, la fonction \c;Carré\n; n'existe pas encore. Pour la créer, vous devrez écrire des instructions hors du \l;bloc\u cbot\bloc;, tout à la fin du programme. La structure du programme devient:
 \c;
-\s;extern void object::Function1( )
+\s;extern void object::Déplacer( )
 \s;{
-\s;	\n;main function ...\c;
+\s;	\n;fonction principale ...\c;
 \s;}
 \s;
-\s;void object::Square(float length)
+\s;void object::Carré(float length)
 \s;{
-\s;	\n;new function ...\c;
+\s;	\n;nouvelle fonction ...\c;
 \s;}
 \n;
-Let us look in detail at the different elements of the declaration of the function \c;Square\n;:
+Examinons en détail la déclaration de cette fonction \c;Carré\n;:
 
 \c;\l;void\u cbot\void;\n;
-This means that this function will return no value.
+Ceci indique que la fonction ne retourne aucune valeur.
 
 \c;\l;object\u cbot\object;::\n;
-When you write this in front of the function name, you can have access in the function to all the characteristics of the bot, such as \c;position\n;, \c;orientation\n;, etc. In this exercise, this element is not compulsory, as we will not need the characteristics of the bot in the function.
+Permet d'accéder aux caractéristiques du robot, telles que \c;pos\n;, \c;angle\n;, etc. Dans cet exercice, cette déclaration est facultative, car on n'accède pas à ces variables.
 
-\c;Square (  )\n;
-This is the name of the function. You can call it Square, or any other name.
+\c;Carré (  )\n;
+Nom de la fonction. Vous pouvez choisir le nom qui vous plaît le mieux.
 
 \c;\l;float\u cbot\float; length\n;
-Here you define the parameters that the function will get when it is called. The first time the function is actually called with \c;Square(15)\n;, the variable \c;length\n; will contain the value \c;15\n;. The second time, \c;length\n; will contain \c;25\n;.
+Paramètre que reçoit la fonction. A l'intérieur de la fonction, \c;length\n; prendra une première fois la valeur 15 et une deuxième fois la valeur 25.
 
-Here is in detail what will happen when the program is executed:
-- First the main function \c;Function\n; will be executed.
-- At the line \c;Square(15)\n;, the program will follow the red arrow and enter the function \c;Square\n; a first time, \c;length\n; containing \c;15\n;.
-- At the end of the function \c;Square\n;, the program follows the orange arrow and comes back to the main function.
-- At the line \c;Square(25)\n;, the program will follow the blue arrow and enter the function \c;Square\n; a second time.
-- At the end of the function \c;Square\n;, the program follows the light blue arrow and comes back to the main function.
+Le flux du programme se déroule ainsi:
+- On exécute la fonction principale \c;Déplace\n; depuis le début.
+- Lorsqu'on rencontre \c;Carré(15)\n;, on suit la flèche rouge pour entrer une première fois dans la fonction \c;Carré\n;.
+- Lorsque la fonction \c;Carré\n; est terminée, on revient dans \c;Déplace\n; selon la flèche orange.
+- On continue \c;Déplace\n;, qui contient alors \c;Carré(25)\n;. On suit donc la flèche bleue pour entrer une deuxième fois dans \c;Carré\n;.
+- Lorsque \c;Carré\n; est terminé, on revient dans \c;Déplace\n; en suivant la flèche bleu clair.
 
 \image tproc1b 17 12;
-In the function \c;Square\n;, use the instructions \c;\l;move\u cbot\move;\n; and \c;\l;turn\u cbot\turn;\n;. In order to make it shorter, you can use a \c;\l;for\u cbot\for;\n; loop, that will repeat the instructions \c;\l;move\u cbot\move;\n; and \c;\l;turn\u cbot\turn;\n; 4 times; however, this is not compulsory.
+L'intérieur de la fonction \c;Carré\n; utilise les instructions \c;\l;move\u cbot\move;\n; et \c;\l;turn\u cbot\turn;\n;. L'utilisation d'une boucle \c;\l;for\u cbot\for;\n; répétée 4 fois allège l'écriture, mais n'est pas indispensable.
 \c;
-\s;void object::Square(float length)
+\s;void object::Carré(float length)
 \s;{
 \s;	for ( int i=0 ; i<4 ; i=i+1 )
 \s;	{
@@ -55,5 +56,7 @@ In the function \c;Square\n;, use the instructions \c;\l;move\u cbot\move;\n; an
 \s;	}
 \s;}
 \n;
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u tdraw1; et \l;programmation\u cbot;.

@@ -1,33 +1,32 @@
 \b;Instruction \c;errmode\n;
-The \c;errmode();\n; instruction allows you to chose if the program should stop when an error occurs in one of the following instructions: \c;\l;goto\u cbot\goto;\n;, \c;\l;move\u cbot\move;\n;, \c;\l;grab\u cbot\grab;\n;, \c;\l;drop\u cbot\drop;\n;, etc.
+L'instruction \c;errmode();\n; détermine la réaction du programme lorsqu'une erreur est rencontrée dans une instruction du type \c;\l;goto\u cbot\goto;\n;, \c;\l;move\u cbot\move;\n;, \c;\l;grab\u cbot\grab;\n;, \c;\l;drop\u cbot\drop;\n;, etc.
 
-\b;For specialists
-Syntax¦:
+\b;Pour spécialistes
+Syntaxe:
 \s;\c;errmode ( mode );\n;
 
-Normally the program is stopped when an error occurs. If you use the instruction \c;errmode(0);\n; at the beginning of the program, the instructions listed above return a value different from zero if the instruction could not be performed.
+Normalement, un programme s'arrête dès qu'une erreur est rencontrée. En ajoutant \c;errmode(0);\n; au début du programme, une instruction \c;goto\n; qui n'arrive pas à destination retourne une valeur non nulle.
 
-\t;mode: \c;\l;float\u cbot\float;\n; (\c;1\n; per default)
-Error treatment mode.
-\c;0\n; -> continues program execution and returns a non zero value
-\c;1\n; -> stops the program (default behavior)
+\t;mode: \c;\l;float\u cbot\float;\n; (\c;1\n; par défaut)
+Mode de gestion des erreurs.
+\c;0\n; -> continue en retournant une valeur non nulle
+\c;1\n; -> stoppe le programme
 
-Exemple 1¦:
+Exemple 1:
 \s;\c;errmode(0);
 \s;while ( goto(pos) != 0 )
 \s;{
 \s;	wait(2);
 \s;}
 \n;
-Exemple 2¦:
+Exemple 2:
 \s;\c;errmode(0);
 \s;int err;
 \s;err = goto(pos);
 \s;if ( err != 0 )
 \s;{
-\s;	\n;goto did not perform correctly ...\c;
-\s;	\n;take some appropriate action ...\c;
+\s;	\n;gestion de l'erreur ...\c;
 \s;}
 \n;
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

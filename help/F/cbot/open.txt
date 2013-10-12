@@ -1,20 +1,25 @@
 \b;Instruction \c;open\n;
-Open a text file in the files/ folder. This is a method of the \c;\l;file\u cbot\file;\n; class. This is the reason why we always write \c;handle.open()\n;¦:
+L'instruction \c;open();\n; ouvre un fichier de texte dans le dossier files/. Cette instruction est une méthode de la classe \c;\l;file\u cbot\file;\n;. C'est la raison pour laquelle on n'écrit jamais \c;open()\n; tout seul, mais \c;handle.open()\n;:
 \c;
-\s;	handle.open("test.txt", "w");
+\s;	handle.open("essai.txt", "w");
 \n;
-To open a file, proceed as follows¦:
+Pour ouvrir un fichier, procédez comme suit:
 \c;
 \s;	file handle();
 \s;	handle.open("filename", "w");
 \s;	handle.writeln("abc");
 \s;	handle.close();
 \n;
-\c;"r"\n; mode: open for reading.
-\c;"w"\n; mode: open for writing.
+Le mode \c;"r"\n; permet d'ouvrir le fichier en lecture (read).
+Le mode \c;"w"\n; permet d'ouvrir le fichier en écriture (write).
 
-Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files that are located elsewhere than in the files/ folder.
+\t;Dictionnaire anglais-français
+\c;file   \n; = fichier
+\c;handle \n; = poignée, manipuler
+\c;open   \n; = ouvre
+\c;close  \n; = ferme
+\c;writeln\n; = abréviation de "write line", écrit une ligne
 
-\t;See also
-\c;\l;file\u cbot\file;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; and \c;\l;eof\u cbot\eof;\n;.
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\c;\l;file\u cbot\file;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; et \c;\l;eof\u cbot\eof;\n;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

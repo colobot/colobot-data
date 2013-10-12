@@ -1,33 +1,36 @@
 \b;Instruction \c;turn\n;
-Use the instruction \c;turn();\n; to instruct the bot to perform a rotation on itself of a certain number of degrees.
+Utilisez l'instruction \c;turn();\n; pour faire tourner le robot d'un certain nombre de degrés sur lui-même.
 
-\b;Basic use
-90 degreed means a quarter turn, 180 degrees means a half turn. A positive angle will perform a counterclockwise rotation, a negative angle means a clockwise rotation. Here are some examples with \c;turn();\n;:
+\b;Utilisation courante
+90 degrés signifie un quart de tour, 180 degrés signifie un demi-tour, 360 degrés signifie un tour complet. Voici quelques exemples avec \c;turn();\n;:
 
-\c;turn(90);\n;  quarter turn to the left
-\c;turn(-90);\n; quarter turn to the right (negative angle)
-\c;turn(180);\n; half turn
+\c;turn(90);\n;  quart de tour à gauche
+\c;turn(-90);\n; quart de tour à droite (angle négatif)
+\c;turn(180);\n; demi-tour
 
-In order to turn the bot towards an object found with the instruction \c;\l;radar\u cbot\radar;();\n;, you must calculate the rotation angle with the instruction \c;\l;direction\u cbot\direct;()\n;:
+Pour se tourner vers un objet trouvé avec l'instruction \c;\l;radar\u cbot\radar;();\n;, il faut calculer l'angle de la rotation avec l'instruction \c;\l;direction\u cbot\direct;()\n;:
 \c;
-\s;	item = \l;radar\u cbot\radar;(AlienSpider);
-\s;	turn(\l;direction\u cbot\direct;(item.position));
+\s;	chose = \l;radar\u cbot\radar;(AlienSpider);
+\s;	turn(\l;direction\u cbot\direct;(chose.position));
 \n;
-After these lines, just fire the cannon, and there is one hostile element less.
+Puis il suffit de faire feu, et il y a un élément hostile en moins.
 
-\b;For specialists
-Syntax:
+\b;Pour spécialistes
+Syntaxe:
 \s;\c;turn ( angle );\n;
 
-Turns the bot with a given angle, right or left, without moving either forward or backward. 
+Tourne d'un certain angle, à gauche ou à droite, sans avancer ni reculer.
 
 \t;angle: \c;\l;float\u cbot\float;\n;
-Angle of the required rotation, in degrees. A positive value turns left, a negative value turns right. \c;turn(180)\n; turns round completely. 
+Angle de la rotation désirée, en degrés. Une valeur positive fait tourner à gauche et une valeur négative à droite. 180 signifie un demi-tour.
 
-\t;Return value: \c;\l;int\u cbot\int;\n;
-Zero if everything is OK, or a value different from zero if an error occurred. 
-\c;== 0 \n;rotation performed
+\t;Valeur retournée: \c;\l;int\u cbot\int;\n;
+Zéro si tout est ok, ou valeur non nulle si une erreur est intervenue.
+\c;== 0 \n;rotation effectuée
 \c;!= 0 \n;rotation impossible
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;turn\n; = tourner
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

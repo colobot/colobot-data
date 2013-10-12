@@ -1,50 +1,51 @@
-\b;Exercise
-Remote control a robot using an \l;information exchange post\u object\exchange;, so it will pass over the 6 blue waypoints.
-The main actors of this exercise are¦:
- 
-1) A \l;wheeled grabber\u object\botgr; robot without an energy cell. This is the master you have to program.
-2) An \l;information exchange post\u object\exchange; that receives information from the master and then transmits it to the slave.
-3) A \l;practice bot\u object\bottr; which waits for orders from the exchange post. This robot has already been programmed.
+\b;Exercice
+Télécommandez un robot par le biais d'une \l;borne d'information\u object\exchange; pour qu'il passe par les 6 croix bleues. Les 3 acteurs principaux de cet exercice sont:
+
+1) Un \l;robot déménageur\u object\botgr; sans pile, donc immobile. C'est lui l'émetteur que vous devez programmer.
+2) Une \l;borne d'information\u object\exchange; qui reçoit des informations de l'émetteur puis les transmet au récepteur.
+3) Un \l;robot d'entraînement\u object\bottr; qui attend les ordres de la borne. Ce robot est déjà programmé.
 
 \image tremot2a 16 8;
-An information exchange post stores "name/value" couples. To control the "slave" robot we use two couples¦:
+Une borne stocke des couples "nom/valeur". Pour commander le robot esclave, nous avons choisi d'utiliser deux couples:
 
-1) name="order", value=order number
-2) nom="param", valuer=parameter  for the operation
+1) nom="order", valeur=numéro de l'opération à effectuer
+2) nom="param", valeur=paramètre de l'opération
 
-Order  #1 means "move" and order #2 means "turn". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write¦:
-\c;\s;	\l;send\u cbot\send;("order",  1, 100);  // order "move"
-\s;	\l;send\u cbot\send;("param", 20, 100);  // distance 20 meters
+L'ordre #1 signifie "move" et l'ordre #2 signifie "turn". Le paramètre est la distance à avancer ou l'angle à tourner. Par exemple, pour demander au robot esclave d'avancer de 20 mètres, il faut écrire:
+\c;\s;	send("order",  1, 100);  // order "move"
+\s;	send("param", 20, 100);  // distance
 \n;
-These two instruction send following 2 pieces of information to the exchange post¦:
+Ces deux instructions \c;\l;send\u cbot\send;\n; envoient les deux informations suivantes dans la borne:
 \c;    order=1
     param=20
 \n;
-The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write¦:
-\c;\s;	while ( \l;testinfo\u cbot\testinfo;("order", 100) )  // wait for end of work
+Le robot esclave attend un ordre puis l'exécute. Lorsque l'exécution est terminée, il supprime l'ordre de la borne. Après avoir envoyé un ordre, le robot émetteur doit donc attendre la disparition de l'ordre dans la borne, signe que l'esclave a terminé sa tâche. Cela s'écrit ainsi, avec l'instruction \c;\l;testinfo\u cbot\testinfo;\n;:
+\c;\s;	while ( testinfo("order", 100) )  // wait end of work
 \s;	{
 \s;		wait(1);
 \s;	}
 \n;
-As we must give more than one order its most convenient to write a \l;function\u cbot\function; \c;SendToPost\n;, that sends the order and wait for its completion¦:
+Comme il faudra donner plusieurs ordres, il est plus simple de créer une \l;fonction\u cbot\function; \c;SendToPost\n; qui se charge d'envoyer un ordre puis d'attendre son exécution:
 \c;\s;void object::SendToPost(float order, float param)
 \s;{
 \s;	send("param", param, 100);  // send the parameter
 \s;	send("order", order, 100);  // send the order
 \s;
-\s;	while ( testinfo("order", 100) )  // wait for end of work
+\s;	while ( testinfo("order", 100) )  // wait end of work
 \s;	{
 \s;		wait(1);
 \s;	}
 \s;}
 \n;
-To move forward by 20 meters, you must write in the main program¦:
+Pour donner l'ordre d'avancer de 20 mètres, il suffit alors d'écrire, dans le programme principal:
 \c;\s;	SendToPost(1, 20);  // move(20);
 \n;
-This is the route the robot must travel through¦:
+Voilà le parcours que le robot esclave doit effectuer:
 
 \image tremot2b 8 8;
-It's up to you to finish the programming.
+A vous de terminer le programme ...
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u tpyta; et \l;programmation\u cbot;.
