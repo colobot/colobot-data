@@ -1,49 +1,42 @@
-\b;Programs dispatched by Houston
-As you will need lots of titanium for this mission, we have made the program \c;CollectTitanium\n; still more efficient. It gathers a whole series of titanium cubes on a free surface, so you can let it work on its own. It also recharges itself at the \l;power station\u object\station; if necessary.
+\b;Programme envoyé par Houston
+Comme vous aurez beaucoup à construire, nous avons amélioré le programme \c;ApporteTitanium\n;. Le robot répartit maintenant toute une série de \l;cubes de titanium\u object\titan; autour du \l;convertisseur\u object\convert;. Ainsi vous n'avez plus à vous occuper de lui. Il va aussi se \l;recharger\u object\station; tout seul.
 \c;
-\s;extern void object::CollectTitanium3()
+\s;extern void object::ApporteTitanium3()
 \s;{
-\s;	// 1) Variable definition.
-\s;	\l;object\u cbot\type;  item;            // info. about objects
+\s;	\l;object\u cbot\type;  chose;                // info sur objet
 \s;	
-\s;	\l;while\u cbot\while; (true)             // repeat forever
+\s;	\l;while\u cbot\while; ( true )                // répète:
 \s;	{
+\s;		chose = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;); // cherche minerai
+\s;		\l;goto\u cbot\goto;(chose.position);     // va vers minerai
+\s;		\l;grab\u cbot\grab;();                   // prend minerai
 \s;		
-\s;		// 2) Go to the titanium ore and grab it.
-\s;		item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// look for titanium
-\s;		\l;goto\u cbot\goto;(item.position);     // go to the position
-\s;		\l;grab\u cbot\grab;();                  // grab the titanium
-\s;		
-\s;		// 3) Go to the converter and drop it.
-\s;		item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // look for converter
-\s;		\l;goto\u cbot\goto;(item.position);     // go to the position
-\s;		\l;drop\u cbot\drop;();                  // drop the titanium
-\s;		\l;move\u cbot\move;(-2.5);              // step back 2.5 m
-\s;		
-\s;		// 4) Wait until titanium converted and grab it
-\s;		\l;do\u cbot\do;
+\s;		chose = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // cherche convert.
+\s;		\l;goto\u cbot\goto;(chose.position);     // va sur convert.
+\s;		\l;drop\u cbot\drop;();                   // pose minerai
+\s;		\l;move\u cbot\move;(-2.5);               // recule 2.5m
+\s;		do
 \s;		{
-\s;			\l;wait\u cbot\wait;(1);              // wait for cube
-\s;			item = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 45, 0, 5);
+\s;			\l;wait\u cbot\wait;(1);              // attend le cube
+\s;			chose = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 45, 0, 5);
 \s;		}
-\s;		\l;while\u cbot\while; ( item == null );
-\s;		\l;goto\u cbot\goto;(item.position);
-\s;		\l;grab\u cbot\grab;();                   // grab it
+\s;		\l;while\u cbot\while; ( chose == null );
+\s;		\l;goto\u cbot\goto;(chose.position);
+\s;		\l;grab\u cbot\grab;();                   // prend le cube
 \s;		
-\s;		// 5) Drop on a free space
-\s;		\l;goto\u cbot\goto;(\l;space\u cbot\space;(position));    // go to free space
-\s;		\l;drop\u cbot\drop;();                   // drop titanium
+\s;		\l;goto\u cbot\goto;(\l;space\u cbot\space;(position));    // va où déposer
+\s;		\l;drop\u cbot\drop;();                   // dépose titanium
 \s;		
-\s;		// 6) If power cell half empty, recharges.
+\s;		// Pile à moitié vide?
 \s;		\l;if\u cbot\if; ( energyCell.energyLevel < 0.5 )
-\s;		{                         // if so:
-\s;			item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;);
-\s;			\l;if\u cbot\if; ( item != null )   // station found ?
+\s;		{
+\s;			chose = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;);
+\s;			\l;if\u cbot\if; ( chose!= null )  // station trouvée?
 \s;			{
-\s;				\l;goto\u cbot\goto;(item.position); // go there
-\s;				\l;while\u cbot\while; ( energyCell.energyLevel < 1 )
-\s;				{                 // until recharged:
-\s;					\l;wait\u cbot\wait;(1);      // wait
+\s;				\l;goto\u cbot\goto;(chose.position); // va recharger
+\s;				\l;while\u cbot\while; ( \l;energyCell.energyLevel\u cbot\object; < 1 )
+\s;				{
+\s;					\l;wait\u cbot\wait;(1);      // attend pile pleine
 \s;				}
 \s;			}
 \s;		}
@@ -51,11 +44,11 @@ As you will need lots of titanium for this mission, we have made the program \c;
 \s;}
 \n;
 \b;Archives
-Index of the programs dispatched in former missions:
+Résumé des programmes déjà reçus:
 
-o  \c;\l;KillAnt1\u mlsaari2;\n;
-o  \c;\l;CollectTitanium2\u mlcrys2;\n;
-o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;TueFourmi1\u mlsaari2;\n;
+o  \c;\l;ApporteTitanium2\u mlcrys2;\n;
+o  \c;\l;ApporteTitanium1\u mlcrys1;\n;
 o  \c;\l;Recharge2\u mltropi3;\n;
 o  \c;\l;Recharge1\u mllune4;\n;
-o  \c;\l;SwitchCell1\u mllune1;\n;
+o  \c;\l;EchangePile1\u mllune1;\n;

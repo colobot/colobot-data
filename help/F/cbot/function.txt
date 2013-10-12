@@ -1,6 +1,5 @@
-\b;Functions
-With functions you can divide your program into several parts, each of them will execute a specific task.
-Let's imagine following program¦:
+\b;Les fonctions
+Lorsqu'un programme devient long, il est conseillé de le fragmenter en plusieurs fonctions, qui accompliront chacune une tâche bien précise. Imaginons le programe suivant:
 \c;
 \s;extern void object::Remote( )
 \s;{
@@ -14,13 +13,8 @@ Let's imagine following program¦:
 \s;	wait(5);
 \s;}
 \n;
-\c;send\n; and \c;wait\n; are repeated several times. So it would be a good thing if we created a function that executes these two instructions:
+On constate que les deux instructions \c;send\n; et \c;wait\n; sont répétées plusieurs fois. Il est donc judicieux de créer une fonction \c;SendToPost\n; qui effectue ces deux instructions:
 \c;
-\s;void object::SendToPost( float op )
-\s;{
-\s;	send("order", op, 100);
-\s;	wait(5);
-\s;}
 \s;extern void object::Remote( )
 \s;{
 \s;	SendToPost(1);
@@ -28,58 +22,59 @@ Let's imagine following program¦:
 \s;	SendToPost(2);
 \s;	SendToPost(4);
 \s;}
+\s;void object::SendToPost( float op )
+\s;{
+\s;	send("order", op, 100);
+\s;	wait(5);
+\s;}
 \n;
-A function can have paramteters¦:
+Une fonction peut recevoir des données en entrée. Il faut en donner la liste, avec à chaque fois le type de la variable et le nom qui lui est donné:
 \c;
-\s;void Example( int a, float x, string s )
+\s;void Exemple( int a, float x, string s )
 \n;
-The \c;Exemple\n; function will reveive un integer \c;a\n;, a floating point number \c;x\n; and a string \c;s\n;. Parameters are "passed by value", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an \c;int\n; to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function.
+La fonction \c;Exemple\n; va recevoir un nombre entier \c;a\n;, un nombre réel \c;x\n; et une chaîne \c;s\n;.
+Les \l;tableaux\u cbot\array; et les instances de \l;classes\u cbot\class; sont toujours passées par \l;référence\u cbot\pointer;.
 
-If you pass a \l;class\u cbot\class; instance or an \l;array\u cbot\array; as parameter to a function, the function only receives a \l;reference\u cbot\pointer; to the instance or the array. That means if you modify the instance or the array in the function, the instance or the array that has been specified by the caller will be actuallay modified.
-
-A function can also return a result with the \c;\l;return\u cbot\return;\n; instruction. Therefore the function must be declared no longer as void but as a type:
+Une fonction peut effectuer un calcul et retourner le résultat avec l'instruction \c;\l;return\u cbot\return;\n;:
 \c;
-\s;float Mean( float a, float b )
+\s;float Moyenne( float a, float b )
 \s;{
 \s;	return (a+b)/2;
 \s;}
-\s;
-\s;extern void object::Test( )
+\s;extern void object::Essai( )
 \s;{
 \s;	float value;
-\s;	value = Mean(2, 6);
-\s;	message( value );  // will display 4
+\s;	value = Moyenne(2, 6);
+\s;	message( value );  // affiche 4
 \s;}
 \n;
-Some other examples¦:
+Voici d'autres exemples de fonctions:
 \c;
 \s;float Pi( )
 \s;{
 \s;	return 3.1415;
 \s;}
 \s;
-\s;string Sign( float a )
+\s;string Signe( float a )
 \s;{
-\s;	if ( a > 0 )  return "positive";
-\s;	if ( a < 0 )  return "négative";
-\s;	return "null";
+\s;	if ( a > 0 )  return "positif";
+\s;	if ( a < 0 )  return "négatif";
+\s;	return "nul";
 \s;}
 \n;
-You can declare several functions with the same name but different parameters¦:
+Il est autorisé de créer plusieurs fonctions ayant le même nom mais des paramètres différents:
 \c;
-\s;float Pythagoras( float a, float b )
+\s;float Pythagore( float a, float b )
 \s;{
 \s;	return sqrt((a*a)+(b*b));
 \s;}
 \s;
-\s;float Pythagoras( float a, float b, float c )
+\s;float Pythagore( float a, float b, float c )
 \s;{
 \s;	return sqrt((a*a)+(b*b)+(c*c));
 \s;}
 \n;
-CBOT will call either the one or the other function depending on the paramteres passed.
+Lors de l'appel à la fonction, CBOT recherche la fonction dont les paramètres correspondent au mieux.
 
-You can also declare a function \l;public\u cbot\public; so it can be used by other bots.
-
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

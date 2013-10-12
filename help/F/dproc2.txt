@@ -1,14 +1,16 @@
-\b;Exercise
-Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on.
+\b;Exercice
+Programmez le \l;robot\u object\bottr; pour qu'il suive le chemin en forme de spirale. Il faut avancer deux fois de 25 mètres, puis deux fois de 20 mètres. etc., jusqu'à l'arrêt.
+
 \image tproc2 8 8;
+\b;Fonction
+On constate que le mouvement est composé de "L" imbriqués. Le premier, en bleu foncé, avance deux fois de 25 mètres. Le deuxième, en bleu clair, avance de 5 mètres de moins, etc. On peut donc réaliser une \l;fonction\u cbot\function; qui déplace le robot le long d'un "L" dont on donne la longueur.
 
-\b;Function
-You will have noticed that the way is made of "L"-shaped parts that are fit one into another. The first one (dark blue) measures two times 25 meters. The second one (light blue) measures 5 meters less. Let us start with writing the \l;function\u cbot\function; that will move the bot on a "L"-shaped part whose length will be given as a parameter.
+\b;Instructions utiles
+\c;\l;for\u cbot\for;\n; pour répéter des instructions
+\c;\l;move\u cbot\move;\n; pour avancer le robot
+\c;\l;turn\u cbot\turn;\n; pour tourner le robot
 
-\b;Useful instructions
-\c;\l;for\u cbot\for;\n; loop to repeat some instructions
-\c;\l;move\u cbot\move;\n; to move the bot
-\c;\l;turn\u cbot\turn;\n; to turn the bot
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Programmation\u cbot;.

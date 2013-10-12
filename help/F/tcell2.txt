@@ -1,48 +1,48 @@
-\b;Objective
-Power the \l;winged shooters\u object\botfj; with \l;power cells\u object\power;, so that they can kill the ants in the ant nest located in a hole north of your position.
+\b;Objectif
+Equipez les \l;robots shooter\u object\botfj; de \l;piles\u object\power;, pour que ceux-ci puissent assainir le nid de \l;fourmis\u object\ant; qui se trouve dans un cratère au nord de votre position.
 
-\t;Program
-The \l;wheeled grabber\u object\botgr; must go to a \l;power cell\u object\power;, grab it, go to a \l;winged shooter\u object\botfj;, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:
+\b;Programme
+Le robot déménageur doit aller vers une pile, prendre celle-ci, aller vers un robot, et poser la pile. Voici un programme d'un exercice précédent qui accomplit une tâche semblable:
 \c;
 \s;extern void object::Titanium2()
 \s;{
-\s;	object    item;
+\s;	object    chose;
 \s;	
-\s;	item = radar(TitaniumOre);
-\s;	goto(item.position);
+\s;	chose = radar(TitaniumOre);
+\s;	goto(chose.position);
 \s;	grab();
 \s;	
-\s;	item = radar(Converter);
-\s;	goto(item.position);
+\s;	chose = radar(Converter);
+\s;	goto(chose.position);
 \s;	drop();
 \s;}
 \n;
-The best way to solve the present exercise is to copy \button 61; the program above into the clipboard (from \c;object\n; to \c;drop();\n;), and paste \button 62; it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task.
+Vous pouvez reprendre ce programme avec couper-coller, et apporter les changements nécessaires. Au lieu de chercher un minerai de titanium (\c;TitaniumOre\n;), cherchez une pile (\c;\l;PowerCell\u object\power;\n;). Au lieu d'aller ensuite vers un convertisseur (\c;Converter\n;), allez vers un robot shooter (\c;\l;WingedShooter\u object\botfj;\n;). Le shooter fera ensuite son travail. Pour savoir comment s'appellent les différents objets dans le langage de programmation, reportez-vous au \l;texte décrivant les catégories\u cbot\category;.
 
-Instead of looking for titanium ore (\c;TitaniumOre\n;), look for a power cell (\c;PowerCell\n;). Instead of going to a converter (\c;Converter\n;), go to a winged shooter (\c;WingedShooter\n;). As soon as the winged shooter has got a new power cell, it will get down to work.
-
-If you want to know more about the "names" of the different objects in the programming language, please refer to the \l;text about categories\u cbot\category;.
-
-\t;Further improvement: loops
-Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots.
-
-All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write \c;while (true)\n;, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:
+\b;Perfectionnement: les boucles
+Une fois que le programme expliqué ci-dessus fonctionne, vous pouvez l'améliorer de manière à ce qu'il répète les actions nécessaires tout seul. Vous n'aurez plus à exécuter le programme plusieurs fois pour qu'il équipe plusieurs robots.
+Ajoutez simplement une instruction \c;\l;while\u cbot\while;(true)\n; au début du programme, avec toutes les instructions à répéter entre les accolades \c;{}\n;:
 \c;
 \s;	while (true)
 \s;	{
-\s;		item = radar(PowerCell);
-\s;		goto(item.position);
+\s;		chose = radar(PowerCell);
+\s;		goto(chose.position);
 \s;		grab();
 \s;		
-\s;		item = radar(WingedShooter);
-\s;		goto(item.position);
+\s;		chose = radar(WingedShooter);
+\s;		goto(chose.position);
 \s;		drop();
 \s;	}
 \n;
-Of course the variable declaration \c;object item;\n; must not be inside the loop, but just before: declare a variable only once.
+N'oubliez pas de déclararer la variable \c;object chose;\n; avant de l'utiliser la première fois.
 
-\t;Remark
-A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots...
+\b;Remarque
+Un robot peut exécuter un programme tout seul: pendant ce temps, vous pouvez sélectionner le \l;cosmonaute\u object\human; et aller observer ce qui se passe vers le nid, en faisant cependant attention de ne pas vous mettre dans la ligne de tir. Les touches \key;\key gup;\norm; et \key;\key gdown;\norm; permettent de voler. Cliquez \l;ici\u command; pour voir le détail des commandes de déplacement.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\b;Messages
+Lorsqu'un message s'affiche en haut de l'écran, vous pouvez visionner le lieu correspondant en cliquant sur le bouton \button 14; à gauche du message. L'action est mise en pause pendant ce temps. Cliquez le bouton \button 16; en bas à gauche pour reprendre l'action.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+
+\t;Voir aussi
+\l;Exercice précédent\u tlaby2; et \l;programmation\u cbot;.

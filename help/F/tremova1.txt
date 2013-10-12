@@ -1,38 +1,39 @@
-\b;Exercise
-Move the \l;titanium cube\u object\titan; on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60.
+\b;Exercice
+Déplacez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivée. On ne connaît pas la position du titanium. En revanche, on sait que la plate-forme est à la position x=10 et y=-60.
 
-\b;The instruction \c;goto\n;
-In order to solve this problem easily, we will use a new way to move the bot with the instruction \c;\l;goto\u cbot\goto;\n;. With this instruction you can very easily reach every position, if you know the exact location in the form of its x and y coordinates. The bot will turn towards the goal, move forward, and even turn around any obstacle.
+\b;L'instruction \c;goto\n;
+Pour résoudre ce problème, nous allons utiliser l'instruction \c;\l;goto\u cbot\goto;\n;. Cette instruction permet d'atteindre très simplement n'importe quelle position, en spécifiant ses coordonnées. Le robot tourne automatiquement dans la bonne direction et avance. Il évite même les obstacles éventuels!
 
-If we summarize, the following are the different ways to move a bot:
+En résumé, les différentes manières de déplacer un robot sont donc:
 
 \s;\c;motor(left, right)\n;
-Allows a direct, precise control of the two motors, and allows you to stay in control of the motors at every fraction of a second.
+Pour commander directement les moteurs, fraction de seconde après fraction de seconde.
 
-\s;\c;move(distance)\n; and \c;turn(angle)\n;
-Use these instructions in order to move forward of a certain distance, or to perform a rotation of a certain angle. All parameters are relative to the current position of the bot.
+\s;\c;move(distance)\n; et \c;turn(angle)\n;
+Pour avancer d'une longueur précise, ou tourner d'un angle donné. Les déplacements sont relatifs. Par exemple, on avance de 100 mètres par rapport à la position actuelle du robot.
 
 \s;\c;goto(position)\n;
-Allows you to reach easily a given absolute position.
+Pour atteindre facilement une position absolue donnée.
 
-\b;The program
-Use the instruction \c;\l;radar\u cbot\radar;(Titanium);\n; in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:
+\b;Solution
+Pour trouver le titanium, utilisez l'instruction \c;\l;radar\u cbot\radar;(Titanium);\n;. La troisième ligne teste si le titanium est trouvé. Dans cet exercice, c'est inutile, mais il vaut mieux prendre l'habitude de faire ce genre de test systématiquement:
 \c;
 \s;object  item;
 \s;item = radar(Titanium);
 \s;if ( item == null )  return;
 \s;goto(item.position);
 \n;
-The variable \c;item\n; is of type \c;\l;object\u cbot\object;\n;. In order to know the exact location of the object described by the variable, just write \c;item.position\n;.
+La variable \c;item\n; est de type \c;\l;object\u cbot\object;\n;. Pour connaître la position de l'objet décrit par la variable, il faut donc écrire \c;item.position\n;.
 
-In order to take the titanium cube, use the instruction \c;\l;grab\u cbot\grab;()\n; without any parameter.
+Pour prendre le titanium, il suffit d'effectuer \c;\l;grab\u cbot\grab;()\n;, sans aucun paramètre.
+Pour déposer le titanium, il suffit d'effectuer \c;\l;drop\u cbot\drop;()\n;, sans aucun paramètre.
 
-In order to drop the titanium, use the instruction \c;\l;drop\u cbot\drop;()\n; without any parameter.
+Les coordonnées de la plate-forme d'arrivée sont connues: x=10 et y=-60. Il faut donc déclarer une \l;variable\u cbot\var; de type \l;point\u cbot\point;, puis lui assigner les bonnes coordonnées. Cette variable pourra ensuite être donnée comme argument à l'instruction \c;\l;goto\u cbot\goto;\n;.
+Remarque: la coordonnée \c;z\n; peut être ignorée dans le cas d'un robot qui ne vole pas!
 
-We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a \l;variable\u cbot\var; of the type \l;point\u cbot\point;, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction \c;\l;goto\u cbot\goto;\n;.
-Remark: You do not have to take care of the \c;z\n; coordinate in the case of a bot that can not fly.
+A vous de terminer le programme ...
 
-It is now up to you to finish the program...
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Exercice précédent\u tfollow1; et \l;programmation\u cbot;.

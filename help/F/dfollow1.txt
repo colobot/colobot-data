@@ -1,20 +1,23 @@
-\b;Exercise
-You must follow the \l;target bot\u object\bottr; with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again.
+\b;Exercice
+Vous devez programmer le \l;robot\u object\bottr; d'entraînement pour suivre la caisse d'explosifs, mais sans la toucher, car elle est très fragile. Chaque fois que la caisse s'arrête 2 secondes, vous devez être à proximité immédiate (moins de 10 mètres). Après 10 arrêts, la caisse s'approche de la plate-forme d'arrivée, pour vous y ammener.
+A chaque arrêt, la caisse vérifie que vous êtes bien là. Si ce n'est pas le cas, le compteur est remis à zéro. Vous devez donc réussir 10 fois consécutives!
 
-\b;General principle
-Repeat forever:
-o  Look for the target bot.
-o  Calculate the distance to the bot.
-o  if the distance to the target bot is less than 5m, move backward.
-o  Otherwise, calculate the direction of the target bot, and move towards it.
+\b;Principe
+	Répéter à l'infini:
+	o  Chercher la caisse.
+	o  Calculer la distance jusqu'à la caisse.
+	o  Si cette distance est plus petite que 5 mètres, reculer.
+	o  Sinon, calculer la direction de la caisse et s'y diriger.
 
-\b;Useful instructions
-\c;\l;radar\u cbot\radar;\n; to look for the bot (category \c;\l;TargetBot\u object\bottarg;\n;)
-\c;\l;radar\u cbot\radar;\n; to detect obstacles
-\c;\l;distance\u cbot\dist;\n; to calculate a distance
-\c;\l;direction\u cbot\direct;\n; to calculate a direction
-\c;\l;if\u cbot\if;\n; to test a condition
-\c;\l;motor\u cbot\motor;\n; to set the motor speeds
+\b;Instructions utiles
+\c;\l;radar\u cbot\radar;\n; pour détecter la caisse (catégorie \c;\l;TargetBot\u object\bottarg;\n;)
+\c;\l;radar\u cbot\radar;\n; pour détecter un obstacle
+\c;\l;distance\u cbot\dist;\n; pour calculer une distance
+\c;\l;direction\u cbot\direct;\n; pour calculer une direction
+\c;\l;if\u cbot\if;\n; pour tester une condition
+\c;\l;motor\u cbot\motor;\n; pour commander les moteurs du robot
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Programmation\u cbot;.

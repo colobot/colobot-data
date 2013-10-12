@@ -1,14 +1,18 @@
 \b;Instruction \c;strlen\n;
-Get the length of a string.
+Cette instruction retourne la longueur d'une chaîne de caractères.
 
-Syntax¦:
+Syntaxe:
 \s;\c;strlen ( string );\n;
 
-Examples¦:
-\s;\c;	int len = strlen("abc");  // len is 3
-\s;	int len = strlen("");  // len is 0
-\s;	if ( strlen(s) == 0 )  // is string empty ?
+Exemples:
+\s;\c;	int len = strlen("abc");  // len vaut 3
+\s;	int len = strlen("");  // len vaut 0
+\s;	if ( strlen(s) == 0 )  // chaîne s vide ?
 \n;
-\t;See also
+\t;Dictionnaire anglais-français
+\c;string\n; = chaîne de caractères
+\c;length\n; = longueur
+
+\t;Voir aussi
 \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
