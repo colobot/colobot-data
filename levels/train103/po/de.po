@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train103.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: Title-text
+#: train103/scene.txt:1
+#, no-wrap
+msgid "train103:Titanium 1"
+msgstr ""
+
+#. type: Resume-text
+#: train103/scene.txt:2
+#, no-wrap
+msgid "train103:Take a chunk of titanium ore and bring it to the converter."
+msgstr ""
+
+#. type: ScriptName-text
+#: train103/scene.txt:3
+#, no-wrap
+msgid "train103:Titanium1"
+msgstr ""
+
+#. type: \b; header
+#: train103-help/ttit1.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:3
+#, no-wrap
+msgid ""
+"Write a program that takes a chunk of <a object|titanore>titanium ore</a> "
+"and drops in on the <a object|convert>converter</a> in order to produce a <a "
+"object|titan>titanium cube</a>."
+msgstr ""
+
+#. type: \t; header
+#: train103-help/ttit1.txt:4
+#, no-wrap
+msgid "Program"
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:6
+#, no-wrap
+msgid "You will need a new instruction:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train103-help/ttit1.txt:8
+#, no-wrap
+msgid "move();<n/>"
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:9
+#, no-wrap
+msgid ""
+"Instructs the bot to move forward or backward. The distance of the move is "
+"given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, "
+"<c/>move(-1);<n/> moves the bot 1m backward."
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:11
+#, no-wrap
+msgid ""
+"The instructions <code><a cbot|turn>turn</a>()</code>, <code><a "
+"cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have "
+"already been explained in the previous exercises. If you have any questions "
+"about these instructions, click the name of the instruction underlined in "
+"blue, and an explanation of the instruction will appear."
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:13
+#, no-wrap
+msgid ""
+"The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a "
+"object|convert>converter</a> is 10m behind the bot. After dropping the "
+"titanium ore on the converter, do not forget to move back (for example "
+"<c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:14
+#, no-wrap
+msgid ""
+"\\key;\\key help;<norm/> allows you to review these instructions at all "
+"times."
+msgstr ""
