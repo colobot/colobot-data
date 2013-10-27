@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-25 14:04+0300\n"
+"POT-Creation-Date: 2013-10-27 18:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,23 +314,20 @@ msgstr ""
 #: generic-help/command.txt:10
 #, no-wrap
 msgid ""
-"\\key;\\key left;<norm/> = turn left\n"
-"\\key;\\key right;<norm/> = turn right\n"
-"\\key;\\key up;<norm/> = move forward\n"
-"\\key;\\key down;<norm/> = move back\n"
-"These controls are unavailable when working with the <a "
-"object|bottr>practice bots</a>."
+"<format key><key left/></format> = turn left\n"
+"<format key><key right/></format> = turn right\n"
+"<format key><key up/></format> = move forward\n"
+"<format key><key down/></format> = move back\n"
+"These controls are unavailable when working with the <a object|bottr>practice bots</a>."
 msgstr ""
 
 #. type: Plain text
 #: generic-help/command.txt:14
 #, no-wrap
 msgid ""
-"\\key;\\key gup;<norm/> = take off and climb <button 28/>\n"
-"\\key;\\key gdown;<norm/> = descend and land <button 29/>\n"
-"These controls are of course restricted to the <a object|human>astronaut</a> "
-"as well as the various <a object|botgj>winged bots</a> and in selected "
-"missions only."
+"<format key><key gup/></format> = take off and climb <button 28/>\n"
+"<format key><key gdown/></format> = descend and land <button 29/>\n"
+"These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
 msgstr ""
 
 #. type: Plain text
@@ -341,19 +338,15 @@ msgid ""
 "mouse backward = lower aim\n"
 "mouse right = aim right\n"
 "mouse left = aim left\n"
-"These controls are only available to the <a object|botfr>shooters</a>, the "
-"<a object|botor>orga shooters</a> and the <a object|botphaz>phazer "
-"shooter</a>."
+"These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
 msgstr ""
 
 #. type: Plain text
 #: generic-help/command.txt:23
 #, no-wrap
 msgid ""
-"\\key;\\key action;<norm/> = main action for a given selection (human or "
-"bot)\n"
-"This control will for example operate the arm of a <a "
-"object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
+"<format key><key action/></format> = main action for a given selection (human or bot)\n"
+"This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
 
 #. type: \t; header
@@ -366,9 +359,9 @@ msgstr ""
 #: generic-help/command.txt:28
 #, no-wrap
 msgid ""
-"\\key;\\key next;<norm/> = selects next object\n"
-"\\key;\\key human;<norm/> = selects astronaut\n"
-"\\key;\\key desel;<norm/> = previous selection <button 10/>"
+"<format key><key next/></format> = selects next object\n"
+"<format key><key human/></format> = selects astronaut\n"
+"<format key><key desel/></format> = previous selection <button 10/>"
 msgstr ""
 
 #. type: \t; header
@@ -381,12 +374,10 @@ msgstr ""
 #: generic-help/command.txt:34
 #, no-wrap
 msgid ""
-"\\key;\\key camera;<norm/> = shifts between onboard and following cameras "
-"<button 13/>\n"
-"\\key;\\key near;<norm/> = zoom in\n"
-"\\key;\\key away;<norm/> = zoom out\n"
-"\\key;\\key visit;<norm/> = pauses the game and shows where the latest "
-"message originated. Press again to show origin of previous message."
+"<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
+"<format key><key near/></format> = zoom in\n"
+"<format key><key away/></format> = zoom out\n"
+"<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
 msgstr ""
 
 #. type: \t; header
@@ -399,8 +390,8 @@ msgstr ""
 #: generic-help/command.txt:38
 #, no-wrap
 msgid ""
-"\\key;\\key help;<norm/> = mission instructions\n"
-"\\key;\\key prog;<norm/> = programming help"
+"<format key><key help/></format> = mission instructions\n"
+"<format key><key prog/></format> = programming help"
 msgstr ""
 
 #. type: \t; header
@@ -413,10 +404,10 @@ msgstr ""
 #: generic-help/command.txt:44
 #, no-wrap
 msgid ""
-"\\key;\\key speed10;<norm/> = normal speed x1\n"
-"\\key;\\key speed15;<norm/> = medium speed x1.5\n"
-"\\key;\\key speed20;<norm/> = faster speed x2\n"
-"\\key;\\key quit;<norm/> = exits mission <button 11/>"
+"<format key><key speed10/></format> = normal speed x1\n"
+"<format key><key speed15/></format> = medium speed x1.5\n"
+"<format key><key speed20/></format> = faster speed x2\n"
+"<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
 
 #. type: Plain text
@@ -461,9 +452,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<button 30/> Home\n"
-"Get back to the home page, i.e. the first page that was displayed, for "
-"example when you hit the \\key;\\key help;<norm/> or \\key;\\key "
-"prog;<norm/> key."
+"Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
 msgstr ""
 
 #. type: Plain text
