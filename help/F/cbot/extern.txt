@@ -1,7 +1,7 @@
 \b;Instruction \c;extern\n;
-The \c;extern\n; instruction  determines the \l;function\u cbot\function; that acts as main program of a robot. The name of the function declared with \c;extern\n; will apear in the program list in the lower left corner of the screen.
+L'instruction \c;extern\n; détermine quelle est la \l;fonction\u cbot\function; qui fait office de programme principal. La fonction déclarée \c;extern\n; aura son nom dans la liste des programmes, en bas à gauche de la fenêtre.
 \c;
-\s;extern void object::MowDown( )
+\s;extern void object::Boum( )
 \s;{
 \s;	while ( true )
 \s;	{
@@ -10,7 +10,7 @@ The \c;extern\n; instruction  determines the \l;function\u cbot\function; that a
 \s;	}
 \s;}
 \n;
-If the program contains other functions, only the main function must be preceded by \c;extern\n;.
+Si le programme utilise d'autres fonctions, seule la fonction principale doit être précédée de \c;extern\n;.
 \c;
 \s;extern void object::Square( )
 \s;{
@@ -26,5 +26,5 @@ If the program contains other functions, only the main function must be preceded
 \s;	turn(90);
 \s;}
 \n;
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,15 +1,17 @@
 \b;Instruction \c;direction\n;
-Syntax :
+Syntaxe:
 \s;\c;direction ( pos );\n;
 
-Calculates the rotation that a robot must perform in order to point towards a given position. 
+Calcule la direction que doit prendre le robot pour se diriger vers une position donnée.
 
 \t;pos: \c;\l;point\u cbot\point;\n;
-Position towards which the robot must point.
+Position à atteindre.
 
-\t;Return value: \c;\l;float\u cbot\float;\n;
-Angle of the rotation that must be performed. -90 means f. ex. a rotation of 90 degrees to the right. 
+\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+Angle en degré de la rotation à effectuer. -90 signifie une rotation d'un quart de tour vers la droite, par exemple.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;direction\n; = direction
 
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

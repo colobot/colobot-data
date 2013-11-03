@@ -1,16 +1,21 @@
 \b;Instruction \c;strright\n;
-Extracts the last (that is, rightmost) characters from a string.
+Cette instruction extrait la partie droite d'une chaîne de caractères.
 
-Syntax¦:
+Syntaxe:
 \s;\c;strright ( string, len );\n;
 
 \t;len: \c;\l;int\u cbot\int;\n;
-Number of characters to be extracted.
+Nombre de caractères à extraire depuis la droite.
 
-Examples¦:
-\s;\c;	string s = strright("abcdef", 2);  // s is "ef"
-\s;	string s = strright("abc", 10);  // s is "abc"
+Exemples:
+\s;\c;	string s = strright("abcdef", 2);  // s vaut "ef"
+\s;	string s = strright("abc", 10);  // s vaut "abc"
 \n;
-\t;See also
+\t;Dictionnaire anglais-français
+\c;string\n; = chaîne de caractères
+\c;right \n; = droite
+\c;length\n; = longueur
+
+\t;Voir aussi
 \c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

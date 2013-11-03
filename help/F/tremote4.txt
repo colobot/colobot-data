@@ -1,32 +1,29 @@
-\b;Exercise
-Remote control a slave robot without using an \l;information exchange post\u object\exchange;. The robot should pass over the 6 blue crosses. You must use a \c;\l;static\u cbot\static;\n; variable to pass the orders to the slave bot.
+\b;Exercice
+Télécommandez un robot, sans utiliser une \l;borne d'information\u object\exchange;, pour qu'il passe par les 6 croix bleues. Il faudra utiliser une variable \c;\l;static\u cbot\static;\n; pour communiquer directement d'un programme à un autre. Les 2 acteurs principaux de cet exercice sont:
 
-The two main actors of this exercise are:
-1) The \l;wheeled grabber\u object\botgr; without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave.
-2) The slave \l;practice bot\u object\bottr; which is already programmed and just waits for orders from the master.
+1) Un \l;robot déménageur\u object\botgr; sans pile, donc immobile. C'est lui l'émetteur que vous devez programmer.
+2) Un \l;robot d'entraînement\u object\bottr; qui attend les ordres. Ce robot est déjà programmé.
 
-\b;The slave
-First of all we must understand how the program of the slave works. The \l;class\u cbot\class; \c;order\n; contains two members: \c;m_type\n; is the order to execute (move or turn) and \c;m_param\n; is the distance to move or the rotation angle¦:
-
+\b;Le robot récepteur
+Pour commencer, il faut comprendre le programme du robot d'entraînement qui attend les ordres.
+Une \l;classe\u cbot\class; \c;order\n; contient deux variables: \c;global_type\n; détermine l'ordre à effectuer (avancer ou tourner) et \c;global_param\n; détermine la distance à avancer ou l'angle de rotation:
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
 \s;{
-\s;	\l;int\u cbot\int;    m_type = \l;nan\u cbot\nan;;
-\s;	\l;float\u cbot\float;  m_param;
+\s;	\l;int\u cbot\int;    global_type = \l;nan\u cbot\nan;;
+\s;	\l;float\u cbot\float;  global_param;
 \s;}
 \n;
-A second \l;class\u cbot\class; \c;exchange\n; contains the mechanism for exchanging the orders. We declare a \c;\l;static\u cbot\static;\n; class member \c;m_order\n; which will contain the order to be executed. The word \c;static\n; insures that the member \c;m_order\n; is shared between all instances of the \l;class\u cbot\class; exchange.
-
+Une deuxième \l;classe\u cbot\class; \c;exchange\n; contient le mécanisme d'échange et de mémorisation des ordres. Il faut d'abord déclarer une variable \c;\l;static\u cbot\static;\n; appelée ici \c;global_order\n;. Cette variable contient l'ordre à effectuer. L'instruction \c;static\n; permet à tous les robots d'accéder à la même variable unique.
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
 \s;{
-\s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_order = new order;
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; order global_order = new order;
 \n;
-\n;The \c;put\n; method will be used by the master robot for transmitting an order. As long as \c;m_order\n; is different from \c;\l;nan\u cbot\nan;\n;, the slave has not finished the order and the \c;put\n; method will return \c;false\n; and will do nothing¦:
-
+Une première méthode \c;put\n; sera utilisée par le robot émetteur pour donner un ordre. Si l'ordre est différent de \c;\l;nan\u cbot\nan;\n;, cela signifie qu'il n'a pas encore été effectué par le robot récepteur. Dans ce cas, la méthode \c;get\n; ne fait rien et retourne \c;false\n;:
 \c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(order a)
 \s;	{
-\s;		if ( m_order.m_type == nan )
+\s;		if ( global_order.global_type == nan )
 \s;		{
-\s;			m_order = a;
+\s;			global_order = a;
 \s;			return true;
 \s;		}
 \s;		else
@@ -35,70 +32,63 @@ A second \l;class\u cbot\class; \c;exchange\n; contains the mechanism for exchan
 \s;		}
 \s;	}
 \n;
-Another method \c;get\n; will be used by the slave to retrieve the orders. This method returns the order to be executed:
-
+Une deuxième méthode \c;get\n; sera utilisée par le robot récepteur pour prendre connaissance d'un ordre à effectuer:
 \c;\s;	\l;synchronized\u cbot\synchro; order get()
 \s;	{
-\s;		return m_order;
+\s;		return global_order;
 \s;	}
 \n;
-A third method \c;delete\n; will be used by the slave to indicate that the order has been executed:
-
+Une troisième méthode \c;delete\n; sera utilisée par le robot récepteur pour indiquer que l'ordre est terminé:
 \c;\s;	\l;synchronized\u cbot\synchro; void delete()
 \s;	{
-\s;		m_order.m_type = nan;
+\s;		global_order.global_type = nan;
 \s;	}
 \s;}
 \n;
-The main program of the slave contains an instance of the class \c;exchange\n; called \c;list\n;. We put () after the word \c;list\n; in order to create an instance of the class \c;exchange\n;.
-
+Le programme principal peut maintenant exister. La variable \c;list\n; est de type \c;exchange\n;, qui est une \l;classe\u cbot\class;. Il faut utiliser l'instruction \c;\l;new\u cbot\new;\n; pour créer immédiatement une instance.
 \c;\s;\l;extern\u cbot\extern; void object::Slave3( )
 \s;{
-\s;	exchange list();
+\s;	exchange list = new exchange();
 \s;	order    todo;
 \n;
-The outer \c;while\n; loop lasts for ever. The inner \c;while\n; loop waits for an order by using the \c;get\n; method of the \c;exchange\n; class. As soon as \c;get\n; returns a value different from \c;nan\n;, the while loop stops.
-
+La première boucle \c;while\n; exécute les ordres à l'infini. La deuxième boucle \c;while\n; attend un ordre en exécutant la méthode \c;get\n; de la classe \c;exchange\n;. Dès qu'un ordre contenant une valeur différente de \c;nan\n; est reçu, la boucle est stoppée.
 \c;\s;	\l;while\u cbot\while; ( true )
 \s;	{
 \s;		\l;while\u cbot\while; ( true )
 \s;		{
 \s;			todo = list.get();
-\s;			if ( todo.m_type != nan )  break;
+\s;			if ( todo.global_type != nan )  break;
 \s;			wait(1);
 \s;		}
 \n;
-Now we have received the order in the \c;todo\n; variable. All we have to do is execute it:
-
-\c;\s;		if ( todo.m_type == 1 )
+Il ne reste plus qu'à exécuter l'ordre reçu:
+\c;\s;		if ( todo.global_type == 1 )
 \s;		{
-\s;			move(todo.m_param);
+\s;			move(todo.global_param);
 \s;		}
-\s;		else if ( todo.m_type == 2 )
+\s;		else if ( todo.global_type == 2 )
 \s;		{
-\s;			turn(todo.m_param);
+\s;			turn(todo.global_param);
 \s;		}
 \s;		else
 \s;		{
 \s;			message("Unknown order");
 \s;		}
 \n;
-As soon as the execution of the order is finished, we must call the \c;delete\n; method so the master knows that another order can be sent¦:
-
+Dès que l'exécution de l'ordre est terminée, il faut appeler la méthode \c;delete\n; pour indiquer au robot émetteur qu'il peut envoyer l'ordre suivant:
 \c;\s;		list.delete();
 \s;	}
 \s;}
 \n;
-\b;The master
-In the master we write an function called \c;SendOrder\n; which will send an order to the slave:
-
+\b;Le robot émetteur
+Dans le robot émetteur, il est plus simple d'écrire une procédure \c;SendOrder\n; qui se charge d'envoyer un ordre au robot récepteur:
 \c;\s;void object::SendOrder(float order, float param)
 \s;{
-\s;	exchange list();
+\s;	exchange list = new exchange();
 \s;	order    todo();
 \s;	
-\s;	todo.m_type = order;
-\s;	todo.m_param = param;
+\s;	todo.global_type = order;
+\s;	todo.global_param = param;
 \s;	
 \s;	while ( list.put(todo) == false )
 \s;	{
@@ -106,9 +96,8 @@ In the master we write an function called \c;SendOrder\n; which will send an ord
 \s;	}
 \s;}
 \n;
-The \c;while\n; loop waits until a pending order has been terminated, that is the slaved has exited from the \c;get\n; method and the \c;delete\n; method has been called.
-Now the main program of the master is very simple:
-
+La boucle \c;while\n; attend qu'un éventuel ordre précédent soit terminé, ce qui arrive lorsque le robot récepteur exécute la méthode \c;delete\n;.
+Le programme principal est finalement d'une simplicité enfantine:
 \c;\s;extern void object::Remote4( )
 \s;{
 \s;	SendOrder(1, 20);  // move(20);
@@ -122,8 +111,7 @@ Now the main program of the master is very simple:
 \s;	SendOrder(1, 10);  // move(10);
 \s;}
 \n;
-\key;\key help;\norm; show these instruction at any time.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
-
-\t;See also
-\l;Controls\u command; and \l;programming\u cbot;.
+\t;Voir aussi
+\l;Exercice précédent\u tremote3; et \l;programmation\u cbot;.

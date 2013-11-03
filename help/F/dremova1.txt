@@ -1,35 +1,37 @@
-\b;Exercise
-Convert some \l;titanium ore\u object\titanore; to \l;titanium cubes\u object\titan;, then drop 2 titanium cubes on the pads whose coordinates are:
+\b;Exercice
+Il faut convertir du \l;minerai de titanium\u object\titanore; en \l;titanium\u object\titan;, puis déposer 2 cubes de titanium sur les plates-formes dont les coordonnées sont:
 \c;
 	x=10, y=-60
 	x=10, y=-65
 \n;
 \image derrick 8 8;
-The \l;derrick\u object\derrick; extracts titanium ore from the subsoil; you just have to pick it up.
+Le \l;derrick\u object\derrick; extrait automatiquement du minerai de titanium, qui ne demande qu'à être ramassé.
 
 \image convert 8 8;
-The \l;converter\u object\convert; converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted.
+Le \l;convertisseur\u object\convert; transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre.
 
-\b;General principle
-Repeat two times :
-o  Wait until there is some titanium ore.
-o  Go to the titanium ore.
-o  Pick it up.
-o  Go to the converter.
-o  Drop the titanium ore.
-o  Move back 2.5 meters.
-o  Wait until there is a titanium cube.
-o  Pick up the titanium cube.
-o  Go to the platform.
-o  Drop the titanium cube.
+\b;Principe
+	Répéter 2 fois:
+	o  Attendre tant qu'on ne trouve pas de minerai (\c;\l;TitaniumOre\u object\titanore;\n;).
+	o  Aller vers le minerai.
+	o  Prendre le minerai.
+	o  Aller vers le convertisseur (\c;\l;Converter\u object\convert;\n;).
+	o  Déposer le minerai.
+	o  Reculer de 4 mètres.
+	o  Attendre tant qu'on ne trouve pas de titanium.
+	o  Prendre le titanium (\c;\l;Titanium\u object\titan;\n;).
+	o  Aller sur une plate-forme.
+	o  Déposer le titanium.
 
-\b;Useful instructions
-\c;\l;for\u cbot\for;\n; to repeat some instructions
-\c;\l;do - while\u cbot\do;\n; to repeat some instructions
-\c;\l;radar\u cbot\radar;\n; to look for different objects
-\c;\l;goto\u cbot\goto;\n; to move the bot
-\c;\l;grab\u cbot\grab;\n; to grab an object
-\c;\l;drop\u cbot\drop;\n; to drop an object
+\b;Instructions utiles
+\c;\l;for\u cbot\for;\n; pour répéter des instructions
+\c;\l;do - while\u cbot\do;\n; pour répéter des instructions
+\c;\l;radar\u cbot\radar;\n; pour détecter des objets
+\c;\l;goto\u cbot\goto;\n; pour déplacer le robot
+\c;\l;grab\u cbot\grab;\n; pour prendre un objet
+\c;\l;drop\u cbot\drop;\n; pour déposer un objet
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Programmation\u cbot;.

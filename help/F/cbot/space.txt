@@ -1,23 +1,27 @@
 \b;Instruction \c;space\n;
-Syntax :
+Syntaxe:
 \s;\c;space ( center, rmin, rmax, dist );\n;
 
-Determines the position of the nearest free space around a given position.
+Calcule un emplacement libre autour d'un point central.
 
-\t;center: \c;\l;point\u cbot\point;\n; (default: bot position)
-Desired position of the free space.
+\t;center: \c;\l;point\u cbot\point;\n; (position du robot par défaut)
+Position centrale autour de laquelle la recherche est effectuée.
 
-\t;rmin: \c;\l;float\u cbot\float;\n; (default value: \c;8\n;)
-Minimum distance from the desired position.
+\t;rmin: \c;\l;float\u cbot\float;\n; (\c;10\n; par défaut)
+Rayon minimal à partir duquel la recherche est effectuée.
 
-\t;rmax: \c;\l;float\u cbot\float;\n; (default value: \c;50\n;)
-Maximum distance from the desired position.
+\t;rmax: \c;\l;float\u cbot\float;\n; (\c;50\n; par défaut)
+Rayon maximal après lequel la recherche est stoppée.
 
-\t;dist: \c;\l;float\u cbot\float;\n; (default value: \c;4\n;)
-Required distance between two free spaces.
+\t;dist: \c;\l;float\u cbot\float;\n; (\c;4\n; par défaut)
+Distance requise entre deux emplacements libres.
 
-\t;Return: \c;\l;point\u cbot\point;\n;
-Position of the free space.
+\t;Valeur retournée: \c;\l;point\u cbot\point;\n;
+Position libre.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;space \n; = espace
+\c;center\n; = centre
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

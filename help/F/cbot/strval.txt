@@ -1,19 +1,21 @@
 \b;Instruction \c;strval\n;
-Convert a string to a number. Don't confuse the string \c;"45"\n; that contains actually the two characters \c;4\n; and \c;5\n; and the number \c;45\n;.
-
-Examples¦:
-\s;\c;	string s = "45"+"12";  // s contains "4512"
-\s;	float  n =  45 + 12;   // n contains 67
+Cette instruction convertit une chaîne représentant un nombre en un nombre. Il ne faut pas confondre la chaîne \c;"45"\n; qui contient les deux caractères \c;4\n; et \c;5\n; et le nombre \c;45\n;.
+Exemples:
+\s;\c;	string s = "45"+"12";  // s vaut "4512"
+\s;	float  n =  45 + 12;   // n vaut 67
 \n;
-Syntax¦:
+Syntaxe:
 \s;\c;strval ( string );\n;
 \n;
-Examples¦:
-\s;\c;	float n = strval("1.23");     // n is 1.23
-\s;	float n = strval("12abc45");  // n is 12
-\s;	float n = strval("abc");      // n is 0
-\s;	float n = strval("100")+2;    // n is 102
+Exemples:
+\s;\c;	float n = strval("1.23");     // n vaut 1.23
+\s;	float n = strval("12abc45");  // n vaut 12
+\s;	float n = strval("abc");      // n vaut 0
+\s;	float n = strval("100")+2;    // n vaut 102
 \n;
-\t;See also
+\t;Dictionnaire anglais-français
+\c;string\n; = chaîne de caractères
+
+\t;Voir aussi
 \c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

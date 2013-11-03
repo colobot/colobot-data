@@ -1,43 +1,47 @@
-\b;Exercise
-Search the whole zone inside the barriers with the \l;sniffer bot\u object\botsr; for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross.
+\b;Exercice
+Programmez le \l;robot\u object\botsr; renifleur pour quadriller le secteur entre les barrières.
+Vous devez trouver 3 emplacements permettant de construire un derrick. Un emplacement découvert est marqué d'une croix rouge.
 
 \b;Description
-The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters.
+L'enclos est carré et mesure 25 mètres de côté. Une bonne base consiste à effectuer un sondage tous les 5 mètres.
 
 \image sniff1 12 12;
-One way to achieve this is to fit two \c;\l;for\u cbot\for;\n; loops one into another:
+Une façon d'y parvenir consiste à imbriquer deux boucles \c;\l;for\u cbot\for;\n; l'une dans l'autre:
 \c;
 \s;for ( int y=0 ; y<6 ; y=y+1 )
 \s;{
 \s;	for ( int x=0 ; x<5 ; x=x+1 )
 \s;	{
-\s;		\n;sound the subsoil\c;
-\s;		\n;move 5m forward\c;
+\s;		\n;o  sondage ...\c;
+\s;		\n;o  avancer de 5 mètres\c;
 \s;	}
-\s;	\n;sound the subsoil\c;
-\s;	\n;quarter turn left\c;
-\s;	\n;move 5m forward\c;
-\s;	\n;quarter turn left\c;
+\s;	\n;o  sondage ...\c;
+\s;	\n;o  quart de tour à gauche\c;
+\s;	\n;o  avancer de 5 mètres\c;
+\s;	\n;o  quart de tour à gauche\c;
 \s;}
 \n;
-This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!
-You will have noticed that if \c;y\n; is even, the bot must turn left, and if \c;y\n; is odd, the bot must turn right.
-The \l;expression\u cbot\expr; \c;y%2\n; returns the rest of the division of \c;y\n; by \c;2\n;. For example, if \c;y=3\n;, the expression returns \c;1\n;.
-The test \c;\l;if\u cbot\if; { }\n; can be followed by a \c;else { }\n;. If the test is true, the first \l;block\u cbot\bloc; \c;{ }\n; will be executed. Otherwise, the second block \c;{ }\n; will be executed.
+Ce programme ne fonctionne pas. Après la première ligne sondée, le \l;robot\u object\botsr; tourne à gauche puis sonde la deuxième ligne en revenant en arrière. Au deuxième virage, il doit tourner à droite!
+On constate que si \c;y\n; est pair, il faut tourner à gauche. A l'inverse, si \c;y\n; est impair, il faut tourner à droite.
+L'\l;expression\u cbot\expr; \c;y%2\n; permet d'obtenir le reste de la division de \c;y\n; par \c;2\n;. Donc, si \c;y=3\n;, on obtient \c;1\n;.
+Le test \c;\l;if\u cbot\if; { }\n; peut être suivi d'un \c;else { }\n;. Si le test est vrai, le premier \l;bloc\u cbot\bloc; \c;{ }\n; est exécuté, sinon c'est le deuxième bloc \c;{ }\n;.
 \c;
 \s;if ( y%2 == 0 )
 \s;{
-\s;	y \n;is even\c;
+\s;	y \n;est pair ...\c;
 \s;}
 \s;else
 \s;{
-\s;	y \n;is uneven\c;
+\s;	y \n;est impair ...\c;
 \s;}
 \n;
-It is up to you to finish the program.
+A vous de terminer le programme ...
 
-\b;Remark
-Use the instruction \c;\l;sniff\u cbot\sniff;( )\n; to sound the subsoil, and \c;\l;move\u cbot\move;( )\n; and \c;\l;turn\u cbot\turn;( )\n; to move the bot.
+\b;Remarque
+L'instruction \c;\l;sniff\u cbot\sniff;( )\n; effectue un sondage.
+Utilisez également les instructions \c;\l;move\u cbot\move;( )\n; et \c;\l;turn\u cbot\turn;( )\n;.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u tcell2; et \l;programmation\u cbot;.
