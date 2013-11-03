@@ -1,21 +1,27 @@
 \b;Instruction \c;writeln\n;
-Write one line of text to an open file in the files/ folder. This is a method of the \c;\l;file\u cbot\file;\n; class. This is the reason why we always write \c;handle.writeln()\n;¦:
+L'instruction \c;writeln();\n; écrit une ligne de texte dans un fichier ouvert dans le dossier files/. Cette instruction est une méthode de la classe \c;\l;file\u cbot\file;\n;. C'est la raison pour laquelle on n'écrit jamais \c;writeln()\n; tout seul, mais \c;handle.writeln()\n;:
 \c;
 \s;	handle.writeln("abc");
 \n;
-The file must have been opened for writing (\c;"w"\n;) with the \c;\l;open\u cbot\open;\n; instruction. The line will automatically be terminated by the end of line characters 0x0D (CR) and 0x0A (LF).
+Le fichier doit être ouvert avec l'instruction \c;\l;open\u cbot\open;\n; et le mode \c;"w"\n; (écriture). Dans le fichier, la ligne sera automatiquement terminée par les deux caractères de fin de ligne 0x0D (CR) et 0x0A (LF).
 
-Syntax¦:
-\s;\c;handle.writeln ( string );\n;
+Syntaxe:
+\s;\c;writeln ( string );\n;
 
-Examples¦:
+Exemples:
 \c;
-\s;	writeln("Line of text");
+\s;	writeln("Ligne de texte");
 
 \s;	string s1 = "abc";
 \s;	string s2 = "def";
 \s;	writeln(s1 + " " + s2);
 \n;
-\t;See also
-\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n; and \c;\l;eof\u cbot\eof;\n;.
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\t;Dictionnaire anglais-français
+\c;file   \n; = fichier
+\c;handle \n; = poignée, manipuler
+\c;writeln\n; = abréviation de "write line", écrit une ligne
+\c;string \n; = chaîne de caractères
+
+\t;Voir aussi
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n; et \c;\l;eof\u cbot\eof;\n;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,60 +1,59 @@
 \b;Instruction \c;radar\n;
-With the instruction \c;radar()\n;, you can look for objects like \l;enemies\u object\mother;, bots, buildings or raw materials.
+Avec l'instruction \c;radar()\n;, le robot peut chercher des objets comme des \l;ennemis\u object\mother;, des robots ou des bâtiments.
 
-\b;Basic use
-Write in brackets the \l;name of the object\u cbot\category; that you look for. Put the result in a variable of the \l;type\u cbot\type; \c;object\n;. Here is an example that looks for the closest ant:
+\b;Utilisation courante
+Donnez entre parenthèses le \l;nom de l'objet\u cbot\category; que vous cherchez. Mettez le résultat dans une variable de \l;type\u cbot\type; \c;object\n;. Voici par exemple comment chercher la fourmi la plus proche:
 \c;
-\s;// At the beginning of the program:
-\s;object  item; // variable declaration
+\s;// Tout au début du programme:
+\s;object  chose; // déclaration de la variable
 \s;
-\s;// Look for the closest ant
-\s;item = radar(AlienAnt);
+\s;// Cherche la fourmi la plus proche
+\s;chose = radar(AlienAnt);
 \n;
-\b;For specialists
-Syntax:
-\s;\c;radar ( category, angle, focus, min, max, way );\n;
+\b;Pour spécialistes
+Syntaxe:
+\s;\c;radar ( catégorie, angle, focus, min, max, sens );\n;
 
-Detects an object according to several parameters. 
+Détecte un objet selon divers critères.
 
 \image radar1 8 8;
-Seen from above, the purple zone corresponds to the zone where objects will be detected. 
+La zone arrondie violette correspond, vue d'en haut, à la zone dans laquelle les objets sont détectés.
 
-\t;category: \c;\l;int\u cbot\int;\n;
-\l;Category\u cbot\category; of the objects that should be detected. For example, when you are looking for an ant, write \c;radar (AlienAnt)\n;. 
+\t;catégorie: \c;\l;int\u cbot\int;\n;
+\l;Catégorie\u cbot\category; des objets cherchés. Par exemple, \c;WayPoint\n;.
 
-\t;angle: \c;\l;float\u cbot\float;\n; (default value\c;0\n;)
-Direction that the radar is facing, in degrees. 
-\c;  0\n; -> radar is facing straight ahead
-\c;-90\n; -> radar is facing a quarter turn right
-\c; 90\n; -> radar is facing a quarter turn left
+\t;angle: \c;\l;float\u cbot\float;\n; (\c;0\n; par défaut)
+Direction dans laquelle est dirigé le radar, en degrés.
+\c;  0\n; -> radar dirigé droit devant
+\c;-90\n; -> radar dirigé à gauche
+\c; 90\n; -> radar dirigé à droite
 
-\t;focus: \c;\l;float\u cbot\float;\n; (default value\c;360\n;)
-Opening angle of the radar, in degrees. 
+\t;focus: \c;\l;float\u cbot\float;\n; (\c;360\n; par défaut)
+Angle d'ouverture du radar, en degrés.
 
-\t;min: \c;\l;float\u cbot\float;\n; (default value \c;0\n;)
-Minimum detection distance, in meters. Objects that are closer than the minimum distance will not be detected. 
+\t;min: \c;\l;float\u cbot\float;\n; (\c;0\n; par défaut)
+Distance minimale de détection, en mètres. Avant cette distance, les objets sont ignorés.
 
-\t;max: \c;\l;float\u cbot\float;\n; (Default value\c;1000\n;)
-Maximum detection distance, in meters. Objects that are farther away than the maximum distance will not be detected. 
+\t;max: \c;\l;float\u cbot\float;\n; (\c;1000\n; par défaut)
+Distance maximale de détection, en mètres. Au delà de cette distance, les objets sont ignorés.
 
-\t;way: \c;\l;float\u cbot\float;\n; (default value\c;1\n;)
-Determines which way the objects are detected. With value \c;1\n;, returns the closest object found in the specified zone. With value \c;-1\n;, the farthest object in the zone will be returned. 
+\t;sens: \c;\l;float\u cbot\float;\n; (\c;1\n; par défaut)
+Sens dans lequel s'effectue la recherche. Avec la valeur \c;1\n;, on cherche de l'intérieur vers l'extérieur. Autrement dit, c'est l'objet le plus proche qui est trouvé. Avec \c;-1\n;, on cherche de l'extérieur vers l'intérieur. On trouvera donc l'objet le plus éloigné.
 
-\t;Return value: \c;\l;object\u cbot\object;\n;
-Returns the first object found that corresponds to the specified category in the specified zone. If no object was found, returns the value \c;\l;null\u cbot\null;\n;.
+\t;Valeur retournée: \c;\l;object\u cbot\object;\n;
+Objet trouvé le plus proche. La valeur \c;\l;null\u cbot\null;\n; indique que rien n'a été trouvé.
 
-\t;Remark
-You do not have to give all the parameters. Here are two examples of instructions that are equivalent: 
+\t;Remarque
+Il n'est pas nécessaire de donner tous les paramètres. Voici deux exemples identiques:
 \c;
 \s;	radar(Titanium, 0, 360, 0, 1000);
-\s;	radar(Titanium);  // equivalent
+\s;	radar(Titanium);  // identique
 
 \s;	radar(Titanium, 0, 90, 0, 1000);
-\s;	radar(Titanium, 0, 90);  // equivalent
+\s;	radar(Titanium, 0, 90);  // identique
 \n;
-When one or more parameters are not specified, the default values indicated above are used instead; only the first parameter is compulsory.
-Generally, only the first parameter is specified: f. ex. \c;radar (AlienAnt)\n; detects the closest ant, wherever it may be. 
+En fait, lorsque des paramètres manquent, ils prennent les valeurs par défaut indiquées plus haut. Le premier paramètre \c;catégorie\n; est obligatoire. Les cinq paramètres suivants sont facultatifs, et sont remplacés par \c;0\n;, \c;360\n;, \c;0\n;, \c;1000\n; et \c;1\n; s'ils manquent.
+Ceci est très utile. En effet, \c;radar(XXX)\n; trouve l'objet le plus proche, où qu'il soit.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
-
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

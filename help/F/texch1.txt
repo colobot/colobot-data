@@ -1,31 +1,36 @@
-\b;Exercise
-Several \l;information exchange posts\u object\exchange; stand in the middle of a \l;mine\u object\mine; field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a \l;mine\u object\mine;.
-The exchange posts are distant 20m from each other.
+\b;Exercice
+Des \l;bornes d'informations\u object\exchange; sont placées au milieu d'un champ de \l;mines\u object\mine;. Lorsque le \l;robot\u object\bottr; est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction à prendre pour atteindre la borne suivante, sans heurter les \l;mines\u object\mine;.
+Les bornes sont distantes de 20 mètres.
 
-\b;General principe
-Repeat 5 times :
-	o  Move 20m forward.
-	o  Read the direction of the next \l;information exchange post\u object\exchange;.
-	o  Execute the necessary rotation.
+\b;Principe
+\s;o  Répéter 5 fois:
+\s;	o  Avancer de 20 mètres.
+\s;	o  Lire la nouvelle direction dans la \l;borne\u object\exchange;.
+\s;	o  Tourner de l'angle obtenu.
 
 \image tinfo1 8 8;
-In order to repeat the steps above, use a \c;\l;for\u cbot\for;\n; loop, as we saw it before.
-\s;\c;	for ( int i=0 ; i<5 ; i=i+1 )
+La répétition s'effectue avec une boucle \c;\l;repeat\u cbot\repeat;\n; comme vu précédemment:
+\s;\c;	repeat ( 5 )
+\s;	{
+\s;		\n;instructions à répéter ...\c;
+\s;	}
 \n;
-Move forward with the instruction \c;move(20);\n;.
+L'avance s'effectue avec un \c;\l;move\u cbot\move;(20);\n;.
 
-Use the instruction \c;\l;receive\u cbot\receive;("Direction");\n; in order to read the information contained in the \l;exchange post\u object\exchange;. This is of course possible only when the bot is close enough to the exchange post.
-You will need a \l;variable\u cbot\var; to contain the value retrieved from the exchange post. Let us call it \c;dir\n;; you must declare it with the following line:
+La lecture de la \l;borne\u object\exchange; s'obtient avec \c;\l;receive\u cbot\receive;("Direction");\n;. Ceci n'est évidemment possible que lorsque le \l;robot\u object\bottr; est proche de la borne. L'orientation du robot n'a pas d'importance.
+Il faudra définir une \l;variable\u cbot\var; \c;dir\n;, juste avant de l'utiliser ou tout au début du programme, à choix:
 \s;\c;	float  dir;
 \n;
-Then retrieve the rotation angle from the exchange post, and put it into the variable:
-\s;\c;	dir = receive(...);
+Et ensuite lui assigner la direction à prendre:
+\s;\c;	dir = receive("Direction");
 \n;
-Then you can execute the rotation:
+Ce qui permet de tourner dans la bonne direction avec:
 \s;\c;	turn(dir);
 \n;
-\b;Remark
-You can click on an \l;information exchange post\u object\exchange; in order to read what information it contains. In this exercise, every exchange post contains only one value called \c;"Direction"\n;, but it can contain up to 10 different values, as you will see in some of the following exercises.
+\b;Remarque
+En cliquant sur une \l;borne\u object\exchange; pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient une seule information appelée \c;"Direction"\n;, mais une borne peut contenir jusqu'à 10 valeurs. Ceci sera utilisé dans des exercices ultérieurs.
 
-\t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+
+\t;Voir aussi
+\l;Exercice précédent\u ttit2; et \l;programmation\u cbot;.
