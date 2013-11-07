@@ -9,7 +9,7 @@ if [ -z "$outdir" ] || [ "$outdir" = "." ] || [ ! -d $outdir ]; then
 	return 1;
 fi
 
-linguas="en fr"
+linguas="en fr ru"
 
 categories="defi free win lost perso proto"
 for sc_i in $(seq 1 9); do
@@ -114,6 +114,7 @@ for category in $categories; do
 				en) dotlang=""; langcode=".E";;
 				fr) langcode=".F";;
 				pl) langcode=".P";;
+				ru) langcode=".R";;
 			esac
 			xmlfile=$rootfilename$dotlang.xml
 			echo -n "."
