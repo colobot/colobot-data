@@ -1,0 +1,53 @@
+\b;Программы, отправленные Хьюстоном
+Мы написали программу, которая отвечает за подзарядку батарей \l;оборонной башни\u object\tower;:
+
+1) Перейти к \l;оборонной башни\u object\tower;.
+2) Подождать пока \l;батарея\u object\power; разрядится на 80%.
+3) Взять \l;батарея\u object\power; и зарядить ее на \l;электростанции\u object\station;.
+4) Вернуть ее обратно на  \l;оборонную башню\u object\tower;.
+
+Постройте \l;электростанцию\u object\station; как можно ближе к башне, чтобы уменьшить время, пока башня стоит без батареи. Неплохо было бы разместить батарею на земле около башни. На батарею нападет оса, и если первый выстрел будет неточным, или оса прилетит в тот момент, когда оборонная башня будет обесточена, уничтожена будет только батарея, а не оборонная башня.
+\c;
+\s;extern void object::ServiceTower1()
+\s;{
+\s;	\l;object\u cbot\object;  tower;               // информация о башне
+\s;	\l;object\u cbot\object;  station;             // информация о станции
+\s;	
+\s;	// 1) перейти к оборонной башне
+\s;	tower = \l;radar\u cbot\radar;(DefenseTower); // искать башню
+\s;	\l;goto\u cbot\goto;(tower.position);        // идти туда
+\s;	
+\s;	\l;while\u cbot\while; ( true )               // повторять всегда
+\s;	{
+\s;		// 2) подождать пока разрядится батарея
+\s;		\l;while\u cbot\while; ( tower.energyCell.energyLevel > 0.2 )
+\s;		{
+\s;			\l;wait\u cbot\wait;(2);
+\s;		}
+\s;		\l;grab\u cbot\grab;();                  // взять батарею
+\s;		
+\s;		// 3) отправится к электростанции для подзарядки
+\s;		station = \l;radar\u cbot\radar;(PowerStation);
+\s;		\l;goto\u cbot\goto;(station.position);  // идти туда
+\s;		\l;while\u cbot\while; ( load.energyLevel < 1 )
+\s;		{
+\s;			\l;wait\u cbot\wait;(1);             // ждать пока пройдет зарядка
+\s;		}
+\s;		
+\s;		// 4) вернуться к оборонной башне
+\s;		\l;goto\u cbot\goto;(tower.position);    // идти к башне
+\s;		\l;drop\u cbot\drop;();                  // бросить батарею
+\s;	}
+\s;}
+\n;
+\b;Архивы
+Список программ, отправленных в предыдущих миссиях
+
+o  \c;\l;CollectTitanium3\u mlvolca1;\n;
+o  \c;\l;KillAnt1\u mlsaari2;\n;
+o  \c;\l;CollectTitanium2\u mlcrys2;\n;
+o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;Recharge2\u mltropi3;\n;
+o  \c;\l;Recharge1\u mllune4;\n;
+o  \c;\l;SwitchCell1\u mllune1;\n;
+
