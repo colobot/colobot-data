@@ -1,0 +1,50 @@
+\b;Программы, отправленные Хьюстоном
+Ниже приведена программа, разработанная нашими инженерами.
+
+Она приказывает \l;бронеботу\u object\botshld; следовать за \l;фазером\u object\botphaz; и защищать его.
+\c;
+\s;extern void object::FollowPhazer()
+\s;{
+\s;	\l;object\u cbot\type;    item;              // информация о фазере
+\s;	\l;point\u cbot\type;     dest;              // место назначения
+\s;	\l;float\u cbot\type;     dist;              // расстояние до фазера
+\s;	
+\s;	item = \l;radar\u cbot\radar;(\l;PhazerShooter\u cbot\category;);
+\s;	\l;if\u cbot\if; ( item == null )
+\s;	{
+\s;		\l;message\u cbot\message;("Фазер не найден");
+\s;		\l;return\u cbot\return;;                  // остановить программу
+\s;	}
+\s;	\l;shield\u cbot\shield;(1, 25);               // включить щит
+\s;	
+\s;	\l;while\u cbot\while; ( true )               // повторять всегда
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(PhazerShooter);// искать фазер
+\s;		\l;if\u cbot\if; ( item == null )  break;
+\s;		
+\s;		dist = \l;distance\u cbot\dist;(item.position, position);
+\s;		\l;if\u cbot\if; ( dist < 5 )
+\s;		{                        // если ближе 5 метров:
+\s;			\l;wait\u cbot\wait;(1);             // ждать
+\s;		}
+\s;		\l;else\u cbot\if;                     // иначе:
+\s;		{ // Рассчитать расстояние в 5 м. перед фазером
+\s;			dest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;
+\s;			dest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;
+\s;			dest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;
+\s;			\l;goto\u cbot\goto;(dest, 0, 1, 1); // перейти туда
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Архивы
+Список программ, отправленных в предыдущих миссиях
+
+o  \c;\l;ServiceTower1\u mlvolca2;\n;
+o  \c;\l;CollectTitanium3\u mlvolca1;\n;
+o  \c;\l;KillAnt1\u mlsaari2;\n;
+o  \c;\l;CollectTitanium2\u mlcrys2;\n;
+o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;Recharge2\u mltropi3;\n;
+o  \c;\l;Recharge1\u mllune4;\n;
+o  \c;\l;SwitchCell1\u mllune1;\n;

@@ -1,0 +1,30 @@
+\b;Инструкция \c;extern\n;
+Инструкция \c;extern\n; определяет \l;функцию\u cbot\function;, которая будет основной в программе бота. Имя функции, объявленой с помощью \c;extern\n;. появится в списке ваших программ в левом нижнем углу экрана.
+\c;
+\s;extern void object::MowDown( )
+\s;{
+\s;	while ( true )
+\s;	{
+\s;		fire(1);
+\s;		turn(10);
+\s;	}
+\s;}
+\n;
+Если программа содержит другие функции, то им должна предшествовать \c;extern\n;.
+\c;
+\s;extern void object::Square( )
+\s;{
+\s;	for ( int i=0 ; i<4 ; i++ )
+\s;	{
+\s;		Line(10);
+\s;	}
+\s;}
+\s;
+\s;void object::Line(float dist)
+\s;{
+\s;	move(dist);
+\s;	turn(90);
+\s;}
+\n;
+\t;См. также
+\l;Инструкции\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

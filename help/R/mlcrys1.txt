@@ -1,0 +1,29 @@
+\b;Программы, отправленные Хьюстоном
+Ниже приведен текст программы, написанной одним из наших инженеров.
+Она инструктирует \l;сборщика\u object\botgr; взять ближайший кусок \l;титановой руды\u object\titanore; и разместить его в \l;преобразователе\u object\convert;.
+
+Чтобы запустить программу, выберите программу \c;CollectTitanium1\n; из списка программ, доступных для бота (в левом нижнем углу экрана), и щелкните на стрелке \button 21;. Вы можете в любой момент остановить программу и взять управление в свои руки, нажав кнопку стоп \button 8;.
+\c;
+\s;extern void object::CollectTitanium1()
+\s;{
+\s;	// 1) Задание переменной.
+\s;	\l;object\u cbot\type;  item;            // информация об объектах
+\s;	
+\s;	// 2) Перейти к тиатновой руде и взять ее.
+\s;	item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// искать титановую руду
+\s;	\l;goto\u cbot\goto;(item.position);     // перейти к месту
+\s;	\l;grab\u cbot\grab;();                  // взять титан
+\s;	
+\s;	// 3) Перейти к преобразователю и сбросить руду.
+\s;	item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // искать преобразователь
+\s;	\l;goto\u cbot\goto;(item.position);     // перейти к месту
+\s;	\l;drop\u cbot\drop;();                  // сбросить титан
+\s;	\l;move\u cbot\move;(-2.5);              // отойти назад на 2.5 м
+\s;}
+\n;
+\b;Архивы
+Список программ, отправленных в предыдущих миссиях
+
+o  \c;\l;Recharge2\u mltropi3;\n;
+o  \c;\l;Recharge1\u mllune4;\n;
+o  \c;\l;SwitchCell1\u mllune1;\n;

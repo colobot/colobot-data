@@ -1,0 +1,103 @@
+\b;Упражнение
+Дистанционное управление ботом без использования \l;поста обменом информацией\u object\exchange;. Бот должен проехать по 6 синим отметкам. Вам потребуется использовать команду \l;string\u cbot\string; для того, чтобы передавать команды управляемому боту. Эта строка будет содержать порядок выполнения, например \c;"move(20)"\n;. Вы видите, что это тот же синтаксис, используемый в языке CBOT, но мы могли бы выбрать любой другой синтаксис, например что-то вроде \c;"advance=20"\n;. Эта строка имеет \c;\l;статичный\u cbot\static;\n; класс, который будет использован для связи ведущего бота(master, тот, кто управляет) с ведомым ботом(slave, тот, кем управляют).
+
+Что потребуется:
+1) \l;Колесный сборщик\u object\botgr; без батареи. Данный бот будет ведущим.
+2) Ведомый \l;тренировочный бот\u object\bottr; запрограммированый заранее на ожидание комманд от ведущего бота.
+
+\b;Ведомый
+Прежде всего нужно понять, как программа работает. \l;Класс\u cbot\class; \c;exchange\n; содержит в себе механизм обмена данными. Мы заявляем \c;\l;статичный\u cbot\static;\n; номер класса \c;m_order\n; который содержит в себе команды для выполнения. Слово \c;статический\n; гарантирует, что \c;m_order\n; будет одинаковым во всех \l;классах\u cbot\class;.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; \l;string\u cbot\string; m_order = "";
+
+\n;Метод \c;"put"\n; позволит ведущему боту передавать команды. Пока строка \c;m_order\n; не будет очищена, ведомый бот не закончит работу и метод \c;put\n; вернет \c;ложь\n;(т.е. бот ничего не будет делать).
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(string order)
+\s;	{
+\s;		if ( m_order == "" )
+\s;		{
+\s;			m_order = order;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Другой метод \c;get\n; может быть использован ведомым ботом для получения задания. Этот метод возвращает в строку \c;m_order\n; заявку(order) на выполнение работы:
+
+\c;\s;	\l;synchronized\u cbot\synchro; string get()
+\s;	{
+\s;		string ret = m_order;
+\s;		m_order = "";
+\s;		return ret;
+\s;	}
+\s;}
+\n;
+Основная программа в ведомом боте содержит класс \c;exchange\n; вызываемый через \c;list\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave3( )
+\s;{
+\s;	exchange list();
+\s;	string   todo;
+\n;
+Внешний \c;цикл\n; длится вечно. Внутренний \c;цикл\n; ждет заявку с помощью метода \c;get\n; и \c;exchange\n; класса. Как только метод \c;get\n; вернет не пустую строку, цикл остановится.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo != "" )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Теперь мы получили заявку в переменную \c;todo\n;. Значит нам нужно выполнить заказ:
+
+\c;\s;		if ( \l;strfind\u cbot\strfind;(todo, "move") == 0 )
+\s;		{
+\s;			move(\l;strval\u cbot\strval;(\l;strmid\u cbot\strmid;(todo,5)));
+\s;		}
+\s;		if ( strfind(todo, "turn") == 0 )
+\s;		{
+\s;			turn(strval(strmid(todo,5)));
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Ведущий
+В ведущем боте создадим функцию \c;SendOrder\n;, которая будет отправлять заказы к ведомому боту:
+
+\c;\s;void object::SendOrder(string order)
+\s;{
+\s;	exchange list();
+\s;	
+\s;	while ( list.put(order) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+\c;Цикл\n; ждет, пока ожидаемая заявка не будет выполнена.
+Пока программа для ведущего бота довольно проста:
+
+\c;\s;extern void object::Remote3( )
+\s;{
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(-90)");
+\s;	SendOrder("move(10)");
+\s;}
+\n;
+Клавиша \key;\key help;\norm; показывает эту инструкцию в любое время.
+
+\t;Смотри также
+\l;Язык CBOT\u cbot;, \l;Переменные\u cbot\type; и \l;Категории\u cbot\category;.
