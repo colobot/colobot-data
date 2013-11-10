@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train302.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: train302/scene.txt:1
+#, no-wrap
+msgid "train302:Follow with variables"
+msgstr "train302:Suivre mieux"
+
+#
+#. type: Resume-text
+#: train302/scene.txt:2
+#, no-wrap
+msgid "train302:Use variables in order to store the parameters of the path."
+msgstr "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant des variables."
+
+#
+#. type: ScriptName-text
+#: train302/scene.txt:3
+#, no-wrap
+msgid "train302:Move"
+msgstr "train302:Déplace"
+
+#. type: \b; header
+#: train302-help/tmove2.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:4
+#, no-wrap
+msgid ""
+"This exercise is very similar to the previous one. The bot must move exactly in the same way, but when writing the program, you must use a new concept that is extremely important in programming: <a cbot|var>variables</a>.\n"
+"We saw that all the pads are at a distance form each other of 20 meters. And all the rotations performed consist in 90 degree angles. Instead of rewriting the same values over and over again in the program, we can store them in a variable: "
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:7
+#, no-wrap
+msgid ""
+"Instead of:\n"
+"<c/><s/>\tmove(20);"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:11
+#, no-wrap
+msgid ""
+"\tturn(90);\n"
+"\tmove(20);\n"
+"\tturn(-90);\n"
+"\t..."
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:14
+#, no-wrap
+msgid ""
+"We write :\n"
+"<c/><s/>\tdist = 20;"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:20
+#, no-wrap
+msgid ""
+"\tdir = 90;\n"
+"\tmove(dist);\n"
+"\tturn(dir);\n"
+"\tmove(dist);\n"
+"\tturn(-dir);\n"
+"\t..."
+msgstr ""
+
+#. type: \b; header
+#: train302-help/tmove2.txt:21
+#, no-wrap
+msgid "Variables"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:23
+#, no-wrap
+msgid "A <a cbot|var>variable</a> is composed of three elements: \n"
+msgstr ""
+
+#. type: \t; header
+#: train302-help/tmove2.txt:23 train302-help/tmove2.txt:27
+#, no-wrap
+msgid "The name"
+msgstr ""
+
+#. type: Bullet: '2)'
+#: train302-help/tmove2.txt:24
+#, no-wrap
+msgid "The type of the content"
+msgstr ""
+
+#. type: \t; header
+#: train302-help/tmove2.txt:25 train302-help/tmove2.txt:38
+#, no-wrap
+msgid "The content"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:29
+#, no-wrap
+msgid "Use the name to refer to a variable. For example, instead of writing <c/>move(20);<n/>, write <c/>move(dist);<n/>: \"dist\" is the name of the variable. You can choose almost any name for a variable, for example <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, etc."
+msgstr ""
+
+#. type: \t; header
+#: train302-help/tmove2.txt:30
+#, no-wrap
+msgid "The type"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:32
+#, no-wrap
+msgid "The type of a variable determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a character string, the coordinates of a point, etc. Here is a list with the most common variable types: \n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train302-help/tmove2.txt:32
+#, no-wrap
+msgid "<code><a cbot|int>int</a></code> for a whole number (12, -500, etc.)"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train302-help/tmove2.txt:33
+#, no-wrap
+msgid "<code><a cbot|float>float</a></code> for a real number (3.14, 0.2, -99.98, etc.)"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train302-help/tmove2.txt:34
+#, no-wrap
+msgid "<code><a cbot|string>string</a></code> for a character string (\"Hello!\", \"Nothing to grab\", etc.)"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train302-help/tmove2.txt:35
+#, no-wrap
+msgid "<code><a cbot|point>point</a></code> for the x,y,z-coordinates of a point in space"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train302-help/tmove2.txt:36
+#, no-wrap
+msgid "<code><a cbot|object>object</a></code> for the information about an object (bot, building, etc.) "
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:40
+#, no-wrap
+msgid "The content of a variable can be a number, a string, coordinates, etc., according to the type of the variable. The content of a variable can change many times during the execution of a program. "
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:42
+#, no-wrap
+msgid "Before you can use a variable, you have to declare it. For example, before you can use the two variables <code>dist</code> and <code>dir</code>, you must declare them with the following lines: "
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:45
+#, no-wrap
+msgid ""
+"\tfloat  dist;\n"
+"\tfloat  dir;"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:47
+#, no-wrap
+msgid "Now you can use the two variables. To put the value 20 into <code>dist</code> and 90 into <code>dir</code>, write:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:50
+#, no-wrap
+msgid ""
+"\tdist = 20;\n"
+"\tdir = 90;"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:52
+#, no-wrap
+msgid "Now you can move and turn the bot with the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</code></a>:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:55
+#, no-wrap
+msgid ""
+"\tmove(dist);\n"
+"\tturn(dir);"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:57
+#, no-wrap
+msgid "You can also use a whole <a cbot|expr>mathematical expression</a> instead of just the variable:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train302-help/tmove2.txt:60
+#, no-wrap
+msgid ""
+"\tmove(dist+100);\n"
+"\tturn(-dir);"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:62
+#, no-wrap
+msgid "The latter instruction will be needed to turn the bot right. "
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:64
+#, no-wrap
+msgid "Now, rewrite the program of the previous exercise, but use a variable for the distance and another variable for the angle of the rotation. "
+msgstr ""
+
+#. type: \t; header
+#: train302-help/tmove2.txt:65
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train302-help/tmove2.txt:66
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#
+#~ msgid "train300:Fundamentals"
+#~ msgstr "train300:Base"
+
+#
+#~ msgid "train300:"
+#~ msgstr "train300:"
+
+#
+#~ msgid "train301:Follow a path"
+#~ msgstr "train301:Suivre un chemin"
+
+#
+#~ msgid "train301:"
+#~ msgstr "train301:"
+
+#
+#~ msgid "train301:Move the bot along a given path."
+#~ msgstr "train301:Déplacer un robot le long d'une trajectoire donnée."
+
+#
+#~ msgid "train301:Move"
+#~ msgstr "train301:Déplace"
+
+#
+#~ msgid "train302:"
+#~ msgstr "train302:"
+
+#
+#~ msgid "train303:Massacre"
+#~ msgstr "train303:Massacre"
+
+#
+#~ msgid "train303:"
+#~ msgstr "train303:"
+
+#
+#~ msgid "train303:Use a loop in order to destroy six targets."
+#~ msgstr "train303:Détruire six cibles à l'aide d'une boucle."
+
+#
+#~ msgid "train303:Go"
+#~ msgstr "train303:Go"
+
+#
+#~ msgid "train304:Exchange posts 1"
+#~ msgstr "train304:Bornes 1"
+
+#
+#~ msgid "train304:"
+#~ msgstr "train304:"
+
+#
+#~ msgid "train304:Collect valuable information from information exchange posts."
+#~ msgstr "train304:Récolter une information de direction, afin d'apprendre le concept de variable."
+
+#
+#~ msgid "train304:Info"
+#~ msgstr "train304:Suivre"
+
+#
+#~ msgid "train305:Exchange posts 2"
+#~ msgstr "train305:Bornes 2"
+
+#
+#~ msgid "train305:"
+#~ msgstr "train305:"
+
+#
+#~ msgid "train305:Collect more valuable information from information exchange posts."
+#~ msgstr "train305:Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+
+#
+#~ msgid "train305:Info"
+#~ msgstr "train305:Suivre"
+
+#
+#~ msgid "train306:Labyrinth 1"
+#~ msgstr "train306:Labyrinthe 1"
+
+#
+#~ msgid "train306:"
+#~ msgstr "train306:"
+
+#
+#~ msgid "train306:Teach your bot how to find its way out of the labyrinth."
+#~ msgstr "train306:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+
+#
+#~ msgid "train306:Labyrinth"
+#~ msgstr "train306:Labyrinthe"
+
+#
+#~ msgid "train307:Labyrinth 2"
+#~ msgstr "train307:Labyrinthe 2"
+
+#
+#~ msgid "train307:"
+#~ msgstr "train307:"
+
+#
+#~ msgid "train307:Teach your bot to do the same job in a more autonomous way."
+#~ msgstr "train307:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+
+#
+#~ msgid "train307:Labyrinth"
+#~ msgstr "train307:Labyrinthe"
+
+#
+#~ msgid "train308:The gold digger"
+#~ msgstr "train308:Le chercheur d'or"
+
+#
+#~ msgid "train308:"
+#~ msgstr "train308:"
+
+#
+#~ msgid "train308:Instruct your bot to search a zone for subsoil resources."
+#~ msgstr "train308:Recherche de minerai en sous-sol en programmant un robot pour quadriller une zone."
+
+#
+#~ msgid "train308:Digger"
+#~ msgstr "train308:Cherche"
+
+#
+#~ msgid "train309:Remote control #1"
+#~ msgstr "train309:Télécommande #1"
+
+#
+#~ msgid "train309:"
+#~ msgstr "train309:"
+
+#
+#~ msgid "train309:Remote control a robot using an information exchange post, so it will transport uranium ore."
+#~ msgstr "train309:Télécommandez un robot par le biais d'une borne d'information."
+
+#
+#~ msgid "train309:remote"
+#~ msgstr "train309:Remote"
