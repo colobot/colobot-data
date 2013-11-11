@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train309.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: train309/scene.txt:1
+#, no-wrap
+msgid "train309:Remote control #1"
+msgstr ""
+
+#. type: Resume-text
+#: train309/scene.txt:2
+#, no-wrap
+msgid ""
+"train309:Remote control a robot using an information exchange post, so it "
+"will transport uranium ore."
+msgstr ""
+
+#. type: ScriptName-text
+#: train309/scene.txt:3
+#, no-wrap
+msgid "train309:remote"
+msgstr ""
+
+#. type: \b; header
+#: train309-help/tremote1.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:4
+#, no-wrap
+msgid ""
+"Remote control a robot using an <a object|exchange>information exchange "
+"post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
+"The main actors of this exercise are¦:"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: train309-help/tremote1.txt:5
+#, no-wrap
+msgid "A <a object|botsr>sniffer</a> (can't carry anything)."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: train309-help/tremote1.txt:6
+#, no-wrap
+msgid ""
+"An <a object|exchange>information exchange post</a> that receives "
+"information from a sender and then transmits it to a receiver."
+msgstr ""
+
+#. type: Bullet: '3)'
+#: train309-help/tremote1.txt:7
+#, no-wrap
+msgid ""
+"A <a object|botgr>grabber</a> which waits for orders from the exchange "
+"post. You have no way control this robot directly."
+msgstr ""
+
+#. type: Image filename
+#: train309-help/tremote1.txt:9
+#, no-wrap
+msgid "tremot1a"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:11
+#, no-wrap
+msgid ""
+"An information exchange post stores \"name/value\" couples. To control the "
+"\"slave\" robot we use just one couple¦:"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:13
+#, no-wrap
+msgid "    name=\"order\", valuer=order number"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:15
+#, no-wrap
+msgid "The slace robot understands following orders¦:"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:20
+#, no-wrap
+msgid ""
+"    1 -> grab();     // take an object\n"
+"    2 -> drop();     // drop an object\n"
+"    3 -> move(10);   // move 10 meters forward\n"
+"    4 -> move(-10);  // move 10 meters backwards"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:23
+#, no-wrap
+msgid ""
+"To instruct the slave to move forward 10 meters all you have to do is¦:\n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> "
+"\"move(10)\""
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:26
+#, no-wrap
+msgid ""
+"After the send instruction we wait for 5 seconds to be sure the move is "
+"done.\n"
+"<c/><s/>\t<a cbot|wait>wait</a>(5);"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:28
+#, no-wrap
+msgid ""
+"Remark: There is a better way for waiting the order has been executed, but "
+"we'll see this later in exercise \"Remote Control #2\"."
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:30
+#, no-wrap
+msgid "To finish the exercise you must¦:"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: train309-help/tremote1.txt:31
+#, no-wrap
+msgid "Take the uranium ore"
+msgstr ""
+
+#. type: Bullet: '2)'
+#: train309-help/tremote1.txt:32
+#, no-wrap
+msgid "Move forward by 10 meters"
+msgstr ""
+
+#. type: Bullet: '3)'
+#: train309-help/tremote1.txt:33
+#, no-wrap
+msgid "Drop the uranium ore"
+msgstr ""
+
+#. type: Bullet: '4)'
+#: train309-help/tremote1.txt:34
+#, no-wrap
+msgid "Move backwards by 10 meters"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:37
+#, no-wrap
+msgid "It's up to you to write the program."
+msgstr ""
+
+#. type: \t; header
+#: train309-help/tremote1.txt:38
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train309-help/tremote1.txt:39
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

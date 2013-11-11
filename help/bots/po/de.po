@@ -1,0 +1,1121 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-25 13:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: bots.languagecode:1
+msgid "E"
+msgstr "D"
+
+#. type: \b; header
+#: bots-help/botfc.txt:1
+#, no-wrap
+msgid "<button 144/> Tracked Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botfc.txt:2
+#, no-wrap
+msgid "botfc"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:4
+#, no-wrap
+msgid "Tracked bot equipped with a fireball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:6 bots-help/botfj.txt:6 bots-help/botfr.txt:6 bots-help/botfs.txt:6
+#, no-wrap
+msgid ""
+"The fireball cannon is an efficient weapon against most kinds of <a "
+"object|mother>enemies</a>. Use it sparingly though for it requires large "
+"amounts of energy. A <a object|power>regular power cell</a> will only allow "
+"you to shoot 4 fireball bursts."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:8 bots-help/botfj.txt:8 bots-help/botfr.txt:8 bots-help/botfs.txt:8
+#, no-wrap
+msgid ""
+"Tip : it is possible to move the mouse while shooting, so as to sweep a "
+"larger area."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:10
+#, no-wrap
+msgid ""
+"Tracked bots can ascend steep inclinations but they are quite slow and use a "
+"lot of energy. On flat ground for short distances, a <a object|botfr>wheeled "
+"shooter</a> is a better option. When it is possible to build <a "
+"object|botfj>winged bots</a>, these represent the best solution for long "
+"distances."
+msgstr ""
+
+#. type: \t; header
+#: bots-help/botfc.txt:11 bots-help/botfj.txt:13 bots-help/botfr.txt:11 bots-help/botfs.txt:11 bots-help/botgc.txt:24 bots-help/botgj.txt:26 bots-help/botgr.txt:24 bots-help/botgs.txt:24 bots-help/botoc.txt:9 bots-help/botoj.txt:11 bots-help/botor.txt:9 bots-help/botos.txt:9 bots-help/botphaz.txt:5 bots-help/botrecy.txt:5 bots-help/botsc.txt:11 bots-help/botshld.txt:9 bots-help/botsj.txt:13 bots-help/botsr.txt:11 bots-help/botss.txt:11 bots-help/botsub.txt:7
+#, no-wrap
+msgid "Programming"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:13 bots-help/botfr.txt:13 bots-help/botfs.txt:13 bots-help/botgc.txt:26 bots-help/botgj.txt:28 bots-help/botgr.txt:26 bots-help/botgs.txt:26 bots-help/botoc.txt:11 bots-help/botor.txt:11 bots-help/botos.txt:11 bots-help/botphaz.txt:7 bots-help/botrecy.txt:7 bots-help/botsc.txt:13 bots-help/botshld.txt:11 bots-help/botsr.txt:13 bots-help/botss.txt:13 bots-help/botsub.txt:9 bots-help/bottump.txt:11
+#, no-wrap
+msgid ""
+"To program the bot's movements, use the following commands : <code><a "
+"cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
+"cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:15 bots-help/botfj.txt:17 bots-help/botfr.txt:15 bots-help/botfs.txt:15
+#, no-wrap
+msgid ""
+"To program the fireball cannon, use <code><a cbot|fire>fire</a></code>. To "
+"raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr ""
+
+#. type: \t; header
+#: bots-help/botfc.txt:16 bots-help/botfj.txt:18 bots-help/botfr.txt:16 bots-help/botfs.txt:16 bots-help/botgc.txt:29 bots-help/botgj.txt:31 bots-help/botgr.txt:29 bots-help/botgs.txt:29 bots-help/botoc.txt:14 bots-help/botoj.txt:16 bots-help/botor.txt:14 bots-help/botos.txt:14 bots-help/botphaz.txt:10 bots-help/botrecy.txt:10 bots-help/botsc.txt:16 bots-help/botshld.txt:14 bots-help/botsj.txt:18 bots-help/botsr.txt:16 bots-help/botss.txt:16 bots-help/botsub.txt:12 bots-help/bottarg.txt:7 bots-help/bottr.txt:8 bots-help/bottump.txt:14
+#, no-wrap
+msgid "Object <a cbot|category>Category</a>"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:18
+#, no-wrap
+msgid "<code>TrackedShooter</code>"
+msgstr ""
+
+#. type: \t; header
+#: bots-help/botfc.txt:19 bots-help/botfj.txt:21 bots-help/botfr.txt:19 bots-help/botfs.txt:19 bots-help/botgc.txt:32 bots-help/botgj.txt:34 bots-help/botgr.txt:32 bots-help/botgs.txt:32 bots-help/botoc.txt:17 bots-help/botoj.txt:19 bots-help/botor.txt:17 bots-help/botos.txt:17 bots-help/botphaz.txt:13 bots-help/botrecy.txt:13 bots-help/botsc.txt:19 bots-help/botshld.txt:17 bots-help/botsj.txt:21 bots-help/botsr.txt:19 bots-help/botss.txt:19 bots-help/botsub.txt:15 bots-help/bottarg.txt:10 bots-help/bottr.txt:11 bots-help/bottump.txt:17
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfc.txt:20 bots-help/botfj.txt:22 bots-help/botfr.txt:20 bots-help/botfs.txt:20 bots-help/botgc.txt:33 bots-help/botgj.txt:35 bots-help/botgr.txt:33 bots-help/botgs.txt:34 bots-help/botoc.txt:18 bots-help/botoj.txt:20 bots-help/botor.txt:19 bots-help/botos.txt:18 bots-help/botphaz.txt:14 bots-help/botrecy.txt:14 bots-help/botsc.txt:20 bots-help/botshld.txt:18 bots-help/botsj.txt:22 bots-help/botsr.txt:20 bots-help/botss.txt:20 bots-help/botsub.txt:16 bots-help/bottarg.txt:11 bots-help/bottr.txt:12 bots-help/bottump.txt:18
+#, no-wrap
+msgid ""
+"<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a "
+"cbot|category>Categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botfj.txt:1
+#, no-wrap
+msgid "<button 145/> Winged Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botfj.txt:2
+#, no-wrap
+msgid "botfj"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfj.txt:4
+#, no-wrap
+msgid "Jet propelled flying bot equipped with a fireball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfj.txt:10 bots-help/botgj.txt:21 bots-help/botoj.txt:8
+#, no-wrap
+msgid ""
+"The display at the bottom of your screen indicates the temperature of the "
+"reactor. Keep an eye on it. If the reactor overheats, the engine will stop "
+"and the bot will crash."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfj.txt:12
+#, no-wrap
+msgid ""
+"Winged bots can fly across natural obstacles such as mountains or lakes but "
+"their energy supply is used up quickly. They're slow on the ground. To cover "
+"a short distance that will not call for flying, it is recommended to use a "
+"<a object|botfr>wheeled shooter</a> instead."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfj.txt:15 bots-help/botoj.txt:13 bots-help/botsj.txt:15
+#, no-wrap
+msgid ""
+"To program the bot's movements, use the following commands : <code><a "
+"cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
+"cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a "
+"cbot|goto>goto</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfj.txt:20
+#, no-wrap
+msgid "<code>WingedShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botfr.txt:1
+#, no-wrap
+msgid "<button 143/> Wheeled Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botfr.txt:2
+#, no-wrap
+msgid "botfr"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfr.txt:4
+#, no-wrap
+msgid "Wheeled bot equipped with a fireball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfr.txt:10 bots-help/botgr.txt:21
+#, no-wrap
+msgid ""
+"Wheels constitute a standard, fast and energy-saving mode of propulsion, "
+"which is perfectly adapted for a relatively flat terrain. Whenever the "
+"terrain gets sloped, it is advised to use a <a object|botfj>winged "
+"shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked "
+"shooter</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfr.txt:18
+#, no-wrap
+msgid "<code>WheeledShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botfs.txt:1
+#, no-wrap
+msgid "<button 151/> Legged Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botfs.txt:2
+#, no-wrap
+msgid "botfs"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfs.txt:4
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with a fireball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfs.txt:10
+#, no-wrap
+msgid ""
+"A moving legged shooter uses up half as much energy as a <a "
+"object|botfr>wheeled shooter</a>. A legged bot is also perfectly adapted to "
+"climb the steepest slopes."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botfs.txt:18
+#, no-wrap
+msgid "<code>LeggedShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botgc.txt:1
+#, no-wrap
+msgid "<button 138/> Tracked Grabber"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botgc.txt:2
+#, no-wrap
+msgid "botgc"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:4
+#, no-wrap
+msgid "Tracked bot equipped with an operating arm."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:9 bots-help/botgj.txt:9 bots-help/botgr.txt:9 bots-help/botgs.txt:9
+#, no-wrap
+msgid ""
+"<button 32/> Grabs an object or lays it down again, at a position that is "
+"determined by one of the following options :\n"
+"<button 33/> The object is lying in front of the bot, on the ground or on "
+"the back of a second bot.\n"
+"<button 35/> The object is the bot's own power cell.\n"
+"<button 34/> The object is lying behind the bot, on the ground."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:11 bots-help/botgj.txt:11 bots-help/botgr.txt:11 bots-help/botgs.txt:11
+#, no-wrap
+msgid "The following objects can be transported :\n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:11 bots-help/botgj.txt:11 bots-help/botgr.txt:11 bots-help/botgs.txt:11
+#, no-wrap
+msgid "<a object|titanore>Titanium ore</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:12 bots-help/botgj.txt:12 bots-help/botgr.txt:12 bots-help/botgs.txt:12
+#, no-wrap
+msgid "<a object|uranore>Uranium ore</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:13 bots-help/botgj.txt:13
+#, no-wrap
+msgid "<a object|titan>Cube of titanium</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:14 bots-help/botgj.txt:14 bots-help/botgr.txt:14 bots-help/botgs.txt:14
+#, no-wrap
+msgid "<a object|power>Regular power cell</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:15 bots-help/botgj.txt:15 bots-help/botgr.txt:15 bots-help/botgs.txt:15
+#, no-wrap
+msgid "<a object|atomic>Nuclear power cell</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:16 bots-help/botgj.txt:16 bots-help/botgr.txt:16 bots-help/botgs.txt:16
+#, no-wrap
+msgid "<a object|bbox>Black box</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:17 bots-help/botgj.txt:17 bots-help/botgr.txt:17 bots-help/botgs.txt:17
+#, no-wrap
+msgid "<a object|key>Keys A, B, C, and D</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgc.txt:18 bots-help/botgj.txt:18 bots-help/botgr.txt:18 bots-help/botgs.txt:18
+#, no-wrap
+msgid "<a object|bullet>Organic matter</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:21
+#, no-wrap
+msgid ""
+"Tracked bots can ascend steep inclinations but they are quite slow and use "
+"much energy. On flat ground for short distances, a <a object|botgr>wheeled "
+"grabber</a> is a better option. When it is possible to build <a "
+"object|botgj>winged bots</a>, these represent the best solution for long "
+"distances."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:23 bots-help/botgj.txt:25 bots-help/botgr.txt:23 bots-help/botgs.txt:23
+#, no-wrap
+msgid ""
+"A grabber won't function underwater. What you'll need instead is a <a "
+"object|botsub>subber</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:28 bots-help/botgj.txt:30 bots-help/botgr.txt:28 bots-help/botgs.txt:28
+#, no-wrap
+msgid ""
+"To program the operating arm, use <code><a cbot|grab>grab</a></code> and "
+"<code><a cbot|drop>drop</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgc.txt:31
+#, no-wrap
+msgid "<code>TrackedGrabber</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botgj.txt:1
+#, no-wrap
+msgid "<button 139/> Winged Grabber"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botgj.txt:2
+#, no-wrap
+msgid "botgj"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgj.txt:4
+#, no-wrap
+msgid "Jet propelled flying bot equipped with an operating arm."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgj.txt:23
+#, no-wrap
+msgid ""
+"Winged bots can fly across natural obstacles such as mountains or lakes but "
+"their energy supply is used up quickly. They're slow on the ground. To cover "
+"a short distance that will not call for flying, it is recommended to use a "
+"<a object|botgr>wheeled grabber</a> instead."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgj.txt:33
+#, no-wrap
+msgid "<code>WingedGrabber</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botgr.txt:1
+#, no-wrap
+msgid "<button 137/> Wheeled Grabber"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botgr.txt:2
+#, no-wrap
+msgid "botgr"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgr.txt:4
+#, no-wrap
+msgid "Wheeled bot equipped with an operating arm."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: bots-help/botgr.txt:13 bots-help/botgs.txt:13
+#, no-wrap
+msgid "<a object|titan>Converted titanium</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgr.txt:31
+#, no-wrap
+msgid "<code>WheeledGrabber</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botgs.txt:1
+#, no-wrap
+msgid "<button 150/> Legged Grabber"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botgs.txt:2
+#, no-wrap
+msgid "botgs"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgs.txt:4
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with an operating arm."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgs.txt:21
+#, no-wrap
+msgid ""
+"A moving legged grabber uses up half as much energy as a <a "
+"object|botgr>wheeled grabber</a>. A legged bot is also perfectly adapted to "
+"climb the steepest slopes."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botgs.txt:31
+#, no-wrap
+msgid "<code>LeggedGrabber</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botoc.txt:1
+#, no-wrap
+msgid "<button 154/> Tracked Orga Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botoc.txt:2
+#, no-wrap
+msgid "botoc"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoc.txt:4
+#, no-wrap
+msgid "Tracked bot equipped with an orgaball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoc.txt:6
+#, no-wrap
+msgid ""
+"The orgaball cannon is more effective than the <a object|botfc>fireball "
+"cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic "
+"matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
+"11 orgaball bursts."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoc.txt:8
+#, no-wrap
+msgid ""
+"Tracked bots can ascend steep inclinations but they are quite slow and use a "
+"lot of energy. On flat ground for short distances, a <a object|botor>wheeled "
+"orga shooter</a> is a better option. When it is possible to build <a "
+"object|botoj>winged bots</a>, these represent the best solution for long "
+"distances."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoc.txt:13 bots-help/botoj.txt:15 bots-help/botor.txt:13 bots-help/botos.txt:13
+#, no-wrap
+msgid ""
+"To program the orgaball cannon, use <code><a cbot|fire>fire</a></code>. To "
+"raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoc.txt:16
+#, no-wrap
+msgid "<code>TrackedOrgaShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botoj.txt:1
+#, no-wrap
+msgid "<button 155/> Winged Orga Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botoj.txt:2
+#, no-wrap
+msgid "botoj"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoj.txt:4
+#, no-wrap
+msgid "Jet propelled flying bot equipped with an orgaball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoj.txt:6
+#, no-wrap
+msgid ""
+"The orgaball cannon is more effective than the <a object|botfj>fireball "
+"cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic "
+"matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
+"11 orgaball bursts."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoj.txt:10
+#, no-wrap
+msgid ""
+"Winged bots can fly across natural obstacles such as mountains or lakes but "
+"their energy supply is used up quickly. They're slow on the ground. To cover "
+"a short distance that will not call for flying, it is recommended to use a "
+"<a object|botor>wheeled orga shooter</a> instead."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botoj.txt:18
+#, no-wrap
+msgid "<code>WingedOrgaShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botor.txt:1
+#, no-wrap
+msgid "<button 153/> Wheeled Orga Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botor.txt:2
+#, no-wrap
+msgid "botor"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botor.txt:4
+#, no-wrap
+msgid "Wheeled bot equipped with an orgaball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botor.txt:6
+#, no-wrap
+msgid ""
+"The orgaball cannon is more effective than the <a object|botfr>fireball "
+"cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic "
+"matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
+"11 orgaball bursts."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botor.txt:8
+#, no-wrap
+msgid ""
+"Wheels constitute a standard, fast and energy-saving mode of propulsion, "
+"which is perfectly adapted for a relatively flat terrain. Whenever the "
+"terrain gets sloped, it is advised to instead use a <a object|botoj>winged "
+"orga shooter</a>, or, if this is impossible, a <a object|botoc>tracked orga "
+"shooter</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botor.txt:16
+#, no-wrap
+msgid "<code>WheeledOrgaShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botos.txt:1
+#, no-wrap
+msgid "<button 156/> Legged Orga Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botos.txt:2
+#, no-wrap
+msgid "botos"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botos.txt:4
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with an orgaball cannon."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botos.txt:6
+#, no-wrap
+msgid ""
+"The orgaball cannon is more effective than the <a object|botfs>fireball "
+"cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic "
+"matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
+"11 orgaball bursts."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botos.txt:8
+#, no-wrap
+msgid ""
+"A moving legged orga shooter uses up half as much energy as a <a "
+"object|botor>wheeled orga shooter</a>. A legged bot is also perfectly "
+"adapted to climb the steepest slopes."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botos.txt:16
+#, no-wrap
+msgid "<code>LeggedOrgaShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botphaz.txt:1
+#, no-wrap
+msgid "<button 147/> Phazer Shooter"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botphaz.txt:2
+#, no-wrap
+msgid "botphaz"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botphaz.txt:4
+#, no-wrap
+msgid ""
+"Tracked bot equipped with a very powerful phazer cannon, efficient against "
+"most kinds of enemies. When you aim upward, it can shoot up to 60 meters. It "
+"is the only weapon that can kill the <a object|mother>Alien Queen</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botphaz.txt:9
+#, no-wrap
+msgid ""
+"To program the phazer cannon, use <code><a cbot|fire>fire</a></code>. To "
+"raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botphaz.txt:12
+#, no-wrap
+msgid "<code>PhazerShooter</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botrecy.txt:1
+#, no-wrap
+msgid "<button 148/> Recycler"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botrecy.txt:2
+#, no-wrap
+msgid "botrecy"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botrecy.txt:4
+#, no-wrap
+msgid ""
+"Tracked bot designed to convert a <a object|wreck>derelict bot</a> back into "
+"a reusable <a object|titan>titanium cube</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botrecy.txt:9
+#, no-wrap
+msgid ""
+"To program the recycling of a derelict bot, use <code><a "
+"cbot|recycle>recycle</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botrecy.txt:12
+#, no-wrap
+msgid "<code>RecyclerBot</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botsc.txt:1
+#, no-wrap
+msgid "<button 141/> Tracked Sniffer"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botsc.txt:2
+#, no-wrap
+msgid "botsc"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsc.txt:4
+#, no-wrap
+msgid ""
+"Tracked bot equipped to prospect the geological structure of the "
+"subsoil. Whenever it locates something of use, the sniffer lays down the "
+"following marks:"
+msgstr ""
+
+#. type: Bullet: '-'
+#: bots-help/botsc.txt:5 bots-help/botsj.txt:5 bots-help/botsr.txt:5 bots-help/botss.txt:5
+#, no-wrap
+msgid ""
+"a <a object|stonspot>red cross</a>       -> <a object|titanore>titanium "
+"ore</a>."
+msgstr ""
+
+#. type: Bullet: '-'
+#: bots-help/botsc.txt:6 bots-help/botsj.txt:6 bots-help/botsr.txt:6 bots-help/botss.txt:6
+#, no-wrap
+msgid ""
+"a <a object|uranspot>yellow circle</a>  -> <a object|uranore>uranium "
+"ore</a>."
+msgstr ""
+
+#. type: Bullet: '-'
+#: bots-help/botsc.txt:7 bots-help/botsj.txt:7 bots-help/botsr.txt:7 bots-help/botss.txt:7
+#, no-wrap
+msgid ""
+"a <a object|enerspot>green cross</a>   -> energy deposit, useful for a <a "
+"object|station>power station</a> or a <a object|energy>power plant</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsc.txt:10
+#, no-wrap
+msgid ""
+"Tracked bots can ascend steep inclinations but they are quite slow and use a "
+"lot of energy. On flat ground for short distances, a <a object|botsr>wheeled "
+"sniffer</a> is a better option. When it is possible to build <a "
+"object|botsj>winged bots</a>, these represent the best solution for long "
+"distances."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsc.txt:15 bots-help/botsj.txt:17 bots-help/botsr.txt:15 bots-help/botss.txt:15
+#, no-wrap
+msgid "To program the sniffing arm, use <code><a cbot|sniff>sniff</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsc.txt:18
+#, no-wrap
+msgid "<code>TrackedSniffer</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botshld.txt:1
+#, no-wrap
+msgid "<button 157/> Shielder"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botshld.txt:2
+#, no-wrap
+msgid "botshld"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botshld.txt:4
+#, no-wrap
+msgid ""
+"Tracked bot designed to protect and defend against all <a "
+"object|mother>enemy</a> attacks within a perimeter of 10 to 25 meters. The "
+"individual shields of bots and buildings are re-energized through the "
+"shielder's defensive actions. This bot is the only way to get through narrow "
+"passages adorned with poisonous green mushrooms."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botshld.txt:6
+#, no-wrap
+msgid ""
+"A <a object|power>regular power cell</a> allows for a 20-second activity "
+"span with a radius of 25 meters, much too short in most cases. A <a "
+"object|atomic>nuclear power cell</a> is of course more suited to this bot."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botshld.txt:8
+#, no-wrap
+msgid ""
+"The energy consumption is proportional to the radius of the protective "
+"sphere. With a radius of 10 meters, the bot can work 2.5 times longer than "
+"with the maximum radius of 25 meters."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botshld.txt:13
+#, no-wrap
+msgid ""
+"To program the deployment of the shield, use <code><a "
+"cbot|shield>shield</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botshld.txt:16
+#, no-wrap
+msgid "<code>Shielder</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botsj.txt:1
+#, no-wrap
+msgid "<button 142/> Winged Sniffer"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botsj.txt:2
+#, no-wrap
+msgid "botsj"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsj.txt:4
+#, no-wrap
+msgid ""
+"Jet propelled flying bot equipped to prospect the geological structure of "
+"the subsoil. Whenever it locates something of use, the sniffer lays down the "
+"following marks:"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsj.txt:10
+#, no-wrap
+msgid ""
+"The display at the bottom of your screen indicates the temperature of the "
+"reactor. Keep an eye on it. If the reactor overheats, the engine stops and "
+"the bot crashes."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsj.txt:12
+#, no-wrap
+msgid ""
+"Winged bots can fly across natural obstacles such as mountains or lakes but "
+"their energy supply uses up quickly. They're slow on the ground. To cover a "
+"short distance that will not call for flying, it is recommended to use a <a "
+"object|botsr>wheeled sniffer</a> instead."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsj.txt:20
+#, no-wrap
+msgid "<code>WingedSniffer</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botsr.txt:1
+#, no-wrap
+msgid "<button 140/> Wheeled Sniffer"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botsr.txt:2
+#, no-wrap
+msgid "botsr"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsr.txt:4
+#, no-wrap
+msgid ""
+"Wheeled bot equipped to prospect the geological structure of the "
+"subsoil. Whenever it locates something of use, the sniffer lays down the "
+"following marks:"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsr.txt:10
+#, no-wrap
+msgid ""
+"Wheels constitute a standard, fast and energy-saving mode of propulsion, "
+"which is perfectly adapted for a relatively flat terrain. Whenever the "
+"terrain gets sloped, it is advised to use a <a object|botsj>winged "
+"sniffer</a> instead, or, if this is impossible, a <a object|botsc>tracked "
+"sniffer</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsr.txt:18
+#, no-wrap
+msgid "<code>WheeledSniffer</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botss.txt:1
+#, no-wrap
+msgid "<button 152/> Legged Sniffer"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botss.txt:2
+#, no-wrap
+msgid "botss"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botss.txt:4
+#, no-wrap
+msgid ""
+"Ant-legged creeping bot equipped to prospect the geological structure of the "
+"subsoil. Whenever it locates something of use, the sniffer lays down the "
+"following marks:"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botss.txt:10
+#, no-wrap
+msgid ""
+"A moving legged shooter uses up half as much energy as a <a "
+"object|botsr>wheeled sniffer</a>. A legged bot is also perfectly adapted to "
+"climb the steepest slopes."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botss.txt:18
+#, no-wrap
+msgid "<code>LeggedSniffer</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/botsub.txt:1
+#, no-wrap
+msgid "<button 149/> Subber"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/botsub.txt:2
+#, no-wrap
+msgid "botsub"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsub.txt:4
+#, no-wrap
+msgid ""
+"Amphibious tracked bot equipped with an operating claw. The subber is the "
+"only bot capable of moving and running operations underwater."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsub.txt:6
+#, no-wrap
+msgid ""
+"It is best to check the <a object|power>power cell</a> readings prior to "
+"immersion since replacing or recharging it underwater is impossible. The "
+"subber can only pick up objects from the ground, as opposed to, for example, "
+"a battery from the back of another bot."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsub.txt:11
+#, no-wrap
+msgid ""
+"To program the operating claw, use <code><a cbot|grab>grab</a></code> and "
+"<code><a cbot|drop>drop</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/botsub.txt:14
+#, no-wrap
+msgid "<code>Subber</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/bottarg.txt:1
+#, no-wrap
+msgid "<button 173/> Target Bot"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/bottarg.txt:2
+#, no-wrap
+msgid "bottarg"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottarg.txt:4
+#, no-wrap
+msgid ""
+"Wheeled bot intended solely for target practice. It is autonomous and its "
+"trajectory is dependant upon the nature of the exercise."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottarg.txt:6
+#, no-wrap
+msgid ""
+"Note that target bots, loaded as they are with <a object|tnt>TNT</a>, are "
+"extremely sensitive to shocks."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottarg.txt:9
+#, no-wrap
+msgid "<code>TargetBot</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/bottr.txt:1
+#, no-wrap
+msgid "<button 158/> Practice Bot"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/bottr.txt:2
+#, no-wrap
+msgid "bottr"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottr.txt:4
+#, no-wrap
+msgid ""
+"Wheeled bot intended solely for training and practice. Its only purpose is "
+"to help you get accustomed to the programming of the bots' various ground "
+"movements."
+msgstr ""
+
+#. type: \t; header
+#: bots-help/bottr.txt:5 bots-help/bottump.txt:9
+#, no-wrap
+msgid "Instructions"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottr.txt:7
+#, no-wrap
+msgid ""
+"To program the bot's movements, use the following commands: <code><a "
+"cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
+"cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottr.txt:10
+#, no-wrap
+msgid "<code>PracticeBot</code>"
+msgstr ""
+
+#. type: \b; header
+#: bots-help/bottump.txt:1
+#, no-wrap
+msgid "<button 146/> Thumper"
+msgstr ""
+
+#. type: Image filename
+#: bots-help/bottump.txt:2
+#, no-wrap
+msgid "bottump"
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottump.txt:4
+#, no-wrap
+msgid ""
+"Tracked bot designed to hit the ground with enormous force. The purpose of "
+"the thumping is to turn <a object|ant>ants</a> and <a "
+"object|spider>spiders</a> belly up within a radius of 100 meters. An insect "
+"on its back is not dead but will struggle to get right side up again. After "
+"approximately 60 seconds of effort, it will usually succeed."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottump.txt:6
+#, no-wrap
+msgid ""
+"To visualize the zone of impact, hit the <range> button <button 41/>. Little "
+"red dots outline the circular zone for 20 seconds."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottump.txt:8
+#, no-wrap
+msgid ""
+"The bot uses up a large amount of power. A thump will drain 2/5ths of a <a "
+"object|power>regular power cell</a>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottump.txt:13
+#, no-wrap
+msgid "To program the thumping, use <code><a cbot|thump>thump</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: bots-help/bottump.txt:16
+#, no-wrap
+msgid "<code>Thumper</code>"
+msgstr ""

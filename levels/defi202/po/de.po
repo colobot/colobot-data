@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-24 09:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: defi202.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: Title-text
+#: defi202/scene.txt:1
+#, no-wrap
+msgid "defi202:Shadow 2"
+msgstr ""
+
+#. type: Resume-text
+#: defi202/scene.txt:2
+#, no-wrap
+msgid "defi202:Follow a bot, as if you were its shadow."
+msgstr ""
+
+#. type: ScriptName-text
+#: defi202/scene.txt:3
+#, no-wrap
+msgid "defi202:Follow"
+msgstr ""
+
+#. type: \b; header
+#: defi202-help/dfollow1.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: defi202-help/dfollow1.txt:3
+#, no-wrap
+msgid ""
+"You must follow the <a object|bottr>target bot</a> with the explosive "
+"device, but without touching it, otherwise it will blow up. Every time the "
+"target bot stops, you must be close to it (less than 10m). After you managed "
+"to stay close to the target bot at 10 successive stops, it will lead you to "
+"the finishing pad, and the exercise is over. At every stop, the target bot "
+"checks that you are there. If you are not there, you must start over again."
+msgstr ""
+
+#. type: \b; header
+#: defi202-help/dfollow1.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr ""
+
+#. type: Plain text
+#: defi202-help/dfollow1.txt:6
+#, no-wrap
+msgid "Repeat forever:\n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: defi202-help/dfollow1.txt:6
+#, no-wrap
+msgid "Look for the target bot."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: defi202-help/dfollow1.txt:7
+#, no-wrap
+msgid "Calculate the distance to the bot."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: defi202-help/dfollow1.txt:8
+#, no-wrap
+msgid "if the distance to the target bot is less than 5m, move backward."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: defi202-help/dfollow1.txt:9
+#, no-wrap
+msgid "Otherwise, calculate the direction of the target bot, and move towards it."
+msgstr ""
+
+#. type: \b; header
+#: defi202-help/dfollow1.txt:11
+#, no-wrap
+msgid "Useful instructions"
+msgstr ""
+
+#. type: Plain text
+#: defi202-help/dfollow1.txt:18
+#, no-wrap
+msgid ""
+"<code><a cbot|radar>radar</a></code> to look for the bot (category <code><a "
+"object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> to detect obstacles\n"
+"<code><a cbot|dist>distance</a></code> to calculate a distance\n"
+"<code><a cbot|direct>direction</a></code> to calculate a direction\n"
+"<code><a cbot|if>if</a></code> to test a condition\n"
+"<code><a cbot|motor>motor</a></code> to set the motor speeds"
+msgstr ""
+
+#. type: \t; header
+#: defi202-help/dfollow1.txt:19
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: defi202-help/dfollow1.txt:20
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""
