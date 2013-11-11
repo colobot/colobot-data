@@ -130,39 +130,39 @@ sub parse_colobothelp {
 
 sub offlink {
   my ($paragraph) = @_;
+  # Replace \button $id; as pseudo xHTML <button $id/> tags
+  $paragraph =~ s#\\(button|key) ([^;]*?);#<$1 $2/>#g;
   # Put \const;Code\norm; sequences into pseudo-HTML <format const> tags
-  $paragraph =~ s#\\(const|type|token);([^\\;]*?)\\norm;#<format $1>$2</format>#g;
+  $paragraph =~ s#\\(const|type|token|key);([^\\;]*?)\\norm;#<format $1>$2</format>#g;
   # Transform CBot links \l;text\u target; into pseudo-HTML <a target>text</a>
   $paragraph =~ s#\\l;(.*?)\\u ([^;]*?);#<a $2>$1</a>#g;
   # Cleanup pseudo-html targets separated by \\ to have a single character |
   $paragraph =~ s#<a (.*?)\\(.*?)>#<a $1|$2>#g;
+  # Replace remnants of \const; \type; \token or \norm; as pseudo xHTML <const/> tags
+  $paragraph =~ s#\\(const|type|token|norm|key);#<$1/>#g;
   # Put \c;Code\n; sequences into pseudo-HTML <code> tags
   $paragraph =~ s#\\c;([^\\;]*?)\\n;#<code>$1</code>#g;
   # Replace remnants of \s; \c; \b; or \n; as pseudo xHTML <s/> tags
   $paragraph =~ s#\\([scbn]);#<$1/>#g;
-  # Replace remnants of \const; \type; \token or \norm; as pseudo xHTML <const/> tags
-  $paragraph =~ s#\\(const|type|token|norm);#<$1/>#g;
-  # Replace \button $id; as pseudo xHTML <button $id/> tags
-  $paragraph =~ s#\\button ([^;]*?);#<button $1/>#g;
   return ($paragraph);
 }
 
 sub onlink {
   my ($paragraph) = @_;
-  # Invert the replace of \button $id; as pseudo xHTML <button $id/> tags
-  $paragraph =~ s#<button ([^;]*?)/>#\\button $1;#g;
-  # Invert the replace remnants of \const; \type; \token or \norm; as pseudo xHTML <const/> tags
-  $paragraph =~ s#<(const|type|token|norm)/>#\\$1;#g;
   # Invert the replace remnants of \s; \c; \b; or \n; as pseudo xHTML <s/> tagsyy
   $paragraph =~ s#<([scbn])/>#\\$1;#g;
   # Inverse the put of \c;Code\n; sequences into pseudo-HTML <code> tags
   $paragraph =~ s#<code>([^\\;]*?)</code>#\\c;$1\\n;#g;
+  # Invert the replace remnants of \const; \type; \token or \norm; as pseudo xHTML <const/> tags
+  $paragraph =~ s#<(const|type|token|norm|key)/>#\\$1;#g;
   # Inverse of the cleanup of pseudo-html targets separated by \\ to have a single character |
   $paragraph =~ s#<a (.*?)\|(.*?)>#<a $1\\$2>#g;
   # Inverse of the transform of CBot links \l;text\u target; into pseudo-HTML <a target>text</a>
   $paragraph =~ s#<a (.*?)>(.*?)</a>#\\l;$2\\u $1;#g;
   # Invert the put \const;Code\norm; sequences into pseudo-HTML <format const> tags
-  $paragraph =~ s#<format (const|type|token)>([^\\;]*?)</format>#\\$1;$2\\norm;#g;
+  $paragraph =~ s#<format (const|type|token|key)>([^\\;]*?)</format>#\\$1;$2\\norm;#g;
+  # Invert the replace of \button $id; as pseudo xHTML <button $id/> tags
+  $paragraph =~ s#<(button|key) ([^;]*?)/>#\\$1 $2;#g;
   return ($paragraph);
 }
 
