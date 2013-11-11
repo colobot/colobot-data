@@ -1,0 +1,20 @@
+\b;Инструкция \c;readln\n;
+Читает одну строку из файла. это метод класса \c;\l;file\u cbot\file;\n;. Это причина, почему мы всегда пишем \c;handle.readln()\n;¦:
+\c;
+\s;	s = handle.readln();
+\n;
+Файл должен быть октрыть на чтение (\c;"r"\n;) с помощью инструкции \c;\l;open\u cbot\open;\n;. \c;readln\n; возвращает строку, содержащую линию, но юез символа конца линии 0x0D (CR) и 0x0A (LF).
+
+Синтаксис¦:
+\s;\c;string = handle.readln ( );\n;
+
+Пример¦:
+\c;
+\s;	string s;
+\s;	s = handle.readln();
+\s;	if ( s == "abc" )
+\s;	...
+\n;
+\t;См. также
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;writeln\u cbot\writeln;\n; and \c;\l;eof\u cbot\eof;\n;.
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

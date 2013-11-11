@@ -1,0 +1,43 @@
+\b;Задание
+Убейте летающих ос.
+
+\t;Программа
+Вот программа из предыдущего упражнения, которая стреляет по муравьям и приспосабливается к местности:
+\c;
+\s;extern void object::JetFighter2()
+\s;{
+\s;	\l;object\u cbot\type; item;
+\s;	
+\s;	\l;aim\u cbot\aim;(-20);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienAnt);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z-topo(position) < 6)
+\s;			{
+\s;				\l;jet\u cbot\jet;(1);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z-topo(position) > 9)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-1);
+\s;			}
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Чтобы приспособить программу к уничтожению ос, вы должны сделать некоторые изменения. Замените все \c;radar(AlienAnt)\n; на \c;radar(AlienWasp)\n;. Пушка должна целиться премо вперед, а не вниз, замените \c;aim(-20);\n; на \c;aim(0);\n;. Бот должен лететь на той же высоте, что и оса. Для этого вы должны сравнить высоту полета бота, заданную \c;position.z\n;, с высотой полета осы, заданной \c;item.position.z\n;: если \c;position.z > item.position.z\n;, медленно снизьте высоту \c;jet(-0.3);\n;. Если \c;position.z < item.position.z-1\n;, медленно наберите высоту \c;jet(0.3);\n;. Крылатый стрелок выше осы, поэтому будет лучше, если высота полета бота будет немного меньше высоты полета осы. В этом случае мы допускаем, что высота бота может изменяться от высоты полета осы до высоты полета осы минус 1.
+
+\t;Дальнейшее улучшение
+Осы летают очень быстро. Чтобы увеличить свои шансы попадания в осу, лучше повторить сразу перед \c;fire(1);\n;  \c;radar\n; и \c;turn\n; , чтобы провести последнее исправление направления перед тем, как сделать выстрел.
+
+\t;См. также
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

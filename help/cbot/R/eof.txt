@@ -1,0 +1,15 @@
+\b;Инструкция \c;eof\n;
+Проверяет конец открытого файла. Это метод класса \c;\l;file\u cbot\file;\n;; вы не можете писать  \c;eof()\n;, только \c;handle.eof()\n;¦:
+\c;
+\s;	if ( handle.eof() )
+\n;
+Например¦:
+\c;
+\s;	while ( not handle.eof() )
+\s;	{
+\s;		s = handle.readln();
+\s;	}
+\n;
+\t;См. также
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n; and \c;\l;writeln\u cbot\writeln;\n;.
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

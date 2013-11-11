@@ -1,0 +1,21 @@
+\b;Инструкция \c;new\n; (для специалистов)
+Оператор \c;new\n; создает новый \l;класс\u cbot\class;:
+\c;\s;	MyClass item;    // переменная item пуста
+\s;	item = new MyClass(); // теперь item - это ссылка
+\s;	                      // в новый экземпляр класса
+\n;
+Если вы хотите создать новый экземпляр для объявления \c;new\n;, то на время можно опустить () после объявления:
+
+Вместо:
+\c;\s;	MyClass item = new MyClass();
+\n;вы можете написать:
+\c;\s;	MyClass item();
+\n;
+Если ваш класс имеет конструктор с параметрами, то вы можете написать так:
+\c;\s;	MyClass item = new MyClass(2, 3);
+\n;или:
+\c;\s;	MyClass item(2, 3);
+\n;
+\t;См. также
+\c;\l;class\u cbot\class;\n;, \c;\l;reference\u cbot\pointer;\n;
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

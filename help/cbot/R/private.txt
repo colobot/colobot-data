@@ -1,0 +1,19 @@
+\b;Инструкция \c;private\n; (for specialists)
+Члены \l;класса\u cbot\class; могут быть \l;общедоступны\u cbot\public; (по-умолчанию) или личными. Член может быть объявлен частным, если поставить \c;private\n; до объявления элемента. Личные(локальные) члены не доступны извне для других классов.
+\c;
+\s;public class MyClass
+\s;{
+\s;	int    b;                // общедоступна по-умолчанию
+\s;	public int a;            // всегда общедоступна
+\s;	private point position;  // локальная/личная
+\s;}
+\s;void Test()
+\s;{
+\s;	MyClass item;
+\s;	item.a = item.b = 12;      // ок
+\s;	message( item.position );  // это ошибка
+\s;}
+\n;
+\t;См. также
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.
