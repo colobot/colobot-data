@@ -37,7 +37,7 @@ foreach(levelfile ${levelfiles})
 		add_custom_command(OUTPUT ${_levels_i18n_target}/${_scenedest}
 			COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}
 			COMMAND ${LEVELS_I18N_PATH}/scripts/03_inject_translations.sh ${levelfile} ${CMAKE_CURRENT_BINARY_DIR}/${LEVEL_CODENAME}/${_levelfile} ${PODIR} > ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}/${_scenedest}
-			DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/po4a-ran-${LEVEL_CODENAME}
+			DEPENDS po4a-${LEVEL_CODENAME}
 			WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 			COMMENT "${LEVEL_CODENAME}: Inject translation in ${_scenedest}"
 			)
@@ -67,7 +67,7 @@ if(PO4A AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${PODIR}")
 		add_custom_command(OUTPUT moved-all-${LEVEL_CODENAME}-${_helpfile}
 			COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/${_help_i18n_target}
 			COMMAND ${LEVELS_I18N_PATH}/scripts/04_move_helpfiles_to_paths.sh ${LEVEL_CODENAME} ${LEVEL_CODENAME}-help/${_helpfile} ${_help_i18n_target} '${HELPDIR}' '${HELPDEST}' ${CMAKE_CURRENT_SOURCE_DIR} > moved-all-${LEVEL_CODENAME}-${_helpfile}
-			DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/po4a-ran-${LEVEL_CODENAME}
+			DEPENDS po4a-${LEVEL_CODENAME}
 			WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 			COMMENT "${LEVEL_CODENAME}: Move ${_helpfile} translations around"
 			)
