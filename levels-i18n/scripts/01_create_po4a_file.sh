@@ -10,8 +10,10 @@ LEVEL_CODENAME=$3 # relative
 SCENEFILE=$4 # relative
 HELPDIR=$5 # relative
 
-[ -h $LEVEL_CODENAME-po ] || rm -f $LEVEL_CODENAME-po
-ln -sf $srcdir/$PODIR $LEVEL_CODENAME-po
+if [ ! -d $LEVEL_CODENAME-po -o -h $LEVEL_CODENAME-po ]; then
+	rm -f $LEVEL_CODENAME-po
+	ln -sf $srcdir/$PODIR $LEVEL_CODENAME-po
+fi
 echo "[po_directory] $LEVEL_CODENAME-po"
 
 # Create a pseudo file for the translation of the language code
@@ -25,7 +27,12 @@ if [ -n "$SCENEFILE" ]; then
 	# Levels are precompiled, they are already in the current dir
 	for scene in $(cd $srcdir/; ls $SCENEFILE); do
 		scene_=$(basename $scene .txt)
-		$(cd $LEVEL_CODENAME; [ -h $scene_.txt ] || rm -f $scene_.txt; ln -sf $srcdir/$scene $scene_.txt)
+		$(cd $LEVEL_CODENAME;
+			if [ ! -f $scene_.txt -o -h $scene_.txt ]; then
+				rm -f $scene_.txt;
+				ln -sf $srcdir/$scene $scene_.txt;
+			fi
+		 )
 		echo "[type:colobotlevel] $LEVEL_CODENAME/$scene_.txt \$lang:$LEVEL_CODENAME/$scene_.\$lang.txt"
 	done
 fi
@@ -36,7 +43,12 @@ mkdir -p $LEVEL_CODENAME-help
 if [ -d $srcdir/$HELPDIR ]; then
 	for helpfile in $(cd $srcdir/$HELPDIR; ls *.txt); do
 		helpfile_=$(basename $helpfile .txt)
-		$(cd $LEVEL_CODENAME-help; [ -h $helpfile_.txt ] || rm -f $helpfile_.txt; ln -sf $srcdir/$HELPDIR/$helpfile $helpfile_.txt)
+		$(cd $LEVEL_CODENAME-help;
+			if [ ! -f $helpfile_.txt -o -h $helpfile_.txt ]; then
+				rm -f $helpfile_.txt;
+				ln -sf $srcdir/$HELPDIR/$helpfile $helpfile_.txt;
+			fi
+		 )
 		echo "[type:colobothelp] $LEVEL_CODENAME-help/$helpfile_.txt \$lang:$LEVEL_CODENAME-help/$helpfile_.\$lang.txt"
 	done
 fi
