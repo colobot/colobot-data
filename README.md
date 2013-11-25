@@ -1,19 +1,26 @@
 # Colobot Data Files
 
-## *IN-DEVELOPEMENT* Release
-
-This package contains the data files for the Colobot project (https://github.com/colobot/colobot).
-It includes (or will include):
-* textures, background images, etc.
-* model files,
+This repository contains the data files for the Colobot project (https://github.com/colobot/colobot).
+It currently includes:
+* mission files
+* textures
+* model files
 * sounds and music
+* ai scripts
+* in-game help
 * some documents describing the formats
 * conversion scripts and tools for packaging
 
-This is a development release that will be modified and updated as necessary.
-File paths, names, formats are subject to change, so don't take them for granted.
-All packages released will be labeled with date of release in format RRRR-MM-DD and released as often as
-changes are made in the files.
+# Installation
+
+CMake project files in main and data repositories are integrated and when invoked during compilation,
+produce output files to be installed. As of 0.1.2-alpha, the generated files are different from source
+files. Consequently, running the game with data files directly from this source repository is not supported.
+Please see the [INSTALL.md](https://github.com/colobot/colobot/blob/master/INSTALL.md) instructions
+in main repository for details.
+
+Some details of how data file translation is achieved can be found in
+[README.i18n.md](https://github.com/colobot/colobot-data/blob/master/README.i18n.md) file.
 
 # License
 

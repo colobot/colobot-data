@@ -1,0 +1,72 @@
+\b;Инструкция \c;class\n;
+Синтаксис:
+\c;
+\s;public class ClassName
+\s;{
+\s;	declarations;
+\s;}
+\n;
+Классы должны быть \l;общедоступными\u cbot\public;, таким образом они могут быть исползованы всеми ботами в любой миссии. Члены класса также должны быть общедоступными, тоесть должны быть доступны за пределами класса. Членами класса могут быть ячейки и функции (по-другому методы), например следующий класс \c;MyClass\n; содержит 4 ячейки (a, b, x и s) и один метод (MyFunction).
+\c;
+\s;public class MyClass
+\s;{
+\s;	int     a, b;
+\s;	float   x = 3.33;
+\s;	string  s = "hello";
+\s;	float   MyFunction( float value )
+\s;	{
+\s;		return (value*x)-1;
+\s;	}
+\s;}
+\n;
+ак показано в данном примере члены класса могут быть инициализированы (\c;x=3.33\n;). Вы можете также определить конструктор, который представляет собой специальный метод, имеющий то же имя, как и имя класса. Этот метод будет вызван автоматически в момент создания экземпляра класса. Вы можете также объявить более одного метода с тем же именем, но с разными параметрами.
+\c;
+\s;public class MyClass
+\s;{
+\s;	int  a, b;
+\s;	void MyClass( )
+\s;	{
+\s;		a = 2;  b = 3;
+\s;	}
+\s;	void MyClass( int a, int b )
+\s;	{
+\s;		this.a = a;  this.b = b;
+\s;	}
+\s;}
+\n;
+В этом примере два конструктора были объявлены как \c;MyClass\n;, один без параметров и второй с двумя параметрами. Поскольку имена параметров второго конструктора такие же, как и имена двух членов \c;a\n; и \c;b\n; мы должны использовать \c;\l;this\u cbot\this;.a\n; и \c;\l;this\u cbot\this;.b\n; чтобы избежать путаницы с параметрами. Наболее простым решением было бы дать разные имена параметрам.
+\c;
+\s;void Test( )
+\s;{
+\s;	MyClass item1();      // конструктор без параметров
+\s;	MyClass item2(4, 5);  // конструктор с двумя параметрами
+\s;	MyClass item3;        // нет вызова конструктора,
+\s;                          // поэтому item3 == null
+\s;}
+\n;
+Вы также можете определить деструктор. Это должна быть \c;пустая(void)\n; функция без параметров, имеющая то же имя, что и класс, но с первиксом ~. Деструктор вызывается автоматически, как только класс уже больше никому не понадобится.
+\c;
+\s;public class MyClass
+\s;{
+\s;	static private int counter = 0; // инициализируем счетчик
+\s;	void  MyClass( )
+\s;	{
+\s;		counter ++;  // увеличиваем
+\s;	}
+\s;	void ~MyClass( )
+\s;	{
+\s;		counter --;  // уменьшаем
+\s;	}
+\s;}
+\s;void Test()
+\s;{
+\s;	MyClass item1( );  // счетчик = 1
+\s;	MyClass item2( );  // счетчик = 2
+\s;	item1 = null;      // счетчик = 1
+\s;}                      // счетчик = 0
+\n;
+If you pass a class instance as parameter to a \l;function\u cbot\function;, the function only receives a \l;reference\u cbot\pointer; to the instance. That means if you modify the instance in the function, the instance that has been passed to the function will be actuallay modified.
+
+\t;См. также
+\c;\l;Общедоступное\u cbot\public;\n;, \c;\l;приватное\u cbot\private;\n;, \c;\l;статичное\u cbot\static;\n;, \c;\l;синхронизированное\u cbot\synchro;\n;, \c;\l;новое\u cbot\new;\n;, \c;\l;ссылка\u cbot\pointer;\n;, \c;\l;это\u cbot\this;\n;
+\l;Язык CBOT\u cbot; и \l;Переменные\u cbot\type; и \l;категории\u cbot\category;.

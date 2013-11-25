@@ -1,21 +1,31 @@
 cmake_minimum_required(VERSION 2.8)
 
-# Translate translatable material
-find_program(PO4A po4a)
+set(LEVELS_I18N_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../levels-i18n/)
 
-if(PO4A)
-	set(_levels_i18n_target "levels_i18n")
-	add_custom_command(OUTPUT ${_levels_i18n_target}
-		COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}
-		COMMAND ./gen_levels_xml.sh ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}
-		WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-		COMMENT "Inject level translations"
-		)
-	add_custom_target(translate_levels ALL DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target})
-	install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}/ DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/levels)
-else()
-	message(WARNING "po4a not found, levels will not get translated")
-	file(GLOB levelfiles "${CMAKE_CURRENT_SOURCE_DIR}/*.txt")
-	list(REMOVE_ITEM levelfiles "${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt")
-	install(FILES ${levelfiles} DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/levels/)
-endif()
+# Handle level headers' translations
+file(GLOB levelheaders_po ${CMAKE_CURRENT_SOURCE_DIR}/*-po/)
+foreach(levelheader_po ${levelheaders_po})
+    string(REPLACE "-po" "" levelheader ${levelheader_po})
+    get_filename_component(LEVEL_CODENAME ${levelheader} NAME)
+    set(SCENEFILE "${LEVEL_CODENAME}*.txt")
+    set(SCENEDEST)
+    set(PODIR     "${LEVEL_CODENAME}-po/")
+    set(HELPDIR)
+    set(HELPDEST  "")
+    message(STATUS "Manage translations for level headers '${LEVEL_CODENAME}*'")
+    include(${LEVELS_I18N_PATH}/CMakeLists.txt)
+endforeach(levelheader_po)
+
+# Handle all levels' translations
+file(GLOB levelcategories_paths ${CMAKE_CURRENT_SOURCE_DIR}/*/scene.txt)
+foreach(levelcategory_path ${levelcategories_paths})
+    string(REPLACE "//scene.txt" "" levelcategory ${levelcategory_path})
+    get_filename_component(LEVEL_CODENAME ${levelcategory} NAME_WE)
+    set(SCENEFILE "${LEVEL_CODENAME}/scene.txt")
+    set(SCENEDEST "${LEVEL_CODENAME}.txt")
+    set(PODIR     "${LEVEL_CODENAME}/po/")
+    set(HELPDIR   "${LEVEL_CODENAME}/help/")
+    set(HELPDEST  "")
+    MESSAGE(STATUS "Managing translations for level '${LEVEL_CODENAME}'")
+    include(${LEVELS_I18N_PATH}/CMakeLists.txt)
+endforeach(levelcategory_path)

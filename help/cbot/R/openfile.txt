@@ -1,0 +1,11 @@
+\b;Инструкция \c;openfile\n;
+\c;openfile();\n; открывает файл. Это не метод класса \c;\l;file\u cbot\file;\n;, однако openfile возвращает \l;ссылку\u cbot\pointer; для нового экземпляра класса. Вы должны указать два параметра - имя файла и режим открытия.
+\c;
+\s;file handle = openfile("filename", "r");
+\n;
+\c;"r"\n; mode: открыть для чтения.
+\c;"w"\n; mode: открыть для записи.
+
+
+\t;См. также
+\l;Инструкции\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

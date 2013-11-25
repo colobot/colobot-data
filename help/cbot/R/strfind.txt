@@ -1,0 +1,20 @@
+\b;Инструкция \c;strfind\n;
+Поиск подстроки в строче и возвращение ее позиции (если найдена) или \l;nan\u cbot\nan;, если поиск не дал результатов.
+
+Синтаксис¦:
+\s;\c;strfind ( string, sub );\n;
+
+\t;string: \c;\l;string\u cbot\string;\n;
+Строчка, в которой будем искать.
+
+\t;sub: \c;\l;string\u cbot\string;\n;
+Подстрока для поиска.
+
+Примеры¦:
+\s;\c;	int pos = strfind("abcdef", "ab"); // позиция будет 0
+\s;	int pos = strfind("abcdef", "de"); // позиция будет 3
+\s;	int pos = strfind("abcdef", "xy"); // позиция будет \l;nan\u cbot\nan;
+\n;
+\t;См. также
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
+\l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.
