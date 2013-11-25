@@ -1,0 +1,31 @@
+\b;Программы, отправленные Хьюстоном
+Немедленно запустите программу \c;KillAnt1\n; на вашем \l;колесном стрелке\u object\botfr;, он будет защищать ваш западный фланг. Тем временем вы можете детально разработать свою оборонительную стратегию.
+\c;
+\s;extern void object::KillAnt1()
+\s;{
+\s;	\l;object\u cbot\type; item;             // информация об объекте
+\s;	
+\s;	\l;goto\u cbot\goto;(-30, 0);            // идти на запад
+\s;	\l;aim\u cbot\aim;(0);                  // прицелиться прямо
+\s;	
+\s;	\l;while\u cbot\while; ( true )           // повторять всегда:
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;, 0, 360, 0, 40);
+\s;		\l;if\u cbot\if; ( item != null )  // замечен муравей ?
+\s;		{
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;fire\u cbot\fire;(0.5);       // выстрел 0.5 с
+\s;		}
+\s;		\l;wait\u cbot\wait;(1);             // ждать 1 секунду
+\s;	}
+\s;}
+\n;
+\b;Архивы
+Список программ, отправленных в предыдущих миссиях
+
+o  \c;\l;CollectTitanium2\u mlcrys2;\n;
+o  \c;\l;CollectTitanium1\u mlcrys1;\n;
+o  \c;\l;Recharge2\u mltropi3;\n;
+o  \c;\l;Recharge1\u mllune4;\n;
+o  \c;\l;SwitchCell1\u mllune1;\n;
+

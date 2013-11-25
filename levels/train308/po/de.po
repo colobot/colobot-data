@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train308.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: Title-text
+#: train308/scene.txt:1
+#, no-wrap
+msgid "train308:The gold digger"
+msgstr ""
+
+#. type: Resume-text
+#: train308/scene.txt:2
+#, no-wrap
+msgid "train308:Instruct your bot to search a zone for subsoil resources."
+msgstr ""
+
+#. type: ScriptName-text
+#: train308/scene.txt:3
+#, no-wrap
+msgid "train308:Digger"
+msgstr ""
+
+#. type: \b; header
+#: train308-help/tsniff.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:3
+#, no-wrap
+msgid ""
+"Search the whole zone inside the barriers with the <a object|botsr>sniffer "
+"bot</a> for adequate locations for a derrick. When the bot sounds the "
+"subsoil and discovers an adequate location for a derrick, it will mark it "
+"with a red cross."
+msgstr ""
+
+#. type: \b; header
+#: train308-help/tsniff.txt:4
+#, no-wrap
+msgid "Description"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:6
+#, no-wrap
+msgid ""
+"The zone inside the barriers is a square of 25 meters. The most efficient "
+"way is to check every 5 meters."
+msgstr ""
+
+#. type: Image filename
+#: train308-help/tsniff.txt:7
+#, no-wrap
+msgid "sniff1"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:9
+#, no-wrap
+msgid ""
+"One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops "
+"one into another:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train308-help/tsniff.txt:22
+#, no-wrap
+msgid ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>sound the subsoil<code>\n"
+"\t\t</code>move 5m forward<code>\n"
+"\t}\n"
+"\t</code>sound the subsoil<code>\n"
+"\t</code>quarter turn left<code>\n"
+"\t</code>move 5m forward<code>\n"
+"\t</code>quarter turn left<c/>\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:27
+#, no-wrap
+msgid ""
+"This program works well only at the beginning. After the first line, the bot "
+"turns correctly left and sounds the second line. But after the second line, "
+"it must turn right!\n"
+"You will have noticed that if <code>y</code> is even, the bot must turn "
+"left, and if <code>y</code> is odd, the bot must turn right.\n"
+"The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the "
+"division of <code>y</code> by <code>2</code>. For example, if "
+"<code>y=3</code>, the expression returns <code>1</code>.\n"
+"The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else "
+"{ }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ "
+"}</code> will be executed. Otherwise, the second block <code>{ }</code> will "
+"be executed."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train308-help/tsniff.txt:36
+#, no-wrap
+msgid ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>is even<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>is uneven<c/>\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:38
+#, no-wrap
+msgid "It is up to you to finish the program."
+msgstr ""
+
+#. type: \b; header
+#: train308-help/tsniff.txt:39
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:41
+#, no-wrap
+msgid ""
+"Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the "
+"subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a "
+"cbot|turn>turn</a>( )</code> to move the bot."
+msgstr ""
+
+#. type: \t; header
+#: train308-help/tsniff.txt:42
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train308-help/tsniff.txt:43
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

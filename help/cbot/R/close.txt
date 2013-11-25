@@ -1,0 +1,8 @@
+\b;Инструкция \c;close\n;
+Закрывает файл, открытый ранее функцией\c;\l;open\u cbot\open;\n;. Это метод класса \c;\l;file\u cbot\file;\n;; поэтому вы не можете записывать  \c;close()\n;, только \c;handle.close()\n;¦:
+\c;
+\s;	handle.close();
+\n;
+\t;См. также
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; and \c;\l;eof\u cbot\eof;\n;.
+\l;Язык CBOT\u cbot; и \l;Переменные\u cbot\type; и \l;категории\u cbot\category;.
