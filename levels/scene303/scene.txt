@@ -1,3 +1,4 @@
+MissionFile version=2
 Title.E text="On the Offensive"
 Resume.E text="Develop an offensive weapons system and confront the giant ants."
 Instructions name="mhtropi3.txt"
@@ -7,7 +8,7 @@ SoluceFile   name="mstropi3.txt"
 HelpFile     name="cbot.txt"
 EndingFile   win=-1 lost=0
 
-Audio         track=3
+AudioChange   filename="Constructive.ogg" type=WingedShooter powermin=0.8 repeat=0 
 AmbientColor  air=0.596;0.596;0.400;0.400 water=0.078;0.078;0.078;0.078  // grey
 FogColor      air=0.843;0.937;0.796;0.000 water=0.267;0.392;0.314;0.000  // bleu sale
 VehicleColor  color=0.553;0.686;0.506;0.000  // vert-sable
