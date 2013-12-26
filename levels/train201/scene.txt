@@ -27,10 +27,10 @@ TerrainCreate
 BeginObject
 CreateObject pos=  5;-10 dir=1.5 type=Me range=200
 CreateObject pos=  0;  0 dir=1.5 type=TrackedShooter reset=1 trainer=1 script4="tant1.txt" power=100 shield=10 camera=BACK
-CreateObject pos= 85; 41 dir=0.0 type=AlienAnt reset=1 script1="antAttAW.txt" run=1 cmdline=1
-CreateObject pos= 10;110 dir=0.0 type=AlienAnt reset=1 script1="antAttAW.txt" run=1 cmdline=1
-CreateObject pos=-10;130 dir=0.0 type=AlienAnt reset=1 script1="antAttAW.txt" run=1 cmdline=1
-CreateObject pos=-98;100 dir=0.0 type=AlienAnt reset=1 script1="antAttAW.txt" run=1 cmdline=1
+CreateObject pos= 85; 41 dir=0.0 type=AlienAnt reset=1 script1="antattaw.txt" run=1 cmdline=1
+CreateObject pos= 10;110 dir=0.0 type=AlienAnt reset=1 script1="antattaw.txt" run=1 cmdline=1
+CreateObject pos=-10;130 dir=0.0 type=AlienAnt reset=1 script1="antattaw.txt" run=1 cmdline=1
+CreateObject pos=-98;100 dir=0.0 type=AlienAnt reset=1 script1="antattaw.txt" run=1 cmdline=1
 CreateObject pos=  0;-40 dir=0.0 type=RadarStation
 
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
