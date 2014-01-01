@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:00+0200\n"
+"POT-Creation-Date: 2014-01-01 16:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,16 +23,16 @@ msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: scene303/scene.txt:1
-#, no-wrap
-msgid "scene303:On the Offensive"
-msgstr ""
-
-#. type: Resume-text
 #: scene303/scene.txt:2
 #, no-wrap
+msgid "scene303:On the Offensive"
+msgstr "scene303:Czas na atak"
+
+#. type: Resume-text
+#: scene303/scene.txt:3
+#, no-wrap
 msgid "scene303:Develop an offensive weapons system and confront the giant ants."
-msgstr ""
+msgstr "scene303:Rozwiń systemy broni ofensywnej i zmierz się z olbrzymimi mrówkami."
 
 #. type: \b; header
 #: scene303-help/mhtropi3.txt:1
@@ -45,50 +45,37 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Terminate all hostile life-form.\n"
-"Perform the necessary <a object|research>research program</a> in order to "
-"develop an offensive weapon system."
+"Perform the necessary <a object|research>research program</a> in order to develop an offensive weapon system."
 msgstr ""
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:6
 #, no-wrap
-msgid ""
-"The satellite has detected an energy source, on a spot marked by the "
-"previous expedition with a blue flag (blue cross on the mini-map)."
+msgid "The satellite has detected an energy source, on a spot marked by the previous expedition with a blue flag (blue cross on the mini-map)."
 msgstr ""
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:8
 #, no-wrap
-msgid ""
-"Do not forget to take a look at the satellite report \\button 186; before "
-"you venture any further in a mission; we suspect that you have not always "
-"done this."
+msgid "Do not forget to take a look at the satellite report <button 186/> before you venture any further in a mission; we suspect that you have not always done this."
 msgstr ""
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:10
 #, no-wrap
-msgid ""
-"We have improved the recharge program. Please refer to the page \\button "
-"53;."
+msgid "We have improved the recharge program. Please refer to the page <button 53/>."
 msgstr ""
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:12
 #, no-wrap
-msgid ""
-"A note of warning: bots cannot be submerged. If in doubt, test the water "
-"yourself if you plan to radio-control a non-winged bot across - water "
-"shouldn't be deeper than knee-level."
+msgid "A note of warning: bots cannot be submerged. If in doubt, test the water yourself if you plan to radio-control a non-winged bot across - water shouldn't be deeper than knee-level."
 msgstr ""
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:14
 #, no-wrap
-msgid ""
-"\\key;\\key help;<norm/> allows you to review these instructions at all "
-"times on your personal SatCom \\button 63;."
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
@@ -171,12 +158,7 @@ msgstr ""
 #. type: Plain text
 #: scene303-help/mltropi3.txt:3
 #, no-wrap
-msgid ""
-"We have improved the recharge program. When it arrives at the <a "
-"object|station>power station</a>, the bot does not wait exactly 5 seconds, "
-"but only until the <a object|power>power cell</a> is fully charged. After "
-"the bot is back at the initial position, it displays a message on the "
-"screen."
+msgid "We have improved the recharge program. When it arrives at the <a object|station>power station</a>, the bot does not wait exactly 5 seconds, but only until the <a object|power>power cell</a> is fully charged. After the bot is back at the initial position, it displays a message on the screen."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -190,12 +172,10 @@ msgid ""
 "\t\n"
 "\tstart = position;      // store initial position\n"
 "\t\n"
-"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look "
-"for station\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
 "\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
 "\t\n"
-"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 "
-")\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
 "\t{\n"
 "\t\t<a cbot|wait>wait</a>(1);           // wait until recharged\n"
 "\t}\n"
@@ -238,41 +218,25 @@ msgstr ""
 #. type: Bullet: '1)'
 #: scene303-help/mstropi3.txt:2
 #, no-wrap
-msgid ""
-"There is a <a object|titan>titanium cube</a> west of your present location, "
-"near the blue flag/blue cross on your mini map. You don't need to move the "
-"cube, just build a <a object|station>power station</a> right there on the "
-"spot."
+msgid "There is a <a object|titan>titanium cube</a> west of your present location, near the blue flag/blue cross on your mini map. You don't need to move the cube, just build a <a object|station>power station</a> right there on the spot."
 msgstr ""
 
 #. type: Bullet: '2)'
 #: scene303-help/mstropi3.txt:4
 #, no-wrap
-msgid ""
-"With the titanium cubes on the spaceship, build a <a "
-"object|research>research center</a> and execute the <shooter cannon research "
-"program> \\button 67;."
+msgid "With the titanium cubes on the spaceship, build a <a object|research>research center</a> and execute the <shooter cannon research program> <button 67/>."
 msgstr ""
 
 #. type: Bullet: '3)'
 #: scene303-help/mstropi3.txt:6
 #, no-wrap
-msgid ""
-"Build a <a object|factory>bot factory</a> and a <a object|botfj>winged "
-"shooter</a>. If this bot is destroyed by enemy fire, you will find some "
-"additional <a object|titan>titanium cubes</a> in a small foggy valley "
-"northwest of the spaceship. You can bring them back with the <a "
-"object|botgj>winged grabber</a><n/>."
+msgid "Build a <a object|factory>bot factory</a> and a <a object|botfj>winged shooter</a>. If this bot is destroyed by enemy fire, you will find some additional <a object|titan>titanium cubes</a> in a small foggy valley northwest of the spaceship. You can bring them back with the <a object|botgj>winged grabber</a><n/>."
 msgstr ""
 
 #. type: Bullet: '4)'
 #: scene303-help/mstropi3.txt:8
 #, no-wrap
-msgid ""
-"Build a <a object|radar>radar station</a> in order to see the location of "
-"the ants on the mini-map, and let the hunt begin. Be careful not to run out "
-"of energy and not to overheat the reactor of a bot while over water. If a "
-"bot falls into deep water, it explodes."
+msgid "Build a <a object|radar>radar station</a> in order to see the location of the ants on the mini-map, and let the hunt begin. Be careful not to run out of energy and not to overheat the reactor of a bot while over water. If a bot falls into deep water, it explodes."
 msgstr ""
 
 #. type: Bullet: '5)'
