@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:00+0200\n"
+"POT-Creation-Date: 2014-01-01 16:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,15 +26,13 @@ msgstr "P"
 #: scene601/scene.txt:1
 #, no-wrap
 msgid "scene601:Transport"
-msgstr ""
+msgstr "scene601:Transport"
 
 #. type: Resume-text
 #: scene601/scene.txt:2
 #, no-wrap
-msgid ""
-"scene601:Develop your nuclear technology in order to increase your operating "
-"range."
-msgstr ""
+msgid "scene601:Develop your nuclear technology in order to increase your operating range."
+msgstr "scene601:Rozwiń technologię atomową w celu zwiększenia zasięgu działania robotów."
 
 #. type: \b; header
 #: scene601-help/mhvolca1.txt:1
@@ -45,43 +43,31 @@ msgstr ""
 #. type: Plain text
 #: scene601-help/mhvolca1.txt:3
 #, no-wrap
-msgid ""
-"You need to retrieve an <a object|tnt>explosive device</a> that has been "
-"spotted in a deep valley next to a lake of boiling lava."
+msgid "You need to retrieve an <a object|tnt>explosive device</a> that has been spotted in a deep valley next to a lake of boiling lava."
 msgstr ""
 
 #. type: Plain text
 #: scene601-help/mhvolca1.txt:5
 #, no-wrap
-msgid ""
-"Because of the high temperatures, reactors no longer function, i.e. flying "
-"is impossible. It is a long way there and you should equip your bots with <a "
-"object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured "
-"from <a object|uranore>uranium ore</a>."
+msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
 msgstr ""
 
 #. type: Plain text
 #: scene601-help/mhvolca1.txt:7
 #, no-wrap
-msgid ""
-"A more efficient program for the gathering of raw materials is attached to "
-"this message."
+msgid "A more efficient program for the gathering of raw materials is attached to this message."
 msgstr ""
 
 #. type: Plain text
 #: scene601-help/mhvolca1.txt:9
 #, no-wrap
-msgid ""
-"A note of warning: the explosive device is extremely volatile. Use extreme "
-"caution."
+msgid "A note of warning: the explosive device is extremely volatile. Use extreme caution."
 msgstr ""
 
 #. type: Plain text
 #: scene601-help/mhvolca1.txt:11
 #, no-wrap
-msgid ""
-"\\key;\\key help;<norm/> allows you to review these instructions at all "
-"times on your personal SatCom \\button 63;."
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
@@ -164,12 +150,7 @@ msgstr ""
 #. type: Plain text
 #: scene601-help/mlvolca1.txt:3
 #, no-wrap
-msgid ""
-"As you will need lots of titanium for this mission, we have made the program "
-"<code>CollectTitanium</code> still more efficient. It gathers a whole series "
-"of titanium cubes on a free surface, so you can let it work on its own. It "
-"also recharges itself at the <a object|station>power station</a> if "
-"necessary."
+msgid "As you will need lots of titanium for this mission, we have made the program <code>CollectTitanium</code> still more efficient. It gathers a whole series of titanium cubes on a free surface, so you can let it work on its own. It also recharges itself at the <a object|station>power station</a> if necessary."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -185,14 +166,12 @@ msgid ""
 "\t{\n"
 "\t\t\n"
 "\t\t// 2) Go to the titanium ore and grab it.\n"
-"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look "
-"for titanium\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium\n"
 "\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
 "\t\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
 "\t\t\n"
 "\t\t// 3) Go to the converter and drop it.\n"
-"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look "
-"for converter\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
 "\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
 "\t\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
 "\t\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
@@ -201,16 +180,14 @@ msgid ""
 "\t\t<a cbot|do>do</a>\n"
 "\t\t{\n"
 "\t\t\t<a cbot|wait>wait</a>(1);              // wait for cube\n"
-"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, "
-"0, 5);\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
 "\t\t}\n"
 "\t\t<a cbot|while>while</a> ( item == null );\n"
 "\t\t<a cbot|goto>goto</a>(item.position);\n"
 "\t\t<a cbot|grab>grab</a>();                   // grab it\n"
 "\t\t\n"
 "\t\t// 5) Drop on a free space\n"
-"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // go to "
-"free space\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // go to free space\n"
 "\t\t<a cbot|drop>drop</a>();                   // drop titanium\n"
 "\t\t\n"
 "\t\t// 6) If power cell half empty, recharges.\n"
@@ -287,10 +264,7 @@ msgstr ""
 #. type: Bullet: '1)'
 #: scene601-help/msvolca1.txt:2
 #, no-wrap
-msgid ""
-"Start by recharging a <a object|power>regular power cell</a> and power the "
-"<a object|research>research center</a>. Use it to research the technology "
-"for the building of a <a object|nuclear>nuclear plant</a> \\button 170;."
+msgid "Start by recharging a <a object|power>regular power cell</a> and power the <a object|research>research center</a>. Use it to research the technology for the building of a <a object|nuclear>nuclear plant</a> <button 170/>."
 msgstr ""
 
 #. type: Bullet: '2)'
@@ -302,36 +276,25 @@ msgstr ""
 #. type: Bullet: '3)'
 #: scene601-help/msvolca1.txt:6
 #, no-wrap
-msgid ""
-"Find some <a object|uranore>uranium ore</a> northwest of your position. The "
-"nuclear plant will then transform it into <a object|atomic>nuclear power "
-"cells</a> of a longer duration."
+msgid "Find some <a object|uranore>uranium ore</a> northwest of your position. The nuclear plant will then transform it into <a object|atomic>nuclear power cells</a> of a longer duration."
 msgstr ""
 
 #. type: Bullet: '4)'
 #: scene601-help/msvolca1.txt:8
 #, no-wrap
-msgid ""
-"Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear "
-"cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along "
-"the way."
+msgid "Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along the way."
 msgstr ""
 
 #. type: Bullet: '5)'
 #: scene601-help/msvolca1.txt:10
 #, no-wrap
-msgid ""
-"A <a object|radar>radar</a> is optional but could turn out useful to mark "
-"the position of the spiders on your mini map."
+msgid "A <a object|radar>radar</a> is optional but could turn out useful to mark the position of the spiders on your mini map."
 msgstr ""
 
 #. type: Bullet: '6)'
 #: scene601-help/msvolca1.txt:12
 #, no-wrap
-msgid ""
-"A wheeled grabber should be part of the expedition. It will both clear the "
-"way cluttered with <a object|titanore>titanium ore</a> and bring the <a "
-"object|tnt>explosive device</a> back."
+msgid "A wheeled grabber should be part of the expedition. It will both clear the way cluttered with <a object|titanore>titanium ore</a> and bring the <a object|tnt>explosive device</a> back."
 msgstr ""
 
 #. type: Plain text

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:00+0200\n"
+"POT-Creation-Date: 2014-01-01 16:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,13 +26,13 @@ msgstr "P"
 #: scene401/scene.txt:1
 #, no-wrap
 msgid "scene401:Viruses"
-msgstr ""
+msgstr "scene401:Wirusy"
 
 #. type: Resume-text
 #: scene401/scene.txt:2
 #, no-wrap
 msgid "scene401:A new bug threatens all your systems."
-msgstr ""
+msgstr "scene401:Nowy robal zagroził wszystkim systemom."
 
 #. type: \b; header
 #: scene401-help/mhcrys1.txt:1
@@ -43,51 +43,31 @@ msgstr ""
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:3
 #, no-wrap
-msgid ""
-"Build a <a object|radar>radar</a> on the highest point in the area. Make "
-"sure that the radar will work safely even after your departure to other "
-"planets. Your <a object|research>research center</a> should be able to "
-"provide a solution."
+msgid "Build a <a object|radar>radar</a> on the highest point in the area. Make sure that the radar will work safely even after your departure to other planets. Your <a object|research>research center</a> should be able to provide a solution."
 msgstr ""
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:5
 #, no-wrap
-msgid ""
-"It is possible that the organisms detected are in fact the <a "
-"object|worm>worms</a> alluded to by the first expedition. If this is indeed "
-"the case, don't be excessively alarmed: they seem fairly harmless to living "
-"organisms but could cause the programs of bots and buildings to malfunction "
-"through the emission of viruses."
+msgid "It is possible that the organisms detected are in fact the <a object|worm>worms</a> alluded to by the first expedition. If this is indeed the case, don't be excessively alarmed: they seem fairly harmless to living organisms but could cause the programs of bots and buildings to malfunction through the emission of viruses."
 msgstr ""
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:7
 #, no-wrap
-msgid ""
-"Radars not only give you precious information about objects and organisms "
-"present in the region, they also relay information to and from the Earth "
-"once you have taken off to other planets. It is highly probable that "
-"problems with the radar stations built by the first expedition caused the "
-"transmission problems that we are aware of."
+msgid "Radars not only give you precious information about objects and organisms present in the region, they also relay information to and from the Earth once you have taken off to other planets. It is highly probable that problems with the radar stations built by the first expedition caused the transmission problems that we are aware of."
 msgstr ""
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:9
 #, no-wrap
-msgid ""
-"In order to help you with the boring task of gathering the necessary raw "
-"material, we have developed a program that instructs the <a "
-"object|botgr>wheeled grabber</a> to look for <a object|titanore>titanium "
-"ore</a> on its own (see the programming page \\button 53;)."
+msgid "In order to help you with the boring task of gathering the necessary raw material, we have developed a program that instructs the <a object|botgr>wheeled grabber</a> to look for <a object|titanore>titanium ore</a> on its own (see the programming page <button 53/>)."
 msgstr ""
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:11
 #, no-wrap
-msgid ""
-"\\key;\\key help;<norm/> allows you to review these instructions at all "
-"times on your personal SatCom \\button 63;."
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
@@ -171,20 +151,13 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Below is one of the programs that has been developed by our engineers.\n"
-"It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of "
-"<a object|titanore>titanium ore</a> and place it on the <a "
-"object|convert>converter</a>."
+"It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of <a object|titanore>titanium ore</a> and place it on the <a object|convert>converter</a>."
 msgstr ""
 
 #. type: Plain text
 #: scene401-help/mlcrys1.txt:6
 #, no-wrap
-msgid ""
-"In order to execute this program, select the program "
-"<code>CollectTitanium1</code> in the list of the programs available on the "
-"bot (on the lower left-hand corner of your screen), and click on the arrow "
-"symbol \\button 21;. At any moment you can stop the program and take over at "
-"the controls with the stop button \\button 8;."
+msgid "In order to execute this program, select the program <code>CollectTitanium1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>. At any moment you can stop the program and take over at the controls with the stop button <button 8/>."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -197,14 +170,12 @@ msgid ""
 "\t<a cbot|type>object</a>  item;            // info. about objects\n"
 "\t\n"
 "\t// 2) Go to the titanium ore and grab it.\n"
-"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look "
-"for titanium ore\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
 "\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
 "\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
 "\t\n"
 "\t// 3) Go to the converter and drop it.\n"
-"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look "
-"for converter\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
 "\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
 "\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
 "\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
@@ -280,7 +251,7 @@ msgstr ""
 #. type: Bullet: '6)'
 #: scene401-help/mscrys1.txt:7
 #, no-wrap
-msgid "Initiate the <defense tower research program> \\button 68;."
+msgid "Initiate the <defense tower research program> <button 68/>."
 msgstr ""
 
 #. type: Bullet: '7)'
