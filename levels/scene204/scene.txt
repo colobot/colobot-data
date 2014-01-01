@@ -29,7 +29,7 @@ MaxFlyingHeight max=47.5
 BeginObject
 CreateObject pos=12.50;-75.00 dir=0.0 type=SpaceShip run=1
 CreateObject pos=12.50;-78.25 dir=1.5 type=Me
-CreateObject pos= 9.25;-78.25 dir=1.5 type=WingedGrabber    power=0.15 script2="exchg1.txt" script1="charge1.txt"
+CreateObject pos= 9.25;-78.25 dir=1.5 type=WingedGrabber  power=0.15 script2="exchg1.txt" script1="charge1.txt"
 CreateObject pos=15.75;-78.25 dir=1.5 type=WheeledGrabber power=0.15 script2="exchg1.txt" script1="charge1.txt"
 //CreateObject pos= 8.75;-72.50 dir=0.0 type=PowerCell
 //CreateObject pos=10.00;-72.50 dir=0.0 type=PowerCell
@@ -43,7 +43,7 @@ CreateObject pos=13.10;-71.25 dir=0.0 type=TitaniumOre
 
 CreateObject pos=   0;230 dir=0.0 type=RuinBaseCamp h=-9.0
 CreateObject pos=  -5;250 dir=0.1 type=RuinHeadCamp
-CreateObject pos= -26;285 dir=1.0 type=WreckBott1
+//CreateObject pos= -26;285 dir=1.0 type=WreckBott1
 CreateObject pos= -25;288 dir=0.2 type=BlackBox
 CreateObject pos= -41;257 dir=0.4 type=RuinBotFactory
 CreateObject pos= -42;238 dir=0.3 type=WreckBotw1
