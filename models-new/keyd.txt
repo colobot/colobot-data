@@ -1,7 +1,7 @@
 # Colobot text model
 
 ### HEAD
-version 1
+version 2
 total_triangles 40
 
 ### TRIANGLES
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 0 0.587785 n 0 -1 0 t1 0.563883 0.02508 t2 0.1 0.875
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 0 0.951057 n 0 -1 0 t1 0.552164 0.00195313 t2 0.2 0.875
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 0 0.951056 n 0 -1 0 t1 0.537679 0.00195319 t2 0.3 0.375
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 0 0.587785 n -0 -1 0 t1 0.525961 0.02508 t2 0.4 0.375
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 0 -0 n 0 -1 0 t1 0.521484 0.0625 t2 0.5 0.375
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 0 -0.587785 n 0 -1 0 t1 0.525961 0.09992 t2 0.6 0.375
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 0 -0.951057 n 0 -1 -0 t1 0.537679 0.123047 t2 0.7 0.375
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 0 -0.951056 n 0 -1 0 t1 0.552164 0.123047 t2 0.8 0.875
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 0 -0.587785 n 0 -1 0 t1 0.563883 0.09992 t2 0.9 0.875
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 2 0 n 0.951056 -0 0.309017 t1 0.521484 0.00195312 t2 0 0.125
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 0.587785 n 0.951056 0 0.309017 t1 0.550455 0.00195312 t2 0.1 0.125
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 0.587785 n 0.587786 -0 0.809016 t1 0.550455 0.00195312 t2 0.1 0.125
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 0.951057 n 0.587786 0 0.809016 t1 0.568359 0.00195312 t2 0.2 0.125
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 0.951057 n -1.63952e-06 0 1 t1 0.568359 0.00195312 t2 0.2 0.125
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 0.951056 n -1.63952e-06 0 1 t1 0.542448 0.00195312 t2 0.3 0.625
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 0.951056 n -0.587785 0 0.809017 t1 0.542448 0.00195312 t2 0.3 0.625
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 0.587785 n -0.587785 0 0.809017 t1 0.521484 0.00195312 t2 0.4 0.625
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 0.587785 n -0.951056 0 0.309017 t1 0.568359 0.00195312 t2 0.4 0.625
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 2 -0 n -0.951056 0 0.309017 t1 0.544922 0.00195312 t2 0.5 0.625
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 2 -0 n -0.951056 0 -0.309017 t1 0.544922 0.00195312 t2 0.5 0.625
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 -0.587785 n -0.951056 0 -0.309017 t1 0.521484 0.00195312 t2 0.6 0.625
@@ -222,7 +201,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 -0.587785 n -0.587786 0 -0.809016 t1 0.521484 0.00195312 t2 0.6 0.625
@@ -232,7 +210,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 -0.951057 n -0.587786 0 -0.809016 t1 0.542448 0.00195312 t2 0.7 0.625
@@ -242,7 +219,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 -0.951057 n 1.63952e-06 0 -1 t1 0.542448 0.00195312 t2 0.7 0.625
@@ -252,7 +228,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 -0.951056 n 1.63952e-06 0 -1 t1 0.568359 0.00195312 t2 0.8 0.125
@@ -262,7 +237,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 -0.951056 n 0.587785 0 -0.809017 t1 0.521484 0.00195312 t2 0.8 0.125
@@ -272,7 +246,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 -0.587785 n 0.587785 0 -0.809017 t1 0.539389 0.00195312 t2 0.9 0.125
@@ -282,7 +255,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 -0.587785 n 0.951056 0 -0.309017 t1 0.539389 0.00195312 t2 0.9 0.125
@@ -292,7 +264,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 2 0 n 0.951056 0 -0.309017 t1 0.568359 0.00195312 t2 0 0.125
@@ -302,7 +273,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 0.587785 n 0 1 0 t1 0.563883 0.02508 t2 0.1 0.125
@@ -312,7 +282,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 0.951057 n 0 1 0 t1 0.552164 0.00195313 t2 0.2 0.125
@@ -322,7 +291,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 0.951056 n 0 1 -0 t1 0.537679 0.00195319 t2 0.3 0.625
@@ -332,7 +300,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 0.587785 n 0 1 0 t1 0.525961 0.02508 t2 0.4 0.625
@@ -342,7 +309,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 2 -0 n 0 1 0 t1 0.521484 0.0625 t2 0.5 0.625
@@ -352,7 +318,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.809017 2 -0.587785 n 0 1 0 t1 0.525961 0.09992 t2 0.6 0.625
@@ -362,7 +327,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -0.309017 2 -0.951057 n 0 1 0 t1 0.537679 0.123047 t2 0.7 0.625
@@ -372,7 +336,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.309017 2 -0.951056 n 0 1 0 t1 0.552164 0.123047 t2 0.8 0.125
@@ -382,7 +345,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 0.809017 2 -0.587785 n 0 1 0 t1 0.563883 0.09992 t2 0.9 0.125
@@ -392,7 +354,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 2 0 n -0 1 0 t1 0.568359 0.0625 t2 0 0.125
@@ -402,6 +363,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 

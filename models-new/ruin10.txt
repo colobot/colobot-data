@@ -1,7 +1,7 @@
 # Colobot text model
 
 ### HEAD
-version 1
+version 2
 total_triangles 50
 
 ### TRIANGLES
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 29.5641 -0.029779 12.2459 n 0 -1 0 t1 0.998047 0.138103 t2 1 0.292893
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 12.2459 -0.029779 29.5641 n 0 -1 0 t1 0.861897 0.00195313 t2 0.707107 1.19662e-09
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -12.2459 -0.029779 29.5641 n 0 -1 0 t1 0.669353 0.00195314 t2 0.292893 3.34544e-08
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -29.5641 -0.029779 12.2459 n -0 -1 0 t1 0.533203 0.138103 t2 -1.25885e-09 0.292893
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -29.5641 -0.029779 -12.2459 n 0 -1 0 t1 0.533203 0.330647 t2 6.32567e-08 0.707107
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -12.2459 -0.029779 -29.5641 n 0 -1 -0 t1 0.669353 0.466797 t2 0.292893 1
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 12.2459 -0.029779 -29.5641 n 0 -1 0 t1 0.861897 0.466797 t2 0.707107 1
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 23.5035 13.801 -9.73547 n 0.915922 0.401356 8.97226e-08 t1 0.480303 0.251953 t2 0.33535 0.337317
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 23.5035 13.801 9.73547 n 0.915922 0.401356 7.13295e-08 t1 0.675947 0.251953 t2 0.66465 0.337317
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 23.5035 13.801 9.73547 n 0.647655 0.401356 0.647655 t1 0.455078 0.251953 t2 0.8975 0.337317
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 9.73547 13.801 23.5035 n 0.647655 0.401356 0.647655 t1 0.625953 0.251953 t2 0.66465 0.337317
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 9.73547 13.801 23.5035 n 0 0.401356 0.915922 t1 0.675947 0.251953 t2 0.66465 0.337317
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -9.73547 13.801 23.5035 n -7.13295e-08 0.401356 0.915922 t1 0.480303 0.251953 t2 0.33535 0.337317
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -9.73547 13.801 23.5035 n -0.647655 0.401356 0.647655 t1 0.701172 0.251953 t2 0.8975 0.337317
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -23.5035 13.801 9.73547 n -0.647655 0.401356 0.647655 t1 0.530297 0.251953 t2 0.66465 0.337317
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -23.5035 13.801 9.73547 n -0.915922 0.401356 -1.79445e-07 t1 0.675947 0.251953 t2 0.66465 0.337317
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -23.5035 13.801 -9.73547 n -0.915922 0.401356 -1.42659e-07 t1 0.480303 0.251953 t2 0.33535 0.337317
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -23.5035 13.801 -9.73547 n -0.647655 0.401356 -0.647655 t1 0.701172 0.251953 t2 0.1025 0.337317
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -9.73546 13.801 -23.5035 n -0.647655 0.401356 -0.647655 t1 0.530297 0.251953 t2 0.33535 0.337317
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -9.73546 13.801 -23.5035 n 2.69168e-07 0.401356 -0.915922 t1 0.480303 0.251953 t2 0.33535 0.337317
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 9.73547 13.801 -23.5035 n 2.13988e-07 0.401356 -0.915922 t1 0.675947 0.251953 t2 0.66465 0.337317
@@ -222,7 +201,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 9.73547 13.801 -23.5035 n 0.647655 0.401356 -0.647655 t1 0.455078 0.251953 t2 0.1025 0.337317
@@ -232,7 +210,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 23.5035 13.801 -9.73547 n 0.647655 0.401356 -0.647655 t1 0.625953 0.251953 t2 0.33535 0.337317
@@ -242,7 +219,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n 0.669245 0.743042 6.55584e-08 t1 0.578125 0.00195314 t2 0.5 0.5
@@ -252,7 +228,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n 0.473228 0.743042 0.473228 t1 0.455078 0.00195314 t2 0.5 0.5
@@ -262,7 +237,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n 0 0.743042 0.669245 t1 0.578125 0.00195314 t2 0.5 0.5
@@ -272,7 +246,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n -0.473228 0.743042 0.473228 t1 0.701172 0.00195314 t2 0.5 0.5
@@ -282,7 +255,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n -0.669245 0.743042 -1.31117e-07 t1 0.578125 0.00195314 t2 0.5 0.5
@@ -292,7 +264,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n -0.473228 0.743042 -0.473228 t1 0.701172 0.00195314 t2 0.5 0.5
@@ -302,7 +273,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n 1.96675e-07 0.743042 -0.669245 t1 0.578125 0.00195312 t2 0.5 0.5
@@ -312,7 +282,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 0 34.9702 0 n 0.473228 0.743042 -0.473228 t1 0.455078 0.00195314 t2 0.5 0.5
@@ -322,7 +291,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -12.3413 -2.66684 n 0 0 -1 t1 0.826172 0.208984 t2 0.540942 0.753877
@@ -332,7 +300,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -27.7874 -2.66684 n -0 0 -1 t1 0.767578 0.267578 t2 0.45638 1
@@ -342,7 +309,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 14.7608 0.080315 -15.0068 n 0 -0.704772 -0.709434 t1 0.826172 0.208984 t2 0.74964 0.555947
@@ -352,7 +318,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -12.3413 -2.66684 n -0 -0.704772 -0.709434 t1 0.79194 0.267578 t2 0.45638 0.753877
@@ -362,7 +327,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -12.3413 2.33316 n 1 0 0 t1 0.826172 0.208984 t2 0.539459 0.753877
@@ -372,7 +336,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -23.5657 -2.66684 n 1 0 0 t1 0.767578 0.267578 t2 0.454897 0.932731
@@ -382,7 +345,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 14.7608 0.080315 14.6732 n 0.709433 -0.704772 0 t1 0.826172 0.208984 t2 0.748158 0.555947
@@ -392,7 +354,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -12.3413 -2.66684 n 0.709434 -0.704772 0 t1 0.767578 0.267578 t2 0.454897 0.753877
@@ -402,7 +363,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -12.3413 2.33316 n 0 0 1 t1 0.767578 0.208984 t2 0.45638 0.753877
@@ -412,7 +372,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -21.6517 2.33316 n -0 0 1 t1 0.826172 0.254323 t2 0.540942 0.902232
@@ -422,7 +381,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -14.9192 0.080315 14.6732 n 0 -0.704772 0.709433 t1 0.767578 0.208984 t2 0.247681 0.555947
@@ -432,7 +390,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c 2.4208 -12.3413 2.33316 n 0 -0.704772 0.709433 t1 0.80181 0.267578 t2 0.540942 0.753877
@@ -442,7 +399,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -12.3413 -2.66684 n -1 0 -0 t1 0.767578 0.208984 t2 0.454897 0.753877
@@ -452,7 +408,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -24.3738 2.33316 n -1 0 0 t1 0.826172 0.254629 t2 0.539459 0.945606
@@ -462,7 +417,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -14.9192 0.080315 -15.0068 n -0.709433 -0.704772 -0 t1 0.767578 0.208984 t2 0.246199 0.555947
@@ -472,7 +426,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -12.3413 2.33316 n -0.709434 -0.704772 0 t1 0.826172 0.267578 t2 0.539459 0.753877
@@ -482,7 +435,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -27.7874 -2.66684 n 0.410075 -0.753243 0.51426 t1 0.767578 0.205078 t2 0.45638 0.545103
@@ -492,7 +444,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 
 p1 c -2.5792 -27.7874 -2.66684 n 0.619188 -0.733346 0.280731 t1 0.767578 0.205078 t2 0.45638 0.545103
@@ -502,6 +453,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 base1.png
 tex2 dirty04.png
 var_tex2 N
-lod_level 0
 state 64
 

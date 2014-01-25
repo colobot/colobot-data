@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 198
+version 2
+total_triangles 90
 
 ### TRIANGLES
 p1 c 0 3 -10 n 0.5 0 -0.866025 t1 0.00195314 0.552734 t2 0.5 0.714286
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 -5 n 0.5 0 -0.866025 t1 0.498047 0.552734 t2 1 0.714286
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 -5 n 1 0 0 t1 0.00195313 0.552734 t2 0.25 0.714286
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 5 n 1 0 0 t1 0.498047 0.552734 t2 0.75 0.714286
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 5 n 0.5 -0 0.866025 t1 0.00195312 0.552734 t2 1 0.714286
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 3 10 n 0.5 0 0.866025 t1 0.498047 0.552734 t2 0.5 0.714286
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 3 10 n -0.5 0 0.866025 t1 0.498047 0.552734 t2 0.5 0.714286
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 5 n -0.5 0 0.866025 t1 0.00195313 0.552734 t2 6.33393e-09 0.714286
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 5 n -1 0 0 t1 0.498047 0.552734 t2 0.75 0.714286
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 -5 n -1 0 0 t1 0.00195314 0.552734 t2 0.25 0.714286
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 -5 n -0.5 0 -0.866025 t1 0.498047 0.552734 t2 6.33393e-09 0.714286
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 3 -10 n -0.5 0 -0.866025 t1 0.0019531 0.552734 t2 0.5 0.714286
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 -5 n 0 1 0 t1 0.583984 0.0117188 t2 1 0.75
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 3 5 n -0 1 0 t1 0.888672 0.501953 t2 1 0.25
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 3 10 n 0 1 -0 t1 0.580078 0.00585938 t2 0.5 -7.45058e-09
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 5 n 0 1 0 t1 0.576172 0.0078125 t2 6.33393e-09 0.25
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 3 -5 n 0 1 0 t1 0.576172 0.0117188 t2 6.33393e-09 0.75
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 3 -10 n 0 1 0 t1 0.580078 0.0136719 t2 0.5 1
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 10 -7 n 0.5 0 -0.866025 t1 0.00195315 0.00195315 t2 0.5 0.214286
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.06218 10 -3.5 n 0.5 0 -0.866025 t1 0.498047 0.00195315 t2 0.85 0.214286
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.06218 10 -3.5 n 1 0 0 t1 0.00195313 0.501953 t2 0.325 0.214286
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.06218 10 3.5 n 1 0 0 t1 0.498047 0.501953 t2 0.675 0.214286
@@ -222,7 +201,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.06218 10 3.5 n 0.5 -0 0.866025 t1 0.00195311 0.00195315 t2 0.85 0.214286
@@ -232,7 +210,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 10 7 n 0.5 0 0.866025 t1 0.498047 0.00195315 t2 0.5 0.214286
@@ -242,7 +219,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 10 7 n -0.5 0 0.866025 t1 0.998047 0.00195315 t2 0.5 0.214286
@@ -252,7 +228,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.06218 10 3.5 n -0.5 0 0.866025 t1 0.501953 0.00195315 t2 0.15 0.214286
@@ -262,7 +237,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.06218 10 3.5 n -1 0 -1.36239e-07 t1 0.498047 0.00195315 t2 0.675 0.214286
@@ -272,7 +246,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.06218 10 -3.5 n -1 0 -1.36239e-07 t1 0.00195312 0.00195315 t2 0.325 0.214286
@@ -282,7 +255,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.06218 10 -3.5 n -0.5 0 -0.866025 t1 0.998047 0.00195315 t2 0.15 0.214286
@@ -292,7 +264,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 10 -7 n -0.5 0 -0.866025 t1 0.501953 0.00195315 t2 0.5 0.214286
@@ -302,7 +273,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 search.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 10 -10 n 0 -1 0 t1 0.607422 0.0136719 t2 0.5 1
@@ -312,7 +282,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 10 -5 n 0 -1 0 t1 0.611328 0.0117188 t2 1 0.75
@@ -322,7 +291,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 10 5 n 0 -1 0 t1 0.611328 0.0078125 t2 1 0.25
@@ -332,7 +300,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 10 10 n 0 -1 0 t1 0.607422 0.00585938 t2 0.5 -7.45058e-09
@@ -342,7 +309,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 10 5 n -0 -1 0 t1 0.603516 0.0078125 t2 6.33393e-09 0.25
@@ -352,7 +318,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 10 -5 n 0 -1 -0 t1 0.603516 0.0117188 t2 6.33393e-09 0.75
@@ -362,7 +327,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 13 -10 n 0.5 0 -0.866025 t1 0.00195314 0.689453 t2 0.5 -6.70552e-08
@@ -372,7 +336,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 -5 n 0.5 0 -0.866025 t1 0.498047 0.689453 t2 1 -6.70552e-08
@@ -382,7 +345,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 -5 n 1 0 0 t1 0.00195313 0.837891 t2 0.25 -6.70552e-08
@@ -392,7 +354,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 5 n 1 0 0 t1 0.498047 0.837891 t2 0.75 -6.70552e-08
@@ -402,7 +363,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 5 n 0.5 -0 0.866025 t1 0.00195312 0.689453 t2 1 -6.70552e-08
@@ -412,7 +372,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 13 10 n 0.5 0 0.866025 t1 0.498047 0.689453 t2 0.5 -6.70552e-08
@@ -422,7 +381,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 13 10 n -0.5 0 0.866025 t1 0.498047 0.689453 t2 0.5 -6.70552e-08
@@ -432,7 +390,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 5 n -0.5 0 0.866025 t1 0.00195313 0.689453 t2 6.33393e-09 -6.70552e-08
@@ -442,7 +399,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 5 n -1 0 0 t1 0.498047 0.689453 t2 0.75 -6.70552e-08
@@ -452,7 +408,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 -5 n -1 0 0 t1 0.00195311 0.689453 t2 0.25 -6.70552e-08
@@ -462,7 +417,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 -5 n -0.5 0 -0.866025 t1 0.498047 0.689453 t2 6.33393e-09 -6.70552e-08
@@ -472,7 +426,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 13 -10 n -0.5 0 -0.866025 t1 0.00195312 0.689453 t2 0.5 -6.70552e-08
@@ -482,7 +435,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 -5 n 0 1 0 t1 0.248047 0.811523 t2 1 0.75
@@ -492,7 +444,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 8.66025 13 5 n -0 1 0 t1 0.248047 0.688477 t2 1 0.25
@@ -502,7 +453,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1e-06 13 10 n 0 1 -0 t1 0.125 0.626953 t2 0.5 -7.45058e-09
@@ -512,7 +462,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 5 n 0 1 0 t1 0.00195312 0.688477 t2 6.33393e-09 0.25
@@ -522,7 +471,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.66025 13 -5 n 0 1 0 t1 0.00195312 0.811523 t2 6.33393e-09 0.75
@@ -532,7 +480,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0 13 -10 n 0 1 0 t1 0.125 0.873047 t2 0.5 1
@@ -542,7 +489,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 10 8 n 1 0 0 t1 0.744141 0.251953 t2 0.9 0.214286
@@ -552,7 +498,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 3 6 n 1 0 0 t1 0.802734 0.466797 t2 0.8 0.714286
@@ -562,7 +507,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 10 8 n 0 0 1 t1 0.740234 0.251953 t2 0.442265 0.214286
@@ -572,7 +516,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 3 8 n -0 0 1 t1 0.681641 0.466797 t2 0.557735 0.714286
@@ -582,7 +525,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 10 6 n -1 0 0 t1 0.802734 0.251953 t2 0.8 0.214286
@@ -592,7 +534,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 3 8 n -1 0 0 t1 0.744141 0.466797 t2 0.9 0.714286
@@ -602,7 +543,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.4282 10 4.86602 n 0.5 0 0.866026 t1 0.744141 0.251953 t2 0.128867 0.214286
@@ -612,7 +552,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -4.69615 3 3.86602 n 0.5 0 0.866026 t1 0.802734 0.466797 t2 0.228867 0.714286
@@ -622,7 +561,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.4282 10 3.13397 n -0.866025 0 0.5 t1 0.740234 0.251953 t2 0.656699 0.214286
@@ -632,7 +570,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.4282 3 4.86602 n -0.866025 0 0.5 t1 0.681641 0.466797 t2 0.743301 0.714286
@@ -642,7 +579,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5.69615 10 2.13397 n -0.5 0 -0.866025 t1 0.802734 0.251953 t2 0.171132 0.214286
@@ -652,7 +588,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.4282 3 3.13397 n -0.5 0 -0.866025 t1 0.744141 0.466797 t2 0.0711324 0.714286
@@ -662,7 +597,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.4282 10 -3.13398 n -0.500001 0 0.866025 t1 0.744141 0.251953 t2 0.0711325 0.214286
@@ -672,7 +606,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5.69615 3 -2.13398 n -0.500001 0 0.866025 t1 0.802734 0.466797 t2 0.171132 0.714286
@@ -682,7 +615,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.4282 10 -4.86603 n -0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.256699 0.214286
@@ -692,7 +624,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.4282 3 -3.13398 n -0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.343301 0.714286
@@ -702,7 +633,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -4.69615 10 -3.86603 n 0.5 0 -0.866026 t1 0.802734 0.251953 t2 0.228868 0.214286
@@ -712,7 +642,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.4282 3 -4.86603 n 0.5 0 -0.866026 t1 0.744141 0.466797 t2 0.128868 0.714286
@@ -722,7 +651,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.999997 10 -8 n -1 0 -4.76837e-07 t1 0.744141 0.251953 t2 0.1 0.214286
@@ -732,7 +660,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.999998 3 -6 n -1 0 -4.76837e-07 t1 0.802734 0.466797 t2 0.2 0.714286
@@ -742,7 +669,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 10 -8 n 0 0 -1 t1 0.740234 0.251953 t2 0.557735 0.214286
@@ -752,7 +678,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.999997 3 -8 n -0 0 -1 t1 0.681641 0.466797 t2 0.442265 0.714286
@@ -762,7 +687,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 10 -6 n 1 0 4.76837e-07 t1 0.802734 0.251953 t2 0.2 0.214286
@@ -772,7 +696,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 3 -8 n 1 0 4.76837e-07 t1 0.744141 0.466797 t2 0.1 0.714286
@@ -782,7 +705,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.42821 10 -4.86602 n -0.5 0 -0.866026 t1 0.744141 0.251953 t2 0.871133 0.214286
@@ -792,7 +714,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 4.69615 3 -3.86602 n -0.5 0 -0.866026 t1 0.802734 0.466797 t2 0.771133 0.714286
@@ -802,7 +723,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.42821 10 -3.13397 n 0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.343301 0.214286
@@ -812,7 +732,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.42821 3 -4.86602 n 0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.256699 0.714286
@@ -822,7 +741,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.69615 10 -2.13397 n 0.5 0 0.866026 t1 0.802734 0.251953 t2 0.828868 0.214286
@@ -832,7 +750,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.42821 3 -3.13397 n 0.5 0 0.866026 t1 0.744141 0.466797 t2 0.928868 0.714286
@@ -842,7 +759,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.4282 10 3.13398 n 0.500001 0 -0.866025 t1 0.744141 0.251953 t2 0.928867 0.214286
@@ -852,7 +768,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.69615 3 2.13398 n 0.500001 0 -0.866025 t1 0.802734 0.466797 t2 0.828867 0.714286
@@ -862,7 +777,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.4282 10 4.86603 n 0.866025 0 0.500001 t1 0.740234 0.251953 t2 0.743301 0.214286
@@ -872,7 +786,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.4282 3 3.13398 n 0.866025 0 0.500001 t1 0.681641 0.466797 t2 0.656699 0.714286
@@ -882,7 +795,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 4.69615 10 3.86603 n -0.5 0 0.866025 t1 0.802734 0.251953 t2 0.771132 0.214286
@@ -892,7 +804,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.4282 3 4.86603 n -0.5 0 0.866025 t1 0.744141 0.466797 t2 0.871132 0.714286
@@ -902,1086 +813,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 convert.png
 tex2 
 var_tex2 Y
-lod_level 3
-state 0
-
-p1 c 0 3 -10 n 0.5 0 -0.866025 t1 0.00195314 0.552734 t2 0.5 0.714286
-p2 c 8.66025 3 -5 n 0.5 0 -0.866025 t1 0.498047 0.552734 t2 1 0.714286
-p3 c 0 -1 -10 n 0.5 0 -0.866025 t1 0.00195314 0.685547 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 -5 n 0.5 0 -0.866025 t1 0.498047 0.552734 t2 1 0.714286
-p2 c 8.66025 -1 -5 n 0.5 0 -0.866025 t1 0.498047 0.685547 t2 1 1
-p3 c 0 -1 -10 n 0.5 0 -0.866025 t1 0.00195314 0.685547 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 -5 n 1 0 0 t1 0.00195313 0.552734 t2 0.25 0.714286
-p2 c 8.66025 3 5 n 1 0 0 t1 0.498047 0.552734 t2 0.75 0.714286
-p3 c 8.66025 -1 -5 n 1 0 0 t1 0.00195313 0.685547 t2 0.25 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 5 n 1 0 0 t1 0.498047 0.552734 t2 0.75 0.714286
-p2 c 8.66025 -1 5 n 1 0 0 t1 0.498047 0.685547 t2 0.75 1
-p3 c 8.66025 -1 -5 n 1 0 0 t1 0.00195313 0.685547 t2 0.25 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 5 n 0.5 -0 0.866025 t1 0.00195312 0.552734 t2 1 0.714286
-p2 c -1e-06 3 10 n 0.5 -0 0.866025 t1 0.498047 0.552734 t2 0.5 0.714286
-p3 c 8.66025 -1 5 n 0.5 -0 0.866025 t1 0.00195312 0.685547 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 3 10 n 0.5 0 0.866025 t1 0.498047 0.552734 t2 0.5 0.714286
-p2 c -1e-06 -1 10 n 0.5 0 0.866025 t1 0.498047 0.685547 t2 0.5 1
-p3 c 8.66025 -1 5 n 0.5 0 0.866025 t1 0.00195312 0.685547 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 3 10 n -0.5 0 0.866025 t1 0.498047 0.552734 t2 0.5 0.714286
-p2 c -8.66025 3 5 n -0.5 0 0.866025 t1 0.00195313 0.552734 t2 6.33393e-09 0.714286
-p3 c -1e-06 -1 10 n -0.5 0 0.866025 t1 0.498047 0.685547 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 5 n -0.5 0 0.866025 t1 0.00195313 0.552734 t2 6.33393e-09 0.714286
-p2 c -8.66025 -1 5 n -0.5 0 0.866025 t1 0.00195313 0.685547 t2 6.33393e-09 1
-p3 c -1e-06 -1 10 n -0.5 0 0.866025 t1 0.498047 0.685547 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 5 n -1 0 0 t1 0.498047 0.552734 t2 0.75 0.714286
-p2 c -8.66025 3 -5 n -1 0 0 t1 0.00195314 0.552734 t2 0.25 0.714286
-p3 c -8.66025 -1 5 n -1 0 0 t1 0.498047 0.685547 t2 0.75 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 -5 n -1 0 0 t1 0.00195314 0.552734 t2 0.25 0.714286
-p2 c -8.66025 -1 -5 n -1 0 0 t1 0.00195314 0.685547 t2 0.25 1
-p3 c -8.66025 -1 5 n -1 0 0 t1 0.498047 0.685547 t2 0.75 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 -5 n -0.5 0 -0.866025 t1 0.498047 0.552734 t2 6.33393e-09 0.714286
-p2 c 0 3 -10 n -0.5 0 -0.866025 t1 0.0019531 0.552734 t2 0.5 0.714286
-p3 c -8.66025 -1 -5 n -0.5 0 -0.866025 t1 0.498047 0.685547 t2 6.33393e-09 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 3 -10 n -0.5 0 -0.866025 t1 0.0019531 0.552734 t2 0.5 0.714286
-p2 c 0 -1 -10 n -0.5 0 -0.866025 t1 0.0019531 0.685547 t2 0.5 1
-p3 c -8.66025 -1 -5 n -0.5 0 -0.866025 t1 0.498047 0.685547 t2 6.33393e-09 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 -5 n 0 1 0 t1 0.583984 0.0117188 t2 1 0.75
-p2 c 0 3 -10 n 0 1 0 t1 0.580078 0.0136719 t2 0.5 1
-p3 c 0 3 0 n 0 1 0 t1 0.580078 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 3 5 n -0 1 0 t1 0.888672 0.501953 t2 1 0.25
-p2 c 8.66025 3 -5 n -0 1 0 t1 0.888672 0.935547 t2 1 0.75
-p3 c 0 3 0 n -0 1 0 t1 0.501953 0.71875 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 3 10 n 0 1 -0 t1 0.580078 0.00585938 t2 0.5 -7.45058e-09
-p2 c 8.66025 3 5 n 0 1 -0 t1 0.583984 0.0078125 t2 1 0.25
-p3 c 0 3 0 n 0 1 -0 t1 0.580078 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 5 n 0 1 0 t1 0.576172 0.0078125 t2 6.33393e-09 0.25
-p2 c -1e-06 3 10 n 0 1 0 t1 0.580078 0.00585938 t2 0.5 -7.45058e-09
-p3 c 0 3 0 n 0 1 0 t1 0.580078 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 3 -5 n 0 1 0 t1 0.576172 0.0117188 t2 6.33393e-09 0.75
-p2 c -8.66025 3 5 n 0 1 0 t1 0.576172 0.0078125 t2 6.33393e-09 0.25
-p3 c 0 3 0 n 0 1 0 t1 0.580078 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 3 -10 n 0 1 0 t1 0.580078 0.0136719 t2 0.5 1
-p2 c -8.66025 3 -5 n 0 1 0 t1 0.576172 0.0117188 t2 6.33393e-09 0.75
-p3 c 0 3 0 n 0 1 0 t1 0.580078 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 10 -7 n 0.5 0 -0.866025 t1 0.00195315 0.00195315 t2 0.5 0.214286
-p2 c 6.06218 10 -3.5 n 0.5 0 -0.866025 t1 0.498047 0.00195315 t2 0.85 0.214286
-p3 c 0 3 -7 n 0.5 0 -0.866025 t1 0.00195315 0.498047 t2 0.5 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.06218 10 -3.5 n 0.5 0 -0.866025 t1 0.498047 0.00195315 t2 0.85 0.214286
-p2 c 6.06218 3 -3.5 n 0.5 0 -0.866025 t1 0.498047 0.498047 t2 0.85 0.714286
-p3 c 0 3 -7 n 0.5 0 -0.866025 t1 0.00195315 0.498047 t2 0.5 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.06218 10 -3.5 n 1 0 0 t1 0.00195313 0.501953 t2 0.325 0.214286
-p2 c 6.06218 10 3.5 n 1 0 0 t1 0.498047 0.501953 t2 0.675 0.214286
-p3 c 6.06218 3 -3.5 n 1 0 0 t1 0.00195313 0.998047 t2 0.325 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.06218 10 3.5 n 1 0 0 t1 0.498047 0.501953 t2 0.675 0.214286
-p2 c 6.06218 3 3.5 n 1 0 0 t1 0.498047 0.998047 t2 0.675 0.714286
-p3 c 6.06218 3 -3.5 n 1 0 0 t1 0.00195313 0.998047 t2 0.325 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.06218 10 3.5 n 0.5 -0 0.866025 t1 0.00195311 0.00195315 t2 0.85 0.214286
-p2 c -1e-06 10 7 n 0.5 -0 0.866025 t1 0.498047 0.00195315 t2 0.5 0.214286
-p3 c 6.06218 3 3.5 n 0.5 -0 0.866025 t1 0.00195311 0.498047 t2 0.85 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 10 7 n 0.5 0 0.866025 t1 0.498047 0.00195315 t2 0.5 0.214286
-p2 c -1e-06 3 7 n 0.5 0 0.866025 t1 0.498047 0.498047 t2 0.5 0.714286
-p3 c 6.06218 3 3.5 n 0.5 0 0.866025 t1 0.00195311 0.498047 t2 0.85 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 10 7 n -0.5 0 0.866025 t1 0.998047 0.00195315 t2 0.5 0.214286
-p2 c -6.06218 10 3.5 n -0.5 0 0.866025 t1 0.501953 0.00195315 t2 0.15 0.214286
-p3 c -1e-06 3 7 n -0.5 0 0.866025 t1 0.998047 0.498047 t2 0.5 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.06218 10 3.5 n -0.5 0 0.866025 t1 0.501953 0.00195315 t2 0.15 0.214286
-p2 c -6.06218 3 3.5 n -0.5 0 0.866025 t1 0.501953 0.498047 t2 0.15 0.714286
-p3 c -1e-06 3 7 n -0.5 0 0.866025 t1 0.998047 0.498047 t2 0.5 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.06218 10 3.5 n -1 0 -1.36239e-07 t1 0.498047 0.00195315 t2 0.675 0.214286
-p2 c -6.06218 10 -3.5 n -1 0 -1.36239e-07 t1 0.00195312 0.00195315 t2 0.325 0.214286
-p3 c -6.06218 3 3.5 n -1 0 -1.36239e-07 t1 0.498047 0.498047 t2 0.675 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.06218 10 -3.5 n -1 0 -1.36239e-07 t1 0.00195312 0.00195315 t2 0.325 0.214286
-p2 c -6.06218 3 -3.5 n -1 0 -1.36239e-07 t1 0.00195312 0.498047 t2 0.325 0.714286
-p3 c -6.06218 3 3.5 n -1 0 -1.36239e-07 t1 0.498047 0.498047 t2 0.675 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.06218 10 -3.5 n -0.5 0 -0.866025 t1 0.998047 0.00195315 t2 0.15 0.214286
-p2 c 0 10 -7 n -0.5 0 -0.866025 t1 0.501953 0.00195315 t2 0.5 0.214286
-p3 c -6.06218 3 -3.5 n -0.5 0 -0.866025 t1 0.998047 0.498047 t2 0.15 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 10 -7 n -0.5 0 -0.866025 t1 0.501953 0.00195315 t2 0.5 0.214286
-p2 c 0 3 -7 n -0.5 0 -0.866025 t1 0.501953 0.498047 t2 0.5 0.714286
-p3 c -6.06218 3 -3.5 n -0.5 0 -0.866025 t1 0.998047 0.498047 t2 0.15 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 search.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 10 -10 n 0 -1 0 t1 0.607422 0.0136719 t2 0.5 1
-p2 c 8.66025 10 -5 n 0 -1 0 t1 0.611328 0.0117188 t2 1 0.75
-p3 c 0 10 -0 n 0 -1 0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 10 -5 n 0 -1 0 t1 0.611328 0.0117188 t2 1 0.75
-p2 c 8.66025 10 5 n 0 -1 0 t1 0.611328 0.0078125 t2 1 0.25
-p3 c 0 10 -0 n 0 -1 0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 10 5 n 0 -1 0 t1 0.611328 0.0078125 t2 1 0.25
-p2 c -1e-06 10 10 n 0 -1 0 t1 0.607422 0.00585938 t2 0.5 -7.45058e-09
-p3 c 0 10 -0 n 0 -1 0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 10 10 n 0 -1 0 t1 0.607422 0.00585938 t2 0.5 -7.45058e-09
-p2 c -8.66025 10 5 n 0 -1 0 t1 0.603516 0.0078125 t2 6.33393e-09 0.25
-p3 c 0 10 -0 n 0 -1 0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 10 5 n -0 -1 0 t1 0.603516 0.0078125 t2 6.33393e-09 0.25
-p2 c -8.66025 10 -5 n -0 -1 0 t1 0.603516 0.0117188 t2 6.33393e-09 0.75
-p3 c 0 10 -0 n -0 -1 0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 10 -5 n 0 -1 -0 t1 0.603516 0.0117188 t2 6.33393e-09 0.75
-p2 c 0 10 -10 n 0 -1 -0 t1 0.607422 0.0136719 t2 0.5 1
-p3 c 0 10 -0 n 0 -1 -0 t1 0.607422 0.00976562 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 13 -10 n 0.5 0 -0.866025 t1 0.00195314 0.689453 t2 0.5 -6.70552e-08
-p2 c 8.66025 13 -5 n 0.5 0 -0.866025 t1 0.498047 0.689453 t2 1 -6.70552e-08
-p3 c 0 10 -10 n 0.5 0 -0.866025 t1 0.00195314 0.833984 t2 0.5 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 -5 n 0.5 0 -0.866025 t1 0.498047 0.689453 t2 1 -6.70552e-08
-p2 c 8.66025 10 -5 n 0.5 0 -0.866025 t1 0.498047 0.833984 t2 1 0.214286
-p3 c 0 10 -10 n 0.5 0 -0.866025 t1 0.00195314 0.833984 t2 0.5 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 -5 n 1 0 0 t1 0.00195313 0.837891 t2 0.25 -6.70552e-08
-p2 c 8.66025 13 5 n 1 0 0 t1 0.498047 0.837891 t2 0.75 -6.70552e-08
-p3 c 8.66025 10 -5 n 1 0 0 t1 0.00195313 0.982422 t2 0.25 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 5 n 1 0 0 t1 0.498047 0.837891 t2 0.75 -6.70552e-08
-p2 c 8.66025 10 5 n 1 0 0 t1 0.498047 0.982422 t2 0.75 0.214286
-p3 c 8.66025 10 -5 n 1 0 0 t1 0.00195313 0.982422 t2 0.25 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 5 n 0.5 -0 0.866025 t1 0.00195312 0.689453 t2 1 -6.70552e-08
-p2 c -1e-06 13 10 n 0.5 -0 0.866025 t1 0.498047 0.689453 t2 0.5 -6.70552e-08
-p3 c 8.66025 10 5 n 0.5 -0 0.866025 t1 0.00195312 0.833984 t2 1 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 13 10 n 0.5 0 0.866025 t1 0.498047 0.689453 t2 0.5 -6.70552e-08
-p2 c -1e-06 10 10 n 0.5 0 0.866025 t1 0.498047 0.833984 t2 0.5 0.214286
-p3 c 8.66025 10 5 n 0.5 0 0.866025 t1 0.00195312 0.833984 t2 1 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 13 10 n -0.5 0 0.866025 t1 0.498047 0.689453 t2 0.5 -6.70552e-08
-p2 c -8.66025 13 5 n -0.5 0 0.866025 t1 0.00195313 0.689453 t2 6.33393e-09 -6.70552e-08
-p3 c -1e-06 10 10 n -0.5 0 0.866025 t1 0.498047 0.833984 t2 0.5 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 5 n -0.5 0 0.866025 t1 0.00195313 0.689453 t2 6.33393e-09 -6.70552e-08
-p2 c -8.66025 10 5 n -0.5 0 0.866025 t1 0.00195313 0.833984 t2 6.33393e-09 0.214286
-p3 c -1e-06 10 10 n -0.5 0 0.866025 t1 0.498047 0.833984 t2 0.5 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 5 n -1 0 0 t1 0.498047 0.689453 t2 0.75 -6.70552e-08
-p2 c -8.66025 13 -5 n -1 0 0 t1 0.00195311 0.689453 t2 0.25 -6.70552e-08
-p3 c -8.66025 10 5 n -1 0 0 t1 0.498047 0.833984 t2 0.75 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 -5 n -1 0 0 t1 0.00195311 0.689453 t2 0.25 -6.70552e-08
-p2 c -8.66025 10 -5 n -1 0 0 t1 0.00195311 0.833984 t2 0.25 0.214286
-p3 c -8.66025 10 5 n -1 0 0 t1 0.498047 0.833984 t2 0.75 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 -5 n -0.5 0 -0.866025 t1 0.498047 0.689453 t2 6.33393e-09 -6.70552e-08
-p2 c 0 13 -10 n -0.5 0 -0.866025 t1 0.00195312 0.689453 t2 0.5 -6.70552e-08
-p3 c -8.66025 10 -5 n -0.5 0 -0.866025 t1 0.498047 0.833984 t2 6.33393e-09 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 13 -10 n -0.5 0 -0.866025 t1 0.00195312 0.689453 t2 0.5 -6.70552e-08
-p2 c 0 10 -10 n -0.5 0 -0.866025 t1 0.00195312 0.833984 t2 0.5 0.214286
-p3 c -8.66025 10 -5 n -0.5 0 -0.866025 t1 0.498047 0.833984 t2 6.33393e-09 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 -5 n 0 1 0 t1 0.248047 0.811523 t2 1 0.75
-p2 c 0 13 -10 n 0 1 0 t1 0.125 0.873047 t2 0.5 1
-p3 c 0 13 -0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 8.66025 13 5 n -0 1 0 t1 0.248047 0.688477 t2 1 0.25
-p2 c 8.66025 13 -5 n -0 1 0 t1 0.248047 0.811523 t2 1 0.75
-p3 c 0 13 -0 n -0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1e-06 13 10 n 0 1 -0 t1 0.125 0.626953 t2 0.5 -7.45058e-09
-p2 c 8.66025 13 5 n 0 1 -0 t1 0.248047 0.688477 t2 1 0.25
-p3 c 0 13 -0 n 0 1 -0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 5 n 0 1 0 t1 0.00195312 0.688477 t2 6.33393e-09 0.25
-p2 c -1e-06 13 10 n 0 1 0 t1 0.125 0.626953 t2 0.5 -7.45058e-09
-p3 c 0 13 -0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.66025 13 -5 n 0 1 0 t1 0.00195312 0.811523 t2 6.33393e-09 0.75
-p2 c -8.66025 13 5 n 0 1 0 t1 0.00195312 0.688477 t2 6.33393e-09 0.25
-p3 c 0 13 -0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 13 -10 n 0 1 0 t1 0.125 0.873047 t2 0.5 1
-p2 c -8.66025 13 -5 n 0 1 0 t1 0.00195312 0.811523 t2 6.33393e-09 0.75
-p3 c 0 13 -0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 10 8 n 1 0 0 t1 0.744141 0.251953 t2 0.9 0.214286
-p2 c 1 3 8 n 1 0 0 t1 0.744141 0.466797 t2 0.9 0.714286
-p3 c 1 3 6 n 1 0 0 t1 0.802734 0.466797 t2 0.8 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 3 6 n 1 0 0 t1 0.802734 0.466797 t2 0.8 0.714286
-p2 c 1 10 6 n 1 0 0 t1 0.802734 0.251953 t2 0.8 0.214286
-p3 c 1 10 8 n 1 0 0 t1 0.744141 0.251953 t2 0.9 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 10 8 n 0 0 1 t1 0.740234 0.251953 t2 0.442265 0.214286
-p2 c -1 3 8 n 0 0 1 t1 0.740234 0.466797 t2 0.442265 0.714286
-p3 c 1 3 8 n 0 0 1 t1 0.681641 0.466797 t2 0.557735 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 3 8 n -0 0 1 t1 0.681641 0.466797 t2 0.557735 0.714286
-p2 c 1 10 8 n -0 0 1 t1 0.681641 0.251953 t2 0.557735 0.214286
-p3 c -1 10 8 n -0 0 1 t1 0.740234 0.251953 t2 0.442265 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 10 6 n -1 0 0 t1 0.802734 0.251953 t2 0.8 0.214286
-p2 c -1 3 6 n -1 0 0 t1 0.802734 0.466797 t2 0.8 0.714286
-p3 c -1 3 8 n -1 0 0 t1 0.744141 0.466797 t2 0.9 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 3 8 n -1 0 0 t1 0.744141 0.466797 t2 0.9 0.714286
-p2 c -1 10 8 n -1 0 0 t1 0.744141 0.251953 t2 0.9 0.214286
-p3 c -1 10 6 n -1 0 0 t1 0.802734 0.251953 t2 0.8 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.4282 10 4.86602 n 0.5 0 0.866026 t1 0.744141 0.251953 t2 0.128867 0.214286
-p2 c -6.4282 3 4.86602 n 0.5 0 0.866026 t1 0.744141 0.466797 t2 0.128867 0.714286
-p3 c -4.69615 3 3.86602 n 0.5 0 0.866026 t1 0.802734 0.466797 t2 0.228867 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -4.69615 3 3.86602 n 0.5 0 0.866026 t1 0.802734 0.466797 t2 0.228867 0.714286
-p2 c -4.69615 10 3.86602 n 0.5 0 0.866026 t1 0.802734 0.251953 t2 0.228867 0.214286
-p3 c -6.4282 10 4.86602 n 0.5 0 0.866026 t1 0.744141 0.251953 t2 0.128867 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.4282 10 3.13397 n -0.866025 0 0.5 t1 0.740234 0.251953 t2 0.656699 0.214286
-p2 c -7.4282 3 3.13397 n -0.866025 0 0.5 t1 0.740234 0.466797 t2 0.656699 0.714286
-p3 c -6.4282 3 4.86602 n -0.866025 0 0.5 t1 0.681641 0.466797 t2 0.743301 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.4282 3 4.86602 n -0.866025 0 0.5 t1 0.681641 0.466797 t2 0.743301 0.714286
-p2 c -6.4282 10 4.86602 n -0.866025 0 0.5 t1 0.681641 0.251953 t2 0.743301 0.214286
-p3 c -7.4282 10 3.13397 n -0.866025 0 0.5 t1 0.740234 0.251953 t2 0.656699 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5.69615 10 2.13397 n -0.5 0 -0.866025 t1 0.802734 0.251953 t2 0.171132 0.214286
-p2 c -5.69615 3 2.13397 n -0.5 0 -0.866025 t1 0.802734 0.466797 t2 0.171132 0.714286
-p3 c -7.4282 3 3.13397 n -0.5 0 -0.866025 t1 0.744141 0.466797 t2 0.0711324 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.4282 3 3.13397 n -0.5 0 -0.866025 t1 0.744141 0.466797 t2 0.0711324 0.714286
-p2 c -7.4282 10 3.13397 n -0.5 0 -0.866025 t1 0.744141 0.251953 t2 0.0711324 0.214286
-p3 c -5.69615 10 2.13397 n -0.5 0 -0.866025 t1 0.802734 0.251953 t2 0.171132 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.4282 10 -3.13398 n -0.500001 0 0.866025 t1 0.744141 0.251953 t2 0.0711325 0.214286
-p2 c -7.4282 3 -3.13398 n -0.500001 0 0.866025 t1 0.744141 0.466797 t2 0.0711325 0.714286
-p3 c -5.69615 3 -2.13398 n -0.500001 0 0.866025 t1 0.802734 0.466797 t2 0.171132 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5.69615 3 -2.13398 n -0.500001 0 0.866025 t1 0.802734 0.466797 t2 0.171132 0.714286
-p2 c -5.69615 10 -2.13398 n -0.500001 0 0.866025 t1 0.802734 0.251953 t2 0.171132 0.214286
-p3 c -7.4282 10 -3.13398 n -0.500001 0 0.866025 t1 0.744141 0.251953 t2 0.0711325 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.4282 10 -4.86603 n -0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.256699 0.214286
-p2 c -6.4282 3 -4.86603 n -0.866025 0 -0.5 t1 0.740234 0.466797 t2 0.256699 0.714286
-p3 c -7.4282 3 -3.13398 n -0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.343301 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.4282 3 -3.13398 n -0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.343301 0.714286
-p2 c -7.4282 10 -3.13398 n -0.866025 0 -0.5 t1 0.681641 0.251953 t2 0.343301 0.214286
-p3 c -6.4282 10 -4.86603 n -0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.256699 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -4.69615 10 -3.86603 n 0.5 0 -0.866026 t1 0.802734 0.251953 t2 0.228868 0.214286
-p2 c -4.69615 3 -3.86603 n 0.5 0 -0.866026 t1 0.802734 0.466797 t2 0.228868 0.714286
-p3 c -6.4282 3 -4.86603 n 0.5 0 -0.866026 t1 0.744141 0.466797 t2 0.128868 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.4282 3 -4.86603 n 0.5 0 -0.866026 t1 0.744141 0.466797 t2 0.128868 0.714286
-p2 c -6.4282 10 -4.86603 n 0.5 0 -0.866026 t1 0.744141 0.251953 t2 0.128868 0.214286
-p3 c -4.69615 10 -3.86603 n 0.5 0 -0.866026 t1 0.802734 0.251953 t2 0.228868 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.999997 10 -8 n -1 0 -4.76837e-07 t1 0.744141 0.251953 t2 0.1 0.214286
-p2 c -0.999997 3 -8 n -1 0 -4.76837e-07 t1 0.744141 0.466797 t2 0.1 0.714286
-p3 c -0.999998 3 -6 n -1 0 -4.76837e-07 t1 0.802734 0.466797 t2 0.2 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.999998 3 -6 n -1 0 -4.76837e-07 t1 0.802734 0.466797 t2 0.2 0.714286
-p2 c -0.999998 10 -6 n -1 0 -4.76837e-07 t1 0.802734 0.251953 t2 0.2 0.214286
-p3 c -0.999997 10 -8 n -1 0 -4.76837e-07 t1 0.744141 0.251953 t2 0.1 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 10 -8 n 0 0 -1 t1 0.740234 0.251953 t2 0.557735 0.214286
-p2 c 1 3 -8 n 0 0 -1 t1 0.740234 0.466797 t2 0.557735 0.714286
-p3 c -0.999997 3 -8 n 0 0 -1 t1 0.681641 0.466797 t2 0.442265 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.999997 3 -8 n -0 0 -1 t1 0.681641 0.466797 t2 0.442265 0.714286
-p2 c -0.999997 10 -8 n -0 0 -1 t1 0.681641 0.251953 t2 0.442265 0.214286
-p3 c 1 10 -8 n -0 0 -1 t1 0.740234 0.251953 t2 0.557735 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 10 -6 n 1 0 4.76837e-07 t1 0.802734 0.251953 t2 0.2 0.214286
-p2 c 1 3 -6 n 1 0 4.76837e-07 t1 0.802734 0.466797 t2 0.2 0.714286
-p3 c 1 3 -8 n 1 0 4.76837e-07 t1 0.744141 0.466797 t2 0.1 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 3 -8 n 1 0 4.76837e-07 t1 0.744141 0.466797 t2 0.1 0.714286
-p2 c 1 10 -8 n 1 0 4.76837e-07 t1 0.744141 0.251953 t2 0.1 0.214286
-p3 c 1 10 -6 n 1 0 4.76837e-07 t1 0.802734 0.251953 t2 0.2 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.42821 10 -4.86602 n -0.5 0 -0.866026 t1 0.744141 0.251953 t2 0.871133 0.214286
-p2 c 6.42821 3 -4.86602 n -0.5 0 -0.866026 t1 0.744141 0.466797 t2 0.871133 0.714286
-p3 c 4.69615 3 -3.86602 n -0.5 0 -0.866026 t1 0.802734 0.466797 t2 0.771133 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 4.69615 3 -3.86602 n -0.5 0 -0.866026 t1 0.802734 0.466797 t2 0.771133 0.714286
-p2 c 4.69615 10 -3.86602 n -0.5 0 -0.866026 t1 0.802734 0.251953 t2 0.771133 0.214286
-p3 c 6.42821 10 -4.86602 n -0.5 0 -0.866026 t1 0.744141 0.251953 t2 0.871133 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.42821 10 -3.13397 n 0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.343301 0.214286
-p2 c 7.42821 3 -3.13397 n 0.866025 0 -0.5 t1 0.740234 0.466797 t2 0.343301 0.714286
-p3 c 6.42821 3 -4.86602 n 0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.256699 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.42821 3 -4.86602 n 0.866025 0 -0.5 t1 0.681641 0.466797 t2 0.256699 0.714286
-p2 c 6.42821 10 -4.86602 n 0.866025 0 -0.5 t1 0.681641 0.251953 t2 0.256699 0.214286
-p3 c 7.42821 10 -3.13397 n 0.866025 0 -0.5 t1 0.740234 0.251953 t2 0.343301 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.69615 10 -2.13397 n 0.5 0 0.866026 t1 0.802734 0.251953 t2 0.828868 0.214286
-p2 c 5.69615 3 -2.13397 n 0.5 0 0.866026 t1 0.802734 0.466797 t2 0.828868 0.714286
-p3 c 7.42821 3 -3.13397 n 0.5 0 0.866026 t1 0.744141 0.466797 t2 0.928868 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.42821 3 -3.13397 n 0.5 0 0.866026 t1 0.744141 0.466797 t2 0.928868 0.714286
-p2 c 7.42821 10 -3.13397 n 0.5 0 0.866026 t1 0.744141 0.251953 t2 0.928868 0.214286
-p3 c 5.69615 10 -2.13397 n 0.5 0 0.866026 t1 0.802734 0.251953 t2 0.828868 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.4282 10 3.13398 n 0.500001 0 -0.866025 t1 0.744141 0.251953 t2 0.928867 0.214286
-p2 c 7.4282 3 3.13398 n 0.500001 0 -0.866025 t1 0.744141 0.466797 t2 0.928867 0.714286
-p3 c 5.69615 3 2.13398 n 0.500001 0 -0.866025 t1 0.802734 0.466797 t2 0.828867 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.69615 3 2.13398 n 0.500001 0 -0.866025 t1 0.802734 0.466797 t2 0.828867 0.714286
-p2 c 5.69615 10 2.13398 n 0.500001 0 -0.866025 t1 0.802734 0.251953 t2 0.828867 0.214286
-p3 c 7.4282 10 3.13398 n 0.500001 0 -0.866025 t1 0.744141 0.251953 t2 0.928867 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.4282 10 4.86603 n 0.866025 0 0.500001 t1 0.740234 0.251953 t2 0.743301 0.214286
-p2 c 6.4282 3 4.86603 n 0.866025 0 0.500001 t1 0.740234 0.466797 t2 0.743301 0.714286
-p3 c 7.4282 3 3.13398 n 0.866025 0 0.500001 t1 0.681641 0.466797 t2 0.656699 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.4282 3 3.13398 n 0.866025 0 0.500001 t1 0.681641 0.466797 t2 0.656699 0.714286
-p2 c 7.4282 10 3.13398 n 0.866025 0 0.500001 t1 0.681641 0.251953 t2 0.656699 0.214286
-p3 c 6.4282 10 4.86603 n 0.866025 0 0.500001 t1 0.740234 0.251953 t2 0.743301 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 4.69615 10 3.86603 n -0.5 0 0.866025 t1 0.802734 0.251953 t2 0.771132 0.214286
-p2 c 4.69615 3 3.86603 n -0.5 0 0.866025 t1 0.802734 0.466797 t2 0.771132 0.714286
-p3 c 6.4282 3 4.86603 n -0.5 0 0.866025 t1 0.744141 0.466797 t2 0.871132 0.714286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.4282 3 4.86603 n -0.5 0 0.866025 t1 0.744141 0.466797 t2 0.871132 0.714286
-p2 c 6.4282 10 4.86603 n -0.5 0 0.866025 t1 0.744141 0.251953 t2 0.871132 0.214286
-p3 c 4.69615 10 3.86603 n -0.5 0 0.866025 t1 0.802734 0.251953 t2 0.771132 0.214286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 convert.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0 13 -10 n 0.5 0 -0.866025 t1 0.322266 0.322266 t2 0.5 -6.70552e-08
-p2 c 8.66025 13 -5 n 0.5 0 -0.866025 t1 0.513672 0.322266 t2 1 -6.70552e-08
-p3 c 0 -1 -10 n 0.5 0 -0.866025 t1 0.322266 0.583984 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 -5 n 0.5 0 -0.866025 t1 0.513672 0.322266 t2 1 -6.70552e-08
-p2 c 8.66025 -1 -5 n 0.5 0 -0.866025 t1 0.513672 0.583984 t2 1 1
-p3 c 0 -1 -10 n 0.5 0 -0.866025 t1 0.322266 0.583984 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 -5 n 1 0 0 t1 0.322266 0.322266 t2 0.25 -6.70552e-08
-p2 c 8.66025 13 5 n 1 0 0 t1 0.513672 0.322266 t2 0.75 -6.70552e-08
-p3 c 8.66025 -1 -5 n 1 0 0 t1 0.322266 0.583984 t2 0.25 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 5 n 1 0 0 t1 0.513672 0.322266 t2 0.75 -6.70552e-08
-p2 c 8.66025 -1 5 n 1 0 0 t1 0.513672 0.583984 t2 0.75 1
-p3 c 8.66025 -1 -5 n 1 0 0 t1 0.322266 0.583984 t2 0.25 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 5 n 0.5 -0 0.866025 t1 0.322266 0.322266 t2 1 -6.70552e-08
-p2 c -1e-06 13 10 n 0.5 -0 0.866025 t1 0.513672 0.322266 t2 0.5 -6.70552e-08
-p3 c 8.66025 -1 5 n 0.5 -0 0.866025 t1 0.322266 0.583984 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -1e-06 13 10 n 0.5 0 0.866025 t1 0.513672 0.322266 t2 0.5 -6.70552e-08
-p2 c -1e-06 -1 10 n 0.5 0 0.866025 t1 0.513672 0.583984 t2 0.5 1
-p3 c 8.66025 -1 5 n 0.5 0 0.866025 t1 0.322266 0.583984 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -1e-06 13 10 n -0.5 0 0.866025 t1 0.513672 0.322266 t2 0.5 -6.70552e-08
-p2 c -8.66025 13 5 n -0.5 0 0.866025 t1 0.322266 0.322266 t2 6.33393e-09 -6.70552e-08
-p3 c -1e-06 -1 10 n -0.5 0 0.866025 t1 0.513672 0.583984 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 5 n -0.5 0 0.866025 t1 0.322266 0.322266 t2 6.33393e-09 -6.70552e-08
-p2 c -8.66025 -1 5 n -0.5 0 0.866025 t1 0.322266 0.583984 t2 6.33393e-09 1
-p3 c -1e-06 -1 10 n -0.5 0 0.866025 t1 0.513672 0.583984 t2 0.5 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 5 n -1 0 0 t1 0.513672 0.322266 t2 0.75 -6.70552e-08
-p2 c -8.66025 13 -5 n -1 0 0 t1 0.322266 0.322266 t2 0.25 -6.70552e-08
-p3 c -8.66025 -1 5 n -1 0 0 t1 0.513672 0.583984 t2 0.75 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 -5 n -1 0 0 t1 0.322266 0.322266 t2 0.25 -6.70552e-08
-p2 c -8.66025 -1 -5 n -1 0 0 t1 0.322266 0.583984 t2 0.25 1
-p3 c -8.66025 -1 5 n -1 0 0 t1 0.513672 0.583984 t2 0.75 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 -5 n -0.5 0 -0.866025 t1 0.513672 0.322266 t2 6.33393e-09 -6.70552e-08
-p2 c 0 13 -10 n -0.5 0 -0.866025 t1 0.322266 0.322266 t2 0.5 -6.70552e-08
-p3 c -8.66025 -1 -5 n -0.5 0 -0.866025 t1 0.513672 0.583984 t2 6.33393e-09 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 0 13 -10 n -0.5 0 -0.866025 t1 0.322266 0.322266 t2 0.5 -6.70552e-08
-p2 c 0 -1 -10 n -0.5 0 -0.866025 t1 0.322266 0.583984 t2 0.5 1
-p3 c -8.66025 -1 -5 n -0.5 0 -0.866025 t1 0.513672 0.583984 t2 6.33393e-09 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 subm.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 -5 n 0 1 0 t1 0.00195312 0.811523 t2 1 0.75
-p2 c 0 13 -10 n 0 1 0 t1 0.125 0.873047 t2 0.5 1
-p3 c 0 13 0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 8.66025 13 5 n -0 1 0 t1 0.00195312 0.688477 t2 1 0.25
-p2 c 8.66025 13 -5 n -0 1 0 t1 0.00195312 0.811523 t2 1 0.75
-p3 c 0 13 0 n -0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -1e-06 13 10 n 0 1 -0 t1 0.125 0.626953 t2 0.5 -7.45058e-09
-p2 c 8.66025 13 5 n 0 1 -0 t1 0.00195312 0.688477 t2 1 0.25
-p3 c 0 13 0 n 0 1 -0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 5 n 0 1 0 t1 0.248047 0.688477 t2 6.33393e-09 0.25
-p2 c -1e-06 13 10 n 0 1 0 t1 0.125 0.626953 t2 0.5 -7.45058e-09
-p3 c 0 13 0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.66025 13 -5 n 0 1 0 t1 0.248047 0.811523 t2 6.33393e-09 0.75
-p2 c -8.66025 13 5 n 0 1 0 t1 0.248047 0.688477 t2 6.33393e-09 0.25
-p3 c 0 13 0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 0 13 -10 n 0 1 0 t1 0.125 0.873047 t2 0.5 1
-p2 c -8.66025 13 -5 n 0 1 0 t1 0.248047 0.811523 t2 6.33393e-09 0.75
-p3 c 0 13 0 n 0 1 0 t1 0.125 0.75 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
 state 0
 

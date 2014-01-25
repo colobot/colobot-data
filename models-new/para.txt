@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 525
+version 2
+total_triangles 175
 
 ### TRIANGLES
 p1 c 16.3894 1 7.05184 n -0 1 0 t1 0.998047 0.134245 t2 0.949345 0.306416
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.0598 1 16.3814 n 0 1 0 t1 0.865755 0.00195312 t2 0.693584 0.0506546
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.06313 1 16.3814 n 0 1 -0 t1 0.665495 0.00195315 t2 0.306416 0.0506547
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -16.3927 1 7.05184 n 0 1 0 t1 0.533203 0.134245 t2 0.0506546 0.306416
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -16.3927 1 -7.0711 n 0 1 0 t1 0.533203 0.334505 t2 0.0506546 0.693584
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.06313 1 -16.4007 n 0 1 0 t1 0.665495 0.466797 t2 0.306416 0.949345
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.0598 1 -16.4007 n 0 1 0 t1 0.865755 0.466797 t2 0.693584 0.949345
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 16.3894 1 -7.0711 n 0 1 0 t1 0.998047 0.334505 t2 0.949345 0.693584
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 18.2371 -1 7.8172 n 0.73451 0.678598 0 t1 0.591797 0.170315 t2 0.714565 1
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 16.3894 1 7.05184 n 0.73451 0.678598 -0 t1 0.561919 0.182691 t2 0.693584 0.958333
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.82517 -1 18.2292 n 0.519377 0.678598 0.519377 t1 0.423435 0.00195311 t2 0.714566 7.32233e-09
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.0598 1 16.3814 n 0.519377 0.678598 0.519377 t1 0.411059 0.0318314 t2 0.693584 0.0506546
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.8285 -1 18.2292 n -8.94976e-08 0.678598 0.73451 t1 0.170315 0.00195314 t2 0.285434 1
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.06313 1 16.3814 n -9.91979e-08 0.678598 0.73451 t1 0.182691 0.0318315 t2 0.306416 0.958333
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -18.2405 -1 7.8172 n -0.519377 0.678599 0.519376 t1 0.00195313 0.170315 t2 -8.90792e-09 0.285435
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -16.3927 1 7.05184 n -0.519377 0.678598 0.519377 t1 0.0318315 0.182691 t2 0.0506546 0.306416
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -18.2405 -1 -7.83646 n -0.73451 0.678598 0 t1 0.00195313 0.423435 t2 0.285434 1
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -16.3927 1 -7.0711 n -0.73451 0.678598 0 t1 0.0318315 0.411059 t2 0.306416 0.958333
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.8285 -1 -18.2484 n -0.519377 0.678598 -0.519377 t1 0.170315 0.591797 t2 0.285434 1
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -7.06313 1 -16.4007 n -0.519377 0.678598 -0.519377 t1 0.182691 0.561919 t2 0.306416 0.949345
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.82517 -1 -18.2484 n 0 0.678598 -0.73451 t1 0.423435 0.591797 t2 0.714566 1
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 7.0598 1 -16.4007 n 9.91979e-08 0.678598 -0.73451 t1 0.411059 0.561919 t2 0.693584 0.958333
@@ -222,7 +201,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 18.2371 -1 -7.83646 n 0.519377 0.678598 -0.519377 t1 0.591797 0.423435 t2 1 0.714566
@@ -232,7 +210,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 16.3894 1 -7.0711 n 0.519377 0.678598 -0.519377 t1 0.561919 0.411059 t2 0.949345 0.693584
@@ -242,7 +219,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 factory.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 14.5 -13 n 0.160179 0.168328 -0.97263 t1 0.416016 0.438477 t2 0.253319 0.677083
@@ -252,7 +228,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -13 14.5 -13 n 0 0.249878 -0.968277 t1 0.333984 0.438477 t2 0.143662 0.677083
@@ -262,7 +237,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -13 14.5 -9 n 0.707107 0 0.707107 t1 0.333984 0.438477 t2 0.143662 0.677083
@@ -272,7 +246,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 14.5 -13 n 0.707107 0 0.707107 t1 0.416016 0.438477 t2 0.253319 0.677083
@@ -282,7 +255,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -9 n -0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.253537 0.5
@@ -292,7 +264,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -5 n -0.904819 0.425797 0 t1 0.498047 0.189453 t2 0.363193 0.5
@@ -302,7 +273,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5 23 -9 n 0 0.425797 -0.904819 t1 0.498047 0.189453 t2 0.362975 0.5
@@ -312,7 +282,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -9 n 0 0.425797 -0.904819 t1 0.416016 0.189453 t2 0.253319 0.5
@@ -322,7 +291,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -5 n 0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.253319 0.5
@@ -332,7 +300,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5 23 -9 n 0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.362975 0.5
@@ -342,7 +309,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -17 -1 -17 n -0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0342244 1
@@ -352,7 +318,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -13 14.5 -13 n -0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.143881 0.677083
@@ -362,7 +327,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0114 14.5 -9.08423 n 0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.251228 0.677083
@@ -372,7 +336,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0114 14.5 -13.0842 n 0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.141572 0.677083
@@ -382,7 +345,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.01138 14.5 -13.0842 n -0.707107 0 0.707107 t1 0.279297 0.438477 t2 0.747085 0.677083
@@ -392,7 +354,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0114 14.5 -9.08423 n -0.707107 0 0.707107 t1 0.388672 0.438477 t2 0.856741 0.677083
@@ -402,7 +363,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.333984 0.189453 t2 0.747085 0.5
@@ -412,7 +372,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.251953 0.189453 t2 0.637428 0.5
@@ -422,7 +381,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.01138 23 -5.08423 n 0.904819 0.425797 -0 t1 0.498047 0.189453 t2 0.360884 0.5
@@ -432,7 +390,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.01138 23 -9.08423 n 0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.251228 0.5
@@ -442,7 +399,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.01138 23 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.637428 0.5
@@ -452,7 +408,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.01138 23 -5.08423 n -0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.360884 0.5
@@ -462,7 +417,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 17.0114 -1 -17.0842 n -0.160179 0.168328 -0.97263 t1 0.498047 0.892578 t2 0.966397 1
@@ -472,7 +426,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0114 14.5 -13.0842 n 0 0.249878 -0.968277 t1 0.416016 0.438477 t2 0.856741 0.677083
@@ -482,7 +435,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 14.5 12.9272 n -0.160179 0.168328 0.97263 t1 0.333984 0.438477 t2 0.749394 0.677083
@@ -492,7 +444,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0956 14.5 12.9272 n 0 0.249878 0.968277 t1 0.416016 0.438477 t2 0.85905 0.677083
@@ -502,7 +453,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0956 14.5 8.92715 n -0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.85905 0.677083
@@ -512,7 +462,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 14.5 12.9272 n -0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.749394 0.677083
@@ -522,7 +471,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 23 8.92715 n 0.904819 0.425797 -0 t1 0.333984 0.189453 t2 0.744994 0.5
@@ -532,7 +480,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 23 4.92715 n 0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.635337 0.5
@@ -542,7 +489,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.09561 23 8.92715 n 0 0.425797 0.904819 t1 0.251953 0.189453 t2 0.639737 0.5
@@ -552,7 +498,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 23 8.92715 n 0 0.425797 0.904819 t1 0.333984 0.189453 t2 0.749394 0.5
@@ -562,7 +507,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9.09562 23 4.92715 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.749394 0.5
@@ -572,7 +516,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5.09561 23 8.92715 n -0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.639737 0.5
@@ -582,7 +525,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 17.0956 -1 16.9272 n 0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.964306 1
@@ -592,7 +534,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 13.0956 14.5 12.9272 n 0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.85465 0.677083
@@ -602,7 +543,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -12.9158 14.5 9.01138 n -0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.747303 0.677083
@@ -612,7 +552,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -12.9158 14.5 13.0114 n -0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.856959 0.677083
@@ -622,7 +561,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.91577 14.5 13.0114 n 0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.856959 0.677083
@@ -632,7 +570,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -12.9158 14.5 9.01138 n 0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.145972 0.677083
@@ -642,7 +579,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.416016 0.189453 t2 0.255628 0.5
@@ -652,7 +588,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -4.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.498047 0.189453 t2 0.365284 0.5
@@ -662,7 +597,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.91577 23 5.01138 n -0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.637646 0.5
@@ -672,7 +606,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.91577 23 9.01138 n -0.904819 0.425797 0 t1 0.333984 0.189453 t2 0.747303 0.5
@@ -682,7 +615,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -4.91577 23 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.365284 0.5
@@ -692,7 +624,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -8.91577 23 5.01138 n 0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.637646 0.5
@@ -702,7 +633,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -16.9158 -1 17.0114 n 0.160179 0.168328 0.97263 t1 0.251953 0.892578 t2 0.0363153 1
@@ -712,7 +642,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -12.9158 14.5 13.0114 n 0 0.249878 0.968277 t1 0.333984 0.438477 t2 0.145972 0.677083
@@ -722,7 +651,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9 23 9 n 0 -1 0 t1 0.248047 0.626953 t2 0.746772 0.253009
@@ -732,7 +660,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -9 n 0 -1 -0 t1 0.00195312 0.873047 t2 0.253319 0.746463
@@ -742,7 +669,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.04027 27 6.04027 n 0 1 0 t1 0.248047 0.626953 t2 0.665634 0.334148
@@ -752,7 +678,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.04027 27 -6.04027 n 0 1 0 t1 0.00195312 0.873047 t2 0.334457 0.665325
@@ -762,7 +687,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.457582 0.185547 t2 0.665634 0.416667
@@ -772,7 +696,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 -9 n 0 0.594808 -0.803868 t1 0.251953 0.0957031 t2 0.253319 0.5
@@ -782,7 +705,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 6.04027 27 6.04027 n 0.803868 0.594808 -0 t1 0.457582 0.185547 t2 0.665852 0.416667
@@ -792,7 +714,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9 23 -9 n 0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.253537 0.5
@@ -802,7 +723,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.04027 27 6.04027 n 0 0.594808 0.803868 t1 0.457582 0.185547 t2 0.334457 0.416667
@@ -812,7 +732,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 9 23 9 n -0 0.594808 0.803868 t1 0.251953 0.0957031 t2 0.746772 0.5
@@ -822,7 +741,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -6.04027 27 -6.04027 n -0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.334675 0.416667
@@ -832,7 +750,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -9 23 9 n -0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.746991 0.5
@@ -842,7 +759,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 2 47 -2 n 0 0.14834 -0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
@@ -852,7 +768,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5 27 -5 n 0 0.14834 -0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
@@ -862,7 +777,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 2 47 2 n 0.988936 0.14834 -0 t1 0.00195312 0.427734 t2 0.555092 -9.31323e-09
@@ -872,7 +786,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5 27 -5 n 0.988936 0.14834 0 t1 0.0292969 0.126953 t2 0.363193 0.416667
@@ -882,7 +795,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -2 47 2 n 0 0.14834 0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
@@ -892,7 +804,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 5 27 5 n -0 0.14834 0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
@@ -902,7 +813,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -2 47 -2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.445436 -9.31323e-09
@@ -912,7 +822,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -5 27 5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.637334 0.416667
@@ -922,7 +831,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
@@ -932,7 +840,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
@@ -942,7 +849,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
@@ -952,7 +858,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
@@ -962,7 +867,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
@@ -972,7 +876,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
@@ -982,7 +885,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
@@ -992,7 +894,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
@@ -1002,7 +903,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
@@ -1012,7 +912,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
@@ -1022,7 +921,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
@@ -1032,7 +930,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
@@ -1042,7 +939,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
@@ -1052,7 +948,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
@@ -1062,7 +957,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
@@ -1072,7 +966,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
@@ -1082,7 +975,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
@@ -1092,7 +984,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
@@ -1102,7 +993,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
@@ -1112,7 +1002,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
@@ -1122,7 +1011,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
@@ -1132,7 +1020,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
@@ -1142,7 +1029,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
@@ -1152,7 +1038,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
@@ -1162,7 +1047,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
@@ -1172,7 +1056,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
@@ -1182,7 +1065,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
@@ -1192,7 +1074,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
@@ -1202,7 +1083,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
@@ -1212,7 +1092,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
@@ -1222,7 +1101,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
@@ -1232,7 +1110,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
@@ -1242,7 +1119,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
@@ -1252,7 +1128,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
@@ -1262,7 +1137,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
@@ -1272,7 +1146,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
@@ -1282,7 +1155,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
@@ -1292,7 +1164,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
@@ -1302,7 +1173,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
@@ -1312,7 +1182,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
@@ -1322,7 +1191,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
@@ -1332,7 +1200,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
@@ -1342,7 +1209,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
@@ -1352,7 +1218,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
@@ -1362,7 +1227,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
@@ -1372,7 +1236,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
@@ -1382,7 +1245,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
@@ -1392,7 +1254,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
@@ -1402,7 +1263,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
@@ -1412,7 +1272,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
@@ -1422,7 +1281,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
@@ -1432,7 +1290,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
@@ -1442,7 +1299,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
@@ -1452,7 +1308,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
@@ -1462,7 +1317,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
@@ -1472,7 +1326,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
@@ -1482,7 +1335,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
@@ -1492,7 +1344,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
@@ -1502,7 +1353,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
@@ -1512,7 +1362,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
@@ -1522,7 +1371,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
@@ -1532,7 +1380,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
@@ -1542,7 +1389,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
@@ -1552,7 +1398,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
@@ -1562,7 +1407,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
@@ -1572,7 +1416,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
@@ -1582,7 +1425,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
@@ -1592,7 +1434,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
@@ -1602,7 +1443,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
@@ -1612,7 +1452,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
@@ -1622,7 +1461,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
@@ -1632,7 +1470,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
@@ -1642,7 +1479,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
@@ -1652,7 +1488,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
@@ -1662,7 +1497,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
@@ -1672,7 +1506,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 derrick.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 4096
 
 p1 c 0 67 -2e-06 n 0 0.0995037 -0.995037 t1 0.8125 0.1875 t2 0 0
@@ -1682,7 +1515,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0 67 -2e-06 n 0.995037 0.0995037 -0 t1 0.8125 0.1875 t2 0 0
@@ -1692,7 +1524,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0 67 -2e-06 n 0 0.0995037 0.995037 t1 0.8125 0.1875 t2 0 0
@@ -1702,7 +1533,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0 67 -2e-06 n -0.995037 0.0995037 0 t1 0.8125 0.1875 t2 0 0
@@ -1712,7 +1542,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 3e-06 15 0 n -0 -0.242536 -0.970143 t1 0.8125 0.1875 t2 0 0
@@ -1722,7 +1551,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 3e-06 15 0 n -0.970142 -0.242536 0 t1 0.8125 0.1875 t2 0 0
@@ -1732,7 +1560,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 3e-06 15 0 n 0 -0.242536 0.970143 t1 0.8125 0.1875 t2 0 0
@@ -1742,7 +1569,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 3e-06 15 0 n 0.970143 -0.242535 0 t1 0.8125 0.1875 t2 0 0
@@ -1752,3506 +1578,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
-state 0
-
-p1 c 16.3894 1 7.05184 n -0 1 0 t1 0.998047 0.134245 t2 0.949345 0.306416
-p2 c 16.3894 1 -7.0711 n -0 1 0 t1 0.998047 0.334505 t2 0.949345 0.693584
-p3 c -0.001666 1 -0.009629 n -0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.0598 1 16.3814 n 0 1 0 t1 0.865755 0.00195312 t2 0.693584 0.0506546
-p2 c 16.3894 1 7.05184 n 0 1 0 t1 0.998047 0.134245 t2 0.949345 0.306416
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.06313 1 16.3814 n 0 1 -0 t1 0.665495 0.00195315 t2 0.306416 0.0506547
-p2 c 7.0598 1 16.3814 n 0 1 -0 t1 0.865755 0.00195312 t2 0.693584 0.0506546
-p3 c -0.001666 1 -0.009629 n 0 1 -0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -16.3927 1 7.05184 n 0 1 0 t1 0.533203 0.134245 t2 0.0506546 0.306416
-p2 c -7.06313 1 16.3814 n 0 1 0 t1 0.665495 0.00195315 t2 0.306416 0.0506547
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -16.3927 1 -7.0711 n 0 1 0 t1 0.533203 0.334505 t2 0.0506546 0.693584
-p2 c -16.3927 1 7.05184 n 0 1 0 t1 0.533203 0.134245 t2 0.0506546 0.306416
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.06313 1 -16.4007 n 0 1 0 t1 0.665495 0.466797 t2 0.306416 0.949345
-p2 c -16.3927 1 -7.0711 n 0 1 0 t1 0.533203 0.334505 t2 0.0506546 0.693584
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.0598 1 -16.4007 n 0 1 0 t1 0.865755 0.466797 t2 0.693584 0.949345
-p2 c -7.06313 1 -16.4007 n 0 1 0 t1 0.665495 0.466797 t2 0.306416 0.949345
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 16.3894 1 -7.0711 n 0 1 0 t1 0.998047 0.334505 t2 0.949345 0.693584
-p2 c 7.0598 1 -16.4007 n 0 1 0 t1 0.865755 0.466797 t2 0.693584 0.949345
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 18.2371 -1 7.8172 n 0.73451 0.678598 0 t1 0.591797 0.170315 t2 0.714565 1
-p2 c 18.2371 -1 -7.83646 n 0.73451 0.678598 0 t1 0.591797 0.423435 t2 0.285434 1
-p3 c 16.3894 1 -7.0711 n 0.73451 0.678598 0 t1 0.561919 0.411059 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 16.3894 1 7.05184 n 0.73451 0.678598 -0 t1 0.561919 0.182691 t2 0.693584 0.958333
-p2 c 18.2371 -1 7.8172 n 0.73451 0.678598 -0 t1 0.591797 0.170315 t2 0.714565 1
-p3 c 16.3894 1 -7.0711 n 0.73451 0.678598 -0 t1 0.561919 0.411059 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.82517 -1 18.2292 n 0.519377 0.678598 0.519377 t1 0.423435 0.00195311 t2 0.714566 7.32233e-09
-p2 c 18.2371 -1 7.8172 n 0.519377 0.678598 0.519377 t1 0.591797 0.170315 t2 1 0.285434
-p3 c 16.3894 1 7.05184 n 0.519377 0.678598 0.519377 t1 0.561919 0.182691 t2 0.949345 0.306416
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.0598 1 16.3814 n 0.519377 0.678598 0.519377 t1 0.411059 0.0318314 t2 0.693584 0.0506546
-p2 c 7.82517 -1 18.2292 n 0.519377 0.678598 0.519377 t1 0.423435 0.00195311 t2 0.714566 7.32233e-09
-p3 c 16.3894 1 7.05184 n 0.519377 0.678598 0.519377 t1 0.561919 0.182691 t2 0.949345 0.306416
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.8285 -1 18.2292 n -8.94976e-08 0.678598 0.73451 t1 0.170315 0.00195314 t2 0.285434 1
-p2 c 7.82517 -1 18.2292 n -8.94976e-08 0.678598 0.73451 t1 0.423435 0.00195311 t2 0.714566 1
-p3 c 7.0598 1 16.3814 n -8.94976e-08 0.678598 0.73451 t1 0.411059 0.0318314 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.06313 1 16.3814 n -9.91979e-08 0.678598 0.73451 t1 0.182691 0.0318315 t2 0.306416 0.958333
-p2 c -7.8285 -1 18.2292 n -9.91979e-08 0.678598 0.73451 t1 0.170315 0.00195314 t2 0.285434 1
-p3 c 7.0598 1 16.3814 n -9.91979e-08 0.678598 0.73451 t1 0.411059 0.0318314 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -18.2405 -1 7.8172 n -0.519377 0.678599 0.519376 t1 0.00195313 0.170315 t2 -8.90792e-09 0.285435
-p2 c -7.8285 -1 18.2292 n -0.519377 0.678599 0.519376 t1 0.170315 0.00195314 t2 0.285434 5.96106e-08
-p3 c -7.06313 1 16.3814 n -0.519377 0.678599 0.519376 t1 0.182691 0.0318315 t2 0.306416 0.0506547
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -16.3927 1 7.05184 n -0.519377 0.678598 0.519377 t1 0.0318315 0.182691 t2 0.0506546 0.306416
-p2 c -18.2405 -1 7.8172 n -0.519377 0.678598 0.519377 t1 0.00195313 0.170315 t2 -8.90792e-09 0.285435
-p3 c -7.06313 1 16.3814 n -0.519377 0.678598 0.519377 t1 0.182691 0.0318315 t2 0.306416 0.0506547
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -18.2405 -1 -7.83646 n -0.73451 0.678598 0 t1 0.00195313 0.423435 t2 0.285434 1
-p2 c -18.2405 -1 7.8172 n -0.73451 0.678598 0 t1 0.00195313 0.170315 t2 0.714565 1
-p3 c -16.3927 1 7.05184 n -0.73451 0.678598 0 t1 0.0318315 0.182691 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -16.3927 1 -7.0711 n -0.73451 0.678598 0 t1 0.0318315 0.411059 t2 0.306416 0.958333
-p2 c -18.2405 -1 -7.83646 n -0.73451 0.678598 0 t1 0.00195313 0.423435 t2 0.285434 1
-p3 c -16.3927 1 7.05184 n -0.73451 0.678598 0 t1 0.0318315 0.182691 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.8285 -1 -18.2484 n -0.519377 0.678598 -0.519377 t1 0.170315 0.591797 t2 0.285434 1
-p2 c -18.2405 -1 -7.83646 n -0.519377 0.678598 -0.519377 t1 0.00195313 0.423435 t2 -8.90792e-09 0.714566
-p3 c -16.3927 1 -7.0711 n -0.519377 0.678598 -0.519377 t1 0.0318315 0.411059 t2 0.0506546 0.693584
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -7.06313 1 -16.4007 n -0.519377 0.678598 -0.519377 t1 0.182691 0.561919 t2 0.306416 0.949345
-p2 c -7.8285 -1 -18.2484 n -0.519377 0.678598 -0.519377 t1 0.170315 0.591797 t2 0.285434 1
-p3 c -16.3927 1 -7.0711 n -0.519377 0.678598 -0.519377 t1 0.0318315 0.411059 t2 0.0506546 0.693584
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.82517 -1 -18.2484 n 0 0.678598 -0.73451 t1 0.423435 0.591797 t2 0.714566 1
-p2 c -7.8285 -1 -18.2484 n 0 0.678598 -0.73451 t1 0.170315 0.591797 t2 0.285434 1
-p3 c -7.06313 1 -16.4007 n 0 0.678598 -0.73451 t1 0.182691 0.561919 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 7.0598 1 -16.4007 n 9.91979e-08 0.678598 -0.73451 t1 0.411059 0.561919 t2 0.693584 0.958333
-p2 c 7.82517 -1 -18.2484 n 9.91979e-08 0.678598 -0.73451 t1 0.423435 0.591797 t2 0.714566 1
-p3 c -7.06313 1 -16.4007 n 9.91979e-08 0.678598 -0.73451 t1 0.182691 0.561919 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 18.2371 -1 -7.83646 n 0.519377 0.678598 -0.519377 t1 0.591797 0.423435 t2 1 0.714566
-p2 c 7.82517 -1 -18.2484 n 0.519377 0.678598 -0.519377 t1 0.423435 0.591797 t2 0.714566 1
-p3 c 7.0598 1 -16.4007 n 0.519377 0.678598 -0.519377 t1 0.411059 0.561919 t2 0.693584 0.949345
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 16.3894 1 -7.0711 n 0.519377 0.678598 -0.519377 t1 0.561919 0.411059 t2 0.949345 0.693584
-p2 c 18.2371 -1 -7.83646 n 0.519377 0.678598 -0.519377 t1 0.591797 0.423435 t2 1 0.714566
-p3 c 7.0598 1 -16.4007 n 0.519377 0.678598 -0.519377 t1 0.411059 0.561919 t2 0.693584 0.949345
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 14.5 -13 n 0.160179 0.168328 -0.97263 t1 0.416016 0.438477 t2 0.253319 0.677083
-p2 c -8 -1 -14 n 0.31518 0.0813368 -0.94554 t1 0.436523 0.892578 t2 0.280733 1
-p3 c -17 -1 -17 n 0.160179 0.168328 -0.97263 t1 0.251953 0.892578 t2 0.0340061 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -13 14.5 -13 n 0 0.249878 -0.968277 t1 0.333984 0.438477 t2 0.143662 0.677083
-p2 c -9 14.5 -13 n 0.160179 0.168328 -0.97263 t1 0.416016 0.438477 t2 0.253319 0.677083
-p3 c -17 -1 -17 n 0.160179 0.168328 -0.97263 t1 0.251953 0.892578 t2 0.0340061 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -13 14.5 -9 n 0.707107 0 0.707107 t1 0.333984 0.438477 t2 0.143662 0.677083
-p2 c -14 -1 -8 n 0.707107 0 0.707107 t1 0.313477 0.892578 t2 0.116248 1
-p3 c -8 -1 -14 n 0.707107 0 0.707107 t1 0.436523 0.892578 t2 0.280733 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 14.5 -13 n 0.707107 0 0.707107 t1 0.416016 0.438477 t2 0.253319 0.677083
-p2 c -13 14.5 -9 n 0.707107 0 0.707107 t1 0.333984 0.438477 t2 0.143662 0.677083
-p3 c -8 -1 -14 n 0.707107 0 0.707107 t1 0.436523 0.892578 t2 0.280733 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -9 n -0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.253537 0.5
-p2 c -13 14.5 -13 n -0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.143881 0.677083
-p3 c -13 14.5 -9 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -5 n -0.904819 0.425797 0 t1 0.498047 0.189453 t2 0.363193 0.5
-p2 c -9 23 -9 n -0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.253537 0.5
-p3 c -13 14.5 -9 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5 23 -9 n 0 0.425797 -0.904819 t1 0.498047 0.189453 t2 0.362975 0.5
-p2 c -9 14.5 -13 n 0 0.425797 -0.904819 t1 0.416016 0.438477 t2 0.253319 0.677083
-p3 c -13 14.5 -13 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.143662 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -9 n 0 0.425797 -0.904819 t1 0.416016 0.189453 t2 0.253319 0.5
-p2 c -5 23 -9 n 0 0.425797 -0.904819 t1 0.498047 0.189453 t2 0.362975 0.5
-p3 c -13 14.5 -13 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.143662 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -5 n 0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.253319 0.5
-p2 c -13 14.5 -9 n 0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.143662 0.677083
-p3 c -9 14.5 -13 n 0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.253319 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5 23 -9 n 0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.362975 0.5
-p2 c -9 23 -5 n 0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.253319 0.5
-p3 c -9 14.5 -13 n 0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.253319 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -17 -1 -17 n -0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0342244 1
-p2 c -14 -1 -8 n -0.94554 0.0813368 0.31518 t1 0.436523 0.892578 t2 0.280951 1
-p3 c -13 14.5 -9 n -0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -13 14.5 -13 n -0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.143881 0.677083
-p2 c -17 -1 -17 n -0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0342244 1
-p3 c -13 14.5 -9 n -0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0114 14.5 -9.08423 n 0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.251228 0.677083
-p2 c 14.0114 -1 -8.08423 n 0.94554 0.0813368 0.31518 t1 0.436523 0.892578 t2 0.278642 1
-p3 c 17.0114 -1 -17.0842 n 0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0319153 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0114 14.5 -13.0842 n 0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.141572 0.677083
-p2 c 13.0114 14.5 -9.08423 n 0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.251228 0.677083
-p3 c 17.0114 -1 -17.0842 n 0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0319153 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.01138 14.5 -13.0842 n -0.707107 0 0.707107 t1 0.279297 0.438477 t2 0.747085 0.677083
-p2 c 8.01138 -1 -14.0842 n -0.707107 0 0.707107 t1 0.251953 0.892578 t2 0.71967 1
-p3 c 14.0114 -1 -8.08423 n -0.707107 0 0.707107 t1 0.416016 0.892578 t2 0.884155 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0114 14.5 -9.08423 n -0.707107 0 0.707107 t1 0.388672 0.438477 t2 0.856741 0.677083
-p2 c 9.01138 14.5 -13.0842 n -0.707107 0 0.707107 t1 0.279297 0.438477 t2 0.747085 0.677083
-p3 c 14.0114 -1 -8.08423 n -0.707107 0 0.707107 t1 0.416016 0.892578 t2 0.884155 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.333984 0.189453 t2 0.747085 0.5
-p2 c 13.0114 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.416016 0.438477 t2 0.856741 0.677083
-p3 c 9.01138 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.251953 0.189453 t2 0.637428 0.5
-p2 c 9.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.333984 0.189453 t2 0.747085 0.5
-p3 c 9.01138 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.01138 23 -5.08423 n 0.904819 0.425797 -0 t1 0.498047 0.189453 t2 0.360884 0.5
-p2 c 13.0114 14.5 -9.08423 n 0.904819 0.425797 -0 t1 0.416016 0.438477 t2 0.251228 0.677083
-p3 c 13.0114 14.5 -13.0842 n 0.904819 0.425797 -0 t1 0.333984 0.438477 t2 0.141572 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.01138 23 -9.08423 n 0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.251228 0.5
-p2 c 9.01138 23 -5.08423 n 0.904819 0.425797 0 t1 0.498047 0.189453 t2 0.360884 0.5
-p3 c 13.0114 14.5 -13.0842 n 0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.141572 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.01138 23 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.637428 0.5
-p2 c 9.01138 14.5 -13.0842 n -0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.747085 0.677083
-p3 c 13.0114 14.5 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.856741 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.01138 23 -5.08423 n -0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.360884 0.5
-p2 c 5.01138 23 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.251228 0.5
-p3 c 13.0114 14.5 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.251228 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 17.0114 -1 -17.0842 n -0.160179 0.168328 -0.97263 t1 0.498047 0.892578 t2 0.966397 1
-p2 c 8.01138 -1 -14.0842 n -0.31518 0.0813368 -0.94554 t1 0.313477 0.892578 t2 0.71967 1
-p3 c 9.01138 14.5 -13.0842 n -0.160179 0.168328 -0.97263 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0114 14.5 -13.0842 n 0 0.249878 -0.968277 t1 0.416016 0.438477 t2 0.856741 0.677083
-p2 c 17.0114 -1 -17.0842 n -0.160179 0.168328 -0.97263 t1 0.498047 0.892578 t2 0.966397 1
-p3 c 9.01138 14.5 -13.0842 n -0.160179 0.168328 -0.97263 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 14.5 12.9272 n -0.160179 0.168328 0.97263 t1 0.333984 0.438477 t2 0.749394 0.677083
-p2 c 8.09562 -1 13.9272 n -0.31518 0.0813368 0.94554 t1 0.313477 0.892578 t2 0.72198 1
-p3 c 17.0956 -1 16.9272 n -0.160179 0.168328 0.97263 t1 0.498047 0.892578 t2 0.968706 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0956 14.5 12.9272 n 0 0.249878 0.968277 t1 0.416016 0.438477 t2 0.85905 0.677083
-p2 c 9.09562 14.5 12.9272 n -0.160179 0.168328 0.97263 t1 0.333984 0.438477 t2 0.749394 0.677083
-p3 c 17.0956 -1 16.9272 n -0.160179 0.168328 0.97263 t1 0.498047 0.892578 t2 0.968706 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0956 14.5 8.92715 n -0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.85905 0.677083
-p2 c 14.0956 -1 7.92715 n -0.707107 -1.81277e-08 -0.707107 t1 0.498047 0.892578 t2 0.886464 1
-p3 c 8.09562 -1 13.9272 n -0.707107 -1.81277e-08 -0.707107 t1 0.333984 0.892578 t2 0.72198 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 14.5 12.9272 n -0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.749394 0.677083
-p2 c 13.0956 14.5 8.92715 n -0.707107 0 -0.707107 t1 0.470703 0.438477 t2 0.85905 0.677083
-p3 c 8.09562 -1 13.9272 n -0.707107 0 -0.707107 t1 0.333984 0.892578 t2 0.72198 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 23 8.92715 n 0.904819 0.425797 -0 t1 0.333984 0.189453 t2 0.744994 0.5
-p2 c 13.0956 14.5 12.9272 n 0.904819 0.425797 -0 t1 0.416016 0.438477 t2 0.85465 0.677083
-p3 c 13.0956 14.5 8.92715 n 0.904819 0.425797 -0 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 23 4.92715 n 0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.635337 0.5
-p2 c 9.09562 23 8.92715 n 0.904819 0.425797 0 t1 0.333984 0.189453 t2 0.744994 0.5
-p3 c 13.0956 14.5 8.92715 n 0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.09561 23 8.92715 n 0 0.425797 0.904819 t1 0.251953 0.189453 t2 0.639737 0.5
-p2 c 9.09562 14.5 12.9272 n 0 0.425797 0.904819 t1 0.333984 0.438477 t2 0.749394 0.677083
-p3 c 13.0956 14.5 12.9272 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.85905 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 23 8.92715 n 0 0.425797 0.904819 t1 0.333984 0.189453 t2 0.749394 0.5
-p2 c 5.09561 23 8.92715 n 0 0.425797 0.904819 t1 0.251953 0.189453 t2 0.639737 0.5
-p3 c 13.0956 14.5 12.9272 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.85905 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9.09562 23 4.92715 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.749394 0.5
-p2 c 13.0956 14.5 8.92715 n -0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.85905 0.677083
-p3 c 9.09562 14.5 12.9272 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.00585937 t2 0.749394 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5.09561 23 8.92715 n -0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.639737 0.5
-p2 c 9.09562 23 4.92715 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.749394 0.5
-p3 c 9.09562 14.5 12.9272 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.00585937 t2 0.749394 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 17.0956 -1 16.9272 n 0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.964306 1
-p2 c 14.0956 -1 7.92715 n 0.94554 0.0813368 -0.31518 t1 0.313477 0.892578 t2 0.71758 1
-p3 c 13.0956 14.5 8.92715 n 0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 13.0956 14.5 12.9272 n 0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.85465 0.677083
-p2 c 17.0956 -1 16.9272 n 0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.964306 1
-p3 c 13.0956 14.5 8.92715 n 0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -12.9158 14.5 9.01138 n -0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.747303 0.677083
-p2 c -13.9158 -1 8.01138 n -0.94554 0.0813368 -0.31518 t1 0.313477 0.892578 t2 0.719889 1
-p3 c -16.9158 -1 17.0114 n -0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.966615 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -12.9158 14.5 13.0114 n -0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-p2 c -12.9158 14.5 9.01138 n -0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.747303 0.677083
-p3 c -16.9158 -1 17.0114 n -0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.966615 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.91577 14.5 13.0114 n 0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.856959 0.677083
-p2 c -7.91577 -1 14.0114 n 0.707107 -1.81277e-08 -0.707107 t1 0.498047 0.892578 t2 0.884373 1
-p3 c -13.9158 -1 8.01138 n 0.707107 -1.81277e-08 -0.707107 t1 0.333984 0.892578 t2 0.719889 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -12.9158 14.5 9.01138 n 0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.145972 0.677083
-p2 c -8.91577 14.5 13.0114 n 0.707107 0 -0.707107 t1 0.470703 0.438477 t2 0.255628 0.677083
-p3 c -13.9158 -1 8.01138 n 0.707107 0 -0.707107 t1 0.333984 0.892578 t2 0.118558 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.416016 0.189453 t2 0.255628 0.5
-p2 c -12.9158 14.5 13.0114 n 0 0.425797 0.904819 t1 0.333984 0.438477 t2 0.145972 0.677083
-p3 c -8.91577 14.5 13.0114 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -4.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.498047 0.189453 t2 0.365284 0.5
-p2 c -8.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.416016 0.189453 t2 0.255628 0.5
-p3 c -8.91577 14.5 13.0114 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.91577 23 5.01138 n -0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.637646 0.5
-p2 c -12.9158 14.5 9.01138 n -0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.747303 0.677083
-p3 c -12.9158 14.5 13.0114 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.91577 23 9.01138 n -0.904819 0.425797 0 t1 0.333984 0.189453 t2 0.747303 0.5
-p2 c -8.91577 23 5.01138 n -0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.637646 0.5
-p3 c -12.9158 14.5 13.0114 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -4.91577 23 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.365284 0.5
-p2 c -8.91577 14.5 13.0114 n 0.588662 -0.554035 -0.588662 t1 0.580078 0.00585938 t2 0.255628 0.677083
-p3 c -12.9158 14.5 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.145972 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -8.91577 23 5.01138 n 0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.637646 0.5
-p2 c -4.91577 23 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.747303 0.5
-p3 c -12.9158 14.5 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.747303 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -16.9158 -1 17.0114 n 0.160179 0.168328 0.97263 t1 0.251953 0.892578 t2 0.0363153 1
-p2 c -7.91577 -1 14.0114 n 0.31518 0.0813368 0.94554 t1 0.436523 0.892578 t2 0.283042 1
-p3 c -8.91577 14.5 13.0114 n 0.160179 0.168328 0.97263 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -12.9158 14.5 13.0114 n 0 0.249878 0.968277 t1 0.333984 0.438477 t2 0.145972 0.677083
-p2 c -16.9158 -1 17.0114 n 0.160179 0.168328 0.97263 t1 0.251953 0.892578 t2 0.0363153 1
-p3 c -8.91577 14.5 13.0114 n 0.160179 0.168328 0.97263 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9 23 9 n 0 -1 0 t1 0.248047 0.626953 t2 0.746772 0.253009
-p2 c -9 23 9 n 0 -1 0 t1 0.00195312 0.626953 t2 0.253319 0.253009
-p3 c -9 23 -9 n 0 -1 0 t1 0.00195312 0.873047 t2 0.253319 0.746463
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -9 n 0 -1 -0 t1 0.00195312 0.873047 t2 0.253319 0.746463
-p2 c 9 23 -9 n 0 -1 -0 t1 0.248047 0.873047 t2 0.746772 0.746463
-p3 c 9 23 9 n 0 -1 -0 t1 0.248047 0.626953 t2 0.746772 0.253009
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.04027 27 6.04027 n 0 1 0 t1 0.248047 0.626953 t2 0.665634 0.334148
-p2 c 6.04027 27 -6.04027 n 0 1 0 t1 0.248047 0.873047 t2 0.665634 0.665325
-p3 c -6.04027 27 -6.04027 n 0 1 0 t1 0.00195312 0.873047 t2 0.334457 0.665325
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.04027 27 -6.04027 n 0 1 0 t1 0.00195312 0.873047 t2 0.334457 0.665325
-p2 c -6.04027 27 6.04027 n 0 1 0 t1 0.00195312 0.626953 t2 0.334457 0.334148
-p3 c 6.04027 27 6.04027 n 0 1 0 t1 0.248047 0.626953 t2 0.665634 0.334148
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.457582 0.185547 t2 0.665634 0.416667
-p2 c 9 23 -9 n 0 0.594808 -0.803868 t1 0.498047 0.0957031 t2 0.746772 0.5
-p3 c -9 23 -9 n 0 0.594808 -0.803868 t1 0.251953 0.0957031 t2 0.253319 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 -9 n 0 0.594808 -0.803868 t1 0.251953 0.0957031 t2 0.253319 0.5
-p2 c -6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.292418 0.185547 t2 0.334457 0.416667
-p3 c 6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.457582 0.185547 t2 0.665634 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 6.04027 27 6.04027 n 0.803868 0.594808 -0 t1 0.457582 0.185547 t2 0.665852 0.416667
-p2 c 9 23 9 n 0.803868 0.594808 -0 t1 0.498047 0.0957031 t2 0.746991 0.5
-p3 c 9 23 -9 n 0.803868 0.594808 -0 t1 0.251953 0.0957031 t2 0.253537 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9 23 -9 n 0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.253537 0.5
-p2 c 6.04027 27 -6.04027 n 0.803868 0.594808 0 t1 0.292418 0.185547 t2 0.334675 0.416667
-p3 c 6.04027 27 6.04027 n 0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.665852 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.04027 27 6.04027 n 0 0.594808 0.803868 t1 0.457582 0.185547 t2 0.334457 0.416667
-p2 c -9 23 9 n 0 0.594808 0.803868 t1 0.498047 0.0957031 t2 0.253319 0.5
-p3 c 9 23 9 n 0 0.594808 0.803868 t1 0.251953 0.0957031 t2 0.746772 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 9 23 9 n -0 0.594808 0.803868 t1 0.251953 0.0957031 t2 0.746772 0.5
-p2 c 6.04027 27 6.04027 n -0 0.594808 0.803868 t1 0.292418 0.185547 t2 0.665634 0.416667
-p3 c -6.04027 27 6.04027 n -0 0.594808 0.803868 t1 0.457582 0.185547 t2 0.334457 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -6.04027 27 -6.04027 n -0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.334675 0.416667
-p2 c -9 23 -9 n -0.803868 0.594808 0 t1 0.498047 0.0957031 t2 0.253537 0.5
-p3 c -9 23 9 n -0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.746991 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -9 23 9 n -0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.746991 0.5
-p2 c -6.04027 27 6.04027 n -0.803868 0.594808 0 t1 0.292418 0.185547 t2 0.665852 0.416667
-p3 c -6.04027 27 -6.04027 n -0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.334675 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 2 47 -2 n 0 0.14834 -0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-p2 c 5 27 -5 n 0 0.14834 -0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-p3 c -5 27 -5 n 0 0.14834 -0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5 27 -5 n 0 0.14834 -0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-p2 c -2 47 -2 n 0 0.14834 -0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-p3 c 2 47 -2 n 0 0.14834 -0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 2 47 2 n 0.988936 0.14834 -0 t1 0.00195312 0.427734 t2 0.555092 -9.31323e-09
-p2 c 5 27 5 n 0.988936 0.14834 -0 t1 0.0292969 0.126953 t2 0.637334 0.416667
-p3 c 5 27 -5 n 0.988936 0.14834 -0 t1 0.0292969 0.126953 t2 0.363193 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5 27 -5 n 0.988936 0.14834 0 t1 0.0292969 0.126953 t2 0.363193 0.416667
-p2 c 2 47 -2 n 0.988936 0.14834 0 t1 0.00195312 0.427734 t2 0.445436 -9.31323e-09
-p3 c 2 47 2 n 0.988936 0.14834 0 t1 0.00195312 0.427734 t2 0.555092 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -2 47 2 n 0 0.14834 0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-p2 c -5 27 5 n 0 0.14834 0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-p3 c 5 27 5 n 0 0.14834 0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 5 27 5 n -0 0.14834 0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-p2 c 2 47 2 n -0 0.14834 0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-p3 c -2 47 2 n -0 0.14834 0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -2 47 -2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.445436 -9.31323e-09
-p2 c -5 27 -5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.363193 0.416667
-p3 c -5 27 5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.637334 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -5 27 5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.637334 0.416667
-p2 c -2 47 2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.555092 -9.31323e-09
-p3 c -2 47 -2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.445436 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p2 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p3 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p2 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p3 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p2 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p3 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p2 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p3 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p2 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p3 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-p2 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-p3 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-p2 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-p3 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-p2 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-p3 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-p2 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-p3 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-p2 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-p3 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p2 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p2 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p2 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p2 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p2 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p2 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p2 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p2 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p2 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p2 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p2 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p2 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p2 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p2 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p2 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p2 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p2 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p2 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p2 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p2 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p2 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p2 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p2 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p2 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p2 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c 0 67 -2e-06 n 0 0.0995037 -0.995037 t1 0.8125 0.1875 t2 0 0
-p2 c 2 47 -2 n 0 0.0995037 -0.995037 t1 0.873047 0.248047 t2 0 0
-p3 c -2 47 -2 n 0 0.0995037 -0.995037 t1 0.751953 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 0 67 -2e-06 n 0.995037 0.0995037 -0 t1 0.8125 0.1875 t2 0 0
-p2 c 2 47 2 n 0.995037 0.0995037 -0 t1 0.873047 0.126953 t2 0 0
-p3 c 2 47 -2 n 0.995037 0.0995037 -0 t1 0.873047 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 0 67 -2e-06 n 0 0.0995037 0.995037 t1 0.8125 0.1875 t2 0 0
-p2 c -2 47 2 n 0 0.0995037 0.995037 t1 0.751953 0.126953 t2 0 0
-p3 c 2 47 2 n 0 0.0995037 0.995037 t1 0.873047 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 0 67 -2e-06 n -0.995037 0.0995037 0 t1 0.8125 0.1875 t2 0 0
-p2 c -2 47 -2 n -0.995037 0.0995037 0 t1 0.751953 0.248047 t2 0 0
-p3 c -2 47 2 n -0.995037 0.0995037 0 t1 0.751953 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 3e-06 15 0 n -0 -0.242536 -0.970143 t1 0.8125 0.1875 t2 0 0
-p2 c -2 23 -2 n -0 -0.242536 -0.970143 t1 0.751953 0.248047 t2 0 0
-p3 c 2 23 -2 n -0 -0.242536 -0.970143 t1 0.873047 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 3e-06 15 0 n -0.970142 -0.242536 0 t1 0.8125 0.1875 t2 0 0
-p2 c -2 23 2 n -0.970142 -0.242536 0 t1 0.751953 0.126953 t2 0 0
-p3 c -2 23 -2 n -0.970142 -0.242536 0 t1 0.751953 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 3e-06 15 0 n 0 -0.242536 0.970143 t1 0.8125 0.1875 t2 0 0
-p2 c 2 23 2 n 0 -0.242536 0.970143 t1 0.873047 0.126953 t2 0 0
-p3 c -2 23 2 n 0 -0.242536 0.970143 t1 0.751953 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 3e-06 15 0 n 0.970143 -0.242535 0 t1 0.8125 0.1875 t2 0 0
-p2 c 2 23 -2 n 0.970143 -0.242535 0 t1 0.873047 0.248047 t2 0 0
-p3 c 2 23 2 n 0.970143 -0.242535 0 t1 0.873047 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 0
-
-p1 c 16.3894 1 7.05184 n -0 1 0 t1 0.998047 0.134245 t2 0.949345 0.306416
-p2 c 16.3894 1 -7.0711 n -0 1 0 t1 0.998047 0.334505 t2 0.949345 0.693584
-p3 c -0.001666 1 -0.009629 n -0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.0598 1 16.3814 n 0 1 0 t1 0.865755 0.00195312 t2 0.693584 0.0506546
-p2 c 16.3894 1 7.05184 n 0 1 0 t1 0.998047 0.134245 t2 0.949345 0.306416
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.06313 1 16.3814 n 0 1 -0 t1 0.665495 0.00195315 t2 0.306416 0.0506547
-p2 c 7.0598 1 16.3814 n 0 1 -0 t1 0.865755 0.00195312 t2 0.693584 0.0506546
-p3 c -0.001666 1 -0.009629 n 0 1 -0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -16.3927 1 7.05184 n 0 1 0 t1 0.533203 0.134245 t2 0.0506546 0.306416
-p2 c -7.06313 1 16.3814 n 0 1 0 t1 0.665495 0.00195315 t2 0.306416 0.0506547
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -16.3927 1 -7.0711 n 0 1 0 t1 0.533203 0.334505 t2 0.0506546 0.693584
-p2 c -16.3927 1 7.05184 n 0 1 0 t1 0.533203 0.134245 t2 0.0506546 0.306416
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.06313 1 -16.4007 n 0 1 0 t1 0.665495 0.466797 t2 0.306416 0.949345
-p2 c -16.3927 1 -7.0711 n 0 1 0 t1 0.533203 0.334505 t2 0.0506546 0.693584
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.0598 1 -16.4007 n 0 1 0 t1 0.865755 0.466797 t2 0.693584 0.949345
-p2 c -7.06313 1 -16.4007 n 0 1 0 t1 0.665495 0.466797 t2 0.306416 0.949345
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 16.3894 1 -7.0711 n 0 1 0 t1 0.998047 0.334505 t2 0.949345 0.693584
-p2 c 7.0598 1 -16.4007 n 0 1 0 t1 0.865755 0.466797 t2 0.693584 0.949345
-p3 c -0.001666 1 -0.009629 n 0 1 0 t1 0.765625 0.234375 t2 0.5 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 18.2371 -1 7.8172 n 0.73451 0.678598 0 t1 0.591797 0.170315 t2 0.714565 1
-p2 c 18.2371 -1 -7.83646 n 0.73451 0.678598 0 t1 0.591797 0.423435 t2 0.285434 1
-p3 c 16.3894 1 -7.0711 n 0.73451 0.678598 0 t1 0.561919 0.411059 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 16.3894 1 7.05184 n 0.73451 0.678598 -0 t1 0.561919 0.182691 t2 0.693584 0.958333
-p2 c 18.2371 -1 7.8172 n 0.73451 0.678598 -0 t1 0.591797 0.170315 t2 0.714565 1
-p3 c 16.3894 1 -7.0711 n 0.73451 0.678598 -0 t1 0.561919 0.411059 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.82517 -1 18.2292 n 0.519377 0.678598 0.519377 t1 0.423435 0.00195311 t2 0.714566 7.32233e-09
-p2 c 18.2371 -1 7.8172 n 0.519377 0.678598 0.519377 t1 0.591797 0.170315 t2 1 0.285434
-p3 c 16.3894 1 7.05184 n 0.519377 0.678598 0.519377 t1 0.561919 0.182691 t2 0.949345 0.306416
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.0598 1 16.3814 n 0.519377 0.678598 0.519377 t1 0.411059 0.0318314 t2 0.693584 0.0506546
-p2 c 7.82517 -1 18.2292 n 0.519377 0.678598 0.519377 t1 0.423435 0.00195311 t2 0.714566 7.32233e-09
-p3 c 16.3894 1 7.05184 n 0.519377 0.678598 0.519377 t1 0.561919 0.182691 t2 0.949345 0.306416
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.8285 -1 18.2292 n -8.94976e-08 0.678598 0.73451 t1 0.170315 0.00195314 t2 0.285434 1
-p2 c 7.82517 -1 18.2292 n -8.94976e-08 0.678598 0.73451 t1 0.423435 0.00195311 t2 0.714566 1
-p3 c 7.0598 1 16.3814 n -8.94976e-08 0.678598 0.73451 t1 0.411059 0.0318314 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.06313 1 16.3814 n -9.91979e-08 0.678598 0.73451 t1 0.182691 0.0318315 t2 0.306416 0.958333
-p2 c -7.8285 -1 18.2292 n -9.91979e-08 0.678598 0.73451 t1 0.170315 0.00195314 t2 0.285434 1
-p3 c 7.0598 1 16.3814 n -9.91979e-08 0.678598 0.73451 t1 0.411059 0.0318314 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -18.2405 -1 7.8172 n -0.519377 0.678599 0.519376 t1 0.00195313 0.170315 t2 -8.90792e-09 0.285435
-p2 c -7.8285 -1 18.2292 n -0.519377 0.678599 0.519376 t1 0.170315 0.00195314 t2 0.285434 5.96106e-08
-p3 c -7.06313 1 16.3814 n -0.519377 0.678599 0.519376 t1 0.182691 0.0318315 t2 0.306416 0.0506547
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -16.3927 1 7.05184 n -0.519377 0.678598 0.519377 t1 0.0318315 0.182691 t2 0.0506546 0.306416
-p2 c -18.2405 -1 7.8172 n -0.519377 0.678598 0.519377 t1 0.00195313 0.170315 t2 -8.90792e-09 0.285435
-p3 c -7.06313 1 16.3814 n -0.519377 0.678598 0.519377 t1 0.182691 0.0318315 t2 0.306416 0.0506547
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -18.2405 -1 -7.83646 n -0.73451 0.678598 0 t1 0.00195313 0.423435 t2 0.285434 1
-p2 c -18.2405 -1 7.8172 n -0.73451 0.678598 0 t1 0.00195313 0.170315 t2 0.714565 1
-p3 c -16.3927 1 7.05184 n -0.73451 0.678598 0 t1 0.0318315 0.182691 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -16.3927 1 -7.0711 n -0.73451 0.678598 0 t1 0.0318315 0.411059 t2 0.306416 0.958333
-p2 c -18.2405 -1 -7.83646 n -0.73451 0.678598 0 t1 0.00195313 0.423435 t2 0.285434 1
-p3 c -16.3927 1 7.05184 n -0.73451 0.678598 0 t1 0.0318315 0.182691 t2 0.693584 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.8285 -1 -18.2484 n -0.519377 0.678598 -0.519377 t1 0.170315 0.591797 t2 0.285434 1
-p2 c -18.2405 -1 -7.83646 n -0.519377 0.678598 -0.519377 t1 0.00195313 0.423435 t2 -8.90792e-09 0.714566
-p3 c -16.3927 1 -7.0711 n -0.519377 0.678598 -0.519377 t1 0.0318315 0.411059 t2 0.0506546 0.693584
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -7.06313 1 -16.4007 n -0.519377 0.678598 -0.519377 t1 0.182691 0.561919 t2 0.306416 0.949345
-p2 c -7.8285 -1 -18.2484 n -0.519377 0.678598 -0.519377 t1 0.170315 0.591797 t2 0.285434 1
-p3 c -16.3927 1 -7.0711 n -0.519377 0.678598 -0.519377 t1 0.0318315 0.411059 t2 0.0506546 0.693584
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.82517 -1 -18.2484 n 0 0.678598 -0.73451 t1 0.423435 0.591797 t2 0.714566 1
-p2 c -7.8285 -1 -18.2484 n 0 0.678598 -0.73451 t1 0.170315 0.591797 t2 0.285434 1
-p3 c -7.06313 1 -16.4007 n 0 0.678598 -0.73451 t1 0.182691 0.561919 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 7.0598 1 -16.4007 n 9.91979e-08 0.678598 -0.73451 t1 0.411059 0.561919 t2 0.693584 0.958333
-p2 c 7.82517 -1 -18.2484 n 9.91979e-08 0.678598 -0.73451 t1 0.423435 0.591797 t2 0.714566 1
-p3 c -7.06313 1 -16.4007 n 9.91979e-08 0.678598 -0.73451 t1 0.182691 0.561919 t2 0.306416 0.958333
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 18.2371 -1 -7.83646 n 0.519377 0.678598 -0.519377 t1 0.591797 0.423435 t2 1 0.714566
-p2 c 7.82517 -1 -18.2484 n 0.519377 0.678598 -0.519377 t1 0.423435 0.591797 t2 0.714566 1
-p3 c 7.0598 1 -16.4007 n 0.519377 0.678598 -0.519377 t1 0.411059 0.561919 t2 0.693584 0.949345
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 16.3894 1 -7.0711 n 0.519377 0.678598 -0.519377 t1 0.561919 0.411059 t2 0.949345 0.693584
-p2 c 18.2371 -1 -7.83646 n 0.519377 0.678598 -0.519377 t1 0.591797 0.423435 t2 1 0.714566
-p3 c 7.0598 1 -16.4007 n 0.519377 0.678598 -0.519377 t1 0.411059 0.561919 t2 0.693584 0.949345
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 factory.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 14.5 -13 n 0.160179 0.168328 -0.97263 t1 0.416016 0.438477 t2 0.253319 0.677083
-p2 c -8 -1 -14 n 0.31518 0.0813368 -0.94554 t1 0.436523 0.892578 t2 0.280733 1
-p3 c -17 -1 -17 n 0.160179 0.168328 -0.97263 t1 0.251953 0.892578 t2 0.0340061 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -13 14.5 -13 n 0 0.249878 -0.968277 t1 0.333984 0.438477 t2 0.143662 0.677083
-p2 c -9 14.5 -13 n 0.160179 0.168328 -0.97263 t1 0.416016 0.438477 t2 0.253319 0.677083
-p3 c -17 -1 -17 n 0.160179 0.168328 -0.97263 t1 0.251953 0.892578 t2 0.0340061 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -13 14.5 -9 n 0.707107 0 0.707107 t1 0.333984 0.438477 t2 0.143662 0.677083
-p2 c -14 -1 -8 n 0.707107 0 0.707107 t1 0.313477 0.892578 t2 0.116248 1
-p3 c -8 -1 -14 n 0.707107 0 0.707107 t1 0.436523 0.892578 t2 0.280733 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 14.5 -13 n 0.707107 0 0.707107 t1 0.416016 0.438477 t2 0.253319 0.677083
-p2 c -13 14.5 -9 n 0.707107 0 0.707107 t1 0.333984 0.438477 t2 0.143662 0.677083
-p3 c -8 -1 -14 n 0.707107 0 0.707107 t1 0.436523 0.892578 t2 0.280733 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -9 n -0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.253537 0.5
-p2 c -13 14.5 -13 n -0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.143881 0.677083
-p3 c -13 14.5 -9 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -5 n -0.904819 0.425797 0 t1 0.498047 0.189453 t2 0.363193 0.5
-p2 c -9 23 -9 n -0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.253537 0.5
-p3 c -13 14.5 -9 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -5 23 -9 n 0 0.425797 -0.904819 t1 0.498047 0.189453 t2 0.362975 0.5
-p2 c -9 14.5 -13 n 0 0.425797 -0.904819 t1 0.416016 0.438477 t2 0.253319 0.677083
-p3 c -13 14.5 -13 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.143662 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -9 n 0 0.425797 -0.904819 t1 0.416016 0.189453 t2 0.253319 0.5
-p2 c -5 23 -9 n 0 0.425797 -0.904819 t1 0.498047 0.189453 t2 0.362975 0.5
-p3 c -13 14.5 -13 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.143662 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -5 n 0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.253319 0.5
-p2 c -13 14.5 -9 n 0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.143662 0.677083
-p3 c -9 14.5 -13 n 0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.253319 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -5 23 -9 n 0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.362975 0.5
-p2 c -9 23 -5 n 0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.253319 0.5
-p3 c -9 14.5 -13 n 0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.253319 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -17 -1 -17 n -0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0342244 1
-p2 c -14 -1 -8 n -0.94554 0.0813368 0.31518 t1 0.436523 0.892578 t2 0.280951 1
-p3 c -13 14.5 -9 n -0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -13 14.5 -13 n -0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.143881 0.677083
-p2 c -17 -1 -17 n -0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0342244 1
-p3 c -13 14.5 -9 n -0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.253537 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0114 14.5 -9.08423 n 0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.251228 0.677083
-p2 c 14.0114 -1 -8.08423 n 0.94554 0.0813368 0.31518 t1 0.436523 0.892578 t2 0.278642 1
-p3 c 17.0114 -1 -17.0842 n 0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0319153 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0114 14.5 -13.0842 n 0.968277 0.249878 0 t1 0.333984 0.438477 t2 0.141572 0.677083
-p2 c 13.0114 14.5 -9.08423 n 0.97263 0.168328 0.160179 t1 0.416016 0.438477 t2 0.251228 0.677083
-p3 c 17.0114 -1 -17.0842 n 0.97263 0.168328 0.160179 t1 0.251953 0.892578 t2 0.0319153 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.01138 14.5 -13.0842 n -0.707107 0 0.707107 t1 0.279297 0.438477 t2 0.747085 0.677083
-p2 c 8.01138 -1 -14.0842 n -0.707107 0 0.707107 t1 0.251953 0.892578 t2 0.71967 1
-p3 c 14.0114 -1 -8.08423 n -0.707107 0 0.707107 t1 0.416016 0.892578 t2 0.884155 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0114 14.5 -9.08423 n -0.707107 0 0.707107 t1 0.388672 0.438477 t2 0.856741 0.677083
-p2 c 9.01138 14.5 -13.0842 n -0.707107 0 0.707107 t1 0.279297 0.438477 t2 0.747085 0.677083
-p3 c 14.0114 -1 -8.08423 n -0.707107 0 0.707107 t1 0.416016 0.892578 t2 0.884155 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.333984 0.189453 t2 0.747085 0.5
-p2 c 13.0114 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.416016 0.438477 t2 0.856741 0.677083
-p3 c 9.01138 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.251953 0.189453 t2 0.637428 0.5
-p2 c 9.01138 23 -9.08423 n 0 0.425797 -0.904819 t1 0.333984 0.189453 t2 0.747085 0.5
-p3 c 9.01138 14.5 -13.0842 n 0 0.425797 -0.904819 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.01138 23 -5.08423 n 0.904819 0.425797 -0 t1 0.498047 0.189453 t2 0.360884 0.5
-p2 c 13.0114 14.5 -9.08423 n 0.904819 0.425797 -0 t1 0.416016 0.438477 t2 0.251228 0.677083
-p3 c 13.0114 14.5 -13.0842 n 0.904819 0.425797 -0 t1 0.333984 0.438477 t2 0.141572 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.01138 23 -9.08423 n 0.904819 0.425797 0 t1 0.416016 0.189453 t2 0.251228 0.5
-p2 c 9.01138 23 -5.08423 n 0.904819 0.425797 0 t1 0.498047 0.189453 t2 0.360884 0.5
-p3 c 13.0114 14.5 -13.0842 n 0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.141572 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5.01138 23 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.637428 0.5
-p2 c 9.01138 14.5 -13.0842 n -0.588662 -0.554035 0.588662 t1 0.580078 0.0136719 t2 0.747085 0.677083
-p3 c 13.0114 14.5 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.856741 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.01138 23 -5.08423 n -0.588662 -0.554035 0.588662 t1 0.580078 0.00585938 t2 0.360884 0.5
-p2 c 5.01138 23 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.576172 0.00976562 t2 0.251228 0.5
-p3 c 13.0114 14.5 -9.08423 n -0.588662 -0.554035 0.588662 t1 0.583984 0.00976562 t2 0.251228 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 17.0114 -1 -17.0842 n -0.160179 0.168328 -0.97263 t1 0.498047 0.892578 t2 0.966397 1
-p2 c 8.01138 -1 -14.0842 n -0.31518 0.0813368 -0.94554 t1 0.313477 0.892578 t2 0.71967 1
-p3 c 9.01138 14.5 -13.0842 n -0.160179 0.168328 -0.97263 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0114 14.5 -13.0842 n 0 0.249878 -0.968277 t1 0.416016 0.438477 t2 0.856741 0.677083
-p2 c 17.0114 -1 -17.0842 n -0.160179 0.168328 -0.97263 t1 0.498047 0.892578 t2 0.966397 1
-p3 c 9.01138 14.5 -13.0842 n -0.160179 0.168328 -0.97263 t1 0.333984 0.438477 t2 0.747085 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 14.5 12.9272 n -0.160179 0.168328 0.97263 t1 0.333984 0.438477 t2 0.749394 0.677083
-p2 c 8.09562 -1 13.9272 n -0.31518 0.0813368 0.94554 t1 0.313477 0.892578 t2 0.72198 1
-p3 c 17.0956 -1 16.9272 n -0.160179 0.168328 0.97263 t1 0.498047 0.892578 t2 0.968706 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0956 14.5 12.9272 n 0 0.249878 0.968277 t1 0.416016 0.438477 t2 0.85905 0.677083
-p2 c 9.09562 14.5 12.9272 n -0.160179 0.168328 0.97263 t1 0.333984 0.438477 t2 0.749394 0.677083
-p3 c 17.0956 -1 16.9272 n -0.160179 0.168328 0.97263 t1 0.498047 0.892578 t2 0.968706 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0956 14.5 8.92715 n -0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.85905 0.677083
-p2 c 14.0956 -1 7.92715 n -0.707107 -1.81277e-08 -0.707107 t1 0.498047 0.892578 t2 0.886464 1
-p3 c 8.09562 -1 13.9272 n -0.707107 -1.81277e-08 -0.707107 t1 0.333984 0.892578 t2 0.72198 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 14.5 12.9272 n -0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.749394 0.677083
-p2 c 13.0956 14.5 8.92715 n -0.707107 0 -0.707107 t1 0.470703 0.438477 t2 0.85905 0.677083
-p3 c 8.09562 -1 13.9272 n -0.707107 0 -0.707107 t1 0.333984 0.892578 t2 0.72198 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 23 8.92715 n 0.904819 0.425797 -0 t1 0.333984 0.189453 t2 0.744994 0.5
-p2 c 13.0956 14.5 12.9272 n 0.904819 0.425797 -0 t1 0.416016 0.438477 t2 0.85465 0.677083
-p3 c 13.0956 14.5 8.92715 n 0.904819 0.425797 -0 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 23 4.92715 n 0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.635337 0.5
-p2 c 9.09562 23 8.92715 n 0.904819 0.425797 0 t1 0.333984 0.189453 t2 0.744994 0.5
-p3 c 13.0956 14.5 8.92715 n 0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5.09561 23 8.92715 n 0 0.425797 0.904819 t1 0.251953 0.189453 t2 0.639737 0.5
-p2 c 9.09562 14.5 12.9272 n 0 0.425797 0.904819 t1 0.333984 0.438477 t2 0.749394 0.677083
-p3 c 13.0956 14.5 12.9272 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.85905 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 23 8.92715 n 0 0.425797 0.904819 t1 0.333984 0.189453 t2 0.749394 0.5
-p2 c 5.09561 23 8.92715 n 0 0.425797 0.904819 t1 0.251953 0.189453 t2 0.639737 0.5
-p3 c 13.0956 14.5 12.9272 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.85905 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9.09562 23 4.92715 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.749394 0.5
-p2 c 13.0956 14.5 8.92715 n -0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.85905 0.677083
-p3 c 9.09562 14.5 12.9272 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.00585937 t2 0.749394 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5.09561 23 8.92715 n -0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.639737 0.5
-p2 c 9.09562 23 4.92715 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.749394 0.5
-p3 c 9.09562 14.5 12.9272 n -0.588662 -0.554035 -0.588662 t1 0.580078 0.00585937 t2 0.749394 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 17.0956 -1 16.9272 n 0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.964306 1
-p2 c 14.0956 -1 7.92715 n 0.94554 0.0813368 -0.31518 t1 0.313477 0.892578 t2 0.71758 1
-p3 c 13.0956 14.5 8.92715 n 0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 13.0956 14.5 12.9272 n 0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.85465 0.677083
-p2 c 17.0956 -1 16.9272 n 0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.964306 1
-p3 c 13.0956 14.5 8.92715 n 0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.744994 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -12.9158 14.5 9.01138 n -0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.747303 0.677083
-p2 c -13.9158 -1 8.01138 n -0.94554 0.0813368 -0.31518 t1 0.313477 0.892578 t2 0.719889 1
-p3 c -16.9158 -1 17.0114 n -0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.966615 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -12.9158 14.5 13.0114 n -0.968277 0.249878 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-p2 c -12.9158 14.5 9.01138 n -0.97263 0.168328 -0.160179 t1 0.333984 0.438477 t2 0.747303 0.677083
-p3 c -16.9158 -1 17.0114 n -0.97263 0.168328 -0.160179 t1 0.498047 0.892578 t2 0.966615 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.91577 14.5 13.0114 n 0.707107 -1.81277e-08 -0.707107 t1 0.470703 0.438477 t2 0.856959 0.677083
-p2 c -7.91577 -1 14.0114 n 0.707107 -1.81277e-08 -0.707107 t1 0.498047 0.892578 t2 0.884373 1
-p3 c -13.9158 -1 8.01138 n 0.707107 -1.81277e-08 -0.707107 t1 0.333984 0.892578 t2 0.719889 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -12.9158 14.5 9.01138 n 0.707107 0 -0.707107 t1 0.361328 0.438477 t2 0.145972 0.677083
-p2 c -8.91577 14.5 13.0114 n 0.707107 0 -0.707107 t1 0.470703 0.438477 t2 0.255628 0.677083
-p3 c -13.9158 -1 8.01138 n 0.707107 0 -0.707107 t1 0.333984 0.892578 t2 0.118558 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.416016 0.189453 t2 0.255628 0.5
-p2 c -12.9158 14.5 13.0114 n 0 0.425797 0.904819 t1 0.333984 0.438477 t2 0.145972 0.677083
-p3 c -8.91577 14.5 13.0114 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -4.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.498047 0.189453 t2 0.365284 0.5
-p2 c -8.91577 23 9.01138 n 0 0.425797 0.904819 t1 0.416016 0.189453 t2 0.255628 0.5
-p3 c -8.91577 14.5 13.0114 n 0 0.425797 0.904819 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.91577 23 5.01138 n -0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.637646 0.5
-p2 c -12.9158 14.5 9.01138 n -0.904819 0.425797 0 t1 0.333984 0.438477 t2 0.747303 0.677083
-p3 c -12.9158 14.5 13.0114 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.91577 23 9.01138 n -0.904819 0.425797 0 t1 0.333984 0.189453 t2 0.747303 0.5
-p2 c -8.91577 23 5.01138 n -0.904819 0.425797 0 t1 0.251953 0.189453 t2 0.637646 0.5
-p3 c -12.9158 14.5 13.0114 n -0.904819 0.425797 0 t1 0.416016 0.438477 t2 0.856959 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -4.91577 23 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.365284 0.5
-p2 c -8.91577 14.5 13.0114 n 0.588662 -0.554035 -0.588662 t1 0.580078 0.00585938 t2 0.255628 0.677083
-p3 c -12.9158 14.5 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.145972 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -8.91577 23 5.01138 n 0.588662 -0.554035 -0.588662 t1 0.580078 0.0136719 t2 0.637646 0.5
-p2 c -4.91577 23 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.583984 0.00976562 t2 0.747303 0.5
-p3 c -12.9158 14.5 9.01138 n 0.588662 -0.554035 -0.588662 t1 0.576172 0.00976562 t2 0.747303 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -16.9158 -1 17.0114 n 0.160179 0.168328 0.97263 t1 0.251953 0.892578 t2 0.0363153 1
-p2 c -7.91577 -1 14.0114 n 0.31518 0.0813368 0.94554 t1 0.436523 0.892578 t2 0.283042 1
-p3 c -8.91577 14.5 13.0114 n 0.160179 0.168328 0.97263 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -12.9158 14.5 13.0114 n 0 0.249878 0.968277 t1 0.333984 0.438477 t2 0.145972 0.677083
-p2 c -16.9158 -1 17.0114 n 0.160179 0.168328 0.97263 t1 0.251953 0.892578 t2 0.0363153 1
-p3 c -8.91577 14.5 13.0114 n 0.160179 0.168328 0.97263 t1 0.416016 0.438477 t2 0.255628 0.677083
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9 23 9 n 0 -1 0 t1 0.248047 0.626953 t2 0.746772 0.253009
-p2 c -9 23 9 n 0 -1 0 t1 0.00195312 0.626953 t2 0.253319 0.253009
-p3 c -9 23 -9 n 0 -1 0 t1 0.00195312 0.873047 t2 0.253319 0.746463
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -9 n 0 -1 -0 t1 0.00195312 0.873047 t2 0.253319 0.746463
-p2 c 9 23 -9 n 0 -1 -0 t1 0.248047 0.873047 t2 0.746772 0.746463
-p3 c 9 23 9 n 0 -1 -0 t1 0.248047 0.626953 t2 0.746772 0.253009
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 6.04027 27 6.04027 n 0 1 0 t1 0.248047 0.626953 t2 0.665634 0.334148
-p2 c 6.04027 27 -6.04027 n 0 1 0 t1 0.248047 0.873047 t2 0.665634 0.665325
-p3 c -6.04027 27 -6.04027 n 0 1 0 t1 0.00195312 0.873047 t2 0.334457 0.665325
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -6.04027 27 -6.04027 n 0 1 0 t1 0.00195312 0.873047 t2 0.334457 0.665325
-p2 c -6.04027 27 6.04027 n 0 1 0 t1 0.00195312 0.626953 t2 0.334457 0.334148
-p3 c 6.04027 27 6.04027 n 0 1 0 t1 0.248047 0.626953 t2 0.665634 0.334148
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.457582 0.185547 t2 0.665634 0.416667
-p2 c 9 23 -9 n 0 0.594808 -0.803868 t1 0.498047 0.0957031 t2 0.746772 0.5
-p3 c -9 23 -9 n 0 0.594808 -0.803868 t1 0.251953 0.0957031 t2 0.253319 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 -9 n 0 0.594808 -0.803868 t1 0.251953 0.0957031 t2 0.253319 0.5
-p2 c -6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.292418 0.185547 t2 0.334457 0.416667
-p3 c 6.04027 27 -6.04027 n 0 0.594808 -0.803868 t1 0.457582 0.185547 t2 0.665634 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 6.04027 27 6.04027 n 0.803868 0.594808 -0 t1 0.457582 0.185547 t2 0.665852 0.416667
-p2 c 9 23 9 n 0.803868 0.594808 -0 t1 0.498047 0.0957031 t2 0.746991 0.5
-p3 c 9 23 -9 n 0.803868 0.594808 -0 t1 0.251953 0.0957031 t2 0.253537 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9 23 -9 n 0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.253537 0.5
-p2 c 6.04027 27 -6.04027 n 0.803868 0.594808 0 t1 0.292418 0.185547 t2 0.334675 0.416667
-p3 c 6.04027 27 6.04027 n 0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.665852 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -6.04027 27 6.04027 n 0 0.594808 0.803868 t1 0.457582 0.185547 t2 0.334457 0.416667
-p2 c -9 23 9 n 0 0.594808 0.803868 t1 0.498047 0.0957031 t2 0.253319 0.5
-p3 c 9 23 9 n 0 0.594808 0.803868 t1 0.251953 0.0957031 t2 0.746772 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 9 23 9 n -0 0.594808 0.803868 t1 0.251953 0.0957031 t2 0.746772 0.5
-p2 c 6.04027 27 6.04027 n -0 0.594808 0.803868 t1 0.292418 0.185547 t2 0.665634 0.416667
-p3 c -6.04027 27 6.04027 n -0 0.594808 0.803868 t1 0.457582 0.185547 t2 0.334457 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -6.04027 27 -6.04027 n -0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.334675 0.416667
-p2 c -9 23 -9 n -0.803868 0.594808 0 t1 0.498047 0.0957031 t2 0.253537 0.5
-p3 c -9 23 9 n -0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.746991 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -9 23 9 n -0.803868 0.594808 0 t1 0.251953 0.0957031 t2 0.746991 0.5
-p2 c -6.04027 27 6.04027 n -0.803868 0.594808 0 t1 0.292418 0.185547 t2 0.665852 0.416667
-p3 c -6.04027 27 -6.04027 n -0.803868 0.594808 0 t1 0.457582 0.185547 t2 0.334675 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 2 47 -2 n 0 0.14834 -0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-p2 c 5 27 -5 n 0 0.14834 -0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-p3 c -5 27 -5 n 0 0.14834 -0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -5 27 -5 n 0 0.14834 -0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-p2 c -2 47 -2 n 0 0.14834 -0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-p3 c 2 47 -2 n 0 0.14834 -0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 2 47 2 n 0.988936 0.14834 -0 t1 0.00195312 0.427734 t2 0.555092 -9.31323e-09
-p2 c 5 27 5 n 0.988936 0.14834 -0 t1 0.0292969 0.126953 t2 0.637334 0.416667
-p3 c 5 27 -5 n 0.988936 0.14834 -0 t1 0.0292969 0.126953 t2 0.363193 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5 27 -5 n 0.988936 0.14834 0 t1 0.0292969 0.126953 t2 0.363193 0.416667
-p2 c 2 47 -2 n 0.988936 0.14834 0 t1 0.00195312 0.427734 t2 0.445436 -9.31323e-09
-p3 c 2 47 2 n 0.988936 0.14834 0 t1 0.00195312 0.427734 t2 0.555092 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -2 47 2 n 0 0.14834 0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-p2 c -5 27 5 n 0 0.14834 0.988936 t1 0.00195313 0.126953 t2 0.362975 0.416667
-p3 c 5 27 5 n 0 0.14834 0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 5 27 5 n -0 0.14834 0.988936 t1 0.0292969 0.126953 t2 0.637116 0.416667
-p2 c 2 47 2 n -0 0.14834 0.988936 t1 0.0210938 0.427734 t2 0.554874 -9.31323e-09
-p3 c -2 47 2 n -0 0.14834 0.988936 t1 0.0101562 0.427734 t2 0.445217 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -2 47 -2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.445436 -9.31323e-09
-p2 c -5 27 -5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.363193 0.416667
-p3 c -5 27 5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.637334 0.416667
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -5 27 5 n -0.988936 0.14834 0 t1 0.00195313 0.126953 t2 0.637334 0.416667
-p2 c -2 47 2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.555092 -9.31323e-09
-p3 c -2 47 -2 n -0.988936 0.14834 0 t1 0.0292969 0.427734 t2 0.445436 -9.31323e-09
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p2 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p3 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 14.7818 57.451 -1e-06 n 0.942592 -0.333947 2.21783e-07 t1 0.0917969 0.135098 t2 1 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p2 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p3 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c 4.56784 57.451 14.0584 n 0.291277 -0.333947 0.896458 t1 0.0822494 0.135098 t2 0.650835 0.0232953
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p2 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p3 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -11.9588 57.451 8.68854 n -0.762573 -0.333947 0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.20538
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p2 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p3 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -11.9588 57.451 -8.68855 n -0.762573 -0.333947 -0.554042 t1 0.0668012 0.135098 t2 0.0858737 0.79462
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p2 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p3 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 4.56784 57.451 -14.0584 n 0.291277 -0.333947 -0.896458 t1 0.0822494 0.135098 t2 0.650835 0.976705
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 13.5765 57.6588 5.93266 n 0.87195 -0.306072 0.38213 t1 0.0906702 0.126953 t2 0.958797 0.29883
-p2 c 9.83768 57.6588 11.0788 n 0.632874 -0.306072 0.711189 t1 0.0871753 0.126953 t2 0.830984 0.12433
-p3 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.44691 57.6588 14.7453 n -0.0939795 -0.306072 0.947358 t1 0.0766271 0.126953 t2 0.445221 3.17768e-08
-p2 c -7.49652 57.6588 12.7797 n -0.480812 -0.306072 0.821669 t1 0.0709723 0.126953 t2 0.238415 0.0666528
-p3 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -14.4708 57.6588 3.18046 n -0.930033 -0.306072 0.20337 t1 0.0644531 0.126953 t2 8.2226e-09 0.392154
-p2 c -14.4708 57.6588 -3.18047 n -0.930033 -0.306072 -0.20337 t1 0.0644531 0.126953 t2 4.08239e-08 0.607847
-p3 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.49652 57.6588 -12.7797 n -0.480812 -0.306072 -0.821669 t1 0.0709723 0.126953 t2 0.238415 0.933347
-p2 c -1.44691 57.6588 -14.7454 n -0.0939794 -0.306072 -0.947358 t1 0.0766271 0.126953 t2 0.445221 1
-p3 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 9.83768 57.6588 -11.0788 n 0.632874 -0.306072 -0.711189 t1 0.0871754 0.126953 t2 0.830984 0.87567
-p2 c 13.5765 57.6588 -5.93266 n 0.87195 -0.306072 -0.38213 t1 0.0906702 0.126953 t2 0.958797 0.70117
-p3 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p2 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p2 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p2 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p2 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p2 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p2 c 1.25856 52.2479 12.7797 n 0.0762271 -0.516037 0.853168 t1 0.0791561 0.339005 t2 0.537707 0.0666528
-p3 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 2.74732 47.9187 8.45539 n 0.186133 -0.79824 0.572858 t1 0.0805477 0.508666 t2 0.588601 0.213286
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p2 c 6.49354 52.2479 11.0788 n 0.43981 -0.516037 0.735032 t1 0.0840494 0.339005 t2 0.716665 0.12433
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p2 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p2 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-p2 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p2 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p3 c -1.67207 46.0099 5.1461 n -0.107687 -0.937315 0.331427 t1 0.0764167 0.583468 t2 0.437524 0.325501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p2 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p2 c -11.7653 52.2479 5.1461 n -0.787855 -0.516037 0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.325501
-p3 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -7.19259 47.9187 5.22572 n -0.487303 -0.79824 0.354046 t1 0.0712564 0.508666 t2 0.248805 0.322801
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -4.1459 53.2918 12.7598 n -0.276393 -0.447214 0.850651 t1 0.0741043 0.298096 t2 0.352956 0.0673294
-p2 c -8.52992 52.2479 9.59924 n -0.563148 -0.516037 0.645422 t1 0.0700063 0.339005 t2 0.203088 0.174499
-p3 c -3.11898 48.9038 9.59924 n -0.209676 -0.734576 0.645317 t1 0.0750642 0.47006 t2 0.388061 0.174499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p2 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p2 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-p2 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p2 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p3 c -5.41094 46.0099 -3e-06 n -0.348483 -0.937315 3.05982e-08 t1 0.0729218 0.583468 t2 0.309711 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p2 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p2 c -8.52992 52.2479 -9.59925 n -0.563148 -0.516037 -0.645422 t1 0.0700063 0.339005 t2 0.203088 0.825501
-p3 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -7.19259 47.9187 -5.22572 n -0.487303 -0.79824 -0.354046 t1 0.0712564 0.508666 t2 0.248805 0.677199
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -13.4164 53.2918 -4e-06 n -0.894427 -0.447214 1.83511e-08 t1 0.0654387 0.298096 t2 0.0360438 0.5
-p2 c -11.7653 52.2479 -5.14611 n -0.787855 -0.516037 -0.33614 t1 0.0669821 0.339005 t2 0.0924864 0.674499
-p3 c -10.0932 48.9038 -4e-06 n -0.678527 -0.734576 5.61378e-08 t1 0.068545 0.47006 t2 0.149646 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p2 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p2 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-p2 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p2 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p3 c -1.67207 46.0099 -5.14611 n -0.107687 -0.937315 -0.331427 t1 0.0764167 0.583468 t2 0.437524 0.674499
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p2 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p2 c 6.49354 52.2479 -11.0788 n 0.43981 -0.516037 -0.735032 t1 0.0840494 0.339005 t2 0.716665 0.87567
-p3 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c 2.74732 47.9187 -8.4554 n 0.186133 -0.79824 -0.572858 t1 0.0805477 0.508666 t2 0.588601 0.786714
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c -4.1459 53.2918 -12.7598 n -0.276393 -0.447214 -0.850651 t1 0.0741043 0.298096 t2 0.352956 0.932671
-p2 c 1.25856 52.2479 -12.7797 n 0.0762272 -0.516037 -0.853168 t1 0.0791561 0.339005 t2 0.537707 0.933347
-p3 c -3.11898 48.9038 -9.59925 n -0.209676 -0.734576 -0.645317 t1 0.0750642 0.47006 t2 0.388061 0.825501
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p2 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-p3 c 0 45 -3e-06 n 0 -1 6.91791e-09 t1 0.0779796 0.623047 t2 0.494683 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p2 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-p2 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p3 c 4.37754 46.0099 3.18047 n 0.281928 -0.937315 0.204833 t1 0.0820715 0.583468 t2 0.644329 0.392154
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p2 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p3 c 4.37754 46.0099 -3.18047 n 0.281928 -0.937315 -0.204833 t1 0.0820715 0.583468 t2 0.644329 0.607846
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p2 c 10.8541 53.2918 7.88596 n 0.723607 -0.447214 0.525731 t1 0.0881254 0.298096 t2 0.865731 0.232595
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 8.16561 48.9038 5.93266 n 0.548939 -0.734576 0.398828 t1 0.0856124 0.47006 t2 0.773824 0.29883
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p2 c 12.5431 52.2479 2.75219 n 0.834966 -0.516037 0.191147 t1 0.0897043 0.339005 t2 0.923471 0.406676
-p3 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 8.89053 47.9187 -1e-06 n 0.602339 -0.79824 1.42982e-07 t1 0.08629 0.508666 t2 0.798606 0.5
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 10.8541 53.2918 -7.88596 n 0.723607 -0.447214 -0.525731 t1 0.0881254 0.298096 t2 0.865731 0.767405
-p2 c 12.5431 52.2479 -2.75219 n 0.834966 -0.516037 -0.191147 t1 0.0897043 0.339005 t2 0.923471 0.593324
-p3 c 8.16561 48.9038 -5.93266 n 0.54894 -0.734576 -0.398828 t1 0.0856124 0.47006 t2 0.773825 0.70117
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 derrick.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 4096
-
-p1 c 0 67 -2e-06 n 0 0.0995037 -0.995037 t1 0.8125 0.1875 t2 0 0
-p2 c 2 47 -2 n 0 0.0995037 -0.995037 t1 0.873047 0.248047 t2 0 0
-p3 c -2 47 -2 n 0 0.0995037 -0.995037 t1 0.751953 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 0 67 -2e-06 n 0.995037 0.0995037 -0 t1 0.8125 0.1875 t2 0 0
-p2 c 2 47 2 n 0.995037 0.0995037 -0 t1 0.873047 0.126953 t2 0 0
-p3 c 2 47 -2 n 0.995037 0.0995037 -0 t1 0.873047 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 0 67 -2e-06 n 0 0.0995037 0.995037 t1 0.8125 0.1875 t2 0 0
-p2 c -2 47 2 n 0 0.0995037 0.995037 t1 0.751953 0.126953 t2 0 0
-p3 c 2 47 2 n 0 0.0995037 0.995037 t1 0.873047 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 0 67 -2e-06 n -0.995037 0.0995037 0 t1 0.8125 0.1875 t2 0 0
-p2 c -2 47 -2 n -0.995037 0.0995037 0 t1 0.751953 0.248047 t2 0 0
-p3 c -2 47 2 n -0.995037 0.0995037 0 t1 0.751953 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 3e-06 15 0 n -0 -0.242536 -0.970143 t1 0.8125 0.1875 t2 0 0
-p2 c -2 23 -2 n -0 -0.242536 -0.970143 t1 0.751953 0.248047 t2 0 0
-p3 c 2 23 -2 n -0 -0.242536 -0.970143 t1 0.873047 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 3e-06 15 0 n -0.970142 -0.242536 0 t1 0.8125 0.1875 t2 0 0
-p2 c -2 23 2 n -0.970142 -0.242536 0 t1 0.751953 0.126953 t2 0 0
-p3 c -2 23 -2 n -0.970142 -0.242536 0 t1 0.751953 0.248047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 3e-06 15 0 n 0 -0.242536 0.970143 t1 0.8125 0.1875 t2 0 0
-p2 c 2 23 2 n 0 -0.242536 0.970143 t1 0.873047 0.126953 t2 0 0
-p3 c -2 23 2 n 0 -0.242536 0.970143 t1 0.751953 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
-state 0
-
-p1 c 3e-06 15 0 n 0.970143 -0.242535 0 t1 0.8125 0.1875 t2 0 0
-p2 c 2 23 -2 n 0.970143 -0.242535 0 t1 0.873047 0.248047 t2 0 0
-p3 c 2 23 2 n 0.970143 -0.242535 0 t1 0.873047 0.126953 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 1
 state 0
 

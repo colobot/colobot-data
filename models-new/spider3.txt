@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 9
+version 2
+total_triangles 8
 
 ### TRIANGLES
 p1 c 0.006425 -0.118898 -0.00313 n -0.865737 -0.499832 0.0258434 t1 0.841797 0.00195312 t2 0 0
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.114514 0.090575 -0.00313 n -0.865737 -0.499832 0.0258435 t1 0.826082 0.00195312 t2 0 0
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.114514 0.090575 -0.00313 n 0 0.999666 0.0258434 t1 0.820268 0.00195312 t2 0 0
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.127364 0.090575 -0.00313 n -5.85604e-08 0.999666 0.0258435 t1 0.835982 0.00195312 t2 0 0
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.127364 0.090575 -0.00313 n 0.865737 -0.499832 0.0258439 t1 0.830168 0.00195312 t2 0 0
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.006425 -0.118898 -0.00313 n 0.865735 -0.499834 0.0258435 t1 0.814453 0.00195312 t2 0 0
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.006425 -0.118898 -0.00313 n -0 0 1 t1 0.765625 0.0605469 t2 0 0
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.21686 0.142245 -2.00181 n 2.26596e-06 -1.30826e-06 -1 t1 0.780273 0.0332031 t2 0 0
@@ -82,16 +75,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
-
-p1 c 0.21686 0.142245 -2.00181 n -5.85604e-08 0.999666 0.0258435 t1 0.841797 0.248047 t2 0 0
-p2 c -0.204009 0.142245 -2.00181 n -5.85604e-08 0.999666 0.0258435 t1 0.814453 0.248047 t2 0 0
-p3 c -0.00079 0.090575 -0.00313 n -5.85604e-08 0.999666 0.0258435 t1 0.827656 0.00195312 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 ant.png
-tex2 
-var_tex2 N
-lod_level 2
-state 4096
 

@@ -1,7 +1,7 @@
 # Colobot text model
 
 ### HEAD
-version 1
+version 2
 total_triangles 22
 
 ### TRIANGLES
@@ -12,7 +12,6 @@ mat dif 0 0 0 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 0 -3 n 0 -1 -0 t1 0 0 t2 -1.49012e-08 1
@@ -22,7 +21,6 @@ mat dif 0 0 0 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 3 2 3 n 0 1 0 t1 0.748047 0.427734 t2 1 -1.49012e-08
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 2 -3 n 0 1 0 t1 0.501953 0.673828 t2 -1.49012e-08 1
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 3 2 -3 n 0 0 -1 t1 0.748047 0.333984 t2 1 0.833333
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 0 -3 n -0 0 -1 t1 0.501953 0.423828 t2 -1.49012e-08 1
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 3 2 3 n 1 0 0 t1 0.748047 0.333984 t2 1 0.833333
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 3 0 -3 n 1 0 0 t1 0.501953 0.423828 t2 -1.49012e-08 1
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 2 3 n 0 0 1 t1 0.748047 0.333984 t2 -1.49012e-08 0.833333
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 3 0 3 n -0 0 1 t1 0.501953 0.423828 t2 1 1
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 2 -3 n -1 0 0 t1 0.748047 0.333984 t2 -1.49012e-08 0.833333
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -3 0 3 n -1 0 0 t1 0.501953 0.423828 t2 1 1
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 12 1 n 0 1 0 t1 0 0 t2 0.666667 0.333333
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 12 -1 n 0 1 0 t1 0 0 t2 0.333333 0.666667
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 12 -1 n 0 0 -1 t1 0.00195312 0.537109 t2 0.666667 -2.98023e-08
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 2 -1 n -0 0 -1 t1 0.0917969 0.998047 t2 0.333333 0.833333
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 12 1 n 1 0 0 t1 0.0957031 0.537109 t2 0.666667 -2.98023e-08
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 2 -1 n 1 0 0 t1 0.185547 0.998047 t2 0.333333 0.833333
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 12 1 n 0 0 1 t1 0.0917969 0.537109 t2 0.333333 -2.98023e-08
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c 1 2 1 n -0 0 1 t1 0.00195312 0.998047 t2 0.666667 0.833333
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 12 -1 n -1 0 0 t1 0.185547 0.537109 t2 0.333333 -2.98023e-08
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 
 p1 c -1 2 1 n -1 0 0 t1 0.0957031 0.998047 t2 0.666667 0.833333
@@ -222,6 +201,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 roller.png
 tex2 
 var_tex2 Y
-lod_level 0
 state 0
 

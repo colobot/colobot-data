@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 7
+version 2
+total_triangles 6
 
 ### TRIANGLES
 p1 c -0.016788 -0.240873 -0.48553 n 0.819642 -0.52721 0.224136 t1 0.845703 0.052483 t2 0 0
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c 0.250716 0.177509 -0.479651 n 0.0434831 0.965174 0.257968 t1 0.873047 0.051986 t2 0 0
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.245401 0.199971 -0.480066 n -0.864546 -0.451082 0.221553 t1 0.845703 0.052021 t2 0 0
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.000912 0.553266 -1.32013 n 0.758828 -0.478976 -0.441318 t1 0.847326 0.123047 t2 0 0
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.000912 0.553266 -1.32013 n 0.0411708 0.91668 0.397496 t1 0.859178 0.123047 t2 0 0
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
 
 p1 c -0.000912 0.553266 -1.32013 n -0.811379 -0.415672 -0.410952 t1 0.873047 0.123047 t2 0 0
@@ -62,16 +57,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 ant.png
 tex2 
 var_tex2 N
-lod_level 3
 state 0
-
-p1 c -0.000912 0.553266 -1.32013 n 0.0436544 0.968707 0.244339 t1 0.859178 0.123047 t2 0 0
-p2 c -0.245401 0.199971 0.12422 n 0.0436544 0.968707 0.244339 t1 0.845703 0.00198791 t2 0 0
-p3 c 0.250716 0.177509 0.124635 n 0.0436544 0.968707 0.244339 t1 0.873047 0.00195312 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 ant.png
-tex2 
-var_tex2 N
-lod_level 2
-state 4096
 

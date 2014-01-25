@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 116
+version 2
+total_triangles 76
 
 ### TRIANGLES
 p1 c -1 2 0.4 n -1 0 0 t1 0.564453 0.314453 t2 0.7 0
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 1 n -1 0 0 t1 0.591797 0.314453 t2 1 0
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n -0.707107 0 -0.707107 t1 0.564453 0.314453 t2 0.6 0
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 0.4 n -0.707107 0 -0.707107 t1 0.591797 0.314453 t2 0.7 0
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 -0.2 n -1 0 0 t1 0.970703 0.751953 t2 0 0
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c -0.8 2 0.2 n -1 0 0 t1 0.998047 0.751953 t2 0 0
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c -1 2 -0.4 n -0.707107 0 0.707107 t1 0.564453 0.314453 t2 0.3 0
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 -0.2 n -0.707107 0 0.707107 t1 0.591797 0.314453 t2 0.4 0
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 -1 n -1 0 0 t1 0.564453 0.314453 t2 0 0
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 -0.4 n -1 0 0 t1 0.591797 0.314453 t2 0.3 0
@@ -102,7 +93,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 2 -1 n 0 0 -1 t1 0.591797 0.314453 t2 0.3 0
@@ -112,7 +102,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 -1 n 0 0 -1 t1 0.564453 0.314453 t2 0 0
@@ -122,7 +111,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 2 -0.8 n 0.707107 0 -0.707107 t1 0.591797 0.314453 t2 0.4 0
@@ -132,7 +120,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 2 -1 n 0.707107 0 -0.707107 t1 0.564453 0.314453 t2 0.3 0
@@ -142,7 +129,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 2 -0.8 n 0 0 -1 t1 0.998047 0.751953 t2 0 0
@@ -152,7 +138,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c -0.2 2 -0.8 n 0 0 -1 t1 0.970703 0.751953 t2 0 0
@@ -162,7 +147,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c 0.4 2 -1 n -0.707107 0 -0.707107 t1 0.564453 0.314453 t2 0.7 0
@@ -172,7 +156,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 2 -0.8 n -0.707107 0 -0.707107 t1 0.591797 0.314453 t2 0.6 0
@@ -182,7 +165,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -1 n 0 0 -1 t1 0.591797 0.314453 t2 1 0
@@ -192,7 +174,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 2 -1 n 0 0 -1 t1 0.564453 0.314453 t2 0.7 0
@@ -202,7 +183,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -0.4 n 1 0 0 t1 0.591797 0.314453 t2 0.3 0
@@ -212,7 +192,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -1 n 1 0 0 t1 0.564453 0.314453 t2 0 0
@@ -222,7 +201,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 2 -0.2 n 0.707107 0 0.707107 t1 0.591797 0.314453 t2 0.4 0
@@ -232,7 +210,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -0.4 n 0.707107 -0 0.707107 t1 0.564453 0.314453 t2 0.3 0
@@ -242,7 +219,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 2 0.2 n 1 0 0 t1 0.998047 0.751953 t2 0 0
@@ -252,7 +228,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c 0.8 2 -0.2 n 1 0 0 t1 0.970703 0.751953 t2 0 0
@@ -262,7 +237,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c 1 2 0.4 n 0.707107 0 -0.707107 t1 0.591797 0.314453 t2 0.7 0
@@ -272,7 +246,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 2 0.2 n 0.707107 0 -0.707107 t1 0.564453 0.314453 t2 0.6 0
@@ -282,7 +255,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 1 n 1 0 0 t1 0.591797 0.314453 t2 1 0
@@ -292,7 +264,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 0.4 n 1 0 0 t1 0.564453 0.314453 t2 0.7 0
@@ -302,7 +273,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 2 1 n 0 0 1 t1 0.564453 0.314453 t2 0.7 0
@@ -312,7 +282,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 1 n 0 -0 1 t1 0.591797 0.314453 t2 1 0
@@ -322,7 +291,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 2 0.8 n -0.707107 0 0.707107 t1 0.564453 0.314453 t2 0.6 0
@@ -332,7 +300,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 2 1 n -0.707107 0 0.707107 t1 0.591797 0.314453 t2 0.7 0
@@ -342,7 +309,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 2 0.8 n 0 0 1 t1 0.970703 0.751953 t2 0 0
@@ -352,7 +318,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c 0.2 2 0.8 n 0 -0 1 t1 0.998047 0.751953 t2 0 0
@@ -362,7 +327,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 N
-lod_level 3
 state 1024
 
 p1 c -0.4 2 1 n 0.707107 0 0.707107 t1 0.591797 0.314453 t2 0.3 0
@@ -372,7 +336,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 2 0.8 n 0.707107 -0 0.707107 t1 0.564453 0.314453 t2 0.4 0
@@ -382,7 +345,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 1 n 0 0 1 t1 0.564453 0.314453 t2 0 0
@@ -392,7 +354,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 2 1 n 0 -0 1 t1 0.591797 0.314453 t2 0.3 0
@@ -402,7 +363,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 0 1 n 0 -1 0 t1 0.701172 0.298828 t2 1 0.166667
@@ -412,7 +372,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 0 0.4 n 0 -1 0 t1 0.701172 0.344531 t2 1 0.366667
@@ -422,7 +381,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 0 1 n 0 -1 0 t1 0.655469 0.298828 t2 0.7 0.166667
@@ -432,7 +390,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 0 -1 n 0 -1 0 t1 0.701172 0.451172 t2 1 0.833333
@@ -442,7 +399,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 0 -1 n 0 -1 0 t1 0.655469 0.451172 t2 0.7 0.833333
@@ -452,7 +408,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 0 -0.4 n 0 -1 0 t1 0.701172 0.405469 t2 1 0.633333
@@ -462,7 +417,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 0 -1 n 0 -1 0 t1 0.548828 0.451172 t2 0 0.833333
@@ -472,7 +426,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 0 -0.4 n 0 -1 -0 t1 0.548828 0.405469 t2 0 0.633333
@@ -482,7 +435,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 0 -1 n 0 -1 0 t1 0.594531 0.451172 t2 0.3 0.833333
@@ -492,7 +444,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 0 1 n -0 -1 0 t1 0.548828 0.298828 t2 0 0.166667
@@ -502,7 +453,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 0 1 n -0 -1 0 t1 0.594531 0.298828 t2 0.3 0.166667
@@ -512,7 +462,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 0 0.4 n 0 -1 0 t1 0.548828 0.344531 t2 0 0.366667
@@ -522,7 +471,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 0 0.8 n -0 -1 0 t1 0.609766 0.314063 t2 0.4 0.233333
@@ -532,7 +480,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 0 0.8 n 0 -1 0 t1 0.640234 0.314063 t2 0.6 0.233333
@@ -542,7 +489,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 0 0.2 n 0 -1 0 t1 0.685938 0.359766 t2 0.9 0.433333
@@ -552,7 +498,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 0 -0.2 n 0 -1 0 t1 0.685938 0.390234 t2 0.9 0.566667
@@ -562,7 +507,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 0 -0.8 n 0 -1 0 t1 0.640234 0.435937 t2 0.6 0.766667
@@ -572,7 +516,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 0 -0.8 n 0 -1 0 t1 0.609766 0.435937 t2 0.4 0.766667
@@ -582,7 +525,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 2 1 n 0 1 -0 t1 0.655469 0.298828 t2 0.7 0.166667
@@ -592,7 +534,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.4 2 1 n 0 1 -0 t1 0.655469 0.298828 t2 0.7 0.166667
@@ -602,7 +543,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.2 2 0.8 n 0 1 0 t1 0.640234 0.314063 t2 0.6 0.233333
@@ -612,7 +552,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -0.4 n 0 1 0 t1 0.701172 0.405469 t2 1 0.633333
@@ -622,7 +561,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 1 2 -0.4 n -0 1 0 t1 0.701172 0.405469 t2 1 0.633333
@@ -632,7 +570,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.8 2 -0.2 n 0 1 0 t1 0.685938 0.390234 t2 0.9 0.566667
@@ -642,7 +579,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 2 -1 n 0 1 0 t1 0.594531 0.451172 t2 0.3 0.833333
@@ -652,7 +588,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.4 2 -1 n 0 1 0 t1 0.594531 0.451172 t2 0.3 0.833333
@@ -662,7 +597,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.2 2 -0.8 n 0 1 0 t1 0.609766 0.435937 t2 0.4 0.766667
@@ -672,7 +606,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 0.4 n 0 1 0 t1 0.548828 0.344531 t2 0 0.366667
@@ -682,7 +615,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -1 2 0.4 n 0 1 0 t1 0.548828 0.344531 t2 0 0.366667
@@ -692,7 +624,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -702,7 +633,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -712,7 +642,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -722,7 +651,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 -0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -732,7 +660,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 -0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -742,7 +669,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n 0 1 -0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -752,7 +678,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.8 2 0.2 n -0 1 0 t1 0.564062 0.359766 t2 0.1 0.433333
@@ -762,406 +687,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
-state 0
-
-p1 c -1.00167 2 0.2 n -0.999998 0 0.00208631 t1 0.564453 0.314453 t2 0.599817 0
-p2 c -1.00167 0 0.2 n -0.999998 0 0.00208631 t1 0.564453 0.341797 t2 0.599817 1
-p3 c -1 0 1 n -0.999998 0 0.00208631 t1 0.591797 0.341797 t2 0.99926 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 2 1 n -0.999998 0 0.00208631 t1 0.591797 0.314453 t2 0.99926 0
-p2 c -1.00167 2 0.2 n -0.999998 0 0.00208631 t1 0.564453 0.314453 t2 0.599817 0
-p3 c -1 0 1 n -0.999998 0 0.00208631 t1 0.591797 0.341797 t2 0.99926 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1.00167 2 -0.2 n -1 0 0 t1 0.970703 0.751953 t2 0 0
-p2 c -1.00167 0 -0.2 n -1 0 0 t1 0.970703 0.998047 t2 0 0
-p3 c -1.00167 0 0.2 n -1 0 0 t1 0.998047 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c -1.00167 2 0.2 n -1 0 0 t1 0.998047 0.751953 t2 0 0
-p2 c -1.00167 2 -0.2 n -1 0 0 t1 0.970703 0.751953 t2 0 0
-p3 c -1.00167 0 0.2 n -1 0 0 t1 0.998047 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c -1 2 -1 n -0.999998 0 -0.00208631 t1 0.564453 0.314453 t2 0.000651568 0
-p2 c -1 0 -1 n -0.999998 0 -0.00208631 t1 0.564453 0.341797 t2 0.000651568 1
-p3 c -1.00167 0 -0.2 n -0.999998 0 -0.00208631 t1 0.591797 0.341797 t2 0.400095 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1.00167 2 -0.2 n -0.999998 0 -0.00208631 t1 0.591797 0.314453 t2 0.400095 0
-p2 c -1 2 -1 n -0.999998 0 -0.00208631 t1 0.564453 0.314453 t2 0.000651568 0
-p3 c -1.00167 0 -0.2 n -0.999998 0 -0.00208631 t1 0.591797 0.341797 t2 0.400095 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.2 2 -1.0013 n -0.00163123 0 -0.999999 t1 0.564453 0.314453 t2 0.4005 0
-p2 c -0.2 0 -1.0013 n -0.00163123 0 -0.999999 t1 0.564453 0.341797 t2 0.4005 1
-p3 c -1 0 -1 n -0.00163123 0 -0.999999 t1 0.591797 0.341797 t2 0.000833839 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 2 -1 n -0.00163123 0 -0.999999 t1 0.591797 0.314453 t2 0.000833839 0
-p2 c -0.2 2 -1.0013 n -0.00163123 0 -0.999999 t1 0.564453 0.314453 t2 0.4005 0
-p3 c -1 0 -1 n -0.00163123 0 -0.999999 t1 0.591797 0.341797 t2 0.000833839 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.2 2 -1.0013 n 0 0 -1 t1 0.998047 0.751953 t2 0 0
-p2 c 0.2 0 -1.0013 n 0 0 -1 t1 0.998047 0.998047 t2 0 0
-p3 c -0.2 0 -1.0013 n 0 0 -1 t1 0.970703 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c -0.2 2 -1.0013 n 0 0 -1 t1 0.970703 0.751953 t2 0 0
-p2 c 0.2 2 -1.0013 n 0 0 -1 t1 0.998047 0.751953 t2 0 0
-p3 c -0.2 0 -1.0013 n 0 0 -1 t1 0.970703 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c 1 2 -1 n 0.00163123 0 -0.999999 t1 0.591797 0.314453 t2 1 0
-p2 c 1 0 -1 n 0.00163123 0 -0.999999 t1 0.591797 0.341797 t2 1 1
-p3 c 0.2 0 -1.0013 n 0.00163123 0 -0.999999 t1 0.564453 0.341797 t2 0.600334 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.2 2 -1.0013 n 0.00163123 0 -0.999999 t1 0.564453 0.314453 t2 0.600334 0
-p2 c 1 2 -1 n 0.00163123 0 -0.999999 t1 0.591797 0.314453 t2 1 0
-p3 c 0.2 0 -1.0013 n 0.00163123 0 -0.999999 t1 0.564453 0.341797 t2 0.600334 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.997235 2 -0.2 n 0.999994 0 0.00345623 t1 0.591797 0.314453 t2 0.400095 0
-p2 c 0.997235 0 -0.2 n 0.999994 0 0.00345623 t1 0.591797 0.341797 t2 0.400095 1
-p3 c 1 0 -1 n 0.999994 0 0.00345623 t1 0.564453 0.341797 t2 0.000651568 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 2 -1 n 0.999994 -0 0.00345623 t1 0.564453 0.314453 t2 0.000651568 0
-p2 c 0.997235 2 -0.2 n 0.999994 -0 0.00345623 t1 0.591797 0.314453 t2 0.400095 0
-p3 c 1 0 -1 n 0.999994 -0 0.00345623 t1 0.564453 0.341797 t2 0.000651568 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.997235 2 0.2 n 1 0 0 t1 0.998047 0.751953 t2 0 0
-p2 c 0.997235 0 0.2 n 1 0 0 t1 0.998047 0.998047 t2 0 0
-p3 c 0.997235 0 -0.2 n 1 0 0 t1 0.970703 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c 0.997235 2 -0.2 n 1 0 0 t1 0.970703 0.751953 t2 0 0
-p2 c 0.997235 2 0.2 n 1 0 0 t1 0.998047 0.751953 t2 0 0
-p3 c 0.997235 0 -0.2 n 1 0 0 t1 0.970703 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c 1 2 1 n 0.999994 0 -0.00345623 t1 0.591797 0.314453 t2 0.99926 0
-p2 c 1 0 1 n 0.999994 0 -0.00345623 t1 0.591797 0.341797 t2 0.99926 1
-p3 c 0.997235 0 0.2 n 0.999994 0 -0.00345623 t1 0.564453 0.341797 t2 0.599817 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.997235 2 0.2 n 0.999994 0 -0.00345623 t1 0.564453 0.314453 t2 0.599817 0
-p2 c 1 2 1 n 0.999994 0 -0.00345623 t1 0.591797 0.314453 t2 0.99926 0
-p3 c 0.997235 0 0.2 n 0.999994 0 -0.00345623 t1 0.564453 0.341797 t2 0.599817 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 0.2 2 1.00148 n 0.00185251 0 0.999998 t1 0.591797 0.314453 t2 0.600334 0
-p2 c 0.2 0 1.00148 n 0.00185251 0 0.999998 t1 0.591797 0.341797 t2 0.600334 1
-p3 c 1 0 1 n 0.00185251 0 0.999998 t1 0.564453 0.341797 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1 2 1 n 0.00185251 -0 0.999998 t1 0.564453 0.314453 t2 1 0
-p2 c 0.2 2 1.00148 n 0.00185251 -0 0.999998 t1 0.591797 0.314453 t2 0.600334 0
-p3 c 1 0 1 n 0.00185251 -0 0.999998 t1 0.564453 0.341797 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.2 2 1.00148 n 0 0 1 t1 0.970703 0.751953 t2 0 0
-p2 c -0.2 0 1.00148 n 0 0 1 t1 0.970703 0.998047 t2 0 0
-p3 c 0.2 0 1.00148 n 0 0 1 t1 0.998047 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c 0.2 2 1.00148 n 0 -0 1 t1 0.998047 0.751953 t2 0 0
-p2 c -0.2 2 1.00148 n 0 -0 1 t1 0.970703 0.751953 t2 0 0
-p3 c 0.2 0 1.00148 n 0 -0 1 t1 0.998047 0.998047 t2 0 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 N
-lod_level 2
-state 1024
-
-p1 c -1 2 1 n -0.00185251 0 0.999998 t1 0.564453 0.314453 t2 0.000833839 0
-p2 c -1 0 1 n -0.00185251 0 0.999998 t1 0.564453 0.341797 t2 0.000833839 1
-p3 c -0.2 0 1.00148 n -0.00185251 0 0.999998 t1 0.591797 0.341797 t2 0.4005 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -0.2 2 1.00148 n -0.00185251 0 0.999998 t1 0.591797 0.314453 t2 0.4005 0
-p2 c -1 2 1 n -0.00185251 0 0.999998 t1 0.564453 0.314453 t2 0.000833839 0
-p3 c -0.2 0 1.00148 n -0.00185251 0 0.999998 t1 0.591797 0.341797 t2 0.4005 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 2 1 n 0 1 -0 t1 0.548828 0.298828 t2 0.000833839 0.166856
-p2 c 1 2 1 n 0 1 -0 t1 0.701172 0.298828 t2 1 0.166856
-p3 c 1 2 -1 n 0 1 -0 t1 0.701172 0.451172 t2 1 0.833233
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 2 -1 n 0 1 0 t1 0.548828 0.451172 t2 0.000833839 0.833233
-p2 c -1 2 1 n 0 1 0 t1 0.548828 0.298828 t2 0.000833839 0.166856
-p3 c 1 2 -1 n 0 1 0 t1 0.701172 0.451172 t2 1 0.833233
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 0 -1 n 0 -1 -0 t1 0.548828 0.451172 t2 0.000833839 0.833233
-p2 c 1 0 -1 n 0 -1 -0 t1 0.701172 0.451172 t2 1 0.833233
-p3 c 1 0 1 n 0 -1 -0 t1 0.701172 0.298828 t2 1 0.166856
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c -1 0 1 n -0 -1 0 t1 0.548828 0.298828 t2 0.000833839 0.166856
-p2 c -1 0 -1 n -0 -1 0 t1 0.548828 0.451172 t2 0.000833839 0.833233
-p3 c 1 0 1 n -0 -1 0 t1 0.701172 0.298828 t2 1 0.166856
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 0
-
-p1 c 1.00869 2.01588 1.01391 n 0 0 1 t1 0.591797 0.314453 t2 1 6.19235e-08
-p2 c -0.992736 2.01588 1.01391 n 0 0 1 t1 0.564453 0.314453 t2 -2.50587e-10 6.19235e-08
-p3 c -0.992736 0.002747 1.01391 n 0 0 1 t1 0.564453 0.341797 t2 -2.50587e-10 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 0.002747 1.01391 n 0 0 1 t1 0.564453 0.341797 t2 -2.50587e-10 1
-p2 c 1.00869 0.002747 1.01391 n 0 0 1 t1 0.591797 0.341797 t2 1 1
-p3 c 1.00869 2.01588 1.01391 n 0 0 1 t1 0.591797 0.314453 t2 1 6.19235e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 1.00869 2.01588 -0.987522 n 0 0 -1 t1 0.591797 0.314453 t2 1 6.19235e-08
-p2 c 1.00869 0.002747 -0.987522 n 0 0 -1 t1 0.591797 0.341797 t2 1 1
-p3 c -0.992736 0.002747 -0.987522 n 0 0 -1 t1 0.564453 0.341797 t2 -2.50587e-10 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 0.002747 -0.987522 n -0 0 -1 t1 0.564453 0.341797 t2 -2.50587e-10 1
-p2 c -0.992736 2.01588 -0.987522 n -0 0 -1 t1 0.564453 0.314453 t2 -2.50587e-10 6.19235e-08
-p3 c 1.00869 2.01588 -0.987522 n -0 0 -1 t1 0.591797 0.314453 t2 1 6.19235e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 1.00869 0.002747 -0.987522 n 0 -1 0 t1 0.701172 0.451172 t2 1 0.835392
-p2 c 1.00869 0.002747 1.01391 n 0 -1 0 t1 0.701172 0.298828 t2 1 0.169005
-p3 c -0.992736 0.002747 1.01391 n 0 -1 0 t1 0.548828 0.298828 t2 -2.50587e-10 0.169005
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 0.002747 1.01391 n 0 -1 0 t1 0.548828 0.298828 t2 -2.50587e-10 0.169005
-p2 c -0.992736 0.002747 -0.987522 n 0 -1 0 t1 0.548828 0.451172 t2 -2.50587e-10 0.835392
-p3 c 1.00869 0.002747 -0.987522 n 0 -1 0 t1 0.701172 0.451172 t2 1 0.835392
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 1.00869 2.01588 -0.987522 n 1 -0 0 t1 0.564453 0.314453 t2 -1.07762e-08 6.19235e-08
-p2 c 1.00869 2.01588 1.01391 n 1 -0 0 t1 0.591797 0.314453 t2 1 6.19235e-08
-p3 c 1.00869 0.002747 1.01391 n 1 -0 0 t1 0.591797 0.341797 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 1.00869 0.002747 1.01391 n 1 0 0 t1 0.591797 0.341797 t2 1 1
-p2 c 1.00869 0.002747 -0.987522 n 1 0 0 t1 0.564453 0.341797 t2 -1.07762e-08 1
-p3 c 1.00869 2.01588 -0.987522 n 1 0 0 t1 0.564453 0.314453 t2 -1.07762e-08 6.19235e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 2.01588 -0.987522 n 0 1 0 t1 0.548828 0.451172 t2 -2.50587e-10 0.835392
-p2 c -0.992736 2.01588 1.01391 n 0 1 0 t1 0.548828 0.298828 t2 -2.50587e-10 0.169005
-p3 c 1.00869 2.01588 1.01391 n 0 1 0 t1 0.701172 0.298828 t2 1 0.169005
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c 1.00869 2.01588 1.01391 n 0 1 0 t1 0.701172 0.298828 t2 1 0.169005
-p2 c 1.00869 2.01588 -0.987522 n 0 1 0 t1 0.701172 0.451172 t2 1 0.835392
-p3 c -0.992736 2.01588 -0.987522 n 0 1 0 t1 0.548828 0.451172 t2 -2.50587e-10 0.835392
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 0.002747 -0.987522 n -1 -0 0 t1 0.564453 0.341797 t2 -1.07762e-08 1
-p2 c -0.992736 0.002747 1.01391 n -1 -0 0 t1 0.591797 0.341797 t2 1 1
-p3 c -0.992736 2.01588 1.01391 n -1 -0 0 t1 0.591797 0.314453 t2 1 6.19235e-08
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
-state 0
-
-p1 c -0.992736 2.01588 1.01391 n -1 0 0 t1 0.591797 0.314453 t2 1 6.19235e-08
-p2 c -0.992736 2.01588 -0.987522 n -1 0 0 t1 0.564453 0.314453 t2 -1.07762e-08 6.19235e-08
-p3 c -0.992736 0.002747 -0.987522 n -1 0 0 t1 0.564453 0.341797 t2 -1.07762e-08 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 1
 state 0
 

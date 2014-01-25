@@ -1,8 +1,8 @@
 # Colobot text model
 
 ### HEAD
-version 1
-total_triangles 12
+version 2
+total_triangles 10
 
 ### TRIANGLES
 p1 c 0.299609 -1 0 n 0 -1 0 t1 0.966797 0.595703 t2 1 0
@@ -12,7 +12,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.300391 -1 -10 n 0 -1 -0 t1 0.939453 0.841797 t2 2.18706e-08 1
@@ -22,7 +21,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.299609 1 0 n 0 1 0 t1 0.966797 0.595703 t2 1 0
@@ -32,7 +30,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.300391 1 -10 n 0 1 0 t1 0.939453 0.841797 t2 2.18706e-08 1
@@ -42,7 +39,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.299609 1 -10 n 0 0 -1 t1 0.611328 0.00585938 t2 1 0
@@ -52,7 +48,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.300391 -1 -10 n -0 0 -1 t1 0.603516 0.0136719 t2 2.18706e-08 1
@@ -62,7 +57,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.299609 1 0 n 1 0 0 t1 0.833984 0.751953 t2 1 0
@@ -72,7 +66,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c 0.299609 -1 -10 n 1 0 0 t1 0.751953 0.833984 t2 -1.49012e-08 1
@@ -82,7 +75,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.300391 1 -10 n -1 0 0 t1 0.751953 0.751953 t2 -1.49012e-08 0
@@ -92,7 +84,6 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
 
 p1 c -0.300391 -1 0 n -1 0 0 t1 0.833984 0.833984 t2 1 1
@@ -102,26 +93,5 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 lemt.png
 tex2 
 var_tex2 Y
-lod_level 3
 state 0
-
-p1 c -0.300391 1 -10 n -1 0 0 t1 0.751953 0.751953 t2 -1.49012e-08 0
-p2 c -0.300391 -1 -10 n -1 0 0 t1 0.751953 0.833984 t2 -1.49012e-08 1
-p3 c -0.300391 -1 0 n -1 0 0 t1 0.833984 0.833984 t2 1 1
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
-
-p1 c -0.300391 -1 0 n -1 0 0 t1 0.833984 0.833984 t2 1 1
-p2 c -0.300391 1 0 n -1 0 0 t1 0.833984 0.751953 t2 1 0
-p3 c -0.300391 1 -10 n -1 0 0 t1 0.751953 0.751953 t2 -1.49012e-08 0
-mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
-tex1 lemt.png
-tex2 
-var_tex2 Y
-lod_level 2
-state 4096
 
