@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="root">
+        <!--<Window type="TaharezLook/FrameWindow" name="testWindow">
+            <Property name="UnifiedPosition" value="{ {0.25, 0}, {0.25, 0} }" />
+            <Property name="UnifiedSize" value="{ {0.5, 0}, {0.5, 0} }" />
+            <Property name="Text" value="Hello World!" />
+        </Window>-->
+        <Window type="WindowsLook/StaticText" name="hello_world">
+            <Property name="Font" value="dvu_sans-12" />
+            <Property name="Text" value="CEGUI is working!" />
+            <Property name="UnifiedMaxSize" value="{{1,0},{1,0}}" />
+            <Property name="UnifiedAreaRect" value="{{0.06,0},{0.226667,0},{0.415,0},{0.476667,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -16,6 +16,7 @@ install(DIRECTORY models     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY music      DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY sounds     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY textures   DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
+install(DIRECTORY interface  DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 
 add_subdirectory(help)
 add_subdirectory(levels)
