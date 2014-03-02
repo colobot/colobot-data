@@ -1,10 +1,10 @@
-Title.E text="Building"
-Resume.E text="Learn how to construct buildings."
+Title.E text="Departure"
+Resume.E text="Equip your spaceship and get ready for takeoff."
 Instructions name="mhterre2.txt"
 SoluceFile   name="msterre2.txt"
 HelpFile     name="cbot.txt"
-EndingFile   win=102 lost=0
-MessageDelay factor=3
+EndingFile   win=-1 lost=0
+MessageDelay factor=2
 
 Audio         track=2
 AmbientColor  air=0.471;0.353;0.000;0.000 water=0.078;0.078;0.078;0.078  // grey
@@ -221,11 +221,22 @@ GroundSpot pos=-99;-45 radius=40 color=0.745;0.863;0.627  // bbox
 GroundSpot pos=-99;-22 radius=50 color=0.902;0.824;0.745
 
 BeginObject
-CreateObject pos=-39.6; 38.7 dir=0.4 type=Me option=1
+CreateObject pos=  0.0;  0.0 dir=0.0 type=SpaceShip run=2
+CreateObject pos= 3.75;-2.50 dir=0.0 type=Titanium
+CreateObject pos= 2.50;-2.50 dir=0.0 type=Titanium
+CreateObject pos= 3.75;-3.75 dir=0.0 type=Titanium
+CreateObject pos= 2.50;-3.75 dir=0.0 type=Titanium
+CreateObject pos= 2.50; 2.50 dir=0.0 type=PowerCell
+CreateObject pos= 3.75; 2.50 dir=0.0 type=PowerCell
+CreateObject pos= 2.50; 3.75 dir=0.0 type=PowerCell
+CreateObject pos= 3.75; 3.75 dir=0.0 type=PowerCell
+CreateObject pos=  0.0; 20.0 dir=0.5 type=Portico run=2
+CreateObject pos=-31.0; 15.0 dir=0.1 type=Me option=1
 CreateObject pos=-29.0; 20.0 dir=0.5 type=WheeledGrabber
-//CreateObject pos=  0.0;  0.0 dir=0.0 type=StartArea
-CreateObject pos=-26.0;-14.0 dir=1.0 type=Titanium
-CreateObject pos=-26.0;  5.0 dir=1.0 type=Titanium
+CreateObject pos=-26.0;-14.0 dir=1.0 type=BotFactory
+CreateObject pos=-26.0;  5.0 dir=1.0 type=ResearchCenter
+CreateObject pos=-28.0; -8.0 dir=0.0 type=Titanium
+CreateObject pos=-26.0; -8.0 dir=0.0 type=Titanium
 CreateObject pos=-28.0; -6.0 dir=0.0 type=PowerCell
 CreateObject pos=-26.0; -6.0 dir=0.0 type=PowerCell
 CreateObject pos=-28.0; -4.0 dir=0.0 type=PowerCell
@@ -233,10 +244,9 @@ CreateObject pos=-26.0; -4.0 dir=0.0 type=PowerCell
 CreateObject pos=-47.0; 20.0 dir=0.0 type=Houston
 CreateObject pos=-18.0;-30.0 dir=0.0 type=RadarStation
 
-CreateObject pos= 37; 47 cmdline=3;-37;47;-37;-47;37;-47               dir=1.0 type=PracticeBot        trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
-CreateObject pos= 37;-47 cmdline=3;37;47;-37;47;-37;-47                dir=1.5 type=WheeledSniffer  trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
+CreateObject pos= 37; 47 cmdline=3;-37;47;-37;-47;37;-47               dir=1.0 type=PracticeBot    trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
+CreateObject pos= 37;-47 cmdline=3;37;47;-37;47;-37;-47                dir=1.5 type=WheeledSniffer trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
 CreateObject pos=-37;-47 cmdline=5;33;-47;33;-43;-33;-43;-33;43;-37;43 dir=0.0 type=WheeledShooter trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
-CreateObject pos=  5;  5 cmdline=3;5;-5;-5;-5;-5;5                     dir=0.5 type=TrackedSniffer trainer=1 script1="strain2.txt" run=1 power=100 selectable=0
 
 CreateObject pos=-45;31 dir=1.5 type=Tech option=2 selectable=0 clip=0
 CreateObject pos=-47;24 dir=1.2 type=Tech option=2 selectable=0 clip=0 script1="human02.txt" run=1
@@ -245,7 +255,9 @@ CreateObject pos=-46;14 dir=1.0 type=Tech option=2 selectable=0 clip=0 script1="
 CreateObject pos=-44; 9 dir=1.2 type=Tech option=2 selectable=0 clip=0
 CreateObject pos=-45;10 dir=0.1 type=Tech option=2 selectable=0 clip=0
 
-//CreateObject pos=-100.0;-45.0 dir=0.0 type=GoalArea
+CreateObject pos=-100.0;-45.0 dir=0.0 type=GoalArea selectable=0
+CreateObject pos=-104.0;-45.0 dir=0.0 type=ExchangePost selectable=0
+CreateObject pos=-100.0;-45.0 dir=0.0 type=BlackBox
 CreateObject pos=-109.0;-42.4 dir=0.5 type=Barrier1
 CreateObject pos=-109.0;-47.6 dir=0.5 type=Barrier1
 
@@ -329,13 +341,13 @@ CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
 MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
 MapZoom  factor=4
 
-EnableBuild type=BotFactory
-EnableBuild type=ResearchCenter
 EnableBuild type=FlatGround
 EnableBuild type=Flag
 
-EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
-EndMissionTake pos=0.00;0.00 dist=1000 type=BotFactory min=1
-EndMissionTake pos=0.00;0.00 dist=1000 type=ResearchCenter min=1
+EnableResearch type=TRACKER
 
-Camera eye=-83.0;5.0;65.0 lookat=-53.0;0.0;43.0 delay=4
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 type=BlackBox min=1
+EndMissionTake pos=0.00;0.00 type=WheeledGrabber min=1
+
+Camera eye=-18.0;1.0;48.0 lookat=0.0;0.0;0.0 delay=2
