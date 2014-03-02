@@ -2,9 +2,9 @@
 <GUIScheme version="5" name="Colobot">
     <Imageset filename="mouse.imageset" />
     <Imageset filename="button1.imageset" />
-	<LookNFeel filename="colobot.looknfeel" />
-	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
-	<Font filename="dvu_sans-12.font" />
-	
-	<FalagardMapping windowType="Colobot/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Colobot/ImageButton" />
+    <LookNFeel filename="colobot.looknfeel" />
+    <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+    <Font filename="dvu_sans-12.font" />
+    
+    <FalagardMapping windowType="Colobot/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Colobot/ImageButton" />
 </GUIScheme>
