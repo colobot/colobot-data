@@ -1,8 +1,17 @@
 <?xml version="1.0" ?>
-<Imageset imagefile="../../textures/button1.png" name="ColobotButton1" version="2">
+<Imageset version="2" name="ColobotButton1" imagefile="../../textures/button1.png" autoScaled="vertical" nativeHorzRes="2560" nativeVertRes="1920">
     <Image name="ButtonBgChecked" width="128" height="128" xPos="0" yPos="0" />
     <Image name="ButtonBgHover" width="128" height="128" xPos="128" yPos="0" />
     <Image name="ButtonBgNormal" width="128" height="128" xPos="256" yPos="0" />
+        <Image name="ButtonBgNormalTL" width="12" height="12" xPos="256" yPos="0" />
+        <Image name="ButtonBgNormalT" width="104" height="12" xPos="268" yPos="0" />
+        <Image name="ButtonBgNormalTR" width="12" height="12" xPos="372" yPos="0" />
+        <Image name="ButtonBgNormalL" width="12" height="12" xPos="256" yPos="12" />
+        <Image name="ButtonBgNormalC" width="104" height="104" xPos="268" yPos="12" />
+        <Image name="ButtonBgNormalR" width="12" height="12" xPos="372" yPos="12" />
+        <Image name="ButtonBgNormalBL" width="12" height="12" xPos="256" yPos="116" />
+        <Image name="ButtonBgNormalB" width="104" height="12" xPos="268" yPos="116" />
+        <Image name="ButtonBgNormalBR" width="12" height="12" xPos="372" yPos="116" />
     <Image name="ButtonBgPushed" width="128" height="128" xPos="384" yPos="0" />
     <Image name="SomeBar1" width="384" height="64" xPos="512" yPos="0" />
     <Image name="SomeBar2" width="384" height="64" xPos="512" yPos="64" />
@@ -33,5 +42,41 @@
     <Image name="FlyUp" width="128" height="128" xPos="512" yPos="384" />
     <Image name="FlyDown" width="128" height="128" xPos="640" yPos="384" />
     <Image name="Home" width="128" height="128" xPos="768" yPos="384" />
-    <Image name="Grab" width="128" height="128" xPos="896" yPos="384" />
+    <Image name="Hand" width="128" height="128" xPos="896" yPos="384" />
+    
+    <Image name="Grab" width="128" height="128" xPos="0" yPos="512" />
+    <Image name="InFront" width="128" height="128" xPos="128" yPos="512" />
+    <Image name="Behind" width="128" height="128" xPos="256" yPos="512" />
+    <Image name="EnergyCell" width="128" height="128" xPos="384" yPos="512" />
+    <Image name="SomethingGray" width="128" height="128" xPos="512" yPos="512" />
+    <Image name="SomethingRed" width="128" height="128" xPos="640" yPos="512" />
+    <Image name="SomethingBlue" width="128" height="128" xPos="768" yPos="512" />
+    <Image name="ShieldExtend" width="128" height="128" xPos="896" yPos="512" />
+    
+    <Image name="Sniff" width="128" height="128" xPos="0" yPos="640" />
+    <Image name="ShowRange" width="128" height="128" xPos="128" yPos="640" />
+    <Image name="Shoot" width="128" height="128" xPos="256" yPos="640" />
+    <Image name="Head1" width="128" height="128" xPos="384" yPos="640" />
+    <Image name="Head2" width="128" height="128" xPos="512" yPos="640" />
+    <Image name="Head3" width="128" height="128" xPos="640" yPos="640" />
+    <Image name="Head4" width="128" height="128" xPos="768" yPos="640" />
+    <Image name="ShieldContract" width="128" height="128" xPos="896" yPos="640" />
+    
+    <Image name="Right" width="128" height="128" xPos="0" yPos="768" />
+    <Image name="Top" width="128" height="128" xPos="128" yPos="768" />
+    <Image name="Bottom" width="128" height="128" xPos="256" yPos="768" />
+    <Image name="Minimize" width="128" height="128" xPos="384" yPos="768" />
+    <Image name="Maximize" width="128" height="128" xPos="512" yPos="768" />
+    <Image name="SatComProgram" width="128" height="128" xPos="640" yPos="768" />
+    <Image name="Maximize2" width="128" height="128" xPos="768" yPos="768" />
+    <Image name="Left" width="128" height="128" xPos="896" yPos="768" />
+    
+    <Image name="New" width="128" height="128" xPos="0" yPos="896" />
+    <Image name="Open" width="128" height="128" xPos="128" yPos="896" />
+    <Image name="Save" width="128" height="128" xPos="256" yPos="896" />
+    <Image name="Undo" width="128" height="128" xPos="384" yPos="896" />
+    <Image name="Cut" width="128" height="128" xPos="512" yPos="896" />
+    <Image name="Copy" width="128" height="128" xPos="640" yPos="896" />
+    <Image name="Paste" width="128" height="128" xPos="768" yPos="896" />
+    <Image name="SatCom" width="128" height="128" xPos="896" yPos="896" />
 </Imageset>

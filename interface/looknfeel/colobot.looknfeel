@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Falagard version="7">
     <WidgetLook name="Colobot/ImageButton">
-        <PropertyDefinition name="Image" initialValue="ColobotButton1/ButtonDead" redrawOnWrite="true" />
+        <PropertyDefinition name="Image" initialValue="" redrawOnWrite="true" />
         
         <ImagerySection name="background_normal">
             <ImageryComponent>
@@ -135,13 +135,11 @@
             </ImageryComponent>
         </ImagerySection>
         
-        <!-- TODO: background_dead = ColobotButton1/Disabled -->
+        <!-- TODO: background_dead => ColobotButton1/Disabled -->
         
         <StateImagery name="Normal">
             <Layer>
                 <Section section="background_normal" />
-            </Layer>
-            <Layer>
                 <Section section="image" />
             </Layer>
         </StateImagery>
@@ -149,8 +147,6 @@
         <StateImagery name="Hover">
             <Layer>
                 <Section section="background_hover" />
-            </Layer>
-            <Layer>
                 <Section section="image" />
             </Layer>
         </StateImagery>
@@ -158,8 +154,6 @@
         <StateImagery name="Pushed">
             <Layer>
                 <Section section="background_pushed" />
-            </Layer>
-            <Layer>
                 <Section section="image_pushed" />
             </Layer>
         </StateImagery>
@@ -167,9 +161,309 @@
         <StateImagery name="Disabled">
             <Layer>
                 <Section section="background_disabled" />
-            </Layer>
-            <Layer>
                 <Section section="image" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <WidgetLook name="Colobot/TextButton">
+        <PropertyDefinition name="Align" initialValue="WordWrapCentreAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="VAlign" initialValue="CentreAligned" redrawOnWrite="true" />
+        
+        <ImagerySection name="background_normal_top_left">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.05" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.05" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalTL" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_top">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.05" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.95" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.05" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalT" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_top_right">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.95" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.05" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalTR" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_left">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.05" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.05" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.95" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalL" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_right">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.95" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.05" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.95" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalR" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_bottom_left">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.95" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.05" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalBL" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_bottom">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.05" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.95" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.95" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalB" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_bottom_right">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.95" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.95" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalBR" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="background_normal_center">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><UnifiedDim scale="0.05" offset="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge"><UnifiedDim scale="0.05" offset="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="0.95" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.95" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgNormalC" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+
+        <ImagerySection name="background_hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgHover" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="background_pushed">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgPushed" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="background_disabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton1/ButtonBgDisabled" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" offset="0" type="BottomEdge" />
+                    </Dim>
+                 </Area>
+                 <HorzFormatProperty name="Align" />
+                 <VertFormatProperty name="VAlign" />
+                 <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+             </TextComponent>
+         </ImagerySection>
+         
+        <ImagerySection name="bar1">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="7" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="7" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <AbsoluteDim value="13" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <OperatorDim op="Subtract">
+                            <WidgetDim dimension="Height" />
+                            <AbsoluteDim value="7" />
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/ButtonBar1" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="bar2">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <UnifiedDim scale="0.9875" offset="0" type="LeftEdge" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <UnifiedDim scale="0.010416667" offset="0" type="TopEdge" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="0.9921875" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="0.979166667" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/ButtonBar2" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="background_normal_center" />
+                <Section section="background_normal_top_left" />
+                <Section section="background_normal_top" />
+                <Section section="background_normal_top_right" />
+                <Section section="background_normal_left" />
+                <Section section="background_normal_right" />
+                <Section section="background_normal_bottom_left" />
+                <Section section="background_normal_bottom" />
+                <Section section="background_normal_bottom_right" />
+                <Section section="label" />
+                <Section section="bar1" />
+                <Section section="bar2" />
+            </Layer>
+        </StateImagery>
+
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="background_hover" />
+                <Section section="label" />
+                <Section section="bar1" />
+                <Section section="bar2" />
+            </Layer>
+        </StateImagery>
+
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="background_pushed" />
+                <Section section="label" />
+                <Section section="bar1" />
+                <Section section="bar2" />
+            </Layer>
+        </StateImagery>
+
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="background_disabled" />
+                <Section section="label" />
+                <Section section="bar1" />
+                <Section section="bar2" />
             </Layer>
         </StateImagery>
     </WidgetLook>

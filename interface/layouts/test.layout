@@ -4,16 +4,15 @@
     <Property name="MaxSize" value="{{1,0},{1,0}}" />
     
     <Window type="DefaultWindow" name="root">
-        <!--<Window type="WindowsLook/StaticText" name="hello_world">
-            <Property name="Font" value="dvu_sans-12" />
-            <Property name="Text" value="CEGUI is working!" />
-            <Property name="UnifiedMaxSize" value="{{1,0},{1,0}}" />
-            <Property name="UnifiedAreaRect" value="{{0.06,0},{0.226667,0},{0.415,0},{0.476667,0}}" />
-        </Window>-->
         <Window type="Colobot/ImageButton" name="test_button">
             <Property name="Area" value="{{0,0},{0,0},{0,64},{0,64}}" />
             <Property name="Disabled" value="false" />
             <Property name="Image" value="ColobotButton1/Edit" />
+        </Window>
+        <Window type="Colobot/TextButton" name="test_button2">
+            <Property name="Area" value="{{0,0},{0,128},{0,192},{0,192}}" />
+            <Property name="Disabled" value="false" />
+            <Property name="Text" value="test" />
         </Window>
     </Window>
 </GUILayout>
