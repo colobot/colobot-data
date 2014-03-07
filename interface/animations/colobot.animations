@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Animations>
+    <AnimationDefinition name="Colobot/Splash" duration="3.25" replayMode="once">
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.0" />
+            <KeyFrame position="0.5" value="1.0" progression="quadratic accelerating" />
+            <KeyFrame position="2.5" value="1.0" />
+            <KeyFrame position="3.0" value="0.0" progression="quadratic decelerating" />
+        </Affector>
+    </AnimationDefinition>
+</Animations>

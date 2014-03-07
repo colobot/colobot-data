@@ -3,10 +3,16 @@
     <Imageset filename="mouse.imageset" />
     <Imageset filename="button1.imageset" />
     <Imageset filename="button2.imageset" />
+    
+    <ImagesetFromImage resourceGroup="textures" name="ColobotSplash/Splash1PPC" filename="ppc.png" />
+    <ImagesetFromImage resourceGroup="textures" name="ColobotSplash/Splash2COLOBOT" filename="colobot.png" />
+    <ImagesetFromImage resourceGroup="textures" name="ColobotSplash/Splash3EPSITEC" filename="epsitec.png" />
+    
     <Font filename="dvu_sans-12.font" />
     <LookNFeel filename="colobot.looknfeel" />
     <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
     
     <FalagardMapping windowType="Colobot/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Colobot/ImageButton" />
     <FalagardMapping windowType="Colobot/TextButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="Colobot/TextButton" />
+    <FalagardMapping windowType="Colobot/StaticImage" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="Colobot/StaticImage" />
 </GUIScheme>
