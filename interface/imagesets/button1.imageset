@@ -1,7 +1,16 @@
 <?xml version="1.0" ?>
-<Imageset version="2" name="ColobotButton" resourceGroup="textures" imagefile="button1.png" autoScaled="vertical" nativeHorzRes="2560" nativeVertRes="1920">
+<Imageset version="2" name="ColobotButton1" resourceGroup="textures" imagefile="button1.png" autoScaled="vertical" nativeHorzRes="2560" nativeVertRes="1920">
     <Image name="ButtonBgChecked" width="128" height="128" xPos="0" yPos="0" />
     <Image name="ButtonBgHover" width="128" height="128" xPos="128" yPos="0" />
+        <Image name="ButtonBgHoverTL" width="12" height="12" xPos="128" yPos="0" />
+        <Image name="ButtonBgHoverT" width="104" height="12" xPos="140" yPos="0" />
+        <Image name="ButtonBgHoverTR" width="12" height="12" xPos="244" yPos="0" />
+        <Image name="ButtonBgHoverL" width="12" height="12" xPos="128" yPos="12" />
+        <Image name="ButtonBgHoverC" width="104" height="104" xPos="140" yPos="12" />
+        <Image name="ButtonBgHoverR" width="12" height="12" xPos="244" yPos="12" />
+        <Image name="ButtonBgHoverBL" width="12" height="12" xPos="128" yPos="116" />
+        <Image name="ButtonBgHoverB" width="104" height="12" xPos="140" yPos="116" />
+        <Image name="ButtonBgHoverBR" width="12" height="12" xPos="244" yPos="116" />
     <Image name="ButtonBgNormal" width="128" height="128" xPos="256" yPos="0" />
         <Image name="ButtonBgNormalTL" width="12" height="12" xPos="256" yPos="0" />
         <Image name="ButtonBgNormalT" width="104" height="12" xPos="268" yPos="0" />
@@ -13,9 +22,27 @@
         <Image name="ButtonBgNormalB" width="104" height="12" xPos="268" yPos="116" />
         <Image name="ButtonBgNormalBR" width="12" height="12" xPos="372" yPos="116" />
     <Image name="ButtonBgPushed" width="128" height="128" xPos="384" yPos="0" />
+        <Image name="ButtonBgPushedTL" width="12" height="12" xPos="384" yPos="0" />
+        <Image name="ButtonBgPushedT" width="104" height="12" xPos="396" yPos="0" />
+        <Image name="ButtonBgPushedTR" width="12" height="12" xPos="500" yPos="0" />
+        <Image name="ButtonBgPushedL" width="12" height="12" xPos="384" yPos="12" />
+        <Image name="ButtonBgPushedC" width="104" height="104" xPos="396" yPos="12" />
+        <Image name="ButtonBgPushedR" width="12" height="12" xPos="500" yPos="12" />
+        <Image name="ButtonBgPushedBL" width="12" height="12" xPos="384" yPos="116" />
+        <Image name="ButtonBgPushedB" width="104" height="12" xPos="396" yPos="116" />
+        <Image name="ButtonBgPushedBR" width="12" height="12" xPos="500" yPos="116" />
     <Image name="SomeUnknownBar1" width="384" height="64" xPos="512" yPos="0" />
     <Image name="SomeUnknownBar2" width="384" height="64" xPos="512" yPos="64" />
     <Image name="ButtonBgDisabled" width="128" height="128" xPos="896" yPos="0" />
+        <Image name="ButtonBgDisabledTL" width="12" height="12" xPos="896" yPos="0" />
+        <Image name="ButtonBgDisabledT" width="104" height="12" xPos="908" yPos="0" />
+        <Image name="ButtonBgDisabledTR" width="12" height="12" xPos="1012" yPos="0" />
+        <Image name="ButtonBgDisabledL" width="12" height="12" xPos="896" yPos="12" />
+        <Image name="ButtonBgDisabledC" width="104" height="104" xPos="908" yPos="12" />
+        <Image name="ButtonBgDisabledR" width="12" height="12" xPos="1012" yPos="12" />
+        <Image name="ButtonBgDisabledBL" width="12" height="12" xPos="896" yPos="116" />
+        <Image name="ButtonBgDisabledB" width="104" height="12" xPos="908" yPos="116" />
+        <Image name="ButtonBgDisabledBR" width="12" height="12" xPos="1012" yPos="116" />
     
     <Image name="Stop" width="128" height="128" xPos="0" yPos="128" />
     <Image name="Reset" width="128" height="128" xPos="128" yPos="128" />

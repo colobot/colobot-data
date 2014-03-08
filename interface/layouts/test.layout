@@ -1,20 +1,18 @@
 <?xml version="1.0" ?>
 <GUILayout version="4">
-    <Window type="DefaultWindow" name="root" />
-    
-    <!--<Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
     <Property name="MaxSize" value="{{1,0},{1,0}}" />
     
     <Window type="DefaultWindow" name="root">
         <Window type="Colobot/ImageButton" name="test_button">
             <Property name="Area" value="{{0,0},{0,0},{0,64},{0,64}}" />
             <Property name="Disabled" value="false" />
-            <Property name="Image" value="ColobotButton/Edit" />
+            <Property name="Image" value="ColobotButton1/Edit" />
         </Window>
         <Window type="Colobot/TextButton" name="test_button2">
             <Property name="Area" value="{{0,0},{0,128},{0,192},{0,192}}" />
             <Property name="Disabled" value="false" />
             <Property name="Text" value="test" />
         </Window>
-    </Window>-->
+    </Window>
 </GUILayout>
