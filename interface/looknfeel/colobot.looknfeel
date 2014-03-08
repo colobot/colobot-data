@@ -354,39 +354,113 @@
             </ImageryComponent>
         </ImagerySection>
         
+        <ImagerySection name="bar1_disabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Add">
+                            <ImageDim name="ColobotButton1/ButtonBgNormalL" dimension="Width" />
+                            <AbsoluteDim value="3" />
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <OperatorDim op="Add">
+                            <ImageDim name="ColobotButton1/ButtonBgNormalTL" dimension="Height" />
+                            <AbsoluteDim value="3" />
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="Width">
+                        <ImageDim name="ColobotButton1/ButtonBgNormalL" dimension="Width" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <OperatorDim op="Subtract">
+                            <WidgetDim dimension="Height" />
+                            <OperatorDim op="Add">
+                                <ImageDim name="ColobotButton1/ButtonBgNormalBL" dimension="Height" />
+                                <AbsoluteDim value="3" />
+                            </OperatorDim>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/ButtonBar3" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="bar2_disabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Subtract">
+                            <WidgetDim dimension="Width" />
+                            <OperatorDim op="Add">
+                                <OperatorDim op="Add">
+                                    <ImageDim name="ColobotButton1/ButtonBgNormalBR" dimension="Width" />
+                                    <ImageDim name="ColobotButton1/ButtonBgNormalR" dimension="Width" />
+                                </OperatorDim>
+                                <AbsoluteDim value="3" />
+                            </OperatorDim>
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <OperatorDim op="Add">
+                            <ImageDim name="ColobotButton1/ButtonBgNormalTR" dimension="Height" />
+                            <AbsoluteDim value="3" />
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="Width">
+                        <ImageDim name="ColobotButton1/ButtonBgNormalR" dimension="Width" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <OperatorDim op="Subtract">
+                            <WidgetDim dimension="Height" />
+                            <OperatorDim op="Add">
+                                <ImageDim name="ColobotButton1/ButtonBgNormalBR" dimension="Height" />
+                                <AbsoluteDim value="3" />
+                            </OperatorDim>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/ButtonBar4" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
         <StateImagery name="Normal">
             <Layer>
                 <Section section="background_normal" />
-                <Section section="label" />
                 <Section section="bar1" />
                 <Section section="bar2" />
+                <Section section="label" />
             </Layer>
         </StateImagery>
 
         <StateImagery name="Hover">
             <Layer>
                 <Section section="background_hover" />
-                <Section section="label" />
                 <Section section="bar1" />
                 <Section section="bar2" />
+                <Section section="label" />
             </Layer>
         </StateImagery>
 
         <StateImagery name="Pushed">
             <Layer>
                 <Section section="background_pushed" />
-                <Section section="label" />
                 <Section section="bar1" />
                 <Section section="bar2" />
+                <Section section="label" />
             </Layer>
         </StateImagery>
 
         <StateImagery name="Disabled">
             <Layer>
                 <Section section="background_disabled" />
+                <Section section="bar1_disabled" />
+                <Section section="bar2_disabled" />
                 <Section section="label" />
-                <Section section="bar1" />
-                <Section section="bar2" />
             </Layer>
         </StateImagery>
     </WidgetLook>
