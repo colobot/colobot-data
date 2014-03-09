@@ -2,8 +2,28 @@
 <GUILayout version="4">
     <Window type="DefaultWindow" name="mainmenu_root">
         <Window type="Colobot/TextButton" name="missions_button">
-            <Property name="Area" value="{{0.41,0},{0.1975, 0},{0.59,0},{0.264166667,0}}" />
-            <Property name="Disabled" value="false" />
+            <Property name="Area" value="{{0.41,0},{0.197500, 0},{0.59,0},{0.264167,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="freegame_button">
+            <Property name="Area" value="{{0.41,0},{0.275417, 0},{0.59,0},{0.342083,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="exercises_button">
+            <Property name="Area" value="{{0.41,0},{0.360417, 0},{0.59,0},{0.427083,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="challenges_button">
+            <Property name="Area" value="{{0.41,0},{0.438333, 0},{0.59,0},{0.505000,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="userlvl_button">
+            <Property name="Area" value="{{0.6984375,0},{0.28125, 0},{0.7884375,0},{0.347916667,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="setup_button">
+            <Property name="Area" value="{{0.41,0},{0.565833, 0},{0.59,0},{0.632500,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="name_button">
+            <Property name="Area" value="{{0.41,0},{0.643750, 0},{0.59,0},{0.710417,0}}" />
+        </Window>
+        <Window type="Colobot/TextButton" name="quit_button">
+            <Property name="Area" value="{{0.41,0},{0.785417, 0},{0.59,0},{0.852083,0}}" />
         </Window>
     </Window>
 </GUILayout>
