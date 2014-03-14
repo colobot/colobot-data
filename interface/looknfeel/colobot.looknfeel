@@ -489,7 +489,101 @@
         </StateImagery>
         <StateImagery name="Disabled">
             <Layer>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <WidgetLook name="Colobot/StaticFrameImage">
+        <PropertyDefinition name="ImageTL" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageT" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageTR" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageL" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageC" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageR" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageBL" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageB" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageBR" initialValue="" redrawOnWrite="true" />
+        
+        <ImagerySection name="image">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty component="TopLeftCorner"     name="ImageTL" />
+                <ImageProperty component="TopEdge"           name="ImageT" />
+                <ImageProperty component="TopRightCorner"    name="ImageTR" />
+                <ImageProperty component="LeftEdge"          name="ImageL" />
+                <ImageProperty component="Background"        name="ImageC" />
+                <ImageProperty component="RightEdge"         name="ImageR" />
+                <ImageProperty component="BottomLeftCorner"  name="ImageBL" />
+                <ImageProperty component="BottomEdge"        name="ImageB" />
+                <ImageProperty component="BottomRightCorner" name="ImageBR" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        
+        <StateImagery name="Enabled">
+            <Layer>
                 <Section section="image" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <WidgetLook name="Colobot/StaticText">
+        <PropertyDefinition name="Background" initialValue="" redrawOnWrite="true" />
+        
+        <ImagerySection name="background">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="Background" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" offset="0" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" offset="0" type="BottomEdge" />
+                    </Dim>
+                 </Area>
+                 <HorzFormat type="CentreAligned" />
+                 <VertFormat type="CentreAligned" />
+                 <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+             </TextComponent>
+         </ImagerySection>
+        
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="background" />
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
             </Layer>
         </StateImagery>
     </WidgetLook>

@@ -1,7 +1,13 @@
 <?xml version="1.0" ?>
 <GUILayout version="4">
-    <Window type="DefaultWindow" name="test_root">
-        <!--<Window type="Colobot/ImageButton" name="test_button">
+    <Window type="DefaultWindow" name="debug_root">
+        <Property name="MousePassThroughEnabled" value="true" />
+        
+        <!--<Window type="Colobot/StaticImage" name="test_img">
+            <Property name="Area" value="{{0,0},{0,0},{0,64},{0,64}}" />
+            <Property name="Image" value="ColobotButton3/MenuGroup1" />
+        </Window>
+        <Window type="Colobot/ImageButton" name="test_button">
             <Property name="Area" value="{{0,0},{0,0},{0,64},{0,64}}" />
             <Property name="Disabled" value="false" />
             <Property name="Image" value="ColobotButton1/Edit" />
