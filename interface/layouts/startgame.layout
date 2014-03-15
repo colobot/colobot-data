@@ -1,77 +1,81 @@
 <?xml version="1.0" ?>
 <GUILayout version="4">
     <Window type="DefaultWindow" name="startgame_root">
-        <Window type="Colobot/StaticFrameImage" name="missions_group">
-            <Property name="Area" value="{{0.4,0},{0.189167, 0},{0.6,0},{0.349167,0}}" />
-            <Property name="ImageTL" value="ColobotButton3/MenuGroup1TL" />
-            <Property name="ImageT"  value="ColobotButton3/MenuGroup1T"  />
-            <Property name="ImageTR" value="ColobotButton3/MenuGroup1TR" />
-            <Property name="ImageL"  value="ColobotButton3/MenuGroup1L"  />
-            <Property name="ImageC"  value="ColobotButton3/MenuGroup1C"  />
-            <Property name="ImageR"  value="ColobotButton3/MenuGroup1R"  />
-            <Property name="ImageBL" value="ColobotButton3/MenuGroup1BL" />
-            <Property name="ImageB"  value="ColobotButton3/MenuGroup1B"  />
-            <Property name="ImageBR" value="ColobotButton3/MenuGroup1BR" />
+        <Window type="Colobot/MenuWindow" name="startgame_window">
+            <Property name="Area" value="{{0.35,0},{0.1,0},{0.65,0},{0.9,0}}" />
             
-            <Window type="Colobot/TextButton" name="missions_button">
-                <Property name="Area" value="{{0.05, 0},{0.05, 0},{0.95, 0},{0.475, 0}}" />
+            <Window type="Colobot/StaticFrameImage" name="missions_group">
+                <Property name="Area" value="{{0.1675,0},{0.1175, 0},{0.8325,0},{0.325,0}}" />
+                <Property name="ImageTL" value="ColobotButton3/MenuGroup1TL" />
+                <Property name="ImageT"  value="ColobotButton3/MenuGroup1T"  />
+                <Property name="ImageTR" value="ColobotButton3/MenuGroup1TR" />
+                <Property name="ImageL"  value="ColobotButton3/MenuGroup1L"  />
+                <Property name="ImageC"  value="ColobotButton3/MenuGroup1C"  />
+                <Property name="ImageR"  value="ColobotButton3/MenuGroup1R"  />
+                <Property name="ImageBL" value="ColobotButton3/MenuGroup1BL" />
+                <Property name="ImageB"  value="ColobotButton3/MenuGroup1B"  />
+                <Property name="ImageBR" value="ColobotButton3/MenuGroup1BR" />
+                
+                <Window type="Colobot/TextButton" name="missions_button">
+                    <Property name="Area" value="{{0.05, 0},{0.05, 0},{0.95, 0},{0.475, 0}}" />
+                </Window>
+                <Window type="Colobot/TextButton" name="freegame_button">
+                    <Property name="Area" value="{{0.05,0},{0.525, 0},{0.95,0},{0.95,0}}" />
+                </Window>
             </Window>
-            <Window type="Colobot/TextButton" name="freegame_button">
-                <Property name="Area" value="{{0.05,0},{0.525, 0},{0.95,0},{0.95,0}}" />
-            </Window>
-        </Window>
-        
-        <Window type="Colobot/StaticFrameImage" name="programming_group">
-            <Property name="Area" value="{{0.4,0},{0.352083, 0},{0.6,0},{0.512083,0}}" />
-            <Property name="ImageTL" value="ColobotButton3/MenuGroup2TL" />
-            <Property name="ImageT"  value="ColobotButton3/MenuGroup2T"  />
-            <Property name="ImageTR" value="ColobotButton3/MenuGroup2TR" />
-            <Property name="ImageL"  value="ColobotButton3/MenuGroup2L"  />
-            <Property name="ImageC"  value="ColobotButton3/MenuGroup2C"  />
-            <Property name="ImageR"  value="ColobotButton3/MenuGroup2R"  />
-            <Property name="ImageBL" value="ColobotButton3/MenuGroup2BL" />
-            <Property name="ImageB"  value="ColobotButton3/MenuGroup2B"  />
-            <Property name="ImageBR" value="ColobotButton3/MenuGroup2BR" />
             
-            <Window type="Colobot/TextButton" name="exercises_button">
-                <Property name="Area" value="{{0.05, 0},{0.05, 0},{0.95, 0},{0.475, 0}}" />
+            <Window type="Colobot/StaticFrameImage" name="programming_group">
+                <Property name="Area" value="{{0.1675,0},{0.325, 0},{0.8325,0},{0.5325,0}}" />
+                <Property name="ImageTL" value="ColobotButton3/MenuGroup2TL" />
+                <Property name="ImageT"  value="ColobotButton3/MenuGroup2T"  />
+                <Property name="ImageTR" value="ColobotButton3/MenuGroup2TR" />
+                <Property name="ImageL"  value="ColobotButton3/MenuGroup2L"  />
+                <Property name="ImageC"  value="ColobotButton3/MenuGroup2C"  />
+                <Property name="ImageR"  value="ColobotButton3/MenuGroup2R"  />
+                <Property name="ImageBL" value="ColobotButton3/MenuGroup2BL" />
+                <Property name="ImageB"  value="ColobotButton3/MenuGroup2B"  />
+                <Property name="ImageBR" value="ColobotButton3/MenuGroup2BR" />
+                
+                <Window type="Colobot/TextButton" name="exercises_button">
+                    <Property name="Area" value="{{0.05, 0},{0.05, 0},{0.95, 0},{0.475, 0}}" />
+                </Window>
+                <Window type="Colobot/TextButton" name="challenges_button">
+                    <Property name="Area" value="{{0.05,0},{0.525, 0},{0.95,0},{0.95,0}}" />
+                </Window>
             </Window>
-            <Window type="Colobot/TextButton" name="challenges_button">
-                <Property name="Area" value="{{0.05,0},{0.525, 0},{0.95,0},{0.95,0}}" />
-            </Window>
-        </Window>
-        
-        <Window type="Colobot/StaticFrameImage" name="userlvl_group">
-            <Property name="Area" value="{{0.4,0},{0.514999, 0},{0.6,0},{0.594999,0}}" />
-            <Property name="ImageTL" value="ColobotButton3/MenuGroup3TL" />
-            <Property name="ImageT"  value="ColobotButton3/MenuGroup3T"  />
-            <Property name="ImageTR" value="ColobotButton3/MenuGroup3TR" />
-            <Property name="ImageL"  value="ColobotButton3/MenuGroup3L"  />
-            <Property name="ImageC"  value="ColobotButton3/MenuGroup3C"  />
-            <Property name="ImageR"  value="ColobotButton3/MenuGroup3R"  />
-            <Property name="ImageBL" value="ColobotButton3/MenuGroup3BL" />
-            <Property name="ImageB"  value="ColobotButton3/MenuGroup3B"  />
-            <Property name="ImageBR" value="ColobotButton3/MenuGroup3BR" />
             
-            <Window type="Colobot/TextButton" name="userlvl_button">
-                <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+            <Window type="Colobot/StaticFrameImage" name="userlvl_group">
+                <Property name="Area" value="{{0.1675,0},{0.5325, 0},{0.8325,0},{0.63625,0}}" />
+                <Property name="ImageTL" value="ColobotButton3/MenuGroup3TL" />
+                <Property name="ImageT"  value="ColobotButton3/MenuGroup3T"  />
+                <Property name="ImageTR" value="ColobotButton3/MenuGroup3TR" />
+                <Property name="ImageL"  value="ColobotButton3/MenuGroup3L"  />
+                <Property name="ImageC"  value="ColobotButton3/MenuGroup3C"  />
+                <Property name="ImageR"  value="ColobotButton3/MenuGroup3R"  />
+                <Property name="ImageBL" value="ColobotButton3/MenuGroup3BL" />
+                <Property name="ImageB"  value="ColobotButton3/MenuGroup3B"  />
+                <Property name="ImageBR" value="ColobotButton3/MenuGroup3BR" />
+                
+                <Window type="Colobot/TextButton" name="userlvl_button">
+                    <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+                </Window>
             </Window>
-        </Window>
-        
-        <Window type="Colobot/StaticFrameImage" name="quit_group">
-            <Property name="Area" value="{{0.4,0},{0.779167, 0},{0.6,0},{0.859167,0}}" />
-            <Property name="ImageTL" value="ColobotButton3/MenuGroup4TL" />
-            <Property name="ImageT"  value="ColobotButton3/MenuGroup4T"  />
-            <Property name="ImageTR" value="ColobotButton3/MenuGroup4TR" />
-            <Property name="ImageL"  value="ColobotButton3/MenuGroup4L"  />
-            <Property name="ImageC"  value="ColobotButton3/MenuGroup4C"  />
-            <Property name="ImageR"  value="ColobotButton3/MenuGroup4R"  />
-            <Property name="ImageBL" value="ColobotButton3/MenuGroup4BL" />
-            <Property name="ImageB"  value="ColobotButton3/MenuGroup4B"  />
-            <Property name="ImageBR" value="ColobotButton3/MenuGroup4BR" />
             
-            <Window type="Colobot/TextButton" name="back_button">
-                <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+            <Window type="Colobot/StaticFrameImage" name="quit_group">
+                <Property name="Area" value="{{0.1675,0},{0.84625, 0},{0.8325,0},{0.95,0}}" />
+                <Property name="ImageTL" value="ColobotButton3/MenuGroup4TL" />
+                <Property name="ImageT"  value="ColobotButton3/MenuGroup4T"  />
+                <Property name="ImageTR" value="ColobotButton3/MenuGroup4TR" />
+                <Property name="ImageL"  value="ColobotButton3/MenuGroup4L"  />
+                <Property name="ImageC"  value="ColobotButton3/MenuGroup4C"  />
+                <Property name="ImageR"  value="ColobotButton3/MenuGroup4R"  />
+                <Property name="ImageBL" value="ColobotButton3/MenuGroup4BL" />
+                <Property name="ImageB"  value="ColobotButton3/MenuGroup4B"  />
+                <Property name="ImageBR" value="ColobotButton3/MenuGroup4BR" />
+                
+                <Window type="Colobot/TextButton" name="back_button">
+                    <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+                </Window>
             </Window>
         </Window>
         

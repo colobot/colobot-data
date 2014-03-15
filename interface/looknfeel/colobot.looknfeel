@@ -587,4 +587,189 @@
             </Layer>
         </StateImagery>
     </WidgetLook>
+    
+    <WidgetLook name="Colobot/MenuTitlebar">
+        <PropertyDefinition redrawOnWrite="true" initialValue="FF000000" type="ColourRect" name="CaptionColour" />
+        <Property name="NonClient" value="True" />
+        <Property name="Size" value="{{0, 256}, {0, 32}}" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image component="TopLeftCorner"     name="ColobotButton1/TitleBarTL" />
+                <Image component="TopEdge"           name="ColobotButton1/TitleBarT" />
+                <Image component="TopRightCorner"    name="ColobotButton1/TitleBarTR" />
+                <Image component="LeftEdge"          name="ColobotButton1/TitleBarL" />
+                <Image component="Background"        name="ColobotButton1/TitleBarC" />
+                <Image component="RightEdge"         name="ColobotButton1/TitleBarR" />
+                <Image component="BottomLeftCorner"  name="ColobotButton1/TitleBarBL" />
+                <Image component="BottomEdge"        name="ColobotButton1/TitleBarB" />
+                <Image component="BottomRightCorner" name="ColobotButton1/TitleBarBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="12" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <ColourProperty name="CaptionColour" />
+                <HorzFormat type="CentreAligned" />
+                <VertFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="hatch1">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <UnifiedDim scale="0.025" offset="0" type="LeftEdge" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <UnifiedDim scale="0.25" offset="0" type="TopEdge" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <OperatorDim op="Subtract">
+                            <OperatorDim op="Divide">
+                                <OperatorDim op="Subtract">
+                                    <WidgetDim dimension="Width" />
+                                    <FontDim type="HorzExtent" />
+                                </OperatorDim>
+                                <AbsoluteDim value="2" />
+                            </OperatorDim>
+                            <UnifiedDim scale="0.0125" offset="0" type="Width" />
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="0.75" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/Hatch" />
+                <HorzFormat type="Tiled" />
+                <VertFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hatch2">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Add">
+                            <OperatorDim op="Divide">
+                                <OperatorDim op="Add">
+                                    <WidgetDim dimension="Width" />
+                                    <FontDim type="HorzExtent" />
+                                </OperatorDim>
+                                <AbsoluteDim value="2" />
+                            </OperatorDim>
+                            <UnifiedDim scale="0.0375" offset="0" type="Width" />
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <UnifiedDim scale="0.25" offset="0" type="TopEdge" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="0.975" offset="0" type="LeftEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="0.75" offset="0" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image name="ColobotButton2/Hatch" />
+                <HorzFormat type="Tiled" />
+                <VertFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+                <Section section="label" />
+                <Section section="hatch1" />
+                <Section section="hatch2" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal" />
+                <Section section="label" />
+                <Section section="hatch1" />
+                <Section section="hatch2" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <WidgetLook name="Colobot/MenuWindow">
+        <PropertyLinkDefinition targetProperty="CaptionColour" widget="__auto_titlebar__" initialValue="FF000000" type="ColourRect" name="CaptionColour"/>
+        <PropertyLinkDefinition targetProperty="Font" widget="__auto_titlebar__" type="Font" name="TitlebarFont"/>
+        <PropertyLinkDefinition targetProperty="Text" redrawOnWrite="true" layoutOnWrite="true" widget="__auto_titlebar__" name="LabelText" />
+        <Child nameSuffix="__auto_titlebar__" type="Colobot/MenuTitlebar">
+            <Area>
+                <Dim type="LeftEdge">
+                    <UnifiedDim scale="0.05" type="LeftEdge" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <UnifiedDim scale="0.0125" type="TopEdge" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="0.95" type="RightEdge" />
+                </Dim>
+                <Dim type="Height">
+                    <OperatorDim op="Multiply">
+                        <FontDim widget="__auto_titlebar__" type="LineSpacing"  />
+                        <AbsoluteDim value="1.5" />
+                    </OperatorDim>
+                </Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="true" />
+        </Child>
+        <!--<ImagerySection name="background">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0"/>
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <WidgetDim widget="__auto_titlebar__" dimension="Height"/>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge"/>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge"/>
+                    </Dim>
+                </Area>
+            </ImageryComponent>
+        </ImagerySection>-->
+        <StateImagery name="Enabled">
+            <Layer>
+                <!--<Section section="background" />-->
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <!--<Section section="background" />-->
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
 </Falagard>
