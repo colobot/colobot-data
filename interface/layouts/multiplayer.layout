@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="multiplayer_root">
+        <Window type="Colobot/StaticText" name="nope">
+            <Property name="Area" value="{{0.4,0},{0.189167, 0},{0.6,0},{0.269167,0}}" />
+            <Property name="Text" value="Nope." />
+        </Window>
+        
+        <Window type="Colobot/StaticFrameImage" name="quit_group">
+            <Property name="Area" value="{{0.4,0},{0.779167, 0},{0.6,0},{0.859167,0}}" />
+            <Property name="ImageTL" value="ColobotButton3/MenuGroup4TL" />
+            <Property name="ImageT"  value="ColobotButton3/MenuGroup4T"  />
+            <Property name="ImageTR" value="ColobotButton3/MenuGroup4TR" />
+            <Property name="ImageL"  value="ColobotButton3/MenuGroup4L"  />
+            <Property name="ImageC"  value="ColobotButton3/MenuGroup4C"  />
+            <Property name="ImageR"  value="ColobotButton3/MenuGroup4R"  />
+            <Property name="ImageBL" value="ColobotButton3/MenuGroup4BL" />
+            <Property name="ImageB"  value="ColobotButton3/MenuGroup4B"  />
+            <Property name="ImageBR" value="ColobotButton3/MenuGroup4BR" />
+            
+            <Window type="Colobot/TextButton" name="back_button">
+                <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+            </Window>
+        </Window>
+        
+        <Window type="Colobot/StaticText" name="website_label">
+            <Property name="Area" value="{{0.4,0},{0.920833333, 0},{0.6,0},{0.945833333,0}}" />
+            <Property name="Background" value="ColobotButton2/SomeBar4" />
+            <Property name="Text" value="colobot.info" />
+        </Window>
+    </Window>
+</GUILayout>
