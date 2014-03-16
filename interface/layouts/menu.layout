@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="mainmenu_root">
+        <Window type="Colobot/StaticText" name="website_label">
+            <Property name="Area" value="{{0.4,0},{0.920833333,0},{0.6,0},{0.945833333,0}}" />
+            <Property name="Background" value="ColobotButton2/SomeBar4" />
+            <Property name="Text" value="colobot.info" />
+            <Property name="Font" value="dvu_sans-9" />
+        </Window>
+        <Window type="Colobot/StaticText" name="version_label">
+            <Property name="Area" value="{{0.84375,0},{0.93125,0},{0.984375,0},{0.98125,0}}" />
+            <Property name="Font" value="dvu_sans-7" />
+        </Window>
+    </Window>
+</GUILayout>
