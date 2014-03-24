@@ -467,6 +467,8 @@
     
     <WidgetLook name="Colobot/StaticImage">
         <PropertyDefinition name="Image" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="HFormat" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="VFormat" initialValue="Stretched" redrawOnWrite="true" />
         
         <ImagerySection name="image">
             <ImageryComponent>
@@ -477,8 +479,8 @@
                     <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
                 </Area>
                 <ImageProperty name="Image" />
-                <VertFormat type="Stretched" />
-                <HorzFormat type="Stretched" />
+                <HorzFormatProperty name="HFormat" />
+                <VertFormatProperty name="VFormat" />
             </ImageryComponent>
         </ImagerySection>
         
@@ -539,6 +541,7 @@
     
     <WidgetLook name="Colobot/StaticText">
         <PropertyDefinition name="Background" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="TextColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
         
         <ImagerySection name="background">
             <ImageryComponent>
@@ -572,7 +575,7 @@
                  </Area>
                  <HorzFormat type="CentreAligned" />
                  <VertFormat type="CentreAligned" />
-                 <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+                 <ColourProperty name="TextColours" />
              </TextComponent>
          </ImagerySection>
         

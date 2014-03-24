@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<Animations>
+    <AnimationDefinition name="credits0_anim" duration="5.5" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{0.0,0},{-1.0,0}}" />
+            <KeyFrame position="1.5" value="{{0.0,0},{0.0,0}}" />
+            <KeyFrame position="3.5" value="{{0.0,0},{0.0,0}}" />
+            <KeyFrame position="5.0" value="{{0.0,0},{1.0,0}}" />
+        </Affector>
+        <Affector property="Rotation" interpolator="QuaternionSlerp">
+            <KeyFrame position="0.0" value="x:0 y:0 z:30" />
+            <KeyFrame position="1.5" value="x:0 y:0 z:3" />
+            <KeyFrame position="3.5" value="x:0 y:0 z:-7" />
+            <KeyFrame position="5.0" value="x:0 y:0 z:-30" />
+        </Affector>
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.0" />
+            <KeyFrame position="1.0" value="1.0" />
+            <KeyFrame position="4.0" value="1.0" />
+            <KeyFrame position="5.0" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits1_anim" duration="7.5" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{1.0,0},{-0.5,0}}" />
+            <KeyFrame position="1.5" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="6.0" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="7.5" value="{{-1.0,0},{1.0,0}}" />
+        </Affector>
+        <Affector property="Rotation" interpolator="QuaternionSlerp">
+            <KeyFrame position="0.0" value="x:0 y:0 z:30" />
+            <KeyFrame position="1.5" value="x:0 y:0 z:5" />
+            <KeyFrame position="6.0" value="x:0 y:0 z:-10" />
+            <KeyFrame position="7.5" value="x:0 y:0 z:-270" />
+        </Affector>
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.5" />
+            <KeyFrame position="1.25" value="0.8" />
+            <KeyFrame position="6.0" value="1.0" />
+            <KeyFrame position="6.5" value="0.1" />
+            <KeyFrame position="7.5" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits2_anim" duration="7.5" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{-1.0,0},{-0.5,0}}" />
+            <KeyFrame position="1.5" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="6.0" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="7.5" value="{{1.0,0},{1.0,0}}" />
+        </Affector>
+        <Affector property="Rotation" interpolator="QuaternionSlerp">
+            <KeyFrame position="0.0" value="x:0 y:0 z:30" />
+            <KeyFrame position="1.5" value="x:0 y:0 z:5" />
+            <KeyFrame position="6.0" value="x:0 y:0 z:-10" />
+            <KeyFrame position="7.5" value="x:0 y:0 z:-270" />
+        </Affector>
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.5" />
+            <KeyFrame position="1.25" value="0.8" />
+            <KeyFrame position="6.0" value="1.0" />
+            <KeyFrame position="6.5" value="0.1" />
+            <KeyFrame position="7.5" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits3_anim" duration="7.5" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{1.0,0},{1.0,0}}" />
+            <KeyFrame position="1.5" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="6.0" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="7.5" value="{{-1.0,0},{-0.5,0}}" />
+        </Affector>
+        <Affector property="Rotation" interpolator="QuaternionSlerp">
+            <KeyFrame position="0.0" value="x:0 y:0 z:30" />
+            <KeyFrame position="1.5" value="x:0 y:0 z:5" />
+            <KeyFrame position="6.0" value="x:0 y:0 z:-10" />
+            <KeyFrame position="7.5" value="x:0 y:0 z:-270" />
+        </Affector>
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.5" />
+            <KeyFrame position="1.25" value="0.8" />
+            <KeyFrame position="6.0" value="1.0" />
+            <KeyFrame position="6.5" value="0.1" />
+            <KeyFrame position="7.5" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits4_anim" duration="7.5" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{-1.0,0},{1.0,0}}" />
+            <KeyFrame position="1.5" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="6.0" value="{{0.0,0},{0.25,0}}" />
+            <KeyFrame position="7.5" value="{{1.0,0},{-0.5,0}}" />
+        </Affector>
+        <Affector property="Rotation" interpolator="QuaternionSlerp">
+            <KeyFrame position="0.0" value="x:0 y:0 z:30" />
+            <KeyFrame position="1.5" value="x:0 y:0 z:5" />
+            <KeyFrame position="6.0" value="x:0 y:0 z:-10" />
+            <KeyFrame position="7.5" value="x:0 y:0 z:-270" />
+        </Affector>
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.5" />
+            <KeyFrame position="1.25" value="0.8" />
+            <KeyFrame position="6.0" value="1.0" />
+            <KeyFrame position="6.5" value="0.1" />
+            <KeyFrame position="7.5" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits5_anim" duration="5.5" replayMode="once">
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.0" />
+            <KeyFrame position="1.0" value="1.0" />
+            <KeyFrame position="4.0" value="1.0" />
+            <KeyFrame position="5.0" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits6_anim" duration="5.5" replayMode="once">
+        <Affector property="Alpha" interpolator="float">
+            <KeyFrame position="0.0" value="0.0" />
+            <KeyFrame position="1.0" value="1.0" />
+            <KeyFrame position="4.0" value="1.0" />
+            <KeyFrame position="5.0" value="0.0" />
+        </Affector>
+    </AnimationDefinition>
+    <AnimationDefinition name="credits7_anim" duration="10.0" replayMode="once">
+        <Affector property="Position" interpolator="UVector2">
+            <KeyFrame position="0.0" value="{{0.0,0},{1.0,0}}" />
+            <KeyFrame position="10.0" value="{{0.0,0},{-1.5,0}}" />
+        </Affector>
+    </AnimationDefinition>
+</Animations>

@@ -25,6 +25,23 @@
                 </Window>
             </Window>
             
+            <Window type="Colobot/StaticFrameImage" name="credits_group">
+                <Property name="Area" value="{{0.1675,0},{0.42875, 0},{0.8325,0},{0.5325,0}}" />
+                <Property name="ImageTL" value="ColobotButton3/MenuGroup1TL" />
+                <Property name="ImageT"  value="ColobotButton3/MenuGroup1T"  />
+                <Property name="ImageTR" value="ColobotButton3/MenuGroup1TR" />
+                <Property name="ImageL"  value="ColobotButton3/MenuGroup1L"  />
+                <Property name="ImageC"  value="ColobotButton3/MenuGroup1C"  />
+                <Property name="ImageR"  value="ColobotButton3/MenuGroup1R"  />
+                <Property name="ImageBL" value="ColobotButton3/MenuGroup1BL" />
+                <Property name="ImageB"  value="ColobotButton3/MenuGroup1B"  />
+                <Property name="ImageBR" value="ColobotButton3/MenuGroup1BR" />
+                
+                <Window type="Colobot/TextButton" name="credits_button">
+                    <Property name="Area" value="{{0.05, 0},{0.1, 0},{0.95, 0},{0.9, 0}}" />
+                </Window>
+            </Window>
+            
             <Window type="Colobot/StaticFrameImage" name="setup_group">
                 <Property name="Area" value="{{0.1675,0},{0.5325, 0},{0.8325,0},{0.74,0}}" />
                 <Property name="ImageTL" value="ColobotButton3/MenuGroup3TL" />

@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="credits_root">
+        <Window type="Colobot/StaticImage" name="credits_background">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="Image" value="ColobotCredits/Background" />
+        </Window>
+        <Window type="DefaultWindow" name="credits0">
+            <Property name="Area" value="{{0,0},{1,0},{1,0},{2,0}}" />
+            <Window type="Colobot/StaticText" name="credits0_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-40" />
+                <Property name="TextColours" value="tl:FFFFCC00 tr:FFFF9900 bl:FFFF9900 br:FFFF9900" />
+                <Property name="Text" value="Colobot: Gold Edition" />
+            </Window>
+            <Window type="Colobot/StaticImage" name="credits0_text">
+                <Property name="Area" value="{{0.1,0},{0.25,0},{0.9,0},{1,0}}" />
+                <Property name="Image" value="ColobotCreditsLogoCOLOBOT/Image" />
+                <Property name="VFormat" value="CentreAligned" />
+                <Property name="HFormat" value="CentreAligned" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits1">
+            <Property name="Area" value="{{1,0},{-0.5,0},{2,0},{0,0}}" />
+            <Window type="Colobot/StaticText" name="credits1_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Project director:" />
+            </Window>
+            <Window type="Colobot/StaticText" name="credits1_text">
+                <Property name="Area" value="{{0,0},{0.75,0},{1,0},{1,0}}" />
+                <Property name="Font" value="dvu_sans-24" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Raptor" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits2">
+            <Property name="Area" value="{{1,0},{-0.5,0},{2,0},{0,0}}" />
+            <Window type="Colobot/StaticText" name="credits2_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Programmers:" />
+            </Window>
+            <Window type="Colobot/StaticText" name="credits2_text">
+                <Property name="Area" value="{{0,0},{0.75,0},{1,0},{1,0}}" />
+                <Property name="Font" value="dvu_sans-24" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text">krzys_h
+piotrdz
+erihel</Property>
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits3">
+            <Property name="Area" value="{{1,0},{-0.5,0},{2,0},{0,0}}" />
+            <Window type="Colobot/StaticText" name="credits3_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="2D graphics:" />
+            </Window>
+            <Window type="Colobot/StaticText" name="credits3_text">
+                <Property name="Area" value="{{0,0},{0.75,0},{1,0},{1,0}}" />
+                <Property name="Font" value="dvu_sans-24" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text">Raptor
+Simbax</Property>
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits4">
+            <Property name="Area" value="{{1,0},{-0.5,0},{2,0},{0,0}}" />
+            <Window type="Colobot/StaticText" name="credits4_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="3D graphics:" />
+            </Window>
+            <Window type="Colobot/StaticText" name="credits4_text">
+                <Property name="Area" value="{{0,0},{0.75,0},{1,0},{1,0}}" />
+                <Property name="Font" value="dvu_sans-24" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text">none at the moment :(</Property>
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits5">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="Alpha" value="0.0" />
+            <Window type="Colobot/StaticText" name="credits5_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Gold Edition developed by:" />
+            </Window>
+            <Window type="Colobot/StaticImage" name="credits5_text">
+                <Property name="Area" value="{{0.1,0},{0.25,0},{0.9,0},{1,0}}" />
+                <Property name="Image" value="ColobotCreditsLogoPPC/Image" />
+                <Property name="VFormat" value="CentreAligned" />
+                <Property name="HFormat" value="CentreAligned" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits6">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="Alpha" value="0.0" />
+            <Window type="Colobot/StaticText" name="credits6_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Original game developed by:" />
+            </Window>
+            <Window type="Colobot/StaticImage" name="credits6_text">
+                <Property name="Area" value="{{0.1,0},{0.25,0},{0.9,0},{1,0}}" />
+                <Property name="Image" value="ColobotCreditsLogoEPSITEC/Image" />
+                <Property name="VFormat" value="CentreAligned" />
+                <Property name="HFormat" value="CentreAligned" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="credits7">
+            <Property name="Area" value="{{0,0},{1,0},{1,0},{2.5,0}}" />
+            <Window type="Colobot/StaticText" name="credits7_title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0.2,0}}" />
+                <Property name="Font" value="dvu_sans_bold-36" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text" value="Original game creators:" />
+            </Window>
+            <Window type="Colobot/StaticText" name="credits7_text">
+                <Property name="Area" value="{{0,0},{0.2,0},{1,0},{1,0}}" />
+                <Property name="Font" value="dvu_sans_mono-16" />
+                <Property name="TextColours" value="tl:FF009900 tr:FF006633 bl:FF006633 br:FF006633" />
+                <Property name="Text">Development team:                Beta tester core team:             
+                                                                    
+- Daniel Roux                  - Adrien Roux       - Michael Jubin  
+- Denis Dumoulin               - Didier Raboud     - Daniel Sauthier
+- Otto Kölbl                   - Nicolas Beuchat   - Nicolas Stubi  
+- Michael Walz                 - Joël Roux         - Patrick Thévoz 
+- Didier Gertsch                                                    </Property>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
