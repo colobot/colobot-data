@@ -1,21 +1,20 @@
 <?xml version="1.0" ?>
 <Imageset version="2" name="ColobotMouse" resourceGroup="textures" imagefile="mouse.png">
-    <!-- TODO: xOffset yOffset -->
-    <Image name="Normal" width="32" height="32" xPos="0" yPos="0" xOffset="1" yOffset="1" />
-    <Image name="Wait" width="32" height="32" xPos="32" yPos="0" />
-    <Image name="Hand" width="32" height="32" xPos="64" yPos="0" />
-    <Image name="No" width="32" height="32" xPos="96" yPos="0" />
-    <Image name="ScrollL" width="32" height="32" xPos="128" yPos="0" />
-    <Image name="ScrollR" width="32" height="32" xPos="160" yPos="0" />
-    <Image name="ScrollU" width="32" height="32" xPos="192" yPos="0" />
-    <Image name="ScrollD" width="32" height="32" xPos="224" yPos="0" />
+    <Image name="Normal" width="32" height="32" xPos="0" yPos="0" xOffset="-1" yOffset="-1" />
+    <Image name="Wait" width="32" height="32" xPos="32" yPos="0" xOffset="-8" yOffset="-12" />
+    <Image name="Hand" width="32" height="32" xPos="64" yPos="0" xOffset="-7" yOffset="-2" />
+    <Image name="No" width="32" height="32" xPos="96" yPos="0" xOffset="-10" yOffset="-10" />
+    <Image name="ScrollL" width="32" height="32" xPos="128" yPos="0" xOffset="-2" yOffset="-9" />
+    <Image name="ScrollR" width="32" height="32" xPos="160" yPos="0" xOffset="-17" yOffset="-9" />
+    <Image name="ScrollU" width="32" height="32" xPos="192" yPos="0" xOffset="-9" yOffset="-2" />
+    <Image name="ScrollD" width="32" height="32" xPos="224" yPos="0" xOffset="-9" yOffset="-17" />
     
-    <Image name="Edit" width="32" height="32" xPos="0" yPos="32" />
-    <Image name="Cross" width="32" height="32" xPos="32" yPos="32" />
-    <Image name="ResizeV" width="32" height="32" xPos="64" yPos="32" />
-    <Image name="ResizeH" width="32" height="32" xPos="96" yPos="32" />
-    <Image name="ResizeDL" width="32" height="32" xPos="128" yPos="32" />
-    <Image name="ResizeDR" width="32" height="32" xPos="160" yPos="32" />
-    <Image name="Resize" width="32" height="32" xPos="192" yPos="32" />
-    <Image name="Target" width="32" height="32" xPos="224" yPos="32" />
+    <Image name="Edit" width="32" height="32" xPos="0" yPos="32" xOffset="-6" yOffset="-10" />
+    <Image name="Cross" width="32" height="32" xPos="32" yPos="32" xOffset="-10" yOffset="-10" />
+    <Image name="ResizeV" width="32" height="32" xPos="64" yPos="32" xOffset="-5" yOffset="-11" />
+    <Image name="ResizeH" width="32" height="32" xPos="96" yPos="32" xOffset="-11" yOffset="-5" />
+    <Image name="ResizeDL" width="32" height="32" xPos="128" yPos="32" xOffset="-9" yOffset="-9" />
+    <Image name="ResizeDR" width="32" height="32" xPos="160" yPos="32" xOffset="-9" yOffset="-9" />
+    <Image name="Resize" width="32" height="32" xPos="192" yPos="32" xOffset="-11" yOffset="-11" />
+    <Image name="Target" width="32" height="32" xPos="224" yPos="32" xOffset="-15" yOffset="-15" />
 </Imageset>

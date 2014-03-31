@@ -2,6 +2,7 @@
 <Falagard version="7">
     <WidgetLook name="Colobot/ImageButton">
         <PropertyDefinition name="Image" initialValue="" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="ColobotMouse/Hand" />
         
         <ImagerySection name="background_normal">
             <FrameComponent>
@@ -169,6 +170,7 @@
     <WidgetLook name="Colobot/TextButton">
         <PropertyDefinition name="Align" initialValue="WordWrapCentreAligned" redrawOnWrite="true" />
         <PropertyDefinition name="VAlign" initialValue="CentreAligned" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="ColobotMouse/Hand" />
         
         <ImagerySection name="background_normal">
             <FrameComponent>
