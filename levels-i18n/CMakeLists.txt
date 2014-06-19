@@ -22,6 +22,10 @@ set(HELP_INSTALL_DATA_DIR  ${COLOBOT_INSTALL_DATA_DIR}/help/)
 # Translate translatable material
 find_program(PO4A po4a)
 
+if(NOT PO4A)
+    message(WARNING "PO4A not found, level files will NOT be translated!")
+endif()
+
 ### STEP 3 # Inject translations in levels
 set(_levels_i18n_target "levels_i18n")
 
