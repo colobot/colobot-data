@@ -66,24 +66,5 @@ Le type \c;object\n; prend la valeur particulière \c;\l;null\u cbot\null;\n; lo
 \s;	{
 \s;	}
 \n;
-Les informations \c;energyCell\n; et \c;load\n; sont spéciales: on y retrouve donc toutes les caractéristiques de l'objet de base, telles que \c;category\n;, \c;position\n;, etc.
-Par exemple, \c;category\n; contient la catégorie du robot, alors que \c;energyCell.category\n; contient la catégorie de la pile du robot.
-Pour connaître le niveau d'énergie d'un robot, il ne faut pas accéder à \c;energyLevel\n;, mais à \c;energyCell.energyLevel\n;.
-\c;
-\s;	object a;
-\s;	a = radar(BotGrabberRoller);
-\s;	if ( a.load!= null )  // porte qq chose?
-\s;	{
-\s;	}
-\s;	if ( a.load.category == PowerCell )  // porte une pile?
-\s;	{
-\s;	}
-\s;	if ( a.energyCell.energyLevel < 0.2 )  // presque à plat?
-\s;	{
-\s;	}
-\n;
-\t;Dictionnaire anglais-français
-\c;object\n; = objet
-
 \t;Voir aussi
 \l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

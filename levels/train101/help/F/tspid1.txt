@@ -1,5 +1,28 @@
 \b;Objectif
-Détruisez les trois \l;cibles\u object\bottarg; avec un petit programme. Vous aurez besoin des instructions suivantes:
+Détruisez les trois \l;cibles\u object\bottarg; avec un petit programme.
+
+\t;Marche à suivre
+1) In order to program the bot, select it.
+2) The numbers 1 to 4 corresponding to the programs contained in the bot appear on the lower left-hand corner of your screen. Select the first line.
+3) Click the button with the braces \button 22;, and you will arrive in an editor where you can write the program.
+4) While you are writing the program, the key \key;\key help;\norm; will display the text you are reading right now. When you have finished writing the program, click the "OK" button.
+5) In order to execute the program, click the arrow button \button 21;.
+
+\t;Program
+You must tell the bot exactly step by step what it must do in order to kill the three spiders. The bot understands only precise instructions, which it will execute one after another.
+
+When you click the braces button \button 22; in order to write the program, a part of the program will already be there:
+\c;
+\s;extern void object::Spider1( )
+\s;{
+\s;	
+\s;	\n;write your program here ...\c;
+\s;	
+\s;}
+\n;
+Everything that is already written when you arrive in the editor must not be altered. Just introduce the necessary instructions at the cursor.
+
+Vous aurez besoin des instructions suivantes:
 \c;
 \s;aim(0);\n;
 \n;Met le canon bien droit.
@@ -16,6 +39,7 @@ o  on tire sur la cible qui est droit devant avec \c;fire(1);\n;
 o  on tourne à gauche de 90 degrés avec \c;turn(90)\n;
 o  on tire avec \c;fire(1);\n;
 o  etc.
+
 Voici le programme correspondant:
 \c;
 \s;extern void object::Go( )
@@ -28,7 +52,13 @@ Voici le programme correspondant:
 \n;
 A vous de faire la suite!
 
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+If you have got a problem, you can always look at the solution: select the \c;Solution\n; program on the lower left-hand corner of the screen, and click the braces button \button 22;. You can even execute the solution program with the arrow button \button 21;.
 
-\t;Voir aussi
-\l;Exercice précédent\u tcircle2; et \l;programmation\u cbot;.
+\t;Remarks
+Be careful to write the instructions precisely, respecting lower and upper case letters.
+
+Always write one instruction per line, finishing each line with a semicolon.
+
+In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the \button 59; button. You can also start over again from the beginning (hit the "Esc" key, then click "Restart"). The program you have written will not be lost.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.

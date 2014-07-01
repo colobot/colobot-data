@@ -1,12 +1,12 @@
 \b;Objectif
 Changez la \l;pile\u object\power; du robot \l;shooter\u object\botfj;, pour qu'il puisse partir à la chasse aux \l;cibles\u object\bottarg;. 
 
-\b;Marche à suivre
+\t;Marche à suivre
 1) Programmez le robot déménageur.
 2) Exécutez le programme en cliquant sur le bouton \button 21;.
 Le robot shooter est déjà programmé, et entrera en action dès qu'il aura une pile neuve.
 
-\b;Programme
+\t;Programme
 Vous aurez besoin des instructions suivantes:
 \c;
 \s;\l;grab\u cbot\grab;();\n;
@@ -25,7 +25,13 @@ o  on pose la pile vide \c;drop();\n;
 o  etc.
 A vous de faire la suite!
 
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+If you have got a problem, you can always look at the solution: select the \c;Solution\n; program, and click the braces button \button 22;.
 
-\t;Voir aussi
-\l;Exercice précédent\u tspid1; et \l;programmation\u cbot;.
+\t;Remarks
+Be careful to write the instructions precisely, respecting lower and upper case letters.
+
+Always write one instruction per line, finishing each line with a semicolon.
+
+In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button \button 59;. You can also start over again from the beginning (hit the key "Esc", the click "Restart"). The program you have written will not be lost.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.

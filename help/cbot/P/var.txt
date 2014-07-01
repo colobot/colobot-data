@@ -19,9 +19,9 @@ Należy być ostrożnym w wyborze nazw przydzielanych zmiennym; pisanie programu
 W powyższym przykładzie, słowo \c;int\n; określa, że zmienna może zawierać tylko liczby całkowite, odpowiednie do liczenia obiektów. Do mierzenia odległości lepiej jest użyć zmiennej, która może również zawierać liczby rzeczywiste z częścią ułamkową (takie jak 3.45 lub 0.034): w tym przypadku odpowiedniejszy jest typ \c;float\n;.
 
 Zmienna składa się z trzech części:
-1) nazwy
-2) typu informacji przez nią przechowywanych
-3) zawartości, czyli samej informacji 
+1) nazwy,
+2) typu informacji przez nią przechowywanych,
+3) zawartości, czyli samej informacji.
 
 \t;nazwa
 Jest niezbędna do rozróżniania zmiennych pomiędzy sobą.
@@ -45,7 +45,7 @@ Po zadeklarowaniu zmiennej nie zawiera ona żadnej wartości. Zanim będzie moż
 \n;
 Możliwe jest zadeklarowanie zmiennej i przypisanie jej wartości w tym samym wierszu: 
 \c;\s;	int  liczTyt = 0;
-\n; 
+\n;
 Przy wykonywaniu przypisania wartości zmiennej przy użyciu znaku równości\c;=\n;, wartość z prawej strony jest kopiowana do wartości po lewej stronie. Rozważmy następujący przykład: 
 \c;\s;	int  i, j;
 \s;	i = 5+2;  // i przyjmuje wartość 7

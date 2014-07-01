@@ -1,7 +1,7 @@
 \b;Objectif
 Adaptez la hauteur de vol du \l;orgaShooter volant\u object\botoj; à la topologie du terrain.
 
-\b;Programme
+\t;Programme
 Voici encore une fois le programme de l'exercice précédent qui tire sur les \l;fourmis\u object\ant;:
 \c;
 \s;extern void object::Chasseur1()
@@ -46,8 +46,6 @@ Nous avons vu que \c;position.z\n; donne l'altitude au-dessus du niveau de la me
 Il faut commencer par stabiliser l'altitude avec \c;jet(0);\n; pour que dans le cas où l'altitude est comprise entre 6 et 9 mètres, on reste à cette altitude. Si ensuite un \c;jet(1);\n; ou un \c;jet(-1);\n; est exécuté, cette instruction annulera le \c;jet(0);\n; précédent.
 
 Il suffit d'insérer ces quelques lignes avant le \c;wait(0.2)\n; pour que le robot s'adapte au relief. On peut alors effacer les premières lignes qui font monter le robot à une altitude de 10 mètres.
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u tant4; et \l;programmation\u cbot;.

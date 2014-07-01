@@ -1,11 +1,14 @@
 \b;Инструкция \c;receive\n;
 Синтаксис:
-\s;\c;receive ( имя );\n;
+\s;\c;receive ( имя, power );\n;
 
 Получает информацию от ближайшего \l;поста обмена информацией\u object\exchange;.
 
 \t;имя: \c;string\n;
 Вид информации, которая нужна от поста обмена. Имя это строка: при написании его нужно брать в пометки " ".
+
+\t;power: \c;float\n;
+Power of the receiver, which corresponds to maximal distance between the receiver and the exchange post. If the distance is longer, no information is received. Default value is 10 metres.
 
 \t;Возвращаемое значение: \c;\l;float\u cbot\float;\n;
 Значение полученной информации. Если вблизи нет ни одного поста обмена, или на посте обмена нет вида запрошенной информации, то возвращается значение \c;nan\n;.

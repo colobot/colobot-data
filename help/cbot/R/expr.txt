@@ -47,5 +47,42 @@
 
 Углы отображаются в градусах.
 
+\t;Compound assignment operators (for specialists)
+Besides the \c;=\n; operators for variable assignment there are several compound-assignment operators.
+
+The compound-assignment operators combine the \c;=\n; assignment operator with another binary operator such as \c;+\n; or \c;-\n;. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as   
+
+\c;\s;expression1 += expression2
+  
+is equivalent to
+
+\c;\s;expression1 = expression1 + expression2
+
+\c;+=\n;  addition
+\c;-=\n;  subtraction
+\c;*=\n;  multiplication
+\c;/=\n;  division
+\c;%=\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
+
+\t;Prefix and posfix increment- and decrement operators (for specialists)
+The operators \c;++\n; and \c;--\n; allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner.
+
+For example to increment the variable \c;a\n; you can write
+\c;\s;	a++ ;
+\n;instead of
+\c;\s;	a = a + 1 ;
+\n;
+The value of the expression \c;a++\n; is the value of the variable \c;a\n; before the increment. If you use the prefix operator \c;++a\n; the value of the expression is the value of the variable \c;a\n; after the increment. The same holds for the \c;--\n; decrement operator.
+
+Examples:
+\c;\s;	a = 2 ;
+\s;	b = a++ ;
+\s;	// now b contains 2 and a contains 3
+
+\c;\s;	a = 2 ;
+\s;	b = ++a ;
+\s;	// now b contains 3 and a contains 3
+\n;
+
 \t;См. также
 \l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.

@@ -1,5 +1,6 @@
 \b;Les fonctions
-Lorsqu'un programme devient long, il est conseillé de le fragmenter en plusieurs fonctions, qui accompliront chacune une tâche bien précise. Imaginons le programe suivant:
+Lorsqu'un programme devient long, il est conseillé de le fragmenter en plusieurs fonctions, qui accompliront chacune une tâche bien précise.
+Imaginons le programe suivant:
 \c;
 \s;extern void object::Remote( )
 \s;{
@@ -32,10 +33,11 @@ Une fonction peut recevoir des données en entrée. Il faut en donner la liste, 
 \c;
 \s;void Exemple( int a, float x, string s )
 \n;
-La fonction \c;Exemple\n; va recevoir un nombre entier \c;a\n;, un nombre réel \c;x\n; et une chaîne \c;s\n;.
-Les \l;tableaux\u cbot\array; et les instances de \l;classes\u cbot\class; sont toujours passées par \l;référence\u cbot\pointer;.
+La fonction \c;Exemple\n; va recevoir un nombre entier \c;a\n;, un nombre réel \c;x\n; et une chaîne \c;s\n;. Parameters are "passed by value", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an \c;int\n; to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function.
 
-Une fonction peut effectuer un calcul et retourner le résultat avec l'instruction \c;\l;return\u cbot\return;\n;:
+Les \l;tableaux\u cbot\array; et les instances de \l;classes\u cbot\class; sont toujours passées par \l;référence\u cbot\pointer;. That means if you modify the instance or the array in the function, the instance or the array that has been specified by the caller will be actuallay modified.
+
+Une fonction peut effectuer un calcul et retourner le résultat avec l'instruction \c;\l;return\u cbot\return;\n;. Therefore the function must be declared no longer as void but as a type:
 \c;
 \s;float Moyenne( float a, float b )
 \s;{
@@ -75,6 +77,8 @@ Il est autorisé de créer plusieurs fonctions ayant le même nom mais des param
 \s;}
 \n;
 Lors de l'appel à la fonction, CBOT recherche la fonction dont les paramètres correspondent au mieux.
+
+You can also declare a function \l;public\u cbot\public; so it can be used by other bots.
 
 \t;Voir aussi
 \l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

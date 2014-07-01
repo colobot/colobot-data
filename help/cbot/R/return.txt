@@ -1,12 +1,29 @@
 \b;Инструкция \c;return\n;
-Синтаксис:
+С помощью этой функции вы можете немедленно выйти за пределы функции. Синтаксис:
 \s;\c;void function ( )
 \s;{
 \s;	return;
 \s;}
 \n;
-С помощью этой функции вы можете немедленно выйти за пределы функции.
+\b;For specialists
+If the \l;function\u cbot\function; has a return type, the \c;return\n; instruction must be followed by the value to be returned:
+\c;
+\s;float Pi ( )
+\s;{
+\s;	return 3.1415;
+\s;}
 
+\s;float Mean (float a, float b)
+\s;{
+\s;	return (a+b)/2;
+\s;}
+
+\s;string Sign (float a)
+\s;{
+\s;	if ( a > 0 )  return "positive";
+\s;	if ( a < 0 )  return "négative";
+\s;	return "null";
+\s;}
 \t;Смотри также
 \l;Программирование\u cbot;, \l;типы\u cbot\type; и \l;категории\u cbot\category;.
 

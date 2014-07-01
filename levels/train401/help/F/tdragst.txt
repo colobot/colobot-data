@@ -24,14 +24,17 @@ L'instruction \c;\l;distance\u cbot\dist;(p1, p2);\n; retourne la distance entre
 La \l;variable\u cbot\object; \c;position\n; donne la position actuelle du \l;robot\u object\bottr;. Donc, \c;distance(position, start);\n; retourne la distance parcourue.
 
 \b;Marche à suivre
-1) Mémoriser la position de départ:
+1) declare the variables
 \s;\c;	point start;
-\s;	start = position;
+\s;	float len;
 \n;
-2) Démarrer à fond:
+2) Mémoriser la position de départ:
+\s;\c;	start = position;
+\n;
+3) Démarrer à fond:
 \s;\c;	motor(1, 1);
 \n;
-3) Faire une boucle infinie \c;\l;while\u cbot\while;\n;:
+4) Faire une boucle infinie \c;\l;while\u cbot\while;\n;:
 \s;\c;	while ( true )
 \s;	{
 \s;		float len = distance(position, start);
@@ -52,12 +55,11 @@ o  S'il reste \c;0.0\n; mètre  -> consigne = \c;0.00\n; (arrêt)
 
 \image tdragst1 12 6;
 L'\l;expression\u cbot\expr; \c;(25-len)/2\n; est donc parfaite pour cela.
+
 A vous de terminer le programme ...
 
 \b;Remarque
 Si les consignes données sont des valeurs plus grandes que 1, le \l;robot\u object\bottr; n'avance pas plus vite.
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u tremote1; et \l;programmation\u cbot;.

@@ -1,12 +1,10 @@
 \b;Instruction \c;return\n;
-Syntaxe:
+Cette instruction permet de sortir immédiatement d'une \l;fonction\u cbot\function;. Syntaxe:
 \s;\c;void fonction ( )
 \s;{
 \s;	return;
 \s;}
 \n;
-Cette instruction permet de sortir immédiatement d'une \l;fonction\u cbot\function;.
-
 \b;Pour spécialistes
 Lorsqu'une \l;fonction\u cbot\function; rend un résultat, \c;return\n; doit être suivi de la valeur à retourner:
 \c;
@@ -27,8 +25,5 @@ Lorsqu'une \l;fonction\u cbot\function; rend un résultat, \c;return\n; doit êt
 \s;	return "nul";
 \s;}
 \n;
-\t;Dictionnaire anglais-français
-\c;return\n; = retour
-
 \t;Voir aussi
 \l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

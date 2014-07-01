@@ -4,15 +4,17 @@ Une instance de \l;classe\u cbot\class; peut être créée par l'opérateur \c;n
 \s;	item = new MaClasse();
 \n;
 Lorsque l'instance est créée en même temps que la déclaration, il est possible de simplifier l'écriture:
-\c;\s;	MaClasse item = new MaClasse();
-\s;	MaClasse item();  // identique
+
+Instead of:
+\c;\s;	MyClass item = new MyClass();
+\n;you can write:
+\c;\s;	MyClass item();
 \n;
 Si, par exemple, la classe contient un constructeur avec deux paramètres numériques, il est possible d'écrire:
-\c;\s;	MaClasse item = new MaClasse(2, 3);
-\s;	MaClasse item(2, 3);  // identique
+\c;\s;	MyClass item = new MyClass(2, 3);
+\n;or:
+\c;\s;	MyClass item(2, 3);
 \n;
-\t;Dictionnaire anglais-français
-\c;new\n; = nouveau
 
 \t;Voir aussi
 \l;Références\u cbot\pointer;

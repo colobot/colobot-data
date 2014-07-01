@@ -37,9 +37,7 @@ Voici encore une fois le programme de l'exercice précédent qui tire sur les gu
 \s;	}
 \s;}
 \n;
-Comme vous l'avez constaté, le taux de réussite de ce programme n'est pas très élevé, car les guèpes ont souvent le temps de partir.
-
-Le seul moyen pour rendre le programme plus efficace consiste à régler la vitesse des moteurs de gauche et de droite ainsi que du réacteur de manière à ce que le mouvement du robot pendant la salve de tir accompagne le mouvement de la cible.
+Comme vous l'avez constaté, le taux de réussite de ce programme n'est pas très élevé, car les guèpes ont souvent le temps de partir. Le seul moyen pour rendre le programme plus efficace consiste à régler la vitesse des moteurs de gauche et de droite ainsi que du réacteur de manière à ce que le mouvement du robot pendant la salve de tir accompagne le mouvement de la cible.
 
 Juste avant le tir, le programme fait un dernier ajustement avec un \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(chose.position));\n;. Pour suivre la guêpe, il faut mémoriser l'angle de cette dernière rotation: si l'angle est positif, il faut continuer à tourner à gauche pendant le tir; si l'angle est négatif, il faut continuer à tourner à droite.
 
@@ -82,4 +80,5 @@ Puis il faut remettre les instructions qui règlent la puissance du réacteur po
 \n;
 Comme vous pourrez le constater, le taux de réussite est nettement plus élevé que dans l'exercice précédent.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
+\t;Voir aussi
+\l;Exercice précédent\u tant4; et \l;programmation\u cbot;.

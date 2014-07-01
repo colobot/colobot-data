@@ -1,15 +1,6 @@
 \b;Exercice
 Programmez le \l;robot\u object\bottr; pour qu'il avance sans se cogner dans un labyrinthe. On part du principe que le labyrinthe n'est pas connu d'avance, et qu'il n'est constitué que d'un chemin, sans aucune bifurcation ni cul-de-sac. Les cases du labyrinthe sont des carrés de 5 mètres de côté.
 
-\b;Principe
-Le programme s'occupe de résoudre le déplacement d'une case dans la suivante. Comme il y a un nombre de cases inconnu, il faudrait englober tout le programme dans une boucle \c;\l;repeat\u cbot\repeat;(9999)\n;. Bien que cela fonctionnerait parfaitement, il est préférable d'utiliser un autre concept. Pour répéter un \l;bloc\u cbot\bloc; d'instructions à l'infini, on écrit \c;\l;while\u cbot\while;(true)\n;. Le programme sera donc:
-\s;\c;while ( true )
-\s;{
-\s;	\n;o  Si rien devant, avancer\c;
-\s;	\n;o  Si rien à gauche, quart de tour à gauche puis avancer\c;
-\s;	\n;o  Si rien à droite, quart de tour à droite puis avancer\c;
-\s;}
-\n;
 \b;L'instruction \c;radar\n;
 L'instruction \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5);\n; teste la présence d'une \l;barrière\u object\barrier; devant le robot. Détaillons les cinq paramètres utilisés:
 
@@ -31,7 +22,12 @@ Distance maximale de détection. Au delà de \c;5\n; mètres, les barrières son
 Par exemple, \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; dirige le radar 90 degrés sur la gauche, pour tester si le chemin est libre à gauche.
 
 \image tlaby1 10 10;
-\b;Programme
+\b;Principe
+The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad.
+o  Si rien devant, avancer
+o  Si rien à gauche, quart de tour à gauche puis avancer
+o  Si rien à droite, quart de tour à droite puis avancer
+
 1) On déclare trois \l;variables\u cbot\var; de type \c;\l;object\u cbot\object;\n;, appelées \c;front\n;, \c;left\n; et \c;right\n;. Ce type indique une variable qui décrit l'objet trouvé.
 \s;\c;	object   front, left, right;\n;
 
@@ -61,11 +57,6 @@ Le \c;\l;continue\u cbot\continue;\n; stoppe l'exécution des instructions suiva
 
 \b;Attention
 La ligne \c;if ( )\n; ne doit jamais être suivie d'un \l;point-virgule\u cbot\term;.
-
-\b;Enregistrer
-Lorsque le programme est terminé et qu'il fonctionne, il est conseillé de l'enregistrer, car vous en aurez encore besoin dans l'exercice suivant. Pour cela, cliquez sur \button 58; dans l'éditeur de programmes, puis donnez un nom à votre programme.
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u ttarg2; et \l;programmation\u cbot;.

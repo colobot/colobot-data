@@ -29,11 +29,12 @@ Exemples:
 \c;motor(-0.5, -0.5);\n; pour reculer à mi-vitesse.
 \c;motor(1, -1);\n; pour tourner à droite le plus vite possible.
 
+Note :
+\c;motor(2, 2);\n; will not move forward any faster than \c;motor(1, 1)\n; 
+\c;motor(-2, -2);\n; will not move backward any faster than \c;motor(-1, -1)\n;
+
 \t;Valeur retournée: \c;\l;void\u cbot\void;\n;
 Aucune.
-
-\t;Dictionnaire anglais-français
-\c;motor\n; = moteur
 
 \t;Voir aussi
 \l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

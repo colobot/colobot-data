@@ -1,6 +1,5 @@
 \b;Exercice
 Programmez le \l;robot\u object\bottr; pour qu'il suive le chemin en forme de spirale. Il faut avancer deux fois de 25 mètres, puis deux fois de 20 mètres. etc., jusqu'à l'arrêt.
-
 \image tproc2 8 8;
 \b;Fonction
 On constate que le mouvement est composé de "L" imbriqués. Le premier, en bleu foncé, avance deux fois de 25 mètres. Le deuxième, en bleu clair, avance de 5 mètres de moins, etc. On peut donc commencer par réaliser la \l;fonction\u cbot\function; qui déplace le robot le long d'un "L" dont on donne la longueur:
@@ -30,8 +29,6 @@ Le dernier appel de \c;Part\n; a lieu avec la valeur \c;5\n;. Ensuite, l'express
 
 \b;Remarque
 Vous aurez peut-être remarqué que dans l'exercice précédent, la fonction principale était au début, alors qu'ici elle vient après la fonction secondaire \c;Part\n;. En fait, les deux façons de faire sont possibles et rigoureusement identiques.
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u tproc1; et \l;programmation\u cbot;.

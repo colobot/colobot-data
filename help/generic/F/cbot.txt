@@ -25,8 +25,6 @@ Une constante telle qu'une \l;catégorie\u cbot\category; est coloriée en rouge
 \c;\l;sizeof\u cbot\sizeof;     \n;Taille d'un tableau
 
 \t;Instructions pour les robots:
-\c;\l;find\u cbot\find;       \n;Va vers un objet
-\c;\l;detect\u cbot\detect;     \n;Détection simple d'objets
 \c;\l;radar\u cbot\radar;      \n;Détection généralisée d'objets
 \c;\l;direction\u cbot\direct;  \n;Calcule une direction
 \c;\l;distance\u cbot\dist;   \n;Calcule une distance
@@ -41,12 +39,6 @@ Une constante telle qu'une \l;catégorie\u cbot\category; est coloriée en rouge
 \c;\l;retobject\u cbot\retobj;  \n;Retourne un objet
 \c;\l;errmode\u cbot\errmode;    \n;Mode de gestion des erreurs
 \c;\l;abstime\u cbot\abstime;    \n;Retourne le temps absolu
-
-\t;Instructions pour dessiner:
-\c;\l;pendown\u cbot\pendown;    \n;Abaisse le crayon du robot
-\c;\l;penup\u cbot\penup;      \n;Relève le crayon du robot
-\c;\l;pencolor\u cbot\pencolor;   \n;Choix de la couleur
-\c;\l;penwidth\u cbot\penwidth;   \n;Choix de l'épaisseur du trait
 
 \t;Instructions sur le terrain:
 \c;\l;space\u cbot\space;      \n;Calcule une position libre

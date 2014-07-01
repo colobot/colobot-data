@@ -1,5 +1,7 @@
 \b;Type \c;string\n;
-Ce type permet de représenter une chaîne de caractères, qui contiendra quelques caractères, ou toute une phrase. Par exemple:
+Ce type permet de représenter une chaîne de caractères, qui contiendra quelques caractères, ou toute une phrase.
+
+Par exemple:
 \s;\c;"bonjour"
 \s;"c'est une chaîne"
 \s;"x"
@@ -12,8 +14,10 @@ Donne la chaîne:
 \s;\c;"bonjour Monsieur"
 \n;
 Pour mettre un guillemet ou un slash inversé dans une chaîne, il faut écrire:
-\s;\c;"C'est \"très\" important" \n;donne\c; C'est "très" important
-\s;"%user%\\ant.txt" \n;donne\c; %user%\ant.txt
+\s;\c;"This is \"very\" important"
+\n;which will result in the string \c; This is "very" important.
+\s;\c;"%user%\\ant.txt"
+\n;will result in \c;%user%\ant.txt
 \n;
 Les instructions suivantes sont utiles pour gérer les chaînes de caractères:
 \c;\l;strlen\u cbot\strlen;     \n;Longueur d'une chaîne.

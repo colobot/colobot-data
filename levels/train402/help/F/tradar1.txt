@@ -1,11 +1,11 @@
 \b;Exercice
 Programmez le \l;robot\u object\bottr; pour qu'il trouve toutes les \l;croix bleues\u object\waypoint; posées au sol. Dès que le robot est sur une croix, elle disparaît. Le principe à utiliser est le suivant:
 
-\s;o  Répéter à l'infini:
-\s;	o  Chercher une croix
-\s;	o  Si rien n'est trouvé, stopper
-\s;	o  Calculer la direction de la croix
-\s;	o  Donner une consigne de vitesse aux moteurs pour se diriger dans la bonne direction
+Répéter à l'infini:
+	o  Chercher une croix
+	o  Si rien n'est trouvé, stopper
+	o  Calculer la direction de la croix
+	o  Donner une consigne de vitesse aux moteurs pour se diriger dans la bonne direction
 
 \b;Le programme
 La boucle infinie s'écrit avec \c;\l;while\u cbot\while;\n;:
@@ -52,8 +52,6 @@ Le même raisonnement s'applique lorsque la direction est positive, comprise ent
 \s;}
 \n;
 Pour que ce programme fonctionne, il faut encore déclarer toutes les variables utilisées, au début. \c;spot\n; est de type \c;\l;object\u cbot\object;\n;, alors que \c;dir\n; est de type \c;\l;float\u cbot\float;\n;.
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u tcircle3; et \l;programmation\u cbot;.

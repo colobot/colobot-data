@@ -6,10 +6,8 @@ Les expressions peuvent contenir les opérations suivantes:
 \c;* \n;  multiplication
 \c;/ \n;  division
 \c;% \n;  reste de la division (seulement pour le type \c;\l;int\u cbot\int;\n;)
-\c;**\n;  élévation à la puissance
 
 L'addition permet non seulement d'additionner des nombres, mais également d'appondre des \l;chaînes de caractères\u cbot\string;.
-L'opérateur \c;%\n; est parfois appelé "modulo".
 \c;
 \s;	int    i = 12+3;      // donne 15
 \s;	string s = "a"+"bc";  // donne "abc"
@@ -20,7 +18,6 @@ L'opérateur \c;%\n; est parfois appelé "modulo".
 \s;	float  f = 5/0;       // donne une erreur
 \s;	int    i = 13%5;      // donne 3
 \s;	int    i = -8%3;      // donne -2
-\s;	float  f = 6**2;      // donne 36
 \n;
 Une expression peut contenir des constantes ou des \l;variables\u cbot\var;. Par exemple:
 
@@ -50,6 +47,43 @@ Les fonctions mathématiques suivantes sont disponibles:
 \c;abs(valeur)   \n;valeur absolue
 
 Les angles sont exprimés en degrés.
+
+\t;Compound assignment operators (for specialists)
+Besides the \c;=\n; operators for variable assignment there are several compound-assignment operators.
+
+The compound-assignment operators combine the \c;=\n; assignment operator with another binary operator such as \c;+\n; or \c;-\n;. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as   
+
+\c;\s;expression1 += expression2
+  
+is equivalent to
+
+\c;\s;expression1 = expression1 + expression2
+
+\c;+=\n;  addition
+\c;-=\n;  subtraction
+\c;*=\n;  multiplication
+\c;/=\n;  division
+\c;%=\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
+
+\t;Prefix and posfix increment- and decrement operators (for specialists)
+The operators \c;++\n; and \c;--\n; allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner.
+
+For example to increment the variable \c;a\n; you can write
+\c;\s;	a++ ;
+\n;instead of
+\c;\s;	a = a + 1 ;
+\n;
+The value of the expression \c;a++\n; is the value of the variable \c;a\n; before the increment. If you use the prefix operator \c;++a\n; the value of the expression is the value of the variable \c;a\n; after the increment. The same holds for the \c;--\n; decrement operator.
+
+Exemples:
+\c;\s;	a = 2 ;
+\s;	b = a++ ;
+\s;	// now b contains 2 and a contains 3
+
+\c;\s;	a = 2 ;
+\s;	b = ++a ;
+\s;	// now b contains 3 and a contains 3
+\n;
 
 \t;Voir aussi
 \l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -11,22 +11,20 @@ Le \l;derrick\u object\derrick; extrait automatiquement du minerai de titanium, 
 Le \l;convertisseur\u object\convert; transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre.
 
 \b;Principe
-\s;o  Répéter 2 fois:
-\s;	o  Attendre tant qu'on ne trouve pas de minerai.
-\s;	o  Aller vers le minerai.
-\s;	o  Prendre le minerai.
-\s;	o  Aller vers le convertisseur.
-\s;	o  Déposer le minerai.
-\s;	o  Reculer de 4 mètres.
-\s;	o  Attendre tant qu'on ne trouve pas de titanium.
-\s;	o  Prendre le titanium.
-\s;	o  Aller sur une plate-forme.
-\s;	o  Déposer le titanium.
+Répéter 2 fois:
+	o  Attendre tant qu'on ne trouve pas de minerai.
+	o  Aller vers le minerai.
+	o  Prendre le minerai.
+	o  Aller vers le convertisseur.
+	o  Déposer le minerai.
+	o  Reculer de 4 mètres.
+	o  Attendre tant qu'on ne trouve pas de titanium.
+	o  Prendre le titanium.
+	o  Aller sur une plate-forme.
+	o  Déposer le titanium.
 
 \b;Solution
-Une boucle \c;\l;for\u cbot\for;\n; permet de répéter 2 fois l'ensemble des instructions:
-\s;\c;	for ( int i=0 ; i<2 ; i=i+1 )
-\n;
+Une boucle \c;\l;for\u cbot\for;\n; permet de répéter 2 fois l'ensemble des instructions.
 Le minerai n'est pas forcément disponible tout de suite. Il faut donc attendre que le derrick le produise, ce qui s'effectue avec une boucle \c;\l;do\u cbot\do;\n; comme suit:
 \s;\c;do
 \s;{
@@ -51,8 +49,6 @@ Les coordonnées \c;x\n; des 2 plates-formes sont toutes égales à 10. En revan
 \s;dest.y = -60-5*i;
 \n;
 A vous de terminer le programme ...
-
-\key;\key help;\norm; permet de revoir ces instructions en tout temps!
 
 \t;Voir aussi
 \l;Exercice précédent\u tremova2; et \l;programmation\u cbot;.

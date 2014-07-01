@@ -1,9 +1,10 @@
 \b;Les types des variables
-
 Une \l;variable\u cbot\var; est décrite par trois éléments:
+
 1) Un nom.
 2) Le type du contenu.
-3) Le contenu.
+
+Once you defined a variable, you can use it to put information in it. However, the information that a variable can contain must always be of the correct type: a variable of type \l;float\u cbot\float; can not contain a string, etc.
 
 Dans un programme, un nom de type est toujours \type;colorié en vert\norm;. Si un type n'est pas colorié, c'est que son nom est mal orthographié. Il faut par exemple frapper tout le nom en minuscules. Voici les différents types possibles:
 
@@ -24,9 +25,6 @@ Pour une coordonnée dans l'espace x,y,z.
 
 \s;\c;\l;object\u cbot\object;\n;
 Pour décrire un objet (robot, bâtiment, etc.).
-
-\s;\c;\l;file\u cbot\file;\n;
-Pour décrire un fichier de texte.
 
 \s;\c;\l;void\u cbot\void;\n;
 Pour indiquer "rien".

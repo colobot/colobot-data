@@ -6,6 +6,7 @@ Cette instruction a deux rôles distincts:
 
 \b;Instruction \c;public\n; pour les fonctions
 La présence de ce mot rend la \l;fonction\u cbot\function; disponible partout dans la mission. Cette fonction peut alors être utilisée dans le programme d'un autre robot.
+
 Par exemple, dans un premier robot:
 \c;
 \s;public void object::Segment(float dist, float angle)
@@ -26,6 +27,7 @@ Et dans un autre robot:
 \s;}
 \n;
 Il ne peut y avoir qu'une seule fonction ayant le même nom, parmi tous les programmes des robots de la mission en cours.
+
 Si le robot qui contenait la fonction déclarée \c;public\n; est détruit, les autres robots qui utilisent cette fonction sont stoppés sur une erreur!
 
 \b;Instruction \c;public\n; pour les classes

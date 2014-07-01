@@ -6,12 +6,7 @@ La syntaxe pour déclarer une classe est la suivante:
 \s;	déclarations;
 \s;}
 \n;
-Une classe peut contenir des \l;variables\u cbot\var; et des \l;fonctions\u cbot\function;. Mais dans la terminologie des langages orientés objets, on les appelle "champs" et "méthodes":
-\tab;\c;    variable -> champ\n;
-\tab;\c;    fonction -> méthode\n;
-Le terme "membre" désigne un champ ou une méthode.
-
-La classe est d'office \l;publique\u cbot\public; (disponible partout). Les membres de la classe sont également publiques (disponible à tous). Les déclarations peuvent être des déclarations de champs ou des déclarations de méthodes (avec le \l;bloc\u cbot\bloc; d'exécution), par exemple:
+La classe est d'office \l;publique\u cbot\public; (disponible partout). Les membres de la classe sont également publiques (disponible à tous). Les déclarations peuvent être des déclarations de champs ou des déclarations de méthodes (avec le \l;bloc\u cbot\bloc; d'exécution). Une classe peut contenir des \l;variables\u cbot\var; et des \l;fonctions\u cbot\function;. Mais dans la terminologie des langages orientés objets, on les appelle "champs" et "méthodes". Le terme "membre" désigne un champ ou une méthode.
 \c;
 \s;public class MaClasse
 \s;{
