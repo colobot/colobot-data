@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:56+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,80 +23,80 @@ msgid "E"
 msgstr "R"
 
 #. type: Title-text
-#: scene502/scene.txt:1
+#: scene502/scene.txt:2
 #, no-wrap
 msgid "scene502:Invasion"
 msgstr "scene502:Вторжение"
 
 #. type: Resume-text
-#: scene502/scene.txt:2
+#: scene502/scene.txt:3
 #, no-wrap
 msgid "scene502:Hold out against a giant ant invasion."
 msgstr "scene502:Отбейте атаку гигантских муравьев."
 
 #. type: \b; header
 #: scene502-help/mhsaari2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Из центра управления миссии"
 
 #. type: Plain text
 #: scene502-help/mhsaari2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Eliminate all hostile presence from the region."
-msgstr ""
+msgstr "Уничтожьте в этом регионе все враждебно настроенные существа."
 
 #. type: Plain text
 #: scene502-help/mhsaari2.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
-msgstr ""
+msgstr "Нас очень интересует ваше текущее положение. Спутник заметил огромные силы врага, приближающиеся к вашему кораблю со всех сторон. Действуйте так, как следует действовать в подобных ситуациях, используйте самую эффективную оборону: <a object|tower>защитные башни</a> или <a object|botfr>стрелков</a>."
 
 #. type: Plain text
 #: scene502-help/mhsaari2.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
-msgstr ""
+msgstr "Чтобы увеличить ваши шансы на выживание, мы разработали программу, которая будет защищать ваш западный фланг, если вы запустите ее на своем <a object|botfr>колесном стрелке</a>; просмотрите страницу программы <button 53/>."
 
 #. type: Plain text
 #: scene502-help/mhsaari2.txt:9
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
 
 #. type: \t; header
 #: scene502-help/mhsaari2.txt:10 scene502-help/mssaari2.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: scene502-help/mhsaari2.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 
 #. type: \b; header
 #: scene502-help/misaari2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Сообщение со спутника"
 
 #. type: Plain text
 #: scene502-help/misaari2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr ""
+msgstr "Геостацианарная орбита Саари."
 
 #. type: \s; block (usually verbatim code)
 #: scene502-help/misaari2.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> ПОВЕРХНОСТЬ<c/>"
 
 #. type: Plain text
 #: scene502-help/misaari2.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      38.4C\n"
 "\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
@@ -104,51 +104,61 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Температура:      38.4C\n"
+"\\tab;Атмосфера:       CO2, кислород, азот\n"
+"\\tab;Ветер:             1.4 м/с\n"
+"\\tab;Титановая руда:     немного\n"
+"\\tab;Урановая руда:      нет"
 
 #. type: \s; block (usually verbatim code)
 #: scene502-help/misaari2.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> ПОДПОЧВА<c/>"
 
 #. type: Plain text
 #: scene502-help/misaari2.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    everywhere\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Источники энергии:    везде\n"
+"\\tab;Титановая руда:     нет\n"
+"\\tab;Урановая руда:      нет"
 
 #. type: \s; block (usually verbatim code)
 #: scene502-help/misaari2.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ<c/>"
 
 #. type: Plain text
 #: scene502-help/misaari2.txt:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants approaching \n"
 "\\tab;  - Danger:       yes, immediate"
 msgstr ""
+"\\tab;Замечено:         приближающиеся гигантские муравьи\n"
+"\\tab;  - Опасность:       есть, прямая"
 
 #. type: \b; header
 #: scene502-help/mlsaari2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Программы, отправленные Хьюстоном"
 
 #. type: Plain text
 #: scene502-help/mlsaari2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
-msgstr ""
+msgstr "Немедленно запустите программу <code>KillAnt1</code> на вашем <a object|botfr>колесном стрелке</a>, он будет защищать ваш западный фланг. Тем временем вы можете детально разработать свою оборонительную стратегию."
 
 #. type: \s; block (usually verbatim code)
 #: scene502-help/mlsaari2.txt:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::KillAnt1()\n"
 "{\n"
@@ -169,75 +179,93 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // информация об объекте\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // идти на запад\n"
+"\t<a cbot|aim>aim</a>(0);                  // прицелиться прямо\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // повторять всегда:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // замечен муравей ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // выстрел 0.5 с\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // ждать 1 секунду\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: scene502-help/mlsaari2.txt:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Архивы"
 
 #. type: Plain text
 #: scene502-help/mlsaari2.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Список программ, отправленных в предыдущих миссиях"
 
 #. type: Bullet: 'o'
 #: scene502-help/mlsaari2.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene502-help/mlsaari2.txt:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene502-help/mlsaari2.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene502-help/mlsaari2.txt:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene502-help/mlsaari2.txt:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene502-help/mssaari2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Помощь"
 
 #. type: Plain text
 #: scene502-help/mssaari2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
-msgstr ""
+msgstr "Немедленно запустите программу <code>KillAnt1</code> на <a object|botfr>колесном стрелке</a>; он будет отвечать за отражение первой атаки, которая надвигается с запада."
 
 #. type: Plain text
 #: scene502-help/mssaari2.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
-msgstr ""
+msgstr "После этого постройте две <a object|tower>защитные башни</a>, одну на севере от <a object|base>космического корабля</a>, а другую на юге (вы должны сделать это очень быстро). Пока <a object|human>вы</a> занимаетесь постройкой, используйте <a object|botgr>сборщика</a> чтобы получить <a object|power>батарею</a>."
 
 #. type: Plain text
 #: scene502-help/mssaari2.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
-msgstr ""
+msgstr "После того, как будут отражены атаки, в которых примет участие более пятнадцати <a object|ant>муравьев</a>, у вас появится время чтобы разобраться с теми муравьями, которые не принимали участие в атаке. Постройте <a object|radar>радар</a> чтобы их обнаружить. Постройте также <a object|convert>преобразователь</a>, <a object|factory>фабрику ботов</a>, <a object|station>электростанцию</a> и <a object|botfj>крылатого стрелка</a>, чтобы избавиться от них..."
 
 #. type: Plain text
 #: scene502-help/mssaari2.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Управление</a>"

@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,121 +45,132 @@ msgstr "train301:Déplace"
 
 #. type: \b; header
 #: train301-help/tmove1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program the robot in such a way that it arrives on the finishing pad, after having passed by the three blue crosses."
-msgstr ""
+msgstr "Déplacer le robot d'entraînement sur la plate-forme d'arrivée, en passant par les 3 croix bleues."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Marche à suivre"
 
 #. type: Bullet: '1)'
 #: train301-help/tmove1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Take the power cell and put it on the rear of the bot."
-msgstr ""
+msgstr "Sélectionner le <a object|human>cosmonaute</a> en cliquant le bouton <button 136/> en haut à gauche."
 
 #. type: Bullet: '2)'
 #: train301-help/tmove1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walk around on reconnaissance to understand what the bot must do. "
-msgstr ""
+msgstr "Se promener pour étudier le chemin à suivre."
 
 #. type: Bullet: '3)'
 #: train301-help/tmove1.txt:7
-#, no-wrap
-msgid "Program the bot. To do so, you must select it, and then click on the braces button \\button 22;; you will get into the program editor."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Program the bot. To do so, you must select it, and then click on the braces button <button 22/>; you will get into the program editor."
+msgstr "Sélectionner le <a object|bottr>robot</a> en cliquant le bouton <button 158/> en haut à gauche."
 
 #. type: Bullet: '4)'
 #: train301-help/tmove1.txt:8
-#, no-wrap
-msgid "Once you finished writing the program, click \"OK\", and execute the program with the arrow key \\button 21;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Once you finished writing the program, click \"OK\", and execute the program with the arrow key <button 21/>."
+msgstr "Programmer le robot en cliquant sur le bouton <button 22/>. Exécuter le programme <button 21/>."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programme"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "The pads are at a distance of 20 meters from each other.\n"
 "The instruction <c/>move(20);<n/> moves 20 meters forward. \n"
 "The instruction <c/>turn(90);<n/> turns left with an angle of 90 degrees. \n"
 "The instruction <c/>turn(-90);<n/> turns right with an angle of 90 degrees. "
 msgstr ""
+"Les plates-formes et les indicateurs sont tous distants de 20 mètres.\n"
+"L'instruction <c/>move(20);<n/> avance de 20 mètres.\n"
+"L'instruction <c/>turn(90);<n/> tourne à gauche de 90 degrés.\n"
+"L'instruction <c/>turn(-90);<n/> tourne à droite de 90 degrés."
 
 #. type: Plain text
 #: train301-help/tmove1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The frame of the program consists in:"
-msgstr ""
+msgstr "Le corps du programme est constitué de:"
 
 #. type: \s; block (usually verbatim code)
 #: train301-help/tmove1.txt:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\textern void object::MoveBot( )\n"
 "\t{\n"
 "\t\t<n/>\\\\write the necessary instructions here ...<c/>\n"
 "\t}"
 msgstr ""
+"extern void object::Go( )\n"
+"{\n"
+"\t<n/>à compléter ...<c/>\n"
+"}"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "For now, you must not change the frame of the program. Just insert the instructions you need to move the bot around between the braces <code>{ }</code>."
-msgstr ""
+msgstr "Vous ne devez pas modifier ces caractères, pour l'instant. Les instructions doivent être données entre les accolades <code>{ }</code>."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Attention"
-msgstr ""
+msgstr "Remarques"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Be very careful about upper case and lower case letters!\n"
 "Every instruction must be terminated with a semicolon. "
 msgstr ""
+"Attention de respecter les majuscules et les minuscules!\n"
+"Chaque instruction est terminée par un point-virgule.\n"
+"Vous pouvez mettre plusieurs instructions par ligne, ou chaque instruction sur une ligne."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Helpful trick"
-msgstr ""
+msgstr "Astuce"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:31
-#, no-wrap
-msgid "When you write the program, you can watch the scene by clicking on the button <Reduce> \\button 51;, and by moving the mouse to the edges of the window to turn the camera. "
-msgstr ""
+#, fuzzy, no-wrap
+msgid "When you write the program, you can watch the scene by clicking on the button <Reduce> <button 51/>, and by moving the mouse to the edges of the window to turn the camera. "
+msgstr "Pendant l'édition du programme, vous pouvez observer la scène en cliquant le bouton <Taille réduite> <button 51/>, puis en déplaçant la souris dans les bords de la fenêtre."
 
 #. type: \t; header
 #: train301-help/tmove1.txt:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tsquare2>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train300:Fundamentals"
@@ -183,7 +194,9 @@ msgstr ""
 
 #
 #~ msgid "train302:Use variables in order to store the parameters of the path."
-#~ msgstr "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant des variables."
+#~ msgstr ""
+#~ "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant "
+#~ "des variables."
 
 #
 #~ msgid "train302:Move"
@@ -214,8 +227,11 @@ msgstr ""
 #~ msgstr "train304:"
 
 #
-#~ msgid "train304:Collect valuable information from information exchange posts."
-#~ msgstr "train304:Récolter une information de direction, afin d'apprendre le concept de variable."
+#~ msgid ""
+#~ "train304:Collect valuable information from information exchange posts."
+#~ msgstr ""
+#~ "train304:Récolter une information de direction, afin d'apprendre le "
+#~ "concept de variable."
 
 #
 #~ msgid "train304:Info"
@@ -230,8 +246,12 @@ msgstr ""
 #~ msgstr "train305:"
 
 #
-#~ msgid "train305:Collect more valuable information from information exchange posts."
-#~ msgstr "train305:Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+#~ msgid ""
+#~ "train305:Collect more valuable information from information exchange "
+#~ "posts."
+#~ msgstr ""
+#~ "train305:Récolter des informations de direction et de distance, afin "
+#~ "d'apprendre le concept de variable."
 
 #
 #~ msgid "train305:Info"
@@ -247,7 +267,9 @@ msgstr ""
 
 #
 #~ msgid "train306:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "train306:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "train306:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "train306:Labyrinth"
@@ -263,7 +285,9 @@ msgstr ""
 
 #
 #~ msgid "train307:Teach your bot to do the same job in a more autonomous way."
-#~ msgstr "train307:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "train307:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "train307:Labyrinth"
@@ -279,7 +303,9 @@ msgstr ""
 
 #
 #~ msgid "train308:Instruct your bot to search a zone for subsoil resources."
-#~ msgstr "train308:Recherche de minerai en sous-sol en programmant un robot pour quadriller une zone."
+#~ msgstr ""
+#~ "train308:Recherche de minerai en sous-sol en programmant un robot pour "
+#~ "quadriller une zone."
 
 #
 #~ msgid "train308:Digger"
@@ -294,8 +320,11 @@ msgstr ""
 #~ msgstr "train309:"
 
 #
-#~ msgid "train309:Remote control a robot using an information exchange post, so it will transport uranium ore."
-#~ msgstr "train309:Télécommandez un robot par le biais d'une borne d'information."
+#~ msgid ""
+#~ "train309:Remote control a robot using an information exchange post, so it "
+#~ "will transport uranium ore."
+#~ msgstr ""
+#~ "train309:Télécommandez un robot par le biais d'une borne d'information."
 
 #
 #~ msgid "train309:remote"

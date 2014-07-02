@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,61 +38,61 @@ msgstr "scene402:Użyj zasobów planety do walki z robalem roznoszącym wirusy."
 #: scene402-help/mhcrys2.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene402-help/mhcrys2.txt:3
 #, no-wrap
 msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
-msgstr ""
+msgstr "Oczyść teren ze wszystkich wrogich organizmów. Sposób wykonania zadania (<a object|tower>wieża obronna</a> lub <a object|botfj>działo latające</a>) zależy od Ciebie."
 
 #. type: Plain text
 #: scene402-help/mhcrys2.txt:5
 #, no-wrap
 msgid "The radar seems to be perfectly suited to the detection of worms. Keep in mind though that they only appear when they are on the surface."
-msgstr ""
+msgstr "Wygląda na to, że radar jest idealnie przystosowany do wykrywania robali. Należy jednak pamiętać, że widoczne są tylko te przebywające na powierzchni."
 
 #. type: Plain text
 #: scene402-help/mhcrys2.txt:7
 #, no-wrap
 msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
-msgstr ""
+msgstr "Przesłaliśmy transmisję do Twojej <a object|factory>fabryki robotów</a>. Dotyczy ona robota zaprojektowanego do wykrywania surowców w podglebiu: źródeł energii i rudy. Dla uproszczenia nazwaliśmy go <a object|botsr>szperaczem</a>. Na podstawie wstępnych analiz przypuszczamy, że występowanie rudy tytanu na Krystalii jest ściśle związane z występowaniem wielkich niebieskich kryształów. Jeśli to prawda, informacja ta pozwoli Ci zaoszczędzić nieco cennego czasu. Oczywiście do wydobycia rudy niezbędna jest <a object|derrick>kopalnia</a>."
 
 #. type: Plain text
 #: scene402-help/mhcrys2.txt:9
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene402-help/mhcrys2.txt:10 scene402-help/mscrys2.txt:16
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene402-help/mhcrys2.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene402-help/micrys2.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene402-help/micrys2.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Krystalia."
 
 #. type: \s; block (usually verbatim code)
 #: scene402-help/micrys2.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene402-help/micrys2.txt:10
@@ -104,12 +104,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      3,2C\n"
+"\\tab;Atmosfera:        azot\n"
+"\\tab;Wiatr:            0,0 m/s\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene402-help/micrys2.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene402-help/micrys2.txt:15
@@ -119,12 +124,15 @@ msgid ""
 "\\tab;Titanium ore:     scattered\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   odizolowane (blisko statku kosmicznego)\n"
+"\\tab;Ruda tytanu:      rozproszona\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene402-help/micrys2.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene402-help/micrys2.txt:19
@@ -133,12 +141,14 @@ msgid ""
 "\\tab;Detected:         worms\n"
 "\\tab;  - Danger:       no"
 msgstr ""
+"\\tab;Wykryto:          robale\n"
+"\\tab;  - Zagrożenie:   nie"
 
 #. type: \b; header
 #: scene402-help/mlcrys2.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene402-help/mlcrys2.txt:4
@@ -147,12 +157,14 @@ msgid ""
 "Below is one of the programs that has been developed by our engineers.\n"
 "An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
 msgstr ""
+"Poniżej znajdziesz jeden z programów napisanych przez naszych inżynierów.\n"
+"Poprzedni program został usprawniony: jeśli to konieczne <a object|botgr>transporter</a> w drodze powrotnej odwiedza <a object|station>stację energetyczną</a> w celu naładowania ogniwa elektrycznego."
 
 #. type: Plain text
 #: scene402-help/mlcrys2.txt:6
 #, no-wrap
 msgid "This program also works on <a object|botgj>winged grabbers</a>, if the <a object|derrick>derrick</a> is on another island than the <a object|convert>converter</a>."
-msgstr ""
+msgstr "Program ten działa również na <a object|botgj>transporterze latającym</a>, co może być konieczne jeśli <a object|derrick>kopalnia</a> jest na innej wyspie niż <a object|convert>huta</a>."
 
 #. type: \s; block (usually verbatim code)
 #: scene402-help/mlcrys2.txt:31
@@ -183,117 +195,141 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Definicja zmiennej\n"
+"\t<a cbot|type>object</a>  item;            // informacja o obiekcie\n"
+"\t\n"
+"\t// 2) Idź do rudy tytanu i podnieś ją\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// znajdź rudę tytanu\n"
+"\t<a cbot|goto>goto</a>(item.position);     // idź do pozycji\n"
+"\t<a cbot|grab>grab</a>();                  // podnieś porcję rudy\n"
+"\t\n"
+"\t// 3) Idź do huty i zostaw rudę\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // znajdź hutę\n"
+"\t<a cbot|goto>goto</a>(item.position);     // idź do pozycji\n"
+"\t<a cbot|drop>drop</a>();                  // zostaw rudę\n"
+"\t<a cbot|move>move</a>(-2.5);              // cofnij się o 2,5 m\n"
+"\t\t\n"
+"\t// 4) Naładuj ogniwo elektryczne, jeśli jest w połowie zużyte\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // jeśli tak:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // znajdź stację energetyczną\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // idź tam\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // poczekaj\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: scene402-help/mlcrys2.txt:32
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene402-help/mlcrys2.txt:34
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene402-help/mlcrys2.txt:35
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene402-help/mlcrys2.txt:36
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene402-help/mlcrys2.txt:37
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene402-help/mlcrys2.txt:38
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene402-help/mscrys2.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Bullet: '1)'
 #: scene402-help/mscrys2.txt:2
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Zbuduj <a object|factory>fabrykę robotów</a>."
 
 #. type: Bullet: '2)'
 #: scene402-help/mscrys2.txt:3
 #, no-wrap
 msgid "Produce a <a object|botsj>winged sniffer</a>."
-msgstr ""
+msgstr "Zbuduj <a object|botsj>szperacza latającego</a>."
 
 #. type: Bullet: '3)'
 #: scene402-help/mscrys2.txt:4
 #, no-wrap
 msgid "Sniff the ground near the large crystals until you get a <a object|stonspot>red cross</a>."
-msgstr ""
+msgstr "Przebadaj ziemię w pobliżu ogromnych kryształów, aż pojawi się <a object|stonspot>czerwony plus</a>."
 
 #. type: Bullet: '4)'
 #: scene402-help/mscrys2.txt:5
 #, no-wrap
 msgid "Build a <a object|derrick>derrick</a> near the red cross."
-msgstr ""
+msgstr "Zbuduj <a object|derrick>kopalnię</a> w pobliżu czerwonego plusa."
 
 #. type: Bullet: '5)'
 #: scene402-help/mscrys2.txt:6
 #, no-wrap
 msgid "Build a <a object|convert>converter</a>."
-msgstr ""
+msgstr "Zbuduj <a object|convert>hutę</a>."
 
 #. type: Plain text
 #: scene402-help/mscrys2.txt:9
 #, no-wrap
 msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
-msgstr ""
+msgstr "Zbudowanie pary kopalni i huty zapewnia nieograniczone zaopatrzenie w <a object|titan>tytan</a>. Aby zostawić to zadanie robotowi, uruchom program <code>CollectTitanium2</code>."
 
 #. type: Bullet: '6)'
 #: scene402-help/mscrys2.txt:10
 #, no-wrap
 msgid "Sniff the area at the foot of the spaceship. A <a object|enerspot>green cross</a> means you can build a <a object|station>power station</a> on the spot."
-msgstr ""
+msgstr "Przebadaj obszar w pobliżu statku kosmicznego. <a object|enerspot>Zielony plus</a> oznacza miejsce, w którym można zbudować <a object|station>stację energetyczną</a>."
 
 #. type: Bullet: '7)'
 #: scene402-help/mscrys2.txt:11
 #, no-wrap
 msgid "Build a <a object|radar>radar</a>."
-msgstr ""
+msgstr "Zbuduj <a object|radar>radar</a>."
 
 #. type: Bullet: '8)'
 #: scene402-help/mscrys2.txt:12
 #, no-wrap
 msgid "Produce a <a object|botfj>winged shooter</a>."
-msgstr ""
+msgstr "Zbuduj <a object|botfj>działo latające</a>."
 
 #. type: Bullet: '9)'
 #: scene402-help/mscrys2.txt:13
 #, no-wrap
 msgid "Eliminate all worms."
-msgstr ""
+msgstr "Zabij wszystkie robale."
 
 #. type: Plain text
 #: scene402-help/mscrys2.txt:15
 #, no-wrap
 msgid "10) Go back to your ship and take off."
-msgstr ""
+msgstr "10) Wróć na statek i odleć."
 
 #. type: Plain text
 #: scene402-help/mscrys2.txt:17
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

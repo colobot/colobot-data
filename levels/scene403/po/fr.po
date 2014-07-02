@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,61 +38,61 @@ msgstr "scene403:Poursuivez un robot fou."
 
 #. type: \b; header
 #: scene403-help/mhcrys3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: scene403-help/mhcrys3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We have just received this warning from the observation satellite: a rogue bot from the previous expedition has seized the black box from your spaceship."
-msgstr ""
+msgstr "Le satellite d'observation nous a transmis qu'un robot volant provenant de la première expédition a pris la <a object|bbox>boîte noire</a> de votre vaisseau et est en train de l'emporter."
 
 #. type: Plain text
 #: scene403-help/mhcrys3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We are going to investigate this incident further but it is of vital importance that you retrieve your black box at once."
-msgstr ""
+msgstr "Ramenez-la à tout prix sur votre vaisseau. Nous allons investiguer sur les causes de cet incident qui peut mettre en danger votre mission."
 
 #. type: Plain text
 #: scene403-help/mhcrys3.txt:7
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
 #: scene403-help/mhcrys3.txt:8 scene403-help/mscrys3.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene403-help/mhcrys3.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene403-help/micrys3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Rapport du satellite"
 
 #. type: Plain text
 #: scene403-help/micrys3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr ""
+msgstr "En orbite géostationnaire autour de Crystalium."
 
 #. type: \s; block (usually verbatim code)
 #: scene403-help/micrys3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> SURFACE<c/>"
 
 #. type: Plain text
 #: scene403-help/micrys3.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      4.3C\n"
 "\\tab;Atmosphere:       nitrogen\n"
@@ -100,115 +100,129 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Température:      4.3 degrés\n"
+"\\tab;Atmosphère:       azote\n"
+"\\tab;Vent:             0.0 m/s\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene403-help/micrys3.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> SOUS-SOL<c/>"
 
 #. type: Plain text
 #: scene403-help/micrys3.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energie:          aucune\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene403-help/micrys3.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> INFORMATIONS SPECIALES<c/>"
 
 #. type: Plain text
 #: scene403-help/micrys3.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Détecté:          robot fou\n"
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;                  organismes inconnus\n"
+"\\tab;  - Danger:      ?"
 
 #. type: \b; header
 #: scene403-help/mlcrys3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programmes envoyés par Houston"
 
 #. type: Plain text
 #: scene403-help/mlcrys3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
 msgstr ""
+"Nous ne vous avons envoyé aucun programme pour cette mission.\n"
+"A vous de faire ceux qui peuvent vous rendre service!"
 
 #. type: \b; header
 #: scene403-help/mlcrys3.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #. type: Plain text
 #: scene403-help/mlcrys3.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Résumé des programmes déjà reçus:"
 
 #. type: Bullet: 'o'
 #: scene403-help/mlcrys3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>ApporteTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene403-help/mlcrys3.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>ApporteTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene403-help/mlcrys3.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene403-help/mlcrys3.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene403-help/mlcrys3.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>EchangePile1</a></code>"
 
 #. type: \b; header
 #: scene403-help/mscrys3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Solution"
 
 #. type: Plain text
 #: scene403-help/mscrys3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you lose the bot, it will drop the black box somewhere southwest of your spaceship on a region surrounded by crystals."
-msgstr ""
+msgstr "Si vous n'arrivez pas à suivre le robot, sachez qu'il va poser la <a object|bbox>boîte noire</a> quelque part au sud-ouest du <a object|base>vaisseau spatial</a>, dans une zone entourée de cristaux."
 
 #. type: Plain text
 #: scene403-help/mscrys3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case your power runs out before you can bring the black box back, use the second grabber left on the spaceship."
-msgstr ""
+msgstr "S'il ne vous reste pas assez d'énergie pour ramener la <a object|bbox>boîte noire</a>, utilisez le <a object|botgj>robot</a> resté sur le <a object|base>vaisseau spatial</a>."
 
 #. type: Plain text
 #: scene403-help/mscrys3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #
 #~ msgid "scene400:On Crystalium"
@@ -232,7 +246,9 @@ msgstr ""
 
 #
 #~ msgid "scene401:A new bug threatens all your systems."
-#~ msgstr "scene401:Construisez un radar qui fera office de station relais pour les communications avec la terre, et assurez sa sécurité."
+#~ msgstr ""
+#~ "scene401:Construisez un radar qui fera office de station relais pour les "
+#~ "communications avec la terre, et assurez sa sécurité."
 
 #
 #~ msgid "scene402:Subterranean strategy"
@@ -243,7 +259,8 @@ msgstr ""
 #~ msgstr "scene402:"
 
 #
-#~ msgid "scene402:Use the planet's resources to combat the virus-spreading worms."
+#~ msgid ""
+#~ "scene402:Use the planet's resources to combat the virus-spreading worms."
 #~ msgstr "scene402:Eliminez tous les vers de la région."
 
 #
@@ -260,4 +277,6 @@ msgstr ""
 
 #
 #~ msgid "scene404:Explore a foggy and perilous valley."
-#~ msgstr "scene404:Récupérer la boîte noire dans une vallée profonde et remplie de brouillard."
+#~ msgstr ""
+#~ "scene404:Récupérer la boîte noire dans une vallée profonde et remplie de "
+#~ "brouillard."

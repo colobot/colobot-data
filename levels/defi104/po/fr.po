@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,43 +45,47 @@ msgstr "defi104:Labyrinthe"
 
 #. type: \b; header
 #: defi104-help/dlaby1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
-msgstr ""
+msgstr "Programmez le <a object|bottr>robot</a> pour qu'il avance sans se cogner dans un labyrinthe. On part du principe que le labyrinthe n'est pas connu d'avance, et qu'il n'est constitué que d'un chemin, sans aucune bifurcation ni cul-de-sac. Les cases du labyrinthe sont des carrés mesurant 5 mètres de côté."
 
 #. type: \b; header
 #: defi104-help/dlaby1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Instructions utiles"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a></code> to detect obstacles\n"
 "<code><a cbot|if>if</a></code> to test a condition\n"
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> pour détecter un obstacle\n"
+"<code><a cbot|if>if</a></code> pour test une condition\n"
+"<code><a cbot|move>move</a></code> pour avancer le robot\n"
+"<code><a cbot|turn>turn</a></code> pour tourner le robot"
 
 #. type: \t; header
 #: defi104-help/dlaby1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -132,7 +136,9 @@ msgstr ""
 #~ msgstr "defi103:"
 
 #
-#~ msgid "defi103:Collect lots of valuable information from information exchange posts."
+#~ msgid ""
+#~ "defi103:Collect lots of valuable information from information exchange "
+#~ "posts."
 #~ msgstr "defi103:Récolter des informations de direction et de distance."
 
 #
@@ -164,8 +170,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -212,8 +222,12 @@ msgstr ""
 #~ msgstr "defi204:"
 
 #
-#~ msgid "defi204:Use your radar to look for various items, but watch out for the mines."
-#~ msgstr "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+#~ msgid ""
+#~ "defi204:Use your radar to look for various items, but watch out for the "
+#~ "mines."
+#~ msgstr ""
+#~ "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, "
+#~ "en évitant les bombes."
 
 #
 #~ msgid "defi204:Traps"
@@ -256,7 +270,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -272,7 +288,8 @@ msgstr ""
 #~ msgstr "defi302:"
 
 #
-#~ msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+#~ msgid ""
+#~ "defi302:Try to figure out how to move the titanium cube across obstacles."
 #~ msgstr "defi302:Déplacer un cube de métal par dessus des obstacles."
 
 #
@@ -312,7 +329,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #

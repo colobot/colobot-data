@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,35 +44,29 @@ msgstr "train504:Poruszanie"
 #: train504-help/tremova4.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:3
 #, no-wrap
-msgid ""
-"Move the <a object|titan>titanium cube</a> on the finishing pad. You do not "
-"know the position of the titanium, but we can tell you the position of the "
-"finishing pad x=10 and y=-60."
-msgstr ""
+msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
+msgstr "Przenieś <a object|titan>kostkę tytanu</a> na platformę końcową. Pozycja tytanu nie jest znana, ale współrzędne platformy końcowej to: x=10, y=-60."
 
 #. type: \b; header
 #: train504-help/tremova4.txt:4
 #, no-wrap
 msgid "The instruction <code>goto</code>"
-msgstr ""
+msgstr "Instrukcja <code>goto</code>"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:7
 #, no-wrap
 msgid ""
-"The winged bot can get across obstacles. The instruction <code><a "
-"cbot|goto>goto</a></code>, if performed on a winged bot, will automatically "
-"perform a flying move, with a take-off at the beginning, and a landing at "
-"the end.\n"
-"This instruction can actually receive a second parameter, which is not "
-"compulsory: the flying altitude. If no second parameter is given, the flying "
-"altitude will be set to the default value of 10m."
+"The winged bot can get across obstacles. The instruction <code><a cbot|goto>goto</a></code>, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.\n"
+"This instruction can actually receive a second parameter, which is not compulsory: the flying altitude. If no second parameter is given, the flying altitude will be set to the default value of 10m."
 msgstr ""
+"Robot latający może omijać przeszkody. Instrukcja <code><a cbot|goto>goto</a></code>, wykonana przez robota latającego automatycznie spowoduje jego lot, start na początku trasy  i lądowanie na jej końcu.\n"
+"Instrukcja ta może w rzeczywistości otrzymać również drugi parametr, który jednak nie jest obowiązkowy. Jeśli nie zostanie podany drugi parametr, przyjęta zostanie domyślna wysokość lotu równa 10 metrów."
 
 #. type: Plain text
 #: train504-help/tremova4.txt:10
@@ -81,6 +75,8 @@ msgid ""
 "Therefore, the instruction:\n"
 "<c/><s/>goto(item.position);<n/>"
 msgstr ""
+"Wobec czego, instrukcja:\n"
+"<c/><s/>goto(item.position);<n/>"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:13
@@ -89,23 +85,20 @@ msgid ""
 "Is equivalent to:\n"
 "<c/><s/>goto(item.position, 10);<n/>"
 msgstr ""
+"Jest równoważna:\n"
+"<c/><s/>goto(item.position, 10);<n/>"
 
 #. type: \b; header
 #: train504-help/tremova4.txt:14
 #, no-wrap
 msgid "The program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:16
 #, no-wrap
-msgid ""
-"Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to "
-"find the titanium cube. Then test if a titanium cube has actually been "
-"found. In this exercise, this line is not very useful, because we know that "
-"there is a titanium cube somewhere. However, it is better to take the habit "
-"of testing whatever your radar returns:"
-msgstr ""
+msgid "Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:"
+msgstr "Użyj instrukcji <c/><a cbot|radar>radar</a>(Titanium);<n/> do znalezienia kostki tytanu. Następnie sprawdź, czy kostka tytanu rzeczywiście została znaleziona. W tym ćwiczeniu ta linia nie jest bardzo przydatna, gdyż wiadomo, że gdzieś jest kostka tytanu. Jednakże warto wyrobić sobie nawyk sprawdzania danych podawanych przez radar:"
 
 #. type: \s; block (usually verbatim code)
 #: train504-help/tremova4.txt:21
@@ -116,60 +109,53 @@ msgid ""
 "if ( item == null )  return;\n"
 "goto(item.position);"
 msgstr ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:23
 #, no-wrap
-msgid ""
-"The variable <code>item</code> is of type <code><a "
-"cbot|object>object</a></code>. In order to know the exact location of the "
-"object described by the variable, just write <code>item.position</code>."
-msgstr ""
+msgid "The variable <code>item</code> is of type <code><a cbot|object>object</a></code>. In order to know the exact location of the object described by the variable, just write <code>item.position</code>."
+msgstr "Zmienna <code>item</code> jest typu <code><a cbot|object>object</a></code>. Aby poznać dokładną pozycję obiektu opisywanego przez zmienną, wystarczy napisać <code>item.position</code>."
 
 #. type: Plain text
 #: train504-help/tremova4.txt:25
 #, no-wrap
-msgid ""
-"In order to take the titanium cube, use the instruction <code><a "
-"cbot|grab>grab</a>()</code> without any parameter."
-msgstr ""
+msgid "In order to take the titanium cube, use the instruction <code><a cbot|grab>grab</a>()</code> without any parameter."
+msgstr "Do podniesienia kostki tytanu użyj instrukcji <code><a cbot|grab>grab</a>()</code> bez parametrów."
 
 #. type: Plain text
 #: train504-help/tremova4.txt:27
 #, no-wrap
-msgid ""
-"In order to drop the titanium, use the instruction <code><a "
-"cbot|drop>drop</a>()</code> without any parameter."
-msgstr ""
+msgid "In order to drop the titanium, use the instruction <code><a cbot|drop>drop</a>()</code> without any parameter."
+msgstr "Do upuszczenia tytanu użyj instrukcji <code><a cbot|drop>drop</a>()</code> bez parametrów."
 
 #. type: Plain text
 #: train504-help/tremova4.txt:30
 #, no-wrap
 msgid ""
-"We know the coordinates of the finishing pad: x=10 et y=-60. You must "
-"declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then "
-"fill it with the right coordinates. Then you can give this variable as a "
-"parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
-"Remark: You do not have to take care of the <code>z</code> coordinate in the "
-"case of a bot that can not fly."
+"We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
+"Remark: You do not have to take care of the <code>z</code> coordinate in the case of a bot that can not fly."
 msgstr ""
+"Współrzędne platformy końcowej to: x=10, y=-60. Należy zadeklarować <a cbot|var>zmienną</a> typu <a cbot|point>point</a>, a następnie przypisać jej odpowiednie współrzędne. Później można ją podać jako parametr instrukcji <code><a cbot|goto>goto</a></code>.\n"
+"Wskazówka: Nie musisz się przejmować współrzędną <code>z</code> w przypadku robotów nie potrafiących latać."
 
 #. type: Plain text
 #: train504-help/tremova4.txt:32
 #, no-wrap
 msgid "It is now up to you to finish the program..."
-msgstr ""
+msgstr "Do Ciebie należy dokończenie programu..."
 
 #. type: \t; header
 #: train504-help/tremova4.txt:33
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train504-help/tremova4.txt:34
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

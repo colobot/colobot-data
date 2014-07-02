@@ -3,10 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:37+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,30 +42,30 @@ msgstr "defi205:Ловушки"
 
 #. type: \b; header
 #: defi205-help/dtrap2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Упражнение"
 
 #. type: Plain text
 #: defi205-help/dtrap2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Instruct your <a object|bottr>bot</a> to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>."
-msgstr ""
+msgstr "Заставьте <a object|bottr>бота</a> отыскать на земле все <a object|waypoint>синие кресты</a>, но не подходите слишком близко к <a object|mine>минам</a>."
 
 #. type: Plain text
 #: defi205-help/dtrap2.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If a bot gets within less than 2m of the center of a mine (which is the position returned by the radar instruction), il will blow up. However, you must take into account the inertia of the bot. Probably a safety distance of 3 to 3.5m would be more appropriate."
-msgstr ""
+msgstr "Если бот находится у мины на расстоянии менее 2 метров (которое является местом, возвращенным инструкцией радара), то она взрывается. Тем не менее, вы должны учитывать инерцию бота. Более безопасной будет дистанция в 3 - 3.5 м."
 
 #. type: \t; header
 #: defi205-help/dtrap2.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: defi205-help/dtrap2.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

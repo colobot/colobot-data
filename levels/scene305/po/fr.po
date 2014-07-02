@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,61 +38,61 @@ msgstr "scene305:Explorez les fonds marins à la recherche d'une boîte noire."
 
 #. type: \b; header
 #: scene305-help/mhtropi5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: scene305-help/mhtropi5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
-msgstr ""
+msgstr "Retrouvez et ramenez la <a object|bbox>boîte noire</a> de l'expédition précédente."
 
 #. type: Plain text
 #: scene305-help/mhtropi5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The observation satellite seems to have spotted it underwater. Water is harmless to you as long as you wear your helmet but keep in mind that you can't carry objects underwater. A <a object|botsub>subber</a> may come in handy."
-msgstr ""
+msgstr "Le satellite d'observation semble l'avoir localisée sous l'eau. Cette eau est sans danger pour votre scaphandre, mais vous ne pouvez pas porter des objets sous l'eau. Pour cette tâche, vous aurez besoin d'un robot <a object|botsub>sous-marin</a>."
 
 #. type: Plain text
 #: scene305-help/mhtropi5.txt:7
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
 #: scene305-help/mhtropi5.txt:8 scene305-help/mstropi5.txt:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene305-help/mhtropi5.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene305-help/mitropi5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Rapport du satellite"
 
 #. type: Plain text
 #: scene305-help/mitropi5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
-msgstr ""
+msgstr "En orbite géostationnaire autour de Tropica."
 
 #. type: \s; block (usually verbatim code)
 #: scene305-help/mitropi5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> SURFACE<c/>"
 
 #. type: Plain text
 #: scene305-help/mitropi5.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      29.4C\n"
 "\\tab;Atmosphere:       helium, oxygen\n"
@@ -100,145 +100,158 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Température:      29.4 degrés\n"
+"\\tab;Atmosphère:       hélium, oxygène\n"
+"\\tab;Vent:             0.3 m/s\n"
+"\\tab;Minerai titanium: par endroits\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene305-help/mitropi5.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> SOUS-SOL<c/>"
 
 #. type: Plain text
 #: scene305-help/mitropi5.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energie:          aucune\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene305-help/mitropi5.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> INFORMATIONS SPECIALES<c/>"
 
 #. type: Plain text
 #: scene305-help/mitropi5.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         titanium ore\n"
 "\\tab;  - Requires:     converter\n"
 "\\tab;Detected:         scattered derelicts\n"
 "\\tab;Detected:         black box (underwater)"
 msgstr ""
+"\\tab;Détecté:          minerai de titanium\n"
+"\\tab;  - Solution:     convertisseur (à construire)\n"
+"\\tab;Détecté:          boîte noire (sous l'eau)"
 
 #. type: \b; header
 #: scene305-help/mltropi5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programmes envoyés par Houston"
 
 #. type: Plain text
 #: scene305-help/mltropi5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
 msgstr ""
+"Nous ne vous avons envoyé aucun programme pour cette mission.\n"
+"A vous de faire ceux qui peuvent vous rendre service!"
 
 #. type: \b; header
 #: scene305-help/mltropi5.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #. type: Plain text
 #: scene305-help/mltropi5.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Résumé des programmes déjà reçus:"
 
 #. type: Bullet: 'o'
 #: scene305-help/mltropi5.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene305-help/mltropi5.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene305-help/mltropi5.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>EchangePile1</a></code>"
 
 #. type: \b; header
 #: scene305-help/mstropi5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Solution"
 
 #. type: Bullet: '1)'
 #: scene305-help/mstropi5.txt:2
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Locate the <a object|bbox>black box</a> on your own. You can try to spot it from above, using your jet engine, or dive into the water."
-msgstr ""
+msgstr "Cherchez la <a object|bbox>boîte noire</a> en volant et en nageant."
 
 #. type: Bullet: '2)'
 #: scene305-help/mstropi5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr ""
+msgstr "Construisez un <a object|convert>convertisseur</a> à proximité du <a object|titanore>minerai de titanium</a>."
 
 #. type: Bullet: '3)'
 #: scene305-help/mstropi5.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
-msgstr ""
+msgstr "Produisez 2 <a object|titan>cubes de titanium</a>."
 
 #. type: Bullet: '4)'
 #: scene305-help/mstropi5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr ""
+msgstr "Construisez une <a object|factory>fabrique de robots</a> à proximité de la <a object|bbox>boîte noire</a>."
 
 #. type: Bullet: '5)'
 #: scene305-help/mstropi5.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Manufacture a <a object|botsub>subber</a>."
-msgstr ""
+msgstr "Fabriquez un <a object|botsub>sous-marin</a>."
 
 #. type: Bullet: '6)'
 #: scene305-help/mstropi5.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bring the black box back on board."
-msgstr ""
+msgstr "Ramenez la <a object|bbox>boîte noire</a> sur le <a object|base>vaisseau spatial</a>."
 
 #. type: Bullet: '7)'
 #: scene305-help/mstropi5.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Take off."
-msgstr ""
+msgstr "Décollez."
 
 #. type: Plain text
 #: scene305-help/mstropi5.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The black box is lying at the bottom of a small lake, northeast of the spaceship."
-msgstr ""
+msgstr "La <a object|bbox>boîte noire</a> se trouve au fond du petit lac rond, au nord-est du vaisseau spatial."
 
 #. type: Plain text
 #: scene305-help/mstropi5.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr ""
+msgstr "Vous pouvez construire la <a object|factory>fabrique de robots</a> sur la rive sud du petit lac, ou à côté du vaisseau spatial."
 
 #. type: Plain text
 #: scene305-help/mstropi5.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #
 #~ msgid "scene300:On Tropica"
@@ -261,8 +274,11 @@ msgstr ""
 #~ msgstr "scene301:"
 
 #
-#~ msgid "scene301:Explore a tropical paradise looking for an explosive device."
-#~ msgstr "scene301:Explorez un paradis tropical à la recherche d'une caisse d'explosifs."
+#~ msgid ""
+#~ "scene301:Explore a tropical paradise looking for an explosive device."
+#~ msgstr ""
+#~ "scene301:Explorez un paradis tropical à la recherche d'une caisse "
+#~ "d'explosifs."
 
 #
 #~ msgid "scene302:Amnesia"
@@ -285,8 +301,11 @@ msgstr ""
 #~ msgstr "scene303:"
 
 #
-#~ msgid "scene303:Develop an offensive weapons system and confront the giant ants."
-#~ msgstr "scene303:Développez un système d'armement offensif pour pouvoir faire face aux fourmis géantes."
+#~ msgid ""
+#~ "scene303:Develop an offensive weapons system and confront the giant ants."
+#~ msgstr ""
+#~ "scene303:Développez un système d'armement offensif pour pouvoir faire "
+#~ "face aux fourmis géantes."
 
 #
 #~ msgid "scene304:Shooting Drill #1"

@@ -3,10 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:37+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,104 +42,112 @@ msgstr "defi204:Ловушки"
 
 #. type: \b; header
 #: defi204-help/dtrap1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Упражнение"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Instruct the bot to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>. When the bot passes over a cross, it disappears. Here is the general principle:"
-msgstr ""
+msgstr "Заставьте бота отыскать на земле все <a object|waypoint>синие кресты</a>, но не подходите слишком близко к <a object|mine>минам</a>. Когда бот проходит над крестом, тот исчезает. Ниже приведен общий принцип:"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\tRepeat forever:\n"
-msgstr ""
+msgstr "\tПовторять всегда:\n"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Look for a mine"
-msgstr ""
+msgstr "Искать мину"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If a mine has been found, calculate the opposite direction"
-msgstr ""
+msgstr "Если мина найдена, высчитать противоположное направление"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Look for a cross"
-msgstr ""
+msgstr "Искать крест"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If nothing has been found, stop the program"
-msgstr ""
+msgstr "Если ничего не найдено, остановить программу"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Calculate the direction of the cross"
-msgstr ""
+msgstr "Высчитать направление к кресту"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Calculate the mean value of the two directions"
-msgstr ""
+msgstr "Высчитать среднее значение двух направлений"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Set the motor speeds in order to head towards the mean direction"
-msgstr ""
+msgstr "Установить скорость движения, чтобы направляться в среднем направлении"
 
 #. type: \b; header
 #: defi204-help/dtrap1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The instruction <code>radar</code>"
-msgstr ""
+msgstr "Инструкция <code>radar</code>"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we recommend the following parameters:\n"
 "<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
 "With the opening angle of 180 degrees, mines that are behind the bot will not be found. Mines that are at more than 5 meters are also ignored."
 msgstr ""
+"Чтобы найти мину с помощью команды <code><a cbot|radar>radar</a></code>, мы рекомендуем использовать следующие параметры:\n"
+"<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
+"С углом в 180 градусов, мины, расположенные за ботом, обнаружены не будут. Будут также пропущены мины, имеющие размер более 5 метров."
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to find a blue cross, simply write:\n"
 "<c/><s/>\tradar(WayPoint);<n/>\n"
 "Blue crosses will be found everywhere."
 msgstr ""
+"Чтобы найти синий крест, просто напишите:\n"
+"<c/><s/>\tradar(WayPoint);<n/>\n"
+"Синие кресты будут найдены везде."
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to calculate a direction, use <code><a cbot|direct>direction</a></code>.\n"
 "In order to set the motor speeds, use <code><a cbot|motor>motor</a></code>."
 msgstr ""
+"Чтобы высчитать направление, используйте <code><a cbot|direct>direction</a></code>.\n"
+"Чтобы установить скорость движения, используйте команду <code><a cbot|motor>motor</a></code>."
 
 #. type: \t; header
 #: defi204-help/dtrap1.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,29 +44,25 @@ msgstr "train203:Poruszanie"
 #: train203-help/tant3.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train203-help/tant3.txt:3
 #, no-wrap
-msgid ""
-"Adapt the program <code>Tower1</code> in order to avoid wasting energy when "
-"shooting at ants that are out of range."
-msgstr ""
+msgid "Adapt the program <code>Tower1</code> in order to avoid wasting energy when shooting at ants that are out of range."
+msgstr "Aby zapobiec marnowaniu energii przystosuj program <code>Tower1</code> tak, aby nie strzelał do mrówek będących poza zasięgiem."
 
 #. type: \t; header
 #: train203-help/tant3.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train203-help/tant3.txt:6
 #, no-wrap
-msgid ""
-"The program <code>Tower1</code> shoots in the direction of the closest ant, "
-"even if it is still out of range:"
-msgstr ""
+msgid "The program <code>Tower1</code> shoots in the direction of the closest ant, even if it is still out of range:"
+msgstr "Program <code>Tower1</code> strzela w kierunku najbliższej mrówki, nawet jeśli wciąż jest ona poza zasięgiem:"
 
 #. type: \s; block (usually verbatim code)
 #: train203-help/tant3.txt:25
@@ -91,32 +87,36 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::Tower1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\titem = radar(AlienAnt);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: train203-help/tant3.txt:27
 #, no-wrap
-msgid ""
-"If the bot must perform the same task than before with only a <a "
-"object|power>regular power cell</a>, you can insert a loop that waits until "
-"the ant is close enough, i.e. until the ant is at less than 40 meters. Only "
-"one burst will be needed for every ant then."
-msgstr ""
+msgid "If the bot must perform the same task than before with only a <a object|power>regular power cell</a>, you can insert a loop that waits until the ant is close enough, i.e. until the ant is at less than 40 meters. Only one burst will be needed for every ant then."
+msgstr "Jeśli robot musi wykonać to samo zadanie co poprzednio z dostępnym jedynie <a object|power>zwykłym ogniwem elektrycznym</a>, wstaw pętlę oczekującą na wystarczające zbliżenie się mrówki (czyli mniej niż 40 metrów). Wtedy dla każdej mrówki wystarczy jedna seria strzałów."
 
 #. type: Plain text
 #: train203-help/tant3.txt:29
 #, no-wrap
-msgid ""
-"You can give the instruction <code><a cbot|radar()>radar</a></code> more "
-"parameters (numbers) indicating where the radar should look for the "
-"ants. For example <c/>radar(AlienAnt,0,360,0,40);<n/> will only look for "
-"ants that are closer than 40 meters. The two first numbers tell the radar to "
-"search in all directions, the two last numbers tell the radar to detect only "
-"ants that are at a distance between 0 and 40 meters. If no ant is found that "
-"is closer than 40 meters, the instruction <code><a "
-"cbot|radar()>radar</a></code> returns the value <code>null</code>. We can "
-"then write a conditional loop similar to the one written in the last "
-"exercise that waits as long as there is no ant closer than 40 meters:"
-msgstr ""
+msgid "You can give the instruction <code><a cbot|radar()>radar</a></code> more parameters (numbers) indicating where the radar should look for the ants. For example <c/>radar(AlienAnt,0,360,0,40);<n/> will only look for ants that are closer than 40 meters. The two first numbers tell the radar to search in all directions, the two last numbers tell the radar to detect only ants that are at a distance between 0 and 40 meters. If no ant is found that is closer than 40 meters, the instruction <code><a cbot|radar()>radar</a></code> returns the value <code>null</code>. We can then write a conditional loop similar to the one written in the last exercise that waits as long as there is no ant closer than 40 meters:"
+msgstr "Instrukcji <code><a cbot|radar()>radar</a></code> można podać więcej parametrów (liczb) oznaczających gdzie radar powinien szukać mrówek. Na przykład <c/>radar(AlienAnt,0,360,0,40);<n/> będzie szukał tylko mrówek będących bliżej niż 40 metrów. Dwie pierwsze liczby określają, że radar powinien szukać we wszystkich kierunkach, dwie ostatnie określają, że radar powinien wykrywać tylko mrówki w odległości od 0 do 40 metrów. Jeśli nie zostanie znaleziona mrówka będąca bliżej niż 40 metrów, instrukcja <code><a cbot|radar()>radar</a></code> zwróci wartość <code>null</code>. Wobec czego można więc napisać pętlę warunkową podobną do napisanej w poprzednim ćwiczeniu, która czeka na pojawienie się mrówki bliżej niż 40 metrów:"
 
 #. type: \s; block (usually verbatim code)
 #: train203-help/tant3.txt:34
@@ -127,34 +127,31 @@ msgid ""
 "\t\t\twait(0.2);\n"
 "\t\t}"
 msgstr ""
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
 
 #. type: Plain text
 #: train203-help/tant3.txt:36
 #, no-wrap
-msgid ""
-"Notice that two equal signs \"==\" are needed to perform a comparison of "
-"equality."
-msgstr ""
+msgid "Notice that two equal signs \"==\" are needed to perform a comparison of equality."
+msgstr "Zauważ, że podwójny znak równości \"==\" jest konieczny do wykonania sprawdzenia równości stron."
 
 #. type: Plain text
 #: train203-help/tant3.txt:38
 #, no-wrap
-msgid ""
-"Just insert these lines before the instruction <c/>fire(0);<n/>, and the bot "
-"will wait before shooting until the ant is closer than 40 meters. Like this "
-"a regular power cell is enough to kill all ants. "
-msgstr ""
+msgid "Just insert these lines before the instruction <c/>fire(0);<n/>, and the bot will wait before shooting until the ant is closer than 40 meters. Like this a regular power cell is enough to kill all ants. "
+msgstr "Aby robot czekał ze strzałem, aż mrówka będzie bliżej niż 40 metrów, wystarczy wstawić te dwie linie przed instrukcją <c/>fire(0);<n/>,. Wtedy nawet zwykłe ogniwo elektryczne wystarczy do zabicia wszystkich mrówek. "
 
 #. type: \t; header
 #: train203-help/tant3.txt:39
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train203-help/tant3.txt:40
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

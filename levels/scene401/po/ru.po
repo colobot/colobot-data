@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:56+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,73 +36,73 @@ msgstr "scene401:Новые насекомые угрожают всем ваш�
 
 #. type: \b; header
 #: scene401-help/mhcrys1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Из центра управления миссии"
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|radar>radar</a> on the highest point in the area. Make sure that the radar will work safely even after your departure to other planets. Your <a object|research>research center</a> should be able to provide a solution."
-msgstr ""
+msgstr "Постройте <a object|radar>радар</a> в самой высокой точке этой местности. Убедитесь в том, что радар будет продолжать нормально работать даже после того, как вы отправитесь на другие планеты. Ваш <a object|research>иследовательский центр</a> должен быть в состоянии это обеспечить."
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is possible that the organisms detected are in fact the <a object|worm>worms</a> alluded to by the first expedition. If this is indeed the case, don't be excessively alarmed: they seem fairly harmless to living organisms but could cause the programs of bots and buildings to malfunction through the emission of viruses."
-msgstr ""
+msgstr "Возможно, что замеченные организмы фактически являются <a object|worm>червями</a>, о которых сообщала первая экспедиция. Если все дело в этом, не стоит слишком волноваться: они почти не опасны для живых организмов, но обладая способностью выпускать вирусы, оин могут на некоторое время парализовать работу программ ботов и построек."
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Radars not only give you precious information about objects and organisms present in the region, they also relay information to and from the Earth once you have taken off to other planets. It is highly probable that problems with the radar stations built by the first expedition caused the transmission problems that we are aware of."
-msgstr ""
+msgstr "Радары не только предоставляют вам точную информацию об объектах и организмах, присутствующих в этой зоне. С их помощью также происходит обмен информацией с Землей, когда вы отправляетесь на другие планеты. Существует высокая вероятность того, что проблемы с радарными станциями, построенными первой экспедицией, стали причиной возникновения проблем, о которых нас предупреждали."
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In order to help you with the boring task of gathering the necessary raw material, we have developed a program that instructs the <a object|botgr>wheeled grabber</a> to look for <a object|titanore>titanium ore</a> on its own (see the programming page <button 53/>)."
-msgstr ""
+msgstr "Чтобы помочь вам выполнить скучную задачу по сбору необходимого сырья, мы разработали программу, которая заставляет <a object|botgr>колесного сборщика</a> искать <a object|titanore>титановую руду</a> (см. страницу с программой <button 53/>)."
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:11
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
 
 #. type: \t; header
 #: scene401-help/mhcrys1.txt:12 scene401-help/mscrys1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: scene401-help/mhcrys1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 
 #. type: \b; header
 #: scene401-help/micrys1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Сообщение со спутника"
 
 #. type: Plain text
 #: scene401-help/micrys1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr ""
+msgstr "Геостацианарная орбита Кристаллиума."
 
 #. type: \s; block (usually verbatim code)
 #: scene401-help/micrys1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> ПОВЕРХНОСТЬ<c/>"
 
 #. type: Plain text
 #: scene401-help/micrys1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      5.4C\n"
 "\\tab;Atmosphere:       nitrogen\n"
@@ -110,59 +110,71 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Температура:      5.4C\n"
+"\\tab;Атмосфера:       азот\n"
+"\\tab;Ветер:             0.0 м/с\n"
+"\\tab;Титановая руда:     немного\n"
+"\\tab;Урановая руда:      нет"
 
 #. type: \s; block (usually verbatim code)
 #: scene401-help/micrys1.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> ПОДПОЧВА<c/>"
 
 #. type: Plain text
 #: scene401-help/micrys1.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     data not available\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Источники энергии:    нет\n"
+"\\tab;Титановая руда:     данные недоступны\n"
+"\\tab;Урановая руда:      нет"
 
 #. type: \s; block (usually verbatim code)
 #: scene401-help/micrys1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ<c/>"
 
 #. type: Plain text
 #: scene401-help/micrys1.txt:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         unidentified organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Замечено:         неизвестные организмы\n"
+"\\tab;  - Опасность:       ?"
 
 #. type: \b; header
 #: scene401-help/mlcrys1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Программы, отправленные Хьюстоном"
 
 #. type: Plain text
 #: scene401-help/mlcrys1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Below is one of the programs that has been developed by our engineers.\n"
 "It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of <a object|titanore>titanium ore</a> and place it on the <a object|convert>converter</a>."
 msgstr ""
+"Ниже приведен текст программы, написанной одним из наших инженеров.\n"
+"Она инструктирует <a object|botgr>сборщика</a> взять ближайший кусок <a object|titanore>титановой руды</a> и разместить его в <a object|convert>преобразователе</a>."
 
 #. type: Plain text
 #: scene401-help/mlcrys1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In order to execute this program, select the program <code>CollectTitanium1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>. At any moment you can stop the program and take over at the controls with the stop button <button 8/>."
-msgstr ""
+msgstr "Чтобы запустить программу, выберите программу <code>CollectTitanium1</code> из списка программ, доступных для бота (в левом нижнем углу экрана), и щелкните на стрелке <button 21/>. Вы можете в любой момент остановить программу и взять управление в свои руки, нажав кнопку стоп <button 8/>."
 
 #. type: \s; block (usually verbatim code)
 #: scene401-help/mlcrys1.txt:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::CollectTitanium1()\n"
 "{\n"
@@ -181,93 +193,109 @@ msgid ""
 "\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
 "}"
 msgstr ""
+"extern void object::CollectTitanium1()\n"
+"{\n"
+"\t// 1) Задание переменной.\n"
+"\t<a cbot|type>object</a>  item;            // информация об объектах\n"
+"\t\n"
+"\t// 2) Перейти к тиатновой руде и взять ее.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// искать титановую руду\n"
+"\t<a cbot|goto>goto</a>(item.position);     // перейти к месту\n"
+"\t<a cbot|grab>grab</a>();                  // взять титан\n"
+"\t\n"
+"\t// 3) Перейти к преобразователю и сбросить руду.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // искать преобразователь\n"
+"\t<a cbot|goto>goto</a>(item.position);     // перейти к месту\n"
+"\t<a cbot|drop>drop</a>();                  // сбросить титан\n"
+"\t<a cbot|move>move</a>(-2.5);              // отойти назад на 2.5 м\n"
+"}"
 
 #. type: \b; header
 #: scene401-help/mlcrys1.txt:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Архивы"
 
 #. type: Plain text
 #: scene401-help/mlcrys1.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Список программ, отправленных в предыдущих миссиях"
 
 #. type: Bullet: 'o'
 #: scene401-help/mlcrys1.txt:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene401-help/mlcrys1.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene401-help/mlcrys1.txt:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene401-help/mscrys1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Помощь"
 
 #. type: Bullet: '1)'
 #: scene401-help/mscrys1.txt:2
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Постройте <a object|factory>фабрику ботов</a>."
 
 #. type: Bullet: '2)'
 #: scene401-help/mscrys1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Produce a <a object|botgj>winged grabber</a>."
-msgstr ""
+msgstr "Создайте <a object|botgj>крылатого сборщика</a>."
 
 #. type: Bullet: '3)'
 #: scene401-help/mscrys1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Carry a <a object|titan>titanium cube</a> to the highest point."
-msgstr ""
+msgstr "Отнесите <a object|titan>титановый слиток</a> в самую высокую точку местности."
 
 #. type: Bullet: '4)'
 #: scene401-help/mscrys1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|radar>radar</a> on the spot."
-msgstr ""
+msgstr "Постройте <a object|radar>радар</a> на метке."
 
 #. type: Bullet: '5)'
 #: scene401-help/mscrys1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build a <a object|research>research center</a> next to the spaceship."
-msgstr ""
+msgstr "Постройте <a object|research>исследовательский центр</a> около космического корабля."
 
 #. type: Bullet: '6)'
 #: scene401-help/mscrys1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Initiate the <defense tower research program> <button 68/>."
-msgstr ""
+msgstr "Начните <исследовательксую программу защитной башни> <button 68/>."
 
 #. type: Bullet: '7)'
 #: scene401-help/mscrys1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Build the <a object|tower>defense tower</a> next to the radar."
-msgstr ""
+msgstr "Постройте <a object|tower>защитную башню</a> возле радара."
 
 #. type: Bullet: '8)'
 #: scene401-help/mscrys1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "When all the worms are destroyed, you can go back to your ship and take off."
-msgstr ""
+msgstr "Когда все черви будут уничтожены, вы можете вернуться на корабль и взлетать."
 
 #. type: Plain text
 #: scene401-help/mscrys1.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Управление</a>"

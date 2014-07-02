@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,67 +38,67 @@ msgstr "scene605:Retournez sur votre vaisseau spatial."
 
 #. type: \b; header
 #: scene605-help/mhvolca5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Situation"
 
 #. type: Plain text
 #: scene605-help/mhvolca5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Congratulations on a fine job as usual."
-msgstr ""
+msgstr "Félicitations! En suivant votre parcours, nous étions inquiets à votre sujet. Retournez à présent sur le <a object|base>vaisseau spatial</a>."
 
 #. type: Plain text
 #: scene605-help/mhvolca5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This new weapon appears to be yet another practical application of what we've come to refer to as \"green gold\", the <a object|bullet>organic matter</a> produced by the insects. We've named this bot the <a object|botoj>orga shooter</a> or bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Le nouveau système d'armement semble être une autre application de l'\"or vert\", la <a object|bullet>matière organique</a> produite par les insectes. Nous l'avons appelé <a object|botoj>robot orgaShooter</a>."
 
 #. type: Plain text
 #: scene605-help/mhvolca5.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It will most certainly come in handy as you make your way back to your <a object|base>spaceship</a>."
-msgstr ""
+msgstr "Il va peut-être se révéler utile pour couvrir votre retour sur le <a object|base>vaisseau</a>."
 
 #. type: Plain text
 #: scene605-help/mhvolca5.txt:9
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions en tout temps!"
 
 #. type: \t; header
 #: scene605-help/mhvolca5.txt:10 scene605-help/msvolca5.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene605-help/mhvolca5.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene605-help/mivolca5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Rapport du satellite"
 
 #. type: Plain text
 #: scene605-help/mivolca5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr ""
+msgstr "En orbite géostationnaire autour de Volcano."
 
 #. type: \s; block (usually verbatim code)
 #: scene605-help/mivolca5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> SURFACE<c/>"
 
 #. type: Plain text
 #: scene605-help/mivolca5.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      96.6C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
@@ -106,145 +106,159 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Température:      96.6 degrés\n"
+"\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vent:             2.7 m/s\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene605-help/mivolca5.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> SOUS-SOL<c/>"
 
 #. type: Plain text
 #: scene605-help/mivolca5.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energie:          aucune\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene605-help/mivolca5.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> INFORMATIONS SPECIALES<c/>"
 
 #. type: Plain text
 #: scene605-help/mivolca5.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       immediate\n"
 "\\tab;Detected:         giant spiders\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;  - Danger:       oui\n"
+"\\tab;Détecté:          araignées géantes\n"
+"\\tab;  - Danger:       oui"
 
 #. type: \b; header
 #: scene605-help/mlvolca5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programme envoyé par Houston"
 
 #. type: Plain text
 #: scene605-help/mlvolca5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
 msgstr ""
+"Nous ne vous avons envoyé aucun programme pour cette mission.\n"
+"A vous de faire ceux qui peuvent vous rendre service!"
 
 #. type: \b; header
 #: scene605-help/mlvolca5.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #. type: Plain text
 #: scene605-help/mlvolca5.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Résumé des programmes déjà reçus:"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTour1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>ApporteTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>TueFourmi1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>ApporteTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>ApporteTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene605-help/mlvolca5.txt:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>EchangePile1</a></code>"
 
 #. type: \b; header
 #: scene605-help/msvolca5.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Solution"
 
 #. type: Plain text
 #: scene605-help/msvolca5.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Everything is blowing up around you. You need to leave the old basecamp as quickly as possible. Just retreat the same way you came."
-msgstr ""
+msgstr "Il faut quitter très vite l'ancienne base, car tout explose. Suivez ensuite le chemin de la mission précédente en sens inverse."
 
 #. type: Plain text
 #: scene605-help/msvolca5.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a object|ant>Ants</a> are fairly easy to avoid. If you're badly hit, find a quiet spot and wait until your shield has regenerated."
-msgstr ""
+msgstr "Les <a object|ant>fourmis</a> sont assez faciles à éviter. Si le niveau de votre bouclier baisse de manière alarmante, trouvez un coin tranquille et attendez que vos blessures guérissent."
 
 #. type: Plain text
 #: scene605-help/msvolca5.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a object|spider>Spiders</a> are a bit tougher but also more stupid. As soon as they see you, they burst their abdomen, dying in the process. If one fragment hits you, you'll die too. One risky but efficient method to rid yourself of a spider consists in moving dangerously close and, when the spider's abdomen starts inflating, swiftly fly backwards to safety."
-msgstr ""
+msgstr "Les <a object|spider>araignées</a> fonctionnent à la manière de commandos suicides. Dès qu'elles aperçoivent une cible, elles font exploser leur énorme abdomen. Un seul fragment suffit pour vous tuer. Par chance, l'araignée meurt dans l'opération. Une technique risquée mais efficace pour se débarrasser d'une araignée consiste à s'approcher assez près. Dès que son abdomen commence à gonfler, décollez en marche arrière. Vous pouvez également la survoler à basse altitude. Dans les deux cas, lors de l'explosion, vous êtes hors de portée."
 
 #. type: Plain text
 #: scene605-help/msvolca5.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As soon as you have reached a quiet island, you can use the <a object|botoj>winged orga shooter</a> to clear your way of hostile insects. Be careful not to lose it, otherwise the whole mission would be in vain."
-msgstr ""
+msgstr "Dès que vous avez atteint un piton rocheux tranquille, vous pouvez utiliser le <a object|botoj>robot orgaShooter</a> pour éliminer les insectes qui rendent votre retour périlleux. Faites attention cependant à ne pas le perdre, sinon toute l'opération aura été inutile!"
 
 #. type: Plain text
 #: scene605-help/msvolca5.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #
 #~ msgid "scene600:On Volcano"
@@ -267,8 +281,12 @@ msgstr ""
 #~ msgstr "scene601:"
 
 #
-#~ msgid "scene601:Develop your nuclear technology in order to increase your operating range."
-#~ msgstr "scene601:Transportez une caisse d'explosif avec un véhicule équipé d'une pile atomique."
+#~ msgid ""
+#~ "scene601:Develop your nuclear technology in order to increase your "
+#~ "operating range."
+#~ msgstr ""
+#~ "scene601:Transportez une caisse d'explosif avec un véhicule équipé d'une "
+#~ "pile atomique."
 
 #
 #~ msgid "scene602:Analysis"
@@ -280,7 +298,9 @@ msgstr ""
 
 #
 #~ msgid "scene602:Recover and analyze some organic matter."
-#~ msgstr "scene602:Trouvez et analysez de la matière organique pour découvrir une nouvelle technologie."
+#~ msgstr ""
+#~ "scene602:Trouvez et analysez de la matière organique pour découvrir une "
+#~ "nouvelle technologie."
 
 #
 #~ msgid "scene603:Mountain Warfare"
@@ -292,7 +312,9 @@ msgstr ""
 
 #
 #~ msgid "scene603:Use legged bots to fight on broken terrain."
-#~ msgstr "scene603:Utilisez des robots à pattes pour livrer bataille en terrain accidenté."
+#~ msgstr ""
+#~ "scene603:Utilisez des robots à pattes pour livrer bataille en terrain "
+#~ "accidenté."
 
 #
 #~ msgid "scene604:Technological Treasure"

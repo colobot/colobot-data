@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,31 +45,31 @@ msgstr "train207:Guêpes2"
 
 #. type: \b; header
 #: train207-help/twasp2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bring down the flying wasps in a more efficient way than with the previous program."
-msgstr ""
+msgstr "Attraper des <a object|wasp>guêpes</a> en vol de manière plus efficace qu'avec le programme précédent."
 
 #. type: \b; header
 #: train207-help/twasp2.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programme"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here is again the program of the previous exercise that shoots down all the wasps after many, many unsuccessful attempts:"
-msgstr ""
+msgstr "Voici encore une fois le programme de l'exercice précédent qui tire sur les guêpes:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::Wasp1()\n"
 "{\n"
@@ -104,58 +104,90 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::Guêpes1()\n"
+"{\n"
+"\tobject    chose;\n"
+"\t\n"
+"\taim(0);\n"
+"\t\n"
+"\twhile ( true )\n"
+"\t{\n"
+"\t\twhile ( radar(AlienWasp, 0, 360, 0, 20) == null )\n"
+"\t\t{\n"
+"\t\t\tchose = radar(AlienWasp);\n"
+"\t\t\tturn(direction(chose.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\t\n"
+"\t\t\tjet(0);\n"
+"\t\t\tif ( position.z > chose.position.z )\n"
+"\t\t\t{\n"
+"\t\t\t\tjet(-0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\tif ( position.z < chose.position.z - 1 )\n"
+"\t\t\t{\n"
+"\t\t\t\tjet(0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tchose = radar(AlienWasp);\n"
+"\t\tturn(direction(chose.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst."
-msgstr ""
+msgstr "Comme vous l'avez constaté, le taux de réussite de ce programme n'est pas très élevé, car les guèpes ont souvent le temps de partir. Le seul moyen pour rendre le programme plus efficace consiste à régler la vitesse des moteurs de gauche et de droite ainsi que du réacteur de manière à ce que le mouvement du robot pendant la salve de tir accompagne le mouvement de la cible."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Just before the shot, the program adjusts a last time the direction with <c/>turn(direction(item.position));<n/>. In order to follow the wasp during the burst, you have to \"remember\" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right."
-msgstr ""
+msgstr "Juste avant le tir, le programme fait un dernier ajustement avec un <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(chose.position));<n/>. Pour suivre la guêpe, il faut mémoriser l'angle de cette dernière rotation: si l'angle est positif, il faut continuer à tourner à gauche pendant le tir; si l'angle est négatif, il faut continuer à tourner à droite."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In order to \"remember\" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it <code>angle</code>, we must define the variable with the following line at the beginning of the program:"
-msgstr ""
+msgstr "Pour mémoriser l'angle de la dernière rotation, nous avons besoin d'une variable qui puisse contenir un simple nombre. Nous définissons donc tout au début du programme une variable <code>angle</code> du type <code><a cbot|float>float</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\t<a cbot|type>float</a> angle;"
-msgstr ""
+msgstr "\tfloat    angle;"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The variable type <a cbot|type>float</a> is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the <a cbot|type>text about variable types</a> if you want to know more about the different types of variables and what they can contain."
-msgstr ""
+msgstr "Référez-vous au texte sur les <a cbot|type>types de variables</a> pour en savoir plus."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we will put the rotation angle into the variable <code>angle</code>:"
-msgstr ""
+msgstr "Juste avant l'instruction <c/><a cbot|fire>fire</a>(1);<n/>, au lieu de tourner directement de l'angle nécessaire, nous mettons la valeur dans la variable <code>angle</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\tangle = direction(item.position);"
-msgstr ""
+msgstr "\tangle = direction(chose.position);"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:"
-msgstr ""
+msgstr "Puis nous tournons de l'angle nécessaire, et nous réglons la puissance des moteurs pour que le robot continue le mouvement:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:65
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\tturn(angle);\n"
 "\tif (angle < 0)\n"
@@ -167,22 +199,31 @@ msgid ""
 "\t\tmotor(0.5,1);\n"
 "\t}"
 msgstr ""
+"\tturn(angle);\n"
+"\tif ( angle < 0 )\n"
+"\t{\n"
+"\t\tmotor(1,0.5);\n"
+"\t}\n"
+"\telse\n"
+"\t{\n"
+"\t\tmotor(0.5,1);\n"
+"\t}"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:67
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The instruction <code>else</code> determines what instructions the program should execute if the condition stated in the <code>if</code> instruction is false."
-msgstr ""
+msgstr "L'instruction <code>else</code> indique ce qu'il faut faire dans le cas où la condition de <code><a cbot|if>if</a></code> n'est pas remplie."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:69
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:"
-msgstr ""
+msgstr "Puis il faut remettre les instructions qui règlent la puissance du réacteur pour que le robot suive le mouvement de la guêpe dans la direction verticale:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:80
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\tjet(0);\n"
 "\tif(position.z > item.position.z)\n"
@@ -195,24 +236,34 @@ msgid ""
 "\t\tjet(0.3);\n"
 "\t}"
 msgstr ""
+"\tjet(0);\n"
+"\tif ( position.z > chose.position.z )\n"
+"\t{\n"
+"\t\tjet(-0.3);\n"
+"\t}\n"
+"\t\n"
+"\tif ( position.z < chose.position.z - 1 )\n"
+"\t{\n"
+"\t\tjet(0.3);\n"
+"\t}"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:82
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "As you will see, this program is much more efficient than the previous one!"
-msgstr ""
+msgstr "Comme vous pourrez le constater, le taux de réussite est nettement plus élevé que dans l'exercice précédent."
 
 #. type: \t; header
 #: train207-help/twasp2.txt:83
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:84
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tant4>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train200:Ants and wasps"
@@ -235,8 +286,12 @@ msgstr ""
 #~ msgstr "train201:"
 
 #
-#~ msgid "train201:Set the power of the different motors in order to achieve a barrage fire."
-#~ msgstr "train201:Effectuer à l'aide de la commande directe des moteurs un tir de barrage contre des fourmis qui attaquent"
+#~ msgid ""
+#~ "train201:Set the power of the different motors in order to achieve a "
+#~ "barrage fire."
+#~ msgstr ""
+#~ "train201:Effectuer à l'aide de la commande directe des moteurs un tir de "
+#~ "barrage contre des fourmis qui attaquent"
 
 #
 #~ msgid "train201:Move"
@@ -252,7 +307,9 @@ msgstr ""
 
 #
 #~ msgid "train202:Make a flying defense tower out of a winged shooter."
-#~ msgstr "train202:Programmer un robot volant de manière à obtenir une tour de défense volante"
+#~ msgstr ""
+#~ "train202:Programmer un robot volant de manière à obtenir une tour de "
+#~ "défense volante"
 
 #
 #~ msgid "train202:Move"
@@ -284,7 +341,8 @@ msgstr ""
 
 #
 #~ msgid "train204:Instruct a winged shooter to clean the whole region."
-#~ msgstr "train204:Programmez un shooter volant pour qu'il nettoie toute la région"
+#~ msgstr ""
+#~ "train204:Programmez un shooter volant pour qu'il nettoie toute la région"
 
 #
 #~ msgid "train204:Move"

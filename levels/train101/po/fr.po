@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,9 +45,9 @@ msgstr "train101:Araignée1"
 
 #. type: \b; header
 #: train101-help/tspid1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:3
@@ -57,9 +57,9 @@ msgstr ""
 
 #. type: \t; header
 #: train101-help/tspid1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Marche à suivre"
 
 #. type: Bullet: '1)'
 #: train101-help/tspid1.txt:5
@@ -76,19 +76,19 @@ msgstr ""
 #. type: Bullet: '3)'
 #: train101-help/tspid1.txt:7
 #, no-wrap
-msgid "Click the button with the braces \\button 22;, and you will arrive in an editor where you can write the program."
+msgid "Click the button with the braces <button 22/>, and you will arrive in an editor where you can write the program."
 msgstr ""
 
 #. type: Bullet: '4)'
 #: train101-help/tspid1.txt:8
 #, no-wrap
-msgid "While you are writing the program, the key \\key;\\key help;<norm/> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
+msgid "While you are writing the program, the key <format key><key help/></format> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
 msgstr ""
 
 #. type: Bullet: '5)'
 #: train101-help/tspid1.txt:9
 #, no-wrap
-msgid "In order to execute the program, click the arrow button \\button 21;."
+msgid "In order to execute the program, click the arrow button <button 21/>."
 msgstr ""
 
 #. type: \t; header
@@ -106,7 +106,7 @@ msgstr ""
 #. type: Plain text
 #: train101-help/tspid1.txt:15
 #, no-wrap
-msgid "When you click the braces button \\button 22; in order to write the program, a part of the program will already be there:"
+msgid "When you click the braces button <button 22/> in order to write the program, a part of the program will already be there:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -129,91 +129,91 @@ msgstr ""
 
 #. type: Plain text
 #: train101-help/tspid1.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You will need the following instructions:"
-msgstr ""
+msgstr "Vous aurez besoin des instructions suivantes:"
 
 #. type: \s; block (usually verbatim code)
 #: train101-help/tspid1.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "aim(0);<n/>"
-msgstr ""
+msgstr "aim(0);<n/>"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>Puts the cannon straight."
-msgstr ""
+msgstr "<n/>Met le canon bien droit."
 
 #. type: \s; block (usually verbatim code)
 #: train101-help/tspid1.txt:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "turn();<n/>"
-msgstr ""
+msgstr "turn();<n/>"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:32
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>Executes a rotation of a certain angle, given in brackets in degrees. For example <c/>turn(90);<n/> will turn the bot 90 degrees to the left, i.e. a quarter turn to the left. <c/>turn(-90);<n/> will turn the bot 90 degrees to the right (quarter turn right). Positive values turn left, negative values turn right. <c/>turn(180);<n/> will make the bot face in the opposite direction."
-msgstr ""
+msgstr "<n/>Tourne le robot d'un certain angle, donné en degrés entre les parenthèses. Par exemple <c/>turn(90);<n/> tourne le robot à gauche de 90 degrés, c'est-à-dire d'un quart de tour à gauche. <c/>turn(-90);<n/> tourne le robot à droite de 90 degrés (quart de tour à droite). Les valeurs négatives font tourner à droite. <c/>turn(180);<n/> fait faire un demi-tour."
 
 #. type: \s; block (usually verbatim code)
 #: train101-help/tspid1.txt:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "fire(1);"
-msgstr ""
+msgstr "fire(1);"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>Shoots the cannon. The number in brackets indicates the duration of the burst. In most cases, shoot a burst of 1 second."
-msgstr ""
+msgstr "<n/>Tire avec le canon. La valeur entre parenthèses indique la durée de la rafale. En général, on tire toujours des rafales d'une seconde."
 
 #. type: Plain text
 #: train101-help/tspid1.txt:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let us see the beginning of the program:\n"
-msgstr ""
+msgstr "Voyons le début du programme:\n"
 
 #. type: Bullet: 'o'
 #: train101-help/tspid1.txt:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "put the cannon straight with <c/>aim(0);<n/>"
-msgstr ""
+msgstr "on met le canon bien droit avec <c/>aim(0);<n/>"
 
 #. type: Bullet: 'o'
 #: train101-help/tspid1.txt:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "shoot the spider straight ahead with <c/>fire(1);<n/>"
-msgstr ""
+msgstr "on tire sur la cible qui est droit devant avec <c/>fire(1);<n/>"
 
 #. type: Bullet: 'o'
 #: train101-help/tspid1.txt:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "turn 90 degrees left with <code>turn(90)</code>"
-msgstr ""
+msgstr "on tourne à gauche de 90 degrés avec <code>turn(90)</code>"
 
 #. type: Bullet: 'o'
 #: train101-help/tspid1.txt:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "shoot with <c/>fire(1);<n/>"
-msgstr ""
+msgstr "on tire avec <c/>fire(1);<n/>"
 
 #. type: Bullet: 'o'
 #: train101-help/tspid1.txt:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "etc."
-msgstr ""
+msgstr "etc."
 
 #. type: Plain text
 #: train101-help/tspid1.txt:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Here is the program that does all this :"
-msgstr ""
+msgstr "Voici le programme correspondant:"
 
 #. type: \s; block (usually verbatim code)
 #: train101-help/tspid1.txt:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::Spider1( )\n"
 "{\n"
@@ -225,48 +225,55 @@ msgid ""
 "\t\n"
 "}"
 msgstr ""
+"extern void object::Go( )\n"
+"{\n"
+"\taim(0);\n"
+"\tfire(1);\n"
+"\tturn(90);\n"
+"\tfire(1);\n"
+"}"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:56
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is up to you now to write the rest of the program!"
-msgstr ""
+msgstr "A vous de faire la suite!"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:58
-#, no-wrap
-msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button \\button 22;. You can even execute the solution program with the arrow button \\button 21;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
+msgstr "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
 
 #. type: \t; header
 #: train101-help/tspid1.txt:59
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Remarks"
 
 #. type: Plain text
 #: train101-help/tspid1.txt:61
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
-msgstr ""
+msgstr "Be careful to write the instructions precisely, respecting lower and upper case letters."
 
 #. type: Plain text
 #: train101-help/tspid1.txt:63
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
-msgstr ""
+msgstr "Always write one instruction per line, finishing each line with a semicolon."
 
 #. type: Plain text
 #: train101-help/tspid1.txt:65
-#, no-wrap
-msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the \\button 59; button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
+msgstr "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
 
 #. type: Plain text
 #: train101-help/tspid1.txt:66
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> permet de revoir les instructions générales en tout temps. De même, <format key><key prog/></format> accède aux explications du langage de programmation CBOT."
 
 #
 #~ msgid "train100:Spiders and supply"
@@ -274,7 +281,8 @@ msgstr ""
 
 #
 #~ msgid "train100:Supply problems and fight against motionless targets"
-#~ msgstr "train100:Problèmes de logistique et combat contre des cibles immobiles"
+#~ msgstr ""
+#~ "train100:Problèmes de logistique et combat contre des cibles immobiles"
 
 #
 #~ msgid "train100:"
@@ -293,8 +301,11 @@ msgstr ""
 #~ msgstr "train102:"
 
 #
-#~ msgid "train102:Instruct a bot to change the power cell of a nearby winged shooter."
-#~ msgstr "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
+#~ msgid ""
+#~ "train102:Instruct a bot to change the power cell of a nearby winged "
+#~ "shooter."
+#~ msgstr ""
+#~ "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
 
 #
 #~ msgid "train102:Spider2"
@@ -310,7 +321,9 @@ msgstr ""
 
 #
 #~ msgid "train103:Take a chunk of titanium ore and bring it to the converter."
-#~ msgstr "train103:Programmer un robot pour qu'il aille chercher un minerai de titanium et l'amène sur le convertisseur"
+#~ msgstr ""
+#~ "train103:Programmer un robot pour qu'il aille chercher un minerai de "
+#~ "titanium et l'amène sur le convertisseur"
 
 #
 #~ msgid "train103:Titanium1"
@@ -325,8 +338,11 @@ msgstr ""
 #~ msgstr "train104:"
 
 #
-#~ msgid "train104:Use the bot's radar to look for the titanium ore and bring it to the converter."
-#~ msgstr "train104:Utiliser le radar pour aller chercher un minerai de titanium"
+#~ msgid ""
+#~ "train104:Use the bot's radar to look for the titanium ore and bring it to "
+#~ "the converter."
+#~ msgstr ""
+#~ "train104:Utiliser le radar pour aller chercher un minerai de titanium"
 
 #
 #~ msgid "train104:Titanium2"

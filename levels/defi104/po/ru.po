@@ -3,10 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:37+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,40 +42,44 @@ msgstr "defi104:Лабиринт"
 
 #. type: \b; header
 #: defi104-help/dlaby1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Упражнение"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
-msgstr ""
+msgstr "Запрограммируйте бота таким образом, чтобы он смог отыскать путь, не наткнувшись на стены лабиринта. Мы полагаем, что вам неизвестна конфигурация лабиринта, но в нем нет раздвоений и тупиков. Лабиринт создан из квадратов по 5 м каждый."
 
 #. type: \b; header
 #: defi104-help/dlaby1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Полезные инструкции"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a></code> to detect obstacles\n"
 "<code><a cbot|if>if</a></code> to test a condition\n"
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> для поиска преград\n"
+"<code><a cbot|if>if</a></code> для проверки условия\n"
+"<code><a cbot|move>move</a></code> для движения бота\n"
+"<code><a cbot|turn>turn</a></code> для поворота бота"
 
 #. type: \t; header
 #: defi104-help/dlaby1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

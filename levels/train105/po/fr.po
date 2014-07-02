@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,31 +45,31 @@ msgstr "train105:Pile2"
 
 #. type: \b; header
 #: train105-help/tcell2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
-msgstr ""
+msgstr "Equipez les <a object|botfj>robots shooter</a> de <a object|power>piles</a>, pour que ceux-ci puissent assainir le nid de <a object|ant>fourmis</a> qui se trouve dans un cratère au nord de votre position."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programme"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
-msgstr ""
+msgstr "Le robot déménageur doit aller vers une pile, prendre celle-ci, aller vers un robot, et poser la pile. Voici un programme d'un exercice précédent qui accomplit une tâche semblable:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::Titanium2()\n"
 "{\n"
@@ -84,46 +84,58 @@ msgid ""
 "\tdrop();\n"
 "}"
 msgstr ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    chose;\n"
+"\t\n"
+"\tchose = radar(TitaniumOre);\n"
+"\tgoto(chose.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\tchose = radar(Converter);\n"
+"\tgoto(chose.position);\n"
+"\tdrop();\n"
+"}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:21
 #, no-wrap
-msgid "The best way to solve the present exercise is to copy \\button 61; the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste \\button 62; it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
+msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
 msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
-msgstr ""
+msgstr "Vous pouvez reprendre ce programme avec couper-coller, et apporter les changements nécessaires. Au lieu de chercher un minerai de titanium (<code>TitaniumOre</code>), cherchez une pile (<code><a object|power>PowerCell</a></code>). Au lieu d'aller ensuite vers un convertisseur (<code>Converter</code>), allez vers un robot shooter (<code><a object|botfj>WingedShooter</a></code>). Le shooter fera ensuite son travail."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr ""
+msgstr "Pour savoir comment s'appellent les différents objets dans le langage de programmation, reportez-vous au <a cbot|category>texte décrivant les catégories</a>."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Further improvement: loops"
-msgstr ""
+msgstr "Perfectionnement: les boucles"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
-msgstr ""
+msgstr "Une fois que le programme expliqué ci-dessus fonctionne, vous pouvez l'améliorer de manière à ce qu'il répète les actions nécessaires tout seul. Vous n'aurez plus à exécuter le programme plusieurs fois pour qu'il équipe plusieurs robots."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
-msgstr ""
+msgstr "Ajoutez simplement une instruction <code><a cbot|while>while</a>(true)</code> au début du programme, avec toutes les instructions à répéter entre les accolades <code>{}</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:41
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\twhile (true)\n"
 "\t{\n"
@@ -136,36 +148,46 @@ msgid ""
 "\t\tdrop();\n"
 "\t}"
 msgstr ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\tchose = radar(PowerCell);\n"
+"\t\tgoto(chose.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\tchose = radar(WingedShooter);\n"
+"\t\tgoto(chose.position);\n"
+"\t\tdrop();\n"
+"\t}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
-msgstr ""
+msgstr "N'oubliez pas de déclararer la variable <c/>object chose;<n/> avant de l'utiliser la première fois."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Remarque"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
-msgstr ""
+msgstr "Un robot peut exécuter un programme tout seul: pendant ce temps, vous pouvez sélectionner le <a object|human>cosmonaute</a> et aller observer ce qui se passe vers le nid, en faisant cependant attention de ne pas vous mettre dans la ligne de tir. Les touches <format key><key gup/></format> et <format key><key gdown/></format> permettent de voler. Cliquez <a command>ici</a> pour voir le détail des commandes de déplacement."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tlaby2>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train100:Spiders and supply"
@@ -173,7 +195,8 @@ msgstr ""
 
 #
 #~ msgid "train100:Supply problems and fight against motionless targets"
-#~ msgstr "train100:Problèmes de logistique et combat contre des cibles immobiles"
+#~ msgstr ""
+#~ "train100:Problèmes de logistique et combat contre des cibles immobiles"
 
 #
 #~ msgid "train100:"
@@ -204,8 +227,11 @@ msgstr ""
 #~ msgstr "train102:"
 
 #
-#~ msgid "train102:Instruct a bot to change the power cell of a nearby winged shooter."
-#~ msgstr "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
+#~ msgid ""
+#~ "train102:Instruct a bot to change the power cell of a nearby winged "
+#~ "shooter."
+#~ msgstr ""
+#~ "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
 
 #
 #~ msgid "train102:Spider2"
@@ -221,7 +247,9 @@ msgstr ""
 
 #
 #~ msgid "train103:Take a chunk of titanium ore and bring it to the converter."
-#~ msgstr "train103:Programmer un robot pour qu'il aille chercher un minerai de titanium et l'amène sur le convertisseur"
+#~ msgstr ""
+#~ "train103:Programmer un robot pour qu'il aille chercher un minerai de "
+#~ "titanium et l'amène sur le convertisseur"
 
 #
 #~ msgid "train103:Titanium1"
@@ -236,8 +264,11 @@ msgstr ""
 #~ msgstr "train104:"
 
 #
-#~ msgid "train104:Use the bot's radar to look for the titanium ore and bring it to the converter."
-#~ msgstr "train104:Utiliser le radar pour aller chercher un minerai de titanium"
+#~ msgid ""
+#~ "train104:Use the bot's radar to look for the titanium ore and bring it to "
+#~ "the converter."
+#~ msgstr ""
+#~ "train104:Utiliser le radar pour aller chercher un minerai de titanium"
 
 #
 #~ msgid "train104:Titanium2"

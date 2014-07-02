@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,43 +45,47 @@ msgstr "defi302:Déplace"
 
 #. type: \b; header
 #: defi302-help/dremova2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: defi302-help/dremova2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
-msgstr ""
+msgstr "Déplacez le cube de <a object|titan>titanium</a> sur la plate-forme d'arrivée. On ne connaît pas la position du titanium. En revanche, on sait que la plate-forme est à la position x=10 et y=-60."
 
 #. type: \b; header
 #: defi302-help/dremova2.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Instructions utiles"
 
 #. type: Plain text
 #: defi302-help/dremova2.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a></code> to find the titanium cube (category <code><a object|titan>Titanium</a></code>)\n"
 "<code><a cbot|goto>goto</a></code> to move the bot\n"
 "<code><a cbot|grab>grab</a></code> to grab an object\n"
 "<code><a cbot|drop>drop</a></code> to drop an object"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> pour détecter le titanium (catégorie <code><a object|titan>Titanium</a></code>)\n"
+"<code><a cbot|goto>goto</a></code> pour déplacer le robot\n"
+"<code><a cbot|grab>grab</a></code> pour prendre un objet\n"
+"<code><a cbot|drop>drop</a></code> pour déposer un objet"
 
 #. type: \t; header
 #: defi302-help/dremova2.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi302-help/dremova2.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -132,7 +136,9 @@ msgstr ""
 #~ msgstr "defi103:"
 
 #
-#~ msgid "defi103:Collect lots of valuable information from information exchange posts."
+#~ msgid ""
+#~ "defi103:Collect lots of valuable information from information exchange "
+#~ "posts."
 #~ msgstr "defi103:Récolter des informations de direction et de distance."
 
 #
@@ -149,7 +155,9 @@ msgstr ""
 
 #
 #~ msgid "defi104:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "defi104:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "defi104:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "defi104:Labyrinth"
@@ -176,8 +184,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -224,8 +236,12 @@ msgstr ""
 #~ msgstr "defi204:"
 
 #
-#~ msgid "defi204:Use your radar to look for various items, but watch out for the mines."
-#~ msgstr "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+#~ msgid ""
+#~ "defi204:Use your radar to look for various items, but watch out for the "
+#~ "mines."
+#~ msgstr ""
+#~ "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, "
+#~ "en évitant les bombes."
 
 #
 #~ msgid "defi204:Traps"
@@ -268,7 +284,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -312,7 +330,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #

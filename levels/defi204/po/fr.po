@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,107 +45,116 @@ msgstr "defi204:Cherche"
 
 #. type: \b; header
 #: defi204-help/dtrap1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Instruct the bot to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>. When the bot passes over a cross, it disappears. Here is the general principle:"
-msgstr ""
+msgstr "Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a object|waypoint>croix bleues</a> posées au sol, en évitant les <a object|mine>mines</a>. Dès que le robot est sur une croix, elle disparaît. Le principe à utiliser est le suivant:"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\tRepeat forever:\n"
-msgstr ""
+msgstr "\tRépéter à l'infini:\n"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Look for a mine"
-msgstr ""
+msgstr "Chercher une mine"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If a mine has been found, calculate the opposite direction"
-msgstr ""
+msgstr "Si une mine est trouvée, calculer la direction opposée"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Look for a cross"
-msgstr ""
+msgstr "Chercher une croix"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If nothing has been found, stop the program"
-msgstr ""
+msgstr "Si rien n'est trouvé, stopper"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Calculate the direction of the cross"
-msgstr ""
+msgstr "Calculer la direction de la croix"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Calculate the mean value of the two directions"
-msgstr ""
+msgstr "Calculer la moyenne des deux directions"
 
 #. type: Bullet: 'o'
 #: defi204-help/dtrap1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Set the motor speeds in order to head towards the mean direction"
-msgstr ""
+msgstr "Donner une consigne de vitesse aux moteurs pour se diriger dans la direction moyenne"
 
 #. type: \b; header
 #: defi204-help/dtrap1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The instruction <code>radar</code>"
-msgstr ""
+msgstr "L'instruction <code>radar</code>"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we recommend the following parameters:\n"
 "<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
 "With the opening angle of 180 degrees, mines that are behind the bot will not be found. Mines that are at more than 5 meters are also ignored."
 msgstr ""
+"Pour détecter une mine avec <code><a cbot|radar>radar</a></code>, nous vous conseillons d'utiliser les paramètres suivants:\n"
+"<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
+"La détection s'effectue sur 180 degrés. Si la mine est derrière, elle est donc ignorée.\n"
+"La distance maximale est de 5 mètres. Si la mine est devant mais plus loin, elle est également ignorée."
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to find a blue cross, simply write:\n"
 "<c/><s/>\tradar(WayPoint);<n/>\n"
 "Blue crosses will be found everywhere."
 msgstr ""
+"Pour détecter une croix, utilisez:\n"
+"<c/><s/>\tradar(WayPoint, 0, 360, 0, 100);<n/>\n"
+"La détection s'effectue sur 360 degrés, c'est-à-dire partout. La distance de 100 mètres est nettement plus grande que l'enclos. Toutes les croix sont donc détectées."
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to calculate a direction, use <code><a cbot|direct>direction</a></code>.\n"
 "In order to set the motor speeds, use <code><a cbot|motor>motor</a></code>."
 msgstr ""
+"Pour calculer la direction, utilisez <code><a cbot|direct>direction</a></code>.\n"
+"Pour la commande des moteurs, utilisez <code><a cbot|motor>motor</a></code>."
 
 #. type: \t; header
 #: defi204-help/dtrap1.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi204-help/dtrap1.txt:26
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -196,7 +205,9 @@ msgstr ""
 #~ msgstr "defi103:"
 
 #
-#~ msgid "defi103:Collect lots of valuable information from information exchange posts."
+#~ msgid ""
+#~ "defi103:Collect lots of valuable information from information exchange "
+#~ "posts."
 #~ msgstr "defi103:Récolter des informations de direction et de distance."
 
 #
@@ -213,7 +224,9 @@ msgstr ""
 
 #
 #~ msgid "defi104:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "defi104:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "defi104:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "defi104:Labyrinth"
@@ -240,8 +253,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -320,7 +337,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -336,7 +355,8 @@ msgstr ""
 #~ msgstr "defi302:"
 
 #
-#~ msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+#~ msgid ""
+#~ "defi302:Try to figure out how to move the titanium cube across obstacles."
 #~ msgstr "defi302:Déplacer un cube de métal par dessus des obstacles."
 
 #
@@ -376,7 +396,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #

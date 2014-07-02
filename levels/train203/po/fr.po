@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,31 +45,31 @@ msgstr "train203:Tour2"
 
 #. type: \b; header
 #: train203-help/tant3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: train203-help/tant3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Adapt the program <code>Tower1</code> in order to avoid wasting energy when shooting at ants that are out of range."
-msgstr ""
+msgstr "Adaptez le programme précédent pour le rendre moins gourmand en énergie."
 
 #. type: \t; header
 #: train203-help/tant3.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programme"
 
 #. type: Plain text
 #: train203-help/tant3.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The program <code>Tower1</code> shoots in the direction of the closest ant, even if it is still out of range:"
-msgstr ""
+msgstr "Le programme étudié précédemment tire dans la direction de la <a object|ant>fourmi</a> la plus proche, même si elle est encore hors de portée du canon:"
 
 #. type: \s; block (usually verbatim code)
 #: train203-help/tant3.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::Tour1()\n"
 "{\n"
@@ -90,28 +90,50 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::Tour1()\n"
+"{\n"
+"\tobject    chose;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\tchose = radar(AlienAnt);\n"
+"\t\tturn(direction(chose.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: train203-help/tant3.txt:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If the bot must perform the same task than before with only a <a object|power>regular power cell</a>, you can insert a loop that waits until the ant is close enough, i.e. until the ant is at less than 40 meters. Only one burst will be needed for every ant then."
-msgstr ""
+msgstr "Pour que le programme arrive au bout de sa tâche même avec une pile normale, il faut juste inclure une boucle conditionnelle qui attend jusqu'à ce que la fourmi soit à moins de 40 mètres, ce qui représente la portée du canon. Ainsi une seule raffale sera tirée par fourmi."
 
 #. type: Plain text
 #: train203-help/tant3.txt:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You can give the instruction <code><a cbot|radar()>radar</a></code> more parameters (numbers) indicating where the radar should look for the ants. For example <c/>radar(AlienAnt,0,360,0,40);<n/> will only look for ants that are closer than 40 meters. The two first numbers tell the radar to search in all directions, the two last numbers tell the radar to detect only ants that are at a distance between 0 and 40 meters. If no ant is found that is closer than 40 meters, the instruction <code><a cbot|radar()>radar</a></code> returns the value <code>null</code>. We can then write a conditional loop similar to the one written in the last exercise that waits as long as there is no ant closer than 40 meters:"
-msgstr ""
+msgstr "On peut donner à l'instruction <c/><a cbot|radar>radar</a>();<n/> des paramètres supplémentaires pour que le radar ne détecte que les objets plus proches d'une certaine distance. <c/>radar(AlienAnt,0,360,0,40);<n/> par exemple ne détecte que des fourmis à moins de 40 mètres. Les deux premiers nombres indiquent qu'il doit chercher dans toutes les directions, les deux derniers nombres indiquent qu'il doit chercher à une distance minimale de 0 mètres et à une distance maximale de 40 mètres. Si aucune fourmi n'a été trouvée, l'instruction rend la valeur <code>null</code>. Ainsi nous pouvons écrire une boucle conditionnelle semblable à celle de l'exercice précédent qui attend tant qu'il n'y a pas de fourmi à moins de 40 mètres:"
 
 #. type: \s; block (usually verbatim code)
 #: train203-help/tant3.txt:34
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
 "\t\t{\n"
 "\t\t\twait(0.2);\n"
 "\t\t}"
 msgstr ""
+"\t\twhile ( radar(AlienAnt, 0, 360, 0, 40) == null )\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
 
 #. type: Plain text
 #: train203-help/tant3.txt:36
@@ -121,21 +143,21 @@ msgstr ""
 
 #. type: Plain text
 #: train203-help/tant3.txt:38
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Just insert these lines before the instruction <c/>fire(0);<n/>, and the bot will wait before shooting until the ant is closer than 40 meters. Like this a regular power cell is enough to kill all ants. "
-msgstr ""
+msgstr "Il suffit d'insérer ces lignes avant l'instruction <c/><a cbot|fire>fire</a>(1);<n/> pour que le robot attende avant de tirer que la fourmi soit à moins de 40 mètres. Ainsi, une pile normale permet de tuer toutes les fourmis."
 
 #. type: \t; header
 #: train203-help/tant3.txt:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train203-help/tant3.txt:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tant2>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train200:Ants and wasps"
@@ -158,8 +180,12 @@ msgstr ""
 #~ msgstr "train201:"
 
 #
-#~ msgid "train201:Set the power of the different motors in order to achieve a barrage fire."
-#~ msgstr "train201:Effectuer à l'aide de la commande directe des moteurs un tir de barrage contre des fourmis qui attaquent"
+#~ msgid ""
+#~ "train201:Set the power of the different motors in order to achieve a "
+#~ "barrage fire."
+#~ msgstr ""
+#~ "train201:Effectuer à l'aide de la commande directe des moteurs un tir de "
+#~ "barrage contre des fourmis qui attaquent"
 
 #
 #~ msgid "train201:Move"
@@ -175,7 +201,9 @@ msgstr ""
 
 #
 #~ msgid "train202:Make a flying defense tower out of a winged shooter."
-#~ msgstr "train202:Programmer un robot volant de manière à obtenir une tour de défense volante"
+#~ msgstr ""
+#~ "train202:Programmer un robot volant de manière à obtenir une tour de "
+#~ "défense volante"
 
 #
 #~ msgid "train202:Move"
@@ -195,7 +223,8 @@ msgstr ""
 
 #
 #~ msgid "train204:Instruct a winged shooter to clean the whole region."
-#~ msgstr "train204:Programmez un shooter volant pour qu'il nettoie toute la région"
+#~ msgstr ""
+#~ "train204:Programmez un shooter volant pour qu'il nettoie toute la région"
 
 #
 #~ msgid "train204:Move"

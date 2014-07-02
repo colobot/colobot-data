@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,55 +38,55 @@ msgstr "scene203:Suite du cours de pilotage."
 
 #. type: \b; header
 #: scene203-help/mhlune3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: scene203-help/mhlune3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Similar drill as before, only this time viewed through the camera placed on board."
-msgstr ""
+msgstr "Même entraînement que précédemment, mais vous voyez le parcours avec la caméra embarquée dans le robot."
 
 #. type: Plain text
 #: scene203-help/mhlune3.txt:5
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
 #: scene203-help/mhlune3.txt:6 scene203-help/mslune3.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene203-help/mhlune3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene203-help/milune3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Rapport du satellite"
 
 #. type: Plain text
 #: scene203-help/milune3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of the Moon."
-msgstr ""
+msgstr "En orbite géostationnaire autour de la lune."
 
 #. type: \s; block (usually verbatim code)
 #: scene203-help/milune3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> SURFACE<c/>"
 
 #. type: Plain text
 #: scene203-help/milune3.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      -58.9C\n"
 "\\tab;Atmosphere:       none\n"
@@ -94,75 +94,85 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Température:      -58.9 degrés\n"
+"\\tab;Atmosphère:       aucune\n"
+"\\tab;Vent:             0.0 m/s\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene203-help/milune3.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> SOUS-SOL<c/>"
 
 #. type: Plain text
 #: scene203-help/milune3.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energie:          aucune\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \b; header
 #: scene203-help/mllune3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program(s) dispatched by Houston"
-msgstr ""
+msgstr "Programmes envoyés par Houston"
 
 #. type: Plain text
 #: scene203-help/mllune3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
 msgstr ""
+"Nous ne vous avons envoyé aucun programme pour cette mission.\n"
+"A vous de faire ceux qui peuvent vous rendre service!"
 
 #. type: \b; header
 #: scene203-help/mllune3.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #. type: Plain text
 #: scene203-help/mllune3.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Résumé des programmes déjà reçus:"
 
 #. type: Bullet: 'o'
 #: scene203-help/mllune3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>EchangePile1</a></code>"
 
 #. type: \b; header
 #: scene203-help/mslune3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Solution"
 
 #. type: Plain text
 #: scene203-help/mslune3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If your bot suddenly explodes, this means that you have hit the steel structures too often. Drive more slowly, so your bot will not be damaged even if you bump into an obstacle."
-msgstr ""
+msgstr "Si votre robot explose, c'est que vous avez heurté trop souvent et trop violemment les supports en acier. Allez-y plus doucement, ainsi même en cas de pépin le robot ne sera pas endommagé."
 
 #. type: Plain text
 #: scene203-help/mslune3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you can not take off after you have completed the training, this means that you did not pass through all the targets. Go round one more time, and pass through the targets where the cross is left in the center."
-msgstr ""
+msgstr "Si la mission ne se termine pas lorsque vous arrivez sur le vaisseau, cela signifie que vous n'avez pas passé à travers toutes les cibles. Faites encore une fois le tour et passez à travers les cibles où il reste encore la croix."
 
 #. type: Plain text
 #: scene203-help/mslune3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #
 #~ msgid "scene200:On the Moon"
@@ -185,8 +195,12 @@ msgstr ""
 #~ msgstr "scene201:"
 
 #
-#~ msgid "scene201:Develop flying bots to access essential raw material on the broken Moon surface."
-#~ msgstr "scene201:Développez des robots volants pour pouvoir accéder aux matières premières sur la surface accidentée de la lune."
+#~ msgid ""
+#~ "scene201:Develop flying bots to access essential raw material on the "
+#~ "broken Moon surface."
+#~ msgstr ""
+#~ "scene201:Développez des robots volants pour pouvoir accéder aux matières "
+#~ "premières sur la surface accidentée de la lune."
 
 #
 #~ msgid "scene202:Flying Drill #1"
@@ -213,5 +227,8 @@ msgstr ""
 #~ msgstr "scene204:"
 
 #
-#~ msgid "scene204:Discover crucial information left behind by the first expedition."
-#~ msgstr "scene204:Recherchez la boîte noire de l'expédition précédente pour connaître les coordonnées de la prochaine planète."
+#~ msgid ""
+#~ "scene204:Discover crucial information left behind by the first expedition."
+#~ msgstr ""
+#~ "scene204:Recherchez la boîte noire de l'expédition précédente pour "
+#~ "connaître les coordonnées de la prochaine planète."

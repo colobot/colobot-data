@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,49 +38,49 @@ msgstr "scene702:Potrenuj strzelanie z nowego działa organicznego."
 #: scene702-help/mhcent2.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene702-help/mhcent2.txt:3
 #, no-wrap
 msgid "It is time for <a object|human>you</a> to improve your shooting skills again. In the following drill, hit all the <a object|tnt>explosive devices</a> but watch out: your <a object|botoj>orga shooter</a> has very little power left in it, barely enough to complete the drill."
-msgstr ""
+msgstr "Nadszedł czas na kolejne poprawienie <a object|human>Twoich</a> umiejętności strzeleckich. W tym ćwiczeniu należy zniszczyć wszystkie <a object|tnt>ładunki wybuchowe</a>, ale uwaga: <a object|botoj>działo organiczne</a> ma bardzo mało energii, zaledwie tyle, ile potrzeba na wykonanie tego ćwiczenia."
 
 #. type: Plain text
 #: scene702-help/mhcent2.txt:5
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene702-help/mhcent2.txt:6 scene702-help/mscent2.txt:4
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene702-help/mhcent2.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene702-help/micent2.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene702-help/micent2.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Centaury."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Centuria."
 
 #. type: \s; block (usually verbatim code)
 #: scene702-help/micent2.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene702-help/micent2.txt:10
@@ -92,12 +92,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      25,4C\n"
+"\\tab;Atmosfera:        tlen, azot, amoniak\n"
+"\\tab;Wiatr:            1,2 m/s\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene702-help/micent2.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene702-help/micent2.txt:15
@@ -107,93 +112,96 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   brak\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \b; header
 #: scene702-help/mlcent2.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene702-help/mlcent2.txt:3
 #, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
-msgstr ""
+msgstr "Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
 
 #. type: \b; header
 #: scene702-help/mlcent2.txt:4
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene702-help/mlcent2.txt:6
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:7
 #, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTower1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:8
 #, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>CollectTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:9
 #, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>KillAnt1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:10
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:11
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:12
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:13
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene702-help/mlcent2.txt:14
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene702-help/mscent2.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Plain text
 #: scene702-help/mscent2.txt:3
 #, no-wrap
 msgid "Drive the <a object|botos>legged orga shooter</a> to each of the pads in front of the targets, and hit all targets that you see with only one burst, moving the mouse during the burst. With 4 bursts, you must be able to hit all the targets."
-msgstr ""
+msgstr "Podjedź <a object|botos>działem organicznym na nogach</a> do każdej z platform przed celami i zestrzel wszystkie widoczne cele jedną serią, poruszając myszą w trakcie strzelania. Do zniszczenia wszystkich celów muszą wystarczyć tylko 4 serie strzałów."
 
 #. type: Plain text
 #: scene702-help/mscent2.txt:5
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

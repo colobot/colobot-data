@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,55 +38,55 @@ msgstr "scene604:Odkryj tajemnicę robota nowego typu."
 #: scene604-help/mhvolca4.txt:1
 #, no-wrap
 msgid "An urgent notification from Mission Control"
-msgstr ""
+msgstr "Pilna wiadomość z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene604-help/mhvolca4.txt:3
 #, no-wrap
 msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
-msgstr ""
+msgstr "Podczas Twoich przygotowań do odlotu, otrzymaliśmy z satelity następującą informację: na Wulkanii został wykryty robot nieznanego typu. Spróbuj dostarczyć go na statek kosmiczny do dalszych badań."
 
 #. type: Plain text
 #: scene604-help/mhvolca4.txt:5
 #, no-wrap
 msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
-msgstr ""
+msgstr "Nasi inżynierowie na Ziemi ostatnio znaleźli rozwiązanie, które umożliwi choć krótkie działanie reaktorów pomimo wysokiej temperatury. Dane te zostały przesłane do Ciebie."
 
 #. type: Plain text
 #: scene604-help/mhvolca4.txt:7
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene604-help/mhvolca4.txt:8 scene604-help/msvolca4.txt:12
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene604-help/mhvolca4.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene604-help/mivolca4.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene604-help/mivolca4.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Wulkania."
 
 #. type: \s; block (usually verbatim code)
 #: scene604-help/mivolca4.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene604-help/mivolca4.txt:10
@@ -98,12 +98,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      96,7C\n"
+"\\tab;Atmosfera:        CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wiatr:            2,8 m/s\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene604-help/mivolca4.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene604-help/mivolca4.txt:15
@@ -113,12 +118,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   brak\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene604-help/mivolca4.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene604-help/mivolca4.txt:21
@@ -129,117 +137,121 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Wykryto:          robot\n"
+"\\tab;  - Typ:          nieznany\n"
+"\\tab;Wykryto:          olbrzymie mrówki\n"
+"\\tab;  - Zagrożenie:   niebezpośrednie"
 
 #. type: \b; header
 #: scene604-help/mlvolca4.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene604-help/mlvolca4.txt:3
 #, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
-msgstr ""
+msgstr "Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
 
 #. type: \b; header
 #: scene604-help/mlvolca4.txt:4
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene604-help/mlvolca4.txt:6
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:7
 #, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTower1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:8
 #, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>CollectTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:9
 #, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>KillAnt1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:10
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:11
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:12
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:13
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene604-help/mlvolca4.txt:14
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene604-help/msvolca4.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:3
 #, no-wrap
 msgid "A gap in the northwest mountain leads the way to a lake of boiling lava."
-msgstr ""
+msgstr "Szczelina w północno zachodniej górze prowadzi do jeziora wrzącej lawy."
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:5
 #, no-wrap
 msgid "Just hop from one rocky island to the next. Keep checking your reactor, let it cool off completely before taking off again. The mini map will help you to figure out where the closest island is."
-msgstr ""
+msgstr "Wystarczy skakać z jednej skalistej wyspy na drugą. Często sprawdzaj reaktor i pozwól mu zupełnie ostygnąć przed kolejnym startem. W znalezieniu najbliższej wyspy może być pomocna mapka."
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:7
 #, no-wrap
 msgid "In case of an ant attack, don't worry too much. Just take the time for your reactor to cool off, without lingering longer than necessary, and your built-in shield should do its duty. However we advise you to save the game from time to time (key Esc, and \"Save\"), so you will not have to start from the beginning in case of a landing in the lava lake."
-msgstr ""
+msgstr "Nie martw się zbytnio atakiem mrówek. Poczekaj, aż reaktor ostygnie, nie zwlekając jednak dłużej niż to konieczne, a Twoja wbudowana osłona powinna spełnić swoją rolę. Jednakże zalecane jest zapisanie gry co jakiś czas (klawisz Esc, następnie \"Zapisz\"), aby nie zaczynać gry od początku w przypadku wylądowania w jeziorze lawy."
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:9
 #, no-wrap
 msgid "The bot is at the westernmost point on your map though you'll have to take a roundabout route to reach it. A <a object|atomic>nuclear power cell</a> lies nearby."
-msgstr ""
+msgstr "Robot znajduje się w najbardziej wysuniętym na zachód punkcie, jednak możesz tam dotrzeć tylko okrężną drogą. W pobliżu znajdziesz <a object|atomic>atomowe ogniwo elektryczne</a>."
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:11
 #, no-wrap
 msgid "You don't have to radio-control the bot back to the spaceship by the same way you came because its reactor has a greater range than yours. One or two stops may still be needed and watch out for those ants."
-msgstr ""
+msgstr "Nie musisz w drodze powrotnej kierować robota tą samą drogą, gdyż jego reaktor ma większy zasięg niż Twój. Wciąż może być potrzebny jedne lub dwa przystanki, uważaj również na mrówki."
 
 #. type: Plain text
 #: scene604-help/msvolca4.txt:13
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

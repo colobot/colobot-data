@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,85 +44,85 @@ msgstr "train104:Tytan2"
 #: train104-help/ttit2.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:3
 #, no-wrap
 msgid "Take a chunk of <a object|titanore>titanium ore</a> the exact location of which we do not know. Use the bot's radar to find it. Bring the titanium ore to the <a object|convert>converter</a>."
-msgstr ""
+msgstr "Zabierz porcję <a object|titanore>rudy tytanu</a>, której dokładne położenie nie jest znane. Użyj radaru robota, aby ją znaleźć. Dostarcz rudę tytanu do <a object|convert>huty</a>."
 
 #. type: \t; header
 #: train104-help/ttit2.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:6
 #, no-wrap
 msgid "As you have certainly noticed, the programs written in the previous exercises were completely \"blind\": if the titanium ore, the power cell or the spiders had been at another location, the bot would not have found them."
-msgstr ""
+msgstr "Można zauważyć, że programy napisane w poprzednich ćwiczeniach były zupełnie \"ślepe\": jeśli ruda tytanu, ogniwo elektryczne lub pająki byłyby w innym miejscu, robot by ich nie znalazł."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:8
 #, no-wrap
 msgid "The radar represents the \"eyes\" of the bot. With the radar, it can detect the objects around it. For example the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> will return information about the closest chunk of <a object|titanore>titanium ore</a>. However, we will have to \"store\" the information returned by the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> somewhere. For this task we will need a <a cbot|var>variable</a>."
-msgstr ""
+msgstr "Radar to \"oczy\" robota. Za pomocą radaru można wykrywać obiekty dookoła niego. Na przykład instrukcja <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> poda informacje o najbliższej porcji <a object|titanore>rudy tytanu</a>. Jednakże trzeba gdzieś \"przechować\" informację zwróconą przez instrukcję <c/><a cbot|radar>radar</a>(TitaniumOre);<n/>. Do tego zadania potrzebna będzie <a cbot|var>zmienna</a>."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:10
 #, no-wrap
 msgid "A <a cbot|var>variable</a> is like a small box with a name where you can put some information, retrieve it, change it, etc. Before you can use a variable, you have got to declare it. First you must indicate the <a cbot|type>type</a> of the variable, in this case <code>object</code>. A variable of this type can contain all the information describing an object such as a chunk of titanium ore, a spider, an ant, a bot, a power cell, etc. Then you must write the name that you want to give to the variable, for example <code>item</code>. If we put this together, we get the following line:"
-msgstr ""
+msgstr "<a cbot|var>Zmienna</a> jest jak małe podpisane pudełko, w którym można umieścić informacje, odczytać je, zmienić, itd. Przed użyciem zmiennej trzeba ją zadeklarować. Najpierw należy określić jej <a cbot|type>typ</a>, w tym przypadku <code>object</code>. Zmienna tego typu może zawierać wszystkie informacje opisujące obiekt, taki jak porcja rudy tytanu, pająk, mrówka, robot, ogniwo elektryczne itd. Potem trzeba napisać nazwę, którą chcesz nadać zmiennej, na przykład <code>item</code>. Otrzymamy poniższy wiersz:"
 
 #. type: \s; block (usually verbatim code)
 #: train104-help/ttit2.txt:12
 #, no-wrap
 msgid "<a cbot|type>object</a> item;"
-msgstr ""
+msgstr "<a cbot|type>object</a> item;"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:14
 #, no-wrap
 msgid "Then we must put the information returned by the instruction <code><a cbot|radar>radar</a>(TitaniumOre)</code> into this variable:"
-msgstr ""
+msgstr "Następnie należy przypisać zmiennej wartość zwróconą przez instrukcję <code><a cbot|radar>radar</a>(TitaniumOre)</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train104-help/ttit2.txt:16
 #, no-wrap
 msgid "item = <a cbot|radar>radar</a>(TitaniumOre);"
-msgstr ""
+msgstr "item = <a cbot|radar>radar</a>(TitaniumOre);"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:18
 #, no-wrap
 msgid "The variable <code>item</code> contains many different kinds of information: it contains the position, the orientation, the pitch, etc. In order to get the position of the chunk of titanium ore, write <code>item.position</code>. Then we use the instruction <c/>goto();<n/> in order to move the bot to this position. Here is a line that puts all this together:"
-msgstr ""
+msgstr "Zmienna <code>item</code> zawiera wiele różnych rodzajów informacji: zawiera pozycję, orientację, pochylenie, itd. Aby otrzymać pozycję kawałka rudy tytanu, napisz <code>item.position</code>. Następnie użyj instrukcji <c/>goto();<n/>, aby wysłać robota na tę pozycję. Oto wiersz wykonujący opisane czynności:"
 
 #. type: \s; block (usually verbatim code)
 #: train104-help/ttit2.txt:20
 #, no-wrap
 msgid "<a cbot|goto>goto</a>(item.position);"
-msgstr ""
+msgstr "<a cbot|goto>goto</a>(item.position);"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:22
 #, no-wrap
 msgid "If we \"translate\" this into English, this would mean: go to the position of the object described by the variable <code>item</code>."
-msgstr ""
+msgstr "Jeśli \"przetłumaczymy\" to na język polski, będzie to oznaczać: idź na pozycję obiektu opisanego przez zmienną <code>item</code>."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:24
 #, no-wrap
 msgid "You can then just pick up what is at this position with the instruction <c/><a cbot|grab>grab</a>();<n/>."
-msgstr ""
+msgstr "Następnie można podnieść przedmiot znajdujący się przed robotem, używając instrukcji <c/><a cbot|grab>grab</a>();<n/>."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:26
 #, no-wrap
 msgid "If we put all this together, we get the following program:"
-msgstr ""
+msgstr "Po złożeniu tego wszystkiego razem, otrzymamy następujący program:"
 
 #. type: \s; block (usually verbatim code)
 #: train104-help/ttit2.txt:36
@@ -138,57 +138,66 @@ msgid ""
 "\t\n"
 "}"
 msgstr ""
+"extern void object::Titanium2( )\n"
+"{\n"
+"\t\n"
+"\t<a cbot|type>object</a> item;\n"
+"\titem = <a cbot|radar>radar</a>(TitaniumOre);\n"
+"\t<a cbot|goto>goto</a>(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"}"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:38
 #, no-wrap
 msgid "Then you must look for the <a cbot|convert>converter</a>, and put the information about the converter into the variable <code>item</code>:"
-msgstr ""
+msgstr "Później musisz znaleźć <a cbot|convert>hutę</a> i umieścić informacje o niej w zmiennej <code>item</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train104-help/ttit2.txt:40
 #, no-wrap
 msgid "item = <a cbot|radar>radar</a>(Converter);"
-msgstr ""
+msgstr "item = <a cbot|radar>radar</a>(Converter);"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:42
 #, no-wrap
 msgid "Go to the converter with the same instruction <c/><a cbot|goto>goto</a>(item.position);<n/> as above, drop the titanium, and step back. The converter will take care of the rest."
-msgstr ""
+msgstr "Podejdź do huty, używając tej samej instrukcji <c/><a cbot|goto>goto</a>(item.position);<n/> co powyżej, zostaw tytan i cofnij się. Huta wykona resztę roboty."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:44
 #, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr ""
+msgstr "Jeśli chcesz wiedzieć więcej o \"nazwach\" różnych obiektów w języku programowania, przeczytaj <a cbot|category>tekst o kategoriach</a>."
 
 #. type: \t; header
 #: train104-help/ttit2.txt:45
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Uwagi"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:47
 #, no-wrap
 msgid "A <a cbot|var>variable</a> must be declared only once at the beginning of the program! You can then use it as often as you want."
-msgstr ""
+msgstr "<a cbot|var>Zmienne</a> muszą zostać zadeklarowane tylko raz, na początku programu! Później można używać ich wielokrotnie."
 
 #. type: Plain text
 #: train104-help/ttit2.txt:49
 #, no-wrap
 msgid "In order to avoid retyping the instructions explained above, you can select them with the mouse, and copy-paste <button 61/> them into your program."
-msgstr ""
+msgstr "Aby uniknąć przepisywania opisanych powyżej instrukcji, możesz zaznaczyć je myszą oraz skopiować i wkleić <button 61/> do Twojego programu."
 
 #. type: \t; header
 #: train104-help/ttit2.txt:50
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train104-help/ttit2.txt:51
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

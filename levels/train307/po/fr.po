@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,15 +45,15 @@ msgstr "train307:Labyrinthe"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This exercise is very similar to the previous one. This time the bot should find its way alone from the start to the goal; you will have to execute the program only once."
-msgstr ""
+msgstr "Le programme écrit dans l'<a tlaby1>exercice précédent</a> doit fonctionner quel que soit la disposition du labyrinthe. Pour vérifier cela, exécutez le même programme. Le <a object|bottr>robot</a> devrait se déplacer correctement dans ce nouveau labyrinthe qu'il ne connait pas."
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:4
@@ -69,9 +69,9 @@ msgstr ""
 
 #. type: Image filename
 #: train307-help/tlaby2.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "tlaby1"
-msgstr ""
+msgstr "tlaby1"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:8
@@ -157,27 +157,27 @@ msgstr ""
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:51
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:53
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you need some help, just click on the hyperlinks of the instructions <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> or <code><a cbot|turn>turn</a></code>."
-msgstr ""
+msgstr "Si vous avez besoin d'aide, consultez la documentation des instructions <code><a cbot|while>while</a></code>, <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> et <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
 #: train307-help/tlaby2.txt:54
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:55
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tlaby1>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train300:Fundamentals"
@@ -213,7 +213,9 @@ msgstr ""
 
 #
 #~ msgid "train302:Use variables in order to store the parameters of the path."
-#~ msgstr "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant des variables."
+#~ msgstr ""
+#~ "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant "
+#~ "des variables."
 
 #
 #~ msgid "train302:Move"
@@ -244,8 +246,11 @@ msgstr ""
 #~ msgstr "train304:"
 
 #
-#~ msgid "train304:Collect valuable information from information exchange posts."
-#~ msgstr "train304:Récolter une information de direction, afin d'apprendre le concept de variable."
+#~ msgid ""
+#~ "train304:Collect valuable information from information exchange posts."
+#~ msgstr ""
+#~ "train304:Récolter une information de direction, afin d'apprendre le "
+#~ "concept de variable."
 
 #
 #~ msgid "train304:Info"
@@ -260,8 +265,12 @@ msgstr ""
 #~ msgstr "train305:"
 
 #
-#~ msgid "train305:Collect more valuable information from information exchange posts."
-#~ msgstr "train305:Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+#~ msgid ""
+#~ "train305:Collect more valuable information from information exchange "
+#~ "posts."
+#~ msgstr ""
+#~ "train305:Récolter des informations de direction et de distance, afin "
+#~ "d'apprendre le concept de variable."
 
 #
 #~ msgid "train305:Info"
@@ -277,7 +286,9 @@ msgstr ""
 
 #
 #~ msgid "train306:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "train306:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "train306:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "train306:Labyrinth"
@@ -297,7 +308,9 @@ msgstr ""
 
 #
 #~ msgid "train308:Instruct your bot to search a zone for subsoil resources."
-#~ msgstr "train308:Recherche de minerai en sous-sol en programmant un robot pour quadriller une zone."
+#~ msgstr ""
+#~ "train308:Recherche de minerai en sous-sol en programmant un robot pour "
+#~ "quadriller une zone."
 
 #
 #~ msgid "train308:Digger"
@@ -312,8 +325,11 @@ msgstr ""
 #~ msgstr "train309:"
 
 #
-#~ msgid "train309:Remote control a robot using an information exchange post, so it will transport uranium ore."
-#~ msgstr "train309:Télécommandez un robot par le biais d'une borne d'information."
+#~ msgid ""
+#~ "train309:Remote control a robot using an information exchange post, so it "
+#~ "will transport uranium ore."
+#~ msgstr ""
+#~ "train309:Télécommandez un robot par le biais d'une borne d'information."
 
 #
 #~ msgid "train309:remote"

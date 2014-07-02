@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 15:54+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,23 +44,19 @@ msgstr "defi104:Labirynt"
 #: defi104-help/dlaby1.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:3
 #, no-wrap
-msgid ""
-"Program the bot so that it will find its way without hitting the walls of "
-"the labyrinth. We suppose that you do not know the configuration of the "
-"labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is "
-"made of squares measuring 5m each."
-msgstr ""
+msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
+msgstr "Zaprogramuj robota tak, aby znajdował wyjście z labiryntu bez uderzania o ściany. Zakładamy, że układ labiryntu nie jest znany, ale nie ma w nim zapętleń ani ślepych korytarzy. Labirynt składa się z kwadratów o boku 5 m każdy."
 
 #. type: \b; header
 #: defi104-help/dlaby1.txt:4
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Przydatne instrukcje"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:9
@@ -71,17 +67,19 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> wykrywanie przeszkód\n"
+"<code><a cbot|if>if</a></code> sprawdzanie warunku\n"
+"<code><a cbot|move>move</a></code> poruszanie robotem\n"
+"<code><a cbot|turn>turn</a></code> obracanie robota"
 
 #. type: \t; header
 #: defi104-help/dlaby1.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: defi104-help/dlaby1.txt:11
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

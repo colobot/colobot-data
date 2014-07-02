@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-11 09:56+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,156 +42,156 @@ msgstr "train102:Spider2"
 
 #. type: \b; header
 #: train102-help/tcell1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Задание"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a> to change the <a object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The winged shooter can then shoot the spiders."
-msgstr ""
+msgstr "Запрограммируйте <a object|botgr>бота сборщика</a> поменять <a object|power>батарею</a>  <a object|botfj>крылатого стрелка</a>. После этого крылатый стрелок сможет убивать пауков."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Процедура"
 
 #. type: Bullet: '1)'
 #: train102-help/tcell1.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a>."
-msgstr ""
+msgstr "Запрограммировать <a object|botgr>бота сборщика</a>."
 
 #. type: Bullet: '2)'
 #: train102-help/tcell1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute the program with the arrow button <button 21/>."
-msgstr ""
+msgstr "Запустить программу нажатием кнопки со стрелкой <button 21/>."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The <a object|botfj>winged shooter</a> is already programmed, it will do its job as soon as it has got a new power cell."
-msgstr ""
+msgstr "<a object|botfj>Крылатый стрелок</a> уже запрограммирован, он начнет выполнять свою работу как только получит новую батарею."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Программа"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You will need the following instructions:"
-msgstr ""
+msgstr "Вам понадобятся следующие инструкции:"
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "grab();<n/>"
-msgstr ""
+msgstr "grab();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>Takes whatever there is in front of the bot."
-msgstr ""
+msgstr "<n/>Берет все, что лежит перед ботом."
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:16
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "drop();<n/>"
-msgstr ""
+msgstr "drop();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>Drops whatever the bot is carrying in front."
-msgstr ""
+msgstr "<n/>Сбрасывает все, что бот несет перед собой."
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "turn();<n/>"
-msgstr ""
+msgstr "turn();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<n/>We have seen this instruction already in the previous exercise: it performs a rotation of a certain angle, given in degrees."
-msgstr ""
+msgstr "<n/>Мы уже встречались с этой инструкцией в предыдущем упражнении: она производит поворот на указанный угол, заданный в градусах."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Let us see the beginning of the program:\n"
-msgstr ""
+msgstr "Давайте посмотрим на начало программы:\n"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:22
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "pick up the empty power cell with <c/>grab();<n/>"
-msgstr ""
+msgstr "подобрать пустую батарею <c/>grab();<n/>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:23
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "turn left 90 degrees (quarter turn) with <code>turn(90)</code>"
-msgstr ""
+msgstr "повернуться влево на 90 градусов (четверть оборота) <code>turn(90)</code>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:24
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "drop the empty cell with <c/>drop();<n/>"
-msgstr ""
+msgstr "бросить пустую батарею <c/>drop();<n/>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "etc."
-msgstr ""
+msgstr "и т.п."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It is up to you now to write the rest of the program!"
-msgstr ""
+msgstr "То, как будет выгледеть остальная часть программы, зависит только от вас!"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:30
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program, and click the braces button <button 22/>."
-msgstr ""
+msgstr "Если у вас вдруг возникнут проблемы, вы всегда можете посмотреть на решение: выберите программу <code>Solution</code>, и нажмите фигурную скобку <button 22/>."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:31
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Комментарий"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:33
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
-msgstr ""
+msgstr "Когда вы пишите инструкции, будьте предельно внимательны и различайте буквы, написанные в верхнем и нижнем регистре."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:35
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
-msgstr ""
+msgstr "В одной строке всегда пишите только одну инструкцию, заканчмвая каждую строку точкой с запятой."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:37
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button <button 59/>. You can also start over again from the beginning (hit the key \"Esc\", the click \"Restart\"). The program you have written will not be lost."
-msgstr ""
+msgstr "В случае, если ваша программа делает не совсем то, что вы хотели, вы можете вернуть бота обратно на стартовую позицию, нажав кнопку <button 59/>. Вы также можете начать все с самого начала (нажмите клавишу \"Esc\", после этого выберите \"Заново\"). Программа, которую вы написали, будет сохранена."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:38
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время."

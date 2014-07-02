@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr "scene303:Rozwiń systemy broni ofensywnej i zmierz się z olbrzymimi mr�
 #: scene303-help/mhtropi3.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:4
@@ -47,66 +47,68 @@ msgid ""
 "Terminate all hostile life-form.\n"
 "Perform the necessary <a object|research>research program</a> in order to develop an offensive weapon system."
 msgstr ""
+"Wyeliminuj wszystkie wrogie formy życia.\n"
+"Przeprowadź niezbędne <a object|research>badania</a> w celu rozwinięcia systemu broni ofensywnej."
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:6
 #, no-wrap
 msgid "The satellite has detected an energy source, on a spot marked by the previous expedition with a blue flag (blue cross on the mini-map)."
-msgstr ""
+msgstr "Satelita wykrył źródło energii w punkcie oznaczonym przez poprzednią ekspedycję niebieską flagą (niebieski plus na mapce)."
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:8
 #, no-wrap
 msgid "Do not forget to take a look at the satellite report <button 186/> before you venture any further in a mission; we suspect that you have not always done this."
-msgstr ""
+msgstr "Nie zapomnij zajrzeć do raportu z satelity <button 186/> zanim przedsięweźmiesz jakiekolwiek decyzje; podejrzewamy, że nie zawsze o tym pamiętasz."
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:10
 #, no-wrap
 msgid "We have improved the recharge program. Please refer to the page <button 53/>."
-msgstr ""
+msgstr "Udoskonaliliśmy program ładujący ogniwa. Zobacz stronę <button 53/>."
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:12
 #, no-wrap
 msgid "A note of warning: bots cannot be submerged. If in doubt, test the water yourself if you plan to radio-control a non-winged bot across - water shouldn't be deeper than knee-level."
-msgstr ""
+msgstr "Ostrzeżenie: roboty nie mogą się zanurzać. W razie wątpliwości sprawdź sam, czy poziom wody nie jest wyższy niż do kolan, jeśli zamierzasz zdalnie kierować nielatające roboty przez wodę."
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:14
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene303-help/mhtropi3.txt:15 scene303-help/mstropi3.txt:12
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene303-help/mhtropi3.txt:16
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene303-help/mitropi3.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene303-help/mitropi3.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Tropika."
 
 #. type: \s; block (usually verbatim code)
 #: scene303-help/mitropi3.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene303-help/mitropi3.txt:10
@@ -118,12 +120,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      29,6C\n"
+"\\tab;Atmosfera:        hel, tlen\n"
+"\\tab;Wiatr:            1,5 m/s\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene303-help/mitropi3.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene303-help/mitropi3.txt:15
@@ -133,12 +140,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   odizolowane (niebieska flaga)\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene303-help/mitropi3.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene303-help/mitropi3.txt:20
@@ -148,18 +158,21 @@ msgid ""
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
+"\\tab;Wykryto:          olbrzymie mrówki\n"
+"\\tab;  - Zagrożenie:   niebezpośrednie\n"
+"\\tab;Wykryto:          użyteczne pozostałości"
 
 #. type: \b; header
 #: scene303-help/mltropi3.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene303-help/mltropi3.txt:3
 #, no-wrap
 msgid "We have improved the recharge program. When it arrives at the <a object|station>power station</a>, the bot does not wait exactly 5 seconds, but only until the <a object|power>power cell</a> is fully charged. After the bot is back at the initial position, it displays a message on the screen."
-msgstr ""
+msgstr "Usprawniliśmy program ładowania ogniw. Po dotarciu do <a object|station>stacji energetycznej</a> robot nie czeka już dokładnie 5 sekund, ale tylko do czasu pełnego naładowania <a object|power>ogniwa elektrycznego</a>. Po powrocie na pozycję wyjściową robot wyświetla komunikat na ekranie."
 
 #. type: \s; block (usually verbatim code)
 #: scene303-help/mltropi3.txt:22
@@ -184,69 +197,87 @@ msgid ""
 "\t<a cbot|message>message</a>(\"Recharge completed\");\n"
 "}"
 msgstr ""
+"extern void object::Recharge2()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // zmienna pozycji startowej\n"
+"\t<a cbot|type>object</a> item;           // informacja o stacji energetycznej\n"
+"\t\n"
+"\tstart = position;      // zachowaj pozycję startową\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // znajdź stację\n"
+"\t<a cbot|goto>goto</a>(item.position);   // idź do stacji energetycznej\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
+"\t{\n"
+"\t\t<a cbot|wait>wait</a>(1);           // poczekaj aż się naładuje\n"
+"\t}\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // wróć do pozycji startowej\n"
+"\t<a cbot|message>message</a>(\"Ładowanie zakończone\");\n"
+"}"
 
 #. type: \b; header
 #: scene303-help/mltropi3.txt:23
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene303-help/mltropi3.txt:25
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene303-help/mltropi3.txt:26
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene303-help/mltropi3.txt:27
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: \b; header
 #: scene303-help/mstropi3.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Bullet: '1)'
 #: scene303-help/mstropi3.txt:2
 #, no-wrap
 msgid "There is a <a object|titan>titanium cube</a> west of your present location, near the blue flag/blue cross on your mini map. You don't need to move the cube, just build a <a object|station>power station</a> right there on the spot."
-msgstr ""
+msgstr "Na zachód od Twojej obecnej pozycji znajdziesz <a object|titan>kostkę tytanu</a>, w pobliżu niebieskiej flagi/niebieskiego plusa na mapce. Nie przenoś tytanu ale właśnie tam zbuduj <a object|station>stację energetyczną</a>."
 
 #. type: Bullet: '2)'
 #: scene303-help/mstropi3.txt:4
 #, no-wrap
 msgid "With the titanium cubes on the spaceship, build a <a object|research>research center</a> and execute the <shooter cannon research program> <button 67/>."
-msgstr ""
+msgstr "Użyj kostki tytanu ze statku kosmicznego do zbudowania <a object|research>centrum badawczego</a>, a następnie wykonaj <program badawczy działka> <button 67/>."
 
 #. type: Bullet: '3)'
 #: scene303-help/mstropi3.txt:6
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> and a <a object|botfj>winged shooter</a>. If this bot is destroyed by enemy fire, you will find some additional <a object|titan>titanium cubes</a> in a small foggy valley northwest of the spaceship. You can bring them back with the <a object|botgj>winged grabber</a><n/>."
-msgstr ""
+msgstr "Zbuduj <a object|factory>fabrykę robotów</a> oraz <a object|botfj>działo latające</a>. Jeśli robot ten zostanie zniszczony przez ogień wroga, kilka dodatkowych <a object|titan>kostek tytanu</a> znajdziesz w małej mglistej dolinie na północny zachód od statku kosmicznego. Możesz je przywieźć <a object|botgj>transporterem latającym</a><n/>."
 
 #. type: Bullet: '4)'
 #: scene303-help/mstropi3.txt:8
 #, no-wrap
 msgid "Build a <a object|radar>radar station</a> in order to see the location of the ants on the mini-map, and let the hunt begin. Be careful not to run out of energy and not to overheat the reactor of a bot while over water. If a bot falls into deep water, it explodes."
-msgstr ""
+msgstr "Zbuduj <a object|radar>radar</a>, aby poznać pozycje mrówek na mapce i rozpocząć polowanie. Uważaj, aby robot nie został bez energii ani nie przegrzał reaktora nad wodą. Jeśli spadnie do głębokiej wody, wybuchnie."
 
 #. type: Bullet: '5)'
 #: scene303-help/mstropi3.txt:10
 #, no-wrap
 msgid "Once you have killed all the ants, get on board and take off."
-msgstr ""
+msgstr "Gdy zabijesz wszystkie mrówki, wróć na pokład i odleć."
 
 #. type: Plain text
 #: scene303-help/mstropi3.txt:13
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

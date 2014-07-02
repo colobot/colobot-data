@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,39 +45,39 @@ msgstr "train403:Ramasse"
 
 #. type: \b; header
 #: train403-help/tradar2.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: train403-help/tradar2.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "In this exercise, a \"crazy bot\" places many <a object|waypoint>blue crosses</a> on the ground. In order to find them, you can reuse the program written in the previous exercise. This can show you the flexibility of such a program: it adapts to whatever environment it encounters."
-msgstr ""
+msgstr "Le robot <petit poucet> sème des <a object|waypoint>croix bleues</a> sur le sol. A vous de les trouver toutes. Pour cela, un programme semblable à celui de l'exercice précédent fera parfaitement l'affaire. Ceci démontre les capacités d'un tel programme à s'adapter à l'environnement qu'il rencontre."
 
 #. type: \t; header
 #: train403-help/tradar2.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Remarque"
 
 #. type: Plain text
 #: train403-help/tradar2.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Do not wait too long, because the crazy bot gets down to work immediately. Fortunately, as long as you are in the program editor, the game will pause."
-msgstr ""
+msgstr "N'attendez pas trop, car le petit poucet se met au travail tout de suite. Heureusement, pendant l'édition d'un programme, le jeu se met en pause, y compris le petit poucet."
 
 #. type: \t; header
 #: train403-help/tradar2.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: train403-help/tradar2.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a tradar1>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
 #~ msgid "train400:Motors"
@@ -100,7 +100,9 @@ msgstr ""
 #~ msgstr "train401:"
 
 #
-#~ msgid "train401:Program a progressive deceleration in order to avoid the mines right behind the goal."
+#~ msgid ""
+#~ "train401:Program a progressive deceleration in order to avoid the mines "
+#~ "right behind the goal."
 #~ msgstr "train401:Décélération avec commande directe des moteurs."
 
 #
@@ -113,7 +115,8 @@ msgstr ""
 
 #
 #~ msgid "train402:Use the radar to find lots of stupid blue crosses."
-#~ msgstr "train402:Utilisez le radar pour trouver des objets répartis aléatoirement."
+#~ msgstr ""
+#~ "train402:Utilisez le radar pour trouver des objets répartis aléatoirement."
 
 #
 #~ msgid "train402:Find"
@@ -133,7 +136,8 @@ msgstr ""
 
 #
 #~ msgid "train404:Be patient enough not to waste your ammunitions."
-#~ msgstr "train404:Abattre quatre cibles mouvantes sans gaspiller un seul coup."
+#~ msgstr ""
+#~ "train404:Abattre quatre cibles mouvantes sans gaspiller un seul coup."
 
 #
 #~ msgid "train404:Patient"

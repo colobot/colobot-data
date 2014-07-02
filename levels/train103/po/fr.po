@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,15 +45,15 @@ msgstr "train103:Titanium1"
 
 #. type: \b; header
 #: train103-help/ttit1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: train103-help/ttit1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Write a program that takes a chunk of <a object|titanore>titanium ore</a> and drops in on the <a object|convert>converter</a> in order to produce a <a object|titan>titanium cube</a>."
-msgstr ""
+msgstr "Aller chercher un <a object|titanore>minerai de titanium</a>, et le poser sur le <a object|convert>convertisseur</a> de manière à obtenir un <a object|titan>cube de titanium</a>."
 
 #. type: \t; header
 #: train103-help/ttit1.txt:4
@@ -69,9 +69,9 @@ msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train103-help/ttit1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "move();<n/>"
-msgstr ""
+msgstr "<n/>"
 
 #. type: Plain text
 #: train103-help/ttit1.txt:9
@@ -87,15 +87,15 @@ msgstr ""
 
 #. type: Plain text
 #: train103-help/ttit1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a object|convert>converter</a> is 10m behind the bot. After dropping the titanium ore on the converter, do not forget to move back (for example <c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
-msgstr ""
+msgstr "Le <a object|titanore>minerai de titanium</a> se trouve à 20 mètres devant le robot, et le <a object|convert>convertisseur</a> se trouve à 10 mètres derrière le robot. Après avoir posé le minerai sur le convertisseur, n'oubliez pas de reculer pour que le convertisseur puisse fermer les portes et se mettre au travail."
 
 #. type: Plain text
 #: train103-help/ttit1.txt:14
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> permet de revoir les instructions générales en tout temps. De même, <format key><key prog/></format> accède aux explications du langage de programmation CBOT."
 
 #
 #~ msgid "train100:Spiders and supply"
@@ -103,7 +103,8 @@ msgstr ""
 
 #
 #~ msgid "train100:Supply problems and fight against motionless targets"
-#~ msgstr "train100:Problèmes de logistique et combat contre des cibles immobiles"
+#~ msgstr ""
+#~ "train100:Problèmes de logistique et combat contre des cibles immobiles"
 
 #
 #~ msgid "train100:"
@@ -134,8 +135,11 @@ msgstr ""
 #~ msgstr "train102:"
 
 #
-#~ msgid "train102:Instruct a bot to change the power cell of a nearby winged shooter."
-#~ msgstr "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
+#~ msgid ""
+#~ "train102:Instruct a bot to change the power cell of a nearby winged "
+#~ "shooter."
+#~ msgstr ""
+#~ "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
 
 #
 #~ msgid "train102:Spider2"
@@ -154,8 +158,11 @@ msgstr ""
 #~ msgstr "train104:"
 
 #
-#~ msgid "train104:Use the bot's radar to look for the titanium ore and bring it to the converter."
-#~ msgstr "train104:Utiliser le radar pour aller chercher un minerai de titanium"
+#~ msgid ""
+#~ "train104:Use the bot's radar to look for the titanium ore and bring it to "
+#~ "the converter."
+#~ msgstr ""
+#~ "train104:Utiliser le radar pour aller chercher un minerai de titanium"
 
 #
 #~ msgid "train104:Titanium2"

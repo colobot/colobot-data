@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,9 +31,7 @@ msgstr "train309:Zdalna kontrola #1"
 #. type: Resume-text
 #: train309/scene.txt:2
 #, no-wrap
-msgid ""
-"train309:Remote control a robot using an information exchange post, so it "
-"will transport uranium ore."
+msgid "train309:Remote control a robot using an information exchange post, so it will transport uranium ore."
 msgstr "train309:Kontroluj zdalnie robota używając stacji przekaźnikowej, aby przenieść rudę uranu"
 
 #. type: ScriptName-text
@@ -46,64 +44,59 @@ msgstr "train309:Zdalnie"
 #: train309-help/tremote1.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:4
 #, no-wrap
 msgid ""
-"Remote control a robot using an <a object|exchange>information exchange "
-"post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
+"Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
 "The main actors of this exercise are¦:"
 msgstr ""
+"Pokieruj zdalnie robotem, używając <a object|exchange>stacji przekaźnikowej informacji</a>, aby przetransportować <a object|uranore>rudę uranu</a>.\n"
+"Głównymi postaciami tego ćwiczenia są¦:"
 
 #. type: Bullet: '1)'
 #: train309-help/tremote1.txt:5
 #, no-wrap
 msgid "A <a object|botsr>sniffer</a> (can't carry anything)."
-msgstr ""
+msgstr "Robot <a object|botsr>szperacz</a> (nie może niczego przenosić)."
 
 #. type: Bullet: '2)'
 #: train309-help/tremote1.txt:6
 #, no-wrap
-msgid ""
-"An <a object|exchange>information exchange post</a> that receives "
-"information from a sender and then transmits it to a receiver."
-msgstr ""
+msgid "An <a object|exchange>information exchange post</a> that receives information from a sender and then transmits it to a receiver."
+msgstr "<a object|exchange>Stacja przekaźnikowa informacji</a>, otrzymująca informacje od nadawcy i przekazująca je do odbiorcy."
 
 #. type: Bullet: '3)'
 #: train309-help/tremote1.txt:7
 #, no-wrap
-msgid ""
-"A <a object|botgr>grabber</a> which waits for orders from the exchange "
-"post. You have no way control this robot directly."
-msgstr ""
+msgid "A <a object|botgr>grabber</a> which waits for orders from the exchange post. You have no way control this robot directly."
+msgstr "<a object|botgr>Transporter</a>, czekający na rozkazy ze stacji przekaźnikowej. Nie jest możliwe bezpośrednie kontrolowania tego robota."
 
 #. type: Image filename
 #: train309-help/tremote1.txt:9
 #, no-wrap
 msgid "tremot1a"
-msgstr ""
+msgstr "tremot1a"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:11
 #, no-wrap
-msgid ""
-"An information exchange post stores \"name/value\" couples. To control the "
-"\"slave\" robot we use just one couple¦:"
-msgstr ""
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple¦:"
+msgstr "Stacja przekaźnikowa informacji przechowuje pary \"nazwa/wartość\". Aby kontrolować robota podległego wystarczy użyć tylko jednej pary¦:"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:13
 #, no-wrap
 msgid "    name=\"order\", valuer=order number"
-msgstr ""
+msgstr "    nazwa=\"order\", wartoscr=numer rozkazu"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:15
 #, no-wrap
 msgid "The slace robot understands following orders¦:"
-msgstr ""
+msgstr "Robot odbiorca rozumie następujące rozkazy¦:"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:20
@@ -114,79 +107,81 @@ msgid ""
 "    3 -> move(10);   // move 10 meters forward\n"
 "    4 -> move(-10);  // move 10 meters backwards"
 msgstr ""
+"    1 -> grab();     // podnieś obiekt\n"
+"    2 -> drop();     // upuść obiekt\n"
+"    3 -> move(10);   // przesuń robota 10 metrów naprzód\n"
+"    4 -> move(-10);  // cofnij robota o 10 metrów"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:23
 #, no-wrap
 msgid ""
 "To instruct the slave to move forward 10 meters all you have to do is¦:\n"
-"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> "
-"\"move(10)\""
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
+"Aby rozkazać robotowi podległemu przemieścić się 10 metrów naprzód, wystarczy napisać¦:\n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 
 #. type: Plain text
 #: train309-help/tremote1.txt:26
 #, no-wrap
 msgid ""
-"After the send instruction we wait for 5 seconds to be sure the move is "
-"done.\n"
+"After the send instruction we wait for 5 seconds to be sure the move is done.\n"
 "<c/><s/>\t<a cbot|wait>wait</a>(5);"
 msgstr ""
+"Po wysłaniu instrukcji odczekaj 5 sekund, aby upewnić się, że ruch został wykonany.\n"
+"<c/><s/>\t<a cbot|wait>wait</a>(5);"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:28
 #, no-wrap
-msgid ""
-"Remark: There is a better way for waiting the order has been executed, but "
-"we'll see this later in exercise \"Remote Control #2\"."
-msgstr ""
+msgid "Remark: There is a better way for waiting the order has been executed, but we'll see this later in exercise \"Remote Control #2\"."
+msgstr "Wskazówka: Jest lepszy sposób na czekanie na zakończenie wykonywania rozkazu, ale zobaczymy to w późniejszym ćwiczeniu \"Kontrola zdalna #2\"."
 
 #. type: Plain text
 #: train309-help/tremote1.txt:30
 #, no-wrap
 msgid "To finish the exercise you must¦:"
-msgstr ""
+msgstr "Aby zakończyć ćwiczenie, robot musi¦:"
 
 #. type: Bullet: '1)'
 #: train309-help/tremote1.txt:31
 #, no-wrap
 msgid "Take the uranium ore"
-msgstr ""
+msgstr "Podnieść rudę uranu"
 
 #. type: Bullet: '2)'
 #: train309-help/tremote1.txt:32
 #, no-wrap
 msgid "Move forward by 10 meters"
-msgstr ""
+msgstr "Iść od przodu o 10 metrów"
 
 #. type: Bullet: '3)'
 #: train309-help/tremote1.txt:33
 #, no-wrap
 msgid "Drop the uranium ore"
-msgstr ""
+msgstr "Zostawić rudę uranu"
 
 #. type: Bullet: '4)'
 #: train309-help/tremote1.txt:34
 #, no-wrap
 msgid "Move backwards by 10 meters"
-msgstr ""
+msgstr "Cofnąć się o 10 metrów"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:37
 #, no-wrap
 msgid "It's up to you to write the program."
-msgstr ""
+msgstr "Do Ciebie należy dokończenie programu..."
 
 #. type: \t; header
 #: train309-help/tremote1.txt:38
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train309-help/tremote1.txt:39
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

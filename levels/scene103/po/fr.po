@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,105 +38,105 @@ msgstr "scene103:Equipez votre vaisseau spatial en vue du grand départ vers l'a
 
 #. type: \b; header
 #: scene103-help/mhterre3.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Your <a object|base>spaceship</a> is now standing on the launching pad, ready for takeoff."
-msgstr ""
+msgstr "Votre <a object|base>vaisseau spatial</a> est arrivé sur l'aire de lancement. Votre dernière mission d'entraînement consiste à l'équiper de sa <a object|bbox>boîte noire</a>."
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The last drill left for <a object|human>you</a> to perform before embarking on your journey is to equip your spaceship with its <a object|bbox>black box</a>. The only way to reach the <a object|bbox>black box</a> is by a steep path that can only be climbed by a <a object|botgc>tracked grabber</a> which you need to build."
-msgstr ""
+msgstr "Celle-ci se trouve sur une montagne proche. Le seul moyen d'accès est une route à forte déclivité, qui ne peut être pratiquée qu'avec un robot équipé de chenilles que vous devez construire."
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Unfortunately your <a object|factory>bot factory</a> hasn't yet got the capacity to assemble this type of bot. You need to request your <a object|research>research center</a> to come up with a blueprint for this particular propeller."
-msgstr ""
+msgstr "Votre <a object|factory>fabrique de robots</a> n'a pas les informations nécessaires pour produire ce type de robot. Activez votre <a object|research>centre de recherches</a>, doté d'une énorme puissance de calcul, afin qu'il fournisse les plans de ce nouveau mode de propulsion."
 
 #. type: \b; header
 #: scene103-help/mhterre3.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Marche à suivre"
 
 #. type: Bullet: '1)'
 #: scene103-help/mhterre3.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Power the research center with one of the green <a object|power>power cells</a>."
-msgstr ""
+msgstr "Amenez une <a object|power>pile</a> sur le <a object|research>centre de recherches</a>."
 
 #. type: Bullet: '2)'
 #: scene103-help/mhterre3.txt:10
-#, no-wrap
-msgid "Click on the <tracked bot research program> button \\button 64;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Click on the <tracked bot research program> button <button 64/>."
+msgstr "Sélectionnez le centre de recherches et cliquez sur le bouton <Recherche les chenilles> <button 64/>."
 
 #. type: Bullet: '3)'
 #: scene103-help/mhterre3.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Drop a <a object|titan>titanium cube</a> in the center of the <a object|factory>bot factory</a> and build a <a object|botgc>tracked grabber</a>."
-msgstr ""
+msgstr "Déposez un bloc de <a object|titan>titanium</a> dans la <a object|factory>fabrique de robots</a>. Reculez, puis sélectionnez la fabrique. Cliquez sur le bouton <Fabrique un déménageur à chenilles> <button 138/>."
 
 #. type: Bullet: '4)'
 #: scene103-help/mhterre3.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Power and radio-control the <a object|botgc>tracked grabber</a> to the top of the southwest-oriented mountain."
-msgstr ""
+msgstr "Equipez le <a object|botgc>robot déménageur</a> d'une <a object|power>pile</a>. Prenez les commandes du <a object|botgc>robot déménageur à chenilles</a>, et faites-lui gravir la montagne située au sud-ouest pour chercher la <a object|bbox>boîte noire</a>."
 
 #. type: Bullet: '5)'
 #: scene103-help/mhterre3.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Bring the black box back aboard your spaceship."
-msgstr ""
+msgstr "Amenez cette boîte noire sur votre <a object|base>vaisseau spatial</a>."
 
 #. type: Bullet: '6)'
 #: scene103-help/mhterre3.txt:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Don't forget to take the <a object|botgr>wheeled grabber</a> along. These bots may prove very useful in the future."
-msgstr ""
+msgstr "Prenez avec vous le <a object|botgr>robot déménageur à roues</a>, qui sera très utile par la suite."
 
 #. type: Bullet: '7)'
 #: scene103-help/mhterre3.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Climb aboard the <a object|base>spaceship</a>."
-msgstr ""
+msgstr "Prenez place sur le vaisseau spatial."
 
-#. type: Plain text
-#: scene103-help/mhterre3.txt:17
-#, no-wrap
-msgid "11) Select the <a object|base>spaceship</a> and take off \\button 28;."
-msgstr ""
+#. type: Bullet: '8)'
+#: scene103-help/mhterre3.txt:16
+#, fuzzy, no-wrap
+msgid "Select the <a object|base>spaceship</a> and take off <button 28/>."
+msgstr "Sélectionnez le <a object|base>vaisseau spatial</a>. Décollez <button 28/>."
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:20
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Please note: To work more efficiently, you can use the <a object|botgr>wheeled grabber</a>."
-msgstr ""
+msgstr "Remarque: Pour travailler plus efficacement, vous pouvez utiliser le <a object|botgr>robot déménageur</a>."
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:22
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
 #: scene103-help/mhterre3.txt:23 scene103-help/msterre3.txt:27
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene103-help/mhterre3.txt:24 scene103-help/msterre3.txt:28
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene103-help/msterre3.txt:1
@@ -183,7 +183,7 @@ msgstr ""
 #. type: Bullet: '2)'
 #: scene103-help/msterre3.txt:10
 #, no-wrap
-msgid "Activate the <a object|research>research center</a> then click on the \\button 64; <tracked bot research program> button."
+msgid "Activate the <a object|research>research center</a> then click on the <button 64/> <tracked bot research program> button."
 msgstr ""
 
 #. type: Bullet: '3)'
@@ -201,7 +201,7 @@ msgstr ""
 #. type: Bullet: '5)'
 #: scene103-help/msterre3.txt:13
 #, no-wrap
-msgid "Click on the \\button 138; <build a <a object|botgc>tracked grabber</a>> button."
+msgid "Click on the <button 138/> <build a <a object|botgc>tracked grabber</a>> button."
 msgstr ""
 
 #. type: Bullet: '6)'
@@ -239,13 +239,13 @@ msgstr ""
 #. type: Plain text
 #: scene103-help/msterre3.txt:22
 #, no-wrap
-msgid "In order to take off, select the <a object|base>spaceship</a>, provided that it is visible, by clicking on it. If it is not visible, you need to click one of the buttons in the upper left corner of your screen. The blue triangle \\button 130; allows you to alternate between symbols for bots and symbols for buildings. Click once to shift to the <buildings> list. A \\button 171; <spaceship> symbol will now appear. Click on the button to select it."
+msgid "In order to take off, select the <a object|base>spaceship</a>, provided that it is visible, by clicking on it. If it is not visible, you need to click one of the buttons in the upper left corner of your screen. The blue triangle <button 130/> allows you to alternate between symbols for bots and symbols for buildings. Click once to shift to the <buildings> list. A <button 171/> <spaceship> symbol will now appear. Click on the button to select it."
 msgstr ""
 
 #. type: Plain text
 #: scene103-help/msterre3.txt:24
 #, no-wrap
-msgid "Once the spaceship is selected, click on the larger \\button 28; <takeoff> button in the lower center of your screen. If the objects mentioned above as well as yourself are indeed standing on deck, takeoff will take place."
+msgid "Once the spaceship is selected, click on the larger <button 28/> <takeoff> button in the lower center of your screen. If the objects mentioned above as well as yourself are indeed standing on deck, takeoff will take place."
 msgstr ""
 
 #. type: Plain text
@@ -275,7 +275,9 @@ msgstr ""
 #~ msgstr "scene101:"
 
 #
-#~ msgid "scene101:Prepare yourself to embark on mankind's most thrilling adventure yet."
+#~ msgid ""
+#~ "scene101:Prepare yourself to embark on mankind's most thrilling adventure "
+#~ "yet."
 #~ msgstr "scene101:Equipez-vous pour affronter la grande aventure."
 
 #

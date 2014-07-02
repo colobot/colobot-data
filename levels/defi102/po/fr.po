@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,43 +45,47 @@ msgstr "defi102:Go"
 
 #. type: \b; header
 #: defi102-help/dfor.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: defi102-help/dfor.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Destroy all four <a object|bottarg>targets</a> with a program using a <code>for</code> loop. You must move 10m to get from one target to another."
-msgstr ""
+msgstr "Détruire les quatre <a object|bottarg>cibles</a> à l'aide d'un programme utilisant une boucle <code>for</code>. Il faut avancer de 10 mètres pour passer d'une cible à l'autre."
 
 #. type: \b; header
 #: defi102-help/dfor.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Instructions utiles"
 
 #. type: Plain text
 #: defi102-help/dfor.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|for>for</a></code> loop to repeat the instructions\n"
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot\n"
 "<code><a cbot|fire>fire</a></code> to fire the cannon"
 msgstr ""
+"<code><a cbot|for>for</a></code> boucle pour répéter des instructions\n"
+"<code><a cbot|move>move</a></code> pour avancer le robot\n"
+"<code><a cbot|turn>turn</a></code> pour tourner le robot\n"
+"<code><a cbot|fire>fire</a></code> pour faire tirer le robot"
 
 #. type: \t; header
 #: defi102-help/dfor.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi102-help/dfor.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -120,7 +124,9 @@ msgstr ""
 #~ msgstr "defi103:"
 
 #
-#~ msgid "defi103:Collect lots of valuable information from information exchange posts."
+#~ msgid ""
+#~ "defi103:Collect lots of valuable information from information exchange "
+#~ "posts."
 #~ msgstr "defi103:Récolter des informations de direction et de distance."
 
 #
@@ -137,7 +143,9 @@ msgstr ""
 
 #
 #~ msgid "defi104:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "defi104:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "defi104:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "defi104:Labyrinth"
@@ -164,8 +172,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -212,8 +224,12 @@ msgstr ""
 #~ msgstr "defi204:"
 
 #
-#~ msgid "defi204:Use your radar to look for various items, but watch out for the mines."
-#~ msgstr "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+#~ msgid ""
+#~ "defi204:Use your radar to look for various items, but watch out for the "
+#~ "mines."
+#~ msgstr ""
+#~ "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, "
+#~ "en évitant les bombes."
 
 #
 #~ msgid "defi204:Traps"
@@ -256,7 +272,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -272,7 +290,8 @@ msgstr ""
 #~ msgstr "defi302:"
 
 #
-#~ msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+#~ msgid ""
+#~ "defi302:Try to figure out how to move the titanium cube across obstacles."
 #~ msgstr "defi302:Déplacer un cube de métal par dessus des obstacles."
 
 #
@@ -312,7 +331,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #

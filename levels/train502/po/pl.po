@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 09:01+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,16 +44,13 @@ msgstr "train502:Poruszanie"
 #: train502-help/tremova2.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:3
 #, no-wrap
-msgid ""
-"This exercise is very similar to the previous one. There are now three <a "
-"object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here "
-"are the coordinates of the finishing pads:"
-msgstr ""
+msgid "This exercise is very similar to the previous one. There are now three <a object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here are the coordinates of the finishing pads:"
+msgstr "To ćwiczenie jest bardzo podobne do poprzedniego. Tym razem mamy trzy <a object|titan>kostki tytanu</a>, które należy przenieść na 3 platformy końcowe. Oto współrzędne platform końcowych:"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:7
@@ -63,71 +60,63 @@ msgid ""
 "\tx=10, y=-65\n"
 "\tx=10, y=-70"
 msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
 
 #. type: \b; header
 #: train502-help/tremova2.txt:8
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Ogólny algorytm"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:10
 #, no-wrap
 msgid "Repeat 3 times:\n"
-msgstr ""
+msgstr "Powtórz 3 razy:\n"
 
 #. type: Bullet: 'o'
 #: train502-help/tremova2.txt:10
 #, no-wrap
-msgid ""
-"Look for the most distant titanium cube with <code><a "
-"cbot|radar>radar</a></code>."
-msgstr ""
+msgid "Look for the most distant titanium cube with <code><a cbot|radar>radar</a></code>."
+msgstr "Znajdź najdalszą kostkę tytanu za pomocą instrukcji <code><a cbot|radar>radar</a></code>."
 
 #. type: Bullet: 'o'
 #: train502-help/tremova2.txt:11
 #, no-wrap
 msgid "Pick it up with <code><a cbot|grab>grab</a></code>."
-msgstr ""
+msgstr "Podnieś ją instrukcją <code><a cbot|grab>grab</a></code>."
 
 #. type: Bullet: 'o'
 #: train502-help/tremova2.txt:12
 #, no-wrap
 msgid "Go to one of the pads with <code><a cbot|goto>goto</a></code>."
-msgstr ""
+msgstr "Podjedź do jednej z platform: <code><a cbot|goto>goto</a></code>."
 
 #. type: Bullet: 'o'
 #: train502-help/tremova2.txt:13
 #, no-wrap
 msgid "Drop the titanium with <code><a cbot|drop>drop</a></code>."
-msgstr ""
+msgstr "Zostaw tytan: <code><a cbot|drop>drop</a></code>."
 
 #. type: Plain text
 #: train502-help/tremova2.txt:16
 #, no-wrap
-msgid ""
-"If you look for the nearest titanium cube, the radar would find one that you "
-"already retrieved and dropped on a pad. Therefore you must look for the most "
-"distant titanium cube."
-msgstr ""
+msgid "If you look for the nearest titanium cube, the radar would find one that you already retrieved and dropped on a pad. Therefore you must look for the most distant titanium cube."
+msgstr "W przypadku szukania najbliższej kostki tytanu, radar znajdzie tytan dopiero co zaniesiony na platformę. Należy więc szukać najdalszej kostki tytanu."
 
 #. type: \b; header
 #: train502-help/tremova2.txt:17
 #, no-wrap
 msgid "The program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:19
 #, no-wrap
-msgid ""
-"Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all "
-"the instructions necessary to retrieve the titanium cube. Inside the loop, "
-"in order to find the most distant titanium cube, use the instruction <c/><a "
-"cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value "
-"<code>-1</code> means that instead of looking for the closest item, the "
-"radar will return the most distant that it can find."
-msgstr ""
+msgid "Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all the instructions necessary to retrieve the titanium cube. Inside the loop, in order to find the most distant titanium cube, use the instruction <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value <code>-1</code> means that instead of looking for the closest item, the radar will return the most distant that it can find."
+msgstr "Użyj pętli <code><a cbot|for>for</a></code> do trzykrotnego powtórzenia wszystkich instrukcji niezbędnych do przeniesienia kostki tytanu. Wewnątrz pętli, aby znaleźć najdalszą kostkę tytanu, użyj instrukcji <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. Ostatnia wartość <code>-1</code> oznacza, że zamiast szukać najbliższego przedmiotu, radar podaje w wyniku najdalszy przedmiot, który może znaleźć."
 
 #. type: \s; block (usually verbatim code)
 #: train502-help/tremova2.txt:24
@@ -138,26 +127,22 @@ msgid ""
 "if ( metal == null )  return;\n"
 "goto(metal.position);"
 msgstr ""
+"object  metal;\n"
+"metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
+"if ( metal == null )  return;\n"
+"goto(metal.position);"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:26
 #, no-wrap
-msgid ""
-"The variable <code>metal</code> if of type <code><a "
-"cbot|object>object</a></code>. In order to know the position of the object "
-"described by the variable, you must write <code>metal.position</code>."
-msgstr ""
+msgid "The variable <code>metal</code> if of type <code><a cbot|object>object</a></code>. In order to know the position of the object described by the variable, you must write <code>metal.position</code>."
+msgstr "Zmienna <code>metal</code> jest typu <code><a cbot|object>object</a></code>. Aby poznać pozycję obiektu opisanego przez zmienną, musisz napisać <code>metal.position</code>."
 
 #. type: Plain text
 #: train502-help/tremova2.txt:28
 #, no-wrap
-msgid ""
-"The <code>x</code> coordinates of the 3 pads are all equal to 10. The "
-"<code>y</code> coordinates are respectively -60, -65 and -70. The most "
-"efficient way to get the coordinates of the pads is to use the value of "
-"<code>i</code> of the <code>for</code> loop that will take successively the "
-"values 0, 1 and 2:"
-msgstr ""
+msgid "The <code>x</code> coordinates of the 3 pads are all equal to 10. The <code>y</code> coordinates are respectively -60, -65 and -70. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0, 1 and 2:"
+msgstr "Współrzędna <code>x</code> wszystkich trzech platform jest taka sama i równa 10. Współrzędne <code>y</code> odpowiednio wynoszą -60, -65 i -70. Najefektywniejszym sposobem otrzymania współrzędnych platform jest użycie wartości <code>i</code> z pętli <code>for</code>, która przyjmuje kolejno wartości 0, 1 i 2:"
 
 #. type: \s; block (usually verbatim code)
 #: train502-help/tremova2.txt:31
@@ -166,23 +151,23 @@ msgid ""
 "dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:33
 #, no-wrap
 msgid "It is up to you now to finish the program."
-msgstr ""
+msgstr "Do Ciebie należy dokończenie programu..."
 
 #. type: \t; header
 #: train502-help/tremova2.txt:34
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train502-help/tremova2.txt:35
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

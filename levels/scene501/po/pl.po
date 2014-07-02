@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-01 16:49+0100\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,49 +38,49 @@ msgstr "scene501:Zdobądź próbkę rudy uranu."
 #: scene501-help/mhsaari1.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene501-help/mhsaari1.txt:3
 #, no-wrap
 msgid "The observation satellite has detected a chunk of <a object|uranore>uranium ore</a> on the summit of the main mountain. You need to bring it back to your spaceship."
-msgstr ""
+msgstr "Satelita obserwacyjny wykrył porcję <a object|uranore>rudy uranu</a> na szczycie głównego wzniesienia. Twoim zadaniem jest dostarczenie jej na statek kosmiczny."
 
 #. type: Plain text
 #: scene501-help/mhsaari1.txt:5
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene501-help/mhsaari1.txt:6 scene501-help/mssaari1.txt:21
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene501-help/mhsaari1.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene501-help/misaari1.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene501-help/misaari1.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Saari."
 
 #. type: \s; block (usually verbatim code)
 #: scene501-help/misaari1.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene501-help/misaari1.txt:10
@@ -92,12 +92,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      some (mountain summit)"
 msgstr ""
+"\\tab;Temperatura:      41,3C\n"
+"\\tab;Atmosfera:        CO2, tlen, azot\n"
+"\\tab;Wiatr:            2,3 m/s\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       trochę (wierzchołek góry)"
 
 #. type: \s; block (usually verbatim code)
 #: scene501-help/misaari1.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene501-help/misaari1.txt:15
@@ -107,12 +112,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   wszędzie\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene501-help/misaari1.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene501-help/misaari1.txt:20
@@ -122,102 +130,105 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Wykryto:          użyteczne pozostałości \n"
+"\\tab;Wykryto:          olbrzymie mrówki\n"
+"\\tab;  - Zagrożenie:   niebezpośrednie"
 
 #. type: \b; header
 #: scene501-help/mlsaari1.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene501-help/mlsaari1.txt:3
 #, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
-msgstr ""
+msgstr "Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
 
 #. type: \b; header
 #: scene501-help/mlsaari1.txt:4
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene501-help/mlsaari1.txt:6
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene501-help/mlsaari1.txt:7
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene501-help/mlsaari1.txt:8
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene501-help/mlsaari1.txt:9
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene501-help/mlsaari1.txt:10
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene501-help/mlsaari1.txt:11
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene501-help/mssaari1.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Bullet: '1)'
 #: scene501-help/mssaari1.txt:2
 #, no-wrap
 msgid "You'll find a <a object|titan>titanium cube</a> left in a smashed up bot factory. Use it to build a <a object|station>power station</a>."
-msgstr ""
+msgstr "W zniszczonej fabryce robotów znajdziesz <a object|titan>kostkę tytanu</a>. Wykorzystaj ją do budowy <a object|station>stacji energetycznej</a>."
 
 #. type: Bullet: '2)'
 #: scene501-help/mssaari1.txt:4
 #, no-wrap
 msgid "The <a object|botrecy>recycler</a> is designed to convert derelicts back into usable titanium cubes."
-msgstr ""
+msgstr "<a object|botrecy>Recykler</a> jest zaprojektowany to przetapiania wraków robotów z powrotem na użyteczne kostki tytanu."
 
 #. type: Bullet: '3)'
 #: scene501-help/mssaari1.txt:6
 #, no-wrap
 msgid "Build both a <a object|repair>repair center</a> and a <a object|radar>radar</a>."
-msgstr ""
+msgstr "Zbuduj <a object|repair>warsztat</a> i <a object|radar>radar</a>."
 
 #. type: Bullet: '4)'
 #: scene501-help/mssaari1.txt:8
 #, no-wrap
 msgid "Recharge one of the <a object|power>power cells</a> available and power a <a object|botfj>winged shooter</a>."
-msgstr ""
+msgstr "Naładuj jedno z dostępnych <a object|power>ogniw elektrycznych</a> i zasil nim <a object|botfj>działo latające</a>."
 
 #. type: Bullet: '5)'
 #: scene501-help/mssaari1.txt:10
 #, no-wrap
 msgid "Eliminate all <a object|ant>ants</a>. Note that you should recharge and repair the shooter regularly. Check your levels."
-msgstr ""
+msgstr "Zabij wszystkie <a object|ant>mrówki</a>. Pamiętaj o regularnym naprawianiu i ładowaniu ogniwa działa. Sprawdzaj poziom osłon i energii."
 
 #. type: Bullet: '6)'
 #: scene501-help/mssaari1.txt:12
 #, no-wrap
 msgid "Fully charge the <a object|botgr>grabber</a>'s power cell, then radio-control it to the summit..."
-msgstr ""
+msgstr "Naładuj ogniwo elektryczne <a object|botgr>transportera</a> i wyślij go na szczyt..."
 
 #. type: Plain text
 #: scene501-help/mssaari1.txt:18
@@ -229,15 +240,20 @@ msgid ""
 "      d) On third level travel west for access to summit;\n"
 "...then, with the chunk, straight back to the spaceship by the most direct route so as to save the remaining power."
 msgstr ""
+"      a) Na pierwszy poziom wjedź rampą od wschodu;\n"
+"      b) Na pierwszym poziomie jedź na wschód do drugiej rampy;\n"
+"      c) Na drugim poziomie jedź na południe do trzeciej rampy;\n"
+"      d) Na trzecim poziomie jedź na zachód aby dotrzeć na szczyt;\n"
+"...następnie, z rudą, jedź bezpośrednią trasą prosto do statku kosmicznego, aby zaoszczędzić pozostałą energię."
 
 #. type: Bullet: '7)'
 #: scene501-help/mssaari1.txt:19
 #, no-wrap
 msgid "Climb aboard the ship yourself and take off."
-msgstr ""
+msgstr "Wróć na pokład statku kosmicznego i odleć."
 
 #. type: Plain text
 #: scene501-help/mssaari1.txt:22
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

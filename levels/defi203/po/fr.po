@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,39 +45,37 @@ msgstr "defi203:Protect"
 
 #. type: \b; header
 #: defi203-help/dhelp1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Exercice"
 
-#
 #. type: Plain text
 #: defi203-help/dhelp1.txt:3
 #, fuzzy, no-wrap
-#| msgid "defi203:Defend yourself agains all alien attacks."
 msgid "Defend against all enemy attacks"
-msgstr "defi203:Défendez-vous de toutes les attaques ennemies."
+msgstr "Défendez-vous de toutes les attaques ennemies."
 
 #. type: \b; header
 #: defi203-help/dhelp1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "General idea"
-msgstr ""
+msgstr "Idée"
 
 #. type: Plain text
 #: defi203-help/dhelp1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The range of your cannon is about 40m. The category of the enemies is <code>AlienAnt</code>. Turn towards the closest ant, even if it is still more than 40m away. But shoot only when it is closer than 40m, in order not to waste your energy."
-msgstr ""
+msgstr "La portée de votre canon est d'environ 40 mètres. Le type des fourmis est <code>AlienAnt</code>. Orientez votre canon en direction de la fourmi la plus proche, même si la distance dépasse 40 mètres. Mais ne tirez que lorsque la distance est inférieure à 40 mètres, pour ne pas gaspiller de l'énergie."
 
 #. type: \b; header
 #: defi203-help/dhelp1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Instructions utiles"
 
 #. type: Plain text
 #: defi203-help/dhelp1.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a></code> to detect your enemies (category <code><a object|ant>AlienAnt</a></code>)\n"
 "<code><a cbot|direct>direction</a></code> to calculate a direction\n"
@@ -85,18 +83,23 @@ msgid ""
 "<code><a cbot|fire>fire</a></code> to fire your cannon\n"
 "<code><a cbot|wait>wait</a></code> to wait"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> pour détecter un ennemi (catégorie <code><a object|ant>AlienAnt</a></code>)\n"
+"<code><a cbot|direct>direction</a></code> pour calculer une direction\n"
+"<code><a cbot|dist>distance</a></code> pour calculer une longueur\n"
+"<code><a cbot|fire>fire</a></code> pour tirer\n"
+"<code><a cbot|wait>wait</a></code> pour attendre"
 
 #. type: \t; header
 #: defi203-help/dhelp1.txt:14
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi203-help/dhelp1.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -147,7 +150,9 @@ msgstr ""
 #~ msgstr "defi103:"
 
 #
-#~ msgid "defi103:Collect lots of valuable information from information exchange posts."
+#~ msgid ""
+#~ "defi103:Collect lots of valuable information from information exchange "
+#~ "posts."
 #~ msgstr "defi103:Récolter des informations de direction et de distance."
 
 #
@@ -164,7 +169,9 @@ msgstr ""
 
 #
 #~ msgid "defi104:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "defi104:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "defi104:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "defi104:Labyrinth"
@@ -191,8 +198,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -227,8 +238,12 @@ msgstr ""
 #~ msgstr "defi204:"
 
 #
-#~ msgid "defi204:Use your radar to look for various items, but watch out for the mines."
-#~ msgstr "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+#~ msgid ""
+#~ "defi204:Use your radar to look for various items, but watch out for the "
+#~ "mines."
+#~ msgstr ""
+#~ "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, "
+#~ "en évitant les bombes."
 
 #
 #~ msgid "defi204:Traps"
@@ -271,7 +286,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -287,7 +304,8 @@ msgstr ""
 #~ msgstr "defi302:"
 
 #
-#~ msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+#~ msgid ""
+#~ "defi302:Try to figure out how to move the titanium cube across obstacles."
 #~ msgstr "defi302:Déplacer un cube de métal par dessus des obstacles."
 
 #
@@ -327,7 +345,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #

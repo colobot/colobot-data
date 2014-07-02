@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:59+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,73 +38,73 @@ msgstr "scene904:Récupérez la quatrième et dernière clé."
 
 #. type: \b; header
 #: scene904-help/mhterra4.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "With the help of the fourth <a object|key>key</a> (D) located nearby, you will finally gain access to the <a object|safe>vault</a>. The groundbreaking bot you'll find inside was named a \"<a object|botphaz>phazer</a>\"."
-msgstr ""
+msgstr "Avec la quatrième <a object|key>clé</a> qui se trouve à proximité, vous aurez accès au <a object|safe>bunker</a> contenant le nouveau système d'armement, que nous avons appelé \"<a object|botphaz>robot phazer</a>\"."
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "A program allowing for a collaboration between a <a object|botphaz>phazer</a> and a <a object|botshld>shielder</a> has been attached."
-msgstr ""
+msgstr "Nous vous avons transmis un programme pour faire collaborer le <a object|botshld>robot bouclier</a> avec le <a object|botphaz>robot phazer</a>."
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "You should soon find yourself in a position to test your new weapon. Your last mission is to dispose of the <a object|mother>Alien Queen</a>, the egglayer responsible for the growing number of insects on Terranova. The phazer might very well be the only bot capable of getting the job done."
-msgstr ""
+msgstr "Vous pourrez immédiatement tester ce nouveau système: votre mission consiste à tuer la  <a object|mother>reine</a> qui pond les oeufs dont sortent les fourmis qui infestent Terranova. Le <a object|botphaz>robot phazer</a> semble être le seul qui puisse en venir à bout."
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "There will then be no further obstacle to the human colonization of this magnificent planet and you'll soon be able to notify Earth of the success of your mission."
-msgstr ""
+msgstr "La voie sera alors libre pour la colonisation de cette magnifique planète, et vous pourrez informer la terre que vous avez réussi votre mission!"
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:11
-#, no-wrap
-msgid "\\key;\\key help;<norm/> allows you to review these instructions at all times on your personal SatCom \\button 63;."
-msgstr ""
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
 #: scene904-help/mhterra4.txt:12 scene904-help/msterra4.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: scene904-help/mhterra4.txt:13
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #. type: \b; header
 #: scene904-help/miterra4.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Rapport du satellite"
 
 #. type: Plain text
 #: scene904-help/miterra4.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Currently in a geo-stationary orbit of Terranova."
-msgstr ""
+msgstr "En orbite géostationnaire autour de Terranova."
 
 #. type: \s; block (usually verbatim code)
 #: scene904-help/miterra4.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> SURFACE<c/>"
 
 #. type: Plain text
 #: scene904-help/miterra4.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Temperature:      23.7C\n"
 "\\tab;Atmosphere:       oxygen\n"
@@ -112,59 +112,71 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
+"\\tab;Température:      23.7 degrés\n"
+"\\tab;Atmosphère:       oxygène\n"
+"\\tab;Vent:             0.5 m/s\n"
+"\\tab;Minerai titanium: par endroits\n"
+"\\tab;Minerai uranium:  par endroits"
 
 #. type: \s; block (usually verbatim code)
 #: scene904-help/miterra4.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> SOUS-SOL<c/>"
 
 #. type: Plain text
 #: scene904-help/miterra4.txt:15
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Energy source:    in some places (spaceship)\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energie:          près du vaisseau\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
 
 #. type: \s; block (usually verbatim code)
 #: scene904-help/miterra4.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> INFORMATIONS SPECIALES<c/>"
 
 #. type: Plain text
 #: scene904-help/miterra4.txt:21
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       immediate\n"
 "\\tab;Detected:         giant egglayer\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;  - Danger:      ?\n"
+"\\tab;Détecté:          pondeuse géante\n"
+"\\tab;  - Danger:      ?"
 
 #. type: \b; header
 #: scene904-help/mlterra4.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programmes envoyés par Houston"
 
 #. type: Plain text
 #: scene904-help/mlterra4.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Below is a program that has been developed by our engineers."
-msgstr ""
+msgstr "Voilà un programme développé par nos ingénieurs."
 
 #. type: Plain text
 #: scene904-help/mlterra4.txt:5
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "It instructs the <a object|botshld>shielder</a> to follow and protect the <a object|botphaz>phazer</a>."
-msgstr ""
+msgstr "Il permet au <a object|botshld>robot bouclier</a> de suivre et de protéger le <a object|botphaz>robot phazer</a>."
 
 #. type: \s; block (usually verbatim code)
 #: scene904-help/mlterra4.txt:39
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "extern void object::FollowPhazer()\n"
 "{\n"
@@ -200,86 +212,121 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::SuivrePhazer()\n"
+"{\n"
+"\tobject  item;\n"
+"\tpoint   dest;\n"
+"\tfloat   dist;\n"
+"\t\n"
+"\titem = radar(PhazerShooter);\n"
+"\tif ( item == null )\n"
+"\t{\n"
+"\t\tmessage(\"Phazer pas trouvé\");\n"
+"\t\treturn;\n"
+"\t}\n"
+"\tshield(1);  // déploie le bouclier\n"
+"\t\n"
+"\twhile ( true )\n"
+"\t{\n"
+"\t\titem = radar(PhazerShooter);\n"
+"\t\tif ( item == null )  break;\n"
+"\t\t\n"
+"\t\tdist = distance(item.position, position);\n"
+"\t\tif ( dist < 5 )\n"
+"\t\t{\n"
+"\t\t\twait(1);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tdest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;\n"
+"\t\t\tdest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;\n"
+"\t\t\tdest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;\n"
+"\t\t\tgoto(dest, 0, 1, 1);\n"
+"\t\t}\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: scene904-help/mlterra4.txt:40
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #. type: Plain text
 #: scene904-help/mlterra4.txt:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Résumé des programmes déjà reçus:"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:43
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTour1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:44
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>ApporteTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:45
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>TueFourmi1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:46
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>ApporteTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:47
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>ApporteTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:48
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:49
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene904-help/mlterra4.txt:50
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>EchangePile1</a></code>"
 
 #. type: \b; header
 #: scene904-help/msterra4.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Solution"
 
 #. type: Plain text
 #: scene904-help/msterra4.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Unfortunately no walkthrough has been provided for this mission.\n"
 "You are on your own..."
 msgstr ""
+"Aucune solution n'est disponible pour cette mission.\n"
+"Vous devez vous débrouiller ..."
 
 #. type: Plain text
 #: scene904-help/msterra4.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Commandes</a>."
 
 #
 #~ msgid "scene900:On Terranova"
@@ -302,7 +349,9 @@ msgstr ""
 #~ msgstr "scene901:"
 
 #
-#~ msgid "scene901:Run the gauntlet of poison-spitting mushrooms and find the first key to the vault."
+#~ msgid ""
+#~ "scene901:Run the gauntlet of poison-spitting mushrooms and find the first "
+#~ "key to the vault."
 #~ msgstr "scene901:Récupérez la première clé."
 
 #

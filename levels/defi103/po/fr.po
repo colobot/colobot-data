@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 08:53+0200\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,85 +45,89 @@ msgstr "defi103:Suivre"
 
 #. type: \b; header
 #: defi103-help/dexch1.txt:1
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercice"
-msgstr ""
+msgstr "Exercice"
 
 #. type: Plain text
 #: defi103-help/dexch1.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Several <a object|exchange>information exchange posts</a> are standing along the way. When the bot is close enough to a post, it can read the instructions it contains. The <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
-msgstr ""
+msgstr "Des <a object|exchange>bornes</a> d'informations sont placées le long d'un chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient. Ces informations donnent la direction et la distance jusqu'à la borne suivante."
 
 #. type: \b; header
 #: defi103-help/dexch1.txt:4
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Principe"
 
 #. type: Plain text
 #: defi103-help/dexch1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\tAlways repeat:\n"
-msgstr ""
+msgstr "\tRépéter toujours:\n"
 
 #. type: Bullet: 'o'
 #: defi103-help/dexch1.txt:6
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
-msgstr ""
+msgstr "Lire la direction dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
 #: defi103-help/dexch1.txt:7
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
-msgstr ""
+msgstr "Lire la longueur dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
 #: defi103-help/dexch1.txt:8
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "If no information could be retrieved, stop the program."
-msgstr ""
+msgstr "Si rien n'a été lu, stopper."
 
 #. type: Bullet: 'o'
 #: defi103-help/dexch1.txt:9
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute the rotation."
-msgstr ""
+msgstr "Tourner dans la direction obtenue."
 
 #. type: Bullet: 'o'
 #: defi103-help/dexch1.txt:10
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Move forward to the next post."
-msgstr ""
+msgstr "Avancer de la longueur obtenue."
 
 #. type: \b; header
 #: defi103-help/dexch1.txt:12
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Instructions utiles"
 
 #. type: Plain text
 #: defi103-help/dexch1.txt:17
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|while>while</a></code> to repeat the instructions\n"
 "<code><a cbot|receive>receive</a></code> to get the information from a post\n"
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|while>while</a></code> pour répéter des instructions\n"
+"<code><a cbot|receive>receive</a></code> pour lire les informations d'une borne\n"
+"<code><a cbot|move>move</a></code> pour avancer le robot\n"
+"<code><a cbot|turn>turn</a></code> pour tourner le robot"
 
 #. type: \t; header
 #: defi103-help/dexch1.txt:18
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: defi103-help/dexch1.txt:19
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>."
 
 #
 #~ msgid "defi100:Fundamentals"
@@ -179,7 +183,9 @@ msgstr ""
 
 #
 #~ msgid "defi104:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr "defi104:Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+#~ msgstr ""
+#~ "defi104:Programmez un robot pour qu'il avance sans se cogner dans un "
+#~ "labyrinthe."
 
 #
 #~ msgid "defi104:Labyrinth"
@@ -206,8 +212,12 @@ msgstr ""
 #~ msgstr "defi201:"
 
 #
-#~ msgid "defi201:Use the radar to put some order into a big mess left behind by a crazy bot."
-#~ msgstr "defi201:Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
+#~ msgid ""
+#~ "defi201:Use the radar to put some order into a big mess left behind by a "
+#~ "crazy bot."
+#~ msgstr ""
+#~ "defi201:Utilisez le radar pour trouver toutes les marques déposées par le "
+#~ "petit poucet."
 
 #
 #~ msgid "defi201:Radar"
@@ -254,8 +264,12 @@ msgstr ""
 #~ msgstr "defi204:"
 
 #
-#~ msgid "defi204:Use your radar to look for various items, but watch out for the mines."
-#~ msgstr "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, en évitant les bombes."
+#~ msgid ""
+#~ "defi204:Use your radar to look for various items, but watch out for the "
+#~ "mines."
+#~ msgstr ""
+#~ "defi204:Utilisez le radar pour trouver des objets répartis aléatoirement, "
+#~ "en évitant les bombes."
 
 #
 #~ msgid "defi204:Traps"
@@ -298,7 +312,9 @@ msgstr ""
 #~ msgstr "defi301:"
 
 #
-#~ msgid "defi301:Retrieve some titanium ore in order to convert it to titanium cubes."
+#~ msgid ""
+#~ "defi301:Retrieve some titanium ore in order to convert it to titanium "
+#~ "cubes."
 #~ msgstr "defi301:Déplacer du minerai pour le convertir en métal."
 
 #
@@ -314,7 +330,8 @@ msgstr ""
 #~ msgstr "defi302:"
 
 #
-#~ msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+#~ msgid ""
+#~ "defi302:Try to figure out how to move the titanium cube across obstacles."
 #~ msgstr "defi302:Déplacer un cube de métal par dessus des obstacles."
 
 #
@@ -354,7 +371,8 @@ msgstr ""
 #~ msgstr "defi402:"
 
 #
-#~ msgid "defi402:Create a procedure in order to teach your bot to perform a spiral."
+#~ msgid ""
+#~ "defi402:Create a procedure in order to teach your bot to perform a spiral."
 #~ msgstr "defi402:Créer une fonction pour déplacer un robot dans une spirale."
 
 #
