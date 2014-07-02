@@ -7,4 +7,4 @@ PO4A_FILE=$2
 
 export PERLLIB=${LEVELS_I18N_PATH}/scripts/perllib
 
-po4a -k100 -v -f $PO4A_FILE
+po4a -k0 -v -f $PO4A_FILE
