@@ -38,10 +38,11 @@ foreach(levelfile ${levelfiles})
 	endif()
 	get_filename_component(_levelfile ${levelfile} NAME_WE)
 	if(PO4A AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${PODIR}")
+		file(GLOB pofiles "${CMAKE_CURRENT_SOURCE_DIR}/${PODIR}/*.po")
 		add_custom_command(OUTPUT ${_levels_i18n_target}/${_scenedest}
 			COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}
-			COMMAND ${LEVELS_I18N_PATH}/scripts/03_inject_translations.sh ${levelfile} ${CMAKE_CURRENT_BINARY_DIR}/${LEVEL_CODENAME}/${_levelfile} ${PODIR} > ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}/${_scenedest}
-			DEPENDS po4a-${LEVEL_CODENAME}
+			COMMAND ${LEVELS_I18N_PATH}/scripts/03_inject_translations.sh ${levelfile} ${CMAKE_CURRENT_BINARY_DIR}/${LEVEL_CODENAME}/${_levelfile} ${PODIR} ${CMAKE_CURRENT_BINARY_DIR}/${_levels_i18n_target}/${_scenedest}
+			DEPENDS po4a-${LEVEL_CODENAME} ${pofiles}
 			WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 			COMMENT "${LEVEL_CODENAME}: Inject translation in ${_scenedest}"
 			)
@@ -104,10 +105,11 @@ add_custom_command(OUTPUT po4a-${LEVEL_CODENAME}.cfg
 
 if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${PODIR})
 	#### STEP 2 # Run po4a
+	file(GLOB pofiles "${CMAKE_CURRENT_SOURCE_DIR}/${PODIR}/*.po")
 	add_custom_command(OUTPUT po4a-ran-${LEVEL_CODENAME}
 			   COMMAND ${LEVELS_I18N_PATH}/scripts/02_run_po4a.sh ${LEVELS_I18N_PATH} ${CMAKE_CURRENT_BINARY_DIR}/po4a-${LEVEL_CODENAME}.cfg
 			   COMMAND touch po4a-ran-${LEVEL_CODENAME}
-			   DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/po4a-${LEVEL_CODENAME}.cfg
+			   DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/po4a-${LEVEL_CODENAME}.cfg ${pofiles}
 			   WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 			   COMMENT "${LEVEL_CODENAME}: Run po4a to generate the translated files out of the .po files")
 	add_custom_target(po4a-${LEVEL_CODENAME} DEPENDS po4a-ran-${LEVEL_CODENAME})
