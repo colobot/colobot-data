@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
 #: train207.languagecode:1
@@ -42,30 +42,43 @@ msgstr "train207:Wasp2"
 
 #. type: \b; header
 #: train207-help/twasp2.txt:1
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Objective"
 msgstr "Задание"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:3
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Bring down the flying wasps in a more efficient way than with the previous program."
-msgstr "Убейте ос с еще большей эффективностью, чем вы делали это с помощью предыдущей программы."
+msgid ""
+"Bring down the flying wasps in a more efficient way than with the previous "
+"program."
+msgstr ""
+"Убейте ос с еще большей эффективностью, чем вы делали это с помощью "
+"предыдущей программы."
 
 #. type: \b; header
 #: train207-help/twasp2.txt:4
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Program"
 msgstr "Программа"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:6
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Here is again the program of the previous exercise that shoots down all the wasps after many, many unsuccessful attempts:"
-msgstr "Вот программа из предыдущего упражнения, которая уничтожила всех ос после многих, многих неудачных попыток:"
+msgid ""
+"Here is again the program of the previous exercise that shoots down all the "
+"wasps after many, many unsuccessful attempts:"
+msgstr ""
+"Вот программа из предыдущего упражнения, которая уничтожила всех ос после "
+"многих, многих неудачных попыток:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:39
+#, no-wrap
 #, fuzzy, no-wrap
 msgid ""
 "extern void object::Wasp1()\n"
@@ -76,7 +89,8 @@ msgid ""
 "\t\n"
 "\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, "
+"20) == null)\n"
 "\t\t{\n"
 "\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
 "\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
@@ -109,7 +123,8 @@ msgstr ""
 "\t\n"
 "\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, "
+"20) == null)\n"
 "\t\t{\n"
 "\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
 "\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
@@ -136,54 +151,109 @@ msgstr ""
 
 #. type: Plain text
 #: train207-help/twasp2.txt:41
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst."
-msgstr "Многие ошибки возникали из-за того, что оса уже улетела до того, как пуля могла в нее попасть. Единственный способ улучшить программу- это установить мощность двух моторов и реактивного двигателя таким способом, чтобы во время выстрела бот летел по тому же курсу, что и цель."
+msgid ""
+"The many failures are due to the fact that the wasp is already gone before "
+"the bullets can reach it. The only way to improve the program consists in "
+"setting the power of the two motors and of the jet in such a way that the "
+"bot follows the movement of the target during the burst."
+msgstr ""
+"Многие ошибки возникали из-за того, что оса уже улетела до того, как пуля "
+"могла в нее попасть. Единственный способ улучшить программу- это установить "
+"мощность двух моторов и реактивного двигателя таким способом, чтобы во время "
+"выстрела бот летел по тому же курсу, что и цель."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:43
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Just before the shot, the program adjusts a last time the direction with <c/>turn(direction(item.position));<n/>. In order to follow the wasp during the burst, you have to \"remember\" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right."
-msgstr "Сразу перед выстрелом программа настраивает последнее направление с помощью <c/>turn(direction(item.position));<n/>. Чтобы лететь за осой во время выстрела, вы должны \"запомнить\" угол этого последнего поворота: если угол был положительный (поворот влево), бот должен продолжать разворачиваться влево во время выстрела; если же угол был отрицательным, бот должен продолжать поворачиваться вправо."
+msgid ""
+"Just before the shot, the program adjusts a last time the direction with "
+"<c/>turn(direction(item.position));<n/>. In order to follow the wasp during "
+"the burst, you have to \"remember\" the angle of this last rotation: if the "
+"angle was positive (rotation to the left), the bot must continue to turn "
+"left during the burst; if the angle was negative, the bot must continue to "
+"turn right."
+msgstr ""
+"Сразу перед выстрелом программа настраивает последнее направление с помощью "
+"<c/>turn(direction(item.position));<n/>. Чтобы лететь за осой во время "
+"выстрела, вы должны \"запомнить\" угол этого последнего поворота: если угол "
+"был положительный (поворот влево), бот должен продолжать разворачиваться "
+"влево во время выстрела; если же угол был отрицательным, бот должен "
+"продолжать поворачиваться вправо."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:45
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "In order to \"remember\" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it <code>angle</code>, we must define the variable with the following line at the beginning of the program:"
-msgstr "Чтобы \"запомнить\" угол последнего поворота, нам нужна переменная, которая может содержать только одно число. Если мы назовем ее <code>angle</code>, мы должны задать переменную со следующей строки в самом начале программы:"
+msgid ""
+"In order to \"remember\" the angle of the last rotation, we need a variable "
+"that can contain just one number. If we choose to call it "
+"<code>angle</code>, we must define the variable with the following line at "
+"the beginning of the program:"
+msgstr ""
+"Чтобы \"запомнить\" угол последнего поворота, нам нужна переменная, которая "
+"может содержать только одно число. Если мы назовем ее <code>angle</code>, мы "
+"должны задать переменную со следующей строки в самом начале программы:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:47
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "\t<a cbot|type>float</a> angle;"
 msgstr "\t<a cbot|type>float</a> angle;"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:49
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "The variable type <a cbot|type>float</a> is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the <a cbot|type>text about variable types</a> if you want to know more about the different types of variables and what they can contain."
-msgstr "Тип переменной <a cbot|type>float</a> это изменчивый тип, который может содержать любое число, то есть целые числа или вещественные числа. Обратитесь пожалуйста к <a cbot|type>тексту о типах переменных</a> , если вы захотите узнать больше о различных типах переменных и о том, что они могут содержать."
+msgid ""
+"The variable type <a cbot|type>float</a> is the variable type that can "
+"contain any number, i.e. whole numbers or real numbers. Please refer to the "
+"<a cbot|type>text about variable types</a> if you want to know more about "
+"the different types of variables and what they can contain."
+msgstr ""
+"Тип переменной <a cbot|type>float</a> это изменчивый тип, который может "
+"содержать любое число, то есть целые числа или вещественные числа. "
+"Обратитесь пожалуйста к <a cbot|type>тексту о типах переменных</a> , если вы "
+"захотите узнать больше о различных типах переменных и о том, что они могут "
+"содержать."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:51
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we will put the rotation angle into the variable <code>angle</code>:"
-msgstr "Сразу перед инструкцией <c/>fire(1);<n/>, вместо того, чтобы писать <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, мы установим угол поворота в переменную <code>angle</code>:"
+msgid ""
+"Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a "
+"cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we "
+"will put the rotation angle into the variable <code>angle</code>:"
+msgstr ""
+"Сразу перед инструкцией <c/>fire(1);<n/>, вместо того, чтобы писать <c/><a "
+"cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, мы "
+"установим угол поворота в переменную <code>angle</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:53
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "\tangle = direction(item.position);"
 msgstr "\tangle = direction(item.position);"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:55
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:"
-msgstr "После этого мы произведем поворот и установим мощность моторов таким образом, чтобы бот продолжил движение:"
+msgid ""
+"Then we perform the rotation, and we set the power of the motors so that the "
+"bot continues the movement:"
+msgstr ""
+"После этого мы произведем поворот и установим мощность моторов таким "
+"образом, чтобы бот продолжил движение:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:65
+#, no-wrap
 #, fuzzy, no-wrap
 msgid ""
 "\tturn(angle);\n"
@@ -208,18 +278,31 @@ msgstr ""
 
 #. type: Plain text
 #: train207-help/twasp2.txt:67
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "The instruction <code>else</code> determines what instructions the program should execute if the condition stated in the <code>if</code> instruction is false."
-msgstr "Инструкция <code>else</code> определяет то, какую инструкцию должна выполнить программа, если условие, указанное инструкцией <code>if</code>, ложное."
+msgid ""
+"The instruction <code>else</code> determines what instructions the program "
+"should execute if the condition stated in the <code>if</code> instruction is "
+"false."
+msgstr ""
+"Инструкция <code>else</code> определяет то, какую инструкцию должна "
+"выполнить программа, если условие, указанное инструкцией <code>if</code>, "
+"ложное."
 
 #. type: Plain text
 #: train207-help/twasp2.txt:69
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:"
-msgstr "Потом мы должны установить мощность двигателя таким образом, чтобы бот следовал за осой также и в вертикальном направлении:"
+msgid ""
+"Then we must set the power of the jet so that the bot follows the wasp also "
+"in the vertical direction:"
+msgstr ""
+"Потом мы должны установить мощность двигателя таким образом, чтобы бот "
+"следовал за осой также и в вертикальном направлении:"
 
 #. type: \s; block (usually verbatim code)
 #: train207-help/twasp2.txt:80
+#, no-wrap
 #, fuzzy, no-wrap
 msgid ""
 "\tjet(0);\n"
@@ -246,18 +329,25 @@ msgstr ""
 
 #. type: Plain text
 #: train207-help/twasp2.txt:82
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "As you will see, this program is much more efficient than the previous one!"
 msgstr "Как вы видите, эта программа намного эффективней предыдущей!"
 
 #. type: \t; header
 #: train207-help/twasp2.txt:83
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
 #: train207-help/twasp2.txt:84
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""
+"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
+"cbot|category>категории</a>."

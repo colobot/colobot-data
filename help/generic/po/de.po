@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: Plain text
 #: generic.languagecode:1
@@ -30,7 +30,9 @@ msgstr ""
 #. type: Bullet: '-'
 #: generic-help/authors.txt:2
 #, no-wrap
-msgid "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
+msgid ""
+"Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier "
+"Gertsch"
 msgstr ""
 
 #. type: Bullet: '-'
@@ -64,8 +66,13 @@ msgstr ""
 #: generic-help/cbot.txt:4
 #, no-wrap
 msgid ""
-"The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
-"This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
+"The CBOT language is very close in structure and syntax to C++ and Java. It "
+"has been adapted for the specific purposes of COLOBOT, and for an efficient "
+"pedagogical approach.\n"
+"This language is made up of instructions (see below), <a "
+"cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a "
+"cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, "
+"<a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
 
 #. type: Bullet: 'o'
@@ -77,7 +84,11 @@ msgstr ""
 #. type: Plain text
 #: generic-help/cbot.txt:7
 #, no-wrap
-msgid "In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. "
+msgid ""
+"In the program editor, an instruction in the CBOT language is always "
+"displayed on an orange background. If an instruction hasn't got an orange "
+"background, this means that it has been misspelled. Instruction names are "
+"always written in lower case. "
 msgstr ""
 
 #. type: Bullet: 'o'
@@ -101,7 +112,9 @@ msgstr ""
 #. type: Plain text
 #: generic-help/cbot.txt:13
 #, no-wrap
-msgid "Constants like <a cbot|category>categories</a> are displayed with a red background. "
+msgid ""
+"Constants like <a cbot|category>categories</a> are displayed with a red "
+"background. "
 msgstr ""
 
 #. type: \t; header
@@ -147,7 +160,8 @@ msgid ""
 "<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
 "<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
 "<code><a cbot|message>message</a>    </code>Displays a message\n"
-"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
+"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a "
+"function\n"
 "<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
 "<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time"
 msgstr ""
@@ -199,7 +213,8 @@ msgstr ""
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
 "<code><a cbot|send>send</a>       </code>Sends a new information\n"
-"<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
+"<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information "
+"exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
 msgstr ""
 
@@ -215,9 +230,11 @@ msgstr ""
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
 "<code><a cbot|public>public</a>     </code>Declares a public function\n"
-"<code><a cbot|private>private</a>    </code>Declares a private class member\n"
+"<code><a cbot|private>private</a>    </code>Declares a private class "
+"member\n"
 "<code><a cbot|static>static</a>     </code>Declares a static class member\n"
-"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous execution\n"
+"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous "
+"execution\n"
 "<code><a cbot|new>new</a>        </code>Creates a new instance\n"
 "<code><a cbot|this>this</a>       </code>Reference to the current instance"
 msgstr ""
@@ -281,7 +298,9 @@ msgstr ""
 #. type: Plain text
 #: generic-help/command.txt:3
 #, no-wrap
-msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
+msgid ""
+"You are advised to play with one hand on the arrow keys and the other hand "
+"on the mouse."
 msgstr ""
 
 #. type: \t; header
@@ -298,7 +317,8 @@ msgid ""
 "<format key><key right/></format> = turn right\n"
 "<format key><key up/></format> = move forward\n"
 "<format key><key down/></format> = move back\n"
-"These controls are unavailable when working with the <a object|bottr>practice bots</a>."
+"These controls are unavailable when working with the <a "
+"object|bottr>practice bots</a>."
 msgstr ""
 
 #. type: Plain text
@@ -307,7 +327,9 @@ msgstr ""
 msgid ""
 "<format key><key gup/></format> = take off and climb <button 28/>\n"
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
-"These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
+"These controls are of course restricted to the <a object|human>astronaut</a> "
+"as well as the various <a object|botgj>winged bots</a> and in selected "
+"missions only."
 msgstr ""
 
 #. type: Plain text
@@ -318,15 +340,19 @@ msgid ""
 "mouse backward = lower aim\n"
 "mouse right = aim right\n"
 "mouse left = aim left\n"
-"These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
+"These controls are only available to the <a object|botfr>shooters</a>, the "
+"<a object|botor>orga shooters</a> and the <a object|botphaz>phazer "
+"shooter</a>."
 msgstr ""
 
 #. type: Plain text
 #: generic-help/command.txt:23
 #, no-wrap
 msgid ""
-"<format key><key action/></format> = main action for a given selection (human or bot)\n"
-"This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
+"<format key><key action/></format> = main action for a given selection "
+"(human or bot)\n"
+"This control will for example operate the arm of a <a "
+"object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
 
 #. type: \t; header
@@ -354,10 +380,12 @@ msgstr ""
 #: generic-help/command.txt:34
 #, no-wrap
 msgid ""
-"<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
+"<format key><key camera/></format> = shifts between onboard and following "
+"cameras <button 13/>\n"
 "<format key><key near/></format> = zoom in\n"
 "<format key><key away/></format> = zoom out\n"
-"<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
+"<format key><key visit/></format> = pauses the game and shows where the "
+"latest message originated. Press again to show origin of previous message."
 msgstr ""
 
 #. type: \t; header
@@ -399,7 +427,12 @@ msgstr ""
 #. type: Plain text
 #: generic-help/licences.txt:2
 #, no-wrap
-msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
+msgid ""
+"The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the "
+"installation program was taken with the Hubble space telescope. It is used "
+"with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva "
+"K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign "
+"University) and NASA."
 msgstr ""
 
 #. type: Plain text
@@ -417,7 +450,9 @@ msgstr ""
 #. type: Plain text
 #: generic-help/navig.txt:3
 #, no-wrap
-msgid "The three buttons on the upper left-hand corner of the screen allow you to navigate in the different texts of the help file:"
+msgid ""
+"The three buttons on the upper left-hand corner of the screen allow you to "
+"navigate in the different texts of the help file:"
 msgstr ""
 
 #. type: Plain text
@@ -425,7 +460,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<button 30/> Home\n"
-"Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
+"Get back to the home page, i.e. the first page that was displayed, for "
+"example when you hit the <format key><key help/></format> or <format "
+"key><key prog/></format> key."
 msgstr ""
 
 #. type: Plain text
@@ -433,7 +470,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<button 55/> Previous\n"
-"Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
+"Get back to the previous page, i.e. the page that was displayed before you "
+"clicked on a link."
 msgstr ""
 
 #. type: Plain text
@@ -441,7 +479,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<button 48/> Next\n"
-"Get again to the next page, after you used the \"Home\" or \"Previous\" button."
+"Get again to the next page, after you used the \"Home\" or \"Previous\" "
+"button."
 msgstr ""
 
 #. type: \t; header
@@ -454,7 +493,9 @@ msgstr ""
 #: generic-help/navig.txt:16
 #, no-wrap
 msgid ""
-"When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
+"When a button is gray, this means that it can not be used at this precise "
+"moment. For example, when you are in the home page, the \"Home\" button is "
+"gray, because it does not make sense to use it.\n"
 "This remark is valid for all buttons in COLOBOT."
 msgstr ""
 
@@ -467,7 +508,10 @@ msgstr ""
 #. type: Plain text
 #: generic-help/navig.txt:19
 #, no-wrap
-msgid "If your mouse is equipped with a wheel, you can use it to scroll the text up and down. Otherwise, use the arrow keys and the scroll bar on the right-hand side of the screen."
+msgid ""
+"If your mouse is equipped with a wheel, you can use it to scroll the text up "
+"and down. Otherwise, use the arrow keys and the scroll bar on the right-hand "
+"side of the screen."
 msgstr ""
 
 #. type: \t; header
@@ -479,13 +523,16 @@ msgstr ""
 #. type: Plain text
 #: generic-help/navig.txt:21
 #, no-wrap
-msgid "The cursor on the upper side of the screen allows you to change the font size of the text."
+msgid ""
+"The cursor on the upper side of the screen allows you to change the font "
+"size of the text."
 msgstr ""
 
 #. type: Plain text
 #: generic-help/win.txt:3
 #, no-wrap
 msgid ""
-"Houston congratulates you in the name of mankind for the success of your mission.\n"
+"Houston congratulates you in the name of mankind for the success of your "
+"mission.\n"
 "The Great Migration to Terra Nova will start very soon."
 msgstr ""

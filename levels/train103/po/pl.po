@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
 #: train103.languagecode:1
@@ -49,8 +49,14 @@ msgstr "Zadanie"
 #. type: Plain text
 #: train103-help/ttit1.txt:3
 #, no-wrap
-msgid "Write a program that takes a chunk of <a object|titanore>titanium ore</a> and drops in on the <a object|convert>converter</a> in order to produce a <a object|titan>titanium cube</a>."
-msgstr "Napisz program, który przenosi porcję <a object|titanore>rudy tytanu</a> do <a object|convert>huty</a> w celu wytworzenia <a object|titan>kostki tytanu</a>."
+msgid ""
+"Write a program that takes a chunk of <a object|titanore>titanium ore</a> "
+"and drops in on the <a object|convert>converter</a> in order to produce a <a "
+"object|titan>titanium cube</a>."
+msgstr ""
+"Napisz program, który przenosi porcję <a object|titanore>rudy tytanu</a> do <"
+"a object|convert>huty</a> w celu wytworzenia <a object|titan>kostki "
+"tytanu</a>."
 
 #. type: \t; header
 #: train103-help/ttit1.txt:4
@@ -73,23 +79,51 @@ msgstr "move();<n/>"
 #. type: Plain text
 #: train103-help/ttit1.txt:9
 #, no-wrap
-msgid "Instructs the bot to move forward or backward. The distance of the move is given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, <c/>move(-1);<n/> moves the bot 1m backward."
-msgstr "Porusza robotem do przodu lub do tyłu. Odległość podawana jest w nawiasach, w metrach: <c/>move(10);<n/> przesuwa robota o 10m do przodu, <c/>move(-1);<n/> cofa robota o 1m."
+msgid ""
+"Instructs the bot to move forward or backward. The distance of the move is "
+"given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, "
+"<c/>move(-1);<n/> moves the bot 1m backward."
+msgstr ""
+"Porusza robotem do przodu lub do tyłu. Odległość podawana jest w nawiasach, "
+"w metrach: <c/>move(10);<n/> przesuwa robota o 10m do przodu, "
+"<c/>move(-1);<n/> cofa robota o 1m."
 
 #. type: Plain text
 #: train103-help/ttit1.txt:11
 #, no-wrap
-msgid "The instructions <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have already been explained in the previous exercises. If you have any questions about these instructions, click the name of the instruction underlined in blue, and an explanation of the instruction will appear."
-msgstr "Instrukcje <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> i <code><a cbot|drop>drop</a>()</code> zostały już wyjaśnione w poprzednich ćwiczeniach. Jeśli masz jeszcze jakieś pytania na ich temat, kliknij podkreśloną na niebiesko nazwę instrukcji a pojawi się jej opis."
+msgid ""
+"The instructions <code><a cbot|turn>turn</a>()</code>, <code><a "
+"cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have "
+"already been explained in the previous exercises. If you have any questions "
+"about these instructions, click the name of the instruction underlined in "
+"blue, and an explanation of the instruction will appear."
+msgstr ""
+"Instrukcje <code><a cbot|turn>turn</a>()</code>, <code><a "
+"cbot|grab>grab</a>()</code> i <code><a cbot|drop>drop</a>()</code> zostały "
+"już wyjaśnione w poprzednich ćwiczeniach. Jeśli masz jeszcze jakieś pytania "
+"na ich temat, kliknij podkreśloną na niebiesko nazwę instrukcji a pojawi się "
+"jej opis."
 
 #. type: Plain text
 #: train103-help/ttit1.txt:13
 #, no-wrap
-msgid "The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a object|convert>converter</a> is 10m behind the bot. After dropping the titanium ore on the converter, do not forget to move back (for example <c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
-msgstr "<a object|titanore>Ruda tytanu</a> jest 20m przed robotem, <a object|convert>huta</a> jest 10m za robotem. Po zaniesieniu rudy tytanu do huty nie zapomnij cofnąć robota (na przykład <c/>move(-2.5);<n/>), aby umożliwić hucie rozpoczęcie pracy."
+msgid ""
+"The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a "
+"object|convert>converter</a> is 10m behind the bot. After dropping the "
+"titanium ore on the converter, do not forget to move back (for example "
+"<c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
+msgstr ""
+"<a object|titanore>Ruda tytanu</a> jest 20m przed robotem, <a "
+"object|convert>huta</a> jest 10m za robotem. Po zaniesieniu rudy tytanu do "
+"huty nie zapomnij cofnąć robota (na przykład <c/>move(-2.5);<n/>), aby "
+"umożliwić hucie rozpoczęcie pracy."
 
 #. type: Plain text
 #: train103-help/ttit1.txt:14
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times."
-msgstr "Klawisz <format key><key help/></format> pozwala wyświetlić te instrukcje w dowolnej chwili."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at "
+"all times."
+msgstr ""
+"Klawisz <format key><key help/></format> pozwala wyświetlić te instrukcje w "
+"dowolnej chwili."

@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
 #: train702.languagecode:1
@@ -31,8 +31,12 @@ msgstr "train702:Zdalna kontrola #4"
 #. type: Resume-text
 #: train702/scene.txt:2
 #, no-wrap
-msgid "train702:Remote control a bot without using an information exchange post by defining a class for the orders."
-msgstr "train702:Zdalnie kontroluj robota bez użycia stacji przekaźnikowej definiując klasę z rozkazami."
+msgid ""
+"train702:Remote control a bot without using an information exchange post by "
+"defining a class for the orders."
+msgstr ""
+"train702:Zdalnie kontroluj robota bez użycia stacji przekaźnikowej "
+"definiując klasę z rozkazami."
 
 #. type: ScriptName-text
 #: train702/scene.txt:3
@@ -49,8 +53,16 @@ msgstr "Ćwiczenie"
 #. type: Plain text
 #: train702-help/tremote4.txt:3
 #, no-wrap
-msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. You must use a <code><a cbot|static>static</a></code> variable to pass the orders to the slave bot."
-msgstr "Pokieruj zdalnie robotem podległym bez używania <a object|exchange>stacji przekaźnikowej informacji</a>. Robot powinien przejść przez 6 niebieskich plusów. Musisz użyć zmiennej zadeklarowanej jako <code><a cbot|static>static</a></code> do przekazania rozkazów robotowi podległemu."
+msgid ""
+"Remote control a slave robot without using an <a object|exchange>information "
+"exchange post</a>. The robot should pass over the 6 blue crosses. You must "
+"use a <code><a cbot|static>static</a></code> variable to pass the orders to "
+"the slave bot."
+msgstr ""
+"Pokieruj zdalnie robotem podległym bez używania <a object|exchange>stacji "
+"przekaźnikowej informacji</a>. Robot powinien przejść przez 6 niebieskich "
+"plusów. Musisz użyć zmiennej zadeklarowanej jako <code><a "
+"cbot|static>static</a></code> do przekazania rozkazów robotowi podległemu."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:5
@@ -61,14 +73,24 @@ msgstr "Dwoma głównymi postaciami tego ćwiczenia są¦:\n"
 #. type: Bullet: '1)'
 #: train702-help/tremote4.txt:5
 #, no-wrap
-msgid "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave."
-msgstr "<a object|botgr>Transporter na kołach</a> bez ogniwa elektrycznego, wobec czego unieruchomiony. Jest to robot nadrzędny, który powinien zostać zaprogramowany aby mógł przesyłać rozkazy do podległego mu robota."
+msgid ""
+"The <a object|botgr>wheeled grabber</a> without an energy pack and therefore "
+"immobile. This is the master you should program so it will transmit orders "
+"to the slave."
+msgstr ""
+"<a object|botgr>Transporter na kołach</a> bez ogniwa elektrycznego, wobec "
+"czego unieruchomiony. Jest to robot nadrzędny, który powinien zostać "
+"zaprogramowany aby mógł przesyłać rozkazy do podległego mu robota."
 
 #. type: Bullet: '2)'
 #: train702-help/tremote4.txt:6
 #, no-wrap
-msgid "The slave <a object|bottr>practice bot</a> which is already programmed and just waits for orders from the master."
-msgstr "Podległy <a object|bottr>robot treningowy</a>, który jest już zaprogramowany i tylko czeka na rozkazy od robota nadrzędnego."
+msgid ""
+"The slave <a object|bottr>practice bot</a> which is already programmed and "
+"just waits for orders from the master."
+msgstr ""
+"Podległy <a object|bottr>robot treningowy</a>, który jest już zaprogramowany "
+"i tylko czeka na rozkazy od robota nadrzędnego."
 
 #. type: \b; header
 #: train702-help/tremote4.txt:8
@@ -79,8 +101,16 @@ msgstr "Robot podległy"
 #. type: Plain text
 #: train702-help/tremote4.txt:10
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Najpierw musimy zrozumieć jak działa program robota podległego. <a cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: <code>m_type</code> jest rozkazem do wykonania (move lub turn), a <code>m_param</code> jest odległością do pokonania lub kątem obrotu¦:"
+msgid ""
+"First of all we must understand how the program of the slave works. The <a "
+"cbot|class>class</a> <code>order</code> contains two members: "
+"<code>m_type</code> is the order to execute (move or turn) and "
+"<code>m_param</code> is the distance to move or the rotation angle¦:"
+msgstr ""
+"Najpierw musimy zrozumieć jak działa program robota podległego. <a "
+"cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: "
+"<code>m_type</code> jest rozkazem do wykonania (move lub turn), a "
+"<code>m_param</code> jest odległością do pokonania lub kątem obrotu¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:12
@@ -105,8 +135,20 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:18
 #, no-wrap
-msgid "A second <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchanging the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_order</code> which will contain the order to be executed. The word <code>static</code> insures that the member <code>m_order</code> is shared between all instances of the <a cbot|class>class</a> exchange."
-msgstr "Druga <a cbot|class>klasa</a> <code>exchange</code> zawiera mechanizm przekazywania rozkazów. Deklarujemy jako <code><a cbot|static>static</a></code> element klasy <code>m_order</code>, który będzie zawierał rozkaz do wykonania. Słowo <code>static</code> zapewnia, że element <code>m_order</code> będzie współużytkowany przez wszystkie instancje <a cbot|class>klasy</a> exchange."
+msgid ""
+"A second <a cbot|class>class</a> <code>exchange</code> contains the "
+"mechanism for exchanging the orders. We declare a <code><a "
+"cbot|static>static</a></code> class member <code>m_order</code> which will "
+"contain the order to be executed. The word <code>static</code> insures that "
+"the member <code>m_order</code> is shared between all instances of the <a "
+"cbot|class>class</a> exchange."
+msgstr ""
+"Druga <a cbot|class>klasa</a> <code>exchange</code> zawiera mechanizm "
+"przekazywania rozkazów. Deklarujemy jako <code><a "
+"cbot|static>static</a></code> element klasy <code>m_order</code>, który "
+"będzie zawierał rozkaz do wykonania. Słowo <code>static</code> zapewnia, że "
+"element <code>m_order</code> będzie współużytkowany przez wszystkie "
+"instancje <a cbot|class>klasy</a> exchange."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:20
@@ -119,22 +161,37 @@ msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
 #, no-wrap
 msgid ""
 "{\n"
-"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new order;"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new "
+"order;"
 msgstr ""
 "{\n"
-"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new order;"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new "
+"order;"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:24
 #, no-wrap
-msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing¦:"
-msgstr "<n/>Metoda <code>put</code> będzie używana przez robota nadrzędnego do przesyłania rozkazów. Jeśli zmienna <code>m_order</code> jest różna od <code><a cbot|nan>nan</a></code>, robot podległy nie zakończył wykonywania rozkazu a metoda <code>put</code> zwróci wartość <code>false</code> i niczego nie zrobi¦:"
+msgid ""
+"<n/>The <code>put</code> method will be used by the master robot for "
+"transmitting an order. As long as <code>m_order</code> is different from "
+"<code><a cbot|nan>nan</a></code>, the slave has not finished the order and "
+"the <code>put</code> method will return <code>false</code> and will do "
+"nothing¦:"
+msgstr ""
+"<n/>Metoda <code>put</code> będzie używana przez robota nadrzędnego do "
+"przesyłania rozkazów. Jeśli zmienna <code>m_order</code> jest różna od "
+"<code><a cbot|nan>nan</a></code>, robot podległy nie zakończył wykonywania "
+"rozkazu a metoda <code>put</code> zwróci wartość <code>false</code> i "
+"niczego nie zrobi¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:26
 #, no-wrap
-msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order a)"
-msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order a)"
+msgid ""
+"<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order "
+"a)"
+msgstr ""
+"<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order a)"
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:37
@@ -167,8 +224,12 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:39
 #, no-wrap
-msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed:"
-msgstr "Kolejna metoda <code>get</code> będzie używana przez robota podległego do otrzymywania rozkazów. Metoda ta jako wynik zwraca rozkaz do wykonania:"
+msgid ""
+"Another method <code>get</code> will be used by the slave to retrieve the "
+"orders. This method returns the order to be executed:"
+msgstr ""
+"Kolejna metoda <code>get</code> będzie używana przez robota podległego do "
+"otrzymywania rozkazów. Metoda ta jako wynik zwraca rozkaz do wykonania:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:41
@@ -191,8 +252,12 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:46
 #, no-wrap
-msgid "A third method <code>delete</code> will be used by the slave to indicate that the order has been executed:"
-msgstr "Trzecia metoda <code>delete</code> będzie używana przez robota podległego do zaznaczenia, że rozkaz został wykonany:"
+msgid ""
+"A third method <code>delete</code> will be used by the slave to indicate "
+"that the order has been executed:"
+msgstr ""
+"Trzecia metoda <code>delete</code> będzie używana przez robota podległego do "
+"zaznaczenia, że rozkaz został wykonany:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:48
@@ -217,8 +282,16 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:54
 #, no-wrap
-msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>. We put () after the word <code>list</code> in order to create an instance of the class <code>exchange</code>."
-msgstr "Główny program robota podległego zawiera instancję klasy <code>exchange</code> nazwaną <code>list</code>. Po słowie <code>list</code> należy napisać nawiasy (), w celu utworzenia instancji klasy <code>exchange</code>."
+msgid ""
+"The main program of the slave contains an instance of the class "
+"<code>exchange</code> called <code>list</code>. We put () after the word "
+"<code>list</code> in order to create an instance of the class "
+"<code>exchange</code>."
+msgstr ""
+"Główny program robota podległego zawiera instancję klasy "
+"<code>exchange</code> nazwaną <code>list</code>. Po słowie <code>list</code> "
+"należy napisać nawiasy (), w celu utworzenia instancji klasy "
+"<code>exchange</code>."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:56
@@ -241,8 +314,16 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:61
 #, no-wrap
-msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a value different from <code>nan</code>, the while loop stops."
-msgstr "Zewnętrzna pętla <code>while</code> działa w nieskończoność. Wewnętrzna pętla <code>while</code> czeka na rozkaz używając metody <code>get</code> z klasy <code>exchange</code>. Pętla zatrzymuje się gdy <code>get</code> zwróci wartość różną od <code>nan</code>."
+msgid ""
+"The outer <code>while</code> loop lasts for ever. The inner "
+"<code>while</code> loop waits for an order by using the <code>get</code> "
+"method of the <code>exchange</code> class. As soon as <code>get</code> "
+"returns a value different from <code>nan</code>, the while loop stops."
+msgstr ""
+"Zewnętrzna pętla <code>while</code> działa w nieskończoność. Wewnętrzna "
+"pętla <code>while</code> czeka na rozkaz używając metody <code>get</code> z "
+"klasy <code>exchange</code>. Pętla zatrzymuje się gdy <code>get</code> "
+"zwróci wartość różną od <code>nan</code>."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:63
@@ -273,8 +354,12 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:72
 #, no-wrap
-msgid "Now we have received the order in the <code>todo</code> variable. All we have to do is execute it:"
-msgstr "Po otrzymaniu rozkazu i zapisaniu go w zmiennej <code>todo</code> wystarczy jedynie go wykonać:"
+msgid ""
+"Now we have received the order in the <code>todo</code> variable. All we "
+"have to do is execute it:"
+msgstr ""
+"Po otrzymaniu rozkazu i zapisaniu go w zmiennej <code>todo</code> wystarczy "
+"jedynie go wykonać:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:74
@@ -313,8 +398,13 @@ msgstr ""
 #. type: Plain text
 #: train702-help/tremote4.txt:87
 #, no-wrap
-msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent¦:"
-msgstr "Po zakończeniu wykonywania rozkazu, należy wywołać metodę <code>delete</code>, aby powiadomić robota nadrzędnego, że może już przesłać następny rozkaz¦:"
+msgid ""
+"As soon as the execution of the order is finished, we must call the "
+"<code>delete</code> method so the master knows that another order can be "
+"sent¦:"
+msgstr ""
+"Po zakończeniu wykonywania rozkazu, należy wywołać metodę <code>delete</code>"
+", aby powiadomić robota nadrzędnego, że może już przesłać następny rozkaz¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:89
@@ -341,8 +431,12 @@ msgstr "Robot nadrzędny"
 #. type: Plain text
 #: train702-help/tremote4.txt:94
 #, no-wrap
-msgid "In the master we write an function called <code>SendOrder</code> which will send an order to the slave:"
-msgstr "W robocie nadrzędnym należy napisać funkcję nazwaną <code>SendOrder</code>, która wyśle rozkaz do robota podległego:"
+msgid ""
+"In the master we write an function called <code>SendOrder</code> which will "
+"send an order to the slave:"
+msgstr ""
+"W robocie nadrzędnym należy napisać funkcję nazwaną <code>SendOrder</code>, "
+"która wyśle rozkaz do robota podległego:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:96
@@ -384,10 +478,14 @@ msgstr ""
 #: train702-help/tremote4.txt:111
 #, no-wrap
 msgid ""
-"The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method and the <code>delete</code> method has been called.\n"
+"The <code>while</code> loop waits until a pending order has been terminated, "
+"that is the slaved has exited from the <code>get</code> method and the "
+"<code>delete</code> method has been called.\n"
 "Now the main program of the master is very simple:"
 msgstr ""
-"Pętla <code>while</code> czeka na zakończenie oczekującego rozkazu, czyli na wyjście przez robota podległego z metody <code>get</code> i wywołanie metody <code>delete</code>.\n"
+"Pętla <code>while</code> czeka na zakończenie oczekującego rozkazu, czyli na "
+"wyjście przez robota podległego z metody <code>get</code> i wywołanie metody "
+"<code>delete</code>.\n"
 "Główny program robota nadrzędnego jest bardzo prosty:"
 
 #. type: Plain text
@@ -428,7 +526,9 @@ msgstr ""
 #: train702-help/tremote4.txt:126
 #, no-wrap
 msgid "<format key><key help/></format> show these instruction at any time."
-msgstr "Klawisz <format key><key help/></format> umożliwia wyświetlenie tych informacji w dowolnej chwili."
+msgstr ""
+"Klawisz <format key><key help/></format> umożliwia wyświetlenie tych "
+"informacji w dowolnej chwili."
 
 #. type: \t; header
 #: train702-help/tremote4.txt:128

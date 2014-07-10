@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
 #: train305.languagecode:1
@@ -34,7 +34,9 @@ msgstr "train305:Bornes 2"
 #: train305/scene.txt:2
 #, no-wrap
 msgid "train305:Collect more valuable information from information exchange posts."
-msgstr "train305:Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+msgstr ""
+"train305:Récolter des informations de direction et de distance, afin "
+"d'apprendre le concept de variable."
 
 #
 #. type: ScriptName-text
@@ -45,18 +47,29 @@ msgstr "train305:Suivre"
 
 #. type: \b; header
 #: train305-help/texch2.txt:1
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
 #: train305-help/texch2.txt:3
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "In this exercise, the <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
-msgstr "9 <a object|exchange>bornes</a> d'informations sont placées le long d'un chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la borne suivante."
+msgid ""
+"In this exercise, the <a object|exchange>information exchange posts</a> "
+"along the way contain the direction of the next post and the distance. And "
+"you do not know how many exchange posts you must get in touch with before "
+"arriving at your goal."
+msgstr ""
+"9 <a object|exchange>bornes</a> d'informations sont placées le long d'un "
+"chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut "
+"lire les informations qu'elle contient et qui donnent la direction et la "
+"distance jusqu'à la borne suivante."
 
 #. type: \b; header
 #: train305-help/texch2.txt:4
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "General principle"
 msgstr "Principe"
@@ -69,12 +82,14 @@ msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:6
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
 msgstr "Lire la direction dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:7
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
 msgstr "Lire la longueur dans la <a object|exchange>borne</a>."
@@ -87,12 +102,14 @@ msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:9
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Execute the rotation."
 msgstr "Tourner dans la direction obtenue."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:10
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Move forward to the next post."
 msgstr "Avancer de la longueur obtenue."
@@ -100,7 +117,11 @@ msgstr "Avancer de la longueur obtenue."
 #. type: Plain text
 #: train305-help/texch2.txt:13
 #, no-wrap
-msgid "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> loop. The instructions between the braces <code>{ }</code> will be repeated over and over, or until a <code><a cbot|break>break</a></code> instruction is executed."
+msgid ""
+"In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> "
+"loop. The instructions between the braces <code>{ }</code> will be repeated "
+"over and over, or until a <code><a cbot|break>break</a></code> instruction "
+"is executed."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -111,24 +132,33 @@ msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:16
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, one for the distance, for example <code>dir</code> and <code>len</code> :"
-msgstr "Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et <code>len</code>:"
+msgid ""
+"This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, "
+"one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr ""
+"Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et "
+"<code>len</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:17
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "<c/>\tfloat  dir, len;"
 msgstr "<c/>\tfloat  dir, len;"
 
 #. type: Plain text
 #: train305-help/texch2.txt:19
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Then you can retrieve the information:"
-msgstr "Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
+msgstr ""
+"Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:21
+#, no-wrap
 #, fuzzy, no-wrap
 msgid ""
 "<c/>\tdir = receive(\"Direction\");\n"
@@ -141,8 +171,15 @@ msgstr ""
 #: train305-help/texch2.txt:24
 #, no-wrap
 msgid ""
-"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
-"When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> "
+"can take a special value called <code><a cbot|nan>nan</a></code>. This value "
+"means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because "
+"the bot has reached the goal, or because it took the wrong way, the two "
+"variables <code>dir</code> and <code>len</code> contain this value. You can "
+"test this with the instruction <code><a cbot|if>if</a></code>, and stop the "
+"program if necessary with the instruction <code><a "
+"cbot|break>break</a></code>:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
@@ -154,49 +191,68 @@ msgstr ""
 #. type: Plain text
 #: train305-help/texch2.txt:27
 #, no-wrap
-msgid "If the information retrieval from the <a object|exchange>exchange post</a> has been performed successfully, execute the rotation:"
+msgid ""
+"If the information retrieval from the <a object|exchange>exchange post</a> "
+"has been performed successfully, execute the rotation:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:28
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "<c/>\tturn(dir);"
 msgstr "<c/>\tturn(dir);"
 
 #. type: Plain text
 #: train305-help/texch2.txt:30
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "And move forward:"
 msgstr "Puis avancer avec:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:31
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "<c/>\tmove(len);"
 msgstr "<c/>\tmove(len);"
 
 #. type: \b; header
 #: train305-help/texch2.txt:32
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "Remark"
 msgstr "Remarque"
 
 #. type: Plain text
 #: train305-help/texch2.txt:34
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains two values called <code>\"Direction\"</code> and <code>\"Length\"</code>."
-msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient deux informations appelées <code>\"Direction\"</code> et <code>\"Length\"</code>."
+msgid ""
+"You can click on an <a object|exchange>information exchange post</a> in "
+"order to read what information it contains. In this exercise, every exchange "
+"post contains two values called <code>\"Direction\"</code> and "
+"<code>\"Length\"</code>."
+msgstr ""
+"En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous "
+"pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne "
+"contient deux informations appelées <code>\"Direction\"</code> et <code>\""
+"Length\"</code>."
 
 #. type: \t; header
 #: train305-help/texch2.txt:35
+#, no-wrap
 #, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
 #: train305-help/texch2.txt:36
+#, no-wrap
 #, fuzzy, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
 msgstr "<a texch1>Exercice précédent</a> et <a cbot>programmation</a>."
 
 #
