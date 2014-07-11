@@ -19,9 +19,9 @@ You should be careful about the choice of the names that you give to variables; 
 In the example above, the keyword \c;int\n; indicates that this variable can contain only whole numbers, which is adequate to counting objects. If you want to measure a distance, better use a variable that can contain also real numbers, with a fractional part (like 3.45 or 0.034): in this case, use the type \c;float\n;.
 
 In fact, a variable is made up of three parts:
-1) the name
-2) the type of the information stored inside
-3) the content, i.e. the information itself
+1) the name,
+2) the type of the information stored inside,
+3) the content, i.e. the information itself.
 
 \t;the name
 You need the name to be able to distinguish the different variables from each other.
@@ -45,7 +45,7 @@ Once you declared a variable, it still does not contain any value. Before you ca
 \n;
 You can also declare a variable and put a value inside in the same line, writing: 
 \c;\s;	int  countTit = 0;
-\n; 
+\n;
 When you assign a value to a variable with the equals sign \c;=\n;, the value on the right side is copied into the value on the left side. Consider the following example: 
 \c;\s;	int  i, j;
 \s;	i = 5+2;  // i takes the value 7

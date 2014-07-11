@@ -1,0 +1,640 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: train702.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: train702/scene.txt:1
+#, no-wrap
+msgid "train702:Remote control #4"
+msgstr "train702:Télécommande #4"
+
+#
+#. type: Resume-text
+#: train702/scene.txt:2
+#, no-wrap
+msgid ""
+"train702:Remote control a bot without using an information exchange post by "
+"defining a class for the orders."
+msgstr ""
+"train702:Télécommandez un robot sans borne d'information en utilisant une "
+"classe définissant un ordre."
+
+#
+#. type: ScriptName-text
+#: train702/scene.txt:3
+#, no-wrap
+msgid "train702:Remote4"
+msgstr "train702:Remote4"
+
+#. type: \b; header
+#: train702-help/tremote4.txt:1
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "Exercise"
+msgstr "Exercice"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:3
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"Remote control a slave robot without using an <a object|exchange>information "
+"exchange post</a>. The robot should pass over the 6 blue crosses. You must "
+"use a <code><a cbot|static>static</a></code> variable to pass the orders to "
+"the slave bot."
+msgstr ""
+"Télécommandez un robot, sans utiliser une <a object|exchange>borne "
+"d'information</a>, pour qu'il passe par les 6 croix bleues. Il faudra "
+"utiliser une variable <code><a cbot|static>static</a></code> pour "
+"communiquer directement d'un programme à un autre."
+
+#. type: Plain text
+#: train702-help/tremote4.txt:5
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "The two main actors of this exercise are:\n"
+msgstr "Les 2 acteurs principaux de cet exercice sont:\n"
+
+#. type: Bullet: '1)'
+#: train702-help/tremote4.txt:5
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The <a object|botgr>wheeled grabber</a> without an energy pack and therefore "
+"immobile. This is the master you should program so it will transmit orders "
+"to the slave."
+msgstr ""
+"Un <a object|botgr>robot déménageur</a> sans pile, donc immobile. C'est lui "
+"l'émetteur que vous devez programmer."
+
+#. type: Bullet: '2)'
+#: train702-help/tremote4.txt:6
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The slave <a object|bottr>practice bot</a> which is already programmed and "
+"just waits for orders from the master."
+msgstr ""
+"Un <a object|bottr>robot d'entraînement</a> qui attend les ordres. Ce robot "
+"est déjà programmé."
+
+#. type: \b; header
+#: train702-help/tremote4.txt:8
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "The slave"
+msgstr "Le robot récepteur"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:10
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"First of all we must understand how the program of the slave works. The <a "
+"cbot|class>class</a> <code>order</code> contains two members: "
+"<code>m_type</code> is the order to execute (move or turn) and "
+"<code>m_param</code> is the distance to move or the rotation angle¦:"
+msgstr ""
+"Pour commencer, il faut comprendre le programme du robot d'entraînement qui "
+"attend les ordres.\n"
+"Une <a cbot|class>classe</a> <code>order</code> contient deux variables: "
+"<code>global_type</code> détermine l'ordre à effectuer (avancer ou tourner) "
+"et <code>global_param</code> détermine la distance à avancer ou l'angle de "
+"rotation:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:12
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:16
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|int>int</a>    m_type = <a cbot|nan>nan</a>;\n"
+"\t<a cbot|float>float</a>  m_param;\n"
+"}"
+msgstr ""
+"{\n"
+"\t<a cbot|int>int</a>    global_type = <a cbot|nan>nan</a>;\n"
+"\t<a cbot|float>float</a>  global_param;\n"
+"}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:18
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"A second <a cbot|class>class</a> <code>exchange</code> contains the "
+"mechanism for exchanging the orders. We declare a <code><a "
+"cbot|static>static</a></code> class member <code>m_order</code> which will "
+"contain the order to be executed. The word <code>static</code> insures that "
+"the member <code>m_order</code> is shared between all instances of the <a "
+"cbot|class>class</a> exchange."
+msgstr ""
+"Une deuxième <a cbot|class>classe</a> <code>exchange</code> contient le "
+"mécanisme d'échange et de mémorisation des ordres. Il faut d'abord déclarer "
+"une variable <code><a cbot|static>static</a></code> appelée ici "
+"<code>global_order</code>. Cette variable contient l'ordre à effectuer. "
+"L'instruction <code>static</code> permet à tous les robots d'accéder à la "
+"même variable unique."
+
+#. type: Plain text
+#: train702-help/tremote4.txt:20
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:22
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new "
+"order;"
+msgstr ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> order global_order = "
+"new order;"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:24
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"<n/>The <code>put</code> method will be used by the master robot for "
+"transmitting an order. As long as <code>m_order</code> is different from "
+"<code><a cbot|nan>nan</a></code>, the slave has not finished the order and "
+"the <code>put</code> method will return <code>false</code> and will do "
+"nothing¦:"
+msgstr ""
+"Une première méthode <code>put</code> sera utilisée par le robot émetteur "
+"pour donner un ordre. Si l'ordre est différent de <code><a "
+"cbot|nan>nan</a></code>, cela signifie qu'il n'a pas encore été effectué par "
+"le robot récepteur. Dans ce cas, la méthode <code>get</code> ne fait rien et "
+"retourne <code>false</code>:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:26
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order "
+"a)"
+msgstr ""
+"<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order a)"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:37
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t{\n"
+"\t\tif ( m_order.m_type == nan )\n"
+"\t\t{\n"
+"\t\t\tm_order = a;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
+msgstr ""
+"\t{\n"
+"\t\tif ( global_order.global_type == nan )\n"
+"\t\t{\n"
+"\t\t\tglobal_order = a;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:39
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"Another method <code>get</code> will be used by the slave to retrieve the "
+"orders. This method returns the order to be executed:"
+msgstr ""
+"Une deuxième méthode <code>get</code> sera utilisée par le robot récepteur "
+"pour prendre connaissance d'un ordre à effectuer:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:41
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:44
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t{\n"
+"\t\treturn m_order;\n"
+"\t}"
+msgstr ""
+"\t{\n"
+"\t\treturn global_order;\n"
+"\t}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:46
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"A third method <code>delete</code> will be used by the slave to indicate "
+"that the order has been executed:"
+msgstr ""
+"Une troisième méthode <code>delete</code> sera utilisée par le robot "
+"récepteur pour indiquer que l'ordre est terminé:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:48
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> void delete()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> void delete()"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:52
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t{\n"
+"\t\tm_order.m_type = nan;\n"
+"\t}\n"
+"}"
+msgstr ""
+"\t{\n"
+"\t\tglobal_order.global_type = nan;\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:54
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The main program of the slave contains an instance of the class "
+"<code>exchange</code> called <code>list</code>. We put () after the word "
+"<code>list</code> in order to create an instance of the class "
+"<code>exchange</code>."
+msgstr ""
+"Le programme principal peut maintenant exister. La variable <code>list</code>"
+" est de type <code>exchange</code>, qui est une <a cbot|class>classe</a>. Il "
+"faut utiliser l'instruction <code><a cbot|new>new</a></code> pour créer "
+"immédiatement une instance."
+
+#. type: Plain text
+#: train702-help/tremote4.txt:56
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:59
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo;"
+msgstr ""
+"{\n"
+"\texchange list = new exchange();\n"
+"\torder    todo;"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:61
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The outer <code>while</code> loop lasts for ever. The inner "
+"<code>while</code> loop waits for an order by using the <code>get</code> "
+"method of the <code>exchange</code> class. As soon as <code>get</code> "
+"returns a value different from <code>nan</code>, the while loop stops."
+msgstr ""
+"La première boucle <code>while</code> exécute les ordres à l'infini. La "
+"deuxième boucle <code>while</code> attend un ordre en exécutant la méthode "
+"<code>get</code> de la classe <code>exchange</code>. Dès qu'un ordre "
+"contenant une valeur différente de <code>nan</code> est reçu, la boucle est "
+"stoppée."
+
+#. type: Plain text
+#: train702-help/tremote4.txt:63
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:70
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo.m_type != nan )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+msgstr ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo.global_type != nan )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:72
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"Now we have received the order in the <code>todo</code> variable. All we "
+"have to do is execute it:"
+msgstr "Il ne reste plus qu'à exécuter l'ordre reçu:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:74
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>\t\tif ( todo.m_type == 1 )"
+msgstr "<c/><s/>\t\tif ( todo.global_type == 1 )"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:85
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t\t{\n"
+"\t\t\tmove(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse if ( todo.m_type == 2 )\n"
+"\t\t{\n"
+"\t\t\tturn(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t}"
+msgstr ""
+"\t\t{\n"
+"\t\t\tmove(todo.global_param);\n"
+"\t\t}\n"
+"\t\telse if ( todo.global_type == 2 )\n"
+"\t\t{\n"
+"\t\t\tturn(todo.global_param);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:87
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"As soon as the execution of the order is finished, we must call the "
+"<code>delete</code> method so the master knows that another order can be "
+"sent¦:"
+msgstr ""
+"Dès que l'exécution de l'ordre est terminée, il faut appeler la méthode "
+"<code>delete</code> pour indiquer au robot émetteur qu'il peut envoyer "
+"l'ordre suivant:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:89
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>\t\tlist.delete();"
+msgstr "<c/><s/>\t\tlist.delete();"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:91
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"\t}\n"
+"}"
+msgstr ""
+"\t}\n"
+"}"
+
+#. type: \b; header
+#: train702-help/tremote4.txt:92
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "The master"
+msgstr "Le robot émetteur"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:94
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"In the master we write an function called <code>SendOrder</code> which will "
+"send an order to the slave:"
+msgstr ""
+"Dans le robot émetteur, il est plus simple d'écrire une procédure "
+"<code>SendOrder</code> qui se charge d'envoyer un ordre au robot récepteur:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:96
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>void object::SendOrder(float order, float param)"
+msgstr "<c/><s/>void object::SendOrder(float order, float param)"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:108
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo();\n"
+"\t\n"
+"\ttodo.m_type = order;\n"
+"\ttodo.m_param = param;\n"
+"\t\n"
+"\twhile ( list.put(todo) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"{\n"
+"\texchange list = new exchange();\n"
+"\torder    todo();\n"
+"\t\n"
+"\ttodo.global_type = order;\n"
+"\ttodo.global_param = param;\n"
+"\t\n"
+"\twhile ( list.put(todo) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:111
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The <code>while</code> loop waits until a pending order has been terminated, "
+"that is the slaved has exited from the <code>get</code> method and the "
+"<code>delete</code> method has been called.\n"
+"Now the main program of the master is very simple:"
+msgstr ""
+"La boucle <code>while</code> attend qu'un éventuel ordre précédent soit "
+"terminé, ce qui arrive lorsque le robot récepteur exécute la méthode "
+"<code>delete</code>.\n"
+"Le programme principal est finalement d'une simplicité enfantine:"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:113
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<c/><s/>extern void object::Remote4( )"
+msgstr "<c/><s/>extern void object::Remote4( )"
+
+#. type: \s; block (usually verbatim code)
+#: train702-help/tremote4.txt:124
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"{\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2,-90);  // turn(-90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"}"
+msgstr ""
+"{\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2,-90);  // turn(-90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"}"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:126
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<format key><key help/></format> show these instruction at any time."
+msgstr ""
+"<format key><key help/></format> permet de revoir ces instructions en tout "
+"temps!"
+
+#. type: \t; header
+#: train702-help/tremote4.txt:128
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: train702-help/tremote4.txt:129
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "<a command>Controls</a> and <a cbot>programming</a>."
+msgstr "<a tremote3>Exercice précédent</a> et <a cbot>programmation</a>."
+
+#
+#~ msgid "train700:Classes"
+#~ msgstr "train700:Classes"
+
+#
+#~ msgid "train700:"
+#~ msgstr "train700:"
+
+#
+#~ msgid "train701:Remote control #3"
+#~ msgstr "train701:Télécommande #3"
+
+#
+#~ msgid "train701:"
+#~ msgstr "train701:"
+
+#
+#~ msgid ""
+#~ "train701:Remote control a bot without using an information exchange post "
+#~ "by using a string."
+#~ msgstr ""
+#~ "train701:Télécommandez un robot sans borne d'information en utilisant une "
+#~ "simple chaîne de caractère."
+
+#
+#~ msgid "train701:Remote3"
+#~ msgstr "train701:Remote3"
+
+#
+#~ msgid "train702:"
+#~ msgstr "train702:"
+
+#
+#~ msgid "train703:Remote control #5"
+#~ msgstr "train703:Télécommande #5"
+
+#
+#~ msgid "train703:"
+#~ msgstr "train703:"
+
+#
+#~ msgid ""
+#~ "train703:Remote control a bot without using an information exchange post "
+#~ "by storing the orders."
+#~ msgstr "train703:Télécommandez un robot en mémorisant tous les ordres."
+
+#
+#~ msgid "train703:Remote5"
+#~ msgstr "train703:Remote5"

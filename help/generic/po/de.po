@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-27 18:16+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: Plain text
 #: generic.languagecode:1
@@ -24,37 +24,36 @@ msgstr "D"
 #. type: Plain text
 #: generic-help/authors.txt:2
 #, no-wrap
-msgid "Development team:                Beta tester core team:"
+msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC:\n"
+msgstr ""
+
+#. type: Bullet: '-'
+#: generic-help/authors.txt:2
+#, no-wrap
+msgid ""
+"Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier "
+"Gertsch"
 msgstr ""
 
 #. type: Bullet: '-'
 #: generic-help/authors.txt:3
 #, no-wrap
-msgid "Daniel Roux                  - Adrien Roux       - Michael Jubin"
+msgid "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
 msgstr ""
 
 #. type: Bullet: '-'
 #: generic-help/authors.txt:4
 #, no-wrap
-msgid "Denis Dumoulin               - Didier Raboud     - Daniel Sauthier"
+msgid "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
 msgstr ""
 
-#. type: Bullet: '-'
-#: generic-help/authors.txt:5
+#. type: Plain text
+#: generic-help/authors.txt:8
 #, no-wrap
-msgid "Otto Kölbl                   - Nicolas Beuchat   - Nicolas Stubi"
-msgstr ""
-
-#. type: Bullet: '-'
-#: generic-help/authors.txt:6
-#, no-wrap
-msgid "Michael Walz                 - Joël Roux         - Patrick Thévoz"
-msgstr ""
-
-#. type: Bullet: '-'
-#: generic-help/authors.txt:7
-#, no-wrap
-msgid "Didier Gertsch                "
+msgid ""
+"PPC GOLD Project team and members:\n"
+"https://github.com/orgs/colobot/members\n"
+"https://github.com/colobot/colobot/graphs/contributors"
 msgstr ""
 
 #. type: \b; header
@@ -318,7 +317,8 @@ msgid ""
 "<format key><key right/></format> = turn right\n"
 "<format key><key up/></format> = move forward\n"
 "<format key><key down/></format> = move back\n"
-"These controls are unavailable when working with the <a object|bottr>practice bots</a>."
+"These controls are unavailable when working with the <a "
+"object|bottr>practice bots</a>."
 msgstr ""
 
 #. type: Plain text
@@ -327,7 +327,9 @@ msgstr ""
 msgid ""
 "<format key><key gup/></format> = take off and climb <button 28/>\n"
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
-"These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
+"These controls are of course restricted to the <a object|human>astronaut</a> "
+"as well as the various <a object|botgj>winged bots</a> and in selected "
+"missions only."
 msgstr ""
 
 #. type: Plain text
@@ -338,15 +340,19 @@ msgid ""
 "mouse backward = lower aim\n"
 "mouse right = aim right\n"
 "mouse left = aim left\n"
-"These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
+"These controls are only available to the <a object|botfr>shooters</a>, the "
+"<a object|botor>orga shooters</a> and the <a object|botphaz>phazer "
+"shooter</a>."
 msgstr ""
 
 #. type: Plain text
 #: generic-help/command.txt:23
 #, no-wrap
 msgid ""
-"<format key><key action/></format> = main action for a given selection (human or bot)\n"
-"This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
+"<format key><key action/></format> = main action for a given selection "
+"(human or bot)\n"
+"This control will for example operate the arm of a <a "
+"object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
 
 #. type: \t; header
@@ -374,10 +380,12 @@ msgstr ""
 #: generic-help/command.txt:34
 #, no-wrap
 msgid ""
-"<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
+"<format key><key camera/></format> = shifts between onboard and following "
+"cameras <button 13/>\n"
 "<format key><key near/></format> = zoom in\n"
 "<format key><key away/></format> = zoom out\n"
-"<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
+"<format key><key visit/></format> = pauses the game and shows where the "
+"latest message originated. Press again to show origin of previous message."
 msgstr ""
 
 #. type: \t; header
@@ -452,7 +460,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<button 30/> Home\n"
-"Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
+"Get back to the home page, i.e. the first page that was displayed, for "
+"example when you hit the <format key><key help/></format> or <format "
+"key><key prog/></format> key."
 msgstr ""
 
 #. type: Plain text
@@ -480,28 +490,23 @@ msgid "Remark"
 msgstr ""
 
 #. type: Plain text
-#: generic-help/navig.txt:15
+#: generic-help/navig.txt:16
 #, no-wrap
 msgid ""
 "When a button is gray, this means that it can not be used at this precise "
 "moment. For example, when you are in the home page, the \"Home\" button is "
-"gray, because it does not make sense to use it."
-msgstr ""
-
-#. type: Plain text
-#: generic-help/navig.txt:17
-#, no-wrap
-msgid "This remark is valid for all buttons in COLOBOT."
+"gray, because it does not make sense to use it.\n"
+"This remark is valid for all buttons in COLOBOT."
 msgstr ""
 
 #. type: \t; header
-#: generic-help/navig.txt:18
+#: generic-help/navig.txt:17
 #, no-wrap
 msgid "Text scrolling"
 msgstr ""
 
 #. type: Plain text
-#: generic-help/navig.txt:20
+#: generic-help/navig.txt:19
 #, no-wrap
 msgid ""
 "If your mouse is equipped with a wheel, you can use it to scroll the text up "
@@ -510,13 +515,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: generic-help/navig.txt:21
+#: generic-help/navig.txt:20
 #, no-wrap
 msgid "Font size"
 msgstr ""
 
 #. type: Plain text
-#: generic-help/navig.txt:22
+#: generic-help/navig.txt:21
 #, no-wrap
 msgid ""
 "The cursor on the upper side of the screen allows you to change the font "
@@ -528,6 +533,6 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Houston congratulates you in the name of mankind for the success of your "
-"missin.\n"
+"mission.\n"
 "The Great Migration to Terra Nova will start very soon."
 msgstr ""

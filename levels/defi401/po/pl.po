@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: defi401.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: defi401/scene.txt:1
+#, no-wrap
+msgid "defi401:Function"
+msgstr "defi401:Funkcja"
+
+#. type: Resume-text
+#: defi401/scene.txt:2
+#, no-wrap
+msgid "defi401:Create a function to move a bot."
+msgstr "defi401:Utwórz funkcję, która będzie poruszała robotem."
+
+#. type: ScriptName-text
+#: defi401/scene.txt:3
+#, no-wrap
+msgid "defi401:Move"
+msgstr "defi401:Poruszanie"
+
+#. type: \b; header
+#: defi401-help/dproc1.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ćwiczenie"
+
+#. type: Plain text
+#: defi401-help/dproc1.txt:3
+#, no-wrap
+msgid ""
+"The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue "
+"crosses</a> on the ground. The way that must be covered is made of two "
+"squares. The first one measures 15 meters, the second 25 meters."
+msgstr ""
+"<a object|bottr>Robot</a> musi przejść przez wszystkie <a object|waypoint>"
+"niebieskie plusy</a> znajdujące się na ziemi. Jego droga składa się z dwóch "
+"kwadratów. Pierwszy ma 15, a drugi 25 metrów."
+
+#. type: Image filename
+#: defi401-help/dproc1.txt:4
+#, no-wrap
+msgid "tproc1a"
+msgstr "tproc1a"
+
+#. type: \b; header
+#: defi401-help/dproc1.txt:5
+#, no-wrap
+msgid "General principle"
+msgstr "Ogólny algorytm"
+
+#. type: Plain text
+#: defi401-help/dproc1.txt:7
+#, no-wrap
+msgid ""
+"In order to solve this problem, the most efficient solution consists in "
+"creating a <a cbot|function>function</a> that instructs the bot to move on a "
+"square shape of a certain size. The main program becomes then very "
+"simple:<c/>"
+msgstr ""
+"Najbardziej efektywne rozwiązanie tego problemu polega na utworzeniu <a "
+"cbot|function>funkcji</a> polecającej robotowi poruszanie się po kwadracie o "
+"określonym rozmiarze. Znacznie upraszcza to główny program:<c/>"
+
+#. type: \s; block (usually verbatim code)
+#: defi401-help/dproc1.txt:13
+#, no-wrap
+msgid ""
+"\textern void object::Function3( )\n"
+"\t{\n"
+"\t\tSquare(15);\n"
+"\t\tSquare(25);\n"
+"\t}"
+msgstr ""
+"\textern void object::Funkcja3( )\n"
+"\t{\n"
+"\t\tKwadrat(15);\n"
+"\t\tKwadrat(25);\n"
+"\t}"
+
+#. type: \b; header
+#: defi401-help/dproc1.txt:14
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Przydatne instrukcje"
+
+#. type: Plain text
+#: defi401-help/dproc1.txt:18
+#, no-wrap
+msgid ""
+"<code><a cbot|for>for</a></code> loop to repeat some instructions\n"
+"<code><a cbot|move>move</a></code> to move the bot\n"
+"<code><a cbot|turn>turn</a></code> to turn the bot"
+msgstr ""
+"<code><a cbot|for>for</a></code> pętla powtarzająca instrukcje\n"
+"<code><a cbot|move>move</a></code> poruszanie robotem\n"
+"<code><a cbot|turn>turn</a></code> obracanie robota"
+
+#. type: \t; header
+#: defi401-help/dproc1.txt:19
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: defi401-help/dproc1.txt:20
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

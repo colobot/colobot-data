@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: train602.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: Title-text
+#: train602/scene.txt:1
+#, no-wrap
+msgid "train602:Spiral"
+msgstr ""
+
+#. type: Resume-text
+#: train602/scene.txt:2
+#, no-wrap
+msgid "train602:Create a procedure in order to teach your bot to perform a spiral."
+msgstr ""
+
+#. type: ScriptName-text
+#: train602/scene.txt:3
+#, no-wrap
+msgid "train602:Move"
+msgstr ""
+
+#. type: \b; header
+#: train602-help/tproc2.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:3
+#, no-wrap
+msgid ""
+"Follow the way in form of a spiral. The bot must move 2 times 25m forward "
+"and turn, then move 2 times 20m forward and turn, and so on.\n"
+msgstr ""
+
+#. type: Image filename
+#: train602-help/tproc2.txt:3
+#, no-wrap
+msgid "tproc2"
+msgstr ""
+
+#. type: \b; header
+#: train602-help/tproc2.txt:4
+#, no-wrap
+msgid "Function"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:6
+#, no-wrap
+msgid ""
+"You will have noticed that the way is made of \"L\"-shaped parts that are "
+"fit one into another. The first one (dark blue) measures two times 25 "
+"meters. The second one (light blue) measures 5 meters less. Let us start "
+"with writing the <a cbot|function>function</a> that will move the bot on a "
+"\"L\"-shaped part whose length will be given as a parameter:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train602-help/tproc2.txt:15
+#, no-wrap
+msgid ""
+"void object::Part(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<2 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:17
+#, no-wrap
+msgid ""
+"Now you just need to write the main function, that will call the function "
+"<code>Part</code>. At the beginning the variable <code>rest</code> will be "
+"set to 25m. The <code>while</code> loop will then repeat the instructions "
+"inside the block as long as <code>rest</code> is greater than zero. Inside "
+"the loop, first call the function <code>Part</code> (see above), then "
+"subtract 5m to the length of the L."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train602-help/tproc2.txt:27
+#, no-wrap
+msgid ""
+"extern void object::Function2( )\n"
+"{\n"
+"\tfloat\trest = 25;\n"
+"\twhile ( rest > 0 )\n"
+"\t{\n"
+"\t\tPart(rest);\n"
+"\t\trest = rest-5;\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:29
+#, no-wrap
+msgid ""
+"The function <code>Part</code> will be called a last time with the value "
+"<code>5</code>. Then the expression <code>rest-5</code> will set the value "
+"of the variable <code>rest</code> to zero, and the <code>while</code> loop "
+"will stop."
+msgstr ""
+
+#. type: \b; header
+#: train602-help/tproc2.txt:30
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:32
+#, no-wrap
+msgid ""
+"You will have noticed that in the previous exercise, the main function was "
+"at the beginning of the program, whereas in this exercise, it is at the end "
+"of the program, after the function <code>Part</code>. The rank order of the "
+"functions in the program does not matter, you can write a program either "
+"way."
+msgstr ""
+
+#. type: \t; header
+#: train602-help/tproc2.txt:33
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train602-help/tproc2.txt:34
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

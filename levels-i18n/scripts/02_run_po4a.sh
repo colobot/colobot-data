@@ -5,6 +5,6 @@ set -e
 LEVELS_I18N_PATH=$1
 PO4A_FILE=$2
 
-export PERLLIB=${LEVELS_I18N_PATH}/scripts/perllib
+export PERL5LIB=${LEVELS_I18N_PATH}/scripts/perllib${PERL5LIB+:}$PERL5LIB
 
-po4a -k100 -v -f $PO4A_FILE
+po4a -k0 -v -f $PO4A_FILE

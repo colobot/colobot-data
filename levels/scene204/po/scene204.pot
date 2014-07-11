@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: scene204.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: Title-text
+#: scene204/scene.txt:1
+#, no-wrap
+msgid "scene204:Black Box"
+msgstr ""
+
+#. type: Resume-text
+#: scene204/scene.txt:2
+#, no-wrap
+msgid "scene204:Discover crucial information left behind by the first expedition."
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/mhlune4.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:3
+#, no-wrap
+msgid ""
+"We have no way of being sure where the previous expedition was headed when "
+"it left the Moon surface nor why it chose to go wherever it was going."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:5
+#, no-wrap
+msgid ""
+"Locate the <a object|bbox>black box</a> they must have left behind and bring "
+"it back aboard your ship. The black box should contain the coordinates of "
+"the next planet the expedition was planning to visit."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:7
+#, no-wrap
+msgid ""
+"Your bot's <a object|power>power cells</a> are almost entirely "
+"empty. Recharging them should be your priority. The observation satellite in "
+"orbit indicates that the subsoil in this particular area is loaded with "
+"energy. You should therefore be able to build a functional <a "
+"object|station>power station</a> on any flat surface."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:9
+#, no-wrap
+msgid ""
+"We have developed a program that will recharge the <a object|power>power "
+"cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/mhlune4.txt:10
+#, no-wrap
+msgid "Procedure"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: scene204-help/mhlune4.txt:11
+#, no-wrap
+msgid ""
+"You first need to build a <a object|convert>converter</a> that converts the "
+"chunks of titanium ore already in your possession into usable <a "
+"object|titan>titanium cubes</a>."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: scene204-help/mhlune4.txt:12
+#, no-wrap
+msgid ""
+"You should then build both a <a object|station>power station</a> and a <a "
+"object|radar>radar</a> which will indicate the location of the black box on "
+"your mini map."
+msgstr ""
+
+#. type: Bullet: '3)'
+#: scene204-help/mhlune4.txt:13
+#, no-wrap
+msgid ""
+"With your power cells fully charged, retrieve the black box. It needs to be "
+"placed on the <a object|base>spaceship</a> platform for you to be able to "
+"take off."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:16
+#, no-wrap
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at "
+"all times on your personal SatCom <button 63/>."
+msgstr ""
+
+#. type: \t; header
+#: scene204-help/mhlune4.txt:17 scene204-help/mslune4.txt:18
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mhlune4.txt:18
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/milune4.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/milune4.txt:3
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of the Moon."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: scene204-help/milune4.txt:5
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/milune4.txt:10
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      -38.2C\n"
+"\\tab;Atmosphere:       none\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: scene204-help/milune4.txt:12
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/milune4.txt:15
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/mllune4.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mllune4.txt:3
+#, no-wrap
+msgid ""
+"Below is a program that has been developed by our engineers. It allows you "
+"to recharge the <a object|power>power cell</a> of a bot: it goes to the "
+"closest <a object|station>power station</a>, waits 5 seconds, and comes back "
+"to the initial position."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mllune4.txt:5
+#, no-wrap
+msgid ""
+"Remark: If you click on an element of the program underlined in blue, your "
+"SatCom will display a text that explains this element. The texts that follow "
+"a double slash <code>//</code> are not part of the program, but are comments "
+"that help you to understand the program."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: scene204-help/mllune4.txt:19
+#, no-wrap
+msgid ""
+"extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
+"\t<a cbot|type>object</a> item;           // info. about power station\n"
+"\t\n"
+"\tstart = position;      // store initial position\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look "
+"for station\n"
+"\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
+"\t<a cbot|wait>wait</a>(5);               // wait 5 seconds\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
+"}"
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/mllune4.txt:20
+#, no-wrap
+msgid "Archives"
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mllune4.txt:22
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: scene204-help/mllune4.txt:23
+#, no-wrap
+msgid "<code><a mllune1>SwitchCell1</a></code>"
+msgstr ""
+
+#. type: \b; header
+#: scene204-help/mslune4.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: scene204-help/mslune4.txt:2
+#, no-wrap
+msgid "Build a converter <button 162/> with the only titanium cube available."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: scene204-help/mslune4.txt:4
+#, no-wrap
+msgid ""
+"Deposit one chunk of titanium ore at a time at the center of the platform "
+"and let the converter do the rest."
+msgstr ""
+
+#. type: Bullet: '3)'
+#: scene204-help/mslune4.txt:6
+#, no-wrap
+msgid ""
+"Build a power station <button 164/> with one of the newly converted titanium "
+"cubes."
+msgstr ""
+
+#. type: Bullet: '4)'
+#: scene204-help/mslune4.txt:8
+#, no-wrap
+msgid ""
+"If you don't feel like looking for the black box yourself, build a radar "
+"<button 168/> and the box will appear on your mini map somewhere north of "
+"your present location, at the bottom of a crater, next to a few derelict "
+"spacecraft and debris from the previous expedition."
+msgstr ""
+
+#. type: Bullet: '5)'
+#: scene204-help/mslune4.txt:10
+#, no-wrap
+msgid ""
+"Place the grabbers at the center of the power station platform to recharge "
+"them. The cells should still have a little power left in them, just enough "
+"to radio-control the bots onto the platform."
+msgstr ""
+
+#. type: Bullet: '6)'
+#: scene204-help/mslune4.txt:12
+#, no-wrap
+msgid "Radio-control the winged grabber to the black box and back."
+msgstr ""
+
+#. type: Bullet: '7)'
+#: scene204-help/mslune4.txt:14
+#, no-wrap
+msgid ""
+"Gather both grabbers and the black box onto the spaceship platform and climb "
+"on board yourself."
+msgstr ""
+
+#. type: Bullet: '8)'
+#: scene204-help/mslune4.txt:16
+#, no-wrap
+msgid "Take off."
+msgstr ""
+
+#. type: Plain text
+#: scene204-help/mslune4.txt:19
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr ""

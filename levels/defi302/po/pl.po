@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: defi302.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: defi302/scene.txt:1
+#, no-wrap
+msgid "defi302:Mover 2"
+msgstr "defi302:Poruszanie się 2"
+
+#. type: Resume-text
+#: defi302/scene.txt:2
+#, no-wrap
+msgid "defi302:Try to figure out how to move the titanium cube across obstacles."
+msgstr "defi302:Wymyśl jak przenieść kostki tytanu ponad przeszkodami."
+
+#. type: ScriptName-text
+#: defi302/scene.txt:3
+#, no-wrap
+msgid "defi302:Mover"
+msgstr "defi302:Poruszanie"
+
+#. type: \b; header
+#: defi302-help/dremova2.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ćwiczenie"
+
+#. type: Plain text
+#: defi302-help/dremova2.txt:3
+#, no-wrap
+msgid ""
+"Move the <a object|titan>titanium cube</a> on the finishing pad. You do not "
+"know the position of the titanium, but we can tell you the position of the "
+"finishing pad x=10 and y=-60."
+msgstr ""
+"Dostarcz <a object|titan>kostkę tytanu</a> na platformę końcową. Pozycja "
+"tytanu nie jest znana, natomiast współrzędne platformy to x=10, y=-60."
+
+#. type: \b; header
+#: defi302-help/dremova2.txt:4
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Przydatne instrukcje"
+
+#. type: Plain text
+#: defi302-help/dremova2.txt:9
+#, no-wrap
+msgid ""
+"<code><a cbot|radar>radar</a></code> to find the titanium cube (category "
+"<code><a object|titan>Titanium</a></code>)\n"
+"<code><a cbot|goto>goto</a></code> to move the bot\n"
+"<code><a cbot|grab>grab</a></code> to grab an object\n"
+"<code><a cbot|drop>drop</a></code> to drop an object"
+msgstr ""
+"<code><a cbot|radar>radar</a></code> znalezienie kostki tytanu (kategoria "
+"<code><a object|titan>Titanium</a></code>)\n"
+"<code><a cbot|goto>goto</a></code> poruszanie robotem\n"
+"<code><a cbot|grab>grab</a></code> podnosi przedmiot\n"
+"<code><a cbot|drop>drop</a></code> upuszcza przedmiot"
+
+#. type: \t; header
+#: defi302-help/dremova2.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: defi302-help/dremova2.txt:11
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

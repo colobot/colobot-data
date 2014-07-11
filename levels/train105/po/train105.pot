@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train105.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: Title-text
+#: train105/scene.txt:1
+#, no-wrap
+msgid "train105:Power Cell 2"
+msgstr ""
+
+#. type: Resume-text
+#: train105/scene.txt:2
+#, no-wrap
+msgid "train105:Power all the winged shooters."
+msgstr ""
+
+#. type: ScriptName-text
+#: train105/scene.txt:3
+#, no-wrap
+msgid "train105:Spider2"
+msgstr ""
+
+#. type: \b; header
+#: train105-help/tcell2.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:3
+#, no-wrap
+msgid ""
+"Power the <a object|botfj>winged shooters</a> with <a object|power>power "
+"cells</a>, so that they can kill the ants in the ant nest located in a hole "
+"north of your position."
+msgstr ""
+
+#. type: \t; header
+#: train105-help/tcell2.txt:4
+#, no-wrap
+msgid "Program"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:6
+#, no-wrap
+msgid ""
+"The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power "
+"cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the "
+"cell. This task is very similar to the task performed in the previous "
+"exercise. Here is this program again:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train105-help/tcell2.txt:19
+#, no-wrap
+msgid ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:21
+#, no-wrap
+msgid ""
+"The best way to solve the present exercise is to copy <button 61/> the "
+"program above into the clipboard (from <code>object</code> to "
+"<c/>drop();<n/>), and paste <button 62/> it into the program editor. Then "
+"you just have to make the necessary changes in order to adapt it to the new "
+"task."
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:23
+#, no-wrap
+msgid ""
+"Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a "
+"power cell (<code>PowerCell</code>). Instead of going to a converter "
+"(<code>Converter</code>), go to a winged shooter "
+"(<code>WingedShooter</code>). As soon as the winged shooter has got a new "
+"power cell, it will get down to work."
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:25
+#, no-wrap
+msgid ""
+"If you want to know more about the \"names\" of the different objects in the "
+"programming language, please refer to the <a cbot|category>text about "
+"categories</a>."
+msgstr ""
+
+#. type: \t; header
+#: train105-help/tcell2.txt:26
+#, no-wrap
+msgid "Further improvement: loops"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:28
+#, no-wrap
+msgid ""
+"Once the program explained above works properly, you can improve it in order "
+"to repeat the task over and over again. Like this you will not have to "
+"execute the program several times in order to power several bots."
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:30
+#, no-wrap
+msgid ""
+"All programs written until now execute all instructions only once, one after "
+"another, from the beginning to the end of the program. You can also tell the "
+"bot to repeat some instructions: just write <code>while (true)</code>, an "
+"open brace, the instructions to be repeated, and a closing brace. Repeating "
+"some instructions several times in this way is called a loop. Here is an "
+"example of a program that repeats over and over the instructions that look "
+"for a power cell, grab it, and drop it on a winged shooter:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train105-help/tcell2.txt:41
+#, no-wrap
+msgid ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:43
+#, no-wrap
+msgid ""
+"Of course the variable declaration <c/>object item;<n/> must not be inside "
+"the loop, but just before: declare a variable only once."
+msgstr ""
+
+#. type: \t; header
+#: train105-help/tcell2.txt:44
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:46
+#, no-wrap
+msgid ""
+"A bot can execute a program perfectly well on his own. Meantime you can for "
+"example select the astronaut and take a look at what is happening at the "
+"nest, the show is worth it. But be careful not to get shot by your own "
+"bots..."
+msgstr ""
+
+#. type: \t; header
+#: train105-help/tcell2.txt:47
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train105-help/tcell2.txt:48
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

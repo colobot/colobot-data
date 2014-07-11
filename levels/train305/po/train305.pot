@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: train305.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: Title-text
+#: train305/scene.txt:1
+#, no-wrap
+msgid "train305:Exchange posts 2"
+msgstr ""
+
+#. type: Resume-text
+#: train305/scene.txt:2
+#, no-wrap
+msgid "train305:Collect more valuable information from information exchange posts."
+msgstr ""
+
+#. type: ScriptName-text
+#: train305/scene.txt:3
+#, no-wrap
+msgid "train305:Info"
+msgstr ""
+
+#. type: \b; header
+#: train305-help/texch2.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:3
+#, no-wrap
+msgid ""
+"In this exercise, the <a object|exchange>information exchange posts</a> "
+"along the way contain the direction of the next post and the distance. And "
+"you do not know how many exchange posts you must get in touch with before "
+"arriving at your goal."
+msgstr ""
+
+#. type: \b; header
+#: train305-help/texch2.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:6
+#, no-wrap
+msgid "\tRepeat forever:\n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train305-help/texch2.txt:6
+#, no-wrap
+msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train305-help/texch2.txt:7
+#, no-wrap
+msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train305-help/texch2.txt:8
+#, no-wrap
+msgid "If no information could be retrieved, stop the program."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train305-help/texch2.txt:9
+#, no-wrap
+msgid "Execute the rotation."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train305-help/texch2.txt:10
+#, no-wrap
+msgid "Move forward to the next post."
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:13
+#, no-wrap
+msgid ""
+"In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> "
+"loop. The instructions between the braces <code>{ }</code> will be repeated "
+"over and over, or until a <code><a cbot|break>break</a></code> instruction "
+"is executed."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:14
+#, no-wrap
+msgid "<c/>\twhile ( true )"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:16
+#, no-wrap
+msgid ""
+"This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, "
+"one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:17
+#, no-wrap
+msgid "<c/>\tfloat  dir, len;"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:19
+#, no-wrap
+msgid "Then you can retrieve the information:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:21
+#, no-wrap
+msgid ""
+"<c/>\tdir = receive(\"Direction\");\n"
+"<c/>\tlen = receive(\"Length\");"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:24
+#, no-wrap
+msgid ""
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> "
+"can take a special value called <code><a cbot|nan>nan</a></code>. This value "
+"means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because "
+"the bot has reached the goal, or because it took the wrong way, the two "
+"variables <code>dir</code> and <code>len</code> contain this value. You can "
+"test this with the instruction <code><a cbot|if>if</a></code>, and stop the "
+"program if necessary with the instruction <code><a "
+"cbot|break>break</a></code>:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:25
+#, no-wrap
+msgid "<c/>\tif ( dir == nan )  break;"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:27
+#, no-wrap
+msgid ""
+"If the information retrieval from the <a object|exchange>exchange post</a> "
+"has been performed successfully, execute the rotation:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:28
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:30
+#, no-wrap
+msgid "And move forward:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train305-help/texch2.txt:31
+#, no-wrap
+msgid "<c/>\tmove(len);"
+msgstr ""
+
+#. type: \b; header
+#: train305-help/texch2.txt:32
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:34
+#, no-wrap
+msgid ""
+"You can click on an <a object|exchange>information exchange post</a> in "
+"order to read what information it contains. In this exercise, every exchange "
+"post contains two values called <code>\"Direction\"</code> and "
+"<code>\"Length\"</code>."
+msgstr ""
+
+#. type: \t; header
+#: train305-help/texch2.txt:35
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train305-help/texch2.txt:36
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

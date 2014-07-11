@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: train401.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: ScriptName-text
+#: train401/scene.txt:1 train401/scene.txt:3
+#, no-wrap
+msgid "train401:Dragster"
+msgstr ""
+
+#. type: Resume-text
+#: train401/scene.txt:2
+#, no-wrap
+msgid ""
+"train401:Program a progressive deceleration in order to avoid the mines "
+"right behind the goal."
+msgstr ""
+
+#. type: \b; header
+#: train401-help/tdragst.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:3
+#, no-wrap
+msgid ""
+"Reach the finishing pad (25m in front of you) as fast as possible, using the "
+"instruction <code>motor( , )</code>. You will have to slow down "
+"progressively at the end of the move, otherwise the bot will get blown up on "
+"the <a object|mine>mines</a>."
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:5
+#, no-wrap
+msgid ""
+"You could very well write no more than <c/><a cbot|move>move</a>(25);<n/>, "
+"this would work perfectly well. However, the aim of this exercise is to "
+"learn how to use the instruction <code><a cbot|motor>motor</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:7
+#, no-wrap
+msgid "This instruction asks for two values:\n"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: train401-help/tdragst.txt:7
+#, no-wrap
+msgid "The speed of the left-hand motor."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: train401-help/tdragst.txt:8
+#, no-wrap
+msgid "The speed of the right-hand motor."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train401-help/tdragst.txt:11
+#, no-wrap
+msgid "<c/>\tmotor( left, right );"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:13
+#, no-wrap
+msgid "The values must range between -1 and 1:\n"
+msgstr ""
+
+#. type: Bullet: '-'
+#: train401-help/tdragst.txt:13
+#, no-wrap
+msgid "1 = full throttle backward"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:16
+#, no-wrap
+msgid ""
+" 0 = stop\n"
+" 1 = full throttle forward"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:18
+#, no-wrap
+msgid ""
+"For example, <c/>motor(0.5, 0.5);<n/> will move the motor forward with "
+"half-speed, until new instructions are given to the motors."
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:20
+#, no-wrap
+msgid ""
+"With the instruction <c/>motor(0.5, 0.6);<n/>, the bot will move forward "
+"with half-speed, turning at the same time slightly to the left: the "
+"right-hand motor moves a little faster (<code>0.6</code>) than the left-hand "
+"motor (<code>0.5</code>)."
+msgstr ""
+
+#. type: \b; header
+#: train401-help/tdragst.txt:21
+#, no-wrap
+msgid "General principle"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:24
+#, no-wrap
+msgid ""
+"In order to move forward for exactly 25 meters and not more, you must move "
+"full speed during the first 23 meters, then reduce the speed of the motors "
+"progressively during the last two meters.\n"
+"The <a cbot|var>variable</a> <a cbot|object>position</a> gives you at any "
+"moment the current position of the bot, and the instruction <c/><a "
+"cbot|dist>distance</a>( , );<n/> returns the distance between two "
+"points. The best way to know where you are consists in saving the current "
+"position before the start into a <a cbot|var>variable</a>, for example a "
+"variable called <code>start</code>. Then you can calculate the distance "
+"between the starting position and your current position with "
+"<code>distance(position, start)</code>."
+msgstr ""
+
+#. type: \b; header
+#: train401-help/tdragst.txt:25
+#, no-wrap
+msgid "The program"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: train401-help/tdragst.txt:26
+#, no-wrap
+msgid "declare the variables"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train401-help/tdragst.txt:29
+#, no-wrap
+msgid ""
+"<c/>\tpoint start;\n"
+"\tfloat len;"
+msgstr ""
+
+#. type: Bullet: '2)'
+#: train401-help/tdragst.txt:30
+#, no-wrap
+msgid "save the starting position"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train401-help/tdragst.txt:32
+#, no-wrap
+msgid "<c/>\tstart = position;"
+msgstr ""
+
+#. type: Bullet: '3)'
+#: train401-help/tdragst.txt:33
+#, no-wrap
+msgid "start full throttle :"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train401-help/tdragst.txt:35
+#, no-wrap
+msgid "<c/>\tmotor(1, 1);"
+msgstr ""
+
+#. type: Bullet: '4)'
+#: train401-help/tdragst.txt:36
+#, no-wrap
+msgid "Perform an infinite <code><a cbot|while>while</a></code> loop:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train401-help/tdragst.txt:45
+#, no-wrap
+msgid ""
+"<c/>\twhile ( true )\n"
+"\t{\n"
+"\t\tlen = distance(position, start);\n"
+"\t\tif ( len > 25-2 )\n"
+"\t\t{\n"
+"\t\t\tmotor( less than before ! );\n"
+"\t\t}\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:47
+#, no-wrap
+msgid ""
+"As long as the distance between the start and the current position is "
+"smaller than 23m, the instruction in braces after the <code><a "
+"cbot|if>if</a></code> instruction will not be executed, so the motors keep "
+"their maximum speed as they were told by the <c/><a "
+"cbot|motor>motor</a>(1,1);<n/> instruction."
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:49
+#, no-wrap
+msgid ""
+"In order to slow down progressively, the speed of the motors must be "
+"proportional to the remaining distance:\n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train401-help/tdragst.txt:49
+#, no-wrap
+msgid "<code>2.0</code> meters left -> speed = <code>1.00</code> (maximum)"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train401-help/tdragst.txt:50
+#, no-wrap
+msgid "<code>1.5</code> meters left -> speed = <code>0.75</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train401-help/tdragst.txt:51
+#, no-wrap
+msgid "<code>1.0</code> meter left  -> speed = <code>0.50</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train401-help/tdragst.txt:52
+#, no-wrap
+msgid "<code>0.5</code> meter left  -> speed = <code>0.25</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: train401-help/tdragst.txt:53
+#, no-wrap
+msgid "<code>0.0</code> meter left  -> speed = <code>0.00</code> (stop)"
+msgstr ""
+
+#. type: Image filename
+#: train401-help/tdragst.txt:55
+#, no-wrap
+msgid "tdragst1"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:57
+#, no-wrap
+msgid ""
+"You can use the following <a cbot|expr>expression</a> "
+"<code>(25-len)/2</code> in order to calculate the value for the speed "
+"instruction that must be given to the motors."
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:59
+#, no-wrap
+msgid "It is now up to you to put everything together and to test the program."
+msgstr ""
+
+#. type: \b; header
+#: train401-help/tdragst.txt:60
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:62
+#, no-wrap
+msgid ""
+"You can use values greater than 1 for the instruction <c/><a "
+"cbot|motor>motor</a>();<n/>, but the bot will not move any faster."
+msgstr ""
+
+#. type: \t; header
+#: train401-help/tdragst.txt:63
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: train401-help/tdragst.txt:64
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

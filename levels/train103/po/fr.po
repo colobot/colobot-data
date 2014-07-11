@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: train103.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: train103/scene.txt:1
+#, no-wrap
+msgid "train103:Titanium 1"
+msgstr "train103:Titanium 1"
+
+#
+#. type: Resume-text
+#: train103/scene.txt:2
+#, no-wrap
+msgid "train103:Take a chunk of titanium ore and bring it to the converter."
+msgstr ""
+"train103:Programmer un robot pour qu'il aille chercher un minerai de "
+"titanium et l'amène sur le convertisseur"
+
+#
+#. type: ScriptName-text
+#: train103/scene.txt:3
+#, no-wrap
+msgid "train103:Titanium1"
+msgstr "train103:Titanium1"
+
+#. type: \b; header
+#: train103-help/ttit1.txt:1
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "Objective"
+msgstr "Objectif"
+
+#. type: Plain text
+#: train103-help/ttit1.txt:3
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"Write a program that takes a chunk of <a object|titanore>titanium ore</a> "
+"and drops in on the <a object|convert>converter</a> in order to produce a <a "
+"object|titan>titanium cube</a>."
+msgstr ""
+"Aller chercher un <a object|titanore>minerai de titanium</a>, et le poser "
+"sur le <a object|convert>convertisseur</a> de manière à obtenir un <a "
+"object|titan>cube de titanium</a>."
+
+#. type: \t; header
+#: train103-help/ttit1.txt:4
+#, no-wrap
+msgid "Program"
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:6
+#, no-wrap
+msgid "You will need a new instruction:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: train103-help/ttit1.txt:8
+#, no-wrap
+#, fuzzy, no-wrap
+msgid "move();<n/>"
+msgstr "<n/>"
+
+#. type: Plain text
+#: train103-help/ttit1.txt:9
+#, no-wrap
+msgid ""
+"Instructs the bot to move forward or backward. The distance of the move is "
+"given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, "
+"<c/>move(-1);<n/> moves the bot 1m backward."
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:11
+#, no-wrap
+msgid ""
+"The instructions <code><a cbot|turn>turn</a>()</code>, <code><a "
+"cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have "
+"already been explained in the previous exercises. If you have any questions "
+"about these instructions, click the name of the instruction underlined in "
+"blue, and an explanation of the instruction will appear."
+msgstr ""
+
+#. type: Plain text
+#: train103-help/ttit1.txt:13
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a "
+"object|convert>converter</a> is 10m behind the bot. After dropping the "
+"titanium ore on the converter, do not forget to move back (for example "
+"<c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
+msgstr ""
+"Le <a object|titanore>minerai de titanium</a> se trouve à 20 mètres devant "
+"le robot, et le <a object|convert>convertisseur</a> se trouve à 10 mètres "
+"derrière le robot. Après avoir posé le minerai sur le convertisseur, "
+"n'oubliez pas de reculer pour que le convertisseur puisse fermer les portes "
+"et se mettre au travail."
+
+#. type: Plain text
+#: train103-help/ttit1.txt:14
+#, no-wrap
+#, fuzzy, no-wrap
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at "
+"all times."
+msgstr ""
+"<format key><key help/></format> permet de revoir les instructions générales "
+"en tout temps. De même, <format key><key prog/></format> accède aux "
+"explications du langage de programmation CBOT."
+
+#
+#~ msgid "train100:Spiders and supply"
+#~ msgstr "train100:Araignées et logistique"
+
+#
+#~ msgid "train100:Supply problems and fight against motionless targets"
+#~ msgstr ""
+#~ "train100:Problèmes de logistique et combat contre des cibles immobiles"
+
+#
+#~ msgid "train100:"
+#~ msgstr "train100:"
+
+#
+#~ msgid "train101:Spiders 1"
+#~ msgstr "train101:Araignées 1"
+
+#
+#~ msgid "train101:"
+#~ msgstr "train101:"
+
+#
+#~ msgid "train101:Kill three spiders with a small program."
+#~ msgstr "train101:Tuer trois araignées avec un petit programme."
+
+#
+#~ msgid "train101:Spider1"
+#~ msgstr "train101:Araignée1"
+
+#
+#~ msgid "train102:Power Cell 1"
+#~ msgstr "train102:Pile 1"
+
+#
+#~ msgid "train102:"
+#~ msgstr "train102:"
+
+#
+#~ msgid ""
+#~ "train102:Instruct a bot to change the power cell of a nearby winged "
+#~ "shooter."
+#~ msgstr ""
+#~ "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
+
+#
+#~ msgid "train102:Spider2"
+#~ msgstr "train102:Pile1"
+
+#
+#~ msgid "train103:"
+#~ msgstr "train103:"
+
+#
+#~ msgid "train104:Titanium 2"
+#~ msgstr "train104:Titanium 2"
+
+#
+#~ msgid "train104:"
+#~ msgstr "train104:"
+
+#
+#~ msgid ""
+#~ "train104:Use the bot's radar to look for the titanium ore and bring it to "
+#~ "the converter."
+#~ msgstr ""
+#~ "train104:Utiliser le radar pour aller chercher un minerai de titanium"
+
+#
+#~ msgid "train104:Titanium2"
+#~ msgstr "train104:Titanium2"
+
+#
+#~ msgid "train105:Power Cell 2"
+#~ msgstr "train105:Pile 2"
+
+#
+#~ msgid "train105:"
+#~ msgstr "train105:"
+
+#
+#~ msgid "train105:Power all the winged shooters."
+#~ msgstr "train105:Equiper les robots shooters de piles"
+
+#
+#~ msgid "train105:Spider2"
+#~ msgstr "train105:Pile2"
+
+#
+#~ msgid "train106:Spiders 2"
+#~ msgstr "train106:Araignées 2"
+
+#
+#~ msgid "train106:"
+#~ msgstr "train106:"
+
+#
+#~ msgid "train106:Use the radar to find and kill all ants."
+#~ msgstr "train106:Tuer plusieurs araignées localisées avec le radar."
+
+#
+#~ msgid "train106:Spider2"
+#~ msgstr "train106:Araignée2"
+
+#
+#~ msgid "train107:Spiders 3"
+#~ msgstr "train107:Araignées 3"
+
+#
+#~ msgid "train107:"
+#~ msgstr "train107:"
+
+#
+#~ msgid "train107:Learn to move the bot so that no spider can escape."
+#~ msgstr "train107:Allez à la rencontre des araignées."
+
+#
+#~ msgid "train107:Spider3"
+#~ msgstr "train107:Araignée3"

@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: train202.languagecode:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: train202/scene.txt:1
+#, no-wrap
+msgid "train202:Flying tower 1"
+msgstr "train202:Latająca wieża 1"
+
+#. type: Resume-text
+#: train202/scene.txt:2
+#, no-wrap
+msgid "train202:Make a flying defense tower out of a winged shooter."
+msgstr "train202:Zrób latającą wieżę obronną z działa latającego."
+
+#. type: ScriptName-text
+#: train202/scene.txt:3
+#, no-wrap
+msgid "train202:Move"
+msgstr "train202:Poruszanie"
+
+#. type: \b; header
+#: train202-help/tant2.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Zadanie"
+
+#. type: Plain text
+#: train202-help/tant2.txt:3
+#, no-wrap
+msgid ""
+"As a defense against ants attacking from all sides, adapt the program "
+"<code>Spider2</code> in order to fly at a given altitude."
+msgstr ""
+"Przystosuj program <code>Spider2</code> do lotu na zadanej wysokości, w celu "
+"obrony przed atakującymi z każdej strony mrówkami."
+
+#. type: \t; header
+#: train202-help/tant2.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: train202-help/tant2.txt:6
+#, no-wrap
+msgid ""
+"The program necessary for this task is somewhat similar to the program "
+"<code>Spider2</code> that looks for the closest ant, turns towards it and "
+"fires:"
+msgstr ""
+"Program niezbędny do wykonania tego zadania jest podobny do programu "
+"<code>Spider2</code>, który szuka najbliższego pająka, obraca się w jego "
+"kierunku i strzela:"
+
+#. type: \s; block (usually verbatim code)
+#: train202-help/tant2.txt:18
+#, no-wrap
+msgid ""
+"extern void object::Spider2()\n"
+"{\t\n"
+"\tobject    item;\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(AlienSpider);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Spider2()\n"
+"{\t\n"
+"\tobject    item;\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(AlienSpider);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: train202-help/tant2.txt:20
+#, no-wrap
+msgid ""
+"You can copy-paste it to the editor, and adapt it. Replace "
+"<c/>radar(AlienSpider);<n/> by <c/>radar(AlienAnt);<n/>, and write before "
+"the <code>while</code> loop another loop that activates the jet beneath the "
+"<a object|botfj>winged shooter</a> until the bot reaches an altitude of 20 "
+"meters."
+msgstr ""
+"Możesz go skopiować i wkleić do edytora oraz przystosować do nowego zadania. "
+"Zamień <c/>radar(AlienSpider);<n/> na <c/>radar(AlienAnt);<n/>, i napisz "
+"przed pętlą <code>while</code> inną pętlę uruchamiającą napęd odrzutowy <a "
+"object|botfj>działa latającego</a> do chwili osiągnięcia przez robota "
+"wysokości 20 metrów."
+
+#. type: Plain text
+#: train202-help/tant2.txt:22
+#, no-wrap
+msgid ""
+"The instruction <code><a cbot|jet>jet</a>()</code> controls the jet beneath "
+"winged bots. The number in brackets must range between <code>-1</code> and "
+"<code>1</code>.<c/> jet(1);<n/> moves the bot upward with maximum speed.<c/> "
+"jet(-1);<n/> moves the bot downward with maximum speed, and <c/>jet(0);<n/> "
+"stabilizes the altitude. As the bot must reach a precise altitude, move it "
+"upward slowly with <c/>jet(0.2);<n/>, wait until it has reached the desired "
+"height, then stabilize the altitude with <c/>jet(0);<n/>."
+msgstr ""
+"Instrukcja <code><a cbot|jet>jet</a>()</code> kontroluje napęd odrzutowy "
+"robota latającego. Liczba w nawiasach musi się zawierać w przedziale od "
+"<code>-1</code> do <code>1</code>.<c/> jet(1);<n/> unosi robota do góry z "
+"maksymalną prędkością. <c/> jet(-1);<n/> opuszcza robota w dół z maksymalną "
+"prędkością, a <c/>jet(0);<n/> powoduje, że robot utrzymuje uzyskaną "
+"wysokość. Ponieważ robot musi osiągnąć dokładną wysokość, wzlatuj nim powoli "
+"używając instrukcji <c/>jet(0.2);<n/>, poczekaj aż osiągnie pożądaną "
+"wysokość i ustabilizuj wysokość instrukcją <c/>jet(0);<n/>."
+
+#. type: Plain text
+#: train202-help/tant2.txt:24
+#, no-wrap
+msgid ""
+"In order to \"wait until it has reached the desired height\", we need a "
+"conditional loop: the instructions inside the loop will be repeated only as "
+"long as a certain condition is true. The altitude of the bot is given by "
+"<code>position.z</code>. We already saw that <code>position</code> gives the "
+"position of the bot. And a position is given by the three coordinates x, y "
+"and z: the x-axis is the axis west-east, the y-axis is the axis south-north, "
+"and the z-axis is the vertical axis. Therefore we must wait while "
+"<code>position.z</code> is smaller than 20:"
+msgstr ""
+"Aby \"czekać aż do osiągnięcia żądanej wysokości\", konieczne jest użycie "
+"pętli warunkowej: instrukcje wewnątrz niej będą powtarzane tak długo, jak "
+"podany warunek jest prawdziwy. Wysokość robota jest podawana przez "
+"<code>position.z</code>. Jak już widzieliśmy, instrukcja "
+"<code>position</code> podaje pozycję robota. Jest ona określona przez trzy "
+"współrzędne x, y oraz z: oś x jest osią zachód-wschód, oś y jest osią "
+"południe-północ, a oś z jest osią pionową. Wobec tego należy poczekać tak "
+"długo jak <code>position.z</code> będzie mniejsze niż 20:"
+
+#. type: \s; block (usually verbatim code)
+#: train202-help/tant2.txt:29
+#, no-wrap
+msgid ""
+"\twhile (position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}"
+msgstr ""
+"\twhile (position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}"
+
+#. type: Plain text
+#: train202-help/tant2.txt:31
+#, no-wrap
+msgid ""
+"After waiting 0.2 seconds, the program will check if the altitude is still "
+"below 20 meters. If this is the case, it will wait a little more, if not, "
+"the program continues after the loop, i.e. after the closing brace "
+"<code>}</code>. Do not forget after the loop to stabilize the altitude with "
+"<c/>jet(0);<n/>."
+msgstr ""
+"Po odczekaniu 0,2 sekundy, program sprawdzi czy wysokość jest wciąż mniejsza "
+"od 20 metrów. Jeśli tak, poczeka jeszcze chwilę, a jeśli nie, program będzie "
+"kontynuowany po pętli, tzn. po klamrze zamykającej <code>}</code>. Nie "
+"zapomnij po pętli ustabilizować wysokości instrukcją <c/>jet(0);<n/>."
+
+#. type: \t; header
+#: train202-help/tant2.txt:32
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: train202-help/tant2.txt:33
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."
