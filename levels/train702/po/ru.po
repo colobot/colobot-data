@@ -20,13 +20,13 @@ msgstr ""
 #: train702.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "R"
+msgstr ""
 
 #. type: Title-text
 #: train702/scene.txt:1
 #, no-wrap
 msgid "train702:Remote control #4"
-msgstr "train702:Дистанционное управление #4"
+msgstr ""
 
 #. type: Resume-text
 #: train702/scene.txt:2
@@ -35,114 +35,87 @@ msgid ""
 "train702:Remote control a bot without using an information exchange post by "
 "defining a class for the orders."
 msgstr ""
-"train702:Дистанционное управление ботом без использования поста обменом "
-"информацией, используя только статичные классы для заявок."
 
 #. type: ScriptName-text
 #: train702/scene.txt:3
 #, no-wrap
 msgid "train702:Remote4"
-msgstr "train702:Remote4"
+msgstr ""
 
 #. type: \b; header
 #: train702-help/tremote4.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr "Упражнение"
+msgstr ""
 
 #. type: Plain text
 #: train702-help/tremote4.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Remote control a slave robot without using an <a object|exchange>information "
 "exchange post</a>. The robot should pass over the 6 blue crosses. You must "
 "use a <code><a cbot|static>static</a></code> variable to pass the orders to "
 "the slave bot."
 msgstr ""
-"Дистанционное управление ботом без использования <a object|exchange>поста "
-"обменом информацией</a>. Бот должен проехать по 6 синим отметкам. Вам "
-"придется использовать <code><a cbot|static>статичные</a></code> переменные "
-"для отправки заявок ведомому боту."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:5
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "The two main actors of this exercise are:\n"
-msgstr "Что потребуется:\n"
+msgstr ""
 
 #. type: Bullet: '1)'
 #: train702-help/tremote4.txt:5
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore "
 "immobile. This is the master you should program so it will transmit orders "
 "to the slave."
 msgstr ""
-"<a object|botgr>Колесный сборщик</a> без батареи. Данный бот будет ведущим."
 
 #. type: Bullet: '2)'
 #: train702-help/tremote4.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The slave <a object|bottr>practice bot</a> which is already programmed and "
 "just waits for orders from the master."
 msgstr ""
-"Ведомый <a object|bottr>тренировочный бот</a> запрограммированый заранее на "
-"ожидание комманд от ведущего бота."
 
 #. type: \b; header
 #: train702-help/tremote4.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "The slave"
-msgstr "Ведомый"
+msgstr ""
 
 #. type: Plain text
 #: train702-help/tremote4.txt:10
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "First of all we must understand how the program of the slave works. The <a "
 "cbot|class>class</a> <code>order</code> contains two members: "
 "<code>m_type</code> is the order to execute (move or turn) and "
 "<code>m_param</code> is the distance to move or the rotation angle¦:"
 msgstr ""
-"Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> "
-"<code>order</code> содержит в себе две части: <code>m_type</code> для заявок "
-"на выполнение (движение или поворот) и <code>m_param</code> для дистанции "
-"или угла поворота¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:12
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
-msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:16
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "\t<a cbot|int>int</a>    m_type = <a cbot|nan>nan</a>;\n"
 "\t<a cbot|float>float</a>  m_param;\n"
 "}"
 msgstr ""
-"{\n"
-"\t<a cbot|int>int</a>    m_type = <a cbot|nan>nan</a>;\n"
-"\t<a cbot|float>float</a>  m_param;\n"
-"}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:18
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "A second <a cbot|class>class</a> <code>exchange</code> contains the "
 "mechanism for exchanging the orders. We declare a <code><a "
@@ -151,37 +124,25 @@ msgid ""
 "the member <code>m_order</code> is shared between all instances of the <a "
 "cbot|class>class</a> exchange."
 msgstr ""
-"Второй <a cbot|class>класс</a> <code>exchange</code> содержит в себе "
-"механизм обмена информацией. Мы заявляем <code><a "
-"cbot|static>статичную</a></code> часть класса <code>m_order</code>, которая "
-"содержит в себе команды для выполнения. Слово <code>статический</code> "
-"гарантирует, что <code>m_order</code> будет одинаковым во всех <a "
-"cbot|class>классах</a>."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:20
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
-msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:22
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new "
 "order;"
 msgstr ""
-"{\n"
-"\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new "
-"order;"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:24
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<n/>The <code>put</code> method will be used by the master robot for "
 "transmitting an order. As long as <code>m_order</code> is different from "
@@ -189,25 +150,18 @@ msgid ""
 "the <code>put</code> method will return <code>false</code> and will do "
 "nothing¦:"
 msgstr ""
-"Метод <code>\"put\"</code> позволит ведущему боту передавать команды. Пока "
-"значение переменной <code>m_order</code> отличается от <code><a "
-"cbot|nan>nan</a></code>, ведомый бот не закончит работу и метод "
-"<code>put</code> вернет <code>ложь</code>(т.е. бот ничего не будет делать)¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:26
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order "
 "a)"
 msgstr ""
-"<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order a)"
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:37
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t{\n"
 "\t\tif ( m_order.m_type == nan )\n"
@@ -221,142 +175,98 @@ msgid ""
 "\t\t}\n"
 "\t}"
 msgstr ""
-"\t{\n"
-"\t\tif ( m_order.m_type == nan )\n"
-"\t\t{\n"
-"\t\t\tm_order = a;\n"
-"\t\t\treturn true;\n"
-"\t\t}\n"
-"\t\telse\n"
-"\t\t{\n"
-"\t\t\treturn false;\n"
-"\t\t}\n"
-"\t}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:39
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Another method <code>get</code> will be used by the slave to retrieve the "
 "orders. This method returns the order to be executed:"
 msgstr ""
-"Другой метод <code>get</code> может быть использован ведомым ботом для "
-"получения задания. Этот метод возвращает в строку <code>m_order</code> "
-"заявку(order) на выполнение работы:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:41
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
-msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:44
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t{\n"
 "\t\treturn m_order;\n"
 "\t}"
 msgstr ""
-"\t{\n"
-"\t\treturn m_order;\n"
-"\t}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:46
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "A third method <code>delete</code> will be used by the slave to indicate "
 "that the order has been executed:"
 msgstr ""
-"Третий метод <code>delete</code> служит ведомому боту для индикации "
-"состояния выболнения заявки:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:48
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> void delete()"
-msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> void delete()"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:52
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t{\n"
 "\t\tm_order.m_type = nan;\n"
 "\t}\n"
 "}"
 msgstr ""
-"\t{\n"
-"\t\tm_order.m_type = nan;\n"
-"\t}\n"
-"}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:54
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The main program of the slave contains an instance of the class "
 "<code>exchange</code> called <code>list</code>. We put () after the word "
 "<code>list</code> in order to create an instance of the class "
 "<code>exchange</code>."
 msgstr ""
-"Основная программа в ведомом боте содержит класс <code>exchange</code> "
-"вызываемый через <code>list</code>."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:56
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
-msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:59
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "\texchange list();\n"
 "\torder    todo;"
 msgstr ""
-"{\n"
-"\texchange list();\n"
-"\torder    todo;"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:61
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The outer <code>while</code> loop lasts for ever. The inner "
 "<code>while</code> loop waits for an order by using the <code>get</code> "
 "method of the <code>exchange</code> class. As soon as <code>get</code> "
 "returns a value different from <code>nan</code>, the while loop stops."
 msgstr ""
-"Внешний <code>цикл</code> длится вечно. Внутренний <code>цикл</code> ждет "
-"заявку с помощью метода <code>get</code> и <code>exchange</code> класса. Как "
-"только метод <code>get</code> вернет значение, отличное от <code>nan</code>, "
-"цикл остановится."
 
 #. type: Plain text
 #: train702-help/tremote4.txt:63
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
-msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:70
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t{\n"
 "\t\t<a cbot|while>while</a> ( true )\n"
@@ -366,36 +276,24 @@ msgid ""
 "\t\t\twait(1);\n"
 "\t\t}"
 msgstr ""
-"\t{\n"
-"\t\t<a cbot|while>while</a> ( true )\n"
-"\t\t{\n"
-"\t\t\ttodo = list.get();\n"
-"\t\t\tif ( todo.m_type != nan )  break;\n"
-"\t\t\twait(1);\n"
-"\t\t}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:72
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Now we have received the order in the <code>todo</code> variable. All we "
 "have to do is execute it:"
 msgstr ""
-"Теперь мы получили заявку в переменную <code>todo</code>. Теперь нам нужно "
-"выполнить заказ:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:74
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>\t\tif ( todo.m_type == 1 )"
-msgstr "<c/><s/>\t\tif ( todo.m_type == 1 )"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:85
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t\t{\n"
 "\t\t\tmove(todo.m_param);\n"
@@ -409,77 +307,53 @@ msgid ""
 "\t\t\tmessage(\"Unknown order\");\n"
 "\t\t}"
 msgstr ""
-"\t\t{\n"
-"\t\t\tmove(todo.m_param);\n"
-"\t\t}\n"
-"\t\telse if ( todo.m_type == 2 )\n"
-"\t\t{\n"
-"\t\t\tturn(todo.m_param);\n"
-"\t\t}\n"
-"\t\telse\n"
-"\t\t{\n"
-"\t\t\tmessage(\"Unknown order\");\n"
-"\t\t}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:87
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "As soon as the execution of the order is finished, we must call the "
 "<code>delete</code> method so the master knows that another order can be "
 "sent¦:"
 msgstr ""
-"Как только поданая заявка выполнена, мы можем использовать метод "
-"<code>delete</code>, чтобы ведущий бот знал, что ожидается следущая заявка¦:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:89
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>\t\tlist.delete();"
-msgstr "<c/><s/>\t\tlist.delete();"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:91
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\t}\n"
 "}"
 msgstr ""
-"\t}\n"
-"}"
 
 #. type: \b; header
 #: train702-help/tremote4.txt:92
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "The master"
-msgstr "Ведущий"
+msgstr ""
 
 #. type: Plain text
 #: train702-help/tremote4.txt:94
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "In the master we write an function called <code>SendOrder</code> which will "
 "send an order to the slave:"
 msgstr ""
-"В ведущем боте создадим функцию <code>SendOrder</code>, которая будет "
-"отправлять заказы к ведомому боту:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:96
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>void object::SendOrder(float order, float param)"
-msgstr "<c/><s/>void object::SendOrder(float order, float param)"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:108
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "\texchange list();\n"
@@ -494,44 +368,26 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
-"{\n"
-"\texchange list();\n"
-"\torder    todo();\n"
-"\t\n"
-"\ttodo.m_type = order;\n"
-"\ttodo.m_param = param;\n"
-"\t\n"
-"\twhile ( list.put(todo) == false )\n"
-"\t{\n"
-"\t\twait(1);\n"
-"\t}\n"
-"}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:111
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The <code>while</code> loop waits until a pending order has been terminated, "
 "that is the slaved has exited from the <code>get</code> method and the "
 "<code>delete</code> method has been called.\n"
 "Now the main program of the master is very simple:"
 msgstr ""
-"Цикл <code>while</code> будет ждать, пока заявка не будет выполнена и пока "
-"ведомый бот не вызовет методы <code>get</code> и <code>delete</code>.\n"
-"Пока программа для ведущего бота довольно проста:"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:113
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/><s/>extern void object::Remote4( )"
-msgstr "<c/><s/>extern void object::Remote4( )"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train702-help/tremote4.txt:124
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "{\n"
 "\tSendOrder(1, 20);  // move(20);\n"
@@ -545,39 +401,21 @@ msgid ""
 "\tSendOrder(1, 10);  // move(10);\n"
 "}"
 msgstr ""
-"{\n"
-"\tSendOrder(1, 20);  // move(20);\n"
-"\tSendOrder(2, 90);  // turn(90);\n"
-"\tSendOrder(1, 20);  // move(20);\n"
-"\tSendOrder(2, 90);  // turn(90);\n"
-"\tSendOrder(1, 10);  // move(10);\n"
-"\tSendOrder(2, 90);  // turn(90);\n"
-"\tSendOrder(1, 10);  // move(10);\n"
-"\tSendOrder(2,-90);  // turn(-90);\n"
-"\tSendOrder(1, 10);  // move(10);\n"
-"}"
 
 #. type: Plain text
 #: train702-help/tremote4.txt:126
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<format key><key help/></format> show these instruction at any time."
 msgstr ""
-"Клавиша <format key><key help/></format> показывает эту инструкцию в любое "
-"время."
 
 #. type: \t; header
 #: train702-help/tremote4.txt:128
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
-msgstr "Смотри также"
+msgstr ""
 
 #. type: Plain text
 #: train702-help/tremote4.txt:129
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<a command>Controls</a> and <a cbot>programming</a>."
 msgstr ""
-"<a cbot>Язык CBOT</a>, <a cbot|type>Переменные</a> и <a "
-"cbot|category>Категории</a>."
