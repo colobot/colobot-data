@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
-"PO-Revision-Date: 2014-06-30 12:25+0200\n"
-"Last-Translator: krzys_h <krzys_h@interia.pl>\n"
+"PO-Revision-Date: 2014-07-22 20:22+0200\n"
+"Last-Translator: Didier <didier@raboud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1404127511.000000\n"
+"X-POOTLE-MTIME: 1406056969.000000\n"
 
 #. type: Plain text
 #: cbot.languagecode:1
@@ -47,9 +47,10 @@ msgstr "<c/>abstime ( );<n/>"
 #. type: Plain text
 #: cbot-help/abstime.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
+#, no-wrap, no-wrap
 msgid "Return the time in seconds elapsed since the beginning of the mission."
-msgstr "Retourne le temps absolu depuis lequel la partie est commencée."
+msgstr ""
+"Retourne le temps absolu (en secondes) depuis lequel la partie est commencée."
 
 #. type: \t; header
 #: cbot-help/abstime.txt:7
@@ -137,14 +138,14 @@ msgstr "<a object|botphaz>Robot phazer</a>"
 #. type: Plain text
 #: cbot-help/aim.txt:11 cbot-help/fire.txt:19
 #, no-wrap
-#, fuzzy, no-wrap
+#, no-wrap, no-wrap
 msgid ""
 "When controlling the robot through programming, the only way to turn the gun "
 "left or right is to turn the whole robot with the instruction <code><a "
 "cbot|turn>turn</a></code>."
 msgstr ""
 "Pour diriger le canon vers la gauche  ou vers la droite, le seul moyen est "
-"d'orienter le robot avec l'instuction <code><a cbot|turn>turn</a></code>."
+"d'orienter le robot avec l'instruction <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
 #: cbot-help/aim.txt:12 cbot-help/turn.txt:24
