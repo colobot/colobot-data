@@ -20,31 +20,31 @@ msgstr ""
 #: train301.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "P"
+msgstr ""
 
 #. type: Title-text
 #: train301/scene.txt:1
 #, no-wrap
 msgid "train301:Follow a path"
-msgstr "train301:Podążaj ścieżką"
+msgstr ""
 
 #. type: Resume-text
 #: train301/scene.txt:2
 #, no-wrap
 msgid "train301:Move the bot along a given path."
-msgstr "train301:Poruszaj robotem wzdłuż zadanej trasy."
+msgstr ""
 
 #. type: ScriptName-text
 #: train301/scene.txt:3
 #, no-wrap
 msgid "train301:Move"
-msgstr "train301:Poruszanie"
+msgstr ""
 
 #. type: \b; header
 #: train301-help/tmove1.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Ćwiczenie"
+msgstr ""
 
 #. type: Plain text
 #: train301-help/tmove1.txt:3
@@ -53,26 +53,24 @@ msgid ""
 "Program the robot in such a way that it arrives on the finishing pad, after "
 "having passed by the three blue crosses."
 msgstr ""
-"Zaprogramuj robota aby dotarł na platformę końcową po przejściu przez trzy "
-"niebieskie plusy."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:4
 #, no-wrap
 msgid "Procedure"
-msgstr "Procedura"
+msgstr ""
 
 #. type: Bullet: '1)'
 #: train301-help/tmove1.txt:5
 #, no-wrap
 msgid "Take the power cell and put it on the rear of the bot."
-msgstr "Weź ogniwo elektryczne i umieść je z tyłu robota."
+msgstr ""
 
 #. type: Bullet: '2)'
 #: train301-help/tmove1.txt:6
 #, no-wrap
 msgid "Walk around on reconnaissance to understand what the bot must do. "
-msgstr "Zrób rekonesans, aby zrozumieć co powinien zrobić robot. "
+msgstr ""
 
 #. type: Bullet: '3)'
 #: train301-help/tmove1.txt:7
@@ -81,8 +79,6 @@ msgid ""
 "Program the bot. To do so, you must select it, and then click on the braces "
 "button <button 22/>; you will get into the program editor."
 msgstr ""
-"Zaprogramuj robota. Aby to zrobić, musisz go zaznaczyć, a następnie kliknąć "
-"przycisk z klamrami <button 22/>; dostaniesz się do edytora programu."
 
 #. type: Bullet: '4)'
 #: train301-help/tmove1.txt:8
@@ -91,14 +87,12 @@ msgid ""
 "Once you finished writing the program, click \"OK\", and execute the program "
 "with the arrow key <button 21/>."
 msgstr ""
-"Po zakończeniu pisania programu, kliknij przycisk \"OK\" i uruchom program "
-"przyciskiem strzałki <button 21/>."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:10
 #, no-wrap
 msgid "Program"
-msgstr "Program"
+msgstr ""
 
 #. type: Plain text
 #: train301-help/tmove1.txt:15
@@ -109,16 +103,12 @@ msgid ""
 "The instruction <c/>turn(90);<n/> turns left with an angle of 90 degrees. \n"
 "The instruction <c/>turn(-90);<n/> turns right with an angle of 90 degrees. "
 msgstr ""
-"Odległości między platformami wynoszą po 20 metrów.\n"
-"Instrukcja <c/>move(20);<n/> przemieszcza robota 20 metrów do przodu. \n"
-"Instrukcja <c/>turn(90);<n/> obraca robota w lewo o 90 stopni. \n"
-"Instrukcja <c/>turn(-90);<n/> obraca robota w prawo o 90 stopni. "
 
 #. type: Plain text
 #: train301-help/tmove1.txt:17
 #, no-wrap
 msgid "The frame of the program consists in:"
-msgstr "Schemat programu wygląda następująco:"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train301-help/tmove1.txt:22
@@ -129,10 +119,6 @@ msgid ""
 "\t\t<n/>\\\\write the necessary instructions here ...<c/>\n"
 "\t}"
 msgstr ""
-"\textern void object::MoveBot( )\n"
-"\t{\n"
-"\t\t<n/>\\\\tutaj wpisz potrzebne instrukcje...<c/>\n"
-"\t}"
 
 #. type: Plain text
 #: train301-help/tmove1.txt:24
@@ -142,14 +128,12 @@ msgid ""
 "instructions you need to move the bot around between the braces <code>{ "
 "}</code>."
 msgstr ""
-"Jak na razie nie musisz zmieniać tego schematu. Wystarczy pomiędzy klamry "
-"<code>{ }</code> wstawić potrzebne instrukcje, poruszające robotem."
 
 #. type: \b; header
 #: train301-help/tmove1.txt:25
 #, no-wrap
 msgid "Attention"
-msgstr "Uwaga"
+msgstr ""
 
 #. type: Plain text
 #: train301-help/tmove1.txt:28
@@ -158,14 +142,12 @@ msgid ""
 "Be very careful about upper case and lower case letters!\n"
 "Every instruction must be terminated with a semicolon. "
 msgstr ""
-"Zwracaj uwagę na wielkie i małe litery!\n"
-"Każda instrukcja powinna być zakończona średnikiem. "
 
 #. type: \b; header
 #: train301-help/tmove1.txt:29
 #, no-wrap
 msgid "Helpful trick"
-msgstr "Przydatna sztuczka"
+msgstr ""
 
 #. type: Plain text
 #: train301-help/tmove1.txt:31
@@ -175,15 +157,12 @@ msgid ""
 "button <Reduce> <button 51/>, and by moving the mouse to the edges of the "
 "window to turn the camera. "
 msgstr ""
-"Podczas pisania programu możesz obserwować scenę, klikając przycisk "
-"<Zmniejsz> <button 51/> i poruszając myszą w kierunku krawędzi ekranu w celu "
-"obrócenia kamery. "
 
 #. type: \t; header
 #: train301-help/tmove1.txt:32
 #, no-wrap
 msgid "See also"
-msgstr "Zobacz również"
+msgstr ""
 
 #. type: Plain text
 #: train301-help/tmove1.txt:33
@@ -192,5 +171,3 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."

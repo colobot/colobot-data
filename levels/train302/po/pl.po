@@ -20,31 +20,31 @@ msgstr ""
 #: train302.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "P"
+msgstr ""
 
 #. type: Title-text
 #: train302/scene.txt:1
 #, no-wrap
 msgid "train302:Follow with variables"
-msgstr "train302:Podążaj ze zmiennymi"
+msgstr ""
 
 #. type: Resume-text
 #: train302/scene.txt:2
 #, no-wrap
 msgid "train302:Use variables in order to store the parameters of the path."
-msgstr "train302:Użyj zmiennych do zapamiętania parametrów ścieżki."
+msgstr ""
 
 #. type: ScriptName-text
 #: train302/scene.txt:3
 #, no-wrap
 msgid "train302:Move"
-msgstr "train302:Poruszanie"
+msgstr ""
 
 #. type: \b; header
 #: train302-help/tmove2.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Ćwiczenie"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:4
@@ -58,13 +58,6 @@ msgid ""
 "rewriting the same values over and over again in the program, we can store "
 "them in a variable: "
 msgstr ""
-"To ćwiczenie jest bardzo podobne do poprzedniego. Robot musi się poruszać "
-"dokładnie w ten sam sposób, ale podczas pisania programu musisz użyć nowego, "
-"niezwykle ważnego w programowaniu rozwiązania, a mianowicie <a "
-"cbot|var>zmiennych</a>.\n"
-"Jak wiadomo, odległości pomiędzy platformami wynoszą 20 metrów, a wszystkie "
-"wykonywane obroty mają po 90 stopni. Zamiast w programie wciąż przepisywać "
-"te same wartości, można przechować je w zmiennych: "
 
 #. type: Plain text
 #: train302-help/tmove2.txt:7
@@ -73,8 +66,6 @@ msgid ""
 "Instead of:\n"
 "<c/><s/>\tmove(20);"
 msgstr ""
-"Zamiast:\n"
-"<c/><s/>\tmove(20);"
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:11
@@ -85,10 +76,6 @@ msgid ""
 "\tturn(-90);\n"
 "\t..."
 msgstr ""
-"\tturn(90);\n"
-"\tmove(20);\n"
-"\tturn(-90);\n"
-"\t..."
 
 #. type: Plain text
 #: train302-help/tmove2.txt:14
@@ -97,8 +84,6 @@ msgid ""
 "We write :\n"
 "<c/><s/>\tdist = 20;"
 msgstr ""
-"Napiszemy:\n"
-"<c/><s/>\tdist = 20;"
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:20
@@ -111,48 +96,42 @@ msgid ""
 "\tturn(-dir);\n"
 "\t..."
 msgstr ""
-"\tdir = 90;\n"
-"\tmove(dist);\n"
-"\tturn(dir);\n"
-"\tmove(dist);\n"
-"\tturn(-dir);\n"
-"\t..."
 
 #. type: \b; header
 #: train302-help/tmove2.txt:21
 #, no-wrap
 msgid "Variables"
-msgstr "Zmienne"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:23
 #, no-wrap
 msgid "A <a cbot|var>variable</a> is composed of three elements: \n"
-msgstr "<a cbot|var>Zmienna</a> składa się z trzech elementów: \n"
+msgstr ""
 
 #. type: Bullet: '1)'
 #: train302-help/tmove2.txt:23
 #, no-wrap
 msgid "The name,"
-msgstr "Nazwy"
+msgstr ""
 
 #. type: Bullet: '2)'
 #: train302-help/tmove2.txt:24
 #, no-wrap
 msgid "The type of the content,"
-msgstr "Typu zawartości"
+msgstr ""
 
 #. type: Bullet: '3)'
 #: train302-help/tmove2.txt:25
 #, no-wrap
 msgid "The content."
-msgstr "Zawartości"
+msgstr ""
 
 #. type: \t; header
 #: train302-help/tmove2.txt:27
 #, no-wrap
 msgid "The name"
-msgstr "Nazwa"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:29
@@ -164,17 +143,12 @@ msgid ""
 "<code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, "
 "<code>x</code>, <code>nothing_2_grab</code>, etc."
 msgstr ""
-"Nazwa służy do odwoływania się do zmiennej. Zamiast pisać <c/>move(20);<n/>, "
-"wystarczy napisać <c/>move(dist);<n/>, gdzie \"dist\" jest nazwą zmiennej. "
-"Zmiennej można nadać prawie dowolną nazwę, na przykład <code>dist</code>, "
-"<code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, "
-"<code>nothing_2_grab</code>, itd."
 
 #. type: \t; header
 #: train302-help/tmove2.txt:30
 #, no-wrap
 msgid "The type"
-msgstr "Typ"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:32
@@ -185,16 +159,12 @@ msgid ""
 "real number, a character string, the coordinates of a point, etc. Here is a "
 "list with the most common variable types: \n"
 msgstr ""
-"Typ zmiennej określa jaki rodzaj informacji jest przechowywany przez "
-"zmienną. Zależnie od typu, zmienna może zawierać liczby całkowite, liczby "
-"rzeczywiste, ciągi znakowe, współrzędne punktu, itd. Oto lista najbardziej "
-"popularnych typów zmiennych: \n"
 
 #. type: Bullet: 'o'
 #: train302-help/tmove2.txt:32
 #, no-wrap
 msgid "<code><a cbot|int>int</a></code> for a whole number (12, -500, etc.)"
-msgstr "<code><a cbot|int>int</a></code> dla liczb całkowitych (12, -500, itd.)"
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train302-help/tmove2.txt:33
@@ -203,8 +173,6 @@ msgid ""
 "<code><a cbot|float>float</a></code> for a real number (3.14, 0.2, -99.98, "
 "etc.)"
 msgstr ""
-"<code><a cbot|float>float</a></code> dla liczb rzeczywistych (3.14, 0.2, -"
-"99.98, itd.)"
 
 #. type: Bullet: 'o'
 #: train302-help/tmove2.txt:34
@@ -213,8 +181,6 @@ msgid ""
 "<code><a cbot|string>string</a></code> for a character string (\"Hello!\", "
 "\"Nothing to grab\", etc.)"
 msgstr ""
-"<code><a cbot|string>string</a></code> dla łańcuchów znakowych (\"Cześć!\", "
-"\"Nie ma nic do podniesienia\", itd.)"
 
 #. type: Bullet: 'o'
 #: train302-help/tmove2.txt:35
@@ -223,7 +189,6 @@ msgid ""
 "<code><a cbot|point>point</a></code> for the x,y,z-coordinates of a point in "
 "space"
 msgstr ""
-"<code><a cbot|point>point</a></code> dla współrzędnych przestrzeni x, y, z"
 
 #. type: Bullet: 'o'
 #: train302-help/tmove2.txt:36
@@ -232,14 +197,12 @@ msgid ""
 "<code><a cbot|object>object</a></code> for the information about an object "
 "(bot, building, etc.) "
 msgstr ""
-"<code><a cbot|object>object</a></code> dla informacji o obiekcie (robocie, "
-"budynku, itd.) "
 
 #. type: \t; header
 #: train302-help/tmove2.txt:38
 #, no-wrap
 msgid "The content"
-msgstr "Zawartość"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:40
@@ -249,9 +212,6 @@ msgid ""
 "according to the type of the variable. The content of a variable can change "
 "many times during the execution of a program. "
 msgstr ""
-"Zawartością zmiennej może być liczba, łańcuch, współrzędne, itd., zależnie "
-"od typu zmiennej. Zawartość zmiennej może być wielokrotnie modyfikowana w "
-"trakcie wykonywania programu. "
 
 #. type: Plain text
 #: train302-help/tmove2.txt:42
@@ -261,9 +221,6 @@ msgid ""
 "you can use the two variables <code>dist</code> and <code>dir</code>, you "
 "must declare them with the following lines: "
 msgstr ""
-"Przed użyciem zmiennej konieczne jest jej zadeklarowanie. Na przykład przed "
-"użyciem dwóch zmiennych <code>dist</code> i <code>dir</code>, należy je "
-"zadeklarować w następujący sposób: "
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:45
@@ -272,8 +229,6 @@ msgid ""
 "\tfloat  dist;\n"
 "\tfloat  dir;"
 msgstr ""
-"\tfloat  dist;\n"
-"\tfloat  dir;"
 
 #. type: Plain text
 #: train302-help/tmove2.txt:47
@@ -282,8 +237,6 @@ msgid ""
 "Now you can use the two variables. To put the value 20 into "
 "<code>dist</code> and 90 into <code>dir</code>, write:"
 msgstr ""
-"Teraz już można ich używać. Aby przypisać zmiennej <code>dist</code> wartość "
-"20 a zmiennej <code>dir</code> wartość 90, napisz:"
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:50
@@ -292,8 +245,6 @@ msgid ""
 "\tdist = 20;\n"
 "\tdir = 90;"
 msgstr ""
-"\tdist = 20;\n"
-"\tdir = 90;"
 
 #. type: Plain text
 #: train302-help/tmove2.txt:52
@@ -302,8 +253,6 @@ msgid ""
 "Now you can move and turn the bot with the instructions <code><a "
 "cbot|move>move</a></code> and <code><a cbot|turn>turn</code></a>:"
 msgstr ""
-"Teraz można poruszać i obracać robota instrukcjami <code><a "
-"cbot|move>move</a></code> i <code><a cbot|turn>turn</code></a>:"
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:55
@@ -312,8 +261,6 @@ msgid ""
 "\tmove(dist);\n"
 "\tturn(dir);"
 msgstr ""
-"\tmove(dist);\n"
-"\tturn(dir);"
 
 #. type: Plain text
 #: train302-help/tmove2.txt:57
@@ -322,8 +269,6 @@ msgid ""
 "You can also use a whole <a cbot|expr>mathematical expression</a> instead of "
 "just the variable:"
 msgstr ""
-"Można również użyć całego <a cbot|expr>wyrażenia matematycznego</a> zamiast "
-"samej zmiennej:"
 
 #. type: \s; block (usually verbatim code)
 #: train302-help/tmove2.txt:60
@@ -332,14 +277,12 @@ msgid ""
 "\tmove(dist+100);\n"
 "\tturn(-dir);"
 msgstr ""
-"\tmove(dist+100);\n"
-"\tturn(-dir);"
 
 #. type: Plain text
 #: train302-help/tmove2.txt:62
 #, no-wrap
 msgid "The latter instruction will be needed to turn the bot right. "
-msgstr "Druga z instrukcji będzie potrzebna do obrócenia robota w prawo. "
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:64
@@ -348,14 +291,12 @@ msgid ""
 "Now, rewrite the program of the previous exercise, but use a variable for "
 "the distance and another variable for the angle of the rotation. "
 msgstr ""
-"A teraz przepisz program z poprzedniego ćwiczenia, używając jednak zmiennych "
-"dla odległości i kąta obrotu. "
 
 #. type: \t; header
 #: train302-help/tmove2.txt:65
 #, no-wrap
 msgid "See also"
-msgstr "Zobacz również"
+msgstr ""
 
 #. type: Plain text
 #: train302-help/tmove2.txt:66
@@ -364,5 +305,3 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."

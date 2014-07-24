@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-02 12:51+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-07-23 17:57+0200\n"
+"Last-Translator: GermanBot <timgoettlicher@yahoo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1406134627.000000\n"
 
 #. type: Plain text
 #: bots.languagecode:1
@@ -25,7 +27,7 @@ msgstr "D"
 #: bots-help/botfc.txt:1
 #, no-wrap
 msgid "<button 144/> Tracked Shooter"
-msgstr ""
+msgstr "<button 144/> Kettenshooter"
 
 #. type: Image filename
 #: bots-help/botfc.txt:2
@@ -37,7 +39,7 @@ msgstr ""
 #: bots-help/botfc.txt:4
 #, no-wrap
 msgid "Tracked bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Kettenroboter mit einer Feuerballkanone."
 
 #. type: Plain text
 #: bots-help/botfc.txt:6 bots-help/botfj.txt:6 bots-help/botfr.txt:6 bots-help/botfs.txt:6
@@ -48,6 +50,10 @@ msgid ""
 "amounts of energy. A <a object|power>regular power cell</a> will only allow "
 "you to shoot 4 fireball bursts."
 msgstr ""
+"Die Feuerballkanone ist eine effiziente Waffe gegen die meisten Arten von <a "
+"object|mother>Gegnern</a>. Jedoch sollte sie sparsam verwendet werden, da "
+"sie große Mengen an Energie benötigt. Eine <a object|power>reguläre "
+"Batterie</a> wird nur für 4 Feuerstöße ausreichen."
 
 #. type: Plain text
 #: bots-help/botfc.txt:8 bots-help/botfj.txt:8 bots-help/botfr.txt:8 bots-help/botfs.txt:8
@@ -56,6 +62,8 @@ msgid ""
 "Tip : it is possible to move the mouse while shooting, so as to sweep a "
 "larger area."
 msgstr ""
+"Tipp : Es ist möglich, die Maus während dem Schießen zu bewegen, um eine "
+"größere Fläche zu treffen."
 
 #. type: Plain text
 #: bots-help/botfc.txt:10
@@ -67,12 +75,17 @@ msgid ""
 "object|botfj>winged bots</a>, these represent the best solution for long "
 "distances."
 msgstr ""
+"Kettenroboter können steile Hänge befahren, sind aber recht langsam und "
+"brauchen viel Energie auf. Auf flachem Boden ist ein <a "
+"object|botfr>Radshooter</a> die bessere Wahl. Falls es möglich ist <a "
+"object|botfj>fliegende Roboter</a> herzustellen, stellen diese die beste "
+"Lösung für lange Strecken dar."
 
 #. type: \t; header
 #: bots-help/botfc.txt:11 bots-help/botfj.txt:13 bots-help/botfr.txt:11 bots-help/botfs.txt:11 bots-help/botgc.txt:24 bots-help/botgj.txt:26 bots-help/botgr.txt:24 bots-help/botgs.txt:24 bots-help/botoc.txt:9 bots-help/botoj.txt:11 bots-help/botor.txt:9 bots-help/botos.txt:9 bots-help/botphaz.txt:5 bots-help/botrecy.txt:5 bots-help/botsc.txt:11 bots-help/botshld.txt:9 bots-help/botsj.txt:13 bots-help/botsr.txt:11 bots-help/botss.txt:11 bots-help/botsub.txt:7
 #, no-wrap
 msgid "Programming"
-msgstr ""
+msgstr "Programmierung"
 
 #. type: Plain text
 #: bots-help/botfc.txt:13 bots-help/botfr.txt:13 bots-help/botfs.txt:13 bots-help/botgc.txt:26 bots-help/botgj.txt:28 bots-help/botgr.txt:26 bots-help/botgs.txt:26 bots-help/botoc.txt:11 bots-help/botor.txt:11 bots-help/botos.txt:11 bots-help/botphaz.txt:7 bots-help/botrecy.txt:7 bots-help/botsc.txt:13 bots-help/botshld.txt:11 bots-help/botsr.txt:13 bots-help/botss.txt:13 bots-help/botsub.txt:9 bots-help/bottump.txt:11
@@ -82,6 +95,9 @@ msgid ""
 "cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
 "cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
 msgstr ""
+"Die Bewegungen des Roboters mit folgenden Befehlen programmiert : <code><a "
+"cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
+"cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
 
 #. type: Plain text
 #: bots-help/botfc.txt:15 bots-help/botfj.txt:17 bots-help/botfr.txt:15 bots-help/botfs.txt:15
@@ -90,24 +106,26 @@ msgid ""
 "To program the fireball cannon, use <code><a cbot|fire>fire</a></code>. To "
 "raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
 msgstr ""
+"Die Kanone wird mit <code><a cbot|fire>fire</a></code> abgefeuert und mit "
+"<code><a cbot|aim>aim</a></code> ausgerichtet."
 
 #. type: \t; header
 #: bots-help/botfc.txt:16 bots-help/botfj.txt:18 bots-help/botfr.txt:16 bots-help/botfs.txt:16 bots-help/botgc.txt:29 bots-help/botgj.txt:31 bots-help/botgr.txt:29 bots-help/botgs.txt:29 bots-help/botoc.txt:14 bots-help/botoj.txt:16 bots-help/botor.txt:14 bots-help/botos.txt:14 bots-help/botphaz.txt:10 bots-help/botrecy.txt:10 bots-help/botsc.txt:16 bots-help/botshld.txt:14 bots-help/botsj.txt:18 bots-help/botsr.txt:16 bots-help/botss.txt:16 bots-help/botsub.txt:12 bots-help/bottarg.txt:7 bots-help/bottr.txt:8 bots-help/bottump.txt:14
 #, no-wrap
 msgid "Object <a cbot|category>Category</a>"
-msgstr ""
+msgstr "Objekt<a cbot|category>kategorie</a>"
 
 #. type: Plain text
 #: bots-help/botfc.txt:18
 #, no-wrap
 msgid "<code>TrackedShooter</code>"
-msgstr ""
+msgstr "<code>TrackedShooter</code>"
 
 #. type: \t; header
 #: bots-help/botfc.txt:19 bots-help/botfj.txt:21 bots-help/botfr.txt:19 bots-help/botfs.txt:19 bots-help/botgc.txt:32 bots-help/botgj.txt:34 bots-help/botgr.txt:32 bots-help/botgs.txt:32 bots-help/botoc.txt:17 bots-help/botoj.txt:19 bots-help/botor.txt:17 bots-help/botos.txt:17 bots-help/botphaz.txt:13 bots-help/botrecy.txt:13 bots-help/botsc.txt:19 bots-help/botshld.txt:17 bots-help/botsj.txt:21 bots-help/botsr.txt:19 bots-help/botss.txt:19 bots-help/botsub.txt:15 bots-help/bottarg.txt:10 bots-help/bottr.txt:11 bots-help/bottump.txt:17
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: bots-help/botfc.txt:20 bots-help/botfj.txt:22 bots-help/botfr.txt:20 bots-help/botfs.txt:20 bots-help/botgc.txt:33 bots-help/botgj.txt:35 bots-help/botgr.txt:33 bots-help/botgs.txt:34 bots-help/botoc.txt:18 bots-help/botoj.txt:20 bots-help/botor.txt:19 bots-help/botos.txt:18 bots-help/botphaz.txt:14 bots-help/botrecy.txt:14 bots-help/botsc.txt:20 bots-help/botshld.txt:18 bots-help/botsj.txt:22 bots-help/botsr.txt:20 bots-help/botss.txt:20 bots-help/botsub.txt:16 bots-help/bottarg.txt:11 bots-help/bottr.txt:12 bots-help/bottump.txt:18
@@ -116,12 +134,14 @@ msgid ""
 "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a "
 "cbot|category>Categories</a>."
 msgstr ""
+"<a cbot>CBOT Sprache</a>, <a cbot|type>Variablen</a> und <a "
+"cbot|category>Kategorien</a>."
 
 #. type: \b; header
 #: bots-help/botfj.txt:1
 #, no-wrap
 msgid "<button 145/> Winged Shooter"
-msgstr ""
+msgstr "<button 145/> Jetshooter"
 
 #. type: Image filename
 #: bots-help/botfj.txt:2
@@ -133,7 +153,7 @@ msgstr ""
 #: bots-help/botfj.txt:4
 #, no-wrap
 msgid "Jet propelled flying bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Düsengetriebener fliegender Roboter mit Feuerballkanone."
 
 #. type: Plain text
 #: bots-help/botfj.txt:10 bots-help/botgj.txt:21 bots-help/botoj.txt:8
@@ -143,6 +163,9 @@ msgid ""
 "reactor. Keep an eye on it. If the reactor overheats, the engine will stop "
 "and the bot will crash."
 msgstr ""
+"Die Anzeige unten auf dem Bildschirm zeigt die Temperatur des Reaktors an. "
+"Behalte ein Auge auf sie. Sobald der Reaktor überhitzt, wird das Triebwerk "
+"ausfallen und der Roboter abstürzen."
 
 #. type: Plain text
 #: bots-help/botfj.txt:12
@@ -153,6 +176,10 @@ msgid ""
 "a short distance that will not call for flying, it is recommended to use a "
 "<a object|botfr>wheeled shooter</a> instead."
 msgstr ""
+"Jetroboter können über natürliche Hindernisse wie Berge oder Seen fliegen, "
+"aber ihre Energiequelle ist schnell aufgebraucht. Sie sind langsam auf dem "
+"Boden. Für kurze Strecken, die kein Fliegen erfordern, wird es empfohlen "
+"einen <a object|botfr>Radshooter</a> zu verwenden."
 
 #. type: Plain text
 #: bots-help/botfj.txt:15 bots-help/botoj.txt:13 bots-help/botsj.txt:15
@@ -163,18 +190,22 @@ msgid ""
 "cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a "
 "cbot|goto>goto</a></code>."
 msgstr ""
+"Die Bewegungen des Roboters werden mit folgenden Befehlen gesteuert : <code><"
+"a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a "
+"cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a "
+"cbot|goto>goto</a></code>."
 
 #. type: Plain text
 #: bots-help/botfj.txt:20
 #, no-wrap
 msgid "<code>WingedShooter</code>"
-msgstr ""
+msgstr "<code>WingedShooter</code>"
 
 #. type: \b; header
 #: bots-help/botfr.txt:1
 #, no-wrap
 msgid "<button 143/> Wheeled Shooter"
-msgstr ""
+msgstr "<button 143/> Radshooter"
 
 #. type: Image filename
 #: bots-help/botfr.txt:2
@@ -198,18 +229,23 @@ msgid ""
 "shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked "
 "shooter</a>."
 msgstr ""
+"Räder stellen eine normale, schnelle und energiesparende Antriebsmöglichkeit "
+"dar, welche perfekt für relativ flaches Land angepasst ist. Sobald die Hänge "
+"steiler werden, sollte ein <a object|botfj>Jetshooter</a> verwendet werden, "
+"oder, falls dies unmöglich sein sollte, ein <a "
+"object|botfc>Kettenshooter</a>."
 
 #. type: Plain text
 #: bots-help/botfr.txt:18
 #, no-wrap
 msgid "<code>WheeledShooter</code>"
-msgstr ""
+msgstr "<code>WheeledShooter</code>"
 
 #. type: \b; header
 #: bots-help/botfs.txt:1
 #, no-wrap
 msgid "<button 151/> Legged Shooter"
-msgstr ""
+msgstr "<button 151/> Krabbelshooter"
 
 #. type: Image filename
 #: bots-help/botfs.txt:2
@@ -221,7 +257,7 @@ msgstr ""
 #: bots-help/botfs.txt:4
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Krabbelnder Roboter mit Ameisenbeinen und Feuerballkanone."
 
 #. type: Plain text
 #: bots-help/botfs.txt:10
@@ -231,18 +267,21 @@ msgid ""
 "object|botfr>wheeled shooter</a>. A legged bot is also perfectly adapted to "
 "climb the steepest slopes."
 msgstr ""
+"Ein krabbelnder Shooter braucht nur halb so viel Energie wie ein <a "
+"object|botfr>auf Rädern fahrender Shooter</a>. Ein Krabbelroboter ist auch "
+"perfekt geeignet um die steilsten Hänge zu erklimmen."
 
 #. type: Plain text
 #: bots-help/botfs.txt:18
 #, no-wrap
 msgid "<code>LeggedShooter</code>"
-msgstr ""
+msgstr "<code>LeggedShooter</code>"
 
 #. type: \b; header
 #: bots-help/botgc.txt:1
 #, no-wrap
 msgid "<button 138/> Tracked Grabber"
-msgstr ""
+msgstr "<button 138/> Kettentransporter"
 
 #. type: Image filename
 #: bots-help/botgc.txt:2
@@ -254,7 +293,7 @@ msgstr ""
 #: bots-help/botgc.txt:4
 #, no-wrap
 msgid "Tracked bot equipped with an operating arm."
-msgstr ""
+msgstr "Kettenroboter mit Greifarm."
 
 #. type: Plain text
 #: bots-help/botgc.txt:9 bots-help/botgj.txt:9 bots-help/botgr.txt:9 bots-help/botgs.txt:9
@@ -267,54 +306,60 @@ msgid ""
 "<button 35/> The object is the bot's own power cell.\n"
 "<button 34/> The object is lying behind the bot, on the ground."
 msgstr ""
+"<button 32/> Greift ein Objekt oder legt es wieder hin, an einer Position "
+"die durch die folgenden Optionen gewählt wird :\n"
+"<button 33/> Das Objekt liegt vor dem Roboter, auf dem Boden oder hinten auf "
+"einem zweiten Roboter.\n"
+"<button 35/> Das Objekt ist die eigene Batterie des Roboters.\n"
+"<button 34/> Das Objekt liegt hinter dem Roboter auf dem Boden."
 
 #. type: Plain text
 #: bots-help/botgc.txt:11 bots-help/botgj.txt:11 bots-help/botgr.txt:11 bots-help/botgs.txt:11
 #, no-wrap
 msgid "The following objects can be transported :\n"
-msgstr ""
+msgstr "Die folgenden Objekte können transportiert werden :\n"
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:11 bots-help/botgj.txt:11 bots-help/botgr.txt:11 bots-help/botgs.txt:11
 #, no-wrap
 msgid "<a object|titanore>Titanium ore</a>."
-msgstr ""
+msgstr "<a object|titanore>Titanerz</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:12 bots-help/botgj.txt:12 bots-help/botgr.txt:12 bots-help/botgs.txt:12
 #, no-wrap
 msgid "<a object|uranore>Uranium ore</a>."
-msgstr ""
+msgstr "<a object|uranore>Uranerz</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:13 bots-help/botgj.txt:13
 #, no-wrap
 msgid "<a object|titan>Cube of titanium</a>."
-msgstr ""
+msgstr "<a object|titan>Titanwürfel</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:14 bots-help/botgj.txt:14 bots-help/botgr.txt:14 bots-help/botgs.txt:14
 #, no-wrap
 msgid "<a object|power>Regular power cell</a>."
-msgstr ""
+msgstr "<a object|power>Elektrolytische Batterie</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:15 bots-help/botgj.txt:15 bots-help/botgr.txt:15 bots-help/botgs.txt:15
 #, no-wrap
 msgid "<a object|atomic>Nuclear power cell</a>."
-msgstr ""
+msgstr "<a object|atomic>Brennstoffzelle</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:16 bots-help/botgj.txt:16 bots-help/botgr.txt:16 bots-help/botgs.txt:16
 #, no-wrap
 msgid "<a object|bbox>Black box</a>."
-msgstr ""
+msgstr "<a object|bbox>Black Box</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:17 bots-help/botgj.txt:17 bots-help/botgr.txt:17 bots-help/botgs.txt:17
 #, no-wrap
 msgid "<a object|key>Keys A, B, C, and D</a>."
-msgstr ""
+msgstr "<a object|key>Schlüssel A, B, C und D</a>."
 
 #. type: Bullet: 'o'
 #: bots-help/botgc.txt:18 bots-help/botgj.txt:18 bots-help/botgr.txt:18 bots-help/botgs.txt:18
@@ -340,6 +385,8 @@ msgid ""
 "A grabber won't function underwater. What you'll need instead is a <a "
 "object|botsub>subber</a>."
 msgstr ""
+"Ein Transporter funktioniert nicht Unterwasser. Dafür wird stattdessen ein <"
+"a object|botsub>Kettentaucher</a> benötigt."
 
 #. type: Plain text
 #: bots-help/botgc.txt:28 bots-help/botgj.txt:30 bots-help/botgr.txt:28 bots-help/botgs.txt:28
@@ -348,30 +395,32 @@ msgid ""
 "To program the operating arm, use <code><a cbot|grab>grab</a></code> and "
 "<code><a cbot|drop>drop</a></code>."
 msgstr ""
+"Der Greifarm wird im Programm durch <code><a cbot|grab>grab</a></code> und "
+"<code><a cbot|drop>drop</a></code> angesteuert."
 
 #. type: Plain text
 #: bots-help/botgc.txt:31
 #, no-wrap
 msgid "<code>TrackedGrabber</code>"
-msgstr ""
+msgstr "<code>TrackedGrabber</code>"
 
 #. type: \b; header
 #: bots-help/botgj.txt:1
 #, no-wrap
 msgid "<button 139/> Winged Grabber"
-msgstr ""
+msgstr "<button 139/> Winged Grabber"
 
 #. type: Image filename
 #: bots-help/botgj.txt:2
 #, no-wrap
 msgid "botgj"
-msgstr ""
+msgstr "botgj"
 
 #. type: Plain text
 #: bots-help/botgj.txt:4
 #, no-wrap
 msgid "Jet propelled flying bot equipped with an operating arm."
-msgstr ""
+msgstr "Düsengetriebener Roboter mit Greifarm."
 
 #. type: Plain text
 #: bots-help/botgj.txt:23
@@ -405,25 +454,25 @@ msgstr ""
 #: bots-help/botgr.txt:4
 #, no-wrap
 msgid "Wheeled bot equipped with an operating arm."
-msgstr ""
+msgstr "Auf Rädern fahrender Roboter mit Greifarm."
 
 #. type: Bullet: 'o'
 #: bots-help/botgr.txt:13 bots-help/botgs.txt:13
 #, no-wrap
 msgid "<a object|titan>Converted titanium</a>."
-msgstr ""
+msgstr "<a object|titan>Konvertiertes Titan</a>."
 
 #. type: Plain text
 #: bots-help/botgr.txt:31
 #, no-wrap
 msgid "<code>WheeledGrabber</code>"
-msgstr ""
+msgstr "<code>WheeledGrabber</code>"
 
 #. type: \b; header
 #: bots-help/botgs.txt:1
 #, no-wrap
 msgid "<button 150/> Legged Grabber"
-msgstr ""
+msgstr "<button 150/> Krabbeltransporter"
 
 #. type: Image filename
 #: bots-help/botgs.txt:2
@@ -435,7 +484,7 @@ msgstr ""
 #: bots-help/botgs.txt:4
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with an operating arm."
-msgstr ""
+msgstr "Krabbelnder Roboter mit Ameisenbeinen und Greifarm."
 
 #. type: Plain text
 #: bots-help/botgs.txt:21
@@ -445,18 +494,21 @@ msgid ""
 "object|botgr>wheeled grabber</a>. A legged bot is also perfectly adapted to "
 "climb the steepest slopes."
 msgstr ""
+"Ein krabbelnder Transporter benötigt halb so viel Energie wie ein <a "
+"object|botgr>auf Rädern fahrender Transporter</a>. Ein krabbelnder Roboter "
+"ist perfekt geeignet um die steilsten Hänge zu erklimmen."
 
 #. type: Plain text
 #: bots-help/botgs.txt:31
 #, no-wrap
 msgid "<code>LeggedGrabber</code>"
-msgstr ""
+msgstr "<code>LeggedGrabber</code>"
 
 #. type: \b; header
 #: bots-help/botoc.txt:1
 #, no-wrap
 msgid "<button 154/> Tracked Orga Shooter"
-msgstr ""
+msgstr "<button 154/> Kettenorgashooter"
 
 #. type: Image filename
 #: bots-help/botoc.txt:2
@@ -521,7 +573,7 @@ msgstr ""
 #: bots-help/botoj.txt:4
 #, no-wrap
 msgid "Jet propelled flying bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Düsengetriebener fliegender Roboter mit Orgaballkanone."
 
 #. type: Plain text
 #: bots-help/botoj.txt:6
@@ -532,6 +584,10 @@ msgid ""
 "matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
 "11 orgaball bursts."
 msgstr ""
+"Die Orgaballkanone ist effektiver als die <a object|botfj>Feuerballkanone</a>"
+". Sie schießt kleine Bällchen aus einem ätzenden <a object|bullet>"
+"organischen Stoff</a>. Eine <a object|power>reguläre Batterie</a> liefert "
+"genug Energie für 11 Orgaballsalven."
 
 #. type: Plain text
 #: bots-help/botoj.txt:10
@@ -542,18 +598,22 @@ msgid ""
 "a short distance that will not call for flying, it is recommended to use a "
 "<a object|botor>wheeled orga shooter</a> instead."
 msgstr ""
+"Jetroboter können über natürliche Hindernisse wie Berge oder Seen fliegen, "
+"aber ihre Energiequelle ist schnell aufgebraucht. Sie sind langsam auf dem "
+"Boden. Für kurze Strecken, die kein Fliegen erfordern, wird es empfohlen "
+"stattdessen einen <a object|botor>Radshooter</a> zu verwenden."
 
 #. type: Plain text
 #: bots-help/botoj.txt:18
 #, no-wrap
 msgid "<code>WingedOrgaShooter</code>"
-msgstr ""
+msgstr "<code>WingedOrgaShooter</code>"
 
 #. type: \b; header
 #: bots-help/botor.txt:1
 #, no-wrap
 msgid "<button 153/> Wheeled Orga Shooter"
-msgstr ""
+msgstr "<button 153/> Radorgashooter"
 
 #. type: Image filename
 #: bots-help/botor.txt:2
@@ -565,7 +625,7 @@ msgstr ""
 #: bots-help/botor.txt:4
 #, no-wrap
 msgid "Wheeled bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Auf Rädern fahrender Roboter mit Orgaballkanone."
 
 #. type: Plain text
 #: bots-help/botor.txt:6
@@ -576,6 +636,10 @@ msgid ""
 "matter</a>. A <a object|power>regular power cell</a> will allow you to shoot "
 "11 orgaball bursts."
 msgstr ""
+"Die Orgaballkanone ist effektiver als die <a object|botfj>Feuerballkanone</a>"
+". Sie schießt kleine Bällchen aus einem ätzenden <a object|bullet>"
+"organischen Stoff</a>. Eine <a object|power>reguläre Batterie</a> liefert "
+"genug Energie für 11 Orgaballsalven."
 
 #. type: Plain text
 #: bots-help/botor.txt:8
@@ -635,13 +699,13 @@ msgstr ""
 #: bots-help/botos.txt:16
 #, no-wrap
 msgid "<code>LeggedOrgaShooter</code>"
-msgstr ""
+msgstr "<code>LeggedOrgaShooter</code>"
 
 #. type: \b; header
 #: bots-help/botphaz.txt:1
 #, no-wrap
 msgid "<button 147/> Phazer Shooter"
-msgstr ""
+msgstr "<button 147/> Phazershooter"
 
 #. type: Image filename
 #: bots-help/botphaz.txt:2
@@ -657,6 +721,10 @@ msgid ""
 "most kinds of enemies. When you aim upward, it can shoot up to 60 meters. It "
 "is the only weapon that can kill the <a object|mother>Alien Queen</a>."
 msgstr ""
+"Kettenroboter mit einer sehr schlagkräftigen Phazerkanone, die gegen alle "
+"feindlichen Wesen wirksam ist. Die Kanone kann nach oben gerichtet bis zu 60 "
+"Meter weit schießen. Sie ist die einzige Waffe die die <a "
+"object|mother>Insektenkönigin</a> besiegen kann."
 
 #. type: Plain text
 #: bots-help/botphaz.txt:9
@@ -665,18 +733,21 @@ msgid ""
 "To program the phazer cannon, use <code><a cbot|fire>fire</a></code>. To "
 "raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
 msgstr ""
+"Um die Phazerkanone zu programmieren, benutzen Sie <code><a "
+"cbot|fire>fire</a></code>. Um die Kanone auszurichten, verwenden Sie <code><"
+"a cbot|aim>aim</a></code>."
 
 #. type: Plain text
 #: bots-help/botphaz.txt:12
 #, no-wrap
 msgid "<code>PhazerShooter</code>"
-msgstr ""
+msgstr "<code>PhazerShooter</code>"
 
 #. type: \b; header
 #: bots-help/botrecy.txt:1
 #, no-wrap
 msgid "<button 148/> Recycler"
-msgstr ""
+msgstr "<button 148/> Recycler"
 
 #. type: Image filename
 #: bots-help/botrecy.txt:2
@@ -691,6 +762,8 @@ msgid ""
 "Tracked bot designed to convert a <a object|wreck>derelict bot</a> back into "
 "a reusable <a object|titan>titanium cube</a>."
 msgstr ""
+"Kettenroboter, der ein <a object|wreck>Roboterwrack</a> in einen "
+"wiederverwendbaren <a object|titan>Titanwürfel</a> wiederverwerten kann."
 
 #. type: Plain text
 #: bots-help/botrecy.txt:9
