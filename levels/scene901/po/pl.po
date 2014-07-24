@@ -20,13 +20,13 @@ msgstr ""
 #: scene901.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: scene901/scene.txt:1
 #, no-wrap
 msgid "scene901:Killer Mushrooms"
-msgstr ""
+msgstr "scene901:Zabójcze grzyby"
 
 #. type: Resume-text
 #: scene901/scene.txt:2
@@ -35,12 +35,14 @@ msgid ""
 "scene901:Run the gauntlet of poison-spitting mushrooms and find the first "
 "key to the vault."
 msgstr ""
+"scene901:Przemknij się pomiędzy trującymi grzybami i znajdź pierwszy klucz "
+"do skrytki."
 
 #. type: \b; header
 #: scene901-help/mhterra1.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:3
@@ -52,6 +54,11 @@ msgid ""
 "using four <a object|key>keys</a>. The keys are scattered on or under the "
 "planet surface."
 msgstr ""
+"Właśnie dotarła do nas wiadomość, że pierwsza ekspedycja zbudowała zupełnie "
+"nowy typ broni, od użycia na Nowej Ziemi. W celu ochrony przed dostępem "
+"wroga, została ona bezpiecznie zamknięta w <a object|safe>skrytce</a>. "
+"Dostęp do niej można uzyskać przy pomocy czterech <a object|key>kluczy</a>. "
+"Są one rozproszone na lub pod powierzchnią planety."
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:5
@@ -60,6 +67,8 @@ msgid ""
 "The observation satellite has located one of these keys (A) north of your "
 "present position."
 msgstr ""
+"Satelita obserwacyjny zlokalizował jeden z tych kluczy (A) na północ od "
+"Twojej obecnej pozycji."
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:7
@@ -72,6 +81,11 @@ msgid ""
 "object|research>research center</a> along with a couple of relevant "
 "programs."
 msgstr ""
+"Zgodnie z wytycznymi Kongresu, nasi inżynierowie opracowali kolejny model "
+"ściśle \"obronnego\" robota, nazwanego <a object|botshld>osłaniaczem</a>, "
+"który umożliwia odpowiednie zabezpieczenie o określonych parametrach. Dane "
+"zostały przesłane do <a object|research>centrum badawczego</a> razem z "
+"paroma przydatnymi programami."
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:9
@@ -82,6 +96,10 @@ msgid ""
 "object|titanore>titanium ore</a> is often located at the bottom of lakes on "
 "this planet."
 msgstr ""
+"Jak zapewne wiesz, ruda uranu w podglebiu jest skutecznym nawozem, "
+"przyśpieszającym wzrost rozmaitych grzybów. Ponadto warto zauważyć, że <a "
+"object|titanore>rudę tytanu</a> na tej planecie można często znaleźć na dnie "
+"jezior."
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:11
@@ -91,6 +109,8 @@ msgid ""
 "object|botshld>shielder</a> and a <a object|botsub>subber</a> aboard your "
 "spaceship."
 msgstr ""
+"Po zakończeniu misji, przed odlotem, zabierz na pokład statku kosmicznego "
+"robota <a object|botshld>osłaniacza</a> oraz <a object|botsub>nurka</a>."
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:13
@@ -99,36 +119,38 @@ msgid ""
 "<format key><key help/></format> allows you to review these instructions at "
 "all times on your personal SatCom <button 63/>."
 msgstr ""
+"Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie "
+"przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene901-help/mhterra1.txt:14 scene901-help/msterra1.txt:5
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene901-help/mhterra1.txt:15
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene901-help/miterra1.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene901-help/miterra1.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Terranova."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej Nowej Ziemi."
 
 #. type: \s; block (usually verbatim code)
 #: scene901-help/miterra1.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene901-help/miterra1.txt:10
@@ -140,12 +162,17 @@ msgid ""
 "\\tab;Titanium ore:     underwater\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      24,8C\n"
+"\\tab;Atmosfera:        tlen\n"
+"\\tab;Wiatr:            0,7 m/s\n"
+"\\tab;Ruda tytanu:      pod wodą\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene901-help/miterra1.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene901-help/miterra1.txt:15
@@ -155,12 +182,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
+"\\tab;Źródło energii:   w niektórych miejscach\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       trochę"
 
 #. type: \s; block (usually verbatim code)
 #: scene901-help/miterra1.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene901-help/miterra1.txt:22
@@ -172,12 +202,17 @@ msgid ""
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
+"\\tab;Wykryto:          olbrzymie mrówki\n"
+"\\tab;  - Zagrożenie:   bezpośrednie\n"
+"\\tab;Wykryto:          olbrzymie osy\n"
+"\\tab;  - Zagrożenie:   niebezpośrednie\n"
+"\\tab;Wykryto:          użyteczne pozostałości"
 
 #. type: \b; header
 #: scene901-help/mlterra1.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene901-help/mlterra1.txt:3
@@ -188,6 +223,10 @@ msgid ""
 "bot</a> through the narrow valley north close to the place where the key has "
 "been located. You can follow it without fearing any attack:"
 msgstr ""
+"Zgodnie z danymi dostarczonymi przez satelitę, nasi inżynierowie napisali "
+"dwa programy. Pierwszy z nich prowadzi <a object|botshld>robota "
+"osłaniacza</a> przez wąską dolinę na północ, w pobliże klucza. Możesz za nim "
+"iść nie obawiając się żadnego ataku:"
 
 #. type: \s; block (usually verbatim code)
 #: scene901-help/mlterra1.txt:10
@@ -200,6 +239,12 @@ msgid ""
 "\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
 "}"
 msgstr ""
+"extern void object::Outward()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // uaktywnij osłonę\n"
+"\t<a cbot|goto>goto</a>(6,160);    // podejdź do klucza\n"
+"\t<a cbot|shield>shield</a>(0,15);   // wyłącz osłonę\n"
+"}"
 
 #. type: Plain text
 #: scene901-help/mlterra1.txt:12
@@ -208,6 +253,8 @@ msgid ""
 "The second program guides the <a object|botshld>shielder bot</a> back to the "
 "<a object|base>spaceship</a>:"
 msgstr ""
+"Drugi program kieruje <a object|botshld>robota osłaniacza</a> z powrotem do <"
+"a object|base>statku kosmicznego</a>:"
 
 #. type: \s; block (usually verbatim code)
 #: scene901-help/mlterra1.txt:19
@@ -220,72 +267,78 @@ msgid ""
 "\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
 "}"
 msgstr ""
+"extern void object::Return()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // uaktywnij osłonę\n"
+"\t<a cbot|goto>goto</a>(8,60);     // wróć na statek kosmiczny\n"
+"\t<a cbot|shield>shield</a>(0,15);   // wyłącz osłonę\n"
+"}"
 
 #. type: \b; header
 #: scene901-help/mlterra1.txt:20
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene901-help/mlterra1.txt:22
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:23
 #, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTower1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:24
 #, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>CollectTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:25
 #, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>KillAnt1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:26
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:27
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:28
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:29
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene901-help/mlterra1.txt:30
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene901-help/msterra1.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Plain text
 #: scene901-help/msterra1.txt:4
@@ -294,9 +347,11 @@ msgid ""
 "Unfortunately no walkthrough has been provided for this mission.\n"
 "You are on your own..."
 msgstr ""
+"Niestety nie jest dostępne rozwiązanie dla tej misji.\n"
+"Teraz wszystko zależy tylko od Ciebie..."
 
 #. type: Plain text
 #: scene901-help/msterra1.txt:6
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

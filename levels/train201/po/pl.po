@@ -20,13 +20,13 @@ msgstr ""
 #: train201.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train201/scene.txt:1
 #, no-wrap
 msgid "train201:Barrage Fire"
-msgstr ""
+msgstr "train201:Ogień zaporowy"
 
 #. type: Resume-text
 #: train201/scene.txt:2
@@ -34,19 +34,19 @@ msgstr ""
 msgid ""
 "train201:Set the power of the different motors in order to achieve a barrage "
 "fire."
-msgstr ""
+msgstr "train201:Ustaw tak moc różnych silników, aby uzyskać ogień zaporowy."
 
 #. type: ScriptName-text
 #: train201/scene.txt:3
 #, no-wrap
 msgid "train201:Move"
-msgstr ""
+msgstr "train201:Poruszanie"
 
 #. type: \b; header
 #: train201-help/tant1.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train201-help/tant1.txt:3
@@ -55,12 +55,14 @@ msgid ""
 "As a defense against several giant ants attacking from the north, rotate the "
 "bot when shooting in order to perform barrage fire."
 msgstr ""
+"Aby obronić się przed ogromnymi mrówkami atakującymi z północy, obracaj "
+"robota podczas strzelania, w celu uzyskania ognia zaporowego."
 
 #. type: \t; header
 #: train201-help/tant1.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train201-help/tant1.txt:6
@@ -79,6 +81,18 @@ msgid ""
 "<c/>motor(1,-1);<n/> will turn the bot clockwise on the spot: the left-hand "
 "motor moves forward, the right-hand motor moves backward."
 msgstr ""
+"Podczas bezpośredniej kontroli robota, można obracać jego działkiem podczas "
+"strzelania w celu ostrzelania większej  strefy. Można to zrobić również "
+"poprzez programowanie, ale wtedy trzeba obracać całego robota instrukcją "
+"<code><a cbot|motor>motor</a>( , )</code>. Instrukcja ta potrzebuje dwóch "
+"liczb: prędkości lewego silnika i prędkości prawego silnika. Liczby te "
+"powinny zawierać się w przedziale od -1 do +1.<c/> motor(1,1);<n/> porusza "
+"robota naprzód z maksymalną prędkością (pełna moc obu silników).<c/> "
+"motor(-1,-1);<n/> porusza robota do tyłu z maksymalną prędkością.<c/> "
+"motor(1,0.9);<n/> porusza robota do przodu z niewielkim obrotem w prawo: "
+"lewy silnik kręci się nieco szybciej niż prawy. A <c/>motor(1,-1);<n/> "
+"obraca robota w miejscu zgodnie ze ruchem wskazówek zegara: lewy silnik "
+"porusza się do przodu, prawy do tyłu."
 
 #. type: Plain text
 #: train201-help/tant1.txt:8
@@ -91,6 +105,12 @@ msgid ""
 "<c/>motor(1,-1);<n/> and afterward you shoot with <c/>fire(1);<n/>, the bot "
 "will continue to turn during the burst, and will sweep a whole zone."
 msgstr ""
+"Po wykonaniu instrukcji <a cbot|motor>motor</a> silniki utrzymują nadaną im "
+"prędkość aż do następnej instrukcji <code>motor</code>, <code><a "
+"cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> lub <code><a "
+"cbot|goto>goto</a></code>. Na przykład jeśli wykonasz obrót w miejscu "
+"instrukcją <c/>motor(1,-1);<n/>, a następnie strzał instrukcją "
+"<c/>fire(1);<n/>, robot będzie kontynuował obrót i ostrzela całą strefę."
 
 #. type: Plain text
 #: train201-help/tant1.txt:10
@@ -101,36 +121,40 @@ msgid ""
 "always with <code><a cbot|while>while</a> (true)</code> the following "
 "instructions:\n"
 msgstr ""
+"Mrówki atakują z północy. Aby ostrzelać całą strefę na północ od robota, "
+"najpierw obróć go o 90 stopni w lewo instrukcją <c/>turn(90);<n/>, a "
+"następnie powtarzaj, używając pętli <code><a cbot|while>while</a> "
+"(true)</code> następujące instrukcje:\n"
 
 #. type: Bullet: 'o'
 #: train201-help/tant1.txt:10
 #, no-wrap
 msgid "rotate clockwise with <c/>motor(1,-1);<n/>"
-msgstr ""
+msgstr "obrót w prawo: <c/>motor(1,-1);<n/>"
 
 #. type: Bullet: 'o'
 #: train201-help/tant1.txt:11
 #, no-wrap
 msgid "a 2 seconds burst with <c/>fire(2);<n/>"
-msgstr ""
+msgstr "2 sekundowa seria: <c/>fire(2);<n/>"
 
 #. type: Bullet: 'o'
 #: train201-help/tant1.txt:12
 #, no-wrap
 msgid "rotate counter-clockwise with <c/>motor(-1,1);<n/>"
-msgstr ""
+msgstr "obrót w lewo: <c/>motor(-1,1);<n/>"
 
 #. type: Bullet: 'o'
 #: train201-help/tant1.txt:13
 #, no-wrap
 msgid "a 2 seconds burst."
-msgstr ""
+msgstr "2 sekundowa seria."
 
 #. type: \t; header
 #: train201-help/tant1.txt:15
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train201-help/tant1.txt:16
@@ -139,3 +163,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

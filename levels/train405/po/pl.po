@@ -20,31 +20,31 @@ msgstr ""
 #: train405.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train405/scene.txt:1
 #, no-wrap
 msgid "train405:Shadow"
-msgstr ""
+msgstr "train405:Cień"
 
 #. type: Resume-text
 #: train405/scene.txt:2
 #, no-wrap
 msgid "train405:Follow a bot, as if you were its shadow."
-msgstr ""
+msgstr "train405:Podążaj za robotem, stając się jego cieniem."
 
 #. type: ScriptName-text
 #: train405/scene.txt:3
 #, no-wrap
 msgid "train405:Follow"
-msgstr ""
+msgstr "train405:Podążaj"
 
 #. type: \b; header
 #: train405-help/tfollow1.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:3
@@ -57,42 +57,50 @@ msgid ""
 "the finishing pad, and the exercise is over. At every stop, the target bot "
 "checks that you are there. If you are not there, you must start over again."
 msgstr ""
+"Podążaj za <a object|bottr>robotem celem</a> niosącym ładunek wybuchowy. "
+"Bądź ostrożny, gdyż zderzenie z nim grozi wybuchem. Podczas każdego "
+"zatrzymania robota celu należy być odpowiednio blisko niego (mniej niż 10 "
+"metrów). Gdy uda się być w pobliżu robota 10 razy z rzędu, ćwiczenie "
+"zakończy się wraz z jego dotarciem na platformę końcową. Przy każdym "
+"zatrzymaniu robot cel sprawdza, czy śledzący go robot jest odpowiednio "
+"blisko. Jeśli nie, liczenie zaczyna się od początku."
 
 #. type: \b; header
 #: train405-help/tfollow1.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Ogólny algorytm"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:6
 #, no-wrap
 msgid "Repeat forever :\n"
-msgstr ""
+msgstr "Powtarzaj w nieskończoność:\n"
 
 #. type: Bullet: 'o'
 #: train405-help/tfollow1.txt:6
 #, no-wrap
 msgid "Look for the target bot."
-msgstr ""
+msgstr "Znajdź robot cel."
 
 #. type: Bullet: 'o'
 #: train405-help/tfollow1.txt:7
 #, no-wrap
 msgid "Calculate the distance to the bot."
-msgstr ""
+msgstr "Oblicz odległość do robota."
 
 #. type: Bullet: 'o'
 #: train405-help/tfollow1.txt:8
 #, no-wrap
 msgid "if the distance to the target bot is less than 5m, move backward."
-msgstr ""
+msgstr "Jeśli odległość jest mniejsza niż 5 m, cofnij się."
 
 #. type: Bullet: 'o'
 #: train405-help/tfollow1.txt:9
 #, no-wrap
 msgid "Otherwise, calculate the direction of the target bot, and move towards it."
 msgstr ""
+"W przeciwnym przypadku oblicz kierunek do robota celu i idź w jego stronę."
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:12
@@ -101,6 +109,8 @@ msgid ""
 "As many times before, use <code><a cbot|while>while</a> (true)</code> in "
 "order to perform the infinite loop:"
 msgstr ""
+"Podobnie jak poprzednio użyj nieskończonej pętli <code><a "
+"cbot|while>while</a> (true)</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train405-help/tfollow1.txt:16
@@ -111,6 +121,10 @@ msgid ""
 "\t</code>instructions to be repeated ...<c/>\n"
 "}"
 msgstr ""
+"<code>while (true)\n"
+"{\n"
+"\t</code>instrukcje, które mają być powtarzane ...<c/>\n"
+"}"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:18
@@ -118,19 +132,19 @@ msgstr ""
 msgid ""
 "Look for the target bot with the instruction <code><a "
 "cbot|radar>radar</a></code>:"
-msgstr ""
+msgstr "Znajdź robot cel instrukcją <code><a cbot|radar>radar</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train405-help/tfollow1.txt:19
 #, no-wrap
 msgid "<c/>\ttarget = radar(TargetBot);"
-msgstr ""
+msgstr "<c/>\ttarget = radar(TargetBot);"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:21
 #, no-wrap
 msgid "You do not have to test if the radar found a target bot: there must be one."
-msgstr ""
+msgstr "Nie musisz sprawdzać, czy robot znalazł cel: na pewno tam jest."
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:23
@@ -141,12 +155,16 @@ msgid ""
 "your own bot, given by <code>position</code>. The second point is the "
 "position of the target bot, given by <code>target.position</code>."
 msgstr ""
+"Użyj instrukcji <code><a cbot|dist>distance</a>( , )</code> do obliczenie "
+"odległości między dwoma punktami. Pierwszym jest pozycja Twojego robota, "
+"podana przez <code>position</code>. Drugim jest pozycja robota celu, podana "
+"przez <code>target.position</code>."
 
 #. type: \s; block (usually verbatim code)
 #: train405-help/tfollow1.txt:24
 #, no-wrap
 msgid "<c/>len = distance(position, target.position);"
-msgstr ""
+msgstr "<c/>len = distance(position, target.position);"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:30
@@ -162,6 +180,15 @@ msgid ""
 "order to achieve this, together with the <code><a cbot|if>if</a></code> to "
 "test if the target is closer than 5m:"
 msgstr ""
+"Jeśli odległość od robota celu jest mniejsza niż 5 metrów, oddal się od "
+"niego z prędkością odwrotnie proporcjonalną do odległości: im bliżej jest "
+"robot, tym szybciej należy się cofać.\n"
+"\tOdległość = 5.0 metrów -> prędkość =  0.0\n"
+"\tOdległość = 2.5 metra  -> prędkość = -0.5\n"
+"\tOdległość = 0.0 metrów -> prędkość = -1.0\n"
+"Aby to uzyskać, możesz użyć <a cbot|expr>wyrażenia</a> "
+"<code>distance/5-1</code>, wspólnie z instrukcją <code><a "
+"cbot|if>if</a></code> sprawdzającą, czy cel jest bliżej niż 5 m:"
 
 #. type: \s; block (usually verbatim code)
 #: train405-help/tfollow1.txt:34
@@ -172,6 +199,10 @@ msgid ""
 "\tmotor(len/5-1, len/5-1);  // moves backward\n"
 "}"
 msgstr ""
+"<c/>if ( len < 5 )  // za blisko?\n"
+"{\n"
+"\tmotor(len/5-1, len/5-1);  // cofnij\n"
+"}"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:36
@@ -183,6 +214,10 @@ msgid ""
 "the speed of the right-hand and left-hand motor in order to follow the "
 "target:"
 msgstr ""
+"Jeśli odległość do celu jest większa niż 5m, poruszaj się w jego kierunku. "
+"Najpierw oblicz kąt niezbędny do obrócenia się w jego kierunku używając "
+"instrukcji <code><a cbot|direct>direction</a></code>. Następnie dostosuj "
+"prędkości prawego i lewego silnika, aby Twój robot podążał za celem:"
 
 #. type: \s; block (usually verbatim code)
 #: train405-help/tfollow1.txt:48
@@ -201,6 +236,18 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // cel po lewej stronie?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // cel po prawej stronie?\n"
+"\t{\n"
+"\t\t<n/>do Ciebie należy uzupełnienie tego<c/>\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:55
@@ -216,12 +263,20 @@ msgid ""
 "\tdirection = 135 -> speed = -0.5\n"
 "\tdirection = 180 -> speed = -1.0"
 msgstr ""
+"Gdy cel jest po lewej stronie, zmienna <code>dir</code> ma wartość dodatnią, "
+"pomiędzy 0 i 180. <a cbot|expr>Wyrażenie</a> <code>1-dir/90</code> zwraca "
+"prędkość w zakresie pomiędzy 1 i -1 w zależności od kierunku:\n"
+"\tkierunek =   0 -> prędkość =  1.0\n"
+"\tkierunek =  45 -> prędkość =  0.5\n"
+"\tkierunek =  90 -> prędkość =  0.0\n"
+"\tkierunek = 135 -> prędkość = -0.5\n"
+"\tkierunek = 180 -> prędkość = -1.0"
 
 #. type: Image filename
 #: train405-help/tfollow1.txt:56
 #, no-wrap
 msgid "radar2"
-msgstr ""
+msgstr "radar2"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:58
@@ -230,6 +285,8 @@ msgid ""
 "When the target is on the right side, <code>dir</code> is negative, ranging "
 "between 0 and -180."
 msgstr ""
+"Gdy cel jest po prawej stronie, zmienna <code>dir</code> ma wartość ujemną, "
+"pomiędzy 0 i -180."
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:60
@@ -240,12 +297,16 @@ msgid ""
 "<code>object</code>, whereas <code>dir</code> and <code>len</code> are of "
 "type <code>float</code>."
 msgstr ""
+"Jedynym zadaniem jakie jeszcze Ci zostało jest zadeklarowanie <a "
+"cbot|var>zmiennych</a> używanych w programie. <code>target</code> jest typu "
+"<code>object</code>, podczas gdy <code>dir</code> i <code>len</code> są typu "
+"<code>float</code>."
 
 #. type: \t; header
 #: train405-help/tfollow1.txt:61
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train405-help/tfollow1.txt:62
@@ -254,3 +315,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

@@ -20,31 +20,31 @@ msgstr ""
 #: train106.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train106/scene.txt:1
 #, no-wrap
 msgid "train106:Spiders 2"
-msgstr ""
+msgstr "train106:Pająki 2"
 
 #. type: Resume-text
 #: train106/scene.txt:2
 #, no-wrap
 msgid "train106:Use the radar to find and kill all ants."
-msgstr ""
+msgstr "train106:Użyj radaru do znalezienia i zabicia wszystkich mrówek."
 
 #. type: ScriptName-text
 #: train106/scene.txt:3
 #, no-wrap
 msgid "train106:Spider2"
-msgstr ""
+msgstr "train106:Pająk2"
 
 #. type: \b; header
 #: train106-help/tspid2.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:3
@@ -53,12 +53,14 @@ msgid ""
 "Kill several spiders whose exact location we do not know. Use the bot's "
 "radar to find them."
 msgstr ""
+"Zabij kilka pająków, których położenie nie jest znane. Do ich znalezienia "
+"użyj radaru robota."
 
 #. type: \t; header
 #: train106-help/tspid2.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:6
@@ -73,12 +75,19 @@ msgid ""
 "rotation that the robot must perform in order to aim at the spider. In order "
 "to actually aim at the spider, just write:"
 msgstr ""
+"Znajdź najbliższego pająka instrukcją <c/><a "
+"cbot|radar>radar</a>(AlienSpider);<n/>, tak jak w poprzednich ćwiczeniach z "
+"rudą tytanu i ogniwami elektrycznymi. Nie podchodź jednak do pająka, gdyż "
+"robot ulegnie zniszczeniu, zanim tam dojdzie. Obróć się tylko w jego "
+"kierunku. Instrukcja <code><a cbot|direct>direction</a>(item.position)</code>"
+" obliczy kąt obrotu, jaki powinien wykonać robot, aby wycelować w pająka. "
+"Aby wycelować w pająka należy napisać::"
 
 #. type: \s; block (usually verbatim code)
 #: train106-help/tspid2.txt:8
 #, no-wrap
 msgid "\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));"
-msgstr ""
+msgstr "\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:10
@@ -88,12 +97,15 @@ msgid ""
 "semicolon. There are two open brackets, so there must be two closing "
 "brackets."
 msgstr ""
+"Zauważ dwa nawiasy zamykające na końcu wiersza, przed średnikiem. Są dwa "
+"nawiasy otwierające, więc muszą się też pojawić dwa nawiasy zamykające."
 
 #. type: Plain text
 #: train106-help/tspid2.txt:12
 #, no-wrap
 msgid "Then shoot with the instruction <c/><a cbot|fire>fire</a>(1);<n/>."
 msgstr ""
+"Następnie strzel, wykonując instrukcję <c/><a cbot|fire>fire</a>(1);<n/>."
 
 #. type: Plain text
 #: train106-help/tspid2.txt:14
@@ -103,12 +115,15 @@ msgid ""
 "(true)</code> in order not to have to execute the program again for every "
 "spider, as we did in the last exercise."
 msgstr ""
+"Również tutaj możesz użyć pętli <code><a cbot|while>while</a> (true)</code> "
+"aby nie musieć ponownie wykonywać programu dla każdego pająka, tak jak w "
+"poprzednim ćwiczeniu."
 
 #. type: \t; header
 #: train106-help/tspid2.txt:15
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:16
@@ -117,3 +132,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

@@ -20,31 +20,31 @@ msgstr ""
 #: train307.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train307/scene.txt:1
 #, no-wrap
 msgid "train307:Labyrinth 2"
-msgstr ""
+msgstr "train307:Labirynt 2"
 
 #. type: Resume-text
 #: train307/scene.txt:2
 #, no-wrap
 msgid "train307:Teach your bot to do the same job in a more autonomous way."
-msgstr ""
+msgstr "train307:Naucz swojego robota działać bardziej samodzielnie."
 
 #. type: ScriptName-text
 #: train307/scene.txt:3
 #, no-wrap
 msgid "train307:Labyrinth"
-msgstr ""
+msgstr "train307:Labirynt"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:3
@@ -54,12 +54,15 @@ msgid ""
 "find its way alone from the start to the goal; you will have to execute the "
 "program only once."
 msgstr ""
+"To ćwiczenie jest bardzo podobne do poprzedniego. Tym razem robot powinien "
+"samodzielnie znaleźć drogę od startu do celu; musisz uruchomić program tylko "
+"jeden raz."
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:4
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Uwaga"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:6
@@ -68,18 +71,20 @@ msgid ""
 "The labyrinth is not exactly the same, but this should be of no importance, "
 "as the program adapts to what it \"sees\"."
 msgstr ""
+"Labirynt nie jest dokładnie taki sam ale powinno to być bez znaczenia, gdyż "
+"program przystosowuje się do tego co \"widzi\"."
 
 #. type: Image filename
 #: train307-help/tlaby2.txt:7
 #, no-wrap
 msgid "tlaby1"
-msgstr ""
+msgstr "tlaby1"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:8
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Ogólny algorytm"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:10
@@ -88,6 +93,8 @@ msgid ""
 "Use an infinite <code><a cbot|while>while</a></code> loop in order to "
 "execute the previous program several times:"
 msgstr ""
+"Użyj nieskończonej pętli <code><a cbot|while>while</a></code> aby "
+"wielokrotnie wykonać poprzedni program:"
 
 #. type: \s; block (usually verbatim code)
 #: train307-help/tlaby2.txt:16
@@ -100,6 +107,12 @@ msgid ""
 "\t</code>If there is nothing on your right hand, turn right<c/>\n"
 "}"
 msgstr ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>Jeśli nie ma niczego z przodu, idź naprzód<code>\n"
+"\t</code>Jeśli nie ma niczego po lewej, skręć w lewo<code>\n"
+"\t</code>Jeśli nie ma niczego po prawej, skręć w prawo<c/>\n"
+"}"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:18
@@ -111,6 +124,11 @@ msgid ""
 "we want here. <code>continue</code> will just resume the execution at the "
 "beginning of the <code><a cbot|while>while</a></code> loop:"
 msgstr ""
+"Wewnątrz pętli <code>while</code> zastąp instrukcje <code>return</code> "
+"instrukcjami <code><a cbot|continue>continue</a></code>. <code>return</code> "
+"kończy działanie programu, co nie jest pożądane w tym przypadku. "
+"<code>continue</code> wznawia wykonywanie na początku pętli <code><a "
+"cbot|while>while</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train307-help/tlaby2.txt:23
@@ -122,18 +140,23 @@ msgid ""
 "\tcontinue;\n"
 "}"
 msgstr ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\tcontinue;\n"
+"}"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:24
 #, no-wrap
 msgid "Remember"
-msgstr ""
+msgstr "Zapamiętaj"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:26
 #, no-wrap
 msgid "Here is again the program of the previous exercise :"
-msgstr ""
+msgstr "Oto jeszcze raz program z poprzedniego ćwiczenia:"
 
 #. type: \s; block (usually verbatim code)
 #: train307-help/tlaby2.txt:50
@@ -163,12 +186,35 @@ msgid ""
 "\treturn;\n"
 "}"
 msgstr ""
+"object   front, left, right;\n"
+"\n"
+"front = radar(Barrier,   0, 45, 0, 5);\n"
+"left  = radar(Barrier,  90, 45, 0, 5);\n"
+"right = radar(Barrier, -90, 45, 0, 5);\n"
+"\n"
+"if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}\n"
+"if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}\n"
+"if ( right == null )\n"
+"{\n"
+"\tturn(-90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
 
 #. type: \b; header
 #: train307-help/tlaby2.txt:51
 #, no-wrap
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:53
@@ -178,12 +224,15 @@ msgid ""
 "<code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, "
 "<code><a cbot|move>move</a></code> or <code><a cbot|turn>turn</a></code>."
 msgstr ""
+"Jeśli potrzebujesz pomocy, kliknij na hiperłączu instrukcji <code><a "
+"cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a "
+"cbot|move>move</a></code> lub <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
 #: train307-help/tlaby2.txt:54
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train307-help/tlaby2.txt:55
@@ -192,3 +241,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

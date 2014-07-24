@@ -20,31 +20,33 @@ msgstr ""
 #: train102.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train102/scene.txt:1
 #, no-wrap
 msgid "train102:Power Cell 1"
-msgstr ""
+msgstr "train102:Ogniwo elektryczne 1"
 
 #. type: Resume-text
 #: train102/scene.txt:2
 #, no-wrap
 msgid "train102:Instruct a bot to change the power cell of a nearby winged shooter."
 msgstr ""
+"train102:Zaprogramuj robota do zmiany ogniwa elektrycznego pobliskiego "
+"działa latającego."
 
 #. type: ScriptName-text
 #: train102/scene.txt:3
 #, no-wrap
 msgid "train102:Spider2"
-msgstr ""
+msgstr "train102:Pająk2"
 
 #. type: \b; header
 #: train102-help/tcell1.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:3
@@ -54,24 +56,27 @@ msgid ""
 "object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The "
 "winged shooter can then shoot the spiders."
 msgstr ""
+"Zaprogramuj <a object|botgr>transporter</a> do zmiany  <a object|power>"
+"ogniwa elektrycznego</a> <a object|botfj>działa latającego</a>. Wtedy będzie "
+"ono mogło strzelać do pająków."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:4
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Procedura"
 
 #. type: Bullet: '1)'
 #: train102-help/tcell1.txt:5
 #, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a>."
-msgstr ""
+msgstr "Zaprogramuj <a object|botgr>transporter</a>."
 
 #. type: Bullet: '2)'
 #: train102-help/tcell1.txt:6
 #, no-wrap
 msgid "Execute the program with the arrow button <button 21/>."
-msgstr ""
+msgstr "Uruchom program klawiszem strzałki <button 21/>."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:8
@@ -80,48 +85,50 @@ msgid ""
 "The <a object|botfj>winged shooter</a> is already programmed, it will do its "
 "job as soon as it has got a new power cell."
 msgstr ""
+"<a object|botfj>Działo latające</a> jest już zaprogramowane, wystarczy je "
+"zasilić nowym ogniwem elektrycznym, aby wykonało swoją robotę."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:9
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:11
 #, no-wrap
 msgid "You will need the following instructions:"
-msgstr ""
+msgstr "Potrzebne Ci będą następujące instrukcje:"
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:13
 #, no-wrap
 msgid "grab();<n/>"
-msgstr ""
+msgstr "grab();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:14
 #, no-wrap
 msgid "<n/>Takes whatever there is in front of the bot."
-msgstr ""
+msgstr "<n/>Podnosi przedmiot znajdujący się przed robotem."
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:16
 #, no-wrap
 msgid "drop();<n/>"
-msgstr ""
+msgstr "drop();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:17
 #, no-wrap
 msgid "<n/>Drops whatever the bot is carrying in front."
-msgstr ""
+msgstr "<n/>Wypuszcza przedmiot niesiony przez robota."
 
 #. type: \s; block (usually verbatim code)
 #: train102-help/tcell1.txt:19
 #, no-wrap
 msgid "turn();<n/>"
-msgstr ""
+msgstr "turn();<n/>"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:20
@@ -130,42 +137,44 @@ msgid ""
 "<n/>We have seen this instruction already in the previous exercise: it "
 "performs a rotation of a certain angle, given in degrees."
 msgstr ""
+"<n/>Instrukcja ta już się pojawiła w poprzednim ćwiczeniu: obraca ona robota "
+"o podany w stopniach kąt."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:22
 #, no-wrap
 msgid "Let us see the beginning of the program:\n"
-msgstr ""
+msgstr "Zobaczmy początek programu:\n"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:22
 #, no-wrap
 msgid "pick up the empty power cell with <c/>grab();<n/>"
-msgstr ""
+msgstr "podnieś puste ogniwo elektryczne: <c/>grab();<n/>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:23
 #, no-wrap
 msgid "turn left 90 degrees (quarter turn) with <code>turn(90)</code>"
-msgstr ""
+msgstr "obróć się w lewo o 90 stopni (ćwierć obrotu): <code>turn(90)</code>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:24
 #, no-wrap
 msgid "drop the empty cell with <c/>drop();<n/>"
-msgstr ""
+msgstr "upuść puste ogniwo: <c/>drop();<n/>"
 
 #. type: Bullet: 'o'
 #: train102-help/tcell1.txt:25
 #, no-wrap
 msgid "etc."
-msgstr ""
+msgstr "itd."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:28
 #, no-wrap
 msgid "It is up to you now to write the rest of the program!"
-msgstr ""
+msgstr "Do Ciebie należy napisanie reszty programu!"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:30
@@ -174,12 +183,14 @@ msgid ""
 "If you have got a problem, you can always look at the solution: select the "
 "<code>Solution</code> program, and click the braces button <button 22/>."
 msgstr ""
+"Jeśli masz problem, zawsze możesz zerknąć na rozwiązanie: zaznacz program "
+"<code>Rozwiązanie</code> i kliknij przycisk z klamrami <button 22/>."
 
 #. type: \t; header
 #: train102-help/tcell1.txt:31
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Uwagi"
 
 #. type: Plain text
 #: train102-help/tcell1.txt:33
@@ -188,12 +199,16 @@ msgid ""
 "Be careful to write the instructions precisely, respecting lower and upper "
 "case letters."
 msgstr ""
+"Zachowaj ostrożność i pisz instrukcje dokładnie, uwzględniając małe i "
+"wielkie litery."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:35
 #, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
 msgstr ""
+"W każdymi wierszu powinna być jedna instrukcja, a wiersz zakończony "
+"średnikiem."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:37
@@ -204,6 +219,10 @@ msgid ""
 "start over again from the beginning (hit the key \"Esc\", the click "
 "\"Restart\"). The program you have written will not be lost."
 msgstr ""
+"Jeśli Twój program nie robi tego czego oczekujesz, możesz wrócić do pozycji "
+"wyjściowej, naciskając przycisk <button 59/>. Można również zacząć wszystko "
+"od początku (naciśnij klawisz \"Esc\", a następnie kliknij \"Uruchom "
+"ponownie\"). Napisany program nie zostanie usunięty."
 
 #. type: Plain text
 #: train102-help/tcell1.txt:38
@@ -212,3 +231,5 @@ msgid ""
 "<format key><key help/></format> allows you to review these instructions at "
 "all times."
 msgstr ""
+"Naciśnięcie klawisza <format key><key help/></format> pozwala przejrzeć te "
+"instrukcje w dowolnej chwili."

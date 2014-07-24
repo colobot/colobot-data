@@ -20,31 +20,31 @@ msgstr ""
 #: train105.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train105/scene.txt:1
 #, no-wrap
 msgid "train105:Power Cell 2"
-msgstr ""
+msgstr "train105:Ogniwo elektryczne 2"
 
 #. type: Resume-text
 #: train105/scene.txt:2
 #, no-wrap
 msgid "train105:Power all the winged shooters."
-msgstr ""
+msgstr "train105:Dostarcz energię wszystkim działom latającym."
 
 #. type: ScriptName-text
 #: train105/scene.txt:3
 #, no-wrap
 msgid "train105:Spider2"
-msgstr ""
+msgstr "train105:Pająk2"
 
 #. type: \b; header
 #: train105-help/tcell2.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:3
@@ -54,12 +54,15 @@ msgid ""
 "cells</a>, so that they can kill the ants in the ant nest located in a hole "
 "north of your position."
 msgstr ""
+"Zasil <a object|botfj>działa latające</a> <a object|power>ogniwami "
+"elektrycznymi</a>, aby mogły zabić mrówki znajdujące się w gnieździe mrówek "
+"w jamie na północ od Ciebie."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:6
@@ -70,6 +73,10 @@ msgid ""
 "cell. This task is very similar to the task performed in the previous "
 "exercise. Here is this program again:"
 msgstr ""
+"<a object|botgr>Transporter na kołach</a> musi podejść do <a object|power>"
+"ogniwa elektrycznego</a>, podnieść je, podejść do <a object|botfj>działa "
+"latającego</a> i umieścić w nim ogniwo. To zadanie jest bardzo podobne do "
+"zadania z poprzedniego ćwiczenia. Oto jeszcze raz ten program:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:19
@@ -88,6 +95,18 @@ msgid ""
 "\tdrop();\n"
 "}"
 msgstr ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:21
@@ -99,6 +118,11 @@ msgid ""
 "you just have to make the necessary changes in order to adapt it to the new "
 "task."
 msgstr ""
+"Najlepszym sposobem rozwiązania obecnego ćwiczenia jest skopiowanie <button "
+"61/> powyższego programu do schowka (od <code>object</code> do "
+"<c/>drop();<n/>), i wklejenie <button 62/> do edytora programu. Następnie "
+"wystarczy dokonać niezbędnych poprawek, aby przystosować go do nowego "
+"zadania."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:23
@@ -110,6 +134,11 @@ msgid ""
 "(<code>WingedShooter</code>). As soon as the winged shooter has got a new "
 "power cell, it will get down to work."
 msgstr ""
+"Zamiast szukać rudy tytanu (<code>TitaniumOre</code>), poszukaj ogniwa "
+"elektrycznego (<code>PowerCell</code>). Zamiast iść do huty "
+"(<code>Converter</code>), idź do działa latającego "
+"(<code>WingedShooter</code>). Działo latające zacznie pracę, jak tylko "
+"otrzyma nowe ogniwo elektryczne."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:25
@@ -119,12 +148,14 @@ msgid ""
 "programming language, please refer to the <a cbot|category>text about "
 "categories</a>."
 msgstr ""
+"Jeśli chcesz wiedzieć więcej o \"nazwach\" różnych obiektów języka "
+"programowania, zobacz pomoc dotyczącą <a cbot|category>kategorii</a>."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:26
 #, no-wrap
 msgid "Further improvement: loops"
-msgstr ""
+msgstr "Dalsze usprawnienia: pętle"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:28
@@ -134,6 +165,9 @@ msgid ""
 "to repeat the task over and over again. Like this you will not have to "
 "execute the program several times in order to power several bots."
 msgstr ""
+"Gdy opisany powyżej program będzie już działał idealnie, możesz go "
+"usprawnić, aby wykonywał zadanie w nieskończoność. W ten sposób nie będzie "
+"konieczne wielokrotne uruchamianie tego programu do zasilenia wielu robotów."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:30
@@ -147,6 +181,14 @@ msgid ""
 "example of a program that repeats over and over the instructions that look "
 "for a power cell, grab it, and drop it on a winged shooter:"
 msgstr ""
+"Napisane dotychczas programy uruchamiają wszystkie instrukcje tylko raz, "
+"jedną po drugiej, od początku do końca programu. Można kazać robotowi "
+"powtarzać niektóre instrukcje: wystarczy napisać <code>while (true)</code>, "
+"klamrę otwierającą, instrukcje, które mają być powtarzane oraz klamrę "
+"zamykającą. Powtarzanie kilku instrukcji w ten sposób zwane jest pętlą. Oto "
+"przykład programu umożliwiającego powtarzanie w nieskończoność instrukcji "
+"szukających ogniwa elektrycznego, podnoszenia go i umieszczania w dziale "
+"latającym:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:41
@@ -163,6 +205,16 @@ msgid ""
 "\t\tdrop();\n"
 "\t}"
 msgstr ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:43
@@ -171,12 +223,14 @@ msgid ""
 "Of course the variable declaration <c/>object item;<n/> must not be inside "
 "the loop, but just before: declare a variable only once."
 msgstr ""
+"Oczywiście deklaracja zmiennej <c/>object item;<n/> powinna pojawić się "
+"przed pętlą, a nie wewnątrz niej: zmienną wystarczy zadeklarować raz."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:44
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Uwaga"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:46
@@ -187,12 +241,15 @@ msgid ""
 "nest, the show is worth it. But be careful not to get shot by your own "
 "bots..."
 msgstr ""
+"Robot może z powodzeniem wykonywać program samodzielnie. W międzyczasie "
+"możesz na przykład zaznaczyć astronautę i obejrzeć co się dzieje w gnieździe "
+"- warto. Uważaj jednak, aby nie postrzelił Cię własny robot..."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:47
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:48
@@ -201,3 +258,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

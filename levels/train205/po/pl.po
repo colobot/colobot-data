@@ -20,31 +20,31 @@ msgstr ""
 #: train205.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train205/scene.txt:1
 #, no-wrap
 msgid "train205:Fighter Jet 2"
-msgstr ""
+msgstr "train205:Walka powietrzna 2"
 
 #. type: Resume-text
 #: train205/scene.txt:2
 #, no-wrap
 msgid "train205:Adapt the program to a mountainous terrain."
-msgstr ""
+msgstr "train205:Przystosuj program do górzystego terenu."
 
 #. type: ScriptName-text
 #: train205/scene.txt:3
 #, no-wrap
 msgid "train205:Move"
-msgstr ""
+msgstr "train205:Poruszanie"
 
 #. type: \b; header
 #: train205-help/tant5.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train205-help/tant5.txt:3
@@ -53,18 +53,19 @@ msgid ""
 "Adapt the flying height of the <a object|botfj>winged shooter</a> to the "
 "terrain."
 msgstr ""
+"Przystosuj wysokość lotu <a object|botfj>działa latającego</a> do terenu."
 
 #. type: \t; header
 #: train205-help/tant5.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train205-help/tant5.txt:6
 #, no-wrap
 msgid "Here is one more time the program of the previous exercise that hunts ants:"
-msgstr ""
+msgstr "Oto jeszcze raz program polujący na mrówki z poprzedniego ćwiczenia:"
 
 #. type: \s; block (usually verbatim code)
 #: train205-help/tant5.txt:31
@@ -95,6 +96,30 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::JetFighter1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile (position.z < 10)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = radar(AlienAnt);\n"
+"\t\t\tturn(direction(item.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: train205-help/tant5.txt:33
@@ -106,6 +131,11 @@ msgid ""
 "<c/>wait(0.2);<n/> a test to see if the height above ground is too low or "
 "too high, and to react accordingly."
 msgstr ""
+"Robot zawsze utrzymuje wysokość 10 m nad poziomem morza. Nie jest on "
+"przystosowany do górzystego terenu w tym ćwiczeniu. Najlepszym sposobem "
+"przystosowania programu jest wstawienie przed instrukcją <c/>wait(0.2);<n/> "
+"testu sprawdzającego czy wysokość nad poziomem ziemi jest za mała lub za "
+"duża i odpowiednie reagowanie."
 
 #. type: Plain text
 #: train205-help/tant5.txt:35
@@ -121,6 +151,16 @@ msgid ""
 "program these tests, use the instruction <code><a cbot|if>if</a></code>, "
 "that executes the instructions in braces only once if the condition is true:"
 msgstr ""
+"Wiesz już że instrukcja <code>position.z</code> podaje wysokość nad poziomem "
+"morza. Instrukcja <code><a cbot|topo>topo</a>(position)</code> podaje "
+"wysokość nad poziomem ziemi w pozycji robota. Jeśli chcesz, aby robot "
+"utrzymywał wysokość pomiędzy 6 i 9 m nad ziemią, należy rozpatrzyć "
+"następujące przypadki: jeśli <code>position.z-topo(position)</code> jest "
+"mniejsze od 6, robot musi się wznieść: <c/>jet(1);<n/>. Jeśli "
+"<code>position.z-topo(position)</code> jest większe od 9, robot musi "
+"zmniejszyć wysokość: <c/>jet(-1);<n/>. Aby zaprogramować te testy, użyj "
+"instrukcji <code><a cbot|if>if</a></code>, która wykonuje instrukcje w "
+"klamrach jedynie wtedy gdy warunek jest prawdziwy:"
 
 #. type: \s; block (usually verbatim code)
 #: train205-help/tant5.txt:46
@@ -137,6 +177,16 @@ msgid ""
 "\t\tjet(-1);\n"
 "\t}"
 msgstr ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
 
 #. type: Plain text
 #: train205-help/tant5.txt:48
@@ -147,6 +197,11 @@ msgid ""
 "climb nor go down. If afterwards either <c/>jet(1);<n/> or <c/>jet(-1);<n/> "
 "is executed, it will cancel the previous <c/>jet(0);<n/>."
 msgstr ""
+"Przed rozpoczęciem testowania, ustabilizuj wysokość instrukcją "
+"<c/>jet(0);<n/>: w przypadku wysokości nad poziomem ziemi pomiędzy 6 i 9 m, "
+"robot nie musi zmieniać wysokości lotu. Jeśli później zostanie wykonana "
+"instrukcja <c/>jet(1);<n/> lub <c/>jet(-1);<n/> anuluje ona poprzednią "
+"instrukcję <c/>jet(0);<n/>."
 
 #. type: Plain text
 #: train205-help/tant5.txt:50
@@ -156,12 +211,15 @@ msgid ""
 "adapt to the terrain. You can then delete the first lines of the program "
 "that set the initial altitude at 10m."
 msgstr ""
+"Wystarczy wstawić te linie przed instrukcją <code>wait(0.2)</code>, a robot "
+"przystosuje się do terenu. Możesz już usunąć pierwszą linię programu "
+"ustawiającą wysokość początkową na 10 m."
 
 #. type: \t; header
 #: train205-help/tant5.txt:51
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train205-help/tant5.txt:52
@@ -170,3 +228,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

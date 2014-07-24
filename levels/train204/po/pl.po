@@ -20,43 +20,45 @@ msgstr ""
 #: train204.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train204/scene.txt:1
 #, no-wrap
 msgid "train204:Fighter Jet 1"
-msgstr ""
+msgstr "train204:Walka powietrzna 1"
 
 #. type: Resume-text
 #: train204/scene.txt:2
 #, no-wrap
 msgid "train204:Instruct a winged shooter to clean the whole region."
-msgstr ""
+msgstr "train204:Zaprogramuj działo latające do wyczyszczenia całego regionu."
 
 #. type: ScriptName-text
 #: train204/scene.txt:3
 #, no-wrap
 msgid "train204:Move"
-msgstr ""
+msgstr "train204:Poruszanie"
 
 #. type: \b; header
 #: train204-help/tant4.txt:1
 #, no-wrap
 msgid "Objectif"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train204-help/tant4.txt:3
 #, no-wrap
 msgid "Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
 msgstr ""
+"Zaprogramuj <a object|botfj>działo latające</a> do zabicia wszystkich mrówek "
+"w okolicy."
 
 #. type: \t; header
 #: train204-help/tant4.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train204-help/tant4.txt:6
@@ -66,6 +68,9 @@ msgid ""
 "opposition to spiders, keep moving: you can not just turn towards the "
 "closest ant, move forward and shoot."
 msgstr ""
+"Na tych bagnach działa na kołach lub gąsienicach będą niezbyt przydatne. A "
+"mrówki, w odróżnieniu od pająków, poruszają się: nie wystarczy obrócić się w "
+"kierunku najbliższej mrówki, podejść i strzelić."
 
 #. type: Plain text
 #: train204-help/tant4.txt:8
@@ -79,12 +84,20 @@ msgid ""
 "a little, for example 0.2 seconds. All these instructions must be repeated "
 "until the ant is at less than 20 meters. Then just shoot it."
 msgstr ""
+"Najprostszy sposób rozwiązania tego problemu polega na lataniu na wysokości "
+"10 metrów, celowaniu w dół: <c/>aim(-20);<n/> i zbliżaniu się do mrówki "
+"używając pętli warunkowej, o ile <a cbot|dist>odległość</a> jest większa niż "
+"20 m. W pętli warunkowej musisz znaleźć najbliższą mrówkę, obrócić się w jej "
+"kierunku, ustawić silniki na pełną moc instrukcją <c/>motor(1,1);<n/> i "
+"chwilę poczekać, na przykład 0,2 sekundy. Te wszystkie instrukcje muszą być "
+"powtarzane aż do zbliżenia się na odległość mniejszą niż 20 metrów od "
+"mrówki. Wtedy wystarczy tylko ją zastrzelić."
 
 #. type: \t; header
 #: train204-help/tant4.txt:9
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train204-help/tant4.txt:10
@@ -93,3 +106,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."

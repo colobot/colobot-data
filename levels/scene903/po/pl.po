@@ -20,25 +20,25 @@ msgstr ""
 #: scene903.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: scene903/scene.txt:2
 #, no-wrap
 msgid "scene903:Gold Digger"
-msgstr ""
+msgstr "scene903:Poszukiwacz złota"
 
 #. type: Resume-text
 #: scene903/scene.txt:3
 #, no-wrap
 msgid "scene903:Be prepared to dig for buried treasure."
-msgstr ""
+msgstr "scene903:Przygotuj się do kopania w poszukiwaniu skarbu."
 
 #. type: \b; header
 #: scene903-help/mhterra3.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: scene903-help/mhterra3.txt:3
@@ -48,6 +48,9 @@ msgid ""
 "<a object|botss>sniffer</a> should be able to locate it and a <a "
 "object|derrick>derrick</a> should be able to extract it."
 msgstr ""
+"Trzeci <a object|key>klucz</a> (C) zakopany jest na terenie opanowanym przez "
+"grzyby. Do jego znalezienia użyj <a object|botss>szperacza</a>, a następnie "
+"wydobądź go, używając do tego <a object|derrick>kopalni</a>."
 
 #. type: Plain text
 #: scene903-help/mhterra3.txt:5
@@ -57,6 +60,8 @@ msgid ""
 "object|botshld>shielder</a> and <a object|botsub>subber</a> aboard your "
 "spaceship."
 msgstr ""
+"Po zakończeniu misji, przed odlotem, zabierz na pokład statku kosmicznego "
+"robota <a object|botshld>osłaniacza</a> oraz <a object|botsub>nurka</a>."
 
 #. type: Plain text
 #: scene903-help/mhterra3.txt:7
@@ -65,36 +70,38 @@ msgid ""
 "<format key><key help/></format> allows you to review these instructions at "
 "all times on your personal SatCom <button 63/>."
 msgstr ""
+"Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie "
+"przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: scene903-help/mhterra3.txt:8 scene903-help/msterra3.txt:5
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: scene903-help/mhterra3.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: scene903-help/miterra3.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: scene903-help/miterra3.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Terranova."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej Nowej Ziemi."
 
 #. type: \s; block (usually verbatim code)
 #: scene903-help/miterra3.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: scene903-help/miterra3.txt:10
@@ -106,12 +113,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
+"\\tab;Temperatura:      26,1C\n"
+"\\tab;Atmosfera:        tlen\n"
+"\\tab;Wiatr:            0,4 m/s\n"
+"\\tab;Ruda tytanu:      trochę\n"
+"\\tab;Ruda uranu:       trochę"
 
 #. type: \s; block (usually verbatim code)
 #: scene903-help/miterra3.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: scene903-help/miterra3.txt:15
@@ -121,12 +133,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   brak\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
 #: scene903-help/miterra3.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: scene903-help/miterra3.txt:21
@@ -137,12 +152,16 @@ msgid ""
 "\\tab;Detected:         giant wasps\n"
 "\\tab;  - Danger:       immediate"
 msgstr ""
+"\\tab;Wykryto:          olbrzymie mrówki\n"
+"\\tab;  - Zagrożenie:   bezpośrednie\n"
+"\\tab;Wykryto:          olbrzymie osy\n"
+"\\tab;  - Zagrożenie:   bezpośrednie"
 
 #. type: \b; header
 #: scene903-help/mlterra3.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Programy przysłane z Houston"
 
 #. type: Plain text
 #: scene903-help/mlterra3.txt:3
@@ -151,72 +170,74 @@ msgid ""
 "We did not develop a specific program for this mission. However, you can "
 "develop your own programs if you think it would be useful."
 msgstr ""
+"Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz "
+"napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
 
 #. type: \b; header
 #: scene903-help/mlterra3.txt:4
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiwum"
 
 #. type: Plain text
 #: scene903-help/mlterra3.txt:6
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Lista programów przysłanych w poprzednich misjach:"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:7
 #, no-wrap
 msgid "<code><a mlvolca2>ServiceTower1</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca2>ServiceTower1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:8
 #, no-wrap
 msgid "<code><a mlvolca1>CollectTitanium3</a></code>"
-msgstr ""
+msgstr "<code><a mlvolca1>CollectTitanium3</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:9
 #, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>KillAnt1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:10
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:11
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:12
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:13
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: scene903-help/mlterra3.txt:14
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: scene903-help/msterra3.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Rozwiązanie"
 
 #. type: Plain text
 #: scene903-help/msterra3.txt:4
@@ -225,9 +246,11 @@ msgid ""
 "Unfortunately no walkthrough has been provided for this mission.\n"
 "You are on your own..."
 msgstr ""
+"Niestety nie jest dostępne rozwiązanie dla tej misji.\n"
+"Teraz wszystko zależy tylko od Ciebie..."
 
 #. type: Plain text
 #: scene903-help/msterra3.txt:6
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a>"

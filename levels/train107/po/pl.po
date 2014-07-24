@@ -20,43 +20,43 @@ msgstr ""
 #: train107.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: Title-text
 #: train107/scene.txt:1
 #, no-wrap
 msgid "train107:Spiders 3"
-msgstr ""
+msgstr "train107:Pająki 3"
 
 #. type: Resume-text
 #: train107/scene.txt:2
 #, no-wrap
 msgid "train107:Learn to move the bot so that no spider can escape."
-msgstr ""
+msgstr "train107:Naucz się tak poruszać robotem, aby nie uciekł żaden pająk."
 
 #. type: ScriptName-text
 #: train107/scene.txt:3
 #, no-wrap
 msgid "train107:Spider3"
-msgstr ""
+msgstr "train107:Pająk3"
 
 #. type: \b; header
 #: train107-help/tspid3.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Zadanie"
 
 #. type: Plain text
 #: train107-help/tspid3.txt:3
 #, no-wrap
 msgid "Move towards the spiders that are out of shooting range."
-msgstr ""
+msgstr "Zbliż się do pająków będących poza zasięgiem."
 
 #. type: \t; header
 #: train107-help/tspid3.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: train107-help/tspid3.txt:6
@@ -65,6 +65,9 @@ msgid ""
 "The program will look like the previous one, but before you shoot, use the "
 "instruction <c/><a cbot|move>move</a>();<n/> in order to get close enough."
 msgstr ""
+"Ten program będzie podobny do poprzedniego, ale przed strzałem użyj "
+"instrukcji <c/><a cbot|move>move</a>();<n/> aby zbliżyć się do celu na "
+"odpowiednią odległość."
 
 #. type: Plain text
 #: train107-help/tspid3.txt:8
@@ -81,6 +84,16 @@ msgid ""
 "bot must move forward <code><a cbot|dist>distance</a>(position, "
 "item.position)-40</code> meters. The following line will do this:"
 msgstr ""
+"Pytanie tylko, ile metrów powinien przejechać robot. Instrukcja <code><a "
+"cbot|dist>distance</a>( , )</code> oblicza odległość pomiędzy dwoma "
+"punktami. W tym przypadku, konieczne jest poznanie odległości pomiędzy "
+"robotem i celem. Pozycja celu podawana jest przez <code>item.position</code>"
+", pozycja robota przez <code>position</code>. Odległość pomiędzy celem i "
+"robotem jest podana przez<code><a cbot|dist>distance</a>(position, "
+"item.position)</code>. Zasięg działka strzelającego kulami ognia to 40 "
+"metrów. Aby się zbliżyć wystarczająco, robot musi iść naprzód <code><a "
+"cbot|dist>distance</a>(position, item.position)-40</code> metrów. Robi to "
+"następujący wiersz:"
 
 #. type: \s; block (usually verbatim code)
 #: train107-help/tspid3.txt:10
@@ -89,6 +102,8 @@ msgid ""
 "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, "
 "item.position)-40);"
 msgstr ""
+"\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, "
+"item.position)-40);"
 
 #. type: Plain text
 #: train107-help/tspid3.txt:12
@@ -97,12 +112,14 @@ msgid ""
 "Just insert this line into the program before the instruction "
 "<c/>fire(1);<n/>, and the bot will start to move."
 msgstr ""
+"Wystarczy wstawić tę linię do poprzedniego programu przed instrukcją "
+"<c/>fire(1);<n/>, a robot zacznie się poruszać."
 
 #. type: \t; header
 #: train107-help/tspid3.txt:13
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train107-help/tspid3.txt:14
@@ -111,3 +128,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."
