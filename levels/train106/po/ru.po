@@ -20,49 +20,55 @@ msgstr ""
 #: train106.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "R"
 
 #. type: Title-text
 #: train106/scene.txt:1
 #, no-wrap
 msgid "train106:Spiders 2"
-msgstr ""
+msgstr "train106:Пауки 2"
 
 #. type: Resume-text
 #: train106/scene.txt:2
 #, no-wrap
 msgid "train106:Use the radar to find and kill all ants."
-msgstr ""
+msgstr "train106:С помощью радара найдите и убейте всех муравьев."
 
 #. type: ScriptName-text
 #: train106/scene.txt:3
 #, no-wrap
 msgid "train106:Spider2"
-msgstr ""
+msgstr "train106:Spider2"
 
 #. type: \b; header
 #: train106-help/tspid2.txt:1
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Задание"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:3
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Kill several spiders whose exact location we do not know. Use the bot's "
 "radar to find them."
 msgstr ""
+"Убейте несколько пауков, чья точная позиция нам не известна. Чтобы их найти, "
+"используйте радар бота."
 
 #. type: \t; header
 #: train106-help/tspid2.txt:4
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Программа"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:6
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Find the closest spider with the instruction <c/><a "
 "cbot|radar>radar</a>(AlienSpider);<n/>, as we did it in the previous "
@@ -73,47 +79,68 @@ msgid ""
 "rotation that the robot must perform in order to aim at the spider. In order "
 "to actually aim at the spider, just write:"
 msgstr ""
+"Найдите ближайшего паука с помощью инструкции <c/><a "
+"cbot|radar>radar</a>(AlienSpider);<n/>, как  мы делали это с титановой рудой "
+"и батареями. Но не идите к пауку, бот будет уничтожен до того, как дойдет "
+"туда. Просто обойдите паука. Инструкция <code><a "
+"cbot|direct>direction</a>(item.position)</code> высчитывает угол вращения, "
+"чтобы бот мог прицелиться в паука. Чтобы точно прицелиться по пауку, просто "
+"напишите:"
 
 #. type: \s; block (usually verbatim code)
 #: train106-help/tspid2.txt:8
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));"
-msgstr ""
+msgstr "\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:10
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Notice the two closing brackets at the end of the line, before the "
 "semicolon. There are two open brackets, so there must be two closing "
 "brackets."
 msgstr ""
+"Заметьте, что в конце строки перед точкой с запятой стоят две закрывающие "
+"скобки. В строке есть две открывающие скобки, поэтому там должны быть и две "
+"закрывающие скобки."
 
 #. type: Plain text
 #: train106-help/tspid2.txt:12
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Then shoot with the instruction <c/><a cbot|fire>fire</a>(1);<n/>."
-msgstr ""
+msgstr "После этого стреляйте инструкцией <c/><a cbot|fire>fire</a>(1);<n/>."
 
 #. type: Plain text
 #: train106-help/tspid2.txt:14
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Here also, you can use a loop with <code><a cbot|while>while</a> "
 "(true)</code> in order not to have to execute the program again for every "
 "spider, as we did in the last exercise."
 msgstr ""
+"И еще, вы можете использовать цикл <code><a cbot|while>while</a> "
+"(true)</code> чтобы не запускать программу для каждого паука, как мы делали "
+"это в предыдущем упражнении."
 
 #. type: \t; header
 #: train106-help/tspid2.txt:15
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: train106-help/tspid2.txt:16
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
+"cbot|category>категории</a>."
