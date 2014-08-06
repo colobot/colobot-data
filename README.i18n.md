@@ -21,11 +21,7 @@ Helpfiles are divided in two categories:
   programs, etc. These are stored in levels/$level/help/.
 
 Helpfiles have their source in english, always stored in the E/
-subdirectory. To ensure retro-compatibility, existing translations have
-not been integrated in the gettext-based translation mechanisms and are
-stored in their respective one-character directories. New translations
-snd updates to existing ones should really use the gettext-based
-translation.
+subdirectory.
 
 ## Colobot syntax
 
