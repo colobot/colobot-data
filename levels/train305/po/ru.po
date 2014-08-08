@@ -20,131 +20,161 @@ msgstr ""
 #: train305.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "R"
 
 #. type: Title-text
 #: train305/scene.txt:1
 #, no-wrap
 msgid "train305:Exchange posts 2"
-msgstr ""
+msgstr "train305:Обменные посты 2"
 
 #. type: Resume-text
 #: train305/scene.txt:2
 #, no-wrap
 msgid "train305:Collect more valuable information from information exchange posts."
 msgstr ""
+"train305:Соберите еще больше важной информации на постах обмена информации."
 
 #. type: ScriptName-text
 #: train305/scene.txt:3
 #, no-wrap
 msgid "train305:Info"
-msgstr ""
+msgstr "train305:Info"
 
 #. type: \b; header
 #: train305-help/texch2.txt:1
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Упражнение"
 
 #. type: Plain text
 #: train305-help/texch2.txt:3
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In this exercise, the <a object|exchange>information exchange posts</a> "
 "along the way contain the direction of the next post and the distance. And "
 "you do not know how many exchange posts you must get in touch with before "
 "arriving at your goal."
 msgstr ""
+"В этом упражнении <a object|exchange>посты обмена информацией</a> по всему "
+"пути содержат направление к следующему посту и расстояние к нему. И вы не "
+"знаете, сколько постов обмена вы можете встретить до того, как достигните "
+"цели."
 
 #. type: \b; header
 #: train305-help/texch2.txt:4
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Общий принцип"
 
 #. type: Plain text
 #: train305-help/texch2.txt:6
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "\tRepeat forever:\n"
-msgstr ""
+msgstr "\tПовторять всегда:\n"
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:6
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
-msgstr ""
+msgstr "Получите направление на <a object|exchange>посту обмена</a>."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:7
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
-msgstr ""
+msgstr "Получите расстояние на <a object|exchange>посту обмена</a>."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:8
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "If no information could be retrieved, stop the program."
-msgstr ""
+msgstr "Если вы не можете получить никакой информации, остановите программу."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:9
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Execute the rotation."
-msgstr ""
+msgstr "Произведите поворот."
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:10
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Move forward to the next post."
-msgstr ""
+msgstr "Следуйте прямо к следующему посту."
 
 #. type: Plain text
 #: train305-help/texch2.txt:13
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> "
 "loop. The instructions between the braces <code>{ }</code> will be repeated "
 "over and over, or until a <code><a cbot|break>break</a></code> instruction "
 "is executed."
 msgstr ""
+"Чтобы повторять всегда, используйте цикл <code><a cbot|while>while</a> "
+"(true)</code>. Инструкция в скобках <code>{ }</code> будет повторяться снова "
+"и снова, или пока не будет выполнена функция <code><a "
+"cbot|break>break</a></code>."
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:14
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "<c/>\twhile ( true )"
-msgstr ""
+msgstr "<c/>\twhile ( true )"
 
 #. type: Plain text
 #: train305-help/texch2.txt:16
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, "
 "one for the distance, for example <code>dir</code> and <code>len</code> :"
 msgstr ""
+"В этот раз вам будут необходимы 2 <a cbot|var>переменные</a>, одна для угла "
+"поворота, вторая для расстояния. Например, <code>dir</code> и "
+"<code>len</code> :"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:17
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "<c/>\tfloat  dir, len;"
-msgstr ""
+msgstr "<c/>\tfloat  dir, len;"
 
 #. type: Plain text
 #: train305-help/texch2.txt:19
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Then you can retrieve the information:"
-msgstr ""
+msgstr "После этого вы можете получить информацию:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:21
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<c/>\tdir = receive(\"Direction\");\n"
 "<c/>\tlen = receive(\"Length\");"
 msgstr ""
+"<c/>\tdir = receive(\"Направление\");\n"
+"<c/>\tlen = receive(\"Длина\");"
 
 #. type: Plain text
 #: train305-help/texch2.txt:24
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> "
 "can take a special value called <code><a cbot|nan>nan</a></code>. This value "
@@ -156,65 +186,91 @@ msgid ""
 "program if necessary with the instruction <code><a "
 "cbot|break>break</a></code>:"
 msgstr ""
+"Переменная <a cbot|type>type</a> <code><a cbot|float>float</a></code> может "
+"принимать определенное значение, называемое <code><a cbot|nan>nan</a></code>"
+". Оно означает, что переменная не содержит чисел (Not A Number).\n"
+"Когда поблизости нет <a object|exchange>обменных пунктов</a> потому что бот "
+"достиг цели или потому что он пошел в неправильном направлении, две "
+"переменные <code>dir</code> и <code>len</code> содержат это значение. Вы "
+"можете проверить это с помощью инструкции <code><a cbot|if>if</a></code>, и "
+"остановить программу, если в этом возникает необходимость, с помощью "
+"инструкции <code><a cbot|break>break</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:25
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "<c/>\tif ( dir == nan )  break;"
-msgstr ""
+msgstr "<c/>\tif ( dir == nan )  break;"
 
 #. type: Plain text
 #: train305-help/texch2.txt:27
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "If the information retrieval from the <a object|exchange>exchange post</a> "
 "has been performed successfully, execute the rotation:"
 msgstr ""
+"Если получение информации на <a object|exchange>обменном посту</a> прошло "
+"успешно, произведите поворот:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:28
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "<c/>\tturn(dir);"
-msgstr ""
+msgstr "<c/>\tturn(dir);"
 
 #. type: Plain text
 #: train305-help/texch2.txt:30
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "And move forward:"
-msgstr ""
+msgstr "И идите вперед:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:31
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "<c/>\tmove(len);"
-msgstr ""
+msgstr "<c/>\tmove(len);"
 
 #. type: \b; header
 #: train305-help/texch2.txt:32
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Комментарий"
 
 #. type: Plain text
 #: train305-help/texch2.txt:34
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "You can click on an <a object|exchange>information exchange post</a> in "
 "order to read what information it contains. In this exercise, every exchange "
 "post contains two values called <code>\"Direction\"</code> and "
 "<code>\"Length\"</code>."
 msgstr ""
+"Вы можете щелкнуть на <a object|exchange>посту обмена информации</a>, чтобы "
+"прочитать ту информацию, которую он содержит. В этом упражнении каждый пункт "
+"обмена содержит две переменные, которые называются <code>\"Направление\""
+"</code> и <code>\"Длина\"</code>."
 
 #. type: \t; header
 #: train305-help/texch2.txt:35
 #, no-wrap
+#, fuzzy, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "См. также"
 
 #. type: Plain text
 #: train305-help/texch2.txt:36
 #, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
+"cbot|category>категории</a>."

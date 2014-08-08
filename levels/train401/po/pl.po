@@ -20,13 +20,13 @@ msgstr ""
 #: train401.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr ""
+msgstr "P"
 
 #. type: ScriptName-text
 #: train401/scene.txt:1 train401/scene.txt:3
 #, no-wrap
 msgid "train401:Dragster"
-msgstr ""
+msgstr "train401:Spowalniacz"
 
 #. type: Resume-text
 #: train401/scene.txt:2
@@ -35,12 +35,14 @@ msgid ""
 "train401:Program a progressive deceleration in order to avoid the mines "
 "right behind the goal."
 msgstr ""
+"train401:Zaprogramuj stopniowe zwalnianie, w celu uniknięcia min "
+"znajdujących się bezpośrednio za celem."
 
 #. type: \b; header
 #: train401-help/tdragst.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Ćwiczenie"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:3
@@ -51,6 +53,9 @@ msgid ""
 "progressively at the end of the move, otherwise the bot will get blown up on "
 "the <a object|mine>mines</a>."
 msgstr ""
+"Dotrzyj jak najszybciej do platformy końcowej (25 m przed Tobą), używając "
+"instrukcji <code>motor( , )</code>. Przed końcem ruchu musisz stopniowo "
+"zwalniać, aby robot nie wpadł na <a object|mine>miny</a> i nie wybuchł."
 
 #. type: Plain text
 #: train401-help/tdragst.txt:5
@@ -60,42 +65,46 @@ msgid ""
 "this would work perfectly well. However, the aim of this exercise is to "
 "learn how to use the instruction <code><a cbot|motor>motor</a></code>."
 msgstr ""
+"Równie dobrze możesz napisać jedynie instrukcję <c/><a "
+"cbot|move>move</a>(25);<n/>, która wykona to samo zadanie, jednak celem tego "
+"ćwiczenia jest nauka używania instrukcji <code><a "
+"cbot|motor>motor</a></code>."
 
 #. type: Plain text
 #: train401-help/tdragst.txt:7
 #, no-wrap
 msgid "This instruction asks for two values:\n"
-msgstr ""
+msgstr "Instrukcja ta potrzebuje dwóch wartości:\n"
 
 #. type: Bullet: '1)'
 #: train401-help/tdragst.txt:7
 #, no-wrap
 msgid "The speed of the left-hand motor."
-msgstr ""
+msgstr "Prędkości lewego silnika."
 
 #. type: Bullet: '2)'
 #: train401-help/tdragst.txt:8
 #, no-wrap
 msgid "The speed of the right-hand motor."
-msgstr ""
+msgstr "Prędkości prawego silnika."
 
 #. type: \s; block (usually verbatim code)
 #: train401-help/tdragst.txt:11
 #, no-wrap
 msgid "<c/>\tmotor( left, right );"
-msgstr ""
+msgstr "<c/>\tmotor( lewy, prawy );"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:13
 #, no-wrap
 msgid "The values must range between -1 and 1:\n"
-msgstr ""
+msgstr "Wartości muszą się zawierać w przedziale od -1 do 1:\n"
 
 #. type: Bullet: '-'
 #: train401-help/tdragst.txt:13
 #, no-wrap
 msgid "1 = full throttle backward"
-msgstr ""
+msgstr "1 = pełny ciąg wstecz"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:16
@@ -104,6 +113,8 @@ msgid ""
 " 0 = stop\n"
 " 1 = full throttle forward"
 msgstr ""
+" 0 = silnik zatrzymany\n"
+" 1 = pełny ciąg naprzód"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:18
@@ -112,6 +123,8 @@ msgid ""
 "For example, <c/>motor(0.5, 0.5);<n/> will move the motor forward with "
 "half-speed, until new instructions are given to the motors."
 msgstr ""
+"Na przykład instrukcja <c/>motor(0.5, 0.5);<n/> będzie poruszała robotem "
+"naprzód z połową prędkości, aż do podania silnikom nowych instrukcji."
 
 #. type: Plain text
 #: train401-help/tdragst.txt:20
@@ -122,12 +135,16 @@ msgid ""
 "right-hand motor moves a little faster (<code>0.6</code>) than the left-hand "
 "motor (<code>0.5</code>)."
 msgstr ""
+"Po napotkaniu instrukcji <c/>motor(0.5, 0.6);<n/>, robot będzie się poruszał "
+"do przodu z połową prędkości, wykonując w tym samym czasie niewielki obrót w "
+"lewo: prawy silnik porusza się nieco szybciej (<code>0.6</code>) niż lewy "
+"(<code>0.5</code>)."
 
 #. type: \b; header
 #: train401-help/tdragst.txt:21
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Ogólny algorytm"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:24
@@ -145,18 +162,28 @@ msgid ""
 "between the starting position and your current position with "
 "<code>distance(position, start)</code>."
 msgstr ""
+"Aby przejechać dokładnie 25 metrów, należy jechać z pełną prędkością przez "
+"pierwsze 23 metry, a następnie stopniowo zmniejszać prędkość przez ostatnie "
+"dwa metry.\n"
+"<a cbot|var>Zmienna</a> <a cbot|object>position</a> podaje bieżącą pozycję "
+"robota, a instrukcja <c/><a cbot|dist>distance</a>( , );<n/> oblicza "
+"odległość między dwoma punktami. Najlepszy sposób na poznanie własnej "
+"pozycji, polega na zachowaniu bieżącej pozycji przed startem w <a "
+"cbot|var>zmiennej</a>, nazwanej na przykład <code>start</code>. Następnie "
+"można obliczyć odległość między pozycją startową i bieżącą pozycją za pomocą "
+"instrukcji <code>distance(position, start)</code>."
 
 #. type: \b; header
 #: train401-help/tdragst.txt:25
 #, no-wrap
 msgid "The program"
-msgstr ""
+msgstr "Program"
 
 #. type: Bullet: '1)'
 #: train401-help/tdragst.txt:26
 #, no-wrap
 msgid "declare the variables"
-msgstr ""
+msgstr "zadeklaruj zmienne"
 
 #. type: \s; block (usually verbatim code)
 #: train401-help/tdragst.txt:29
@@ -165,36 +192,38 @@ msgid ""
 "<c/>\tpoint start;\n"
 "\tfloat len;"
 msgstr ""
+"<c/>\tpoint start;\n"
+"\tfloat len;"
 
 #. type: Bullet: '2)'
 #: train401-help/tdragst.txt:30
 #, no-wrap
 msgid "save the starting position"
-msgstr ""
+msgstr "zapisz pozycję startową"
 
 #. type: \s; block (usually verbatim code)
 #: train401-help/tdragst.txt:32
 #, no-wrap
 msgid "<c/>\tstart = position;"
-msgstr ""
+msgstr "<c/>\tstart = position;"
 
 #. type: Bullet: '3)'
 #: train401-help/tdragst.txt:33
 #, no-wrap
 msgid "start full throttle :"
-msgstr ""
+msgstr "na początek z pełną mocą:"
 
 #. type: \s; block (usually verbatim code)
 #: train401-help/tdragst.txt:35
 #, no-wrap
 msgid "<c/>\tmotor(1, 1);"
-msgstr ""
+msgstr "<c/>\tmotor(1, 1);"
 
 #. type: Bullet: '4)'
 #: train401-help/tdragst.txt:36
 #, no-wrap
 msgid "Perform an infinite <code><a cbot|while>while</a></code> loop:"
-msgstr ""
+msgstr "wykonaj pętlę nieskończoną <code><a cbot|while>while</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train401-help/tdragst.txt:45
@@ -209,6 +238,14 @@ msgid ""
 "\t\t}\n"
 "\t}"
 msgstr ""
+"<c/>\twhile ( true )\n"
+"\t{\n"
+"\t\tlen = distance(position, start);\n"
+"\t\tif ( len > 25-2 )\n"
+"\t\t{\n"
+"\t\t\tmotor( mniej niż poprzednio! );\n"
+"\t\t}\n"
+"\t}"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:47
@@ -220,6 +257,10 @@ msgid ""
 "their maximum speed as they were told by the <c/><a "
 "cbot|motor>motor</a>(1,1);<n/> instruction."
 msgstr ""
+"Tak długo jak odległość pomiędzy pozycją startową i bieżącą jest mniejsza od "
+"23m, instrukcje w klamrach po instrukcji <code><a cbot|if>if</a></code> nie "
+"będą wykonywane, więc silniki utrzymają maksymalną prędkość nadaną im "
+"instrukcją <c/><a cbot|motor>motor</a>(1,1);<n/>."
 
 #. type: Plain text
 #: train401-help/tdragst.txt:49
@@ -228,42 +269,46 @@ msgid ""
 "In order to slow down progressively, the speed of the motors must be "
 "proportional to the remaining distance:\n"
 msgstr ""
+"Aby stopniowo zwalniać, prędkość silników musi być proporcjonalna do "
+"pozostałej odległości:\n"
 
 #. type: Bullet: 'o'
 #: train401-help/tdragst.txt:49
 #, no-wrap
 msgid "<code>2.0</code> meters left -> speed = <code>1.00</code> (maximum)"
 msgstr ""
+"zostały <code>2.0</code> metry  -> prędkość = <code>1.00</code> (maksymalna)"
 
 #. type: Bullet: 'o'
 #: train401-help/tdragst.txt:50
 #, no-wrap
 msgid "<code>1.5</code> meters left -> speed = <code>0.75</code>"
-msgstr ""
+msgstr "zostało <code>1.5</code> metra  -> prędkość = <code>0.75</code>"
 
 #. type: Bullet: 'o'
 #: train401-help/tdragst.txt:51
 #, no-wrap
 msgid "<code>1.0</code> meter left  -> speed = <code>0.50</code>"
-msgstr ""
+msgstr "został  <code>1.0</code> metr   -> prędkość = <code>0.50</code>"
 
 #. type: Bullet: 'o'
 #: train401-help/tdragst.txt:52
 #, no-wrap
 msgid "<code>0.5</code> meter left  -> speed = <code>0.25</code>"
-msgstr ""
+msgstr "zostało <code>0.5</code> metra  -> prędkość = <code>0.25</code>"
 
 #. type: Bullet: 'o'
 #: train401-help/tdragst.txt:53
 #, no-wrap
 msgid "<code>0.0</code> meter left  -> speed = <code>0.00</code> (stop)"
 msgstr ""
+"zostało <code>0.0</code> metrów -> prędkość = <code>0.00</code> (zatrzymanie)"
 
 #. type: Image filename
 #: train401-help/tdragst.txt:55
 #, no-wrap
 msgid "tdragst1"
-msgstr ""
+msgstr "tdragst1"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:57
@@ -273,18 +318,21 @@ msgid ""
 "<code>(25-len)/2</code> in order to calculate the value for the speed "
 "instruction that must be given to the motors."
 msgstr ""
+"Do obliczenia prędkości, która zostanie podana silnikom możesz użyć "
+"następującego <a cbot|expr>wyrażenia</a>: <code>(25-len)/2</code>."
 
 #. type: Plain text
 #: train401-help/tdragst.txt:59
 #, no-wrap
 msgid "It is now up to you to put everything together and to test the program."
 msgstr ""
+"Do Ciebie należy złożenie tego wszystkiego razem i przetestowanie programu."
 
 #. type: \b; header
 #: train401-help/tdragst.txt:60
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Uwaga"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:62
@@ -293,12 +341,14 @@ msgid ""
 "You can use values greater than 1 for the instruction <c/><a "
 "cbot|motor>motor</a>();<n/>, but the bot will not move any faster."
 msgstr ""
+"Możesz używać wartości większych od 1 dla instrukcji <c/><a "
+"cbot|motor>motor</a>();<n/>, ale robot nie będzie poruszał się szybciej."
 
 #. type: \t; header
 #: train401-help/tdragst.txt:63
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: train401-help/tdragst.txt:64
@@ -307,3 +357,5 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
+"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
+"cbot|category>kategorie</a>."
