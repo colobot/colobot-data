@@ -20,31 +20,31 @@ msgstr ""
 #: train308.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "P"
+msgstr ""
 
 #. type: Title-text
 #: train308/scene.txt:1
 #, no-wrap
 msgid "train308:The gold digger"
-msgstr "train308:Poszukiwacz złota"
+msgstr ""
 
 #. type: Resume-text
 #: train308/scene.txt:2
 #, no-wrap
 msgid "train308:Instruct your bot to search a zone for subsoil resources."
-msgstr "train308:Zaprogramuj robota do szukania podziemnych zasobów."
+msgstr ""
 
 #. type: ScriptName-text
 #: train308/scene.txt:3
 #, no-wrap
 msgid "train308:Digger"
-msgstr "train308:Koparka"
+msgstr ""
 
 #. type: \b; header
 #: train308-help/tsniff.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Ćwiczenie"
+msgstr ""
 
 #. type: Plain text
 #: train308-help/tsniff.txt:3
@@ -55,16 +55,12 @@ msgid ""
 "subsoil and discovers an adequate location for a derrick, it will mark it "
 "with a red cross."
 msgstr ""
-"Przeszukaj <a object|botsr>robotem szperaczem</a> całą strefę otoczoną "
-"barierami, aby znaleźć odpowiednie miejsce na kopalnię. Gdy robot przebada "
-"podglebie i odkryje odpowiednie miejsce na kopalnię, oznaczy je czerwonym "
-"plusem."
 
 #. type: \b; header
 #: train308-help/tsniff.txt:4
 #, no-wrap
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 #. type: Plain text
 #: train308-help/tsniff.txt:6
@@ -73,14 +69,12 @@ msgid ""
 "The zone inside the barriers is a square of 25 meters. The most efficient "
 "way is to check every 5 meters."
 msgstr ""
-"Strefa otoczona barierami jest kwadratem o boku 25 metrów. "
-"Najskuteczniejszym sposobem działania jest sprawdzanie podglebia co 5 metrów."
 
 #. type: Image filename
 #: train308-help/tsniff.txt:7
 #, no-wrap
 msgid "sniff1"
-msgstr "sniff1"
+msgstr ""
 
 #. type: Plain text
 #: train308-help/tsniff.txt:9
@@ -89,8 +83,6 @@ msgid ""
 "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops "
 "one into another:"
 msgstr ""
-"Jedynym sposobem osiągnięcia tego jest zagnieżdżenie wewnątrz siebie dwóch "
-"pętli <code><a cbot|for>for</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train308-help/tsniff.txt:22
@@ -109,18 +101,6 @@ msgid ""
 "\t</code>quarter turn left<c/>\n"
 "}"
 msgstr ""
-"for ( int y=0 ; y<6 ; y=y+1 )\n"
-"{\n"
-"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
-"\t{\n"
-"\t\t<n/>bada podglebie<code>\n"
-"\t\t</code>jedzie 5m naprzód<code>\n"
-"\t}\n"
-"\t</code>bada podglebie<code>\n"
-"\t</code>ćwierć obrotu w lewo<code>\n"
-"\t</code>jedzie 5m naprzód<code>\n"
-"\t</code>ćwierć obrotu w lewo<c/>\n"
-"}"
 
 #. type: Plain text
 #: train308-help/tsniff.txt:27
@@ -139,19 +119,6 @@ msgid ""
 "}</code> will be executed. Otherwise, the second block <code>{ }</code> will "
 "be executed."
 msgstr ""
-"Program działa dobrze tylko na początku. Po pierwszym wierszu robot obraca "
-"się prawidłowo w lewo i bada drugą linię. Ale po drugiej linii powinien "
-"skręcić w prawo!\n"
-"Należy zauważyć, że jeśli <code>y</code> jest parzyste, robot powinien "
-"skręcić w lewo, a jeśli <code>y</code> jest nieparzyste, powinien skręcić w "
-"prawo.\n"
-"<a cbot|expr>Wyrażenie</a> <code>y%2</code> podaje resztę z dzielenia "
-"<code>y</code> przez <code>2</code>. Na przykład jeśli <code>y=3</code>, "
-"wyrażenie zwróci wartość <code>1</code>.\n"
-"Po teście <code><a cbot|if>if</a> { }</code> może pojawić się instrukcja "
-"<code>else { }</code>. Jeśli warunek jest prawdziwy, wykonywany jest "
-"pierwszy <a cbot|bloc>blok</a> <code>{ }</code>. W przeciwnym przypadku "
-"zostanie wykonany drugi blok <code>{ }</code>."
 
 #. type: \s; block (usually verbatim code)
 #: train308-help/tsniff.txt:36
@@ -166,26 +133,18 @@ msgid ""
 "\ty </code>is uneven<c/>\n"
 "}"
 msgstr ""
-"if ( y%2 == 0 )\n"
-"{\n"
-"\ty <n/>jest parzyste<code>\n"
-"}\n"
-"else\n"
-"{\n"
-"\ty </code>jest nieparzyste<c/>\n"
-"}"
 
 #. type: Plain text
 #: train308-help/tsniff.txt:38
 #, no-wrap
 msgid "It is up to you to finish the program."
-msgstr "Do Ciebie należy dokończenie programu."
+msgstr ""
 
 #. type: \b; header
 #: train308-help/tsniff.txt:39
 #, no-wrap
 msgid "Remark"
-msgstr "Uwaga"
+msgstr ""
 
 #. type: Plain text
 #: train308-help/tsniff.txt:41
@@ -195,15 +154,12 @@ msgid ""
 "subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a "
 "cbot|turn>turn</a>( )</code> to move the bot."
 msgstr ""
-"Użyj instrukcji <code><a cbot|sniff>sniff</a>( )</code> do badania podglebia "
-"oraz instrukcji <code><a cbot|move>move</a>( )</code> i <code><a "
-"cbot|turn>turn</a>( )</code> przemieszczania robota."
 
 #. type: \t; header
 #: train308-help/tsniff.txt:42
 #, no-wrap
 msgid "See also"
-msgstr "Zobacz również"
+msgstr ""
 
 #. type: Plain text
 #: train308-help/tsniff.txt:43
@@ -212,5 +168,3 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."

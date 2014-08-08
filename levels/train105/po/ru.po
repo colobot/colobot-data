@@ -20,73 +20,60 @@ msgstr ""
 #: train105.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "R"
+msgstr ""
 
 #. type: Title-text
 #: train105/scene.txt:1
 #, no-wrap
 msgid "train105:Power Cell 2"
-msgstr "train105:Батарея 2"
+msgstr ""
 
 #. type: Resume-text
 #: train105/scene.txt:2
 #, no-wrap
 msgid "train105:Power all the winged shooters."
-msgstr "train105:Оснастите батареей всех крылатых стрелков."
+msgstr ""
 
 #. type: ScriptName-text
 #: train105/scene.txt:3
 #, no-wrap
 msgid "train105:Spider2"
-msgstr "train105:Spider2"
+msgstr ""
 
 #. type: \b; header
 #: train105-help/tcell2.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Objective"
-msgstr "Задание"
+msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Power the <a object|botfj>winged shooters</a> with <a object|power>power "
 "cells</a>, so that they can kill the ants in the ant nest located in a hole "
 "north of your position."
 msgstr ""
-"Оснастите <a object|botfj>крылатых стрелков</a>  <a "
-"object|power>батареями</a>, чтобы они смогли начать уничтожать муравьев в "
-"муравейнике, расположенном в норе на севере от вашей текущей позиции."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program"
-msgstr "Программа"
+msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power "
 "cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the "
 "cell. This task is very similar to the task performed in the previous "
 "exercise. Here is this program again:"
 msgstr ""
-"<a object|botgr>Крылатый сборщик</a> должен подойти к <a "
-"object|power>батарее</a>, взять ее, отправиться к <a object|botfj>крылатому "
-"стрелку</a> и бросить там батарею. Это задание очень напоминает задание, "
-"которое мы выполняли в предыдущем упражнении. Ниже мы еще раз приводим текст "
-"этой программы:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:19
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "extern void object::Titanium2()\n"
 "{\n"
@@ -101,23 +88,10 @@ msgid ""
 "\tdrop();\n"
 "}"
 msgstr ""
-"extern void object::Titanium2()\n"
-"{\n"
-"\tobject    item;\n"
-"\t\n"
-"\titem = radar(TitaniumOre);\n"
-"\tgoto(item.position);\n"
-"\tgrab();\n"
-"\t\n"
-"\titem = radar(Converter);\n"
-"\tgoto(item.position);\n"
-"\tdrop();\n"
-"}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:21
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "The best way to solve the present exercise is to copy <button 61/> the "
 "program above into the clipboard (from <code>object</code> to "
@@ -125,16 +99,10 @@ msgid ""
 "you just have to make the necessary changes in order to adapt it to the new "
 "task."
 msgstr ""
-"Лучшим способом решения этого упражнения будет копирование <button 61/> "
-"программы, приведенной выше, в буфер обмена (от <code>object</code> до "
-"<c/>drop();<n/>). После этого вставьте <button 62/> ее в редактор программ. "
-"После этого вы должны будете просто сделать небольшие изменения, чтобы "
-"приспособить ее к новому заданию."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:23
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a "
 "power cell (<code>PowerCell</code>). Instead of going to a converter "
@@ -142,49 +110,34 @@ msgid ""
 "(<code>WingedShooter</code>). As soon as the winged shooter has got a new "
 "power cell, it will get down to work."
 msgstr ""
-"Вместо того, чтобы искать титановую руду (<code>TitaniumOre</code>), ищите "
-"батареи (<code>PowerCell</code>). Вместо перехода к преобразователю "
-"(<code>Converter</code>), идите к крылатому стрелку "
-"(<code>WingedShooter</code>). Как только у крылатого стрелка появится новая "
-"батарея, он приступит к работе."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:25
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "If you want to know more about the \"names\" of the different objects in the "
 "programming language, please refer to the <a cbot|category>text about "
 "categories</a>."
 msgstr ""
-"Если вы хотите больше узнать об \"именах\" различных объектов этого языка "
-"программирования, обратитесь пожалуйста к <a cbot|category>тексту о "
-"категориях</a>."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:26
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Further improvement: loops"
-msgstr "Дальнейшее улучшение: циклы"
+msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:28
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Once the program explained above works properly, you can improve it in order "
 "to repeat the task over and over again. Like this you will not have to "
 "execute the program several times in order to power several bots."
 msgstr ""
-"Как только программа, приведенная выше, заработает, вы можете улучшить ее, "
-"чтобы повторять задание снова и снова. Тогда вам не придется запускать "
-"программу каждый раз, когда возникает необходимость оснастить бота батареей."
 
 #. type: Plain text
 #: train105-help/tcell2.txt:30
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "All programs written until now execute all instructions only once, one after "
 "another, from the beginning to the end of the program. You can also tell the "
@@ -194,18 +147,10 @@ msgid ""
 "example of a program that repeats over and over the instructions that look "
 "for a power cell, grab it, and drop it on a winged shooter:"
 msgstr ""
-"Все программы, написанные до этого момента, выполняют все инструкции только "
-"один раз, одну за другой, с самого начала и до конца программы. Вы можете "
-"приказать ботам повторять некоторые инструкции: просто напишите <code>while "
-"(true)</code>, открывающая скобка, инструкции, которые следует повторять, и "
-"закрывающая скобка. Повторение некоторых инструкций таким способом носит "
-"название цикла. Вот пример программы, которая снова и снова повторяет "
-"инструкции, которые ищут батарею, берут ее и бросают крылатому стрелку:"
 
 #. type: \s; block (usually verbatim code)
 #: train105-help/tcell2.txt:41
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "\twhile (true)\n"
 "\t{\n"
@@ -218,64 +163,41 @@ msgid ""
 "\t\tdrop();\n"
 "\t}"
 msgstr ""
-"\twhile (true)\n"
-"\t{\n"
-"\t\titem = radar(PowerCell);\n"
-"\t\tgoto(item.position);\n"
-"\t\tgrab();\n"
-"\t\t\n"
-"\t\titem = radar(WingedShooter);\n"
-"\t\tgoto(item.position);\n"
-"\t\tdrop();\n"
-"\t}"
 
 #. type: Plain text
 #: train105-help/tcell2.txt:43
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "Of course the variable declaration <c/>object item;<n/> must not be inside "
 "the loop, but just before: declare a variable only once."
 msgstr ""
-"Конечно же, задание переменной <c/>object item;<n/> не должно производиться "
-"внутри цикла, а перед ним: задавайте переменную только один раз."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:44
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Remark"
-msgstr "Комментарий"
+msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:46
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "A bot can execute a program perfectly well on his own. Meantime you can for "
 "example select the astronaut and take a look at what is happening at the "
 "nest, the show is worth it. But be careful not to get shot by your own "
 "bots..."
 msgstr ""
-"Бот сам отлично справляется с задачей запуска програмы. В то же время, вы, "
-"например, можете выбрать астронавта и посмотреть на то, что происходит в "
-"гнезде. Это просто нужно увидеть. Но будьте осторожны, чтобы не быть "
-"подстреленным своими же собственными ботами..."
 
 #. type: \t; header
 #: train105-help/tcell2.txt:47
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr ""
 
 #. type: Plain text
 #: train105-help/tcell2.txt:48
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
-"cbot|category>категории</a>."

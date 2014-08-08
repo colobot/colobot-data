@@ -20,31 +20,31 @@ msgstr ""
 #: train305.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "P"
+msgstr ""
 
 #. type: Title-text
 #: train305/scene.txt:1
 #, no-wrap
 msgid "train305:Exchange posts 2"
-msgstr "train305:Stacje przekaźnikowe 2"
+msgstr ""
 
 #. type: Resume-text
 #: train305/scene.txt:2
 #, no-wrap
 msgid "train305:Collect more valuable information from information exchange posts."
-msgstr "train305:Uzyskaj cenne informacje ze stacji przekaźnikowych."
+msgstr ""
 
 #. type: ScriptName-text
 #: train305/scene.txt:3
 #, no-wrap
 msgid "train305:Info"
-msgstr "train305:Informacje"
+msgstr ""
 
 #. type: \b; header
 #: train305-help/texch2.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Ćwiczenie"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:3
@@ -55,51 +55,48 @@ msgid ""
 "you do not know how many exchange posts you must get in touch with before "
 "arriving at your goal."
 msgstr ""
-"W tym ćwiczeniu <a object|exchange>stacje przekaźnikowe</a> wzdłuż drogi "
-"zawierają kierunek i odległość do następnej stacji. Nie jest znana liczba "
-"stacji przekaźnikowych koniecznych do dotarcia do celu."
 
 #. type: \b; header
 #: train305-help/texch2.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr "Ogólny algorytm"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:6
 #, no-wrap
 msgid "\tRepeat forever:\n"
-msgstr "\tPowtarzaj w nieskończoność:\n"
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:6
 #, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
-msgstr "Pobierz kierunek ze <a object|exchange>stacji przekaźnikowej</a>."
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:7
 #, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
-msgstr "Pobierz odległość ze <a object|exchange>stacji przekaźnikowej</a>."
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:8
 #, no-wrap
 msgid "If no information could be retrieved, stop the program."
-msgstr "Jeśli nie ma żadnych informacji, zatrzymaj program."
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:9
 #, no-wrap
 msgid "Execute the rotation."
-msgstr "Wykonaj obrót."
+msgstr ""
 
 #. type: Bullet: 'o'
 #: train305-help/texch2.txt:10
 #, no-wrap
 msgid "Move forward to the next post."
-msgstr "Idź do następnej stacji."
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:13
@@ -110,16 +107,12 @@ msgid ""
 "over and over, or until a <code><a cbot|break>break</a></code> instruction "
 "is executed."
 msgstr ""
-"Do nieskończonego powtarzania użyj pętli <code><a cbot|while>while</a> "
-"(true)</code>. Instrukcje pomiędzy klamrami <code>{ }</code> będą powtarzane "
-"w nieskończoność lub do czasu wykonania instrukcji <code><a "
-"cbot|break>break</a></code>."
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:14
 #, no-wrap
 msgid "<c/>\twhile ( true )"
-msgstr "<c/>\twhile ( true )"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:16
@@ -128,21 +121,18 @@ msgid ""
 "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, "
 "one for the distance, for example <code>dir</code> and <code>len</code> :"
 msgstr ""
-"Tym razem potrzebne będą dwie <a cbot|var>zmienne</a>, jedna dla kąta "
-"obrotu, druga dla odległości, na przykład <code>dir</code> i "
-"<code>len</code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:17
 #, no-wrap
 msgid "<c/>\tfloat  dir, len;"
-msgstr "<c/>\tfloat  dir, len;"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:19
 #, no-wrap
 msgid "Then you can retrieve the information:"
-msgstr "Następnie można pobrać informacje:"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:21
@@ -151,8 +141,6 @@ msgid ""
 "<c/>\tdir = receive(\"Direction\");\n"
 "<c/>\tlen = receive(\"Length\");"
 msgstr ""
-"<c/>\tdir = receive(\"Direction\");\n"
-"<c/>\tlen = receive(\"Length\");"
 
 #. type: Plain text
 #: train305-help/texch2.txt:24
@@ -168,21 +156,12 @@ msgid ""
 "program if necessary with the instruction <code><a "
 "cbot|break>break</a></code>:"
 msgstr ""
-"Zmienna <a cbot|type>typu</a> <code><a cbot|float>float</a></code> może "
-"również przyjmować specjalną wartość zwaną <code><a cbot|nan>nan</a></code>. "
-"Oznacza ona, że zmienna nie zawiera liczby (Not A Number).\n"
-"Jeśli w pobliżu nie ma <a object|exchange>stacji przekaźnikowej</a> z powodu "
-"osiągnięcia przez robota celu, bądź zgubienia drogi, dwie zmienne "
-"<code>dir</code> i <code>len</code> zawierają wartość <code><a "
-"cbot|nan>nan</a></code>. Możesz to sprawdzić instrukcją <code><a "
-"cbot|if>if</a></code> i jeśli to konieczne zatrzymać program instrukcją "
-"<code><a cbot|break>break</a></code>:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:25
 #, no-wrap
 msgid "<c/>\tif ( dir == nan )  break;"
-msgstr "<c/>\tif ( dir == nan )  break;"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:27
@@ -191,32 +170,30 @@ msgid ""
 "If the information retrieval from the <a object|exchange>exchange post</a> "
 "has been performed successfully, execute the rotation:"
 msgstr ""
-"Jeśli pomyślnie pobrano informacje ze <a object|exchange>stacji "
-"przekaźnikowej</a> wykonaj obrót:"
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:28
 #, no-wrap
 msgid "<c/>\tturn(dir);"
-msgstr "<c/>\tturn(dir);"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:30
 #, no-wrap
 msgid "And move forward:"
-msgstr "I idź naprzód:"
+msgstr ""
 
 #. type: \s; block (usually verbatim code)
 #: train305-help/texch2.txt:31
 #, no-wrap
 msgid "<c/>\tmove(len);"
-msgstr "<c/>\tmove(len);"
+msgstr ""
 
 #. type: \b; header
 #: train305-help/texch2.txt:32
 #, no-wrap
 msgid "Remark"
-msgstr "Uwaga"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:34
@@ -227,16 +204,12 @@ msgid ""
 "post contains two values called <code>\"Direction\"</code> and "
 "<code>\"Length\"</code>."
 msgstr ""
-"Możesz kliknąć na <a object|exchange>stacji przekaźnikowej informacji</a> "
-"aby przeczytać zawarte w niej informacje. W tym ćwiczeniu, każda stacja "
-"przekaźnikowa zawiera dwie wartości <code>\"Direction\"</code> (kierunek) i "
-"<code>\"Length\"</code> (odległość)."
 
 #. type: \t; header
 #: train305-help/texch2.txt:35
 #, no-wrap
 msgid "See also"
-msgstr "Zobacz również"
+msgstr ""
 
 #. type: Plain text
 #: train305-help/texch2.txt:36
@@ -245,5 +218,3 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."

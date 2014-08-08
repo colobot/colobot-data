@@ -20,13 +20,13 @@ msgstr ""
 #: train603.languagecode:1
 #, no-wrap
 msgid "E"
-msgstr "P"
+msgstr ""
 
 #. type: Title-text
 #: train603/scene.txt:1
 #, no-wrap
 msgid "train603:Remote control #2"
-msgstr "train603:Zdalna kontrola #2"
+msgstr ""
 
 #. type: Resume-text
 #: train603/scene.txt:2
@@ -35,20 +35,18 @@ msgid ""
 "train603:Remote control a robot using an information exchange post, so it "
 "will pass over the 6 blue waypoints."
 msgstr ""
-"Kontoluj robota zdalnie używając stacji przekaźnikowej, aby przeszedł on "
-"przez 6 niebieskich plusów"
 
 #. type: ScriptName-text
 #: train603/scene.txt:3
 #, no-wrap
 msgid "train603:remote"
-msgstr "train603:Zdalnie"
+msgstr ""
 
 #. type: \b; header
 #: train603-help/tremote2.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Ćwiczenie"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:4
@@ -58,9 +56,6 @@ msgid ""
 "post</a>, so it will pass over the 6 blue waypoints.\n"
 "The main actors of this exercise are¦:"
 msgstr ""
-"Zaprogramuj zdalnie robota używając <a object|exchange>stacji przekaźnikowej "
-"informacji</a>, aby przeszedł on przez 6 punktów kontrolnych.\n"
-"Głównymi postaciami tego ćwiczenia są¦:"
 
 #. type: Bullet: '1)'
 #: train603-help/tremote2.txt:5
@@ -69,8 +64,6 @@ msgid ""
 "A <a object|botgr>wheeled grabber</a> robot without an energy cell. This is "
 "the master you have to program."
 msgstr ""
-"<a object|botgr>Transporter na kołach</a> bez ogniwa elektrycznego. Jest to "
-"robot nadrzędny, którego musisz zaprogramować."
 
 #. type: Bullet: '2)'
 #: train603-help/tremote2.txt:6
@@ -79,8 +72,6 @@ msgid ""
 "An <a object|exchange>information exchange post</a> that receives "
 "information from the master and then transmits it to the slave."
 msgstr ""
-"<a object|exchange>Stacja przekaźnikowa informacji</a>, otrzymująca "
-"informacje od nadawcy i przekazująca je do odbiorcy."
 
 #. type: Bullet: '3)'
 #: train603-help/tremote2.txt:7
@@ -89,14 +80,12 @@ msgid ""
 "A <a object|bottr>practice bot</a> which waits for orders from the exchange "
 "post. This robot has already been programmed."
 msgstr ""
-"<a object|bottr>Robot treningowy</a> czekający na rozkazy ze stacji "
-"przekaźnikowej. Ten robot został już zaprogramowany."
 
 #. type: Image filename
 #: train603-help/tremote2.txt:9
 #, no-wrap
 msgid "tremot2a"
-msgstr "tremot2a"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:11
@@ -105,20 +94,18 @@ msgid ""
 "An information exchange post stores \"name/value\" couples. To control the "
 "\"slave\" robot we use two couples¦:"
 msgstr ""
-"Stacja przekaźnikowa informacji przechowuje pary \"nazwa/wartość\". Aby "
-"kontrolować robota podległego należy użyć dwóch par¦:"
 
 #. type: Bullet: '1)'
 #: train603-help/tremote2.txt:12
 #, no-wrap
 msgid "name=\"order\", value=order number"
-msgstr "nazwa=\"order\", wartosc=numer rozkazu"
+msgstr ""
 
 #. type: Bullet: '2)'
 #: train603-help/tremote2.txt:13
 #, no-wrap
 msgid "nom=\"param\", valuer=parameter  for the operation"
-msgstr "nom=\"param\", wartoscr=parametr dla rozkazu"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:17
@@ -129,16 +116,12 @@ msgid ""
 "meters write¦:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // order \"move\""
 msgstr ""
-"Rozkaz numer 1 oznacza \"move\" a rozkaz numer 2 oznacza \"turn\". Parametr "
-"jest długością ruchu lub kątem obrotu. Na przykład robota podległego można "
-"przemieścić o 20 metrów pisząc¦:\n"
-"<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // rozkaz \"move\""
 
 #. type: \s; block (usually verbatim code)
 #: train603-help/tremote2.txt:18
 #, no-wrap
 msgid "\t<a cbot|send>send</a>(\"param\", 20, 100);  // distance 20 meters"
-msgstr "\t<a cbot|send>send</a>(\"param\", 20, 100);  // odległość 20 metrów"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:22
@@ -149,10 +132,6 @@ msgid ""
 "<c/>    order=1\n"
 "    param=20"
 msgstr ""
-"Te dwie instrukcje wysyłają następujące informacje do stacji przekaźnikowej¦:"
-"\n"
-"<c/>    order=1\n"
-"    param=20"
 
 #. type: Plain text
 #: train603-help/tremote2.txt:25
@@ -166,13 +145,6 @@ msgid ""
 "<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait "
 "for end of work"
 msgstr ""
-"Robot podległy czeka na rozkaz i wykonuje go. Po wykonaniu rozkazu, zostanie "
-"on usunięty ze stacji przekaźnikowej. Po wysłaniu rozkazu, robot nadrzędny "
-"musi poczekać na wykonanie rozkazu przed wysłaniem następnego. Można to "
-"zrobić, sprawdzając czy rozkaz wciąż jest w stacji przekaźnikowej. Wystarczy "
-"napisać¦:\n"
-"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // czekaj "
-"na koniec pracy"
 
 #. type: \s; block (usually verbatim code)
 #: train603-help/tremote2.txt:28
@@ -182,9 +154,6 @@ msgid ""
 "\t\twait(1);\n"
 "\t}"
 msgstr ""
-"\t{\n"
-"\t\twait(1);\n"
-"\t}"
 
 #. type: Plain text
 #: train603-help/tremote2.txt:31
@@ -195,10 +164,6 @@ msgid ""
 "wait for its completion¦:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 msgstr ""
-"Ponieważ konieczne jest wydanie więcej niż jednego rozkazu, przydatne będzie "
-"napisanie <a cbot|function>funkcji</a> <code>SendToPost</code>, która wysyła "
-"rozkaz i czeka na jego wykonanie¦:\n"
-"<c/><s/>void object::SendToPost(float order, float param)"
 
 #. type: \s; block (usually verbatim code)
 #: train603-help/tremote2.txt:40
@@ -214,15 +179,6 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
-"{\n"
-"\tsend(\"param\", param, 100);  // wyślij parametr\n"
-"\tsend(\"order\", order, 100);  // wyślij rozkaz\n"
-"\n"
-"\twhile ( testinfo(\"order\", 100) )  // czekaj na koniec pracy\n"
-"\t{\n"
-"\t\twait(1);\n"
-"\t}\n"
-"}"
 
 #. type: Plain text
 #: train603-help/tremote2.txt:43
@@ -231,33 +187,30 @@ msgid ""
 "To move forward by 20 meters, you must write in the main program¦:\n"
 "<c/><s/>\tSendToPost(1, 20);  // move(20);"
 msgstr ""
-"Aby przemieścić robota o 20 metrów naprzód, należy napisać w głównym "
-"programie¦:\n"
-"<c/><s/>\tSendToPost(1, 20);  // move(20);"
 
 #. type: Plain text
 #: train603-help/tremote2.txt:45
 #, no-wrap
 msgid "This is the route the robot must travel through¦:"
-msgstr "Oto droga, którą powinien podróżować robot¦:"
+msgstr ""
 
 #. type: Image filename
 #: train603-help/tremote2.txt:46
 #, no-wrap
 msgid "tremot2b"
-msgstr "tremot2b"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:48
 #, no-wrap
 msgid "It's up to you to finish the programming."
-msgstr "Do Ciebie należy dokończenie programu."
+msgstr ""
 
 #. type: \t; header
 #: train603-help/tremote2.txt:49
 #, no-wrap
 msgid "See also"
-msgstr "Zobacz również"
+msgstr ""
 
 #. type: Plain text
 #: train603-help/tremote2.txt:50
@@ -266,5 +219,3 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
 "cbot|category>categories</a>."
 msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."
