@@ -21,7 +21,7 @@ Helpfiles are divided in two categories:
   programs, etc. These are stored in levels/$level/help/.
 
 Helpfiles have their source in english, always stored in the E/
-subdirectory.
+subdirectory. Every other language directory is dynamically generated in the build process from files in level's po/ directory.
 
 ## Colobot syntax
 
