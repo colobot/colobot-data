@@ -59,26 +59,10 @@ sub parse {
             my $quoted_2  = $7;
             my $spacing_3 = $8;
 
-            my $code;
-
-            # levels/<category>/chapterXXX/chaptertitle.txt
-            if ($line_source =~ m#^.*/levels/([^/]*)/chapter([0-9]{3})/chaptertitle\.txt.*$#) {
-                $code = $1.".".$2; # e.g. challenges.001
-            }
-            # levels/<category>/chapterXXX/levelYYY/scene.txt
-            elsif ($line_source =~ m#^.*/levels/[^/]*/chapter([0-9]{3})/level([0-9]{3})/scene\.txt.*$#) {
-                $code = $1.".".$2.".".$3; # e.g. challenges.001.002
-            }
-            # fallback case
-            else {
-                $line_source =~ m#^.*/([^/]*)$#;
-                $code = $1;
-            }
-
-            my $par_1 = $self->translate($code.":".$quoted_1, $line_source, $type."-".$subtype_1);
+            my $par_1 = $self->translate($quoted_1, $line_source, $type."-".$subtype_1);
             $par_1 =~ s/^\D*\d*://;
             if ($secondpart) {
-                my $par_2 = $self->translate($code.":".$quoted_2, $line_source, $type."-".$subtype_2);
+                my $par_2 = $self->translate($quoted_2, $line_source, $type."-".$subtype_2);
                 $par_2 =~ s/^\D*\d*://;
 
                 # This is awkward, but works
