@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 include(../i18n-tools/LevelsI18N.cmake)
 
+set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
+
 ##
 # Add level category directory with all chapters inside
 ##
@@ -44,14 +46,14 @@ endfunction()
 # Add level directory
 ##
 function(add_level level_dir)
+    file(GLOB original_help_files ${level_dir}/help/*.txt)
+    list(SORT original_help_files)
     if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_dir}/po/)
-        generate_level_i18n(translated_level_file translated_help_files ${level_dir}/scene.txt ${level_dir}/help ${level_dir}/po)
+        generate_level_i18n(translated_level_file translated_help_files ${level_dir}/scene.txt "${original_help_files}" ${level_dir}/po)
     else()
         set(translated_level_file ${level_dir}/scene.txt)
     endif()
     install(FILES ${translated_level_file} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
-
-    file(GLOB original_help_files ${level_dir}/help/*.txt)
     install(FILES ${original_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
     install(FILES ${translated_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
 endfunction()

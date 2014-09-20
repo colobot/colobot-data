@@ -1,29 +1,31 @@
 #!/bin/bash
 
+##
+# Script to consolidate multiple translated level files (scene.txt or chaptertitle.txt),
+# generated previously by PO4A, into a single all-in-one output file
+#
+# It supports multiple pairs of source and output files and makes the assumption that
+# each source file was processed by PO4A to yield output files named like $output_file.$language_code
+#
+# Basically, it is a simple sed wrapper that uses the source file and the translated files to copy-paste
+# content into resulting output file
+#
+# The arugments are list of source files as a colon-separated list, list of output files also as colon-separated list
+# and dummy signal file used by build system
+##
+
 # Stop on errors
 set -e
 
-if [ $# -ne 4 ]; then
+if [ $# -ne 3 ]; then
     echo "Invalid arguments!" >&2
-    echo "Usage: $0 source_file1[:source_file2:...] output_file1[:output_file2:...] po4a_config_file translation_signalfile" >&2
+    echo "Usage: $0 source_file1[:source_file2:...] output_file1[:output_file2:...] translation_signalfile" >&2
     exit 1
 fi
 
 SOURCE_FILES="$1"
 OUTPUT_FILES="$2"
-PO4A_FILE="$3"
-TRANSLATION_SIGNALFILE="$4"
-
-# get the directory where the script is in
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# generate translated files using po4a
-if [ -n "$VERBOSE" ]; then
-    verbosity="-v"
-else
-    verbosity="-q"
-fi
-PERL5LIB="${SCRIPT_DIR}/perllib${PERL5LIB+:}$PERL5LIB" po4a -k0 $verbosity -f "$PO4A_FILE" --msgmerge-opt --no-wrap
+TRANSLATION_SIGNALFILE="$3"
 
 IFS=':' read -a source_files_array <<< "$SOURCE_FILES"
 IFS=':' read -a output_files_array <<< "$OUTPUT_FILES"

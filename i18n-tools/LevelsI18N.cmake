@@ -1,5 +1,5 @@
 ##
-# Meta-infrastructure to allow po-based translation of Colobot help files and scene-description (level) files.
+# Meta-infrastructure to allow po-based translation of Colobot level files
 ##
 
 find_program(PO4A po4a)
@@ -7,9 +7,6 @@ find_program(PO4A po4a)
 if(NOT PO4A)
     message(WARNING "PO4A not found, level files will NOT be translated!")
 endif()
-
-set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
-set(HELP_INSTALL_DATA_DIR  ${COLOBOT_INSTALL_DATA_DIR}/help)
 
 set(LEVELS_I18N_WORK_DIR ${CMAKE_CURRENT_BINARY_DIR}/levels-po)
 
@@ -63,7 +60,8 @@ function(generate_chaptertitles_i18n result_translated_chaptertitle_files source
     string(REPLACE ";" ":" escaped_abs_source_chaptertitle_files "${abs_source_chaptertitle_files}")
     string(REPLACE ";" ":" escaped_translated_chaptertitle_files "${translated_chaptertitle_files}")
     add_custom_command(OUTPUT ${translation_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_translations.sh ${escaped_abs_source_chaptertitle_files} ${escaped_translated_chaptertitle_files} ${po4a_cfg_file} ${translation_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh ${po4a_cfg_file}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh ${escaped_abs_source_chaptertitle_files} ${escaped_translated_chaptertitle_files} ${translation_signalfile}
                        DEPENDS ${po_files})
 
     file(GLOB pot_file ${po_dir}/*.pot)
@@ -87,7 +85,7 @@ endfunction()
 ##
 # Generate translated level and help files using po4a
 ##
-function(generate_level_i18n result_translated_level_file result_translated_help_files source_level_file help_dir po_dir)
+function(generate_level_i18n result_translated_level_file result_translated_help_files source_level_file source_help_files po_dir)
     get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
     # generated config file for po4a
     set(po4a_cfg_file ${LEVELS_I18N_WORK_DIR}/${po_dir}/scene_po4a.cfg)
@@ -121,12 +119,10 @@ function(generate_level_i18n result_translated_level_file result_translated_help
     set(output_help_dir ${LEVELS_I18N_WORK_DIR}/${po_dir}/help)
     set(translated_help_files "")
 
-    file(GLOB help_files ${help_dir}/*.txt)
-    list(SORT help_files)
-    foreach(help_file ${help_files})
-        get_filename_component(help_file_name ${help_file} NAME)
+    foreach(source_help_file ${source_help_files})
+        get_filename_component(help_file_name ${source_help_file} NAME)
 
-        file(APPEND ${po4a_cfg_file} "\n[type:colobothelp] ${help_file}")
+        file(APPEND ${po4a_cfg_file} "\n[type:colobothelp] ${source_help_file}")
         foreach(po_file ${po_files})
             get_filename_component(po_file_name ${po_file} NAME)
             # get language code e.g. "de.po" -> "de"
@@ -149,7 +145,8 @@ function(generate_level_i18n result_translated_level_file result_translated_help
 
     # script to run po4a and consolidate the translations
     add_custom_command(OUTPUT ${translation_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_translations.sh ${abs_source_level_file} ${output_level_file} ${po4a_cfg_file} ${translation_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh ${po4a_cfg_file}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh ${abs_source_level_file} ${output_level_file} ${translation_signalfile}
                        DEPENDS ${po_files})
 
     file(GLOB pot_file ${po_dir}/*.pot)
