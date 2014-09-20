@@ -44,17 +44,16 @@ endfunction()
 # Add level directory
 ##
 function(add_level level_dir)
-    if(PO4A)
-        generate_scene_i18n(translated_scene_path ${level_dir}/scene.txt)
+    if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_dir}/po/)
+        generate_level_i18n(translated_level_file translated_help_files ${level_dir}/scene.txt ${level_dir}/help ${level_dir}/po)
     else()
-        set(translated_scene_path ${level_dir}/scene.txt)
+        set(translated_level_file ${level_dir}/scene.txt)
     endif()
-    install(FILES ${translated_scene_path} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
+    install(FILES ${translated_level_file} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
 
-# TODO install help files
-#     if(EXISTS ${level_dir}/help)
-#         install(DIRECTORY ${level_dir}/help DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
-#     endif()
+    file(GLOB original_help_files ${level_dir}/help/*.txt)
+    install(FILES ${original_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
+    install(FILES ${translated_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
 endfunction()
 
 
