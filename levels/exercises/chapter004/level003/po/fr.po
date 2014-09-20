@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,170 +17,64 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train403.languagecode:1
+#: levels/levels-po/exercises/chapter004/level003/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train403/scene.txt:1
+#: levels/exercises/chapter004/level003/scene.txt:1
 #, no-wrap
-msgid "train403:Crazy bot"
-msgstr "train403:Le petit poucet"
+msgid "Crazy bot"
+msgstr "Le petit poucet"
 
 #
 #. type: Resume-text
-#: train403/scene.txt:2
+#: levels/exercises/chapter004/level003/scene.txt:2
 #, no-wrap
-msgid ""
-"train403:Use the radar to put some order into a big mess left behind by a "
-"crazy bot."
-msgstr ""
-"train403:Utilisez le radar pour trouver toutes les marques déposées par le "
-"petit poucet."
+msgid "Use the radar to put some order into a big mess left behind by a crazy bot."
+msgstr "Utilisez le radar pour trouver toutes les marques déposées par le petit poucet."
 
 #
 #. type: ScriptName-text
-#: train403/scene.txt:3
+#: levels/exercises/chapter004/level003/scene.txt:3
 #, no-wrap
-msgid "train403:Move"
-msgstr "train403:Ramasse"
+msgid "Move"
+msgstr "Ramasse"
 
 #. type: \b; header
-#: train403-help/tradar2.txt:1
+#: levels/exercises/chapter004/level003/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: train403-help/tradar2.txt:3
+#: levels/exercises/chapter004/level003/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In this exercise, a \"crazy bot\" places many <a object|waypoint>blue "
-"crosses</a> on the ground. In order to find them, you can reuse the program "
-"written in the previous exercise. This can show you the flexibility of such "
-"a program: it adapts to whatever environment it encounters."
-msgstr ""
-"Le robot <petit poucet> sème des <a object|waypoint>croix bleues</a> sur le "
-"sol. A vous de les trouver toutes. Pour cela, un programme semblable à celui "
-"de l'exercice précédent fera parfaitement l'affaire. Ceci démontre les "
-"capacités d'un tel programme à s'adapter à l'environnement qu'il rencontre."
+msgid "In this exercise, a \"crazy bot\" places many <a object|waypoint>blue crosses</a> on the ground. In order to find them, you can reuse the program written in the previous exercise. This can show you the flexibility of such a program: it adapts to whatever environment it encounters."
+msgstr "Le robot <petit poucet> sème des <a object|waypoint>croix bleues</a> sur le sol. A vous de les trouver toutes. Pour cela, un programme semblable à celui de l'exercice précédent fera parfaitement l'affaire. Ceci démontre les capacités d'un tel programme à s'adapter à l'environnement qu'il rencontre."
 
 #. type: \t; header
-#: train403-help/tradar2.txt:4
+#: levels/exercises/chapter004/level003/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Remark"
 msgstr "Remarque"
 
 #. type: Plain text
-#: train403-help/tradar2.txt:6
+#: levels/exercises/chapter004/level003/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Do not wait too long, because the crazy bot gets down to work "
-"immediately. Fortunately, as long as you are in the program editor, the game "
-"will pause."
-msgstr ""
-"N'attendez pas trop, car le petit poucet se met au travail tout de suite. "
-"Heureusement, pendant l'édition d'un programme, le jeu se met en pause, y "
-"compris le petit poucet."
+msgid "Do not wait too long, because the crazy bot gets down to work immediately. Fortunately, as long as you are in the program editor, the game will pause."
+msgstr "N'attendez pas trop, car le petit poucet se met au travail tout de suite. Heureusement, pendant l'édition d'un programme, le jeu se met en pause, y compris le petit poucet."
 
 #. type: \t; header
-#: train403-help/tradar2.txt:7
+#: levels/exercises/chapter004/level003/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train403-help/tradar2.txt:8
+#: levels/exercises/chapter004/level003/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tradar1>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train400:Motors"
-#~ msgstr "train400:Moteurs"
-
-#
-#~ msgid "train400:Motor"
-#~ msgstr "train400:Moteur"
-
-#
-#~ msgid "train400:"
-#~ msgstr "train400:"
-
-#
-#~ msgid "train401:Dragster"
-#~ msgstr "train401:Dragster"
-
-#
-#~ msgid "train401:"
-#~ msgstr "train401:"
-
-#
-#~ msgid ""
-#~ "train401:Program a progressive deceleration in order to avoid the mines "
-#~ "right behind the goal."
-#~ msgstr "train401:Décélération avec commande directe des moteurs."
-
-#
-#~ msgid "train402:Radar"
-#~ msgstr "train402:Radar"
-
-#
-#~ msgid "train402:"
-#~ msgstr "train402:"
-
-#
-#~ msgid "train402:Use the radar to find lots of stupid blue crosses."
-#~ msgstr ""
-#~ "train402:Utilisez le radar pour trouver des objets répartis aléatoirement."
-
-#
-#~ msgid "train402:Find"
-#~ msgstr "train402:Cherche"
-
-#
-#~ msgid "train403:"
-#~ msgstr "train403:"
-
-#
-#~ msgid "train404:Patient hunter"
-#~ msgstr "train404:Chasse à l'homme"
-
-#
-#~ msgid "train404:"
-#~ msgstr "train404:"
-
-#
-#~ msgid "train404:Be patient enough not to waste your ammunitions."
-#~ msgstr ""
-#~ "train404:Abattre quatre cibles mouvantes sans gaspiller un seul coup."
-
-#
-#~ msgid "train404:Patient"
-#~ msgstr "train404:Abattre"
-
-#
-#~ msgid "train405:Shadow"
-#~ msgstr "train405:Copieur ..."
-
-#
-#~ msgid "train405:"
-#~ msgstr "train405:"
-
-#
-#~ msgid "train405:Follow a bot, as if you were its shadow."
-#~ msgstr "train405:Suivez un robot, sans le heurter."
-
-#
-#~ msgid "train405:Follow"
-#~ msgstr "train405:Suivre"

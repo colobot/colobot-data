@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,97 +17,85 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train402.languagecode:1
+#: levels/levels-po/exercises/chapter004/level002/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: train402/scene.txt:1
+#: levels/exercises/chapter004/level002/scene.txt:1
 #, no-wrap
-msgid "train402:Radar"
-msgstr "train402:Radar"
+msgid "Radar"
+msgstr "Radar"
 
 #. type: Resume-text
-#: train402/scene.txt:2
+#: levels/exercises/chapter004/level002/scene.txt:2
 #, no-wrap
-msgid "train402:Use the radar to find lots of stupid blue crosses."
-msgstr "train402:Użyj radaru do znalezienia mnóstwa głupich niebieskich plusów."
+msgid "Use the radar to find lots of stupid blue crosses."
+msgstr "Użyj radaru do znalezienia mnóstwa głupich niebieskich plusów."
 
 #. type: ScriptName-text
-#: train402/scene.txt:3
+#: levels/exercises/chapter004/level002/scene.txt:3
 #, no-wrap
-msgid "train402:Find"
-msgstr "train402:Znajdź"
+msgid "Find"
+msgstr "Znajdź"
 
 #. type: \b; header
-#: train402-help/tradar1.txt:1
+#: levels/exercises/chapter004/level002/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Ćwiczenie"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:3
+#: levels/exercises/chapter004/level002/help/help.E.txt:3
 #, no-wrap
-msgid ""
-"Let the bot find all the <a object|waypoint>blue crosses</a> on the "
-"ground. As soon as the bot passed over one of the crosses, it will "
-"disappear. Here is the general principle that you will apply:"
-msgstr ""
-"Napisz program umożliwiający robotowi znalezienie wszystkich <a "
-"object|waypoint>niebieskich plusów</a> leżących na ziemi. Plusy znikają po "
-"przejściu przez nie robota. Oto główna zasada działania programu:"
+msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
+msgstr "Napisz program umożliwiający robotowi znalezienie wszystkich <a object|waypoint>niebieskich plusów</a> leżących na ziemi. Plusy znikają po przejściu przez nie robota. Oto główna zasada działania programu:"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:5
+#: levels/exercises/chapter004/level002/help/help.E.txt:5
 #, no-wrap
 msgid "Repeat forever:\n"
 msgstr "Powtarzaj w nieskończoność:\n"
 
 #. type: Bullet: 'o'
-#: train402-help/tradar1.txt:5
+#: levels/exercises/chapter004/level002/help/help.E.txt:5
 #, no-wrap
 msgid "Look for a cross"
 msgstr "Szukaj plusa"
 
 #. type: Bullet: 'o'
-#: train402-help/tradar1.txt:6
+#: levels/exercises/chapter004/level002/help/help.E.txt:6
 #, no-wrap
 msgid "If there is none, stop the program."
 msgstr "Jeśli nie ma żadnego, zatrzymaj program."
 
 #. type: Bullet: 'o'
-#: train402-help/tradar1.txt:7
+#: levels/exercises/chapter004/level002/help/help.E.txt:7
 #, no-wrap
 msgid "Calculate the direction of the cross."
 msgstr "Oblicz kierunek do plusa."
 
 #. type: Bullet: 'o'
-#: train402-help/tradar1.txt:8
+#: levels/exercises/chapter004/level002/help/help.E.txt:8
 #, no-wrap
-msgid ""
-"Set the speed of the motors in such a way that they will find their way to "
-"the cross."
+msgid "Set the speed of the motors in such a way that they will find their way to the cross."
 msgstr "Ustaw prędkości silników tak, aby robot dotarł do znalezionego plusa."
 
 #. type: \b; header
-#: train402-help/tradar1.txt:10
+#: levels/exercises/chapter004/level002/help/help.E.txt:10
 #, no-wrap
 msgid "The program"
 msgstr "Program"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:12
+#: levels/exercises/chapter004/level002/help/help.E.txt:12
 #, no-wrap
-msgid ""
-"Use a <code><a cbot|while>while</a></code> loop in order to repeat several "
-"instructions over and over:"
-msgstr ""
-"Użyj pętli <code><a cbot|while>while</a></code> do wielokrotnego powtarzania "
-"instrukcji:"
+msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
+msgstr "Użyj pętli <code><a cbot|while>while</a></code> do wielokrotnego powtarzania instrukcji:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:16
+#: levels/exercises/chapter004/level002/help/help.E.txt:16
 #, no-wrap
 msgid ""
 "<code>while ( true )\n"
@@ -121,41 +109,25 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:18
+#: levels/exercises/chapter004/level002/help/help.E.txt:18
 #, no-wrap
-msgid ""
-"The instruction <code><a cbot|radar>radar</a></code> will detect the blue "
-"crosses and put their description into a variable, for example "
-"<code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> "
-"needs only one parameter, i.e. the category of the object that it must look "
-"for:"
-msgstr ""
-"Instrukcja <code><a cbot|radar>radar</a></code> wykryje niebieskie plusy i "
-"umieści ich opis w zmiennej, na przykład <code>spot</code>. W tym przypadku "
-"instrukcja <code><a cbot|radar>radar</a>()</code> potrzebuje tylko jednego "
-"parametru, to jest kategorii obiektu, który musi znaleźć:"
+msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
+msgstr "Instrukcja <code><a cbot|radar>radar</a></code> wykryje niebieskie plusy i umieści ich opis w zmiennej, na przykład <code>spot</code>. W tym przypadku instrukcja <code><a cbot|radar>radar</a>()</code> potrzebuje tylko jednego parametru, to jest kategorii obiektu, który musi znaleźć:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:19
+#: levels/exercises/chapter004/level002/help/help.E.txt:19
 #, no-wrap
 msgid "<c/>spot = radar(WayPoint);"
 msgstr "<c/>spot = radar(WayPoint);"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:21
+#: levels/exercises/chapter004/level002/help/help.E.txt:21
 #, no-wrap
-msgid ""
-"Once all the crosses have been found, <code>radar</code> will return the "
-"value <code><a cbot|null>null</a></code>. You will have to test this case "
-"and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
-msgstr ""
-"Po znalezieniu wszystkich plusów, instrukcja <code>radar</code> zwróci "
-"wartość <code><a cbot|null>null</a></code>. Konieczne będzie sprawdzanie "
-"tego warunku instrukcją <code><a cbot|if>if</a></code> i odpowiednie "
-"reagowanie:"
+msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
+msgstr "Po znalezieniu wszystkich plusów, instrukcja <code>radar</code> zwróci wartość <code><a cbot|null>null</a></code>. Konieczne będzie sprawdzanie tego warunku instrukcją <code><a cbot|if>if</a></code> i odpowiednie reagowanie:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:26
+#: levels/exercises/chapter004/level002/help/help.E.txt:26
 #, no-wrap
 msgid ""
 "<c/>if ( spot == null )  // no more ?\n"
@@ -171,53 +143,31 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:27
+#: levels/exercises/chapter004/level002/help/help.E.txt:27
 #, no-wrap
-msgid ""
-"<n/>The instruction <code><a cbot|break>break</a></code> will stop the "
-"infinite loop <code>while (true)</code>."
-msgstr ""
-"<n/>Instrukcja <code><a cbot|break>break</a></code> zatrzyma nieskończoną "
-"pętlę <code>while (true)</code>."
+msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
+msgstr "<n/>Instrukcja <code><a cbot|break>break</a></code> zatrzyma nieskończoną pętlę <code>while (true)</code>."
 
 #. type: Plain text
-#: train402-help/tradar1.txt:29
+#: levels/exercises/chapter004/level002/help/help.E.txt:29
 #, no-wrap
-msgid ""
-"Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate "
-"the angle of the rotation that the bot must perform in order to turn towards "
-"the blue cross. The coordinates of the object are given by "
-"<code>spot.position</code>. The following line will put the angle of the "
-"necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
-msgstr ""
-"Użyj instrukcji <code><a cbot|direct>direction</a>()</code> do obliczenia "
-"kąta obrotu, jaki musi wykonać robot, aby iść w kierunku niebieskiego plusa. "
-"Współrzędne obiektu są podawane przez <code>spot.position</code>. "
-"Następujący wiersz umieści kąt niezbędnego obrotu w <a cbot|var>zmiennej</a> "
-"<code>dir</code>:"
+msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
+msgstr "Użyj instrukcji <code><a cbot|direct>direction</a>()</code> do obliczenia kąta obrotu, jaki musi wykonać robot, aby iść w kierunku niebieskiego plusa. Współrzędne obiektu są podawane przez <code>spot.position</code>. Następujący wiersz umieści kąt niezbędnego obrotu w <a cbot|var>zmiennej</a> <code>dir</code>:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:30
+#: levels/exercises/chapter004/level002/help/help.E.txt:30
 #, no-wrap
 msgid "<c/>dir = direction(spot.position);"
 msgstr "<c/>dir = direction(spot.position);"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:32
+#: levels/exercises/chapter004/level002/help/help.E.txt:32
 #, no-wrap
-msgid ""
-"The value of the angle is positive if the blue cross is on your left hand, "
-"and negative if it is on your right hand. If the cross to be reached is on "
-"your left hand, you must set the right-hand motor to full speed, and set the "
-"left-hand motor to a lower speed, according to the angle:"
-msgstr ""
-"Wartość kąta jest dodatnia, gdy niebieski plus jest po lewej stronie a "
-"ujemna, gdy jest po prawej. Jeśli plus jest po lewej stronie, należy ustawić "
-"pełną prędkość prawego silnika i zmniejszyć prędkość lewego silnika w "
-"zależności od kąta:"
+msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
+msgstr "Wartość kąta jest dodatnia, gdy niebieski plus jest po lewej stronie a ujemna, gdy jest po prawej. Jeśli plus jest po lewej stronie, należy ustawić pełną prędkość prawego silnika i zmniejszyć prędkość lewego silnika w zależności od kąta:"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:38
+#: levels/exercises/chapter004/level002/help/help.E.txt:38
 #, no-wrap
 msgid ""
 "    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
@@ -233,40 +183,25 @@ msgstr ""
 "    kierunek = <code>180</code> -> prędkość = <code>-1.0</code>"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:40
+#: levels/exercises/chapter004/level002/help/help.E.txt:40
 #, no-wrap
-msgid ""
-"The graphic below shows the speed of the left-hand and right-hand motor as "
-"set by the instruction <code><a cbot|motor>motor</a></code>, according to "
-"the angle:"
-msgstr ""
-"Poniższy schemat pokazuje zależność prędkości lewego i prawego silnika, "
-"ustawianego instrukcją <code><a cbot|motor>motor</a></code>, od kąta:"
+msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
+msgstr "Poniższy schemat pokazuje zależność prędkości lewego i prawego silnika, ustawianego instrukcją <code><a cbot|motor>motor</a></code>, od kąta:"
 
 #. type: Image filename
-#: train402-help/tradar1.txt:41
+#: levels/exercises/chapter004/level002/help/help.E.txt:41
 #, no-wrap
 msgid "radar2"
 msgstr "radar2"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:43
+#: levels/exercises/chapter004/level002/help/help.E.txt:43
 #, no-wrap
-msgid ""
-"If the cross is straight ahead, the angle is 0 degrees. The motors will get "
-"the speeds 1 and 1, which means full speed ahead. If the cross is behind, "
-"the right motor will be set to speed -1: it will turn around. You can use "
-"the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate "
-"the necessary speed of the motors:"
-msgstr ""
-"Jeśli plus jest wprost przed robotem, kąt jest równy 0 stopni. Prędkości obu "
-"silników zostaną ustawione na 1, czyli pełną prędkość naprzód. Jeśli plus "
-"jest za robotem, prędkość prawego silnika zostanie ustawiona na -1, co "
-"obróci robota dookoła. Można użyć <a cbot|expr>wyrażenia</a> "
-"<code>1+dir/90</code> w celu obliczenia niezbędnej prędkości silników:"
+msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
+msgstr "Jeśli plus jest wprost przed robotem, kąt jest równy 0 stopni. Prędkości obu silników zostaną ustawione na 1, czyli pełną prędkość naprzód. Jeśli plus jest za robotem, prędkość prawego silnika zostanie ustawiona na -1, co obróci robota dookoła. Można użyć <a cbot|expr>wyrażenia</a> <code>1+dir/90</code> w celu obliczenia niezbędnej prędkości silników:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:47
+#: levels/exercises/chapter004/level002/help/help.E.txt:47
 #, no-wrap
 msgid ""
 "<c/>if ( dir < 0 )  // on the right side?\n"
@@ -280,18 +215,13 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:49
+#: levels/exercises/chapter004/level002/help/help.E.txt:49
 #, no-wrap
-msgid ""
-"Use the same principle if the angle has got a positive value, ranging "
-"between 0 and 180 degrees. It is up to you to work out the exact "
-"instructions to be performed:"
-msgstr ""
-"Użyj tej samej metody w przypadku dodatniej wartości kąta, w przedziale od 0 "
-"do 180 stopni. Do Ciebie należy napisanie dokładnych instrukcji do wykonania:"
+msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
+msgstr "Użyj tej samej metody w przypadku dodatniej wartości kąta, w przedziale od 0 do 180 stopni. Do Ciebie należy napisanie dokładnych instrukcji do wykonania:"
 
 #. type: \s; block (usually verbatim code)
-#: train402-help/tradar1.txt:53
+#: levels/exercises/chapter004/level002/help/help.E.txt:53
 #, no-wrap
 msgid ""
 "<code>else  // on the left side?\n"
@@ -305,30 +235,19 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:55
+#: levels/exercises/chapter004/level002/help/help.E.txt:55
 #, no-wrap
-msgid ""
-"At the beginning of the program, you must still declare all the "
-"variables. <code>spot</code> is of type <code><a "
-"cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a "
-"cbot|float>float</a></code>."
-msgstr ""
-"Na początku programu musisz zadeklarować wszystkie zmienne. <code>spot</code>"
-" jest typu <code><a cbot|object>object</a></code>, podczas gdy "
-"<code>dir</code> jest typu <code><a cbot|float>float</a></code>."
+msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
+msgstr "Na początku programu musisz zadeklarować wszystkie zmienne. <code>spot</code> jest typu <code><a cbot|object>object</a></code>, podczas gdy <code>dir</code> jest typu <code><a cbot|float>float</a></code>."
 
 #. type: \t; header
-#: train402-help/tradar1.txt:56
+#: levels/exercises/chapter004/level002/help/help.E.txt:56
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: train402-help/tradar1.txt:57
+#: levels/exercises/chapter004/level002/help/help.E.txt:57
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: train205.languagecode:1
+#: levels/levels-po/exercises/chapter002/level005/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: train205/scene.txt:1
+#: levels/exercises/chapter002/level005/scene.txt:1
 #, no-wrap
-msgid "train205:Fighter Jet 2"
+msgid "Fighter Jet 2"
 msgstr ""
 
 #. type: Resume-text
-#: train205/scene.txt:2
+#: levels/exercises/chapter002/level005/scene.txt:2
 #, no-wrap
-msgid "train205:Adapt the program to a mountainous terrain."
+msgid "Adapt the program to a mountainous terrain."
 msgstr ""
 
 #. type: ScriptName-text
-#: train205/scene.txt:3
+#: levels/exercises/chapter002/level005/scene.txt:3
 #, no-wrap
-msgid "train205:Move"
+msgid "Move"
 msgstr ""
 
 #. type: \b; header
-#: train205-help/tant5.txt:1
+#: levels/exercises/chapter002/level005/help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:3
+#: levels/exercises/chapter002/level005/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "Adapt the flying height of the <a object|botfj>winged shooter</a> to the "
@@ -55,19 +55,19 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train205-help/tant5.txt:4
+#: levels/exercises/chapter002/level005/help/help.E.txt:4
 #, no-wrap
 msgid "Program"
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:6
+#: levels/exercises/chapter002/level005/help/help.E.txt:6
 #, no-wrap
 msgid "Here is one more time the program of the previous exercise that hunts ants:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train205-help/tant5.txt:31
+#: levels/exercises/chapter002/level005/help/help.E.txt:31
 #, no-wrap
 msgid ""
 "extern void object::JetFighter1()\n"
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:33
+#: levels/exercises/chapter002/level005/help/help.E.txt:33
 #, no-wrap
 msgid ""
 "The bot always stays at an altitude of 10m above sea level. This is not "
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:35
+#: levels/exercises/chapter002/level005/help/help.E.txt:35
 #, no-wrap
 msgid ""
 "We already saw that <code>position.z</code> gives the altitude above sea "
@@ -123,7 +123,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train205-help/tant5.txt:46
+#: levels/exercises/chapter002/level005/help/help.E.txt:46
 #, no-wrap
 msgid ""
 "\tjet(0);\n"
@@ -139,7 +139,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:48
+#: levels/exercises/chapter002/level005/help/help.E.txt:48
 #, no-wrap
 msgid ""
 "Before starting the testing, stabilize the altitude with <c/>jet(0);<n/>: in "
@@ -149,7 +149,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:50
+#: levels/exercises/chapter002/level005/help/help.E.txt:50
 #, no-wrap
 msgid ""
 "Just insert these lines before the <code>wait(0.2)</code>, and the bot will "
@@ -158,13 +158,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train205-help/tant5.txt:51
+#: levels/exercises/chapter002/level005/help/help.E.txt:51
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: train205-help/tant5.txt:52
+#: levels/exercises/chapter002/level005/help/help.E.txt:52
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "

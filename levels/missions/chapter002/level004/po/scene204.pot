@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: scene204.languagecode:1
+#: levels/levels-po/missions/chapter002/level004/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: scene204/scene.txt:1
+#: levels/missions/chapter002/level004/scene.txt:1
 #, no-wrap
-msgid "scene204:Black Box"
+msgid "Black Box"
 msgstr ""
 
 #. type: Resume-text
-#: scene204/scene.txt:2
+#: levels/missions/chapter002/level004/scene.txt:2
 #, no-wrap
-msgid "scene204:Discover crucial information left behind by the first expedition."
+msgid "Discover crucial information left behind by the first expedition."
 msgstr ""
 
 #. type: \b; header
-#: scene204-help/mhlune4.txt:1
+#: levels/missions/chapter002/level004/help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:3
+#: levels/missions/chapter002/level004/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "We have no way of being sure where the previous expedition was headed when "
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:5
+#: levels/missions/chapter002/level004/help/help.E.txt:5
 #, no-wrap
 msgid ""
 "Locate the <a object|bbox>black box</a> they must have left behind and bring "
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:7
+#: levels/missions/chapter002/level004/help/help.E.txt:7
 #, no-wrap
 msgid ""
 "Your bot's <a object|power>power cells</a> are almost entirely "
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:9
+#: levels/missions/chapter002/level004/help/help.E.txt:9
 #, no-wrap
 msgid ""
 "We have developed a program that will recharge the <a object|power>power "
@@ -77,13 +77,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: scene204-help/mhlune4.txt:10
+#: levels/missions/chapter002/level004/help/help.E.txt:10
 #, no-wrap
 msgid "Procedure"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: scene204-help/mhlune4.txt:11
+#: levels/missions/chapter002/level004/help/help.E.txt:11
 #, no-wrap
 msgid ""
 "You first need to build a <a object|convert>converter</a> that converts the "
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '2)'
-#: scene204-help/mhlune4.txt:12
+#: levels/missions/chapter002/level004/help/help.E.txt:12
 #, no-wrap
 msgid ""
 "You should then build both a <a object|station>power station</a> and a <a "
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '3)'
-#: scene204-help/mhlune4.txt:13
+#: levels/missions/chapter002/level004/help/help.E.txt:13
 #, no-wrap
 msgid ""
 "With your power cells fully charged, retrieve the black box. It needs to be "
@@ -110,7 +110,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:16
+#: levels/missions/chapter002/level004/help/help.E.txt:16
 #, no-wrap
 msgid ""
 "<format key><key help/></format> allows you to review these instructions at "
@@ -118,69 +118,25 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: scene204-help/mhlune4.txt:17 scene204-help/mslune4.txt:18
+#: levels/missions/chapter002/level004/help/soluce.E.txt:18
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mhlune4.txt:18
+#: levels/missions/chapter002/level004/help/help.E.txt:18
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr ""
 
 #. type: \b; header
-#: scene204-help/milune4.txt:1
-#, no-wrap
-msgid "Satellite Report"
-msgstr ""
-
-#. type: Plain text
-#: scene204-help/milune4.txt:3
-#, no-wrap
-msgid "Currently in a geo-stationary orbit of the Moon."
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: scene204-help/milune4.txt:5
-#, no-wrap
-msgid "-> SURFACE<c/>"
-msgstr ""
-
-#. type: Plain text
-#: scene204-help/milune4.txt:10
-#, no-wrap
-msgid ""
-"\\tab;Temperature:      -38.2C\n"
-"\\tab;Atmosphere:       none\n"
-"\\tab;Wind:             0.0 mps\n"
-"\\tab;Titanium ore:     none\n"
-"\\tab;Uranium ore:      none"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: scene204-help/milune4.txt:12
-#, no-wrap
-msgid "-> SUBSOIL<c/>"
-msgstr ""
-
-#. type: Plain text
-#: scene204-help/milune4.txt:15
-#, no-wrap
-msgid ""
-"\\tab;Energy source:    everywhere\n"
-"\\tab;Titanium ore:     none\n"
-"\\tab;Uranium ore:      none"
-msgstr ""
-
-#. type: \b; header
-#: scene204-help/mllune4.txt:1
+#: levels/missions/chapter002/level004/help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mllune4.txt:3
+#: levels/missions/chapter002/level004/help/prog.E.txt:3
 #, no-wrap
 msgid ""
 "Below is a program that has been developed by our engineers. It allows you "
@@ -190,7 +146,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mllune4.txt:5
+#: levels/missions/chapter002/level004/help/prog.E.txt:5
 #, no-wrap
 msgid ""
 "Remark: If you click on an element of the program underlined in blue, your "
@@ -200,7 +156,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: scene204-help/mllune4.txt:19
+#: levels/missions/chapter002/level004/help/prog.E.txt:19
 #, no-wrap
 msgid ""
 "extern void object::Recharge1()\n"
@@ -220,37 +176,81 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: scene204-help/mllune4.txt:20
+#: levels/missions/chapter002/level004/help/prog.E.txt:20
 #, no-wrap
 msgid "Archives"
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mllune4.txt:22
+#: levels/missions/chapter002/level004/help/prog.E.txt:22
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: scene204-help/mllune4.txt:23
+#: levels/missions/chapter002/level004/help/prog.E.txt:23
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
 msgstr ""
 
 #. type: \b; header
-#: scene204-help/mslune4.txt:1
+#: levels/missions/chapter002/level004/help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter002/level004/help/report.E.txt:3
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of the Moon."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter002/level004/help/report.E.txt:5
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter002/level004/help/report.E.txt:10
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      -38.2C\n"
+"\\tab;Atmosphere:       none\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter002/level004/help/report.E.txt:12
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter002/level004/help/report.E.txt:15
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter002/level004/help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: scene204-help/mslune4.txt:2
+#: levels/missions/chapter002/level004/help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a converter <button 162/> with the only titanium cube available."
 msgstr ""
 
 #. type: Bullet: '2)'
-#: scene204-help/mslune4.txt:4
+#: levels/missions/chapter002/level004/help/soluce.E.txt:4
 #, no-wrap
 msgid ""
 "Deposit one chunk of titanium ore at a time at the center of the platform "
@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '3)'
-#: scene204-help/mslune4.txt:6
+#: levels/missions/chapter002/level004/help/soluce.E.txt:6
 #, no-wrap
 msgid ""
 "Build a power station <button 164/> with one of the newly converted titanium "
@@ -266,7 +266,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '4)'
-#: scene204-help/mslune4.txt:8
+#: levels/missions/chapter002/level004/help/soluce.E.txt:8
 #, no-wrap
 msgid ""
 "If you don't feel like looking for the black box yourself, build a radar "
@@ -276,7 +276,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '5)'
-#: scene204-help/mslune4.txt:10
+#: levels/missions/chapter002/level004/help/soluce.E.txt:10
 #, no-wrap
 msgid ""
 "Place the grabbers at the center of the power station platform to recharge "
@@ -285,13 +285,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '6)'
-#: scene204-help/mslune4.txt:12
+#: levels/missions/chapter002/level004/help/soluce.E.txt:12
 #, no-wrap
 msgid "Radio-control the winged grabber to the black box and back."
 msgstr ""
 
 #. type: Bullet: '7)'
-#: scene204-help/mslune4.txt:14
+#: levels/missions/chapter002/level004/help/soluce.E.txt:14
 #, no-wrap
 msgid ""
 "Gather both grabbers and the black box onto the spaceship platform and climb "
@@ -299,13 +299,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '8)'
-#: scene204-help/mslune4.txt:16
+#: levels/missions/chapter002/level004/help/soluce.E.txt:16
 #, no-wrap
 msgid "Take off."
 msgstr ""
 
 #. type: Plain text
-#: scene204-help/mslune4.txt:19
+#: levels/missions/chapter002/level004/help/soluce.E.txt:19
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr ""

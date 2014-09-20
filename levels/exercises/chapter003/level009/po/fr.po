@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,122 +17,91 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train309.languagecode:1
+#: levels/levels-po/exercises/chapter003/level009/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train309/scene.txt:1
+#: levels/exercises/chapter003/level009/scene.txt:1
 #, no-wrap
-msgid "train309:Remote control #1"
-msgstr "train309:Télécommande #1"
+msgid "Remote control #1"
+msgstr "Télécommande #1"
 
 #
 #. type: Resume-text
-#: train309/scene.txt:2
+#: levels/exercises/chapter003/level009/scene.txt:2
 #, no-wrap
-msgid ""
-"train309:Remote control a robot using an information exchange post, so it "
-"will transport uranium ore."
-msgstr "train309:Télécommandez un robot par le biais d'une borne d'information."
+msgid "Remote control a robot using an information exchange post, so it will transport uranium ore."
+msgstr "Télécommandez un robot par le biais d'une borne d'information."
 
 #
 #. type: ScriptName-text
-#: train309/scene.txt:3
+#: levels/exercises/chapter003/level009/scene.txt:3
 #, no-wrap
-msgid "train309:remote"
-msgstr "train309:Remote"
+msgid "remote"
+msgstr "Remote"
 
 #. type: \b; header
-#: train309-help/tremote1.txt:1
+#: levels/exercises/chapter003/level009/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:4
+#: levels/exercises/chapter003/level009/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
-"Remote control a robot using an <a object|exchange>information exchange "
-"post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
+"Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
 "The main actors of this exercise are¦:"
-msgstr ""
-"Télécommandez un robot par le biais d'une <a object|exchange>borne "
-"d'information</a> pour qu'il déplace du <a object|uranore>minerai "
-"d'uranium</a>. Les 3 acteurs principaux de cet exercice sont:"
+msgstr "Télécommandez un robot par le biais d'une <a object|exchange>borne d'information</a> pour qu'il déplace du <a object|uranore>minerai d'uranium</a>. Les 3 acteurs principaux de cet exercice sont:"
 
 #. type: Bullet: '1)'
-#: train309-help/tremote1.txt:5
+#: levels/exercises/chapter003/level009/help/help.E.txt:5
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "A <a object|botsr>sniffer</a> (can't carry anything)."
-msgstr ""
-"Un <a object|botsr>robot sniffer</a>, qui ne peut rien porter. C'est lui "
-"l'émetteur que vous devez programmer."
+msgstr "Un <a object|botsr>robot sniffer</a>, qui ne peut rien porter. C'est lui l'émetteur que vous devez programmer."
 
 #. type: Bullet: '2)'
-#: train309-help/tremote1.txt:6
+#: levels/exercises/chapter003/level009/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"An <a object|exchange>information exchange post</a> that receives "
-"information from a sender and then transmits it to a receiver."
-msgstr ""
-"Une <a object|exchange>borne d'information</a> qui reçoit des informations "
-"de l'émetteur puis les transmet au récepteur."
+msgid "An <a object|exchange>information exchange post</a> that receives information from a sender and then transmits it to a receiver."
+msgstr "Une <a object|exchange>borne d'information</a> qui reçoit des informations de l'émetteur puis les transmet au récepteur."
 
 #. type: Bullet: '3)'
-#: train309-help/tremote1.txt:7
+#: levels/exercises/chapter003/level009/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"A <a object|botgr>grabber</a> which waits for orders from the exchange "
-"post. You have no way control this robot directly."
-msgstr ""
-"Un <a object|botgr>robot déménageur</a> qui attend les ordres de la borne. "
-"Ce robot est déjà programmé. Vous n'avez aucun moyen d'action directe sur "
-"lui!"
+msgid "A <a object|botgr>grabber</a> which waits for orders from the exchange post. You have no way control this robot directly."
+msgstr "Un <a object|botgr>robot déménageur</a> qui attend les ordres de la borne. Ce robot est déjà programmé. Vous n'avez aucun moyen d'action directe sur lui!"
 
 #. type: Image filename
-#: train309-help/tremote1.txt:9
+#: levels/exercises/chapter003/level009/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "tremot1a"
 msgstr "tremot1a"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:11
+#: levels/exercises/chapter003/level009/help/help.E.txt:11
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"An information exchange post stores \"name/value\" couples. To control the "
-"\"slave\" robot we use just one couple¦:"
-msgstr ""
-"Une borne stocke des couples \"nom/valeur\". Pour commander le robot "
-"esclave, nous avons choisi d'utiliser un seul couple:"
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple¦:"
+msgstr "Une borne stocke des couples \"nom/valeur\". Pour commander le robot esclave, nous avons choisi d'utiliser un seul couple:"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:13
+#: levels/exercises/chapter003/level009/help/help.E.txt:13
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "    name=\"order\", valuer=order number"
 msgstr "    nom=\"order\", valeur=numéro de l'opération à effectuer"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:15
+#: levels/exercises/chapter003/level009/help/help.E.txt:15
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "The slace robot understands following orders¦:"
 msgstr "Les ordres suivants sont compris par le robot esclave:"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:20
+#: levels/exercises/chapter003/level009/help/help.E.txt:20
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "    1 -> grab();     // take an object\n"
 "    2 -> drop();     // drop an object\n"
@@ -145,251 +114,75 @@ msgstr ""
 "    4 -> move(-10);  // recule"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:23
+#: levels/exercises/chapter003/level009/help/help.E.txt:23
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "To instruct the slave to move forward 10 meters all you have to do is¦:\n"
-"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> "
-"\"move(10)\""
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
-"Par exemple, pour demander au robot esclave d'avancer de 10 mètres, il faut "
-"utiliser l'instruction <code><a cbot|send>send</a></code> et écrire:\n"
+"Par exemple, pour demander au robot esclave d'avancer de 10 mètres, il faut utiliser l'instruction <code><a cbot|send>send</a></code> et écrire:\n"
 "<c/><s/>\tsend(\"order\", 3);  // order \"move(10)\""
 
 #. type: Plain text
-#: train309-help/tremote1.txt:26
+#: levels/exercises/chapter003/level009/help/help.E.txt:26
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
-"After the send instruction we wait for 5 seconds to be sure the move is "
-"done.\n"
+"After the send instruction we wait for 5 seconds to be sure the move is done.\n"
 "<c/><s/>\t<a cbot|wait>wait</a>(5);"
 msgstr ""
-"Après avoir envoyé l'ordre, il faut attendre 5 secondes pour être certain "
-"qu'il soit terminé:\n"
+"Après avoir envoyé l'ordre, il faut attendre 5 secondes pour être certain qu'il soit terminé:\n"
 "<c/><s/>\twait(5);"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:28
+#: levels/exercises/chapter003/level009/help/help.E.txt:28
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Remark: There is a better way for waiting the order has been executed, but "
-"we'll see this later in exercise \"Remote Control #2\"."
-msgstr ""
-"Remarque: Il existe une meilleure façon d'attendre l'exécution de l'ordre, "
-"mais elle sera étudiée plus tard, dans l'exercice \"Télécommande2\"."
+msgid "Remark: There is a better way for waiting the order has been executed, but we'll see this later in exercise \"Remote Control #2\"."
+msgstr "Remarque: Il existe une meilleure façon d'attendre l'exécution de l'ordre, mais elle sera étudiée plus tard, dans l'exercice \"Télécommande2\"."
 
 #. type: Plain text
-#: train309-help/tremote1.txt:30
+#: levels/exercises/chapter003/level009/help/help.E.txt:30
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "To finish the exercise you must¦:"
 msgstr "Pour effectuer cet exercice, il faut:"
 
 #. type: Bullet: '1)'
-#: train309-help/tremote1.txt:31
+#: levels/exercises/chapter003/level009/help/help.E.txt:31
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Take the uranium ore"
 msgstr "Prendre le minerai"
 
 #. type: Bullet: '2)'
-#: train309-help/tremote1.txt:32
+#: levels/exercises/chapter003/level009/help/help.E.txt:32
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Move forward by 10 meters"
 msgstr "Avancer de 10 mètres"
 
 #. type: Bullet: '3)'
-#: train309-help/tremote1.txt:33
+#: levels/exercises/chapter003/level009/help/help.E.txt:33
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Drop the uranium ore"
 msgstr "Déposer le minerai"
 
 #. type: Bullet: '4)'
-#: train309-help/tremote1.txt:34
+#: levels/exercises/chapter003/level009/help/help.E.txt:34
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Move backwards by 10 meters"
 msgstr "Reculer de 10 mètres"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:37
+#: levels/exercises/chapter003/level009/help/help.E.txt:37
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "It's up to you to write the program."
 msgstr "A vous de terminer le programme ..."
 
 #. type: \t; header
-#: train309-help/tremote1.txt:38
+#: levels/exercises/chapter003/level009/help/help.E.txt:38
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train309-help/tremote1.txt:39
+#: levels/exercises/chapter003/level009/help/help.E.txt:39
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tsniff>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train300:Fundamentals"
-#~ msgstr "train300:Base"
-
-#
-#~ msgid "train300:"
-#~ msgstr "train300:"
-
-#
-#~ msgid "train301:Follow a path"
-#~ msgstr "train301:Suivre un chemin"
-
-#
-#~ msgid "train301:"
-#~ msgstr "train301:"
-
-#
-#~ msgid "train301:Move the bot along a given path."
-#~ msgstr "train301:Déplacer un robot le long d'une trajectoire donnée."
-
-#
-#~ msgid "train301:Move"
-#~ msgstr "train301:Déplace"
-
-#
-#~ msgid "train302:Follow with variables"
-#~ msgstr "train302:Suivre mieux"
-
-#
-#~ msgid "train302:"
-#~ msgstr "train302:"
-
-#
-#~ msgid "train302:Use variables in order to store the parameters of the path."
-#~ msgstr ""
-#~ "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant "
-#~ "des variables."
-
-#
-#~ msgid "train302:Move"
-#~ msgstr "train302:Déplace"
-
-#
-#~ msgid "train303:Massacre"
-#~ msgstr "train303:Massacre"
-
-#
-#~ msgid "train303:"
-#~ msgstr "train303:"
-
-#
-#~ msgid "train303:Use a loop in order to destroy six targets."
-#~ msgstr "train303:Détruire six cibles à l'aide d'une boucle."
-
-#
-#~ msgid "train303:Go"
-#~ msgstr "train303:Go"
-
-#
-#~ msgid "train304:Exchange posts 1"
-#~ msgstr "train304:Bornes 1"
-
-#
-#~ msgid "train304:"
-#~ msgstr "train304:"
-
-#
-#~ msgid ""
-#~ "train304:Collect valuable information from information exchange posts."
-#~ msgstr ""
-#~ "train304:Récolter une information de direction, afin d'apprendre le "
-#~ "concept de variable."
-
-#
-#~ msgid "train304:Info"
-#~ msgstr "train304:Suivre"
-
-#
-#~ msgid "train305:Exchange posts 2"
-#~ msgstr "train305:Bornes 2"
-
-#
-#~ msgid "train305:"
-#~ msgstr "train305:"
-
-#
-#~ msgid ""
-#~ "train305:Collect more valuable information from information exchange "
-#~ "posts."
-#~ msgstr ""
-#~ "train305:Récolter des informations de direction et de distance, afin "
-#~ "d'apprendre le concept de variable."
-
-#
-#~ msgid "train305:Info"
-#~ msgstr "train305:Suivre"
-
-#
-#~ msgid "train306:Labyrinth 1"
-#~ msgstr "train306:Labyrinthe 1"
-
-#
-#~ msgid "train306:"
-#~ msgstr "train306:"
-
-#
-#~ msgid "train306:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr ""
-#~ "train306:Programmez un robot pour qu'il avance sans se cogner dans un "
-#~ "labyrinthe."
-
-#
-#~ msgid "train306:Labyrinth"
-#~ msgstr "train306:Labyrinthe"
-
-#
-#~ msgid "train307:Labyrinth 2"
-#~ msgstr "train307:Labyrinthe 2"
-
-#
-#~ msgid "train307:"
-#~ msgstr "train307:"
-
-#
-#~ msgid "train307:Teach your bot to do the same job in a more autonomous way."
-#~ msgstr ""
-#~ "train307:Programmez un robot pour qu'il avance sans se cogner dans un "
-#~ "labyrinthe."
-
-#
-#~ msgid "train307:Labyrinth"
-#~ msgstr "train307:Labyrinthe"
-
-#
-#~ msgid "train308:The gold digger"
-#~ msgstr "train308:Le chercheur d'or"
-
-#
-#~ msgid "train308:"
-#~ msgstr "train308:"
-
-#
-#~ msgid "train308:Instruct your bot to search a zone for subsoil resources."
-#~ msgstr ""
-#~ "train308:Recherche de minerai en sous-sol en programmant un robot pour "
-#~ "quadriller une zone."
-
-#
-#~ msgid "train308:Digger"
-#~ msgstr "train308:Cherche"
-
-#
-#~ msgid "train309:"
-#~ msgstr "train309:"

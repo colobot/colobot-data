@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,39 +17,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: train702.languagecode:1
+#: levels/levels-po/exercises/chapter007/level002/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: train702/scene.txt:1
+#: levels/exercises/chapter007/level002/scene.txt:1
 #, no-wrap
-msgid "train702:Remote control #4"
+msgid "Remote control #4"
 msgstr ""
 
 #. type: Resume-text
-#: train702/scene.txt:2
+#: levels/exercises/chapter007/level002/scene.txt:2
 #, no-wrap
 msgid ""
-"train702:Remote control a bot without using an information exchange post by "
-"defining a class for the orders."
+"Remote control a bot without using an information exchange post by defining "
+"a class for the orders."
 msgstr ""
 
 #. type: ScriptName-text
-#: train702/scene.txt:3
+#: levels/exercises/chapter007/level002/scene.txt:3
 #, no-wrap
-msgid "train702:Remote4"
+msgid "Remote4"
 msgstr ""
 
 #. type: \b; header
-#: train702-help/tremote4.txt:1
+#: levels/exercises/chapter007/level002/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:3
+#: levels/exercises/chapter007/level002/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "Remote control a slave robot without using an <a object|exchange>information "
@@ -59,13 +59,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:5
+#: levels/exercises/chapter007/level002/help/help.E.txt:5
 #, no-wrap
 msgid "The two main actors of this exercise are:\n"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: train702-help/tremote4.txt:5
+#: levels/exercises/chapter007/level002/help/help.E.txt:5
 #, no-wrap
 msgid ""
 "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore "
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '2)'
-#: train702-help/tremote4.txt:6
+#: levels/exercises/chapter007/level002/help/help.E.txt:6
 #, no-wrap
 msgid ""
 "The slave <a object|bottr>practice bot</a> which is already programmed and "
@@ -82,13 +82,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: train702-help/tremote4.txt:8
+#: levels/exercises/chapter007/level002/help/help.E.txt:8
 #, no-wrap
 msgid "The slave"
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:10
+#: levels/exercises/chapter007/level002/help/help.E.txt:10
 #, no-wrap
 msgid ""
 "First of all we must understand how the program of the slave works. The <a "
@@ -98,13 +98,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:12
+#: levels/exercises/chapter007/level002/help/help.E.txt:12
 #, no-wrap
 msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:16
+#: levels/exercises/chapter007/level002/help/help.E.txt:16
 #, no-wrap
 msgid ""
 "{\n"
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:18
+#: levels/exercises/chapter007/level002/help/help.E.txt:18
 #, no-wrap
 msgid ""
 "A second <a cbot|class>class</a> <code>exchange</code> contains the "
@@ -126,13 +126,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:20
+#: levels/exercises/chapter007/level002/help/help.E.txt:20
 #, no-wrap
 msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:22
+#: levels/exercises/chapter007/level002/help/help.E.txt:22
 #, no-wrap
 msgid ""
 "{\n"
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:24
+#: levels/exercises/chapter007/level002/help/help.E.txt:24
 #, no-wrap
 msgid ""
 "<n/>The <code>put</code> method will be used by the master robot for "
@@ -152,7 +152,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:26
+#: levels/exercises/chapter007/level002/help/help.E.txt:26
 #, no-wrap
 msgid ""
 "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(order "
@@ -160,7 +160,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:37
+#: levels/exercises/chapter007/level002/help/help.E.txt:37
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -177,7 +177,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:39
+#: levels/exercises/chapter007/level002/help/help.E.txt:39
 #, no-wrap
 msgid ""
 "Another method <code>get</code> will be used by the slave to retrieve the "
@@ -185,13 +185,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:41
+#: levels/exercises/chapter007/level002/help/help.E.txt:41
 #, no-wrap
 msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:44
+#: levels/exercises/chapter007/level002/help/help.E.txt:44
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -200,7 +200,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:46
+#: levels/exercises/chapter007/level002/help/help.E.txt:46
 #, no-wrap
 msgid ""
 "A third method <code>delete</code> will be used by the slave to indicate "
@@ -208,13 +208,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:48
+#: levels/exercises/chapter007/level002/help/help.E.txt:48
 #, no-wrap
 msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> void delete()"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:52
+#: levels/exercises/chapter007/level002/help/help.E.txt:52
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -224,7 +224,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:54
+#: levels/exercises/chapter007/level002/help/help.E.txt:54
 #, no-wrap
 msgid ""
 "The main program of the slave contains an instance of the class "
@@ -234,13 +234,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:56
+#: levels/exercises/chapter007/level002/help/help.E.txt:56
 #, no-wrap
 msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:59
+#: levels/exercises/chapter007/level002/help/help.E.txt:59
 #, no-wrap
 msgid ""
 "{\n"
@@ -249,7 +249,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:61
+#: levels/exercises/chapter007/level002/help/help.E.txt:61
 #, no-wrap
 msgid ""
 "The outer <code>while</code> loop lasts for ever. The inner "
@@ -259,13 +259,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:63
+#: levels/exercises/chapter007/level002/help/help.E.txt:63
 #, no-wrap
 msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:70
+#: levels/exercises/chapter007/level002/help/help.E.txt:70
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -278,7 +278,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:72
+#: levels/exercises/chapter007/level002/help/help.E.txt:72
 #, no-wrap
 msgid ""
 "Now we have received the order in the <code>todo</code> variable. All we "
@@ -286,13 +286,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:74
+#: levels/exercises/chapter007/level002/help/help.E.txt:74
 #, no-wrap
 msgid "<c/><s/>\t\tif ( todo.m_type == 1 )"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:85
+#: levels/exercises/chapter007/level002/help/help.E.txt:85
 #, no-wrap
 msgid ""
 "\t\t{\n"
@@ -309,7 +309,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:87
+#: levels/exercises/chapter007/level002/help/help.E.txt:87
 #, no-wrap
 msgid ""
 "As soon as the execution of the order is finished, we must call the "
@@ -318,13 +318,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:89
+#: levels/exercises/chapter007/level002/help/help.E.txt:89
 #, no-wrap
 msgid "<c/><s/>\t\tlist.delete();"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:91
+#: levels/exercises/chapter007/level002/help/help.E.txt:91
 #, no-wrap
 msgid ""
 "\t}\n"
@@ -332,13 +332,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: train702-help/tremote4.txt:92
+#: levels/exercises/chapter007/level002/help/help.E.txt:92
 #, no-wrap
 msgid "The master"
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:94
+#: levels/exercises/chapter007/level002/help/help.E.txt:94
 #, no-wrap
 msgid ""
 "In the master we write an function called <code>SendOrder</code> which will "
@@ -346,13 +346,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:96
+#: levels/exercises/chapter007/level002/help/help.E.txt:96
 #, no-wrap
 msgid "<c/><s/>void object::SendOrder(float order, float param)"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:108
+#: levels/exercises/chapter007/level002/help/help.E.txt:108
 #, no-wrap
 msgid ""
 "{\n"
@@ -370,7 +370,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:111
+#: levels/exercises/chapter007/level002/help/help.E.txt:111
 #, no-wrap
 msgid ""
 "The <code>while</code> loop waits until a pending order has been terminated, "
@@ -380,13 +380,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:113
+#: levels/exercises/chapter007/level002/help/help.E.txt:113
 #, no-wrap
 msgid "<c/><s/>extern void object::Remote4( )"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train702-help/tremote4.txt:124
+#: levels/exercises/chapter007/level002/help/help.E.txt:124
 #, no-wrap
 msgid ""
 "{\n"
@@ -403,19 +403,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:126
+#: levels/exercises/chapter007/level002/help/help.E.txt:126
 #, no-wrap
 msgid "<format key><key help/></format> show these instruction at any time."
 msgstr ""
 
 #. type: \t; header
-#: train702-help/tremote4.txt:128
+#: levels/exercises/chapter007/level002/help/help.E.txt:128
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: train702-help/tremote4.txt:129
+#: levels/exercises/chapter007/level002/help/help.E.txt:129
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>programming</a>."
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,39 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: defi204.languagecode:1
+#: levels/levels-po/challenges/chapter002/level004/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: defi204/scene.txt:1
+#: levels/challenges/chapter002/level004/scene.txt:1
 #, no-wrap
-msgid "defi204:Radar and traps 1"
+msgid "Radar and traps 1"
 msgstr ""
 
 #. type: Resume-text
-#: defi204/scene.txt:2
+#: levels/challenges/chapter002/level004/scene.txt:2
 #, no-wrap
-msgid ""
-"defi204:Use your radar to look for various items, but watch out for the "
-"mines."
+msgid "Use your radar to look for various items, but watch out for the mines."
 msgstr ""
 
 #. type: ScriptName-text
-#: defi204/scene.txt:3
+#: levels/challenges/chapter002/level004/scene.txt:3
 #, no-wrap
-msgid "defi204:Traps"
+msgid "Traps"
 msgstr ""
 
 #. type: \b; header
-#: defi204-help/dtrap1.txt:1
+#: levels/challenges/chapter002/level004/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:3
+#: levels/challenges/chapter002/level004/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "Instruct the bot to find all the <a object|waypoint>blue crosses</a> on the "
@@ -58,61 +56,61 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:5
+#: levels/challenges/chapter002/level004/help/help.E.txt:5
 #, no-wrap
 msgid "\tRepeat forever:\n"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:5
+#: levels/challenges/chapter002/level004/help/help.E.txt:5
 #, no-wrap
 msgid "Look for a mine"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:6
+#: levels/challenges/chapter002/level004/help/help.E.txt:6
 #, no-wrap
 msgid "If a mine has been found, calculate the opposite direction"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:7
+#: levels/challenges/chapter002/level004/help/help.E.txt:7
 #, no-wrap
 msgid "Look for a cross"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:8
+#: levels/challenges/chapter002/level004/help/help.E.txt:8
 #, no-wrap
 msgid "If nothing has been found, stop the program"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:9
+#: levels/challenges/chapter002/level004/help/help.E.txt:9
 #, no-wrap
 msgid "Calculate the direction of the cross"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:10
+#: levels/challenges/chapter002/level004/help/help.E.txt:10
 #, no-wrap
 msgid "Calculate the mean value of the two directions"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: defi204-help/dtrap1.txt:11
+#: levels/challenges/chapter002/level004/help/help.E.txt:11
 #, no-wrap
 msgid "Set the motor speeds in order to head towards the mean direction"
 msgstr ""
 
 #. type: \b; header
-#: defi204-help/dtrap1.txt:13
+#: levels/challenges/chapter002/level004/help/help.E.txt:13
 #, no-wrap
 msgid "The instruction <code>radar</code>"
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:17
+#: levels/challenges/chapter002/level004/help/help.E.txt:17
 #, no-wrap
 msgid ""
 "In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we "
@@ -123,7 +121,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:21
+#: levels/challenges/chapter002/level004/help/help.E.txt:21
 #, no-wrap
 msgid ""
 "In order to find a blue cross, simply write:\n"
@@ -132,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:24
+#: levels/challenges/chapter002/level004/help/help.E.txt:24
 #, no-wrap
 msgid ""
 "In order to calculate a direction, use <code><a "
@@ -141,13 +139,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: defi204-help/dtrap1.txt:25
+#: levels/challenges/chapter002/level004/help/help.E.txt:25
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: defi204-help/dtrap1.txt:26
+#: levels/challenges/chapter002/level004/help/help.E.txt:26
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,85 +17,65 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train601.languagecode:1
+#: levels/levels-po/exercises/chapter006/level001/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train601/scene.txt:1
+#: levels/exercises/chapter006/level001/scene.txt:1
 #, no-wrap
-msgid "train601:A function"
-msgstr "train601:Une fonction"
+msgid "A function"
+msgstr "Une fonction"
 
 #
 #. type: Resume-text
-#: train601/scene.txt:2
+#: levels/exercises/chapter006/level001/scene.txt:2
 #, no-wrap
-msgid "train601:Create a function in order to make your program shorter."
-msgstr "train601:Créer une fonction pour déplacer un robot."
+msgid "Create a function in order to make your program shorter."
+msgstr "Créer une fonction pour déplacer un robot."
 
 #
 #. type: ScriptName-text
-#: train601/scene.txt:3
+#: levels/exercises/chapter006/level001/scene.txt:3
 #, no-wrap
-msgid "train601:Move"
-msgstr "train601:Déplace"
+msgid "Move"
+msgstr "Déplace"
 
 #. type: \b; header
-#: train601-help/tproc1.txt:1
+#: levels/exercises/chapter006/level001/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:3
+#: levels/exercises/chapter006/level001/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue "
-"crosses</a> on the ground. The way that must be covered is made of two "
-"squares. The first one measures 15 meters, the second 25 meters."
-msgstr ""
-"Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a "
-"object|waypoint>croix bleues</a> posées au sol. Le trajet à effectuer est "
-"composé de deux carrés. Le premier mesure 15 mètres de côté, et le deuxième "
-"25 mètres."
+msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
+msgstr "Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a object|waypoint>croix bleues</a> posées au sol. Le trajet à effectuer est composé de deux carrés. Le premier mesure 15 mètres de côté, et le deuxième 25 mètres."
 
 #. type: Image filename
-#: train601-help/tproc1.txt:4
+#: levels/exercises/chapter006/level001/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "tproc1a"
 msgstr "tproc1a"
 
 #. type: \b; header
-#: train601-help/tproc1.txt:5
+#: levels/exercises/chapter006/level001/help/help.E.txt:5
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "General principle"
 msgstr "Fonction"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:7
+#: levels/exercises/chapter006/level001/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In order to solve this problem, the most efficient solution consists in "
-"creating a <a cbot|function>function</a> that instructs the bot to move on a "
-"square shape of a certain size. The main program becomes then very "
-"simple:<c/>"
-msgstr ""
-"Pour résoudre ce problème, il est intéressant de créer une <a "
-"cbot|function>fonction</a> qui déplace le robot le long d'un carré. La "
-"fonction principale devient alors très simple:"
+msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
+msgstr "Pour résoudre ce problème, il est intéressant de créer une <a cbot|function>fonction</a> qui déplace le robot le long d'un carré. La fonction principale devient alors très simple:"
 
 #. type: \s; block (usually verbatim code)
-#: train601-help/tproc1.txt:12
+#: levels/exercises/chapter006/level001/help/help.E.txt:12
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "extern void object::Function1( )\n"
 "{\n"
@@ -110,26 +90,14 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:14
+#: levels/exercises/chapter006/level001/help/help.E.txt:14
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"You still have to define the function called <code>Square</code>. In order "
-"to do this, you will have to write some instructions outside the <a "
-"cbot|bloc>block</a> that until now was the frame of each one of your "
-"programs. At the very end of the program, after the last closing brace, we "
-"will define the function <code>Square</code>. The program will take the "
-"following shape:"
-msgstr ""
-"Évidemment, à ce stade, la fonction <code>Carré</code> n'existe pas encore. "
-"Pour la créer, vous devrez écrire des instructions hors du <a "
-"cbot|bloc>bloc</a>, tout à la fin du programme. La structure du programme "
-"devient:"
+msgid "You still have to define the function called <code>Square</code>. In order to do this, you will have to write some instructions outside the <a cbot|bloc>block</a> that until now was the frame of each one of your programs. At the very end of the program, after the last closing brace, we will define the function <code>Square</code>. The program will take the following shape:"
+msgstr "Évidemment, à ce stade, la fonction <code>Carré</code> n'existe pas encore. Pour la créer, vous devrez écrire des instructions hors du <a cbot|bloc>bloc</a>, tout à la fin du programme. La structure du programme devient:"
 
 #. type: \s; block (usually verbatim code)
-#: train601-help/tproc1.txt:24
+#: levels/exercises/chapter006/level001/help/help.E.txt:24
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "extern void object::Function1( )\n"
 "{\n"
@@ -152,19 +120,14 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:26
+#: levels/exercises/chapter006/level001/help/help.E.txt:26
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Let us look in detail at the different elements of the declaration of the "
-"function <code>Square</code>:"
-msgstr ""
-"Examinons en détail la déclaration de cette fonction <code>Carré</code>:"
+msgid "Let us look in detail at the different elements of the declaration of the function <code>Square</code>:"
+msgstr "Examinons en détail la déclaration de cette fonction <code>Carré</code>:"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:29
+#: levels/exercises/chapter006/level001/help/help.E.txt:29
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|void>void</a></code>\n"
 "This means that this function will return no value."
@@ -173,26 +136,18 @@ msgstr ""
 "Ceci indique que la fonction ne retourne aucune valeur."
 
 #. type: Plain text
-#: train601-help/tproc1.txt:32
+#: levels/exercises/chapter006/level001/help/help.E.txt:32
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|object>object</a>::</code>\n"
-"When you write this in front of the function name, you can have access in "
-"the function to all the characteristics of the bot, such as "
-"<code>position</code>, <code>orientation</code>, etc. In this exercise, this "
-"element is not compulsory, as we will not need the characteristics of the "
-"bot in the function."
+"When you write this in front of the function name, you can have access in the function to all the characteristics of the bot, such as <code>position</code>, <code>orientation</code>, etc. In this exercise, this element is not compulsory, as we will not need the characteristics of the bot in the function."
 msgstr ""
 "<code><a cbot|object>object</a>::</code>\n"
-"Permet d'accéder aux caractéristiques du robot, telles que <code>pos</code>, "
-"<code>angle</code>, etc. Dans cet exercice, cette déclaration est "
-"facultative, car on n'accède pas à ces variables."
+"Permet d'accéder aux caractéristiques du robot, telles que <code>pos</code>, <code>angle</code>, etc. Dans cet exercice, cette déclaration est facultative, car on n'accède pas à ces variables."
 
 #. type: Plain text
-#: train601-help/tproc1.txt:35
+#: levels/exercises/chapter006/level001/help/help.E.txt:35
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<code>Square (  )</code>\n"
 "This is the name of the function. You can call it Square, or any other name."
@@ -201,109 +156,66 @@ msgstr ""
 "Nom de la fonction. Vous pouvez choisir le nom qui vous plaît le mieux."
 
 #. type: Plain text
-#: train601-help/tproc1.txt:38
+#: levels/exercises/chapter006/level001/help/help.E.txt:38
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<code><a cbot|float>float</a> length</code>\n"
-"Here you define the parameters that the function will get when it is "
-"called. The first time the function is actually called with "
-"<code>Square(15)</code>, the variable <code>length</code> will contain the "
-"value <code>15</code>. The second time, <code>length</code> will contain "
-"<code>25</code>."
+"Here you define the parameters that the function will get when it is called. The first time the function is actually called with <code>Square(15)</code>, the variable <code>length</code> will contain the value <code>15</code>. The second time, <code>length</code> will contain <code>25</code>."
 msgstr ""
 "<code><a cbot|float>float</a> length</code>\n"
-"Paramètre que reçoit la fonction. A l'intérieur de la fonction, "
-"<code>length</code> prendra une première fois la valeur 15 et une deuxième "
-"fois la valeur 25."
+"Paramètre que reçoit la fonction. A l'intérieur de la fonction, <code>length</code> prendra une première fois la valeur 15 et une deuxième fois la valeur 25."
 
 #. type: Plain text
-#: train601-help/tproc1.txt:40
+#: levels/exercises/chapter006/level001/help/help.E.txt:40
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Here is in detail what will happen when the program is executed:\n"
 msgstr "Le flux du programme se déroule ainsi:\n"
 
 #. type: Bullet: '-'
-#: train601-help/tproc1.txt:40
+#: levels/exercises/chapter006/level001/help/help.E.txt:40
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "First the main function <code>Function</code> will be executed."
 msgstr "On exécute la fonction principale <code>Déplace</code> depuis le début."
 
 #. type: Bullet: '-'
-#: train601-help/tproc1.txt:41
+#: levels/exercises/chapter006/level001/help/help.E.txt:41
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"At the line <code>Square(15)</code>, the program will follow the red arrow "
-"and enter the function <code>Square</code> a first time, <code>length</code> "
-"containing <code>15</code>."
-msgstr ""
-"Lorsqu'on rencontre <code>Carré(15)</code>, on suit la flèche rouge pour "
-"entrer une première fois dans la fonction <code>Carré</code>."
+msgid "At the line <code>Square(15)</code>, the program will follow the red arrow and enter the function <code>Square</code> a first time, <code>length</code> containing <code>15</code>."
+msgstr "Lorsqu'on rencontre <code>Carré(15)</code>, on suit la flèche rouge pour entrer une première fois dans la fonction <code>Carré</code>."
 
 #. type: Bullet: '-'
-#: train601-help/tproc1.txt:42
+#: levels/exercises/chapter006/level001/help/help.E.txt:42
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"At the end of the function <code>Square</code>, the program follows the "
-"orange arrow and comes back to the main function."
-msgstr ""
-"Lorsque la fonction <code>Carré</code> est terminée, on revient dans "
-"<code>Déplace</code> selon la flèche orange."
+msgid "At the end of the function <code>Square</code>, the program follows the orange arrow and comes back to the main function."
+msgstr "Lorsque la fonction <code>Carré</code> est terminée, on revient dans <code>Déplace</code> selon la flèche orange."
 
 #. type: Bullet: '-'
-#: train601-help/tproc1.txt:43
+#: levels/exercises/chapter006/level001/help/help.E.txt:43
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"At the line <code>Square(25)</code>, the program will follow the blue arrow "
-"and enter the function <code>Square</code> a second time."
-msgstr ""
-"On continue <code>Déplace</code>, qui contient alors <code>Carré(25)</code>. "
-"On suit donc la flèche bleue pour entrer une deuxième fois dans "
-"<code>Carré</code>."
+msgid "At the line <code>Square(25)</code>, the program will follow the blue arrow and enter the function <code>Square</code> a second time."
+msgstr "On continue <code>Déplace</code>, qui contient alors <code>Carré(25)</code>. On suit donc la flèche bleue pour entrer une deuxième fois dans <code>Carré</code>."
 
 #. type: Bullet: '-'
-#: train601-help/tproc1.txt:44
+#: levels/exercises/chapter006/level001/help/help.E.txt:44
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"At the end of the function <code>Square</code>, the program follows the "
-"light blue arrow and comes back to the main function."
-msgstr ""
-"Lorsque <code>Carré</code> est terminé, on revient dans <code>Déplace</code> "
-"en suivant la flèche bleu clair."
+msgid "At the end of the function <code>Square</code>, the program follows the light blue arrow and comes back to the main function."
+msgstr "Lorsque <code>Carré</code> est terminé, on revient dans <code>Déplace</code> en suivant la flèche bleu clair."
 
 #. type: Image filename
-#: train601-help/tproc1.txt:46
+#: levels/exercises/chapter006/level001/help/help.E.txt:46
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "tproc1b"
 msgstr "tproc1b"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:48
+#: levels/exercises/chapter006/level001/help/help.E.txt:48
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In the function <code>Square</code>, use the instructions <code><a "
-"cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code>. In order "
-"to make it shorter, you can use a <code><a cbot|for>for</a></code> loop, "
-"that will repeat the instructions <code><a cbot|move>move</a></code> and "
-"<code><a cbot|turn>turn</a></code> 4 times; however, this is not compulsory."
-msgstr ""
-"L'intérieur de la fonction <code>Carré</code> utilise les instructions "
-"<code><a cbot|move>move</a></code> et <code><a cbot|turn>turn</a></code>. "
-"L'utilisation d'une boucle <code><a cbot|for>for</a></code> répétée 4 fois "
-"allège l'écriture, mais n'est pas indispensable."
+msgid "In the function <code>Square</code>, use the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code>. In order to make it shorter, you can use a <code><a cbot|for>for</a></code> loop, that will repeat the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code> 4 times; however, this is not compulsory."
+msgstr "L'intérieur de la fonction <code>Carré</code> utilise les instructions <code><a cbot|move>move</a></code> et <code><a cbot|turn>turn</a></code>. L'utilisation d'une boucle <code><a cbot|for>for</a></code> répétée 4 fois allège l'écriture, mais n'est pas indispensable."
 
 #. type: \s; block (usually verbatim code)
-#: train601-help/tproc1.txt:57
+#: levels/exercises/chapter006/level001/help/help.E.txt:57
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "void object::Square(float length)\n"
 "{\n"
@@ -324,67 +236,13 @@ msgstr ""
 "}"
 
 #. type: \t; header
-#: train601-help/tproc1.txt:58
+#: levels/exercises/chapter006/level001/help/help.E.txt:58
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train601-help/tproc1.txt:59
+#: levels/exercises/chapter006/level001/help/help.E.txt:59
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tdraw1>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train600:Functions"
-#~ msgstr "train600:Fonctions"
-
-#
-#~ msgid "train600:"
-#~ msgstr "train600:"
-
-#
-#~ msgid "train601:"
-#~ msgstr "train601:"
-
-#
-#~ msgid "train602:Spiral"
-#~ msgstr "train602:La spirale"
-
-#
-#~ msgid "train602:"
-#~ msgstr "train602:"
-
-#
-#~ msgid ""
-#~ "train602:Create a procedure in order to teach your bot to perform a "
-#~ "spiral."
-#~ msgstr ""
-#~ "train602:Créer une fonction pour déplacer un robot dans une spirale."
-
-#
-#~ msgid "train602:Move"
-#~ msgstr "train602:Déplace"
-
-#
-#~ msgid "train603:Remote control #2"
-#~ msgstr "train603:Télécommande #2"
-
-#
-#~ msgid "train603:"
-#~ msgstr "train603:"
-
-#
-#~ msgid ""
-#~ "train603:Remote control a robot using an information exchange post, so it "
-#~ "will pass over the 6 blue waypoints."
-#~ msgstr ""
-#~ "train603:Télécommandez un robot par le biais d'une borne d'information."
-
-#
-#~ msgid "train603:remote"
-#~ msgstr "train603:Remote"

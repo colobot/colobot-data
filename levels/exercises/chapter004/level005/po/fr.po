@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,117 +17,91 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train405.languagecode:1
+#: levels/levels-po/exercises/chapter004/level005/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train405/scene.txt:1
+#: levels/exercises/chapter004/level005/scene.txt:1
 #, no-wrap
-msgid "train405:Shadow"
-msgstr "train405:Copieur ..."
+msgid "Shadow"
+msgstr "Copieur ..."
 
 #
 #. type: Resume-text
-#: train405/scene.txt:2
+#: levels/exercises/chapter004/level005/scene.txt:2
 #, no-wrap
-msgid "train405:Follow a bot, as if you were its shadow."
-msgstr "train405:Suivez un robot, sans le heurter."
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Suivez un robot, sans le heurter."
 
 #
 #. type: ScriptName-text
-#: train405/scene.txt:3
+#: levels/exercises/chapter004/level005/scene.txt:3
 #, no-wrap
-msgid "train405:Follow"
-msgstr "train405:Suivre"
+msgid "Follow"
+msgstr "Suivre"
 
 #. type: \b; header
-#: train405-help/tfollow1.txt:1
+#: levels/exercises/chapter004/level005/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:3
+#: levels/exercises/chapter004/level005/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"You must follow the <a object|bottr>target bot</a> with the explosive "
-"device, but without touching it, otherwise it will blow up. Every time the "
-"target bot stops, you must be close to it (less than 10m). After you managed "
-"to stay close to the target bot at 10 successive stops, it will lead you to "
-"the finishing pad, and the exercise is over. At every stop, the target bot "
-"checks that you are there. If you are not there, you must start over again."
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
 msgstr ""
-"Vous devez programmer le <a object|bottr>robot</a> d'entraînement pour "
-"suivre la caisse d'explosifs, mais sans la toucher, car elle est très "
-"fragile. Chaque fois que la caisse s'arrête 2 secondes, vous devez être à "
-"proximité immédiate (moins de 10 mètres). Après 10 arrêts, la caisse "
-"s'approche de la plate-forme d'arrivée, pous vous y ammener.\n"
-"A chaque arrêt, la caisse vérifie que vous êtes bien là. Si ce n'est pas le "
-"cas, le compteur est remis à zéro. Vous devez donc réussir 10 fois "
-"consécutives!"
+"Vous devez programmer le <a object|bottr>robot</a> d'entraînement pour suivre la caisse d'explosifs, mais sans la toucher, car elle est très fragile. Chaque fois que la caisse s'arrête 2 secondes, vous devez être à proximité immédiate (moins de 10 mètres). Après 10 arrêts, la caisse s'approche de la plate-forme d'arrivée, pous vous y ammener.\n"
+"A chaque arrêt, la caisse vérifie que vous êtes bien là. Si ce n'est pas le cas, le compteur est remis à zéro. Vous devez donc réussir 10 fois consécutives!"
 
 #. type: \b; header
-#: train405-help/tfollow1.txt:4
+#: levels/exercises/chapter004/level005/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "General principle"
 msgstr "Principe"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:6
+#: levels/exercises/chapter004/level005/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Repeat forever :\n"
 msgstr "Répéter à l'infini:\n"
 
 #. type: Bullet: 'o'
-#: train405-help/tfollow1.txt:6
+#: levels/exercises/chapter004/level005/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Look for the target bot."
 msgstr "Chercher la caisse."
 
 #. type: Bullet: 'o'
-#: train405-help/tfollow1.txt:7
+#: levels/exercises/chapter004/level005/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Calculate the distance to the bot."
 msgstr "Calculer la distance jusqu'à la caisse."
 
 #. type: Bullet: 'o'
-#: train405-help/tfollow1.txt:8
+#: levels/exercises/chapter004/level005/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "if the distance to the target bot is less than 5m, move backward."
 msgstr "Si cette distance est plus petite que 5 mètres, reculer."
 
 #. type: Bullet: 'o'
-#: train405-help/tfollow1.txt:9
+#: levels/exercises/chapter004/level005/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Otherwise, calculate the direction of the target bot, and move towards it."
 msgstr "Sinon, calculer la direction de la caisse et s'y diriger."
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:12
+#: levels/exercises/chapter004/level005/help/help.E.txt:12
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"As many times before, use <code><a cbot|while>while</a> (true)</code> in "
-"order to perform the infinite loop:"
-msgstr ""
-"La boucle infinie s'effectue avec un traditionnel <code><a "
-"cbot|while>while</a>( true )</code>."
+msgid "As many times before, use <code><a cbot|while>while</a> (true)</code> in order to perform the infinite loop:"
+msgstr "La boucle infinie s'effectue avec un traditionnel <code><a cbot|while>while</a>( true )</code>."
 
 #. type: \s; block (usually verbatim code)
-#: train405-help/tfollow1.txt:16
+#: levels/exercises/chapter004/level005/help/help.E.txt:16
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<code>while (true)\n"
 "{\n"
@@ -140,81 +114,54 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:18
+#: levels/exercises/chapter004/level005/help/help.E.txt:18
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Look for the target bot with the instruction <code><a "
-"cbot|radar>radar</a></code>:"
-msgstr ""
-"La recherche de la caisse se fait dans toutes les directions, avec <code><a "
-"cbot|radar>radar</a></code> :"
+msgid "Look for the target bot with the instruction <code><a cbot|radar>radar</a></code>:"
+msgstr "La recherche de la caisse se fait dans toutes les directions, avec <code><a cbot|radar>radar</a></code> :"
 
 #. type: \s; block (usually verbatim code)
-#: train405-help/tfollow1.txt:19
+#: levels/exercises/chapter004/level005/help/help.E.txt:19
 #, no-wrap
 msgid "<c/>\ttarget = radar(TargetBot);"
 msgstr ""
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:21
+#: levels/exercises/chapter004/level005/help/help.E.txt:21
 #, no-wrap
 msgid "You do not have to test if the radar found a target bot: there must be one."
 msgstr ""
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:23
+#: levels/exercises/chapter004/level005/help/help.E.txt:23
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Use the instruction <code><a cbot|dist>distance</a>( , )</code> to calculate "
-"the distance between two points. The first point will be the position of "
-"your own bot, given by <code>position</code>. The second point is the "
-"position of the target bot, given by <code>target.position</code>."
-msgstr ""
-"Le calcul de la distance jusqu'à la caisse utilise l'instruction <code><a "
-"cbot|dist>distance</a>(p1, p2)</code>. Cette instruction retourne la "
-"distance entre deux points <code>p1</code> et <code>p2</code>. Le premier "
-"point sera ici la position du <a object|bottr>robot</a>, obtenue simplement "
-"avec <code>pos</code>. La position de la caisse est obtenue à travers la "
-"description de l'objet <code>target</code> avec l'expression "
-"<code>target.position</code>."
+msgid "Use the instruction <code><a cbot|dist>distance</a>( , )</code> to calculate the distance between two points. The first point will be the position of your own bot, given by <code>position</code>. The second point is the position of the target bot, given by <code>target.position</code>."
+msgstr "Le calcul de la distance jusqu'à la caisse utilise l'instruction <code><a cbot|dist>distance</a>(p1, p2)</code>. Cette instruction retourne la distance entre deux points <code>p1</code> et <code>p2</code>. Le premier point sera ici la position du <a object|bottr>robot</a>, obtenue simplement avec <code>pos</code>. La position de la caisse est obtenue à travers la description de l'objet <code>target</code> avec l'expression <code>target.position</code>."
 
 #. type: \s; block (usually verbatim code)
-#: train405-help/tfollow1.txt:24
+#: levels/exercises/chapter004/level005/help/help.E.txt:24
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/>len = distance(position, target.position);"
 msgstr "<c/>len = distance(pos, target.position);"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:30
+#: levels/exercises/chapter004/level005/help/help.E.txt:30
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
-"If the distance to the target bot is smaller than 5m, move backward with a "
-"speed inversely proportional to the distance: the closer you are to the bot, "
-"the faster you must move backward.\n"
+"If the distance to the target bot is smaller than 5m, move backward with a speed inversely proportional to the distance: the closer you are to the bot, the faster you must move backward.\n"
 "\tDistance = 5.0 meters -> speed =  0.0\n"
 "\tDistance = 2.5 meters -> speed = -0.5\n"
 "\tDistance = 0.0 meters -> speed = -1.0\n"
-"You can use the <a cbot|expr>expression</a> <code>distance/5-1</code> in "
-"order to achieve this, together with the <code><a cbot|if>if</a></code> to "
-"test if the target is closer than 5m:"
+"You can use the <a cbot|expr>expression</a> <code>distance/5-1</code> in order to achieve this, together with the <code><a cbot|if>if</a></code> to test if the target is closer than 5m:"
 msgstr ""
-"Si la distance est inférieure à 5 mètres, il faut reculer d'une vitesse "
-"proportionnelle à la distance. Plus la distance est petite, plus il faut "
-"reculer vivement.\n"
+"Si la distance est inférieure à 5 mètres, il faut reculer d'une vitesse proportionnelle à la distance. Plus la distance est petite, plus il faut reculer vivement.\n"
 "\tDistance = 5.0 mètres -> vitesse =  0.0\n"
 "\tDistance = 2.5 mètres -> vitesse = -0.5\n"
 "\tDistance = 0.0 mètres -> vitesse = -1.0\n"
-"Ceci s'obtient très simplement avec l'<a cbot|expr>expression</a> "
-"<code>distance/5-1</code>. Donc, avec un <code><a cbot|if>if</a></code>:"
+"Ceci s'obtient très simplement avec l'<a cbot|expr>expression</a> <code>distance/5-1</code>. Donc, avec un <code><a cbot|if>if</a></code>:"
 
 #. type: \s; block (usually verbatim code)
-#: train405-help/tfollow1.txt:34
+#: levels/exercises/chapter004/level005/help/help.E.txt:34
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<c/>if ( len < 5 )  // too close ?\n"
 "{\n"
@@ -227,23 +174,14 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:36
+#: levels/exercises/chapter004/level005/help/help.E.txt:36
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"If the distance to the target is greater than 5m, move towards the "
-"target. First calculate the angle necessary to face the target with the "
-"instruction <code><a cbot|direct>direction</a></code>. You can then adjust "
-"the speed of the right-hand and left-hand motor in order to follow the "
-"target:"
-msgstr ""
-"Si la distance dépasse 5 mètres, on avance en direction de la caisse en "
-"calculant l'angle avec <code><a cbot|direct>direction</a></code>."
+msgid "If the distance to the target is greater than 5m, move towards the target. First calculate the angle necessary to face the target with the instruction <code><a cbot|direct>direction</a></code>. You can then adjust the speed of the right-hand and left-hand motor in order to follow the target:"
+msgstr "Si la distance dépasse 5 mètres, on avance en direction de la caisse en calculant l'angle avec <code><a cbot|direct>direction</a></code>."
 
 #. type: \s; block (usually verbatim code)
-#: train405-help/tfollow1.txt:48
+#: levels/exercises/chapter004/level005/help/help.E.txt:48
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<c/>else\n"
 "{\n"
@@ -272,23 +210,17 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:55
+#: levels/exercises/chapter004/level005/help/help.E.txt:55
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
-"When the target is on your left, <code>dir</code> takes a positive value, "
-"ranging between 0 and 180. The <a cbot|expr>expression</a> "
-"<code>1-dir/90</code> returns a speed ranging between 1 and -1, according to "
-"the direction:\n"
+"When the target is on your left, <code>dir</code> takes a positive value, ranging between 0 and 180. The <a cbot|expr>expression</a> <code>1-dir/90</code> returns a speed ranging between 1 and -1, according to the direction:\n"
 "\tdirection =   0 -> speed =  1.0\n"
 "\tdirection =  45 -> speed =  0.5\n"
 "\tdirection =  90 -> speed =  0.0\n"
 "\tdirection = 135 -> speed = -0.5\n"
 "\tdirection = 180 -> speed = -1.0"
 msgstr ""
-"Lorsque la caisse est à gauche, <code>dir</code> est positif, compris entre "
-"0 et 180 degrés. L'<a cbot|expr>expression</a> <code>1-dir/90</code> donne "
-"une vitesse comprise entre 1 et -1, selon la direction.\n"
+"Lorsque la caisse est à gauche, <code>dir</code> est positif, compris entre 0 et 180 degrés. L'<a cbot|expr>expression</a> <code>1-dir/90</code> donne une vitesse comprise entre 1 et -1, selon la direction.\n"
 "\tdirection =   0 -> vitesse =  1.0\n"
 "\tdirection =  45 -> vitesse =  0.5\n"
 "\tdirection =  90 -> vitesse =  0.0\n"
@@ -296,134 +228,33 @@ msgstr ""
 "\tdirection = 180 -> vitesse = -1.0"
 
 #. type: Image filename
-#: train405-help/tfollow1.txt:56
+#: levels/exercises/chapter004/level005/help/help.E.txt:56
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "radar2"
 msgstr "radar2"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:58
+#: levels/exercises/chapter004/level005/help/help.E.txt:58
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"When the target is on the right side, <code>dir</code> is negative, ranging "
-"between 0 and -180."
-msgstr ""
-"Lorsque la caisse est à droite, <code>dir</code> est négatif, compris entre "
-"0 et -180 degrés."
+msgid "When the target is on the right side, <code>dir</code> is negative, ranging between 0 and -180."
+msgstr "Lorsque la caisse est à droite, <code>dir</code> est négatif, compris entre 0 et -180 degrés."
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:60
+#: levels/exercises/chapter004/level005/help/help.E.txt:60
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The only task left for you now is to declare the <a cbot|var>variables</a> "
-"that you use in the program. <code>target</code> is of type "
-"<code>object</code>, whereas <code>dir</code> and <code>len</code> are of "
-"type <code>float</code>."
+msgid "The only task left for you now is to declare the <a cbot|var>variables</a> that you use in the program. <code>target</code> is of type <code>object</code>, whereas <code>dir</code> and <code>len</code> are of type <code>float</code>."
 msgstr ""
-"Pour que ce programme fonctionne, il faut encore déclarer toutes les <a "
-"cbot|var>variables</a> utilisées.\n"
-"<code>target</code> est de type <code>object</code>, alors que "
-"<code>dir</code> et <code>len</code> sont de type <code>float</code>."
+"Pour que ce programme fonctionne, il faut encore déclarer toutes les <a cbot|var>variables</a> utilisées.\n"
+"<code>target</code> est de type <code>object</code>, alors que <code>dir</code> et <code>len</code> sont de type <code>float</code>."
 
 #. type: \t; header
-#: train405-help/tfollow1.txt:61
+#: levels/exercises/chapter004/level005/help/help.E.txt:61
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train405-help/tfollow1.txt:62
+#: levels/exercises/chapter004/level005/help/help.E.txt:62
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tchasse>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train400:Motors"
-#~ msgstr "train400:Moteurs"
-
-#
-#~ msgid "train400:Motor"
-#~ msgstr "train400:Moteur"
-
-#
-#~ msgid "train400:"
-#~ msgstr "train400:"
-
-#
-#~ msgid "train401:Dragster"
-#~ msgstr "train401:Dragster"
-
-#
-#~ msgid "train401:"
-#~ msgstr "train401:"
-
-#
-#~ msgid ""
-#~ "train401:Program a progressive deceleration in order to avoid the mines "
-#~ "right behind the goal."
-#~ msgstr "train401:Décélération avec commande directe des moteurs."
-
-#
-#~ msgid "train402:Radar"
-#~ msgstr "train402:Radar"
-
-#
-#~ msgid "train402:"
-#~ msgstr "train402:"
-
-#
-#~ msgid "train402:Use the radar to find lots of stupid blue crosses."
-#~ msgstr ""
-#~ "train402:Utilisez le radar pour trouver des objets répartis aléatoirement."
-
-#
-#~ msgid "train402:Find"
-#~ msgstr "train402:Cherche"
-
-#
-#~ msgid "train403:Crazy bot"
-#~ msgstr "train403:Le petit poucet"
-
-#
-#~ msgid "train403:"
-#~ msgstr "train403:"
-
-#
-#~ msgid ""
-#~ "train403:Use the radar to put some order into a big mess left behind by a "
-#~ "crazy bot."
-#~ msgstr ""
-#~ "train403:Utilisez le radar pour trouver toutes les marques déposées par "
-#~ "le petit poucet."
-
-#
-#~ msgid "train403:Move"
-#~ msgstr "train403:Ramasse"
-
-#
-#~ msgid "train404:Patient hunter"
-#~ msgstr "train404:Chasse à l'homme"
-
-#
-#~ msgid "train404:"
-#~ msgstr "train404:"
-
-#
-#~ msgid "train404:Be patient enough not to waste your ammunitions."
-#~ msgstr ""
-#~ "train404:Abattre quatre cibles mouvantes sans gaspiller un seul coup."
-
-#
-#~ msgid "train404:Patient"
-#~ msgstr "train404:Abattre"
-
-#
-#~ msgid "train405:"
-#~ msgstr "train405:"

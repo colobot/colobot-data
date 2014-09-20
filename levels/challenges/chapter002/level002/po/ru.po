@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,140 +17,108 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: defi202.languagecode:1
+#: levels/levels-po/challenges/chapter002/level002/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "R"
 
 #. type: Title-text
-#: defi202/scene.txt:1
+#: levels/challenges/chapter002/level002/scene.txt:1
 #, no-wrap
-msgid "defi202:Shadow 2"
-msgstr "defi202:Тень 2"
+msgid "Shadow 2"
+msgstr "Тень 2"
 
 #. type: Resume-text
-#: defi202/scene.txt:2
+#: levels/challenges/chapter002/level002/scene.txt:2
 #, no-wrap
-msgid "defi202:Follow a bot, as if you were its shadow."
-msgstr "defi202:Следуйте за ботом, как будто вы его тень."
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Следуйте за ботом, как будто вы его тень."
 
 #. type: ScriptName-text
-#: defi202/scene.txt:3
+#: levels/challenges/chapter002/level002/scene.txt:3
 #, no-wrap
-msgid "defi202:Follow"
-msgstr "defi202:Следовать"
+msgid "Follow"
+msgstr "Следовать"
 
 #. type: \b; header
-#: defi202-help/dfollow1.txt:1
+#: levels/challenges/chapter002/level002/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Упражнение"
 
 #. type: Plain text
-#: defi202-help/dfollow1.txt:3
+#: levels/challenges/chapter002/level002/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"You must follow the <a object|bottr>target bot</a> with the explosive "
-"device, but without touching it, otherwise it will blow up. Every time the "
-"target bot stops, you must be close to it (less than 10m). After you managed "
-"to stay close to the target bot at 10 successive stops, it will lead you to "
-"the finishing pad, and the exercise is over. At every stop, the target bot "
-"checks that you are there. If you are not there, you must start over again."
-msgstr ""
-"Вы должны следовать за <a object|bottr>ботом-мишенью</a>, который начинен "
-"взрывчаткой, не прикасаясь к нему, иначе он взорвется. Каждый раз, когда бот-"
-"мишень останавливается, вы должны быть близко к нему (менее 10 м). После "
-"того, как вам удастся остановится достаточно близко от бота 10 раз подряд, "
-"он отведет вас к финишной площадке, и упражнение будет выполнено. При каждой "
-"остановке бот-мишень проверяет, следуете ли вы за ним. Если нет, вы должны "
-"будете начать движение с самого начала."
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
+msgstr "Вы должны следовать за <a object|bottr>ботом-мишенью</a>, который начинен взрывчаткой, не прикасаясь к нему, иначе он взорвется. Каждый раз, когда бот-мишень останавливается, вы должны быть близко к нему (менее 10 м). После того, как вам удастся остановится достаточно близко от бота 10 раз подряд, он отведет вас к финишной площадке, и упражнение будет выполнено. При каждой остановке бот-мишень проверяет, следуете ли вы за ним. Если нет, вы должны будете начать движение с самого начала."
 
 #. type: \b; header
-#: defi202-help/dfollow1.txt:4
+#: levels/challenges/chapter002/level002/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "General principle"
 msgstr "Общий принцип"
 
 #. type: Plain text
-#: defi202-help/dfollow1.txt:6
+#: levels/challenges/chapter002/level002/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Repeat forever:\n"
 msgstr "Повторять всегда:\n"
 
 #. type: Bullet: 'o'
-#: defi202-help/dfollow1.txt:6
+#: levels/challenges/chapter002/level002/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Look for the target bot."
 msgstr "Искать бота-мишень."
 
 #. type: Bullet: 'o'
-#: defi202-help/dfollow1.txt:7
+#: levels/challenges/chapter002/level002/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Calculate the distance to the bot."
 msgstr "Высчитать расстояние до бота."
 
 #. type: Bullet: 'o'
-#: defi202-help/dfollow1.txt:8
+#: levels/challenges/chapter002/level002/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "if the distance to the target bot is less than 5m, move backward."
 msgstr "если расстояние менее 5 метров, отойти назад."
 
 #. type: Bullet: 'o'
-#: defi202-help/dfollow1.txt:9
+#: levels/challenges/chapter002/level002/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Otherwise, calculate the direction of the target bot, and move towards it."
-msgstr ""
-"В противном случае высчитать направление бота-мишени, и следовать за ним."
+msgstr "В противном случае высчитать направление бота-мишени, и следовать за ним."
 
 #. type: \b; header
-#: defi202-help/dfollow1.txt:11
+#: levels/challenges/chapter002/level002/help/help.E.txt:11
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Useful instructions"
 msgstr "Полезные инструкции"
 
 #. type: Plain text
-#: defi202-help/dfollow1.txt:18
+#: levels/challenges/chapter002/level002/help/help.E.txt:18
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
-"<code><a cbot|radar>radar</a></code> to look for the bot (category <code><a "
-"object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> to look for the bot (category <code><a object|bottarg>TargetBot</a></code>)\n"
 "<code><a cbot|radar>radar</a></code> to detect obstacles\n"
 "<code><a cbot|dist>distance</a></code> to calculate a distance\n"
 "<code><a cbot|direct>direction</a></code> to calculate a direction\n"
 "<code><a cbot|if>if</a></code> to test a condition\n"
 "<code><a cbot|motor>motor</a></code> to set the motor speeds"
 msgstr ""
-"<code><a cbot|radar>radar</a></code> искать бота и определять преграды ("
-"категория <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> искать бота и определять преграды (категория <code><a object|bottarg>TargetBot</a></code>)\n"
 "<code><a cbot|dist>distance</a></code> расчет расстояния\n"
 "<code><a cbot|direct>direction</a></code> расчет направления\n"
 "<code><a cbot|if>if</a></code> для проверки условия\n"
 "<code><a cbot|motor>motor</a></code> для установления скорости"
 
 #. type: \t; header
-#: defi202-help/dfollow1.txt:19
+#: levels/challenges/chapter002/level002/help/help.E.txt:19
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: defi202-help/dfollow1.txt:20
+#: levels/challenges/chapter002/level002/help/help.E.txt:20
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
-"cbot|category>категории</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

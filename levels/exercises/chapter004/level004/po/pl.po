@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,129 +17,109 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train404.languagecode:1
+#: levels/levels-po/exercises/chapter004/level004/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: train404/scene.txt:1
+#: levels/exercises/chapter004/level004/scene.txt:1
 #, no-wrap
-msgid "train404:Patient hunter"
-msgstr "train404:Cierpliwy myśliwy"
+msgid "Patient hunter"
+msgstr "Cierpliwy myśliwy"
 
 #. type: Resume-text
-#: train404/scene.txt:2
+#: levels/exercises/chapter004/level004/scene.txt:2
 #, no-wrap
-msgid "train404:Be patient enough not to waste your ammunitions."
-msgstr "train404:Bądź na tyle cierpliwy, aby nie marnować amunicji."
+msgid "Be patient enough not to waste your ammunitions."
+msgstr "Bądź na tyle cierpliwy, aby nie marnować amunicji."
 
 #. type: ScriptName-text
-#: train404/scene.txt:3
+#: levels/exercises/chapter004/level004/scene.txt:3
 #, no-wrap
-msgid "train404:Patient"
-msgstr "train404:Cierpliwy"
+msgid "Patient"
+msgstr "Cierpliwy"
 
 #. type: \b; header
-#: train404-help/tchasse.txt:1
+#: levels/exercises/chapter004/level004/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Ćwiczenie"
 
 #. type: Plain text
-#: train404-help/tchasse.txt:3
+#: levels/exercises/chapter004/level004/help/help.E.txt:3
 #, no-wrap
-msgid ""
-"You must find a way to destroy the four moving <a object|bottarg>target "
-"bots</a> without wasting one shot. Notice that after every move, the targets "
-"will stay motionless during one second."
-msgstr ""
-"Musisz znaleźć sposób na zniszczenie czterech <a object|bottarg>robotów "
-"celów</a> bez marnowania amunicji. Warto zauważyć, że po każdym ruchu cele "
-"są nieruchome przez jedną sekundę."
+msgid "You must find a way to destroy the four moving <a object|bottarg>target bots</a> without wasting one shot. Notice that after every move, the targets will stay motionless during one second."
+msgstr "Musisz znaleźć sposób na zniszczenie czterech <a object|bottarg>robotów celów</a> bez marnowania amunicji. Warto zauważyć, że po każdym ruchu cele są nieruchome przez jedną sekundę."
 
 #. type: \b; header
-#: train404-help/tchasse.txt:4
+#: levels/exercises/chapter004/level004/help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
 msgstr "Ogólny algorytm"
 
 #. type: Bullet: '1)'
-#: train404-help/tchasse.txt:5
+#: levels/exercises/chapter004/level004/help/help.E.txt:5
 #, no-wrap
-msgid ""
-"Detect a target with the instruction <c/><a "
-"cbot|radar>radar</a>(TargetBot);<n/>."
+msgid "Detect a target with the instruction <c/><a cbot|radar>radar</a>(TargetBot);<n/>."
 msgstr "Wykryj cel instrukcją <c/><a cbot|radar>radar</a>(TargetBot);<n/>."
 
 #. type: Bullet: '2)'
-#: train404-help/tchasse.txt:6
+#: levels/exercises/chapter004/level004/help/help.E.txt:6
 #, no-wrap
 msgid "Turn towards the target with <c/><a cbot|turn>turn</a>(direction());<n/>."
 msgstr "Obróć się w kierunku celu: <c/><a cbot|turn>turn</a>(direction());<n/>."
 
 #. type: Bullet: '3)'
-#: train404-help/tchasse.txt:7
+#: levels/exercises/chapter004/level004/help/help.E.txt:7
 #, no-wrap
 msgid "After the rotation, check if the target did not move."
 msgstr "Po wykonaniu obrotu sprawdź, czy cel się nie poruszył."
 
 #. type: Bullet: '4)'
-#: train404-help/tchasse.txt:8
+#: levels/exercises/chapter004/level004/help/help.E.txt:8
 #, no-wrap
 msgid "If it did not, wait 0.2 seconds with <c/><a cbot|wait>wait</a>(0.2);<n/>."
 msgstr "Jeśli nie, poczekaj 0,2 sekundy: <c/><a cbot|wait>wait</a>(0.2);<n/>."
 
 #. type: Bullet: '5)'
-#: train404-help/tchasse.txt:9
+#: levels/exercises/chapter004/level004/help/help.E.txt:9
 #, no-wrap
 msgid "Re-check if the target did not move."
 msgstr "Ponownie sprawdź, czy cel się nie poruszył."
 
 #. type: Bullet: '6)'
-#: train404-help/tchasse.txt:10
+#: levels/exercises/chapter004/level004/help/help.E.txt:10
 #, no-wrap
-msgid ""
-"If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 "
-"seconds for the target to be hit by the bullets and destroyed."
-msgstr ""
-"Jeśli nie, strzel, wykonując instrukcję <c/><a cbot|fire>fire</a>(2);<n/> i "
-"czekając przez 2 sekundy na trafienie i zniszczenie celu."
+msgid "If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 seconds for the target to be hit by the bullets and destroyed."
+msgstr "Jeśli nie, strzel, wykonując instrukcję <c/><a cbot|fire>fire</a>(2);<n/> i czekając przez 2 sekundy na trafienie i zniszczenie celu."
 
 #. type: Plain text
-#: train404-help/tchasse.txt:13
+#: levels/exercises/chapter004/level004/help/help.E.txt:13
 #, no-wrap
 msgid "There are of course other ways to achieve the goal."
 msgstr "Są oczywiście również inne sposoby osiągnięcia tego samego celu."
 
 #. type: \b; header
-#: train404-help/tchasse.txt:14
+#: levels/exercises/chapter004/level004/help/help.E.txt:14
 #, no-wrap
 msgid "Remark"
 msgstr "Uwaga"
 
 #. type: Plain text
-#: train404-help/tchasse.txt:16
+#: levels/exercises/chapter004/level004/help/help.E.txt:16
 #, no-wrap
-msgid ""
-"In order to increase the efficiency of your shots, aim a little downward "
-"with <c/><a cbot|aim>aim</a>(-3);<n/>."
-msgstr ""
-"Aby zwiększyć skuteczność strzałów, celuj nieco w dół instrukcją <c/><a "
-"cbot|aim>aim</a>(-3);<n/>."
+msgid "In order to increase the efficiency of your shots, aim a little downward with <c/><a cbot|aim>aim</a>(-3);<n/>."
+msgstr "Aby zwiększyć skuteczność strzałów, celuj nieco w dół instrukcją <c/><a cbot|aim>aim</a>(-3);<n/>."
 
 #. type: \t; header
-#: train404-help/tchasse.txt:17
+#: levels/exercises/chapter004/level004/help/help.E.txt:17
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: train404-help/tchasse.txt:18
+#: levels/exercises/chapter004/level004/help/help.E.txt:18
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

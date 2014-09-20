@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,96 +17,123 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: scene301.languagecode:1
+#: levels/levels-po/missions/chapter003/level001/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: scene301/scene.txt:1
+#: levels/missions/chapter003/level001/scene.txt:1
 #, no-wrap
-msgid "scene301:The Trap"
-msgstr "scene301:Pułapka"
+msgid "The Trap"
+msgstr "Pułapka"
 
 #. type: Resume-text
-#: scene301/scene.txt:2
+#: levels/missions/chapter003/level001/scene.txt:2
 #, no-wrap
-msgid "scene301:Explore a tropical paradise looking for an explosive device."
-msgstr "scene301:Zbadaj tropikalny raj szukając urządzenia wybuchowego."
+msgid "Explore a tropical paradise looking for an explosive device."
+msgstr "Zbadaj tropikalny raj szukając urządzenia wybuchowego."
 
 #. type: \b; header
-#: scene301-help/mhtropi1.txt:1
+#: levels/missions/chapter003/level001/help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
 msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
-#: scene301-help/mhtropi1.txt:3
+#: levels/missions/chapter003/level001/help/help.E.txt:3
 #, no-wrap
-msgid ""
-"The observation satellite has detected a new kind of explosive apparently "
-"designed by the previous expedition. You must locate it and bring it back to "
-"your <a object|base>spaceship</a>."
-msgstr ""
-"Satelita obserwacyjny wykrył nowy rodzaj materiałów wybuchowych, "
-"zaprojektowany przez poprzednią ekspedycję. Musisz go znaleźć i dostarczyć "
-"na <a object|base>statek kosmiczny</a>."
+msgid "The observation satellite has detected a new kind of explosive apparently designed by the previous expedition. You must locate it and bring it back to your <a object|base>spaceship</a>."
+msgstr "Satelita obserwacyjny wykrył nowy rodzaj materiałów wybuchowych, zaprojektowany przez poprzednią ekspedycję. Musisz go znaleźć i dostarczyć na <a object|base>statek kosmiczny</a>."
 
 #. type: \b; header
-#: scene301-help/mhtropi1.txt:4
+#: levels/missions/chapter003/level001/help/help.E.txt:4
 #, no-wrap
 msgid "Procedure"
 msgstr "Procedura"
 
 #. type: Plain text
-#: scene301-help/mhtropi1.txt:6
+#: levels/missions/chapter003/level001/help/help.E.txt:6
 #, no-wrap
 msgid "The location of the explosive is marked by a red cross on your mini map."
-msgstr ""
-"Lokalizacja materiałów wybuchowych jest zaznaczona na mapce czerwonym plusem."
+msgstr "Lokalizacja materiałów wybuchowych jest zaznaczona na mapce czerwonym plusem."
 
 #. type: Plain text
-#: scene301-help/mhtropi1.txt:8
+#: levels/missions/chapter003/level001/help/help.E.txt:8
 #, no-wrap
-msgid ""
-"<format key><key help/></format> allows you to review these instructions at "
-"all times on your personal SatCom <button 63/>."
-msgstr ""
-"Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie "
-"przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
-#: scene301-help/mhtropi1.txt:9 scene301-help/mstropi1.txt:4
+#: levels/missions/chapter003/level001/help/help.E.txt:9
+#: levels/missions/chapter003/level001/help/soluce.E.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: scene301-help/mhtropi1.txt:10 scene301-help/mstropi1.txt:5
+#: levels/missions/chapter003/level001/help/help.E.txt:10
+#: levels/missions/chapter003/level001/help/soluce.E.txt:5
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Sterowanie</a>"
 
 #. type: \b; header
-#: scene301-help/mitropi1.txt:1
+#: levels/missions/chapter003/level001/help/prog.E.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Programy przysłane z Houston"
+
+#. type: Plain text
+#: levels/missions/chapter003/level001/help/prog.E.txt:3
+#, no-wrap
+msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
+msgstr "Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
+
+#. type: \b; header
+#: levels/missions/chapter003/level001/help/prog.E.txt:4
+#, no-wrap
+msgid "Archives"
+msgstr "Archiwum"
+
+#. type: Plain text
+#: levels/missions/chapter003/level001/help/prog.E.txt:6
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr "Lista programów przysłanych w poprzednich misjach:"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter003/level001/help/prog.E.txt:7
+#, no-wrap
+msgid "<code><a mllune4>Recharge1</a></code>"
+msgstr "<code><a mllune4>Recharge1</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter003/level001/help/prog.E.txt:8
+#, no-wrap
+msgid "<code><a mllune1>SwitchCell1</a></code>"
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
+
+#. type: \b; header
+#: levels/missions/chapter003/level001/help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
 msgstr "Raport z satelity"
 
 #. type: Plain text
-#: scene301-help/mitropi1.txt:3
+#: levels/missions/chapter003/level001/help/report.E.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
 msgstr "Obecnie na orbicie geostacjonarnej planety Tropika."
 
 #. type: \s; block (usually verbatim code)
-#: scene301-help/mitropi1.txt:5
+#: levels/missions/chapter003/level001/help/report.E.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
 msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
-#: scene301-help/mitropi1.txt:10
+#: levels/missions/chapter003/level001/help/report.E.txt:10
 #, no-wrap
 msgid ""
 "\\tab;Temperature:      32.4C\n"
@@ -122,13 +149,13 @@ msgstr ""
 "\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
-#: scene301-help/mitropi1.txt:12
+#: levels/missions/chapter003/level001/help/report.E.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
-#: scene301-help/mitropi1.txt:15
+#: levels/missions/chapter003/level001/help/report.E.txt:15
 #, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
@@ -140,13 +167,13 @@ msgstr ""
 "\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
-#: scene301-help/mitropi1.txt:17
+#: levels/missions/chapter003/level001/help/report.E.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
-#: scene301-help/mitropi1.txt:21
+#: levels/missions/chapter003/level001/help/report.E.txt:21
 #, no-wrap
 msgid ""
 "\\tab;Detected:         explosive\n"
@@ -160,60 +187,13 @@ msgstr ""
 "\\tab;  - Zagrożenie:   ?"
 
 #. type: \b; header
-#: scene301-help/mltropi1.txt:1
-#, no-wrap
-msgid "Programs dispatched by Houston"
-msgstr "Programy przysłane z Houston"
-
-#. type: Plain text
-#: scene301-help/mltropi1.txt:3
-#, no-wrap
-msgid ""
-"We did not develop a specific program for this mission. However, you can "
-"develop your own programs if you think it would be useful."
-msgstr ""
-"Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz "
-"napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
-
-#. type: \b; header
-#: scene301-help/mltropi1.txt:4
-#, no-wrap
-msgid "Archives"
-msgstr "Archiwum"
-
-#. type: Plain text
-#: scene301-help/mltropi1.txt:6
-#, no-wrap
-msgid "Index of the programs dispatched in former missions:"
-msgstr "Lista programów przysłanych w poprzednich misjach:"
-
-#. type: Bullet: 'o'
-#: scene301-help/mltropi1.txt:7
-#, no-wrap
-msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr "<code><a mllune4>Recharge1</a></code>"
-
-#. type: Bullet: 'o'
-#: scene301-help/mltropi1.txt:8
-#, no-wrap
-msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr "<code><a mllune1>SwitchCell1</a></code>"
-
-#. type: \b; header
-#: scene301-help/mstropi1.txt:1
+#: levels/missions/chapter003/level001/help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
 msgstr "Rozwiązanie"
 
 #. type: Plain text
-#: scene301-help/mstropi1.txt:3
+#: levels/missions/chapter003/level001/help/soluce.E.txt:3
 #, no-wrap
-msgid ""
-"Follow the path shown on your mini map. The explosive device lies at the "
-"bottom of a small valley populated by giant ants. They will probably attack "
-"you and you will probably lose consciousness. There is nothing you can "
-"really do about this."
-msgstr ""
-"Idź ścieżką pokazaną na mapce. Ładunek wybuchowy znajdziesz na dnie małej "
-"doliny zasiedlonej przez olbrzymie mrówki. Prawdopodobnie Cię zaatakują i "
-"stracisz przytomność. Niestety nic na to nie poradzisz."
+msgid "Follow the path shown on your mini map. The explosive device lies at the bottom of a small valley populated by giant ants. They will probably attack you and you will probably lose consciousness. There is nothing you can really do about this."
+msgstr "Idź ścieżką pokazaną na mapce. Ładunek wybuchowy znajdziesz na dnie małej doliny zasiedlonej przez olbrzymie mrówki. Prawdopodobnie Cię zaatakują i stracisz przytomność. Niestety nic na to nie poradzisz."

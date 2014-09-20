@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,127 +17,79 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train107.languagecode:1
+#: levels/levels-po/exercises/chapter001/level007/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "R"
 
 #. type: Title-text
-#: train107/scene.txt:1
+#: levels/exercises/chapter001/level007/scene.txt:1
 #, no-wrap
-msgid "train107:Spiders 3"
-msgstr "train107:Пауки 3"
+msgid "Spiders 3"
+msgstr "Пауки 3"
 
 #. type: Resume-text
-#: train107/scene.txt:2
+#: levels/exercises/chapter001/level007/scene.txt:2
 #, no-wrap
-msgid "train107:Learn to move the bot so that no spider can escape."
-msgstr "train107:Научитесь управлять ботом так, чтобы паук не смог убежать."
+msgid "Learn to move the bot so that no spider can escape."
+msgstr "Научитесь управлять ботом так, чтобы паук не смог убежать."
 
 #. type: ScriptName-text
-#: train107/scene.txt:3
+#: levels/exercises/chapter001/level007/scene.txt:3
 #, no-wrap
-msgid "train107:Spider3"
-msgstr "train107:Spider3"
+msgid "Spider3"
+msgstr "Spider3"
 
 #. type: \b; header
-#: train107-help/tspid3.txt:1
+#: levels/exercises/chapter001/level007/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Objective"
 msgstr "Задание"
 
 #. type: Plain text
-#: train107-help/tspid3.txt:3
+#: levels/exercises/chapter001/level007/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Move towards the spiders that are out of shooting range."
-msgstr ""
-"Передвигайтесь к паукам, которые находятся за пределами досягаемости ваших "
-"орудий."
+msgstr "Передвигайтесь к паукам, которые находятся за пределами досягаемости ваших орудий."
 
 #. type: \t; header
-#: train107-help/tspid3.txt:4
+#: levels/exercises/chapter001/level007/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program"
 msgstr "Программа"
 
 #. type: Plain text
-#: train107-help/tspid3.txt:6
+#: levels/exercises/chapter001/level007/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The program will look like the previous one, but before you shoot, use the "
-"instruction <c/><a cbot|move>move</a>();<n/> in order to get close enough."
-msgstr ""
-"Программа будет выглядеть как и предыдущая, но перед тем, как вы будете "
-"стрелять, используйте инструкцию <c/><a cbot|move>move</a>();<n/> чтобы "
-"подойти достаточно близко."
+msgid "The program will look like the previous one, but before you shoot, use the instruction <c/><a cbot|move>move</a>();<n/> in order to get close enough."
+msgstr "Программа будет выглядеть как и предыдущая, но перед тем, как вы будете стрелять, используйте инструкцию <c/><a cbot|move>move</a>();<n/> чтобы подойти достаточно близко."
 
 #. type: Plain text
-#: train107-help/tspid3.txt:8
+#: levels/exercises/chapter001/level007/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The question is just how many meters the bot must move. The instruction "
-"<code><a cbot|dist>distance</a>( , )</code> calculates the distance between "
-"two positions. In this case, we need to know the distance between the bot "
-"and the target. The position of the target is given by "
-"<code>item.position</code>, the position of the bot is give by "
-"<code>position</code>. The distance between the bot and the target is given "
-"by <code><a cbot|dist>distance</a>(position, item.position)</code>. The "
-"range of a fireball cannon is 40 meters. In order to get close enough, the "
-"bot must move forward <code><a cbot|dist>distance</a>(position, "
-"item.position)-40</code> meters. The following line will do this:"
-msgstr ""
-"Вопрос просто в том, как близко должен подойти бот к пауку. Инструкция "
-"<code><a cbot|dist>distance</a>( , )</code> рассчитывает расстояние между "
-"двумя позициями. В этом случае мы должны узнать расстояние между ботом и "
-"целью. Позиция цели задается инструкцией <code>item.position</code>, позиция "
-"бота задается <code>position</code>. Расстояние между ботом и целью задается "
-"<code><a cbot|dist>distance</a>(position, item.position)</code>. Дальность "
-"полета огненного шара из пушки 40 метров. Чтобы подойти достаточно близко, "
-"бот должен пройти вперед <code><a cbot|dist>distance</a>(position, "
-"item.position)-40</code> метров. Это будет сделано с помощью следующей "
-"строки:"
+msgid "The question is just how many meters the bot must move. The instruction <code><a cbot|dist>distance</a>( , )</code> calculates the distance between two positions. In this case, we need to know the distance between the bot and the target. The position of the target is given by <code>item.position</code>, the position of the bot is give by <code>position</code>. The distance between the bot and the target is given by <code><a cbot|dist>distance</a>(position, item.position)</code>. The range of a fireball cannon is 40 meters. In order to get close enough, the bot must move forward <code><a cbot|dist>distance</a>(position, item.position)-40</code> meters. The following line will do this:"
+msgstr "Вопрос просто в том, как близко должен подойти бот к пауку. Инструкция <code><a cbot|dist>distance</a>( , )</code> рассчитывает расстояние между двумя позициями. В этом случае мы должны узнать расстояние между ботом и целью. Позиция цели задается инструкцией <code>item.position</code>, позиция бота задается <code>position</code>. Расстояние между ботом и целью задается <code><a cbot|dist>distance</a>(position, item.position)</code>. Дальность полета огненного шара из пушки 40 метров. Чтобы подойти достаточно близко, бот должен пройти вперед <code><a cbot|dist>distance</a>(position, item.position)-40</code> метров. Это будет сделано с помощью следующей строки:"
 
 #. type: \s; block (usually verbatim code)
-#: train107-help/tspid3.txt:10
+#: levels/exercises/chapter001/level007/help/help.E.txt:10
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, "
-"item.position)-40);"
-msgstr ""
-"\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, "
-"item.position)-40);"
+msgid "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, item.position)-40);"
+msgstr "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, item.position)-40);"
 
 #. type: Plain text
-#: train107-help/tspid3.txt:12
+#: levels/exercises/chapter001/level007/help/help.E.txt:12
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Just insert this line into the program before the instruction "
-"<c/>fire(1);<n/>, and the bot will start to move."
-msgstr ""
-"Просто вставьте  в программу эту строку перед инструкцией <c/>fire(1);<n/>, "
-"и бот начнет двигаться."
+msgid "Just insert this line into the program before the instruction <c/>fire(1);<n/>, and the bot will start to move."
+msgstr "Просто вставьте  в программу эту строку перед инструкцией <c/>fire(1);<n/>, и бот начнет двигаться."
 
 #. type: \t; header
-#: train107-help/tspid3.txt:13
+#: levels/exercises/chapter001/level007/help/help.E.txt:13
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: train107-help/tspid3.txt:14
+#: levels/exercises/chapter001/level007/help/help.E.txt:14
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a "
-"cbot|category>категории</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

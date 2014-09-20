@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: train306.languagecode:1
+#: levels/levels-po/exercises/chapter003/level006/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: train306/scene.txt:1
+#: levels/exercises/chapter003/level006/scene.txt:1
 #, no-wrap
-msgid "train306:Labyrinth 1"
+msgid "Labyrinth 1"
 msgstr ""
 
 #. type: Resume-text
-#: train306/scene.txt:2
+#: levels/exercises/chapter003/level006/scene.txt:2
 #, no-wrap
-msgid "train306:Teach your bot how to find its way out of the labyrinth."
+msgid "Teach your bot how to find its way out of the labyrinth."
 msgstr ""
 
 #. type: ScriptName-text
-#: train306/scene.txt:3
+#: levels/exercises/chapter003/level006/scene.txt:3
 #, no-wrap
-msgid "train306:Labyrinth"
+msgid "Labyrinth"
 msgstr ""
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:1
+#: levels/exercises/chapter003/level006/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:3
+#: levels/exercises/chapter003/level006/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "Program the bot so that it will find its way without hitting the walls of "
@@ -57,13 +57,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:4
+#: levels/exercises/chapter003/level006/help/help.E.txt:4
 #, no-wrap
 msgid "The instruction <code>radar</code>"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:6
+#: levels/exercises/chapter003/level006/help/help.E.txt:6
 #, no-wrap
 msgid ""
 "The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will "
@@ -72,13 +72,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:8
+#: levels/exercises/chapter003/level006/help/help.E.txt:8
 #, no-wrap
 msgid "<code>Barrier</code>"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:9
+#: levels/exercises/chapter003/level006/help/help.E.txt:9
 #, no-wrap
 msgid ""
 "<a cbot|category>Category</a> of the object that the radar must look for, "
@@ -86,13 +86,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:11 train306-help/tlaby1.txt:17
+#: levels/exercises/chapter003/level006/help/help.E.txt:17
 #, no-wrap
 msgid "<code>0</code>"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:12
+#: levels/exercises/chapter003/level006/help/help.E.txt:12
 #, no-wrap
 msgid ""
 "Direction of the radar. <code>0</code> means that the radar must search "
@@ -100,13 +100,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:14
+#: levels/exercises/chapter003/level006/help/help.E.txt:14
 #, no-wrap
 msgid "<code>45</code>"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:15
+#: levels/exercises/chapter003/level006/help/help.E.txt:15
 #, no-wrap
 msgid ""
 "Opening angle in degrees. With an opening angle of 45 degrees, barriers "
@@ -115,7 +115,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:18
+#: levels/exercises/chapter003/level006/help/help.E.txt:18
 #, no-wrap
 msgid ""
 "Minimum detection distance. <code>0</code> means that even object that are "
@@ -123,13 +123,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:20
+#: levels/exercises/chapter003/level006/help/help.E.txt:20
 #, no-wrap
 msgid "<code>5</code>"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:21
+#: levels/exercises/chapter003/level006/help/help.E.txt:21
 #, no-wrap
 msgid ""
 "Maximum detection range. Any barrier situated beyond <code>5</code> meters "
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:23
+#: levels/exercises/chapter003/level006/help/help.E.txt:23
 #, no-wrap
 msgid ""
 "To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, "
@@ -146,19 +146,19 @@ msgid ""
 msgstr ""
 
 #. type: Image filename
-#: train306-help/tlaby1.txt:24
+#: levels/exercises/chapter003/level006/help/help.E.txt:24
 #, no-wrap
 msgid "tlaby1"
 msgstr ""
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:25
+#: levels/exercises/chapter003/level006/help/help.E.txt:25
 #, no-wrap
 msgid "General principle"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:27
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
 #, no-wrap
 msgid ""
 "The program must only take care of one square portion of the labyrinth. You "
@@ -167,25 +167,25 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:27
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
 #, no-wrap
 msgid "If there is nothing in front, move forward."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:28
+#: levels/exercises/chapter003/level006/help/help.E.txt:28
 #, no-wrap
 msgid "If there is nothing on the left side, quarter turn left, move forward."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:29
+#: levels/exercises/chapter003/level006/help/help.E.txt:29
 #, no-wrap
 msgid "If there is nothing on the right side, quarter turn right, move forward."
 msgstr ""
 
 #. type: Bullet: '1)'
-#: train306-help/tlaby1.txt:31
+#: levels/exercises/chapter003/level006/help/help.E.txt:31
 #, no-wrap
 msgid ""
 "First of all declare three <a cbot|var>variables</a> of type <code><a "
@@ -195,13 +195,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:33
+#: levels/exercises/chapter003/level006/help/help.E.txt:33
 #, no-wrap
 msgid "<c/>\tobject   front, left, right;<n/>"
 msgstr ""
 
 #. type: Bullet: '2)'
-#: train306-help/tlaby1.txt:34
+#: levels/exercises/chapter003/level006/help/help.E.txt:34
 #, no-wrap
 msgid ""
 "Look for barriers in all three directions, and put the result of the "
@@ -211,7 +211,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:38
+#: levels/exercises/chapter003/level006/help/help.E.txt:38
 #, no-wrap
 msgid ""
 "<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
@@ -220,7 +220,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '3)'
-#: train306-help/tlaby1.txt:39
+#: levels/exercises/chapter003/level006/help/help.E.txt:39
 #, no-wrap
 msgid ""
 "Test if the way is free in front of the bot with the instruction <code><a "
@@ -230,13 +230,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:41
+#: levels/exercises/chapter003/level006/help/help.E.txt:41
 #, no-wrap
 msgid "The instruction <code>return</code> leaves the program: the job is done."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:46
+#: levels/exercises/chapter003/level006/help/help.E.txt:46
 #, no-wrap
 msgid ""
 "<c/>if ( front == null )\n"
@@ -247,7 +247,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '4)'
-#: train306-help/tlaby1.txt:47
+#: levels/exercises/chapter003/level006/help/help.E.txt:47
 #, no-wrap
 msgid ""
 "Test if it is possible to turn left; if so, turn left with the instruction "
@@ -255,7 +255,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:54
+#: levels/exercises/chapter003/level006/help/help.E.txt:54
 #, no-wrap
 msgid ""
 "<c/>if ( left == null )\n"
@@ -267,25 +267,25 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '5)'
-#: train306-help/tlaby1.txt:55
+#: levels/exercises/chapter003/level006/help/help.E.txt:55
 #, no-wrap
 msgid "Test if it is possible to turn right."
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:57
+#: levels/exercises/chapter003/level006/help/help.E.txt:57
 #, no-wrap
 msgid "    ..."
 msgstr ""
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:58
+#: levels/exercises/chapter003/level006/help/help.E.txt:58
 #, no-wrap
 msgid "Attention"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:60
+#: levels/exercises/chapter003/level006/help/help.E.txt:60
 #, no-wrap
 msgid ""
 "The instruction <code>if ( )</code> must never be followed by a <a "
@@ -293,13 +293,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train306-help/tlaby1.txt:61
+#: levels/exercises/chapter003/level006/help/help.E.txt:61
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:62
+#: levels/exercises/chapter003/level006/help/help.E.txt:62
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "

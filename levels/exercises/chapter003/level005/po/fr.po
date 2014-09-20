@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,149 +17,119 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train305.languagecode:1
+#: levels/levels-po/exercises/chapter003/level005/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train305/scene.txt:1
+#: levels/exercises/chapter003/level005/scene.txt:1
 #, no-wrap
-msgid "train305:Exchange posts 2"
-msgstr "train305:Bornes 2"
+msgid "Exchange posts 2"
+msgstr "Bornes 2"
 
 #
 #. type: Resume-text
-#: train305/scene.txt:2
+#: levels/exercises/chapter003/level005/scene.txt:2
 #, no-wrap
-msgid "train305:Collect more valuable information from information exchange posts."
-msgstr ""
-"train305:Récolter des informations de direction et de distance, afin "
-"d'apprendre le concept de variable."
+msgid "Collect more valuable information from information exchange posts."
+msgstr "Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
 
 #
 #. type: ScriptName-text
-#: train305/scene.txt:3
+#: levels/exercises/chapter003/level005/scene.txt:3
 #, no-wrap
-msgid "train305:Info"
-msgstr "train305:Suivre"
+msgid "Info"
+msgstr "Suivre"
 
 #. type: \b; header
-#: train305-help/texch2.txt:1
+#: levels/exercises/chapter003/level005/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: train305-help/texch2.txt:3
+#: levels/exercises/chapter003/level005/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In this exercise, the <a object|exchange>information exchange posts</a> "
-"along the way contain the direction of the next post and the distance. And "
-"you do not know how many exchange posts you must get in touch with before "
-"arriving at your goal."
-msgstr ""
-"9 <a object|exchange>bornes</a> d'informations sont placées le long d'un "
-"chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut "
-"lire les informations qu'elle contient et qui donnent la direction et la "
-"distance jusqu'à la borne suivante."
+msgid "In this exercise, the <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
+msgstr "9 <a object|exchange>bornes</a> d'informations sont placées le long d'un chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la borne suivante."
 
 #. type: \b; header
-#: train305-help/texch2.txt:4
+#: levels/exercises/chapter003/level005/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "General principle"
 msgstr "Principe"
 
 #. type: Plain text
-#: train305-help/texch2.txt:6
+#: levels/exercises/chapter003/level005/help/help.E.txt:6
 #, no-wrap
 msgid "\tRepeat forever:\n"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: train305-help/texch2.txt:6
+#: levels/exercises/chapter003/level005/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
 msgstr "Lire la direction dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
-#: train305-help/texch2.txt:7
+#: levels/exercises/chapter003/level005/help/help.E.txt:7
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
 msgstr "Lire la longueur dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
-#: train305-help/texch2.txt:8
+#: levels/exercises/chapter003/level005/help/help.E.txt:8
 #, no-wrap
 msgid "If no information could be retrieved, stop the program."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: train305-help/texch2.txt:9
+#: levels/exercises/chapter003/level005/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Execute the rotation."
 msgstr "Tourner dans la direction obtenue."
 
 #. type: Bullet: 'o'
-#: train305-help/texch2.txt:10
+#: levels/exercises/chapter003/level005/help/help.E.txt:10
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Move forward to the next post."
 msgstr "Avancer de la longueur obtenue."
 
 #. type: Plain text
-#: train305-help/texch2.txt:13
+#: levels/exercises/chapter003/level005/help/help.E.txt:13
 #, no-wrap
-msgid ""
-"In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> "
-"loop. The instructions between the braces <code>{ }</code> will be repeated "
-"over and over, or until a <code><a cbot|break>break</a></code> instruction "
-"is executed."
+msgid "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> loop. The instructions between the braces <code>{ }</code> will be repeated over and over, or until a <code><a cbot|break>break</a></code> instruction is executed."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:14
+#: levels/exercises/chapter003/level005/help/help.E.txt:14
 #, no-wrap
 msgid "<c/>\twhile ( true )"
 msgstr ""
 
 #. type: Plain text
-#: train305-help/texch2.txt:16
+#: levels/exercises/chapter003/level005/help/help.E.txt:16
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, "
-"one for the distance, for example <code>dir</code> and <code>len</code> :"
-msgstr ""
-"Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et "
-"<code>len</code>:"
+msgid "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr "Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et <code>len</code>:"
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:17
+#: levels/exercises/chapter003/level005/help/help.E.txt:17
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/>\tfloat  dir, len;"
 msgstr "<c/>\tfloat  dir, len;"
 
 #. type: Plain text
-#: train305-help/texch2.txt:19
+#: levels/exercises/chapter003/level005/help/help.E.txt:19
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Then you can retrieve the information:"
-msgstr ""
-"Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
+msgstr "Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:21
+#: levels/exercises/chapter003/level005/help/help.E.txt:21
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "<c/>\tdir = receive(\"Direction\");\n"
 "<c/>\tlen = receive(\"Length\");"
@@ -168,243 +138,63 @@ msgstr ""
 "<c/>\tlen = receive(\"Length\");"
 
 #. type: Plain text
-#: train305-help/texch2.txt:24
+#: levels/exercises/chapter003/level005/help/help.E.txt:24
 #, no-wrap
 msgid ""
-"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> "
-"can take a special value called <code><a cbot|nan>nan</a></code>. This value "
-"means that the variable contains no number (Not A Number).\n"
-"When there is no <a object|exchange>exchange post</a> nearby, either because "
-"the bot has reached the goal, or because it took the wrong way, the two "
-"variables <code>dir</code> and <code>len</code> contain this value. You can "
-"test this with the instruction <code><a cbot|if>if</a></code>, and stop the "
-"program if necessary with the instruction <code><a "
-"cbot|break>break</a></code>:"
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:25
+#: levels/exercises/chapter003/level005/help/help.E.txt:25
 #, no-wrap
 msgid "<c/>\tif ( dir == nan )  break;"
 msgstr ""
 
 #. type: Plain text
-#: train305-help/texch2.txt:27
+#: levels/exercises/chapter003/level005/help/help.E.txt:27
 #, no-wrap
-msgid ""
-"If the information retrieval from the <a object|exchange>exchange post</a> "
-"has been performed successfully, execute the rotation:"
+msgid "If the information retrieval from the <a object|exchange>exchange post</a> has been performed successfully, execute the rotation:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:28
+#: levels/exercises/chapter003/level005/help/help.E.txt:28
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/>\tturn(dir);"
 msgstr "<c/>\tturn(dir);"
 
 #. type: Plain text
-#: train305-help/texch2.txt:30
+#: levels/exercises/chapter003/level005/help/help.E.txt:30
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "And move forward:"
 msgstr "Puis avancer avec:"
 
 #. type: \s; block (usually verbatim code)
-#: train305-help/texch2.txt:31
+#: levels/exercises/chapter003/level005/help/help.E.txt:31
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<c/>\tmove(len);"
 msgstr "<c/>\tmove(len);"
 
 #. type: \b; header
-#: train305-help/texch2.txt:32
+#: levels/exercises/chapter003/level005/help/help.E.txt:32
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Remark"
 msgstr "Remarque"
 
 #. type: Plain text
-#: train305-help/texch2.txt:34
+#: levels/exercises/chapter003/level005/help/help.E.txt:34
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"You can click on an <a object|exchange>information exchange post</a> in "
-"order to read what information it contains. In this exercise, every exchange "
-"post contains two values called <code>\"Direction\"</code> and "
-"<code>\"Length\"</code>."
-msgstr ""
-"En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous "
-"pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne "
-"contient deux informations appelées <code>\"Direction\"</code> et <code>\""
-"Length\"</code>."
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains two values called <code>\"Direction\"</code> and <code>\"Length\"</code>."
+msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient deux informations appelées <code>\"Direction\"</code> et <code>\"Length\"</code>."
 
 #. type: \t; header
-#: train305-help/texch2.txt:35
+#: levels/exercises/chapter003/level005/help/help.E.txt:35
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train305-help/texch2.txt:36
+#: levels/exercises/chapter003/level005/help/help.E.txt:36
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a texch1>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train300:Fundamentals"
-#~ msgstr "train300:Base"
-
-#
-#~ msgid "train300:"
-#~ msgstr "train300:"
-
-#
-#~ msgid "train301:Follow a path"
-#~ msgstr "train301:Suivre un chemin"
-
-#
-#~ msgid "train301:"
-#~ msgstr "train301:"
-
-#
-#~ msgid "train301:Move the bot along a given path."
-#~ msgstr "train301:Déplacer un robot le long d'une trajectoire donnée."
-
-#
-#~ msgid "train301:Move"
-#~ msgstr "train301:Déplace"
-
-#
-#~ msgid "train302:Follow with variables"
-#~ msgstr "train302:Suivre mieux"
-
-#
-#~ msgid "train302:"
-#~ msgstr "train302:"
-
-#
-#~ msgid "train302:Use variables in order to store the parameters of the path."
-#~ msgstr ""
-#~ "train302:Déplacer un robot le long d'une trajectoire donnée, en utilisant "
-#~ "des variables."
-
-#
-#~ msgid "train302:Move"
-#~ msgstr "train302:Déplace"
-
-#
-#~ msgid "train303:Massacre"
-#~ msgstr "train303:Massacre"
-
-#
-#~ msgid "train303:"
-#~ msgstr "train303:"
-
-#
-#~ msgid "train303:Use a loop in order to destroy six targets."
-#~ msgstr "train303:Détruire six cibles à l'aide d'une boucle."
-
-#
-#~ msgid "train303:Go"
-#~ msgstr "train303:Go"
-
-#
-#~ msgid "train304:Exchange posts 1"
-#~ msgstr "train304:Bornes 1"
-
-#
-#~ msgid "train304:"
-#~ msgstr "train304:"
-
-#
-#~ msgid ""
-#~ "train304:Collect valuable information from information exchange posts."
-#~ msgstr ""
-#~ "train304:Récolter une information de direction, afin d'apprendre le "
-#~ "concept de variable."
-
-#
-#~ msgid "train304:Info"
-#~ msgstr "train304:Suivre"
-
-#
-#~ msgid "train305:"
-#~ msgstr "train305:"
-
-#
-#~ msgid "train306:Labyrinth 1"
-#~ msgstr "train306:Labyrinthe 1"
-
-#
-#~ msgid "train306:"
-#~ msgstr "train306:"
-
-#
-#~ msgid "train306:Teach your bot how to find its way out of the labyrinth."
-#~ msgstr ""
-#~ "train306:Programmez un robot pour qu'il avance sans se cogner dans un "
-#~ "labyrinthe."
-
-#
-#~ msgid "train306:Labyrinth"
-#~ msgstr "train306:Labyrinthe"
-
-#
-#~ msgid "train307:Labyrinth 2"
-#~ msgstr "train307:Labyrinthe 2"
-
-#
-#~ msgid "train307:"
-#~ msgstr "train307:"
-
-#
-#~ msgid "train307:Teach your bot to do the same job in a more autonomous way."
-#~ msgstr ""
-#~ "train307:Programmez un robot pour qu'il avance sans se cogner dans un "
-#~ "labyrinthe."
-
-#
-#~ msgid "train307:Labyrinth"
-#~ msgstr "train307:Labyrinthe"
-
-#
-#~ msgid "train308:The gold digger"
-#~ msgstr "train308:Le chercheur d'or"
-
-#
-#~ msgid "train308:"
-#~ msgstr "train308:"
-
-#
-#~ msgid "train308:Instruct your bot to search a zone for subsoil resources."
-#~ msgstr ""
-#~ "train308:Recherche de minerai en sous-sol en programmant un robot pour "
-#~ "quadriller une zone."
-
-#
-#~ msgid "train308:Digger"
-#~ msgstr "train308:Cherche"
-
-#
-#~ msgid "train309:Remote control #1"
-#~ msgstr "train309:Télécommande #1"
-
-#
-#~ msgid "train309:"
-#~ msgstr "train309:"
-
-#
-#~ msgid ""
-#~ "train309:Remote control a robot using an information exchange post, so it "
-#~ "will transport uranium ore."
-#~ msgstr ""
-#~ "train309:Télécommandez un robot par le biais d'une borne d'information."
-
-#
-#~ msgid "train309:remote"
-#~ msgstr "train309:Remote"

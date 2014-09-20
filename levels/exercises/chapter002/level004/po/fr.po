@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,221 +17,70 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train204.languagecode:1
+#: levels/levels-po/exercises/chapter002/level004/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train204/scene.txt:1
+#: levels/exercises/chapter002/level004/scene.txt:1
 #, no-wrap
-msgid "train204:Fighter Jet 1"
-msgstr "train204:Chasseur à réaction 1"
+msgid "Fighter Jet 1"
+msgstr "Chasseur à réaction 1"
 
 #
 #. type: Resume-text
-#: train204/scene.txt:2
+#: levels/exercises/chapter002/level004/scene.txt:2
 #, no-wrap
-msgid "train204:Instruct a winged shooter to clean the whole region."
-msgstr ""
-"train204:Programmez un shooter volant pour qu'il nettoie toute la région"
+msgid "Instruct a winged shooter to clean the whole region."
+msgstr "Programmez un shooter volant pour qu'il nettoie toute la région"
 
 #
 #. type: ScriptName-text
-#: train204/scene.txt:3
+#: levels/exercises/chapter002/level004/scene.txt:3
 #, no-wrap
-msgid "train204:Move"
-msgstr "train204:Chasseur1"
+msgid "Move"
+msgstr "Chasseur1"
 
 #. type: \b; header
-#: train204-help/tant4.txt:1
+#: levels/exercises/chapter002/level004/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Objectif"
 msgstr "Objectif"
 
 #. type: Plain text
-#: train204-help/tant4.txt:3
+#: levels/exercises/chapter002/level004/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
-msgstr ""
-"Programmez un <a object|botoj>orgaShooter volant</a> pour qu'il aille à la "
-"rencontre des <a object|ant>fourmis</a>."
+msgstr "Programmez un <a object|botoj>orgaShooter volant</a> pour qu'il aille à la rencontre des <a object|ant>fourmis</a>."
 
 #. type: \t; header
-#: train204-help/tant4.txt:4
+#: levels/exercises/chapter002/level004/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program"
 msgstr "Programme"
 
 #. type: Plain text
-#: train204-help/tant4.txt:6
+#: levels/exercises/chapter002/level004/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In this swamp, a wheeled or tracked shooter is of little use. And ants, in "
-"opposition to spiders, keep moving: you can not just turn towards the "
-"closest ant, move forward and shoot."
-msgstr ""
-"Dans ce terrain marécageux, un shooter à roues ou à chenilles est inopérant. "
-"En plus, les fourmis se déplacent: on ne peut donc pas se tourner en "
-"direction de la fourmi la plus proche, avancer, puis tirer."
+msgid "In this swamp, a wheeled or tracked shooter is of little use. And ants, in opposition to spiders, keep moving: you can not just turn towards the closest ant, move forward and shoot."
+msgstr "Dans ce terrain marécageux, un shooter à roues ou à chenilles est inopérant. En plus, les fourmis se déplacent: on ne peut donc pas se tourner en direction de la fourmi la plus proche, avancer, puis tirer."
 
 #. type: Plain text
-#: train204-help/tant4.txt:8
+#: levels/exercises/chapter002/level004/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The easiest way to solve the problem consists in flying at a height of 10 "
-"meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with "
-"a conditional loop as long as the <a cbot|dist>distance</a> is greater than "
-"20m. In this conditional loop, you must look for the closest ant, turn "
-"towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait "
-"a little, for example 0.2 seconds. All these instructions must be repeated "
-"until the ant is at less than 20 meters. Then just shoot it."
-msgstr ""
-"Le moyen le plus simple consiste à monter à une altitude de 10 mètres, à "
-"viser vers le bas avec <c/><a cbot|aim>aim</a>(-20);<n/>, puis à s'approcher "
-"avec une boucle conditionnelle tant que la distance est supérieure à 20 "
-"mètres. Dans cette boucle, il faut chercher la fourmi la plus proche, se "
-"tourner vers elle, mettre les moteurs en avant toute avec <c/><a "
-"cbot|motor>motor</a>(1,1);<n/>, puis attendre un petit moment, par exemple "
-"0.2 secondes. Toutes ces instructions seront donc répétées jusqu'à ce que la "
-"fourmi soit à moins de 20 mètres et puisse être atteinte."
+msgid "The easiest way to solve the problem consists in flying at a height of 10 meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with a conditional loop as long as the <a cbot|dist>distance</a> is greater than 20m. In this conditional loop, you must look for the closest ant, turn towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait a little, for example 0.2 seconds. All these instructions must be repeated until the ant is at less than 20 meters. Then just shoot it."
+msgstr "Le moyen le plus simple consiste à monter à une altitude de 10 mètres, à viser vers le bas avec <c/><a cbot|aim>aim</a>(-20);<n/>, puis à s'approcher avec une boucle conditionnelle tant que la distance est supérieure à 20 mètres. Dans cette boucle, il faut chercher la fourmi la plus proche, se tourner vers elle, mettre les moteurs en avant toute avec <c/><a cbot|motor>motor</a>(1,1);<n/>, puis attendre un petit moment, par exemple 0.2 secondes. Toutes ces instructions seront donc répétées jusqu'à ce que la fourmi soit à moins de 20 mètres et puisse être atteinte."
 
 #. type: \t; header
-#: train204-help/tant4.txt:9
+#: levels/exercises/chapter002/level004/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train204-help/tant4.txt:10
+#: levels/exercises/chapter002/level004/help/help.E.txt:10
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tant3>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train200:Ants and wasps"
-#~ msgstr "train200:Fourmis et guêpes"
-
-#
-#~ msgid "train200:Fight against moving targets"
-#~ msgstr "train200:Combat contre des cibles mouvantes"
-
-#
-#~ msgid "train200:"
-#~ msgstr "train200:"
-
-#
-#~ msgid "train201:Barrage Fire"
-#~ msgstr "train201:Tir de barrage"
-
-#
-#~ msgid "train201:"
-#~ msgstr "train201:"
-
-#
-#~ msgid ""
-#~ "train201:Set the power of the different motors in order to achieve a "
-#~ "barrage fire."
-#~ msgstr ""
-#~ "train201:Effectuer à l'aide de la commande directe des moteurs un tir de "
-#~ "barrage contre des fourmis qui attaquent"
-
-#
-#~ msgid "train201:Move"
-#~ msgstr "train201:Barrage"
-
-#
-#~ msgid "train202:Flying tower 1"
-#~ msgstr "train202:Tour volante 1"
-
-#
-#~ msgid "train202:"
-#~ msgstr "train202:"
-
-#
-#~ msgid "train202:Make a flying defense tower out of a winged shooter."
-#~ msgstr ""
-#~ "train202:Programmer un robot volant de manière à obtenir une tour de "
-#~ "défense volante"
-
-#
-#~ msgid "train202:Move"
-#~ msgstr "train202:Tour1"
-
-#
-#~ msgid "train203:Flying Tower 2"
-#~ msgstr "train203:Tour volante 2"
-
-#
-#~ msgid "train203:"
-#~ msgstr "train203:"
-
-#
-#~ msgid "train203:Program a flying tower that wastes less energy."
-#~ msgstr "train203:Une tour de défense volante plus économe en énergie"
-
-#
-#~ msgid "train203:Move"
-#~ msgstr "train203:Tour2"
-
-#
-#~ msgid "train204:"
-#~ msgstr "train204:"
-
-#
-#~ msgid "train205:Fighter Jet 2"
-#~ msgstr "train205:Chasseur à réaction 2"
-
-#
-#~ msgid "train205:"
-#~ msgstr "train205:"
-
-#
-#~ msgid "train205:Adapt the program to a mountainous terrain."
-#~ msgstr "train205:Adaptez le programme à un relief accidenté"
-
-#
-#~ msgid "train205:Move"
-#~ msgstr "train205:Chasseur2"
-
-#
-#~ msgid "train206:Wasp Hunter 1"
-#~ msgstr "train206:Chasseur de guêpes 1"
-
-#
-#~ msgid "train206:"
-#~ msgstr "train206:"
-
-#
-#~ msgid "train206:Shoot down the flying wasps."
-#~ msgstr "train206:Attrapez des guêpes en vol"
-
-#
-#~ msgid "train206:Wasp1"
-#~ msgstr "train206:Guêpes1"
-
-#
-#~ msgid "train207:Wasp Hunter 2"
-#~ msgstr "train207:Chasseur de guêpes 2"
-
-#
-#~ msgid "train207:"
-#~ msgstr "train207:"
-
-#
-#~ msgid "train207:Get better at shooting down the wasps."
-#~ msgstr "train207:Attrapez des guêpes de manière plus efficace"
-
-#
-#~ msgid "train207:Wasp2"
-#~ msgstr "train207:Guêpes2"

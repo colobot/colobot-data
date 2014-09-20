@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,235 +17,170 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train306.languagecode:1
+#: levels/levels-po/exercises/chapter003/level006/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: train306/scene.txt:1
+#: levels/exercises/chapter003/level006/scene.txt:1
 #, no-wrap
-msgid "train306:Labyrinth 1"
-msgstr "train306:Labirynt 1"
+msgid "Labyrinth 1"
+msgstr "Labirynt 1"
 
 #. type: Resume-text
-#: train306/scene.txt:2
+#: levels/exercises/chapter003/level006/scene.txt:2
 #, no-wrap
-msgid "train306:Teach your bot how to find its way out of the labyrinth."
-msgstr "train306:Naucz swojego robota jak znaleść wyjście z labiryntu."
+msgid "Teach your bot how to find its way out of the labyrinth."
+msgstr "Naucz swojego robota jak znaleść wyjście z labiryntu."
 
 #. type: ScriptName-text
-#: train306/scene.txt:3
+#: levels/exercises/chapter003/level006/scene.txt:3
 #, no-wrap
-msgid "train306:Labyrinth"
-msgstr "train306:Labirynt"
+msgid "Labyrinth"
+msgstr "Labirynt"
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:1
+#: levels/exercises/chapter003/level006/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Ćwiczenie"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:3
+#: levels/exercises/chapter003/level006/help/help.E.txt:3
 #, no-wrap
-msgid ""
-"Program the bot so that it will find its way without hitting the walls of "
-"the labyrinth. We suppose that you do not know the configuration of the "
-"labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is "
-"made of squares measuring 5m each."
-msgstr ""
-"Zaprogramuj robota, aby znajdował wyjście z labiryntu bez uderzania o "
-"ściany. Zakładamy, że konfiguracja labiryntu nie jest znana, jednak nie ma w "
-"nim rozwidleń ani ślepych uliczek. Labirynt składa się z kwadratów o boku 5 "
-"m każdy."
+msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
+msgstr "Zaprogramuj robota, aby znajdował wyjście z labiryntu bez uderzania o ściany. Zakładamy, że konfiguracja labiryntu nie jest znana, jednak nie ma w nim rozwidleń ani ślepych uliczek. Labirynt składa się z kwadratów o boku 5 m każdy."
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:4
+#: levels/exercises/chapter003/level006/help/help.E.txt:4
 #, no-wrap
 msgid "The instruction <code>radar</code>"
 msgstr "Instrukcja <code>radar</code>"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:6
+#: levels/exercises/chapter003/level006/help/help.E.txt:6
 #, no-wrap
-msgid ""
-"The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will "
-"find any <a object|barrier>barrier</a> in front of the radar that is closer "
-"than 5m. Let us take a closer look at the five parameters used:"
-msgstr ""
-"Instrukcja <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> znajdzie <"
-"a object|barrier>barierę</a> przed robotem, która jest bliżej niż 5 metrów. "
-"Przyjrzyjmy się bliżej pięciu użytym parametrom:"
+msgid "The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will find any <a object|barrier>barrier</a> in front of the radar that is closer than 5m. Let us take a closer look at the five parameters used:"
+msgstr "Instrukcja <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> znajdzie <a object|barrier>barierę</a> przed robotem, która jest bliżej niż 5 metrów. Przyjrzyjmy się bliżej pięciu użytym parametrom:"
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:8
+#: levels/exercises/chapter003/level006/help/help.E.txt:8
 #, no-wrap
 msgid "<code>Barrier</code>"
 msgstr "<code>Barrier</code>"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:9
+#: levels/exercises/chapter003/level006/help/help.E.txt:9
 #, no-wrap
-msgid ""
-"<a cbot|category>Category</a> of the object that the radar must look for, "
-"i.e. a barrier."
-msgstr ""
-"<a cbot|category>Kategoria</a> obiektu, którego ma szukać radar, np. bariera."
+msgid "<a cbot|category>Category</a> of the object that the radar must look for, i.e. a barrier."
+msgstr "<a cbot|category>Kategoria</a> obiektu, którego ma szukać radar, np. bariera."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:11 train306-help/tlaby1.txt:17
+#: levels/exercises/chapter003/level006/help/help.E.txt:11
+#: levels/exercises/chapter003/level006/help/help.E.txt:17
 #, no-wrap
 msgid "<code>0</code>"
 msgstr "<code>0</code>"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:12
+#: levels/exercises/chapter003/level006/help/help.E.txt:12
 #, no-wrap
-msgid ""
-"Direction of the radar. <code>0</code> means that the radar must search "
-"straight forward."
-msgstr ""
-"Kierunek, w którym \"patrzy\" radar. <code>0</code> oznacza, że radar "
-"powinien szukać obiektu wprost przed sobą."
+msgid "Direction of the radar. <code>0</code> means that the radar must search straight forward."
+msgstr "Kierunek, w którym \"patrzy\" radar. <code>0</code> oznacza, że radar powinien szukać obiektu wprost przed sobą."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:14
+#: levels/exercises/chapter003/level006/help/help.E.txt:14
 #, no-wrap
 msgid "<code>45</code>"
 msgstr "<code>45</code>"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:15
+#: levels/exercises/chapter003/level006/help/help.E.txt:15
 #, no-wrap
-msgid ""
-"Opening angle in degrees. With an opening angle of 45 degrees, barriers "
-"situated between 22.5 degrees to the left and 22.5 degrees to the right will "
-"be detected."
-msgstr ""
-"Kąt widzenia, w stopniach. Z kątem widzenia równym 45 stopni, wykryte "
-"zostaną bariery znajdujące się pomiędzy 22,5 stopnia w lewo a 22,5 stopnia w "
-"prawo."
+msgid "Opening angle in degrees. With an opening angle of 45 degrees, barriers situated between 22.5 degrees to the left and 22.5 degrees to the right will be detected."
+msgstr "Kąt widzenia, w stopniach. Z kątem widzenia równym 45 stopni, wykryte zostaną bariery znajdujące się pomiędzy 22,5 stopnia w lewo a 22,5 stopnia w prawo."
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:18
+#: levels/exercises/chapter003/level006/help/help.E.txt:18
 #, no-wrap
-msgid ""
-"Minimum detection distance. <code>0</code> means that even object that are "
-"very close to the bot will be detected."
-msgstr ""
-"Minimalna odległość wykrywania. <code>0</code> oznacza, że zostaną wykryte "
-"nawet obiekty będące bardzo blisko robota."
+msgid "Minimum detection distance. <code>0</code> means that even object that are very close to the bot will be detected."
+msgstr "Minimalna odległość wykrywania. <code>0</code> oznacza, że zostaną wykryte nawet obiekty będące bardzo blisko robota."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:20
+#: levels/exercises/chapter003/level006/help/help.E.txt:20
 #, no-wrap
 msgid "<code>5</code>"
 msgstr "<code>5</code>"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:21
+#: levels/exercises/chapter003/level006/help/help.E.txt:21
 #, no-wrap
-msgid ""
-"Maximum detection range. Any barrier situated beyond <code>5</code> meters "
-"will not be detected."
-msgstr ""
-"Maksymalna odległość wykrywania. Żadna bariera dalej niż <code>5</code> "
-"metrów nie zostanie wykryta."
+msgid "Maximum detection range. Any barrier situated beyond <code>5</code> meters will not be detected."
+msgstr "Maksymalna odległość wykrywania. Żadna bariera dalej niż <code>5</code> metrów nie zostanie wykryta."
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:23
+#: levels/exercises/chapter003/level006/help/help.E.txt:23
 #, no-wrap
-msgid ""
-"To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, "
-"5);<n/> will direct the radar 90 degrees to the left, in order to test if "
-"the way to the left is free."
-msgstr ""
-"Weźmy inny przykład, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> "
-"skieruje radar 90 stopni w lewo, w celu sprawdzenia, czy droga po lewej "
-"stronie jest wolna."
+msgid "To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> will direct the radar 90 degrees to the left, in order to test if the way to the left is free."
+msgstr "Weźmy inny przykład, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> skieruje radar 90 stopni w lewo, w celu sprawdzenia, czy droga po lewej stronie jest wolna."
 
 #. type: Image filename
-#: train306-help/tlaby1.txt:24
+#: levels/exercises/chapter003/level006/help/help.E.txt:24
 #, no-wrap
 msgid "tlaby1"
 msgstr "tlaby1"
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:25
+#: levels/exercises/chapter003/level006/help/help.E.txt:25
 #, no-wrap
 msgid "General principle"
 msgstr "Ogólny algorytm"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:27
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
 #, no-wrap
-msgid ""
-"The program must only take care of one square portion of the labyrinth. You "
-"will have to execute it several times in order to arrive at the finishing "
-"pad.\n"
-msgstr ""
-"Program powinien zajmować się tylko pojedynczymi kwadratami labiryntu. "
-"Należy uruchomić go wielokrotnie, aby robot doszedł do platformy końcowej.\n"
+msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad.\n"
+msgstr "Program powinien zajmować się tylko pojedynczymi kwadratami labiryntu. Należy uruchomić go wielokrotnie, aby robot doszedł do platformy końcowej.\n"
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:27
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
 #, no-wrap
 msgid "If there is nothing in front, move forward."
 msgstr "Jeśli nie ma niczego przed robotem, idź naprzód."
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:28
+#: levels/exercises/chapter003/level006/help/help.E.txt:28
 #, no-wrap
 msgid "If there is nothing on the left side, quarter turn left, move forward."
-msgstr ""
-"Jeśli nie ma niczego po lewej stronie, wykonaj ćwierć obrotu w lewo i idź "
-"naprzód."
+msgstr "Jeśli nie ma niczego po lewej stronie, wykonaj ćwierć obrotu w lewo i idź naprzód."
 
 #. type: Bullet: 'o'
-#: train306-help/tlaby1.txt:29
+#: levels/exercises/chapter003/level006/help/help.E.txt:29
 #, no-wrap
 msgid "If there is nothing on the right side, quarter turn right, move forward."
-msgstr ""
-"Jeśli nie ma niczego po prawej stronie, wykonaj ćwierć obrotu w prawo i idź "
-"naprzód."
+msgstr "Jeśli nie ma niczego po prawej stronie, wykonaj ćwierć obrotu w prawo i idź naprzód."
 
 #. type: Bullet: '1)'
-#: train306-help/tlaby1.txt:31
+#: levels/exercises/chapter003/level006/help/help.E.txt:31
 #, no-wrap
-msgid ""
-"First of all declare three <a cbot|var>variables</a> of type <code><a "
-"cbot|object>object</a></code>, that we call <code>front</code>, "
-"<code>left</code> and <code>right</code>. Variables of this type can contain "
-"the description of any object, for example of a barrier found by the radar."
-msgstr ""
-"Na początek zadeklaruj trzy <a cbot|var>zmienne</a> typu <code><a "
-"cbot|object>object</a></code>, nazwane <code>front</code>, <code>left</code> "
-"i <code>right</code>. Zmienne tego typu mogą zawierać opisy dowolnych "
-"obiektów, w tym przypadku bariery znalezionej przez radar."
+msgid "First of all declare three <a cbot|var>variables</a> of type <code><a cbot|object>object</a></code>, that we call <code>front</code>, <code>left</code> and <code>right</code>. Variables of this type can contain the description of any object, for example of a barrier found by the radar."
+msgstr "Na początek zadeklaruj trzy <a cbot|var>zmienne</a> typu <code><a cbot|object>object</a></code>, nazwane <code>front</code>, <code>left</code> i <code>right</code>. Zmienne tego typu mogą zawierać opisy dowolnych obiektów, w tym przypadku bariery znalezionej przez radar."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:33
+#: levels/exercises/chapter003/level006/help/help.E.txt:33
 #, no-wrap
 msgid "<c/>\tobject   front, left, right;<n/>"
 msgstr "<c/>\tobject   front, left, right;<n/>"
 
 #. type: Bullet: '2)'
-#: train306-help/tlaby1.txt:34
+#: levels/exercises/chapter003/level006/help/help.E.txt:34
 #, no-wrap
-msgid ""
-"Look for barriers in all three directions, and put the result of the "
-"<code>radar</code> instruction into the three variables defined at point "
-"1). If the radar finds nothing, the variable will contain the value <code><a "
-"cbot|null>null</a></code>."
-msgstr ""
-"Szukaj bariery we wszystkich trzech kierunkach, a wyniki instrukcji "
-"<code>radar</code> umieść w trzech zmiennych zdefiniowanych w punkcie 1). "
-"Jeśli radar niczego nie wykryje, zmienna będzie zawierała wartość <code><a "
-"cbot|null>null</a></code>."
+msgid "Look for barriers in all three directions, and put the result of the <code>radar</code> instruction into the three variables defined at point 1). If the radar finds nothing, the variable will contain the value <code><a cbot|null>null</a></code>."
+msgstr "Szukaj bariery we wszystkich trzech kierunkach, a wyniki instrukcji <code>radar</code> umieść w trzech zmiennych zdefiniowanych w punkcie 1). Jeśli radar niczego nie wykryje, zmienna będzie zawierała wartość <code><a cbot|null>null</a></code>."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:38
+#: levels/exercises/chapter003/level006/help/help.E.txt:38
 #, no-wrap
 msgid ""
 "<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
@@ -257,28 +192,19 @@ msgstr ""
 "\tright = radar(Barrier, -90, 45, 0, 5);"
 
 #. type: Bullet: '3)'
-#: train306-help/tlaby1.txt:39
+#: levels/exercises/chapter003/level006/help/help.E.txt:39
 #, no-wrap
-msgid ""
-"Test if the way is free in front of the bot with the instruction <code><a "
-"cbot|if>if</a></code>. If the test is true, the instructions in braces "
-"<code>{ }</code> will be executed, otherwise the execution will resume after "
-"the closing brace <code>}</code>."
-msgstr ""
-"Używając instrukcji <code><a cbot|if>if</a></code>, sprawdź droga przed "
-"robotem jest wolna. Jeśli warunek będzie prawdziwy, zostaną wykonane "
-"instrukcje w klamrach <code>{ }</code>, w przeciwnym wypadku, działanie "
-"programu zostanie wznowione po klamrze zamykającej <code>}</code>."
+msgid "Test if the way is free in front of the bot with the instruction <code><a cbot|if>if</a></code>. If the test is true, the instructions in braces <code>{ }</code> will be executed, otherwise the execution will resume after the closing brace <code>}</code>."
+msgstr "Używając instrukcji <code><a cbot|if>if</a></code>, sprawdź droga przed robotem jest wolna. Jeśli warunek będzie prawdziwy, zostaną wykonane instrukcje w klamrach <code>{ }</code>, w przeciwnym wypadku, działanie programu zostanie wznowione po klamrze zamykającej <code>}</code>."
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:41
+#: levels/exercises/chapter003/level006/help/help.E.txt:41
 #, no-wrap
 msgid "The instruction <code>return</code> leaves the program: the job is done."
-msgstr ""
-"Instrukcja <code>return</code> opuszcza program: zadanie zostało wykonane."
+msgstr "Instrukcja <code>return</code> opuszcza program: zadanie zostało wykonane."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:46
+#: levels/exercises/chapter003/level006/help/help.E.txt:46
 #, no-wrap
 msgid ""
 "<c/>if ( front == null )\n"
@@ -294,17 +220,13 @@ msgstr ""
 "}"
 
 #. type: Bullet: '4)'
-#: train306-help/tlaby1.txt:47
+#: levels/exercises/chapter003/level006/help/help.E.txt:47
 #, no-wrap
-msgid ""
-"Test if it is possible to turn left; if so, turn left with the instruction "
-"<code><a cbot|turn>turn</a></code> and move 5m forward."
-msgstr ""
-"Sprawdź, czy możliwy jest obrót w lewo; jeśli tak, skręć w lewo instrukcją "
-"<code><a cbot|turn>turn</a></code> i idź 5 metrów do przodu."
+msgid "Test if it is possible to turn left; if so, turn left with the instruction <code><a cbot|turn>turn</a></code> and move 5m forward."
+msgstr "Sprawdź, czy możliwy jest obrót w lewo; jeśli tak, skręć w lewo instrukcją <code><a cbot|turn>turn</a></code> i idź 5 metrów do przodu."
 
 #. type: \s; block (usually verbatim code)
-#: train306-help/tlaby1.txt:54
+#: levels/exercises/chapter003/level006/help/help.E.txt:54
 #, no-wrap
 msgid ""
 "<c/>if ( left == null )\n"
@@ -322,45 +244,37 @@ msgstr ""
 "}"
 
 #. type: Bullet: '5)'
-#: train306-help/tlaby1.txt:55
+#: levels/exercises/chapter003/level006/help/help.E.txt:55
 #, no-wrap
 msgid "Test if it is possible to turn right."
 msgstr "Sprawdź, czy możliwy jest obrót w prawo."
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:57
+#: levels/exercises/chapter003/level006/help/help.E.txt:57
 #, no-wrap
 msgid "    ..."
 msgstr "    ..."
 
 #. type: \b; header
-#: train306-help/tlaby1.txt:58
+#: levels/exercises/chapter003/level006/help/help.E.txt:58
 #, no-wrap
 msgid "Attention"
 msgstr "Uwaga"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:60
+#: levels/exercises/chapter003/level006/help/help.E.txt:60
 #, no-wrap
-msgid ""
-"The instruction <code>if ( )</code> must never be followed by a <a "
-"cbot|term>semicolon</a>."
-msgstr ""
-"Po instrukcji <code>if ( )</code> nigdy nie powinien wystąpić <a "
-"cbot|term>średnik</a>."
+msgid "The instruction <code>if ( )</code> must never be followed by a <a cbot|term>semicolon</a>."
+msgstr "Po instrukcji <code>if ( )</code> nigdy nie powinien wystąpić <a cbot|term>średnik</a>."
 
 #. type: \t; header
-#: train306-help/tlaby1.txt:61
+#: levels/exercises/chapter003/level006/help/help.E.txt:61
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: train306-help/tlaby1.txt:62
+#: levels/exercises/chapter003/level006/help/help.E.txt:62
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a "
-"cbot|category>kategorie</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

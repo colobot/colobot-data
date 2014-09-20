@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,68 +17,54 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train206.languagecode:1
+#: levels/levels-po/exercises/chapter002/level006/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train206/scene.txt:1
+#: levels/exercises/chapter002/level006/scene.txt:1
 #, no-wrap
-msgid "train206:Wasp Hunter 1"
-msgstr "train206:Chasseur de guêpes 1"
+msgid "Wasp Hunter 1"
+msgstr "Chasseur de guêpes 1"
 
 #
-#. type: Resume-text
-#: train206/scene.txt:2
+#. type: Plain text
+#: levels/exercises/chapter002/level006/scene.txt:2
+#: levels/exercises/chapter002/level006/help/help.E.txt:3
 #, no-wrap
-msgid "train206:Shoot down the flying wasps."
-msgstr "train206:Attrapez des guêpes en vol"
+msgid "Shoot down the flying wasps."
+msgstr "Attrapez des guêpes en vol"
 
 #
 #. type: ScriptName-text
-#: train206/scene.txt:3
+#: levels/exercises/chapter002/level006/scene.txt:3
 #, no-wrap
-msgid "train206:Wasp1"
-msgstr "train206:Guêpes1"
+msgid "Wasp1"
+msgstr "Guêpes1"
 
 #. type: \b; header
-#: train206-help/twasp1.txt:1
+#: levels/exercises/chapter002/level006/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Objective"
 msgstr "Objectif"
 
-#. type: Plain text
-#: train206-help/twasp1.txt:3
-#, no-wrap
-#, fuzzy, no-wrap
-msgid "Shoot down the flying wasps."
-msgstr "Attraper des <a object|wasp>guêpes</a> en vol."
-
 #. type: \t; header
-#: train206-help/twasp1.txt:4
+#: levels/exercises/chapter002/level006/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program"
 msgstr "Programme"
 
 #. type: Plain text
-#: train206-help/twasp1.txt:6
+#: levels/exercises/chapter002/level006/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Here is again the program of the previous exercise that shoots all ants and "
-"adapts to the terrain:"
-msgstr ""
-"Voici encore une fois le programme de l'exercice précédent qui tire sur les "
-"fourmis en s'adaptant à la topologie du terrain:"
+msgid "Here is again the program of the previous exercise that shoots all ants and adapts to the terrain:"
+msgstr "Voici encore une fois le programme de l'exercice précédent qui tire sur les fourmis en s'adaptant à la topologie du terrain:"
 
 #. type: \s; block (usually verbatim code)
-#: train206-help/twasp1.txt:36
+#: levels/exercises/chapter002/level006/help/help.E.txt:36
 #, no-wrap
-#, fuzzy, no-wrap
 msgid ""
 "extern void object::JetFighter2()\n"
 "{\n"
@@ -88,8 +74,7 @@ msgid ""
 "\t\n"
 "\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienAnt, 0, 360, 0, "
-"20) == null)\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienAnt, 0, 360, 0, 20) == null)\n"
 "\t\t{\n"
 "\t\t\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
 "\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
@@ -141,193 +126,31 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: train206-help/twasp1.txt:38
+#: levels/exercises/chapter002/level006/help/help.E.txt:38
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"In order to adapt the program to shooting wasps, you need to make a few "
-"changes. Replace all <code>radar(AlienAnt)</code> with "
-"<code>radar(AlienWasp)</code>. The cannon must aim straight forward and not "
-"downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must "
-"fly at the same height as the wasp. For this, you must compare the altitude "
-"of the bot given by <code>position.z</code> with the altitude of the wasp "
-"given by <code>item.position.z</code>: if <code>position.z > "
-"item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If "
-"<code>position.z < item.position.z-1</code>, climb slowly with "
-"<c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is "
-"better if the altitude of the bot is a little lower than the altitude of the "
-"wasp. In this case, we admit that the altitude of the bot ranges between the "
-"altitude of the wasp and the altitude of the wasp minus 1."
-msgstr ""
-"Pour que le shooter soit capable d'attraper des guêpes en vol, il faut faire "
-"quelques changements. Il faut remplacer tous les <code><a "
-"cbot|radar>radar</a>(AlienAnt)</code> par <code>radar(AlienWasp)</code>. Le "
-"canon doit viser tout droit et non pas vers le bas, remplacez <c/><a "
-"cbot|aim>aim</a>(-20);<n/> par <c/>aim(0);<n/>. Et le robot doit voler à la "
-"même altitude que la guêpe. Pour cela, il faut comparer l'altitude du robot "
-"donnée par <code>position.z</code> avec l'altitude de la guêpe donné par "
-"<code>chose.position.z</code>. Si <code>position.z > chose.position.z</code>"
-", il faut descendre doucement avec <c/><a cbot|jet>jet</a>(-0.3);<n/>. Si "
-"<code>position.z < chose.position.z-1</code>, il faut monter doucement avec "
-"<c/><a cbot|jet>jet</a>(0.3);<n/>. Comme un robot shooter est plus haut "
-"qu'une guêpe, il vaut mieux que le robot soit un peu plus bas: on admet donc "
-"que l'altitude du robot soit située entre l'altitude de la guêpe et "
-"l'altitude de la guêpe moins 1."
+msgid "In order to adapt the program to shooting wasps, you need to make a few changes. Replace all <code>radar(AlienAnt)</code> with <code>radar(AlienWasp)</code>. The cannon must aim straight forward and not downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must fly at the same height as the wasp. For this, you must compare the altitude of the bot given by <code>position.z</code> with the altitude of the wasp given by <code>item.position.z</code>: if <code>position.z > item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If <code>position.z < item.position.z-1</code>, climb slowly with <c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is better if the altitude of the bot is a little lower than the altitude of the wasp. In this case, we admit that the altitude of the bot ranges between the altitude of the wasp and the altitude of the wasp minus 1."
+msgstr "Pour que le shooter soit capable d'attraper des guêpes en vol, il faut faire quelques changements. Il faut remplacer tous les <code><a cbot|radar>radar</a>(AlienAnt)</code> par <code>radar(AlienWasp)</code>. Le canon doit viser tout droit et non pas vers le bas, remplacez <c/><a cbot|aim>aim</a>(-20);<n/> par <c/>aim(0);<n/>. Et le robot doit voler à la même altitude que la guêpe. Pour cela, il faut comparer l'altitude du robot donnée par <code>position.z</code> avec l'altitude de la guêpe donné par <code>chose.position.z</code>. Si <code>position.z > chose.position.z</code>, il faut descendre doucement avec <c/><a cbot|jet>jet</a>(-0.3);<n/>. Si <code>position.z < chose.position.z-1</code>, il faut monter doucement avec <c/><a cbot|jet>jet</a>(0.3);<n/>. Comme un robot shooter est plus haut qu'une guêpe, il vaut mieux que le robot soit un peu plus bas: on admet donc que l'altitude du robot soit située entre l'altitude de la guêpe et l'altitude de la guêpe moins 1."
 
 #. type: \t; header
-#: train206-help/twasp1.txt:39
+#: levels/exercises/chapter002/level006/help/help.E.txt:39
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Further improvement"
 msgstr "Perfectionnement"
 
 #. type: Plain text
-#: train206-help/twasp1.txt:41
+#: levels/exercises/chapter002/level006/help/help.E.txt:41
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Wasps move very fast. In order to increase your chances to get them, better "
-"to repeat just before the <c/>fire(1);<n/> a <code>radar</code> and a "
-"<code>turn</code> in order to perform a last readjustment of the direction "
-"before the shot."
-msgstr ""
-"Les guêpes se déplacent très vite. Pour avoir plus de chances de les "
-"attraper, il vaut mieux juste avant le <c/><a cbot|fire>fire</a>(1);<n/> "
-"refaire un <code><a cbot|radar>radar</a>()</code> et un <code><a "
-"cbot|turn>turn</a>()</code> pour faire un dernier ajustement de la direction "
-"avant le tir."
+msgid "Wasps move very fast. In order to increase your chances to get them, better to repeat just before the <c/>fire(1);<n/> a <code>radar</code> and a <code>turn</code> in order to perform a last readjustment of the direction before the shot."
+msgstr "Les guêpes se déplacent très vite. Pour avoir plus de chances de les attraper, il vaut mieux juste avant le <c/><a cbot|fire>fire</a>(1);<n/> refaire un <code><a cbot|radar>radar</a>()</code> et un <code><a cbot|turn>turn</a>()</code> pour faire un dernier ajustement de la direction avant le tir."
 
 #. type: \t; header
-#: train206-help/twasp1.txt:42
+#: levels/exercises/chapter002/level006/help/help.E.txt:42
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: train206-help/twasp1.txt:43
+#: levels/exercises/chapter002/level006/help/help.E.txt:43
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tant4>Exercice précédent</a> et <a cbot>programmation</a>."
-
-#
-#~ msgid "train200:Ants and wasps"
-#~ msgstr "train200:Fourmis et guêpes"
-
-#
-#~ msgid "train200:Fight against moving targets"
-#~ msgstr "train200:Combat contre des cibles mouvantes"
-
-#
-#~ msgid "train200:"
-#~ msgstr "train200:"
-
-#
-#~ msgid "train201:Barrage Fire"
-#~ msgstr "train201:Tir de barrage"
-
-#
-#~ msgid "train201:"
-#~ msgstr "train201:"
-
-#
-#~ msgid ""
-#~ "train201:Set the power of the different motors in order to achieve a "
-#~ "barrage fire."
-#~ msgstr ""
-#~ "train201:Effectuer à l'aide de la commande directe des moteurs un tir de "
-#~ "barrage contre des fourmis qui attaquent"
-
-#
-#~ msgid "train201:Move"
-#~ msgstr "train201:Barrage"
-
-#
-#~ msgid "train202:Flying tower 1"
-#~ msgstr "train202:Tour volante 1"
-
-#
-#~ msgid "train202:"
-#~ msgstr "train202:"
-
-#
-#~ msgid "train202:Make a flying defense tower out of a winged shooter."
-#~ msgstr ""
-#~ "train202:Programmer un robot volant de manière à obtenir une tour de "
-#~ "défense volante"
-
-#
-#~ msgid "train202:Move"
-#~ msgstr "train202:Tour1"
-
-#
-#~ msgid "train203:Flying Tower 2"
-#~ msgstr "train203:Tour volante 2"
-
-#
-#~ msgid "train203:"
-#~ msgstr "train203:"
-
-#
-#~ msgid "train203:Program a flying tower that wastes less energy."
-#~ msgstr "train203:Une tour de défense volante plus économe en énergie"
-
-#
-#~ msgid "train203:Move"
-#~ msgstr "train203:Tour2"
-
-#
-#~ msgid "train204:Fighter Jet 1"
-#~ msgstr "train204:Chasseur à réaction 1"
-
-#
-#~ msgid "train204:"
-#~ msgstr "train204:"
-
-#
-#~ msgid "train204:Instruct a winged shooter to clean the whole region."
-#~ msgstr ""
-#~ "train204:Programmez un shooter volant pour qu'il nettoie toute la région"
-
-#
-#~ msgid "train204:Move"
-#~ msgstr "train204:Chasseur1"
-
-#
-#~ msgid "train205:Fighter Jet 2"
-#~ msgstr "train205:Chasseur à réaction 2"
-
-#
-#~ msgid "train205:"
-#~ msgstr "train205:"
-
-#
-#~ msgid "train205:Adapt the program to a mountainous terrain."
-#~ msgstr "train205:Adaptez le programme à un relief accidenté"
-
-#
-#~ msgid "train205:Move"
-#~ msgstr "train205:Chasseur2"
-
-#
-#~ msgid "train206:"
-#~ msgstr "train206:"
-
-#
-#~ msgid "train207:Wasp Hunter 2"
-#~ msgstr "train207:Chasseur de guêpes 2"
-
-#
-#~ msgid "train207:"
-#~ msgstr "train207:"
-
-#
-#~ msgid "train207:Get better at shooting down the wasps."
-#~ msgstr "train207:Attrapez des guêpes de manière plus efficace"
-
-#
-#~ msgid "train207:Wasp2"
-#~ msgstr "train207:Guêpes2"

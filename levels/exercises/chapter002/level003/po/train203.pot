@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: train203.languagecode:1
+#: levels/levels-po/exercises/chapter002/level003/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: train203/scene.txt:1
+#: levels/exercises/chapter002/level003/scene.txt:1
 #, no-wrap
-msgid "train203:Flying Tower 2"
+msgid "Flying Tower 2"
 msgstr ""
 
 #. type: Resume-text
-#: train203/scene.txt:2
+#: levels/exercises/chapter002/level003/scene.txt:2
 #, no-wrap
-msgid "train203:Program a flying tower that wastes less energy."
+msgid "Program a flying tower that wastes less energy."
 msgstr ""
 
 #. type: ScriptName-text
-#: train203/scene.txt:3
+#: levels/exercises/chapter002/level003/scene.txt:3
 #, no-wrap
-msgid "train203:Move"
+msgid "Move"
 msgstr ""
 
 #. type: \b; header
-#: train203-help/tant3.txt:1
+#: levels/exercises/chapter002/level003/help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:3
+#: levels/exercises/chapter002/level003/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "Adapt the program <code>Tower1</code> in order to avoid wasting energy when "
@@ -55,13 +55,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train203-help/tant3.txt:4
+#: levels/exercises/chapter002/level003/help/help.E.txt:4
 #, no-wrap
 msgid "Program"
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:6
+#: levels/exercises/chapter002/level003/help/help.E.txt:6
 #, no-wrap
 msgid ""
 "The program <code>Tower1</code> shoots in the direction of the closest ant, "
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train203-help/tant3.txt:25
+#: levels/exercises/chapter002/level003/help/help.E.txt:25
 #, no-wrap
 msgid ""
 "extern void object::Tour1()\n"
@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:27
+#: levels/exercises/chapter002/level003/help/help.E.txt:27
 #, no-wrap
 msgid ""
 "If the bot must perform the same task than before with only a <a "
@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:29
+#: levels/exercises/chapter002/level003/help/help.E.txt:29
 #, no-wrap
 msgid ""
 "You can give the instruction <code><a cbot|radar()>radar</a></code> more "
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: train203-help/tant3.txt:34
+#: levels/exercises/chapter002/level003/help/help.E.txt:34
 #, no-wrap
 msgid ""
 "\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
@@ -129,7 +129,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:36
+#: levels/exercises/chapter002/level003/help/help.E.txt:36
 #, no-wrap
 msgid ""
 "Notice that two equal signs \"==\" are needed to perform a comparison of "
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:38
+#: levels/exercises/chapter002/level003/help/help.E.txt:38
 #, no-wrap
 msgid ""
 "Just insert these lines before the instruction <c/>fire(0);<n/>, and the bot "
@@ -146,13 +146,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train203-help/tant3.txt:39
+#: levels/exercises/chapter002/level003/help/help.E.txt:39
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: train203-help/tant3.txt:40
+#: levels/exercises/chapter002/level003/help/help.E.txt:40
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "

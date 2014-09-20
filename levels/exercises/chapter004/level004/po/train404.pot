@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: One-char language identifier
-#: train404.languagecode:1
+#: levels/levels-po/exercises/chapter004/level004/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr ""
 
 #. type: Title-text
-#: train404/scene.txt:1
+#: levels/exercises/chapter004/level004/scene.txt:1
 #, no-wrap
-msgid "train404:Patient hunter"
+msgid "Patient hunter"
 msgstr ""
 
 #. type: Resume-text
-#: train404/scene.txt:2
+#: levels/exercises/chapter004/level004/scene.txt:2
 #, no-wrap
-msgid "train404:Be patient enough not to waste your ammunitions."
+msgid "Be patient enough not to waste your ammunitions."
 msgstr ""
 
 #. type: ScriptName-text
-#: train404/scene.txt:3
+#: levels/exercises/chapter004/level004/scene.txt:3
 #, no-wrap
-msgid "train404:Patient"
+msgid "Patient"
 msgstr ""
 
 #. type: \b; header
-#: train404-help/tchasse.txt:1
+#: levels/exercises/chapter004/level004/help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: train404-help/tchasse.txt:3
+#: levels/exercises/chapter004/level004/help/help.E.txt:3
 #, no-wrap
 msgid ""
 "You must find a way to destroy the four moving <a object|bottarg>target "
@@ -56,13 +56,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: train404-help/tchasse.txt:4
+#: levels/exercises/chapter004/level004/help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: train404-help/tchasse.txt:5
+#: levels/exercises/chapter004/level004/help/help.E.txt:5
 #, no-wrap
 msgid ""
 "Detect a target with the instruction <c/><a "
@@ -70,31 +70,31 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '2)'
-#: train404-help/tchasse.txt:6
+#: levels/exercises/chapter004/level004/help/help.E.txt:6
 #, no-wrap
 msgid "Turn towards the target with <c/><a cbot|turn>turn</a>(direction());<n/>."
 msgstr ""
 
 #. type: Bullet: '3)'
-#: train404-help/tchasse.txt:7
+#: levels/exercises/chapter004/level004/help/help.E.txt:7
 #, no-wrap
 msgid "After the rotation, check if the target did not move."
 msgstr ""
 
 #. type: Bullet: '4)'
-#: train404-help/tchasse.txt:8
+#: levels/exercises/chapter004/level004/help/help.E.txt:8
 #, no-wrap
 msgid "If it did not, wait 0.2 seconds with <c/><a cbot|wait>wait</a>(0.2);<n/>."
 msgstr ""
 
 #. type: Bullet: '5)'
-#: train404-help/tchasse.txt:9
+#: levels/exercises/chapter004/level004/help/help.E.txt:9
 #, no-wrap
 msgid "Re-check if the target did not move."
 msgstr ""
 
 #. type: Bullet: '6)'
-#: train404-help/tchasse.txt:10
+#: levels/exercises/chapter004/level004/help/help.E.txt:10
 #, no-wrap
 msgid ""
 "If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 "
@@ -102,19 +102,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: train404-help/tchasse.txt:13
+#: levels/exercises/chapter004/level004/help/help.E.txt:13
 #, no-wrap
 msgid "There are of course other ways to achieve the goal."
 msgstr ""
 
 #. type: \b; header
-#: train404-help/tchasse.txt:14
+#: levels/exercises/chapter004/level004/help/help.E.txt:14
 #, no-wrap
 msgid "Remark"
 msgstr ""
 
 #. type: Plain text
-#: train404-help/tchasse.txt:16
+#: levels/exercises/chapter004/level004/help/help.E.txt:16
 #, no-wrap
 msgid ""
 "In order to increase the efficiency of your shots, aim a little downward "
@@ -122,13 +122,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: train404-help/tchasse.txt:17
+#: levels/exercises/chapter004/level004/help/help.E.txt:17
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: train404-help/tchasse.txt:18
+#: levels/exercises/chapter004/level004/help/help.E.txt:18
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,349 +17,184 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: train102.languagecode:1
+#: levels/levels-po/exercises/chapter001/level002/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "F"
 
 #
 #. type: Title-text
-#: train102/scene.txt:1
+#: levels/exercises/chapter001/level002/scene.txt:1
 #, no-wrap
-msgid "train102:Power Cell 1"
-msgstr "train102:Pile 1"
+msgid "Power Cell 1"
+msgstr "Pile 1"
 
 #
 #. type: Resume-text
-#: train102/scene.txt:2
+#: levels/exercises/chapter001/level002/scene.txt:2
 #, no-wrap
-msgid "train102:Instruct a bot to change the power cell of a nearby winged shooter."
-msgstr "train102:Programmer un robot pour qu'il change la pile d'un autre robot"
+msgid "Instruct a bot to change the power cell of a nearby winged shooter."
+msgstr "Programmer un robot pour qu'il change la pile d'un autre robot"
 
 #
 #. type: ScriptName-text
-#: train102/scene.txt:3
+#: levels/exercises/chapter001/level002/scene.txt:3
 #, no-wrap
-msgid "train102:Spider2"
-msgstr "train102:Pile1"
+msgid "Spider2"
+msgstr "Pile1"
 
 #. type: \b; header
-#: train102-help/tcell1.txt:1
+#: levels/exercises/chapter001/level002/help/help.E.txt:1
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Objective"
 msgstr "Objectif"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:3
+#: levels/exercises/chapter001/level002/help/help.E.txt:3
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"Program the <a object|botgr>grabber bot</a> to change the <a "
-"object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The "
-"winged shooter can then shoot the spiders."
-msgstr ""
-"Changez la <a object|power>pile</a> du robot <a object|botfj>shooter</a>, "
-"pour qu'il puisse partir à la chasse aux <a object|bottarg>cibles</a>. "
+msgid "Program the <a object|botgr>grabber bot</a> to change the <a object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The winged shooter can then shoot the spiders."
+msgstr "Changez la <a object|power>pile</a> du robot <a object|botfj>shooter</a>, pour qu'il puisse partir à la chasse aux <a object|bottarg>cibles</a>. "
 
 #. type: \t; header
-#: train102-help/tcell1.txt:4
+#: levels/exercises/chapter001/level002/help/help.E.txt:4
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Procedure"
 msgstr "Marche à suivre"
 
 #. type: Bullet: '1)'
-#: train102-help/tcell1.txt:5
+#: levels/exercises/chapter001/level002/help/help.E.txt:5
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a>."
 msgstr "Programmez le robot déménageur."
 
 #. type: Bullet: '2)'
-#: train102-help/tcell1.txt:6
+#: levels/exercises/chapter001/level002/help/help.E.txt:6
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Execute the program with the arrow button <button 21/>."
 msgstr "Exécutez le programme en cliquant sur le bouton <button 21/>."
 
 #. type: Plain text
-#: train102-help/tcell1.txt:8
+#: levels/exercises/chapter001/level002/help/help.E.txt:8
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"The <a object|botfj>winged shooter</a> is already programmed, it will do its "
-"job as soon as it has got a new power cell."
-msgstr ""
-"Le robot shooter est déjà programmé, et entrera en action dès qu'il aura une "
-"pile neuve."
+msgid "The <a object|botfj>winged shooter</a> is already programmed, it will do its job as soon as it has got a new power cell."
+msgstr "Le robot shooter est déjà programmé, et entrera en action dès qu'il aura une pile neuve."
 
 #. type: \t; header
-#: train102-help/tcell1.txt:9
+#: levels/exercises/chapter001/level002/help/help.E.txt:9
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Program"
 msgstr "Programme"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:11
+#: levels/exercises/chapter001/level002/help/help.E.txt:11
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "You will need the following instructions:"
 msgstr "Vous aurez besoin des instructions suivantes:"
 
 #. type: \s; block (usually verbatim code)
-#: train102-help/tcell1.txt:13
+#: levels/exercises/chapter001/level002/help/help.E.txt:13
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "grab();<n/>"
 msgstr "<a cbot|grab>grab</a>();<n/>"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:14
+#: levels/exercises/chapter001/level002/help/help.E.txt:14
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<n/>Takes whatever there is in front of the bot."
 msgstr "<n/>Prend ce qui se trouve devant le robot."
 
 #. type: \s; block (usually verbatim code)
-#: train102-help/tcell1.txt:16
+#: levels/exercises/chapter001/level002/help/help.E.txt:16
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "drop();<n/>"
 msgstr "<a cbot|drop>drop</a>();<n/>"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:17
+#: levels/exercises/chapter001/level002/help/help.E.txt:17
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "<n/>Drops whatever the bot is carrying in front."
 msgstr "<n/>Pose ce que le robot porte devant lui."
 
 #. type: \s; block (usually verbatim code)
-#: train102-help/tcell1.txt:19
+#: levels/exercises/chapter001/level002/help/help.E.txt:19
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "turn();<n/>"
 msgstr "<a cbot|turn>turn</a>();<n/>"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:20
+#: levels/exercises/chapter001/level002/help/help.E.txt:20
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<n/>We have seen this instruction already in the previous exercise: it "
-"performs a rotation of a certain angle, given in degrees."
-msgstr ""
-"<n/>Cette instruction a déjà été vue dans l'exercice précédent: elle tourne "
-"le robot d'un certain angle, donné en degrés entre les parenthèses."
+msgid "<n/>We have seen this instruction already in the previous exercise: it performs a rotation of a certain angle, given in degrees."
+msgstr "<n/>Cette instruction a déjà été vue dans l'exercice précédent: elle tourne le robot d'un certain angle, donné en degrés entre les parenthèses."
 
 #. type: Plain text
-#: train102-help/tcell1.txt:22
+#: levels/exercises/chapter001/level002/help/help.E.txt:22
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "Let us see the beginning of the program:\n"
 msgstr "Voyons le début du programme:\n"
 
 #. type: Bullet: 'o'
-#: train102-help/tcell1.txt:22
+#: levels/exercises/chapter001/level002/help/help.E.txt:22
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "pick up the empty power cell with <c/>grab();<n/>"
 msgstr "on prend la pile vide avec <c/>grab();<n/>"
 
 #. type: Bullet: 'o'
-#: train102-help/tcell1.txt:23
+#: levels/exercises/chapter001/level002/help/help.E.txt:23
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "turn left 90 degrees (quarter turn) with <code>turn(90)</code>"
 msgstr "on tourne à gauche de 90 degrés <code>turn(90)</code>"
 
 #. type: Bullet: 'o'
-#: train102-help/tcell1.txt:24
+#: levels/exercises/chapter001/level002/help/help.E.txt:24
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "drop the empty cell with <c/>drop();<n/>"
 msgstr "on pose la pile vide <c/>drop();<n/>"
 
 #. type: Bullet: 'o'
-#: train102-help/tcell1.txt:25
+#: levels/exercises/chapter001/level002/help/help.E.txt:25
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "etc."
 msgstr "etc."
 
 #. type: Plain text
-#: train102-help/tcell1.txt:28
+#: levels/exercises/chapter001/level002/help/help.E.txt:28
 #, no-wrap
-#, fuzzy, no-wrap
 msgid "It is up to you now to write the rest of the program!"
 msgstr "A vous de faire la suite!"
 
 #. type: Plain text
-#: train102-help/tcell1.txt:30
+#: levels/exercises/chapter001/level002/help/help.E.txt:30
 #, no-wrap
-msgid ""
-"If you have got a problem, you can always look at the solution: select the "
-"<code>Solution</code> program, and click the braces button <button 22/>."
+msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program, and click the braces button <button 22/>."
 msgstr ""
 
 #. type: \t; header
-#: train102-help/tcell1.txt:31
+#: levels/exercises/chapter001/level002/help/help.E.txt:31
 #, no-wrap
 msgid "Remarks"
 msgstr ""
 
 #. type: Plain text
-#: train102-help/tcell1.txt:33
+#: levels/exercises/chapter001/level002/help/help.E.txt:33
 #, no-wrap
-msgid ""
-"Be careful to write the instructions precisely, respecting lower and upper "
-"case letters."
+msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
 msgstr ""
 
 #. type: Plain text
-#: train102-help/tcell1.txt:35
+#: levels/exercises/chapter001/level002/help/help.E.txt:35
 #, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
 msgstr ""
 
 #. type: Plain text
-#: train102-help/tcell1.txt:37
+#: levels/exercises/chapter001/level002/help/help.E.txt:37
 #, no-wrap
-msgid ""
-"In case your program does not do exactly what you wanted, you can put the "
-"bot back at the starting point with the button <button 59/>. You can also "
-"start over again from the beginning (hit the key \"Esc\", the click "
-"\"Restart\"). The program you have written will not be lost."
+msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button <button 59/>. You can also start over again from the beginning (hit the key \"Esc\", the click \"Restart\"). The program you have written will not be lost."
 msgstr ""
 
 #. type: Plain text
-#: train102-help/tcell1.txt:38
+#: levels/exercises/chapter001/level002/help/help.E.txt:38
 #, no-wrap
-#, fuzzy, no-wrap
-msgid ""
-"<format key><key help/></format> allows you to review these instructions at "
-"all times."
-msgstr ""
-"<format key><key help/></format> permet de revoir les instructions générales "
-"en tout temps. De même, <format key><key prog/></format> accède aux "
-"explications du langage de programmation CBOT."
-
-#
-#~ msgid "train100:Spiders and supply"
-#~ msgstr "train100:Araignées et logistique"
-
-#
-#~ msgid "train100:Supply problems and fight against motionless targets"
-#~ msgstr ""
-#~ "train100:Problèmes de logistique et combat contre des cibles immobiles"
-
-#
-#~ msgid "train100:"
-#~ msgstr "train100:"
-
-#
-#~ msgid "train101:Spiders 1"
-#~ msgstr "train101:Araignées 1"
-
-#
-#~ msgid "train101:"
-#~ msgstr "train101:"
-
-#
-#~ msgid "train101:Kill three spiders with a small program."
-#~ msgstr "train101:Tuer trois araignées avec un petit programme."
-
-#
-#~ msgid "train101:Spider1"
-#~ msgstr "train101:Araignée1"
-
-#
-#~ msgid "train102:"
-#~ msgstr "train102:"
-
-#
-#~ msgid "train103:Titanium 1"
-#~ msgstr "train103:Titanium 1"
-
-#
-#~ msgid "train103:"
-#~ msgstr "train103:"
-
-#
-#~ msgid "train103:Take a chunk of titanium ore and bring it to the converter."
-#~ msgstr ""
-#~ "train103:Programmer un robot pour qu'il aille chercher un minerai de "
-#~ "titanium et l'amène sur le convertisseur"
-
-#
-#~ msgid "train103:Titanium1"
-#~ msgstr "train103:Titanium1"
-
-#
-#~ msgid "train104:Titanium 2"
-#~ msgstr "train104:Titanium 2"
-
-#
-#~ msgid "train104:"
-#~ msgstr "train104:"
-
-#
-#~ msgid ""
-#~ "train104:Use the bot's radar to look for the titanium ore and bring it to "
-#~ "the converter."
-#~ msgstr ""
-#~ "train104:Utiliser le radar pour aller chercher un minerai de titanium"
-
-#
-#~ msgid "train104:Titanium2"
-#~ msgstr "train104:Titanium2"
-
-#
-#~ msgid "train105:Power Cell 2"
-#~ msgstr "train105:Pile 2"
-
-#
-#~ msgid "train105:"
-#~ msgstr "train105:"
-
-#
-#~ msgid "train105:Power all the winged shooters."
-#~ msgstr "train105:Equiper les robots shooters de piles"
-
-#
-#~ msgid "train105:Spider2"
-#~ msgstr "train105:Pile2"
-
-#
-#~ msgid "train106:Spiders 2"
-#~ msgstr "train106:Araignées 2"
-
-#
-#~ msgid "train106:"
-#~ msgstr "train106:"
-
-#
-#~ msgid "train106:Use the radar to find and kill all ants."
-#~ msgstr "train106:Tuer plusieurs araignées localisées avec le radar."
-
-#
-#~ msgid "train106:Spider2"
-#~ msgstr "train106:Araignée2"
-
-#
-#~ msgid "train107:Spiders 3"
-#~ msgstr "train107:Araignées 3"
-
-#
-#~ msgid "train107:"
-#~ msgstr "train107:"
-
-#
-#~ msgid "train107:Learn to move the bot so that no spider can escape."
-#~ msgstr "train107:Allez à la rencontre des araignées."
-
-#
-#~ msgid "train107:Spider3"
-#~ msgstr "train107:Araignée3"
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> permet de revoir les instructions générales en tout temps. De même, <format key><key prog/></format> accède aux explications du langage de programmation CBOT."

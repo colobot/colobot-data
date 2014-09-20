@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-02 12:51+0200\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,95 +17,122 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: One-char language identifier
-#: scene305.languagecode:1
+#: levels/levels-po/missions/chapter003/level005/po/scene_langchar.txt:1
 #, no-wrap
 msgid "E"
 msgstr "P"
 
 #. type: Title-text
-#: scene305/scene.txt:1
+#: levels/missions/chapter003/level005/scene.txt:1
 #, no-wrap
-msgid "scene305:Black Box"
-msgstr "scene305:Czarna skrzynka"
+msgid "Black Box"
+msgstr "Czarna skrzynka"
 
 #. type: Resume-text
-#: scene305/scene.txt:2
+#: levels/missions/chapter003/level005/scene.txt:2
 #, no-wrap
-msgid "scene305:Explore the underwater world looking for another black box."
-msgstr "scene305:Zbadaj podwodny świat szukając kolejnej czarnej skrzynki."
+msgid "Explore the underwater world looking for another black box."
+msgstr "Zbadaj podwodny świat szukając kolejnej czarnej skrzynki."
 
 #. type: \b; header
-#: scene305-help/mhtropi5.txt:1
+#: levels/missions/chapter003/level005/help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
 msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
-#: scene305-help/mhtropi5.txt:3
+#: levels/missions/chapter003/level005/help/help.E.txt:3
 #, no-wrap
-msgid ""
-"Locate and retrieve another <a object|bbox>black box</a> from the previous "
-"expedition."
-msgstr ""
-"Znajdź i odzyskaj kolejną <a object|bbox>czarną skrzynkę</a> zostawioną "
-"przez poprzednią ekspedycję."
+msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
+msgstr "Znajdź i odzyskaj kolejną <a object|bbox>czarną skrzynkę</a> zostawioną przez poprzednią ekspedycję."
 
 #. type: Plain text
-#: scene305-help/mhtropi5.txt:5
+#: levels/missions/chapter003/level005/help/help.E.txt:5
 #, no-wrap
-msgid ""
-"The observation satellite seems to have spotted it underwater. Water is "
-"harmless to you as long as you wear your helmet but keep in mind that you "
-"can't carry objects underwater. A <a object|botsub>subber</a> may come in "
-"handy."
-msgstr ""
-"Z danych satelity obserwacyjnego wynika, że znajduje się ona pod wodą. Woda "
-"jest nieszkodliwa, o ile masz założony hełm, ale pamiętaj, że nie możesz "
-"nosić pod wodą żadnych przedmiotów. W tym przypadku pomocny może być robot <"
-"a object|botsub>nurek</a>."
+msgid "The observation satellite seems to have spotted it underwater. Water is harmless to you as long as you wear your helmet but keep in mind that you can't carry objects underwater. A <a object|botsub>subber</a> may come in handy."
+msgstr "Z danych satelity obserwacyjnego wynika, że znajduje się ona pod wodą. Woda jest nieszkodliwa, o ile masz założony hełm, ale pamiętaj, że nie możesz nosić pod wodą żadnych przedmiotów. W tym przypadku pomocny może być robot <a object|botsub>nurek</a>."
 
 #. type: Plain text
-#: scene305-help/mhtropi5.txt:7
+#: levels/missions/chapter003/level005/help/help.E.txt:7
 #, no-wrap
-msgid ""
-"<format key><key help/></format> allows you to review these instructions at "
-"all times on your personal SatCom <button 63/>."
-msgstr ""
-"Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie "
-"przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
-#: scene305-help/mhtropi5.txt:8 scene305-help/mstropi5.txt:14
+#: levels/missions/chapter003/level005/help/help.E.txt:8
+#: levels/missions/chapter003/level005/help/soluce.E.txt:14
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: scene305-help/mhtropi5.txt:9
+#: levels/missions/chapter003/level005/help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
-#: scene305-help/mitropi5.txt:1
+#: levels/missions/chapter003/level005/help/prog.E.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Programy przysłane z Houston"
+
+#. type: Plain text
+#: levels/missions/chapter003/level005/help/prog.E.txt:3
+#, no-wrap
+msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
+msgstr "Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
+
+#. type: \b; header
+#: levels/missions/chapter003/level005/help/prog.E.txt:4
+#, no-wrap
+msgid "Archives"
+msgstr "Archiwum"
+
+#. type: Plain text
+#: levels/missions/chapter003/level005/help/prog.E.txt:6
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr "Lista programów przysłanych w poprzednich misjach:"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter003/level005/help/prog.E.txt:7
+#, no-wrap
+msgid "<code><a mltropi3>Recharge2</a></code>"
+msgstr "<code><a mltropi3>Recharge2</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter003/level005/help/prog.E.txt:8
+#, no-wrap
+msgid "<code><a mllune4>Recharge1</a></code>"
+msgstr "<code><a mllune4>Recharge1</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter003/level005/help/prog.E.txt:9
+#, no-wrap
+msgid "<code><a mllune1>SwitchCell1</a></code>"
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
+
+#. type: \b; header
+#: levels/missions/chapter003/level005/help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
 msgstr "Raport z satelity"
 
 #. type: Plain text
-#: scene305-help/mitropi5.txt:3
+#: levels/missions/chapter003/level005/help/report.E.txt:3
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
 msgstr "Obecnie na orbicie geostacjonarnej planety Tropika."
 
 #. type: \s; block (usually verbatim code)
-#: scene305-help/mitropi5.txt:5
+#: levels/missions/chapter003/level005/help/report.E.txt:5
 #, no-wrap
 msgid "-> SURFACE<c/>"
 msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
-#: scene305-help/mitropi5.txt:10
+#: levels/missions/chapter003/level005/help/report.E.txt:10
 #, no-wrap
 msgid ""
 "\\tab;Temperature:      29.4C\n"
@@ -121,13 +148,13 @@ msgstr ""
 "\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
-#: scene305-help/mitropi5.txt:12
+#: levels/missions/chapter003/level005/help/report.E.txt:12
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
-#: scene305-help/mitropi5.txt:15
+#: levels/missions/chapter003/level005/help/report.E.txt:15
 #, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
@@ -139,13 +166,13 @@ msgstr ""
 "\\tab;Ruda uranu:       brak"
 
 #. type: \s; block (usually verbatim code)
-#: scene305-help/mitropi5.txt:17
+#: levels/missions/chapter003/level005/help/report.E.txt:17
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
-#: scene305-help/mitropi5.txt:21
+#: levels/missions/chapter003/level005/help/report.E.txt:21
 #, no-wrap
 msgid ""
 "\\tab;Detected:         titanium ore\n"
@@ -159,128 +186,67 @@ msgstr ""
 "\\tab;Wykryto:          czarną skrzynkę (pod wodą)"
 
 #. type: \b; header
-#: scene305-help/mltropi5.txt:1
-#, no-wrap
-msgid "Programs dispatched by Houston"
-msgstr "Programy przysłane z Houston"
-
-#. type: Plain text
-#: scene305-help/mltropi5.txt:3
-#, no-wrap
-msgid ""
-"We did not develop a specific program for this mission. However, you can "
-"develop your own programs if you think it would be useful."
-msgstr ""
-"Nie napisaliśmy żadnego programu specjalnie dla tej misji. Jednakże możesz "
-"napisać własny program, jeśli uważasz, że przyda się on podczas tej misji."
-
-#. type: \b; header
-#: scene305-help/mltropi5.txt:4
-#, no-wrap
-msgid "Archives"
-msgstr "Archiwum"
-
-#. type: Plain text
-#: scene305-help/mltropi5.txt:6
-#, no-wrap
-msgid "Index of the programs dispatched in former missions:"
-msgstr "Lista programów przysłanych w poprzednich misjach:"
-
-#. type: Bullet: 'o'
-#: scene305-help/mltropi5.txt:7
-#, no-wrap
-msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr "<code><a mltropi3>Recharge2</a></code>"
-
-#. type: Bullet: 'o'
-#: scene305-help/mltropi5.txt:8
-#, no-wrap
-msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr "<code><a mllune4>Recharge1</a></code>"
-
-#. type: Bullet: 'o'
-#: scene305-help/mltropi5.txt:9
-#, no-wrap
-msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr "<code><a mllune1>SwitchCell1</a></code>"
-
-#. type: \b; header
-#: scene305-help/mstropi5.txt:1
+#: levels/missions/chapter003/level005/help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
 msgstr "Rozwiązanie"
 
 #. type: Bullet: '1)'
-#: scene305-help/mstropi5.txt:2
+#: levels/missions/chapter003/level005/help/soluce.E.txt:2
 #, no-wrap
-msgid ""
-"Locate the <a object|bbox>black box</a> on your own. You can try to spot it "
-"from above, using your jet engine, or dive into the water."
-msgstr ""
-"Znajdź <a object|bbox>czarną skrzynkę</a> osobiście. Możesz ją dostrzec z "
-"góry, korzystając z silnika odrzutowego lub nurkując w wodzie."
+msgid "Locate the <a object|bbox>black box</a> on your own. You can try to spot it from above, using your jet engine, or dive into the water."
+msgstr "Znajdź <a object|bbox>czarną skrzynkę</a> osobiście. Możesz ją dostrzec z góry, korzystając z silnika odrzutowego lub nurkując w wodzie."
 
 #. type: Bullet: '2)'
-#: scene305-help/mstropi5.txt:3
+#: levels/missions/chapter003/level005/help/soluce.E.txt:3
 #, no-wrap
-msgid ""
-"Build a <a object|convert>converter</a> near the chunks of titanium "
-"ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr ""
-"Zbuduj <a object|convert>hutę</a> w pobliżu kawałków rudy tytanu. Znajdziesz "
-"je obok statku kosmicznego, na wschodzie."
+msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
+msgstr "Zbuduj <a object|convert>hutę</a> w pobliżu kawałków rudy tytanu. Znajdziesz je obok statku kosmicznego, na wschodzie."
 
 #. type: Bullet: '3)'
-#: scene305-help/mstropi5.txt:4
+#: levels/missions/chapter003/level005/help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
 msgstr "Wyprodukuj dwie <a object|titan>kostki tytanu</a>."
 
 #. type: Bullet: '4)'
-#: scene305-help/mstropi5.txt:5
+#: levels/missions/chapter003/level005/help/soluce.E.txt:5
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr ""
-"Zbuduj <a object|factory>fabrykę robotów</a> w pobliżu czarnej skrzynki."
+msgstr "Zbuduj <a object|factory>fabrykę robotów</a> w pobliżu czarnej skrzynki."
 
 #. type: Bullet: '5)'
-#: scene305-help/mstropi5.txt:6
+#: levels/missions/chapter003/level005/help/soluce.E.txt:6
 #, no-wrap
 msgid "Manufacture a <a object|botsub>subber</a>."
 msgstr "Zbuduj robota <a object|botsub>nurka</a>."
 
 #. type: Bullet: '6)'
-#: scene305-help/mstropi5.txt:7
+#: levels/missions/chapter003/level005/help/soluce.E.txt:7
 #, no-wrap
 msgid "Bring the black box back on board."
 msgstr "Dostarcz czarną skrzynkę na pokład."
 
 #. type: Bullet: '7)'
-#: scene305-help/mstropi5.txt:8
+#: levels/missions/chapter003/level005/help/soluce.E.txt:8
 #, no-wrap
 msgid "Take off."
 msgstr "Odleć."
 
 #. type: Plain text
-#: scene305-help/mstropi5.txt:11
+#: levels/missions/chapter003/level005/help/soluce.E.txt:11
 #, no-wrap
-msgid ""
-"The black box is lying at the bottom of a small lake, northeast of the "
-"spaceship."
-msgstr ""
-"Czarna skrzynka leży na dnie małego jeziora, na północny wschód od statku "
-"kosmicznego."
+msgid "The black box is lying at the bottom of a small lake, northeast of the spaceship."
+msgstr "Czarna skrzynka leży na dnie małego jeziora, na północny wschód od statku kosmicznego."
 
 #. type: Plain text
-#: scene305-help/mstropi5.txt:13
+#: levels/missions/chapter003/level005/help/soluce.E.txt:13
 #, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr ""
-"Fabrykę robotów możesz zbudować tuż przy jeziorze, na jego południowym "
-"brzegu."
+msgstr "Fabrykę robotów możesz zbudować tuż przy jeziorze, na jego południowym brzegu."
 
 #. type: Plain text
-#: scene305-help/mstropi5.txt:15
+#: levels/missions/chapter003/level005/help/soluce.E.txt:15
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Sterowanie</a>"
