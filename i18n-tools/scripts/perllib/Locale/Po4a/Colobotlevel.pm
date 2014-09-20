@@ -26,11 +26,11 @@ sub initialize {}
 
 sub parse {
     my $self=shift;
-    my ($line,$ref);
-    my $parE;
+    my ($line,$line_source);
+    my $language_char;
 
     LINE:
-    ($line,$ref)=$self->shiftline();
+    ($line,$line_source)=$self->shiftline();
 
     while (defined($line)) {
         chomp($line);
@@ -43,9 +43,9 @@ sub parse {
             # One char just after the .
             $line =~ m/\.(.)/;
             my $E = $1;
-            if( not $parE ) {
+            if (not $language_char) {
                 # Take this one-char only once
-                $parE = $self->translate($E, '', 'One-char language identifier');
+                $language_char = $self->translate($E, '', 'One-char language identifier');
             }
 
             # The text between .E and first quote
@@ -58,17 +58,27 @@ sub parse {
             my $subtype_2 = $6;
             my $quoted_2  = $7;
             my $spacing_3 = $8;
-            $ref =~ m#^(.*)/(.*)\.txt.*$#;
+
             my $code;
-            if( $2 eq 'scene' ) {
-                $code = $1;
-            } else {
-                $code = $2;
+
+            # levels/<category>/chapterXXX/chaptertitle.txt
+            if ($line_source =~ m#^.*/levels/([^/]*)/chapter([0-9]{3})/chaptertitle\.txt.*$#) {
+                $code = $1.".".$2; # e.g. challenges.001
             }
-            my $par_1 = $self->translate($code.":".$quoted_1, $ref, $type."-".$subtype_1);
+            # levels/<category>/chapterXXX/levelYYY/scene.txt
+            elsif ($line_source =~ m#^.*/levels/[^/]*/chapter([0-9]{3})/level([0-9]{3})/scene\.txt.*$#) {
+                $code = $1.".".$2.".".$3; # e.g. challenges.001.002
+            }
+            # fallback case
+            else {
+                $line_source =~ m#^.*/([^/]*)$#;
+                $code = $1;
+            }
+
+            my $par_1 = $self->translate($code.":".$quoted_1, $line_source, $type."-".$subtype_1);
             $par_1 =~ s/^\D*\d*://;
-            if( $secondpart ) {
-                my $par_2 = $self->translate($code.":".$quoted_2, $ref, $type."-".$subtype_2);
+            if ($secondpart) {
+                my $par_2 = $self->translate($code.":".$quoted_2, $line_source, $type."-".$subtype_2);
                 $par_2 =~ s/^\D*\d*://;
 
                 # This is awkward, but works
@@ -78,14 +88,13 @@ sub parse {
             $spacing_2 =~ s/\n/\\n/g;
 
             # Now push the result
-            $self->pushline($type.'.'.$parE.$spacing_1.$subtype_1.'="'.$par_1.'"'.$spacing_2."\n");
+            $self->pushline($type.'.'.$language_char.$spacing_1.$subtype_1.'="'.$par_1.'"'.$spacing_2."\n");
         }
-        else
-        {
+        else {
             $self->pushline("$line\n");
         }
         # Reinit the loop
-        ($line,$ref)=$self->shiftline();
+        ($line,$line_source)=$self->shiftline();
     }
 }
 

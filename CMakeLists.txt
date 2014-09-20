@@ -18,5 +18,6 @@ install(DIRECTORY sounds     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY textures   DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY            DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/mods) # Empty directory
 
+set(DATA_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(help)
 add_subdirectory(levels)
