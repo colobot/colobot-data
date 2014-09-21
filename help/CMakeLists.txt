@@ -12,7 +12,10 @@ function(add_help_category help_category_dir)
     file(GLOB help_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${help_category_dir}/E/*.txt)
     list(SORT help_files)
     if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${help_category_dir}/po/)
-        generate_help_i18n(translated_help_dirs "${help_files}" ${help_category_dir}/po)
+        generate_help_i18n(translated_help_dirs
+                           "${help_files}"
+                           ${help_category_dir}/po
+                           ${DATA_BINARY_DIR}/help-po/${help_category_dir})
     else()
         set(translated_help_dirs "")
     endif()

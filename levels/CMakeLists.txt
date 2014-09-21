@@ -8,10 +8,14 @@ set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
 # Add level category directory with all chapters inside
 ##
 function(add_level_category level_category_dir)
-    file(GLOB chaptertitle_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*/chaptertitle.txt)
+    file(GLOB chaptertitle_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/${level_category_dir} ${level_category_dir}/chapter*/chaptertitle.txt)
     list(SORT chaptertitle_files)
     if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_category_dir}/po/)
-        generate_chaptertitles_i18n(translated_chaptertitle_files "${chaptertitle_files}" ${level_category_dir}/po)
+        generate_chaptertitles_i18n(translated_chaptertitle_files
+                                    ${level_category_dir}
+                                    "${chaptertitle_files}"
+                                    ${level_category_dir}/po
+                                    ${DATA_BINARY_DIR}/levels-po/${level_category_dir})
     else()
         set(translated_chaptertitle_files ${chaptertitle_files})
     endif()
@@ -49,7 +53,12 @@ function(add_level level_dir)
     file(GLOB original_help_files ${level_dir}/help/*.txt)
     list(SORT original_help_files)
     if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_dir}/po/)
-        generate_level_i18n(translated_level_file translated_help_files ${level_dir}/scene.txt "${original_help_files}" ${level_dir}/po)
+        generate_level_i18n(translated_level_file
+                            translated_help_files
+                            ${level_dir}/scene.txt
+                            "${original_help_files}"
+                            ${level_dir}/po
+                            ${DATA_BINARY_DIR}/levels-po/${level_dir})
     else()
         set(translated_level_file ${level_dir}/scene.txt)
     endif()

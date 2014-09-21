@@ -13,26 +13,28 @@ set(HELP_I18N_WORK_DIR ${CMAKE_CURRENT_BINARY_DIR}/help-po)
 ##
 # Generate translated help files in separate directories per language
 ##
-function(generate_help_i18n result_generated_help_dirs source_help_files po_dir)
-    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
+function(generate_help_i18n
+         result_generated_help_dirs # output variable to return names of directories with translated files
+         source_help_files          # input help files
+         po_dir                     # directory with translations
+         work_dir)                  # directory where to save generated files
+
     # generated config file for po4a
-    set(po4a_cfg_file ${HELP_I18N_WORK_DIR}/${po_dir}/help_po4a.cfg)
+    set(po4a_cfg_file ${work_dir}/help_po4a.cfg)
 
     # get translations from po directory
+    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
     file(WRITE ${po4a_cfg_file} "[po_directory] ${abs_po_dir}\n")
 
-    set(output_help_dir ${HELP_I18N_WORK_DIR}/${po_dir}/help)
-    set(output_help_subdirs "")
-
     # prepare output directories
+    set(output_help_subdirs "")
     file(GLOB po_files ${po_dir}/*.po)
     foreach(po_file ${po_files})
         get_filename_component(po_file_name ${po_file} NAME)
         # get language letter e.g. "de.po" -> "d"
         string(REGEX REPLACE ".\\.po" "" language_char ${po_file_name})
         string(TOUPPER ${language_char} language_char)
-        set(language_help_subdir ${output_help_dir}/${language_char})
-        file(MAKE_DIRECTORY ${language_help_subdir})
+        set(language_help_subdir ${work_dir}/${language_char})
         list(APPEND output_help_subdirs ${language_help_subdir})
     endforeach()
 
@@ -50,18 +52,20 @@ function(generate_help_i18n result_generated_help_dirs source_help_files po_dir)
             string(REGEX REPLACE ".\\.po" "" language_char ${po_file_name})
             string(TOUPPER ${language_char} language_char)
             # generated file for single language
-            set(generated_help_file ${output_help_dir}/${language_char}/${help_file_name})
+            set(generated_help_file ${work_dir}/${language_char}/${help_file_name})
             file(APPEND ${po4a_cfg_file} " \\\n    ${language_code}:${generated_help_file}")
         endforeach()
     endforeach()
 
     # dummy files to signal that scripts have finished running
-    set(translation_signalfile ${HELP_I18N_WORK_DIR}/${po_dir}/translations)
-    set(po_clean_signalfile ${HELP_I18N_WORK_DIR}/${po_dir}/po_clean)
+    set(translation_signalfile ${work_dir}/translations)
+    set(po_clean_signalfile ${work_dir}/po_clean)
 
     # script to run po4a and generate translated files
     add_custom_command(OUTPUT ${translation_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh ${po4a_cfg_file} ${translation_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh
+                                   ${po4a_cfg_file}
+                                   ${translation_signalfile}
                        DEPENDS ${po_files})
 
     file(GLOB pot_file ${po_dir}/*.pot)
@@ -70,13 +74,19 @@ function(generate_help_i18n result_generated_help_dirs source_help_files po_dir)
     # script to do some cleanups in updated *.po and *.pot files
     string(REPLACE ";" ":" escaped_po_files "${po_files}")
     add_custom_command(OUTPUT ${po_clean_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh ${escaped_po_files} ${translation_signalfile} ${po_clean_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh
+                                   ${escaped_po_files}
+                                   ${translation_signalfile}
+                                   ${po_clean_signalfile}
                        DEPENDS ${translation_signalfile}
                       )
 
-    # generate some unique string for target name
+     # generate some unique string for target name
     string(REGEX REPLACE "[/\\]" "_" target_suffix ${po_dir})
-    add_custom_target(level_i18n-${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
+    message(STATUS ${target_suffix})
+
+    # target to run both scripts
+    add_custom_target(i18n_${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
 
     # return the translated files
     set(${result_generated_help_dirs} ${output_help_subdirs} PARENT_SCOPE)

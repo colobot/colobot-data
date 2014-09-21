@@ -8,33 +8,38 @@ if(NOT PO4A)
     message(WARNING "PO4A not found, level files will NOT be translated!")
 endif()
 
-set(LEVELS_I18N_WORK_DIR ${CMAKE_CURRENT_BINARY_DIR}/levels-po)
-
 ##
 # Generate translated chaptertitle files using po4a
 ##
-function(generate_chaptertitles_i18n result_translated_chaptertitle_files source_chaptertitle_files po_dir)
-    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
-    # generated config file for po4a
-    set(po4a_cfg_file ${LEVELS_I18N_WORK_DIR}/${po_dir}/chaptertitles_po4a.cfg)
-    # generated dummy file for translation of "E", "D", "F", "P", etc. language letters
-    set(langchar_file ${LEVELS_I18N_WORK_DIR}/${po_dir}/chaptertitles_langchar.txt)
+function(generate_chaptertitles_i18n
+         result_translated_chaptertitle_files # output variable to return names of translated chaptertitle files
+         source_chaptertitle_prefix_dir       # prefix directory for chaptertitle files
+         source_chaptertitle_files            # input chaptertitle files relative to prefix dir
+         po_dir                               # directory with translations (*.po, *.pot files)
+         work_dir)                            # directory where to save generated files
 
+    # generated dummy file for translation of "E", "D", "F", "P", etc. language letters
+    # TODO find a better way to provide translations than this hack
+    set(langchar_file ${work_dir}/chaptertitles_langchar.txt)
     file(WRITE ${langchar_file} "E")
 
+    # generated config file for po4a
+    set(po4a_cfg_file ${work_dir}/chaptertitles_po4a.cfg)
+
     # get translations from po directory
+    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
     file(WRITE ${po4a_cfg_file} "[po_directory] ${abs_po_dir}\n")
+
     # add content of dummy language file to translation
     file(APPEND ${po4a_cfg_file} "[type:text] ${langchar_file}")
 
     set(abs_source_chaptertitle_files "")
     set(translated_chaptertitle_files "")
-
     file(GLOB po_files ${po_dir}/*.po)
 
     foreach(source_chaptertitle_file ${source_chaptertitle_files})
-        get_filename_component(abs_source_chaptertitle_file ${source_chaptertitle_file} ABSOLUTE)
-        set(output_chaptertitle_file ${LEVELS_I18N_WORK_DIR}/${source_chaptertitle_file})
+        get_filename_component(abs_source_chaptertitle_file ${source_chaptertitle_prefix_dir}/${source_chaptertitle_file} ABSOLUTE)
+        set(output_chaptertitle_file ${work_dir}/${source_chaptertitle_file})
 
         # translation rule for chaptertitle file
         file(APPEND ${po4a_cfg_file} "\n[type:colobotlevel] ${abs_source_chaptertitle_file}")
@@ -53,15 +58,18 @@ function(generate_chaptertitles_i18n result_translated_chaptertitle_files source
     endforeach()
 
     # dummy files to signal that scripts have finished running
-    set(translation_signalfile ${LEVELS_I18N_WORK_DIR}/${po_dir}/translations)
-    set(po_clean_signalfile ${LEVELS_I18N_WORK_DIR}/${po_dir}/po_clean)
+    set(translation_signalfile ${work_dir}/translations)
+    set(po_clean_signalfile ${work_dir}/po_clean)
 
     # script to run po4a and consolidate the translations
     string(REPLACE ";" ":" escaped_abs_source_chaptertitle_files "${abs_source_chaptertitle_files}")
     string(REPLACE ";" ":" escaped_translated_chaptertitle_files "${translated_chaptertitle_files}")
     add_custom_command(OUTPUT ${translation_signalfile}
                        COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh ${po4a_cfg_file}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh ${escaped_abs_source_chaptertitle_files} ${escaped_translated_chaptertitle_files} ${translation_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh
+                                   ${escaped_abs_source_chaptertitle_files}
+                                   ${escaped_translated_chaptertitle_files}
+                                   ${translation_signalfile}
                        DEPENDS ${po_files})
 
     file(GLOB pot_file ${po_dir}/*.pot)
@@ -70,13 +78,18 @@ function(generate_chaptertitles_i18n result_translated_chaptertitle_files source
     # script to do some cleanups in updated *.po and *.pot files
     string(REPLACE ";" ":" escaped_po_files "${po_files}")
     add_custom_command(OUTPUT ${po_clean_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh ${escaped_po_files} ${translation_signalfile} ${po_clean_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh
+                                   ${escaped_po_files}
+                                   ${translation_signalfile}
+                                   ${po_clean_signalfile}
                        DEPENDS ${translation_signalfile}
                       )
 
     # generate some unique string for target name
     string(REGEX REPLACE "[/\\]" "_" target_suffix ${po_dir})
-    add_custom_target(level_i18n-${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
+
+    # target to run both scripts
+    add_custom_target(i18n_${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
 
     # return the translated files
     set(${result_translated_chaptertitle_files} ${translated_chaptertitle_files} PARENT_SCOPE)
@@ -85,25 +98,35 @@ endfunction()
 ##
 # Generate translated level and help files using po4a
 ##
-function(generate_level_i18n result_translated_level_file result_translated_help_files source_level_file source_help_files po_dir)
-    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
-    # generated config file for po4a
-    set(po4a_cfg_file ${LEVELS_I18N_WORK_DIR}/${po_dir}/scene_po4a.cfg)
-    # generated dummy file for translation of "E", "D", "F", "P", etc. language letters
-    set(langchar_file ${LEVELS_I18N_WORK_DIR}/${po_dir}/scene_langchar.txt)
+function(generate_level_i18n
+         result_translated_level_file # output variable to return names of translaed level files
+         result_translated_help_files # output variable to return names of translated help files
+         source_level_file            # input scene.txt files
+         source_help_files            # input help files
+         po_dir                       # directory with translations (*.po, *.pot files)
+         work_dir)                    # directory where to save generated files
 
+    # generated dummy file for translation of "E", "D", "F", "P", etc. language letters
+    # TODO find a better way to provide translations than this hack
+    set(langchar_file ${work_dir}/scene_langchar.txt)
     file(WRITE ${langchar_file} "E")
 
+    # generated config file for po4a
+    set(po4a_cfg_file ${work_dir}/scene_po4a.cfg)
+
     # get translations from po directory
+    get_filename_component(abs_po_dir ${po_dir} ABSOLUTE)
     file(WRITE ${po4a_cfg_file} "[po_directory] ${abs_po_dir}\n")
+
     # add content of dummy language file to translation
     file(APPEND ${po4a_cfg_file} "[type:text] ${langchar_file}")
 
-    get_filename_component(abs_source_level_file ${source_level_file} ABSOLUTE)
-    set(output_level_file ${LEVELS_I18N_WORK_DIR}/${source_level_file})
-
     # translation rule for scene file
+    get_filename_component(abs_source_level_file ${source_level_file} ABSOLUTE)
     file(APPEND ${po4a_cfg_file} "\n[type:colobotlevel] ${abs_source_level_file}")
+
+    get_filename_component(source_level_file_name ${source_level_file} NAME)
+    set(output_level_file ${work_dir}/${source_level_file_name})
 
     file(GLOB po_files ${po_dir}/*.po)
     foreach(po_file ${po_files})
@@ -116,7 +139,7 @@ function(generate_level_i18n result_translated_level_file result_translated_help
     endforeach()
 
     # translation rules for help files
-    set(output_help_dir ${LEVELS_I18N_WORK_DIR}/${po_dir}/help)
+    set(output_help_dir ${work_dir}/help)
     set(translated_help_files "")
 
     foreach(source_help_file ${source_help_files})
@@ -140,13 +163,16 @@ function(generate_level_i18n result_translated_level_file result_translated_help
     endforeach()
 
     # dummy files to signal that scripts have finished running
-    set(translation_signalfile ${LEVELS_I18N_WORK_DIR}/${po_dir}/translations)
-    set(po_clean_signalfile ${LEVELS_I18N_WORK_DIR}/${po_dir}/po_clean)
+    set(translation_signalfile ${work_dir}/translations)
+    set(po_clean_signalfile ${work_dir}/po_clean)
 
     # script to run po4a and consolidate the translations
     add_custom_command(OUTPUT ${translation_signalfile}
                        COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/run_po4a.sh ${po4a_cfg_file}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh ${abs_source_level_file} ${output_level_file} ${translation_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/create_level_translations.sh
+                                   ${abs_source_level_file}
+                                   ${output_level_file}
+                                   ${translation_signalfile}
                        DEPENDS ${po_files})
 
     file(GLOB pot_file ${po_dir}/*.pot)
@@ -155,13 +181,18 @@ function(generate_level_i18n result_translated_level_file result_translated_help
     # script to do some cleanups in updated *.po and *.pot files
     string(REPLACE ";" ":" escaped_po_files "${po_files}")
     add_custom_command(OUTPUT ${po_clean_signalfile}
-                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh ${escaped_po_files} ${translation_signalfile} ${po_clean_signalfile}
+                       COMMAND ${DATA_SOURCE_DIR}/i18n-tools/scripts/clean_po_files.sh
+                                   ${escaped_po_files}
+                                   ${translation_signalfile}
+                                   ${po_clean_signalfile}
                        DEPENDS ${translation_signalfile}
                       )
 
     # generate some unique string for target name
     string(REGEX REPLACE "[/\\]" "_" target_suffix ${po_dir})
-    add_custom_target(level_i18n-${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
+
+    # target to run both scripts
+    add_custom_target(i18n_${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
 
     # return the translated files
     set(${result_translated_level_file} ${output_level_file} PARENT_SCOPE)
