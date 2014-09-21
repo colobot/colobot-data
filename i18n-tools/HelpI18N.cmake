@@ -74,7 +74,6 @@ function(generate_help_i18n
 
      # generate some unique string for target name
     string(REGEX REPLACE "[/\\]" "_" target_suffix ${po_dir})
-    message(STATUS ${target_suffix})
 
     # target to run both scripts
     add_custom_target(i18n_${target_suffix} ALL DEPENDS ${translation_signalfile} ${po_clean_signalfile})
