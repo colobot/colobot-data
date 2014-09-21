@@ -17,7 +17,7 @@ function(add_level_category level_category_dir)
                                     ${level_category_dir}/po
                                     ${DATA_BINARY_DIR}/levels-po/${level_category_dir})
     else()
-        set(translated_chaptertitle_files ${chaptertitle_files})
+        file(GLOB translated_chaptertitle_files ${level_category_dir}/chapter*/chaptertitle.txt)
     endif()
 
     file(GLOB chapter_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*)
