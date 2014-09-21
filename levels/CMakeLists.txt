@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
+include(../i18n-tools/CommonI18N.cmake)
 include(../i18n-tools/LevelsI18N.cmake)
 
 set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)

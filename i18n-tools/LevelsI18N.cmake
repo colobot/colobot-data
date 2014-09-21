@@ -45,10 +45,8 @@ function(generate_chaptertitles_i18n
         file(APPEND ${po4a_cfg_file} "\n[type:colobotlevel] ${abs_source_chaptertitle_file}")
 
         foreach(po_file ${po_files})
-            get_filename_component(po_file_name ${po_file} NAME)
-            # get language code e.g. "de.po" -> "de"
-            string(REPLACE ".po" "" language_code ${po_file_name})
             # generated file for single language
+            get_language_code(language_code ${po_file})
             set(generated_language_file ${output_chaptertitle_file}.${language_code})
             file(APPEND ${po4a_cfg_file} " \\\n    ${language_code}:${generated_language_file}")
         endforeach()
@@ -130,9 +128,7 @@ function(generate_level_i18n
 
     file(GLOB po_files ${po_dir}/*.po)
     foreach(po_file ${po_files})
-        get_filename_component(po_file_name ${po_file} NAME)
-        # get language code e.g. "de.po" -> "de"
-        string(REPLACE ".po" "" language_code ${po_file_name})
+        get_language_code(language_code ${po_file})
         # generated file for single language
         set(generated_language_file ${output_level_file}.${language_code})
         file(APPEND ${po4a_cfg_file} " \\\n    ${language_code}:${generated_language_file}")
@@ -147,13 +143,9 @@ function(generate_level_i18n
 
         file(APPEND ${po4a_cfg_file} "\n[type:colobothelp] ${source_help_file}")
         foreach(po_file ${po_files})
-            get_filename_component(po_file_name ${po_file} NAME)
-            # get language code e.g. "de.po" -> "de"
-            string(REPLACE ".po" "" language_code ${po_file_name})
-            # get language letter e.g. "de.po" -> "d"
-            string(REGEX REPLACE ".\\.po" "" language_char ${po_file_name})
-            string(TOUPPER ${language_char} language_char)
             # generated file for single language
+            get_language_code(language_code ${po_file})
+            get_language_char(language_char ${po_file})
             string(REPLACE ".E." ".${language_char}." generated_help_file_name ${help_file_name})
             set(generated_help_file ${output_help_dir}/${generated_help_file_name})
             file(APPEND ${po4a_cfg_file} " \\\n    ${language_code}:${generated_help_file}")

@@ -8,8 +8,6 @@ if(NOT PO4A)
     message(WARNING "PO4A not found, help files will NOT be translated!")
 endif()
 
-set(HELP_I18N_WORK_DIR ${CMAKE_CURRENT_BINARY_DIR}/help-po)
-
 ##
 # Generate translated help files in separate directories per language
 ##
@@ -30,10 +28,7 @@ function(generate_help_i18n
     set(output_help_subdirs "")
     file(GLOB po_files ${po_dir}/*.po)
     foreach(po_file ${po_files})
-        get_filename_component(po_file_name ${po_file} NAME)
-        # get language letter e.g. "de.po" -> "d"
-        string(REGEX REPLACE ".\\.po" "" language_char ${po_file_name})
-        string(TOUPPER ${language_char} language_char)
+        get_language_char(language_char ${po_file})
         set(language_help_subdir ${work_dir}/${language_char})
         list(APPEND output_help_subdirs ${language_help_subdir})
     endforeach()
@@ -45,13 +40,9 @@ function(generate_help_i18n
 
         file(APPEND ${po4a_cfg_file} "\n[type:colobothelp] ${abs_source_help_file}")
         foreach(po_file ${po_files})
-            get_filename_component(po_file_name ${po_file} NAME)
-            # get language code e.g. "de.po" -> "de"
-            string(REPLACE ".po" "" language_code ${po_file_name})
-            # get language letter e.g. "de.po" -> "d"
-            string(REGEX REPLACE ".\\.po" "" language_char ${po_file_name})
-            string(TOUPPER ${language_char} language_char)
             # generated file for single language
+            get_language_code(language_code ${po_file})
+            get_language_char(language_char ${po_file})
             set(generated_help_file ${work_dir}/${language_char}/${help_file_name})
             file(APPEND ${po4a_cfg_file} " \\\n    ${language_code}:${generated_help_file}")
         endforeach()
