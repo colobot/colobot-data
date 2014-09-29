@@ -29,8 +29,8 @@ function(generate_help_i18n
     file(GLOB po_files ${po_dir}/*.po)
     foreach(po_file ${po_files})
         get_language_char(language_char ${po_file})
-        set(language_help_subdir ${work_dir}/${language_char})
-        list(APPEND output_help_subdirs ${language_help_subdir})
+        #set(language_help_subdir ${work_dir}/${language_char})
+        list(APPEND output_help_subdirs ${language_char})
     endforeach()
 
     # add translation rules for help files
