@@ -26,6 +26,6 @@ Some details of how data file translation is achieved can be found in
 
 The source code contained here was released by Epsitec -- the original
 creator of the game -- on open source (GPLv3) license. The code was
-given and the rights granted specifically to PPC community in
+given and the rights granted specifically to ICC community in
 March 2012. Since then, we have been modifying the code and working on
-our goals, which are briefly summed up below.
+our goals. For more info, see [README.md in the main repository](https://github.com/colobot/colobot/blob/master/README.md)
