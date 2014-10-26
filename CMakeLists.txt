@@ -21,4 +21,7 @@ set(DATA_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 
 add_subdirectory(help)
 add_subdirectory(levels)
-add_subdirectory(music)
+
+if(EXISTS music)
+    add_subdirectory(music)
+endif()
