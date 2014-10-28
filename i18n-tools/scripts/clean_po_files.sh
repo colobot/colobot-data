@@ -31,9 +31,9 @@ IFS=':' read -a po_files_array <<< "$PO_FILES"
 
 for po_file in "${po_files_array[@]}"; do
     # strip unnecessary part of file names
-    sed -i 's|^#: .*data/\(.*\)$|#: \1|' "$po_file"
+    sed -i -e 's|^#: .*data/\(.*\)$|#: \1|' "$po_file"
     # remove the creation date
-    sed -i 's|^\("POT-Creation-Date:\).*$|\1 DATE\\n"|' "$po_file"
+    sed -i -e 's|^\("POT-Creation-Date:\).*$|\1 DATE\\n"|' "$po_file"
 done
 
 # update the dummy signal files to indicate success
