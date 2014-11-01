@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter002/level004/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: levels/exercises/chapter002/level004/scene.txt:1
+#, no-wrap
+msgid "Fighter Jet 1"
+msgstr "Walka powietrzna 1"
+
+#. type: Resume-text
+#: levels/exercises/chapter002/level004/scene.txt:2
+#, no-wrap
+msgid "Instruct a winged shooter to clean the whole region."
+msgstr "Zaprogramuj działo latające do wyczyszczenia całego regionu."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter002/level004/scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Poruszanie"
+
+#. type: \b; header
+#: levels/exercises/chapter002/level004/help/help.E.txt:1
+#, no-wrap
+msgid "Objectif"
+msgstr "Zadanie"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level004/help/help.E.txt:3
+#, no-wrap
+msgid "Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
+msgstr "Zaprogramuj <a object|botfj>działo latające</a> do zabicia wszystkich mrówek w okolicy."
+
+#. type: \t; header
+#: levels/exercises/chapter002/level004/help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level004/help/help.E.txt:6
+#, no-wrap
+msgid "In this swamp, a wheeled or tracked shooter is of little use. And ants, in opposition to spiders, keep moving: you can not just turn towards the closest ant, move forward and shoot."
+msgstr "Na tych bagnach działa na kołach lub gąsienicach będą niezbyt przydatne. A mrówki, w odróżnieniu od pająków, poruszają się: nie wystarczy obrócić się w kierunku najbliższej mrówki, podejść i strzelić."
+
+#. type: Plain text
+#: levels/exercises/chapter002/level004/help/help.E.txt:8
+#, no-wrap
+msgid "The easiest way to solve the problem consists in flying at a height of 10 meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with a conditional loop as long as the <a cbot|dist>distance</a> is greater than 20m. In this conditional loop, you must look for the closest ant, turn towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait a little, for example 0.2 seconds. All these instructions must be repeated until the ant is at less than 20 meters. Then just shoot it."
+msgstr "Najprostszy sposób rozwiązania tego problemu polega na lataniu na wysokości 10 metrów, celowaniu w dół: <c/>aim(-20);<n/> i zbliżaniu się do mrówki używając pętli warunkowej, o ile <a cbot|dist>odległość</a> jest większa niż 20 m. W pętli warunkowej musisz znaleźć najbliższą mrówkę, obrócić się w jej kierunku, ustawić silniki na pełną moc instrukcją <c/>motor(1,1);<n/> i chwilę poczekać, na przykład 0,2 sekundy. Te wszystkie instrukcje muszą być powtarzane aż do zbliżenia się na odległość mniejszą niż 20 metrów od mrówki. Wtedy wystarczy tylko ją zastrzelić."
+
+#. type: \t; header
+#: levels/exercises/chapter002/level004/help/help.E.txt:9
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level004/help/help.E.txt:10
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

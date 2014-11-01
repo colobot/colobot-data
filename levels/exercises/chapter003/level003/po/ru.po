@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter003/level003/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/exercises/chapter003/level003/scene.txt:1
+#, no-wrap
+msgid "Massacre"
+msgstr "Резня"
+
+#. type: Resume-text
+#: levels/exercises/chapter003/level003/scene.txt:2
+#, no-wrap
+msgid "Use a loop in order to destroy six targets."
+msgstr "С помощью цикла уничтожьте шесть целей."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter003/level003/scene.txt:3
+#, no-wrap
+msgid "Go"
+msgstr "Go"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:3
+#, no-wrap
+msgid "Destroy the six <a object|bottarg>targets</a> with a program using a loop. The bot must move 5m forward to get from one target to the next."
+msgstr "Уничтожьте шесть <a object|bottarg>мишеней</a> программой, в которой используется цикл. Бот должен пройти вперед 5 метров, чтобы переместиться от одной цели к другой."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Общий принцип"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:7
+#, no-wrap
+msgid ""
+"The program must execute the following scheme:\n"
+"Repeat 6 times :\n"
+msgstr ""
+"Программа должна выполнить следующую схему:\n"
+"Повторять 6 раз :\n"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level003/help/help.E.txt:7
+#, no-wrap
+msgid "move 5m forward"
+msgstr "пройти вперед на 5 метров"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level003/help/help.E.txt:8
+#, no-wrap
+msgid "turn 90 degrees left"
+msgstr "развернуться влево на 90 градусов"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level003/help/help.E.txt:9
+#, no-wrap
+msgid "shoot"
+msgstr "выстрелить"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level003/help/help.E.txt:10
+#, no-wrap
+msgid "turn 90 degrees right"
+msgstr "развернуться вправо на 90 градусов"
+
+#. type: Image filename
+#: levels/exercises/chapter003/level003/help/help.E.txt:12
+#, no-wrap
+msgid "tfor1"
+msgstr "tfor1"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:13
+#, no-wrap
+msgid "Instruction <code>for ( )</code>"
+msgstr "Инструкция <code>for ( )</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:15
+#, no-wrap
+msgid "The instruction <code><a cbot|for>for</a></code> asks for 3 expressions:\n"
+msgstr "Инструкция <code><a cbot|for>for</a></code>запрашивает 3 выражения:\n"
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:15
+#, no-wrap
+msgid "Initialize the counting variable."
+msgstr "Начать рассчет переменной."
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:16
+#, no-wrap
+msgid "The end <a cbot|cond>condition</a>."
+msgstr "Конечное <a cbot|cond>условие</a>."
+
+#. type: Bullet: '3)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:17
+#, no-wrap
+msgid "The counting <a cbot|expr>expression</a>."
+msgstr "Рассчетное <a cbot|expr>выражение</a>."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:20
+#, no-wrap
+msgid "Here is the loop once it is integrated into the program frame:"
+msgstr "Вот цикл, каким он должен быть в программе:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level003/help/help.E.txt:27
+#, no-wrap
+msgid ""
+"<c/>extern void object::Massacre( )\n"
+"{\n"
+"\tfor ( int i=0 ; i<6 ; i=i+1 )\n"
+"\t{\n"
+"\t\t<n/>instructions repeated 6 times ...<c/>\n"
+"\t}\n"
+"}"
+msgstr ""
+"<c/>extern void object::Massacre( )\n"
+"{\n"
+"\tfor ( int i=0 ; i<6 ; i=i+1 )\n"
+"\t{\n"
+"\t\t<n/>инструкции, которые нужно повторить 6 раз...<c/>\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:29
+#, no-wrap
+msgid "ATTENTION: The line <code>for ( )</code> must not be followed by a <a cbot|term>semicolon</a> !"
+msgstr "ВНИМАНИЕ: Строка <code>for ( )</code> не должна заканчиваться <a cbot|term>точкой с запятой</a> !"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:30
+#, no-wrap
+msgid "Explanation of the instruction <code>for ( )</code>"
+msgstr "Объяснение инструкции <code>for ( )</code>"
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:31
+#, no-wrap
+msgid "<code>int i=0</code>"
+msgstr "<code>int i=0</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:33
+#, no-wrap
+msgid "    The <a cbot|var>variable</a> i is set to zero before the beginning of the loop."
+msgstr "    <a cbot|var>Переменная</a> i устанавливается на ноль до начала цикла."
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:34
+#, no-wrap
+msgid "<code>i<6</code>"
+msgstr "<code>i<6</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:36
+#, no-wrap
+msgid "    The loop will be executed as long as i is smaller than 6."
+msgstr "    Цикл будет выполняться до тех пор, пока i меньше 6."
+
+#. type: Bullet: '3)'
+#: levels/exercises/chapter003/level003/help/help.E.txt:37
+#, no-wrap
+msgid "<code>i=i+1</code>"
+msgstr "<code>i=i+1</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:39
+#, no-wrap
+msgid "    At the end of every loop, add 1 to the variable i."
+msgstr "    В конце каждого цикла прибавляет 1 к значению переменной i."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:40
+#, no-wrap
+msgid "Blocks"
+msgstr "Блоки"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:42
+#, no-wrap
+msgid "Use braces <code>{ }</code> in order to create a <a cbot|bloc>block</a>. All the instructions that must be executed in the <code>for</code> loop are held together by a block. The whole program itself is made up of a block:"
+msgstr "Используйте скобки <code>{ }</code> чтобы создавать <a cbot|bloc>блоки</a>. Все инструкции, которые должны быть выполнены в цикле <code>for</code> должны представлять собой блок. Вся программа состоит из блоков:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level003/help/help.E.txt:47
+#, no-wrap
+msgid ""
+"extern void object::massacre( )\n"
+"{\n"
+"\t<n/>fill in here ...<c/>\n"
+"}"
+msgstr ""
+"extern void object::massacre( )\n"
+"{\n"
+"\t<n/>ваш код ...<c/>\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:50
+#, no-wrap
+msgid ""
+"Never change these characters. Just add the instructions of the program between the braces.\n"
+"You can fit several blocks one into the other. For example the <code>for</code> block is fitted into the block of the whole program. In order to improve readability, the editor lines up the braces belonging to the different blocks."
+msgstr ""
+"Никогда не изменяйте эти символы. Просто добавляйте между скобками инструкции программы.\n"
+"Вы можете заключать несколько блоков друг в друга. Например, блок <code>for</code> вставлен в блок всей программы. Для того, чтобы программу было легче читать, редактор отделяет скобки, принадлежащие разным блокам."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:51
+#, no-wrap
+msgid "Remember"
+msgstr "Помните"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:55
+#, no-wrap
+msgid ""
+"The instruction used to move forward is <c/><a cbot|move>move</a>();<n/>.\n"
+"The instruction used to turn the bot is <c/><a cbot|turn>turn</a>();<n/>. A positive angle turns left.\n"
+"The instruction used to fire the cannon is <c/><a cbot|fire>fire</a>(1);<n/>. A one-second burst allows to destroy all six <a object|bottarg>targets</a>."
+msgstr ""
+"Инструкция, которая используется для движения вперед <c/><a cbot|move>move</a>();<n/>.\n"
+"Инструкция, которая используется для поворота бота <c/><a cbot|turn>turn</a>();<n/>. Положительный угол поворачивает влево.\n"
+"Инструкция, которая используется для стрельбы из орудия  <c/><a cbot|fire>fire</a>(1);<n/>. Мгновенный взрыв позволяет уничтожить все шесть <a object|bottarg>целей</a>."
+
+#. type: \t; header
+#: levels/exercises/chapter003/level003/help/help.E.txt:56
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level003/help/help.E.txt:57
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

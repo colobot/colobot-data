@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter003/level006/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/exercises/chapter003/level006/scene.txt:1
+#, no-wrap
+msgid "Labyrinth 1"
+msgstr "Лабиринт 1"
+
+#. type: Resume-text
+#: levels/exercises/chapter003/level006/scene.txt:2
+#, no-wrap
+msgid "Teach your bot how to find its way out of the labyrinth."
+msgstr "Научите своего бота находить выход из лабиринта."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter003/level006/scene.txt:3
+#, no-wrap
+msgid "Labyrinth"
+msgstr "Labyrinth"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level006/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:3
+#, no-wrap
+msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
+msgstr "Запрограммируйте бота так, чтобы он нашел себе путь и не столкнулся со стенами лабиринта. Мы предполагаем, что конфигурация лабаринта вам неизвестна, но там нет раздвоений и тупиков. Лабиринт состоит из квадратов размером 5 метров каждый."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level006/help/help.E.txt:4
+#, no-wrap
+msgid "The instruction <code>radar</code>"
+msgstr "Инструкция <code>radar</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:6
+#, no-wrap
+msgid "The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will find any <a object|barrier>barrier</a> in front of the radar that is closer than 5m. Let us take a closer look at the five parameters used:"
+msgstr "Инструкция <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> будет искать любую <a object|barrier>преграду</a>, расположенную перед радаром на расстоянии менее 5 метров. Давайте поближе рассмотрим пять использующихся параметров:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:8
+#, no-wrap
+msgid "<code>Barrier</code>"
+msgstr "<code>Barrier</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:9
+#, no-wrap
+msgid "<a cbot|category>Category</a> of the object that the radar must look for, i.e. a barrier."
+msgstr "<a cbot|category>Категория</a> объекта, который должен искать радар, то есть преграда."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:11
+#: levels/exercises/chapter003/level006/help/help.E.txt:17
+#, no-wrap
+msgid "<code>0</code>"
+msgstr "<code>0</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:12
+#, no-wrap
+msgid "Direction of the radar. <code>0</code> means that the radar must search straight forward."
+msgstr "Направление радара. <code>0</code> означает, что радар должен искать ее прямо перед собой."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:14
+#, no-wrap
+msgid "<code>45</code>"
+msgstr "<code>45</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:15
+#, no-wrap
+msgid "Opening angle in degrees. With an opening angle of 45 degrees, barriers situated between 22.5 degrees to the left and 22.5 degrees to the right will be detected."
+msgstr "Открывающий угол в градусах. С открывающим углом в 45 градусов, будут замечены преграды, расположенные между 22.5 градусами влево 22.5 градусами вправо."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:18
+#, no-wrap
+msgid "Minimum detection distance. <code>0</code> means that even object that are very close to the bot will be detected."
+msgstr "Минимальное расстояние обнаружения. <code>0</code> означает, что будут обнаружены даже те объекты, которые расположены вплотную к боту."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:20
+#, no-wrap
+msgid "<code>5</code>"
+msgstr "<code>5</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:21
+#, no-wrap
+msgid "Maximum detection range. Any barrier situated beyond <code>5</code> meters will not be detected."
+msgstr "Максимальное расстояние обнаружения. Любая преграда, расположенная на расстоянии более <code>5</code> метров не будет обнаружена."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:23
+#, no-wrap
+msgid "To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> will direct the radar 90 degrees to the left, in order to test if the way to the left is free."
+msgstr "Чтобы привести еще один пример, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> направит радар на 90 градусов влево, чтобы проверить, нет ли слева прохода."
+
+#. type: Image filename
+#: levels/exercises/chapter003/level006/help/help.E.txt:24
+#, no-wrap
+msgid "tlaby1"
+msgstr "tlaby1"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level006/help/help.E.txt:25
+#, no-wrap
+msgid "General principle"
+msgstr "Общий принцип"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
+#, no-wrap
+msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad.\n"
+msgstr "Программа должна заниматься только одним участком лабиринта. Вы должны будете запустить ее несколько раз, чтобы добраться до финальной площадки.\n"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level006/help/help.E.txt:27
+#, no-wrap
+msgid "If there is nothing in front, move forward."
+msgstr "Если впереди ничего нет, идти вперед."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level006/help/help.E.txt:28
+#, no-wrap
+msgid "If there is nothing on the left side, quarter turn left, move forward."
+msgstr "Если слева ничего нет, поворот на четверть оборота влево, идти вперед."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level006/help/help.E.txt:29
+#, no-wrap
+msgid "If there is nothing on the right side, quarter turn right, move forward."
+msgstr "Если справа ничего нет, поворот на четверть оборота вправо, идти вперед."
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter003/level006/help/help.E.txt:31
+#, no-wrap
+msgid "First of all declare three <a cbot|var>variables</a> of type <code><a cbot|object>object</a></code>, that we call <code>front</code>, <code>left</code> and <code>right</code>. Variables of this type can contain the description of any object, for example of a barrier found by the radar."
+msgstr "Сначала задайте три <a cbot|var>переменные</a> типа <code><a cbot|object>объект</a></code>, которые мы называем <code>front</code>, <code>left</code> и <code>right</code>. Переменные этого типа могут содержать описание любого объекта, например преграды, обнаруженной радаром."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:33
+#, no-wrap
+msgid "<c/>\tobject   front, left, right;<n/>"
+msgstr "<c/>\tobject   front, left, right;<n/>"
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter003/level006/help/help.E.txt:34
+#, no-wrap
+msgid "Look for barriers in all three directions, and put the result of the <code>radar</code> instruction into the three variables defined at point 1). If the radar finds nothing, the variable will contain the value <code><a cbot|null>null</a></code>."
+msgstr "Искать преграды во всех трех направлениях, и выводить результат инструкции <code>radar</code> в три переменные, заданные в пункте 1). Если радар не найдет ничего, переменная будет содержать значение <code><a cbot|null>null</a></code>."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:38
+#, no-wrap
+msgid ""
+"<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
+"\tleft  = radar(Barrier,  90, 45, 0, 5);\n"
+"\tright = radar(Barrier, -90, 45, 0, 5);"
+msgstr ""
+"<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
+"\tleft  = radar(Barrier,  90, 45, 0, 5);\n"
+"\tright = radar(Barrier, -90, 45, 0, 5);"
+
+#. type: Bullet: '3)'
+#: levels/exercises/chapter003/level006/help/help.E.txt:39
+#, no-wrap
+msgid "Test if the way is free in front of the bot with the instruction <code><a cbot|if>if</a></code>. If the test is true, the instructions in braces <code>{ }</code> will be executed, otherwise the execution will resume after the closing brace <code>}</code>."
+msgstr "Проверка наличия свободного пространства перед ботом с помощью инструкции <code><a cbot|if>if</a></code>. Если проверка истинна, будет выполнена инструкция, заключенная в скобках <code>{ }</code> , иначе продолжится выполнение кода после закрывающей скобки <code>}</code>."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:41
+#, no-wrap
+msgid "The instruction <code>return</code> leaves the program: the job is done."
+msgstr "Инструкция <code>return</code> прводит к остановке программы: работа выполнена."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:46
+#, no-wrap
+msgid ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+msgstr ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+
+#. type: Bullet: '4)'
+#: levels/exercises/chapter003/level006/help/help.E.txt:47
+#, no-wrap
+msgid "Test if it is possible to turn left; if so, turn left with the instruction <code><a cbot|turn>turn</a></code> and move 5m forward."
+msgstr "Проверка возможности повернуть влево; если так, проводится поворот влево инструкцией <code><a cbot|turn>turn</a></code> и бот идет 5 метров вперед."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level006/help/help.E.txt:54
+#, no-wrap
+msgid ""
+"<c/>if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+msgstr ""
+"<c/>if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+
+#. type: Bullet: '5)'
+#: levels/exercises/chapter003/level006/help/help.E.txt:55
+#, no-wrap
+msgid "Test if it is possible to turn right."
+msgstr "Проверка возможности повернуть вправо."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:57
+#, no-wrap
+msgid "    ..."
+msgstr "    ..."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level006/help/help.E.txt:58
+#, no-wrap
+msgid "Attention"
+msgstr "Внимание"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:60
+#, no-wrap
+msgid "The instruction <code>if ( )</code> must never be followed by a <a cbot|term>semicolon</a>."
+msgstr "Инструкция <code>if ( )</code> не должна заканчиваться <a cbot|term>точкой с запятой</a>."
+
+#. type: \t; header
+#: levels/exercises/chapter003/level006/help/help.E.txt:61
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level006/help/help.E.txt:62
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

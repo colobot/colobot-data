@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter004/level004/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: Title-text
+#: levels/exercises/chapter004/level004/scene.txt:1
+#, no-wrap
+msgid "Patient hunter"
+msgstr ""
+
+#. type: Resume-text
+#: levels/exercises/chapter004/level004/scene.txt:2
+#, no-wrap
+msgid "Be patient enough not to waste your ammunitions."
+msgstr ""
+
+#. type: ScriptName-text
+#: levels/exercises/chapter004/level004/scene.txt:3
+#, no-wrap
+msgid "Patient"
+msgstr ""
+
+#. type: \b; header
+#: levels/exercises/chapter004/level004/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter004/level004/help/help.E.txt:3
+#, no-wrap
+msgid ""
+"You must find a way to destroy the four moving <a object|bottarg>target "
+"bots</a> without wasting one shot. Notice that after every move, the targets "
+"will stay motionless during one second."
+msgstr ""
+
+#. type: \b; header
+#: levels/exercises/chapter004/level004/help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:5
+#, no-wrap
+msgid ""
+"Detect a target with the instruction <c/><a "
+"cbot|radar>radar</a>(TargetBot);<n/>."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:6
+#, no-wrap
+msgid "Turn towards the target with <c/><a cbot|turn>turn</a>(direction());<n/>."
+msgstr ""
+
+#. type: Bullet: '3)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:7
+#, no-wrap
+msgid "After the rotation, check if the target did not move."
+msgstr ""
+
+#. type: Bullet: '4)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:8
+#, no-wrap
+msgid "If it did not, wait 0.2 seconds with <c/><a cbot|wait>wait</a>(0.2);<n/>."
+msgstr ""
+
+#. type: Bullet: '5)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:9
+#, no-wrap
+msgid "Re-check if the target did not move."
+msgstr ""
+
+#. type: Bullet: '6)'
+#: levels/exercises/chapter004/level004/help/help.E.txt:10
+#, no-wrap
+msgid ""
+"If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 "
+"seconds for the target to be hit by the bullets and destroyed."
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter004/level004/help/help.E.txt:13
+#, no-wrap
+msgid "There are of course other ways to achieve the goal."
+msgstr ""
+
+#. type: \b; header
+#: levels/exercises/chapter004/level004/help/help.E.txt:14
+#, no-wrap
+msgid "Remark"
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter004/level004/help/help.E.txt:16
+#, no-wrap
+msgid ""
+"In order to increase the efficiency of your shots, aim a little downward "
+"with <c/><a cbot|aim>aim</a>(-3);<n/>."
+msgstr ""
+
+#. type: \t; header
+#: levels/exercises/chapter004/level004/help/help.E.txt:17
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter004/level004/help/help.E.txt:18
+#, no-wrap
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
+"cbot|category>categories</a>."
+msgstr ""

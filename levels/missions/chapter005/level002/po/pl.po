@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/missions/chapter005/level002/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: levels/missions/chapter005/level002/scene.txt:2
+#, no-wrap
+msgid "Invasion"
+msgstr "Inwazja"
+
+#. type: Resume-text
+#: levels/missions/chapter005/level002/scene.txt:3
+#, no-wrap
+msgid "Hold out against a giant ant invasion."
+msgstr "Odeprzyj inwazję olbrzymich mrówek."
+
+#. type: \b; header
+#: levels/missions/chapter005/level002/help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Z Centrum Kontroli Misji"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/help.E.txt:3
+#, no-wrap
+msgid "Eliminate all hostile presence from the region."
+msgstr "Wyeliminuj wszystkich wrogów obecnych w okolicy."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/help.E.txt:5
+#, no-wrap
+msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
+msgstr "Twoja obecna sytuacja skrajnie nas niepokoi. Satelita wykrył bardzo dużą aktywność wroga, zbliżającego się do Twojego statku kosmicznego ze wszystkich kierunków. Musisz prawidłowo ocenić sytuację i wybrać najszybszą i najskuteczniejszą obronę: <a object|tower>wieże</a> lub<a object|botfr>działa</a>."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/help.E.txt:7
+#, no-wrap
+msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
+msgstr "Aby zwiększyć Twoje szanse przetrwania, opracowaliśmy program, który będzie bronił Twojej zachodniej flanki, jeśli uruchomisz go na <a object|botfr>dziale na kołach</a>; zobacz stronę programu <button 53/>."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/help.E.txt:9
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
+
+#. type: \t; header
+#: levels/missions/chapter005/level002/help/help.E.txt:10
+#: levels/missions/chapter005/level002/help/soluce.E.txt:8
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
+
+#. type: \b; header
+#: levels/missions/chapter005/level002/help/prog.E.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Programy przysłane z Houston"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/prog.E.txt:3
+#, no-wrap
+msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
+msgstr "Uruchom natychmiast program <code>KillAnt1</code> na Twoim <a object|botfr>dziale na kołach</a>, zabezpieczy on Twoją zachodnią flankę. W międzyczasie możesz opracować strategię obrony."
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter005/level002/help/prog.E.txt:22
+#, no-wrap
+msgid ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // info. about object\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // go west\n"
+"\t<a cbot|aim>aim</a>(0);                  // aim straight\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // repeat forever:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // ant detected ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // shoot 0.5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // wait 1 second\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // informacja o obiekcie\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // idź na zachód\n"
+"\t<a cbot|aim>aim</a>(0);                  // celuj w poziomie\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // powtarzaj w nieskończoność:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // wykryto mrówkę?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // strzelaj przez 0,5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // czekaj 1 sekundę\n"
+"\t}\n"
+"}"
+
+#. type: \b; header
+#: levels/missions/chapter005/level002/help/prog.E.txt:23
+#, no-wrap
+msgid "Archives"
+msgstr "Archiwum"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/prog.E.txt:25
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr "Lista programów przysłanych w poprzednich misjach:"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter005/level002/help/prog.E.txt:26
+#, no-wrap
+msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter005/level002/help/prog.E.txt:27
+#, no-wrap
+msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter005/level002/help/prog.E.txt:28
+#, no-wrap
+msgid "<code><a mltropi3>Recharge2</a></code>"
+msgstr "<code><a mltropi3>Recharge2</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter005/level002/help/prog.E.txt:29
+#, no-wrap
+msgid "<code><a mllune4>Recharge1</a></code>"
+msgstr "<code><a mllune4>Recharge1</a></code>"
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter005/level002/help/prog.E.txt:30
+#, no-wrap
+msgid "<code><a mllune1>SwitchCell1</a></code>"
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
+
+#. type: \b; header
+#: levels/missions/chapter005/level002/help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Raport z satelity"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/report.E.txt:3
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Obecnie na orbicie geostacjonarnej planety Saari."
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter005/level002/help/report.E.txt:5
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POWIERZCHNIA<c/>"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/report.E.txt:10
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      38.4C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             1.4 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Temperatura:      38,4C\n"
+"\\tab;Atmosfera:        CO2, tlen, azot\n"
+"\\tab;Wiatr:            1,4 m/s\n"
+"\\tab;Ruda tytanu:      trochę\n"
+"\\tab;Ruda uranu:       brak"
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter005/level002/help/report.E.txt:12
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODGLEBIE<c/>"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/report.E.txt:15
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Źródło energii:   wszędzie\n"
+"\\tab;Ruda tytanu:      brak\n"
+"\\tab;Ruda uranu:       brak"
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter005/level002/help/report.E.txt:17
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DODATKOWE INFORMACJE<c/>"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/report.E.txt:19
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants approaching \n"
+"\\tab;  - Danger:       yes, immediate"
+msgstr ""
+"\\tab;Wykryto:          zbliżające się olbrzymie mrówki \n"
+"\\tab;  - Zagrożenie:   tak, bezpośrednie"
+
+#. type: \b; header
+#: levels/missions/chapter005/level002/help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Rozwiązanie"
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/soluce.E.txt:3
+#, no-wrap
+msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
+msgstr "Uruchom natychmiast program <code>KillAnt1</code> na Twoim <a object|botfr>dziale na kołach</a> a zajmie się on pierwszą falą ataku mrówek zmierzających z zachodu."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/soluce.E.txt:5
+#, no-wrap
+msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
+msgstr "Następnie zbuduj dwie <a object|tower>wieże obronne</a>, jedną na północ od <a object|base>statku kosmicznego</a>, drugą na południu (musisz zrobić to BARDZO szybko). Podczas budowania, użyj <a object|botgr>transportera</a> do zdobycia <a object|power>ogniwa elektrycznego</a>."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/soluce.E.txt:7
+#, no-wrap
+msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
+msgstr "Jak tylko poradzisz sobie z kolejnymi falami ataków około piętnastu <a object|ant>mrówek</a>, zajmij się pozostałymi mrówkami, które nie zaatakowały. W celu ich wykrycia zbuduj <a object|radar>radar</a> a także <a object|convert>hutę</a>, <a object|factory>fabrykę robotów </a>, <a object|station>stację energetyczną</a> i <a object|botfj>działo latające</a> aby się ich pozbyć..."
+
+#. type: Plain text
+#: levels/missions/chapter005/level002/help/soluce.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Sterowanie</a>"

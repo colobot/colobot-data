@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter004/level001/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: ScriptName-text
+#: levels/exercises/chapter004/level001/scene.txt:1
+#: levels/exercises/chapter004/level001/scene.txt:3
+#, no-wrap
+msgid "Dragster"
+msgstr "Миноискатель"
+
+#. type: Resume-text
+#: levels/exercises/chapter004/level001/scene.txt:2
+#, no-wrap
+msgid "Program a progressive deceleration in order to avoid the mines right behind the goal."
+msgstr "Запрограммируйте постепенное снижение скорости, чтобы избежать мины прямо перед целью."
+
+#. type: \b; header
+#: levels/exercises/chapter004/level001/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:3
+#, no-wrap
+msgid "Reach the finishing pad (25m in front of you) as fast as possible, using the instruction <code>motor( , )</code>. You will have to slow down progressively at the end of the move, otherwise the bot will get blown up on the <a object|mine>mines</a>."
+msgstr "Достигните финишной площадки (25 м перед вами) как можно быстрее, используя инструкцию <code>motor( , )</code>. В конце движения вы должны будете постепенно снизить свою скорость, или бот подорвется на <a object|mine>минах</a>."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:5
+#, no-wrap
+msgid "You could very well write no more than <c/><a cbot|move>move</a>(25);<n/>, this would work perfectly well. However, the aim of this exercise is to learn how to use the instruction <code><a cbot|motor>motor</a></code>."
+msgstr "Вы можете ничего больше не писать кроме <c/><a cbot|move>move</a>(25);<n/>, это должно сработать просто идеально. Тем не менее, это упражнение преследует цель изучить использование инструкции <code><a cbot|motor>motor</a></code>."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:7
+#, no-wrap
+msgid "This instruction asks for two values:\n"
+msgstr "Эта инструкция запрашивает два значения:\n"
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:7
+#, no-wrap
+msgid "The speed of the left-hand motor."
+msgstr "Скорость левостороннего мотора."
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:8
+#, no-wrap
+msgid "The speed of the right-hand motor."
+msgstr "Скорость правостороннего мотора."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level001/help/help.E.txt:11
+#, no-wrap
+msgid "<c/>\tmotor( left, right );"
+msgstr "<c/>\tmotor( left, right );"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:13
+#, no-wrap
+msgid "The values must range between -1 and 1:\n"
+msgstr "Значения должны быть между -1 и 1:\n"
+
+#. type: Bullet: '-'
+#: levels/exercises/chapter004/level001/help/help.E.txt:13
+#, no-wrap
+msgid "1 = full throttle backward"
+msgstr "1 = полная тяга назад"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:16
+#, no-wrap
+msgid ""
+" 0 = stop\n"
+" 1 = full throttle forward"
+msgstr ""
+" 0 = стоп\n"
+" 1 = полная тяга вперед"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:18
+#, no-wrap
+msgid "For example, <c/>motor(0.5, 0.5);<n/> will move the motor forward with half-speed, until new instructions are given to the motors."
+msgstr "Например, <c/>motor(0.5, 0.5);<n/> будет двигать машину вперед на среднем ходу, пока она не получит дальнейших инструкций."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:20
+#, no-wrap
+msgid "With the instruction <c/>motor(0.5, 0.6);<n/>, the bot will move forward with half-speed, turning at the same time slightly to the left: the right-hand motor moves a little faster (<code>0.6</code>) than the left-hand motor (<code>0.5</code>)."
+msgstr "С помощью инструкции <c/>motor(0.5, 0.6);<n/>, можно заставить бота двигаться вперед на среднем ходу, одновременно медленно поворачиваясь влево: правосторонний мотор движется немного быстрее (<code>0.6</code>), чем левосторонний мотор (<code>0.5</code>)."
+
+#. type: \b; header
+#: levels/exercises/chapter004/level001/help/help.E.txt:21
+#, no-wrap
+msgid "General principle"
+msgstr "Обший принцип"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:24
+#, no-wrap
+msgid ""
+"In order to move forward for exactly 25 meters and not more, you must move full speed during the first 23 meters, then reduce the speed of the motors progressively during the last two meters.\n"
+"The <a cbot|var>variable</a> <a cbot|object>position</a> gives you at any moment the current position of the bot, and the instruction <c/><a cbot|dist>distance</a>( , );<n/> returns the distance between two points. The best way to know where you are consists in saving the current position before the start into a <a cbot|var>variable</a>, for example a variable called <code>start</code>. Then you can calculate the distance between the starting position and your current position with <code>distance(position, start)</code>."
+msgstr ""
+"Чтобы переместиться вперед точно на 25 метров и остановиться, вы должны двигаться первые 23 метра на полной скорости, а после этого снизить скорость на последнем отрезке длиной два метра.\n"
+"<a cbot|var>Переменная</a> <a cbot|object>position</a> в любой момент сообщает вам о текущей позиции бота, а инструкция <c/><a cbot|dist>distance</a>( , );<n/> выдает расстояние между двумя точками. Лучший способ узнать ваше текущее положение заключается в сохранении текущей позиции перед тем, как задать <a cbot|var>переменную</a>. Например, переменную, которая называется <code>start</code>. После этого вы сможете высчитать расстояние между начальной позицией и вашей текущей позицией: <code>distance(позиция, старт)</code>."
+
+#. type: \b; header
+#: levels/exercises/chapter004/level001/help/help.E.txt:25
+#, no-wrap
+msgid "The program"
+msgstr "Программа"
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:26
+#, no-wrap
+msgid "declare the variables"
+msgstr "задание переменных"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level001/help/help.E.txt:29
+#, no-wrap
+msgid ""
+"<c/>\tpoint start;\n"
+"\tfloat len;"
+msgstr ""
+"<c/>\tpoint start;\n"
+"\tfloat len;"
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:30
+#, no-wrap
+msgid "save the starting position"
+msgstr "сохранение стартовой позиции"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level001/help/help.E.txt:32
+#, no-wrap
+msgid "<c/>\tstart = position;"
+msgstr "<c/>\tstart = position;"
+
+#. type: Bullet: '3)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:33
+#, no-wrap
+msgid "start full throttle :"
+msgstr "start full throttle :"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level001/help/help.E.txt:35
+#, no-wrap
+msgid "<c/>\tmotor(1, 1);"
+msgstr "<c/>\tmotor(1, 1);"
+
+#. type: Bullet: '4)'
+#: levels/exercises/chapter004/level001/help/help.E.txt:36
+#, no-wrap
+msgid "Perform an infinite <code><a cbot|while>while</a></code> loop:"
+msgstr "Бесконечный цикл <code><a cbot|while>while</a></code>:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level001/help/help.E.txt:45
+#, no-wrap
+msgid ""
+"<c/>\twhile ( true )\n"
+"\t{\n"
+"\t\tlen = distance(position, start);\n"
+"\t\tif ( len > 25-2 )\n"
+"\t\t{\n"
+"\t\t\tmotor( less than before ! );\n"
+"\t\t}\n"
+"\t}"
+msgstr ""
+"<c/>\twhile ( true )\n"
+"\t{\n"
+"\t\tlen = distance(позиция, старт);\n"
+"\t\tif ( len > 25-2 )\n"
+"\t\t{\n"
+"\t\t\tmotor( меньше, чем раньше ! );\n"
+"\t\t}\n"
+"\t}"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:47
+#, no-wrap
+msgid "As long as the distance between the start and the current position is smaller than 23m, the instruction in braces after the <code><a cbot|if>if</a></code> instruction will not be executed, so the motors keep their maximum speed as they were told by the <c/><a cbot|motor>motor</a>(1,1);<n/> instruction."
+msgstr "Пока расстояние между стартовой и текущей позициями меньше 23 метров, инструкция в скобках после <code><a cbot|if>if</a></code> выполняться не будет, поэтом моторы будут продолжать на максимальной мощности, как им и было приказано инструкцией <c/><a cbot|motor>motor</a>(1,1);<n/>."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:49
+#, no-wrap
+msgid "In order to slow down progressively, the speed of the motors must be proportional to the remaining distance:\n"
+msgstr "Чтобы постепенно снизить скорость, скорость моторов должна быть пропорциональной оставшемуся расстоянию:\n"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level001/help/help.E.txt:49
+#, no-wrap
+msgid "<code>2.0</code> meters left -> speed = <code>1.00</code> (maximum)"
+msgstr "<code>2.0</code> метра осталось -> скорость = <code>1.00</code> (максимум)"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level001/help/help.E.txt:50
+#, no-wrap
+msgid "<code>1.5</code> meters left -> speed = <code>0.75</code>"
+msgstr "<code>1.5</code> метра осталось -> скорость = <code>0.75</code>"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level001/help/help.E.txt:51
+#, no-wrap
+msgid "<code>1.0</code> meter left  -> speed = <code>0.50</code>"
+msgstr "<code>1.0</code> метр остался  -> скорость = <code>0.50</code>"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level001/help/help.E.txt:52
+#, no-wrap
+msgid "<code>0.5</code> meter left  -> speed = <code>0.25</code>"
+msgstr "<code>0.5</code> метра осталось  -> скорость = <code>0.25</code>"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level001/help/help.E.txt:53
+#, no-wrap
+msgid "<code>0.0</code> meter left  -> speed = <code>0.00</code> (stop)"
+msgstr "<code>0.0</code> метров осталось  -> скорость = <code>0.00</code> (стоп)"
+
+#. type: Image filename
+#: levels/exercises/chapter004/level001/help/help.E.txt:55
+#, no-wrap
+msgid "tdragst1"
+msgstr "tdragst1"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:57
+#, no-wrap
+msgid "You can use the following <a cbot|expr>expression</a> <code>(25-len)/2</code> in order to calculate the value for the speed instruction that must be given to the motors."
+msgstr "Вы можете использовать следующее <a cbot|expr>выражение</a> <code>(25-len)/2</code> чтобы высчитать значение для инструкции скорости, которая должна быть дана моторам."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:59
+#, no-wrap
+msgid "It is now up to you to put everything together and to test the program."
+msgstr "Теперь вы должны сложить все это вместе и проверить программу."
+
+#. type: \b; header
+#: levels/exercises/chapter004/level001/help/help.E.txt:60
+#, no-wrap
+msgid "Remark"
+msgstr "Комментарий"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:62
+#, no-wrap
+msgid "You can use values greater than 1 for the instruction <c/><a cbot|motor>motor</a>();<n/>, but the bot will not move any faster."
+msgstr "Вы можете использовать значения больше 1 для инструкции <c/><a cbot|motor>motor</a>();<n/>, но от этого бот быстрее двигаться не будет."
+
+#. type: \t; header
+#: levels/exercises/chapter004/level001/help/help.E.txt:63
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level001/help/help.E.txt:64
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

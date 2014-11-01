@@ -2,116 +2,124 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-26 23:35+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2014-07-03 10:19+0200\n"
+"Last-Translator: krzys_h <krzys_h@interia.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1404379159.000000\n"
 
 #. type: Plain text
-#: generic.languagecode:1
-msgid "E"
-msgstr "P"
-
-#. type: Plain text
-#: generic-help/authors.txt:2
+#: help/generic/E/authors.txt:2
 #, no-wrap
-msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC:\n"
-msgstr ""
+msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC\n"
+msgstr "Twórcy i wewnętrzni betatesterzy oryginalnej gry COLOBOT od EPSITEC\n"
 
 #. type: Bullet: '-'
-#: generic-help/authors.txt:2
+#: help/generic/E/authors.txt:2
 #, no-wrap
 msgid "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
-msgstr ""
+msgstr "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
 
 #. type: Bullet: '-'
-#: generic-help/authors.txt:3
+#: help/generic/E/authors.txt:3
 #, no-wrap
 msgid "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
-msgstr ""
+msgstr "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
 
 #. type: Bullet: '-'
-#: generic-help/authors.txt:4
+#: help/generic/E/authors.txt:4
 #, no-wrap
 msgid "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
-msgstr ""
+msgstr "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
 
 #. type: Plain text
-#: generic-help/authors.txt:8
+#: help/generic/E/authors.txt:7
 #, no-wrap
-msgid ""
-"PPC GOLD Project team and members:\n"
-"https://github.com/orgs/colobot/members\n"
-"https://github.com/colobot/colobot/graphs/contributors"
-msgstr ""
+msgid "Colobot: Gold Edition developers\n"
+msgstr "Twórcy Colobot: Gold Edition\n"
+
+#. type: Bullet: '-'
+#: help/generic/E/authors.txt:7
+#, no-wrap
+msgid "TerranovaTeam: https://github.com/orgs/colobot/members"
+msgstr "TerranovaTeam: https://github.com/orgs/colobot/members"
+
+#. type: Bullet: '-'
+#: help/generic/E/authors.txt:8
+#, no-wrap
+msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
+msgstr "Wkład na GitHubie: https://github.com/colobot/colobot/graphs/contributors"
 
 #. type: \b; header
-#: generic-help/cbot.txt:1
+#: help/generic/E/cbot.txt:1
 #, no-wrap
 msgid "Programming - the CBOT language"
-msgstr ""
+msgstr "Programowanie - język CBOT"
 
 #. type: Plain text
-#: generic-help/cbot.txt:4
+#: help/generic/E/cbot.txt:4
 #, no-wrap
 msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
+"Język CBOT jest zbliżony strukturą i składnią do takich języków programowania jak C++ i Java. Został on przystosowany do specyficznych zadań gry COLOBOT, przy uwzględnieniu aspektu pedagogicznego.\n"
+"Składa się on z instrukcji (zobacz poniżej), <a cbot|bloc>bloków</a>, <a cbot|function>funkcji</a>, <a cbot|class>klas</a>, <a cbot|var>zmiennych</a>, <a cbot|array>tablic</a>, <a cbot|expr>wyrażeń</a> i <a cbot|cond>warunków</a>."
 
 #. type: Bullet: 'o'
-#: generic-help/cbot.txt:5
+#: help/generic/E/cbot.txt:5
 #, no-wrap
 msgid "<code><format token>Instructions</format></code>"
-msgstr ""
+msgstr "<code><format token>Instrukcje</format></code>"
 
 #. type: Plain text
-#: generic-help/cbot.txt:7
+#: help/generic/E/cbot.txt:7
 #, no-wrap
 msgid "In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr ""
+msgstr "W edytorze programu, instrukcje języka CBOT są zawsze wyświetlane na pomarańczowym tle. Jeśli jest inaczej, oznacza to literówkę w nazwie instrukcji. Nazwy instrukcji są zawsze pisane małymi literami. "
 
 #. type: Bullet: 'o'
-#: generic-help/cbot.txt:8
+#: help/generic/E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
-msgstr ""
+msgstr "<code><format type>Typy</format></code>"
 
 #. type: Plain text
-#: generic-help/cbot.txt:10
+#: help/generic/E/cbot.txt:10
 #, no-wrap
 msgid "The <a cbot|type>type</a> of a variable appears with a green background. "
-msgstr ""
+msgstr "<a cbot|type>Typ</a> zmiennej wyświetlany jest na zielonym tle. "
 
 #. type: Bullet: 'o'
-#: generic-help/cbot.txt:11
+#: help/generic/E/cbot.txt:11
 #, no-wrap
 msgid "<code><format const>Constants</format></code>"
-msgstr ""
+msgstr "<code><format const>Stałe</format></code>"
 
 #. type: Plain text
-#: generic-help/cbot.txt:13
+#: help/generic/E/cbot.txt:13
 #, no-wrap
 msgid "Constants like <a cbot|category>categories</a> are displayed with a red background. "
-msgstr ""
+msgstr "Stałe, podobnie jak <a cbot|category>kategorie</a>, wyświetlane są na czerwonym tle. "
 
 #. type: \t; header
-#: generic-help/cbot.txt:14
+#: help/generic/E/cbot.txt:14
 #, no-wrap
 msgid "Instructions in the CBOT language:"
-msgstr ""
+msgstr "Instrukcje w języku CBOT:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:25
+#: help/generic/E/cbot.txt:25
 #, no-wrap
 msgid ""
 "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
@@ -125,15 +133,25 @@ msgid ""
 "<code><a cbot|return>return</a>     </code>Exit from a function\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
 msgstr ""
+"<code><a cbot|extern>extern</a>     </code>Oznacza główną funkcję\n"
+"<code><a cbot|if>if</a>         </code>Struktura wyboru\n"
+"<code><a cbot|if>else</a>       </code>Struktura wyboru alternatywy\n"
+"<code><a cbot|for>for</a>        </code>Struktura pętli\n"
+"<code><a cbot|while>while</a>      </code>Struktura kontroli\n"
+"<code><a cbot|do>do</a>         </code>Struktura kontroli\n"
+"<code><a cbot|break>break</a>      </code>Wychodzi z pętli\n"
+"<code><a cbot|continue>continue</a>   </code>Kontynuuje pętlę\n"
+"<code><a cbot|return>return</a>     </code>Wychodzi z funkcji\n"
+"<code><a cbot|sizeof>sizeof</a>     </code>Rozmiar tablicy"
 
 #. type: \t; header
-#: generic-help/cbot.txt:26
+#: help/generic/E/cbot.txt:26
 #, no-wrap
 msgid "Specific instructions for bots:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla robotów:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:41
+#: help/generic/E/cbot.txt:41
 #, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a>      </code>Object detection\n"
@@ -151,30 +169,47 @@ msgid ""
 "<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
 "<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time"
 msgstr ""
+"<code><a cbot|radar>radar</a>      </code>Wykrywa obiekty\n"
+"<code><a cbot|direct>direction</a>  </code>Oblicza kąt obrotu\n"
+"<code><a cbot|dist>distance</a>   </code>Oblicza odległość\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Oblicza odległość\n"
+"<code><a cbot|wait>wait</a>       </code>Czeka\n"
+"<code><a cbot|move>move</a>       </code>Przesuwa naprzód lub wstecz\n"
+"<code><a cbot|turn>turn</a>       </code>Obraca\n"
+"<code><a cbot|goto>goto</a>       </code>Przemieszcza się do zadanej pozycji\n"
+"<code><a cbot|motor>motor</a>      </code>Bezpośrednia kontrola nad silnikiem\n"
+"<code><a cbot|jet>jet</a>        </code>Bezpośrednia kontrola nad odrzutem\n"
+"<code><a cbot|message>message</a>    </code>Wyświetla komunikat\n"
+"<code><a cbot|retobj>retobject</a>  </code>Zwraca obiekt z funkcji\n"
+"<code><a cbot|errmode>errmode</a>    </code>Sposób traktowania błędów\n"
+"<code><a cbot|abstime>abstime</a>    </code>Zwraca czas absolutny"
 
 #. type: \t; header
-#: generic-help/cbot.txt:42
+#: help/generic/E/cbot.txt:42
 #, no-wrap
 msgid "Instructions about topology:"
-msgstr ""
+msgstr "Instrukcje związane z topologią terenu:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:46
+#: help/generic/E/cbot.txt:46
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
 msgstr ""
+"<code><a cbot|space>space</a>      </code>Znajduje wolne miejsce\n"
+"<code><a cbot|topo>topo</a>       </code>Zwraca wysokość punktu\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Zwraca promień płaskiego obszaru"
 
 #. type: \t; header
-#: generic-help/cbot.txt:47
+#: help/generic/E/cbot.txt:47
 #, no-wrap
 msgid "Instructions specific to some bots:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla niektórych robotów:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:56
+#: help/generic/E/cbot.txt:56
 #, no-wrap
 msgid ""
 "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
@@ -186,15 +221,23 @@ msgid ""
 "<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
 "<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon"
 msgstr ""
+"<code><a cbot|grab>grab</a>       </code>Podnosi przedmiot\n"
+"<code><a cbot|drop>drop</a>       </code>Upuszcza przedmiot\n"
+"<code><a cbot|sniff>sniff</a>      </code>Nasłuchuje podglebie\n"
+"<code><a cbot|thump>thump</a>      </code>Przewraca obce organizmy\n"
+"<code><a cbot|recycle>recycle</a>    </code>Odzyskuje tytan z pozostałości robota\n"
+"<code><a cbot|shield>shield</a>     </code>Rozszerza lub wyłącza osłonę\n"
+"<code><a cbot|fire>fire</a>       </code>Strzela z działa\n"
+"<code><a cbot|aim>aim</a>        </code>Ustawia kąt lufy w pionie"
 
 #. type: \t; header
-#: generic-help/cbot.txt:57
+#: help/generic/E/cbot.txt:57
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla stacji przekaźnikowych:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:62
+#: help/generic/E/cbot.txt:62
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -202,15 +245,19 @@ msgid ""
 "<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
 msgstr ""
+"<code><a cbot|receive>receive</a>    </code>Odbiera informację\n"
+"<code><a cbot|send>send</a>       </code>Wysyła nową informację\n"
+"<code><a cbot|testinfo>testinfo</a>   </code>Sprawdza czy istnieje informacja\n"
+"<code><a cbot|delinfo>deleteinfo</a> </code>Usuwa istniejącą informację"
 
 #. type: \t; header
-#: generic-help/cbot.txt:63
+#: help/generic/E/cbot.txt:63
 #, no-wrap
 msgid "Specific instructions for classes:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla klas:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:71
+#: help/generic/E/cbot.txt:71
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -221,15 +268,22 @@ msgid ""
 "<code><a cbot|new>new</a>        </code>Creates a new instance\n"
 "<code><a cbot|this>this</a>       </code>Reference to the current instance"
 msgstr ""
+"<code><a cbot|class>class</a>      </code>Deklaracja klasy\n"
+"<code><a cbot|public>public</a>     </code>Deklaracja funkcji publicznej\n"
+"<code><a cbot|private>private</a>    </code>Deklaracja prywatnego elementu klasy\n"
+"<code><a cbot|static>static</a>     </code>Deklaracja statycznego elementu klasy\n"
+"<code><a cbot|synchro>synchronized</a> </code>Zapobiega jednoczesnemu wykonywaniu\n"
+"<code><a cbot|new>new</a>        </code>Tworzy nową instancję\n"
+"<code><a cbot|this>this</a>       </code>Odwołanie do bieżącej instancji"
 
 #. type: \t; header
-#: generic-help/cbot.txt:72
+#: help/generic/E/cbot.txt:72
 #, no-wrap
 msgid "Specific instructions for strings:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla łańcuchów:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:81
+#: help/generic/E/cbot.txt:81
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -241,15 +295,23 @@ msgid ""
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
 msgstr ""
+"<code><a cbot|strlen>strlen</a>     </code>Podaje długość łańcucha\n"
+"<code><a cbot|strleft>strleft</a>    </code>Wyodrębnia lewą część\n"
+"<code><a cbot|strright>strright</a>   </code>Wyodrębnia prawą część\n"
+"<code><a cbot|strmid>strmid</a>     </code>Wyodrębnia środkową część\n"
+"<code><a cbot|strfind>strfind</a>    </code>Znajduje podłańcuch.\n"
+"<code><a cbot|strval>strval</a>     </code>Zamienia łańcuch na liczbę\n"
+"<code><a cbot|strupper>strupper</a>   </code>Zamienia litery na wielkie\n"
+"<code><a cbot|strlower>strlower</a>   </code>Zamienia litery na małe"
 
 #. type: \t; header
-#: generic-help/cbot.txt:82
+#: help/generic/E/cbot.txt:82
 #, no-wrap
 msgid "Specific instructions for files:"
-msgstr ""
+msgstr "Instrukcje specyficzne dla plików:"
 
 #. type: Plain text
-#: generic-help/cbot.txt:89
+#: help/generic/E/cbot.txt:89
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -259,39 +321,46 @@ msgid ""
 "<code><a cbot|eof>eof</a>        </code>Tests if end of file\n"
 "<code><a cbot|deletef>deletefile</a> </code>Deletes a file"
 msgstr ""
+"<code><a cbot|open>open</a>       </code>Otwiera plik\n"
+"<code><a cbot|close>close</a>      </code>Zamyka plik\n"
+"<code><a cbot|writeln>writeln</a>    </code>Zapisuje wiersz do pliku\n"
+"<code><a cbot|readln>readln</a>     </code>Wczytuje wiersz z pliku\n"
+"<code><a cbot|eof>eof</a>        </code>Sprawdza czy jest już koniec pliku\n"
+"<code><a cbot|deletef>deletefile</a> </code>Usuwa plik"
 
 #. type: \t; header
-#: generic-help/cbot.txt:90
+#: help/generic/E/cbot.txt:90
+#: help/generic/E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
-#: generic-help/cbot.txt:91
+#: help/generic/E/cbot.txt:91
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot|type>Typy</a> i <a cbot|category>kategorie</a>."
 
 #. type: \b; header
-#: generic-help/command.txt:1
+#: help/generic/E/command.txt:1
 #, no-wrap
 msgid "Controls"
-msgstr ""
+msgstr "Sterowanie"
 
 #. type: Plain text
-#: generic-help/command.txt:3
+#: help/generic/E/command.txt:3
 #, no-wrap
 msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
-msgstr ""
+msgstr "Polecana jest gra z jedną ręką na klawiszach strzałek a drugą na myszy."
 
 #. type: \t; header
-#: generic-help/command.txt:4
+#: help/generic/E/command.txt:4
 #, no-wrap
 msgid "Bots"
-msgstr ""
+msgstr "Roboty"
 
 #. type: Plain text
-#: generic-help/command.txt:10
+#: help/generic/E/command.txt:10
 #, no-wrap
 msgid ""
 "<format key><key left/></format> = turn left\n"
@@ -300,18 +369,26 @@ msgid ""
 "<format key><key down/></format> = move back\n"
 "These controls are unavailable when working with the <a object|bottr>practice bots</a>."
 msgstr ""
+"<format key><key left/></format> = skręt w lewo\n"
+"<format key><key right/></format> = skręt w prawo\n"
+"<format key><key up/></format> = ruch do przodu\n"
+"<format key><key down/></format> = ruch do tyłu\n"
+"Klawisze te nie są dostępne dla <a object|bottr>robota treningowego</a>."
 
 #. type: Plain text
-#: generic-help/command.txt:14
+#: help/generic/E/command.txt:14
 #, no-wrap
 msgid ""
 "<format key><key gup/></format> = take off and climb <button 28/>\n"
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
 "These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
 msgstr ""
+"<format key><key gup/></format> = start i wznoszenie się <button 28/>\n"
+"<format key><key gdown/></format> = opuszczanie się i lądowanie <button 29/>\n"
+"Te klawisze są oczywiście dostępne tylko dla <a object|human>astronauty</a> oraz <a object|botgj>robotów latających</a> w niektórych misjach."
 
 #. type: Plain text
-#: generic-help/command.txt:20
+#: help/generic/E/command.txt:20
 #, no-wrap
 msgid ""
 "mouse forward = higher aim\n"
@@ -320,38 +397,48 @@ msgid ""
 "mouse left = aim left\n"
 "These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
 msgstr ""
+"mysz do przodu = celowanie wyżej\n"
+"mysz do tyłu = celowanie niżej\n"
+"mysz w prawo = celowanie w prawo\n"
+"mysz w lewo = celowanie w lewo\n"
+"Klawisze te dostępne są tylko dla <a object|botfr>dział</a>, <a object|botor>dział organicznych</a> i <a object|botphaz>działa fazowego</a>."
 
 #. type: Plain text
-#: generic-help/command.txt:23
+#: help/generic/E/command.txt:23
 #, no-wrap
 msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
+"<format key><key action/></format> = główne działanie zaznaczonego obiektu (człowieka lub robota)\n"
+"Klawisz ten pozwala np. na operowanie ramieniem <a object|botgr>transportera</a> lub strzelanie z <a object|botfr>działa</a> <button 42/>."
 
 #. type: \t; header
-#: generic-help/command.txt:24
+#: help/generic/E/command.txt:24
 #, no-wrap
 msgid "Selections"
-msgstr ""
+msgstr "Zaznaczanie"
 
 #. type: Plain text
-#: generic-help/command.txt:28
+#: help/generic/E/command.txt:28
 #, no-wrap
 msgid ""
 "<format key><key next/></format> = selects next object\n"
 "<format key><key human/></format> = selects astronaut\n"
 "<format key><key desel/></format> = previous selection <button 10/>"
 msgstr ""
+"<format key><key next/></format> = zaznacza następny obiekt\n"
+"<format key><key human/></format> = zaznacza astronautę\n"
+"<format key><key desel/></format> = poprzednie zaznaczenie <button 10/>"
 
 #. type: \t; header
-#: generic-help/command.txt:29
+#: help/generic/E/command.txt:29
 #, no-wrap
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #. type: Plain text
-#: generic-help/command.txt:34
+#: help/generic/E/command.txt:34
 #, no-wrap
 msgid ""
 "<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
@@ -359,29 +446,35 @@ msgid ""
 "<format key><key away/></format> = zoom out\n"
 "<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
 msgstr ""
+"<format key><key camera/></format> = przełącza pomiędzy kamerą pokładową i podążającą za robotem <button 13/>\n"
+"<format key><key near/></format> = powiększenie\n"
+"<format key><key away/></format> = pomniejszenie\n"
+"<format key><key visit/></format> = zatrzymuje grę i wyświetla miejsce pochodzenia ostatniej wiadomości. Kolejne naciśnięcie pokazuje pochodzenie poprzedniej wiadomości."
 
 #. type: \t; header
-#: generic-help/command.txt:35
+#: help/generic/E/command.txt:35
 #, no-wrap
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #. type: Plain text
-#: generic-help/command.txt:38
+#: help/generic/E/command.txt:38
 #, no-wrap
 msgid ""
 "<format key><key help/></format> = mission instructions\n"
 "<format key><key prog/></format> = programming help"
 msgstr ""
+"<format key><key help/></format> = rozkazy dot. misji\n"
+"<format key><key prog/></format> = podręcznik programowania"
 
 #. type: \t; header
-#: generic-help/command.txt:39
+#: help/generic/E/command.txt:39
 #, no-wrap
 msgid "Game"
-msgstr ""
+msgstr "Gra"
 
 #. type: Plain text
-#: generic-help/command.txt:44
+#: help/generic/E/command.txt:44
 #, no-wrap
 msgid ""
 "<format key><key speed10/></format> = normal speed x1\n"
@@ -389,107 +482,135 @@ msgid ""
 "<format key><key speed20/></format> = faster speed x2\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
+"<format key><key speed10/></format> = normalna prędkość x1\n"
+"<format key><key speed15/></format> = średnia prędkość x1,5\n"
+"<format key><key speed20/></format> = duża prędkość x2\n"
+"<format key><key quit/></format> = wyjście z misji <button 11/>"
 
 #. type: Plain text
-#: generic-help/command.txt:45
+#: help/generic/E/command.txt:45
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
-msgstr ""
-
-#. type: Plain text
-#: generic-help/licences.txt:2
-#, no-wrap
-msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
-msgstr ""
-
-#. type: Plain text
-#: generic-help/licences.txt:3
-#, no-wrap
-msgid "The thunder sound on Orpheon is used by limited permission from CREATIVE."
-msgstr ""
+msgstr "Wszystkie powyższe ustawienia klawiszy sterowania mogą być zmienione w menu opcje/sterowanie."
 
 #. type: \b; header
-#: generic-help/navig.txt:1
+#: help/generic/E/freehelp.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Zadanie"
+
+#. type: Plain text
+#: help/generic/E/freehelp.txt:3
+#, no-wrap
+msgid "Here you can play around without any definite objective. You can do whatever you want, explore the region, build a base camp and several bots, run various research programs, kill the insects if you find some, etc."
+msgstr "W tej misji możesz grać bez określonego konkretnego celu. Możesz robić co chcesz, poznawać okolicę, budować bazę i roboty, wykonywać programy badawcze, zabijać ewentualnych wrogów, itp."
+
+#. type: Plain text
+#: help/generic/E/freehelp.txt:5
+#, no-wrap
+msgid "<a command>Controls</a>."
+msgstr "<a command>Sterowanie</a>."
+
+#. type: Plain text
+#: help/generic/E/licences.txt:2
+#, no-wrap
+msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
+msgstr "Fotografia mgławicy NGC3606 oświetlająca niebo Orfenii oraz programu instalacyjnego została zrobiona teleskopem kosmicznym Hubble. Została ona użyta za zgodą autorów, którymi są: Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) oraz NASA."
+
+#. type: Plain text
+#: help/generic/E/licences.txt:3
+#, no-wrap
+msgid "The thunder sound on Orpheon is used by limited permission from CREATIVE."
+msgstr "Dźwięk grzmotu na Orfenii został użyty za ograniczoną zgodą firmy CREATIVE."
+
+#. type: \b; header
+#: help/generic/E/navig.txt:1
 #, no-wrap
 msgid "Navigation"
-msgstr ""
+msgstr "Nawigacja"
 
 #. type: Plain text
-#: generic-help/navig.txt:3
+#: help/generic/E/navig.txt:3
 #, no-wrap
 msgid "The three buttons on the upper left-hand corner of the screen allow you to navigate in the different texts of the help file:"
-msgstr ""
+msgstr "Trzy przyciski w lewej górnej części ekranu pozwalają na nawigację po różnych stronach pliku pomocy:"
 
 #. type: Plain text
-#: generic-help/navig.txt:6
+#: help/generic/E/navig.txt:6
 #, no-wrap
 msgid ""
 "<button 30/> Home\n"
 "Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
 msgstr ""
+"<button 30/> Dom\n"
+"Wraca do strony głównej, czyli wyświetlonej na początku, na przykład po naciśnięciu klawisza <format key><key help/></format> lub <format key><key prog/></format>."
 
 #. type: Plain text
-#: generic-help/navig.txt:9
+#: help/generic/E/navig.txt:9
 #, no-wrap
 msgid ""
 "<button 55/> Previous\n"
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
 msgstr ""
+"<button 55/> Poprzedni\n"
+"Wraca do poprzedniej strony, czyli tej która była wyświetlana przed kliknięciem łącza."
 
 #. type: Plain text
-#: generic-help/navig.txt:12
+#: help/generic/E/navig.txt:12
 #, no-wrap
 msgid ""
 "<button 48/> Next\n"
 "Get again to the next page, after you used the \"Home\" or \"Previous\" button."
 msgstr ""
+"<button 48/> Następny\n"
+"Wyświetla ponownie następną stronę, wyświetlaną przed użyciem przycisku \"Dom\" lub \"Poprzedni\"."
 
 #. type: \t; header
-#: generic-help/navig.txt:13
+#: help/generic/E/navig.txt:13
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Uwaga"
 
 #. type: Plain text
-#: generic-help/navig.txt:15
+#: help/generic/E/navig.txt:16
 #, no-wrap
-msgid "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it."
+msgid ""
+"When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
+"This remark is valid for all buttons in COLOBOT."
 msgstr ""
-
-#. type: Plain text
-#: generic-help/navig.txt:17
-#, no-wrap
-msgid "This remark is valid for all buttons in COLOBOT."
-msgstr ""
+"Jeśli przycisk jest szary, oznacza to, że w danej chwili nie może być użyty. Na przykład na stronie głównej przycisk \"Dom\" jest szary, gdyż jego użycie nie miałoby sensu.\n"
+"Uwaga ta dotyczy wszystkich przycisków w grze COLOBOT."
 
 #. type: \t; header
-#: generic-help/navig.txt:18
+#: help/generic/E/navig.txt:17
 #, no-wrap
 msgid "Text scrolling"
-msgstr ""
+msgstr "Przewijanie tekstu"
 
 #. type: Plain text
-#: generic-help/navig.txt:20
+#: help/generic/E/navig.txt:19
 #, no-wrap
 msgid "If your mouse is equipped with a wheel, you can use it to scroll the text up and down. Otherwise, use the arrow keys and the scroll bar on the right-hand side of the screen."
-msgstr ""
+msgstr "Jeśli mysz jest wyposażona w kółko, można go używać do przewijania tekstu w górę i w dół. Jeśli nie, można użyć klawiszy strzałek oraz paska przewijania po prawej stronie ekranu."
 
 #. type: \t; header
-#: generic-help/navig.txt:21
+#: help/generic/E/navig.txt:20
 #, no-wrap
 msgid "Font size"
-msgstr ""
+msgstr "Wielkość czcionki"
 
 #. type: Plain text
-#: generic-help/navig.txt:22
+#: help/generic/E/navig.txt:21
 #, no-wrap
 msgid "The cursor on the upper side of the screen allows you to change the font size of the text."
-msgstr ""
+msgstr "Wskaźnik w górnej części ekranu umożliwia zmianę wielkości czcionki tekstu."
 
 #. type: Plain text
-#: generic-help/win.txt:3
+#: help/generic/E/win.txt:3
 #, no-wrap
 msgid ""
 "Houston congratulates you in the name of mankind for the success of your mission.\n"
 "The Great Migration to Terra Nova will start very soon."
 msgstr ""
+"W imieniu całej ludzkości, Centrum Kontroli z Houston gratuluje pomyślnego zakończenia misji.\n"
+"Niebawem roczpocznie się Wielka Migracja na Nową Ziemię."

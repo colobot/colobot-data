@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter003/level004/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/exercises/chapter003/level004/scene.txt:1
+#, no-wrap
+msgid "Exchange posts 1"
+msgstr "Обменные посты 1"
+
+#. type: Resume-text
+#: levels/exercises/chapter003/level004/scene.txt:2
+#, no-wrap
+msgid "Collect valuable information from information exchange posts."
+msgstr "Соберите важную информацию на постах обмена информации."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter003/level004/scene.txt:3
+#, no-wrap
+msgid "Info"
+msgstr "Info"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level004/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:4
+#, no-wrap
+msgid ""
+"Several <a object|exchange>information exchange posts</a> stand in the middle of a <a object|mine>mine</a> field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a <a object|mine>mine</a>.\n"
+"The exchange posts are distant 20m from each other."
+msgstr ""
+"Несколько <a object|exchange>постов обмена информацией</a> стоят посреди <a object|mine>минного</a> поля. Когда бот подходит к посту обмена на достаточно близкое расстояние, он может прочитать информацию, которая там содержиться. Каждому пункту обмена присущ угол поворота, на который нужно повернуться, чтобы перейти к следующему посту обмена, не наступив на <a object|mine>мину</a>.\n"
+"Посты обмена расположены на расстоянии 20 метров друг от друга."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level004/help/help.E.txt:5
+#, no-wrap
+msgid "General principe"
+msgstr "Общий принцип"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:7
+#, no-wrap
+msgid "Repeat 5 times :\n"
+msgstr "Повторять 5 раз :\n"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level004/help/help.E.txt:7
+#, no-wrap
+msgid "Move 20m forward."
+msgstr "Перейти на 20 метров вперед."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level004/help/help.E.txt:8
+#, no-wrap
+msgid "Read the direction of the next <a object|exchange>information exchange post</a>."
+msgstr "Прочитать информацию о месте следующего <a object|exchange>поста обмена информации</a>."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level004/help/help.E.txt:9
+#, no-wrap
+msgid "Execute the necessary rotation."
+msgstr "Произвести необходимый поворот."
+
+#. type: Image filename
+#: levels/exercises/chapter003/level004/help/help.E.txt:11
+#, no-wrap
+msgid "tinfo1"
+msgstr "tinfo1"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:13
+#, no-wrap
+msgid "In order to repeat the steps above, use a <code><a cbot|for>for</a></code> loop, as we saw it before."
+msgstr "Чтобы повторять шаги, приведенные выше, используйте цикл <code><a cbot|for>for</a></code>, как мы делали это раньше."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level004/help/help.E.txt:14
+#, no-wrap
+msgid "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+msgstr "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:16
+#, no-wrap
+msgid "Move forward with the instruction <c/>move(20);<n/>."
+msgstr "Переместитесь вперед с помощью инструкции <c/>move(20);<n/>."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:19
+#, no-wrap
+msgid ""
+"Use the instruction <c/><a cbot|receive>receive</a>(\"Direction\");<n/> in order to read the information contained in the <a object|exchange>exchange post</a>. This is of course possible only when the bot is close enough to the exchange post.\n"
+"You will need a <a cbot|var>variable</a> to contain the value retrieved from the exchange post. Let us call it <code>dir</code>; you must declare it with the following line:"
+msgstr ""
+"Используйте инструкцию <c/><a cbot|receive>receive</a>(\"Направление\");<n/> чтобы прочитать информацию, которая содержится в <a object|exchange>посте обмена</a>. Это возможно сделать только тогда, когда бот подойтет к нему на достаточно близкое расстояние.\n"
+"Вам будет нужна <a cbot|var>переменная</a>, которая будет задавать значение, полученное на посту обмена. Давайте назовем ее <code>dir</code>; вы должны задать ее следующей строкой:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level004/help/help.E.txt:20
+#, no-wrap
+msgid "<c/>\tfloat  dir;"
+msgstr "<c/>\tfloat  dir;"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:22
+#, no-wrap
+msgid "Then retrieve the rotation angle from the exchange post, and put it into the variable:"
+msgstr "Затем на обменном посту необходимо получить угол поворота, и включить его в значение переменной:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level004/help/help.E.txt:23
+#, no-wrap
+msgid "<c/>\tdir = receive(...);"
+msgstr "<c/>\tdir = receive(...);"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:25
+#, no-wrap
+msgid "Then you can execute the rotation:"
+msgstr "После этого вы можете сделать поворот:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level004/help/help.E.txt:26
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr "<c/>\tturn(dir);"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level004/help/help.E.txt:27
+#, no-wrap
+msgid "Remark"
+msgstr "Комментарий"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:29
+#, no-wrap
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains only one value called <code>\"Direction\"</code>, but it can contain up to 10 different values, as you will see in some of the following exercises."
+msgstr "Вы можете щелкнуть на <a object|exchange>посту обмена информацией</a>, чтобы прочитать информацию, которую он содержит. В этом упражнении каждый пункт обмена содержит только одно значение, которое называется <code>\"Напрвление\"</code>, но он может содержать и до 10 различных значений, в чем вы убедитесь в некоторых последующих упражнениях."
+
+#. type: \t; header
+#: levels/exercises/chapter003/level004/help/help.E.txt:30
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level004/help/help.E.txt:31
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

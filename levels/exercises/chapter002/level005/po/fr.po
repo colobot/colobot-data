@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter002/level005/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: levels/exercises/chapter002/level005/scene.txt:1
+#, no-wrap
+msgid "Fighter Jet 2"
+msgstr "Chasseur à réaction 2"
+
+#
+#. type: Resume-text
+#: levels/exercises/chapter002/level005/scene.txt:2
+#, no-wrap
+msgid "Adapt the program to a mountainous terrain."
+msgstr "Adaptez le programme à un relief accidenté"
+
+#
+#. type: ScriptName-text
+#: levels/exercises/chapter002/level005/scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Chasseur2"
+
+#. type: \b; header
+#: levels/exercises/chapter002/level005/help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objectif"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:3
+#, no-wrap
+msgid "Adapt the flying height of the <a object|botfj>winged shooter</a> to the terrain."
+msgstr "Adaptez la hauteur de vol du <a object|botoj>orgaShooter volant</a> à la topologie du terrain."
+
+#. type: \t; header
+#: levels/exercises/chapter002/level005/help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Programme"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:6
+#, no-wrap
+msgid "Here is one more time the program of the previous exercise that hunts ants:"
+msgstr "Voici encore une fois le programme de l'exercice précédent qui tire sur les <a object|ant>fourmis</a>:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter002/level005/help/help.E.txt:31
+#, no-wrap
+msgid ""
+"extern void object::JetFighter1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile (position.z < 10)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = radar(AlienAnt);\n"
+"\t\t\tturn(direction(item.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Chasseur1()\n"
+"{\n"
+"\tobject    chose;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile ( position.z < 10 )\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\t\n"
+"\twhile ( true )\n"
+"\t{\n"
+"\t\twhile ( radar(AlienAnt, 0, 360, 0, 20) == null )\n"
+"\t\t{\n"
+"\t\t\tchose = radar(AlienAnt);\n"
+"\t\t\tturn(direction(chose.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:33
+#, no-wrap
+msgid "The bot always stays at an altitude of 10m above sea level. This is not adapted to the mountainous terrain of the present exercise, the bot has got to adapt to the terrain. The best way to do so is to insert just before the <c/>wait(0.2);<n/> a test to see if the height above ground is too low or too high, and to react accordingly."
+msgstr "Le robot reste toujours à une altitude de 10 mètres au-dessus du niveau de la mer. Dans le relief accidenté du présent exercice, ceci ne suffit pas, il faut pouvoir s'adapter au terrain. Juste avant le <c/>wait(0.2);<n/> on peut tester si l'altitude est trop basse ou trop haute et réagir en conséquence."
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:35
+#, no-wrap
+msgid "We already saw that <code>position.z</code> gives the altitude above sea level. <code><a cbot|topo>topo</a>(position)</code> gives the altitude of the ground at the position of the bot. If we want the bot to stay at an altitude between 6 and 9m above ground, we must treat the following cases: if <code>position.z-topo(position)</code> is smaller than 6, the bot must climb with <c/>jet(1);<n/>. If <code>position.z-topo(position)</code> is greater than 9, the bot must go down with <c/>jet(-1);<n/>. In order to program these tests, use the instruction <code><a cbot|if>if</a></code>, that executes the instructions in braces only once if the condition is true:"
+msgstr "Nous avons vu que <code>position.z</code> donne l'altitude au-dessus du niveau de la mer. <code><a cbot|topo>topo</a>(position)</code> donne l'altitude du terrain à la position du robot. Si nous voulons rester à une altitude comprise entre 6 et 9 mètres au-dessus du sol, il faut traiter les cas suivants: si <code>position.z-topo(position)</code> est plus petit que 6, on monte avec <c/>jet(1);<n/>. Si <code>position.z-topo(position)</code> est plus grand que 9, on descend avec <c/>jet(-1);<n/>. Pour programmer ces tests, on utilise l'instruction <code><a cbot|if>if</a></code>, qui exécute les instructions entre les accolades une seule fois si la condition est remplie:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter002/level005/help/help.E.txt:46
+#, no-wrap
+msgid ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
+msgstr ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:48
+#, no-wrap
+msgid "Before starting the testing, stabilize the altitude with <c/>jet(0);<n/>: in case the height above ground lies between 6 and 9m, the bot must neither climb nor go down. If afterwards either <c/>jet(1);<n/> or <c/>jet(-1);<n/> is executed, it will cancel the previous <c/>jet(0);<n/>."
+msgstr "Il faut commencer par stabiliser l'altitude avec <c/>jet(0);<n/> pour que dans le cas où l'altitude est comprise entre 6 et 9 mètres, on reste à cette altitude. Si ensuite un <c/>jet(1);<n/> ou un <c/>jet(-1);<n/> est exécuté, cette instruction annulera le <c/>jet(0);<n/> précédent."
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:50
+#, no-wrap
+msgid "Just insert these lines before the <code>wait(0.2)</code>, and the bot will adapt to the terrain. You can then delete the first lines of the program that set the initial altitude at 10m."
+msgstr "Il suffit d'insérer ces quelques lignes avant le <code>wait(0.2)</code> pour que le robot s'adapte au relief. On peut alors effacer les premières lignes qui font monter le robot à une altitude de 10 mètres."
+
+#. type: \t; header
+#: levels/exercises/chapter002/level005/help/help.E.txt:51
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: levels/exercises/chapter002/level005/help/help.E.txt:52
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a tant4>Exercice précédent</a> et <a cbot>programmation</a>."

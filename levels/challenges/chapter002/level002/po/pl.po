@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/challenges/chapter002/level002/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "P"
+
+#. type: Title-text
+#: levels/challenges/chapter002/level002/scene.txt:1
+#, no-wrap
+msgid "Shadow 2"
+msgstr "Cień 2"
+
+#. type: Resume-text
+#: levels/challenges/chapter002/level002/scene.txt:2
+#, no-wrap
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Podążaj za robotem, stając się jego cieniem."
+
+#. type: ScriptName-text
+#: levels/challenges/chapter002/level002/scene.txt:3
+#, no-wrap
+msgid "Follow"
+msgstr "Podążanie"
+
+#. type: \b; header
+#: levels/challenges/chapter002/level002/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ćwiczenie"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level002/help/help.E.txt:3
+#, no-wrap
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
+msgstr "Należy podążać za <a object|bottr>robotem celem</a> z urządzeniem wybuchowym; należy być ostrożnym, gdyż zderzenie z nim grozi wybuchem. Podczas każdego zatrzymania robota celu należy być odpowiednio blisko (mniej niż 10 metrów).  Gdy uda się być w pobliżu robota 10 razy z rzędu, ćwiczenie zakończy się, wraz z jego dotarciem na platformę końcową. Przy każdym zatrzymaniu robot cel sprawdza, czy śledzący go robot jest odpowiednio blisko. Jeśli nie, liczenie zaczyna się od początku."
+
+#. type: \b; header
+#: levels/challenges/chapter002/level002/help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Ogólny algorytm"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level002/help/help.E.txt:6
+#, no-wrap
+msgid "Repeat forever:\n"
+msgstr "Powtarzaj w nieskończoność:\n"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level002/help/help.E.txt:6
+#, no-wrap
+msgid "Look for the target bot."
+msgstr "Znajdź robot cel."
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level002/help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the distance to the bot."
+msgstr "Oblicz odległość do robota."
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level002/help/help.E.txt:8
+#, no-wrap
+msgid "if the distance to the target bot is less than 5m, move backward."
+msgstr "Jeśli odległość jest mniejsza niż 5 m, cofnij się."
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level002/help/help.E.txt:9
+#, no-wrap
+msgid "Otherwise, calculate the direction of the target bot, and move towards it."
+msgstr "W przeciwnym przypadku oblicz kierunek do robota celu i idź w jego kierunku."
+
+#. type: \b; header
+#: levels/challenges/chapter002/level002/help/help.E.txt:11
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Przydatne instrukcje"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level002/help/help.E.txt:18
+#, no-wrap
+msgid ""
+"<code><a cbot|radar>radar</a></code> to look for the bot (category <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> to detect obstacles\n"
+"<code><a cbot|dist>distance</a></code> to calculate a distance\n"
+"<code><a cbot|direct>direction</a></code> to calculate a direction\n"
+"<code><a cbot|if>if</a></code> to test a condition\n"
+"<code><a cbot|motor>motor</a></code> to set the motor speeds"
+msgstr ""
+"<code><a cbot|radar>radar</a></code> znajdowanie robota (kategoria <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> wykrywanie przeszkód\n"
+"<code><a cbot|dist>distance</a></code> obliczanie odległości\n"
+"<code><a cbot|direct>direction</a></code> obliczanie kierunku\n"
+"<code><a cbot|if>if</a></code> sprawdzanie warunku\n"
+"<code><a cbot|motor>motor</a></code> ustawianie prędkości silników"
+
+#. type: \t; header
+#: levels/challenges/chapter002/level002/help/help.E.txt:19
+#, no-wrap
+msgid "See also"
+msgstr "Zobacz również"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level002/help/help.E.txt:20
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

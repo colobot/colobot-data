@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter007/level003/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/exercises/chapter007/level003/scene.txt:1
+#, no-wrap
+msgid "Remote control #5"
+msgstr "Дистанционное управление #5"
+
+#. type: Resume-text
+#: levels/exercises/chapter007/level003/scene.txt:2
+#, no-wrap
+msgid "Remote control a bot without using an information exchange post by storing the orders."
+msgstr "Дистанционное управление ботом без использования поста обменом информацией, используя сохранение заявок."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter007/level003/scene.txt:3
+#, no-wrap
+msgid "Remote5"
+msgstr "Remote5"
+
+#. type: \b; header
+#: levels/exercises/chapter007/level003/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:3
+#, no-wrap
+msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. "
+msgstr "Дистанционное управление ботом без использования <a object|exchange>поста обменом информацией</a>. Бот должен проехать по 6 синим отметкам."
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:5
+#, no-wrap
+msgid "The two main actors of this exercise are:\n"
+msgstr "Что потребуется:\n"
+
+#. type: Bullet: '1)'
+#: levels/exercises/chapter007/level003/help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave."
+msgstr "<a object|botgr>Колесный сборщик</a> без батареи. Данный бот будет ведущим."
+
+#. type: Bullet: '2)'
+#: levels/exercises/chapter007/level003/help/help.E.txt:6
+#, no-wrap
+msgid "The slave <a object|bottr>practice bot</a> which is already programmed and just waits for orders from the master."
+msgstr "Ведомый <a object|bottr>тренировочный бот</a> запрограммированый заранее на ожидание комманд от ведущего бота."
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:9
+#, no-wrap
+msgid "The orders shall be stored, so the master will be able to transmit several orders without waiting for each order being processed. We use an <a cbot|array>array</a> for this purpose."
+msgstr "Ведущий бот будет передавать сразу несколько заявок, не дожидаясь, пока они будут обрабатываться. Мы будем использовать <a cbot|array>массив</a> для эттой цели."
+
+#. type: \b; header
+#: levels/exercises/chapter007/level003/help/help.E.txt:10
+#, no-wrap
+msgid "The slave"
+msgstr "Ведомый"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:12
+#, no-wrap
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
+msgstr "Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> <code>order</code> содержит в себе две части: <code>m_type</code> для заявок на выполнение (движение или поворот) и <code>m_param</code> для дистанции или угла поворота¦:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:14
+#, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:18
+#, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|int>int</a>    m_type;\n"
+"\t<a cbot|float>float</a>  m_param;\n"
+"}"
+msgstr ""
+"{\n"
+"\t<a cbot|int>int</a>    m_type;\n"
+"\t<a cbot|float>float</a>  m_param;\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:20
+#, no-wrap
+msgid "A second <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchanging the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_fifo</code> which will contain the list of orders to be executed. The word <code>static</code> insures that the member <code>m_fifo</code> is shared between all instances of the <a cbot|class>class</a> exchange."
+msgstr "Второй <a cbot|class>класс</a> <code>exchange</code> содержит в себе механизм обмена информацией. Мы заявляем <code><a cbot|static>статичную</a></code> часть класса <code>m_fifo</code>, которая содержит в себе лист команд для выполнения. Слово <code>статический</code> гарантирует, что <code>m_fifo</code> будет одинаковым во всех <a cbot|class>классах</a>."
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:22
+#, no-wrap
+msgid "<c/><s/>{"
+msgstr "<c/><s/>{"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:23
+#, no-wrap
+msgid "\t<a cbot|static>static</a> <a cbot|private>private</a> order m_fifo[] = null;"
+msgstr "\t<a cbot|static>static</a> <a cbot|private>private</a> order m_fifo[] = null;"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:25
+#, no-wrap
+msgid "The <code>put</code> method will be used by the master robot for transmitting an order. The order will simply be added at the end of the <code>m_fifo</code> array:"
+msgstr "Метод <code>put</code> позволит ведущему боту передавать завяки. Заявки могут быть легко добавлены в конце массива <code>m_fifo</code>:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:27
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> void put(order a)"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> void put(order a)"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:30
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tm_fifo[sizeof(m_fifo)] = a;\n"
+"\t}"
+msgstr ""
+"\t{\n"
+"\t\tm_fifo[sizeof(m_fifo)] = a;\n"
+"\t}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:32
+#, no-wrap
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>¦:"
+msgstr "Другой метод <code>get</code> может быть использован ведомым ботом для получения задания. Этот метод возвращает выполненную заявку. Если лист пустой, будет возвращено значение <code>null</code> и бот будет ждать следующих команд. В противном случае первая заявка в списке будет возвращена, а оставшиеся будут \"продвинуты вверх\". Если массив не может быть \"укорочен\", то мы будем использовать временной массив <code>copy</code>¦:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:34
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:46
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tif ( sizeof(m_fifo) == 0 )  return null;\n"
+"\n"
+"\t\torder a = m_fifo[0];\n"
+"\t\torder copy[] = null;\n"
+"\t\tfor ( int i=1 ; i<sizeof(m_fifo) ; i++ )\n"
+"\t\t{\n"
+"\t\t\tcopy[i-1] = m_fifo[i];\n"
+"\t\t}\n"
+"\t\tm_fifo = copy;\n"
+"\t\treturn a;\n"
+"\t}"
+msgstr ""
+"\t{\n"
+"\t\tif ( sizeof(m_fifo) == 0 )  return null;\n"
+"\n"
+"\t\torder a = m_fifo[0];\n"
+"\t\torder copy[] = null;\n"
+"\t\tfor ( int i=1 ; i<sizeof(m_fifo) ; i++ )\n"
+"\t\t{\n"
+"\t\t\tcopy[i-1] = m_fifo[i];\n"
+"\t\t}\n"
+"\t\tm_fifo = copy;\n"
+"\t\treturn a;\n"
+"\t}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:48
+#, no-wrap
+msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>. We put () after the word <code>list</code> in order to create an instance of the class <code>exchange</code>."
+msgstr "Основная программа в ведомом боте содержит класс <code>exchange</code> вызываемый через <code>list</code>."
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:50
+#, no-wrap
+msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave5( )"
+msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave5( )"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:53
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo;"
+msgstr ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo;"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:55
+#, no-wrap
+msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a value different from <code>null</code>, the while loop stops."
+msgstr "Внешний <code>цикл</code> длится вечно. Внутренний <code>цикл</code> ждет заявку с помощью метода <code>get</code> и <code>exchange</code> класса. Как только метод <code>get</code> вернет значение, отличное от <code>null</code>, цикл остановится."
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:57
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:64
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != null )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+msgstr ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != null )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:66
+#, no-wrap
+msgid "Now we have received the order in the <code>todo</code> variable. All we have to do is execute it:"
+msgstr "Теперь мы получили заявку в переменную <code>todo</code>. Значит нам нужно выполнить заказ:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:68
+#, no-wrap
+msgid "<c/><s/>\t\tif ( todo.m_type == 1 )"
+msgstr "<c/><s/>\t\tif ( todo.m_type == 1 )"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:81
+#, no-wrap
+msgid ""
+"\t\t{\n"
+"\t\t\tmove(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse if ( todo.m_type == 2 )\n"
+"\t\t{\n"
+"\t\t\tturn(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+"\t\t{\n"
+"\t\t\tmove(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse if ( todo.m_type == 2 )\n"
+"\t\t{\n"
+"\t\t\tturn(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+
+#. type: \b; header
+#: levels/exercises/chapter007/level003/help/help.E.txt:82
+#, no-wrap
+msgid "The master"
+msgstr "Ведущий"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:84
+#, no-wrap
+msgid "In the master we write a function called <code>SendOrder</code> which will send an order to the slave:"
+msgstr "В ведущем боте создадим функцию <code>SendOrder</code>, которая будет отправлять заказы к ведомому боту:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:86
+#, no-wrap
+msgid "<c/><s/>void object::SendOrder(float order, float param)"
+msgstr "<c/><s/>void object::SendOrder(float order, float param)"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:94
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo();\n"
+"\t\n"
+"\ttodo.m_type = order;\n"
+"\ttodo.m_param = param;\n"
+"\tlist.put(todo);\n"
+"}"
+msgstr ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo();\n"
+"\t\n"
+"\ttodo.m_type = order;\n"
+"\ttodo.m_param = param;\n"
+"\tlist.put(todo);\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:96
+#, no-wrap
+msgid "Now the main program of the master is very simple:"
+msgstr "Пока программа для ведущего бота довольно проста:"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:98
+#, no-wrap
+msgid "<c/><s/>extern void object::Remote5( )"
+msgstr "<c/><s/>extern void object::Remote5( )"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter007/level003/help/help.E.txt:109
+#, no-wrap
+msgid ""
+"{\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2,-90);  // turn(-90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"}"
+msgstr ""
+"{\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2,-90);  // turn(-90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:111
+#, no-wrap
+msgid "<format key><key help/></format> show these instruction at any time."
+msgstr "Клавиша <format key><key help/></format> показывает эту инструкцию в любое время."
+
+#. type: \t; header
+#: levels/exercises/chapter007/level003/help/help.E.txt:112
+#, no-wrap
+msgid "See also"
+msgstr "Смотри также"
+
+#. type: Plain text
+#: levels/exercises/chapter007/level003/help/help.E.txt:113
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>programming</a>."
+msgstr "<a cbot>Язык CBOT</a>, <a cbot|type>Переменные</a> и <a cbot|category>Категории</a>."

@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter004/level002/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/exercises/chapter004/level002/scene.txt:1
+#, no-wrap
+msgid "Radar"
+msgstr "Радар"
+
+#. type: Resume-text
+#: levels/exercises/chapter004/level002/scene.txt:2
+#, no-wrap
+msgid "Use the radar to find lots of stupid blue crosses."
+msgstr "С помощью радара найдите множество синих крестов."
+
+#. type: ScriptName-text
+#: levels/exercises/chapter004/level002/scene.txt:3
+#, no-wrap
+msgid "Find"
+msgstr "Find"
+
+#. type: \b; header
+#: levels/exercises/chapter004/level002/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:3
+#, no-wrap
+msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
+msgstr "Пусть бот отыщет на земле все <a object|waypoint>синие кресты</a>. Как только бот пройдет над одним из крестов, он исчезнет. Вот общий принцип, который вы должны применить:"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:5
+#, no-wrap
+msgid "Repeat forever:\n"
+msgstr "Повторять всегда:\n"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level002/help/help.E.txt:5
+#, no-wrap
+msgid "Look for a cross"
+msgstr "Искать крест"
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level002/help/help.E.txt:6
+#, no-wrap
+msgid "If there is none, stop the program."
+msgstr "Если креста нет, остановить программу."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level002/help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the direction of the cross."
+msgstr "Рассчитать направление к кресту."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter004/level002/help/help.E.txt:8
+#, no-wrap
+msgid "Set the speed of the motors in such a way that they will find their way to the cross."
+msgstr "Установить скорость моторов таким способом, чтобы они могли найти путь к кресту."
+
+#. type: \b; header
+#: levels/exercises/chapter004/level002/help/help.E.txt:10
+#, no-wrap
+msgid "The program"
+msgstr "Программа"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:12
+#, no-wrap
+msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
+msgstr "Используйте цикл <code><a cbot|while>while</a></code>, чтобы повторять несколько инструкций снова и снова:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:16
+#, no-wrap
+msgid ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>instructions...<c/>\n"
+"}"
+msgstr ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>инструкции...<c/>\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:18
+#, no-wrap
+msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
+msgstr "Инструкция <code><a cbot|radar>radar</a></code> будет искать синие кресты и переводить направление к ним в переменную, например <code>spot</code>. В этом случае инструкции <code><a cbot|radar>radar</a>()</code> необходим всего один параметр, т.е. категория объекта, который он должен искать:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:19
+#, no-wrap
+msgid "<c/>spot = radar(WayPoint);"
+msgstr "<c/>spot = radar(WayPoint);"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:21
+#, no-wrap
+msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
+msgstr "Когда будут найдены все кресты, <code>radar</code> возвратит значение <code><a cbot|null>null</a></code>. Вы должны будете все это проверить и действовать согласно инструкции <code><a cbot|if>if</a></code>:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:26
+#, no-wrap
+msgid ""
+"<c/>if ( spot == null )  // no more ?\n"
+"{\n"
+"\tmotor(0, 0);  // stops the motors\n"
+"\tbreak;        // stops the loop\n"
+"}"
+msgstr ""
+"<c/>if ( spot == null )  // no more ?\n"
+"{\n"
+"\tmotor(0, 0);  // stops the motors\n"
+"\tbreak;        // stops the loop\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:27
+#, no-wrap
+msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
+msgstr "<n/>Инструкция <code><a cbot|break>break</a></code> остановит бесконечный цикл <code>while (true)</code>."
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:29
+#, no-wrap
+msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
+msgstr "Используйте инструкцию <code><a cbot|direct>direction</a>()</code> чтобы рассчитать угол, на который должен развернуться бот, чтобы повернуться в направлении синего креста. Координаты объекта задаются <code>spot.position</code>. Следующие строки устанавливают угол необходимого поворота в <a cbot|var>переменную</a> <code>dir</code>:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:30
+#, no-wrap
+msgid "<c/>dir = direction(spot.position);"
+msgstr "<c/>dir = direction(spot.position);"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:32
+#, no-wrap
+msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
+msgstr "Значение угла положительное, если синий крест расположен слева от вас, и отрицательное, если он справа. Если крест расположен слева, вы должны установить максимальную скорость правостороннего мотора и установить левосторонний мотор на более низкие обороты, в соответствии с углом:"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:38
+#, no-wrap
+msgid ""
+"    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
+"    direction = <code> 45</code> -> speed = <code> 0.5</code>\n"
+"    direction = <code> 90</code> -> speed = <code> 0.0</code>\n"
+"    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
+"    direction = <code>180</code> -> speed = <code>-1.0</code>"
+msgstr ""
+"    направлние = <code>  0</code> -> скорость = <code> 1.0</code>\n"
+"    направлние = <code> 45</code> -> скорость = <code> 0.5</code>\n"
+"    направлние = <code> 90</code> -> скорость = <code> 0.0</code>\n"
+"    направлние = <code>135</code> -> скорость = <code>-0.5</code>\n"
+"    направлние = <code>180</code> -> скорость = <code>-1.0</code>"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:40
+#, no-wrap
+msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
+msgstr "График внизу отображает скорость левостороннего и правостороннего мотора, как было задано инструкцией <code><a cbot|motor>motor</a></code>, в соответствии с углом:"
+
+#. type: Image filename
+#: levels/exercises/chapter004/level002/help/help.E.txt:41
+#, no-wrap
+msgid "radar2"
+msgstr "radar2"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:43
+#, no-wrap
+msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
+msgstr "Если крест расположен прямо впереди, угол равен 0 градусов. Моторы будут работать на скорости 1 и 1, что означает полный вперед. Если крест сзади, правый мотор будет работать на скорости -1: бот развернется. Вы можете использовать <a cbot|expr>выражение</a> <code>1+dir/90</code> чтобы рассчитать необходимую скорость моторов:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:47
+#, no-wrap
+msgid ""
+"<c/>if ( dir < 0 )  // on the right side?\n"
+"{\n"
+"\tmotor(1, 1+dir/90);  // turns more or less\n"
+"}"
+msgstr ""
+"<c/>if ( dir < 0 )  // справа?\n"
+"{\n"
+"\tmotor(1, 1+dir/90);  // поворачивает\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:49
+#, no-wrap
+msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
+msgstr "Используйте тот же принцип, если угол принимает положительное значение между 0 и 180 градусами. Вы можете использовать или не использовать в точности эти инструкции:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter004/level002/help/help.E.txt:53
+#, no-wrap
+msgid ""
+"<code>else  // on the left side?\n"
+"{\n"
+"\t</code>up to you to fill in here...<c/>\n"
+"}"
+msgstr ""
+"<code>else  // слева?\n"
+"{\n"
+"\t</code>здесь идет код, написанный вами...<c/>\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:55
+#, no-wrap
+msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
+msgstr "В самом начале программы вы должны задать переменные. <code>spot</code> относится к типу <code><a cbot|object>object</a></code>, а <code>dir</code> к типу <code><a cbot|float>float</a></code>."
+
+#. type: \t; header
+#: levels/exercises/chapter004/level002/help/help.E.txt:56
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/exercises/chapter004/level002/help/help.E.txt:57
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/challenges/chapter004/level001/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/challenges/chapter004/level001/scene.txt:1
+#, no-wrap
+msgid "Function"
+msgstr "Функция"
+
+#. type: Resume-text
+#: levels/challenges/chapter004/level001/scene.txt:2
+#, no-wrap
+msgid "Create a function to move a bot."
+msgstr "Напишите функцию для движения бота."
+
+#. type: ScriptName-text
+#: levels/challenges/chapter004/level001/scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Движение"
+
+#. type: \b; header
+#: levels/challenges/chapter004/level001/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/challenges/chapter004/level001/help/help.E.txt:3
+#, no-wrap
+msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
+msgstr "<a object|bottr>Бот</a> должен пройти через все <a object|waypoint>синие кресты</a> на земле. Путь, который нужно покрыть, состоит из двух квадратов. Первый из них имеет сторону 15 метров, а второй 25 метров."
+
+#. type: Image filename
+#: levels/challenges/chapter004/level001/help/help.E.txt:4
+#, no-wrap
+msgid "tproc1a"
+msgstr "tproc1a"
+
+#. type: \b; header
+#: levels/challenges/chapter004/level001/help/help.E.txt:5
+#, no-wrap
+msgid "General principle"
+msgstr "Общий принцип"
+
+#. type: Plain text
+#: levels/challenges/chapter004/level001/help/help.E.txt:7
+#, no-wrap
+msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
+msgstr ""
+"Самый эффективный способ заключается в создании функции, которая заставляет бота двигаться по квадрату указанного размера.\n"
+"Основная программа становится очень простой:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/challenges/chapter004/level001/help/help.E.txt:13
+#, no-wrap
+msgid ""
+"\textern void object::Function3( )\n"
+"\t{\n"
+"\t\tSquare(15);\n"
+"\t\tSquare(25);\n"
+"\t}"
+msgstr ""
+"\textern void object::Function3( )\n"
+"\t{\n"
+"\t\tSquare(15);\n"
+"\t\tSquare(25);\n"
+"\t}"
+
+#. type: \b; header
+#: levels/challenges/chapter004/level001/help/help.E.txt:14
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Полезные инструкции"
+
+#. type: Plain text
+#: levels/challenges/chapter004/level001/help/help.E.txt:18
+#, no-wrap
+msgid ""
+"<code><a cbot|for>for</a></code> loop to repeat some instructions\n"
+"<code><a cbot|move>move</a></code> to move the bot\n"
+"<code><a cbot|turn>turn</a></code> to turn the bot"
+msgstr ""
+"<code><a cbot|for>for</a></code> зацикливание повторения некоторых инструкций\n"
+"<code><a cbot|move>move</a></code> для движения бота\n"
+"<code><a cbot|turn>turn</a></code> для поворота бота"
+
+#. type: \t; header
+#: levels/challenges/chapter004/level001/help/help.E.txt:19
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/challenges/chapter004/level001/help/help.E.txt:20
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

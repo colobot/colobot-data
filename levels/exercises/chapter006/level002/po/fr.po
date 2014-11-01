@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter006/level002/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: levels/exercises/chapter006/level002/scene.txt:1
+#, no-wrap
+msgid "Spiral"
+msgstr "La spirale"
+
+#
+#. type: Resume-text
+#: levels/exercises/chapter006/level002/scene.txt:2
+#, no-wrap
+msgid "Create a procedure in order to teach your bot to perform a spiral."
+msgstr "Créer une fonction pour déplacer un robot dans une spirale."
+
+#
+#. type: ScriptName-text
+#: levels/exercises/chapter006/level002/scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Déplace"
+
+#. type: \b; header
+#: levels/exercises/chapter006/level002/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercice"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:3
+#, no-wrap
+msgid "Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on.\n"
+msgstr "Programmez le <a object|bottr>robot</a> pour qu'il suive le chemin en forme de spirale. Il faut avancer deux fois de 25 mètres, puis deux fois de 20 mètres. etc., jusqu'à l'arrêt.\n"
+
+#. type: Image filename
+#: levels/exercises/chapter006/level002/help/help.E.txt:3
+#, no-wrap
+msgid "tproc2"
+msgstr "tproc2"
+
+#. type: \b; header
+#: levels/exercises/chapter006/level002/help/help.E.txt:4
+#, no-wrap
+msgid "Function"
+msgstr "Fonction"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:6
+#, no-wrap
+msgid "You will have noticed that the way is made of \"L\"-shaped parts that are fit one into another. The first one (dark blue) measures two times 25 meters. The second one (light blue) measures 5 meters less. Let us start with writing the <a cbot|function>function</a> that will move the bot on a \"L\"-shaped part whose length will be given as a parameter:"
+msgstr "On constate que le mouvement est composé de \"L\" imbriqués. Le premier, en bleu foncé, avance deux fois de 25 mètres. Le deuxième, en bleu clair, avance de 5 mètres de moins, etc. On peut donc commencer par réaliser la <a cbot|function>fonction</a> qui déplace le robot le long d'un \"L\" dont on donne la longueur:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter006/level002/help/help.E.txt:15
+#, no-wrap
+msgid ""
+"void object::Part(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<2 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
+msgstr ""
+"void object::Part(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<2 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:17
+#, no-wrap
+msgid "Now you just need to write the main function, that will call the function <code>Part</code>. At the beginning the variable <code>rest</code> will be set to 25m. The <code>while</code> loop will then repeat the instructions inside the block as long as <code>rest</code> is greater than zero. Inside the loop, first call the function <code>Part</code> (see above), then subtract 5m to the length of the L."
+msgstr "Il ne reste plus qu'à écrire la fonction principale, qui fera appel à <code>Part</code>. La variable <code>rest</code> est initialisée au départ à 25 mètres. La boucle <code>while</code> est ensuite répétée tant que <code>rest</code> est plus grand que zéro. A l'intérieur de la boucle, on appelle la fonction <code>Part</code> définie plus haut, puis on enlève 5 mètres à la longueur à parcourir."
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter006/level002/help/help.E.txt:27
+#, no-wrap
+msgid ""
+"extern void object::Function2( )\n"
+"{\n"
+"\tfloat\trest = 25;\n"
+"\twhile ( rest > 0 )\n"
+"\t{\n"
+"\t\tPart(rest);\n"
+"\t\trest = rest-5;\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Déplacer( )\n"
+"{\n"
+"\tfloat\trest = 25;\n"
+"\twhile ( rest > 0 )\n"
+"\t{\n"
+"\t\tPart(rest);\n"
+"\t\trest = rest-5;\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:29
+#, no-wrap
+msgid "The function <code>Part</code> will be called a last time with the value <code>5</code>. Then the expression <code>rest-5</code> will set the value of the variable <code>rest</code> to zero, and the <code>while</code> loop will stop."
+msgstr "Le dernier appel de <code>Part</code> a lieu avec la valeur <code>5</code>. Ensuite, l'expression <code>rest-5</code> met la valeur zéro dans la variable <code>rest</code>. La boucle <code>while</code> est donc stoppée."
+
+#. type: \b; header
+#: levels/exercises/chapter006/level002/help/help.E.txt:30
+#, no-wrap
+msgid "Remark"
+msgstr "Remarque"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:32
+#, no-wrap
+msgid "You will have noticed that in the previous exercise, the main function was at the beginning of the program, whereas in this exercise, it is at the end of the program, after the function <code>Part</code>. The rank order of the functions in the program does not matter, you can write a program either way."
+msgstr "Vous aurez peut-être remarqué que dans l'exercice précédent, la fonction principale était au début, alors qu'ici elle vient après la fonction secondaire <code>Part</code>. En fait, les deux façons de faire sont possibles et rigoureusement identiques."
+
+#. type: \t; header
+#: levels/exercises/chapter006/level002/help/help.E.txt:33
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: levels/exercises/chapter006/level002/help/help.E.txt:34
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a tproc1>Exercice précédent</a> et <a cbot>programmation</a>."

@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/exercises/chapter003/level005/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "F"
+
+#
+#. type: Title-text
+#: levels/exercises/chapter003/level005/scene.txt:1
+#, no-wrap
+msgid "Exchange posts 2"
+msgstr "Bornes 2"
+
+#
+#. type: Resume-text
+#: levels/exercises/chapter003/level005/scene.txt:2
+#, no-wrap
+msgid "Collect more valuable information from information exchange posts."
+msgstr "Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+
+#
+#. type: ScriptName-text
+#: levels/exercises/chapter003/level005/scene.txt:3
+#, no-wrap
+msgid "Info"
+msgstr "Suivre"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level005/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercice"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:3
+#, no-wrap
+msgid "In this exercise, the <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
+msgstr "9 <a object|exchange>bornes</a> d'informations sont placées le long d'un chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la borne suivante."
+
+#. type: \b; header
+#: levels/exercises/chapter003/level005/help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Principe"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:6
+#, no-wrap
+msgid "\tRepeat forever:\n"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level005/help/help.E.txt:6
+#, no-wrap
+msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
+msgstr "Lire la direction dans la <a object|exchange>borne</a>."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level005/help/help.E.txt:7
+#, no-wrap
+msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
+msgstr "Lire la longueur dans la <a object|exchange>borne</a>."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level005/help/help.E.txt:8
+#, no-wrap
+msgid "If no information could be retrieved, stop the program."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level005/help/help.E.txt:9
+#, no-wrap
+msgid "Execute the rotation."
+msgstr "Tourner dans la direction obtenue."
+
+#. type: Bullet: 'o'
+#: levels/exercises/chapter003/level005/help/help.E.txt:10
+#, no-wrap
+msgid "Move forward to the next post."
+msgstr "Avancer de la longueur obtenue."
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:13
+#, no-wrap
+msgid "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> loop. The instructions between the braces <code>{ }</code> will be repeated over and over, or until a <code><a cbot|break>break</a></code> instruction is executed."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:14
+#, no-wrap
+msgid "<c/>\twhile ( true )"
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:16
+#, no-wrap
+msgid "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr "Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et <code>len</code>:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:17
+#, no-wrap
+msgid "<c/>\tfloat  dir, len;"
+msgstr "<c/>\tfloat  dir, len;"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:19
+#, no-wrap
+msgid "Then you can retrieve the information:"
+msgstr "Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:21
+#, no-wrap
+msgid ""
+"<c/>\tdir = receive(\"Direction\");\n"
+"<c/>\tlen = receive(\"Length\");"
+msgstr ""
+"<c/>\tdir = receive(\"Direction\");\n"
+"<c/>\tlen = receive(\"Length\");"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:24
+#, no-wrap
+msgid ""
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:25
+#, no-wrap
+msgid "<c/>\tif ( dir == nan )  break;"
+msgstr ""
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:27
+#, no-wrap
+msgid "If the information retrieval from the <a object|exchange>exchange post</a> has been performed successfully, execute the rotation:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:28
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr "<c/>\tturn(dir);"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:30
+#, no-wrap
+msgid "And move forward:"
+msgstr "Puis avancer avec:"
+
+#. type: \s; block (usually verbatim code)
+#: levels/exercises/chapter003/level005/help/help.E.txt:31
+#, no-wrap
+msgid "<c/>\tmove(len);"
+msgstr "<c/>\tmove(len);"
+
+#. type: \b; header
+#: levels/exercises/chapter003/level005/help/help.E.txt:32
+#, no-wrap
+msgid "Remark"
+msgstr "Remarque"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:34
+#, no-wrap
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains two values called <code>\"Direction\"</code> and <code>\"Length\"</code>."
+msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient deux informations appelées <code>\"Direction\"</code> et <code>\"Length\"</code>."
+
+#. type: \t; header
+#: levels/exercises/chapter003/level005/help/help.E.txt:35
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: levels/exercises/chapter003/level005/help/help.E.txt:36
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a texch1>Exercice précédent</a> et <a cbot>programmation</a>."

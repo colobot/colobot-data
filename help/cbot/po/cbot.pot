@@ -7,64 +7,59 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-25 14:08+0300\n"
+"POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#: cbot.languagecode:1
-msgid "E"
-msgstr ""
-
 #. type: \b; header
-#: cbot-help/abstime.txt:1
+#: help/cbot/E/abstime.txt:1
 #, no-wrap
 msgid "Instruction <code>abstime</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/abstime.txt:3 cbot-help/deletef.txt:7 cbot-help/delinfo.txt:3 cbot-help/errmode.txt:6 cbot-help/flatgrnd.txt:3 cbot-help/readln.txt:9 cbot-help/send.txt:3 cbot-help/strfind.txt:5 cbot-help/strleft.txt:5 cbot-help/strlen.txt:5 cbot-help/strlower.txt:5 cbot-help/strmid.txt:5 cbot-help/strright.txt:5 cbot-help/strupper.txt:5 cbot-help/strval.txt:9 cbot-help/testinfo.txt:3 cbot-help/writeln.txt:9
+#: help/cbot/E/writeln.txt:9
 #, no-wrap
 msgid "Syntax¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/abstime.txt:4
+#: help/cbot/E/abstime.txt:4
 #, no-wrap
 msgid "<c/>abstime ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/abstime.txt:6
+#: help/cbot/E/abstime.txt:6
 #, no-wrap
 msgid "Return the time in seconds elapsed since the beginning of the mission."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/abstime.txt:7
+#: help/cbot/E/abstime.txt:7
 #, no-wrap
 msgid "Return: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/abstime.txt:9
+#: help/cbot/E/abstime.txt:9
 #, no-wrap
 msgid "Time in seconds."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/abstime.txt:10 cbot-help/aim.txt:20 cbot-help/array.txt:30 cbot-help/bloc.txt:48 cbot-help/bool.txt:4 cbot-help/break.txt:24 cbot-help/category.txt:107 cbot-help/class.txt:70 cbot-help/close.txt:6 cbot-help/cond.txt:27 cbot-help/continue.txt:24 cbot-help/deletef.txt:9 cbot-help/delinfo.txt:13 cbot-help/direct.txt:13 cbot-help/dist2d.txt:13 cbot-help/dist.txt:29 cbot-help/do.txt:27 cbot-help/drop.txt:28 cbot-help/eof.txt:13 cbot-help/errmode.txt:32 cbot-help/expr.txt:87 cbot-help/extern.txt:29 cbot-help/false.txt:4 cbot-help/file.txt:16 cbot-help/fire.txt:30 cbot-help/flatgrnd.txt:16 cbot-help/float.txt:24 cbot-help/for.txt:38 cbot-help/function.txt:84 cbot-help/goto.txt:34 cbot-help/grab.txt:28 cbot-help/if.txt:39 cbot-help/int.txt:18 cbot-help/jet.txt:14 cbot-help/message.txt:24 cbot-help/motor.txt:38 cbot-help/move.txt:21 cbot-help/nan.txt:14 cbot-help/new.txt:19 cbot-help/null.txt:4 cbot-help/object.txt:68 cbot-help/openfile.txt:10 cbot-help/open.txt:18 cbot-help/pointer.txt:51 cbot-help/point.txt:35 cbot-help/private.txt:17 cbot-help/public.txt:49 cbot-help/radar.txt:58 cbot-help/readln.txt:18 cbot-help/receive.txt:16 cbot-help/recycle.txt:12 cbot-help/retobj.txt:13 cbot-help/return.txt:29 cbot-help/search.txt:16 cbot-help/send.txt:17 cbot-help/shield.txt:18 cbot-help/sizeof.txt:21 cbot-help/sniff.txt:16 cbot-help/space.txt:22 cbot-help/static.txt:20 cbot-help/strfind.txt:18 cbot-help/string.txt:32 cbot-help/strleft.txt:14 cbot-help/strlen.txt:12 cbot-help/strlower.txt:10 cbot-help/strmid.txt:18 cbot-help/strright.txt:14 cbot-help/strupper.txt:10 cbot-help/strval.txt:17 cbot-help/synchro.txt:23 cbot-help/term.txt:30 cbot-help/testinfo.txt:16 cbot-help/this.txt:52 cbot-help/thump.txt:12 cbot-help/topo.txt:13 cbot-help/true.txt:4 cbot-help/turn.txt:32 cbot-help/type.txt:32 cbot-help/var.txt:66 cbot-help/void.txt:10 cbot-help/wait.txt:21 cbot-help/while.txt:46 cbot-help/writeln.txt:19
+#: help/cbot/E/writeln.txt:19
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/abstime.txt:11 cbot-help/aim.txt:21 cbot-help/array.txt:31 cbot-help/bool.txt:5 cbot-help/break.txt:25 cbot-help/cond.txt:29 cbot-help/continue.txt:25 cbot-help/deletef.txt:10 cbot-help/direct.txt:15 cbot-help/dist2d.txt:14 cbot-help/dist.txt:30 cbot-help/drop.txt:29 cbot-help/errmode.txt:33 cbot-help/expr.txt:88 cbot-help/extern.txt:30 cbot-help/false.txt:6 cbot-help/fire.txt:31 cbot-help/flatgrnd.txt:17 cbot-help/float.txt:25 cbot-help/for.txt:40 cbot-help/function.txt:85 cbot-help/goto.txt:35 cbot-help/grab.txt:29 cbot-help/if.txt:40 cbot-help/int.txt:20 cbot-help/jet.txt:16 cbot-help/message.txt:25 cbot-help/move.txt:22 cbot-help/nan.txt:16 cbot-help/object.txt:70 cbot-help/openfile.txt:11 cbot-help/point.txt:36 cbot-help/radar.txt:60 cbot-help/recycle.txt:14 cbot-help/retobj.txt:15 cbot-help/return.txt:31 cbot-help/search.txt:18 cbot-help/shield.txt:19 cbot-help/sizeof.txt:22 cbot-help/sniff.txt:17 cbot-help/space.txt:23 cbot-help/string.txt:33 cbot-help/term.txt:31 cbot-help/thump.txt:13 cbot-help/topo.txt:14 cbot-help/true.txt:5 cbot-help/turn.txt:33 cbot-help/type.txt:33 cbot-help/var.txt:67 cbot-help/void.txt:11 cbot-help/wait.txt:22
+#: help/cbot/E/wait.txt:22
 #, no-wrap
 msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
@@ -72,25 +67,25 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/aim.txt:1
+#: help/cbot/E/aim.txt:1
 #, no-wrap
 msgid "Instruction <code>aim</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/aim.txt:3 cbot-help/break.txt:3 cbot-help/continue.txt:3 cbot-help/direct.txt:3 cbot-help/motor.txt:16 cbot-help/space.txt:3 cbot-help/while.txt:21
+#: help/cbot/E/while.txt:21
 #, no-wrap
 msgid "Syntax :"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/aim.txt:4
+#: help/cbot/E/aim.txt:4
 #, no-wrap
 msgid "<c/>aim ( angle );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/aim.txt:6
+#: help/cbot/E/aim.txt:6
 #, no-wrap
 msgid ""
 "This instruction sets the vertical angle of the cannon. The following robots "
@@ -98,25 +93,25 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/aim.txt:6 cbot-help/fire.txt:14
+#: help/cbot/E/fire.txt:14
 #, no-wrap
 msgid "<a object|botfr>Shooter</a>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/aim.txt:7 cbot-help/fire.txt:15
+#: help/cbot/E/fire.txt:15
 #, no-wrap
 msgid "<a object|botor>Orga shooter</a>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/aim.txt:8 cbot-help/fire.txt:16
+#: help/cbot/E/fire.txt:16
 #, no-wrap
 msgid "<a object|botphaz>Phazer shooter</a>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/aim.txt:11 cbot-help/fire.txt:19
+#: help/cbot/E/fire.txt:19
 #, no-wrap
 msgid ""
 "When controlling the robot through programming, the only way to turn the gun "
@@ -125,13 +120,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/aim.txt:12 cbot-help/turn.txt:24
+#: help/cbot/E/turn.txt:24
 #, no-wrap
 msgid "angle: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/aim.txt:14
+#: help/cbot/E/aim.txt:14
 #, no-wrap
 msgid ""
 "Angle in degrees of the gun relative to the robot. A positive value orients "
@@ -141,13 +136,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/aim.txt:15 cbot-help/drop.txt:23 cbot-help/fire.txt:25 cbot-help/goto.txt:29 cbot-help/grab.txt:23 cbot-help/move.txt:16 cbot-help/recycle.txt:7 cbot-help/sniff.txt:11 cbot-help/thump.txt:7 cbot-help/turn.txt:27
+#: help/cbot/E/turn.txt:27
 #, no-wrap
 msgid "Return value: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/aim.txt:19
+#: help/cbot/E/aim.txt:19
 #, no-wrap
 msgid ""
 "Zero if everything is OK, a value different from zero if the rotation could "
@@ -157,13 +152,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/array.txt:1
+#: help/cbot/E/array.txt:1
 #, no-wrap
 msgid "Arrays"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:3
+#: help/cbot/E/array.txt:3
 #, no-wrap
 msgid ""
 "An array is basically a collection of variables of the same type or "
@@ -174,7 +169,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/array.txt:8
+#: help/cbot/E/array.txt:8
 #, no-wrap
 msgid ""
 "int    [ ] a;   // an array of int\n"
@@ -184,7 +179,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:10
+#: help/cbot/E/array.txt:10
 #, no-wrap
 msgid ""
 "Actually when the CBOT interpreter encounters an array declaration, it just "
@@ -192,13 +187,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/array.txt:12
+#: help/cbot/E/array.txt:12
 #, no-wrap
 msgid "int a[5];  // a is now a null reference"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:14
+#: help/cbot/E/array.txt:14
 #, no-wrap
 msgid ""
 "As soon as you put values into the array, the elements are created and the "
@@ -206,7 +201,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/array.txt:17
+#: help/cbot/E/array.txt:17
 #, no-wrap
 msgid ""
 "a[2] = 213;  // a points to\n"
@@ -214,7 +209,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:19
+#: help/cbot/E/array.txt:19
 #, no-wrap
 msgid ""
 "After this operation, <code>a</code> contains a reference to the elements of "
@@ -225,7 +220,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:21
+#: help/cbot/E/array.txt:21
 #, no-wrap
 msgid ""
 "When an array is declared with a maximum size, the program will stop as soon "
@@ -234,7 +229,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/array.txt:27
+#: help/cbot/E/array.txt:27
 #, no-wrap
 msgid ""
 "{\n"
@@ -245,7 +240,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/array.txt:29
+#: help/cbot/E/array.txt:29
 #, no-wrap
 msgid ""
 "If you pass an array as parameter to a <a cbot|function>function</a>, the "
@@ -255,13 +250,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/bloc.txt:1
+#: help/cbot/E/bloc.txt:1
 #, no-wrap
 msgid "Blocks"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:3
+#: help/cbot/E/bloc.txt:3
 #, no-wrap
 msgid ""
 "You can use braces <code>{ }</code> to group a number of instructions "
@@ -269,7 +264,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/bloc.txt:10
+#: help/cbot/E/bloc.txt:10
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -281,7 +276,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:13
+#: help/cbot/E/bloc.txt:13
 #, no-wrap
 msgid ""
 "Every instruction in the block is followed by a <a cbot|term>semicolon</a>, "
@@ -291,7 +286,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/bloc.txt:18
+#: help/cbot/E/bloc.txt:18
 #, no-wrap
 msgid ""
 "\tif ( a < b )\n"
@@ -301,7 +296,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:21
+#: help/cbot/E/bloc.txt:21
 #, no-wrap
 msgid ""
 "If the <a cbot|cond>condition</a> is true, instructions 1, 2 and 3 are "
@@ -313,7 +308,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/bloc.txt:28
+#: help/cbot/E/bloc.txt:28
 #, no-wrap
 msgid ""
 "\tif ( a < b )\n"
@@ -325,7 +320,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:31
+#: help/cbot/E/bloc.txt:31
 #, no-wrap
 msgid ""
 "Blocks may be needed with instructions <code><a cbot|if>if</a></code>, "
@@ -337,7 +332,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/bloc.txt:42
+#: help/cbot/E/bloc.txt:42
 #, no-wrap
 msgid ""
 "\tif ( a > b )\n"
@@ -353,7 +348,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:44
+#: help/cbot/E/bloc.txt:44
 #, no-wrap
 msgid ""
 "You had better line up the open brace <code>{</code> with the closing brace "
@@ -364,7 +359,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/bloc.txt:47
+#: help/cbot/E/bloc.txt:47
 #, no-wrap
 msgid ""
 "\tif(a>b) { int i=0; while(i<18) {\n"
@@ -372,7 +367,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bloc.txt:49 cbot-help/do.txt:28 cbot-help/motor.txt:39 cbot-help/while.txt:47
+#: help/cbot/E/while.txt:47
 #, no-wrap
 msgid ""
 "<a cbot>Instructions</a>, <a cbot|type>types</a> and <a "
@@ -380,13 +375,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/bool.txt:1
+#: help/cbot/E/bool.txt:1
 #, no-wrap
 msgid "Type <code>bool</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/bool.txt:3
+#: help/cbot/E/bool.txt:3
 #, no-wrap
 msgid ""
 "In a variable of this type you can put a boolean value, that is a value that "
@@ -394,13 +389,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/break.txt:1
+#: help/cbot/E/break.txt:1
 #, no-wrap
 msgid "Instruction <code>break</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/break.txt:7
+#: help/cbot/E/break.txt:7
 #, no-wrap
 msgid ""
 "<c/>while ( condition )\n"
@@ -410,7 +405,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/break.txt:9
+#: help/cbot/E/break.txt:9
 #, no-wrap
 msgid ""
 "With this instruction, you can get out immediately of a <code><a "
@@ -418,13 +413,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/break.txt:11 cbot-help/continue.txt:11
+#: help/cbot/E/continue.txt:11
 #, no-wrap
 msgid "Here is an example:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/break.txt:22
+#: help/cbot/E/break.txt:22
 #, no-wrap
 msgid ""
 "<c/>int i = 0;\n"
@@ -440,20 +435,14 @@ msgid ""
 "}"
 msgstr ""
 
-#. type: Plain text
-#: cbot-help/break.txt:23
-#, no-wrap
-msgid "<n/> "
-msgstr ""
-
 #. type: \b; header
-#: cbot-help/category.txt:1
+#: help/cbot/E/category.txt:1
 #, no-wrap
 msgid "Value <code>Categories</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:3
+#: help/cbot/E/category.txt:3
 #, no-wrap
 msgid ""
 "Categories represent the names of objects in the CBOT language. Everything "
@@ -462,7 +451,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:5
+#: help/cbot/E/category.txt:5
 #, no-wrap
 msgid ""
 "In a program, categories are always displayed on a <format const>red "
@@ -471,19 +460,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:7
+#: help/cbot/E/category.txt:7
 #, no-wrap
 msgid "Below are the different categories available :"
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:8
+#: help/cbot/E/category.txt:8
 #, no-wrap
 msgid "Buildings :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:29
+#: help/cbot/E/category.txt:29
 #, no-wrap
 msgid ""
 "<button 176/>   <code><a object|Huston>Houston</a>          </code>Mission "
@@ -521,13 +510,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:31
+#: help/cbot/E/category.txt:31
 #, no-wrap
 msgid "Portable Objects :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:42
+#: help/cbot/E/category.txt:42
 #, no-wrap
 msgid ""
 "       <code><a object|titanore>TitaniumOre</a>          </code>Titanium "
@@ -549,13 +538,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:44
+#: help/cbot/E/category.txt:44
 #, no-wrap
 msgid "Robots :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:48
+#: help/cbot/E/category.txt:48
 #, no-wrap
 msgid ""
 "<button 158/>   <code><a object|bottr>PracticeBot</a>            "
@@ -565,7 +554,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:53
+#: help/cbot/E/category.txt:53
 #, no-wrap
 msgid ""
 "<button 137/>   <code><a object|botgr>WheeledGrabber</a>         "
@@ -579,7 +568,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:58
+#: help/cbot/E/category.txt:58
 #, no-wrap
 msgid ""
 "<button 140/>   <code><a object|botsr>WheeledSniffer</a>         "
@@ -593,7 +582,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:63
+#: help/cbot/E/category.txt:63
 #, no-wrap
 msgid ""
 "<button 143/>   <code><a object|botfr>WheeledShooter</a>         "
@@ -607,7 +596,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:68
+#: help/cbot/E/category.txt:68
 #, no-wrap
 msgid ""
 "<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     "
@@ -621,7 +610,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:74
+#: help/cbot/E/category.txt:74
 #, no-wrap
 msgid ""
 "<button 149/>   <code><a object|botsub>Subber</a>                 "
@@ -637,13 +626,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:76
+#: help/cbot/E/category.txt:76
 #, no-wrap
 msgid "Enemies :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:84
+#: help/cbot/E/category.txt:84
 #, no-wrap
 msgid ""
 "       <code><a object|mother>AlienQueen</a>         </code>Alien Queen\n"
@@ -655,13 +644,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:86
+#: help/cbot/E/category.txt:86
 #, no-wrap
 msgid "Miscellaneous :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:93
+#: help/cbot/E/category.txt:93
 #, no-wrap
 msgid ""
 "<button 136/>   <code><a object|human>Me</a>              </code>You!\n"
@@ -672,13 +661,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/category.txt:95
+#: help/cbot/E/category.txt:95
 #, no-wrap
 msgid "Flags and Other Indicators :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:106
+#: help/cbot/E/category.txt:106
 #, no-wrap
 msgid ""
 "       <code><a object|flag>BlueFlag</a>          </code>Blue Flag\n"
@@ -696,25 +685,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/category.txt:108
+#: help/cbot/E/category.txt:108
 #, no-wrap
 msgid "<a cbot>CBOT Language</a> and <a cbot|type>Variables</a>."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/class.txt:1
+#: help/cbot/E/class.txt:1
 #, no-wrap
 msgid "Instruction <code>class</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:3
+#: help/cbot/E/class.txt:3
 #, no-wrap
 msgid "This allows you to declare a class definition using following syntax:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/class.txt:8
+#: help/cbot/E/class.txt:8
 #, no-wrap
 msgid ""
 "public class ClassName\n"
@@ -724,7 +713,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:10
+#: help/cbot/E/class.txt:10
 #, no-wrap
 msgid ""
 "Classes can only be <a cbot|public>public</a>, that is they can be used from "
@@ -735,7 +724,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/class.txt:21
+#: help/cbot/E/class.txt:21
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -751,7 +740,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:23
+#: help/cbot/E/class.txt:23
 #, no-wrap
 msgid ""
 "As shown in this exemple the class members can be initialized "
@@ -762,7 +751,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/class.txt:36
+#: help/cbot/E/class.txt:36
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -780,7 +769,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:38
+#: help/cbot/E/class.txt:38
 #, no-wrap
 msgid ""
 "In this example two constructors are declared for <code>MyClass</code>, one "
@@ -793,7 +782,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/class.txt:46
+#: help/cbot/E/class.txt:46
 #, no-wrap
 msgid ""
 "void Test( )\n"
@@ -806,7 +795,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:48
+#: help/cbot/E/class.txt:48
 #, no-wrap
 msgid ""
 "You can also define a destructor. This must be a <code>void</code> fonction "
@@ -816,7 +805,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/class.txt:67
+#: help/cbot/E/class.txt:67
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -840,7 +829,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:69
+#: help/cbot/E/class.txt:69
 #, no-wrap
 msgid ""
 "If you pass a class instance as parameter to a <a "
@@ -851,7 +840,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/class.txt:72
+#: help/cbot/E/class.txt:72
 #, no-wrap
 msgid ""
 "<code><a cbot|public>public</a></code>, <code><a "
@@ -864,13 +853,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/close.txt:1
+#: help/cbot/E/close.txt:1
 #, no-wrap
 msgid "Instruction <code>close</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/close.txt:3
+#: help/cbot/E/close.txt:3
 #, no-wrap
 msgid ""
 "Close a file opened previously with <code><a cbot|open>open</a></code>. This "
@@ -879,13 +868,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/close.txt:5
+#: help/cbot/E/close.txt:5
 #, no-wrap
 msgid "\thandle.close();"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/close.txt:8
+#: help/cbot/E/close.txt:8
 #, no-wrap
 msgid ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, "
@@ -896,13 +885,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/cond.txt:1
+#: help/cbot/E/cond.txt:1
 #, no-wrap
 msgid "Conditions"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:4
+#: help/cbot/E/cond.txt:4
 #, no-wrap
 msgid ""
 "A condition is a special <a cbot|expr>expression</a> that returns a <a "
@@ -916,7 +905,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:11
+#: help/cbot/E/cond.txt:11
 #, no-wrap
 msgid ""
 "<code>a == b  </code><code>a</code> equals <code>b</code>\n"
@@ -929,13 +918,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:13
+#: help/cbot/E/cond.txt:13
 #, no-wrap
 msgid "For example :"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:20
+#: help/cbot/E/cond.txt:20
 #, no-wrap
 msgid ""
 "<code>12 == 12  </code>returns true\n"
@@ -947,13 +936,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/cond.txt:21
+#: help/cbot/E/cond.txt:21
 #, no-wrap
 msgid "Remarque"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:23
+#: help/cbot/E/cond.txt:23
 #, no-wrap
 msgid ""
 "Be careful not to confuse the equality comparison <code>==</code> with the "
@@ -961,7 +950,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/cond.txt:26
+#: help/cbot/E/cond.txt:26
 #, no-wrap
 msgid ""
 "<code>a == b</code> is an expression that compares <code>a</code> with "
@@ -971,13 +960,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/continue.txt:1
+#: help/cbot/E/continue.txt:1
 #, no-wrap
 msgid "Instruction <code>continue</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/continue.txt:7
+#: help/cbot/E/continue.txt:7
 #, no-wrap
 msgid ""
 "<c/>while ( condition )\n"
@@ -987,7 +976,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/continue.txt:9
+#: help/cbot/E/continue.txt:9
 #, no-wrap
 msgid ""
 "With this instruction, you can jump over the rest of instructions in the "
@@ -997,7 +986,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/continue.txt:21
+#: help/cbot/E/continue.txt:21
 #, no-wrap
 msgid ""
 "<c/>int i = 0;\n"
@@ -1013,7 +1002,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/continue.txt:23
+#: help/cbot/E/continue.txt:23
 #, no-wrap
 msgid ""
 "The instructions will only be executed for the values of <code>i</code> 1, "
@@ -1021,19 +1010,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/deletef.txt:1
+#: help/cbot/E/deletef.txt:1
 #, no-wrap
 msgid "Instruction <code>deletefile</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/deletef.txt:3
+#: help/cbot/E/deletef.txt:3
 #, no-wrap
 msgid "The deletefile instruction deletes an existing file in the files/ folder. "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/deletef.txt:5
+#: help/cbot/E/deletef.txt:5
 #, no-wrap
 msgid ""
 "Files can only be deleted in the files/ folder which is located in the "
@@ -1042,25 +1031,25 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/deletef.txt:8
+#: help/cbot/E/deletef.txt:8
 #, no-wrap
 msgid "<c/>deletefile ( filename );<n/>"
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/delinfo.txt:1
+#: help/cbot/E/delinfo.txt:1
 #, no-wrap
 msgid "Instruction <code>deleteinfo</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/delinfo.txt:4
+#: help/cbot/E/delinfo.txt:4
 #, no-wrap
 msgid "<c/>deleteinfo ( name, power );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/delinfo.txt:6
+#: help/cbot/E/delinfo.txt:6
 #, no-wrap
 msgid ""
 "Delete an existing information in the closest <a object|exchange>information "
@@ -1068,13 +1057,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/delinfo.txt:7 cbot-help/receive.txt:7 cbot-help/send.txt:7 cbot-help/testinfo.txt:7
+#: help/cbot/E/testinfo.txt:7
 #, no-wrap
 msgid "name: <code>string</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/delinfo.txt:9
+#: help/cbot/E/delinfo.txt:9
 #, no-wrap
 msgid ""
 "Name of the information to be deleted. This name is a string: it must be "
@@ -1082,13 +1071,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/delinfo.txt:10 cbot-help/receive.txt:10 cbot-help/send.txt:14 cbot-help/testinfo.txt:10
+#: help/cbot/E/testinfo.txt:10
 #, no-wrap
 msgid "power: <code>float</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/delinfo.txt:12
+#: help/cbot/E/delinfo.txt:12
 #, no-wrap
 msgid ""
 "Power of the transmitter, which corresponds to the maximal distance between "
@@ -1097,7 +1086,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/delinfo.txt:15
+#: help/cbot/E/delinfo.txt:15
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> "
@@ -1107,19 +1096,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/direct.txt:1
+#: help/cbot/E/direct.txt:1
 #, no-wrap
 msgid "Instruction <code>direction</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/direct.txt:4
+#: help/cbot/E/direct.txt:4
 #, no-wrap
 msgid "<c/>direction ( pos );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/direct.txt:6
+#: help/cbot/E/direct.txt:6
 #, no-wrap
 msgid ""
 "Calculates the rotation that a robot must perform in order to point towards "
@@ -1127,25 +1116,25 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/direct.txt:7 cbot-help/goto.txt:17
+#: help/cbot/E/goto.txt:17
 #, no-wrap
 msgid "pos: <code><a cbot|point>point</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/direct.txt:9
+#: help/cbot/E/direct.txt:9
 #, no-wrap
 msgid "Position towards which the robot must point."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/direct.txt:10 cbot-help/dist2d.txt:10 cbot-help/dist.txt:26 cbot-help/flatgrnd.txt:13 cbot-help/receive.txt:13 cbot-help/topo.txt:10
+#: help/cbot/E/topo.txt:10
 #, no-wrap
 msgid "Return value: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/direct.txt:12
+#: help/cbot/E/direct.txt:12
 #, no-wrap
 msgid ""
 "Angle of the rotation that must be performed. -90 means f. ex. a rotation of "
@@ -1153,55 +1142,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/dist2d.txt:1
-#, no-wrap
-msgid "Instruction <code>distance2d</code>"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/dist2d.txt:3 cbot-help/dist.txt:19 cbot-help/do.txt:3 cbot-help/drop.txt:13 cbot-help/fire.txt:11 cbot-help/for.txt:3 cbot-help/goto.txt:13 cbot-help/grab.txt:13 cbot-help/if.txt:24 cbot-help/jet.txt:3 cbot-help/message.txt:3 cbot-help/move.txt:9 cbot-help/radar.txt:15 cbot-help/receive.txt:3 cbot-help/recycle.txt:3 cbot-help/retobj.txt:3 cbot-help/search.txt:3 cbot-help/shield.txt:3 cbot-help/sniff.txt:3 cbot-help/thump.txt:3 cbot-help/topo.txt:3 cbot-help/turn.txt:20 cbot-help/wait.txt:11
-#, no-wrap
-msgid "Syntax:"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/dist2d.txt:4
-#, no-wrap
-msgid "<c/>distance2d ( pos1, pos2 );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/dist2d.txt:6
-#, no-wrap
-msgid "Calculates the distance between two positions (ignores the z coordinate)."
-msgstr ""
-
-#. type: \t; header
-#: cbot-help/dist2d.txt:7 cbot-help/dist.txt:23
-#, no-wrap
-msgid "pos1, pos2: <code><a cbot|point>point</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/dist2d.txt:9 cbot-help/dist.txt:25
-#, no-wrap
-msgid "Coordinates of the two positions. "
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/dist2d.txt:12 cbot-help/dist.txt:28
-#, no-wrap
-msgid "Distance between the two positions."
-msgstr ""
-
-#. type: \b; header
-#: cbot-help/dist.txt:1
+#: help/cbot/E/dist.txt:1
 #, no-wrap
 msgid "Instruction <code>distance</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/dist.txt:3
+#: help/cbot/E/dist.txt:3
 #, no-wrap
 msgid ""
 "With the instruction <code>distance( , )</code> you can calculate the "
@@ -1209,13 +1156,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/dist.txt:4 cbot-help/drop.txt:4 cbot-help/fire.txt:4 cbot-help/goto.txt:4 cbot-help/grab.txt:4 cbot-help/if.txt:4 cbot-help/motor.txt:4 cbot-help/move.txt:4 cbot-help/radar.txt:4 cbot-help/turn.txt:4 cbot-help/wait.txt:4 cbot-help/while.txt:4
+#: help/cbot/E/while.txt:4
 #, no-wrap
 msgid "Basic use"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/dist.txt:6
+#: help/cbot/E/dist.txt:6
 #, no-wrap
 msgid ""
 "If you write <code>position</code> alone, this gives you the position of the "
@@ -1225,7 +1172,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/dist.txt:8
+#: help/cbot/E/dist.txt:8
 #, no-wrap
 msgid ""
 "Here is a program that moves forward, covering exactly the distance between "
@@ -1233,7 +1180,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/dist.txt:11
+#: help/cbot/E/dist.txt:11
 #, no-wrap
 msgid ""
 "\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
@@ -1241,7 +1188,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/dist.txt:13
+#: help/cbot/E/dist.txt:13
 #, no-wrap
 msgid ""
 "This is of course pure suicide. Better to stop 40 meters before, in order to "
@@ -1249,7 +1196,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/dist.txt:16
+#: help/cbot/E/dist.txt:16
 #, no-wrap
 msgid ""
 "\titem = radar(AlienAnt);\n"
@@ -1257,31 +1204,73 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/dist.txt:17 cbot-help/drop.txt:11 cbot-help/errmode.txt:4 cbot-help/file.txt:10 cbot-help/fire.txt:9 cbot-help/float.txt:19 cbot-help/goto.txt:11 cbot-help/grab.txt:11 cbot-help/if.txt:22 cbot-help/int.txt:13 cbot-help/motor.txt:14 cbot-help/move.txt:7 cbot-help/radar.txt:13 cbot-help/return.txt:9 cbot-help/turn.txt:18 cbot-help/wait.txt:9 cbot-help/while.txt:19
+#: help/cbot/E/while.txt:19
 #, no-wrap
 msgid "For specialists"
 msgstr ""
 
+#. type: Plain text
+#: help/cbot/E/wait.txt:11
+#, no-wrap
+msgid "Syntax:"
+msgstr ""
+
 #. type: \s; block (usually verbatim code)
-#: cbot-help/dist.txt:20
+#: help/cbot/E/dist.txt:20
 #, no-wrap
 msgid "<c/>distance ( pos1, pos2 );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/dist.txt:22
+#: help/cbot/E/dist.txt:22
 #, no-wrap
 msgid "Calculates the distance between two positions. "
 msgstr ""
 
+#. type: \t; header
+#: help/cbot/E/dist2d.txt:7
+#, no-wrap
+msgid "pos1, pos2: <code><a cbot|point>point</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/dist2d.txt:9
+#, no-wrap
+msgid "Coordinates of the two positions. "
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/dist2d.txt:12
+#, no-wrap
+msgid "Distance between the two positions."
+msgstr ""
+
 #. type: \b; header
-#: cbot-help/do.txt:1
+#: help/cbot/E/dist2d.txt:1
+#, no-wrap
+msgid "Instruction <code>distance2d</code>"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/dist2d.txt:4
+#, no-wrap
+msgid "<c/>distance2d ( pos1, pos2 );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/dist2d.txt:6
+#, no-wrap
+msgid "Calculates the distance between two positions (ignores the z coordinate)."
+msgstr ""
+
+#. type: \b; header
+#: help/cbot/E/do.txt:1
 #, no-wrap
 msgid "Instruction <code>do - while</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/do.txt:8
+#: help/cbot/E/do.txt:8
 #, no-wrap
 msgid ""
 "<code>do\n"
@@ -1292,7 +1281,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/do.txt:11
+#: help/cbot/E/do.txt:11
 #, no-wrap
 msgid ""
 "This instruction allows you to perform several times the instructions inside "
@@ -1304,13 +1293,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/do.txt:12 cbot-help/for.txt:13 cbot-help/while.txt:30
+#: help/cbot/E/while.txt:30
 #, no-wrap
 msgid "<code>condition</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/do.txt:14 cbot-help/while.txt:32
+#: help/cbot/E/while.txt:32
 #, no-wrap
 msgid ""
 "The instructions in the block are performed over and over again, as long as "
@@ -1318,13 +1307,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/do.txt:16 cbot-help/while.txt:34
+#: help/cbot/E/while.txt:34
 #, no-wrap
 msgid "Here is an example :"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/do.txt:21
+#: help/cbot/E/do.txt:21
 #, no-wrap
 msgid ""
 "<c/>do\n"
@@ -1335,13 +1324,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/do.txt:22 cbot-help/float.txt:11 cbot-help/for.txt:33 cbot-help/if.txt:36 cbot-help/int.txt:10 cbot-help/while.txt:41
+#: help/cbot/E/while.txt:41
 #, no-wrap
 msgid "Attention"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/do.txt:24
+#: help/cbot/E/do.txt:24
 #, no-wrap
 msgid ""
 "Always put a <a cbot|term>semicolon</a> at the end of the line <code>while ( "
@@ -1349,7 +1338,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/do.txt:26
+#: help/cbot/E/do.txt:26
 #, no-wrap
 msgid ""
 "The instructions <code><a cbot|break>break</a></code> and <code><a "
@@ -1358,13 +1347,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/drop.txt:1
+#: help/cbot/E/drop.txt:1
 #, no-wrap
 msgid "Instruction <code>drop</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/drop.txt:3
+#: help/cbot/E/drop.txt:3
 #, no-wrap
 msgid ""
 "The instruction <c/>drop();<n/> instructs the bot to drop whatever the "
@@ -1373,7 +1362,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/drop.txt:6
+#: help/cbot/E/drop.txt:6
 #, no-wrap
 msgid ""
 "The instruction <c/>drop();<n/> written in this form drops the object in "
@@ -1382,7 +1371,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/drop.txt:10
+#: help/cbot/E/drop.txt:10
 #, no-wrap
 msgid ""
 "\t<a cbot|grab>grab</a>();\n"
@@ -1391,13 +1380,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/drop.txt:14
+#: help/cbot/E/drop.txt:14
 #, no-wrap
 msgid "<c/>drop ( oper );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/drop.txt:16
+#: help/cbot/E/drop.txt:16
 #, no-wrap
 msgid ""
 "This instruction appeals to the operating arm of a <a object|botgr>grabber "
@@ -1405,13 +1394,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/drop.txt:17 cbot-help/grab.txt:17
+#: help/cbot/E/grab.txt:17
 #, no-wrap
 msgid "oper: <code><a cbot|int>int</a></code> (default value<code>InFront</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/drop.txt:22
+#: help/cbot/E/drop.txt:22
 #, no-wrap
 msgid ""
 "Oper indicates where the robot should drop the object. If no indication is "
@@ -1422,7 +1411,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/drop.txt:27
+#: help/cbot/E/drop.txt:27
 #, no-wrap
 msgid ""
 "Normally an error stops the program. You can prevent the program from "
@@ -1434,13 +1423,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/eof.txt:1
+#: help/cbot/E/eof.txt:1
 #, no-wrap
 msgid "Instruction <code>eof</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/eof.txt:3
+#: help/cbot/E/eof.txt:3
 #, no-wrap
 msgid ""
 "Test the end of file condition of an open file. This is a method of the "
@@ -1449,19 +1438,19 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/eof.txt:5
+#: help/cbot/E/eof.txt:5
 #, no-wrap
 msgid "\tif ( handle.eof() )  "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/eof.txt:7 cbot-help/readln.txt:12
+#: help/cbot/E/readln.txt:12
 #, no-wrap
 msgid "Example¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/eof.txt:12
+#: help/cbot/E/eof.txt:12
 #, no-wrap
 msgid ""
 "\twhile ( not handle.eof() )\n"
@@ -1471,7 +1460,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/eof.txt:15
+#: help/cbot/E/eof.txt:15
 #, no-wrap
 msgid ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, "
@@ -1482,13 +1471,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/errmode.txt:1
+#: help/cbot/E/errmode.txt:1
 #, no-wrap
 msgid "Instruction <code>errmode</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/errmode.txt:3
+#: help/cbot/E/errmode.txt:3
 #, no-wrap
 msgid ""
 "The <c/>errmode();<n/> instruction allows you to chose if the program should "
@@ -1498,13 +1487,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/errmode.txt:7
+#: help/cbot/E/errmode.txt:7
 #, no-wrap
 msgid "<c/>errmode ( mode );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/errmode.txt:9
+#: help/cbot/E/errmode.txt:9
 #, no-wrap
 msgid ""
 "Normally the program is stopped when an error occurs. If you use the "
@@ -1514,13 +1503,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/errmode.txt:10
+#: help/cbot/E/errmode.txt:10
 #, no-wrap
 msgid "mode: <code><a cbot|float>float</a></code> (<code>1</code> per default)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/errmode.txt:14
+#: help/cbot/E/errmode.txt:14
 #, no-wrap
 msgid ""
 "Error treatment mode.\n"
@@ -1529,13 +1518,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/errmode.txt:16
+#: help/cbot/E/errmode.txt:16
 #, no-wrap
 msgid "Exemple 1¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/errmode.txt:21
+#: help/cbot/E/errmode.txt:21
 #, no-wrap
 msgid ""
 "<c/>errmode(0);\n"
@@ -1546,13 +1535,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/errmode.txt:23
+#: help/cbot/E/errmode.txt:23
 #, no-wrap
 msgid "Exemple 2¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/errmode.txt:31
+#: help/cbot/E/errmode.txt:31
 #, no-wrap
 msgid ""
 "<c/>errmode(0);\n"
@@ -1566,19 +1555,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/expr.txt:1
+#: help/cbot/E/expr.txt:1
 #, no-wrap
 msgid "Expressions"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:3
+#: help/cbot/E/expr.txt:3
 #, no-wrap
 msgid "Expressions can include the following operators: "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:9
+#: help/cbot/E/expr.txt:9
 #, no-wrap
 msgid ""
 "<code>+</code>  addition\n"
@@ -1590,7 +1579,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:11
+#: help/cbot/E/expr.txt:11
 #, no-wrap
 msgid ""
 "With the addition operator <code>+</code>, you can not only add numbers, you "
@@ -1598,7 +1587,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:21
+#: help/cbot/E/expr.txt:21
 #, no-wrap
 msgid ""
 "\tint    i = 12+3;      // returns 15\n"
@@ -1613,7 +1602,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:23
+#: help/cbot/E/expr.txt:23
 #, no-wrap
 msgid ""
 "An expression can include constants or <a cbot|var>variables</a>. For "
@@ -1621,13 +1610,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:25
+#: help/cbot/E/expr.txt:25
 #, no-wrap
 msgid "<code>\t12+dist</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:27
+#: help/cbot/E/expr.txt:27
 #, no-wrap
 msgid ""
 "Multiplications and divisions are performed before additions and "
@@ -1636,7 +1625,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:30
+#: help/cbot/E/expr.txt:30
 #, no-wrap
 msgid ""
 "\t12*a+b/c <n/>is equivalent to<c/> (12*a)+(b/c)\n"
@@ -1644,13 +1633,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:32
+#: help/cbot/E/expr.txt:32
 #, no-wrap
 msgid "In order to improve readability, you can put as many spaces as you want: "
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:35
+#: help/cbot/E/expr.txt:35
 #, no-wrap
 msgid ""
 "\t12*a + b/c\n"
@@ -1658,13 +1647,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:37
+#: help/cbot/E/expr.txt:37
 #, no-wrap
 msgid "Here is a list of mathematical functions: "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:47
+#: help/cbot/E/expr.txt:47
 #, no-wrap
 msgid ""
 "<code>sin(angle)    </code>sinus\n"
@@ -1679,19 +1668,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:49
+#: help/cbot/E/expr.txt:49
 #, no-wrap
 msgid "Angles are in degrees."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/expr.txt:50
+#: help/cbot/E/expr.txt:50
 #, no-wrap
 msgid "Compound assignment operators (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:52
+#: help/cbot/E/expr.txt:52
 #, no-wrap
 msgid ""
 "Besides the <code>=</code> operators for variable assignment there are "
@@ -1699,7 +1688,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:54
+#: help/cbot/E/expr.txt:54
 #, no-wrap
 msgid ""
 "The compound-assignment operators combine the <code>=</code> assignment "
@@ -1710,25 +1699,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:56
+#: help/cbot/E/expr.txt:56
 #, no-wrap
 msgid "<c/><s/>expression1 += expression2"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:58
+#: help/cbot/E/expr.txt:58
 #, no-wrap
 msgid "is equivalent to"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:60
+#: help/cbot/E/expr.txt:60
 #, no-wrap
 msgid "<c/><s/>expression1 = expression1 + expression2"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:66
+#: help/cbot/E/expr.txt:66
 #, no-wrap
 msgid ""
 "<code>+=</code>  addition\n"
@@ -1740,13 +1729,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/expr.txt:67
+#: help/cbot/E/expr.txt:67
 #, no-wrap
 msgid "Prefix and posfix increment- and decrement operators (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:69
+#: help/cbot/E/expr.txt:69
 #, no-wrap
 msgid ""
 "The operators <code>++</code> and <code>--</code> allow you to increment "
@@ -1754,7 +1743,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:74
+#: help/cbot/E/expr.txt:74
 #, no-wrap
 msgid ""
 "For example to increment the variable <code>a</code> you can write\n"
@@ -1764,7 +1753,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:76
+#: help/cbot/E/expr.txt:76
 #, no-wrap
 msgid ""
 "The value of the expression <code>a++</code> is the value of the variable "
@@ -1775,15 +1764,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:79
+#: help/cbot/E/expr.txt:79
 #, no-wrap
 msgid ""
-"Exemples:\n"
+"Examples:\n"
 "<c/><s/>\ta = 2 ;"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:81
+#: help/cbot/E/expr.txt:81
 #, no-wrap
 msgid ""
 "\tb = a++ ;\n"
@@ -1791,13 +1780,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/expr.txt:83
+#: help/cbot/E/expr.txt:83
 #, no-wrap
 msgid "<c/><s/>\ta = 2 ;"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/expr.txt:85
+#: help/cbot/E/expr.txt:85
 #, no-wrap
 msgid ""
 "\tb = ++a ;\n"
@@ -1805,13 +1794,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/extern.txt:1
+#: help/cbot/E/extern.txt:1
 #, no-wrap
 msgid "Instruction <code>extern</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/extern.txt:3
+#: help/cbot/E/extern.txt:3
 #, no-wrap
 msgid ""
 "The <code>extern</code> instruction  determines the <a "
@@ -1821,7 +1810,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/extern.txt:12
+#: help/cbot/E/extern.txt:12
 #, no-wrap
 msgid ""
 "extern void object::MowDown( )\n"
@@ -1835,7 +1824,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/extern.txt:14
+#: help/cbot/E/extern.txt:14
 #, no-wrap
 msgid ""
 "If the program contains other functions, only the main function must be "
@@ -1843,7 +1832,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/extern.txt:28
+#: help/cbot/E/extern.txt:28
 #, no-wrap
 msgid ""
 "extern void object::Square( )\n"
@@ -1862,13 +1851,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/false.txt:1
+#: help/cbot/E/false.txt:1
 #, no-wrap
 msgid "Type <code>false</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/false.txt:3
+#: help/cbot/E/false.txt:3
 #, no-wrap
 msgid ""
 "This value means that a condition is not true; it is one of the two values "
@@ -1876,25 +1865,25 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/file.txt:1
+#: help/cbot/E/file.txt:1
 #, no-wrap
 msgid "Type <code>file</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/file.txt:3
+#: help/cbot/E/file.txt:3
 #, no-wrap
 msgid "This type is used for accessing files in the files/ folder."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/file.txt:5
+#: help/cbot/E/file.txt:5
 #, no-wrap
 msgid "\tfile handle();"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/file.txt:7
+#: help/cbot/E/file.txt:7
 #, no-wrap
 msgid ""
 "Use the syntax above for declaring a file handle. You must use () to create "
@@ -1903,7 +1892,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/file.txt:9
+#: help/cbot/E/file.txt:9
 #, no-wrap
 msgid ""
 "Files can only be created and opened in the files/ folder which is located "
@@ -1912,7 +1901,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/file.txt:12
+#: help/cbot/E/file.txt:12
 #, no-wrap
 msgid ""
 "<code>file</code> is actually not a simple type but a "
@@ -1922,7 +1911,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/file.txt:15
+#: help/cbot/E/file.txt:15
 #, no-wrap
 msgid ""
 "\thandle.open(\"test.txt\", \"w\");\n"
@@ -1930,7 +1919,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/file.txt:18
+#: help/cbot/E/file.txt:18
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, "
@@ -1941,37 +1930,37 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/fire.txt:1
+#: help/cbot/E/fire.txt:1
 #, no-wrap
 msgid "Instruction <code>fire</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:3
+#: help/cbot/E/fire.txt:3
 #, no-wrap
 msgid "The instruction <c/>fire();<n/> fires the bot's onboard cannon."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:6
+#: help/cbot/E/fire.txt:6
 #, no-wrap
 msgid "Generally this instruction is used to shoot one-second bursts:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/fire.txt:8
+#: help/cbot/E/fire.txt:8
 #, no-wrap
 msgid "\tfire(1);"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/fire.txt:12
+#: help/cbot/E/fire.txt:12
 #, no-wrap
 msgid "<c/>fire ( time );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:14
+#: help/cbot/E/fire.txt:14
 #, no-wrap
 msgid ""
 "Fires the gun, with a burst that lasts a certain time. The longer the burst, "
@@ -1980,7 +1969,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:21
+#: help/cbot/E/fire.txt:21
 #, no-wrap
 msgid ""
 "In order to move the gun upward or downward, use the instruction <code><a "
@@ -1988,13 +1977,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/fire.txt:22 cbot-help/wait.txt:15
+#: help/cbot/E/wait.txt:15
 #, no-wrap
 msgid "time: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:24
+#: help/cbot/E/fire.txt:24
 #, no-wrap
 msgid ""
 "Duration of the burst. Generally, the value given is 1. Shorter bursts can "
@@ -2002,7 +1991,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/fire.txt:29
+#: help/cbot/E/fire.txt:29
 #, no-wrap
 msgid ""
 "Zero if OK, or a value different from zero if an error occurred.\n"
@@ -2011,19 +2000,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/flatgrnd.txt:1
+#: help/cbot/E/flatgrnd.txt:1
 #, no-wrap
 msgid "Instruction <code>flatground</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/flatgrnd.txt:4
+#: help/cbot/E/flatgrnd.txt:4
 #, no-wrap
 msgid "<c/>flatground ( center, rmax );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/flatgrnd.txt:6
+#: help/cbot/E/flatgrnd.txt:6
 #, no-wrap
 msgid ""
 "Calculates the maximal radius of a flat zone on which a building ca be "
@@ -2031,43 +2020,43 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/flatgrnd.txt:7
+#: help/cbot/E/flatgrnd.txt:7
 #, no-wrap
 msgid "center: <code><a cbot|point>point</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/flatgrnd.txt:9
+#: help/cbot/E/flatgrnd.txt:9
 #, no-wrap
 msgid "Center of the circlular zone."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/flatgrnd.txt:10
+#: help/cbot/E/flatgrnd.txt:10
 #, no-wrap
 msgid "rmax: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/flatgrnd.txt:12
+#: help/cbot/E/flatgrnd.txt:12
 #, no-wrap
 msgid "Maximal radius."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/flatgrnd.txt:15
+#: help/cbot/E/flatgrnd.txt:15
 #, no-wrap
 msgid "Radius of the flat zone (always between 0 and rmax)."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/float.txt:1
+#: help/cbot/E/float.txt:1
 #, no-wrap
 msgid "Type <code>float</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/float.txt:3
+#: help/cbot/E/float.txt:3
 #, no-wrap
 msgid ""
 "Use this type for most variables that contains numbers. Variables of this "
@@ -2076,7 +2065,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/float.txt:8
+#: help/cbot/E/float.txt:8
 #, no-wrap
 msgid ""
 "\t12.9\n"
@@ -2086,7 +2075,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/float.txt:10
+#: help/cbot/E/float.txt:10
 #, no-wrap
 msgid ""
 "If you need only whole numbers (f. ex. 12 or -5000), you should rather use "
@@ -2094,7 +2083,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/float.txt:13
+#: help/cbot/E/float.txt:13
 #, no-wrap
 msgid ""
 "Do not insert space or colon characters into a number. To separate the whole "
@@ -2102,7 +2091,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/float.txt:18
+#: help/cbot/E/float.txt:18
 #, no-wrap
 msgid ""
 "   Write       and not\n"
@@ -2112,7 +2101,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/float.txt:23
+#: help/cbot/E/float.txt:23
 #, no-wrap
 msgid ""
 "Floating point numbers are represented in Colobot with 32 bits.\n"
@@ -2121,13 +2110,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/for.txt:1
+#: help/cbot/E/for.txt:1
 #, no-wrap
 msgid "Instruction <code>for</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/for.txt:7
+#: help/cbot/E/for.txt:7
 #, no-wrap
 msgid ""
 "<c/>for ( before ; condition ; end )\n"
@@ -2137,7 +2126,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:9
+#: help/cbot/E/for.txt:9
 #, no-wrap
 msgid ""
 "This instruction allows you to execute a certain number of times the "
@@ -2145,19 +2134,19 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/for.txt:10
+#: help/cbot/E/for.txt:10
 #, no-wrap
 msgid "<code>before</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:12
+#: help/cbot/E/for.txt:12
 #, no-wrap
 msgid "This instruction is executed before the first loop instance."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:15
+#: help/cbot/E/for.txt:15
 #, no-wrap
 msgid ""
 "This <a cbot|cond>condition</a> determines if another instance of the loop "
@@ -2165,19 +2154,19 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/for.txt:16
+#: help/cbot/E/for.txt:16
 #, no-wrap
 msgid "<code>end</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:18
+#: help/cbot/E/for.txt:18
 #, no-wrap
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:21
+#: help/cbot/E/for.txt:21
 #, no-wrap
 msgid ""
 "Example: count from 1 to 4\n"
@@ -2185,7 +2174,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/for.txt:24
+#: help/cbot/E/for.txt:24
 #, no-wrap
 msgid ""
 "{\n"
@@ -2194,7 +2183,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:26
+#: help/cbot/E/for.txt:26
 #, no-wrap
 msgid ""
 "The following example is strictly equivalent to a <code>for</code>-loop, but "
@@ -2202,7 +2191,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/for.txt:32
+#: help/cbot/E/for.txt:32
 #, no-wrap
 msgid ""
 "<c/>before;\n"
@@ -2214,7 +2203,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:35
+#: help/cbot/E/for.txt:35
 #, no-wrap
 msgid ""
 "Do not put a <a cbot|term>semicolon</a> at the end of the line <code>for ( "
@@ -2222,7 +2211,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/for.txt:37
+#: help/cbot/E/for.txt:37
 #, no-wrap
 msgid ""
 "The instructions <code><a cbot|break>break</a></code> and <code><a "
@@ -2231,13 +2220,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/function.txt:1
+#: help/cbot/E/function.txt:1
 #, no-wrap
 msgid "Functions"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:4
+#: help/cbot/E/function.txt:4
 #, no-wrap
 msgid ""
 "With functions you can divide your program into several parts, each of them "
@@ -2246,7 +2235,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:16
+#: help/cbot/E/function.txt:16
 #, no-wrap
 msgid ""
 "extern void object::Remote( )\n"
@@ -2263,7 +2252,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:18
+#: help/cbot/E/function.txt:18
 #, no-wrap
 msgid ""
 "<code>send</code> and <code>wait</code> are repeated several times. So it "
@@ -2272,7 +2261,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:31
+#: help/cbot/E/function.txt:31
 #, no-wrap
 msgid ""
 "void object::SendToPost( float op )\n"
@@ -2290,19 +2279,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:33
+#: help/cbot/E/function.txt:33
 #, no-wrap
 msgid "A function can have paramteters¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:35
+#: help/cbot/E/function.txt:35
 #, no-wrap
 msgid "void Example( int a, float x, string s )"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:37
+#: help/cbot/E/function.txt:37
 #, no-wrap
 msgid ""
 "The <code>Exemple</code> function will reveive un integer <code>a</code>, a "
@@ -2316,7 +2305,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:39
+#: help/cbot/E/function.txt:39
 #, no-wrap
 msgid ""
 "If you pass a <a cbot|class>class</a> instance or an <a cbot|array>array</a> "
@@ -2327,7 +2316,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:41
+#: help/cbot/E/function.txt:41
 #, no-wrap
 msgid ""
 "A function can also return a result with the <code><a "
@@ -2336,7 +2325,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:53
+#: help/cbot/E/function.txt:53
 #, no-wrap
 msgid ""
 "float Mean( float a, float b )\n"
@@ -2353,13 +2342,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:55
+#: help/cbot/E/function.txt:55
 #, no-wrap
 msgid "Some other examples¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:67
+#: help/cbot/E/function.txt:67
 #, no-wrap
 msgid ""
 "float Pi( )\n"
@@ -2376,7 +2365,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:69
+#: help/cbot/E/function.txt:69
 #, no-wrap
 msgid ""
 "You can declare several functions with the same name but different "
@@ -2384,7 +2373,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/function.txt:79
+#: help/cbot/E/function.txt:79
 #, no-wrap
 msgid ""
 "float Pythagoras( float a, float b )\n"
@@ -2399,7 +2388,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:81
+#: help/cbot/E/function.txt:81
 #, no-wrap
 msgid ""
 "CBOT will call either the one or the other function depending on the "
@@ -2407,7 +2396,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/function.txt:83
+#: help/cbot/E/function.txt:83
 #, no-wrap
 msgid ""
 "You can also declare a function <a cbot|public>public</a> so it can be used "
@@ -2415,19 +2404,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/goto.txt:1
+#: help/cbot/E/goto.txt:1
 #, no-wrap
 msgid "Instruction <code>goto</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:3
+#: help/cbot/E/goto.txt:3
 #, no-wrap
 msgid "The instruction <c/>goto();<n/> instructs the bot to reach a given position."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:6
+#: help/cbot/E/goto.txt:6
 #, no-wrap
 msgid ""
 "The most current use consists in moving the bot to an object located with "
@@ -2440,7 +2429,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/goto.txt:10
+#: help/cbot/E/goto.txt:10
 #, no-wrap
 msgid ""
 "\titem = <a cbot|radar>radar</a>(Titanium);\n"
@@ -2449,13 +2438,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/goto.txt:14
+#: help/cbot/E/goto.txt:14
 #, no-wrap
 msgid "<c/>goto ( position, altitude, goal, crash );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:16
+#: help/cbot/E/goto.txt:16
 #, no-wrap
 msgid ""
 "Tells the robot to go to the given position, avoiding all the obstacles if "
@@ -2463,19 +2452,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:19
+#: help/cbot/E/goto.txt:19
 #, no-wrap
 msgid "Coordinates of the goal position."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/goto.txt:20
+#: help/cbot/E/goto.txt:20
 #, no-wrap
 msgid "altitude: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:22
+#: help/cbot/E/goto.txt:22
 #, no-wrap
 msgid ""
 "Flight altitude for <a object|botgj>winged bots</a>. The altitude is useful "
@@ -2488,13 +2477,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/goto.txt:23
+#: help/cbot/E/goto.txt:23
 #, no-wrap
 msgid "goal: <code><a cbot|int>int</a></code> (default value <code>0</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:28
+#: help/cbot/E/goto.txt:28
 #, no-wrap
 msgid ""
 "This parameter tells the bot how it must reach the goal: \n"
@@ -2504,7 +2493,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/goto.txt:33
+#: help/cbot/E/goto.txt:33
 #, no-wrap
 msgid ""
 "Normally an error stops the program. You can prevent the program from "
@@ -2516,13 +2505,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/grab.txt:1
+#: help/cbot/E/grab.txt:1
 #, no-wrap
 msgid "Instruction <code>grab</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/grab.txt:3
+#: help/cbot/E/grab.txt:3
 #, no-wrap
 msgid ""
 "The instruction <c/>grab();<n/> instructs the bot to use the operating arm "
@@ -2531,7 +2520,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/grab.txt:6
+#: help/cbot/E/grab.txt:6
 #, no-wrap
 msgid ""
 "The instruction <c/>grab();<n/> written in this form grabs the object "
@@ -2540,7 +2529,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/grab.txt:10
+#: help/cbot/E/grab.txt:10
 #, no-wrap
 msgid ""
 "\tgrab();\n"
@@ -2549,13 +2538,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/grab.txt:14
+#: help/cbot/E/grab.txt:14
 #, no-wrap
 msgid "<c/>grab ( oper );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/grab.txt:16
+#: help/cbot/E/grab.txt:16
 #, no-wrap
 msgid ""
 "This instruction appeals to the operating arm of a <a object|botgr>grabber "
@@ -2563,7 +2552,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/grab.txt:22
+#: help/cbot/E/grab.txt:22
 #, no-wrap
 msgid ""
 "Oper indicates where the bot should look for an object to grab. If no "
@@ -2574,7 +2563,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/grab.txt:27
+#: help/cbot/E/grab.txt:27
 #, no-wrap
 msgid ""
 "Normally an error stops the program. You can prevent the program from "
@@ -2586,13 +2575,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/if.txt:1
+#: help/cbot/E/if.txt:1
 #, no-wrap
 msgid "Instructions <code>if</code> and <code>else</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/if.txt:3
+#: help/cbot/E/if.txt:3
 #, no-wrap
 msgid ""
 "With the instruction <code>if() {}</code> you can execute a set of "
@@ -2601,7 +2590,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/if.txt:6
+#: help/cbot/E/if.txt:6
 #, no-wrap
 msgid ""
 "Here is a concrete example: The bot will shoot only if the target is closer "
@@ -2609,7 +2598,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/if.txt:12
+#: help/cbot/E/if.txt:12
 #, no-wrap
 msgid ""
 "\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
@@ -2620,7 +2609,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/if.txt:14
+#: help/cbot/E/if.txt:14
 #, no-wrap
 msgid ""
 "You can also test if an object exists at all. If the instruction <c/><a "
@@ -2634,7 +2623,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/if.txt:21
+#: help/cbot/E/if.txt:21
 #, no-wrap
 msgid ""
 "\titem = <a cbot|radar>radar</a>(PowerStation);\n"
@@ -2646,7 +2635,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/if.txt:32
+#: help/cbot/E/if.txt:32
 #, no-wrap
 msgid ""
 "<code>if ( condition )\n"
@@ -2660,7 +2649,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/if.txt:35
+#: help/cbot/E/if.txt:35
 #, no-wrap
 msgid ""
 "With this conditional structure you can execute a <a cbot|bloc>bloc</a> A or "
@@ -2671,7 +2660,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/if.txt:38
+#: help/cbot/E/if.txt:38
 #, no-wrap
 msgid ""
 "Do not put a <a cbot|term>semicolon</a> at the end of the line <code>if ( "
@@ -2679,13 +2668,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/int.txt:1
+#: help/cbot/E/int.txt:1
 #, no-wrap
 msgid "Type <code>int</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/int.txt:3
+#: help/cbot/E/int.txt:3
 #, no-wrap
 msgid ""
 "Use this type for variables that contain only whole numbers, negative or "
@@ -2693,7 +2682,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/int.txt:7
+#: help/cbot/E/int.txt:7
 #, no-wrap
 msgid ""
 "\t12\n"
@@ -2702,7 +2691,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/int.txt:9
+#: help/cbot/E/int.txt:9
 #, no-wrap
 msgid ""
 "To represent real numbers like 12.05 or -0.005, use the type <code><a "
@@ -2710,13 +2699,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/int.txt:12
+#: help/cbot/E/int.txt:12
 #, no-wrap
 msgid "Do not put space or colon signs inside a number. "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/int.txt:17
+#: help/cbot/E/int.txt:17
 #, no-wrap
 msgid ""
 "Numbers of the type <code>int</code> are represented with 32 bits.\n"
@@ -2727,19 +2716,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/jet.txt:1
+#: help/cbot/E/jet.txt:1
 #, no-wrap
 msgid "Instruction <code>jet</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/jet.txt:4
+#: help/cbot/E/jet.txt:4
 #, no-wrap
 msgid "<c/>jet ( power );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/jet.txt:6
+#: help/cbot/E/jet.txt:6
 #, no-wrap
 msgid ""
 "Direct control of the jet of a <a object|botgj>winged bot</a>. The jet is "
@@ -2748,13 +2737,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/jet.txt:7
+#: help/cbot/E/jet.txt:7
 #, no-wrap
 msgid "power: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/jet.txt:9
+#: help/cbot/E/jet.txt:9
 #, no-wrap
 msgid ""
 "Power of the jet, ranges between <code>-1</code> and "
@@ -2765,31 +2754,31 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/jet.txt:11 cbot-help/message.txt:21 cbot-help/motor.txt:35 cbot-help/shield.txt:15 cbot-help/wait.txt:18
+#: help/cbot/E/wait.txt:18
 #, no-wrap
 msgid "Return value: <code><a cbot|void>void</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/jet.txt:13 cbot-help/message.txt:23 cbot-help/motor.txt:37 cbot-help/shield.txt:17 cbot-help/wait.txt:20
+#: help/cbot/E/wait.txt:20
 #, no-wrap
 msgid "None."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/message.txt:1
+#: help/cbot/E/message.txt:1
 #, no-wrap
 msgid "Instruction <code>message</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/message.txt:4
+#: help/cbot/E/message.txt:4
 #, no-wrap
 msgid "<c/>message ( text, type );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/message.txt:6
+#: help/cbot/E/message.txt:6
 #, no-wrap
 msgid ""
 "Prints a message on top of the screen. After a few seconds, the message "
@@ -2797,13 +2786,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/message.txt:7
+#: help/cbot/E/message.txt:7
 #, no-wrap
 msgid "text: <code><a cbot|string>string</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/message.txt:13
+#: help/cbot/E/message.txt:13
 #, no-wrap
 msgid ""
 "Text that is to be displayed. It is possible to append several texts and/or "
@@ -2815,7 +2804,7 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/message.txt:14
+#: help/cbot/E/message.txt:14
 #, no-wrap
 msgid ""
 "type: <code><a cbot|int>int</a></code> (default value "
@@ -2823,43 +2812,43 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/message.txt:16
+#: help/cbot/E/message.txt:16
 #, no-wrap
 msgid "Type of the message, that determines the background color. \n"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/message.txt:16
+#: help/cbot/E/message.txt:16
 #, no-wrap
 msgid "<code>DisplayMessage</code>  Standard message on yellow background."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/message.txt:17
+#: help/cbot/E/message.txt:17
 #, no-wrap
 msgid "<code>DisplayInfo   </code>  Information on green background."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/message.txt:18
+#: help/cbot/E/message.txt:18
 #, no-wrap
 msgid "<code>DisplayWarning</code>  Warning on blue background."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/message.txt:19
+#: help/cbot/E/message.txt:19
 #, no-wrap
 msgid "<code>DisplayError  </code>  Error on red background."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/motor.txt:1
+#: help/cbot/E/motor.txt:1
 #, no-wrap
 msgid "Instruction <code>motor</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:3
+#: help/cbot/E/motor.txt:3
 #, no-wrap
 msgid ""
 "The instruction <c/>motor( , );<n/> sets the speed for the left-hand and the "
@@ -2867,7 +2856,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:6
+#: help/cbot/E/motor.txt:6
 #, no-wrap
 msgid ""
 "The speed given to the motors will remain constant during the execution of "
@@ -2878,7 +2867,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/motor.txt:11
+#: help/cbot/E/motor.txt:11
 #, no-wrap
 msgid ""
 "\t<a cbot|turn>turn</a>(45);         // turns 45 degrees left\n"
@@ -2888,7 +2877,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:13
+#: help/cbot/E/motor.txt:13
 #, no-wrap
 msgid ""
 "With the left-hand motor turning half-speed forward and the right-hand motor "
@@ -2897,13 +2886,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/motor.txt:17
+#: help/cbot/E/motor.txt:17
 #, no-wrap
 msgid "<c/>motor ( left, right );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:19
+#: help/cbot/E/motor.txt:19
 #, no-wrap
 msgid ""
 "Gives speed instructions to the right and left motors of the robot. The "
@@ -2914,13 +2903,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/motor.txt:20
+#: help/cbot/E/motor.txt:20
 #, no-wrap
 msgid "left: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:22
+#: help/cbot/E/motor.txt:22
 #, no-wrap
 msgid ""
 "Speed instruction for the left motor; the value must range between -1 and "
@@ -2928,13 +2917,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/motor.txt:23
+#: help/cbot/E/motor.txt:23
 #, no-wrap
 msgid "right: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:25
+#: help/cbot/E/motor.txt:25
 #, no-wrap
 msgid ""
 "Speed instruction for the right motor; the value must range between -1 and "
@@ -2942,7 +2931,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:30
+#: help/cbot/E/motor.txt:30
 #, no-wrap
 msgid ""
 "Examples :\n"
@@ -2952,7 +2941,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/motor.txt:34
+#: help/cbot/E/motor.txt:34
 #, no-wrap
 msgid ""
 "Note :\n"
@@ -2963,13 +2952,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/move.txt:1
+#: help/cbot/E/move.txt:1
 #, no-wrap
 msgid "Instruction <code>move</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/move.txt:3
+#: help/cbot/E/move.txt:3
 #, no-wrap
 msgid ""
 "The instruction <c/>move();<n/> instructs the bot to move forward or "
@@ -2978,7 +2967,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/move.txt:6
+#: help/cbot/E/move.txt:6
 #, no-wrap
 msgid ""
 "If you want the bot to move forward 30 meters, write <c/>move(30);<n/>. In "
@@ -2988,13 +2977,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/move.txt:10
+#: help/cbot/E/move.txt:10
 #, no-wrap
 msgid "<c/>move ( length );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/move.txt:12
+#: help/cbot/E/move.txt:12
 #, no-wrap
 msgid ""
 "Moves forward or backward of a given distance, always keeping the current "
@@ -3002,13 +2991,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/move.txt:13
+#: help/cbot/E/move.txt:13
 #, no-wrap
 msgid "length: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/move.txt:15
+#: help/cbot/E/move.txt:15
 #, no-wrap
 msgid ""
 "Length of the move, in meters. A negative value makes the bot move "
@@ -3016,7 +3005,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/move.txt:20
+#: help/cbot/E/move.txt:20
 #, no-wrap
 msgid ""
 "Normally an error stops the program. You can prevent the program from "
@@ -3028,13 +3017,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/nan.txt:1
+#: help/cbot/E/nan.txt:1
 #, no-wrap
 msgid "Type <code>nan</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/nan.txt:4
+#: help/cbot/E/nan.txt:4
 #, no-wrap
 msgid ""
 "This special value indicates that a <a cbot|var>variable</a> of type "
@@ -3045,7 +3034,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/nan.txt:10
+#: help/cbot/E/nan.txt:10
 #, no-wrap
 msgid ""
 "\tvalue = receive(\"Length\");\n"
@@ -3056,25 +3045,25 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/nan.txt:11
+#: help/cbot/E/nan.txt:11
 #, no-wrap
 msgid "Dictionnary"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/nan.txt:13
+#: help/cbot/E/nan.txt:13
 #, no-wrap
 msgid "<code>nan</code> = Not A Number "
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/new.txt:1
+#: help/cbot/E/new.txt:1
 #, no-wrap
 msgid "Instruction <code>new</code> (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/new.txt:4
+#: help/cbot/E/new.txt:4
 #, no-wrap
 msgid ""
 "The <code>new</code> operator creates a <a cbot|class>class</a> instance:\n"
@@ -3082,7 +3071,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/new.txt:6
+#: help/cbot/E/new.txt:6
 #, no-wrap
 msgid ""
 "\titem = new MyClass(); // now item is a reference\n"
@@ -3090,7 +3079,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/new.txt:8
+#: help/cbot/E/new.txt:8
 #, no-wrap
 msgid ""
 "If you want to create a new instance at declaration time you can ommit the "
@@ -3098,7 +3087,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/new.txt:13
+#: help/cbot/E/new.txt:13
 #, no-wrap
 msgid ""
 "Instead of:\n"
@@ -3108,7 +3097,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/new.txt:18
+#: help/cbot/E/new.txt:18
 #, no-wrap
 msgid ""
 "If your class has a constructor with parameters you can write:\n"
@@ -3118,7 +3107,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/new.txt:21
+#: help/cbot/E/new.txt:22
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a "
@@ -3128,13 +3117,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/null.txt:1
+#: help/cbot/E/null.txt:1
 #, no-wrap
 msgid "Type <code>null</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/null.txt:3
+#: help/cbot/E/null.txt:3
 #, no-wrap
 msgid ""
 "This special value indicates that the variable containing it does not "
@@ -3142,7 +3131,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/null.txt:7
+#: help/cbot/E/null.txt:7
 #, no-wrap
 msgid ""
 "<a cbot|pointer>References</a>\n"
@@ -3151,13 +3140,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/object.txt:1
+#: help/cbot/E/object.txt:1
 #, no-wrap
 msgid "Type <code>object</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:3
+#: help/cbot/E/object.txt:3
 #, no-wrap
 msgid ""
 "Use this type for variables that contain the characteristics of an object, "
@@ -3165,7 +3154,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:16
+#: help/cbot/E/object.txt:16
 #, no-wrap
 msgid ""
 "<code><a cbot|int>int</a>    object.category     </code><a "
@@ -3193,13 +3182,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:18
+#: help/cbot/E/object.txt:18
 #, no-wrap
 msgid "<code>category</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:19
+#: help/cbot/E/object.txt:19
 #, no-wrap
 msgid ""
 "The <n/><a cbot|category>category</a> of an object allows you to know what "
@@ -3207,13 +3196,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:21
+#: help/cbot/E/object.txt:21
 #, no-wrap
 msgid "<code>position</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:22
+#: help/cbot/E/object.txt:22
 #, no-wrap
 msgid ""
 "Position of the object on the planet, in meters. The coordinates "
@@ -3223,13 +3212,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:24
+#: help/cbot/E/object.txt:24
 #, no-wrap
 msgid "<code>orientation</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:25
+#: help/cbot/E/object.txt:25
 #, no-wrap
 msgid ""
 "Orientation of the object, in degrees. The orientation tells you what "
@@ -3239,13 +3228,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:27
+#: help/cbot/E/object.txt:27
 #, no-wrap
 msgid "<code>pitch</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:28
+#: help/cbot/E/object.txt:28
 #, no-wrap
 msgid ""
 "Forward/backward angle of the robot. A pitch of <code>0</code> means that "
@@ -3254,13 +3243,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:30
+#: help/cbot/E/object.txt:30
 #, no-wrap
 msgid "<code>roll</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:31
+#: help/cbot/E/object.txt:31
 #, no-wrap
 msgid ""
 "Left/right angle of the bot, in degrees. A positive value means that the bot "
@@ -3269,13 +3258,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:33
+#: help/cbot/E/object.txt:33
 #, no-wrap
 msgid "<code>energyLevel</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:34
+#: help/cbot/E/object.txt:34
 #, no-wrap
 msgid ""
 "Energy level, between 0 and 1. A normal <a object|power>power cell</a> that "
@@ -3288,13 +3277,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:36
+#: help/cbot/E/object.txt:36
 #, no-wrap
 msgid "<code>shieldLevel</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:38
+#: help/cbot/E/object.txt:38
 #, no-wrap
 msgid ""
 "Shield level of a robot or building. A level <code>1</code> indicates that "
@@ -3308,13 +3297,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:40
+#: help/cbot/E/object.txt:40
 #, no-wrap
 msgid "<code>temperature</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:41
+#: help/cbot/E/object.txt:41
 #, no-wrap
 msgid ""
 "Temperature of the jet of <a object|botgj>winged bots</a>. <code>0</code> "
@@ -3324,13 +3313,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:43
+#: help/cbot/E/object.txt:43
 #, no-wrap
 msgid "<code>altitude</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:44
+#: help/cbot/E/object.txt:44
 #, no-wrap
 msgid ""
 "The <code>z</code> coordinate of the position indicates the altitude above "
@@ -3341,25 +3330,25 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:46
+#: help/cbot/E/object.txt:46
 #, no-wrap
 msgid "<code>lifeTime</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:47
+#: help/cbot/E/object.txt:47
 #, no-wrap
 msgid "The age of the object in seconds since it's creation."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:49
+#: help/cbot/E/object.txt:49
 #, no-wrap
 msgid "<code>energyCell</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:52
+#: help/cbot/E/object.txt:52
 #, no-wrap
 msgid ""
 "This information is special, because it returns the information about "
@@ -3374,13 +3363,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:54
+#: help/cbot/E/object.txt:54
 #, no-wrap
 msgid "<code>load</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:55
+#: help/cbot/E/object.txt:55
 #, no-wrap
 msgid ""
 "This information also returns the description of a whole object: the "
@@ -3389,13 +3378,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/object.txt:56
+#: help/cbot/E/object.txt:56
 #, no-wrap
 msgid "Examples"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/object.txt:58
+#: help/cbot/E/object.txt:58
 #, no-wrap
 msgid ""
 "The type <code>object</code> returns the special value <code><a "
@@ -3403,7 +3392,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/object.txt:67
+#: help/cbot/E/object.txt:67
 #, no-wrap
 msgid ""
 "\tobject a;\n"
@@ -3416,50 +3405,14 @@ msgid ""
 "\t}"
 msgstr ""
 
-#. type: Plain text
-#: cbot-help/object.txt:68
-#, no-wrap
-msgid "<n/> \n"
-msgstr ""
-
 #. type: \b; header
-#: cbot-help/openfile.txt:1
-#, no-wrap
-msgid "Instruction <code>openfile</code>"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/openfile.txt:3
-#, no-wrap
-msgid ""
-"<c/>openfile();<n/> opens an text file in the files/ folder. This is not a "
-"method of the <code><a cbot|file>file</a></code> class but openfile returne "
-"a <a cbot|pointer>reference</a> to a new instance of the file class. You "
-"must supply two parameters, the filename and the opening mode."
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/openfile.txt:5
-#, no-wrap
-msgid "file handle = openfile(\"filename\", \"r\");"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/openfile.txt:8 cbot-help/open.txt:15
-#, no-wrap
-msgid ""
-"<code>\"r\"</code> mode: open for reading.\n"
-"<code>\"w\"</code> mode: open for writing."
-msgstr ""
-
-#. type: \b; header
-#: cbot-help/open.txt:1
+#: help/cbot/E/open.txt:1
 #, no-wrap
 msgid "Instruction <code>open</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/open.txt:3
+#: help/cbot/E/open.txt:3
 #, no-wrap
 msgid ""
 "Open a text file in the files/ folder. This is a method of the <code><a "
@@ -3468,19 +3421,19 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/open.txt:5
+#: help/cbot/E/open.txt:5
 #, no-wrap
 msgid "\thandle.open(\"test.txt\", \"w\");"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/open.txt:7
+#: help/cbot/E/open.txt:7
 #, no-wrap
 msgid "To open a file, proceed as follows¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/open.txt:12
+#: help/cbot/E/open.txt:12
 #, no-wrap
 msgid ""
 "\tfile handle();\n"
@@ -3490,7 +3443,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/open.txt:17
+#: help/cbot/E/openfile.txt:8
+#, no-wrap
+msgid ""
+"<code>\"r\"</code> mode: open for reading.\n"
+"<code>\"w\"</code> mode: open for writing."
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/open.txt:17
 #, no-wrap
 msgid ""
 "Files can only be created and opened in the files/ folder which is located "
@@ -3499,7 +3460,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/open.txt:20
+#: help/cbot/E/open.txt:20
 #, no-wrap
 msgid ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|close>close</a></code>, "
@@ -3510,13 +3471,127 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/pointer.txt:1
+#: help/cbot/E/openfile.txt:1
+#, no-wrap
+msgid "Instruction <code>openfile</code>"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/openfile.txt:3
+#, no-wrap
+msgid ""
+"<c/>openfile();<n/> opens an text file in the files/ folder. This is not a "
+"method of the <code><a cbot|file>file</a></code> class but openfile returne "
+"a <a cbot|pointer>reference</a> to a new instance of the file class. You "
+"must supply two parameters, the filename and the opening mode."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/openfile.txt:5
+#, no-wrap
+msgid "file handle = openfile(\"filename\", \"r\");"
+msgstr ""
+
+#. type: \b; header
+#: help/cbot/E/point.txt:1
+#, no-wrap
+msgid "Type <code>point</code>"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:5
+#, no-wrap
+msgid ""
+"Variables of this type contain the coordinates of a point in space. This "
+"type is made of three values that represent the <code>x</code>, "
+"<code>y</code> and <code>z</code> coordinates.\n"
+"<code>x</code> and <code>y</code> correspond to the place on the ground. The "
+"positive <code>x</code> axis faces towards east, the positive <code>y</code> "
+"axis faces towards north. \n"
+"The <code>z</code> value corresponds to the altitude above sea level. "
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:7
+#, no-wrap
+msgid "If you want to declare a variable of type point, you can write: "
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/point.txt:9
+#, no-wrap
+msgid "\tpoint a (10, 20, 30);"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:11
+#, no-wrap
+msgid "You can also set the variable taking one value after another:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/point.txt:16
+#, no-wrap
+msgid ""
+"\tpoint b;\n"
+"\tb.x = 10;\n"
+"\tb.y = 20;\n"
+"\tb.z = 30;"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:18
+#, no-wrap
+msgid "With these examples, the following <a cbot|cond>condition</a> is true:"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/point.txt:22
+#, no-wrap
+msgid ""
+"\tif ( a == b )\n"
+"\t{\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:24
+#, no-wrap
+msgid ""
+"<n/> \n"
+"The following declaration :"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/point.txt:26
+#, no-wrap
+msgid "\tpoint c (4, 7);"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/point.txt:28
+#, no-wrap
+msgid "Is equivalent to :"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: help/cbot/E/point.txt:33
+#, no-wrap
+msgid ""
+"\tpoint c;\n"
+"\tc.x = 4;\n"
+"\tc.y = 7;\n"
+"\tc.z = 0;"
+msgstr ""
+
+#. type: \b; header
+#: help/cbot/E/pointer.txt:1
 #, no-wrap
 msgid "References (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:3
+#: help/cbot/E/pointer.txt:3
 #, no-wrap
 msgid ""
 "CBOT uses references for <a cbot|class>classes</a> and <a "
@@ -3531,7 +3606,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:6
+#: help/cbot/E/pointer.txt:6
 #, no-wrap
 msgid ""
 "Example:\n"
@@ -3539,7 +3614,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/pointer.txt:16
+#: help/cbot/E/pointer.txt:16
 #, no-wrap
 msgid ""
 "\tMyClass item1(); // create a new instance\n"
@@ -3555,7 +3630,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:18
+#: help/cbot/E/pointer.txt:18
 #, no-wrap
 msgid ""
 "If you pass a <a cbot|class>class</a> instance as parameter to a function, "
@@ -3565,13 +3640,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:20
+#: help/cbot/E/pointer.txt:20
 #, no-wrap
 msgid "<c/><s/>void Test( MyClass item )"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/pointer.txt:25
+#: help/cbot/E/pointer.txt:25
 #, no-wrap
 msgid ""
 "{\n"
@@ -3582,7 +3657,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:28
+#: help/cbot/E/pointer.txt:28
 #, no-wrap
 msgid ""
 "Calling the fucntion <code>Test()</code>¦:\n"
@@ -3590,7 +3665,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/pointer.txt:32
+#: help/cbot/E/pointer.txt:32
 #, no-wrap
 msgid ""
 "\tMyClass toto();\n"
@@ -3600,7 +3675,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:34
+#: help/cbot/E/pointer.txt:34
 #, no-wrap
 msgid ""
 "The instance containing the field <code>a = 33</code> is referenced only by "
@@ -3610,7 +3685,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:37
+#: help/cbot/E/pointer.txt:37
 #, no-wrap
 msgid ""
 "A function can return an instance¦:\n"
@@ -3618,7 +3693,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/pointer.txt:42
+#: help/cbot/E/pointer.txt:42
 #, no-wrap
 msgid ""
 "{\n"
@@ -3629,7 +3704,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:45
+#: help/cbot/E/pointer.txt:45
 #, no-wrap
 msgid ""
 "Call the function like this:\n"
@@ -3637,7 +3712,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/pointer.txt:50
+#: help/cbot/E/pointer.txt:50
 #, no-wrap
 msgid ""
 "\tMyClass toto;\n"
@@ -3648,7 +3723,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/pointer.txt:53
+#: help/cbot/E/pointer.txt:53
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a cbot|new>new</a></code>\n"
@@ -3657,105 +3732,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/point.txt:1
-#, no-wrap
-msgid "Type <code>point</code>"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:5
-#, no-wrap
-msgid ""
-"Variables of this type contain the coordinates of a point in space. This "
-"type is made of three values that represent the <code>x</code>, "
-"<code>y</code> and <code>z</code> coordinates.\n"
-"<code>x</code> and <code>y</code> correspond to the place on the ground. The "
-"positive <code>x</code> axis faces towards east, the positive <code>y</code> "
-"axis faces towards north. \n"
-"The <code>z</code> value corresponds to the altitude above sea level. "
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:7
-#, no-wrap
-msgid "If you want to declare a variable of type point, you can write: "
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/point.txt:9
-#, no-wrap
-msgid "\tpoint a (10, 20, 30);"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:11
-#, no-wrap
-msgid "You can also set the variable taking one value after another:"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/point.txt:16
-#, no-wrap
-msgid ""
-"\tpoint b;\n"
-"\tb.x = 10;\n"
-"\tb.y = 20;\n"
-"\tb.z = 30;"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:18
-#, no-wrap
-msgid "With these examples, the following <a cbot|cond>condition</a> is true:"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/point.txt:22
-#, no-wrap
-msgid ""
-"\tif ( a == b )\n"
-"\t{\n"
-"\t}"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:24
-#, no-wrap
-msgid ""
-"<n/> \n"
-"The following declaration :"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/point.txt:26
-#, no-wrap
-msgid "\tpoint c (4, 7);"
-msgstr ""
-
-#. type: Plain text
-#: cbot-help/point.txt:28
-#, no-wrap
-msgid "Is equivalent to :"
-msgstr ""
-
-#. type: \s; block (usually verbatim code)
-#: cbot-help/point.txt:33
-#, no-wrap
-msgid ""
-"\tpoint c;\n"
-"\tc.x = 4;\n"
-"\tc.y = 7;\n"
-"\tc.z = 0;"
-msgstr ""
-
-#. type: \b; header
-#: cbot-help/private.txt:1
+#: help/cbot/E/private.txt:1
 #, no-wrap
 msgid "Instruction <code>private</code> (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/private.txt:3
+#: help/cbot/E/private.txt:3
 #, no-wrap
 msgid ""
 "<a cbot|class>Class</a> members can be <a cbot|public>public</a> (by "
@@ -3765,7 +3748,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/private.txt:16
+#: help/cbot/E/private.txt:16
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -3783,7 +3766,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/private.txt:19
+#: help/cbot/E/private.txt:19
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a "
@@ -3793,37 +3776,37 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/public.txt:1
+#: help/cbot/E/public.txt:1
 #, no-wrap
 msgid "Instruction <code>public</code> (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:3
+#: help/cbot/E/public.txt:3
 #, no-wrap
 msgid "This instruction has two distinct purposes¦:"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: cbot-help/public.txt:4
+#: help/cbot/E/public.txt:4
 #, no-wrap
 msgid "Make a function available to other bots."
 msgstr ""
 
 #. type: Bullet: '2)'
-#: cbot-help/public.txt:5
+#: help/cbot/E/public.txt:5
 #, no-wrap
 msgid "Make a class member accessible from outside the class definition."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/public.txt:7
+#: help/cbot/E/public.txt:7
 #, no-wrap
 msgid "Instruction <code>public</code> for functions"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:9
+#: help/cbot/E/public.txt:9
 #, no-wrap
 msgid ""
 "If you put <code>public</code> before a <a cbot|function>function</a> "
@@ -3832,13 +3815,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:11
+#: help/cbot/E/public.txt:11
 #, no-wrap
 msgid "For example in the first bot we would have¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/public.txt:17
+#: help/cbot/E/public.txt:17
 #, no-wrap
 msgid ""
 "public void object::Segment(float dist, float angle)\n"
@@ -3849,13 +3832,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:19
+#: help/cbot/E/public.txt:19
 #, no-wrap
 msgid "And in another bot we would have¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/public.txt:28
+#: help/cbot/E/public.txt:28
 #, no-wrap
 msgid ""
 "extern void object::Square( )\n"
@@ -3869,7 +3852,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:30
+#: help/cbot/E/public.txt:30
 #, no-wrap
 msgid ""
 "If you have declared a function <code>public</code>, you cannot define a "
@@ -3878,7 +3861,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:32
+#: help/cbot/E/public.txt:32
 #, no-wrap
 msgid ""
 "If a bot containing a <code>public</code> function is destroyed, the other "
@@ -3886,13 +3869,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/public.txt:33
+#: help/cbot/E/public.txt:33
 #, no-wrap
 msgid "Instruction <code>public</code> for classes"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:35
+#: help/cbot/E/public.txt:35
 #, no-wrap
 msgid ""
 "<a cbot|class>Class</a> members can be public (by default) or <a "
@@ -3902,7 +3885,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/public.txt:48
+#: help/cbot/E/public.txt:48
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -3920,7 +3903,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/public.txt:51
+#: help/cbot/E/public.txt:51
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a "
@@ -3931,13 +3914,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/radar.txt:1
+#: help/cbot/E/radar.txt:1
 #, no-wrap
 msgid "Instruction <code>radar</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:3
+#: help/cbot/E/radar.txt:3
 #, no-wrap
 msgid ""
 "With the instruction <code>radar()</code>, you can look for objects like <a "
@@ -3945,7 +3928,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:6
+#: help/cbot/E/radar.txt:6
 #, no-wrap
 msgid ""
 "Write in brackets the <a cbot|category>name of the object</a> that you look "
@@ -3954,7 +3937,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/radar.txt:12
+#: help/cbot/E/radar.txt:12
 #, no-wrap
 msgid ""
 "// At the beginning of the program:\n"
@@ -3965,25 +3948,25 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/radar.txt:16
+#: help/cbot/E/radar.txt:16
 #, no-wrap
 msgid "<c/>radar ( category, angle, focus, min, max, way );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:18
+#: help/cbot/E/radar.txt:18
 #, no-wrap
 msgid "Detects an object according to several parameters. "
 msgstr ""
 
 #. type: Image filename
-#: cbot-help/radar.txt:19
+#: help/cbot/E/radar.txt:19
 #, no-wrap
 msgid "radar1"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:21
+#: help/cbot/E/radar.txt:21
 #, no-wrap
 msgid ""
 "Seen from above, the purple zone corresponds to the zone where objects will "
@@ -3991,13 +3974,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:22 cbot-help/search.txt:7
+#: help/cbot/E/search.txt:7
 #, no-wrap
 msgid "category: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:24
+#: help/cbot/E/radar.txt:24
 #, no-wrap
 msgid ""
 "<a cbot|category>Category</a> of the objects that should be detected. For "
@@ -4006,13 +3989,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:25
+#: help/cbot/E/radar.txt:25
 #, no-wrap
 msgid "angle: <code><a cbot|float>float</a></code> (default value<code>0</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:30
+#: help/cbot/E/radar.txt:30
 #, no-wrap
 msgid ""
 "Direction that the radar is facing, in degrees. \n"
@@ -4022,25 +4005,25 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:31
+#: help/cbot/E/radar.txt:31
 #, no-wrap
 msgid "focus: <code><a cbot|float>float</a></code> (default value<code>360</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:33
+#: help/cbot/E/radar.txt:33
 #, no-wrap
 msgid "Opening angle of the radar, in degrees. "
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:34
+#: help/cbot/E/radar.txt:34
 #, no-wrap
 msgid "min: <code><a cbot|float>float</a></code> (default value <code>0</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:36
+#: help/cbot/E/radar.txt:36
 #, no-wrap
 msgid ""
 "Minimum detection distance, in meters. Objects that are closer than the "
@@ -4048,13 +4031,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:37
+#: help/cbot/E/radar.txt:37
 #, no-wrap
 msgid "max: <code><a cbot|float>float</a></code> (Default value<code>1000</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:39
+#: help/cbot/E/radar.txt:39
 #, no-wrap
 msgid ""
 "Maximum detection distance, in meters. Objects that are farther away than "
@@ -4062,13 +4045,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:40
+#: help/cbot/E/radar.txt:40
 #, no-wrap
 msgid "way: <code><a cbot|float>float</a></code> (default value<code>1</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:42
+#: help/cbot/E/radar.txt:42
 #, no-wrap
 msgid ""
 "Determines which way the objects are detected. With value <code>1</code>, "
@@ -4077,13 +4060,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:43 cbot-help/retobj.txt:10 cbot-help/search.txt:13
+#: help/cbot/E/search.txt:13
 #, no-wrap
 msgid "Return value: <code><a cbot|object>object</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:45
+#: help/cbot/E/radar.txt:45
 #, no-wrap
 msgid ""
 "Returns the first object found that corresponds to the specified category in "
@@ -4092,13 +4075,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/radar.txt:46
+#: help/cbot/E/radar.txt:46
 #, no-wrap
 msgid "Remark"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:48
+#: help/cbot/E/radar.txt:48
 #, no-wrap
 msgid ""
 "You do not have to give all the parameters. Here are two examples of "
@@ -4106,7 +4089,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/radar.txt:51
+#: help/cbot/E/radar.txt:51
 #, no-wrap
 msgid ""
 "\tradar(Titanium, 0, 360, 0, 1000);\n"
@@ -4114,7 +4097,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/radar.txt:54
+#: help/cbot/E/radar.txt:54
 #, no-wrap
 msgid ""
 "\tradar(Titanium, 0, 90, 0, 1000);\n"
@@ -4122,7 +4105,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/radar.txt:57
+#: help/cbot/E/radar.txt:57
 #, no-wrap
 msgid ""
 "When one or more parameters are not specified, the default values indicated "
@@ -4132,13 +4115,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/readln.txt:1
+#: help/cbot/E/readln.txt:1
 #, no-wrap
 msgid "Instruction <code>readln</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/readln.txt:3
+#: help/cbot/E/readln.txt:3
 #, no-wrap
 msgid ""
 "Read one line from an open file in the files/ folder. This is a method of "
@@ -4147,13 +4130,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/readln.txt:5
+#: help/cbot/E/readln.txt:5
 #, no-wrap
 msgid "\ts = handle.readln();"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/readln.txt:7
+#: help/cbot/E/readln.txt:7
 #, no-wrap
 msgid ""
 "The file must have been opened for reading (<code>\"r\"</code>) with the "
@@ -4163,13 +4146,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/readln.txt:10
+#: help/cbot/E/readln.txt:10
 #, no-wrap
 msgid "<c/>string = handle.readln ( );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/readln.txt:17
+#: help/cbot/E/readln.txt:17
 #, no-wrap
 msgid ""
 "\tstring s;\n"
@@ -4179,7 +4162,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/readln.txt:20
+#: help/cbot/E/readln.txt:20
 #, no-wrap
 msgid ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, "
@@ -4190,19 +4173,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/receive.txt:1
+#: help/cbot/E/receive.txt:1
 #, no-wrap
 msgid "Instruction <code>receive</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/receive.txt:4
+#: help/cbot/E/receive.txt:4
 #, no-wrap
 msgid "<c/>receive ( name, power );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/receive.txt:6
+#: help/cbot/E/receive.txt:6
 #, no-wrap
 msgid ""
 "Retrieves an information from the closest <a object|exchange>information "
@@ -4210,7 +4193,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/receive.txt:9
+#: help/cbot/E/receive.txt:9
 #, no-wrap
 msgid ""
 "Name of the information required from the exchange post. This name is a "
@@ -4218,7 +4201,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/receive.txt:12
+#: help/cbot/E/receive.txt:12
 #, no-wrap
 msgid ""
 "Power of the receiver, which corresponds to maximal distance between the "
@@ -4227,7 +4210,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/receive.txt:15
+#: help/cbot/E/receive.txt:15
 #, no-wrap
 msgid ""
 "Value of the retrieved information. If no exchange post is close enough, or "
@@ -4236,7 +4219,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/receive.txt:18
+#: help/cbot/E/receive.txt:18
 #, no-wrap
 msgid ""
 "<code><a cbot|send>send</a></code>, <code><a "
@@ -4247,19 +4230,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/recycle.txt:1
+#: help/cbot/E/recycle.txt:1
 #, no-wrap
 msgid "Instruction <code>recycle</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/recycle.txt:4
+#: help/cbot/E/recycle.txt:4
 #, no-wrap
 msgid "<c/>recycle ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/recycle.txt:6
+#: help/cbot/E/recycle.txt:6
 #, no-wrap
 msgid ""
 "Recycles the derelict bot in front of the <a object|botrecy>recycler</a> "
@@ -4267,7 +4250,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/recycle.txt:11
+#: help/cbot/E/recycle.txt:11
 #, no-wrap
 msgid ""
 "Zero if OK, or a value different from zero if an error occurred.\n"
@@ -4276,31 +4259,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/retobj.txt:1
+#: help/cbot/E/retobj.txt:1
 #, no-wrap
 msgid "Instruction <code>retobject</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/retobj.txt:4
+#: help/cbot/E/retobj.txt:4
 #, no-wrap
 msgid "<c/>retobject ( number );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/retobj.txt:6
+#: help/cbot/E/retobj.txt:6
 #, no-wrap
 msgid "Returns the object corresponding to the given number."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/retobj.txt:7
+#: help/cbot/E/retobj.txt:7
 #, no-wrap
 msgid "number: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/retobj.txt:9
+#: help/cbot/E/retobj.txt:9
 #, no-wrap
 msgid ""
 "Number of the object, between 0 and n. \"n\" represents the total number of "
@@ -4308,7 +4291,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/retobj.txt:12
+#: help/cbot/E/retobj.txt:12
 #, no-wrap
 msgid ""
 "Object corresponding to the number. The return value <code><a "
@@ -4318,19 +4301,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/return.txt:1
+#: help/cbot/E/return.txt:1
 #, no-wrap
 msgid "Instruction <code>return</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/return.txt:3
+#: help/cbot/E/return.txt:3
 #, no-wrap
 msgid "Returns from a function. Syntax:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/return.txt:8
+#: help/cbot/E/return.txt:8
 #, no-wrap
 msgid ""
 "void function ( )\n"
@@ -4340,7 +4323,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/return.txt:11
+#: help/cbot/E/return.txt:11
 #, no-wrap
 msgid ""
 "If the <a cbot|function>function</a> has a return type, the "
@@ -4349,7 +4332,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/return.txt:16
+#: help/cbot/E/return.txt:16
 #, no-wrap
 msgid ""
 "float Pi ( )\n"
@@ -4359,7 +4342,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/return.txt:21
+#: help/cbot/E/return.txt:21
 #, no-wrap
 msgid ""
 "float Mean (float a, float b)\n"
@@ -4369,7 +4352,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/return.txt:28
+#: help/cbot/E/return.txt:28
 #, no-wrap
 msgid ""
 "string Sign (float a)\n"
@@ -4381,19 +4364,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/search.txt:1
+#: help/cbot/E/search.txt:1
 #, no-wrap
 msgid "Instruction <code>search</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/search.txt:4
+#: help/cbot/E/search.txt:4
 #, no-wrap
 msgid "<c/>search ( category, position );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/search.txt:6
+#: help/cbot/E/search.txt:6
 #, no-wrap
 msgid ""
 "Detects the object of the given category that is closest to the given "
@@ -4401,19 +4384,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/search.txt:9
+#: help/cbot/E/search.txt:9
 #, no-wrap
 msgid "<a cbot|category>Category</a> of the requested object."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/search.txt:10 cbot-help/topo.txt:7
+#: help/cbot/E/topo.txt:7
 #, no-wrap
 msgid "position: <code><a cbot|point>point</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/search.txt:12
+#: help/cbot/E/search.txt:12
 #, no-wrap
 msgid ""
 "<code>search</code> returns the object of the given category that is closest "
@@ -4421,7 +4404,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/search.txt:15
+#: help/cbot/E/search.txt:15
 #, no-wrap
 msgid ""
 "Characteristics of the object that has been found. The value <code><a "
@@ -4430,19 +4413,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/send.txt:1
+#: help/cbot/E/send.txt:1
 #, no-wrap
 msgid "Instruction <code>send</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/send.txt:4
+#: help/cbot/E/send.txt:4
 #, no-wrap
 msgid "<c/>send ( name, value, power );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/send.txt:6
+#: help/cbot/E/send.txt:6
 #, no-wrap
 msgid ""
 "Sends an information to the closest <a object|exchange>information exchange "
@@ -4450,7 +4433,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/send.txt:10
+#: help/cbot/E/send.txt:10
 #, no-wrap
 msgid ""
 "Name of the information to be sent to the exchange post. This name is a "
@@ -4461,19 +4444,19 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/send.txt:11
+#: help/cbot/E/send.txt:11
 #, no-wrap
 msgid "value: <code>float</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/send.txt:13
+#: help/cbot/E/send.txt:13
 #, no-wrap
 msgid "Value of the information to be sent."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/send.txt:16
+#: help/cbot/E/send.txt:16
 #, no-wrap
 msgid ""
 "Power of the transmitter, which corresponds to the maximal distance to where "
@@ -4481,7 +4464,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/send.txt:19
+#: help/cbot/E/send.txt:19
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a></code>, <code><a "
@@ -4492,19 +4475,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/shield.txt:1
+#: help/cbot/E/shield.txt:1
 #, no-wrap
 msgid "Instruction <code>shield</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/shield.txt:4
+#: help/cbot/E/shield.txt:4
 #, no-wrap
-msgid "<c/>shield ( oper );<n/>"
+msgid "<c/>shield ( oper, radius );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/shield.txt:6
+#: help/cbot/E/shield.txt:6
 #, no-wrap
 msgid ""
 "Activates or deactivates the shield of the <a "
@@ -4515,13 +4498,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/shield.txt:7
+#: help/cbot/E/shield.txt:7
 #, no-wrap
 msgid "oper: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/shield.txt:11
+#: help/cbot/E/shield.txt:11
 #, no-wrap
 msgid ""
 "<code>1</code> activates the shield.\n"
@@ -4532,25 +4515,25 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/shield.txt:12
+#: help/cbot/E/shield.txt:12
 #, no-wrap
 msgid "radius: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/shield.txt:14
+#: help/cbot/E/shield.txt:14
 #, no-wrap
 msgid "Radius of the shield, ranging between 10 and 25 meters."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/sizeof.txt:1
+#: help/cbot/E/sizeof.txt:1
 #, no-wrap
 msgid "Instruction <code>sizeof</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sizeof.txt:4
+#: help/cbot/E/sizeof.txt:4
 #, no-wrap
 msgid ""
 "The sizeof function lets you know the number of elements contained in an <a "
@@ -4560,7 +4543,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/sizeof.txt:10
+#: help/cbot/E/sizeof.txt:10
 #, no-wrap
 msgid ""
 "{\n"
@@ -4571,7 +4554,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sizeof.txt:12
+#: help/cbot/E/sizeof.txt:12
 #, no-wrap
 msgid ""
 "In this example we have 6 elements in the array after "
@@ -4581,13 +4564,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sizeof.txt:14
+#: help/cbot/E/sizeof.txt:14
 #, no-wrap
 msgid "With multidimensionnal arrays you can get the size of a sub array:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/sizeof.txt:20
+#: help/cbot/E/sizeof.txt:20
 #, no-wrap
 msgid ""
 "float xy[][];  // 2 dimensionnal array\n"
@@ -4597,19 +4580,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/sniff.txt:1
+#: help/cbot/E/sniff.txt:1
 #, no-wrap
 msgid "Instruction <code>sniff</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/sniff.txt:4
+#: help/cbot/E/sniff.txt:4
 #, no-wrap
 msgid "<c/>sniff ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sniff.txt:6
+#: help/cbot/E/sniff.txt:6
 #, no-wrap
 msgid ""
 "Sounds the underground in front of the <a "
@@ -4618,7 +4601,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sniff.txt:10
+#: help/cbot/E/sniff.txt:10
 #, no-wrap
 msgid ""
 "<code>TitaniumSpot</code>  ->  <a object|stonspot>Red cross</a>\n"
@@ -4627,7 +4610,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/sniff.txt:15
+#: help/cbot/E/sniff.txt:15
 #, no-wrap
 msgid ""
 "Zero if everything is OK, or a value different from zero if an error "
@@ -4637,91 +4620,91 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/space.txt:1
+#: help/cbot/E/space.txt:1
 #, no-wrap
 msgid "Instruction <code>space</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/space.txt:4
+#: help/cbot/E/space.txt:4
 #, no-wrap
 msgid "<c/>space ( center, rmin, rmax, dist );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:6
+#: help/cbot/E/space.txt:6
 #, no-wrap
 msgid "Determines the position of the nearest free space around a given position."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/space.txt:7
+#: help/cbot/E/space.txt:7
 #, no-wrap
 msgid "center: <code><a cbot|point>point</a></code> (default: bot position)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:9
+#: help/cbot/E/space.txt:9
 #, no-wrap
 msgid "Desired position of the free space."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/space.txt:10
+#: help/cbot/E/space.txt:10
 #, no-wrap
 msgid "rmin: <code><a cbot|float>float</a></code> (default value: <code>8</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:12
+#: help/cbot/E/space.txt:12
 #, no-wrap
 msgid "Minimum distance from the desired position."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/space.txt:13
+#: help/cbot/E/space.txt:13
 #, no-wrap
 msgid "rmax: <code><a cbot|float>float</a></code> (default value: <code>50</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:15
+#: help/cbot/E/space.txt:15
 #, no-wrap
 msgid "Maximum distance from the desired position."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/space.txt:16
+#: help/cbot/E/space.txt:16
 #, no-wrap
 msgid "dist: <code><a cbot|float>float</a></code> (default value: <code>4</code>)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:18
+#: help/cbot/E/space.txt:18
 #, no-wrap
 msgid "Required distance between two free spaces."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/space.txt:19
+#: help/cbot/E/space.txt:19
 #, no-wrap
 msgid "Return: <code><a cbot|point>point</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/space.txt:21
+#: help/cbot/E/space.txt:21
 #, no-wrap
 msgid "Position of the free space."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/static.txt:1
+#: help/cbot/E/static.txt:1
 #, no-wrap
 msgid "Instruction <code>static</code> (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/static.txt:3
+#: help/cbot/E/static.txt:3
 #, no-wrap
 msgid ""
 "<a cbot|class>Class</a> members declared with <code>static</code> are shared "
@@ -4729,7 +4712,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/static.txt:17
+#: help/cbot/E/static.txt:17
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -4748,7 +4731,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/static.txt:19
+#: help/cbot/E/static.txt:19
 #, no-wrap
 msgid ""
 "<code>Static</code> members can be declared <code><a "
@@ -4757,7 +4740,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/static.txt:22
+#: help/cbot/E/static.txt:22
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a "
@@ -4767,13 +4750,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strfind.txt:1
+#: help/cbot/E/strfind.txt:1
 #, no-wrap
 msgid "Instruction <code>strfind</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strfind.txt:3
+#: help/cbot/E/strfind.txt:3
 #, no-wrap
 msgid ""
 "Find a substring in a string and returns the position of the first substring "
@@ -4781,43 +4764,43 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strfind.txt:6
+#: help/cbot/E/strfind.txt:6
 #, no-wrap
 msgid "<c/>strfind ( string, sub );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/strfind.txt:7
+#: help/cbot/E/strfind.txt:7
 #, no-wrap
 msgid "string: <code><a cbot|string>string</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strfind.txt:9
+#: help/cbot/E/strfind.txt:9
 #, no-wrap
 msgid "String we are searching in."
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/strfind.txt:10
+#: help/cbot/E/strfind.txt:10
 #, no-wrap
 msgid "sub: <code><a cbot|string>string</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strfind.txt:12
+#: help/cbot/E/strfind.txt:12
 #, no-wrap
 msgid "Substring we are searching for."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strfind.txt:14 cbot-help/strleft.txt:11 cbot-help/strlen.txt:8 cbot-help/strlower.txt:8 cbot-help/strmid.txt:14 cbot-help/strright.txt:11 cbot-help/strupper.txt:8 cbot-help/strval.txt:5 cbot-help/strval.txt:12 cbot-help/writeln.txt:12
+#: help/cbot/E/writeln.txt:12
 #, no-wrap
 msgid "Examples¦:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strfind.txt:17
+#: help/cbot/E/strfind.txt:17
 #, no-wrap
 msgid ""
 "<c/>\tint pos = strfind(\"abcdef\", \"ab\"); // pos will be 0\n"
@@ -4826,7 +4809,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strfind.txt:20
+#: help/cbot/E/strfind.txt:20
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -4839,25 +4822,25 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/string.txt:1
+#: help/cbot/E/string.txt:1
 #, no-wrap
 msgid "Type <code>string</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:3
+#: help/cbot/E/string.txt:3
 #, no-wrap
 msgid "Use a variable of this type for storing characters or strings."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:5
+#: help/cbot/E/string.txt:5
 #, no-wrap
 msgid "For example: "
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/string.txt:9
+#: help/cbot/E/string.txt:9
 #, no-wrap
 msgid ""
 "<c/>\t\"Hello!\"\n"
@@ -4867,31 +4850,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:11
+#: help/cbot/E/string.txt:11
 #, no-wrap
 msgid "You can append two strings with the <code>+</code> operator :"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/string.txt:12
+#: help/cbot/E/string.txt:12
 #, no-wrap
 msgid "<c/>\t\"Good morning,\" + \" \" + \"Sir\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:14
+#: help/cbot/E/string.txt:14
 #, no-wrap
 msgid "Returns the string:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/string.txt:15
+#: help/cbot/E/string.txt:15
 #, no-wrap
 msgid "<c/>\t\"Good morning, Sir\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:17
+#: help/cbot/E/string.txt:17
 #, no-wrap
 msgid ""
 "If you want to put a quotation mark (\") or a backslash (\\) in a string you "
@@ -4899,31 +4882,31 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/string.txt:18
+#: help/cbot/E/string.txt:18
 #, no-wrap
 msgid "<c/>\"This is \\\"very\\\" important\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:19
+#: help/cbot/E/string.txt:19
 #, no-wrap
 msgid "<n/>which will result in the string <c/> This is \"very\" important."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/string.txt:20
+#: help/cbot/E/string.txt:20
 #, no-wrap
 msgid "<c/>\"%user%\\\\ant.txt\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:21
+#: help/cbot/E/string.txt:21
 #, no-wrap
 msgid "<n/>will result in <c/>%user%\\ant.txt"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/string.txt:31
+#: help/cbot/E/string.txt:31
 #, no-wrap
 msgid ""
 "Following instructions can be used with strings¦:\n"
@@ -4938,37 +4921,37 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strleft.txt:1
+#: help/cbot/E/strleft.txt:1
 #, no-wrap
 msgid "Instruction <code>strleft</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strleft.txt:3
+#: help/cbot/E/strleft.txt:3
 #, no-wrap
 msgid "Extracts the first (that is, leftmost) characters from a string."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strleft.txt:6
+#: help/cbot/E/strleft.txt:6
 #, no-wrap
 msgid "<c/>strleft ( string, len );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/strleft.txt:7 cbot-help/strmid.txt:10 cbot-help/strright.txt:7
+#: help/cbot/E/strright.txt:7
 #, no-wrap
 msgid "len: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strleft.txt:9 cbot-help/strmid.txt:12 cbot-help/strright.txt:9
+#: help/cbot/E/strright.txt:9
 #, no-wrap
 msgid "Number of characters to be extracted."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strleft.txt:13
+#: help/cbot/E/strleft.txt:13
 #, no-wrap
 msgid ""
 "<c/>\tstring s = strleft(\"abcdef\", 2);  // s is \"ab\"\n"
@@ -4976,7 +4959,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strleft.txt:16
+#: help/cbot/E/strleft.txt:16
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -4989,25 +4972,25 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strlen.txt:1
+#: help/cbot/E/strlen.txt:1
 #, no-wrap
 msgid "Instruction <code>strlen</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strlen.txt:3
+#: help/cbot/E/strlen.txt:3
 #, no-wrap
 msgid "Get the length of a string."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strlen.txt:6
+#: help/cbot/E/strlen.txt:6
 #, no-wrap
 msgid "<c/>strlen ( string );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strlen.txt:11
+#: help/cbot/E/strlen.txt:11
 #, no-wrap
 msgid ""
 "<c/>\tint len = strlen(\"abc\");  // len is 3\n"
@@ -5016,7 +4999,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strlen.txt:14
+#: help/cbot/E/strlen.txt:14
 #, no-wrap
 msgid ""
 "<code><a cbot|strleft>strleft</a></code>, <code><a "
@@ -5029,31 +5012,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strlower.txt:1
+#: help/cbot/E/strlower.txt:1
 #, no-wrap
 msgid "Instruction <code>strlower</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strlower.txt:3
+#: help/cbot/E/strlower.txt:3
 #, no-wrap
 msgid "Convert all characters in a string to lowercase."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strlower.txt:6
+#: help/cbot/E/strlower.txt:6
 #, no-wrap
 msgid "<c/>strlower ( string );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strlower.txt:9
+#: help/cbot/E/strlower.txt:9
 #, no-wrap
 msgid "<c/>\tstring s = strlower(\"Abc\");  // s is \"abc\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strlower.txt:12
+#: help/cbot/E/strlower.txt:12
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -5066,13 +5049,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strmid.txt:1
+#: help/cbot/E/strmid.txt:1
 #, no-wrap
 msgid "Instruction <code>strmid</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strmid.txt:3
+#: help/cbot/E/strmid.txt:3
 #, no-wrap
 msgid ""
 "Extracts a substring of a given length starting at a given position from a "
@@ -5080,19 +5063,19 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strmid.txt:6
+#: help/cbot/E/strmid.txt:6
 #, no-wrap
 msgid "<c/>strmid ( string, pos, len );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/strmid.txt:7
+#: help/cbot/E/strmid.txt:7
 #, no-wrap
 msgid "pos: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strmid.txt:9
+#: help/cbot/E/strmid.txt:9
 #, no-wrap
 msgid ""
 "The index of the first character that is to be included in the extracted "
@@ -5100,7 +5083,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strmid.txt:17
+#: help/cbot/E/strmid.txt:17
 #, no-wrap
 msgid ""
 "<c/>\tstring s = strmid(\"abcdef\", 1, 2);  // s is \"bc\"\n"
@@ -5109,7 +5092,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strmid.txt:20
+#: help/cbot/E/strmid.txt:20
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -5122,25 +5105,25 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strright.txt:1
+#: help/cbot/E/strright.txt:1
 #, no-wrap
 msgid "Instruction <code>strright</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strright.txt:3
+#: help/cbot/E/strright.txt:3
 #, no-wrap
 msgid "Extracts the last (that is, rightmost) characters from a string."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strright.txt:6
+#: help/cbot/E/strright.txt:6
 #, no-wrap
 msgid "<c/>strright ( string, len );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strright.txt:13
+#: help/cbot/E/strright.txt:13
 #, no-wrap
 msgid ""
 "<c/>\tstring s = strright(\"abcdef\", 2);  // s is \"ef\"\n"
@@ -5148,7 +5131,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strright.txt:16
+#: help/cbot/E/strright.txt:16
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -5161,31 +5144,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strupper.txt:1
+#: help/cbot/E/strupper.txt:1
 #, no-wrap
 msgid "Instruction <code>strupper</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strupper.txt:3
+#: help/cbot/E/strupper.txt:3
 #, no-wrap
 msgid "Convert all characters in a string to uppercase."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strupper.txt:6
+#: help/cbot/E/strupper.txt:6
 #, no-wrap
 msgid "<c/>strupper ( string );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strupper.txt:9
+#: help/cbot/E/strupper.txt:9
 #, no-wrap
 msgid "<c/>\tstring s = strupper(\"Abc\");  // s is \"ABC\""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strupper.txt:12
+#: help/cbot/E/strupper.txt:12
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -5198,13 +5181,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/strval.txt:1
+#: help/cbot/E/strval.txt:1
 #, no-wrap
 msgid "Instruction <code>strval</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strval.txt:3
+#: help/cbot/E/strval.txt:3
 #, no-wrap
 msgid ""
 "Convert a string to a number. Don't confuse the string <code>\"45\"</code> "
@@ -5213,7 +5196,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strval.txt:7
+#: help/cbot/E/strval.txt:7
 #, no-wrap
 msgid ""
 "<c/>\tstring s = \"45\"+\"12\";  // s contains \"4512\"\n"
@@ -5221,13 +5204,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strval.txt:10
+#: help/cbot/E/strval.txt:10
 #, no-wrap
 msgid "<c/>strval ( string );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/strval.txt:16
+#: help/cbot/E/strval.txt:16
 #, no-wrap
 msgid ""
 "<c/>\tfloat n = strval(\"1.23\");     // n is 1.23\n"
@@ -5237,7 +5220,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/strval.txt:19
+#: help/cbot/E/strval.txt:19
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a></code>, <code><a "
@@ -5250,13 +5233,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/synchro.txt:1
+#: help/cbot/E/synchro.txt:1
 #, no-wrap
 msgid "Instruction <code>synchronized</code> (for specialists)"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/synchro.txt:3
+#: help/cbot/E/synchro.txt:3
 #, no-wrap
 msgid ""
 "A <a cbot|class>class</a> method can be declared "
@@ -5265,13 +5248,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/synchro.txt:5
+#: help/cbot/E/synchro.txt:5
 #, no-wrap
 msgid "The following example illustrates the problem:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/synchro.txt:17
+#: help/cbot/E/synchro.txt:17
 #, no-wrap
 msgid ""
 "class blocking\n"
@@ -5288,7 +5271,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/synchro.txt:20
+#: help/cbot/E/synchro.txt:20
 #, no-wrap
 msgid ""
 "What happens if two bots execute the <code>inc</code> method at the same "
@@ -5302,7 +5285,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/synchro.txt:22
+#: help/cbot/E/synchro.txt:22
 #, no-wrap
 msgid ""
 "You can have more than one synchronized method in your <a "
@@ -5313,7 +5296,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/synchro.txt:25
+#: help/cbot/E/synchro.txt:25
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>, <code><a "
@@ -5323,31 +5306,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/term.txt:1
+#: help/cbot/E/term.txt:1
 #, no-wrap
 msgid "Semicolon"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/term.txt:3
+#: help/cbot/E/term.txt:3
 #, no-wrap
 msgid "Always use a semicolon <c/>;<n/> after a simple expression. For example: "
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/term.txt:5
+#: help/cbot/E/term.txt:5
 #, no-wrap
 msgid "\tint counter = 0;"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/term.txt:7
+#: help/cbot/E/term.txt:7
 #, no-wrap
 msgid "However, after a <a cbot|bloc>bloc</a>, never put a semicolon:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/term.txt:12
+#: help/cbot/E/term.txt:12
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -5357,7 +5340,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/term.txt:14
+#: help/cbot/E/term.txt:14
 #, no-wrap
 msgid ""
 "Do not use a semicolon either immediately after the instructions <code><a "
@@ -5366,7 +5349,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/term.txt:19
+#: help/cbot/E/term.txt:19
 #, no-wrap
 msgid ""
 "\tif ( a < b ) <n/>// no semicolon here!<c/>\n"
@@ -5376,7 +5359,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/term.txt:21
+#: help/cbot/E/term.txt:21
 #, no-wrap
 msgid ""
 "An instruction is always ended by a semicolon, and not by the end of the "
@@ -5384,7 +5367,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/term.txt:25
+#: help/cbot/E/term.txt:25
 #, no-wrap
 msgid ""
 "\tint d=20;\n"
@@ -5393,31 +5376,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/term.txt:27
+#: help/cbot/E/term.txt:27
 #, no-wrap
 msgid "Is equivalent to:"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/term.txt:29
+#: help/cbot/E/term.txt:29
 #, no-wrap
 msgid "\tint d=20; move(d); turn(90);"
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/testinfo.txt:1
+#: help/cbot/E/testinfo.txt:1
 #, no-wrap
 msgid "Instruction <code>testinfo</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/testinfo.txt:4
+#: help/cbot/E/testinfo.txt:4
 #, no-wrap
 msgid "<c/>testinfo ( name, power );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/testinfo.txt:6
+#: help/cbot/E/testinfo.txt:6
 #, no-wrap
 msgid ""
 "Tests if an information exists in the closest <a object|exchange>information "
@@ -5425,7 +5408,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/testinfo.txt:9
+#: help/cbot/E/testinfo.txt:9
 #, no-wrap
 msgid ""
 "Name of the information to be tested in the exchange post. This name is a "
@@ -5433,7 +5416,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/testinfo.txt:12
+#: help/cbot/E/testinfo.txt:12
 #, no-wrap
 msgid ""
 "Power of the transmitter, which corresponds to the maximal distance between "
@@ -5442,13 +5425,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/testinfo.txt:13
+#: help/cbot/E/testinfo.txt:13
 #, no-wrap
 msgid "Return: <code><a cbot|bool>bool</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/testinfo.txt:15
+#: help/cbot/E/testinfo.txt:15
 #, no-wrap
 msgid ""
 "Return <code>true</code> if the information exists. Return and "
@@ -5457,7 +5440,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/testinfo.txt:18
+#: help/cbot/E/testinfo.txt:18
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> "
@@ -5467,13 +5450,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/this.txt:1
+#: help/cbot/E/this.txt:1
 #, no-wrap
 msgid "Instruction <code>this</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/this.txt:3
+#: help/cbot/E/this.txt:3
 #, no-wrap
 msgid ""
 "Occasionally, a <a cbot|class>class</a> method needs to know the reference "
@@ -5484,7 +5467,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/this.txt:26
+#: help/cbot/E/this.txt:26
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -5512,7 +5495,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/this.txt:28
+#: help/cbot/E/this.txt:28
 #, no-wrap
 msgid ""
 "You can also put <code>this</code> before a field name in a method but this "
@@ -5522,7 +5505,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/this.txt:31
+#: help/cbot/E/this.txt:31
 #, no-wrap
 msgid ""
 "\tm_int = 2;\n"
@@ -5530,7 +5513,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/this.txt:33
+#: help/cbot/E/this.txt:33
 #, no-wrap
 msgid ""
 "In a method of the <code><a cbot|object>object</a></code> class, you can "
@@ -5538,7 +5521,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/this.txt:40
+#: help/cbot/E/this.txt:40
 #, no-wrap
 msgid ""
 "extern void object::Display()\n"
@@ -5550,7 +5533,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/this.txt:42
+#: help/cbot/E/this.txt:42
 #, no-wrap
 msgid ""
 "However if a field name is hidden by a parameter declaration or a variable "
@@ -5562,7 +5545,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/this.txt:51
+#: help/cbot/E/this.txt:51
 #, no-wrap
 msgid ""
 "public class MyClass\n"
@@ -5576,7 +5559,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/this.txt:54
+#: help/cbot/E/this.txt:54
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>\n"
@@ -5585,19 +5568,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/thump.txt:1
+#: help/cbot/E/thump.txt:1
 #, no-wrap
 msgid "Instruction <code>thump</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/thump.txt:4
+#: help/cbot/E/thump.txt:4
 #, no-wrap
 msgid "<c/>thump ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/thump.txt:6
+#: help/cbot/E/thump.txt:6
 #, no-wrap
 msgid ""
 "Activates the weapon system of the <a object|bottump>thumper</a>, that turns "
@@ -5605,7 +5588,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/thump.txt:11
+#: help/cbot/E/thump.txt:11
 #, no-wrap
 msgid ""
 "Zero if everything is OK, a value different from zero if an error "
@@ -5615,19 +5598,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/topo.txt:1
+#: help/cbot/E/topo.txt:1
 #, no-wrap
 msgid "Instruction <code>topo</code>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/topo.txt:4
+#: help/cbot/E/topo.txt:4
 #, no-wrap
 msgid "<c/>topo ( position );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/topo.txt:6
+#: help/cbot/E/topo.txt:6
 #, no-wrap
 msgid ""
 "Returns the altitude of the ground at a give position. The altitude zero "
@@ -5636,25 +5619,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/topo.txt:9
+#: help/cbot/E/topo.txt:9
 #, no-wrap
 msgid "Coordinates of the position whose altitude you want to know. "
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/topo.txt:12
+#: help/cbot/E/topo.txt:12
 #, no-wrap
 msgid "Altitude of the ground at the given position."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/true.txt:1
+#: help/cbot/E/true.txt:1
 #, no-wrap
 msgid "Type <code>true</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/true.txt:3
+#: help/cbot/E/true.txt:3
 #, no-wrap
 msgid ""
 "This value means that a condition is true; it is one of the two values that "
@@ -5662,13 +5645,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/turn.txt:1
+#: help/cbot/E/turn.txt:1
 #, no-wrap
 msgid "Instruction <code>turn</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:3
+#: help/cbot/E/turn.txt:3
 #, no-wrap
 msgid ""
 "Use the instruction <c/>turn();<n/> to instruct the bot to perform a "
@@ -5676,7 +5659,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:6
+#: help/cbot/E/turn.txt:6
 #, no-wrap
 msgid ""
 "90 degreed means a quarter turn, 180 degrees means a half turn. A positive "
@@ -5685,7 +5668,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:10
+#: help/cbot/E/turn.txt:10
 #, no-wrap
 msgid ""
 "<c/>turn(90);<n/>  quarter turn to the left\n"
@@ -5694,7 +5677,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:12
+#: help/cbot/E/turn.txt:12
 #, no-wrap
 msgid ""
 "In order to turn the bot towards an object found with the instruction <c/><a "
@@ -5703,7 +5686,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/turn.txt:15
+#: help/cbot/E/turn.txt:15
 #, no-wrap
 msgid ""
 "\titem = <a cbot|radar>radar</a>(AlienSpider);\n"
@@ -5711,7 +5694,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:17
+#: help/cbot/E/turn.txt:17
 #, no-wrap
 msgid ""
 "After these lines, just fire the cannon, and there is one hostile element "
@@ -5719,13 +5702,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/turn.txt:21
+#: help/cbot/E/turn.txt:21
 #, no-wrap
 msgid "<c/>turn ( angle );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:23
+#: help/cbot/E/turn.txt:23
 #, no-wrap
 msgid ""
 "Turns the bot with a given angle, right or left, without moving either "
@@ -5733,7 +5716,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:26
+#: help/cbot/E/turn.txt:26
 #, no-wrap
 msgid ""
 "Angle of the required rotation, in degrees. A positive value turns left, a "
@@ -5741,7 +5724,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/turn.txt:31
+#: help/cbot/E/turn.txt:31
 #, no-wrap
 msgid ""
 "Zero if everything is OK, or a value different from zero if an error "
@@ -5751,31 +5734,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/type.txt:1
+#: help/cbot/E/type.txt:1
 #, no-wrap
 msgid "Variable types"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:3
+#: help/cbot/E/type.txt:3
 #, no-wrap
 msgid "When you define a <a cbot|var>variable</a>, you must give two elements: "
 msgstr ""
 
 #. type: Bullet: '1)'
-#: cbot-help/type.txt:4
+#: help/cbot/E/type.txt:4
 #, no-wrap
 msgid "a name"
 msgstr ""
 
 #. type: Bullet: '2)'
-#: cbot-help/type.txt:5
+#: help/cbot/E/type.txt:5
 #, no-wrap
 msgid "a type"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:8
+#: help/cbot/E/type.txt:8
 #, no-wrap
 msgid ""
 "Once you defined a variable, you can use it to put information in "
@@ -5785,7 +5768,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:10
+#: help/cbot/E/type.txt:10
 #, no-wrap
 msgid ""
 "In a program, the name of a type is always written on <format type>green "
@@ -5795,37 +5778,37 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:12
+#: help/cbot/E/type.txt:12
 #, no-wrap
 msgid "<code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:13
+#: help/cbot/E/type.txt:13
 #, no-wrap
 msgid "For a whole number (12, -500, etc.)."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:15
+#: help/cbot/E/type.txt:15
 #, no-wrap
 msgid "<code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:16
+#: help/cbot/E/type.txt:16
 #, no-wrap
 msgid "For a real number (12, 3.14, 0.2, -99.98, etc.)."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:18
+#: help/cbot/E/type.txt:18
 #, no-wrap
 msgid "<code><a cbot|bool>bool</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:19
+#: help/cbot/E/type.txt:19
 #, no-wrap
 msgid ""
 "For a boolean variable, that can only take the values <code>true</code> or "
@@ -5833,25 +5816,25 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:21
+#: help/cbot/E/type.txt:21
 #, no-wrap
 msgid "<code><a cbot|string>string</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:22
+#: help/cbot/E/type.txt:22
 #, no-wrap
 msgid "For texts (\"Hello!\", \"No object found\", etc.)"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:24
+#: help/cbot/E/type.txt:24
 #, no-wrap
 msgid "<code><a cbot|point>point</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:25
+#: help/cbot/E/type.txt:25
 #, no-wrap
 msgid ""
 "For the coordinates of a point in space; a variable of this type consists of "
@@ -5859,13 +5842,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:27
+#: help/cbot/E/type.txt:27
 #, no-wrap
 msgid "<code><a cbot|object>object</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:28
+#: help/cbot/E/type.txt:28
 #, no-wrap
 msgid ""
 "A variable of this type contains the information about an object (bot, "
@@ -5873,13 +5856,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/type.txt:30
+#: help/cbot/E/type.txt:30
 #, no-wrap
 msgid "<code><a cbot|void>void</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/type.txt:31
+#: help/cbot/E/type.txt:31
 #, no-wrap
 msgid ""
 "This type is an \"empty type\", that you use when you do not want to specify "
@@ -5887,13 +5870,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/var.txt:1
+#: help/cbot/E/var.txt:1
 #, no-wrap
 msgid "Variables"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:3
+#: help/cbot/E/var.txt:3
 #, no-wrap
 msgid ""
 "A variable is like a box, where you can put some information. The content of "
@@ -5901,7 +5884,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:5
+#: help/cbot/E/var.txt:5
 #, no-wrap
 msgid ""
 "For example, you can use a variable to count the number of titanium ore "
@@ -5917,7 +5900,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:8
+#: help/cbot/E/var.txt:8
 #, no-wrap
 msgid ""
 "For the declaration of the variable, write the following line: \n"
@@ -5925,7 +5908,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:11
+#: help/cbot/E/var.txt:11
 #, no-wrap
 msgid ""
 "To put <code>0</code> into the variable, write:\n"
@@ -5933,7 +5916,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:14
+#: help/cbot/E/var.txt:14
 #, no-wrap
 msgid ""
 "At every titanium ore grabbed, write:\n"
@@ -5941,7 +5924,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:18
+#: help/cbot/E/var.txt:18
 #, no-wrap
 msgid ""
 "You have much freedom in the choice of the name for a variable, you can call "
@@ -5962,7 +5945,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:20
+#: help/cbot/E/var.txt:20
 #, no-wrap
 msgid ""
 "In the example above, the keyword <code>int</code> indicates that this "
@@ -5973,31 +5956,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:22
+#: help/cbot/E/var.txt:22
 #, no-wrap
 msgid "In fact, a variable is made up of three parts:\n"
 msgstr ""
 
+#. type: Bullet: '1)'
+#: help/cbot/E/var.txt:22
+#, no-wrap
+msgid "the name,"
+msgstr ""
+
+#. type: Bullet: '2)'
+#: help/cbot/E/var.txt:23
+#, no-wrap
+msgid "the type of the information stored inside,"
+msgstr ""
+
+#. type: Bullet: '3)'
+#: help/cbot/E/var.txt:24
+#, no-wrap
+msgid "the content, i.e. the information itself."
+msgstr ""
+
 #. type: \t; header
-#: cbot-help/var.txt:22 cbot-help/var.txt:26
+#: help/cbot/E/var.txt:26
 #, no-wrap
 msgid "the name"
 msgstr ""
 
-#. type: Bullet: '2)'
-#: cbot-help/var.txt:23
-#, no-wrap
-msgid "the type of the information stored inside"
-msgstr ""
-
-#. type: Bullet: '3)'
-#: cbot-help/var.txt:24
-#, no-wrap
-msgid "the content, i.e. the information itself"
-msgstr ""
-
 #. type: Plain text
-#: cbot-help/var.txt:28
+#: help/cbot/E/var.txt:28
 #, no-wrap
 msgid ""
 "You need the name to be able to distinguish the different variables from "
@@ -6005,13 +5994,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/var.txt:29
+#: help/cbot/E/var.txt:29
 #, no-wrap
 msgid "the type"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:32
+#: help/cbot/E/var.txt:32
 #, no-wrap
 msgid ""
 "The <a cbot|type>type</a> determines what kind of information the variable "
@@ -6022,13 +6011,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/var.txt:32
+#: help/cbot/E/var.txt:32
 #, no-wrap
 msgid "<code><a cbot|int>int</a></code> for a whole number (12, -500, etc.)"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/var.txt:33
+#: help/cbot/E/var.txt:33
 #, no-wrap
 msgid ""
 "<code><a cbot|float>float</a></code> for a real number (3.14, 0.2, -99.98, "
@@ -6036,7 +6025,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/var.txt:34
+#: help/cbot/E/var.txt:34
 #, no-wrap
 msgid ""
 "<code><a cbot|string>string</a></code> for a character string (\"Hello!\", "
@@ -6044,13 +6033,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/var.txt:35
+#: help/cbot/E/var.txt:35
 #, no-wrap
 msgid "<code><a cbot|point>point</a></code> for a x,y,z-coordinate in space"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/var.txt:36
+#: help/cbot/E/var.txt:36
 #, no-wrap
 msgid ""
 "<code><a cbot|object>object</a></code> for information about an object (bot, "
@@ -6058,13 +6047,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: cbot-help/var.txt:38
+#: help/cbot/E/var.txt:38
 #, no-wrap
 msgid "The content"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:40
+#: help/cbot/E/var.txt:40
 #, no-wrap
 msgid ""
 "The content of a variable is an information of the kind specified in the "
@@ -6072,7 +6061,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:43
+#: help/cbot/E/var.txt:43
 #, no-wrap
 msgid ""
 "Once you declared a variable, it still does not contain any value. Before "
@@ -6081,7 +6070,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/var.txt:45
+#: help/cbot/E/var.txt:45
 #, no-wrap
 msgid ""
 "\tj = 25;  // j takes the value 25\n"
@@ -6089,13 +6078,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:51
+#: help/cbot/E/var.txt:48
 #, no-wrap
 msgid ""
 "You can also declare a variable and put a value inside in the same line, "
 "writing: \n"
-"<c/><s/>\tint  countTit = 0;\n"
-"<n/> \n"
+"<c/><s/>\tint  countTit = 0;"
+msgstr ""
+
+#. type: Plain text
+#: help/cbot/E/var.txt:51
+#, no-wrap
+msgid ""
 "When you assign a value to a variable with the equals sign <code>=</code>, "
 "the value on the right side is copied into the value on the left "
 "side. Consider the following example: \n"
@@ -6103,7 +6097,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/var.txt:54
+#: help/cbot/E/var.txt:54
 #, no-wrap
 msgid ""
 "\ti = 5+2;  // i takes the value 7\n"
@@ -6112,7 +6106,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:56
+#: help/cbot/E/var.txt:56
 #, no-wrap
 msgid ""
 "At the end of this example, both variables <code>i</code> and <code>j</code> "
@@ -6120,7 +6114,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:59
+#: help/cbot/E/var.txt:59
 #, no-wrap
 msgid ""
 "The following assignment is not correct, because on the left side of the "
@@ -6129,7 +6123,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/var.txt:62
+#: help/cbot/E/var.txt:62
 #, no-wrap
 msgid ""
 "If you want to exchange the values of two variables, you must use a third "
@@ -6139,7 +6133,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/var.txt:65
+#: help/cbot/E/var.txt:65
 #, no-wrap
 msgid ""
 "\ttemp = a;  // temp takes the value of a\n"
@@ -6148,19 +6142,19 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/void.txt:1
+#: help/cbot/E/void.txt:1
 #, no-wrap
 msgid "Type <code>void</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/void.txt:3
+#: help/cbot/E/void.txt:3
 #, no-wrap
 msgid "Use this type when you want to declare a function that returns nothing."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/void.txt:6
+#: help/cbot/E/void.txt:6
 #, no-wrap
 msgid ""
 "Example:\n"
@@ -6168,7 +6162,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/void.txt:9
+#: help/cbot/E/void.txt:9
 #, no-wrap
 msgid ""
 "{\n"
@@ -6177,13 +6171,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/wait.txt:1
+#: help/cbot/E/wait.txt:1
 #, no-wrap
 msgid "Instruction <code>wait</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/wait.txt:3
+#: help/cbot/E/wait.txt:3
 #, no-wrap
 msgid ""
 "The instruction <c/>wait();<n/> instructs the bot to wait for some seconds, "
@@ -6191,7 +6185,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/wait.txt:6
+#: help/cbot/E/wait.txt:6
 #, no-wrap
 msgid ""
 "In order to wait until the <a object|power>power cell</a> is recharged on a "
@@ -6199,7 +6193,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/wait.txt:8
+#: help/cbot/E/wait.txt:8
 #, no-wrap
 msgid ""
 "In order to wait until the <a object|convert>converter</a> finished "
@@ -6208,31 +6202,31 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/wait.txt:12
+#: help/cbot/E/wait.txt:12
 #, no-wrap
 msgid "<c/>wait ( time );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/wait.txt:14
+#: help/cbot/E/wait.txt:14
 #, no-wrap
 msgid "Waits for a moment."
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/wait.txt:17
+#: help/cbot/E/wait.txt:17
 #, no-wrap
 msgid "Specifies the time that the bot must wait."
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/while.txt:1
+#: help/cbot/E/while.txt:1
 #, no-wrap
 msgid "Instruction <code>while</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:3
+#: help/cbot/E/while.txt:3
 #, no-wrap
 msgid ""
 "The instruction <code>while () {}</code> is used to repeat a set of "
@@ -6240,7 +6234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:6
+#: help/cbot/E/while.txt:6
 #, no-wrap
 msgid ""
 "The most frequent use of <code>while</code> consists in repeating a set of "
@@ -6251,25 +6245,25 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/while.txt:6
+#: help/cbot/E/while.txt:6
 #, no-wrap
 msgid "look for a spider,"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/while.txt:7
+#: help/cbot/E/while.txt:7
 #, no-wrap
 msgid "turn towards it,"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: cbot-help/while.txt:8
+#: help/cbot/E/while.txt:8
 #, no-wrap
 msgid "shoot."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/while.txt:16
+#: help/cbot/E/while.txt:16
 #, no-wrap
 msgid ""
 "\twhile (true)\n"
@@ -6281,13 +6275,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:18
+#: help/cbot/E/while.txt:18
 #, no-wrap
 msgid "Just execute this program once, and it will kill all spiders around it."
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/while.txt:25
+#: help/cbot/E/while.txt:25
 #, no-wrap
 msgid ""
 "<code>while ( condition )\n"
@@ -6297,7 +6291,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:27
+#: help/cbot/E/while.txt:27
 #, no-wrap
 msgid ""
 "This instruction allows you to perform the instructions inside the <a "
@@ -6305,7 +6299,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:29
+#: help/cbot/E/while.txt:29
 #, no-wrap
 msgid ""
 "Be careful not to confuse the instruction <code>while( ) { }</code> with the "
@@ -6315,7 +6309,7 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/while.txt:40
+#: help/cbot/E/while.txt:40
 #, no-wrap
 msgid ""
 "<c/>int i = 0;\n"
@@ -6327,7 +6321,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:43
+#: help/cbot/E/while.txt:43
 #, no-wrap
 msgid ""
 "Do not put a <a cbot|term>semicolon</a> at the end of the line <code>while ( "
@@ -6335,7 +6329,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/while.txt:45
+#: help/cbot/E/while.txt:45
 #, no-wrap
 msgid ""
 "The instructions <code><a cbot|break>break</a></code> and <code><a "
@@ -6344,13 +6338,13 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: cbot-help/writeln.txt:1
+#: help/cbot/E/writeln.txt:1
 #, no-wrap
 msgid "Instruction <code>writeln</code>"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/writeln.txt:3
+#: help/cbot/E/writeln.txt:3
 #, no-wrap
 msgid ""
 "Write one line of text to an open file in the files/ folder. This is a "
@@ -6359,13 +6353,13 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/writeln.txt:5
+#: help/cbot/E/writeln.txt:5
 #, no-wrap
 msgid "\thandle.writeln(\"abc\");"
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/writeln.txt:7
+#: help/cbot/E/writeln.txt:7
 #, no-wrap
 msgid ""
 "The file must have been opened for writing (<code>\"w\"</code>) with the "
@@ -6374,19 +6368,19 @@ msgid ""
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/writeln.txt:10
+#: help/cbot/E/writeln.txt:10
 #, no-wrap
 msgid "<c/>handle.writeln ( string );<n/>"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/writeln.txt:14
+#: help/cbot/E/writeln.txt:14
 #, no-wrap
 msgid "\twriteln(\"Line of text\");"
 msgstr ""
 
 #. type: \s; block (usually verbatim code)
-#: cbot-help/writeln.txt:18
+#: help/cbot/E/writeln.txt:18
 #, no-wrap
 msgid ""
 "\tstring s1 = \"abc\";\n"
@@ -6395,7 +6389,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: cbot-help/writeln.txt:21
+#: help/cbot/E/writeln.txt:21
 #, no-wrap
 msgid ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, "

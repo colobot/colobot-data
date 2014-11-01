@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/challenges/chapter002/level004/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "R"
+
+#. type: Title-text
+#: levels/challenges/chapter002/level004/scene.txt:1
+#, no-wrap
+msgid "Radar and traps 1"
+msgstr "Радар и ловушки 1"
+
+#. type: Resume-text
+#: levels/challenges/chapter002/level004/scene.txt:2
+#, no-wrap
+msgid "Use your radar to look for various items, but watch out for the mines."
+msgstr "Используйте радар, чтобы искать различные предметы, но не наступите на мины."
+
+#. type: ScriptName-text
+#: levels/challenges/chapter002/level004/scene.txt:3
+#, no-wrap
+msgid "Traps"
+msgstr "Ловушки"
+
+#. type: \b; header
+#: levels/challenges/chapter002/level004/help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Упражнение"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:3
+#, no-wrap
+msgid "Instruct the bot to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>. When the bot passes over a cross, it disappears. Here is the general principle:"
+msgstr "Заставьте бота отыскать на земле все <a object|waypoint>синие кресты</a>, но не подходите слишком близко к <a object|mine>минам</a>. Когда бот проходит над крестом, тот исчезает. Ниже приведен общий принцип:"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:5
+#, no-wrap
+msgid "\tRepeat forever:\n"
+msgstr "\tПовторять всегда:\n"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:5
+#, no-wrap
+msgid "Look for a mine"
+msgstr "Искать мину"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:6
+#, no-wrap
+msgid "If a mine has been found, calculate the opposite direction"
+msgstr "Если мина найдена, высчитать противоположное направление"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:7
+#, no-wrap
+msgid "Look for a cross"
+msgstr "Искать крест"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:8
+#, no-wrap
+msgid "If nothing has been found, stop the program"
+msgstr "Если ничего не найдено, остановить программу"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:9
+#, no-wrap
+msgid "Calculate the direction of the cross"
+msgstr "Высчитать направление к кресту"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:10
+#, no-wrap
+msgid "Calculate the mean value of the two directions"
+msgstr "Высчитать среднее значение двух направлений"
+
+#. type: Bullet: 'o'
+#: levels/challenges/chapter002/level004/help/help.E.txt:11
+#, no-wrap
+msgid "Set the motor speeds in order to head towards the mean direction"
+msgstr "Установить скорость движения, чтобы направляться в среднем направлении"
+
+#. type: \b; header
+#: levels/challenges/chapter002/level004/help/help.E.txt:13
+#, no-wrap
+msgid "The instruction <code>radar</code>"
+msgstr "Инструкция <code>radar</code>"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:17
+#, no-wrap
+msgid ""
+"In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we recommend the following parameters:\n"
+"<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
+"With the opening angle of 180 degrees, mines that are behind the bot will not be found. Mines that are at more than 5 meters are also ignored."
+msgstr ""
+"Чтобы найти мину с помощью команды <code><a cbot|radar>radar</a></code>, мы рекомендуем использовать следующие параметры:\n"
+"<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
+"С углом в 180 градусов, мины, расположенные за ботом, обнаружены не будут. Будут также пропущены мины, имеющие размер более 5 метров."
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:21
+#, no-wrap
+msgid ""
+"In order to find a blue cross, simply write:\n"
+"<c/><s/>\tradar(WayPoint);<n/>\n"
+"Blue crosses will be found everywhere."
+msgstr ""
+"Чтобы найти синий крест, просто напишите:\n"
+"<c/><s/>\tradar(WayPoint);<n/>\n"
+"Синие кресты будут найдены везде."
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:24
+#, no-wrap
+msgid ""
+"In order to calculate a direction, use <code><a cbot|direct>direction</a></code>.\n"
+"In order to set the motor speeds, use <code><a cbot|motor>motor</a></code>."
+msgstr ""
+"Чтобы высчитать направление, используйте <code><a cbot|direct>direction</a></code>.\n"
+"Чтобы установить скорость движения, используйте команду <code><a cbot|motor>motor</a></code>."
+
+#. type: \t; header
+#: levels/challenges/chapter002/level004/help/help.E.txt:25
+#, no-wrap
+msgid "See also"
+msgstr "См. также"
+
+#. type: Plain text
+#: levels/challenges/chapter002/level004/help/help.E.txt:26
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

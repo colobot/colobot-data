@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: One-char language identifier
+#: levels-po/missions/chapter004/level002/scene_langchar.txt:1
+#, no-wrap
+msgid "E"
+msgstr "D"
+
+#. type: Title-text
+#: levels/missions/chapter004/level002/scene.txt:1
+#, no-wrap
+msgid "Subterranean strategy"
+msgstr ""
+
+#. type: Resume-text
+#: levels/missions/chapter004/level002/scene.txt:2
+#, no-wrap
+msgid "Use the planet's resources to combat the virus-spreading worms."
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter004/level002/help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/help.E.txt:3
+#, no-wrap
+msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/help.E.txt:5
+#, no-wrap
+msgid "The radar seems to be perfectly suited to the detection of worms. Keep in mind though that they only appear when they are on the surface."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/help.E.txt:7
+#, no-wrap
+msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/help.E.txt:9
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr ""
+
+#. type: \t; header
+#: levels/missions/chapter004/level002/help/help.E.txt:10
+#: levels/missions/chapter004/level002/help/soluce.E.txt:16
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter004/level002/help/prog.E.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/prog.E.txt:4
+#, no-wrap
+msgid ""
+"Below is one of the programs that has been developed by our engineers.\n"
+"An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/prog.E.txt:6
+#, no-wrap
+msgid "This program also works on <a object|botgj>winged grabbers</a>, if the <a object|derrick>derrick</a> is on another island than the <a object|convert>converter</a>."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter004/level002/help/prog.E.txt:31
+#, no-wrap
+msgid ""
+"extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t// 2) Go to the titanium ore and grab it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\n"
+"\t// 3) Go to the converter and drop it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"\t\t\n"
+"\t// 4) If power cell half empty, recharges.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // if so:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // go there\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // wait\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter004/level002/help/prog.E.txt:32
+#, no-wrap
+msgid "Archives"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/prog.E.txt:34
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter004/level002/help/prog.E.txt:35
+#, no-wrap
+msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter004/level002/help/prog.E.txt:36
+#, no-wrap
+msgid "<code><a mltropi3>Recharge2</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter004/level002/help/prog.E.txt:37
+#, no-wrap
+msgid "<code><a mllune4>Recharge1</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: levels/missions/chapter004/level002/help/prog.E.txt:38
+#, no-wrap
+msgid "<code><a mllune1>SwitchCell1</a></code>"
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter004/level002/help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/report.E.txt:3
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter004/level002/help/report.E.txt:5
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/report.E.txt:10
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      3.2C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter004/level002/help/report.E.txt:12
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/report.E.txt:15
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    isolated (close to the spaceship)\n"
+"\\tab;Titanium ore:     scattered\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+
+#. type: \s; block (usually verbatim code)
+#: levels/missions/chapter004/level002/help/report.E.txt:17
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/report.E.txt:19
+#, no-wrap
+msgid ""
+"\\tab;Detected:         worms\n"
+"\\tab;  - Danger:       no"
+msgstr ""
+
+#. type: \b; header
+#: levels/missions/chapter004/level002/help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr ""
+
+#. type: Bullet: '1)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:2
+#, no-wrap
+msgid "Build a <a object|factory>bot factory</a>."
+msgstr ""
+
+#. type: Bullet: '2)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:3
+#, no-wrap
+msgid "Produce a <a object|botsj>winged sniffer</a>."
+msgstr ""
+
+#. type: Bullet: '3)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:4
+#, no-wrap
+msgid "Sniff the ground near the large crystals until you get a <a object|stonspot>red cross</a>."
+msgstr ""
+
+#. type: Bullet: '4)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:5
+#, no-wrap
+msgid "Build a <a object|derrick>derrick</a> near the red cross."
+msgstr ""
+
+#. type: Bullet: '5)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:6
+#, no-wrap
+msgid "Build a <a object|convert>converter</a>."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/soluce.E.txt:9
+#, no-wrap
+msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
+msgstr ""
+
+#. type: Bullet: '6)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:10
+#, no-wrap
+msgid "Sniff the area at the foot of the spaceship. A <a object|enerspot>green cross</a> means you can build a <a object|station>power station</a> on the spot."
+msgstr ""
+
+#. type: Bullet: '7)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:11
+#, no-wrap
+msgid "Build a <a object|radar>radar</a>."
+msgstr ""
+
+#. type: Bullet: '8)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:12
+#, no-wrap
+msgid "Produce a <a object|botfj>winged shooter</a>."
+msgstr ""
+
+#. type: Bullet: '9)'
+#: levels/missions/chapter004/level002/help/soluce.E.txt:13
+#, no-wrap
+msgid "Eliminate all worms."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/soluce.E.txt:15
+#, no-wrap
+msgid "10) Go back to your ship and take off."
+msgstr ""
+
+#. type: Plain text
+#: levels/missions/chapter004/level002/help/soluce.E.txt:17
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr ""
