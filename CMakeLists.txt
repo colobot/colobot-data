@@ -22,6 +22,6 @@ set(DATA_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 add_subdirectory(help)
 add_subdirectory(levels)
 
-if(EXISTS music)
+if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/music/CMakeLists.txt)
     add_subdirectory(music)
 endif()
