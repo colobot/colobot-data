@@ -28,7 +28,7 @@ if [ -n "$VERBOSE" ]; then
 else
     verbosity="-q"
 fi
-PERL5LIB="${SCRIPT_DIR}/perllib${PERL5LIB+:}$PERL5LIB" po4a -k0 $verbosity -f "$PO4A_CONFIG_FILE" --msgmerge-opt=--no-wrap --master-charset=UTF-8 --localized-charset=UTF-8
+PERL5LIB="${SCRIPT_DIR}/perllib${PERL5LIB+:}$PERL5LIB" po4a -k0 $verbosity -f --msgmerge-opt=--no-wrap --master-charset=UTF-8 --localized-charset=UTF-8 "$PO4A_CONFIG_FILE"
 
 # if applicable, touch dummy signal file to indicate success
 if [ -n "$PO4A_SIGNALFILE" ]; then
