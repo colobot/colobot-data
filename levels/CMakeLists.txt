@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-include(../i18n-tools/CommonI18N.cmake)
-include(../i18n-tools/LevelsI18N.cmake)
+include(../i18n-tools/I18NTools.cmake)
 
 set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
 
@@ -9,63 +8,65 @@ set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
 # Add level category directory with all chapters inside
 ##
 function(add_level_category level_category_dir)
-    file(GLOB chaptertitle_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/${level_category_dir} ${level_category_dir}/chapter*/chaptertitle.txt)
-    list(SORT chaptertitle_files)
-    if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_category_dir}/po/)
-        generate_chaptertitles_i18n(translated_chaptertitle_files
-                                    ${level_category_dir}
-                                    "${chaptertitle_files}"
-                                    ${level_category_dir}/po
-                                    ${DATA_BINARY_DIR}/levels-po/${level_category_dir})
-    else()
-        file(GLOB translated_chaptertitle_files ${level_category_dir}/chapter*/chaptertitle.txt)
+
+    message(STATUS "Adding translation targets for level/${level_category_dir}")
+
+    # Without Python, just install all files as they are
+    if(NOT PYTHONINTERP_FOUND)
+        install(DIRECTORY ${add_level_category} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
+        return()
     endif()
 
-    file(GLOB chapter_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*)
-    list(SORT chapter_dirs)
-    list(LENGTH chapter_dirs chapter_dirs_count)
-    math(EXPR iterate_range "${chapter_dirs_count} - 1")
-    foreach(index RANGE ${iterate_range})
-        list(GET chapter_dirs ${index} chapter_dir)
-        list(GET translated_chaptertitle_files ${index} translated_chaptertitle_file)
-        install(FILES ${translated_chaptertitle_file} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${chapter_dir})
-    endforeach()
+    add_chaptertitles(${level_category_dir})
 
-    file(GLOB chapter_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*)
-    foreach(chapter_dir ${chapter_dirs})
-        add_chapter(${chapter_dir})
-    endforeach()
-endfunction()
-
-##
-# Add chapter directory with all levels inside
-##
-function(add_chapter chapter_dir)
-    file(GLOB level_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${chapter_dir}/level*)
+    file(GLOB level_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*/level*)
     foreach(level_dir ${level_dirs})
         add_level(${level_dir})
     endforeach()
+
+endfunction()
+
+##
+# Add chaptertitles
+##
+function(add_chaptertitles level_category_dir)
+
+    set(work_dir ${DATA_BINARY_DIR}/levels-po/${level_category_dir})
+    generate_translations(translated_chaptertitle_files
+                          "chaptertitles"
+                          ${CMAKE_CURRENT_SOURCE_DIR}
+                          ${level_category_dir}
+                          ${level_category_dir}/po
+                          ${work_dir}
+                          "")
+
+    install_preserving_relative_paths("${translated_chaptertitle_files}"
+                                      ${work_dir}
+                                      ${LEVEL_INSTALL_DATA_DIR}/${level_category_dir})
+
 endfunction()
 
 ##
 # Add level directory
 ##
 function(add_level level_dir)
-    file(GLOB original_help_files ${level_dir}/help/*.txt)
-    list(SORT original_help_files)
-    if(PO4A AND EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${level_dir}/po/)
-        generate_level_i18n(translated_level_file
-                            translated_help_files
-                            ${level_dir}/scene.txt
-                            "${original_help_files}"
-                            ${level_dir}/po
-                            ${DATA_BINARY_DIR}/levels-po/${level_dir})
-    else()
-        set(translated_level_file ${level_dir}/scene.txt)
-    endif()
-    install(FILES ${translated_level_file} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
-    install(FILES ${original_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
-    install(FILES ${translated_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
+
+    set(work_dir ${DATA_BINARY_DIR}/levels-po/${level_dir})
+    generate_translations(translated_level_files
+                          "level"
+                          ${CMAKE_CURRENT_SOURCE_DIR}
+                          ${level_dir}
+                          ${level_dir}/po
+                          ${work_dir}
+                          "")
+
+    file(GLOB english_help_files ${level_dir}/help/*)
+    install(FILES ${english_help_files} DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}/help)
+
+    install_preserving_relative_paths("${translated_level_files}"
+                                      ${work_dir}
+                                      ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
+
 endfunction()
 
 
