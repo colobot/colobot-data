@@ -16,38 +16,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter006/level003/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "D"
-
 #. type: Title-text
-#: levels/exercises/chapter006/level003/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Remote control #2"
 msgstr ""
 
 #. type: Resume-text
-#: levels/exercises/chapter006/level003/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Remote control a robot using an information exchange post, so it will pass over the 6 blue waypoints."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/exercises/chapter006/level003/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "remote"
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter006/level003/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:4
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will pass over the 6 blue waypoints.\n"
@@ -55,63 +49,63 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1)'
-#: levels/exercises/chapter006/level003/help/help.E.txt:5
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "A <a object|botgr>wheeled grabber</a> robot without an energy cell. This is the master you have to program."
 msgstr ""
 
 #. type: Bullet: '2)'
-#: levels/exercises/chapter006/level003/help/help.E.txt:6
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "An <a object|exchange>information exchange post</a> that receives information from the master and then transmits it to the slave."
 msgstr ""
 
 #. type: Bullet: '3)'
-#: levels/exercises/chapter006/level003/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "A <a object|bottr>practice bot</a> which waits for orders from the exchange post. This robot has already been programmed."
 msgstr ""
 
 #. type: Image filename
-#: levels/exercises/chapter006/level003/help/help.E.txt:9
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "tremot2a"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:11
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use two couples¦:"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: levels/exercises/chapter006/level003/help/help.E.txt:12
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid "name=\"order\", value=order number"
 msgstr ""
 
 #. type: Bullet: '2)'
-#: levels/exercises/chapter006/level003/help/help.E.txt:13
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "nom=\"param\", valuer=parameter  for the operation"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:17
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid ""
 "Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write¦:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // order \"move\""
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter006/level003/help/help.E.txt:18
+#. type: Source code
+#: ../help/help.E.txt:17
 #, no-wrap
 msgid "\t<a cbot|send>send</a>(\"param\", 20, 100);  // distance 20 meters"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:22
+#: ../help/help.E.txt:19
 #, no-wrap
 msgid ""
 "These two instruction send following 2 pieces of information to the exchange post¦:\n"
@@ -120,15 +114,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:25
+#: ../help/help.E.txt:23
 #, no-wrap
 msgid ""
 "The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write¦:\n"
 "<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait for end of work"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter006/level003/help/help.E.txt:28
+#. type: Source code
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid ""
 "\t{\n"
@@ -137,15 +131,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:31
+#: ../help/help.E.txt:29
 #, no-wrap
 msgid ""
 "As we must give more than one order its most convenient to write a <a cbot|function>function</a> <code>SendToPost</code>, that sends the order and wait for its completion¦:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter006/level003/help/help.E.txt:40
+#. type: Source code
+#: ../help/help.E.txt:31
 #, no-wrap
 msgid ""
 "{\n"
@@ -160,7 +154,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:43
+#: ../help/help.E.txt:41
 #, no-wrap
 msgid ""
 "To move forward by 20 meters, you must write in the main program¦:\n"
@@ -168,31 +162,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:45
+#: ../help/help.E.txt:44
 #, no-wrap
 msgid "This is the route the robot must travel through¦:"
 msgstr ""
 
 #. type: Image filename
-#: levels/exercises/chapter006/level003/help/help.E.txt:46
+#: ../help/help.E.txt:46
 #, no-wrap
 msgid "tremot2b"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:48
+#: ../help/help.E.txt:47
 #, no-wrap
 msgid "It's up to you to finish the programming."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter006/level003/help/help.E.txt:49
+#: ../help/help.E.txt:49
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter006/level003/help/help.E.txt:50
+#: ../help/help.E.txt:50
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""

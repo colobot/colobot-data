@@ -16,74 +16,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter003/level007/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "R"
-
 #. type: Title-text
-#: levels/exercises/chapter003/level007/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Labyrinth 2"
 msgstr "Лабиринт 2"
 
 #. type: Resume-text
-#: levels/exercises/chapter003/level007/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Teach your bot to do the same job in a more autonomous way."
 msgstr "Научите своего бота делать ту же работу в автономном режиме."
 
 #. type: ScriptName-text
-#: levels/exercises/chapter003/level007/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Labyrinth"
 msgstr "Labyrinth"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Упражнение"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "This exercise is very similar to the previous one. This time the bot should find its way alone from the start to the goal; you will have to execute the program only once."
 msgstr "Это упражнение очень напоминает предыдущее упражнение. В этот раз бот должен сам найти этот путь со стартовой точки и до финиша; вы должны будете запустить программу только один раз."
 
 #. type: \b; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Remark"
 msgstr "Комментарий"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "The labyrinth is not exactly the same, but this should be of no importance, as the program adapts to what it \"sees\"."
 msgstr "Лабиринт слегка отличается от предыдущего, но это не важно, так как программа приспособится к тому, что она \"видит\"."
 
 #. type: Image filename
-#: levels/exercises/chapter003/level007/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "tlaby1"
 msgstr "tlaby1"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:8
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "General principle"
 msgstr "Общий принцип"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:10
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "Use an infinite <code><a cbot|while>while</a></code> loop in order to execute the previous program several times:"
 msgstr "Используйте бесконечный цикл <code><a cbot|while>while</a></code>, чтобы выполнять предыдущую несколько раз:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level007/help/help.E.txt:16
+#. type: Source code
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid ""
 "<code>while ( true )\n"
@@ -101,13 +95,13 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:18
+#: ../help/help.E.txt:17
 #, no-wrap
 msgid "Inside this <code>while</code> loop, replace the <code>return</code> instructions by <code><a cbot|continue>continue</a></code> instructions. <code>return</code> would quit the program, which is not what we want here. <code>continue</code> will just resume the execution at the beginning of the <code><a cbot|while>while</a></code> loop:"
 msgstr "Внутри цикла <code>while</code> замените инструкции <code>return</code> на инструкции <code><a cbot|continue>continue</a></code>. <code>return</code> приведет к выходу из программы, что не совсем то, что нам нужно. <code>continue</code> просто продолжит выполнение программы с самого начала цикла <code><a cbot|while>while</a></code>:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level007/help/help.E.txt:23
+#. type: Source code
+#: ../help/help.E.txt:18
 #, no-wrap
 msgid ""
 "<c/>if ( front == null )\n"
@@ -123,19 +117,19 @@ msgstr ""
 "}"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:24
+#: ../help/help.E.txt:24
 #, no-wrap
 msgid "Remember"
 msgstr "Помните"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:26
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid "Here is again the program of the previous exercise :"
 msgstr "Программа из предыдущего упражнения :"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level007/help/help.E.txt:50
+#. type: Source code
+#: ../help/help.E.txt:27
 #, no-wrap
 msgid ""
 "object   front, left, right;\n"
@@ -187,25 +181,25 @@ msgstr ""
 "}"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:51
+#: ../help/help.E.txt:51
 #, no-wrap
 msgid "Help"
 msgstr "Помощь"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:53
+#: ../help/help.E.txt:52
 #, no-wrap
 msgid "If you need some help, just click on the hyperlinks of the instructions <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> or <code><a cbot|turn>turn</a></code>."
 msgstr "Если вам понадобится помощь, шелкните на гиперлинке инструкций <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> или <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
-#: levels/exercises/chapter003/level007/help/help.E.txt:54
+#: ../help/help.E.txt:54
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level007/help/help.E.txt:55
+#: ../help/help.E.txt:55
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

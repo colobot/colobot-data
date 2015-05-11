@@ -16,101 +16,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter002/level001/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "F"
-
-#
 #. type: Title-text
-#: levels/exercises/chapter002/level001/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Barrage Fire"
 msgstr "Tir de barrage"
 
-#
 #. type: Resume-text
-#: levels/exercises/chapter002/level001/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Set the power of the different motors in order to achieve a barrage fire."
 msgstr "Effectuer à l'aide de la commande directe des moteurs un tir de barrage contre des fourmis qui attaquent"
 
-#
 #. type: ScriptName-text
-#: levels/exercises/chapter002/level001/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Move"
 msgstr "Barrage"
 
 #. type: \b; header
-#: levels/exercises/chapter002/level001/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr "Objectif"
 
 #. type: Plain text
-#: levels/exercises/chapter002/level001/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "As a defense against several giant ants attacking from the north, rotate the bot when shooting in order to perform barrage fire."
 msgstr "Pour vous défendre contre des <a object|ant>fourmis</a> qui attaquent depuis le nord, effectuez un tir de barrage en faisant tourner le robot pendant la salve de tir."
 
 #. type: \t; header
-#: levels/exercises/chapter002/level001/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
 msgstr "Programme"
 
 #. type: Plain text
-#: levels/exercises/chapter002/level001/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "When you are radio-guiding a bot, you can rotate the cannon during the burst in order to sweep a whole zone. You can also do this when programming the bot, but you have to turn the whole bot with the instruction <code><a cbot|motor>motor</a>( , )</code>. This instruction asks for two numbers: the speed of the left-hand motor, and the speed of the right-hand motor. These numbers must range between -1 and +1.<c/> motor(1,1);<n/> moves the bot forward with maximum speed (both motors at full power).<c/> motor(-1,-1);<n/> moves the bot backward with maximum speed.<c/> motor(1,0.9);<n/> moves the bot forward with a slight turn to the right: the left-hand motor turns a little faster than the right-hand motor. And <c/>motor(1,-1);<n/> will turn the bot clockwise on the spot: the left-hand motor moves forward, the right-hand motor moves backward."
 msgstr "Quand on prend les commandes d'un robot shooter, on peut faire basculer le canon pendant la salve de tir et balayer ainsi toute une zone. Ceci est également possible quand on programme le shooter: on utilise l'instruction <code><a cbot|motor>motor</a>( , )</code>. Cette instruction demande deux nombres: la vitesse du moteur de gauche, et la vitesse du moteur de droite. Les valeurs peuvent aller de -1 à 1.<c/> motor(1,1);<n/> fait avancer le robot à la vitesse maximum. <c/>motor(-1,-1);<n/> fait reculer le robot à la vitesse maximum.<c/> motor(1,0.9);<n/> le fait avancer avec un léger virage à droite: le moteur de droite tourne un peu moins vite. Et <c/>motor(1,-1);<n/> le fait tourner sur place vers la droite: le moteur de gauche avance, le moteur de droite recule."
 
 #. type: Plain text
-#: levels/exercises/chapter002/level001/help/help.E.txt:8
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "After a <a cbot|motor>motor</a> instruction the motors will keep this speed until the next <code>motor</code>, <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> or <code><a cbot|goto>goto</a></code> instruction. For example, if you perform a rotation on the spot with <c/>motor(1,-1);<n/> and afterward you shoot with <c/>fire(1);<n/>, the bot will continue to turn during the burst, and will sweep a whole zone."
 msgstr "Les moteurs garderont la vitesse qu'on leur a donnée jusqu'à la prochaine instruction <code>motor</code>, <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> ou <code><a cbot|goto>goto</a></code>. Par exemple si on fait tourner le robot sur place avec <c/>motor(1,-1);<n/> et qu'ensuite on tire avec <c/><a cbot|fire>fire</a>(1);<n/>, le robot continuera à tourner pendant le tir, et balayera toute une zone."
 
 #. type: Plain text
-#: levels/exercises/chapter002/level001/help/help.E.txt:10
+#: ../help/help.E.txt:9
 #, no-wrap
-msgid "The ants attack from the north. In order to sweep the whole zone north of the bot, first turn 90 degrees left with <c/>turn(90);<n/>, then repeat always with <code><a cbot|while>while</a> (true)</code> the following instructions:\n"
-msgstr "Les fourmis attaquent depuis le nord. Pour balayer toute la zone au nord du robot, il faut commencer par faire tourner le robot de 90 degrés vers la gauche avec <c/><a cbot|turn>turn</a>(90);<n/>.\n"
+msgid "The ants attack from the north. In order to sweep the whole zone north of the bot, first turn 90 degrees left with <c/>turn(90);<n/>, then repeat always with <code><a cbot|while>while</a> (true)</code> the following instructions:"
+msgstr "Les fourmis attaquent depuis le nord. Pour balayer toute la zone au nord du robot, il faut commencer par faire tourner le robot de 90 degrés vers la gauche avec <c/><a cbot|turn>turn</a>(90);<n/>."
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter002/level001/help/help.E.txt:10
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid "rotate clockwise with <c/>motor(1,-1);<n/>"
 msgstr "Tourner le robot à droite"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter002/level001/help/help.E.txt:11
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "a 2 seconds burst with <c/>fire(2);<n/>"
 msgstr "Feu pendant 2 secondes"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter002/level001/help/help.E.txt:12
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid "rotate counter-clockwise with <c/>motor(-1,1);<n/>"
 msgstr "Tourner le robot à gauche"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter002/level001/help/help.E.txt:13
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "a 2 seconds burst."
 msgstr "Feu pendant 2 secondes"
 
 #. type: \t; header
-#: levels/exercises/chapter002/level001/help/help.E.txt:15
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: levels/exercises/chapter002/level001/help/help.E.txt:16
+#: ../help/help.E.txt:16
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a tremova4>Exercice précédent</a> et <a cbot>programmation</a>."

@@ -16,98 +16,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter001/level001/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "R"
-
 #. type: Title-text
-#: levels/exercises/chapter001/level001/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Spiders 1"
 msgstr "Пауки 1"
 
 #. type: Resume-text
-#: levels/exercises/chapter001/level001/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Kill three spiders with a small program."
 msgstr "Убейте трех пауков с помощью небольшой программки."
 
 #. type: ScriptName-text
-#: levels/exercises/chapter001/level001/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Spider1"
 msgstr "Spider1"
 
 #. type: \b; header
-#: levels/exercises/chapter001/level001/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr "Задание"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "Write a small program to kill three spiders."
 msgstr "Напишите небольшую программу чтобы убить три паука."
 
 #. type: \t; header
-#: levels/exercises/chapter001/level001/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Procedure"
 msgstr "Процедура"
 
 #. type: Bullet: '1)'
-#: levels/exercises/chapter001/level001/help/help.E.txt:5
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "In order to program the bot, select it."
 msgstr "Для того, чтобы запрограммировать бота, выберите его."
 
 #. type: Bullet: '2)'
-#: levels/exercises/chapter001/level001/help/help.E.txt:6
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "The numbers 1 to 4 corresponding to the programs contained in the bot appear on the lower left-hand corner of your screen. Select the first line."
 msgstr "Числа от 1 до 4, соответсвующие программам, сожержащимся в боте, появятся в левом нижнем углу экрана. Выберите первую строчку."
 
 #. type: Bullet: '3)'
-#: levels/exercises/chapter001/level001/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "Click the button with the braces <button 22/>, and you will arrive in an editor where you can write the program."
 msgstr "Щелкните на кнопке со скобками <button 22/>, и вы попадете в редактор, где сможете написать программу."
 
 #. type: Bullet: '4)'
-#: levels/exercises/chapter001/level001/help/help.E.txt:8
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "While you are writing the program, the key <format key><key help/></format> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
 msgstr "Пока вы пишите программу, ключ <format key><key help/></format> будет отображать текст, который вы сейчас читаете. Когда вы закончите писать программу, нажмите кнопку \"OK\"."
 
 #. type: Bullet: '5)'
-#: levels/exercises/chapter001/level001/help/help.E.txt:9
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "In order to execute the program, click the arrow button <button 21/>."
 msgstr "Чтобы запустить программу, нажмите кнопку со стрелкой <button 21/>."
 
 #. type: \t; header
-#: levels/exercises/chapter001/level001/help/help.E.txt:11
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "Program"
 msgstr "Программа"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:13
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid "You must tell the bot exactly step by step what it must do in order to kill the three spiders. The bot understands only precise instructions, which it will execute one after another."
 msgstr "Вы должны точно, шаг за шагом, рассказать боту о том, что он должен делать для того, чтобы убить трех пауков. Бот понимает только точные инструкции, которые должны выполняться одна за другой."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:15
+#: ../help/help.E.txt:14
 #, no-wrap
 msgid "When you click the braces button <button 22/> in order to write the program, a part of the program will already be there:"
 msgstr "Когда вы нажмете кнопку со скобками <button 22/> чтобы написать программу, там уже будет вот эта ее часть:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level001/help/help.E.txt:22
+#. type: Source code
+#: ../help/help.E.txt:16
 #, no-wrap
 msgid ""
 "extern void object::Spider1( )\n"
@@ -125,97 +119,97 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:24
+#: ../help/help.E.txt:23
 #, no-wrap
 msgid "Everything that is already written when you arrive in the editor must not be altered. Just introduce the necessary instructions at the cursor."
 msgstr "Все, что было написано до того, как вы запустили редактор, не должно быть изменено. Вставьте под курсор необходимые инструкции."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:26
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid "You will need the following instructions:"
 msgstr "Вам понадобятся следующие инструкции:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level001/help/help.E.txt:28
+#. type: Source code
+#: ../help/help.E.txt:27
 #, no-wrap
 msgid "aim(0);<n/>"
 msgstr "aim(0);<n/>"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:29
+#: ../help/help.E.txt:28
 #, no-wrap
 msgid "<n/>Puts the cannon straight."
 msgstr "<n/>Направляет пушку прямо."
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level001/help/help.E.txt:31
+#. type: Source code
+#: ../help/help.E.txt:30
 #, no-wrap
 msgid "turn();<n/>"
 msgstr "turn();<n/>"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:32
+#: ../help/help.E.txt:31
 #, no-wrap
 msgid "<n/>Executes a rotation of a certain angle, given in brackets in degrees. For example <c/>turn(90);<n/> will turn the bot 90 degrees to the left, i.e. a quarter turn to the left. <c/>turn(-90);<n/> will turn the bot 90 degrees to the right (quarter turn right). Positive values turn left, negative values turn right. <c/>turn(180);<n/> will make the bot face in the opposite direction."
 msgstr "<n/>Выполняет поворот на указанный угол, заданный в скобках в градусах. Например, <c/>turn(90);<n/> повернет бота на 90 градусов влево, то есть четверть оборота влево. <c/>turn(-90);<n/> повернет бота на 90 градусов вправо (четверть оборота вправо). Положительное значение поворачивает бота влево, а отрицательное вправо. <c/>turn(180);<n/> развернет бота."
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level001/help/help.E.txt:34
+#. type: Source code
+#: ../help/help.E.txt:33
 #, no-wrap
 msgid "fire(1);"
 msgstr "fire(1);"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:35
+#: ../help/help.E.txt:34
 #, no-wrap
 msgid "<n/>Shoots the cannon. The number in brackets indicates the duration of the burst. In most cases, shoot a burst of 1 second."
 msgstr "<n/>Стреляет из орудия. Число в скобках указывает на продолжительность выстрела. В большинстве случаев выстрел продолжается 1 секунду."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:37
+#: ../help/help.E.txt:36
 #, no-wrap
-msgid "Let us see the beginning of the program:\n"
-msgstr "Давайте посмотрим на начало программы:\n"
+msgid "Let us see the beginning of the program:"
+msgstr "Давайте посмотрим на начало программы:"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter001/level001/help/help.E.txt:37
+#: ../help/help.E.txt:37
 #, no-wrap
 msgid "put the cannon straight with <c/>aim(0);<n/>"
 msgstr "установите пушку прямо <c/>aim(0);<n/>"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter001/level001/help/help.E.txt:38
+#: ../help/help.E.txt:38
 #, no-wrap
 msgid "shoot the spider straight ahead with <c/>fire(1);<n/>"
 msgstr "выстрельте в паука прямо перед собой <c/>fire(1);<n/>"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter001/level001/help/help.E.txt:39
+#: ../help/help.E.txt:39
 #, no-wrap
 msgid "turn 90 degrees left with <code>turn(90)</code>"
 msgstr "поверните бота на 90 градусов влево <code>turn(90)</code>"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter001/level001/help/help.E.txt:40
+#: ../help/help.E.txt:40
 #, no-wrap
 msgid "shoot with <c/>fire(1);<n/>"
 msgstr "стреляйте <c/>fire(1);<n/>"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter001/level001/help/help.E.txt:41
+#: ../help/help.E.txt:41
 #, no-wrap
 msgid "etc."
 msgstr "и т.п."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:44
+#: ../help/help.E.txt:43
 #, no-wrap
 msgid "Here is the program that does all this :"
 msgstr "Вот программа, которое все это делает :"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level001/help/help.E.txt:54
+#. type: Source code
+#: ../help/help.E.txt:45
 #, no-wrap
 msgid ""
 "extern void object::Spider1( )\n"
@@ -239,43 +233,43 @@ msgstr ""
 "}"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:56
+#: ../help/help.E.txt:55
 #, no-wrap
 msgid "It is up to you now to write the rest of the program!"
 msgstr "Теперь вы должны сами окончить эту программу!"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:58
+#: ../help/help.E.txt:57
 #, no-wrap
 msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
 msgstr "Если у вас возникнут проблемы, вы можете посмотреть решение: выберите программу <code>Solution</code> в левом нижнем углу экрана и нажмите кнопку со скобками <button 22/>. Вы даже можете запустить программу решения, нажав кнопку со стрелкой <button 21/>."
 
 #. type: \t; header
-#: levels/exercises/chapter001/level001/help/help.E.txt:59
+#: ../help/help.E.txt:59
 #, no-wrap
 msgid "Remarks"
 msgstr "Комментарии"
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:61
+#: ../help/help.E.txt:60
 #, no-wrap
 msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
 msgstr "Будьте осторожны и пишите инструкции последовательно, соблюдая верхний и нижний регистр букв."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:63
+#: ../help/help.E.txt:62
 #, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
 msgstr "В каждой строке всегда пишите только одну инструкцию, заканчивая каждую строку точкой с запятой."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:65
+#: ../help/help.E.txt:64
 #, no-wrap
 msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
 msgstr "Если вдруг ваша программа делает не совсем то, что хотелось бы, вы можете вернуть бота обратно в стартовую точку, нажав кнопку <button 59/> . Вы также можете начать все с самого начала (нажмите кнопку \"Esc\" и выберите \"Заново\"). Написанная вами программа будет сохранена."
 
 #. type: Plain text
-#: levels/exercises/chapter001/level001/help/help.E.txt:66
+#: ../help/help.E.txt:66
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times."
 msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время."

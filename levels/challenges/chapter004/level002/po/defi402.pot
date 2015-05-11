@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -16,75 +16,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: One-char language identifier
-#: levels-po/challenges/chapter004/level002/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr ""
-
 #. type: Title-text
-#: levels/challenges/chapter004/level002/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Spiral 2"
 msgstr ""
 
 #. type: Resume-text
-#: levels/challenges/chapter004/level002/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Create a procedure in order to teach your bot to perform a spiral."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/challenges/chapter004/level002/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Move"
 msgstr ""
 
 #. type: \b; header
-#: levels/challenges/chapter004/level002/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
-#. type: Plain text
-#: levels/challenges/chapter004/level002/help/help.E.txt:3
-#, no-wrap
-msgid ""
-"Follow the way in form of a spiral. The bot must move 2 times 25m forward "
-"and turn, then move 2 times 20m forward and turn, and so on.\n"
-msgstr ""
-
 #. type: Image filename
-#: levels/challenges/chapter004/level002/help/help.E.txt:3
+#: ../help/help.E.txt:3
 #, no-wrap
 msgid "tproc2"
 msgstr ""
 
 #. type: \b; header
-#: levels/challenges/chapter004/level002/help/help.E.txt:5
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "Function"
 msgstr ""
 
 #. type: Plain text
-#: levels/challenges/chapter004/level002/help/help.E.txt:7
+#: ../help/help.E.txt:6
 #, no-wrap
-msgid ""
-"You will have noticed that the way is made of \"L\"-shaped parts that are "
-"fit one into another. The first one (dark blue) measures two times 25 "
-"meters. The second one (light blue) measures 5 meters less. Let us start "
-"with writing the <a cbot|function>function</a> that will move the bot on a "
-"\"L\"-shaped part whose length will be given as a parameter."
+msgid "You will have noticed that the way is made of \"L\"-shaped parts that are fit one into another. The first one (dark blue) measures two times 25 meters. The second one (light blue) measures 5 meters less. Let us start with writing the <a cbot|function>function</a> that will move the bot on a \"L\"-shaped part whose length will be given as a parameter."
 msgstr ""
 
 #. type: \b; header
-#: levels/challenges/chapter004/level002/help/help.E.txt:8
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "Useful instructions"
 msgstr ""
 
 #. type: Plain text
-#: levels/challenges/chapter004/level002/help/help.E.txt:12
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid ""
 "<code><a cbot|for>for</a></code> loop to repeat some instructions\n"
@@ -93,15 +74,19 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: levels/challenges/chapter004/level002/help/help.E.txt:13
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/challenges/chapter004/level002/help/help.E.txt:14
+#: ../help/help.E.txt:14
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on."
 msgstr ""
