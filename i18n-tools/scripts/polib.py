@@ -405,7 +405,7 @@ class _BaseFile(list):
             e.flags.append('fuzzy')
         return e
 
-    def save(self, fpath=None, repr_method='__unicode__'):
+    def save(self, fpath=None, repr_method='__unicode__', newline=None):
         """
         Saves the po file to ``fpath``.
         If it is an existing file and no ``fpath`` is provided, then the
@@ -427,7 +427,7 @@ class _BaseFile(list):
         if repr_method == 'to_binary':
             fhandle = open(fpath, 'wb')
         else:
-            fhandle = io.open(fpath, 'w', encoding=self.encoding)
+            fhandle = io.open(fpath, 'w', encoding=self.encoding, newline=newline)
             if not isinstance(contents, text_type):
                 contents = contents.decode(self.encoding)
         fhandle.write(contents)

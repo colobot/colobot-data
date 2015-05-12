@@ -99,7 +99,7 @@ class TemplateFile:
     """
     def merge_and_save(self):
         self.previous_catalog.merge(self.current_catalog)
-        self.previous_catalog.save(self.file_name)
+        self.previous_catalog.save(self.file_name, newline='\n')
 
 """
     Wrapper class over POFile, acting as language translation file
@@ -135,7 +135,7 @@ class LanguageFile:
     """
     def merge_and_save(self, template_file):
         self.catalog.merge(template_file.current_catalog)
-        self.catalog.save(self.file_name)
+        self.catalog.save(self.file_name, newline='\n')
 
 """
     Locates the translation files in po_dir
@@ -208,9 +208,9 @@ class TranslationJob:
             self._close_files()
 
     def _open_files(self):
-        self._input_file = io.open(self._input_file_name, 'r', encoding='utf-8')
+        self._input_file = io.open(self._input_file_name, 'r', encoding='utf-8', newline='\n')
         if self._output_file_name:
-            self._output_file = io.open(self._output_file_name, 'w', encoding='utf-8')
+            self._output_file = io.open(self._output_file_name, 'w', encoding='utf-8', newline='\n')
 
     def _close_files(self):
         self._input_file.close()
