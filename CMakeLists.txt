@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-find_package(PythonInterp 2.6)
+find_package(PythonInterp 2.7)
 
 if(NOT PYTHONINTERP_FOUND)
     message(WARNING "Python not found, help and level files will NOT be translated!")
