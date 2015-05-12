@@ -17,55 +17,55 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: Plain text
-#: help/generic/E/authors.txt:2
+#: ../E/authors.txt:1
 #, no-wrap
-msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC\n"
+msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
 msgstr ""
 
 #. type: Bullet: '-'
-#: help/generic/E/authors.txt:2
+#: ../E/authors.txt:2
 #, no-wrap
 msgid "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
 msgstr ""
 
 #. type: Bullet: '-'
-#: help/generic/E/authors.txt:3
+#: ../E/authors.txt:3
 #, no-wrap
 msgid "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
 msgstr ""
 
 #. type: Bullet: '-'
-#: help/generic/E/authors.txt:4
+#: ../E/authors.txt:4
 #, no-wrap
 msgid "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/authors.txt:7
+#: ../E/authors.txt:6
 #, no-wrap
-msgid "Colobot: Gold Edition developers\n"
+msgid "Colobot: Gold Edition developers"
 msgstr ""
 
 #. type: Bullet: '-'
-#: help/generic/E/authors.txt:7
+#: ../E/authors.txt:7
 #, no-wrap
 msgid "TerranovaTeam: https://github.com/orgs/colobot/members"
 msgstr ""
 
 #. type: Bullet: '-'
-#: help/generic/E/authors.txt:8
+#: ../E/authors.txt:8
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
 msgstr ""
 
 #. type: \b; header
-#: help/generic/E/cbot.txt:1
+#: ../E/cbot.txt:1
 #, no-wrap
 msgid "Programming - the CBOT language"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:4
+#: ../E/cbot.txt:2
 #, no-wrap
 msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
@@ -73,49 +73,49 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: 'o'
-#: help/generic/E/cbot.txt:5
+#: ../E/cbot.txt:5
 #, no-wrap
 msgid "<code><format token>Instructions</format></code>"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:7
+#: ../E/cbot.txt:6
 #, no-wrap
 msgid "In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. "
 msgstr ""
 
 #. type: Bullet: 'o'
-#: help/generic/E/cbot.txt:8
+#: ../E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:10
+#: ../E/cbot.txt:9
 #, no-wrap
 msgid "The <a cbot|type>type</a> of a variable appears with a green background. "
 msgstr ""
 
 #. type: Bullet: 'o'
-#: help/generic/E/cbot.txt:11
+#: ../E/cbot.txt:11
 #, no-wrap
 msgid "<code><format const>Constants</format></code>"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:13
+#: ../E/cbot.txt:12
 #, no-wrap
 msgid "Constants like <a cbot|category>categories</a> are displayed with a red background. "
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:14
+#: ../E/cbot.txt:14
 #, no-wrap
 msgid "Instructions in the CBOT language:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:25
+#: ../E/cbot.txt:15
 #, no-wrap
 msgid ""
 "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
@@ -131,13 +131,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:26
+#: ../E/cbot.txt:26
 #, no-wrap
 msgid "Specific instructions for bots:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:41
+#: ../E/cbot.txt:27
 #, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a>      </code>Object detection\n"
@@ -157,13 +157,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:42
+#: ../E/cbot.txt:42
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:46
+#: ../E/cbot.txt:43
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
@@ -172,13 +172,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:47
+#: ../E/cbot.txt:47
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:56
+#: ../E/cbot.txt:48
 #, no-wrap
 msgid ""
 "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
@@ -192,13 +192,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:57
+#: ../E/cbot.txt:57
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:62
+#: ../E/cbot.txt:58
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -208,13 +208,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:63
+#: ../E/cbot.txt:63
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:71
+#: ../E/cbot.txt:64
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -227,13 +227,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:72
+#: ../E/cbot.txt:72
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:81
+#: ../E/cbot.txt:73
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -247,13 +247,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:82
+#: ../E/cbot.txt:82
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr ""
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:89
+#: ../E/cbot.txt:83
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -265,38 +265,37 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: help/generic/E/cbot.txt:90
-#: help/generic/E/freehelp.txt:4
+#: ../E/cbot.txt:90 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: help/generic/E/cbot.txt:91
+#: ../E/cbot.txt:91
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: help/generic/E/command.txt:1
+#: ../E/command.txt:1
 #, no-wrap
 msgid "Controls"
 msgstr "Управление"
 
 #. type: Plain text
-#: help/generic/E/command.txt:3
+#: ../E/command.txt:2
 #, no-wrap
 msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
 msgstr "Советуем играть, держа одну руку на кнопках со стрелками, а вторую - на мыши."
 
 #. type: \t; header
-#: help/generic/E/command.txt:4
+#: ../E/command.txt:4
 #, no-wrap
 msgid "Bots"
 msgstr "Боты"
 
 #. type: Plain text
-#: help/generic/E/command.txt:10
+#: ../E/command.txt:5
 #, no-wrap
 msgid ""
 "<format key><key left/></format> = turn left\n"
@@ -312,7 +311,7 @@ msgstr ""
 "Эти клавиши управления недоступны при работе с <a object|bottr>учебными ботами</a>."
 
 #. type: Plain text
-#: help/generic/E/command.txt:14
+#: ../E/command.txt:11
 #, no-wrap
 msgid ""
 "<format key><key gup/></format> = take off and climb <button 28/>\n"
@@ -324,7 +323,7 @@ msgstr ""
 "Конечно же, этими клавишами могут пользоваться только <a object|human>астронавт</a> и различные <a object|botgj>летающие боты</a>."
 
 #. type: Plain text
-#: help/generic/E/command.txt:20
+#: ../E/command.txt:15
 #, no-wrap
 msgid ""
 "mouse forward = higher aim\n"
@@ -340,7 +339,7 @@ msgstr ""
 "Эти движения доступны только для <a object|botfr>стрелков</a>, <a object|botor>орга-стрелков</a> и <a object|botphaz>фазерного стрелка</a>."
 
 #. type: Plain text
-#: help/generic/E/command.txt:23
+#: ../E/command.txt:21
 #, no-wrap
 msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
@@ -350,13 +349,13 @@ msgstr ""
 "Эта клавиша, например, управляет рукой <a object|botgr>сборщика</a> или производит <a object|botfr>выстрел</a> <button 42/>."
 
 #. type: \t; header
-#: help/generic/E/command.txt:24
+#: ../E/command.txt:24
 #, no-wrap
 msgid "Selections"
 msgstr "Выделения"
 
 #. type: Plain text
-#: help/generic/E/command.txt:28
+#: ../E/command.txt:25
 #, no-wrap
 msgid ""
 "<format key><key next/></format> = selects next object\n"
@@ -368,13 +367,13 @@ msgstr ""
 "<format key><key desel/></format> = предыдущий объект <button 10/>"
 
 #. type: \t; header
-#: help/generic/E/command.txt:29
+#: ../E/command.txt:29
 #, no-wrap
 msgid "Camera"
 msgstr "Камера"
 
 #. type: Plain text
-#: help/generic/E/command.txt:34
+#: ../E/command.txt:30
 #, no-wrap
 msgid ""
 "<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
@@ -388,13 +387,13 @@ msgstr ""
 "<format key><key visit/></format> = останавливает игру и показывает место, откуда появилось последнее сообщение. Нажмите еще раз, чтобы увидеть место, где появилось предыдущее сообщение."
 
 #. type: \t; header
-#: help/generic/E/command.txt:35
+#: ../E/command.txt:35
 #, no-wrap
 msgid "Help"
 msgstr "Помощь"
 
 #. type: Plain text
-#: help/generic/E/command.txt:38
+#: ../E/command.txt:36
 #, no-wrap
 msgid ""
 "<format key><key help/></format> = mission instructions\n"
@@ -404,13 +403,13 @@ msgstr ""
 "<format key><key prog/></format> = помощь в программировании"
 
 #. type: \t; header
-#: help/generic/E/command.txt:39
+#: ../E/command.txt:39
 #, no-wrap
 msgid "Game"
 msgstr "Игра"
 
 #. type: Plain text
-#: help/generic/E/command.txt:44
+#: ../E/command.txt:40
 #, no-wrap
 msgid ""
 "<format key><key speed10/></format> = normal speed x1\n"
@@ -424,55 +423,55 @@ msgstr ""
 "<format key><key quit/></format> = выход из миссии <button 11/>"
 
 #. type: Plain text
-#: help/generic/E/command.txt:45
+#: ../E/command.txt:45
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
 msgstr "Все эти клавиши можно переназначить в меню опции/управление."
 
 #. type: \b; header
-#: help/generic/E/freehelp.txt:1
+#: ../E/freehelp.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr "Задание"
 
 #. type: Plain text
-#: help/generic/E/freehelp.txt:3
+#: ../E/freehelp.txt:2
 #, no-wrap
 msgid "Here you can play around without any definite objective. You can do whatever you want, explore the region, build a base camp and several bots, run various research programs, kill the insects if you find some, etc."
 msgstr "Здесь вы можете играть безо всякой определенной цели. Вы можете делать все, что хотите, исследовать местность, создать базу и ботов, начать разнообразные исследовательские программы, убивать насекомых, которых вы встретите и т.п."
 
 #. type: Plain text
-#: help/generic/E/freehelp.txt:5
+#: ../E/freehelp.txt:5
 #, no-wrap
 msgid "<a command>Controls</a>."
 msgstr "<a command>Управление</a>."
 
 #. type: Plain text
-#: help/generic/E/licences.txt:2
+#: ../E/licences.txt:1
 #, no-wrap
 msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
 msgstr "Фотография туманности NGC3606, освещающей небо Орфея и программа установки были получены с помощью космического телескопа Хаббл. Она используется с лоюбезного разрешения авторов Вольфганга Бранднера (JPL/IPAC), Эвы K. Гребель (Вашингтонский университет), Ю-Хуа Чу (Университет Иллинойса) и NASA."
 
 #. type: Plain text
-#: help/generic/E/licences.txt:3
+#: ../E/licences.txt:3
 #, no-wrap
 msgid "The thunder sound on Orpheon is used by limited permission from CREATIVE."
 msgstr "Звук грома на Орфее используется по ограниченному разрешению CREATIVE."
 
 #. type: \b; header
-#: help/generic/E/navig.txt:1
+#: ../E/navig.txt:1
 #, no-wrap
 msgid "Navigation"
 msgstr "Навигация"
 
 #. type: Plain text
-#: help/generic/E/navig.txt:3
+#: ../E/navig.txt:2
 #, no-wrap
 msgid "The three buttons on the upper left-hand corner of the screen allow you to navigate in the different texts of the help file:"
 msgstr "Три клавиши, размещенные в левом верхнем углу экрана, позволяют вам перемещаться по разнообразному тексту файла помощи:"
 
 #. type: Plain text
-#: help/generic/E/navig.txt:6
+#: ../E/navig.txt:4
 #, no-wrap
 msgid ""
 "<button 30/> Home\n"
@@ -482,7 +481,7 @@ msgstr ""
 "Возврат к домашней странице, то есть к первой отображенной странице. Например, когда вы нажимаете клавишу <format key><key help/></format> или <format key><key prog/></format> ."
 
 #. type: Plain text
-#: help/generic/E/navig.txt:9
+#: ../E/navig.txt:7
 #, no-wrap
 msgid ""
 "<button 55/> Previous\n"
@@ -492,7 +491,7 @@ msgstr ""
 "Возврат к предыдущей странице, то есть к той странице, которая была отображена в то время, когда вы щелкнули на ссылке."
 
 #. type: Plain text
-#: help/generic/E/navig.txt:12
+#: ../E/navig.txt:10
 #, no-wrap
 msgid ""
 "<button 48/> Next\n"
@@ -502,13 +501,13 @@ msgstr ""
 "Снова перейти на следующую страницу, после того, как вы нажимали кнопки \"Домой\" или \"Назад\"."
 
 #. type: \t; header
-#: help/generic/E/navig.txt:13
+#: ../E/navig.txt:13
 #, no-wrap
 msgid "Remark"
 msgstr "Комментарий"
 
 #. type: Plain text
-#: help/generic/E/navig.txt:16
+#: ../E/navig.txt:14
 #, no-wrap
 msgid ""
 "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
@@ -518,31 +517,31 @@ msgstr ""
 "Этот комментарий может быть применен для всех кнопок игры COLOBOT."
 
 #. type: \t; header
-#: help/generic/E/navig.txt:17
+#: ../E/navig.txt:17
 #, no-wrap
 msgid "Text scrolling"
 msgstr "Прокрутка текста"
 
 #. type: Plain text
-#: help/generic/E/navig.txt:19
+#: ../E/navig.txt:18
 #, no-wrap
 msgid "If your mouse is equipped with a wheel, you can use it to scroll the text up and down. Otherwise, use the arrow keys and the scroll bar on the right-hand side of the screen."
 msgstr "Если на вашей мышке есть колесо, вы можете использовать его для прокрутки текста вверх или вниз. Если же колеса нет, воспользуйтесь клавишами со стрелками или полосой прокрутки в правой части экрана."
 
 #. type: \t; header
-#: help/generic/E/navig.txt:20
+#: ../E/navig.txt:20
 #, no-wrap
 msgid "Font size"
 msgstr "Размер шрифта"
 
 #. type: Plain text
-#: help/generic/E/navig.txt:21
+#: ../E/navig.txt:21
 #, no-wrap
 msgid "The cursor on the upper side of the screen allows you to change the font size of the text."
 msgstr "Курсор в верхней части экрана позволяет вам менять размер шрифта."
 
 #. type: Plain text
-#: help/generic/E/win.txt:3
+#: ../E/win.txt:2
 #, no-wrap
 msgid ""
 "Houston congratulates you in the name of mankind for the success of your mission.\n"

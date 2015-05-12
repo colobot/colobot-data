@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -16,52 +16,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter002/level006/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr ""
-
 #. type: Title-text
-#: levels/exercises/chapter002/level006/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Wasp Hunter 1"
 msgstr ""
 
-#. type: Plain text
-#: levels/exercises/chapter002/level006/help/help.E.txt:3
+#. type: Resume-text, Plain text
+#: ../scene.txt:2 ../help/help.E.txt:2
 #, no-wrap
 msgid "Shoot down the flying wasps."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/exercises/chapter002/level006/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Wasp1"
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter002/level006/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter002/level006/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter002/level006/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
-msgid ""
-"Here is again the program of the previous exercise that shoots all ants and "
-"adapts to the terrain:"
+msgid "Here is again the program of the previous exercise that shoots all ants and adapts to the terrain:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter002/level006/help/help.E.txt:36
+#. type: Source code
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid ""
 "extern void object::JetFighter2()\n"
@@ -72,8 +64,7 @@ msgid ""
 "\t\n"
 "\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienAnt, 0, 360, 0, "
-"20) == null)\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienAnt, 0, 360, 0, 20) == null)\n"
 "\t\t{\n"
 "\t\t\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
 "\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
@@ -97,50 +88,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter002/level006/help/help.E.txt:38
+#: ../help/help.E.txt:37
 #, no-wrap
-msgid ""
-"In order to adapt the program to shooting wasps, you need to make a few "
-"changes. Replace all <code>radar(AlienAnt)</code> with "
-"<code>radar(AlienWasp)</code>. The cannon must aim straight forward and not "
-"downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must "
-"fly at the same height as the wasp. For this, you must compare the altitude "
-"of the bot given by <code>position.z</code> with the altitude of the wasp "
-"given by <code>item.position.z</code>: if <code>position.z > "
-"item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If "
-"<code>position.z < item.position.z-1</code>, climb slowly with "
-"<c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is "
-"better if the altitude of the bot is a little lower than the altitude of the "
-"wasp. In this case, we admit that the altitude of the bot ranges between the "
-"altitude of the wasp and the altitude of the wasp minus 1."
+msgid "In order to adapt the program to shooting wasps, you need to make a few changes. Replace all <code>radar(AlienAnt)</code> with <code>radar(AlienWasp)</code>. The cannon must aim straight forward and not downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must fly at the same height as the wasp. For this, you must compare the altitude of the bot given by <code>position.z</code> with the altitude of the wasp given by <code>item.position.z</code>: if <code>position.z > item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If <code>position.z < item.position.z-1</code>, climb slowly with <c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is better if the altitude of the bot is a little lower than the altitude of the wasp. In this case, we admit that the altitude of the bot ranges between the altitude of the wasp and the altitude of the wasp minus 1."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter002/level006/help/help.E.txt:39
+#: ../help/help.E.txt:39
 #, no-wrap
 msgid "Further improvement"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter002/level006/help/help.E.txt:41
+#: ../help/help.E.txt:40
 #, no-wrap
-msgid ""
-"Wasps move very fast. In order to increase your chances to get them, better "
-"to repeat just before the <c/>fire(1);<n/> a <code>radar</code> and a "
-"<code>turn</code> in order to perform a last readjustment of the direction "
-"before the shot."
+msgid "Wasps move very fast. In order to increase your chances to get them, better to repeat just before the <c/>fire(1);<n/> a <code>radar</code> and a <code>turn</code> in order to perform a last readjustment of the direction before the shot."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter002/level006/help/help.E.txt:42
+#: ../help/help.E.txt:42
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter002/level006/help/help.E.txt:43
+#: ../help/help.E.txt:43
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""

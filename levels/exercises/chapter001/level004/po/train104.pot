@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -16,152 +16,110 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter001/level004/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr ""
-
 #. type: Title-text
-#: levels/exercises/chapter001/level004/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Titanium 2"
 msgstr ""
 
 #. type: Resume-text
-#: levels/exercises/chapter001/level004/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
-msgid ""
-"Use the bot's radar to look for the titanium ore and bring it to the "
-"converter."
+msgid "Use the bot's radar to look for the titanium ore and bring it to the converter."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/exercises/chapter001/level004/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Titanium2"
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter001/level004/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
-msgid ""
-"Take a chunk of <a object|titanore>titanium ore</a> the exact location of "
-"which we do not know. Use the bot's radar to find it. Bring the titanium ore "
-"to the <a object|convert>converter</a>."
+msgid "Take a chunk of <a object|titanore>titanium ore</a> the exact location of which we do not know. Use the bot's radar to find it. Bring the titanium ore to the <a object|convert>converter</a>."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter001/level004/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
-msgid ""
-"As you have certainly noticed, the programs written in the previous "
-"exercises were completely \"blind\": if the titanium ore, the power cell or "
-"the spiders had been at another location, the bot would not have found them."
+msgid "As you have certainly noticed, the programs written in the previous exercises were completely \"blind\": if the titanium ore, the power cell or the spiders had been at another location, the bot would not have found them."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:8
+#: ../help/help.E.txt:7
 #, no-wrap
-msgid ""
-"The radar represents the \"eyes\" of the bot. With the radar, it can detect "
-"the objects around it. For example the instruction <c/><a "
-"cbot|radar>radar</a>(TitaniumOre);<n/> will return information about the "
-"closest chunk of <a object|titanore>titanium ore</a>. However, we will have "
-"to \"store\" the information returned by the instruction <c/><a "
-"cbot|radar>radar</a>(TitaniumOre);<n/> somewhere. For this task we will need "
-"a <a cbot|var>variable</a>."
+msgid "The radar represents the \"eyes\" of the bot. With the radar, it can detect the objects around it. For example the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> will return information about the closest chunk of <a object|titanore>titanium ore</a>. However, we will have to \"store\" the information returned by the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> somewhere. For this task we will need a <a cbot|var>variable</a>."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:10
+#: ../help/help.E.txt:9
 #, no-wrap
-msgid ""
-"A <a cbot|var>variable</a> is like a small box with a name where you can put "
-"some information, retrieve it, change it, etc. Before you can use a "
-"variable, you have got to declare it. First you must indicate the <a "
-"cbot|type>type</a> of the variable, in this case <code>object</code>. A "
-"variable of this type can contain all the information describing an object "
-"such as a chunk of titanium ore, a spider, an ant, a bot, a power cell, "
-"etc. Then you must write the name that you want to give to the variable, for "
-"example <code>item</code>. If we put this together, we get the following "
-"line:"
+msgid "A <a cbot|var>variable</a> is like a small box with a name where you can put some information, retrieve it, change it, etc. Before you can use a variable, you have got to declare it. First you must indicate the <a cbot|type>type</a> of the variable, in this case <code>object</code>. A variable of this type can contain all the information describing an object such as a chunk of titanium ore, a spider, an ant, a bot, a power cell, etc. Then you must write the name that you want to give to the variable, for example <code>item</code>. If we put this together, we get the following line:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level004/help/help.E.txt:12
+#. type: Source code
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a cbot|type>object</a> item;"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:14
+#: ../help/help.E.txt:13
 #, no-wrap
-msgid ""
-"Then we must put the information returned by the instruction <code><a "
-"cbot|radar>radar</a>(TitaniumOre)</code> into this variable:"
+msgid "Then we must put the information returned by the instruction <code><a cbot|radar>radar</a>(TitaniumOre)</code> into this variable:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level004/help/help.E.txt:16
+#. type: Source code
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid "item = <a cbot|radar>radar</a>(TitaniumOre);"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:18
+#: ../help/help.E.txt:17
 #, no-wrap
-msgid ""
-"The variable <code>item</code> contains many different kinds of information: "
-"it contains the position, the orientation, the pitch, etc. In order to get "
-"the position of the chunk of titanium ore, write "
-"<code>item.position</code>. Then we use the instruction <c/>goto();<n/> in "
-"order to move the bot to this position. Here is a line that puts all this "
-"together:"
+msgid "The variable <code>item</code> contains many different kinds of information: it contains the position, the orientation, the pitch, etc. In order to get the position of the chunk of titanium ore, write <code>item.position</code>. Then we use the instruction <c/>goto();<n/> in order to move the bot to this position. Here is a line that puts all this together:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level004/help/help.E.txt:20
+#. type: Source code
+#: ../help/help.E.txt:19
 #, no-wrap
 msgid "<a cbot|goto>goto</a>(item.position);"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:22
+#: ../help/help.E.txt:21
 #, no-wrap
-msgid ""
-"If we \"translate\" this into English, this would mean: go to the position "
-"of the object described by the variable <code>item</code>."
+msgid "If we \"translate\" this into English, this would mean: go to the position of the object described by the variable <code>item</code>."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:24
+#: ../help/help.E.txt:23
 #, no-wrap
-msgid ""
-"You can then just pick up what is at this position with the instruction "
-"<c/><a cbot|grab>grab</a>();<n/>."
+msgid "You can then just pick up what is at this position with the instruction <c/><a cbot|grab>grab</a>();<n/>."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:26
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid "If we put all this together, we get the following program:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level004/help/help.E.txt:36
+#. type: Source code
+#: ../help/help.E.txt:27
 #, no-wrap
 msgid ""
 "extern void object::Titanium2( )\n"
@@ -176,69 +134,55 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:38
+#: ../help/help.E.txt:37
 #, no-wrap
-msgid ""
-"Then you must look for the <a cbot|convert>converter</a>, and put the "
-"information about the converter into the variable <code>item</code>:"
+msgid "Then you must look for the <a cbot|convert>converter</a>, and put the information about the converter into the variable <code>item</code>:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter001/level004/help/help.E.txt:40
+#. type: Source code
+#: ../help/help.E.txt:39
 #, no-wrap
 msgid "item = <a cbot|radar>radar</a>(Converter);"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:42
+#: ../help/help.E.txt:41
 #, no-wrap
-msgid ""
-"Go to the converter with the same instruction <c/><a "
-"cbot|goto>goto</a>(item.position);<n/> as above, drop the titanium, and step "
-"back. The converter will take care of the rest."
+msgid "Go to the converter with the same instruction <c/><a cbot|goto>goto</a>(item.position);<n/> as above, drop the titanium, and step back. The converter will take care of the rest."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:44
+#: ../help/help.E.txt:43
 #, no-wrap
-msgid ""
-"If you want to know more about the \"names\" of the different objects in the "
-"programming language, please refer to the <a cbot|category>text about "
-"categories</a>."
+msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter001/level004/help/help.E.txt:45
+#: ../help/help.E.txt:45
 #, no-wrap
 msgid "Remarks"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:47
+#: ../help/help.E.txt:46
 #, no-wrap
-msgid ""
-"A <a cbot|var>variable</a> must be declared only once at the beginning of "
-"the program! You can then use it as often as you want."
+msgid "A <a cbot|var>variable</a> must be declared only once at the beginning of the program! You can then use it as often as you want."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:49
+#: ../help/help.E.txt:48
 #, no-wrap
-msgid ""
-"In order to avoid retyping the instructions explained above, you can select "
-"them with the mouse, and copy-paste <button 61/> them into your program."
+msgid "In order to avoid retyping the instructions explained above, you can select them with the mouse, and copy-paste <button 61/> them into your program."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter001/level004/help/help.E.txt:50
+#: ../help/help.E.txt:50
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter001/level004/help/help.E.txt:51
+#: ../help/help.E.txt:51
 #, no-wrap
-msgid ""
-"<a cbot>Programming</a>, <a cbot|type>types</a> and <a "
-"cbot|category>categories</a>."
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""

@@ -16,32 +16,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/missions/chapter003/level003/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "D"
-
 #. type: Title-text
-#: levels/missions/chapter003/level003/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "On the Offensive"
 msgstr ""
 
 #. type: Resume-text
-#: levels/missions/chapter003/level003/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Develop an offensive weapons system and confront the giant ants."
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter003/level003/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:4
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid ""
 "Terminate all hostile life-form.\n"
@@ -49,62 +43,61 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "The satellite has detected an energy source, on a spot marked by the previous expedition with a blue flag (blue cross on the mini-map)."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:8
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "Do not forget to take a look at the satellite report <button 186/> before you venture any further in a mission; we suspect that you have not always done this."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:10
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "We have improved the recharge program. Please refer to the page <button 53/>."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:12
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "A note of warning: bots cannot be submerged. If in doubt, test the water yourself if you plan to radio-control a non-winged bot across - water shouldn't be deeper than knee-level."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:14
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
-#: levels/missions/chapter003/level003/help/help.E.txt:15
-#: levels/missions/chapter003/level003/help/soluce.E.txt:12
+#: ../help/help.E.txt:15 ../help/soluce.E.txt:12
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/help.E.txt:16
+#: ../help/help.E.txt:16
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter003/level003/help/prog.E.txt:1
+#: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/prog.E.txt:3
+#: ../help/prog.E.txt:2
 #, no-wrap
 msgid "We have improved the recharge program. When it arrives at the <a object|station>power station</a>, the bot does not wait exactly 5 seconds, but only until the <a object|power>power cell</a> is fully charged. After the bot is back at the initial position, it displays a message on the screen."
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter003/level003/help/prog.E.txt:22
+#. type: Source code
+#: ../help/prog.E.txt:4
 #, no-wrap
 msgid ""
 "extern void object::Recharge2()\n"
@@ -128,49 +121,49 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter003/level003/help/prog.E.txt:23
+#: ../help/prog.E.txt:23
 #, no-wrap
 msgid "Archives"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/prog.E.txt:25
+#: ../help/prog.E.txt:24
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter003/level003/help/prog.E.txt:26
+#: ../help/prog.E.txt:26
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter003/level003/help/prog.E.txt:27
+#: ../help/prog.E.txt:27
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter003/level003/help/report.E.txt:1
+#: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/report.E.txt:3
+#: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter003/level003/help/report.E.txt:5
+#. type: Source code
+#: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/report.E.txt:10
+#: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
 "\\tab;Temperature:      29.6C\n"
@@ -180,14 +173,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter003/level003/help/report.E.txt:12
+#. type: Source code
+#: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/report.E.txt:15
+#: ../help/report.E.txt:12
 #, no-wrap
 msgid ""
 "\\tab;Energy source:    isolated (blue flag)\n"
@@ -195,14 +188,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter003/level003/help/report.E.txt:17
+#. type: Source code
+#: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/report.E.txt:20
+#: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants\n"
@@ -211,43 +204,43 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter003/level003/help/soluce.E.txt:1
+#: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
 msgstr ""
 
 #. type: Bullet: '1)'
-#: levels/missions/chapter003/level003/help/soluce.E.txt:2
+#: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "There is a <a object|titan>titanium cube</a> west of your present location, near the blue flag/blue cross on your mini map. You don't need to move the cube, just build a <a object|station>power station</a> right there on the spot."
 msgstr ""
 
 #. type: Bullet: '2)'
-#: levels/missions/chapter003/level003/help/soluce.E.txt:4
+#: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "With the titanium cubes on the spaceship, build a <a object|research>research center</a> and execute the <shooter cannon research program> <button 67/>."
 msgstr ""
 
 #. type: Bullet: '3)'
-#: levels/missions/chapter003/level003/help/soluce.E.txt:6
+#: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> and a <a object|botfj>winged shooter</a>. If this bot is destroyed by enemy fire, you will find some additional <a object|titan>titanium cubes</a> in a small foggy valley northwest of the spaceship. You can bring them back with the <a object|botgj>winged grabber</a><n/>."
 msgstr ""
 
 #. type: Bullet: '4)'
-#: levels/missions/chapter003/level003/help/soluce.E.txt:8
+#: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Build a <a object|radar>radar station</a> in order to see the location of the ants on the mini-map, and let the hunt begin. Be careful not to run out of energy and not to overheat the reactor of a bot while over water. If a bot falls into deep water, it explodes."
 msgstr ""
 
 #. type: Bullet: '5)'
-#: levels/missions/chapter003/level003/help/soluce.E.txt:10
+#: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Once you have killed all the ants, get on board and take off."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter003/level003/help/soluce.E.txt:13
+#: ../help/soluce.E.txt:13
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr ""

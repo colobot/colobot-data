@@ -16,81 +16,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/missions/chapter005/level002/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "D"
-
 #. type: Title-text
-#: levels/missions/chapter005/level002/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Invasion"
 msgstr ""
 
 #. type: Resume-text
-#: levels/missions/chapter005/level002/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Hold out against a giant ant invasion."
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter005/level002/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "Eliminate all hostile presence from the region."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/help.E.txt:5
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/help.E.txt:7
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/help.E.txt:9
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
-#: levels/missions/chapter005/level002/help/help.E.txt:10
-#: levels/missions/chapter005/level002/help/soluce.E.txt:8
+#: ../help/help.E.txt:10 ../help/soluce.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/help.E.txt:11
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter005/level002/help/prog.E.txt:1
+#: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/prog.E.txt:3
+#: ../help/prog.E.txt:2
 #, no-wrap
 msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter005/level002/help/prog.E.txt:22
+#. type: Source code
+#: ../help/prog.E.txt:4
 #, no-wrap
 msgid ""
 "extern void object::KillAnt1()\n"
@@ -114,67 +107,67 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter005/level002/help/prog.E.txt:23
+#: ../help/prog.E.txt:23
 #, no-wrap
 msgid "Archives"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/prog.E.txt:25
+#: ../help/prog.E.txt:24
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter005/level002/help/prog.E.txt:26
+#: ../help/prog.E.txt:26
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter005/level002/help/prog.E.txt:27
+#: ../help/prog.E.txt:27
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter005/level002/help/prog.E.txt:28
+#: ../help/prog.E.txt:28
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter005/level002/help/prog.E.txt:29
+#: ../help/prog.E.txt:29
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/missions/chapter005/level002/help/prog.E.txt:30
+#: ../help/prog.E.txt:30
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter005/level002/help/report.E.txt:1
+#: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/report.E.txt:3
+#: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter005/level002/help/report.E.txt:5
+#. type: Source code
+#: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/report.E.txt:10
+#: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
 "\\tab;Temperature:      38.4C\n"
@@ -184,14 +177,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter005/level002/help/report.E.txt:12
+#. type: Source code
+#: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/report.E.txt:15
+#: ../help/report.E.txt:12
 #, no-wrap
 msgid ""
 "\\tab;Energy source:    everywhere\n"
@@ -199,14 +192,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/missions/chapter005/level002/help/report.E.txt:17
+#. type: Source code
+#: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/report.E.txt:19
+#: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants approaching \n"
@@ -214,31 +207,31 @@ msgid ""
 msgstr ""
 
 #. type: \b; header
-#: levels/missions/chapter005/level002/help/soluce.E.txt:1
+#: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/soluce.E.txt:3
+#: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/soluce.E.txt:5
+#: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/soluce.E.txt:7
+#: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
 msgstr ""
 
 #. type: Plain text
-#: levels/missions/chapter005/level002/help/soluce.E.txt:9
+#: ../help/soluce.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr ""

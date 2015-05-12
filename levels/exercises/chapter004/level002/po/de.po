@@ -16,86 +16,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter004/level002/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "D"
-
 #. type: Title-text
-#: levels/exercises/chapter004/level002/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Radar"
 msgstr ""
 
 #. type: Resume-text
-#: levels/exercises/chapter004/level002/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Use the radar to find lots of stupid blue crosses."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/exercises/chapter004/level002/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Find"
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter004/level002/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:5
+#: ../help/help.E.txt:4
 #, no-wrap
-msgid "Repeat forever:\n"
+msgid "Repeat forever:"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter004/level002/help/help.E.txt:5
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "Look for a cross"
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter004/level002/help/help.E.txt:6
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "If there is none, stop the program."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter004/level002/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "Calculate the direction of the cross."
 msgstr ""
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter004/level002/help/help.E.txt:8
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "Set the speed of the motors in such a way that they will find their way to the cross."
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter004/level002/help/help.E.txt:10
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid "The program"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:12
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:16
+#. type: Source code
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid ""
 "<code>while ( true )\n"
@@ -105,25 +99,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:18
+#: ../help/help.E.txt:17
 #, no-wrap
 msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:19
+#. type: Source code
+#: ../help/help.E.txt:18
 #, no-wrap
 msgid "<c/>spot = radar(WayPoint);"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:21
+#: ../help/help.E.txt:20
 #, no-wrap
 msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:26
+#. type: Source code
+#: ../help/help.E.txt:21
 #, no-wrap
 msgid ""
 "<c/>if ( spot == null )  // no more ?\n"
@@ -134,31 +128,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:27
+#: ../help/help.E.txt:26
 #, no-wrap
 msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:29
+#: ../help/help.E.txt:28
 #, no-wrap
 msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:30
+#. type: Source code
+#: ../help/help.E.txt:29
 #, no-wrap
 msgid "<c/>dir = direction(spot.position);"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:32
+#: ../help/help.E.txt:31
 #, no-wrap
 msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:38
+#: ../help/help.E.txt:33
 #, no-wrap
 msgid ""
 "    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
@@ -169,25 +163,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:40
+#: ../help/help.E.txt:39
 #, no-wrap
 msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
 msgstr ""
 
 #. type: Image filename
-#: levels/exercises/chapter004/level002/help/help.E.txt:41
+#: ../help/help.E.txt:41
 #, no-wrap
 msgid "radar2"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:43
+#: ../help/help.E.txt:42
 #, no-wrap
 msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:47
+#. type: Source code
+#: ../help/help.E.txt:43
 #, no-wrap
 msgid ""
 "<c/>if ( dir < 0 )  // on the right side?\n"
@@ -197,13 +191,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:49
+#: ../help/help.E.txt:48
 #, no-wrap
 msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter004/level002/help/help.E.txt:53
+#. type: Source code
+#: ../help/help.E.txt:49
 #, no-wrap
 msgid ""
 "<code>else  // on the left side?\n"
@@ -213,19 +207,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:55
+#: ../help/help.E.txt:54
 #, no-wrap
 msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter004/level002/help/help.E.txt:56
+#: ../help/help.E.txt:56
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter004/level002/help/help.E.txt:57
+#: ../help/help.E.txt:57
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""

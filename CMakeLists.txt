@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
+find_package(PythonInterp 2.6)
+
+if(NOT PYTHONINTERP_FOUND)
+    message(WARNING "Python not found, help and level files will NOT be translated!")
+endif()
+
 if(NOT DEFINED COLOBOT_INSTALL_DATA_DIR)
     if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
         set(COLOBOT_INSTALL_DATA_DIR ${CMAKE_INSTALL_PREFIX}/data CACHE PATH "Colobot shared data directory")

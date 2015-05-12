@@ -16,110 +16,104 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter005/level001/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "P"
-
 #. type: Title-text
-#: levels/exercises/chapter005/level001/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Mover 1"
 msgstr "Poruszanie się 1"
 
 #. type: Resume-text
-#: levels/exercises/chapter005/level001/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve a titanium cube."
 msgstr "Zdobądź kostkę tytanu."
 
 #. type: ScriptName-text
-#: levels/exercises/chapter005/level001/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Mover"
 msgstr "Poruszanie"
 
 #. type: \b; header
-#: levels/exercises/chapter005/level001/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Ćwiczenie"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
 msgstr "Przenieś <a object|titan>kostkę tytanu</a> na platformę końcową. Pozycja tytanu nie jest znana, ale współrzędne platformy końcowej to: x=10, y=-60."
 
 #. type: \b; header
-#: levels/exercises/chapter005/level001/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "The instruction <code>goto</code>"
 msgstr "Instrukcja <code>goto</code>"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "In order to solve this problem easily, we will use a new way to move the bot with the instruction <code><a cbot|goto>goto</a></code>. With this instruction you can very easily reach every position, if you know the exact location in the form of its x and y coordinates. The bot will turn towards the goal, move forward, and even turn around any obstacle."
 msgstr "Aby łatwiej rozwiązać ten problem, użyjemy nowego sposobu poruszania robotem, instrukcji <code><a cbot|goto>goto</a></code>. Dzięki niej można bardzo łatwo dotrzeć do każdej pozycji, jeśli tylko znana jest jej dokładna lokalizacja w postaci współrzędnych x i y. Robot obróci się w kierunku celu, pojedzie naprzód, a nawet ominie napotkane przeszkody."
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:8
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "If we summarize, the following are the different ways to move a bot:"
 msgstr "Podsumowując, są trzy różne sposoby poruszania robotem:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter005/level001/help/help.E.txt:10
+#. type: Source code
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<code>motor(left, right)</code>"
 msgstr "<code>motor(lewy, prawy)</code>"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:11
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid "Allows a direct, precise control of the two motors, and allows you to stay in control of the motors at every fraction of a second."
 msgstr "Umożliwia ciągłą i bezpośrednią kontrolę nad oboma silnikami robota."
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter005/level001/help/help.E.txt:13
+#. type: Source code
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid "<code>move(distance)</code> and <code>turn(angle)</code>"
 msgstr "<code>move(distance)</code> i <code>turn(angle)</code>"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:14
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "Use these instructions in order to move forward of a certain distance, or to perform a rotation of a certain angle. All parameters are relative to the current position of the bot."
 msgstr "Użyj tych instrukcji do przemieszczania robota o określoną odległość lub obrotu o określony kąt. Wszystkie parametry odnoszą się do obecnej pozycji robota."
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter005/level001/help/help.E.txt:16
+#. type: Source code
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid "<code>goto(position)</code>"
 msgstr "<code>goto(pozycja)</code>"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:17
+#: ../help/help.E.txt:16
 #, no-wrap
 msgid "Allows you to reach easily a given absolute position."
 msgstr "Umożliwia łatwe dotarcie do podanej pozycji."
 
 #. type: \b; header
-#: levels/exercises/chapter005/level001/help/help.E.txt:18
+#: ../help/help.E.txt:18
 #, no-wrap
 msgid "The program"
 msgstr "Program"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:20
+#: ../help/help.E.txt:19
 #, no-wrap
 msgid "Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:"
 msgstr "Użyj instrukcji <c/><a cbot|radar>radar</a>(Titanium);<n/> do znalezienia kostki tytanu. Następnie sprawdź, czy kostka tytanu rzeczywiście została znaleziona. W tym ćwiczeniu ta linia nie jest bardzo przydatna, gdyż wiadomo, że gdzieś jest kostka tytanu. Jednakże warto wyrobić sobie nawyk sprawdzania danych podawanych przez radar:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter005/level001/help/help.E.txt:25
+#. type: Source code
+#: ../help/help.E.txt:21
 #, no-wrap
 msgid ""
 "object  item;\n"
@@ -133,25 +127,25 @@ msgstr ""
 "goto(item.position);"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:27
+#: ../help/help.E.txt:26
 #, no-wrap
 msgid "The variable <code>item</code> is of type <code><a cbot|object>object</a></code>. In order to know the exact location of the object described by the variable, just write <code>item.position</code>."
 msgstr "Zmienna <code>item</code> jest typu <code><a cbot|object>object</a></code>. Aby poznać dokładną pozycję obiektu opisywanego przez zmienną, wystarczy napisać <code>item.position</code>."
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:29
+#: ../help/help.E.txt:28
 #, no-wrap
 msgid "In order to take the titanium cube, use the instruction <code><a cbot|grab>grab</a>()</code> without any parameter."
 msgstr "Do podniesienia kostki tytanu użyj instrukcji <code><a cbot|grab>grab</a>()</code> bez parametrów."
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:31
+#: ../help/help.E.txt:30
 #, no-wrap
 msgid "In order to drop the titanium, use the instruction <code><a cbot|drop>drop</a>()</code> without any parameter."
 msgstr "Do upuszczenia tytanu użyj instrukcji <code><a cbot|drop>drop</a>()</code> bez parametrów."
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:34
+#: ../help/help.E.txt:32
 #, no-wrap
 msgid ""
 "We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
@@ -161,19 +155,19 @@ msgstr ""
 "Wskazówka: Nie musisz się przejmować współrzędną <code>z</code> w przypadku robotów nie potrafiących latać."
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:36
+#: ../help/help.E.txt:35
 #, no-wrap
 msgid "It is now up to you to finish the program..."
 msgstr "Do Ciebie należy dokończenie programu..."
 
 #. type: \t; header
-#: levels/exercises/chapter005/level001/help/help.E.txt:37
+#: ../help/help.E.txt:37
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: levels/exercises/chapter005/level001/help/help.E.txt:38
+#: ../help/help.E.txt:38
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."

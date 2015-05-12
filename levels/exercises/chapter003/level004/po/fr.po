@@ -16,41 +16,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter003/level004/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "F"
-
-#
 #. type: Title-text
-#: levels/exercises/chapter003/level004/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "Exchange posts 1"
 msgstr "Bornes 1"
 
-#
 #. type: Resume-text
-#: levels/exercises/chapter003/level004/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Collect valuable information from information exchange posts."
 msgstr "Récolter une information de direction, afin d'apprendre le concept de variable."
 
-#
 #. type: ScriptName-text
-#: levels/exercises/chapter003/level004/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Info"
 msgstr "Suivre"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level004/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr "Exercice"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:4
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid ""
 "Several <a object|exchange>information exchange posts</a> stand in the middle of a <a object|mine>mine</a> field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a <a object|mine>mine</a>.\n"
@@ -60,61 +51,61 @@ msgstr ""
 "Les bornes sont distantes de 20 mètres."
 
 #. type: \b; header
-#: levels/exercises/chapter003/level004/help/help.E.txt:5
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "General principe"
 msgstr "Principe"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:7
+#: ../help/help.E.txt:6
 #, no-wrap
-msgid "Repeat 5 times :\n"
-msgstr "Répéter 5 fois:\n"
+msgid "Repeat 5 times :"
+msgstr "Répéter 5 fois:"
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter003/level004/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "Move 20m forward."
 msgstr "Avancer de 20 mètres."
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter003/level004/help/help.E.txt:8
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "Read the direction of the next <a object|exchange>information exchange post</a>."
 msgstr "Lire la nouvelle direction dans la <a object|exchange>borne</a>."
 
 #. type: Bullet: 'o'
-#: levels/exercises/chapter003/level004/help/help.E.txt:9
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "Execute the necessary rotation."
 msgstr "Tourner de l'angle obtenu."
 
 #. type: Image filename
-#: levels/exercises/chapter003/level004/help/help.E.txt:11
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "tinfo1"
 msgstr "tinfo1"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:13
+#: ../help/help.E.txt:12
 #, no-wrap
 msgid "In order to repeat the steps above, use a <code><a cbot|for>for</a></code> loop, as we saw it before."
 msgstr "La répétition s'effectue avec une boucle <code><a cbot|for>for</a></code> comme vu précédemment:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level004/help/help.E.txt:14
+#. type: Source code
+#: ../help/help.E.txt:13
 #, no-wrap
 msgid "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
 msgstr "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:16
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid "Move forward with the instruction <c/>move(20);<n/>."
 msgstr "L'avance s'effectue avec un <c/><a cbot|move>move</a>(20);<n/>."
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:19
+#: ../help/help.E.txt:17
 #, no-wrap
 msgid ""
 "Use the instruction <c/><a cbot|receive>receive</a>(\"Direction\");<n/> in order to read the information contained in the <a object|exchange>exchange post</a>. This is of course possible only when the bot is close enough to the exchange post.\n"
@@ -123,56 +114,56 @@ msgstr ""
 "La lecture de la <a object|exchange>borne</a> s'obtient avec <c/><a cbot|receive>receive</a>(\"Direction\");<n/>. Ceci n'est évidemment possible que lorsque le <a object|bottr>robot</a> est proche de la borne. L'orientation du robot n'a pas d'importance.\n"
 "Il faudra définir une <a cbot|var>variable</a> <code>dir</code>, juste avant de l'utiliser ou tout au début du programme, à choix:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level004/help/help.E.txt:20
+#. type: Source code
+#: ../help/help.E.txt:19
 #, no-wrap
 msgid "<c/>\tfloat  dir;"
 msgstr "<c/>\tfloat  dir;"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:22
+#: ../help/help.E.txt:21
 #, no-wrap
 msgid "Then retrieve the rotation angle from the exchange post, and put it into the variable:"
 msgstr "Et ensuite lui assigner la direction à prendre:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level004/help/help.E.txt:23
+#. type: Source code
+#: ../help/help.E.txt:22
 #, no-wrap
 msgid "<c/>\tdir = receive(...);"
 msgstr "<c/>\tdir = receive(\"Direction\");"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:25
+#: ../help/help.E.txt:24
 #, no-wrap
 msgid "Then you can execute the rotation:"
 msgstr "Ce qui permet de tourner dans la bonne direction avec:"
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level004/help/help.E.txt:26
+#. type: Source code
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid "<c/>\tturn(dir);"
 msgstr "<c/>\tturn(dir);"
 
 #. type: \b; header
-#: levels/exercises/chapter003/level004/help/help.E.txt:27
+#: ../help/help.E.txt:27
 #, no-wrap
 msgid "Remark"
 msgstr "Remarque"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:29
+#: ../help/help.E.txt:28
 #, no-wrap
 msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains only one value called <code>\"Direction\"</code>, but it can contain up to 10 different values, as you will see in some of the following exercises."
 msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient une seule information appelée <code>\"Direction\"</code>, mais une borne peut contenir jusqu'à 10 valeurs. Ceci sera utilisé dans des exercices ultérieurs."
 
 #. type: \t; header
-#: levels/exercises/chapter003/level004/help/help.E.txt:30
+#: ../help/help.E.txt:30
 #, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: levels/exercises/chapter003/level004/help/help.E.txt:31
+#: ../help/help.E.txt:31
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a ttit2>Exercice précédent</a> et <a cbot>programmation</a>."

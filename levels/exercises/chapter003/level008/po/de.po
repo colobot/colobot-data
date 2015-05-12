@@ -16,68 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: One-char language identifier
-#: levels-po/exercises/chapter003/level008/scene_langchar.txt:1
-#, no-wrap
-msgid "E"
-msgstr "D"
-
 #. type: Title-text
-#: levels/exercises/chapter003/level008/scene.txt:1
+#: ../scene.txt:1
 #, no-wrap
 msgid "The gold digger"
 msgstr ""
 
 #. type: Resume-text
-#: levels/exercises/chapter003/level008/scene.txt:2
+#: ../scene.txt:2
 #, no-wrap
 msgid "Instruct your bot to search a zone for subsoil resources."
 msgstr ""
 
 #. type: ScriptName-text
-#: levels/exercises/chapter003/level008/scene.txt:3
+#: ../scene.txt:3
 #, no-wrap
 msgid "Digger"
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter003/level008/help/help.E.txt:1
+#: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:3
+#: ../help/help.E.txt:2
 #, no-wrap
 msgid "Search the whole zone inside the barriers with the <a object|botsr>sniffer bot</a> for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross."
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter003/level008/help/help.E.txt:4
+#: ../help/help.E.txt:4
 #, no-wrap
 msgid "Description"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:6
+#: ../help/help.E.txt:5
 #, no-wrap
 msgid "The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters."
 msgstr ""
 
 #. type: Image filename
-#: levels/exercises/chapter003/level008/help/help.E.txt:7
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "sniff1"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:9
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops one into another:"
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level008/help/help.E.txt:22
+#. type: Source code
+#: ../help/help.E.txt:10
 #, no-wrap
 msgid ""
 "for ( int y=0 ; y<6 ; y=y+1 )\n"
@@ -95,7 +89,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:27
+#: ../help/help.E.txt:23
 #, no-wrap
 msgid ""
 "This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!\n"
@@ -104,8 +98,8 @@ msgid ""
 "The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
 msgstr ""
 
-#. type: \s; block (usually verbatim code)
-#: levels/exercises/chapter003/level008/help/help.E.txt:36
+#. type: Source code
+#: ../help/help.E.txt:28
 #, no-wrap
 msgid ""
 "if ( y%2 == 0 )\n"
@@ -119,31 +113,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:38
+#: ../help/help.E.txt:37
 #, no-wrap
 msgid "It is up to you to finish the program."
 msgstr ""
 
 #. type: \b; header
-#: levels/exercises/chapter003/level008/help/help.E.txt:39
+#: ../help/help.E.txt:39
 #, no-wrap
 msgid "Remark"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:41
+#: ../help/help.E.txt:40
 #, no-wrap
 msgid "Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a cbot|turn>turn</a>( )</code> to move the bot."
 msgstr ""
 
 #. type: \t; header
-#: levels/exercises/chapter003/level008/help/help.E.txt:42
+#: ../help/help.E.txt:42
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: levels/exercises/chapter003/level008/help/help.E.txt:43
+#: ../help/help.E.txt:43
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
