@@ -78,7 +78,7 @@ function(install_preserving_relative_paths
 
     foreach(output_file ${output_files})
             file(RELATIVE_PATH rel_output_file ${output_dir} ${output_file})
-            get_filename_component(rel_output_file_dir ${rel_output_file} DIRECTORY)
+            get_filename_component(rel_output_file_dir ${rel_output_file} PATH)
             install(FILES ${output_file} DESTINATION ${destination_dir}/${rel_output_file_dir})
     endforeach()
 
