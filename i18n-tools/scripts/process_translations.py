@@ -4,7 +4,7 @@ import argparse
 import os
 import sys
 
-from common import create_template_and_language_files, nice_mkdir
+from common import create_template_and_language_files, nice_mkdir, convert_input_path, convert_output_path
 from translate_help import create_help_translation_jobs
 from translate_level import create_level_translation_jobs
 from translate_chaptertitles import create_chaptertitles_translation_jobs
@@ -33,7 +33,15 @@ def parse_args():
     parser.add_argument('--signal_file',
                         help = 'Signal file to indicate successful operation')
 
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    args.input_dir     = convert_input_path(args.input_dir)
+    args.po_dir        = convert_input_path(args.po_dir)
+    args.output_dir    = convert_input_path(args.output_dir)
+    args.output_subdir = convert_input_path(args.output_subdir)
+    args.signal_file   = convert_input_path(args.signal_file)
+
+    return args
 
 def preprocess_args(args):
     if not os.path.isdir(args.input_dir):
@@ -73,8 +81,8 @@ def print_files(translation_jobs):
     input_files = []
     output_files = []
     for translation_job in translation_jobs:
-        input_files.append(translation_job.get_input_file_name())
-        output_files.append(translation_job.get_output_file_name())
+        input_files.append(convert_output_path(translation_job.get_input_file_name()))
+        output_files.append(convert_output_path(translation_job.get_output_file_name()))
 
     sys.stdout.write(';'.join(input_files))
     sys.stdout.write('\n')

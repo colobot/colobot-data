@@ -4,6 +4,19 @@ import os
 import polib
 
 """
+   Conversion functions to avoid mixed \ and / path separators under Windows
+"""
+def convert_input_path(slash_path):
+    if not slash_path:
+        return None
+    return slash_path.replace('/', os.sep)
+
+def convert_output_path(system_path):
+    if not system_path:
+        return None
+    return system_path.replace(os.sep, '/')
+
+"""
     Works like shell's "mkdir -p" and also behaves nicely if given None argument
 """
 def nice_mkdir(path):
@@ -55,7 +68,7 @@ class TemplateFile:
     """
     def insert_entry(self, text, occurrence, type_comment):
         entry = self.current_catalog.find(text)
-        relative_file_name = os.path.relpath(occurrence.file_name, self.dir_name)
+        relative_file_name = convert_output_path(os.path.relpath(occurrence.file_name, self.dir_name))
         occurrence = (relative_file_name, occurrence.line_number)
         if entry:
             entry.comment = self._merge_comment(entry.comment, type_comment)
