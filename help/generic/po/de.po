@@ -16,53 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: Plain text
-#: ../E/authors.txt:1
-#, no-wrap
-msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
-msgstr ""
-
 #. type: Bullet: '-'
 #: ../E/authors.txt:2
 #, no-wrap
 msgid "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
-msgstr ""
+msgstr "Daniel Roux                  - Adrien Roux       - Michael Jubin"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:3
 #, no-wrap
 msgid "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
-msgstr ""
+msgstr "Denis Dumoulin               - Didier Raboud     - Daniel Sauthier"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:4
 #, no-wrap
 msgid "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
-msgstr ""
-
-#. type: Plain text
-#: ../E/authors.txt:6
-#, no-wrap
-msgid "Colobot: Gold Edition developers"
-msgstr ""
+msgstr "Otto Kölbl                   - Nicolas Beuchat   - Nicolas Stubi"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:7
 #, no-wrap
 msgid "TerranovaTeam: https://github.com/orgs/colobot/members"
-msgstr ""
+msgstr "TerranovaTeam: https://github.com/orgs/colobot/members"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:8
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
-msgstr ""
+msgstr "Mitarbeiters auf GitHub: https://github.com/colobot/colobot/graphs/contributors"
 
 #. type: \b; header
 #: ../E/cbot.txt:1
 #, no-wrap
 msgid "Programming - the CBOT language"
-msgstr ""
+msgstr "Die Programmiersprache CBOT"
 
 #. type: Plain text
 #: ../E/cbot.txt:2
@@ -71,48 +59,50 @@ msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
+"CBOT ist den Standardprogrammiersprachen C++ und Java in Syntax und Struktur sehr ähnlich. Für den Zweck der Anwendung in Colobot und aus pädagogischen Gründen wurden einige Anpassungen vorgenommen.\n"
+"CBOT besteht wie jede objektorientierte Sprache aus Befehlen (siehe unten), <a cbot|bloc>Blöcken</a>, <a cbot|function>Funktionen</a>, <a cbot|class>Klassen</a>, <a cbot|var>Variablen</a>, <a cbot|array>Arrays</a>, <a cbot|expr>Ausdrücken</a> und <a cbot|cond>Bedingungen</a>."
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:5
 #, no-wrap
 msgid "<code><format token>Instructions</format></code>"
-msgstr ""
+msgstr "<code><format token>Befehle</format></code>"
 
 #. type: Plain text
 #: ../E/cbot.txt:6
 #, no-wrap
 msgid "In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr ""
+msgstr "Im Programmeditor werden Befehle in der CBOT-Sprache immer mit orangefarbenem Hintergrund angezeigt. Wenn ein Befehl keinen farbigen Hintergrund hat, wurde er nicht richtig geschrieben. Befehle werden immer in Kleinbuchstaben geschrieben. "
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
-msgstr ""
+msgstr "<code><format type>Typ</format></code>"
 
 #. type: Plain text
 #: ../E/cbot.txt:9
 #, no-wrap
 msgid "The <a cbot|type>type</a> of a variable appears with a green background. "
-msgstr ""
+msgstr "Der <a cbot|type>Typ</a> einer Variable erscheint immer mit grünem Hintergrund."
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:11
 #, no-wrap
 msgid "<code><format const>Constants</format></code>"
-msgstr ""
+msgstr "<code><format const>Konstanten</format></code>"
 
 #. type: Plain text
 #: ../E/cbot.txt:12
 #, no-wrap
 msgid "Constants like <a cbot|category>categories</a> are displayed with a red background. "
-msgstr ""
+msgstr "Konstanten werden wie <a cbot|category>Kategorien</a> immer mit rotem Hintergrund angezeigt.. "
 
 #. type: \t; header
 #: ../E/cbot.txt:14
 #, no-wrap
 msgid "Instructions in the CBOT language:"
-msgstr ""
+msgstr "Befehle der CBOT-Sprache:"
 
 #. type: Plain text
 #: ../E/cbot.txt:15
@@ -129,12 +119,22 @@ msgid ""
 "<code><a cbot|return>return</a>     </code>Exit from a function\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
 msgstr ""
+"<code><a cbot|extern>extern</a>     </code>Bezeichnet die Hauptfunktion\n"
+"<code><a cbot|if>if</a>         </code>Bedingte Struktur\n"
+"<code><a cbot|if>else</a>       </code>Alternative bedingte Struktur\n"
+"<code><a cbot|for>for</a>        </code>Schleifenstruktur\n"
+"<code><a cbot|while>while</a>      </code>Bedingte Schleifenstruktur\n"
+"<code><a cbot|do>do</a>         </code>Bedingte Schleifenstruktur\n"
+"<code><a cbot|break>break</a>      </code>Abbruch einer Schleife\n"
+"<code><a cbot|continue>continue</a>   </code>Neuanfang einer Schleife\n"
+"<code><a cbot|return>return</a>     </code>Rückkehr von einer Funktion\n"
+"<code><a cbot|sizeof>sizeof</a>     </code>Grösse eines Arrays"
 
 #. type: \t; header
 #: ../E/cbot.txt:26
 #, no-wrap
 msgid "Specific instructions for bots:"
-msgstr ""
+msgstr "Befehle für die Steuerung der Roboter:"
 
 #. type: Plain text
 #: ../E/cbot.txt:27
@@ -155,12 +155,26 @@ msgid ""
 "<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
 "<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time"
 msgstr ""
+"<code><a cbot|radar>radar</a>      </code>Sucht ein Objekt einer bestimmten Kategorie\n"
+"<code><a cbot|direct>direction</a>  </code>Berechnet einen Rotationswinkel\n"
+"<code><a cbot|dist>distance</a>   </code>Berechnet die Distanz zwischen zwei Objekten\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Berechnet eine Distanz ohne Höhenunterschied\n"
+"<code><a cbot|wait>wait</a>       </code>Wartet\n"
+"<code><a cbot|move>move</a>       </code>Geradlinige Bewegung vorwärts/rückwärts\n"
+"<code><a cbot|turn>turn</a>       </code>Drehung auf der Stelle\n"
+"<code><a cbot|goto>goto</a>       </code>Geht zu einer angegebenen Position\n"
+"<code><a cbot|motor>motor</a>      </code>Direkte Kontrolle der Motoren\n"
+"<code><a cbot|jet>jet</a>        </code>Direkte Kontrolle des Jets\n"
+"<code><a cbot|message>message</a>    </code>Zeigt eine Meldung an\n"
+"<code><a cbot|retobj>retobject</a>  </code>Bescheibung eines Objekts\n"
+"<code><a cbot|errmode>errmode</a>    </code>Einstellen der Verarbeitung von Fehlermeldungen\n"
+"<code><a cbot|abstime>abstime</a>    </code>Verflossene Zeit"
 
 #. type: \t; header
 #: ../E/cbot.txt:42
 #, no-wrap
 msgid "Instructions about topology:"
-msgstr ""
+msgstr "Befehle für die Erforschung des Geländes:"
 
 #. type: Plain text
 #: ../E/cbot.txt:43
@@ -170,12 +184,15 @@ msgid ""
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
 msgstr ""
+"<code><a cbot|space>space</a>      </code>Findet eine leere Fläche\n"
+"<code><a cbot|topo>topo</a>       </code>Höhe einer Position\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Radius eine flachen Fläche"
 
 #. type: \t; header
 #: ../E/cbot.txt:47
 #, no-wrap
 msgid "Instructions specific to some bots:"
-msgstr ""
+msgstr "Befehle für bestimmte Roboter:"
 
 #. type: Plain text
 #: ../E/cbot.txt:48
@@ -190,12 +207,20 @@ msgid ""
 "<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
 "<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon"
 msgstr ""
+"<code><a cbot|grab>grab</a>       </code>Ergreift einen Gegenstand\n"
+"<code><a cbot|drop>drop</a>       </code>Legt einen Gegenstand nieder\n"
+"<code><a cbot|fire>fire</a>       </code>Feuert die Kanone ab\n"
+"<code><a cbot|aim>aim</a>        </code>Senkrechte Aussrichtung der Kanone\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sondiert den Untergrund\n"
+"<code><a cbot|thump>thump</a>      </code>Stampfen\n"
+"<code><a cbot|recycle>recycle</a>    </code>Wiederverwertung eines Wracks\n"
+"<code><a cbot|shield>shield</a>     </code>Steuerung des Schutzschildes"
 
 #. type: \t; header
 #: ../E/cbot.txt:57
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
-msgstr ""
+msgstr "Befehle für den Austausch mit Infoservern:"
 
 #. type: Plain text
 #: ../E/cbot.txt:58
@@ -206,12 +231,16 @@ msgid ""
 "<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
 msgstr ""
+"<code><a cbot|receive>receive</a>    </code>Abruf einer Information\n"
+"<code><a cbot|send>send</a>       </code>Speichert eine Information im Server\n"
+"<code><a cbot|testinfo>testinfo</a>   </code>Test ob eine Information existiert\n"
+"<code><a cbot|delinfo>deleteinfo</a> </code>Löscht eine Information"
 
 #. type: \t; header
 #: ../E/cbot.txt:63
 #, no-wrap
 msgid "Specific instructions for classes:"
-msgstr ""
+msgstr "Befehle für die Verwaltung von Klassen:"
 
 #. type: Plain text
 #: ../E/cbot.txt:64
@@ -225,12 +254,19 @@ msgid ""
 "<code><a cbot|new>new</a>        </code>Creates a new instance\n"
 "<code><a cbot|this>this</a>       </code>Reference to the current instance"
 msgstr ""
+"<code><a cbot|class>class</a>      </code>Deklaration einer Klasse\n"
+"<code><a cbot|public>public</a>     </code>Deklaration einer öffentliche Funktion\n"
+"<code><a cbot|private>private</a>    </code>Deklaration eines privaten Gliedes\n"
+"<code><a cbot|static>static</a>     </code>Deklaration eines statischen Gliedes\n"
+"<code><a cbot|synchro>synchronized</a> </code>Verhindert gleichzeitige Ausführung\n"
+"<code><a cbot|new>new</a>        </code>Erstellt eine neue Instanz\n"
+"<code><a cbot|this>this</a>       </code>Bezieht sich auf die laufende Instanz"
 
 #. type: \t; header
 #: ../E/cbot.txt:72
 #, no-wrap
 msgid "Specific instructions for strings:"
-msgstr ""
+msgstr "Befehle für die Verarbeitung von Strings (Zeichenketten):"
 
 #. type: Plain text
 #: ../E/cbot.txt:73
@@ -245,12 +281,20 @@ msgid ""
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
 msgstr ""
+"<code><a cbot|strlen>strlen</a>     </code>Länge des Strings\n"
+"<code><a cbot|strleft>strleft</a>    </code>Ergibt den linken Teil\n"
+"<code><a cbot|strright>strright</a>   </code>Ergibt den rechten Teil\n"
+"<code><a cbot|strmid>strmid</a>     </code>Auszug aus der Mitte\n"
+"<code><a cbot|strfind>strfind</a>    </code>Sucht einen eingebetteten String\n"
+"<code><a cbot|strval>strval</a>     </code>Umwandlung String zu Zahl\n"
+"<code><a cbot|strupper>strupper</a>   </code>Umwandlung in Grossbuchstaben\n"
+"<code><a cbot|strlower>strlower</a>   </code>Umwandlung in Kleinbuchstaben"
 
 #. type: \t; header
 #: ../E/cbot.txt:82
 #, no-wrap
 msgid "Specific instructions for files:"
-msgstr ""
+msgstr "Befehle für die Dateiverwaltung:"
 
 #. type: Plain text
 #: ../E/cbot.txt:83
@@ -263,36 +307,42 @@ msgid ""
 "<code><a cbot|eof>eof</a>        </code>Tests if end of file\n"
 "<code><a cbot|deletef>deletefile</a> </code>Deletes a file"
 msgstr ""
+"<code><a cbot|open>open</a>       </code>Datei öffnen\n"
+"<code><a cbot|close>close</a>      </code>Datei schliessen\n"
+"<code><a cbot|writeln>writeln</a>    </code>Schreibt eine Zeile in die Datei\n"
+"<code><a cbot|readln>readln</a>     </code>Liest eine Zeile aus der Datei\n"
+"<code><a cbot|eof>eof</a>        </code>Test ob Dateiende erreicht\n"
+"<code><a cbot|deletef>deletefile</a> </code>Löscht eine Datei"
 
 #. type: \t; header
 #: ../E/cbot.txt:90 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../E/cbot.txt:91
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."
 
 #. type: \b; header
 #: ../E/command.txt:1
 #, no-wrap
 msgid "Controls"
-msgstr ""
+msgstr "Steuerung"
 
 #. type: Plain text
 #: ../E/command.txt:2
 #, no-wrap
 msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
-msgstr ""
+msgstr "Wir raten Ihnen, mit einer Hand auf den Pfeiltasten und mit der anderen Hand auf der Maus zu spielen."
 
 #. type: \t; header
 #: ../E/command.txt:4
 #, no-wrap
 msgid "Bots"
-msgstr ""
+msgstr "Roboter und der <a object|human>Astronaut</a>"
 
 #. type: Plain text
 #: ../E/command.txt:5
@@ -304,6 +354,11 @@ msgid ""
 "<format key><key down/></format> = move back\n"
 "These controls are unavailable when working with the <a object|bottr>practice bots</a>."
 msgstr ""
+"Die direkte Steuerung der Roboter ist in den meisten Übungen nicht verfügbar.\n"
+"<format key><key left/></format> = Drehung nach links\n"
+"<format key><key right/></format> = Drehung nach rechts\n"
+"<format key><key up/></format> = Vollgas voraus\n"
+"<format key><key down/></format> = Vollgas zurück."
 
 #. type: Plain text
 #: ../E/command.txt:11
@@ -313,6 +368,9 @@ msgid ""
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
 "These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
 msgstr ""
+"<format key><key gup/></format> = abheben/steigen <button 28/>\n"
+"<format key><key gdown/></format> = sinken/landen <button 29/>\n"
+"Diese Funktionen sind nur beim <a object|human>Astronauten</a> und bei <a object|botgj>Robotern mit Jetantrieb</a> verfügbar, und auch nicht in allen Missionen."
 
 #. type: Plain text
 #: ../E/command.txt:15
@@ -324,6 +382,11 @@ msgid ""
 "mouse left = aim left\n"
 "These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
 msgstr ""
+"Maus nach vorne = höher zielen\n"
+"Maus zurück = tiefer zielen\n"
+"Maus nach rechts = mehr nach rechts zielen\n"
+"Maus nach links = mehr nach links zielen\n"
+"Diese Funktionen sind nur auf <a object|botfr>Shootern</a>, <a object|botor>Orgashootern</a> und dem <a object|botphaz>Phazershooter</a> verfügbar."
 
 #. type: Plain text
 #: ../E/command.txt:21
@@ -332,12 +395,14 @@ msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
+"<format key><key action/></format> = betätigt die Hauptfunktion\n"
+"Die Hauptfunktion ist z.B. den Greifer betätigen bei einem <a object|botgr>Transporter</a> oder die Kanone abfeuern bei einem <a object|botfr>Shooter</a> <button 42/>."
 
 #. type: \t; header
 #: ../E/command.txt:24
 #, no-wrap
 msgid "Selections"
-msgstr ""
+msgstr "Auswählen"
 
 #. type: Plain text
 #: ../E/command.txt:25
@@ -347,12 +412,15 @@ msgid ""
 "<format key><key human/></format> = selects astronaut\n"
 "<format key><key desel/></format> = previous selection <button 10/>"
 msgstr ""
+"<format key><key next/></format> = nächstes Objekt auswählen\n"
+"<format key><key human/></format> = Astronauten auswählen\n"
+"<format key><key desel/></format> = vorhergehende Auswahl <button 10/>"
 
 #. type: \t; header
 #: ../E/command.txt:29
 #, no-wrap
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #. type: Plain text
 #: ../E/command.txt:30
@@ -363,12 +431,16 @@ msgid ""
 "<format key><key away/></format> = zoom out\n"
 "<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
 msgstr ""
+"<format key><key camera/></format> = Bordkamera bzw. nachfolgende Kamera <button 13/>\n"
+"<format key><key near/></format> = Zoom grösser\n"
+"<format key><key away/></format> = Zoom kleiner\n"
+"<format key><key visit/></format> = hält das Spiel an und zeigt, woher die letzte Meldung stammt. Wiederholter Druck zeigt den Ursprung der vorhergehenden Meldung."
 
 #. type: \t; header
 #: ../E/command.txt:35
 #, no-wrap
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #. type: Plain text
 #: ../E/command.txt:36
@@ -377,12 +449,14 @@ msgid ""
 "<format key><key help/></format> = mission instructions\n"
 "<format key><key prog/></format> = programming help"
 msgstr ""
+"<format key><key help/></format> = Anweisungen der Mission/Übung\n"
+"<format key><key prog/></format> = Hilfe über die Programmiersprache"
 
 #. type: \t; header
 #: ../E/command.txt:39
 #, no-wrap
 msgid "Game"
-msgstr ""
+msgstr "Spiel"
 
 #. type: Plain text
 #: ../E/command.txt:40
@@ -393,54 +467,58 @@ msgid ""
 "<format key><key speed20/></format> = faster speed x2\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
+"<format key><key speed10/></format> = normale Geschwindigkeit x1\n"
+"<format key><key speed15/></format> = Geschwindigkeit x1.5\n"
+"<format key><key speed20/></format> = Geschwindigkeit x2\n"
+"<format key><key quit/></format> = unterbricht die Mission und zeigt das Menü <button 11/>"
 
 #. type: Plain text
 #: ../E/command.txt:45
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
-msgstr ""
+msgstr "All diese Steuerungstasten können im Menü Einstellungen/Steuerung neu definiert werden."
 
 #. type: \b; header
 #: ../E/freehelp.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Auftrag"
 
 #. type: Plain text
 #: ../E/freehelp.txt:2
 #, no-wrap
 msgid "Here you can play around without any definite objective. You can do whatever you want, explore the region, build a base camp and several bots, run various research programs, kill the insects if you find some, etc."
-msgstr ""
+msgstr "Hier können Sie herumspielen, ohne ein festgelegtes Ziel erreichen zu müssen. Machen Sie, was immer Sie wollen. Erforschen Sie die Umgebung, bauen Sie ein Basislager und einige Roboter, starten Sie verschiedene Forschungsprogramme, eliminieren Sie Insekten falls Sie welche finden, usw."
 
 #. type: Plain text
 #: ../E/freehelp.txt:5
 #, no-wrap
 msgid "<a command>Controls</a>."
-msgstr ""
+msgstr "<a command>Die Steuerung</a>."
 
 #. type: Plain text
 #: ../E/licences.txt:1
 #, no-wrap
 msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
-msgstr ""
+msgstr "Die Fotografie des Nebels NGC3606 der den Himmel über Orpheon erleuchtet und im Installationsprogramm zu sehen ist, wurde mit dem Hubble Weltraumteleskop aufgenommen. Sie wird mit der Erlaubnis der Autoren Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) und der NASA benutzt."
 
 #. type: Plain text
 #: ../E/licences.txt:3
 #, no-wrap
 msgid "The thunder sound on Orpheon is used by limited permission from CREATIVE."
-msgstr ""
+msgstr "Das Donner-Geräusch auf Orpheon wird mit beschränkter Erlaubnis von CREATIVE genutzt."
 
 #. type: \b; header
 #: ../E/navig.txt:1
 #, no-wrap
 msgid "Navigation"
-msgstr ""
+msgstr "Die Hilfetexte durchsurfen"
 
 #. type: Plain text
 #: ../E/navig.txt:2
 #, no-wrap
 msgid "The three buttons on the upper left-hand corner of the screen allow you to navigate in the different texts of the help file:"
-msgstr ""
+msgstr "Mit den drei Schaltflächen oben links am Bildschirm können Sie durch die Hilfetexte surfen:"
 
 #. type: Plain text
 #: ../E/navig.txt:4
@@ -449,6 +527,8 @@ msgid ""
 "<button 30/> Home\n"
 "Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
 msgstr ""
+"<button 30/> Zurück\n"
+"Zurück zur ersten Seite, d.h. zur Seite, die zuerst angezeigt wurde, als Sie den SatCom aktivierten."
 
 #. type: Plain text
 #: ../E/navig.txt:7
@@ -457,6 +537,8 @@ msgid ""
 "<button 55/> Previous\n"
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
 msgstr ""
+"<button 55/> Vorhergehende\n"
+"Zurück zur vorhergehenden Seiten, d.h. zur Seite die angezeigt wurde, bevor Sie auf einen Link klickten."
 
 #. type: Plain text
 #: ../E/navig.txt:10
@@ -465,12 +547,14 @@ msgid ""
 "<button 48/> Next\n"
 "Get again to the next page, after you used the \"Home\" or \"Previous\" button."
 msgstr ""
+"<button 48/> Nächste\n"
+"Geht zur vorher angezeigten Seite, nachdem Sie die Schaltfläche \"Zurück\" oder \"Vorhergehende\" benutzt haben."
 
 #. type: \t; header
 #: ../E/navig.txt:13
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Bemerkung"
 
 #. type: Plain text
 #: ../E/navig.txt:14
@@ -479,30 +563,32 @@ msgid ""
 "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
 "This remark is valid for all buttons in COLOBOT."
 msgstr ""
+"Wenn eine Schaltfläche grau erscheint, kann sie in diesem Augenblick nicht betätigt werden. Wenn Sie z.B. soeben den SatCom aufgerufen haben, erscheint die Schaltfläche \"Zurück\" grau, das sie momentan keinen Sinn ergibt.\n"
+"Diese Bemerkung ist für alle Schaltflächen in Colobot gültig."
 
 #. type: \t; header
 #: ../E/navig.txt:17
 #, no-wrap
 msgid "Text scrolling"
-msgstr ""
+msgstr "Textausschnitt verschieben"
 
 #. type: Plain text
 #: ../E/navig.txt:18
 #, no-wrap
 msgid "If your mouse is equipped with a wheel, you can use it to scroll the text up and down. Otherwise, use the arrow keys and the scroll bar on the right-hand side of the screen."
-msgstr ""
+msgstr "Wenn Ihre Maus mit einem Rad ausgerüstet ist können Sie sie benutzen, um den Text nach oben oder unten zu verschieben. Sonst benutzen Sie die Pfeiltasten oder die Bildlaufleiste rechts am Bildschirm."
 
 #. type: \t; header
 #: ../E/navig.txt:20
 #, no-wrap
 msgid "Font size"
-msgstr ""
+msgstr "Zeichengröße"
 
 #. type: Plain text
 #: ../E/navig.txt:21
 #, no-wrap
 msgid "The cursor on the upper side of the screen allows you to change the font size of the text."
-msgstr ""
+msgstr "Mit dem Schieberegler oben am Bildschirm können Sie die Zeichengröße einstellen."
 
 #. type: Plain text
 #: ../E/win.txt:2
@@ -511,3 +597,17 @@ msgid ""
 "Houston congratulates you in the name of mankind for the success of your mission.\n"
 "The Great Migration to Terra Nova will start very soon."
 msgstr ""
+"Houston gratuliert Ihnen im Namen der Menschheit zum Erfolg Ihrer Mission.\n"
+"Die Völkerwanderung nach Terra Nova steht unmittelbar bevor."
+
+#. type: Plain text
+#: ../E/authors.txt:1
+#, no-wrap
+msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
+msgstr "Die Entwickler und interne Beta-Tester von Original COLOBOT spiel von EPSITEC"
+
+#. type: Plain text
+#: ../E/authors.txt:6
+#, no-wrap
+msgid "Colobot: Gold Edition developers"
+msgstr "Die Colobot: Gold Edition Entwickler"
