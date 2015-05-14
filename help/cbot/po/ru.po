@@ -191,7 +191,7 @@ msgstr "Как только вы поместите значения в масс
 #, no-wrap
 msgid ""
 "a[2] = 213;  // a points to\n"
-"             // 3 élements [0], [1] et [2]"
+"             // 3 elements [0], [1] et [2]"
 msgstr ""
 "a[2] = 213;  // указывает на\n"
 "             // три элемента [0], [1] и [2]"
@@ -985,12 +985,6 @@ msgstr ""
 "<code>12 >= 10  </code>возвращает да\n"
 "<code>12 >= 12  </code>возвращает да"
 
-#. type: \t; header
-#: ../E/cond.txt:21
-#, no-wrap
-msgid "Remarque"
-msgstr "Примечание"
-
 #. type: Plain text
 #: ../E/cond.txt:22
 #, no-wrap
@@ -1550,7 +1544,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:15
 #, no-wrap
-msgid "Exemple 1¦:"
+msgid "Example 1¦:"
 msgstr "Пример 1¦:"
 
 #. type: Source code
@@ -1572,7 +1566,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:22
 #, no-wrap
-msgid "Exemple 2¦:"
+msgid "Example 2¦:"
 msgstr "Пример 2¦:"
 
 #. type: Source code
@@ -2354,8 +2348,8 @@ msgstr "void Example( int a, float x, string s )"
 #. type: Plain text
 #: ../E/function.txt:36
 #, no-wrap
-msgid "The <code>Exemple</code> function will reveive un integer <code>a</code>, a floating point number <code>x</code> and a string <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
-msgstr "Функция <code>Exemple</code> функция получит целое <code>a</code>, число с плавающей точкой <code>x</code> и строку <code>s</code>. Параметры - это ничто иное, как просто копии значений в переменных. Если вы передадите <code>int</code> функции, то ее параметр станет копией этого значения, т.е. функция сможет изменять эту копию незатрагивая оригинал."
+msgid "The <code>Example</code> function will reveive un integer <code>a</code>, a floating point number <code>x</code> and a string <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
+msgstr "Функция <code>Example</code> функция получит целое <code>a</code>, число с плавающей точкой <code>x</code> и строку <code>s</code>. Параметры - это ничто иное, как просто копии значений в переменных. Если вы передадите <code>int</code> функции, то ее параметр станет копией этого значения, т.е. функция сможет изменять эту копию незатрагивая оригинал."
 
 #. type: Plain text
 #: ../E/function.txt:38
@@ -2415,7 +2409,7 @@ msgid ""
 "string Sign( float a )\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
-"\tif ( a < 0 )  return \"négative\";\n"
+"\tif ( a < 0 )  return \"negative\";\n"
 "\treturn \"null\";\n"
 "}"
 msgstr ""
@@ -3776,7 +3770,7 @@ msgstr "Инструкция <code>private</code> (for specialists)"
 #. type: Plain text
 #: ../E/private.txt:2
 #, no-wrap
-msgid "<a cbot|class>Class</a> members can be <a cbot|public>public</a> (by default) or private. A member can be declared privat by putting <code>private</code> before the type declaration of the member. Private members are not accessible from outside the class definition."
+msgid "<a cbot|class>Class</a> members can be <a cbot|public>public</a> (by default) or private. A member can be declared private by putting <code>private</code> before the type declaration of the member. Private members are not accessible from outside the class definition."
 msgstr "Члены <a cbot|class>класса</a> могут быть <a cbot|public>общедоступны</a> (по-умолчанию) или личными. Член может быть объявлен частным, если поставить <code>private</code> до объявления элемента. Личные(локальные) члены не доступны извне для других классов."
 
 #. type: Source code
@@ -3785,9 +3779,9 @@ msgstr "Члены <a cbot|class>класса</a> могут быть <a cbot|pu
 msgid ""
 "public class MyClass\n"
 "{\n"
-"\tint    b;                // public by défault\n"
-"\tpublic int a;            // als public \n"
-"\tprivate point position;  // privat\n"
+"\tint    b;                // public by default\n"
+"\tpublic int a;            // also public \n"
+"\tprivate point position;  // private\n"
 "}\n"
 "void Test()\n"
 "{\n"
@@ -4120,7 +4114,7 @@ msgid "Returns the first object found that corresponds to the specified category
 msgstr "Возвращает первый найденный объект, который соответствует указанной категории в указанной зоне. Если объект найден не был, то возвращается значение <code><a cbot|null>null</a></code>."
 
 #. type: \t; header
-#: ../E/radar.txt:46
+#: ../E/cond.txt:21 ../E/radar.txt:46
 #, no-wrap
 msgid "Remark"
 msgstr "Замечание"
@@ -4392,14 +4386,14 @@ msgid ""
 "string Sign (float a)\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
-"\tif ( a < 0 )  return \"négative\";\n"
+"\tif ( a < 0 )  return \"negative\";\n"
 "\treturn \"null\";\n"
 "}"
 msgstr ""
 "string Sign (float a)\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
-"\tif ( a < 0 )  return \"négative\";\n"
+"\tif ( a < 0 )  return \"negative\";\n"
 "\treturn \"null\";\n"
 "}"
 
@@ -5614,7 +5608,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>\n"
-"<a cbot>Programming</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 "<code><a cbot|class>class</a></code>\n"
 "<a cbot>Программирование</a>, |l:типы\\u cbot<type/> и <a cbot\\category>категории</a>."

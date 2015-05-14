@@ -12,14 +12,14 @@ Error treatment mode.
 \c;0\n; -> continues program execution and returns a non zero value
 \c;1\n; -> stops the program (default behavior)
 
-Exemple 1¦:
+Example 1¦:
 \s;\c;errmode(0);
 \s;while ( goto(pos) != 0 )
 \s;{
 \s;	wait(2);
 \s;}
 \n;
-Exemple 2¦:
+Example 2¦:
 \s;\c;errmode(0);
 \s;int err;
 \s;err = goto(pos);

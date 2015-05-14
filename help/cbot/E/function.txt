@@ -33,7 +33,7 @@ A function can have paramteters¦:
 \c;
 \s;void Example( int a, float x, string s )
 \n;
-The \c;Exemple\n; function will reveive un integer \c;a\n;, a floating point number \c;x\n; and a string \c;s\n;. Parameters are "passed by value", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an \c;int\n; to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function.
+The \c;Example\n; function will reveive un integer \c;a\n;, a floating point number \c;x\n; and a string \c;s\n;. Parameters are "passed by value", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an \c;int\n; to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function.
 
 If you pass a \l;class\u cbot\class; instance or an \l;array\u cbot\array; as parameter to a function, the function only receives a \l;reference\u cbot\pointer; to the instance or the array. That means if you modify the instance or the array in the function, the instance or the array that has been specified by the caller will be actuallay modified.
 
@@ -61,7 +61,7 @@ Some other examples¦:
 \s;string Sign( float a )
 \s;{
 \s;	if ( a > 0 )  return "positive";
-\s;	if ( a < 0 )  return "négative";
+\s;	if ( a < 0 )  return "negative";
 \s;	return "null";
 \s;}
 \n;
