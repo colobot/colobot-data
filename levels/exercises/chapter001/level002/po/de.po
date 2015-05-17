@@ -20,172 +20,172 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Power Cell 1"
-msgstr ""
+msgstr "Batterie 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct a bot to change the power cell of a nearby winged shooter."
-msgstr ""
+msgstr "Weisen Sie einen Roboter an, die Batterie eines Shooters auszutauschen."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Spider2"
-msgstr ""
+msgstr "Batterie1"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Das Ziel"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a> to change the <a object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The winged shooter can then shoot the spiders."
-msgstr ""
+msgstr "Programmieren Sie den <a object|botgr>Transporter</a>, um die <a object|power>Batterie</a> des <a object|botfj>Jetshooters</a> zu wechseln. Dieser kann dann die Spinnen eliminieren."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Das Vorgehen"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a>."
-msgstr ""
+msgstr "Programmieren Sie den <a object|botgr>Transporter</a>."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Execute the program with the arrow button <button 21/>."
-msgstr ""
+msgstr "Führen Sie das Programm mit der Schaltfläche <button 21/> aus."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The <a object|botfj>winged shooter</a> is already programmed, it will do its job as soon as it has got a new power cell."
-msgstr ""
+msgstr "Der <a object|botfj>Jetshooter</a> ist schon programmiert und wird seinen Job tun sobald er eine neue Batterie hat."
 
 #. type: \t; header
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programm"
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "You will need the following instructions:"
-msgstr ""
+msgstr "Folgende Anweisungen benötigen Sie:"
 
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "grab();<n/>"
-msgstr ""
+msgstr "grab();<n/>"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "<n/>Takes whatever there is in front of the bot."
-msgstr ""
+msgstr "<n/>Nimmt den Gegenstand auf, der vor dem Roboter liegt."
 
 #. type: Source code
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "drop();<n/>"
-msgstr ""
+msgstr "drop();<n/>"
 
 #. type: Plain text
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "<n/>Drops whatever the bot is carrying in front."
-msgstr ""
+msgstr "<n/>Legt den Gegenstand ab, der gerade transportiert wird."
 
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "turn();<n/>"
-msgstr ""
+msgstr "turn();<n/>"
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "<n/>We have seen this instruction already in the previous exercise: it performs a rotation of a certain angle, given in degrees."
-msgstr ""
+msgstr "<n/>Diese Anweisung kennen wir schon aus der letzten Übung: Sie bewirkt eine Drehung um einen bestimmten Winkel, der in Grad angegeben wird."
 
 #. type: Plain text
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "Let us see the beginning of the program:"
-msgstr ""
+msgstr "Schauen wir uns den Anfang des Programmes an:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "pick up the empty power cell with <c/>grab();<n/>"
-msgstr ""
+msgstr "Leere Batterie aufnehmen mittels <c/>grab();<n/>"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "turn left 90 degrees (quarter turn) with <code>turn(90)</code>"
-msgstr ""
+msgstr "Um 90 Grad nach links drehen (Viertel Drehung) mittels <c/>turn(90);<n/>"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "drop the empty cell with <c/>drop();<n/>"
-msgstr ""
+msgstr "Leere Battrie ablegen mittels <c/>drop();<n/>"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:25
 #, no-wrap
 msgid "etc."
-msgstr ""
+msgstr "usw."
 
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "It is up to you now to write the rest of the program!"
-msgstr ""
+msgstr "Es ist nun Ihre Aufgabe, den Rest des Programmes zu schreiben!"
 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program, and click the braces button <button 22/>."
-msgstr ""
+msgstr "Falls Sie nicht weiter kommen, können Sie sich jederzeit die Lösung anschauen: Wählen Sie das Programm <code>Lösung</code> aus, und klicken Sie auf die Schaltfläche <button 22/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Hinweise"
 
 #. type: Plain text
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
-msgstr ""
+msgstr "Achten Sie darauf, die Anweisungen korrekt zu schreiben. Nehmen Sie auf Groß- und Kleinschreibung Rücksicht."
 
 #. type: Plain text
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
-msgstr ""
+msgstr "Schreiben Sie immer nur eine Anweisung pro Zeile und schließen Sie jede Zeile mit einem Strichpunkt ab."
 
 #. type: Plain text
 #: ../help/help.E.txt:36
 #, no-wrap
 msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button <button 59/>. You can also start over again from the beginning (hit the key \"Esc\", the click \"Restart\"). The program you have written will not be lost."
-msgstr ""
+msgstr "Tut Ihr Programm nicht das, was Sie erreichen wollten, können Sie den Roboter an seine Startposition zurückbefördern, indem Sie die Schaltfläche <button 59/> betätigen. Sie können auch ganz von vorn beginnen (\"Esc\" drücken, dann auf \"Neu Starten\" klicken). Das Programm, das Sie geschrieben haben, geht dabei nicht verloren."
 
 #. type: Plain text
 #: ../help/help.E.txt:38
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen jederzeit einsehen."

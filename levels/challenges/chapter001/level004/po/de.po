@@ -20,37 +20,37 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Labyrinth 3"
-msgstr ""
+msgstr "Labyrinth 3"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Teach your bot how to find its way out of the labyrinth."
-msgstr ""
+msgstr "Zeigen Sie dem Roboter, wie er den Weg aus dem Labyrinth finden kann."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Labyrinth"
-msgstr ""
+msgstr "Labyrinth3"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
-msgstr ""
+msgstr "Programmieren Sie den Roboter so, dass er den Weg aus dem Labyrinth herausfindet, ohne die Wände zu berühren. Wir setzen voraus, dass Sie den Aufbau des Labyrinths nicht kennen. Es gibt allerdings keine Gabelungen und Sackgassen. Das Labyrinth besteht aus Quadraten, die jeweils 5m messen."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Nützliche Anweisungen"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
@@ -61,15 +61,19 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> um Hindernisse aufzuspüren\n"
+"<code><a cbot|if>if</a></code> um eine Bedingung zu testen\n"
+"<code><a cbot|move>move</a></code> um den Roboter zu bewegen\n"
+"<code><a cbot|turn>turn</a></code> um den Roboter zu drehen"
 
 #. type: \t; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, <a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."

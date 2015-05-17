@@ -20,31 +20,31 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Mover 2"
-msgstr ""
+msgstr "Transporter 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve several titanium cubes."
-msgstr ""
+msgstr "Holen Sie mehrere Titanwürfel."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Mover"
-msgstr ""
+msgstr "Trans2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "This exercise is very similar to the previous one. There are now three <a object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here are the coordinates of the finishing pads:"
-msgstr ""
+msgstr "Diese Übung ist der vorhergehenden ziemlich ähnlich. Dieses Mal gibt es 3 <a object|titan>Titanwürfel</a>, die Sie zu 3 verschiedenen Zielflächen transportieren müssen. Hier die Koordinaten der Zielflächen:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -54,60 +54,63 @@ msgid ""
 "\tx=10, y=-65\n"
 "\tx=10, y=-70"
 msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Vorgehensweise"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Repeat 3 times:"
-msgstr ""
+msgstr "Wiederhole 3 mal:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Look for the most distant titanium cube with <code><a cbot|radar>radar</a></code>."
-msgstr ""
+msgstr "Suche den Titanwürfel mit der größten Entfernung mittels <code><a cbot|radar>radar</a></code>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Pick it up with <code><a cbot|grab>grab</a></code>."
-msgstr ""
+msgstr "Nimm ihn mit <code><a cbot|grab>grab</a></code> auf."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "Go to one of the pads with <code><a cbot|goto>goto</a></code>."
-msgstr ""
+msgstr "Gehe mit <code><a cbot|goto>goto</a></code> zu einer der Zielflächen."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Drop the titanium with <code><a cbot|drop>drop</a></code>."
-msgstr ""
+msgstr "Lege den Würfel mit <code><a cbot|drop>drop</a></code> ab."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "If you look for the nearest titanium cube, the radar would find one that you already retrieved and dropped on a pad. Therefore you must look for the most distant titanium cube."
-msgstr ""
+msgstr "Wenn Sie nach dem Würfel mit der geringsten Entfernung suchen würden, dann fände das Radar den Würfel, den Sie gerade erst auf einer Zielfläche abgelegt haben. Daher müssen Sie nach dem Würfel suchen, der die größte Entfernung hat."
 
 #. type: \b; header
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "The program"
-msgstr ""
+msgstr "Das Programm"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all the instructions necessary to retrieve the titanium cube. Inside the loop, in order to find the most distant titanium cube, use the instruction <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value <code>-1</code> means that instead of looking for the closest item, the radar will return the most distant that it can find."
-msgstr ""
+msgstr "Benutzen Sie eine <code><a cbot|for>for</a></code>-Schleife, um die Anweisungen 3 mal zu wiederholen, die dazu nötig sind, einen Würfel zu holen. Benutzen Sie innerhalb der Schleife die Anweisung <c/><a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 360, 0, 1000, -1);<n/>, um den Titanwürfel mit der größten Entfernung zu finden. Der letzte Wert, <code>-1</code>, gibt an, dass das Radar nicht den Gegenstand mit der geringsten, sondern den mit der größten Entfernung zurückgeben soll."
 
 #. type: Source code
 #: ../help/help.E.txt:20
@@ -118,18 +121,22 @@ msgid ""
 "if ( metal == null )  return;\n"
 "goto(metal.position);"
 msgstr ""
+"<a cbot|type>object</a>  item;\n"
+"item = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 360, 0, 1000, -1);\n"
+"<a cbot|if>if</a> ( item == <a cbot|null>null</a> )  <a cbot|return>return</a>;\n"
+"<a cbot|goto>goto</a>(item.<a cbot|object>position</a>);"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
 #, no-wrap
 msgid "The variable <code>metal</code> if of type <code><a cbot|object>object</a></code>. In order to know the position of the object described by the variable, you must write <code>metal.position</code>."
-msgstr ""
+msgstr "Die Variable <code>item</code> ist vom Typ <code><a cbot|object>object</a></code>. Um die Position des durch die Variable beschriebenen Objekts zu bestimmen, schreiben Sie <code>item.position</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "The <code>x</code> coordinates of the 3 pads are all equal to 10. The <code>y</code> coordinates are respectively -60, -65 and -70. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0, 1 and 2:"
-msgstr ""
+msgstr "Die <code>x</code>-Koordinaten der 3 Flächen sind alle gleich 10. Die <code>y</code>-Koordinaten sind -60, -65 und -70. Die effektivste Methode, die Koordinaten zu bestimmen, ist die Einbeziehung des Wertes der Laufvariablen <code>i</code> in eine Berechnung. <code>i</code> nimmt nacheinander die Werte 0,1 und 2 an:"
 
 #. type: Source code
 #: ../help/help.E.txt:29
@@ -138,21 +145,23 @@ msgid ""
 "dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
+"ziel.x = 10;\n"
+"ziel.y = -60-5*i;"
 
 #. type: Plain text
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "It is up to you now to finish the program."
-msgstr ""
+msgstr "Es ist nun Ihre Aufgabe, das Programm fertigzustellen."
 
 #. type: \t; header
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

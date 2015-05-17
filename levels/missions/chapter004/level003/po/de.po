@@ -20,121 +20,121 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "System Failure"
-msgstr ""
+msgstr "Systemabsturz"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Pursue a rogue bot."
-msgstr ""
+msgstr "Bringen Sie einen außer Kontrolle geratenen Roboter zur Vernunft."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We have just received this warning from the observation satellite: a rogue bot from the previous expedition has seized the black box from your spaceship."
-msgstr ""
+msgstr "Wir haben gerade eine Warnung von unserem Beobachtungssatelliten erhalten: ein defekter Roboter von der vorhergehenden Expedition hat den Flugschreiber Ihres Raumschiffes entwendet."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "We are going to investigate this incident further but it is of vital importance that you retrieve your black box at once."
-msgstr ""
+msgstr "Wir werden diesen Zwischenfall untersuchen, für Sie ist es jedenfalls lebenswichtig, dass Sie in der Zwischenzeit Ihren Flugschreiber wiederfinden."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 
 #. type: \b; header
 #: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Von Houston übermittelte Programme"
 
 #. type: Plain text
 #: ../help/prog.E.txt:2
 #, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
-msgstr ""
+msgstr "Wir haben für diese Mission kein spezielles Programm entwickelt. Allerdings können Sie Ihre eigenen Programme schreiben, falls Sie glauben, es wäre sinnvoll."
 
 #. type: \b; header
 #: ../help/prog.E.txt:4
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. type: Plain text
 #: ../help/prog.E.txt:5
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:7
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:8
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:9
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:10
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:11
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr ""
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um Crystalium."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> Oberfläche<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -146,12 +146,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatur:     4.3C\n"
+"\\tab;Atmosphäre:     Stickstoff\n"
+"\\tab;Wind:           0.0 m/s\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> Untergrund<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -161,12 +166,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energiefelder:  nicht vorhanden\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> Zusätzliche Informationen<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -177,27 +185,31 @@ msgid ""
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Entdeckt:       Riesenameisen\n"
+"\\tab;  - Gefahr:     nicht unmittelbar\n"
+"\\tab;Entdeckt:       unbekannte Lebensformen\n"
+"\\tab;  - Gefahr:     ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Schritt für Schritt"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "If you lose the bot, it will drop the black box somewhere southwest of your spaceship on a region surrounded by crystals."
-msgstr ""
+msgstr "Wenn Sie den Roboter verlieren, wird er den Flugschreiber irgendwo südwestlich von Ihrem Raumschiff ablegen. Dieser Ort ist umgeben von Kristallen."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "In case your power runs out before you can bring the black box back, use the second grabber left on the spaceship."
-msgstr ""
+msgstr "Falls die Energie nicht ausreicht, um den Flugschreiber zurückzubringen, benutzen Sie den zweiten Transporter, der sich noch auf dem Raumschiff befindet."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a>"

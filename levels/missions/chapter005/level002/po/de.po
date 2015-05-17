@@ -20,67 +20,67 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Invasion"
-msgstr ""
+msgstr "Unter Beschuss"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Hold out against a giant ant invasion."
-msgstr ""
+msgstr "Je nach Region können die Riesenameisen mehr oder weniger aggressiv sein..."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Eliminate all hostile presence from the region."
-msgstr ""
+msgstr "Vernichten Sie alle feindlichen Lebensformen in der Umgebung."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
-msgstr ""
+msgstr "Ihre derzeitige Situation ist besorgniserregend. Der Satellit hat eine große Menge an feindlichen Lebensformen ausgemacht, die sich aus allen Richtungen auf Ihr Raumschiff zu bewegen. Schätzen Sie die Lage gut ein und nutzen Sie die schnellste und effizienteste Verteidigung: entweder <a object|tower>Geschütztürme</a> oder <a object|botfr>Shooter</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
-msgstr ""
+msgstr "Um Ihre Überlebenschancen zu erhöhen, haben wir ein Programm entwickelt, das Ihre westliche Flanke schützen soll, wenn Sie es auf Ihrem <a object|botfr>Radshooter</a> ausführen; siehe Programmseite <button 53/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:8
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 
 #. type: \b; header
 #: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Von Houston übermittelte Programme"
 
 #. type: Plain text
 #: ../help/prog.E.txt:2
 #, no-wrap
 msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
-msgstr ""
+msgstr "Führen Sie umgehend das Programm <code>KillAnt1</code> auf Ihrem <a object|botfr>Radshooter</a> aus, es wird Ihre westliche Flanke schützen. In der Zwischenzeit können Sie Ihre Abwehrstrategie ausarbeiten."
 
 #. type: Source code
 #: ../help/prog.E.txt:4
@@ -105,66 +105,84 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // Info über Objekt\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // gehe nach Westen\n"
+"\t<a cbot|aim>aim</a>(0);                  // ziele geradeaus\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // wiederhole immer:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // Ameise geortet ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // schieße 0.5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // warte 1 Sekunde\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: ../help/prog.E.txt:23
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. type: Plain text
 #: ../help/prog.E.txt:24
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:26
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:27
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:28
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:29
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:30
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr ""
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um Saari."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> Oberfläche<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -176,12 +194,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatur:     38.4C\n"
+"\\tab;Atmosphäre:     CO2. Sauerstoff, Stickstoff\n"
+"\\tab;Wind:           1.4 m/s\n"
+"\\tab;Titanerz:       vereinzelt\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> Untergrund<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -191,12 +214,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energiefelder:  überall\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> Zusätzliche Informationen<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -205,33 +231,35 @@ msgid ""
 "\\tab;Detected:         giant ants approaching \n"
 "\\tab;  - Danger:       yes, immediate"
 msgstr ""
+"\\tab;Entdeckt:       Riesenameisen kommen näher \n"
+"\\tab;  - Gefahr:     ja, unmittelbar"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Schritt für Schritt"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
-msgstr ""
+msgstr "Führen Sie sofort das Programm <code>KillAnt1</code> auf dem <a object|botfr>Radshooter</a> aus; er wird sich um die erste Angriffswelle, die von Westen kommen wird, kümmern."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
-msgstr ""
+msgstr "Bauen Sie nun 2 <a object|tower>Geschütztürme</a>, einen nördlich vom <a object|base>Raumschiff</a>, den anderen im Süden (Sie müssen das SEHR schnell erledigen). Während <a object|human>Sie</a> die Gebäude bauen, können Sie den <a object|botgr>Transporter</a> verwenden, um eine <a object|power>Batterie</a> zu besorgen."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
-msgstr ""
+msgstr "Sobald die aufeinanderfolgenden Angriffswellen, geführt von etwa fünfzehn <a object|ant>Ameisen</a>, vorüber sind, haben Sie Zeit, sich um die Ameisen zu kümmern, die nicht angegriffen haben. Errichten Sie ein <a object|radar>Radar</a>, um sie aufzuspüren sowie einen <a object|convert>Konverter</a>, eine <a object|factory>Roboterfabrik</a>, ein <a object|station>Kraftwerk</a> und einen <a object|botfj>Jetshooter</a>, um sie loszuwerden."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a>"

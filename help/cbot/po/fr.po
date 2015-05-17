@@ -191,7 +191,7 @@ msgstr "Dès que l'on met une valeur dans le tableau, CBOT crée les éléments 
 #, no-wrap
 msgid ""
 "a[2] = 213;  // a points to\n"
-"             // 3 élements [0], [1] et [2]"
+"             // 3 elements [0], [1] et [2]"
 msgstr ""
 "a[2] = 213;  // a est une référence sur\n"
 "             // 3 éléments [0], [1] et [2]"
@@ -975,12 +975,6 @@ msgstr ""
 "<code>12 >= 10  </code>retourne vrai\n"
 "<code>12 >= 12  </code>retourne vrai"
 
-#. type: \t; header
-#: ../E/cond.txt:21
-#, no-wrap
-msgid "Remarque"
-msgstr "Remarque"
-
 #. type: Plain text
 #: ../E/cond.txt:22
 #, no-wrap
@@ -1469,7 +1463,7 @@ msgstr "\tif ( handle.eof() )"
 #: ../E/eof.txt:6 ../E/readln.txt:11
 #, no-wrap
 msgid "Example¦:"
-msgstr "Exemple:"
+msgstr "Example:"
 
 #. type: Source code
 #: ../E/eof.txt:8
@@ -1540,8 +1534,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:15
 #, no-wrap
-msgid "Exemple 1¦:"
-msgstr "Exemple 1:"
+msgid "Example 1¦:"
+msgstr "Example 1:"
 
 #. type: Source code
 #: ../E/errmode.txt:16
@@ -1562,8 +1556,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:22
 #, no-wrap
-msgid "Exemple 2¦:"
-msgstr "Exemple 2:"
+msgid "Example 2¦:"
+msgstr "Example 2:"
 
 #. type: Source code
 #: ../E/errmode.txt:23
@@ -2350,13 +2344,13 @@ msgstr "Une fonction peut recevoir des données en entrée. Il faut en donner la
 #: ../E/function.txt:34
 #, no-wrap
 msgid "void Example( int a, float x, string s )"
-msgstr "void Exemple( int a, float x, string s )"
+msgstr "void Example( int a, float x, string s )"
 
 #. type: Plain text
 #: ../E/function.txt:36
 #, no-wrap
-msgid "The <code>Exemple</code> function will reveive un integer <code>a</code>, a floating point number <code>x</code> and a string <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
-msgstr "La fonction <code>Exemple</code> va recevoir un nombre entier <code>a</code>, un nombre réel <code>x</code> et une chaîne <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
+msgid "The <code>Example</code> function will reveive un integer <code>a</code>, a floating point number <code>x</code> and a string <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
+msgstr "La fonction <code>Example</code> va recevoir un nombre entier <code>a</code>, un nombre réel <code>x</code> et une chaîne <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code>int</code> to a function, its parameter is a copy of whatever value was being passed as argument, and the function can change its parameter value without affecting values in the code that invoked the function."
 
 #. type: Plain text
 #: ../E/function.txt:38
@@ -2415,7 +2409,7 @@ msgid ""
 "string Sign( float a )\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
-"\tif ( a < 0 )  return \"négative\";\n"
+"\tif ( a < 0 )  return \"negative\";\n"
 "\treturn \"null\";\n"
 "}"
 msgstr ""
@@ -2427,7 +2421,7 @@ msgstr ""
 "string Signe( float a )\n"
 "{\n"
 "\tif ( a > 0 )  return \"positif\";\n"
-"\tif ( a < 0 )  return \"négatif\";\n"
+"\tif ( a < 0 )  return \"negatif\";\n"
 "\treturn \"nul\";\n"
 "}"
 
@@ -2975,7 +2969,7 @@ msgid ""
 "<c/>motor(-0.5, -0.5);<n/> moves backward with half speed.\n"
 "<c/>motor(1, -1);<n/> turns right as fast as possible. "
 msgstr ""
-"Exemples:\n"
+"Examples:\n"
 "<c/>motor(1, 1);<n/> pour avancer tout droit à la vitesse maximale.\n"
 "<c/>motor(0.5, 0.6);<n/> pour avancer à mi-vitesse en tournant légèrement à gauche.\n"
 "<c/>motor(-0.5, -0.5);<n/> pour reculer à mi-vitesse.\n"
@@ -3373,7 +3367,7 @@ msgstr "Cette information est spéciale, comme la précédente. Elle contient le
 #: ../E/object.txt:56
 #, no-wrap
 msgid "Examples"
-msgstr "Exemples"
+msgstr "Examples"
 
 #. type: Plain text
 #: ../E/object.txt:57
@@ -3608,7 +3602,7 @@ msgid ""
 "Example:\n"
 "<c/><s/>{"
 msgstr ""
-"Exemples:\n"
+"Examples:\n"
 "<c/><s/>{"
 
 #. type: Source code
@@ -3759,7 +3753,7 @@ msgstr "Instruction <code>private</code> (pour spécialistes)"
 #. type: Plain text
 #: ../E/private.txt:2
 #, no-wrap
-msgid "<a cbot|class>Class</a> members can be <a cbot|public>public</a> (by default) or private. A member can be declared privat by putting <code>private</code> before the type declaration of the member. Private members are not accessible from outside the class definition."
+msgid "<a cbot|class>Class</a> members can be <a cbot|public>public</a> (by default) or private. A member can be declared private by putting <code>private</code> before the type declaration of the member. Private members are not accessible from outside the class definition."
 msgstr "Les éléments déclarés dans une <a cbot|class>classe</a> peuvent être <a cbot|public>publics</a> (par défaut) ou privés. Un élément est privé en plaçant <code>private</code> devant le type de l'élément. Dès lors, ces éléments ne seront plus accessibles depuis l'extérieur de la définition de la classe elle-même."
 
 #. type: Source code
@@ -3768,9 +3762,9 @@ msgstr "Les éléments déclarés dans une <a cbot|class>classe</a> peuvent êtr
 msgid ""
 "public class MyClass\n"
 "{\n"
-"\tint    b;                // public by défault\n"
-"\tpublic int a;            // als public \n"
-"\tprivate point position;  // privat\n"
+"\tint    b;                // public by default\n"
+"\tpublic int a;            // also public \n"
+"\tprivate point position;  // private\n"
 "}\n"
 "void Test()\n"
 "{\n"
@@ -4103,7 +4097,7 @@ msgid "Returns the first object found that corresponds to the specified category
 msgstr "Objet trouvé le plus proche. La valeur <code><a cbot|null>null</a></code> indique que rien n'a été trouvé."
 
 #. type: \t; header
-#: ../E/radar.txt:46
+#: ../E/cond.txt:21 ../E/radar.txt:46
 #, no-wrap
 msgid "Remark"
 msgstr "Remarque"
@@ -4377,7 +4371,7 @@ msgid ""
 "string Sign (float a)\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
-"\tif ( a < 0 )  return \"négative\";\n"
+"\tif ( a < 0 )  return \"negative\";\n"
 "\treturn \"null\";\n"
 "}"
 msgstr ""
@@ -4818,7 +4812,7 @@ msgstr "Sous-chaîne recherchée."
 #: ../E/strfind.txt:13 ../E/strleft.txt:10 ../E/strlen.txt:7 ../E/strlower.txt:7 ../E/strmid.txt:13 ../E/strright.txt:10 ../E/strupper.txt:7 ../E/strval.txt:4 ../E/strval.txt:11 ../E/writeln.txt:11
 #, no-wrap
 msgid "Examples¦:"
-msgstr "Exemples:"
+msgstr "Examples:"
 
 #. type: Source code
 #: ../E/strfind.txt:14
@@ -5600,7 +5594,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a></code>\n"
-"<a cbot>Programming</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
 
 #. type: \b; header
@@ -6146,7 +6140,7 @@ msgid ""
 "Example:\n"
 "<c/><s/>void MyFunction(int a)"
 msgstr ""
-"Exemples:\n"
+"Examples:\n"
 "<c/><s/>void MyFunction(int a)"
 
 #. type: Source code
