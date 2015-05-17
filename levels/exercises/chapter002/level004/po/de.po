@@ -20,31 +20,31 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Fighter Jet 1"
-msgstr ""
+msgstr "Düsenjäger 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct a winged shooter to clean the whole region."
-msgstr ""
+msgstr "Richten Sie einen Jetshooter dazu ab, die ganze Region zu säubern."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr ""
+msgstr "Jäger1"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objectif"
-msgstr ""
+msgstr "Das Ziel"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
-msgstr ""
+msgstr "Programmieren Sie einen <a object|botfj>Jetshooter</a> zur Jagd auf alle Ameisen in der Gegend."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,22 +56,22 @@ msgstr ""
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "In this swamp, a wheeled or tracked shooter is of little use. And ants, in opposition to spiders, keep moving: you can not just turn towards the closest ant, move forward and shoot."
-msgstr ""
+msgstr "In diesem Sumpf ist ein Rad- oder Kettenshooter von geringem Wert. Und im Gegensatz zu Spinnen bleiben Ameisen immer in Bewegung: Sie können den Roboter nicht einfach in Richtung der nächsten Ameise drehen, ihn vorwärts bewegen und dann schießen."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The easiest way to solve the problem consists in flying at a height of 10 meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with a conditional loop as long as the <a cbot|dist>distance</a> is greater than 20m. In this conditional loop, you must look for the closest ant, turn towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait a little, for example 0.2 seconds. All these instructions must be repeated until the ant is at less than 20 meters. Then just shoot it."
-msgstr ""
+msgstr "Der einfachste Weg, dieses Problem zu lösen besteht darin, in einer Höhe von 10 Metern zu fliegen, mittels <c/><a cbot|aim>aim</a>(-20);<n/> nach unten zu zielen und sich der Ameise mit einer bedingten Schleife zu nähern solange der Abstand (<a cbot|dist>distance</a>) größer als 20m ist. Innerhalb der Schleife müssen Sie nach der nächsten Ameise suchen, sich in ihre Richtung drehen, die Motoren auf Höchstgeschwindigkeit stellen (mit <c/><a cbot|motor>motor</a>(1,1);<n/>) und eine kleine Weile <a cbot|wait>warten</a>, zum Beispiel 0,2 Sekunden. Diese Anweisungen müssen solange wiederholt werden, bis der Abstand der Ameise unter 20 Meter sinkt. Danach eröffnen Sie das Feuer."
 
 #. type: \t; header
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

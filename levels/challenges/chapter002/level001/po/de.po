@@ -20,37 +20,37 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Crazy bot 2"
-msgstr ""
+msgstr "Mist"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the radar to put some order into a big mess left behind by a crazy bot."
-msgstr ""
+msgstr "Benutzen Sie den Radar, um trotz der Aktivität Ihres Mitbewohners Ordnung in die Bude zu bringen."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Radar"
-msgstr ""
+msgstr "Ordnung3"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "In this exercise, a \"crazy bot\" places many <a object|waypoint>blue crosses</a> on the ground. Just try to find them all."
-msgstr ""
+msgstr "In dieser Übung platziert ein \"verrückter Roboter\" viele <a object|waypoint>blaue Kreuze</a> auf dem Boden. Versuchen Sie, alle zu finden."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Nützliche Anweisungen"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
@@ -61,27 +61,31 @@ msgid ""
 "<code><a cbot|if>if</a></code> to test a condition\n"
 "<code><a cbot|motor>motor</a></code> to set the motor speeds"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> um die blauen Kreuze zu orten (Kategorie <code><a object|waypoint>Checkpoint</a></code>)\n"
+"<code><a cbot|direct>direction</a></code> um die Richtung zu berechnen\n"
+"<code><a cbot|if>if</a></code> um eine Bedingung zu prüfen\n"
+"<code><a cbot|motor>motor</a></code> um die Geschwindigkeit der Motoren einzustellen"
 
 #. type: \t; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Bemerkung"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Do not wait too long, because the crazy bot gets down to work immediately. Fortunately, as long as you are in the program editor, the game will pause."
-msgstr ""
+msgstr "Warten Sie nicht zu lange, denn der verrückte Roboter arbeitet ununterbrochen weiter. So lange wie Sie sich in der Programmierumgebung aufhalten, hält das Spiel glücklicher Weise an."
 
 #. type: \t; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, <a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."

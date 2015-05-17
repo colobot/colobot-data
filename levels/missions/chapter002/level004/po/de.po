@@ -20,85 +20,85 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Black Box"
-msgstr ""
+msgstr "Flugschreiber"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Discover crucial information left behind by the first expedition."
-msgstr ""
+msgstr "Bergen Sie wichtige Informationen, die von der letzten Expedition hinterlassen wurden."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going."
-msgstr ""
+msgstr "Wir wissen weder, wo die vorhergehende Expedition hin wollte, als sie die Oberfläche des Mondes verließ, noch wieso sie dieses Ziel wählte."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Locate the <a object|bbox>black box</a> they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit."
-msgstr ""
+msgstr "Suchen Sie den <a object|bbox>Flugschreiber</a>, den sie zurückgelassen haben, und bringen Sie ihn an Bord Ihres Raumschiffes. Der Flugschreiber sollte die Koordinaten des Planeten enthalten, den die Expedition als nächstes anfliegen wollte."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
-msgstr ""
+msgstr "Die <a object|power>Batterien</a> Ihrer Roboter sind oft leer. Es ist eine Ihrer wichtigsten Aufgaben, sie wieder aufzuladen. Der Beobachtungssatellit in der Umlaufbahn hat ermittelt, dass der Boden in diesem Bereich mit Energie geladen ist. Sie sollten daher in der Lage sein, ein funktionierendes <a object|station>Kraftwerk</a> auf einer ebenen Fläche zu bauen."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
-msgstr ""
+msgstr "Wir haben ein Programm entwickelt, um die <a object|power>elektrolytische Batterie</a> eines Roboters wieder aufzuladen. Sehen Sie sich die entsprechende Seite in Ihrem SatCom an <button 53/>."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Vorgehensweise"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
-msgstr ""
+msgstr "Als erstes müssen Sie einen <a object|convert>Titankonverter</a> bauen, um Ihr Titanerz in verwendbare <a object|titan>Titanwürfel</a> umzuwandeln."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "You should then build both a <a object|station>power station</a> and a <a object|radar>radar</a> which will indicate the location of the black box on your mini map."
-msgstr ""
+msgstr "Sie sollten dann ein <a object|station>Kraftwerk</a> und ein <a object|radar>Radar</a> errichten, welches Ihnen die Position des Flugschreibers auf der Mini-Karte anzeigen wird."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
-msgstr ""
+msgstr "Mit den vollständig geladenen Batterien können Sie nun den Flugschreiber holen. Sobald er an Bord Ihres <a object|base>Raumschiffes</a> ist, können Sie starten."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
 #: ../help/help.E.txt:17 ../help/soluce.E.txt:18
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 
 #. type: \b; header
 #: ../help/prog.E.txt:1
@@ -110,13 +110,13 @@ msgstr ""
 #: ../help/prog.E.txt:2
 #, no-wrap
 msgid "Below is a program that has been developed by our engineers. It allows you to recharge the <a object|power>power cell</a> of a bot: it goes to the closest <a object|station>power station</a>, waits 5 seconds, and comes back to the initial position."
-msgstr ""
+msgstr "Unten sehen Sie ein Programm, das von unseren Ingenieuren entwickelt wurde. Es erlaubt Ihnen, die <a object|power>Batterie</a> eines Roboters aufzuladen: er geht zum nächsten <a object|station>Kraftwerk</a>, wartet 5 Sekunden und kommt zu seiner Ausgangsposition zurück."
 
 #. type: Plain text
 #: ../help/prog.E.txt:4
 #, no-wrap
 msgid "Remark: If you click on an element of the program underlined in blue, your SatCom will display a text that explains this element. The texts that follow a double slash <code>//</code> are not part of the program, but are comments that help you to understand the program."
-msgstr ""
+msgstr "Bemerkung: Wenn Sie auf ein blau unterstrichenes Element im Programm klicken, wird Ihr SatCom einen Text anzeigen, der das Element erklärt. Die Zeilen nach einem doppelten Schrägstrich <code>//</code> sind nicht Teil des Programms, es sind Kommentare die Ihnen helfen sollen das Programm zu verstehen."
 
 #. type: Source code
 #: ../help/prog.E.txt:6
@@ -136,42 +136,55 @@ msgid ""
 "\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
 "}"
 msgstr ""
+"extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;        // Variable für Ausgangsposition\n"
+"\t<a cbot|type>object</a> item;         // Info über Kraftwerk\n"
+"\t\n"
+"\tstart = position;    // speichere Ausgangsposition\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);// orte das Kraftwerk\n"
+"\t<a cbot|goto>goto</a>(item.position); // gehe zum Kraftwerk\n"
+"\t<a cbot|wait>wait</a>(5);             // warte 5 Sekunden\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);         // zurück zur Ausgangsposition\n"
+"}"
 
 #. type: \b; header
 #: ../help/prog.E.txt:20
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. type: Plain text
 #: ../help/prog.E.txt:21
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:23
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of the Moon."
-msgstr ""
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um den Mond."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> Oberfläche<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -183,12 +196,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatur:     -38.2C\n"
+"\\tab;Atmosphäre:     nicht vorhanden\n"
+"\\tab;Wind:           0.0 m/s\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> Untergrund<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -198,63 +216,66 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energiefelder:  überall\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Schritt für Schritt"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a converter <button 162/> with the only titanium cube available."
-msgstr ""
+msgstr "Bauen Sie einen Konverter <button 162/> mit dem einzigen Titanwürfel, den Sie haben."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Deposit one chunk of titanium ore at a time at the center of the platform and let the converter do the rest."
-msgstr ""
+msgstr "Setzen Sie einen Brocken Titanerz in die Mitte der Plattform und lassen Sie den Konverter seine Arbeit verrichten."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a power station <button 164/> with one of the newly converted titanium cubes."
-msgstr ""
+msgstr "Bauen Sie ein Kraftwerk <button 164/> mit einem der hergestellten Titanwürfel."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "If you don't feel like looking for the black box yourself, build a radar <button 168/> and the box will appear on your mini map somewhere north of your present location, at the bottom of a crater, next to a few derelict spacecraft and debris from the previous expedition."
-msgstr ""
+msgstr "Falls Sie nicht selbst nach dem Flugschreiber suchen wollen, bauen Sie ein Radar <button 168/> und der Flugschreiber erscheint auf der Mini-Karte nördlich von Ihrer momentanen Position, am Grund eines Kraters neben einigen alten Raumfahrzeugen und Trümmern der letzten Expedition."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Place the grabbers at the center of the power station platform to recharge them. The cells should still have a little power left in them, just enough to radio-control the bots onto the platform."
-msgstr ""
+msgstr "Bewegen Sie die Transporter in die Mitte der Plattform des Kraftwerks um ihre Batterien aufzuladen. Die Batterien sollten gerade noch genug Energie enthalten, damit Sie die Roboter funkfernsteuern können. "
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Radio-control the winged grabber to the black box and back."
-msgstr ""
+msgstr "Steuern Sie den Jettransporter zum Flugschreiber und zurück zum Schiff."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "Gather both grabbers and the black box onto the spaceship platform and climb on board yourself."
-msgstr ""
+msgstr "Versammeln Sie beide Transporter und den Flugschreiber auf dem Raumschiff. Gehen Sie an Bord."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16
 #, no-wrap
 msgid "Take off."
-msgstr ""
+msgstr "Heben Sie ab."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:19
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a>"

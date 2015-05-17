@@ -20,61 +20,61 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Subterranean strategy"
-msgstr ""
+msgstr "Unterirdische Strategie"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the planet's resources to combat the virus-spreading worms."
-msgstr ""
+msgstr "Benutzen Sie die Rohstoffe des Planeten um die virenverbreitenden Würmer zu bekämpfen."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
-msgstr ""
+msgstr "Säubern Sie die Umgebung von allen feindseligen Lebensformen. Wie Sie das erledigen, (<a object|tower>Geschützturm</a> oder <a object|botfj>Jetshooter</a>) liegt bei Ihnen."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The radar seems to be perfectly suited to the detection of worms. Keep in mind though that they only appear when they are on the surface."
-msgstr ""
+msgstr "Das Radar scheint perfekt für die Ortung von Würmern geeignet zu sein. Vergessen Sie nicht, dass die Würmer nur zu entdecken sind, wenn sie sich an der Oberfläche befinden."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
-msgstr ""
+msgstr "Wir haben Ihrer <a object|factory>Roboterfabrik</a> die Anleitung zum Bau eines neuen Roboters übertragen. Dieser Roboter wurde entwickelt, um Rohmaterial im Boden aufzuspüren: Energiequellen, Erz. Wir nennen ihn <a object|botsr>Schnüffler</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:16
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 
 #. type: \b; header
 #: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Von Houston übermittelte Programme"
 
 #. type: Plain text
 #: ../help/prog.E.txt:2
@@ -83,12 +83,14 @@ msgid ""
 "Below is one of the programs that has been developed by our engineers.\n"
 "An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
 msgstr ""
+"Unten sehen Sie eines der Programme, die von unseren Ingenieuren entwickelt wurden.\n"
+"Eine verbesserte Version des letzten Programms: der <a object|botgr>Transporter</a> macht auf dem Rückweg vom Konverter, falls notwendig, einen Stopp beim <a object|station>Kraftwerk</a>, um seine Batterie aufzuladen."
 
 #. type: Plain text
 #: ../help/prog.E.txt:5
 #, no-wrap
 msgid "This program also works on <a object|botgj>winged grabbers</a>, if the <a object|derrick>derrick</a> is on another island than the <a object|convert>converter</a>."
-msgstr ""
+msgstr "Dieses Programm funktioniert auch mit <a object|botgj>Jettransportern</a>, falls sich der <a object|derrick>Bohrturm</a> auf einer anderen Insel als der <a object|convert>Titankonverter</a> befindet."
 
 #. type: Source code
 #: ../help/prog.E.txt:7
@@ -119,60 +121,84 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Variablen deklarieren.\n"
+"\t<a cbot|type>object</a>  item;            // Info über Objekte\n"
+"\t\n"
+"\t// 2) Gehe zum Titanerz und greife es.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// suche nach Titanerz\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dessen Position\n"
+"\t<a cbot|grab>grab</a>();                  // greife das Titanerz\n"
+"\t\n"
+"\t// 3) Gehe zum Titankonverter und lege es ab.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // orte den Konverter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dieser Position\n"
+"\t<a cbot|drop>drop</a>();                  // lege das Titanerz ab\n"
+"\t<a cbot|move>move</a>(-2.5);              // gehe 2,5m zurück\n"
+"\t\t\n"
+"\t// 4) Ist die Batterie halb leer, dann aufladen.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // ist es so:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // suche Kraftwerk\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // gehe dort hin\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // warte\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: ../help/prog.E.txt:32
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. type: Plain text
 #: ../help/prog.E.txt:33
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:35
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:36
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:37
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:38
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr ""
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um Crystalium."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> Oberfläche<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -184,12 +210,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatur:     3.2C\n"
+"\\tab;Atmosphäre:     Stickstoff\n"
+"\\tab;Wind:           0.0 m/s\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> Untergrund<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -199,12 +230,15 @@ msgid ""
 "\\tab;Titanium ore:     scattered\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energiefelder:  vereinzelt (in der Nähe des Raumschiffs)\n"
+"\\tab;Titanerz:       verstreut\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> Zusätzliche Informationen<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -213,81 +247,83 @@ msgid ""
 "\\tab;Detected:         worms\n"
 "\\tab;  - Danger:       no"
 msgstr ""
+"\\tab;Entdeckt:       Würmer\n"
+"\\tab;  - Gefahr:     nein"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Schritt für Schritt"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Bauen Sie eine <a object|factory>Roboterfabrik</a>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:3
 #, no-wrap
 msgid "Produce a <a object|botsj>winged sniffer</a>."
-msgstr ""
+msgstr "Produzieren Sie einen <a object|botsj>Jetschnüffler</a>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Sniff the ground near the large crystals until you get a <a object|stonspot>red cross</a>."
-msgstr ""
+msgstr "Untersuchen Sie den Boden bei den großen Kristallen, bis Sie ein <a object|stonspot>rotes Kreuz</a> erhalten."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Build a <a object|derrick>derrick</a> near the red cross."
-msgstr ""
+msgstr "Errichten Sie einen <a object|derrick>Bohrturm</a> in der Nähe dieses Kreuzes."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a <a object|convert>converter</a>."
-msgstr ""
+msgstr "Bauen Sie einen <a object|convert>Konverter</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
-msgstr ""
+msgstr "Die Kombination eines Bohrturms mit einem Konverter versorgt Sie mit unendlich viel <a object|titan>Titan</a>. Um diese Aufgabe einem Roboter zu übertragen, lassen Sie ihn das Programm <code>CollectTitanium2</code> ausführen."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Sniff the area at the foot of the spaceship. A <a object|enerspot>green cross</a> means you can build a <a object|station>power station</a> on the spot."
-msgstr ""
+msgstr "Untersuchen Sie mit dem Schnüffler nun den Boden in der Nähe des Raumschiffes. Ein <a object|enerspot>grünes Kreuz</a> signalisiert, dass Sie dort ein <a object|station>Kraftwerk</a> bauen können."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:11
 #, no-wrap
 msgid "Build a <a object|radar>radar</a>."
-msgstr ""
+msgstr "Bauen Sie ein <a object|radar>Radar</a>."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Produce a <a object|botfj>winged shooter</a>."
-msgstr ""
+msgstr "Produzieren Sie einen <a object|botfj>Jetshooter</a>."
 
 #. type: Bullet: '9)'
 #: ../help/soluce.E.txt:13
 #, no-wrap
 msgid "Eliminate all worms."
-msgstr ""
+msgstr "Vernichten Sie alle Würmer."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "10) Go back to your ship and take off."
-msgstr ""
+msgstr "10) Kehren Sie zum Raumschiff zurück und heben Sie ab."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:17
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a>"

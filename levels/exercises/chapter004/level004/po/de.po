@@ -20,100 +20,100 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Patient hunter"
-msgstr ""
+msgstr "Auf der Lauer"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Be patient enough not to waste your ammunitions."
-msgstr ""
+msgstr "Zeigen Sie Geduld, um Ihre Munition nicht zu verschwenden."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Patient"
-msgstr ""
+msgstr "Lauer"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "You must find a way to destroy the four moving <a object|bottarg>target bots</a> without wasting one shot. Notice that after every move, the targets will stay motionless during one second."
-msgstr ""
+msgstr "Finden Sie einen Weg, alle vier <a object|bottarg>mobilen Zielscheiben</a> zu zerstören, ohne dabei einen Schuss zu verschwenden. Beachten Sie, dass sie nach jeder Bewegung eine Sekunde lang stehen bleiben."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Vorgehensweise"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Detect a target with the instruction <c/><a cbot|radar>radar</a>(TargetBot);<n/>."
-msgstr ""
+msgstr "Finden Sie ein Ziel mit der Anweisung <c/><a cbot|radar>radar</a>(<a cbot|category>TargetBot</a>);<n/>."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Turn towards the target with <c/><a cbot|turn>turn</a>(direction());<n/>."
-msgstr ""
+msgstr "Drehen Sie sich zu ihm mit <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>());<n/>."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "After the rotation, check if the target did not move."
-msgstr ""
+msgstr "Prüfen Sie nach der Drehung, ob das Ziel unbeweglich war."
 
 #. type: Bullet: '4)'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "If it did not, wait 0.2 seconds with <c/><a cbot|wait>wait</a>(0.2);<n/>."
-msgstr ""
+msgstr "Falls das der Fall ist, warten Sie 0.2 Sekunden mit <c/><a cbot|wait>wait</a>(0.2);<n/>."
 
 #. type: Bullet: '5)'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Re-check if the target did not move."
-msgstr ""
+msgstr "Prüfen Sie nochmals, ob sich das Ziel bewegt hat."
 
 #. type: Bullet: '6)'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 seconds for the target to be hit by the bullets and destroyed."
-msgstr ""
+msgstr "Falls nicht, schießen Sie darauf mittels <c/><a cbot|fire>fire</a>(2);<n/> und warten Sie 2 Sekunden lang darauf, dass das Ziel von Ihren Kugeln getroffen und zerstört wird."
 
 #. type: Plain text
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "There are of course other ways to achieve the goal."
-msgstr ""
+msgstr "Es gibt natürlich viele andere Wege, dieses Ziel zu erreichen."
 
 #. type: \b; header
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Hinweis"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "In order to increase the efficiency of your shots, aim a little downward with <c/><a cbot|aim>aim</a>(-3);<n/>."
-msgstr ""
+msgstr "Um die Effizienz Ihrer Schüsse zu erhöhen, zielen Sie mit <c/><a cbot|aim>aim</a>(-3);<n/> ein wenig nach unten."
 
 #. type: \t; header
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

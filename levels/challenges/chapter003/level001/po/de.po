@@ -20,31 +20,31 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Mover 1"
-msgstr ""
+msgstr "Transporter 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve some titanium ore in order to convert it to titanium cubes."
-msgstr ""
+msgstr "Konvertieren Sie Titanerz in Titanwürfel."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Mover"
-msgstr ""
+msgstr "Trans"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
-msgstr ""
+msgstr "Wandeln Sie einige Einheiten <a object|titanore>Titanerz</a> in <a object|titan>Titanwürfel</a> um. Bringen Sie die Würfel dann zu den Flächen mit den Koordinaten:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -53,108 +53,110 @@ msgid ""
 "\tx=10, y=-60\n"
 "\tx=10, y=-65"
 msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
 
 #. type: Image filename
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "derrick"
-msgstr ""
+msgstr "derrick"
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
-msgstr ""
+msgstr "Der <a object|derrick>Bohrturm</a> fördert Titanerz aus dem Boden; Sie müssen es nur einsammeln."
 
 #. type: Image filename
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "convert"
-msgstr ""
+msgstr "convert"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
-msgstr ""
+msgstr "Der <a object|convert>Titankonverter</a> wandelt das Titanerz in verwendbare Titanwürfel um. Nehmen Sie einfach das Titanerz, legen Sie es auf die Plattform, gehen Sie einen Schritt zurück und warten Sie bis es umgewandelt ist."
 
 #. type: \b; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Vorgehensweise"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "Repeat two times :"
-msgstr ""
+msgstr "Wiederholen Sie 2 mal :"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "Wait until there is some titanium ore."
-msgstr ""
+msgstr "Warten Sie bis etwas Titanerz herumliegt."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "Go to the titanium ore."
-msgstr ""
+msgstr "Bewegen Sie sich zum Titanerz."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "Pick it up."
-msgstr ""
+msgstr "Heben Sie es auf."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Go to the converter."
-msgstr ""
+msgstr "Fahren Sie zum Konverter."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "Drop the titanium ore."
-msgstr ""
+msgstr "Legen Sie das Titanerz ab."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "Move back 2.5 meters."
-msgstr ""
+msgstr "Bewegen Sie sich 2,5 Meter zurück."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "Wait until there is a titanium cube."
-msgstr ""
+msgstr "Warten Sie, bis der Titanwürfel fertig ist."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Pick up the titanium cube."
-msgstr ""
+msgstr "Greifen Sie den Titanwürfel."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "Go to the platform."
-msgstr ""
+msgstr "Fahren Sie zu einer Plattform."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "Drop the titanium cube."
-msgstr ""
+msgstr "Legen Sie den Titanwürfel ab."
 
 #. type: \b; header
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Nützliche Anweisungen"
 
 #. type: Plain text
 #: ../help/help.E.txt:27
@@ -167,15 +169,21 @@ msgid ""
 "<code><a cbot|grab>grab</a></code> to grab an object\n"
 "<code><a cbot|drop>drop</a></code> to drop an object"
 msgstr ""
+"<code><a cbot|for>for</a></code> um einige Anweisungen zu wiederholen\n"
+"<code><a cbot|do>do - while</a></code> um einige Anweisungen zu wiederholen\n"
+"<code><a cbot|radar>radar</a></code> um verschiedene Objekte zu orten\n"
+"<code><a cbot|goto>goto</a></code> um den Roboter zu bewegen\n"
+"<code><a cbot|grab>grab</a></code> um ein Objekt zu greifen\n"
+"<code><a cbot|drop>drop</a></code> um ein Objekt abzulegen"
 
 #. type: \t; header
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, <a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."

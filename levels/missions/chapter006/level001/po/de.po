@@ -20,73 +20,73 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Develop your nuclear technology in order to increase your operating range."
-msgstr ""
+msgstr "Entwickeln Sie Brennstoffzellen, um Ihren Einsatzradius zu vergrössern."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "You need to retrieve an <a object|tnt>explosive device</a> that has been spotted in a deep valley next to a lake of boiling lava."
-msgstr ""
+msgstr "Sie sollen einen <a object|tnt>Sprengstoffkörper</a>, der in einem tiefen Tal in der Nähe eines brodelnden Lavasees geortet wurde, holen."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
-msgstr ""
+msgstr "Wegen den hohen Temperaturen funktionieren die Triebwerke nicht mehr; deswegen ist Fliegen unmöglich. Es ist ein langer Weg dort hin und Sie sollten Ihre Roboter mit <a object|fuelcell>katalytischen Brennstoffzellen</a> ausstatten. Brennstoffzellen werden aus <a object|platore>Platinerz</a> hergestellt."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "A more efficient program for the gathering of raw materials is attached to this message."
-msgstr ""
+msgstr "Ein effizienteres Programm zum Sammeln von Rohmaterial wurde mit dieser Nachricht mitgeschickt."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "A note of warning: the explosive device is extremely volatile. Use extreme caution."
-msgstr ""
+msgstr "Ein Hinweis zur Warnung: der Sprengstoffkörper ist extrem instabil. Seien Sie sehr vorsichtig."
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
 #: ../help/help.E.txt:12 ../help/soluce.E.txt:14
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 
 #. type: \b; header
 #: ../help/prog.E.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Von Houston übermittelte Programme"
 
 #. type: Plain text
 #: ../help/prog.E.txt:2
 #, no-wrap
 msgid "As you will need lots of titanium for this mission, we have made the program <code>CollectTitanium</code> still more efficient. It gathers a whole series of titanium cubes on a free surface, so you can let it work on its own. It also recharges itself at the <a object|station>power station</a> if necessary."
-msgstr ""
+msgstr "Da Sie für diese Mission viel Titan benötigen, haben wir das Programm <code>CollectTitanium</code> noch effizienter gemacht. Es sammelt alles Titan auf freiem Gelände, sodass Sie es von allein arbeiten lassen können. Es lädt ausserdem selbständig die Batterie beim <a object|station>Kraftwerk</a> auf, wenn notwendig."
 
 #. type: Source code
 #: ../help/prog.E.txt:4
@@ -141,72 +141,120 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::CollectTitanium3()\n"
+"{\n"
+"\t// 1) Variablen festlegen.\n"
+"\t<a cbot|type>object</a>  item;            // Info über Objekte\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)             // wiederhole immer wieder\n"
+"\t{\n"
+"\t\t\n"
+"\t\t// 2) Gehe zum Titanerz und nimm es.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// suche nach Titan\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // gehe zur Position\n"
+"\t\t<a cbot|grab>grab</a>();                  // greife das Titan\n"
+"\t\t\n"
+"\t\t// 3) Gehe zum Konverter und lege es ab.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // orte den Konverter\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // gehe zur Position\n"
+"\t\t<a cbot|drop>drop</a>();                  // lege das Titan ab\n"
+"\t\t<a cbot|move>move</a>(-2.5);              // gehe 2.5m zurück\n"
+"\t\t\n"
+"\t\t// 4) Warte auf das Titan und nimm es\n"
+"\t\t<a cbot|do>do</a>\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);              // warte auf den Würfel\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
+"\t\t}\n"
+"\t\t<a cbot|while>while</a> ( item == null );\n"
+"\t\t<a cbot|goto>goto</a>(item.position);\n"
+"\t\t<a cbot|grab>grab</a>();                   // nimm ihn\n"
+"\t\t\n"
+"\t\t// 5) Lege den Würfel auf einer freien Fläche ab\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // geh zu freier Fläche\n"
+"\t\t<a cbot|drop>drop</a>();                   // lege das Titan ab\n"
+"\t\t\n"
+"\t\t// 6) Ist die Batterie halb leer, lade sie auf.\n"
+"\t\t<a cbot|if>if</a> ( energyCell.energyLevel < 0.5 )\n"
+"\t\t{                         // wenn es so ist:\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);\n"
+"\t\t\t<a cbot|if>if</a> ( item != null )   // Kraftwerk gefunden ?\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|goto>goto</a>(item.position); // gehe dahin\n"
+"\t\t\t\t<a cbot|while>while</a> ( energyCell.energyLevel < 1 )\n"
+"\t\t\t\t{                 // bis voll geladen:\n"
+"\t\t\t\t\t<a cbot|wait>wait</a>(1);      // warte\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: ../help/prog.E.txt:53
 #, no-wrap
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #. type: Plain text
 #: ../help/prog.E.txt:54
 #, no-wrap
 msgid "Index of the programs dispatched in former missions:"
-msgstr ""
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:56
 #, no-wrap
 msgid "<code><a mlsaari2>KillAnt1</a></code>"
-msgstr ""
+msgstr "<code><a mlsaari2>KillAnt1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:57
 #, no-wrap
 msgid "<code><a mlcrys2>CollectTitanium2</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys2>CollectTitanium2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:58
 #, no-wrap
 msgid "<code><a mlcrys1>CollectTitanium1</a></code>"
-msgstr ""
+msgstr "<code><a mlcrys1>CollectTitanium1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:59
 #, no-wrap
 msgid "<code><a mltropi3>Recharge2</a></code>"
-msgstr ""
+msgstr "<code><a mltropi3>Recharge2</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:60
 #, no-wrap
 msgid "<code><a mllune4>Recharge1</a></code>"
-msgstr ""
+msgstr "<code><a mllune4>Recharge1</a></code>"
 
 #. type: Bullet: 'o'
 #: ../help/prog.E.txt:61
 #, no-wrap
 msgid "<code><a mllune1>SwitchCell1</a></code>"
-msgstr ""
+msgstr "<code><a mllune1>SwitchCell1</a></code>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr ""
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um Volcano."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> Oberfläche<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -218,12 +266,17 @@ msgid ""
 "\\tab;Titanium ore:     everywhere\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
+"\\tab;Temperatur:     84.6C\n"
+"\\tab;Atmosphäre:     CO2. SO2. HCN, HS, CH4. NH3\n"
+"\\tab;Wind:           2.2 m/s\n"
+"\\tab;Titanerz:       überall\n"
+"\\tab;Platinerz:      vereinzelt"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> Untergrund<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -233,12 +286,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Energiefelder:  überall\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> Zusätzliche Informationen<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -248,51 +304,54 @@ msgid ""
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Entdeckt:       wiederverwertbare Roboterwracks \n"
+"\\tab;Entdeckt:       unbekannte Lebensformen\n"
+"\\tab;  - Gefahr:     ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Schritt für Schritt"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Start by recharging a <a object|power>regular power cell</a> and power the <a object|research>research center</a>. Use it to research the technology for the building of a <a object|nuclear>nuclear plant</a> <button 170/>."
-msgstr ""
+msgstr "Beginnen Sie, indem Sie eine <a object|power>Batterie</a> aufladen und das <a object|research>Forschungszentrum</a> damit bestücken. Benutzen Sie dieses zur Erforschung der Technologie für den Bau einer <a object|fuelplan>Brennstoffzellenfabrik</a> <button 170/>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce a <a object|botgr>wheeled grabber</a>."
-msgstr ""
+msgstr "Bauen Sie einen <a object|botgr>Radtransporter</a>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Find some <a object|uranore>uranium ore</a> northwest of your position. The nuclear plant will then transform it into <a object|atomic>nuclear power cells</a> of a longer duration."
-msgstr ""
+msgstr "Sie finden ein wenig <a object|platore>Platinerz</a> nordwestlich von Ihrer Position. Die Brennstoffzellenfabrik wandelt das Erz in eine <a object|fuelcell>katalytische Brennstoffzelle</a> um, die eine längere Lebensdauer besitzt."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along the way."
-msgstr ""
+msgstr "Bestücken Sie einen <a object|botfr>Radshooter</a> mit einer der Brennstoffzellen. Schicken Sie ihn los, um alle aufdringlichen <a object|spider>Spinnen</a> entlang des Weges zu zerstören."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "A <a object|radar>radar</a> is optional but could turn out useful to mark the position of the spiders on your mini map."
-msgstr ""
+msgstr "Ein <a object|radar>Radar</a> kann sich als nützlich herausstellen, um die Spinnen auf der Mini-Karte zu markieren."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "A wheeled grabber should be part of the expedition. It will both clear the way cluttered with <a object|titanore>titanium ore</a> and bring the <a object|tnt>explosive device</a> back."
-msgstr ""
+msgstr "Ein Radtransporter sollte zu Ihrer Ausrüstung gehören. Er wird sowohl den Weg von verstreutem <a object|titanore>Titanerz</a> frei räumen, als auch den <a object|tnt>Sprengstoff</a> holen."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:15
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "Die <a command>Steuerung</a>"

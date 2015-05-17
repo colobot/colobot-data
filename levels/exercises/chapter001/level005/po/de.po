@@ -20,43 +20,43 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Power Cell 2"
-msgstr ""
+msgstr "Batterie 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Power all the winged shooters."
-msgstr ""
+msgstr "Versorgen Sie alle Shooter mit Batterien."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Spider2"
-msgstr ""
+msgstr "Batterie2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Das Ziel"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
-msgstr ""
+msgstr "Bestücken Sie die <a object|botfj>Jetshooter</a> mit <a object|power>Batterien</a>, sodass sie die Ameisen, die sich in dem Nest nördlich von Ihrer Position befinden, vernichten können."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programm"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
-msgstr ""
+msgstr "Der <a object|botgr>Radtransporter</a> soll zu einer <a object|power>Batterie</a> fahren, sie nehmen, dann zu einem <a object|botfj>Jetshooter</a> fahren und die Batterie ablegen. Diese Aufgabe ist sehr ähnlich zu der der letzten Übung. Hier noch einmal das Programm:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -75,42 +75,54 @@ msgid ""
 "\tdrop();\n"
 "}"
 msgstr ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
-msgstr ""
+msgstr "Die beste Möglichkeit, die vorliegende Übung zu lösen, besteht darin, obiges Programm in die Zwischenablage zu kopieren <button 61/> (von <code>object</code> bis <c/>drop();<n/>), und im Programmeditor einzufügen <button 62/>. Danach müssen Sie nur noch die Änderungen vornehmen, die für die Anpassung an die neue Aufgabe nötig sind."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
-msgstr ""
+msgstr "Suchen Sie anstelle von Titan (<code>TitaniumOre</code>) nach einer Batterie (<code>PowerCell</code>). Und gehen Sie nicht zu einem Konverter (<code>Converter</code>), sondern zu einem Jetshooter (<code>WingedShooter</code>). Sobald der Jetshooter eine frische Batterie hat, wird er sich an die Arbeit machen."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr ""
+msgstr "Mehr Informationen zu den \"Namen\" der verschiedenen Objekte in der Programmiersprache finden Sie hier: <a cbot|category>Kategorienbeschreibungen</a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "Further improvement: loops"
-msgstr ""
+msgstr "Der Debugger"
 
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
-msgstr ""
+msgstr "Um mehr über den genauen Ablauf des Programms zu erfahren, können Sie das Programm auch ausführen, wenn der Editor noch offen ist. Klicken Sie auf den Pfeil, und anschließend auf die Schaltfläche <Pause/Weitermachen>. So wird ständig der Wert der Variablen angezeigt, und ein Rechteck zeigt an, welche Anweisung gerade ausgeführt wird. Sie können auch eine Anweisung nach der anderen ausführen (Schaltfläche <Ein Schritt>)."
 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
-msgstr ""
+msgstr "Alle Programme, die Sie bisher geschrieben haben, enthielten nur Anweisungen, die genau einmal ausgeführt wurden, eine nach der anderen, vom Anfang des Programms bis zu seinem Ende. Sie können den Roboter aber auch anweisen, einige Anweisungen mehrmals zu wiederholen: Schreiben Sie einfach <code>while (true)</code>, eine öffnende geschweifte Klammer, die zu wiederholenden Anweisungen und eine schließende geschweifte Klammer. Man nennt dies eine Schleife. Hier ein Beispiel eines Programmes, das ständig Anweisungen wiederholt, die nach einer Batterie suchen, sie aufnehmen und auf einem Jetshooter ablegen:"
 
 #. type: Source code
 #: ../help/help.E.txt:31
@@ -127,33 +139,43 @@ msgid ""
 "\t\tdrop();\n"
 "\t}"
 msgstr ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
-msgstr ""
+msgstr "Die Variablendeklaration <c/>object item;<n/> darf natürlich nicht innerhalb der Schleife stehen, sondern davor. Deklarieren Sie Variablen immer nur einmal."
 
 #. type: \t; header
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Hinweis"
 
 #. type: Plain text
 #: ../help/help.E.txt:45
 #, no-wrap
 msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
-msgstr ""
+msgstr "Ein Roboter kann sein Programm völlig selbständig ausführen. In der Zwischenzeit können Sie den Astronaut selektieren und nachsehen, was beim Nest passiert. Dort wird Ihnen eine tolle Show geboten. Geben Sie aber darauf Acht, nicht von Ihren eigenen Robotern beschossen zu werden."
 
 #. type: \t; header
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

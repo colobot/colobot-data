@@ -20,55 +20,55 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "The gold digger"
-msgstr ""
+msgstr "Der Goldgräber"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct your bot to search a zone for subsoil resources."
-msgstr ""
+msgstr "Weisen Sie den Roboter an, eine bestimmte Zone nach Bodenschätzen abzusuchen."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Digger"
-msgstr ""
+msgstr "Gold"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Search the whole zone inside the barriers with the <a object|botsr>sniffer bot</a> for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross."
-msgstr ""
+msgstr "Untersuchen Sie die Fläche zwischen den Abschrankungen mit einem <a object|botsr>Schnüffler</a> auf einen geeigneten Standort für einen Bohrturm. Findet er eine eine solche Stelle, markiert er sie mit einem roten Kreuz."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters."
-msgstr ""
+msgstr "Das Gebiet innerhalb der Abschrankung ist ein Quadrat mit 25 Metern Seitenlänge. Der effektivste Weg ist, alle 5 Meter den Boden zu untersuchen."
 
 #. type: Image filename
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "sniff1"
-msgstr ""
+msgstr "sniff1"
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops one into another:"
-msgstr ""
+msgstr "Eine Möglichkeit, dies zu erreichen ist die Verschachtelung zweier <code><a cbot|for>for</a></code>-Schleifen:"
 
 #. type: Source code
 #: ../help/help.E.txt:10
@@ -87,6 +87,18 @@ msgid ""
 "\t</code>quarter turn left<c/>\n"
 "}"
 msgstr ""
+"<a cbot|for>for</a> ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\t<a cbot|for>for</a> ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>Boden untersuchen<code>\n"
+"\t\t</code>5m vorwärts fahren<code>\n"
+"\t}\n"
+"\t</code>Boden untersuchen<code>\n"
+"\t</code>Vierteldrehung nach links<code>\n"
+"\t</code>5m vorwärts fahren<code>\n"
+"\t</code>Vierteldrehung nach links<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:23
@@ -97,6 +109,10 @@ msgid ""
 "The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the division of <code>y</code> by <code>2</code>. For example, if <code>y=3</code>, the expression returns <code>1</code>.\n"
 "The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
 msgstr ""
+"Dieses Programm funktioniert nur am Anfang gut. Nach der ersten untersuchten Zeile dreht sich der Roboter korrekter Weise nach links und untersucht die zweite Zeile. Aber nach der zweiten Zeile muss er sich nach rechts drehen!\n"
+"Sie haben wahrscheinlich bemerkt, dass wenn <code>y</code> gerade ist, der Roboter sich nach links drehen muss und andernfalls nach rechts.\n"
+"Der <a cbot|expr>Ausdruck</a> <code>y%2</code> liefert den Rest der Division von <code>y</code> durch <code>2</code>. Wenn beispielsweise <code>y=3</code>, dann ergibt der Ausdruck <code>1</code>.\n"
+"Dem Test mittels <code><a cbot|if>if</a> { }</code> kann ein <code>else { }</code> folgen. Wenn der Test positiv ausfällt, wird der erste <a cbot|bloc>Block</a> <code>{ }</code> ausgeführt. Andernfalls wird der zweite Block <code>{ }</code> ausgeführt."
 
 #. type: Source code
 #: ../help/help.E.txt:28
@@ -111,33 +127,41 @@ msgid ""
 "\ty </code>is uneven<c/>\n"
 "}"
 msgstr ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>ist gerade<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>ist ungerade<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:37
 #, no-wrap
 msgid "It is up to you to finish the program."
-msgstr ""
+msgstr "Es ist nun Ihre Aufgabe, das Programm fertigzustellen."
 
 #. type: \b; header
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Hinweis"
 
 #. type: Plain text
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a cbot|turn>turn</a>( )</code> to move the bot."
-msgstr ""
+msgstr "Benutzen Sie die Anweisung <code><a cbot|sniff>sniff</a>( )</code>, um den Boden zu untersuchen und <code><a cbot|move>move</a>( )</code> sowie <code><a cbot|turn>turn</a>( )</code>, um den Roboter zu bewegen."
 
 #. type: \t; header
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:43
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

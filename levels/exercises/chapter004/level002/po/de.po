@@ -20,73 +20,73 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Radar"
-msgstr ""
+msgstr "Radar"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the radar to find lots of stupid blue crosses."
-msgstr ""
+msgstr "Benutzen Sie den Radar, um hier endlich aufzuräumen."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Find"
-msgstr ""
+msgstr "Ordnung1"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
-msgstr ""
+msgstr "Lassen Sie den Roboter alle <a object|waypoint>blauen Kreuze</a> auf dem Boden finden. Sobald der Roboter ein Kreuz passiert hat, verschwindet es. Hier das allgemeine Prinzip nach dem Sie vorgehen müssen:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Repeat forever:"
-msgstr ""
+msgstr "Wiederhole immer wieder:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Look for a cross"
-msgstr ""
+msgstr "Suche nach einem Kreuz."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "If there is none, stop the program."
-msgstr ""
+msgstr "Falls keines mehr existiert, beende das Programm."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Calculate the direction of the cross."
-msgstr ""
+msgstr "Berechne die Richtung des Kreuzes."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Set the speed of the motors in such a way that they will find their way to the cross."
-msgstr ""
+msgstr "Stelle passende Motorgeschwindigkeiten ein, um das Kreuz zu erreichen."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "The program"
-msgstr ""
+msgstr "Das Programm"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
-msgstr ""
+msgstr "Benutzen Sie eine <code><a cbot|while>while</a></code>-Schleife, um einige Anweisungen immer und immer wieder auszuführen:"
 
 #. type: Source code
 #: ../help/help.E.txt:12
@@ -97,24 +97,28 @@ msgid ""
 "\t</code>instructions...<c/>\n"
 "}"
 msgstr ""
+"<code><a cbot|while>while</a> ( <a cbot|true>true</a> )\n"
+"{\n"
+"\t</code>Anweisungen...<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
-msgstr ""
+msgstr "Die Anweisung <code><a cbot|radar>radar</a></code> findet die blauen Kreuze und schreibt ihre Beschreibung in eine Variable, zum Beispiel <code>spot</code>. In diesem Fall benötigt <code><a cbot|radar>radar</a>()</code> nur einen Parameter, und zwar die Kategorie des Objekts, nach dem gesucht werden soll:"
 
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "<c/>spot = radar(WayPoint);"
-msgstr ""
+msgstr "<c/>spot = <a cbot|radar>radar</a>(<a cbot|category>WayPoint</a>);"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
-msgstr ""
+msgstr "Wenn alle Kreuze gefunden wurden, gibt <code><a cbot|radar>radar</a></code> den Wert <code><a cbot|null>null</a></code> zurück. Sie müssen diesen Fall prüfen und entsprechend reagieren. Benutzen Sie hierfür eine <code><a cbot|if>if</a></code>-Anweisung:"
 
 #. type: Source code
 #: ../help/help.E.txt:21
@@ -126,30 +130,35 @@ msgid ""
 "\tbreak;        // stops the loop\n"
 "}"
 msgstr ""
+"<c/><a cbot|if>if</a> ( spot == <a cbot|null>null</a> )  // keine mehr ?\n"
+"{\n"
+"\t<a cbot|motor>motor</a>(0, 0);  // Motoren stoppen\n"
+"\t<a cbot|break>break</a>;        // Schleife verlassen\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
-msgstr ""
+msgstr "<n/>Die Anweisung <code><a cbot|break>break</a></code> setzt der Endlosschleife <code><a cbot|while>while</a> (true)</code> ein Ende."
 
 #. type: Plain text
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
-msgstr ""
+msgstr "Verwenden Sie die Anweisung <code><a cbot|direct>direction</a>()</code>, um den Winkel zu berechnen, der für die Drehung des Roboters in die Richtung des Kreuzes erforderlich ist. Die Koordinaten dieses Objekts sind gegeben durch <code>spot.<a cbot|object>position</a></code>. Folgende Zeile schreibt den Winkels der erforderlichen Drehung in die <a cbot|var>Variable</a> <code>dir</code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "<c/>dir = direction(spot.position);"
-msgstr ""
+msgstr "<c/>dir = <a cbot|direct>direction</a>(spot.<a cbot|object>position</a>);"
 
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
-msgstr ""
+msgstr "Der Winkel ist positiv, wenn das Kreuz sich linkerhand befindet und negativ, wenn es sich rechts befindet. Wenn das Kreuz sich auf der linken Seite befindet, setzen Sie den rechten Motor auf Höchstgeschwindigkeit und den linken Motor auf eine geringere Geschwindigkeit, je nach Winkel:"
 
 #. type: Plain text
 #: ../help/help.E.txt:33
@@ -161,24 +170,29 @@ msgid ""
 "    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
 "    direction = <code>180</code> -> speed = <code>-1.0</code>"
 msgstr ""
+"    Richtung = <code>  0</code> -> Geschw. = <code> 1.0</code>\n"
+"    Richtung = <code> 45</code> -> Geschw. = <code> 0.5</code>\n"
+"    Richtung = <code> 90</code> -> Geschw. = <code> 0.0</code>\n"
+"    Richtung = <code>135</code> -> Geschw. = <code>-0.5</code>\n"
+"    Richtung = <code>180</code> -> Geschw. = <code>-1.0</code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
-msgstr ""
+msgstr "Die untere Abbildung zeigt die Geschwindigkeiten des rechten und linken Motors, wie sie durch die Anweisung <code><a cbot|motor>motor</a></code> in Abhängigkeit vom Winkel gesetzt werden:"
 
 #. type: Image filename
 #: ../help/help.E.txt:41
 #, no-wrap
 msgid "radar2"
-msgstr ""
+msgstr "radar2"
 
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
-msgstr ""
+msgstr "Befindet sich das Kreuz genau in Fahrtrichtung, dann ist der Winkel 0 Grad. Die Motoren bekommen die Geschwindigkeiten 1 und 1, was für Höchstgeschwindigkeit voraus steht. Liegt das Kreuz hinter dem Roboter, wird die Geschwindigkeit des rechten Motors auf -1 gesetzt: der Roboter dreht sich. Sie können den <a cbot|expr>Ausdruck</a> <code>1+dir/90</code> verwenden, um die erforderlichen Geschwindigkeiten für die Motoren zu berechnen:"
 
 #. type: Source code
 #: ../help/help.E.txt:43
@@ -189,12 +203,16 @@ msgid ""
 "\tmotor(1, 1+dir/90);  // turns more or less\n"
 "}"
 msgstr ""
+"<c/><a cbot|if>if</a> ( dir < 0 )  // auf rechter Seite?\n"
+"{\n"
+"\t<a cbot|motor>motor</a>(1, 1+dir/90);  // mehr oder weniger drehen\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
-msgstr ""
+msgstr "Benutzen Sie das gleiche Prinzip, falls der Winkel einen positiven Wert zwischen 0 und 180 Grad hat. Es ist Ihre Aufgabe, die exakten Anweisungen zu erarbeiten:"
 
 #. type: Source code
 #: ../help/help.E.txt:49
@@ -205,21 +223,25 @@ msgid ""
 "\t</code>up to you to fill in here...<c/>\n"
 "}"
 msgstr ""
+"<code><a cbot|if>else</a>  // auf linker Seite?\n"
+"{\n"
+"\t</code>Füllen Sie dies aus...<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:54
 #, no-wrap
 msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
-msgstr ""
+msgstr "Ganz am Anfang des Programms müssen Sie alle verwendeten Variablen deklarieren. <code>spot</code> ist vom Typ <code><a cbot|object>object</a></code>, wogegen <code>dir</code> vom Typ <code><a cbot|float>float</a></code> ist."
 
 #. type: \t; header
 #: ../help/help.E.txt:56
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:57
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, die <a cbot|type>Variablentypen</a> und die <a cbot|category>Kategorien</a>."

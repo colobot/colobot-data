@@ -20,73 +20,73 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Shadow 2"
-msgstr ""
+msgstr "Schatten"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Follow a bot, as if you were its shadow."
-msgstr ""
+msgstr "Beschatten Sie einen Roboter."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Follow"
-msgstr ""
+msgstr "Schatten2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
-msgstr ""
+msgstr "Folgen Sie der <a object|bottr>mobilen Zielscheibe</a> mit dem Übungsfahrzeug, ohne sie zu berühren. Immer wenn die mobile Zielscheibe anhält, müssen Sie sich in ihrer Nähe befinden (weniger als 10m Abstand). Sobald Sie geschafft haben, sich während 10 aufeinanderfolgenden Stopps nahe der mobilen Zielscheibe zu befinden, wird sie Sie zur Zielfläche führen und die Übung ist beendet. Bei jedem Stopp prüft die mobile Zielscheibe, ob Sie in der Nähe sind. Ist das nicht der Fall, müssen Sie noch einmal von vorn anfangen."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Vorgehensweise"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Repeat forever:"
-msgstr ""
+msgstr "Wiederholen Sie immer:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Look for the target bot."
-msgstr ""
+msgstr "Suchen Sie nach der mobilen Zielscheibe."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Calculate the distance to the bot."
-msgstr ""
+msgstr "Berechnen Sie die Entfernung zu ihr."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "if the distance to the target bot is less than 5m, move backward."
-msgstr ""
+msgstr "Ist die Entfernung zur mobilen Zielscheibe geringer als 5m, fahren Sie rückwärts."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Otherwise, calculate the direction of the target bot, and move towards it."
-msgstr ""
+msgstr "Ansonsten berechnen Sie die Richtung der mobilen Zielscheibe und fahren auf sie zu."
 
 #. type: \b; header
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Nützliche Anweisungen"
 
 #. type: Plain text
 #: ../help/help.E.txt:12
@@ -99,15 +99,21 @@ msgid ""
 "<code><a cbot|if>if</a></code> to test a condition\n"
 "<code><a cbot|motor>motor</a></code> to set the motor speeds"
 msgstr ""
+"<code><a cbot|radar>radar</a></code> um nach dem Roboter zu suchen (Kategorie <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> um Hindernisse zu erkennen\n"
+"<code><a cbot|dist>distance</a></code> um die Entfernung zu berechnen\n"
+"<code><a cbot|direct>direction</a></code> um die Richtung zu berechnen\n"
+"<code><a cbot|if>if</a></code> um eine Bedingung zu prüfen\n"
+"<code><a cbot|motor>motor</a></code> um die Geschwindigkeit des Motors einzustellen"
 
 #. type: \t; header
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, <a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."

@@ -20,55 +20,55 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Spiral 2"
-msgstr ""
+msgstr "Spirale"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Create a procedure in order to teach your bot to perform a spiral."
-msgstr ""
+msgstr "Definieren Sie eine Funktion, um dem Roboter das Spiralen leichter zu machen."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr ""
+msgstr "Funktion"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr ""
+msgstr "Übung"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on."
-msgstr ""
+msgstr "Folgen Sie dem spiralförmigen Weg. Der Roboter muss sich 2 mal 25m vorwärts bewegen und drehen, danach 2 mal 20m und so weiter."
 
 #. type: Image filename
 #: ../help/help.E.txt:3
 #, no-wrap
 msgid "tproc2"
-msgstr ""
+msgstr "tproc2"
 
 #. type: \b; header
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Function"
-msgstr ""
+msgstr "Funktion"
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "You will have noticed that the way is made of \"L\"-shaped parts that are fit one into another. The first one (dark blue) measures two times 25 meters. The second one (light blue) measures 5 meters less. Let us start with writing the <a cbot|function>function</a> that will move the bot on a \"L\"-shaped part whose length will be given as a parameter."
-msgstr ""
+msgstr "Sie haben sicher bemerkt, dass der Weg aus \"L\"-förmigen Teilen besteht, die aneinander gereiht sind. Der erste Teil (dunkelblau) misst 2 mal 25 Meter. Im zweiten Teil (hellblau) sind die Abschnitte 5 Meter kürzer. Lassen Sie uns eine <a cbot|function>Funktion</a> schreiben, die den Roboter eine \"L\"-förmige Strecke fahren lässt, deren Länge als Parameter übergeben wird."
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Useful instructions"
-msgstr ""
+msgstr "Nützliche Anweisungen"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
@@ -78,15 +78,18 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|for>for</a></code>-Schleife um einige Anweisungen zu wiederholen\n"
+"<code><a cbot|move>move</a></code> um den Roboter zu bewegen\n"
+"<code><a cbot|turn>turn</a></code> um den Roboter zu drehen"
 
 #. type: \t; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Siehe auch"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "Die <a cbot>CBOT-Sprache</a>, <a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."
