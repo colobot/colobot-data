@@ -1,5 +1,5 @@
 # Colobot: Gold Edition - music files
-This reporitory contains music tracks for Colobot: Gold Edition project (https://github.com/colobot/colobot) and is an optional addition to game's data files (https://github.com/colobot/colobot-data).
+This directory contains scripts for downloading music tracks for Colobot: Gold Edition project (https://github.com/colobot/colobot) from official colobot.info server (http://colobot.info/files/music/) that are an optional addition to game's data files (https://github.com/colobot/colobot-data).
 It currently includes:
 * Original music from Colobot game, composed by **Daniel Roux** and prepared by **CoLoRaptor** to be also as stand-alone soundtrack album in the Vorbis meta-tags (by adding titles to every track and changing queue, that would be more suited to album release). This music was taken from original game CD.
  * Track 01: "CoLoBoT Main Theme" - music011.flac
@@ -27,7 +27,10 @@ It currently includes:
  * Intro2.ogg
 
 # File formats and installation
-This repository contains files in FLAC format. However, the game can only play OGG files, so they need to be converted first - it's done like this so we can keep high quality music available, but reduce the file size for use in Colobot data files. This is done by CMake scripts included with this repository, but they require "oggenc" to be installed in your system.
+The files are available in both FLAC and OGG formats. However, the game can only play OGG files, so FLAC files need to be converted first - it's done like this so we can keep high quality music available, but reduce the file size for use in Colobot data files. The conversion can be done by CMake scripts included here, but they require "oggenc" to be installed in your system.
+
+By default, prebuilt OGG files are downloaded. To use high-quality FLAC files, make sure music is enabled in CMake (-DMUSIC=ON), enable download of FLAC files (-DMUSIC_FLAC=ON) and pick a quality of the converted OGG files you need (-DMUSIC_QUALITY=number, this can be any value -1 - 10 including fractions, default is 3)
+
 
 # Licensing
 All music files on this reporitory are licensed under GPLv3 license.
