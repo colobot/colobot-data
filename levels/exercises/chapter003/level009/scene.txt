@@ -68,7 +68,7 @@ CreateObject pos=26.50;-85.00 dir=0.0 type=GoalArea
 CreateObject pos=27.50;-99.00 dir=0.0 type=ExchangePost
 CreateObject pos=42.00;-99.00 dir=1.2 type=Me option=1
 CreateObject pos=37.50;-85.00 dir=1.0 type=WheeledGrabber reset=1 trainer=1 script1="tremot1b.txt" run=1 selectable=0
-CreateObject pos=42.00;-95.00 dir=1.1 type=WheeledSniffer script4="tremot1a.txt" select=1
+CreateObject pos=42.00;-95.00 dir=1.1 type=WheeledSniffer script4="tremot1a.txt" scriptRunnable4=false select=1
 CreateObject pos=35.90;-85.00 dir=0.0 type=UraniumOre reset=1
 
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain

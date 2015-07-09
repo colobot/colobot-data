@@ -68,7 +68,7 @@ BeginObject
 CreateObject pos=37.50;-75.00 dir=0.0 type=StartArea
 CreateObject pos=12.50;-75.00 dir=0.0 type=GoalArea
 CreateObject pos= 6.25;-77.50 dir=1.8 type=Me option=2
-CreateObject pos=37.50;-75.00 dir=1.0 type=PracticeBot reset=1 trainer=1 camera=ONBOARD script4="tdragst.txt" select=1
+CreateObject pos=37.50;-75.00 dir=1.0 type=PracticeBot reset=1 trainer=1 camera=ONBOARD script4="tdragst.txt" scriptRunnable4=false select=1
 
 CreateObject pos=37.50;-77.50 dir=0.0 type=Barrier1
 CreateObject pos=32.50;-77.50 dir=0.0 type=Barrier1

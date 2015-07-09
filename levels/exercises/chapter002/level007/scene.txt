@@ -72,7 +72,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos=-164;-143 dir=1.5 type=Me range=200
-CreateObject pos=-170;-135 dir=1.5 type=WingedShooter reset=1 trainer=1 script4="twasp2.txt" power=100 range=500 camera=BACK
+CreateObject pos=-170;-135 dir=1.5 type=WingedShooter reset=1 trainer=1 script4="twasp2.txt" scriptRunnable4=false power=100 range=500 camera=BACK
 CreateObject pos=-200; -50 dir=0.5 type=AlienWasp reset=1 script1="waspe1.txt" run=1
 CreateObject pos=-150;-100 dir=0.5 type=AlienWasp reset=1 script1="waspe1.txt" run=1
 CreateObject pos=-100;-100 dir=0.7 type=AlienWasp reset=1 script1="waspe1.txt" run=1

@@ -64,7 +64,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos=37.50;-65.00 dir=0.7 type=Me option=2
-CreateObject pos=37.50;-75.00 dir=1.0 type=WheeledShooter reset=1 trainer=1 script4="tfor.txt" select=1 camera=FIX
+CreateObject pos=37.50;-75.00 dir=1.0 type=WheeledShooter reset=1 trainer=1 script4="tfor.txt" scriptRunnable4=false select=1 camera=FIX
 
 CreateObject pos=40.00;-72.50 dir=0.5 type=Barrier1
 CreateObject pos=40.00;-77.50 dir=0.5 type=Barrier1

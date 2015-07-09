@@ -34,7 +34,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos= 6; -10 dir=1.5 type=Me
-CreateObject pos= 0; 0 dir=1.5 type=WheeledShooter reset=1 trainer=1 script4="tspid1.txt" power=1 camera=BACK
+CreateObject pos= 0; 0 dir=1.5 type=WheeledShooter reset=1 trainer=1 script4="tspid1.txt" scriptRunnable4=false power=1 camera=BACK
 CreateObject pos= -4; -20 dir=0.0 type=RadarStation
 CreateObject pos= -20; 0 dir=0.0 type=AlienSpider reset=1
 CreateObject pos= 0; 20 dir=0.5 type=AlienSpider reset=1

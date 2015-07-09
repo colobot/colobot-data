@@ -67,7 +67,7 @@ CreateObject pos=35.00;-70.00 dir=1.0 type=StartArea
 CreateObject pos=10.00;-60.00 dir=1.0 type=GoalArea
 CreateObject pos=10.00;-65.00 dir=1.0 type=GoalArea
 CreateObject pos=50.00;-72.50 dir=1.0 type=Me option=2 select=1
-CreateObject pos=35.00;-70.00 dir=1.0 type=WheeledGrabber reset=1 trainer=1 script4="tremova3.txt"
+CreateObject pos=35.00;-70.00 dir=1.0 type=WheeledGrabber reset=1 trainer=1 script4="tremova3.txt" scriptRunnable4=false
 CreateObject pos=29.00;-80.00 dir=1.5 type=Derrick reset=1
 CreateObject pos=29.00;-60.00 dir=0.5 type=Converter reset=1
 CreateObject pos=20.00;-68.00 dir=0.0 type=Greenery1

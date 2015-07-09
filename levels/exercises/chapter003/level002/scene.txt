@@ -66,7 +66,7 @@ BeginObject
 CreateObject pos=37.50;-75.00 dir=0.0 type=StartArea
 CreateObject pos=-2.50;-75.00 dir=0.0 type=GoalArea
 CreateObject pos=43.75;-77.50 dir=1.0 type=Me option=2
-CreateObject pos=37.50;-75.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tmove2.txt"
+CreateObject pos=37.50;-75.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tmove2.txt" scriptRunnable4=false
 CreateObject pos=17.50;-75.00 dir=0.0 type=WayPoint reset=1
 CreateObject pos=17.50;-95.00 dir=0.0 type=WayPoint reset=1
 CreateObject pos=-2.50;-95.00 dir=0.0 type=WayPoint reset=1

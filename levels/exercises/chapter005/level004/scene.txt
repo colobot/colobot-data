@@ -66,7 +66,7 @@ BeginObject
 CreateObject pos=32.50;-65.00 dir=1.0 type=StartArea
 CreateObject pos=10.00;-60.00 dir=1.0 type=GoalArea
 CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
-CreateObject pos=32.50;-65.00 dir=1.0 type=WingedGrabber reset=1 trainer=1 script4="tremova4.txt" select=1
+CreateObject pos=32.50;-65.00 dir=1.0 type=WingedGrabber reset=1 trainer=1 script4="tremova4.txt" scriptRunnable4=false select=1
 CreateObject pos=28.00;-90.00 dir=0.0 type=Titanium reset=1
 
 CreateObject pos=37.60;-73.00 dir=0.0 type=Barrier1

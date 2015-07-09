@@ -66,7 +66,7 @@ BeginObject
 CreateObject pos=27.50;-67.50 dir=0.0 type=StartArea
 CreateObject pos=17.50;-72.50 dir=0.0 type=GoalArea
 CreateObject pos=32.50;-70.00 dir=1.0 type=Me option=2
-CreateObject pos=27.50;-67.50 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tlaby1.txt" power=1 select=1
+CreateObject pos=27.50;-67.50 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tlaby1.txt" scriptRunnable4=false power=1 select=1
 
 CreateObject pos=12.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-65.00 dir=0.0 type=Barrier1

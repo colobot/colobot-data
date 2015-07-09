@@ -67,7 +67,7 @@ CreateObject pos=37.50;-75.00 dir=0.0 type=StartArea
 CreateObject pos=37.50;-85.00 dir=0.0 type=GoalArea
 CreateObject pos=42.00;-85.00 dir=1.2 type=Me option=1
 CreateObject pos=37.50;-75.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script1="tremot5b.txt" run=1 //selectable=0
-CreateObject pos=42.00;-82.00 dir=1.0 type=WheeledGrabber script4="tremot5a.txt" power=0 select=1
+CreateObject pos=42.00;-82.00 dir=1.0 type=WheeledGrabber script4="tremot5a.txt" scriptRunnable4=false power=0 select=1
 CreateObject pos=27.50;-75.00 dir=0.0 type=WayPoint reset=1
 CreateObject pos=17.50;-75.00 dir=0.0 type=WayPoint reset=1
 CreateObject pos=17.50;-85.00 dir=0.0 type=WayPoint reset=1

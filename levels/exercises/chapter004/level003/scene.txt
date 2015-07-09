@@ -64,7 +64,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
-CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tradar1.txt" select=1
+CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tradar1.txt" scriptRunnable4=false select=1
 CreateObject pos=20.00;-77.50 dir=1.0 type=WheeledSniffer reset=1 script1="tradar2.txt" run=1 selectable=0
 
 // Ligne supérieure.

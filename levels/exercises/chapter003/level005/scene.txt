@@ -66,7 +66,7 @@ BeginObject
 CreateObject pos=100.00;-50.00 dir=1.0 type=StartArea
 CreateObject pos= 75.00; 50.00 dir=1.0 type=GoalArea
 CreateObject pos=105.00;-47.50 dir=1.0 type=Me option=2
-CreateObject pos=100.00;-50.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="texch2.txt" camera=BACK select=1
+CreateObject pos=100.00;-50.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="texch2.txt" scriptRunnable4=false camera=BACK select=1
 
 CreateObject pos= 100.00;-45.00 dir=0.0 type=ExchangePost info1="Number=1" info2="Direction=0" info3="Length=50"
 CreateObject pos= 50.00;-45.00 dir=0.0 type=ExchangePost info1="Number=2" info2="Direction=26.5" info3="Length=56"

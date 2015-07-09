@@ -26,7 +26,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos= -3; -10 dir=1.5 type=Me range=200
-CreateObject pos= 0; -5 dir=1.5 type=WingedShooter reset=1 trainer=1 script4="tant3.txt" power=1 range=200 camera=BACK
+CreateObject pos= 0; -5 dir=1.5 type=WingedShooter reset=1 trainer=1 script4="tant3.txt" scriptRunnable4=false power=1 range=200 camera=BACK
 CreateObject pos= -20; 100 dir=0.0 type=AlienAnt reset=1 script1="antatt30.txt" run=1 cmdline=1
 CreateObject pos= 0; 110 dir=0.0 type=AlienAnt reset=1 script1="antatt30.txt" run=1 cmdline=1
 CreateObject pos=-130; -10 dir=0.0 type=AlienAnt reset=1 script1="antatt30.txt" run=1 cmdline=1

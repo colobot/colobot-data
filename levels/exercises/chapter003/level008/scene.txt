@@ -64,7 +64,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos=37.50;-65.00 dir=1.1 type=Me option=2
-CreateObject pos=32.50;-65.00 dir=1.0 type=WheeledSniffer reset=1 trainer=1 script4="tsniff.txt" select=1
+CreateObject pos=32.50;-65.00 dir=1.0 type=WheeledSniffer reset=1 trainer=1 script4="tsniff.txt" scriptRunnable4=false select=1
 
 // Ligne supérieure.
 CreateObject pos= 7.50;-62.50 dir=0.0 type=Barrier1

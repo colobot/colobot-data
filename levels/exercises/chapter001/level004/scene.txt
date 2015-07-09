@@ -34,7 +34,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos= 7; -10 dir=1.5 type=Me
-CreateObject pos= 0; 0 dir=1.5 type=WheeledGrabber reset=1 trainer=1 script4="ttit2.txt" power=1
+CreateObject pos= 0; 0 dir=1.5 type=WheeledGrabber reset=1 trainer=1 script4="ttit2.txt" scriptRunnable4=false power=1
 CreateObject pos= 0; -11 dir=1.5 type=Converter
 CreateObject pos= -9; 64 dir=0.0 type=TitaniumOre reset=1
 

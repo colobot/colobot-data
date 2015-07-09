@@ -34,7 +34,7 @@ TerrainCreate
 
 BeginObject
 CreateObject pos= 6; -10 dir=1.5 type=Me
-CreateObject pos= 0; 0 dir=1.5 type=WheeledGrabber reset=1 trainer=1 script4="tcell1.txt" power=1
+CreateObject pos= 0; 0 dir=1.5 type=WheeledGrabber reset=1 trainer=1 script4="tcell1.txt" scriptRunnable4=false power=1
 CreateObject pos= 0; 2.5 dir=1.5 type=WingedShooter reset=1 script1="wingshoo.txt" run=1 range=200 power=0.1 selectable=0
 CreateObject pos= 1.5; 0 dir=0.0 type=PowerCell
 CreateObject pos= -4; -20 dir=0.0 type=RadarStation
