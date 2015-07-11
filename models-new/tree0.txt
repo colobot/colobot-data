@@ -1,10 +1,28 @@
 # Colobot text model
 
 ### HEAD
-version 2
+version 3
+total_crash_spheres 4
+has_shadow_spot Y
+has_camera_collision_sphere N
+total_meshes 1
+
+# MODEL PROPERTIES
+crash_sphere pos 0 3 2 rad 3 sound boums hard 0.2
+crash_sphere pos -1 10 1 rad 2 sound boums hard 0.2
+crash_sphere pos 0 17 0 rad 2 sound boums hard 0.2
+crash_sphere pos 0 27 0 rad 2 sound boums hard 0.2
+shadow_spot rad 8 int 0.5
+
+### MESH
+mesh main
+position 0 0 0
+rotation 0 0 0
+scale 1 1 1
+parent 
 total_triangles 110
 
-### TRIANGLES
+### MESH TRIANGLES
 p1 c 0.560816 8.9776 1.2805 n 0.99919 0.0263284 -0.0304371 t1 0.997095 0.654557 t2 0 0
 p2 c -0.333164 8.9776 3.23078 n 0.358842 0.220065 0.907085 t1 0.779639 0.654557 t2 0 0
 p3 c 2.4378 -5.0377 2.12626 n 0.98161 0.1394 0.130419 t1 0.732598 0.99798 t2 0 0
@@ -12,7 +30,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.333164 8.9776 3.23078 n 0.358842 0.220065 0.907085 t1 0.779639 0.654557 t2 0 0
 p2 c 1.11895 -5.0377 5.0128 n 0.0390049 0.132506 0.990414 t1 0.779516 0.99798 t2 0 0
@@ -21,7 +41,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.333164 8.9776 3.23078 n 0.358842 0.220065 0.907085 t1 0.779639 0.654557 t2 0 0
 p2 c -2.46604 8.98765 2.23491 n -0.795039 0.1578 0.585673 t1 0.837975 0.654311 t2 0 0
@@ -30,7 +52,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.46604 8.98765 2.23491 n -0.795039 0.1578 0.585673 t1 0.837975 0.654311 t2 0 0
 p2 c -2.14512 -5.03756 3.62376 n -0.894225 0.0275721 0.446767 t1 0.832588 0.997977 t2 0 0
@@ -39,7 +63,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.46604 8.98765 2.23491 n -0.795039 0.1578 0.585673 t1 0.837975 0.654311 t2 0 0
 p2 c -2.66605 8.96374 0.226039 n -0.834167 -0.0185106 -0.551201 t1 0.889328 0.654896 t2 0 0
@@ -48,7 +74,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.66605 8.96374 0.226039 n -0.834167 -0.0185106 -0.551201 t1 0.889328 0.654896 t2 0 0
 p2 c -2.79854 -5.04042 -0.203381 n -0.656849 0.0281643 -0.753496 t1 0.891791 0.998047 t2 0 0
@@ -57,7 +85,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.66605 8.96374 0.226039 n -0.834167 -0.0185106 -0.551201 t1 0.889328 0.654896 t2 0 0
 p2 c -0.572094 8.97144 -0.385858 n 0.328051 -0.0913469 -0.940233 t1 0.94345 0.654708 t2 0 0
@@ -66,7 +96,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.572094 8.97144 -0.385858 n 0.328051 -0.0913469 -0.940233 t1 0.94345 0.654708 t2 0 0
 p2 c 0.691237 -5.03286 -1.15819 n 0.583029 0.0908138 -0.80736 t1 0.942108 0.997862 t2 0 0
@@ -75,7 +107,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.572094 8.97144 -0.385858 n 0.328051 -0.0913469 -0.940233 t1 0.94345 0.654708 t2 0 0
 p2 c 0.560816 8.9776 1.2805 n 0.99919 0.0263284 -0.0304371 t1 0.997095 0.654557 t2 0 0
@@ -84,7 +118,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.560816 8.9776 1.2805 n 0.99919 0.0263284 -0.0304371 t1 0.997095 0.654557 t2 0 0
 p2 c 2.4378 -5.0377 2.12626 n 0.98161 0.1394 0.130419 t1 0.732598 0.99798 t2 0 0
@@ -93,7 +129,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.54912 15.9054 -0.258045 n 0.985034 -0.172188 0.00771017 t1 0.998047 0.484801 t2 0 0
 p2 c 0.454737 15.9054 1.24824 n 0.336129 0.0470774 0.940639 t1 0.782414 0.484801 t2 0 0
@@ -102,7 +140,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.454737 15.9054 1.24824 n 0.336129 0.0470774 0.940639 t1 0.782414 0.484801 t2 0 0
 p2 c -0.333164 8.9776 3.23078 n 0.358842 0.220065 0.907085 t1 0.779639 0.654557 t2 0 0
@@ -111,7 +151,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.454737 15.9054 1.24824 n 0.336129 0.0470774 0.940639 t1 0.782414 0.484801 t2 0 0
 p2 c -1.16173 15.8765 0.654998 n -0.768435 0.218265 0.601555 t1 0.834068 0.48551 t2 0 0
@@ -120,7 +162,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -1.16173 15.8765 0.654998 n -0.768435 0.218265 0.601555 t1 0.834068 0.48551 t2 0 0
 p2 c -2.46604 8.98765 2.23491 n -0.795039 0.1578 0.585673 t1 0.837975 0.654311 t2 0 0
@@ -129,7 +173,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -1.16173 15.8765 0.654998 n -0.768435 0.218265 0.601555 t1 0.834068 0.48551 t2 0 0
 p2 c -1.47954 15.9295 -1.19857 n -0.83861 0.153044 -0.522791 t1 0.888039 0.484212 t2 0 0
@@ -138,7 +184,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -1.47954 15.9295 -1.19857 n -0.83861 0.153044 -0.522791 t1 0.888039 0.484212 t2 0 0
 p2 c -2.66605 8.96374 0.226039 n -0.834167 -0.0185106 -0.551201 t1 0.889328 0.654896 t2 0 0
@@ -147,7 +195,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -1.47954 15.9295 -1.19857 n -0.83861 0.153044 -0.522791 t1 0.888039 0.484212 t2 0 0
 p2 c 0.462518 15.9052 -1.7368 n 0.325884 -0.124515 -0.937174 t1 0.944586 0.484807 t2 0 0
@@ -156,7 +206,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.462518 15.9052 -1.7368 n 0.325884 -0.124515 -0.937174 t1 0.944586 0.484807 t2 0 0
 p2 c -0.572094 8.97144 -0.385858 n 0.328051 -0.0913469 -0.940233 t1 0.94345 0.654708 t2 0 0
@@ -165,7 +217,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.462518 15.9052 -1.7368 n 0.325884 -0.124515 -0.937174 t1 0.944586 0.484807 t2 0 0
 p2 c 1.54912 15.9054 -0.258045 n 0.985034 -0.172188 0.00771017 t1 0.998047 0.484801 t2 0 0
@@ -174,7 +228,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.54912 15.9054 -0.258045 n 0.985034 -0.172188 0.00771017 t1 0.998047 0.484801 t2 0 0
 p2 c 0.560816 8.9776 1.2805 n 0.99919 0.0263284 -0.0304371 t1 0.997095 0.654557 t2 0 0
@@ -183,7 +239,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 2.25642 20.6781 0.016141 n 0.998032 -0.0623918 0.00627091 t1 0.728889 0.367855 t2 0 0
 p2 c 1.29644 20.6781 1.33745 n 0.314631 -0.0151477 0.949093 t1 0.779751 0.367855 t2 0 0
@@ -192,7 +250,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.29644 20.6781 1.33745 n 0.314631 -0.0151477 0.949093 t1 0.779751 0.367855 t2 0 0
 p2 c 0.454737 15.9054 1.24824 n 0.336129 0.0470774 0.940639 t1 0.782414 0.484801 t2 0 0
@@ -201,7 +261,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.29644 20.6781 1.33745 n 0.314631 -0.0151477 0.949093 t1 0.779751 0.367855 t2 0 0
 p2 c -0.398897 20.6992 0.854696 n -0.768402 0.103858 0.631484 t1 0.836258 0.367338 t2 0 0
@@ -210,7 +272,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.398897 20.6992 0.854696 n -0.768402 0.103858 0.631484 t1 0.836258 0.367338 t2 0 0
 p2 c -1.16173 15.8765 0.654998 n -0.768435 0.218265 0.601555 t1 0.834068 0.48551 t2 0 0
@@ -219,7 +283,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.398897 20.6992 0.854696 n -0.768402 0.103858 0.631484 t1 0.836258 0.367338 t2 0 0
 p2 c -0.538014 20.6573 -0.724755 n -0.854559 0.131094 -0.502538 t1 0.88508 0.368364 t2 0 0
@@ -228,7 +294,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.538014 20.6573 -0.724755 n -0.854559 0.131094 -0.502538 t1 0.88508 0.368364 t2 0 0
 p2 c -1.47954 15.9295 -1.19857 n -0.83861 0.153044 -0.522791 t1 0.888039 0.484212 t2 0 0
@@ -237,7 +305,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -0.538014 20.6573 -0.724755 n -0.854559 0.131094 -0.502538 t1 0.88508 0.368364 t2 0 0
 p2 c 1.22931 20.6812 -1.46748 n 0.321647 0.0269855 -0.946475 t1 0.943675 0.367777 t2 0 0
@@ -246,7 +316,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.22931 20.6812 -1.46748 n 0.321647 0.0269855 -0.946475 t1 0.943675 0.367777 t2 0 0
 p2 c 0.462518 15.9052 -1.7368 n 0.325884 -0.124515 -0.937174 t1 0.944586 0.484807 t2 0 0
@@ -255,7 +327,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.22931 20.6812 -1.46748 n 0.321647 0.0269855 -0.946475 t1 0.943675 0.367777 t2 0 0
 p2 c 2.25642 20.6781 0.016141 n 0.998032 -0.0623918 0.00627091 t1 0.728889 0.367855 t2 0 0
@@ -264,7 +338,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 2.25642 20.6781 0.016141 n 0.998032 -0.0623918 0.00627091 t1 0.728889 0.367855 t2 0 0
 p2 c 1.54912 15.9054 -0.258045 n 0.985034 -0.172188 0.00771017 t1 0.998047 0.484801 t2 0 0
@@ -273,7 +349,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 2.21368 28.5032 -0.231747 n 0.993428 -0.0876333 -0.0736267 t1 0.732574 0.176112 t2 0 0
 p2 c 1.52304 28.5032 0.718833 n 0.438072 0.0709278 0.896138 t1 0.783624 0.176112 t2 0 0
@@ -282,7 +360,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.52304 28.5032 0.718833 n 0.438072 0.0709278 0.896138 t1 0.783624 0.176112 t2 0 0
 p2 c 1.29644 20.6781 1.33745 n 0.314631 -0.0151477 0.949093 t1 0.779751 0.367855 t2 0 0
@@ -291,7 +371,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.52304 28.5032 0.718833 n 0.438072 0.0709278 0.896138 t1 0.783624 0.176112 t2 0 0
 p2 c 0.483834 28.4938 0.34773 n -0.657043 0.234683 0.716392 t1 0.831343 0.176342 t2 0 0
@@ -300,7 +382,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.483834 28.4938 0.34773 n -0.657043 0.234683 0.716392 t1 0.831343 0.176342 t2 0 0
 p2 c -0.398897 20.6992 0.854696 n -0.768402 0.103858 0.631484 t1 0.836258 0.367338 t2 0 0
@@ -309,7 +393,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.483834 28.4938 0.34773 n -0.657043 0.234683 0.716392 t1 0.831343 0.176342 t2 0 0
 p2 c 0.301429 28.51 -0.969854 n -0.904505 0.218513 -0.366228 t1 0.889591 0.175945 t2 0 0
@@ -318,7 +404,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.301429 28.51 -0.969854 n -0.904505 0.218513 -0.366228 t1 0.889591 0.175945 t2 0 0
 p2 c -0.538014 20.6573 -0.724755 n -0.854559 0.131094 -0.502538 t1 0.88508 0.368364 t2 0 0
@@ -327,7 +415,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 0.301429 28.51 -0.969854 n -0.904505 0.218513 -0.366228 t1 0.889591 0.175945 t2 0 0
 p2 c 1.55555 28.5022 -1.49725 n 0.162127 -0.00368691 -0.986763 t1 0.942789 0.176138 t2 0 0
@@ -336,7 +426,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.55555 28.5022 -1.49725 n 0.162127 -0.00368691 -0.986763 t1 0.942789 0.176138 t2 0 0
 p2 c 1.22931 20.6812 -1.46748 n 0.321647 0.0269855 -0.946475 t1 0.943675 0.367777 t2 0 0
@@ -345,7 +437,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 1.55555 28.5022 -1.49725 n 0.162127 -0.00368691 -0.986763 t1 0.942789 0.176138 t2 0 0
 p2 c 2.21368 28.5032 -0.231747 n 0.993428 -0.0876333 -0.0736267 t1 0.732574 0.176112 t2 0 0
@@ -354,7 +448,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 2.21368 28.5032 -0.231747 n 0.993428 -0.0876333 -0.0736267 t1 0.732574 0.176112 t2 0 0
 p2 c 2.25642 20.6781 0.016141 n 0.998032 -0.0623918 0.00627091 t1 0.728889 0.367855 t2 0 0
@@ -363,7 +459,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 3.70048 35.6107 -0.722207 n 0.110497 0.905031 0.410743 t1 0.728516 0.00195312 t2 0 0
 p2 c 1.52304 28.5032 0.718833 n 0.438072 0.0709278 0.896138 t1 0.783624 0.176112 t2 0 0
@@ -372,7 +470,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 3.70048 35.6107 -0.722207 n 0.110497 0.905031 0.410743 t1 0.728516 0.00195312 t2 0 0
 p2 c 0.483834 28.4938 0.34773 n -0.657043 0.234683 0.716392 t1 0.831343 0.176342 t2 0 0
@@ -381,7 +481,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 3.70048 35.6107 -0.722207 n 0.110497 0.905031 0.410743 t1 0.728516 0.00195312 t2 0 0
 p2 c 0.301429 28.51 -0.969854 n -0.904505 0.218513 -0.366228 t1 0.889591 0.175945 t2 0 0
@@ -390,7 +492,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 3.70048 35.6107 -0.722207 n 0.110497 0.905031 0.410743 t1 0.728516 0.00195312 t2 0 0
 p2 c 1.55555 28.5022 -1.49725 n 0.162127 -0.00368691 -0.986763 t1 0.942789 0.176138 t2 0 0
@@ -399,7 +503,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 3.70048 35.6107 -0.722207 n 0.110497 0.905031 0.410743 t1 0.728516 0.00195312 t2 0 0
 p2 c 2.21368 28.5032 -0.231747 n 0.993428 -0.0876333 -0.0736267 t1 0.732574 0.176112 t2 0 0
@@ -408,7 +514,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 23.3808 0.086649 n 0.0124345 0.0398853 0.999127 t1 0.795898 0.604245 t2 0 0
 p2 c 7.1245 24.3789 -0.63851 n -0.0903496 0.940879 0.326473 t1 0.746692 0.604245 t2 0 0
@@ -417,7 +525,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 24.3789 -0.63851 n -0.0903496 0.940879 0.326473 t1 0.746692 0.604245 t2 0 0
 p2 c 0.839635 24.5486 0.225028 n 0.034115 0.994641 0.097597 t1 0.740133 0.998047 t2 0 0
@@ -426,7 +536,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 24.3789 -0.63851 n -0.0903496 0.940879 0.326473 t1 0.746692 0.604245 t2 0 0
 p2 c 7.1245 23.9977 -2.12657 n 0.0496328 0.613269 -0.788313 t1 0.953668 0.604245 t2 0 0
@@ -435,7 +547,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 23.9977 -2.12657 n 0.0496328 0.613269 -0.788313 t1 0.953668 0.604245 t2 0 0
 p2 c 0.839635 24.1025 -1.14777 n -0.136106 0.380513 -0.914705 t1 0.962726 0.998047 t2 0 0
@@ -444,7 +558,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 23.9977 -2.12657 n 0.0496328 0.613269 -0.788313 t1 0.953668 0.604245 t2 0 0
 p2 c 7.1245 22.764 -2.12657 n 0.182501 -0.582204 -0.792296 t1 0.90766 0.604245 t2 0 0
@@ -453,7 +569,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 22.764 -2.12657 n 0.182501 -0.582204 -0.792296 t1 0.90766 0.604245 t2 0 0
 p2 c 0.839635 22.6591 -1.14777 n -0.0575767 -0.644804 -0.762177 t1 0.909882 0.998047 t2 0 0
@@ -462,7 +580,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 22.764 -2.12657 n 0.182501 -0.582204 -0.792296 t1 0.90766 0.604245 t2 0 0
 p2 c 7.1245 22.3827 -0.63851 n 0.19815 -0.943831 0.264423 t1 0.845105 0.604245 t2 0 0
@@ -471,7 +591,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 22.3827 -0.63851 n 0.19815 -0.943831 0.264423 t1 0.845105 0.604245 t2 0 0
 p2 c 0.839635 21.2185 0.225028 n 0.199843 -0.837329 0.508864 t1 0.855092 0.998047 t2 0 0
@@ -480,7 +602,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 22.3827 -0.63851 n 0.19815 -0.943831 0.264423 t1 0.845105 0.604245 t2 0 0
 p2 c 7.1245 23.3808 0.086649 n 0.0124345 0.0398853 0.999127 t1 0.795898 0.604245 t2 0 0
@@ -489,7 +613,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 7.1245 23.3808 0.086649 n 0.0124345 0.0398853 0.999127 t1 0.795898 0.604245 t2 0 0
 p2 c 0.839635 23.3808 1.07346 n 0.14796 0.300196 0.942332 t1 0.789009 0.998047 t2 0 0
@@ -498,7 +624,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.9082 0.509811 n 0.0444469 -0.150801 0.987564 t1 0.795898 0.333984 t2 0 0
 p2 c 11.4377 25.5399 0.050849 n -0.0950501 0.894129 0.437607 t1 0.741992 0.333984 t2 0 0
@@ -507,7 +635,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 25.5399 0.050849 n -0.0950501 0.894129 0.437607 t1 0.741992 0.333984 t2 0 0
 p2 c 7.1245 24.3789 -0.63851 n -0.0903496 0.940879 0.326473 t1 0.746692 0.604245 t2 0 0
@@ -516,7 +646,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 25.5399 0.050849 n -0.0950501 0.894129 0.437607 t1 0.741992 0.333984 t2 0 0
 p2 c 11.4377 25.2986 -0.691766 n 0.0546562 0.708342 -0.70375 t1 0.957617 0.333984 t2 0 0
@@ -525,7 +657,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 25.2986 -0.691766 n 0.0546562 0.708342 -0.70375 t1 0.957617 0.333984 t2 0 0
 p2 c 7.1245 23.9977 -2.12657 n 0.0496328 0.613269 -0.788313 t1 0.953668 0.604245 t2 0 0
@@ -534,7 +668,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 25.2986 -0.691766 n 0.0546562 0.708342 -0.70375 t1 0.957617 0.333984 t2 0 0
 p2 c 11.4377 24.5178 -0.691766 n 0.284286 -0.441553 -0.851007 t1 0.903711 0.333984 t2 0 0
@@ -543,7 +679,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.5178 -0.691766 n 0.284286 -0.441553 -0.851007 t1 0.903711 0.333984 t2 0 0
 p2 c 7.1245 22.764 -2.12657 n 0.182501 -0.582204 -0.792296 t1 0.90766 0.604245 t2 0 0
@@ -552,7 +690,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.5178 -0.691766 n 0.284286 -0.441553 -0.851007 t1 0.903711 0.333984 t2 0 0
 p2 c 11.4377 24.2765 0.05085 n 0.249061 -0.948304 0.196691 t1 0.849805 0.333984 t2 0 0
@@ -561,7 +701,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.2765 0.05085 n 0.249061 -0.948304 0.196691 t1 0.849805 0.333984 t2 0 0
 p2 c 7.1245 22.3827 -0.63851 n 0.19815 -0.943831 0.264423 t1 0.845105 0.604245 t2 0 0
@@ -570,7 +712,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.2765 0.05085 n 0.249061 -0.948304 0.196691 t1 0.849805 0.333984 t2 0 0
 p2 c 11.4377 24.9082 0.509811 n 0.0444469 -0.150801 0.987564 t1 0.795898 0.333984 t2 0 0
@@ -579,7 +723,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 11.4377 24.9082 0.509811 n 0.0444469 -0.150801 0.987564 t1 0.795898 0.333984 t2 0 0
 p2 c 7.1245 23.3808 0.086649 n 0.0124345 0.0398853 0.999127 t1 0.795898 0.604245 t2 0 0
@@ -588,7 +734,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 16.7368 24.2898 -0.154404 n 0.998353 -0.0573785 -3.88399e-05 t1 0.728516 0.00195318 t2 0 0
 p2 c 11.4377 25.5399 0.050849 n -0.0950501 0.894129 0.437607 t1 0.741992 0.333984 t2 0 0
@@ -597,7 +745,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 16.7368 24.2898 -0.154404 n 0.998353 -0.0573785 -3.88399e-05 t1 0.728516 0.00195318 t2 0 0
 p2 c 11.4377 25.2986 -0.691766 n 0.0546562 0.708342 -0.70375 t1 0.957617 0.333984 t2 0 0
@@ -606,7 +756,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 16.7368 24.2898 -0.154404 n 0.998353 -0.0573785 -3.88399e-05 t1 0.728516 0.00195318 t2 0 0
 p2 c 11.4377 24.5178 -0.691766 n 0.284286 -0.441553 -0.851007 t1 0.903711 0.333984 t2 0 0
@@ -615,7 +767,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 16.7368 24.2898 -0.154404 n 0.998353 -0.0573785 -3.88399e-05 t1 0.728516 0.00195318 t2 0 0
 p2 c 11.4377 24.2765 0.05085 n 0.249061 -0.948304 0.196691 t1 0.849805 0.333984 t2 0 0
@@ -624,7 +778,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c 16.7368 24.2898 -0.154404 n 0.998353 -0.0573785 -3.88399e-05 t1 0.728516 0.00195318 t2 0 0
 p2 c 11.4377 24.9082 0.509811 n 0.0444469 -0.150801 0.987564 t1 0.795898 0.333984 t2 0 0
@@ -633,7 +789,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.38337 18.2912 -5.51815 n 0.684742 -0.130472 -0.717011 t1 0.914061 0.525447 t2 0 0
 p2 c -3.56401 19.4191 -5.05203 n 0.476563 0.846441 -0.237541 t1 0.993397 0.549147 t2 0 0
@@ -642,7 +800,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.56401 19.4191 -5.05203 n 0.476563 0.846441 -0.237541 t1 0.993397 0.549147 t2 0 0
 p2 c 0.395133 16.5509 -0.792618 n 0.473335 0.870669 0.133751 t1 0.991316 0.0296826 t2 0 0
@@ -651,7 +811,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.56401 19.4191 -5.05203 n 0.476563 0.846441 -0.237541 t1 0.993397 0.549147 t2 0 0
 p2 c -4.22902 19.2554 -4.57464 n -0.43665 0.729764 0.5261 t1 0.775702 0.636401 t2 0 0
@@ -660,7 +822,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.22902 19.2554 -4.57464 n -0.43665 0.729764 0.5261 t1 0.775702 0.636401 t2 0 0
 p2 c -0.74563 16.4915 0.089801 n -0.465001 0.564663 0.681858 t1 0.745966 0.179358 t2 0 0
@@ -669,7 +833,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.22902 19.2554 -4.57464 n -0.43665 0.729764 0.5261 t1 0.775702 0.636401 t2 0 0
 p2 c -4.65098 18.0961 -4.57464 n -0.809412 -0.281795 0.515212 t1 0.806009 0.691764 t2 0 0
@@ -678,7 +844,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.65098 18.0961 -4.57464 n -0.809412 -0.281795 0.515212 t1 0.806009 0.691764 t2 0 0
 p2 c -1.23932 15.1351 0.089801 n -0.86261 -0.233825 0.448586 t1 0.787564 0.244133 t2 0 0
@@ -687,7 +855,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.65098 18.0961 -4.57464 n -0.809412 -0.281795 0.515212 t1 0.806009 0.691764 t2 0 0
 p2 c -4.24675 17.5433 -5.05203 n -0.30164 -0.93798 -0.170902 t1 0.832067 0.638727 t2 0 0
@@ -696,7 +866,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.24675 17.5433 -5.05203 n -0.30164 -0.93798 -0.170902 t1 0.832067 0.638727 t2 0 0
 p2 c -0.743838 11.6383 -0.792617 n -0.171352 -0.678055 -0.714758 t1 0.866379 0.179123 t2 0 0
@@ -705,7 +877,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -4.24675 17.5433 -5.05203 n -0.30164 -0.93798 -0.170902 t1 0.832067 0.638727 t2 0 0
 p2 c -3.38337 18.2912 -5.51815 n 0.684742 -0.130472 -0.717011 t1 0.914061 0.525447 t2 0 0
@@ -714,7 +888,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.38337 18.2912 -5.51815 n 0.684742 -0.130472 -0.717011 t1 0.914061 0.525447 t2 0 0
 p2 c 0.606475 15.2313 -1.33798 n 0.761717 0.124623 -0.635811 t1 0.94242 0.00195312 t2 0 0
@@ -723,7 +899,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -5.98685 18.2966 -9.09428 n 0.775491 -0.453066 -0.43971 t1 0.921564 0.86704 t2 0 0
 p2 c -6.10117 19.0105 -8.79926 n 0.658952 0.716065 -0.23029 t1 0.945136 0.88204 t2 0 0
@@ -732,7 +910,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.10117 19.0105 -8.79926 n 0.658952 0.716065 -0.23029 t1 0.945136 0.88204 t2 0 0
 p2 c -3.56401 19.4191 -5.05203 n 0.476563 0.846441 -0.237541 t1 0.993397 0.549147 t2 0 0
@@ -741,7 +921,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.10117 19.0105 -8.79926 n 0.658952 0.716065 -0.23029 t1 0.945136 0.88204 t2 0 0
 p2 c -6.71827 18.9783 -8.32192 n -0.452608 0.86543 0.214891 t1 0.788606 0.963007 t2 0 0
@@ -750,7 +932,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.71827 18.9783 -8.32192 n -0.452608 0.86543 0.214891 t1 0.788606 0.963007 t2 0 0
 p2 c -4.22902 19.2554 -4.57464 n -0.43665 0.729764 0.5261 t1 0.775702 0.636401 t2 0 0
@@ -759,7 +943,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.71827 18.9783 -8.32192 n -0.452608 0.86543 0.214891 t1 0.788606 0.963007 t2 0 0
 p2 c -6.98533 18.2446 -8.32192 n -0.95905 -0.103115 0.263798 t1 0.816079 0.998047 t2 0 0
@@ -768,7 +954,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.98533 18.2446 -8.32192 n -0.95905 -0.103115 0.263798 t1 0.816079 0.998047 t2 0 0
 p2 c -4.65098 18.0961 -4.57464 n -0.809412 -0.281795 0.515212 t1 0.806009 0.691764 t2 0 0
@@ -777,7 +965,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.98533 18.2446 -8.32192 n -0.95905 -0.103115 0.263798 t1 0.816079 0.998047 t2 0 0
 p2 c -6.53329 17.8232 -8.79926 n -0.260234 -0.954738 -0.144063 t1 0.873291 0.938736 t2 0 0
@@ -786,7 +976,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53329 17.8232 -8.79926 n -0.260234 -0.954738 -0.144063 t1 0.873291 0.938736 t2 0 0
 p2 c -4.24675 17.5433 -5.05203 n -0.30164 -0.93798 -0.170902 t1 0.832067 0.638727 t2 0 0
@@ -795,7 +987,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53329 17.8232 -8.79926 n -0.260234 -0.954738 -0.144063 t1 0.873291 0.938736 t2 0 0
 p2 c -5.98685 18.2966 -9.09428 n 0.775491 -0.453066 -0.43971 t1 0.921564 0.86704 t2 0 0
@@ -804,7 +998,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -5.98685 18.2966 -9.09428 n 0.775491 -0.453066 -0.43971 t1 0.921564 0.86704 t2 0 0
 p2 c -3.38337 18.2912 -5.51815 n 0.684742 -0.130472 -0.717011 t1 0.914061 0.525447 t2 0 0
@@ -813,7 +1009,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53514 20.4056 -13.0675 n -0.310997 0.325575 -0.892906 t1 0.94649 0.938979 t2 0 0
 p2 c -6.10117 19.0105 -8.79926 n 0.658952 0.716065 -0.23029 t1 0.945136 0.88204 t2 0 0
@@ -822,7 +1020,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53514 20.4056 -13.0675 n -0.310997 0.325575 -0.892906 t1 0.94649 0.938979 t2 0 0
 p2 c -6.71827 18.9783 -8.32192 n -0.452608 0.86543 0.214891 t1 0.788606 0.963007 t2 0 0
@@ -831,7 +1031,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53514 20.4056 -13.0675 n -0.310997 0.325575 -0.892906 t1 0.94649 0.938979 t2 0 0
 p2 c -6.98533 18.2446 -8.32192 n -0.95905 -0.103115 0.263798 t1 0.816079 0.998047 t2 0 0
@@ -840,7 +1042,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53514 20.4056 -13.0675 n -0.310997 0.325575 -0.892906 t1 0.94649 0.938979 t2 0 0
 p2 c -6.53329 17.8232 -8.79926 n -0.260234 -0.954738 -0.144063 t1 0.873291 0.938736 t2 0 0
@@ -849,7 +1053,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.53514 20.4056 -13.0675 n -0.310997 0.325575 -0.892906 t1 0.94649 0.938979 t2 0 0
 p2 c -5.98685 18.2966 -9.09428 n 0.775491 -0.453066 -0.43971 t1 0.921564 0.86704 t2 0 0
@@ -858,7 +1064,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.59822 25.5578 3.60172 n 0.413372 -0.0714044 0.907758 t1 0.807954 0.500122 t2 0 0
 p2 c -3.11281 25.1255 3.20425 n -0.143028 -0.944205 0.296682 t1 0.850894 0.564203 t2 0 0
@@ -867,7 +1075,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.11281 25.1255 3.20425 n -0.143028 -0.944205 0.296682 t1 0.850894 0.564203 t2 0 0
 p2 c 0.404097 24.4356 0.450631 n -0.238887 -0.96947 -0.0553192 t1 0.846992 0.126245 t2 0 0
@@ -876,7 +1086,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.11281 25.1255 3.20425 n -0.143028 -0.944205 0.296682 t1 0.850894 0.564203 t2 0 0
 p2 c -3.31373 25.5201 2.56112 n -0.631642 -0.455148 -0.62759 t1 0.912959 0.589223 t2 0 0
@@ -885,7 +1097,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.31373 25.5201 2.56112 n -0.631642 -0.455148 -0.62759 t1 0.912959 0.589223 t2 0 0
 p2 c -0.049632 25.1377 -0.838067 n -0.723029 -0.0426108 -0.689502 t1 0.917938 0.182748 t2 0 0
@@ -894,7 +1108,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -3.31373 25.5201 2.56112 n -0.631642 -0.455148 -0.62759 t1 0.912959 0.589223 t2 0 0
 p2 c -2.92332 26.1963 2.56112 n -0.376618 0.720336 -0.582473 t1 0.964679 0.540605 t2 0 0
@@ -903,7 +1119,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.92332 26.1963 2.56112 n -0.376618 0.720336 -0.582473 t1 0.964679 0.540605 t2 0 0
 p2 c 0.567226 26.2062 -0.838067 n -0.253074 0.931197 -0.262346 t1 0.961694 0.105931 t2 0 0
@@ -912,7 +1130,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.92332 26.1963 2.56112 n -0.376618 0.720336 -0.582473 t1 0.964679 0.540605 t2 0 0
 p2 c -2.48111 26.2196 3.20425 n 0.269768 0.901494 0.338428 t1 0.743284 0.485537 t2 0 0
@@ -921,7 +1141,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.48111 26.2196 3.20425 n 0.269768 0.901494 0.338428 t1 0.743284 0.485537 t2 0 0
 p2 c 1.40219 26.1643 0.450631 n 0.434705 0.671989 0.599552 t1 0.749037 0.00195312 t2 0 0
@@ -930,7 +1152,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.48111 26.2196 3.20425 n 0.269768 0.901494 0.338428 t1 0.743284 0.485537 t2 0 0
 p2 c -2.59822 25.5578 3.60172 n 0.413372 -0.0714044 0.907758 t1 0.807954 0.500122 t2 0 0
@@ -939,7 +1163,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -2.59822 25.5578 3.60172 n 0.413372 -0.0714044 0.907758 t1 0.807954 0.500122 t2 0 0
 p2 c 1.21715 25.1186 1.07864 n 0.433886 -0.507489 0.744445 t1 0.807954 0.0249966 t2 0 0
@@ -948,7 +1174,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.59669 27.2665 4.60462 n -0.807205 0.397693 0.436189 t1 0.728516 0.998047 t2 0 0
 p2 c -3.11281 25.1255 3.20425 n -0.143028 -0.944205 0.296682 t1 0.850894 0.564203 t2 0 0
@@ -957,7 +1185,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.59669 27.2665 4.60462 n -0.807205 0.397693 0.436189 t1 0.728516 0.998047 t2 0 0
 p2 c -3.31373 25.5201 2.56112 n -0.631642 -0.455148 -0.62759 t1 0.912959 0.589223 t2 0 0
@@ -966,7 +1196,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.59669 27.2665 4.60462 n -0.807205 0.397693 0.436189 t1 0.728516 0.998047 t2 0 0
 p2 c -2.92332 26.1963 2.56112 n -0.376618 0.720336 -0.582473 t1 0.964679 0.540605 t2 0 0
@@ -975,7 +1207,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.59669 27.2665 4.60462 n -0.807205 0.397693 0.436189 t1 0.728516 0.998047 t2 0 0
 p2 c -2.48111 26.2196 3.20425 n 0.269768 0.901494 0.338428 t1 0.743284 0.485537 t2 0 0
@@ -984,7 +1218,9 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
 p1 c -6.59669 27.2665 4.60462 n -0.807205 0.397693 0.436189 t1 0.728516 0.998047 t2 0 0
 p2 c -2.59822 25.5578 3.60172 n 0.413372 -0.0714044 0.907758 t1 0.807954 0.500122 t2 0 0
@@ -993,5 +1229,7 @@ mat dif 1 1 1 0 amb 0.5 0.5 0.5 0 spc 0 0 0 0
 tex1 vegetal.png
 tex2 
 var_tex2 N
-state 0
+trans_mode none
+mark none
+dbl_side N
 
