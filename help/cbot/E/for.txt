@@ -17,7 +17,7 @@ This \l;condition\u cbot\cond; determines if another instance of the loop must b
 This instruction is executed at the end of every instance of the loop. 
 
 Example: count from 1 to 4
-\c;\s;\c;for ( i = 0 ; i <= 4 ; i++ )
+\c;\s;\c;for ( i = 1 ; i <= 4 ; i++ )
 \s;{
 \s;	message(i) ;
 \s;}
