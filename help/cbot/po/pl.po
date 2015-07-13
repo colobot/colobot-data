@@ -2224,16 +2224,6 @@ msgstr "<code>koniec</code>"
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr "Instrukcja wykonywana po każdym przejściu pętli. "
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-msgstr ""
-"Przykład: liczenie od 1 do 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
@@ -6419,3 +6409,13 @@ msgid ""
 msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> i <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programowanie</a>, <a cbot|type>typy</a> i <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../E/for.txt:19
+#, no-wrap
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
+msgstr ""
+"Przykład: liczenie od 1 do 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"

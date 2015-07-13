@@ -1858,14 +1858,6 @@ msgstr ""
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr ""
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-msgstr ""
-
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
@@ -5514,4 +5506,12 @@ msgstr ""
 #: ../E/while.txt:5
 #, no-wrap
 msgid "The most frequent use of <code>while</code> consists in repeating a set of instructions again and again. In order to achieve this, write <code>while (true) {}</code> and put the instructions to be repeated in braces <code>{}</code>. As an example, here is a program that repeats again and again the following actions:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/for.txt:19
+#, no-wrap
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
 msgstr ""

@@ -2198,14 +2198,6 @@ msgstr "<code>fin</code>"
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr "Cette instruction simple est exécutée à la fin de chaque tour de boucle."
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-msgstr ""
-
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
@@ -6370,3 +6362,11 @@ msgid ""
 msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> et <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
+
+#. type: Plain text
+#: ../E/for.txt:19
+#, no-wrap
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
+msgstr ""

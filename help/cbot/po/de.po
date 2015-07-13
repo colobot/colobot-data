@@ -2174,16 +2174,6 @@ msgstr "<code>ende</code>"
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr "Diese Anweisung wird am Ende von jeder Schleife ausgeführt, und dient typischerweise dazu, den Zähler zu inkrementieren."
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-msgstr ""
-"Beispiel: zählt von 0 bis 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
@@ -6413,3 +6403,13 @@ msgstr "Bemerkung"
 #, no-wrap
 msgid "radius: <code><a cbot|float>float</a></code>"
 msgstr "reichweite: <code><a cbot|float>float</a></code>"
+
+#. type: Plain text
+#: ../E/for.txt:19
+#, no-wrap
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
+msgstr ""
+"Beispiel: zählt von 1 bis 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"

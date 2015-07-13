@@ -2206,14 +2206,6 @@ msgstr "<code>end</code>"
 msgid "This instruction is executed at the end of every instance of the loop. "
 msgstr "Эта инструкция выпоолняется в конце каждого кольца цикла."
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 0 ; i <= 4 ; i++ )"
-msgstr ""
-
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
@@ -6381,3 +6373,11 @@ msgid ""
 msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../E/for.txt:19
+#, no-wrap
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
+msgstr ""
