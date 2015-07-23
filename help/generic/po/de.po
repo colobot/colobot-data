@@ -194,36 +194,14 @@ msgstr ""
 msgid "Instructions specific to some bots:"
 msgstr "Befehle für bestimmte Roboter:"
 
-#. type: Plain text
-#: ../E/cbot.txt:48
-#, no-wrap
-msgid ""
-"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
-"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
-"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
-"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
-"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
-"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
-"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
-"<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon"
-msgstr ""
-"<code><a cbot|grab>grab</a>       </code>Ergreift einen Gegenstand\n"
-"<code><a cbot|drop>drop</a>       </code>Legt einen Gegenstand nieder\n"
-"<code><a cbot|fire>fire</a>       </code>Feuert die Kanone ab\n"
-"<code><a cbot|aim>aim</a>        </code>Senkrechte Aussrichtung der Kanone\n"
-"<code><a cbot|sniff>sniff</a>      </code>Sondiert den Untergrund\n"
-"<code><a cbot|thump>thump</a>      </code>Stampfen\n"
-"<code><a cbot|recycle>recycle</a>    </code>Wiederverwertung eines Wracks\n"
-"<code><a cbot|shield>shield</a>     </code>Steuerung des Schutzschildes"
-
 #. type: \t; header
-#: ../E/cbot.txt:57
+#: ../E/cbot.txt:58
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr "Befehle für den Austausch mit Infoservern:"
 
 #. type: Plain text
-#: ../E/cbot.txt:58
+#: ../E/cbot.txt:59
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -237,13 +215,13 @@ msgstr ""
 "<code><a cbot|delinfo>deleteinfo</a> </code>Löscht eine Information"
 
 #. type: \t; header
-#: ../E/cbot.txt:63
+#: ../E/cbot.txt:64
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr "Befehle für die Verwaltung von Klassen:"
 
 #. type: Plain text
-#: ../E/cbot.txt:64
+#: ../E/cbot.txt:65
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -263,13 +241,13 @@ msgstr ""
 "<code><a cbot|this>this</a>       </code>Bezieht sich auf die laufende Instanz"
 
 #. type: \t; header
-#: ../E/cbot.txt:72
+#: ../E/cbot.txt:73
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr "Befehle für die Verarbeitung von Strings (Zeichenketten):"
 
 #. type: Plain text
-#: ../E/cbot.txt:73
+#: ../E/cbot.txt:74
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -291,13 +269,13 @@ msgstr ""
 "<code><a cbot|strlower>strlower</a>   </code>Umwandlung in Kleinbuchstaben"
 
 #. type: \t; header
-#: ../E/cbot.txt:82
+#: ../E/cbot.txt:83
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr "Befehle für die Dateiverwaltung:"
 
 #. type: Plain text
-#: ../E/cbot.txt:83
+#: ../E/cbot.txt:84
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -315,13 +293,13 @@ msgstr ""
 "<code><a cbot|deletef>deletefile</a> </code>Löscht eine Datei"
 
 #. type: \t; header
-#: ../E/cbot.txt:90 ../E/freehelp.txt:4
+#: ../E/cbot.txt:91 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "Siehe auch"
 
 #. type: Plain text
-#: ../E/cbot.txt:91
+#: ../E/cbot.txt:92
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."
@@ -611,3 +589,49 @@ msgstr "Die Entwickler und interne Beta-Tester von Original COLOBOT spiel von EP
 #, no-wrap
 msgid "Colobot: Gold Edition developers"
 msgstr "Die Colobot: Gold Edition Entwickler"
+
+#. type: Plain text
+#: ../E/cbot.txt:48
+#, no-wrap
+msgid ""
+"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+"<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon\n"
+"<code><a cbot|build>build</a>      </code>Builds a building"
+msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+#~ "<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+#~ "<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+#~ "<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+#~ "<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+#~ "<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+#~ "<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+#~ "<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon\n"
+#~ "<code><a cbot|build>build</a>        </code>Builds a building"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+#~ "<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+#~ "<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+#~ "<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+#~ "<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+#~ "<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+#~ "<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+#~ "<code><a cbot|aim>aim</a>        </code>Vertical angle of the cannon"
+#~ msgstr ""
+#~ "<code><a cbot|grab>grab</a>       </code>Ergreift einen Gegenstand\n"
+#~ "<code><a cbot|drop>drop</a>       </code>Legt einen Gegenstand nieder\n"
+#~ "<code><a cbot|fire>fire</a>       </code>Feuert die Kanone ab\n"
+#~ "<code><a cbot|aim>aim</a>        </code>Senkrechte Aussrichtung der Kanone\n"
+#~ "<code><a cbot|sniff>sniff</a>      </code>Sondiert den Untergrund\n"
+#~ "<code><a cbot|thump>thump</a>      </code>Stampfen\n"
+#~ "<code><a cbot|recycle>recycle</a>    </code>Wiederverwertung eines Wracks\n"
+#~ "<code><a cbot|shield>shield</a>     </code>Steuerung des Schutzschildes"
