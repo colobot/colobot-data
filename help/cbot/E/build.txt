@@ -1,5 +1,5 @@
 \b;Instruction \c;build\n;
-The instruction \c;build();\n; instructs the bot to build a building of the given \l;category\u cbot\category;. Currently works for every bot.
+The instruction \c;build();\n; instructs the bot to build a building of the given \l;category\u cbot\category;. Currently works for \l;Grabbers\u object\botgc;, \l;Me\u object\human; and \l;Tech\u object\tech;.
 
 \b;Basic use
 This command is mostly useful in an attempt to build a fully automatised base, where an \l;astronaut\u object\human; does not need to do anything except starting a program and watching bots working. What is more, it makes beating the game by using only programming a possible task (however, it is a challenge rather for experienced gamers, who beat the whole game at least once).
@@ -17,7 +17,7 @@ Syntax:
 Tells the robot to build a building using a titanium cube placed on a flat ground nearby.
 
 \t;cat: \c;\l;int\u cbot\int;\n;
-The \l;category\u cbot\category; of a building.
+\l;Category\u cbot\category; of a building.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;build()\n;.
@@ -25,4 +25,4 @@ Normally an error stops the program. You can prevent the program from stopping o
 \c;!= 0 \n;Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)
 
 \t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;canbuild\u cbot\canbuild;, \l;buildingenabled\u cbot\buildingenabled;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
