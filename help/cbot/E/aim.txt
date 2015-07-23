@@ -1,16 +1,19 @@
 \b;Instruction \c;aim\n;
 Syntax :
-\s;\c;aim ( angle );\n;
+\s;\c;aim ( y, x );\n;
 
-This instruction sets the vertical angle of the cannon. The following robots are equipped with a cannon: 
+This instruction sets the vertical and the horizontal angle of the cannon. The following robots are equipped with a cannon: 
 o  \l;Shooter\u object\botfr;
 o  \l;Orga shooter\u object\botor;
 o  \l;Phazer shooter\u object\botphaz;
 
-When controlling the robot through programming, the only way to turn the gun left or right is to turn the whole robot with the instruction \c;\l;turn\u cbot\turn;\n;.
+When controlling the robot through programming, the gun can be also turned left or right by turning the whole robot with the instruction \c;\l;turn\u cbot\turn;\n;.
 
-\t;angle: \c;\l;float\u cbot\float;\n;
+\t;y: \c;\l;float\u cbot\float;\n;
 Angle in degrees of the gun relative to the robot. A positive value orients the gun upward. For shooters and orga shooters, the angle must range from \c;-20\n; to \c;+20\n; degrees. For phazer shooters, the angle must range from \c;-20\n; to \c;45\n; degrees.
+
+\t;x: \c;\l;float\u cbot\float;\n;
+Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from \c;-40\n; to \c;+40\n; degrees for all shooters. This parameter is optional: if no value is provided, then \c;x = 0\n;.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Zero if everything is OK, a value different from zero if the rotation could not be performed: 
