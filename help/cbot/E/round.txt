@@ -1,0 +1,13 @@
+\b;Instruction \c;round\n;
+Syntax:
+\s;\c;round ( value );\n;
+Rounds a number.
+
+\t;value: \c;\l;float\u cbot\float;\n;
+Number.
+
+\t;Return value: \c;\l;float\u cbot\float;\n;
+Rounded \c;value\n;. For example, \c;round(2.5)\n; is \c;3.0\n;, whereas \c;round(2.4)\n; is \c;2.0\n;.
+
+\t;See also
+\l;trunc\u cbot\trunc;, \l;floor\u cbot\floor;, \l;ceil\u cbot\ceil;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;expressions\u cbot\expr;.

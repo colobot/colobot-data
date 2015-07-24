@@ -12,8 +12,8 @@ When controlling the robot through programming, the gun can be also turned left 
 \t;y: \c;\l;float\u cbot\float;\n;
 Angle in degrees of the gun relative to the robot. A positive value orients the gun upward. For shooters and orga shooters, the angle must range from \c;-20\n; to \c;+20\n; degrees. For phazer shooters, the angle must range from \c;-20\n; to \c;45\n; degrees.
 
-\t;x: \c;\l;float\u cbot\float;\n;
-Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from \c;-40\n; to \c;+40\n; degrees for all shooters. This parameter is optional: if no value is provided, then \c;x = 0\n;.
+\t;x: \c;\l;float\u cbot\float;\n; (default value: \c;0\n;)
+Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from \c;-40\n; to \c;+40\n; degrees for all shooters.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Zero if everything is OK, a value different from zero if the rotation could not be performed: 

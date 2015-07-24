@@ -1,0 +1,13 @@
+\b;Instruction \c;floor\n;
+Syntax:
+\s;\c;floor ( value );\n;
+Rounds down a number.
+
+\t;value: \c;\l;float\u cbot\float;\n;
+Number.
+
+\t;Return value: \c;\l;float\u cbot\float;\n;
+Floor of the value, i.e. the largest integer not greater than \c;value\n;. For example, \c;floor(2.9)\n; is \c;2.00\n;.
+
+\t;See also
+\l;round\u cbot\round;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;expressions\u cbot\expr;.

@@ -53,7 +53,7 @@ msgid "Time in seconds."
 msgstr "Zeit in Sekunden."
 
 #. type: \t; header
-#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:30 ../E/asin.txt:11 ../E/atan.txt:11 ../E/bloc.txt:48 ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27 ../E/buildingenabled.txt:22 ../E/canbuild.txt:22 ../E/category.txt:107 ../E/class.txt:70 ../E/close.txt:6 ../E/cond.txt:27 ../E/continue.txt:24 ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13 ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32 ../E/expr.txt:74 ../E/extern.txt:29 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30 ../E/flatgrnd.txt:16 ../E/float.txt:24 ../E/for.txt:38 ../E/function.txt:84 ../E/goto.txt:34 ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14 ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14 ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:68 ../E/open.txt:18 ../E/openfile.txt:10 ../E/point.txt:35 ../E/pointer.txt:51 ../E/pow.txt:14 ../E/private.txt:17 ../E/public.txt:49 ../E/radar.txt:58 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16 ../E/recycle.txt:12 ../E/retobj.txt:13 ../E/return.txt:29 ../E/search.txt:16 ../E/send.txt:17 ../E/shield.txt:18 ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22 ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32 ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10 ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10 ../E/strval.txt:17 ../E/synchro.txt:23 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16 ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66 ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
+#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:30 ../E/asin.txt:11 ../E/atan.txt:11 ../E/atan2.txt:16 ../E/bloc.txt:48 ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27 ../E/buildingenabled.txt:22 ../E/canbuild.txt:22 ../E/category.txt:107 ../E/ceil.txt:12 ../E/class.txt:70 ../E/close.txt:6 ../E/cond.txt:27 ../E/continue.txt:24 ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13 ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32 ../E/expr.txt:74 ../E/extern.txt:29 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30 ../E/flatgrnd.txt:16 ../E/float.txt:24 ../E/floor.txt:12 ../E/for.txt:38 ../E/function.txt:84 ../E/goto.txt:34 ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14 ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14 ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:68 ../E/open.txt:18 ../E/openfile.txt:10 ../E/point.txt:35 ../E/pointer.txt:51 ../E/pow.txt:14 ../E/private.txt:17 ../E/public.txt:49 ../E/radar.txt:58 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16 ../E/recycle.txt:12 ../E/retobj.txt:13 ../E/return.txt:29 ../E/round.txt:12 ../E/search.txt:16 ../E/send.txt:17 ../E/shield.txt:18 ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22 ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32 ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10 ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10 ../E/strval.txt:17 ../E/synchro.txt:23 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16 ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4 ../E/trunc.txt:12 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66 ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
 #, no-wrap
 msgid "See also"
 msgstr "Siehe auch"
@@ -1105,7 +1105,7 @@ msgid "Position towards which the robot must point."
 msgstr "Position, auf die der Roboter ausgerichtet werden soll."
 
 #. type: \t; header
-#: ../E/acos.txt:8 ../E/asin.txt:8 ../E/atan.txt:8 ../E/cos.txt:8 ../E/direct.txt:10 ../E/dist.txt:26 ../E/dist2d.txt:10 ../E/flatgrnd.txt:13 ../E/pow.txt:11 ../E/rand.txt:5 ../E/receive.txt:13 ../E/sin.txt:8 ../E/sqrt.txt:8 ../E/tan.txt:8 ../E/topo.txt:10
+#: ../E/acos.txt:8 ../E/asin.txt:8 ../E/atan.txt:8 ../E/atan2.txt:13 ../E/ceil.txt:9 ../E/cos.txt:8 ../E/direct.txt:10 ../E/dist.txt:26 ../E/dist2d.txt:10 ../E/flatgrnd.txt:13 ../E/floor.txt:9 ../E/pow.txt:11 ../E/rand.txt:5 ../E/receive.txt:13 ../E/round.txt:9 ../E/sin.txt:8 ../E/sqrt.txt:8 ../E/tan.txt:8 ../E/topo.txt:10 ../E/trunc.txt:9
 #, no-wrap
 msgid "Return value: <code><a cbot|float>float</a></code>"
 msgstr "Rückgabe: <code><a cbot|float>float</a></code>"
@@ -1179,7 +1179,7 @@ msgid "For specialists"
 msgstr "Für Spezialisten"
 
 #. type: Plain text
-#: ../E/acos.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/build.txt:14 ../E/buildingenabled.txt:13 ../E/canbuild.txt:13 ../E/cos.txt:2 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/fire.txt:10 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pow.txt:2 ../E/radar.txt:14 ../E/rand.txt:2 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/retobj.txt:2 ../E/search.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/sqrt.txt:2 ../E/tan.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/turn.txt:19 ../E/wait.txt:10
+#: ../E/acos.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14 ../E/buildingenabled.txt:13 ../E/canbuild.txt:13 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/fire.txt:10 ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pow.txt:2 ../E/radar.txt:14 ../E/rand.txt:2 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/sqrt.txt:2 ../E/tan.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10
 #, no-wrap
 msgid "Syntax:"
 msgstr "Syntax:"
@@ -6433,21 +6433,15 @@ msgid "When controlling the robot through programming, the gun can be also turne
 msgstr ""
 
 #. type: \t; header
-#: ../E/aim.txt:12 ../E/pow.txt:8
+#: ../E/aim.txt:12 ../E/atan2.txt:7 ../E/pow.txt:8
 #, no-wrap
 msgid "y: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: \t; header
-#: ../E/aim.txt:15 ../E/pow.txt:5
+#: ../E/atan2.txt:10 ../E/pow.txt:5
 #, no-wrap
 msgid "x: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/aim.txt:16
-#, no-wrap
-msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters. This parameter is optional: if no value is provided, then <code>x = 0</code>."
 msgstr ""
 
 #. type: Plain text
@@ -6475,7 +6469,7 @@ msgid "Pseudorandom number between 0 and 1 (including 0, but excluding 1)."
 msgstr ""
 
 #. type: Plain text
-#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
+#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
 msgstr ""
@@ -6493,7 +6487,7 @@ msgid "<c/>acos ( value );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/sqrt.txt:5
+#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/ceil.txt:6 ../E/floor.txt:6 ../E/round.txt:6 ../E/sqrt.txt:5 ../E/trunc.txt:6
 #, no-wrap
 msgid "value: <code><a cbot|float>float</a></code>"
 msgstr ""
@@ -6529,7 +6523,7 @@ msgid "<c/>atan ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan.txt:6
+#: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7 ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
 #, no-wrap
 msgid "Number."
 msgstr ""
@@ -6787,6 +6781,168 @@ msgstr ""
 #, no-wrap
 msgid "It helps to prevent errors in programs using the <c/><a cbot|build>build();</a><n/> instruction. Here is an example:"
 msgstr ""
+
+#. type: \b; header
+#: ../E/atan2.txt:1
+#, no-wrap
+msgid "Instruction <code>atan2</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/atan2.txt:3
+#, no-wrap
+msgid "<c/>atan2 ( y, x );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/atan2.txt:14
+#, no-wrap
+msgid "Arcus tangent (in degrees) of <code>y/x</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/atan2.txt:5
+#, no-wrap
+msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/><a cbot|atan>atan();</a><n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
+msgstr ""
+
+#. type: \b; header
+#: ../E/ceil.txt:1
+#, no-wrap
+msgid "Instruction <code>ceil</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/ceil.txt:3
+#, no-wrap
+msgid "<c/>ceil ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/floor.txt:4
+#, no-wrap
+msgid "Rounds down a number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:10
+#, no-wrap
+msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
+#, no-wrap
+msgid "<a cbot|round>round</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/floor.txt:1
+#, no-wrap
+msgid "Instruction <code>floor</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/floor.txt:3
+#, no-wrap
+msgid "<c/>floor ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:4
+#, no-wrap
+msgid "Rounds up a number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/floor.txt:10
+#, no-wrap
+msgid "Floor of the value, i.e. the largest integer not greater than <code>value</code>. For example, <code>floor(2.9)</code> is <code>2.00</code>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/round.txt:1
+#, no-wrap
+msgid "Instruction <code>round</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/round.txt:3
+#, no-wrap
+msgid "<c/>round ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/round.txt:4
+#, no-wrap
+msgid "Rounds a number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/round.txt:10
+#, no-wrap
+msgid "Rounded <code>value</code>. For example, <code>round(2.5)</code> is <code>3.0</code>, whereas <code>round(2.4)</code> is <code>2.0</code>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/trunc.txt:1
+#, no-wrap
+msgid "Instruction <code>trunc</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/trunc.txt:3
+#, no-wrap
+msgid "<c/>trunc ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/trunc.txt:10
+#, no-wrap
+msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/round.txt:13
+#, no-wrap
+msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/trunc.txt:4
+#, no-wrap
+msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
+msgstr ""
+
+#. type: Plain text
+#: ../E/aim.txt:16
+#, no-wrap
+msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters."
+msgstr ""
+
+#. type: \t; header
+#: ../E/aim.txt:15
+#, no-wrap
+msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#~ msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>);"
+#~ msgstr ""
+
+#~ msgid "x: <c/><a cbot|float>float</a>\\n (default value: <code>0</code>);"
+#~ msgstr ""
+
+#~ msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters. This parameter is optional: if no value is provided, then <code>x = 0</code>."
+#~ msgstr ""
+
+#~ msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor\\n>floor();</a> function, and for negative numbers, it works like the <c/><a cbot|ceil\\n>ceil();</a> function. It can be said that it rounds towards zero."
+#~ msgstr ""
+
+#~ msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+#~ msgstr ""
+
+#~ msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/>\\latan();\\u cbot\\atan;<n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
+#~ msgstr ""
 
 #~ msgid "The instruction <c/>build();<n/> instructs the bot to build a building of the given <a cbot|category>category</a>. Currently works for <a bots|botgc>Grabbers</a>, <a object|human>Me</a> and <a object|tech>Tech</a>."
 #~ msgstr ""

@@ -239,13 +239,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:104 ../E/freehelp.txt:4
+#: ../E/cbot.txt:109 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:105
+#: ../E/cbot.txt:110
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr ""
@@ -505,21 +505,6 @@ msgid "Mathematical functions:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:94
-#, no-wrap
-msgid ""
-"<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
-"<code><a cbot|pow>pow</a>        </code>Returns a power\n"
-"<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
-"<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
-"<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
-"<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
-"<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
-"<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
-"<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent"
-msgstr ""
-
-#. type: Plain text
 #: ../E/cbot.txt:48
 #, no-wrap
 msgid ""
@@ -535,6 +520,55 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
 msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:94
+#, no-wrap
+msgid ""
+"<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
+"<code><a cbot|pow>pow</a>        </code>Returns a power\n"
+"<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
+"<code><a cbot|floor>floor</a>      </code>Returns the largest previous integer\n"
+"<code><a cbot|ceil>ceil</a>       </code>Returns the smallest following integer\n"
+"<code><a cbot|round>round</a>      </code>Returns a rounded number\n"
+"<code><a cbot|trunc>trunc</a>      </code>Returns a truncated number\n"
+"<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
+"<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
+"<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
+"<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
+"<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
+"<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
+"<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
+msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
+#~ "<code><a cbot|pow>pow</a>        </code>Returns a power\n"
+#~ "<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
+#~ "<code><a cbot|floor>floor</a>       </code>Returns the largest previous integer\n"
+#~ "<code><a cbot|ceil>ceil</a>       </code>Returns the smallest following integer\n"
+#~ "<code><a cbot|round>round</a>       </code>Returns a rounded number\n"
+#~ "<code><a cbot|trunc>trunc</a>       </code>Returns a truncated number\n"
+#~ "<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
+#~ "<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
+#~ "<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
+#~ "<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
+#~ "<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
+#~ "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
+#~ "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
+#~ "<code><a cbot|pow>pow</a>        </code>Returns a power\n"
+#~ "<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
+#~ "<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
+#~ "<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
+#~ "<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
+#~ "<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
+#~ "<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
+#~ "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"

@@ -1,0 +1,13 @@
+\b;Instruction \c;trunc\n;
+Syntax:
+\s;\c;trunc ( value );\n;
+Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the \c;\l;floor();\u cbot\floor;\n; function, and for negative numbers, it works like the \c;\l;ceil();\u cbot\ceil;\n; function. It can be said that it rounds towards zero.
+
+\t;value: \c;\l;float\u cbot\float;\n;
+Number.
+
+\t;Return value: \c;\l;float\u cbot\float;\n;
+Truncated \c;value\n;. For example, \c;trunc(-2.5)\n; is \c;-2.00\n;.
+
+\t;See also
+\l;round\u cbot\round;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;expressions\u cbot\expr;.
