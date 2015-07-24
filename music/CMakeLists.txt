@@ -67,7 +67,7 @@ if(MUSIC)
                     message(FATAL_ERROR "wget not found, music files can't be downloaded!")
             endif()
 
-            message(STATUS "Downloading ${DOWNLOAD_FILE} ...")
+            message(STATUS "Adding download target for ${DOWNLOAD_FILE}")
 
             add_custom_target(
                 download-${FILENAME}
@@ -80,10 +80,10 @@ if(MUSIC)
 
         if(MUSIC_FLAC)
             if(DOWNLOAD_FILE MATCHES ".ogg")
-                message(STATUS "Installing ${FILE} (FLAC not available) ...")
+                message(STATUS "Adding install target for ${FILE} (FLAC not available)")
                 install(FILES ${DOWNLOAD_FILE_LOC} DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR})
             else()
-                message(STATUS "Converting ${FILE} to OGG ...")
+                message(STATUS "Adding OGG convert target for ${FILE}")
                 add_custom_command(
                     OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg"
                     COMMAND ${OGGENC} -q ${MUSIC_QUALITY} -o "${FILENAME}.ogg" "${DOWNLOAD_FILE_LOC}"
@@ -93,7 +93,7 @@ if(MUSIC)
                 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR})
             endif()
         else()
-            message(STATUS "Installing ${FILE} ...")
+            message(STATUS "Adding install target for ${FILE}")
             install(FILES ${DOWNLOAD_FILE_LOC} DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR})
         endif()
     endforeach()
