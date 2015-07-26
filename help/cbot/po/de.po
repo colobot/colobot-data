@@ -6757,12 +6757,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/function.txt:14
-#, no-wrap
-msgid "Nothing but a name can be changed in a main function. The keyword <code>extern</code> distinguish the main function from others."
-msgstr ""
-
-#. type: Plain text
 #: ../E/function.txt:17
 #, no-wrap
 msgid "With functions you can divide your program into several parts. Each of them will execute a specific task. For example, see the following program:"
@@ -6814,12 +6808,6 @@ msgstr ""
 #: ../E/function.txt:49
 #, no-wrap
 msgid "Syntax"
-msgstr ""
-
-#. type: Plain text
-#: ../E/function.txt:56
-#, no-wrap
-msgid "A function must be declared above the main function. Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
 msgstr ""
 
 #. type: \t; header
@@ -6986,6 +6974,24 @@ msgid ""
 "\tmessage(this.category);\n"
 "}"
 msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:14
+#, no-wrap
+msgid "Nothing but a name can be changed in the main function. The keyword <code>extern</code> distinguish the main function from others."
+msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:56
+#, no-wrap
+msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
+msgstr ""
+
+#~ msgid "Nothing but a name can be changed in a main function. The keyword <code>extern</code> distinguish the main function from others."
+#~ msgstr ""
+
+#~ msgid "A function must be declared above the main function. Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
+#~ msgstr ""
 
 #~ msgid "Now the program is much easier to read. It's a good practice to split the program into several functions with self-describing names."
 #~ msgstr ""
