@@ -1,0 +1,12 @@
+\b;Instruction \c;penup\n;
+Syntax:
+\s;\c;penup ( );\n;
+The instruction \c;penup();\n; instructs the bot to have the pen up, so it stops drawing. The pen is up by default, so it should be used only after using \c;\l;pendown\u cbot\pendown;\n;.
+
+\t;Return value: \c;\l;int\u cbot\int;\n;
+Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;penup();\n;.
+\c;== 0 \n;The pen is now up
+\c;!= 0 \n;The instruction did not work
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

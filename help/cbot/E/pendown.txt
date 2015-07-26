@@ -1,0 +1,18 @@
+\b;Instruction \c;pendown\n;
+Syntax:
+\s;\c;pendown ( color, width );\n;
+The instruction \c;pendown();\n; instructs the bot to have the pen down, so it starts drawing.
+
+\t;color: \c;\l;int\u cbot\int;\n; (default value: \c;Black\n;)
+\l;Color name\u cbot\colors;.
+
+\t;width: \c;\l;float\u cbot\float;\n; (default value: \c;0.5\n;)
+Width of the pen. The width cannot be higher than \c;1.0\n; and cannot be lower than \c;0.0\n;. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible.
+
+\t;Return value: \c;\l;int\u cbot\int;\n;
+Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;pendown();\n;.
+\c;== 0 \n;The pen is now down
+\c;!= 0 \n;The instruction did not work
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

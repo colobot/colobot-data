@@ -1,0 +1,28 @@
+\b;Value \c;Colors\n;
+Color names are used to define a specific color to use. They can be passed to functions like \l;pendown\u cbot\pendown; or \l;pencolor\u cbot\pencolor;.
+
+In a program, colors are always displayed on a \const;red background\norm;. If a color isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is.
+
+Below are the different colors available:
+
+\c;\const;White\norm;\n;
+\c;\const;Black\norm;\n;
+\c;\const;Gray\norm;\n;
+\c;\const;LightGray\norm;\n;
+\c;\const;Red\norm;\n;
+\c;\const;Pink\norm;\n;
+\c;\const;Purple\norm;\n;
+\c;\const;Orange\norm;\n;
+\c;\const;Yellow\norm;\n;
+\c;\const;Beige\norm;\n;
+\c;\const;Brown\norm;\n;
+\c;\const;Skin\norm;\n;
+\c;\const;Green\norm;\n;
+\c;\const;LightGreen\norm;\n;
+\c;\const;Blue\norm;\n;
+\c;\const;LightBlue\norm;\n;
+
+You can also draw colored symbols:
+
+\c;\const;BlackArrow\norm;\n;
+\c;\const;RedArrow\norm;\n;
