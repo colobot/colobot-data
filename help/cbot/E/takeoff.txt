@@ -10,7 +10,7 @@ Takes off the spaceship.
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;takeoff()\n;.
 \c;== 0 \n;Spaceship takes off
-\c;!= 0 \n;Spaceship could not take off
+\c;!= 0 \n;Spaceship could not take off (e.g. mission is not finished yet)
 
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

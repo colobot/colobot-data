@@ -13,7 +13,7 @@ Use this type for variables that contain the characteristics of an object, be it
 \c;\l;float\u cbot\float;  object.lifeTime     \n;Lifetime of the object
 \c;object object.energyCell   \n;Power cell on the bot
 \c;object object.load         \n;Object carried by the bot
-\c;\l;string\u cbot\string; object.team         \n;The bot's team (see \l;code battles\u battles;)
+\c;\l;int\u cbot\int; object.team      \n;The bot's team (see \l;code battles\u battles;)
 \c;\l;point\u cbot\point;  object.velocity     \n;Velocity of the object
 
 Also, some objects have additional methods (instructions). See them in \l;the main list\u cbot; in the \c;"Instructions specific for some objects" section.

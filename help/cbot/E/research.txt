@@ -2,18 +2,18 @@
 Syntax:
 \s;\c;\l;object\u cbot\object;.research ( type );\n;
 
-Starts a research of the given type.
+Starts a \l;research\u cbot\researches; of the given type.
 
 \t;\l;object\u cbot\object;
 \l;ResearchCenter\u object\research; or \l;AutoLab\u object\labo;.
 
 \t;type: \c;\l;int\u cbot\int;\n;
-Name of the research.
+\l;Research name\u cbot\researches;.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
-Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;factory()\n;.
+Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;research()\n;.
 \c;== 0 \n;The research successfully started
-\c;!= 0 \n;The research could not be started
+\c;!= 0 \n;The research could not be started (e.g. the research is disabled in the level, no power cell)
 
 \t;See also
 \l;Research names\u cbot\researches;, \l;canresearch\u cbot\canresearch;, \l;researched\u cbot\researched;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
