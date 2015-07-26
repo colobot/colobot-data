@@ -178,13 +178,13 @@ msgid "Instructions specific to some bots:"
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:60
+#: ../E/cbot.txt:66
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:61
+#: ../E/cbot.txt:67
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -194,13 +194,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:66
+#: ../E/cbot.txt:72
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:67
+#: ../E/cbot.txt:73
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -213,13 +213,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:75
+#: ../E/cbot.txt:81
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:76
+#: ../E/cbot.txt:82
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -233,13 +233,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:85
+#: ../E/cbot.txt:91
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:86
+#: ../E/cbot.txt:92
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -251,13 +251,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:109 ../E/freehelp.txt:4
+#: ../E/cbot.txt:115 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: ../E/cbot.txt:110
+#: ../E/cbot.txt:116
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr ""
@@ -537,7 +537,7 @@ msgstr ""
 "Большое переселение на Терра Нову начнется очень скоро."
 
 #. type: \t; header
-#: ../E/cbot.txt:93
+#: ../E/cbot.txt:99
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr ""
@@ -560,7 +560,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:94
+#: ../E/cbot.txt:100
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -578,6 +578,46 @@ msgid ""
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
 msgstr ""
+
+#. type: \t; header
+#: ../E/cbot.txt:60
+#, no-wrap
+msgid "Instructions specific for some <a cbot|object>objects</a>:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:61
+#, no-wrap
+msgid ""
+"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+"<code><a cbot|research>research</a>   </code>Starts a research\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
+"<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
+msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+#~ "<code><a cbot|research>research</a>   </code>Starts a research\n"
+#~ "<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
+#~ "<code><a cbot|busy>busy</a>        </code>Checks if object is busy"
+#~ msgstr ""
+
+#~ msgid "Specific instructions for <a cbot|object>objects</a>:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+#~ "<code><a cbot|research>research</a>   </code>Starts a research\n"
+#~ "<code><a cbot|takeoff>takeoff</a>    </code>Takes off a SpaceShip\n"
+#~ "<code><a cbot|busy>busy</a>        </code>Checks if object is busy"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|factory>factory</a>      </code>Starts construction of a bot\n"
+#~ "<code><a cbot|research>research</a>      </code>Starts a research\n"
+#~ "<code><a cbot|takeoff>takeoff</a>      </code>Takes off a SpaceShip\n"
+#~ "<code><a cbot|busy>busy</a>      </code>Checks if object is busy"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"

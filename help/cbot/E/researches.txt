@@ -1,0 +1,23 @@
+\b;Value \c;Research names\n;
+Research names represent the types of available researches in the CBOT language. You can use them to control \l;ResearchCenter\u object\research; by passing them to appropriate instructions (e.g. \l;research\u cbot\research;, \l;canresearch\u cbot\canresearch;, \l;researched\u cbot\researched;).
+
+In a program, research names are always displayed on a \const;red background\norm;. If a research name is not highlighted in red, it is misspelled. Caps and lower cases should be kept as is.
+
+Below are the different research names available:
+
+\c;\const;ResearchTracked\norm;       \n;Tracked bots (e.g. \l;tracked grabber\u object\botgc;)
+\c;\const;ResearchWinged\norm;        \n;Winged bots (e.g. \l;winged grabber\u object\botgj;)
+\c;\const;ResearchLegged\norm;        \n;Legged bots (e.g. \l;legged grabber\u object\botgs;)
+\c;\const;ResearchShooter\norm;       \n;Bots with cannon (e.g. \l;tracked shooter\u object\botfc;)
+\c;\const;ResearchOrgaShooter\norm;   \n;Bots with orgaball cannon (e.g. \l;tracked orga shooter\u object\botoc;)
+\c;\const;ResearchPhazerShooter\norm; \n;\l;Phazer shooter\u object\botphaz;
+\c;\const;ResearchSniffer\norm;       \n;Sniffers (e.g. \l;tracked sniffer\u object\botsc;)
+\c;\const;ResearchThumper\norm;       \n;\l;Thumper\u object\bottump;
+\c;\const;ResearchShielder\norm;      \n;\l;Shielder\u object\botshld;
+\c;\const;ResearchRecycler\norm;      \n;\l;Recycler\u object\botrecy;
+\c;\const;ResearchSubber\norm;        \n;\l;Subber\u object\botsub;
+\c;\const;ResearchDefenseTower\norm;  \n;\l;Defense tower\u object\tower;
+\c;\const;ResearchNuclearPlant\norm;  \n;\l;Nuclear plant\u object\nuclear;
+
+\t;See also
+\l;CBOT Language\u cbot;, \l;variables\u cbot\type; and \l;categories\u cbot\category;.

@@ -57,6 +57,12 @@ Constants like \l;categories\u cbot\category; are displayed with a red backgroun
 \c;\l;canbuild\u cbot\canbuild;   \n;Checks if a building can be built
 \c;\l;buildingenabled\u cbot\buildingenabled; \n;Checks if a building can be built in the level
 
+\t;Instructions specific for some \l;objects\u cbot\object;:
+\c;\l;factory\u cbot\factory;    \n;Starts construction of a bot
+\c;\l;research\u cbot\research;   \n;Starts a research
+\c;\l;takeoff\u cbot\takeoff;    \n;Takes off a spaceship
+\c;\l;busy\u cbot\busy;       \n;Checks if object is busy
+
 \t;Specific instructions for exchange posts:
 \c;\l;receive\u cbot\receive;    \n;Receives an information
 \c;\l;send\u cbot\send;       \n;Sends a new information
