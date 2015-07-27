@@ -1,0 +1,15 @@
+\b;Instruction \c;canresearch\n;
+Syntax:
+\s;\c;canresearch ( research );\n;
+
+Checks if the \l;research\u cbot\researches; can be done in the level.
+
+\t;research: \c;\l;int\u cbot\int;\n;
+\l;Research name\u cbot\researches;.
+
+\t;Return value: \c;\l;bool\u cbot\bool;\n;
+\const;true\norm; if the research can be done (even if it is already done, to check that, use the \l;researched\u cbot\researched; instruction)
+\const;false\norm; if the research cannot be done
+
+\t;See also
+\l;Research names\u cbot\researches;, \l;research\u cbot\research;, \l;researched\u cbot\researched;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
