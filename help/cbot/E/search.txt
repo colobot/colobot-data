@@ -14,7 +14,7 @@ o \l;Array\u cbot\array; of categories of the objects that should be detected. F
 \s;bots[3] = LeggedGrabber;
 \s;point p(50, 24, 0);
 \s;object grabberNearestThePoint = search(bots, p);\n;
-o Keyword \const;Any\norm; if you are looking for any object.
+o Keyword \const;Any\norm; if you are looking for any object (including even plants and so on).
 
 \t;position: \c;\l;point\u cbot\point;\n; (default value: \c;\l;this\u cbot\this;.\l;position\u cbot\object;\n;)
 \c;search\n; returns the object of the given category that is closest to the position indicated here. 

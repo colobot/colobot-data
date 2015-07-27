@@ -9,7 +9,7 @@ Destroys an object.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;destroy()\n;.
-\c;== 0 \n;The operation of destroying an object was started
+\c;== 0 \n;The operation of destroying of an object was started
 \c;!= 0 \n;The instruction could not be done (e.g. nothing to destroy)
 
 \t;See also
