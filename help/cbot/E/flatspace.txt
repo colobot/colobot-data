@@ -1,11 +1,14 @@
-\b;Instruction \c;space\n;
+\b;Instruction \c;flatspace\n;
 Syntax:
-\s;\c;space ( center, rmin, rmax, dist );\n;
+\s;\c;flatspace ( center, flatmin, rmin, rmax, dist );\n;
 
-Determines the position of the nearest free space around a given position.
+Determines the position of the nearest free space with at least \c;flatmin\n; of flat ground around a given position. Works similar to \c;\l;space();\u cbot\space;\n;. Useful for finding a place for a \l;building\u cbot\category;.
 
-\t;center: \c;\l;point\u cbot\point;\n; (default: bot position)
+\t;center: \c;\l;point\u cbot\point;\n;
 Desired position of the free space.
+
+\t;flatmin: \c;\l;float\u cbot\float;\n;
+Minimum radius of flat ground around the desired position.
 
 \t;rmin: \c;\l;float\u cbot\float;\n; (default value: \c;8\n;)
 Minimum distance from the desired position.
