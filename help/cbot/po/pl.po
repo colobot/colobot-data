@@ -6896,12 +6896,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/function.txt:14
-#, no-wrap
-msgid "Nothing but a name can be changed in the main function. The keyword <code>extern</code> distinguish the main function from others."
-msgstr ""
-
-#. type: Plain text
 #: ../E/function.txt:56
 #, no-wrap
 msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
@@ -7566,6 +7560,15 @@ msgstr ""
 #, no-wrap
 msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar to <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
 msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:14
+#, no-wrap
+msgid "Nothing but a name can be changed in the main function. The keyword <code><a cbot|extern>extern</a></code> distinguish the main function from others."
+msgstr ""
+
+#~ msgid "Nothing but a name can be changed in the main function. The keyword <code>extern</code> distinguish the main function from others."
+#~ msgstr ""
 
 #~ msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
 #~ msgstr ""
