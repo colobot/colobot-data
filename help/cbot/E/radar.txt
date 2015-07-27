@@ -58,7 +58,9 @@ Determines which type of objects should be detected. Especially useful in use wi
 \c;\const;FilterEnemy\norm;       \n;Detects only enemies (objects in an other team except neutral)
 \c;\const;FilterNeutral\norm;     \n;Detects only neutral objects (e.g. resources)
 
-The last three are mainly useful in \l;code battles\u battles;.
+The last three are mainly useful in \l;code battles\u battles;. You can also pass a team ID to search only for objects from a specific team. Attention: you should use \const;FilterNeutral\norm; instead of \c;0\n; or else it will not work.
+
+Filters and IDs can be mixed using bitwise OR operator \c;|\n;, for example \c;radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);\n; will only detect an object from team \c;2\n; that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once.
 
 \t;Return value: \c;\l;object\u cbot\object;\n;
 Returns the first object found that corresponds to the specified category in the specified zone. If no object was found, returns the value \c;\l;null\u cbot\null;\n;.
