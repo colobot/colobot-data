@@ -137,25 +137,25 @@ msgid "Specific instructions for bots:"
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:48
+#: ../E/cbot.txt:49
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:54
+#: ../E/cbot.txt:55
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:73
+#: ../E/cbot.txt:74
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:74
+#: ../E/cbot.txt:75
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -165,13 +165,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:79
+#: ../E/cbot.txt:80
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:80
+#: ../E/cbot.txt:81
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -184,13 +184,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:88
+#: ../E/cbot.txt:89
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:89
+#: ../E/cbot.txt:90
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -204,13 +204,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:98
+#: ../E/cbot.txt:99
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:99
+#: ../E/cbot.txt:100
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -222,13 +222,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:122 ../E/freehelp.txt:4
+#: ../E/cbot.txt:123 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: ../E/cbot.txt:123
+#: ../E/cbot.txt:124
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr ""
@@ -508,13 +508,13 @@ msgstr ""
 "Большое переселение на Терра Нову начнется очень скоро."
 
 #. type: \t; header
-#: ../E/cbot.txt:106
+#: ../E/cbot.txt:107
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:55
+#: ../E/cbot.txt:56
 #, no-wrap
 msgid ""
 "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
@@ -531,7 +531,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:107
+#: ../E/cbot.txt:108
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -551,13 +551,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:67
+#: ../E/cbot.txt:68
 #, no-wrap
 msgid "Instructions specific for some <a cbot|object>objects</a>:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:68
+#: ../E/cbot.txt:69
 #, no-wrap
 msgid ""
 "<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
@@ -567,10 +567,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: ../E/cbot.txt:50
+#, no-wrap
+msgid ""
+"<code><a cbot|space>space</a>      </code>Calculates a free space\n"
+"<code><a cbot|flatspace>flatspace</a>  </code>Calculates a free, flat space\n"
+"<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
+msgstr ""
+
+#. type: Plain text
 #: ../E/cbot.txt:27
 #, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a>      </code>Object detection\n"
+"<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
 "<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
 "<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
 "<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
@@ -592,15 +603,28 @@ msgid ""
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
 msgstr ""
 
-#. type: Plain text
-#: ../E/cbot.txt:49
-#, no-wrap
-msgid ""
-"<code><a cbot|space>space</a>      </code>Calculates a free space\n"
-"<code><a cbot|flatspace>flatspace</a>  </code>Calculates a free, flat space\n"
-"<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
-"<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
-msgstr ""
+#~ msgid ""
+#~ "<code><a cbot|radar>radar</a>      </code>Object detection\n"
+#~ "<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
+#~ "<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
+#~ "<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
+#~ "<code><a cbot|wait>wait</a>       </code>Waits\n"
+#~ "<code><a cbot|move>move</a>       </code>Moves forward or backward\n"
+#~ "<code><a cbot|turn>turn</a>       </code>Turns\n"
+#~ "<code><a cbot|goto>goto</a>       </code>Goes to a given position\n"
+#~ "<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
+#~ "<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
+#~ "<code><a cbot|message>message</a>    </code>Displays a message\n"
+#~ "<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
+#~ "<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
+#~ "<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time\n"
+#~ "<code><a cbot|pendown>pendown</a>    </code>Starts drawing\n"
+#~ "<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
+#~ "<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
+#~ "<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
+#~ "<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
+#~ "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "<code><a cbot|space>space</a>      </code>Calculates a free space\n"

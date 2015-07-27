@@ -2,12 +2,21 @@
 Syntax:
 \s;\c;search ( category, position );\n;
 
-Detects the object of the given category that is closest to the given position. 
+Detects the object of the given category that is closest to the given position. Similar to \c;\l;radar();\u cbot\radar;\n;, but can search starting from the specific point instead of the actual bot's position.
 
 \t;category: \c;\l;int\u cbot\int;\n;
-\l;Category\u cbot\category; of the requested object.
+o \l;Category\u cbot\category; of the objects that should be detected. For example, when you are looking for an ant, write \c;search(AlienAnt)\n;. 
+o \l;Array\u cbot\array; of categories of the objects that should be detected. For example, when you are looking only for grabbers, starting from a certain point in the level:
+\c;\s;int bots[4];
+\s;bots[0] = WheeledGrabber;
+\s;bots[1] = TrackedGrabber;
+\s;bots[2] = WingedGrabber;
+\s;bots[3] = LeggedGrabber;
+\s;point p(50, 24, 0);
+\s;object grabberNearestThePoint = search(bots, p);\n;
+o Keyword \const;Any\norm; if you are looking for any object.
 
-\t;position: \c;\l;point\u cbot\point;\n;
+\t;position: \c;\l;point\u cbot\point;\n; (default value: \c;\l;this\u cbot\this;.\l;position\u cbot\object;\n;)
 \c;search\n; returns the object of the given category that is closest to the position indicated here. 
 
 \t;Return value: \c;\l;object\u cbot\object;\n;

@@ -30,22 +30,22 @@ o \l;Array\u cbot\array; of categories of the objects that should be detected. F
 \s;object nearestGrabber = radar(bots);\n;
 o Keyword \const;Any\norm; if you are looking for any object.
 
-\t;angle: \c;\l;float\u cbot\float;\n; (default value\c;0\n;)
+\t;angle: \c;\l;float\u cbot\float;\n; (default value: \c;0\n;)
 Direction that the radar is facing, in degrees. 
 \c;  0\n; -> radar is facing straight ahead
 \c;-90\n; -> radar is facing a quarter turn right
 \c; 90\n; -> radar is facing a quarter turn left
 
-\t;focus: \c;\l;float\u cbot\float;\n; (default value\c;360\n;)
+\t;focus: \c;\l;float\u cbot\float;\n; (default value: \c;360\n;)
 Opening angle of the radar, in degrees. 
 
-\t;min: \c;\l;float\u cbot\float;\n; (default value \c;0\n;)
+\t;min: \c;\l;float\u cbot\float;\n; (default value: \c;0\n;)
 Minimum detection distance, in meters. Objects that are closer than the minimum distance will not be detected. 
 
-\t;max: \c;\l;float\u cbot\float;\n; (Default value\c;1000\n;)
+\t;max: \c;\l;float\u cbot\float;\n; (default value: \c;1000\n;)
 Maximum detection distance, in meters. Objects that are farther away than the maximum distance will not be detected. 
 
-\t;sens: \c;\l;float\u cbot\float;\n; (default value\c;1\n;)
+\t;sens: \c;\l;float\u cbot\float;\n; (default value: \c;1\n;)
 Determines which way the objects are detected. With value \c;1\n;, returns the closest object found in the specified zone. With value \c;-1\n;, the farthest object in the zone will be returned. 
 
 \t;Return value: \c;\l;object\u cbot\object;\n;
