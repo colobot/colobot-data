@@ -1,0 +1,71 @@
+\b;Instructions \c;switch\n;, \c;case\n; and \c;default\n;
+With the instruction \c;switch() {}\n; you can execute a proper set of instructions (a case) basing on some value.
+
+\b;Basic use
+Note: the \l;busy\u cbot\busy; instruction might be much better to use in this scenario.
+
+See the following \l;function\u cbot\function;: the bot will be \l;waiting\u cbot\wait; a proper amount of time for a certain task to be completed:
+\c;
+\s;public void WaitForTaskCompleted(object building)
+\s;{
+\s;	int cat = building.category;
+\s;	\l;if\u cbot\if; (cat == Converter) wait(15);
+\s;	else if (cat == BotFactory) wait(15);
+\s;	else if (cat == PowerPlant) wait(12);
+\s;	else message("Undefined wait time", DisplayError);
+\s;}
+\n;
+This function can be also written using the \c;switch() {}\n; instruction:
+\c;
+\s;public void WaitForTaskCompleted(object building)
+\s;{
+\s;	switch (building.category)
+\s;	{
+\s;		case Converter: wait(15); break;
+\s;		case BotFactory: wait(15); break;
+\s;		case PowerPlant: wait(12); break;
+\s;		default: message("Undefined wait time", DisplayError);
+\s;	}
+\s;}
+\n;
+Which way to write this kind of choice structures, is a matter of taste.
+
+You can also make cases like this:
+\c;
+\s;switch (building.category)
+\s;{
+\s;	case Converter:
+\s;	case BotFactory:
+\s;		wait(15); break;
+\s;	case PowerPlant: wait(12); break;
+\s;	default: message("Undefined wait time", DisplayError);
+\s;}
+\n;
+\l;Converter\u object\convert; and \l;bot factory\u object\factory; have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not \c;\l;break\u cbot\break;\n; it.
+
+\b;For specialists
+Syntax:
+\s;\c;switch ( value )
+\s;{
+\s;	case value1: instructions1
+\s;	case value2: instructions2
+\s;	...
+\s;	case valueN: instructionsN
+\s;	default: instructionsDefault
+\s;}
+\n;
+With this conditional structure you can execute \c;instructions1\n; or \c;instructions2\n; ... or \c;instructionsN\n; or \c;instructionsDefault\n; depending on the \c;value\n;.
+
+If the \c;value\n; is equal to \c;value1\n;, \c;instructions1\n; to \c;N\n; (including \c;instructionsDefault\n;) are executed.
+If the \c;value\n; is equal to \c;value2\n;, \c;instructions2\n; to \c;N\n; (including \c;instructionsDefault\n;) are executed.
+And so on.
+If the \c;value\n; is equal to \c;valueN\n;, \c;instructionsN\n; and \c;instructionsDefault\n; are executed.
+If the \c;value\n; is not equal to any value in the given cases, \c;instructionsDefault\n; are executed.
+
+You can exit from the the \c;switch() {}\n; instruction using \c;\l;break\u cbot\break;\n;.
+
+\t;Attention
+Do not put a \l;semicolon\u cbot\term; at the end of the \c;switch ( ) { }\n; instruction.
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

@@ -104,58 +104,32 @@ msgstr "Konstanten werden wie <a cbot|category>Kategorien</a> immer mit rotem Hi
 msgid "Instructions in the CBOT language:"
 msgstr "Befehle der CBOT-Sprache:"
 
-#. type: Plain text
-#: ../E/cbot.txt:15
-#, no-wrap
-msgid ""
-"<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
-"<code><a cbot|if>if</a>         </code>Choice structure\n"
-"<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
-"<code><a cbot|for>for</a>        </code>Loop structure\n"
-"<code><a cbot|while>while</a>      </code>Control structure\n"
-"<code><a cbot|do>do</a>         </code>Control structure\n"
-"<code><a cbot|break>break</a>      </code>Exit from a loop\n"
-"<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
-"<code><a cbot|return>return</a>     </code>Exit from a function\n"
-"<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
-msgstr ""
-"<code><a cbot|extern>extern</a>     </code>Bezeichnet die Hauptfunktion\n"
-"<code><a cbot|if>if</a>         </code>Bedingte Struktur\n"
-"<code><a cbot|if>else</a>       </code>Alternative bedingte Struktur\n"
-"<code><a cbot|for>for</a>        </code>Schleifenstruktur\n"
-"<code><a cbot|while>while</a>      </code>Bedingte Schleifenstruktur\n"
-"<code><a cbot|do>do</a>         </code>Bedingte Schleifenstruktur\n"
-"<code><a cbot|break>break</a>      </code>Abbruch einer Schleife\n"
-"<code><a cbot|continue>continue</a>   </code>Neuanfang einer Schleife\n"
-"<code><a cbot|return>return</a>     </code>Rückkehr von einer Funktion\n"
-"<code><a cbot|sizeof>sizeof</a>     </code>Grösse eines Arrays"
-
 #. type: \t; header
-#: ../E/cbot.txt:26
+#: ../E/cbot.txt:29
 #, no-wrap
 msgid "Specific instructions for bots:"
 msgstr "Befehle für die Steuerung der Roboter:"
 
 #. type: \t; header
-#: ../E/cbot.txt:49
+#: ../E/cbot.txt:52
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr "Befehle für die Erforschung des Geländes:"
 
 #. type: \t; header
-#: ../E/cbot.txt:55
+#: ../E/cbot.txt:58
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr "Befehle für bestimmte Roboter:"
 
 #. type: \t; header
-#: ../E/cbot.txt:74
+#: ../E/cbot.txt:77
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr "Befehle für den Austausch mit Infoservern:"
 
 #. type: Plain text
-#: ../E/cbot.txt:75
+#: ../E/cbot.txt:78
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -169,13 +143,13 @@ msgstr ""
 "<code><a cbot|delinfo>deleteinfo</a> </code>Löscht eine Information"
 
 #. type: \t; header
-#: ../E/cbot.txt:80
+#: ../E/cbot.txt:83
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr "Befehle für die Verwaltung von Klassen:"
 
 #. type: Plain text
-#: ../E/cbot.txt:81
+#: ../E/cbot.txt:84
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -195,13 +169,13 @@ msgstr ""
 "<code><a cbot|this>this</a>       </code>Bezieht sich auf die laufende Instanz"
 
 #. type: \t; header
-#: ../E/cbot.txt:89
+#: ../E/cbot.txt:92
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr "Befehle für die Verarbeitung von Strings (Zeichenketten):"
 
 #. type: Plain text
-#: ../E/cbot.txt:90
+#: ../E/cbot.txt:93
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -223,13 +197,13 @@ msgstr ""
 "<code><a cbot|strlower>strlower</a>   </code>Umwandlung in Kleinbuchstaben"
 
 #. type: \t; header
-#: ../E/cbot.txt:99
+#: ../E/cbot.txt:102
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr "Befehle für die Dateiverwaltung:"
 
 #. type: Plain text
-#: ../E/cbot.txt:100
+#: ../E/cbot.txt:103
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -247,13 +221,13 @@ msgstr ""
 "<code><a cbot|deletef>deletefile</a> </code>Löscht eine Datei"
 
 #. type: \t; header
-#: ../E/battles.txt:40 ../E/cbot.txt:123 ../E/freehelp.txt:4
+#: ../E/battles.txt:40 ../E/cbot.txt:126 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "Siehe auch"
 
 #. type: Plain text
-#: ../E/cbot.txt:124
+#: ../E/cbot.txt:127
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot|type>Variablentypen</a> und <a cbot|category>Kategorien</a>."
@@ -545,13 +519,13 @@ msgid "Colobot: Gold Edition developers"
 msgstr "Die Colobot: Gold Edition Entwickler"
 
 #. type: \t; header
-#: ../E/cbot.txt:107
+#: ../E/cbot.txt:110
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:56
+#: ../E/cbot.txt:59
 #, no-wrap
 msgid ""
 "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
@@ -568,7 +542,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:108
+#: ../E/cbot.txt:111
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -588,13 +562,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:68
+#: ../E/cbot.txt:71
 #, no-wrap
 msgid "Instructions specific for some <a cbot|object>objects</a>:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:69
+#: ../E/cbot.txt:72
 #, no-wrap
 msgid ""
 "<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
@@ -604,7 +578,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:50
+#: ../E/cbot.txt:53
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
@@ -614,7 +588,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:27
+#: ../E/cbot.txt:30
 #, no-wrap
 msgid ""
 "<code><a cbot|radar>radar</a>      </code>Object detection\n"
@@ -768,6 +742,80 @@ msgstr ""
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
 msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:15
+#, no-wrap
+msgid ""
+"<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
+"<code><a cbot|if>if</a>         </code>Choice structure\n"
+"<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
+"<code><a cbot|switch>switch</a>     </code>Multiple choice structure\n"
+"<code><a cbot|switch>case</a>       </code>One choice\n"
+"<code><a cbot|switch>default</a>    </code>Default choice\n"
+"<code><a cbot|for>for</a>        </code>Loop structure\n"
+"<code><a cbot|while>while</a>      </code>Control structure\n"
+"<code><a cbot|do>do</a>         </code>Control structure\n"
+"<code><a cbot|break>break</a>      </code>Exit from a loop\n"
+"<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
+"<code><a cbot|return>return</a>     </code>Exit from a function\n"
+"<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
+msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
+#~ "<code><a cbot|if>if</a>         </code>Choice structure\n"
+#~ "<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
+#~ "<code><a cbot|switch>switch</a>     </code>Multiple choice structure\n"
+#~ "<code><a cbot|switch>case</a>       </code>One choice\n"
+#~ "<code><a cbot|switch>default</a>  </code>Default choice\n"
+#~ "<code><a cbot|for>for</a>        </code>Loop structure\n"
+#~ "<code><a cbot|while>while</a>      </code>Control structure\n"
+#~ "<code><a cbot|do>do</a>         </code>Control structure\n"
+#~ "<code><a cbot|break>break</a>      </code>Exit from a loop\n"
+#~ "<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
+#~ "<code><a cbot|return>return</a>     </code>Exit from a function\n"
+#~ "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
+#~ "<code><a cbot|if>if</a>         </code>Choice structure\n"
+#~ "<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
+#~ "<code><a cbot|switch>switch</a> </code>Multiple choice structure\n"
+#~ "<code><a cbot|switch>case</a> </code>One choice\n"
+#~ "<code><a cbot|switch>default</a> </code>Default choice\n"
+#~ "<code><a cbot|for>for</a>        </code>Loop structure\n"
+#~ "<code><a cbot|while>while</a>      </code>Control structure\n"
+#~ "<code><a cbot|do>do</a>         </code>Control structure\n"
+#~ "<code><a cbot|break>break</a>      </code>Exit from a loop\n"
+#~ "<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
+#~ "<code><a cbot|return>return</a>     </code>Exit from a function\n"
+#~ "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
+#~ "<code><a cbot|if>if</a>         </code>Choice structure\n"
+#~ "<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
+#~ "<code><a cbot|for>for</a>        </code>Loop structure\n"
+#~ "<code><a cbot|while>while</a>      </code>Control structure\n"
+#~ "<code><a cbot|do>do</a>         </code>Control structure\n"
+#~ "<code><a cbot|break>break</a>      </code>Exit from a loop\n"
+#~ "<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
+#~ "<code><a cbot|return>return</a>     </code>Exit from a function\n"
+#~ "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
+#~ msgstr ""
+#~ "<code><a cbot|extern>extern</a>     </code>Bezeichnet die Hauptfunktion\n"
+#~ "<code><a cbot|if>if</a>         </code>Bedingte Struktur\n"
+#~ "<code><a cbot|if>else</a>       </code>Alternative bedingte Struktur\n"
+#~ "<code><a cbot|for>for</a>        </code>Schleifenstruktur\n"
+#~ "<code><a cbot|while>while</a>      </code>Bedingte Schleifenstruktur\n"
+#~ "<code><a cbot|do>do</a>         </code>Bedingte Schleifenstruktur\n"
+#~ "<code><a cbot|break>break</a>      </code>Abbruch einer Schleife\n"
+#~ "<code><a cbot|continue>continue</a>   </code>Neuanfang einer Schleife\n"
+#~ "<code><a cbot|return>return</a>     </code>Rückkehr von einer Funktion\n"
+#~ "<code><a cbot|sizeof>sizeof</a>     </code>Grösse eines Arrays"
 
 #~ msgid "There is much more options (as there should be in an strategy game), but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
 #~ msgstr ""
