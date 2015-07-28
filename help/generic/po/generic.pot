@@ -210,7 +210,7 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:123 ../E/freehelp.txt:4
+#: ../E/battles.txt:40 ../E/cbot.txt:123 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr ""
@@ -564,6 +564,171 @@ msgid ""
 "<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
 msgstr ""
+
+#. type: \b; header
+#: ../E/battles.txt:1
+#, no-wrap
+msgid "Code battles"
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:2
+#, no-wrap
+msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually."
+msgstr ""
+
+#. type: \b; header
+#: ../E/battles.txt:4
+#, no-wrap
+msgid "Basics of production line"
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:7
+#, no-wrap
+msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:41
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Image filename
+#: ../E/battles.txt:12
+#, no-wrap
+msgid "productionline1"
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:9
+#, no-wrap
+msgid "What you want to achieve"
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:10
+#, no-wrap
+msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:14
+#, no-wrap
+msgid "Titanium production"
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:22
+#, no-wrap
+msgid "Researches"
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:27
+#, no-wrap
+msgid "Robot production"
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:33
+#, no-wrap
+msgid "Power cell production"
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:37
+#, no-wrap
+msgid "There is more"
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:5
+#, no-wrap
+msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:15
+#, no-wrap
+msgid ""
+"1. <a cbot|radar>Find</a> a <a object|titan>Titanium</a>.\n"
+"2. <a cbot|build>Build</a> a <a object|convert>Converter</a>.\n"
+"3. Find a <a object|titanore>TitaniumOre</a>.\n"
+"4. Place it in the converter. Move back and wait until the converter is done.\n"
+"5. Use or move somewhere your new Titanium.\n"
+"Repeat steps 3-5 in order to keep your production going."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:23
+#, no-wrap
+msgid ""
+"1. <a cbot|build>Build</a> a <a object|research>ResearchCenter</a>.\n"
+"2. Power it with a <a object|power>PowerCell</a>.\n"
+"3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:28
+#, no-wrap
+msgid ""
+"1. <a cbot|build>Build</a> a <a object|factory>BotFactory</a>.\n"
+"2. Place a <a object|titan>Titanium</a> inside and move back.\n"
+"3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
+"4. Power the robot with a <a object|power>PowerCell</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:34
+#, no-wrap
+msgid ""
+"1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
+"2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:38
+#, no-wrap
+msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
+msgstr ""
+
+#~ msgid "There is much more options (as there should be in an strategy game), but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
+#~ msgstr ""
+
+#~ msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the updated <a cbot>CBOT documentation</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1. Find a <a object|titan>Titanium</a>.\n"
+#~ "2. Build a <a object|convert>Converter</a>.\n"
+#~ "3. Find a <a object|titanore>TitaniumOre</a>.\n"
+#~ "4. Place it in the converter. Move back and wait until the converter is done.\n"
+#~ "5. Use or move somewhere your new Titanium.\n"
+#~ "Repeat steps 3-5 in order to keep your production going."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1. Build an <a object|research>ResearcheCenter</a>.\n"
+#~ "2. Power it with a <a object|power>PowerCell</a>.\n"
+#~ "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1. Build a <a object|factory>BotFactory</a>.\n"
+#~ "2. Place a <a object|titan>Titanium</a> inside and move back.\n"
+#~ "3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
+#~ "4. Power the robot with a <a object|power>PowerCell</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1. Build a <a object|energy>PowerPlant</a>.\n"
+#~ "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
+#~ msgstr ""
+
+#~ msgid "productionline1.png"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "<c/><a object|destroy>test</a>\n"

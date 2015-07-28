@@ -1,0 +1,41 @@
+\b;Code battles
+Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually.
+
+\b;Basics of production line
+With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from \l;human\u object\human;. All of them are described in the \l;CBOT documentation\u cbot;.
+
+Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot.
+
+\t;What you want to achieve
+Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a \l;shooter\u object\botfr;. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more \l;grabbers\u object\botgr; or more \l;factories\u object\factory;, \l;converters\u object\convert; and so on would be helpful in that. Remember that robots needs \l;batteries\u object\power;. Anyway, before you can start, you must also do some \l;researches\u object\research; to get better technologies. And here we are at the beginning, with a single \l;robot\u object\botgr; and a \l;Titanium\u object\titan;.
+
+\image productionline1 22 10;
+
+\t;Titanium production
+1. \l;Find\u cbot\radar; a \l;Titanium\u object\titan;.
+2. \l;Build\u cbot\build; a \l;Converter\u object\convert;.
+3. Find a \l;TitaniumOre\u object\titanore;.
+4. Place it in the converter. Move back and wait until the converter is done.
+5. Use or move somewhere your new Titanium.
+Repeat steps 3-5 in order to keep your production going.
+
+\t;Researches
+1. \l;Build\u cbot\build; a \l;ResearchCenter\u object\research;.
+2. Power it with a \l;PowerCell\u object\power;.
+3. \l;Request\u cbot\research; a \l;research\u cbot\researches; and wait until the research center is done.
+
+\t;Robot production
+1. \l;Build\u cbot\build; a \l;BotFactory\u object\factory;.
+2. Place a \l;Titanium\u object\titan; inside and move back.
+3. \l;Request\u cbot\factory; a construction of a robot and wait until the bot factory is done.
+4. Power the robot with a \l;PowerCell\u object\power;.
+
+\t;Power cell production
+1. \l;Build\u cbot\build; a \l;PowerPlant\u object\energy;.
+2. Place a \l;Titanium\u object\titan; in it and wait until the power plant is done.
+
+\t;There is more
+There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
