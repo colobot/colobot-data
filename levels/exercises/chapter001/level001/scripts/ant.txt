@@ -1,0 +1,10 @@
+extern void object::AttackTheShooter()
+{
+	move(5);
+	object bot = radar(WheeledShooter);
+	while(true)
+	{
+		fire(bot.position);
+		wait(3);
+	}
+}
