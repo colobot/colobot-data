@@ -67,6 +67,12 @@ function(add_level level_dir)
                                       ${work_dir}
                                       ${LEVEL_INSTALL_DATA_DIR}/${level_dir})
 
+    # Install all other (non-translatable) files
+    install(DIRECTORY ${level_dir}/ DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_dir}
+            PATTERN "help*" EXCLUDE
+            PATTERN "po*" EXCLUDE
+            PATTERN "scene.txt" EXCLUDE)
+
 endfunction()
 
 
