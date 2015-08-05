@@ -1,0 +1,80 @@
+\b;What you already know
+In the previous exercise we demonstrated you how programming can be useful and why you should continue this course. You also gained the precious knowledge about programming in general. Now is the time to learn how to actually write programs and you will do it in this exercise.
+
+\b;Why programming languages exists
+In order to create \c;source code\n;, you need to use a special tool - any plain text editor (like Notepad, not like Wordpad). Imagine you open a simple text editor and write \c;"tell me what is 2+2"\n;. You could say it is an \c;algorithm\n;, a very simple one, but an algorithm. But you should not say that this is a computer program. Computers do not understand natural language and it is very hard to make them understand it. Human languages, like English or Polish, are not very precise and are complicated. For example, a person would understand if someone said to him/her "keep this under your hat" as "do not tell anyone this", but a computer would have problems with that idiom and probably would not understand what that sentence really mean. It would interpret it as "keep this under your hat" and probably it would show an error with a message saying "'this' is an information, it can't be put under a hat as it is not a physical thing!". Sometimes even a person can't understand another person, so how can we tell a computer what to do?
+
+That is why programming languages were created. They are as precise as formal mathematics and (usually) readable for human. But there is another problem. Computers still do not understand them, because they are still a plain text. There is no difference for a computer if in a text file it reads \c;"tell me what is 2+2"\n; or \c;"message(2+2);"\n;. "What? What was the point then?!", you might think. The point is, because of brutal precision of these languages, the algorithms written in them actually \c;can\n; be translated to a machine language, to ones and zeroes (one as electric current flows, and zero as it does not flow). The more high-level language, the more readable it is for human. The more low-level language, the more closer it is to the machine language.
+
+The process of translating an algorithm written in one of the programming languages to a machine language is called \c;compiling\n; and is done, what a surprise, by a \c;compiler\n;.
+
+\b;CBOT editor
+Programmers like to use \c;Integrated Development Environments\n;, which are most often an advanced text editor and a compiler integrated with each other, probably created specifically to work with one or more specific languages. You could call the \c;CBOT editor\n; an IDE. At first look it may look like a fancy text editor. It has options like "New" \button 56;, "Open" \button 57;, "Save" \button 58;, "Undo" \button 59;, you can type in it, and so on. But it has also a special button, which executes the CBOT compiler.
+
+Select the \l;wheeled grabber\u object\botgr; standing on the platform ahead of you. Click on \button 24; to create a new program, select the program from the list and then click on \button 22; to open it in the editor. You should see a simple program, which does nothing. Click on \button 87; to compile it. You can play around a little with all the buttons. After you are done, open your \button 63; again and read on.
+
+\b;Structure of a CBOT program
+Here is the source code you should see after opening the editor:
+\c;
+\s;extern void object::MyFirstProgram()
+\s;{
+\s;	
+\s;	
+\s;	
+\s;}
+\n;
+It probably does not make much sense to you, so we will explain each element.
+
+\t;Name
+Let's start from the middle. \c;MyFirstProgram\n; is the name of the program, but also the name of the main function. You will learn more about \l;functions\u cbot\function; later, for now you just need to know that the main function will be executed after you run your program. You can change the name to anything you want if you strict to these rules:
+1. Use only letters from the English alphabet.
+2. Do not start with a number.
+3. Do not use any other characters except underscore (\c;_\n;).
+
+\t;\type;\c;object\n;\norm;::
+This part is hard to explain at this point, so just assume this just must be there.
+
+\t;\token;\c;extern\n;\norm;
+This is a \c;\token;keyword\norm;\n; that indicates the \l;main function\u cbot\extern;.
+
+\t;\type;\c;void\n;\norm;
+This is a \l;type\u cbot\type; of function. Imagine a function called \c;Add\n;, which is similar to the arithmetic \c;+\n; symbol, then the result of \c;Add(2, 2)\n; is \c;4\n; (\c;2+2\n;). We say that the \c;Add\n; function \c;returns\n; a number. The main function returns nothing, \c;\type;void\norm;\n;.
+
+\t;Parentheses
+They indicates that the given name is a function. They have also another role, which you will read about in the next paragraphs.
+
+\b;Instructions
+An \token;\l;instruction\u cbot;\norm; is a command, a description or a part of a structure in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction, which consists of another set of instructions. Let's see an example.
+
+\t;Moving a robot
+One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say "move 5 meters forward". The number of meters here is a \c;parameter\n; of the function \c;\l;move\u cbot\move;\n;. You can give such commands to a robot using CBOT:
+
+\s;\c;move(5);\n;
+
+The above code means exactly "move 5 meters forward". Parameters of a function are always passed between parentheses.
+
+\t;Whitespaces
+Notice the semicolon (\c;;\n;) at the end of the line. It explicitly says that this is the end of a \l;statement\u cbot\term;, one step of the algorithm. "Why is it, can't CBOT know the end of a statement based on the end of the line?", you might ask. Technically, we could make it that way and some languages are built that way, but very often compilers ignore all whitespaces (invisible characters, like a space, tabulator or new line) on purpose. Arguably, it makes programs more readable and easier to write. You may have a different opinion about it, but that's how it works in many languages, including CBOT. Anyway, because of ignoring all whitespaces, these languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++ for example), it is done by using semicolons and curly braces.
+
+\t;Blocks
+You must put your instructions in the body of the main function. The body of a function is between \c;{\n; and \c;}\n;. The content between curly braces we can call also more generally a \l;block\u cbot\bloc;. The body of the function should be put immediately after the declaration, which we have already seen and analyzed (the first line).
+
+For example, if you want your robot to move 3 meters forward, you can write a program like this one:
+\c;
+\s;extern void object::Example()
+\s;{
+\s;	
+\s;	move(3);
+\s;	
+\s;}
+\n;
+Program immediately ends after all instructions are done, when it reaches the end of the body (block) of the main function (\c;}\n;).
+
+\b;Task
+Write and run a program that commands the bot to move 15 meters forward.
+
+\t;Tip
+If your program did not work, you can always quickly reset everything to the initial state by clicking on \button 9; while a bot is selected.
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

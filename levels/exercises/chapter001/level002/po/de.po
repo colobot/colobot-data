@@ -1,0 +1,610 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: \t; header
+#: ../help/help.E.txt:79
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "What you already know"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "In the previous exercise we demonstrated you how programming can be useful and why you should continue this course. You also gained the precious knowledge about programming in general. Now is the time to learn how to actually write programs and you will do it in this exercise."
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Why programming languages exists"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "In order to create <code>source code</code>, you need to use a special tool - any plain text editor (like Notepad, not like Wordpad). Imagine you open a simple text editor and write <code>\"tell me what is 2+2\"</code>. You could say it is an <code>algorithm</code>, a very simple one, but an algorithm. But you should not say that this is a computer program. Computers do not understand natural language and it is very hard to make them understand it. Human languages, like English or Polish, are not very precise and are complicated. For example, a person would understand if someone said to him/her \"keep this under your hat\" as \"do not tell anyone this\", but a computer would have problems with that idiom and probably would not understand what that sentence really mean. It would interpret it as \"keep this under your hat\" and probably it would show an error with a message saying \"'this' is an information, it can't be put under a hat as it is not a physical thing!\". Sometimes even a person can't understand another person, so how can we tell a computer what to do?"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "That is why programming languages were created. They are as precise as formal mathematics and (usually) readable for human. But there is another problem. Computers still do not understand them, because they are still a plain text. There is no difference for a computer if in a text file it reads <code>\"tell me what is 2+2\"</code> or <c/>\"message(2+2);\"<n/>. \"What? What was the point then?!\", you might think. The point is, because of brutal precision of these languages, the algorithms written in them actually <code>can</code> be translated to a machine language, to ones and zeroes (one as electric current flows, and zero as it does not flow). The more high-level language, the more readable it is for human. The more low-level language, the more closer it is to the machine language."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "The process of translating an algorithm written in one of the programming languages to a machine language is called <code>compiling</code> and is done, what a surprise, by a <code>compiler</code>."
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "CBOT editor"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Structure of a CBOT program"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Here is the source code you should see after opening the editor:"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "It probably does not make much sense to you, so we will explain each element."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "Name"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "This part is hard to explain at this point, so just assume this just must be there."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "This is a <code><format token>keyword</format></code> that indicates the <a cbot|extern>main function</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "This is a <a cbot|type>type</a> of function. Imagine a function called <code>Add</code>, which is similar to the arithmetic <code>+</code> symbol, then the result of <code>Add(2, 2)</code> is <code>4</code> (<code>2+2</code>). We say that the <code>Add</code> function <code>returns</code> a number. The main function returns nothing, <code><format type>void</format></code>."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "Parentheses"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "Instructions"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "An <token/><a cbot>instruction</a><norm/> is a command, a description or a part of a structure in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction, which consists of another set of instructions. Let's see an example."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid "Moving a robot"
+msgstr ""
+
+#. type: Source code
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid "<c/>move(5);<n/>"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "Blocks"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:71
+#, no-wrap
+msgid "Program immediately ends after all instructions are done, when it reaches the end of the body (block) of the main function (<code>}</code>)."
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:73
+#, no-wrap
+msgid "Task"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:76
+#, no-wrap
+msgid "Tip"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:80
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "For example, if you want your robot to move 3 meters forward, you can write a program like this one:"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:74
+#, no-wrap
+msgid "Write and run a program that commands the bot to move 15 meters forward."
+msgstr ""
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid ""
+"extern void object::MyFirstProgram()\n"
+"{\n"
+"\t\n"
+"\t\n"
+"\t\n"
+"}"
+msgstr ""
+
+#. type: Source code
+#: ../help/help.E.txt:64
+#, no-wrap
+msgid ""
+"extern void object::Example()\n"
+"{\n"
+"\t\n"
+"\tmove(3);\n"
+"\t\n"
+"}"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "<token/><code>extern</code><norm/>"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "<type/><code>void</code><norm/>"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "Programmers like to use <code>Integrated Development Environments</code>, which are most often an advanced text editor and a compiler integrated with each other, probably created specifically to work with one or more specific languages. You could call the <code>CBOT editor</code> an IDE. At first look it may look like a fancy text editor. It has options like \"New\" <button 56/>, \"Open\" <button 57/>, \"Save\" <button 58/>, \"Undo\" <button 59/>, you can type in it, and so on. But it has also a special button, which executes the CBOT compiler."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "Whitespaces"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<type/><code>object</code><norm/>::"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "They indicates that the given name is a function. They have also another role, which you will read about in the next paragraphs."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid "One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say \"move 5 meters forward\". The number of meters here is a <code>parameter</code> of the function <code><a cbot|move>move</a></code>. You can give such commands to a robot using CBOT:"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:54
+#, no-wrap
+msgid "The above code means exactly \"move 5 meters forward\". Parameters of a function are always passed between parentheses."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "Notice the semicolon (<c/>;<n/>) at the end of the line. It explicitly says that this is the end of a <a cbot|term>statement</a>, one step of the algorithm. \"Why is it, can't CBOT know the end of a statement based on the end of the line?\", you might ask. Technically, we could make it that way and some languages are built that way, but very often compilers ignore all whitespaces (invisible characters, like a space, tabulator or new line) on purpose. Arguably, it makes programs more readable and easier to write. You may have a different opinion about it, but that's how it works in many languages, including CBOT. Anyway, because of ignoring all whitespaces, these languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++ for example), it is done by using semicolons and curly braces."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid ""
+"Let's start from the middle. <code>MyFirstProgram</code> is the name of the program, but also the name of the main function. You will learn more about <a cbot|function>functions</a> later, for now you just need to know that the main function will be executed after you run your program. You can change the name to anything you want if you strict to these rules:\n"
+"1. Use only letters from the English alphabet.\n"
+"2. Do not start with a number.\n"
+"3. Do not use any other characters except underscore (<code>_</code>)."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:60
+#, no-wrap
+msgid "You must put your instructions in the body of the main function. The body of a function is between <code>{</code> and <code>}</code>. The content between curly braces we can call also more generally a <a cbot|bloc>block</a>. The body of the function should be put immediately after the declaration, which we have already seen and analyzed (the first line)."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:77
+#, no-wrap
+msgid "If your program did not work, you can always quickly reset everything to the initial state by clicking on <button 9/> while a bot is selected."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Select the <a object|botgr>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 87/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+msgstr ""
+
+#~ msgid "Select the <a object|botgj>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 87/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid "Select the <a object|botgc>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 87/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid "Select the <a botgc>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 87/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Let's start from the middle. <code>MyFirstProgram</code> is the name of the program, but also the name of the main function. You will learn more about <a cbot|function>functions</a> later, for now you just need to know that the main function will be executed after you run your program. You can change the name to anything you want if you strict to these rules:\n"
+#~ "1. Use letters from the English alphabet.\n"
+#~ "2. Do not start with a number.\n"
+#~ "3. Do not use any other characters except underscore (<code>_</code>)."
+#~ msgstr ""
+
+#~ msgid "You must put your instructions in the body of the main function. The body of a function is between <code>{</code> and <code>}</code>. The content between curly braces we can call also more generally a <a cbot|block>block</a>. The body of the function should be put immediately after the declaration, which we have already seen and analyzed (the first line)."
+#~ msgstr ""
+
+#~ msgid "If your program did not work, you can always quickly reset everything to the initial state by clicking on <button 10/> while a bot is selected."
+#~ msgstr ""
+
+#~ msgid "They indicates that the given name is a function. They have also another role, which you will read about in next paragraphs."
+#~ msgstr ""
+
+#~ msgid "One of the available instructions tells the bot to move forward or backward a specified number of steps. To a person we would say \"move 5 meters forward\". The number of meters here is a <code>parameter</code> of the function <code><a cbot|move>move</a></code>. You can give such commands to a robot using CBOT:"
+#~ msgstr ""
+
+#~ msgid "The above code means exactly \"move 5 meters forward\"."
+#~ msgstr ""
+
+#~ msgid "Notice the semicolon (<c/>;<n/>) at the end of the line. It explicitly says that this is the end of a statement, one step of the algorithm. \"Why is it, can't CBOT know the end of a statement based on the end of the line?\", you might ask. Technically, we could make it that way and some languages are built that way, but very often compilers ignore all whitespaces (invisible characters, like a space, tabulator or new line) on purpose. Arguably, it makes programs more readable and easier to write. You may have a different opinion about it, but that's how it works in many languages, including CBOT. Anyway, because of ignoring all whitespaces, these languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++ for example), it is done by using semicolons and curly braces."
+#~ msgstr ""
+
+#~ msgid "<type/><code>object::</code><norm/>"
+#~ msgstr ""
+
+#~ msgid "Programmers like to use <code>Integrated Development Environments</code>, which are most often an advanced text editor and a compiler integrated with each other, probably created specifically to work with one or more specific languages. You could call the <code>CBOT editor</code> an IDE. At first look it may look like a fancy text editor. It has options like \"New\", \"Open\", \"Save\", you can type in it, and so on. But it has also a special button, which executes the CBOT compiler."
+#~ msgstr ""
+
+#~ msgid "<code>object::</code>"
+#~ msgstr ""
+
+#~ msgid "<code>extern</code>"
+#~ msgstr ""
+
+#~ msgid "<code>void</code>"
+#~ msgstr ""
+
+#~ msgid "If your program did not work, you can always reset everything to the state before you run it by clicking on the button."
+#~ msgstr ""
+
+#~ msgid "Select the <a botgc>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 94/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid "Select the <a botgc>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 90/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid "Select the <a botgc>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 101/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+#~ msgstr ""
+
+#~ msgid "Programmers likes to use <code>Integrated Development Environments</code>, which are most often an advanced text editor and a compiler integrated with each other, probably created specifically to work with one or more specific languages. You could call the <code>CBOT editor</code> an IDE. At first look it may look like a fancy text editor. It has options like \"New\", \"Open\", \"Save\", you can type in it, and so on. But it has also a special button, which executes the CBOT compiler."
+#~ msgstr ""
+
+#~ msgid "Select the <a botgc>wheeled grabber</a> standing on the platform ahead of you. Click the plus button to create a new program, select the program from the list and then click on the (image) button to open it in the editor. You should see a simple program, which does nothing. Click on the (image) button to compile it. You can play around a little with all the buttons. After you are done, open your SatCom again and read on."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "extern void object::MyFirstProgram()\n"
+#~ "{\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "extern void object::Example()\n"
+#~ "{\n"
+#~ "\n"
+#~ "\tmove(3);\n"
+#~ "\n"
+#~ "}"
+#~ msgstr ""
+
+#~ msgid "For example, if you want your robot to move 1 meter forward, you can write a program like this one:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "extern void object::Example()\n"
+#~ "{\n"
+#~ "\n"
+#~ "\tmove(1);\n"
+#~ "\n"
+#~ "}"
+#~ msgstr ""
+
+#~ msgid "Write and run a program that commands the bot to move 5 meters forward."
+#~ msgstr ""
+
+#~ msgid "Introductory exercise"
+#~ msgstr ""
+
+#~ msgid "This is your first exercise, where you will learn how to program bots available for your disposition during the future missions. We created a programming language specifically for our bots, namely <code>CBOT</code>. If you already know some other popular languages like Java or C++, you will soon find out that CBOT is similar to them in many ways."
+#~ msgstr ""
+
+#~ msgid "Your <code>SatCom communicator</code> always provides you with useful informations about your current situation. You are reading the main page right now. It is changing between missions (including also exercises), so it should be your habit to always read it before taking any significant action."
+#~ msgstr ""
+
+#~ msgid "Brief"
+#~ msgstr ""
+
+#~ msgid "Your job"
+#~ msgstr ""
+
+#~ msgid "If you feel confident, you can try to open the source code in the editor and analyse it or even modify it and write your own. We will learn all these and more in the next exercise."
+#~ msgstr ""
+
+#~ msgid "<a command>Controls</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+#~ msgstr ""
+
+#~ msgid "In theory, you can solve most problems by controlling robots by yourself, but programming is a much better way of doing things if you know how to use this tool properly. We used here the word \"tool\", because that is what programming really is - a hammer to build a house, a knife to cut the food, and so on. It exists because it makes our lifes easier and, sometimes, makes some tasks even possible or just gives us faster and better solutions. For example, a human can add two to two, but computer can add 123456789 to 6473892123 with ease."
+#~ msgstr ""
+
+#~ msgid "There are a lot of programming languages. It is often a hard task to find the one that will get the job done with least time, affort and best possible result. You do not write webpages in C++ like you do not use a hammer to cut a bread. We wanted to have a language similar to the ones that most programmers already know and at the same time as simple as possible, in order to let our employees working in the field write working and useful programs in no time. With CBOT you can focus on logic (what needs to be done) instead of a lot of technical stuff, like moving a part of the robot arm. We call CBOT a <code>high-level</code> programming language, like C++ and Java for example, because it is (in most cases) not controlling directly physical parts of the robot. For that, there are other programming languages, for example Assembler, but we will not bother with anything except CBOT in these exercises."
+#~ msgstr ""
+
+#~ msgid "<button 63/>"
+#~ msgstr ""
+
+#~ msgid "You have probably already noticed that you are being attacked by two <a object|ant>aliens</a>. Do not panic. They are not real and will not hurt you unless you accidentaly come too close to their range of fire. Currently, they should be focused on the bot. It is a <a object|botfr>wheeled shooter</a>, a robot built in order to defend human beings against any harmful threat, especially aliens. Bots can be controlled in two ways: by a program or by remote control. The latter is not possible during exercises, so do not even try. It will, however, be available to you during missions."
+#~ msgstr ""
+
+#~ msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book <button 188/> button or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top <button 185/> button or return to previously visited page by clicking on the left arrow <button 55/> buttton. You can learn more about navigating in SatCom <a navig>here</a>."
+#~ msgstr ""
+
+#~ msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot <button 143/> and choose the \"Solution\" program from the list. Then, click on the orange arrow <button 21/> button in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just the beginning! We will do a lot of interesting stuff in the next exercises."
+#~ msgstr ""
+
+#~ msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot <button 143/> and choose the \"Solution\" program from the list. Then, click on the orange arrow <button 21/> button in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just a beginning! We will do a lot of interesting stuff in the next exercises."
+#~ msgstr ""
+
+#~ msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot and choose the \"Solution\" program from the list. Then, click on the orange arrow <button 21/> button in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just a beginning! We will do a lot of interesting stuff in the next exercises."
+#~ msgstr ""
+
+#~ msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book <button 189/> button or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top <button 185/> button or return to previously visited page by clicking on the left arrow <button 55/> buttton. You can learn more about navigating in SatCom <a navig>here</a>."
+#~ msgstr ""
+
+#~ msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot and choose the \"Solution\" program from the list. Then, click on the orange arrow <button 21/> icon in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just a beginning! We will do a lot of interesting stuff in the next exercises."
+#~ msgstr ""
+
+#~ msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book icon <button 185/> or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top icon <button 182/> or return to previously visited page by clicking on the left arrow <button 55/> icon. You can learn more about navigating in SatCom <a navig>here</a>."
+#~ msgstr ""
+
+#~ msgid "You have probably already noticed that you are being attacked by two <a object|ant>aliens</a> \\image ant 1 1;. Do not panic. They are not real and will not hurt you unless you accidentaly come too close to their range of fire. Currently, they should be focused on the bot. It is <a object|botfr>wheeled shooter</a> \\image botfr 1 1;, a robot built in order to defend human beings against any harmful threat, especially aliens. Bots can be controlled in two ways: by a program or by remote control. The latter is not possible during exercises, so do not even try. It will, however, be available to you during missions."
+#~ msgstr ""
+
+#~ msgid "You have probably already noticed that you are being attacked by two <a object|ant>aliens</a>. Do not panic. They are not real and will not hurt you unless you accidentaly come too close to their range of fire. Currently, they should be focused on the bot. It is <a object|botfr>wheeled shooter</a>, a robot built in order to defend human beings against any harmful threat, especially aliens. Bots can be controlled in two ways: by a program or by remote control. The latter is not possible during exercises, so do not even try. It will, however, be available to you during missions."
+#~ msgstr ""
+
+#~ msgid "SatCom <button 63/>"
+#~ msgstr ""
+
+#~ msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book icon <button 187/> or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top icon <button 184/> or return to previously visited page by clicking on the left arrow <button 55/> icon. You can learn more about navigating in SatCom <a navig>here</a>."
+#~ msgstr ""
+
+#~ msgid "SatCom"
+#~ msgstr ""
+
+#~ msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book icon or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top icon or return to previously visited page by clicking on the left arrow icon. You can learn more about navigating in SatCom <a navig>here</a>."
+#~ msgstr ""
+
+#~ msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot and choose the \"Solution\" program from the list. Then, click on the orange arrow icon in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just a beginning! We will do a lot of interesting stuff in the next exercises."
+#~ msgstr ""
+
+#~ msgid "In theory, you can solve most problems by controlling robots by yourself, but programming is a much better way of doing things if you know how to use this tool properly. We used here the word \"tool\", because that is what programming really is - a hammer to build a house, a knife to cut the food, and so on. It exists because it makes our lives easier and, sometimes, makes some tasks even possible or just gives us faster and better solutions. For example, a human can add two to two, but computer can add 123456789 to 6473892123 with ease."
+#~ msgstr ""
+
+#~ msgid "There are a lot of programming languages. It is often a hard task to find the one that will get the job done with least time, affort and best possible result. You do not write webpages in C++ like you do not use a hammer to cut a bread. We wanted to have a language similar to the ones that most programmers already know and at the same time as simple as possible, in order to let our employees working \"in the field\" write working and useful programs in no time. With CBOT you can focus on logic (what needs to be done) instead of a lot of technical stuff, like moving a part of the robot arm. We call CBOT a <code>high-level</code> programming language, like C++ and Java for example, because it is (in most cases) not controlling directly physical parts of the robot. For that, there are other programming languages, for example Assembler, but we will not bother with anything except CBOT in these exercises."
+#~ msgstr ""
+
+#~ msgid "Spiders 1"
+#~ msgstr "Spinnen 1"
+
+#~ msgid "Kill three spiders with a small program."
+#~ msgstr "Töten Sie drei Spinnen mit einem kleinen Programm."
+
+#~ msgid "Spider1"
+#~ msgstr "Spinne1"
+
+#~ msgid "Objective"
+#~ msgstr "Ziel"
+
+#~ msgid "Write a small program to kill three spiders."
+#~ msgstr "Schreiben Sie ein kleines Programm zur Eliminierung von 3 Spinnen."
+
+#~ msgid "Procedure"
+#~ msgstr "Das Vorgehen"
+
+#~ msgid "In order to program the bot, select it."
+#~ msgstr "Selektieren Sie den Roboter, um ihn zu programmieren."
+
+#~ msgid "The numbers 1 to 4 corresponding to the programs contained in the bot appear on the lower left-hand corner of your screen. Select the first line."
+#~ msgstr "Die Zahlen 1 bis 4, die den Programmen entsprechen, welche der Roboter besitzt, erscheinen in der unteren linken Ecke Ihres Bildschirms. Klicken Sie auf die erste Zeile."
+
+#~ msgid "Click the button with the braces <button 22/>, and you will arrive in an editor where you can write the program."
+#~ msgstr "Klicken Sie auf die Schaltfläche mit den geschweiften Klammern <button 22/>, um zum Editor zu gelangen, wo Sie dann das Programm schreiben können."
+
+#~ msgid "While you are writing the program, the key <format key><key help/></format> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
+#~ msgstr "Während Sie programmieren, können Sie sich mit der Taste <format key><key help/></format> den Text ansehen, den Sie gerade lesen. Haben Sie das Programm fertiggestellt, klicken Sie auf die Schaltfläche \"OK\"."
+
+#~ msgid "In order to execute the program, click the arrow button <button 21/>."
+#~ msgstr "Um das Programm auszuführen, klicken Sie auf die Schaltfläche <button 21/>."
+
+#~ msgid "Program"
+#~ msgstr "Programm"
+
+#~ msgid "You must tell the bot exactly step by step what it must do in order to kill the three spiders. The bot understands only precise instructions, which it will execute one after another."
+#~ msgstr "Sie müssen dem Roboter exakt und Schritt für Schritt mitteilen, was er tun muss, um die drei Spinnen zu töten. Der Roboter versteht nur klare und korrekt formulierte Anweisungen, welche er nacheinander ausführt."
+
+#~ msgid "When you click the braces button <button 22/> in order to write the program, a part of the program will already be there:"
+#~ msgstr "Nachdem Sie auf die Schaltfläche <button 22/> geklickt haben, ist ein Teil des Programms schon vorhanden:"
+
+#~ msgid ""
+#~ "extern void object::Spider1( )\n"
+#~ "{\n"
+#~ "\t\n"
+#~ "\t<n/>write your program here ...<c/>\n"
+#~ "\t\n"
+#~ "}"
+#~ msgstr ""
+#~ "extern void object::Spinne1( )\n"
+#~ "{\n"
+#~ "\t\n"
+#~ "\t<n/>Geben Sie Ihr Programm hier ein ...<c/>\n"
+#~ "\t\n"
+#~ "}"
+
+#~ msgid "Everything that is already written when you arrive in the editor must not be altered. Just introduce the necessary instructions at the cursor."
+#~ msgstr "Alles das, was schon geschrieben steht, wenn Sie den Editor öffnen, dürfen Sie nicht verändern. Fügen Sie notwendige Anweisungen an der Cursorposition ein."
+
+#~ msgid "You will need the following instructions:"
+#~ msgstr "Folgende Anweisungen werden Sie benötigen:"
+
+#~ msgid "aim(0);<n/>"
+#~ msgstr "aim(0);<n/>"
+
+#~ msgid "<n/>Puts the cannon straight."
+#~ msgstr "<n/>Geradeaus zielen."
+
+#~ msgid "turn();<n/>"
+#~ msgstr "turn();<n/>"
+
+#~ msgid "<n/>Executes a rotation of a certain angle, given in brackets in degrees. For example <c/>turn(90);<n/> will turn the bot 90 degrees to the left, i.e. a quarter turn to the left. <c/>turn(-90);<n/> will turn the bot 90 degrees to the right (quarter turn right). Positive values turn left, negative values turn right. <c/>turn(180);<n/> will make the bot face in the opposite direction."
+#~ msgstr "<n/>Führt eine Drehung um einen bestimmten Winkel aus, der in Klammern und in Grad angegeben wird. <c/>turn(90);<n/> bewirkt zum Beispiel eine Drehung um 90 Grad nach links. Das entspricht einer Vierteldrehung. <c/>turn(-90);<n/> bewirkt eine Drehung um 90 Grad nach rechts. Positive Werte drehen nach links, negative nach rechts. <c/>turn(180);<n/> lässt den Roboter wenden."
+
+#~ msgid "fire(1);"
+#~ msgstr "fire(1);"
+
+#~ msgid "<n/>Shoots the cannon. The number in brackets indicates the duration of the burst. In most cases, shoot a burst of 1 second."
+#~ msgstr "<n/>Feuert die Kanone ab. Die Zahl in Klammern gibt die Dauer des Schusses in Sekunden an. In den meisten Fällen ist 1 Sekunde die richtige Wahl."
+
+#~ msgid "Let us see the beginning of the program:"
+#~ msgstr "Sehen wir uns den Anfang des Programmes an:"
+
+#~ msgid "put the cannon straight with <c/>aim(0);<n/>"
+#~ msgstr "Zielen Sie geradeaus mittels <c/>aim(0);<n/>"
+
+#~ msgid "shoot the spider straight ahead with <c/>fire(1);<n/>"
+#~ msgstr "Erschießen Sie die Spinne vor dem Roboter mittels <c/>fire(1);<n/>"
+
+#~ msgid "turn 90 degrees left with <code>turn(90)</code>"
+#~ msgstr "Drehen Sie den Roboter mittels <code>turn(90)</code> um 90 Grad nach links"
+
+#~ msgid "shoot with <c/>fire(1);<n/>"
+#~ msgstr "Feuern mittels <c/>fire(1);<n/>"
+
+#~ msgid "etc."
+#~ msgstr "usw."
+
+#~ msgid "Here is the program that does all this :"
+#~ msgstr "Hier ist ein Programm, das all diese Schritte durchführt:"
+
+#~ msgid ""
+#~ "extern void object::Spider1( )\n"
+#~ "{\n"
+#~ "\t\n"
+#~ "\taim(0);\n"
+#~ "\tfire(1);\n"
+#~ "\tturn(90);\n"
+#~ "\tfire(1);\n"
+#~ "\t\n"
+#~ "}"
+#~ msgstr ""
+#~ "extern void object::Spinne1( )\n"
+#~ "{\n"
+#~ "\t\n"
+#~ "\taim(0);\n"
+#~ "\tfire(1);\n"
+#~ "\tturn(90);\n"
+#~ "\tfire(1);\n"
+#~ "\t\n"
+#~ "}"
+
+#~ msgid "It is up to you now to write the rest of the program!"
+#~ msgstr "Es ist nun Ihre Aufgabe, den Rest des Programms zu schreiben!"
+
+#~ msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
+#~ msgstr "Wenn Sie ein Problem haben und nicht weiterkommen, können Sie jederzeit einen Blick in die Lösung werfen: Wählen Sie das Programm <code>Lösung</code> in der linken unteren Ecke des Bildschirms aus und klicken Sie auf die Schaltfläche <button 22/>. Sie können das Lösungsprogramm auch durch Betätigen der Pfeilschaltfläche <button 21/> ausführen."
+
+#~ msgid "Remarks"
+#~ msgstr "Hinweise"
+
+#~ msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
+#~ msgstr "Achten Sie darauf, die Anweisungen korrekt zu schreiben. Nehmen Sie auf Groß- und Kleinschreibung Rücksicht."
+
+#~ msgid "Always write one instruction per line, finishing each line with a semicolon."
+#~ msgstr "Schreiben Sie immer nur eine Anweisung pro Zeile und schließen Sie jede Zeile mit einem Strichpunkt ab."
+
+#~ msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
+#~ msgstr "Tut Ihr Programm nicht das, was Sie erreichen wollten, können Sie den Roboter an seine Startposition zurückbefördern, indem Sie die Schaltfläche <button 59/> betätigen. Sie können auch ganz von vorn beginnen (\"Esc\" drücken, dann auf \"Neu Starten\" klicken). Das Programm, das Sie geschrieben haben geht dabei nicht verloren."
+
+#~ msgid "<format key><key help/></format> allows you to review these instructions at all times."
+#~ msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen jederzeit einsehen."
