@@ -99,6 +99,8 @@ class TemplateFile:
     """
     def merge_and_save(self):
         self.previous_catalog.merge(self.current_catalog)
+        for x in self.previous_catalog.obsolete_entries():
+            self.previous_catalog.remove(x)
         self.previous_catalog.save(self.file_name, newline='\n')
 
 """
@@ -135,6 +137,8 @@ class LanguageFile:
     """
     def merge_and_save(self, template_file):
         self.catalog.merge(template_file.current_catalog)
+        for x in self.catalog.obsolete_entries():
+            self.catalog.remove(x)
         self.catalog.save(self.file_name, newline='\n')
 
 """
