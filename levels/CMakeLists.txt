@@ -24,6 +24,11 @@ function(add_level_category level_category_dir)
         add_level(${level_dir})
     endforeach()
 
+    # Install all other category files
+    install(DIRECTORY ${level_category_dir}/ DESTINATION ${LEVEL_INSTALL_DATA_DIR}/${level_category_dir}
+            PATTERN "chapter*" EXCLUDE
+            PATTERN "po" EXCLUDE)
+
     # Install all other chapter files
     file(GLOB chapter_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${level_category_dir}/chapter*)
     foreach(chapter_dir ${chapter_dirs})
