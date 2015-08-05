@@ -8,30 +8,12 @@ HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
 
 Audio filename="music004.ogg"
-AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
-FogColor air=0.706;0.871;1.000;0.000 water=0.039;0.078;0.392;0.000 // grey
-VehicleColor color=0.686;0.820;0.843;0.000 // bleu-sable
-DeepView air=100.00 water=25.00
-FogStart air=0.1 water=0.1
-SecondTexture rank=3
-Background up=0.298;0.412;0.886;0.000 down=0.753;0.980;1.000;
-ForegroundName image="lens5.png"
-Planet pos=0.00;0.70 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=1.00;0.60 dim=0.02 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=1.20;0.40 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=2.00;0.40 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=2.50;0.50 dim=0.04 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=3.00;0.30 dim=0.04 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=3.85;0.30 dim=0.06 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=4.00;0.70 dim=0.02 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=4.10;0.50 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
-Planet pos=5.30;0.30 dim=0.08 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
 
-TerrainGenerate vision=400.00 depth=1 hard=0.7
+#Include file="%chap%/planet.txt"
 TerrainRelief image="relief19.png" factor=1.0
 TerrainResource image="res03.png"
 TerrainWater image="lava04.png" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0.000;0.502;1.000;
-TerrainInitTextures image="terra" dx=1 dy=1 table=2
+#Include file="%chap%/terrain.txt"
 TerrainCreate
 
 GroundSpot color=0.000;0.000;1.000 min=-10 max=31.25 smooth=10

@@ -8,21 +8,12 @@ HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
 
 Audio filename="music004.ogg"
-AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
-FogColor air=0.706;0.871;1.000;0.000 water=0.039;0.078;0.392;0.000 // grey
-VehicleColor color=0.686;0.820;0.843;0.000 // bleu-sable
-DeepView air=100.00 water=25.00
-FogStart air=0.1 water=0.1
-SecondTexture rank=3
-Background up=0.706;0.871;1.000;0.000 down=0.706;0.871;1.000;
-ForegroundName image="lens5.png"
 
-TerrainGenerate vision=400.00 depth=1 hard=0.7
-TerrainWind speed=0.0;0.1
+#Include file="%chap%/planet.txt"
 TerrainRelief image="relief20.png" factor=1.0
 TerrainResource image="resae.png"
 //TerrainWater image="lava04.png" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0;128;255;0
-TerrainInitTextures image="terra" dx=1 dy=1 table=2
+#Include file="%chap%/terrain.txt"
 TerrainCreate
 
 //GroundSpot color=000;000;255 min=-10 max=31.25 smooth=10
