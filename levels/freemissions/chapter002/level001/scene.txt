@@ -4,21 +4,10 @@ Instructions name="freehelp.txt"
 HelpFile name="cbot.txt"
 EndingFile win=-1 lost=-1
 
- 
-AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
-FogColor air=0.000;0.000;0.000;0.000 water=0.263;0.314;0.392;0.000 // magenta
-VehicleColor color=0.576;0.643;0.741;
-DeepView air=125.00 water=25.00
-FogStart air=0.8 water=0.5
-SecondTexture rank=1
-Background image="back46.png" up=0.000;0.000;0.000;0.000 down=0.000;0.000;0.000;
-ForegroundName image="lens1.png"
-Planet pos=0.0;0.7 dim=0.5 speed=0.002 dir=0.3 image="planet01.png" uv1=0.0;0.0 uv2=0.5;0.5
-
-TerrainGenerate vision=250.00 depth=1 hard=0.3
+#Include file="levels/missions/chapter002/planet.txt"
 TerrainRelief image="relief03.png" factor=1.0
 TerrainResource image="res06.png"
-TerrainInitTextures image="moon" dx=1 dy=1 table=103
+#Include file="levels/missions/chapter002/terrain.txt"
 TerrainCreate
 
 MaxFlyingHeight max=47.5

@@ -8,22 +8,11 @@ HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
 
 Audio filename="Quite.ogg"
-AmbientColor air=0.533;0.533;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
-FogColor air=0.996;0.961;0.573;0.000 water=0.263;0.314;0.392;0.000 // yellow
-VehicleColor color=0.620;0.561;0.267;0.000 // sable
-DeepView air=125.00 water=25.00
-FogStart air=0.1 water=0.5
-SecondTexture rank=6
-Background image="back33.png" up=0.996;0.961;0.573;0.000 down=0.996;0.961;0.573;0.000 cloudUp=0.996;0.961;0.573;0.000 cloudDown=0.996;0.961;0.573;
-ForegroundName image="lens4.png"
-Planet pos=4.8;0.2 dim=2.0 image="effect01.png" uv1=0.00;0.25 uv2=0.25;0.50
 
-TerrainGenerate vision=250.00 depth=1 hard=0.3
-TerrainWind speed=0.0;-8.0
+#Include file="%chap%/planet.txt"
 TerrainRelief image="relief09.png" factor=1.0
 TerrainResource image="resae.png"
-TerrainCloud image="cloud04.png" level=80.0
-TerrainInitTextures image="mars" dx=1 dy=1 table=103
+#Include file="%chap%/terrain.txt"
 TerrainCreate
 
 BeginObject

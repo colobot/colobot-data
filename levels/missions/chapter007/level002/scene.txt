@@ -8,41 +8,11 @@ HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
 
 Audio filename="music007.ogg"
-AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
-FogColor air=0.690;0.690;0.710;0.000 water=0.039;0.392;0.078;0.000 // grey
-VehicleColor color=0.459;0.620;0.251;0.000 // vert
-DeepView air=125.00 water=25.00
-FogStart air=0.5 water=0.1
-SecondTexture rank=8
-Background up=0.690;0.690;0.710;0.000 down=0.690;0.690;0.710;0.000 cloudUp=0.000;0.000;0.000;0.000 cloudDown=0.408;0.408;0.408;
-ForegroundName image="lens5.png"
 
-TerrainGenerate vision=400.00 depth=1 hard=0.7
-TerrainWind speed=-2.0;0.0
+#Include file="%chap%/planet.txt"
 TerrainRelief image="relief29.png" factor=1.0
 TerrainResource image="res00.png"
-TerrainCloud image="cloud03.png" level=125.0
-
-TerrainMaterial id=1 image="mix01" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=2 image="mix01" u=0.25 v=0.00 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=3 image="mix01" u=0.50 v=0.00 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=4 image="mix01" u=0.75 v=0.00 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=5 image="mix01" u=0.00 v=0.25 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=6 image="mix01" u=0.25 v=0.25 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=7 image="mix01" u=0.50 v=0.25 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=8 image="mix01" u=0.75 v=0.25 up=1 down=1 left=1 right=1 hard=0.6
-TerrainMaterial id=9 image="mix01" u=0.00 v=0.50 up=1 down=1 left=1 right=1 hard=0.6
-
-TerrainInit id=1
-TerrainLevel id=2 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=3 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=4 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=5 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=6 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=7 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=8 min=0.0 max=900.0 slope=0.0 freq= 20.0
-TerrainLevel id=9 min=0.0 max=900.0 slope=0.0 freq= 20.0
-
+#Include file="%chap%/terrain.txt"
 TerrainCreate
 
 BeginObject

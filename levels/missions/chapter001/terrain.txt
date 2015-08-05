@@ -1,0 +1,197 @@
+TerrainMaterial id=1 image="desert6" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
+TerrainMaterial image="desert6" u=0.25 v=0.00 up=2 down=1 left=1 right=1 hard=0.3
+TerrainMaterial image="desert6" u=0.50 v=0.00 up=1 down=1 left=1 right=2 hard=0.3
+TerrainMaterial image="desert6" u=0.75 v=0.00 up=2 down=1 left=1 right=2 hard=0.3
+TerrainMaterial image="desert6" u=0.00 v=0.25 up=1 down=2 left=1 right=1 hard=0.3
+TerrainMaterial id=3 image="desert6" u=0.25 v=0.25 up=1 down=1 left=1 right=1 hard=0.8
+TerrainMaterial image="desert6" u=0.50 v=0.25 up=1 down=2 left=1 right=2 hard=0.3
+TerrainMaterial image="desert6" u=0.75 v=0.25 up=2 down=2 left=1 right=2 hard=0.3
+TerrainMaterial image="desert6" u=0.00 v=0.50 up=1 down=1 left=2 right=1 hard=0.3
+TerrainMaterial image="desert6" u=0.25 v=0.50 up=2 down=1 left=2 right=1 hard=0.3
+TerrainMaterial id=4 image="desert6" u=0.50 v=0.50 up=1 down=1 left=1 right=1 hard=0.8
+TerrainMaterial image="desert6" u=0.75 v=0.50 up=2 down=1 left=2 right=2 hard=0.3
+TerrainMaterial image="desert6" u=0.00 v=0.75 up=1 down=2 left=2 right=1 hard=0.3
+TerrainMaterial image="desert6" u=0.25 v=0.75 up=2 down=2 left=2 right=1 hard=0.3
+TerrainMaterial id=5 image="desert6" u=0.50 v=0.75 up=1 down=1 left=1 right=1 hard=0.8
+TerrainMaterial id=2 image="desert6" u=0.75 v=0.75 up=2 down=2 left=2 right=2 hard=0.6
+
+TerrainInit id=1 // sand
+TerrainLevel id=2 min=0.0 max=900.0 slope=2.0 freq=100.0 // roc
+TerrainLevel id=1 center=-50;40 radius=20
+
+TerrainLevel id=4 center= -40;-350 radius=1 // road
+TerrainLevel id=4 center= -40;-340 radius=1 // road
+TerrainLevel id=4 center= -40;-330 radius=1 // road
+TerrainLevel id=4 center= -40;-320 radius=1 // road
+TerrainLevel id=4 center= -40;-310 radius=1 // road
+TerrainLevel id=4 center= -40;-300 radius=1 // road
+TerrainLevel id=4 center= -40;-290 radius=1 // road
+TerrainLevel id=4 center= -40;-280 radius=1 // road
+TerrainLevel id=4 center= -40;-270 radius=1 // road
+TerrainLevel id=4 center= -40;-260 radius=1 // road
+TerrainLevel id=4 center= -40;-250 radius=1 // road
+TerrainLevel id=4 center= -40;-240 radius=1 // road
+TerrainLevel id=4 center= -40;-230 radius=1 // road
+TerrainLevel id=4 center= -40;-220 radius=1 // road
+TerrainLevel id=4 center= -40;-210 radius=1 // road
+TerrainLevel id=4 center= -40;-200 radius=1 // road
+TerrainLevel id=4 center= -40;-190 radius=1 // road
+TerrainLevel id=4 center= -40;-180 radius=1 // road
+TerrainLevel id=4 center= -40;-170 radius=1 // road
+TerrainLevel id=4 center= -40;-160 radius=1 // road
+TerrainLevel id=4 center= -40;-150 radius=1 // road
+TerrainLevel id=4 center= -40;-140 radius=1 // road
+TerrainLevel id=4 center= -40;-130 radius=1 // road
+TerrainLevel id=4 center= -40;-120 radius=1 // road
+TerrainLevel id=4 center= -40;-110 radius=1 // road
+TerrainLevel id=4 center= -40;-100 radius=1 // road
+TerrainLevel id=4 center= -40; -90 radius=1 // road
+TerrainLevel id=4 center= -40; -80 radius=1 // road
+TerrainLevel id=4 center= -40; -70 radius=1 // road
+TerrainLevel id=4 center= -40; -60 radius=1 // road
+TerrainLevel id=5 center= -40; -50 radius=1 // road
+TerrainLevel id=4 center= -40; -40 radius=1 // road
+TerrainLevel id=4 center= -40; -30 radius=1 // road
+TerrainLevel id=4 center= -40; -20 radius=1 // road
+TerrainLevel id=4 center= -40; -10 radius=1 // road
+TerrainLevel id=4 center= -40; 0 radius=1 // road
+TerrainLevel id=4 center= -40; 10 radius=1 // road
+TerrainLevel id=4 center= -40; 20 radius=1 // road
+TerrainLevel id=4 center= -40; 30 radius=1 // road
+TerrainLevel id=5 center= -40; 40 radius=1 // road
+TerrainLevel id=4 center= -40; 50 radius=1 // road
+TerrainLevel id=4 center= -40; 60 radius=1 // road
+TerrainLevel id=4 center= -40; 70 radius=1 // road
+TerrainLevel id=4 center= -40; 80 radius=1 // road
+TerrainLevel id=4 center= -40; 90 radius=1 // road
+TerrainLevel id=4 center= -40; 100 radius=1 // road
+TerrainLevel id=4 center= -40; 110 radius=1 // road
+TerrainLevel id=4 center= -40; 120 radius=1 // road
+TerrainLevel id=4 center= -40; 130 radius=1 // road
+TerrainLevel id=4 center= -40; 140 radius=1 // road
+TerrainLevel id=4 center= -40; 150 radius=1 // road
+TerrainLevel id=4 center= -40; 160 radius=1 // road
+TerrainLevel id=4 center= -40; 170 radius=1 // road
+TerrainLevel id=4 center= -40; 180 radius=1 // road
+TerrainLevel id=4 center= -40; 190 radius=1 // road
+TerrainLevel id=4 center= -40; 200 radius=1 // road
+TerrainLevel id=4 center= -40; 210 radius=1 // road
+TerrainLevel id=4 center= -40; 220 radius=1 // road
+TerrainLevel id=4 center= -40; 230 radius=1 // road
+TerrainLevel id=4 center= -40; 240 radius=1 // road
+TerrainLevel id=4 center= -40; 250 radius=1 // road
+TerrainLevel id=4 center= -40; 260 radius=1 // road
+TerrainLevel id=4 center= -40; 270 radius=1 // road
+TerrainLevel id=4 center= -40; 280 radius=1 // road
+TerrainLevel id=4 center= -40; 290 radius=1 // road
+TerrainLevel id=4 center= -40; 300 radius=1 // road
+TerrainLevel id=4 center= -40; 310 radius=1 // road
+TerrainLevel id=4 center= -40; 320 radius=1 // road
+TerrainLevel id=4 center= -40; 330 radius=1 // road
+TerrainLevel id=4 center= -40; 340 radius=1 // road
+TerrainLevel id=4 center= -40; 350 radius=1 // road
+
+TerrainLevel id=3 center=-350; 40 radius=1 // road
+TerrainLevel id=3 center=-340; 40 radius=1 // road
+TerrainLevel id=3 center=-330; 40 radius=1 // road
+TerrainLevel id=3 center=-320; 40 radius=1 // road
+TerrainLevel id=3 center=-310; 40 radius=1 // road
+TerrainLevel id=3 center=-300; 40 radius=1 // road
+TerrainLevel id=3 center=-290; 40 radius=1 // road
+TerrainLevel id=3 center=-280; 40 radius=1 // road
+TerrainLevel id=3 center=-270; 40 radius=1 // road
+TerrainLevel id=3 center=-260; 40 radius=1 // road
+TerrainLevel id=3 center=-250; 40 radius=1 // road
+TerrainLevel id=3 center=-240; 40 radius=1 // road
+TerrainLevel id=3 center=-230; 40 radius=1 // road
+TerrainLevel id=3 center=-220; 40 radius=1 // road
+TerrainLevel id=3 center=-210; 40 radius=1 // road
+TerrainLevel id=3 center=-200; 40 radius=1 // road
+TerrainLevel id=3 center=-190; 40 radius=1 // road
+TerrainLevel id=3 center=-180; 40 radius=1 // road
+TerrainLevel id=3 center=-170; 40 radius=1 // road
+TerrainLevel id=3 center=-160; 40 radius=1 // road
+TerrainLevel id=3 center=-150; 40 radius=1 // road
+TerrainLevel id=3 center=-140; 40 radius=1 // road
+TerrainLevel id=3 center=-130; 40 radius=1 // road
+TerrainLevel id=5 center=-120; 40 radius=1 // road
+TerrainLevel id=3 center=-110; 40 radius=1 // road
+TerrainLevel id=3 center=-100; 40 radius=1 // road
+TerrainLevel id=3 center= -90; 40 radius=1 // road
+TerrainLevel id=3 center= -80; 40 radius=1 // road
+TerrainLevel id=3 center= -70; 40 radius=1 // road
+TerrainLevel id=3 center= -60; 40 radius=1 // road
+TerrainLevel id=3 center= -50; 40 radius=1 // road
+TerrainLevel id=3 center= -30; 40 radius=1 // road
+TerrainLevel id=3 center= -20; 40 radius=1 // road
+TerrainLevel id=3 center= -10; 40 radius=1 // road
+TerrainLevel id=3 center= 0; 40 radius=1 // road
+TerrainLevel id=3 center= 10; 40 radius=1 // road
+TerrainLevel id=3 center= 20; 40 radius=1 // road
+TerrainLevel id=5 center= 30; 40 radius=1 // road
+TerrainLevel id=3 center= 40; 40 radius=1 // road
+TerrainLevel id=3 center= 50; 40 radius=1 // road
+TerrainLevel id=3 center= 60; 40 radius=1 // road
+TerrainLevel id=3 center= 70; 40 radius=1 // road
+TerrainLevel id=3 center= 80; 40 radius=1 // road
+TerrainLevel id=3 center= 90; 40 radius=1 // road
+TerrainLevel id=3 center= 100; 40 radius=1 // road
+TerrainLevel id=3 center= 110; 40 radius=1 // road
+TerrainLevel id=3 center= 120; 40 radius=1 // road
+TerrainLevel id=3 center= 130; 40 radius=1 // road
+TerrainLevel id=3 center= 140; 40 radius=1 // road
+TerrainLevel id=3 center= 150; 40 radius=1 // road
+TerrainLevel id=3 center= 160; 40 radius=1 // road
+TerrainLevel id=3 center= 170; 40 radius=1 // road
+TerrainLevel id=3 center= 180; 40 radius=1 // road
+TerrainLevel id=3 center= 190; 40 radius=1 // road
+TerrainLevel id=3 center= 200; 40 radius=1 // road
+TerrainLevel id=3 center= 210; 40 radius=1 // road
+TerrainLevel id=3 center= 220; 40 radius=1 // road
+TerrainLevel id=3 center= 230; 40 radius=1 // road
+TerrainLevel id=3 center= 240; 40 radius=1 // road
+TerrainLevel id=3 center= 250; 40 radius=1 // road
+TerrainLevel id=3 center= 260; 40 radius=1 // road
+TerrainLevel id=3 center= 270; 40 radius=1 // road
+TerrainLevel id=3 center= 280; 40 radius=1 // road
+TerrainLevel id=3 center= 290; 40 radius=1 // road
+TerrainLevel id=3 center= 300; 40 radius=1 // road
+TerrainLevel id=3 center= 310; 40 radius=1 // road
+TerrainLevel id=3 center= 320; 40 radius=1 // road
+TerrainLevel id=3 center= 330; 40 radius=1 // road
+TerrainLevel id=3 center= 340; 40 radius=1 // road
+
+TerrainLevel id=4 center= 30; 30 radius=1 // road
+TerrainLevel id=4 center= 30; 20 radius=1 // road
+TerrainLevel id=4 center= 30; 10 radius=1 // road
+TerrainLevel id=4 center= 30; 0 radius=1 // road
+TerrainLevel id=4 center= 30; -10 radius=1 // road
+TerrainLevel id=4 center= 30; -20 radius=1 // road
+TerrainLevel id=4 center= 30; -30 radius=1 // road
+TerrainLevel id=4 center= 30; -40 radius=1 // road
+
+TerrainLevel id=3 center= 40; -50 radius=1 // road
+TerrainLevel id=5 center= 30; -50 radius=1 // road
+TerrainLevel id=3 center= 20; -50 radius=1 // road
+TerrainLevel id=3 center= 10; -50 radius=1 // road
+TerrainLevel id=3 center= 0; -50 radius=1 // road
+TerrainLevel id=3 center= -10; -50 radius=1 // road
+TerrainLevel id=3 center= -20; -50 radius=1 // road
+TerrainLevel id=3 center= -30; -50 radius=1 // road
+TerrainLevel id=3 center= -50; -50 radius=1 // road
+TerrainLevel id=3 center= -60; -50 radius=1 // road
+TerrainLevel id=3 center= -70; -50 radius=1 // road
+TerrainLevel id=3 center= -80; -50 radius=1 // road
+TerrainLevel id=3 center= -90; -50 radius=1 // road
+TerrainLevel id=3 center=-100; -50 radius=1 // road
+TerrainLevel id=3 center=-110; -50 radius=1 // road
+
+TerrainLevel id=4 center=-120; 130 radius=1 // road
+TerrainLevel id=4 center=-120; 120 radius=1 // road
+TerrainLevel id=4 center=-120; 110 radius=1 // road
+TerrainLevel id=4 center=-120; 100 radius=1 // road
+TerrainLevel id=4 center=-120; 90 radius=1 // road
+TerrainLevel id=4 center=-120; 80 radius=1 // road
+TerrainLevel id=4 center=-120; 70 radius=1 // road
+TerrainLevel id=4 center=-120; 60 radius=1 // road
+TerrainLevel id=4 center=-120; 50 radius=1 // road
