@@ -1,0 +1,37 @@
+TerrainMaterial id=1 image="desert4" u=0.00 v=0.00 up=1 down=1 left=1 right=1 hard=0.2
+TerrainMaterial image="desert4" u=0.25 v=0.00 up=2 down=1 left=1 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.50 v=0.00 up=1 down=1 left=1 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.75 v=0.00 up=2 down=1 left=1 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.00 v=0.25 up=1 down=2 left=1 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.25 v=0.25 up=2 down=2 left=1 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.50 v=0.25 up=1 down=2 left=1 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.75 v=0.25 up=2 down=2 left=1 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.00 v=0.50 up=1 down=1 left=2 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.25 v=0.50 up=2 down=1 left=2 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.50 v=0.50 up=1 down=1 left=2 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.75 v=0.50 up=2 down=1 left=2 right=2 hard=0.4
+TerrainMaterial image="desert4" u=0.00 v=0.75 up=1 down=2 left=2 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.25 v=0.75 up=2 down=2 left=2 right=1 hard=0.4
+TerrainMaterial image="desert4" u=0.50 v=0.75 up=1 down=2 left=2 right=2 hard=0.4
+TerrainMaterial id=2 image="desert4" u=0.75 v=0.75 up=2 down=2 left=2 right=2 hard=0.6
+
+TerrainMaterial id=3 image="desert5" u=0.00 v=0.00 up=2 down=2 left=2 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.25 v=0.00 up=3 down=2 left=2 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.50 v=0.00 up=2 down=2 left=2 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.75 v=0.00 up=3 down=2 left=2 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.00 v=0.25 up=2 down=3 left=2 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.25 v=0.25 up=3 down=3 left=2 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.50 v=0.25 up=2 down=3 left=2 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.75 v=0.25 up=3 down=3 left=2 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.00 v=0.50 up=2 down=2 left=3 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.25 v=0.50 up=3 down=2 left=3 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.50 v=0.50 up=2 down=2 left=3 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.75 v=0.50 up=3 down=2 left=3 right=3 hard=0.6
+TerrainMaterial image="desert5" u=0.00 v=0.75 up=2 down=3 left=3 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.25 v=0.75 up=3 down=3 left=3 right=2 hard=0.6
+TerrainMaterial image="desert5" u=0.50 v=0.75 up=2 down=3 left=3 right=3 hard=0.6
+TerrainMaterial id=4 image="desert5" u=0.75 v=0.75 up=3 down=3 left=3 right=3 hard=0.6
+
+TerrainInit id=2 // roc1
+TerrainLevel id=1 min= 0.0 max=99.0 slope=8.0 freq= 70.0 // sand
+TerrainLevel id=2 min=37.5 max=99.0 slope=0.0 freq= 20.0 // roc2
