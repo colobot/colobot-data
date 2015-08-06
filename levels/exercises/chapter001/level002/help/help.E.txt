@@ -38,7 +38,7 @@ This part is hard to explain at this point, so just assume this just must be the
 This is a \c;\token;keyword\norm;\n; that indicates the \l;main function\u cbot\extern;.
 
 \t;\type;\c;void\n;\norm;
-This is a \l;type\u cbot\type; of function. Imagine a function called \c;Add\n;, which is similar to the arithmetic \c;+\n; symbol, then the result of \c;Add(2, 2)\n; is \c;4\n; (\c;2+2\n;). We say that the \c;Add\n; function \c;returns\n; a number. The main function returns nothing, \c;\type;void\norm;\n;.
+This is \l;type\u cbot\type; of a value returned by (being a result of) the main function. Imagine a function called \c;Add\n;, which is similar to the arithmetic \c;+\n; symbol, then the result of \c;Add(2, 2)\n; is \c;4\n; (\c;2+2\n;). We say that the \c;Add\n; function \c;returns\n; a number. The main function returns nothing, thus the result type is of type \c;\type;void\norm;\n;.
 
 \t;Parentheses
 They indicates that the given name is a function. They have also another role, which you will read about in the next paragraphs.
