@@ -3560,11 +3560,101 @@ msgstr ""
 "<code><a cbot|class>class</a></code>, <code><a cbot|private>private</a></code>\n"
 "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
 
+#. type: \b; header
+#: ../E/radar.txt:1
+#, no-wrap
+msgid "Instruction <code>radar</code>"
+msgstr "Instruction <code>radar</code>"
+
+#. type: Plain text
+#: ../E/radar.txt:2
+#, no-wrap
+msgid "With the instruction <code>radar()</code>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials."
+msgstr "Avec l'instruction <code>radar()</code>, le robot peut chercher des objets comme des <a object|mother>ennemis</a>, des robots ou des bâtiments."
+
+#. type: Plain text
+#: ../E/radar.txt:5
+#, no-wrap
+msgid "Write in brackets the <a cbot|category>name of the object</a> that you look for. Put the result in a variable of the <a cbot|type>type</a> <code>object</code>. Here is an example that looks for the closest ant:"
+msgstr "Donnez entre parenthèses le <a cbot|category>nom de l'objet</a> que vous cherchez. Mettez le résultat dans une variable de <a cbot|type>type</a> <code>object</code>. Voici par exemple comment chercher la fourmi la plus proche:"
+
+#. type: Source code
+#: ../E/radar.txt:7
+#, no-wrap
+msgid ""
+"// At the beginning of the program:\n"
+"object  item; // variable declaration\n"
+"\n"
+"// Look for the closest ant\n"
+"item = radar(AlienAnt);"
+msgstr ""
+"// Tout au début du programme:\n"
+"object  chose; // déclaration de la variable\n"
+"\n"
+"// Cherche la fourmi la plus proche\n"
+"chose = radar(AlienAnt);"
+
+#. type: Plain text
+#: ../E/radar.txt:17
+#, no-wrap
+msgid "Detects an object according to several parameters. "
+msgstr "Détecte un objet selon divers critères."
+
+#. type: Image filename
+#: ../E/radar.txt:19
+#, no-wrap
+msgid "radar1"
+msgstr "radar1"
+
+#. type: Plain text
+#: ../E/radar.txt:20
+#, no-wrap
+msgid "Seen from above, the purple zone corresponds to the zone where objects will be detected. "
+msgstr "La zone arrondie violette correspond, vue d'en haut, à la zone dans laquelle les objets sont détectés."
+
 #. type: \t; header
 #: ../E/search.txt:7
 #, no-wrap
 msgid "category: <code><a cbot|int>int</a></code>"
 msgstr "catégorie: <code><a cbot|int>int</a></code>"
+
+#. type: Plain text
+#: ../E/radar.txt:34
+#, no-wrap
+msgid ""
+"Direction that the radar is facing, in degrees. \n"
+"<code>  0</code> -> radar is facing straight ahead\n"
+"<code>-90</code> -> radar is facing a quarter turn right\n"
+"<code> 90</code> -> radar is facing a quarter turn left"
+msgstr ""
+"Direction dans laquelle est dirigé le radar, en degrés.\n"
+"<code>  0</code> -> radar dirigé droit devant\n"
+"<code>-90</code> -> radar dirigé à gauche\n"
+"<code> 90</code> -> radar dirigé à droite"
+
+#. type: Plain text
+#: ../E/radar.txt:40
+#, no-wrap
+msgid "Opening angle of the radar, in degrees. "
+msgstr "Angle d'ouverture du radar, en degrés."
+
+#. type: Plain text
+#: ../E/radar.txt:43
+#, no-wrap
+msgid "Minimum detection distance, in meters. Objects that are closer than the minimum distance will not be detected. "
+msgstr "Distance minimale de détection, en mètres. Avant cette distance, les objets sont ignorés."
+
+#. type: Plain text
+#: ../E/radar.txt:46
+#, no-wrap
+msgid "Maximum detection distance, in meters. Objects that are farther away than the maximum distance will not be detected. "
+msgstr "Distance maximale de détection, en mètres. Au delà de cette distance, les objets sont ignorés."
+
+#. type: Plain text
+#: ../E/radar.txt:49
+#, no-wrap
+msgid "Determines which way the objects are detected. With value <code>1</code>, returns the closest object found in the specified zone. With value <code>-1</code>, the farthest object in the zone will be returned. "
+msgstr "Sens dans lequel s'effectue la recherche. Avec la valeur <code>1</code>, on cherche de l'intérieur vers l'extérieur. Autrement dit, c'est l'objet le plus proche qui est trouvé. Avec <code>-1</code>, on cherche de l'extérieur vers l'intérieur. On trouvera donc l'objet le plus éloigné."
 
 #. type: \t; header
 #: ../E/radar.txt:65 ../E/retobj.txt:10 ../E/search.txt:22
@@ -3572,11 +3662,53 @@ msgstr "catégorie: <code><a cbot|int>int</a></code>"
 msgid "Return value: <code><a cbot|object>object</a></code>"
 msgstr "Valeur retournée: <code><a cbot|object>object</a></code>"
 
+#. type: Plain text
+#: ../E/radar.txt:66
+#, no-wrap
+msgid "Returns the first object found that corresponds to the specified category in the specified zone. If no object was found, returns the value <code><a cbot|null>null</a></code>."
+msgstr "Objet trouvé le plus proche. La valeur <code><a cbot|null>null</a></code> indique que rien n'a été trouvé."
+
 #. type: \t; header
 #: ../E/cond.txt:21 ../E/radar.txt:68
 #, no-wrap
 msgid "Remark"
 msgstr "Remarque"
+
+#. type: Plain text
+#: ../E/radar.txt:69
+#, no-wrap
+msgid "You do not have to give all the parameters. Here are two examples of instructions that are equivalent: "
+msgstr "Il n'est pas nécessaire de donner tous les paramètres. Voici deux exemples identiques:"
+
+#. type: Source code
+#: ../E/radar.txt:71
+#, no-wrap
+msgid ""
+"\tradar(Titanium, 0, 360, 0, 1000);\n"
+"\tradar(Titanium);  // equivalent"
+msgstr ""
+"\tradar(Titanium, 0, 360, 0, 1000);\n"
+"\tradar(Titanium);  // identique"
+
+#. type: Source code
+#: ../E/radar.txt:74
+#, no-wrap
+msgid ""
+"\tradar(Titanium, 0, 90, 0, 1000);\n"
+"\tradar(Titanium, 0, 90);  // equivalent"
+msgstr ""
+"\tradar(Titanium, 0, 90, 0, 1000);\n"
+"\tradar(Titanium, 0, 90);  // identique"
+
+#. type: Plain text
+#: ../E/radar.txt:77
+#, no-wrap
+msgid ""
+"When one or more parameters are not specified, the default values indicated above are used instead; only the first parameter is compulsory.\n"
+"Generally, only the first parameter is specified: f. ex. <code>radar (AlienAnt)</code> detects the closest ant, wherever it may be. "
+msgstr ""
+"En fait, lorsque des paramètres manquent, ils prennent les valeurs par défaut indiquées plus haut. Le premier paramètre <code>catégorie</code> est obligatoire. Les cinq paramètres suivants sont facultatifs, et sont remplacés par <code>0</code>, <code>360</code>, <code>0</code>, <code>1000</code> et <code>1</code> s'ils manquent.\n"
+"Ceci est très utile. En effet, <code>radar(XXX)</code> trouve l'objet le plus proche, où qu'il soit."
 
 #. type: \b; header
 #: ../E/readln.txt:1
@@ -5799,122 +5931,6 @@ msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> et <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
 
-#. type: Plain text
-#: ../E/for.txt:19
-#, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
-msgstr ""
-
-#. type: Source code
-#: ../E/build.txt:15
-#, no-wrap
-msgid "<c/>build ( cat );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:17
-#, no-wrap
-msgid "Tells the robot to build a building using a titanium cube placed on a flat ground nearby."
-msgstr ""
-
-#. type: \t; header
-#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/detect.txt:11 ../E/factory.txt:10 ../E/radar.txt:22
-#, no-wrap
-msgid "cat: <code><a cbot|int>int</a></code>"
-msgstr ""
-
-#. type: \b; header
-#: ../E/build.txt:1
-#, no-wrap
-msgid "Instruction <code>build</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:23
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
-"<code>== 0 </code>Successfully built\n"
-"<code>!= 0 </code>Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:7
-#, no-wrap
-msgid "Here is an example of a program that looks for the nearest <a object|titan>titanium cube</a>, goes to the position and builds a <a object|factory>bot factory</a>."
-msgstr ""
-
-#. type: Source code
-#: ../E/build.txt:9
-#, no-wrap
-msgid ""
-" <a cbot|object>object</a> item = <a cbot|radar>radar</a>(<a object|titan>Titanium</a>);\n"
-" <a cbot|goto>goto</a>(item.position);\n"
-" build(<a object|factory>BotFactory</a>);"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:5
-#, no-wrap
-msgid "This command is mostly useful in an attempt to build a fully automatised base, where an <a object|human>astronaut</a> does not need to do anything except starting a program and watching bots working. What is more, it makes beating the game by using only programming a possible task (however, it is a challenge rather for experienced gamers, who beat the whole game at least once)."
-msgstr ""
-
-#. type: Source code
-#: ../E/aim.txt:3
-#, no-wrap
-msgid "<c/>aim ( y, x );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/aim.txt:10
-#, no-wrap
-msgid "When controlling the robot through programming, the gun can be also turned left or right by turning the whole robot with the instruction <code><a cbot|turn>turn</a></code>."
-msgstr ""
-
-#. type: \t; header
-#: ../E/aim.txt:12 ../E/atan2.txt:7 ../E/pow.txt:8
-#, no-wrap
-msgid "y: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/atan2.txt:10 ../E/pow.txt:5
-#, no-wrap
-msgid "x: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/aim.txt:5
-#, no-wrap
-msgid "This instruction sets the vertical and the horizontal angle of the cannon. The following robots are equipped with a cannon: "
-msgstr ""
-
-#. type: \b; header
-#: ../E/rand.txt:1
-#, no-wrap
-msgid "Instruction <code>rand</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/rand.txt:3
-#, no-wrap
-msgid "<c/>rand ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/rand.txt:6
-#, no-wrap
-msgid "Pseudorandom number between 0 and 1 (including 0, but excluding 1)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
-#, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
-msgstr ""
-
 #. type: \b; header
 #: ../E/acos.txt:1
 #, no-wrap
@@ -5939,6 +5955,54 @@ msgstr ""
 msgid "Number between -1 and 1 (including both)."
 msgstr ""
 
+#. type: Plain text
+#: ../E/acos.txt:9
+#, no-wrap
+msgid "Arcus cosine (in degrees) of the value."
+msgstr ""
+
+#. type: Plain text
+#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr ""
+
+#. type: Source code
+#: ../E/aim.txt:3
+#, no-wrap
+msgid "<c/>aim ( y, x );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/aim.txt:5
+#, no-wrap
+msgid "This instruction sets the vertical and the horizontal angle of the cannon. The following robots are equipped with a cannon: "
+msgstr ""
+
+#. type: Plain text
+#: ../E/aim.txt:10
+#, no-wrap
+msgid "When controlling the robot through programming, the gun can be also turned left or right by turning the whole robot with the instruction <code><a cbot|turn>turn</a></code>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/aim.txt:12 ../E/atan2.txt:7 ../E/pow.txt:8
+#, no-wrap
+msgid "y: <code><a cbot|float>float</a></code>"
+msgstr ""
+
+#. type: \t; header
+#: ../E/aim.txt:15
+#, no-wrap
+msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/aim.txt:16
+#, no-wrap
+msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters."
+msgstr ""
+
 #. type: \b; header
 #: ../E/asin.txt:1
 #, no-wrap
@@ -5949,6 +6013,12 @@ msgstr ""
 #: ../E/asin.txt:3
 #, no-wrap
 msgid "<c/>asin ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/asin.txt:9
+#, no-wrap
+msgid "Arcus sine (in degrees) of the value."
 msgstr ""
 
 #. type: \b; header
@@ -5967,6 +6037,451 @@ msgstr ""
 #: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7 ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
 #, no-wrap
 msgid "Number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/atan.txt:9
+#, no-wrap
+msgid "Arcus tangent (in degrees) of the value."
+msgstr ""
+
+#. type: \b; header
+#: ../E/atan2.txt:1
+#, no-wrap
+msgid "Instruction <code>atan2</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/atan2.txt:3
+#, no-wrap
+msgid "<c/>atan2 ( y, x );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/atan2.txt:5
+#, no-wrap
+msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/><a cbot|atan>atan();</a><n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
+msgstr ""
+
+#. type: \t; header
+#: ../E/atan2.txt:10 ../E/pow.txt:5
+#, no-wrap
+msgid "x: <code><a cbot|float>float</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/atan2.txt:14
+#, no-wrap
+msgid "Arcus tangent (in degrees) of <code>y/x</code>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/build.txt:1
+#, no-wrap
+msgid "Instruction <code>build</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:2
+#, no-wrap
+msgid "The instruction <c/>build();<n/> instructs the bot to build a building of the given <a cbot|category>category</a>. Currently works for <a object|botgc>Grabbers</a>, <a object|human>Me</a> and <a object|tech>Tech</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:5
+#, no-wrap
+msgid "This command is mostly useful in an attempt to build a fully automatised base, where an <a object|human>astronaut</a> does not need to do anything except starting a program and watching bots working. What is more, it makes beating the game by using only programming a possible task (however, it is a challenge rather for experienced gamers, who beat the whole game at least once)."
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:7
+#, no-wrap
+msgid "Here is an example of a program that looks for the nearest <a object|titan>titanium cube</a>, goes to the position and builds a <a object|factory>bot factory</a>."
+msgstr ""
+
+#. type: Source code
+#: ../E/build.txt:9
+#, no-wrap
+msgid ""
+" <a cbot|object>object</a> item = <a cbot|radar>radar</a>(<a object|titan>Titanium</a>);\n"
+" <a cbot|goto>goto</a>(item.position);\n"
+" build(<a object|factory>BotFactory</a>);"
+msgstr ""
+
+#. type: Source code
+#: ../E/build.txt:15
+#, no-wrap
+msgid "<c/>build ( cat );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:17
+#, no-wrap
+msgid "Tells the robot to build a building using a titanium cube placed on a flat ground nearby."
+msgstr ""
+
+#. type: \t; header
+#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/detect.txt:11 ../E/factory.txt:10 ../E/radar.txt:22
+#, no-wrap
+msgid "cat: <code><a cbot|int>int</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:20 ../E/buildingenabled.txt:17 ../E/canbuild.txt:17
+#, no-wrap
+msgid "<a cbot|category>Category</a> of a building."
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:23
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
+"<code>== 0 </code>Successfully built\n"
+"<code>!= 0 </code>Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:28
+#, no-wrap
+msgid "<a cbot|canbuild>canbuild</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/buildingenabled.txt:1
+#, no-wrap
+msgid "Instruction <code>buildingenabled</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:2
+#, no-wrap
+msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of the given <a cbot|category>category</a> can be built in the level."
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:5
+#, no-wrap
+msgid "It is similar to the <c/><a cbot|canbuild>canbuild();</a><n/> instruction. However, it does not check if a required research has been done."
+msgstr ""
+
+#. type: Source code
+#: ../E/buildingenabled.txt:7
+#, no-wrap
+msgid ""
+" <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
+" {\n"
+" \tbuild(<a object|factory>BotFactory</a>);\n"
+" }"
+msgstr ""
+
+#. type: Source code
+#: ../E/buildingenabled.txt:14
+#, no-wrap
+msgid "<c/>buildingenabled ( cat );<n/>"
+msgstr ""
+
+#. type: \t; header
+#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19 ../E/canresearch.txt:10 ../E/detect.txt:23 ../E/researched.txt:10
+#, no-wrap
+msgid "Return value: <code><a cbot|bool>bool</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:20
+#, no-wrap
+msgid "<code>true</code> if the building can be built in the level even if required research has not been done, <code>false</code> otherwise."
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:23
+#, no-wrap
+msgid "<a cbot|build>build</a>, <a cbot|canbuild>canbuild</a>, <a object|research>ResearchCenter</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/busy.txt:1
+#, no-wrap
+msgid "Instruction <code>busy</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/busy.txt:3
+#, no-wrap
+msgid "<c/><a cbot|object>object</a>.busy ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/busy.txt:5
+#, no-wrap
+msgid "Checks if the object is busy."
+msgstr ""
+
+#. type: \t; header
+#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7 ../E/takeoff.txt:7
+#, no-wrap
+msgid "<a cbot|object>object</a>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/busy.txt:8
+#, no-wrap
+msgid "Any building which can take some action (e.g. <a cbot|convert>Converter</a>)."
+msgstr ""
+
+#. type: Plain text
+#: ../E/busy.txt:11
+#, no-wrap
+msgid ""
+"<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
+"<code><format const>false</format></code> if the object is not doing anything"
+msgstr ""
+
+#. type: \b; header
+#: ../E/canbuild.txt:1
+#, no-wrap
+msgid "Instruction <code>canbuild</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:2
+#, no-wrap
+msgid "The instruction <c/>canbuild();<n/> lets you know if <a object|botgc>Grabbers</a>, <a object|human>Me</a> or <a object|human>Tech</a> can build a building of the given <a cbot|category>category</a>. "
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:5
+#, no-wrap
+msgid "It helps to prevent errors in programs using the <c/><a cbot|build>build();</a><n/> instruction. Here is an example:"
+msgstr ""
+
+#. type: Source code
+#: ../E/canbuild.txt:7
+#, no-wrap
+msgid ""
+" <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
+" {\n"
+" \tbuild(<a object|factory>BotFactory</a>);\n"
+" }"
+msgstr ""
+
+#. type: Source code
+#: ../E/canbuild.txt:14
+#, no-wrap
+msgid "<c/>canbuild ( cat );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:20
+#, no-wrap
+msgid "<code>true</code> if the building can be built, <code>false</code> otherwise."
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:23
+#, no-wrap
+msgid "<a cbot|build>build</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/canresearch.txt:1
+#, no-wrap
+msgid "Instruction <code>canresearch</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/canresearch.txt:3
+#, no-wrap
+msgid "<c/>canresearch ( research );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:5
+#, no-wrap
+msgid "Checks if the <a cbot|researches>research</a> can be done in the level."
+msgstr ""
+
+#. type: \t; header
+#: ../E/canresearch.txt:7 ../E/researched.txt:7
+#, no-wrap
+msgid "research: <code><a cbot|int>int</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:8 ../E/research.txt:11 ../E/researched.txt:8
+#, no-wrap
+msgid "<a cbot|researches>Research name</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:11
+#, no-wrap
+msgid ""
+"<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
+"<format const>false</format> if the research cannot be done"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:15
+#, no-wrap
+msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:6
+#, no-wrap
+msgid "Below are the different categories available:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:8
+#, no-wrap
+msgid "Buildings:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:10
+#, no-wrap
+msgid ""
+"<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
+"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Spaceship\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Information Exchange Post\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Repair Center\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Defense Tower\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Organic Matter Analyzer \n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Power Station\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Power Cell Factory\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nuclear Plant\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Titanium Converter\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Vault\n"
+"       <code><a object|start>StartArea</a>        </code>Starting Pad\n"
+"       <code><a object|goal>GoalArea</a>         </code>Finishing Pad\n"
+"       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:31
+#, no-wrap
+msgid "Portable Objects:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:44
+#, no-wrap
+msgid "Robots:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:76
+#, no-wrap
+msgid "Enemies:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:86
+#, no-wrap
+msgid "Miscellaneous:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:95
+#, no-wrap
+msgid "Flags and Other Indicators:"
+msgstr ""
+
+#. type: \b; header
+#: ../E/ceil.txt:1
+#, no-wrap
+msgid "Instruction <code>ceil</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/ceil.txt:3
+#, no-wrap
+msgid "<c/>ceil ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:4
+#, no-wrap
+msgid "Rounds up a number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:10
+#, no-wrap
+msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
+#, no-wrap
+msgid "<a cbot|round>round</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/colors.txt:1
+#, no-wrap
+msgid "Value <code>Colors</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:2
+#, no-wrap
+msgid "Color names are used to define a specific color to use. They can be passed to functions like <a cbot|pendown>pendown</a> or <a cbot|pencolor>pencolor</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:4
+#, no-wrap
+msgid "In a program, colors are always displayed on a <format const>red background</format>. If a color isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:6
+#, no-wrap
+msgid "Below are the different colors available:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:8
+#, no-wrap
+msgid ""
+"<code><format const>White</format></code>\n"
+"<code><format const>Black</format></code>\n"
+"<code><format const>Gray</format></code>\n"
+"<code><format const>LightGray</format></code>\n"
+"<code><format const>Red</format></code>\n"
+"<code><format const>Pink</format></code>\n"
+"<code><format const>Purple</format></code>\n"
+"<code><format const>Orange</format></code>\n"
+"<code><format const>Yellow</format></code>\n"
+"<code><format const>Beige</format></code>\n"
+"<code><format const>Brown</format></code>\n"
+"<code><format const>Skin</format></code>\n"
+"<code><format const>Green</format></code>\n"
+"<code><format const>LightGreen</format></code>\n"
+"<code><format const>Blue</format></code>\n"
+"<code><format const>LightBlue</format></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:25
+#, no-wrap
+msgid "You can also draw colored symbols:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:27
+#, no-wrap
+msgid ""
+"<code><format const>BlackArrow</format></code>\n"
+"<code><format const>RedArrow</format></code>"
 msgstr ""
 
 #. type: \b; header
@@ -5994,287 +6509,191 @@ msgid "Cosine of the angle."
 msgstr ""
 
 #. type: \b; header
-#: ../E/pow.txt:1
+#: ../E/destroy.txt:1
 #, no-wrap
-msgid "Instruction <code>pow</code>"
+msgid "Instruction <code>destroy</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/pow.txt:3
+#: ../E/destroy.txt:3
 #, no-wrap
-msgid "<c/>pow ( x, y );<n/>"
+msgid "<c/><a cbot|object>object</a>.destroy ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:6
+#: ../E/destroy.txt:5
 #, no-wrap
-msgid "Base."
+msgid "Destroys an object."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:9
+#: ../E/destroy.txt:8
 #, no-wrap
-msgid "Exponent."
+msgid "<a object|destroy>Destroyer</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:12
+#: ../E/destroy.txt:11
 #, no-wrap
-msgid "x to the y (x raised to the yth power)."
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
+"<code>== 0 </code>The operation of destroying of an object was started\n"
+"<code>!= 0 </code>The instruction could not be done (e.g. nothing to destroy)"
 msgstr ""
 
 #. type: \b; header
-#: ../E/sin.txt:1
+#: ../E/detect.txt:1
 #, no-wrap
-msgid "Instruction <code>sin</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/sin.txt:3
-#, no-wrap
-msgid "<c/>sin ( angle );<n/>"
+msgid "Instruction <code>detect</code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/sin.txt:9
+#: ../E/detect.txt:2
 #, no-wrap
-msgid "Sine of the angle."
+msgid "With the instruction <c/>detect();<n/>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials, which are in front of the bot. It is a simpler version of <c/><a cbot|radar>radar</a>();<n/>."
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:6
+#, no-wrap
+msgid "<c/>detect ( cat );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/detect.txt:8
+#, no-wrap
+msgid "Detects the nearest object of the specified <a cbot|category>category</a> being in front of the bot. It is similar to the following instruction:"
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:9
+#, no-wrap
+msgid "<c/>radar(cat, 0, 45, 0, 20);<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:12 ../E/radar.txt:23
+#, no-wrap
+msgid "<a cbot|category>Category</a> of the objects that should be detected. For example, when you are looking for an ant, write <code>radar(AlienAnt)</code>. "
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:13
+#, no-wrap
+msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:<c/>"
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:14
+#, no-wrap
+msgid ""
+"int bots[4];\n"
+"bots[0] = WheeledGrabber;\n"
+"bots[1] = TrackedGrabber;\n"
+"bots[2] = WingedGrabber;\n"
+"bots[3] = LeggedGrabber;\n"
+"object nearestGrabber = radar(bots);"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:21 ../E/search.txt:17
+#, no-wrap
+msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on)."
+msgstr ""
+
+#. type: Plain text
+#: ../E/detect.txt:24
+#, no-wrap
+msgid ""
+"<format const>true</format> if the object was found\n"
+"<format const>false</format> if the object was not found"
 msgstr ""
 
 #. type: \b; header
-#: ../E/sqrt.txt:1
+#: ../E/factory.txt:1
 #, no-wrap
-msgid "Instruction <code>sqrt</code>"
+msgid "Instruction <code>factory</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/sqrt.txt:3
+#: ../E/factory.txt:3
 #, no-wrap
-msgid "<c/>sqrt ( value );<n/>"
+msgid "<c/><a cbot|object>object</a>.factory ( cat, program );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/sqrt.txt:6
+#: ../E/factory.txt:5
 #, no-wrap
-msgid "Non-negative number."
+msgid "Starts a construction of a bot of the given <a cbot|category>category</a> and runs the specified program on it after the construction is finished."
 msgstr ""
 
 #. type: Plain text
-#: ../E/sqrt.txt:9
+#: ../E/factory.txt:8
 #, no-wrap
-msgid "Square root of the value."
-msgstr ""
-
-#. type: \b; header
-#: ../E/tan.txt:1
-#, no-wrap
-msgid "Instruction <code>tan</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/tan.txt:3
-#, no-wrap
-msgid "<c/>tan ( angle );<n/>"
+msgid "<a object|factory>BotFactory</a>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/tan.txt:9
+#: ../E/factory.txt:11
 #, no-wrap
-msgid "Tangent of the angle."
-msgstr ""
-
-#. type: Plain text
-#: ../E/acos.txt:9
-#, no-wrap
-msgid "Arcus cosine (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/asin.txt:9
-#, no-wrap
-msgid "Arcus sine (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/atan.txt:9
-#, no-wrap
-msgid "Arcus tangent (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/tan.txt:6
-#, no-wrap
-msgid "Angle in degrees (except multiples of 90)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:28
-#, no-wrap
-msgid "<a cbot|canbuild>canbuild</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/canbuild.txt:1
-#, no-wrap
-msgid "Instruction <code>canbuild</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/canbuild.txt:14
-#, no-wrap
-msgid "<c/>canbuild ( cat );<n/>"
+msgid "<a cbot|category>Category</a> of the robot to construct."
 msgstr ""
 
 #. type: \t; header
-#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19 ../E/canresearch.txt:10 ../E/detect.txt:23 ../E/researched.txt:10
+#: ../E/factory.txt:13
 #, no-wrap
-msgid "Return value: <code><a cbot|bool>bool</a></code>"
+msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/canbuild.txt:20
+#: ../E/factory.txt:14
 #, no-wrap
-msgid "<code>true</code> if the building can be built, <code>false</code> otherwise."
+msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a <a cbot|file>filename</a> or just a raw source code."
 msgstr ""
 
 #. type: Plain text
-#: ../E/canbuild.txt:23
-#, no-wrap
-msgid "<a cbot|build>build</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:20 ../E/buildingenabled.txt:17 ../E/canbuild.txt:17
-#, no-wrap
-msgid "<a cbot|category>Category</a> of a building."
-msgstr ""
-
-#. type: \b; header
-#: ../E/buildingenabled.txt:1
-#, no-wrap
-msgid "Instruction <code>buildingenabled</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:2
-#, no-wrap
-msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of the given <a cbot|category>category</a> can be built in the level."
-msgstr ""
-
-#. type: Source code
-#: ../E/buildingenabled.txt:7
+#: ../E/factory.txt:17
 #, no-wrap
 msgid ""
-" <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
-" {\n"
-" \tbuild(<a object|factory>BotFactory</a>);\n"
-" }"
-msgstr ""
-
-#. type: Source code
-#: ../E/buildingenabled.txt:14
-#, no-wrap
-msgid "<c/>buildingenabled ( cat );<n/>"
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
+"<code>== 0 </code>The construction successfully started\n"
+"<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/buildingenabled.txt:20
+#: ../E/factory.txt:22
 #, no-wrap
-msgid "<code>true</code> if the building can be built in the level even if required research has not been done, <code>false</code> otherwise."
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:23
-#, no-wrap
-msgid "<a cbot|build>build</a>, <a cbot|canbuild>canbuild</a>, <a object|research>ResearchCenter</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Source code
-#: ../E/canbuild.txt:7
-#, no-wrap
-msgid ""
-" <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
-" {\n"
-" \tbuild(<a object|factory>BotFactory</a>);\n"
-" }"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:2
-#, no-wrap
-msgid "The instruction <c/>build();<n/> instructs the bot to build a building of the given <a cbot|category>category</a>. Currently works for <a object|botgc>Grabbers</a>, <a object|human>Me</a> and <a object|tech>Tech</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:5
-#, no-wrap
-msgid "It is similar to the <c/><a cbot|canbuild>canbuild();</a><n/> instruction. However, it does not check if a required research has been done."
-msgstr ""
-
-#. type: Plain text
-#: ../E/canbuild.txt:2
-#, no-wrap
-msgid "The instruction <c/>canbuild();<n/> lets you know if <a object|botgc>Grabbers</a>, <a object|human>Me</a> or <a object|human>Tech</a> can build a building of the given <a cbot|category>category</a>. "
-msgstr ""
-
-#. type: Plain text
-#: ../E/canbuild.txt:5
-#, no-wrap
-msgid "It helps to prevent errors in programs using the <c/><a cbot|build>build();</a><n/> instruction. Here is an example:"
+msgid "<a cbot|researched>researched</a>, <a cbot|>wait</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: ../E/atan2.txt:1
+#: ../E/flatspace.txt:1
 #, no-wrap
-msgid "Instruction <code>atan2</code>"
+msgid "Instruction <code>flatspace</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/atan2.txt:3
+#: ../E/flatspace.txt:3
 #, no-wrap
-msgid "<c/>atan2 ( y, x );<n/>"
+msgid "<c/>flatspace ( center, flatmin, rmin, rmax, dist );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan2.txt:14
+#: ../E/flatspace.txt:5
 #, no-wrap
-msgid "Arcus tangent (in degrees) of <code>y/x</code>."
+msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar to <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/flatspace.txt:10
+#, no-wrap
+msgid "flatmin: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan2.txt:5
+#: ../E/flatspace.txt:11
 #, no-wrap
-msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/><a cbot|atan>atan();</a><n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
-msgstr ""
-
-#. type: \b; header
-#: ../E/ceil.txt:1
-#, no-wrap
-msgid "Instruction <code>ceil</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/ceil.txt:3
-#, no-wrap
-msgid "<c/>ceil ( value );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/floor.txt:4
-#, no-wrap
-msgid "Rounds down a number."
-msgstr ""
-
-#. type: Plain text
-#: ../E/ceil.txt:10
-#, no-wrap
-msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
-#, no-wrap
-msgid "<a cbot|round>round</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgid "Minimum radius of flat ground around the desired position."
 msgstr ""
 
 #. type: \b; header
@@ -6290,9 +6709,9 @@ msgid "<c/>floor ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/ceil.txt:4
+#: ../E/floor.txt:4
 #, no-wrap
-msgid "Rounds up a number."
+msgid "Rounds down a number."
 msgstr ""
 
 #. type: Plain text
@@ -6301,70 +6720,12 @@ msgstr ""
 msgid "Floor of the value, i.e. the largest integer not greater than <code>value</code>. For example, <code>floor(2.9)</code> is <code>2.00</code>."
 msgstr ""
 
-#. type: \b; header
-#: ../E/round.txt:1
-#, no-wrap
-msgid "Instruction <code>round</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/round.txt:3
-#, no-wrap
-msgid "<c/>round ( value );<n/>"
-msgstr ""
-
 #. type: Plain text
-#: ../E/round.txt:4
+#: ../E/for.txt:19
 #, no-wrap
-msgid "Rounds a number."
-msgstr ""
-
-#. type: Plain text
-#: ../E/round.txt:10
-#, no-wrap
-msgid "Rounded <code>value</code>. For example, <code>round(2.5)</code> is <code>3.0</code>, whereas <code>round(2.4)</code> is <code>2.0</code>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/trunc.txt:1
-#, no-wrap
-msgid "Instruction <code>trunc</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/trunc.txt:3
-#, no-wrap
-msgid "<c/>trunc ( value );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/trunc.txt:10
-#, no-wrap
-msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/round.txt:13
-#, no-wrap
-msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/trunc.txt:4
-#, no-wrap
-msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
-msgstr ""
-
-#. type: Plain text
-#: ../E/aim.txt:16
-#, no-wrap
-msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters."
-msgstr ""
-
-#. type: \t; header
-#: ../E/aim.txt:15
-#, no-wrap
-msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
 msgstr ""
 
 #. type: Plain text
@@ -6395,6 +6756,12 @@ msgid ""
 "\t// instructions\n"
 "\t\n"
 "}"
+msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:14
+#, no-wrap
+msgid "Nothing but a name can be changed in the main function. The keyword <code><a cbot|extern>extern</a></code> distinguish the main function from others."
 msgstr ""
 
 #. type: Plain text
@@ -6445,10 +6812,32 @@ msgid ""
 "}"
 msgstr ""
 
+#. type: Plain text
+#: ../E/function.txt:47
+#, no-wrap
+msgid "Now the program is much easier to read. It is a good practice to split the program into several functions with self-describing names."
+msgstr ""
+
 #. type: \b; header
 #: ../E/function.txt:49
 #, no-wrap
 msgid "Syntax"
+msgstr ""
+
+#. type: Source code
+#: ../E/function.txt:51
+#, no-wrap
+msgid ""
+"result_type FunctionName(optional_parameters)\n"
+"{\n"
+"\tbody\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:56
+#, no-wrap
+msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
 msgstr ""
 
 #. type: \t; header
@@ -6461,6 +6850,18 @@ msgstr ""
 #: ../E/function.txt:59
 #, no-wrap
 msgid "A function can have parameters:"
+msgstr ""
+
+#. type: Source code
+#: ../E/function.txt:61
+#, no-wrap
+msgid ""
+"void Example(int a, float x, string s)\n"
+"{\n"
+"\tmessage(a);\n"
+"\tmessage(x);\n"
+"\tmessage(s);\n"
+"}"
 msgstr ""
 
 #. type: Plain text
@@ -6578,34 +6979,6 @@ msgstr ""
 msgid "Declaring a function as a part of the <a cbot|object>object</a> namespace gives it access to <code><a cbot|this>this</a></code> <a cbot|pointer>pointer</a>, in other words, to all available properties of the robot which the program is run on."
 msgstr ""
 
-#. type: Plain text
-#: ../E/function.txt:47
-#, no-wrap
-msgid "Now the program is much easier to read. It is a good practice to split the program into several functions with self-describing names."
-msgstr ""
-
-#. type: Source code
-#: ../E/function.txt:51
-#, no-wrap
-msgid ""
-"result_type FunctionName(optional_parameters)\n"
-"{\n"
-"\tbody\n"
-"}"
-msgstr ""
-
-#. type: Source code
-#: ../E/function.txt:61
-#, no-wrap
-msgid ""
-"void Example(int a, float x, string s)\n"
-"{\n"
-"\tmessage(a);\n"
-"\tmessage(x);\n"
-"\tmessage(s);\n"
-"}"
-msgstr ""
-
 #. type: Source code
 #: ../E/function.txt:123
 #, no-wrap
@@ -6617,78 +6990,352 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/function.txt:56
+#: ../E/object.txt:2
 #, no-wrap
-msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
+msgid "Use this type for variables that contain the characteristics of an object, be it a bot, a building, some raw material, an enemy, etc. Here are all properties of an object: "
 msgstr ""
 
-#. type: \b; header
-#: ../E/factory.txt:1
+#. type: Plain text
+#: ../E/object.txt:4
 #, no-wrap
-msgid "Instruction <code>factory</code>"
+msgid ""
+"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
+"<code><a cbot|point>point</a>  object.position     </code>Position of the object (x,y,z)\n"
+"<code><a cbot|float>float</a>  object.orientation  </code>Orientation of the object (0..360)\n"
+"<code><a cbot|float>float</a>  object.pitch        </code>Forward/backward angle of the object\n"
+"<code><a cbot|float>float</a>  object.roll         </code>Right/left angle of the object \n"
+"<code><a cbot|float>float</a>  object.energyLevel  </code>Energy level (0..1)\n"
+"<code><a cbot|float>float</a>  object.shieldLevel  </code>Shield level (0..1)\n"
+"<code><a cbot|float>float</a>  object.temperature  </code>Jet temperature (0..1)\n"
+"<code><a cbot|float>float</a>  object.altitude     </code>Altitude above ground\n"
+"<code><a cbot|float>float</a>  object.lifeTime     </code>Lifetime of the object\n"
+"<code>object object.energyCell   </code>Power cell on the bot\n"
+"<code>object object.load         </code>Object carried by the bot\n"
+"<code><a cbot|int>int</a>    object.team         </code>The object's team (see <a battles>code battles</a>)\n"
+"<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object"
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:19
+#, no-wrap
+msgid "Also, some objects have additional methods (instructions). See them in <a cbot>the main list</a> in the <c/>\"Instructions specific for some objects\" section."
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:22
+#, no-wrap
+msgid "The <n/><a cbot|category>category</a> of an object allows you to know what it is, f. ex. what kind of bot, building, enemy, etc."
 msgstr ""
 
 #. type: Source code
-#: ../E/factory.txt:3
+#: ../E/object.txt:60
 #, no-wrap
-msgid "<c/><a cbot|object>object</a>.factory ( cat, program );<n/>"
+msgid "<code>team</code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:5
+#: ../E/object.txt:61
 #, no-wrap
-msgid "Starts a construction of a bot of the given <a cbot|category>category</a> and runs the specified program on it after the construction is finished."
+msgid "The bot's team. Used in <a battles>code battles</a>. If the object has no team assigned (e.g. in no team-based levels, the object being a resource), this is equal to <code>0</code>."
+msgstr ""
+
+#. type: Source code
+#: ../E/object.txt:63
+#, no-wrap
+msgid "<code>velocity</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:64
+#, no-wrap
+msgid "Current velocity of the object. Should be treated as a three-dimensional vector."
+msgstr ""
+
+#. type: \b; header
+#: ../E/pencolor.txt:1
+#, no-wrap
+msgid "Instruction <code>pencolor</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pencolor.txt:3
+#, no-wrap
+msgid "<c/>pencolor ( color );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pencolor.txt:4
+#, no-wrap
+msgid "The instruction <c/>pencolor();<n/> instructs the bot to change the color of the pencil."
 msgstr ""
 
 #. type: \t; header
-#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7 ../E/takeoff.txt:7
+#: ../E/pencolor.txt:6 ../E/pendown.txt:6
 #, no-wrap
-msgid "<a cbot|object>object</a>"
+msgid "color: <code><a cbot|int>int</a></code> (default value: <code>Black</code>)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:8
+#: ../E/pencolor.txt:7 ../E/pendown.txt:7
 #, no-wrap
-msgid "<a object|factory>BotFactory</a>"
+msgid "<a cbot|colors>Color name</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:11
-#, no-wrap
-msgid "<a cbot|category>Category</a> of the robot to construct."
-msgstr ""
-
-#. type: \t; header
-#: ../E/factory.txt:13
-#, no-wrap
-msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/factory.txt:14
-#, no-wrap
-msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a <a cbot|file>filename</a> or just a raw source code."
-msgstr ""
-
-#. type: Plain text
-#: ../E/category.txt:6
-#, no-wrap
-msgid "Below are the different categories available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/factory.txt:17
+#: ../E/pencolor.txt:10
 #, no-wrap
 msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
-"<code>== 0 </code>The construction successfully started\n"
-"<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
+"<code>== 0 </code>The color was changed\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/pendown.txt:1
+#, no-wrap
+msgid "Instruction <code>pendown</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pendown.txt:3
+#, no-wrap
+msgid "<c/>pendown ( color, width );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:22
+#: ../E/pendown.txt:4
 #, no-wrap
-msgid "<a cbot|researched>researched</a>, <a cbot|>wait</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgid "The instruction <c/>pendown();<n/> instructs the bot to have the pen down, so it starts drawing."
+msgstr ""
+
+#. type: \t; header
+#: ../E/pendown.txt:9
+#, no-wrap
+msgid "width: <code><a cbot|float>float</a></code> (default value: <code>0.5</code>)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pendown.txt:10 ../E/penwidth.txt:7
+#, no-wrap
+msgid "Width of the pen. The width cannot be higher than <code>1.0</code> and cannot be lower than <code>0.0</code>. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pendown.txt:13
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
+"<code>== 0 </code>The pen is now down\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/penup.txt:1
+#, no-wrap
+msgid "Instruction <code>penup</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/penup.txt:3
+#, no-wrap
+msgid "<c/>penup ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penup.txt:4
+#, no-wrap
+msgid "The instruction <c/>penup();<n/> instructs the bot to have the pen up, so it stops drawing. The pen is up by default, so it should be used only after using <code><a cbot|pendown>pendown</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/penup.txt:7
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
+"<code>== 0 </code>The pen is now up\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/penwidth.txt:1
+#, no-wrap
+msgid "Instruction <code>penwidth</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/penwidth.txt:3
+#, no-wrap
+msgid "<c/>penwidth ( color );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penwidth.txt:4
+#, no-wrap
+msgid "The instruction <c/>penwidth();<n/> instructs the bot to change the width of the pencil."
+msgstr ""
+
+#. type: \t; header
+#: ../E/penwidth.txt:6
+#, no-wrap
+msgid "width: <code><a cbot|float>float</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penwidth.txt:10
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
+"<code>== 0 </code>The width was changed\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/pow.txt:1
+#, no-wrap
+msgid "Instruction <code>pow</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pow.txt:3
+#, no-wrap
+msgid "<c/>pow ( x, y );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:6
+#, no-wrap
+msgid "Base."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:9
+#, no-wrap
+msgid "Exponent."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:12
+#, no-wrap
+msgid "x to the y (x raised to the yth power)."
+msgstr ""
+
+#. type: Source code
+#: ../E/radar.txt:15
+#, no-wrap
+msgid "<c/>radar ( cat, angle, focus, min, max, sens, filter );<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/radar.txt:24
+#, no-wrap
+msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:25 ../E/search.txt:10
+#, no-wrap
+msgid "<c/><s/>int bots[4];"
+msgstr ""
+
+#. type: Source code
+#: ../E/radar.txt:26
+#, no-wrap
+msgid ""
+"bots[0] = WheeledGrabber;\n"
+"bots[1] = TrackedGrabber;\n"
+"bots[2] = WingedGrabber;\n"
+"bots[3] = LeggedGrabber;\n"
+"object nearestGrabber = radar(bots);<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/radar.txt:31
+#, no-wrap
+msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on). Filters may be useful to use with this keyword."
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:33
+#, no-wrap
+msgid "angle: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:39
+#, no-wrap
+msgid "focus: <code><a cbot|float>float</a></code> (default value: <code>360</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:42
+#, no-wrap
+msgid "min: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:45
+#, no-wrap
+msgid "max: <code><a cbot|float>float</a></code> (default value: <code>1000</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:48
+#, no-wrap
+msgid "sens: <code><a cbot|float>float</a></code> (default value: <code>1</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:51
+#, no-wrap
+msgid "filter: <code><a cbot|int>int</a></code> (default value: <code><format const>FilterNone</format></code>)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:52
+#, no-wrap
+msgid "Determines which type of objects should be detected. Especially useful in use with an <a cbot|array>array</a> or <format const>Any</format>. The following filters are available:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:54
+#, no-wrap
+msgid ""
+"<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
+"<code><format const>FilterOnlyLanding</format> </code>Detects only objects being on the ground\n"
+"<code><format const>FilterOnlyFlying</format>  </code>Detects only objects not being on the ground\n"
+"<code><format const>FilterFriendly</format>    </code>Detects only allies (objects in the same team)\n"
+"<code><format const>FilterEnemy</format>       </code>Detects only enemies (objects in an other team except neutral)\n"
+"<code><format const>FilterNeutral</format>     </code>Detects only neutral objects (e.g. resources)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:61
+#, no-wrap
+msgid "The last three are mainly useful in <a battles>code battles</a>. You can also pass a team ID to search only for objects from a specific team. Attention: you should use <format const>FilterNeutral</format> instead of <code>0</code> or else it will not work."
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:63
+#, no-wrap
+msgid "Filters and IDs can be mixed using bitwise OR operator <code>|</code>, for example <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> will only detect an object from team <code>2</code> that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once."
+msgstr ""
+
+#. type: \b; header
+#: ../E/rand.txt:1
+#, no-wrap
+msgid "Instruction <code>rand</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/rand.txt:3
+#, no-wrap
+msgid "<c/>rand ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/rand.txt:6
+#, no-wrap
+msgid "Pseudorandom number between 0 and 1 (including 0, but excluding 1)."
 msgstr ""
 
 #. type: \b; header
@@ -6703,6 +7350,18 @@ msgstr ""
 msgid "<c/><a cbot|object>object</a>.research ( type );<n/>"
 msgstr ""
 
+#. type: Plain text
+#: ../E/research.txt:5
+#, no-wrap
+msgid "Starts a <a cbot|researches>research</a> of the given type."
+msgstr ""
+
+#. type: Plain text
+#: ../E/research.txt:8
+#, no-wrap
+msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>."
+msgstr ""
+
 #. type: \t; header
 #: ../E/research.txt:10
 #, no-wrap
@@ -6710,9 +7369,50 @@ msgid "type: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
+#: ../E/research.txt:14
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
+"<code>== 0 </code>The research successfully started\n"
+"<code>!= 0 </code>The research could not be started (e.g. the research is disabled in the level, no power cell)"
+msgstr ""
+
+#. type: Plain text
 #: ../E/research.txt:19
 #, no-wrap
 msgid "<a cbot|researches>Research names</a>, <a cbot|canresearch>canresearch</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/researched.txt:1
+#, no-wrap
+msgid "Instruction <code>researched</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/researched.txt:3
+#, no-wrap
+msgid "<c/>researched ( research );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:5
+#, no-wrap
+msgid "Checks if the <a cbot|researches>research</a> was done in the level."
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:11
+#, no-wrap
+msgid ""
+"<format const>true</format> if the research was done\n"
+"<format const>false</format> if the research was not done"
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:15
+#, no-wrap
+msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|canresearch>canresearch</a>, <a cbot|canbuild>canbuild</a> <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
@@ -6731,167 +7431,6 @@ msgstr ""
 #: ../E/researches.txt:4
 #, no-wrap
 msgid "In a program, research names are always displayed on a <format const>red background</format>. If a research name is not highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr ""
-
-#. type: Plain text
-#: ../E/researches.txt:28
-#, no-wrap
-msgid "<a cbot>CBOT Language</a>, <a cbot|type>variables</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/busy.txt:1
-#, no-wrap
-msgid "Instruction <code>busy</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/busy.txt:3
-#, no-wrap
-msgid "<c/><a cbot|object>object</a>.busy ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:5
-#, no-wrap
-msgid "Checks if the object is busy."
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:8
-#, no-wrap
-msgid "Any building which can take some action (e.g. <a cbot|convert>Converter</a>)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:11
-#, no-wrap
-msgid ""
-"<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
-"<code><format const>false</format></code> if the object is not doing anything"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:2
-#, no-wrap
-msgid "Use this type for variables that contain the characteristics of an object, be it a bot, a building, some raw material, an enemy, etc. Here are all properties of an object: "
-msgstr ""
-
-#. type: \b; header
-#: ../E/takeoff.txt:1
-#, no-wrap
-msgid "Instruction <code>takeoff</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/takeoff.txt:3
-#, no-wrap
-msgid "<c/><a cbot|object>object</a>.takeoff ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/takeoff.txt:5
-#, no-wrap
-msgid "Takes off the spaceship."
-msgstr ""
-
-#. type: Plain text
-#: ../E/takeoff.txt:8
-#, no-wrap
-msgid "<a object|base>SpaceShip</a>"
-msgstr ""
-
-#. type: Source code
-#: ../E/object.txt:60
-#, no-wrap
-msgid "<code>team</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/object.txt:63
-#, no-wrap
-msgid "<code>velocity</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:64
-#, no-wrap
-msgid "Current velocity of the object. Should be treated as a three-dimensional vector."
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:19
-#, no-wrap
-msgid "Also, some objects have additional methods (instructions). See them in <a cbot>the main list</a> in the <c/>\"Instructions specific for some objects\" section."
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:22
-#, no-wrap
-msgid "The <n/><a cbot|category>category</a> of an object allows you to know what it is, f. ex. what kind of bot, building, enemy, etc."
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:8
-#, no-wrap
-msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>."
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:8
-#, no-wrap
-msgid "Buildings:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:31
-#, no-wrap
-msgid "Portable Objects:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:44
-#, no-wrap
-msgid "Robots:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:76
-#, no-wrap
-msgid "Enemies:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:86
-#, no-wrap
-msgid "Miscellaneous:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:95
-#, no-wrap
-msgid "Flags and Other Indicators:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:5
-#, no-wrap
-msgid "Starts a <a cbot|researches>research</a> of the given type."
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:8 ../E/research.txt:11 ../E/researched.txt:8
-#, no-wrap
-msgid "<a cbot|researches>Research name</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:14
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
-"<code>== 0 </code>The research successfully started\n"
-"<code>!= 0 </code>The research could not be started (e.g. the research is disabled in the level, no power cell)"
 msgstr ""
 
 #. type: Plain text
@@ -6950,360 +7489,39 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/takeoff.txt:11
+#: ../E/researches.txt:28
 #, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
-"<code>== 0 </code>Spaceship takes off\n"
-"<code>!= 0 </code>Spaceship could not take off (e.g. mission is not finished yet)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:61
-#, no-wrap
-msgid "The bot's team. Used in <a battles>code battles</a>. If the object has no team assigned (e.g. in no team-based levels, the object being a resource), this is equal to <code>0</code>."
+msgid "<a cbot>CBOT Language</a>, <a cbot|type>variables</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: ../E/colors.txt:1
+#: ../E/round.txt:1
 #, no-wrap
-msgid "Value <code>Colors</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:2
-#, no-wrap
-msgid "Color names are used to define a specific color to use. They can be passed to functions like <a cbot|pendown>pendown</a> or <a cbot|pencolor>pencolor</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:4
-#, no-wrap
-msgid "In a program, colors are always displayed on a <format const>red background</format>. If a color isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:6
-#, no-wrap
-msgid "Below are the different colors available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:8
-#, no-wrap
-msgid ""
-"<code><format const>White</format></code>\n"
-"<code><format const>Black</format></code>\n"
-"<code><format const>Gray</format></code>\n"
-"<code><format const>LightGray</format></code>\n"
-"<code><format const>Red</format></code>\n"
-"<code><format const>Pink</format></code>\n"
-"<code><format const>Purple</format></code>\n"
-"<code><format const>Orange</format></code>\n"
-"<code><format const>Yellow</format></code>\n"
-"<code><format const>Beige</format></code>\n"
-"<code><format const>Brown</format></code>\n"
-"<code><format const>Skin</format></code>\n"
-"<code><format const>Green</format></code>\n"
-"<code><format const>LightGreen</format></code>\n"
-"<code><format const>Blue</format></code>\n"
-"<code><format const>LightBlue</format></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:25
-#, no-wrap
-msgid "You can also draw colored symbols:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:27
-#, no-wrap
-msgid ""
-"<code><format const>BlackArrow</format></code>\n"
-"<code><format const>RedArrow</format></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:4
-#, no-wrap
-msgid ""
-"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
-"<code><a cbot|point>point</a>  object.position     </code>Position of the object (x,y,z)\n"
-"<code><a cbot|float>float</a>  object.orientation  </code>Orientation of the object (0..360)\n"
-"<code><a cbot|float>float</a>  object.pitch        </code>Forward/backward angle of the object\n"
-"<code><a cbot|float>float</a>  object.roll         </code>Right/left angle of the object \n"
-"<code><a cbot|float>float</a>  object.energyLevel  </code>Energy level (0..1)\n"
-"<code><a cbot|float>float</a>  object.shieldLevel  </code>Shield level (0..1)\n"
-"<code><a cbot|float>float</a>  object.temperature  </code>Jet temperature (0..1)\n"
-"<code><a cbot|float>float</a>  object.altitude     </code>Altitude above ground\n"
-"<code><a cbot|float>float</a>  object.lifeTime     </code>Lifetime of the object\n"
-"<code>object object.energyCell   </code>Power cell on the bot\n"
-"<code>object object.load         </code>Object carried by the bot\n"
-"<code><a cbot|int>int</a>    object.team         </code>The object's team (see <a battles>code battles</a>)\n"
-"<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object"
-msgstr ""
-
-#. type: \b; header
-#: ../E/pencolor.txt:1
-#, no-wrap
-msgid "Instruction <code>pencolor</code>"
+msgid "Instruction <code>round</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/pencolor.txt:3
+#: ../E/round.txt:3
 #, no-wrap
-msgid "<c/>pencolor ( color );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/pencolor.txt:6 ../E/pendown.txt:6
-#, no-wrap
-msgid "color: <code><a cbot|int>int</a></code> (default value: <code>Black</code>)"
+msgid "<c/>round ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/pencolor.txt:7 ../E/pendown.txt:7
+#: ../E/round.txt:4
 #, no-wrap
-msgid "<a cbot|colors>Color name</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/pendown.txt:1
-#, no-wrap
-msgid "Instruction <code>pendown</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/pendown.txt:3
-#, no-wrap
-msgid "<c/>pendown ( color, width );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/pendown.txt:9
-#, no-wrap
-msgid "width: <code><a cbot|float>float</a></code> (default value: <code>0.5</code>)"
+msgid "Rounds a number."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pendown.txt:10 ../E/penwidth.txt:7
+#: ../E/round.txt:10
 #, no-wrap
-msgid "Width of the pen. The width cannot be higher than <code>1.0</code> and cannot be lower than <code>0.0</code>. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible."
+msgid "Rounded <code>value</code>. For example, <code>round(2.5)</code> is <code>3.0</code>, whereas <code>round(2.4)</code> is <code>2.0</code>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pendown.txt:13
+#: ../E/round.txt:13
 #, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
-"<code>== 0 </code>The pen is now down\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: Plain text
-#: ../E/pencolor.txt:4
-#, no-wrap
-msgid "The instruction <c/>pencolor();<n/> instructs the bot to change the color of the pencil."
-msgstr ""
-
-#. type: Plain text
-#: ../E/pencolor.txt:10
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
-"<code>== 0 </code>The color was changed\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: \b; header
-#: ../E/penup.txt:1
-#, no-wrap
-msgid "Instruction <code>penup</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/penup.txt:3
-#, no-wrap
-msgid "<c/>penup ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penup.txt:7
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
-"<code>== 0 </code>The pen is now up\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: \b; header
-#: ../E/penwidth.txt:1
-#, no-wrap
-msgid "Instruction <code>penwidth</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/penwidth.txt:3
-#, no-wrap
-msgid "<c/>penwidth ( color );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penwidth.txt:4
-#, no-wrap
-msgid "The instruction <c/>penwidth();<n/> instructs the bot to change the width of the pencil."
-msgstr ""
-
-#. type: \t; header
-#: ../E/penwidth.txt:6
-#, no-wrap
-msgid "width: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penwidth.txt:10
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
-"<code>== 0 </code>The width was changed\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: Plain text
-#: ../E/pendown.txt:4
-#, no-wrap
-msgid "The instruction <c/>pendown();<n/> instructs the bot to have the pen down, so it starts drawing."
-msgstr ""
-
-#. type: Plain text
-#: ../E/penup.txt:4
-#, no-wrap
-msgid "The instruction <c/>penup();<n/> instructs the bot to have the pen up, so it stops drawing. The pen is up by default, so it should be used only after using <code><a cbot|pendown>pendown</a></code>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/canresearch.txt:1
-#, no-wrap
-msgid "Instruction <code>canresearch</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/canresearch.txt:3
-#, no-wrap
-msgid "<c/>canresearch ( research );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:5
-#, no-wrap
-msgid "Checks if the <a cbot|researches>research</a> can be done in the level."
-msgstr ""
-
-#. type: \t; header
-#: ../E/canresearch.txt:7 ../E/researched.txt:7
-#, no-wrap
-msgid "research: <code><a cbot|int>int</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:11
-#, no-wrap
-msgid ""
-"<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
-"<format const>false</format> if the research cannot be done"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:15
-#, no-wrap
-msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/researched.txt:1
-#, no-wrap
-msgid "Instruction <code>researched</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/researched.txt:3
-#, no-wrap
-msgid "<c/>researched ( research );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:5
-#, no-wrap
-msgid "Checks if the <a cbot|researches>research</a> was done in the level."
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:11
-#, no-wrap
-msgid ""
-"<format const>true</format> if the research was done\n"
-"<format const>false</format> if the research was not done"
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:15
-#, no-wrap
-msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|canresearch>canresearch</a>, <a cbot|canbuild>canbuild</a> <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/flatspace.txt:1
-#, no-wrap
-msgid "Instruction <code>flatspace</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/flatspace.txt:3
-#, no-wrap
-msgid "<c/>flatspace ( center, flatmin, rmin, rmax, dist );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/flatspace.txt:10
-#, no-wrap
-msgid "flatmin: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/flatspace.txt:11
-#, no-wrap
-msgid "Minimum radius of flat ground around the desired position."
-msgstr ""
-
-#. type: Plain text
-#: ../E/flatspace.txt:5
-#, no-wrap
-msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar to <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/function.txt:14
-#, no-wrap
-msgid "Nothing but a name can be changed in the main function. The keyword <code><a cbot|extern>extern</a></code> distinguish the main function from others."
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/radar.txt:24
-#, no-wrap
-msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/detect.txt:12 ../E/radar.txt:23
-#, no-wrap
-msgid "<a cbot|category>Category</a> of the objects that should be detected. For example, when you are looking for an ant, write <code>radar(AlienAnt)</code>. "
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:25 ../E/search.txt:10
-#, no-wrap
-msgid "<c/><s/>int bots[4];"
+msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
 msgstr ""
 
 #. type: Plain text
@@ -7343,67 +7561,45 @@ msgid "position: <code><a cbot|point>point</a></code> (default value: <code><a c
 msgstr ""
 
 #. type: \b; header
-#: ../E/destroy.txt:1
+#: ../E/sin.txt:1
 #, no-wrap
-msgid "Instruction <code>destroy</code>"
+msgid "Instruction <code>sin</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/destroy.txt:3
+#: ../E/sin.txt:3
 #, no-wrap
-msgid "<c/><a cbot|object>object</a>.destroy ( );<n/>"
+msgid "<c/>sin ( angle );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/destroy.txt:5
+#: ../E/sin.txt:9
 #, no-wrap
-msgid "Destroys an object."
+msgid "Sine of the angle."
+msgstr ""
+
+#. type: \b; header
+#: ../E/sqrt.txt:1
+#, no-wrap
+msgid "Instruction <code>sqrt</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/sqrt.txt:3
+#, no-wrap
+msgid "<c/>sqrt ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/destroy.txt:8
+#: ../E/sqrt.txt:6
 #, no-wrap
-msgid "<a object|destroy>Destroyer</a>."
+msgid "Non-negative number."
 msgstr ""
 
 #. type: Plain text
-#: ../E/category.txt:10
+#: ../E/sqrt.txt:9
 #, no-wrap
-msgid ""
-"<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
-"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Spaceship\n"
-"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
-"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
-"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
-"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Information Exchange Post\n"
-"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Repair Center\n"
-"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Defense Tower\n"
-"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Organic Matter Analyzer \n"
-"<button 164/>   <code><a object|station>PowerStation</a>     </code>Power Station\n"
-"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Power Cell Factory\n"
-"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nuclear Plant\n"
-"<button 162/>   <code><a object|convert>Converter</a>        </code>Titanium Converter\n"
-"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
-"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
-"<button 175/>   <code><a object|safe>Vault</a>            </code>Vault\n"
-"       <code><a object|start>StartArea</a>        </code>Starting Pad\n"
-"       <code><a object|goal>GoalArea</a>         </code>Finishing Pad\n"
-"       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
-msgstr ""
-
-#. type: Plain text
-#: ../E/destroy.txt:11
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
-"<code>== 0 </code>The operation of destroying of an object was started\n"
-"<code>!= 0 </code>The instruction could not be done (e.g. nothing to destroy)"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/detect.txt:21 ../E/search.txt:17
-#, no-wrap
-msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on)."
+msgid "Square root of the value."
 msgstr ""
 
 #. type: \b; header
@@ -7416,6 +7612,18 @@ msgstr ""
 #: ../E/switch.txt:2
 #, no-wrap
 msgid "With the instruction <code>switch() {}</code> you can execute a proper set of instructions (a case) basing on some value."
+msgstr ""
+
+#. type: Plain text
+#: ../E/switch.txt:5
+#, no-wrap
+msgid "Note: the <a cbot|busy>busy</a> instruction might be much better to use in this scenario."
+msgstr ""
+
+#. type: Plain text
+#: ../E/switch.txt:7
+#, no-wrap
+msgid "See the following <a cbot|function>function</a>: the bot will be <a cbot|wait>waiting</a> a proper amount of time for a certain task to be completed:"
 msgstr ""
 
 #. type: Source code
@@ -7480,6 +7688,12 @@ msgid ""
 "}"
 msgstr ""
 
+#. type: Plain text
+#: ../E/switch.txt:44
+#, no-wrap
+msgid "<a object|convert>Converter</a> and <a object|factory>bot factory</a> have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not <code><a cbot|break>break</a></code> it."
+msgstr ""
+
 #. type: Source code
 #: ../E/switch.txt:48
 #, no-wrap
@@ -7492,24 +7706,6 @@ msgid ""
 "\tcase valueN: instructionsN\n"
 "\tdefault: instructionsDefault\n"
 "}"
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:5
-#, no-wrap
-msgid "Note: the <a cbot|busy>busy</a> instruction might be much better to use in this scenario."
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:7
-#, no-wrap
-msgid "See the following <a cbot|function>function</a>: the bot will be <a cbot|wait>waiting</a> a proper amount of time for a certain task to be completed:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:44
-#, no-wrap
-msgid "<a object|convert>Converter</a> and <a object|factory>bot factory</a> have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not <code><a cbot|break>break</a></code> it."
 msgstr ""
 
 #. type: Plain text
@@ -7530,275 +7726,94 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/switch.txt:68
-#, no-wrap
-msgid "Do not put a <a cbot|term>semicolon</a> at the end of the <code>switch ( ) { }</code> instruction."
-msgstr ""
-
-#. type: Plain text
 #: ../E/switch.txt:65
 #, no-wrap
 msgid "You can exit from the the <code>switch() {}</code> instruction using <code><a cbot|break>break</a></code>."
 msgstr ""
 
-#. type: \b; header
-#: ../E/detect.txt:1
-#, no-wrap
-msgid "Instruction <code>detect</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/detect.txt:6
-#, no-wrap
-msgid "<c/>detect ( cat );<n/>"
-msgstr ""
-
 #. type: Plain text
-#: ../E/detect.txt:8
+#: ../E/switch.txt:68
 #, no-wrap
-msgid "Detects the nearest object of the specified <a cbot|category>category</a> being in front of the bot. It is similar to the following instruction:"
-msgstr ""
-
-#. type: Source code
-#: ../E/detect.txt:9
-#, no-wrap
-msgid "<c/>radar(cat, 0, 45, 0, 20);<n/>"
-msgstr ""
-
-#. type: Source code
-#: ../E/detect.txt:14
-#, no-wrap
-msgid ""
-"int bots[4];\n"
-"bots[0] = WheeledGrabber;\n"
-"bots[1] = TrackedGrabber;\n"
-"bots[2] = WingedGrabber;\n"
-"bots[3] = LeggedGrabber;\n"
-"object nearestGrabber = radar(bots);"
-msgstr ""
-
-#. type: Plain text
-#: ../E/detect.txt:24
-#, no-wrap
-msgid ""
-"<format const>true</format> if the object was found\n"
-"<format const>false</format> if the object was not found"
+msgid "Do not put a <a cbot|term>semicolon</a> at the end of the <code>switch ( ) { }</code> instruction."
 msgstr ""
 
 #. type: \b; header
-#: ../E/radar.txt:1
+#: ../E/takeoff.txt:1
 #, no-wrap
-msgid "Instruction <code>radar</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:2
-#, no-wrap
-msgid "With the instruction <code>radar()</code>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials."
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:5
-#, no-wrap
-msgid "Write in brackets the <a cbot|category>name of the object</a> that you look for. Put the result in a variable of the <a cbot|type>type</a> <code>object</code>. Here is an example that looks for the closest ant:"
+msgid "Instruction <code>takeoff</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/radar.txt:7
+#: ../E/takeoff.txt:3
+#, no-wrap
+msgid "<c/><a cbot|object>object</a>.takeoff ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:5
+#, no-wrap
+msgid "Takes off the spaceship."
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:8
+#, no-wrap
+msgid "<a object|base>SpaceShip</a>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:11
 #, no-wrap
 msgid ""
-"// At the beginning of the program:\n"
-"object  item; // variable declaration\n"
-"\n"
-"// Look for the closest ant\n"
-"item = radar(AlienAnt);"
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
+"<code>== 0 </code>Spaceship takes off\n"
+"<code>!= 0 </code>Spaceship could not take off (e.g. mission is not finished yet)"
+msgstr ""
+
+#. type: \b; header
+#: ../E/tan.txt:1
+#, no-wrap
+msgid "Instruction <code>tan</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/radar.txt:15
+#: ../E/tan.txt:3
 #, no-wrap
-msgid "<c/>radar ( cat, angle, focus, min, max, sens, filter );<n/>"
+msgid "<c/>tan ( angle );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/radar.txt:17
+#: ../E/tan.txt:6
 #, no-wrap
-msgid "Detects an object according to several parameters. "
-msgstr ""
-
-#. type: Image filename
-#: ../E/radar.txt:19
-#, no-wrap
-msgid "radar1"
+msgid "Angle in degrees (except multiples of 90)."
 msgstr ""
 
 #. type: Plain text
-#: ../E/radar.txt:20
+#: ../E/tan.txt:9
 #, no-wrap
-msgid "Seen from above, the purple zone corresponds to the zone where objects will be detected. "
+msgid "Tangent of the angle."
+msgstr ""
+
+#. type: \b; header
+#: ../E/trunc.txt:1
+#, no-wrap
+msgid "Instruction <code>trunc</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/radar.txt:26
+#: ../E/trunc.txt:3
 #, no-wrap
-msgid ""
-"bots[0] = WheeledGrabber;\n"
-"bots[1] = TrackedGrabber;\n"
-"bots[2] = WingedGrabber;\n"
-"bots[3] = LeggedGrabber;\n"
-"object nearestGrabber = radar(bots);<n/>"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/radar.txt:31
-#, no-wrap
-msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on). Filters may be useful to use with this keyword."
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:33
-#, no-wrap
-msgid "angle: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgid "<c/>trunc ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/radar.txt:34
+#: ../E/trunc.txt:4
 #, no-wrap
-msgid ""
-"Direction that the radar is facing, in degrees. \n"
-"<code>  0</code> -> radar is facing straight ahead\n"
-"<code>-90</code> -> radar is facing a quarter turn right\n"
-"<code> 90</code> -> radar is facing a quarter turn left"
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:39
-#, no-wrap
-msgid "focus: <code><a cbot|float>float</a></code> (default value: <code>360</code>)"
+msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
 msgstr ""
 
 #. type: Plain text
-#: ../E/radar.txt:40
+#: ../E/trunc.txt:10
 #, no-wrap
-msgid "Opening angle of the radar, in degrees. "
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:42
-#, no-wrap
-msgid "min: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:43
-#, no-wrap
-msgid "Minimum detection distance, in meters. Objects that are closer than the minimum distance will not be detected. "
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:45
-#, no-wrap
-msgid "max: <code><a cbot|float>float</a></code> (default value: <code>1000</code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:46
-#, no-wrap
-msgid "Maximum detection distance, in meters. Objects that are farther away than the maximum distance will not be detected. "
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:48
-#, no-wrap
-msgid "sens: <code><a cbot|float>float</a></code> (default value: <code>1</code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:49
-#, no-wrap
-msgid "Determines which way the objects are detected. With value <code>1</code>, returns the closest object found in the specified zone. With value <code>-1</code>, the farthest object in the zone will be returned. "
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:51
-#, no-wrap
-msgid "filter: <code><a cbot|int>int</a></code> (default value: <code><format const>FilterNone</format></code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:52
-#, no-wrap
-msgid "Determines which type of objects should be detected. Especially useful in use with an <a cbot|array>array</a> or <format const>Any</format>. The following filters are available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:54
-#, no-wrap
-msgid ""
-"<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
-"<code><format const>FilterOnlyLanding</format> </code>Detects only objects being on the ground\n"
-"<code><format const>FilterOnlyFlying</format>  </code>Detects only objects not being on the ground\n"
-"<code><format const>FilterFriendly</format>    </code>Detects only allies (objects in the same team)\n"
-"<code><format const>FilterEnemy</format>       </code>Detects only enemies (objects in an other team except neutral)\n"
-"<code><format const>FilterNeutral</format>     </code>Detects only neutral objects (e.g. resources)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:61
-#, no-wrap
-msgid "The last three are mainly useful in <a battles>code battles</a>. You can also pass a team ID to search only for objects from a specific team. Attention: you should use <format const>FilterNeutral</format> instead of <code>0</code> or else it will not work."
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:63
-#, no-wrap
-msgid "Filters and IDs can be mixed using bitwise OR operator <code>|</code>, for example <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> will only detect an object from team <code>2</code> that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once."
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:66
-#, no-wrap
-msgid "Returns the first object found that corresponds to the specified category in the specified zone. If no object was found, returns the value <code><a cbot|null>null</a></code>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:69
-#, no-wrap
-msgid "You do not have to give all the parameters. Here are two examples of instructions that are equivalent: "
-msgstr ""
-
-#. type: Source code
-#: ../E/radar.txt:71
-#, no-wrap
-msgid ""
-"\tradar(Titanium, 0, 360, 0, 1000);\n"
-"\tradar(Titanium);  // equivalent"
-msgstr ""
-
-#. type: Source code
-#: ../E/radar.txt:74
-#, no-wrap
-msgid ""
-"\tradar(Titanium, 0, 90, 0, 1000);\n"
-"\tradar(Titanium, 0, 90);  // equivalent"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:77
-#, no-wrap
-msgid ""
-"When one or more parameters are not specified, the default values indicated above are used instead; only the first parameter is compulsory.\n"
-"Generally, only the first parameter is specified: f. ex. <code>radar (AlienAnt)</code> detects the closest ant, wherever it may be. "
-msgstr ""
-
-#. type: Plain text
-#: ../E/detect.txt:2
-#, no-wrap
-msgid "With the instruction <c/>detect();<n/>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials, which are in front of the bot. It is a simpler version of <c/><a cbot|radar>radar</a>();<n/>."
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/detect.txt:13
-#, no-wrap
-msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:<c/>"
+msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
 msgstr ""

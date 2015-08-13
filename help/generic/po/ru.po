@@ -491,75 +491,6 @@ msgstr ""
 "Хьюстон поздравляет вас от имени всего человечества с успешным выполнением миссии.\n"
 "Большое переселение на Терра Нову начнется очень скоро."
 
-#. type: \t; header
-#: ../E/cbot.txt:111
-#, no-wrap
-msgid "Mathematical functions:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/cbot.txt:60
-#, no-wrap
-msgid ""
-"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
-"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
-"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
-"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
-"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
-"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
-"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
-"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
-"<code><a cbot|build>build</a>      </code>Builds a building\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
-msgstr ""
-
-#. type: Plain text
-#: ../E/cbot.txt:112
-#, no-wrap
-msgid ""
-"<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
-"<code><a cbot|pow>pow</a>        </code>Returns a power\n"
-"<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
-"<code><a cbot|floor>floor</a>      </code>Returns the largest previous integer\n"
-"<code><a cbot|ceil>ceil</a>       </code>Returns the smallest following integer\n"
-"<code><a cbot|round>round</a>      </code>Returns a rounded number\n"
-"<code><a cbot|trunc>trunc</a>      </code>Returns a truncated number\n"
-"<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
-"<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
-"<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
-"<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
-"<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
-"<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
-"<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
-msgstr ""
-
-#. type: \t; header
-#: ../E/cbot.txt:72
-#, no-wrap
-msgid "Instructions specific for some <a cbot|object>objects</a>:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/cbot.txt:73
-#, no-wrap
-msgid ""
-"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
-"<code><a cbot|research>research</a>   </code>Starts a research\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
-"<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
-msgstr ""
-
-#. type: Plain text
-#: ../E/cbot.txt:54
-#, no-wrap
-msgid ""
-"<code><a cbot|space>space</a>      </code>Calculates a free space\n"
-"<code><a cbot|flatspace>flatspace</a>  </code>Calculates a free, flat space\n"
-"<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
-"<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
-msgstr ""
-
 #. type: \b; header
 #: ../E/battles.txt:1
 #, no-wrap
@@ -579,21 +510,15 @@ msgid "Basics of production line"
 msgstr ""
 
 #. type: Plain text
-#: ../E/battles.txt:7
+#: ../E/battles.txt:5
 #, no-wrap
-msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
+msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/battles.txt:41
+#: ../E/battles.txt:7
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Image filename
-#: ../E/battles.txt:12
-#, no-wrap
-msgid "productionline1"
+msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
 msgstr ""
 
 #. type: \t; header
@@ -608,40 +533,16 @@ msgstr ""
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
 msgstr ""
 
+#. type: Image filename
+#: ../E/battles.txt:12
+#, no-wrap
+msgid "productionline1"
+msgstr ""
+
 #. type: \t; header
 #: ../E/battles.txt:14
 #, no-wrap
 msgid "Titanium production"
-msgstr ""
-
-#. type: \t; header
-#: ../E/battles.txt:22
-#, no-wrap
-msgid "Researches"
-msgstr ""
-
-#. type: \t; header
-#: ../E/battles.txt:27
-#, no-wrap
-msgid "Robot production"
-msgstr ""
-
-#. type: \t; header
-#: ../E/battles.txt:33
-#, no-wrap
-msgid "Power cell production"
-msgstr ""
-
-#. type: \t; header
-#: ../E/battles.txt:37
-#, no-wrap
-msgid "There is more"
-msgstr ""
-
-#. type: Plain text
-#: ../E/battles.txt:5
-#, no-wrap
-msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
 msgstr ""
 
 #. type: Plain text
@@ -656,6 +557,12 @@ msgid ""
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
 
+#. type: \t; header
+#: ../E/battles.txt:22
+#, no-wrap
+msgid "Researches"
+msgstr ""
+
 #. type: Plain text
 #: ../E/battles.txt:23
 #, no-wrap
@@ -663,6 +570,12 @@ msgid ""
 "1. <a cbot|build>Build</a> a <a object|research>ResearchCenter</a>.\n"
 "2. Power it with a <a object|power>PowerCell</a>.\n"
 "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
+msgstr ""
+
+#. type: \t; header
+#: ../E/battles.txt:27
+#, no-wrap
+msgid "Robot production"
 msgstr ""
 
 #. type: Plain text
@@ -675,6 +588,12 @@ msgid ""
 "4. Power the robot with a <a object|power>PowerCell</a>."
 msgstr ""
 
+#. type: \t; header
+#: ../E/battles.txt:33
+#, no-wrap
+msgid "Power cell production"
+msgstr ""
+
 #. type: Plain text
 #: ../E/battles.txt:34
 #, no-wrap
@@ -683,10 +602,22 @@ msgid ""
 "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
 msgstr ""
 
+#. type: \t; header
+#: ../E/battles.txt:37
+#, no-wrap
+msgid "There is more"
+msgstr ""
+
 #. type: Plain text
 #: ../E/battles.txt:38
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
+msgstr ""
+
+#. type: Plain text
+#: ../E/battles.txt:41
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: Plain text
@@ -734,4 +665,73 @@ msgid ""
 "<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
 "<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:54
+#, no-wrap
+msgid ""
+"<code><a cbot|space>space</a>      </code>Calculates a free space\n"
+"<code><a cbot|flatspace>flatspace</a>  </code>Calculates a free, flat space\n"
+"<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:60
+#, no-wrap
+msgid ""
+"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
+"<code><a cbot|build>build</a>      </code>Builds a building\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cbot.txt:72
+#, no-wrap
+msgid "Instructions specific for some <a cbot|object>objects</a>:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:73
+#, no-wrap
+msgid ""
+"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+"<code><a cbot|research>research</a>   </code>Starts a research\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
+"<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cbot.txt:111
+#, no-wrap
+msgid "Mathematical functions:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:112
+#, no-wrap
+msgid ""
+"<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
+"<code><a cbot|pow>pow</a>        </code>Returns a power\n"
+"<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
+"<code><a cbot|floor>floor</a>      </code>Returns the largest previous integer\n"
+"<code><a cbot|ceil>ceil</a>       </code>Returns the smallest following integer\n"
+"<code><a cbot|round>round</a>      </code>Returns a rounded number\n"
+"<code><a cbot|trunc>trunc</a>      </code>Returns a truncated number\n"
+"<code><a cbot|sin>sin</a>        </code>Returns a sine\n"
+"<code><a cbot|cos>cos</a>        </code>Returns a cosine\n"
+"<code><a cbot|tan>tan</a>        </code>Returns a tangent\n"
+"<code><a cbot|asin>asin</a>       </code>Returns an arcus sine\n"
+"<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
+"<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
+"<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
 msgstr ""
