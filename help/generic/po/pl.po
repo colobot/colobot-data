@@ -82,35 +82,17 @@ msgstr ""
 msgid "<code><format token>Instructions</format></code>"
 msgstr "<code><format token>Instrukcje</format></code>"
 
-#. type: Plain text
-#: ../E/cbot.txt:6
-#, no-wrap
-msgid "In the program editor, an instruction in the CBOT language is always displayed on an orange background. If an instruction hasn't got an orange background, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr "W edytorze programu, instrukcje języka CBOT są zawsze wyświetlane na pomarańczowym tle. Jeśli jest inaczej, oznacza to literówkę w nazwie instrukcji. Nazwy instrukcji są zawsze pisane małymi literami. "
-
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
 msgstr "<code><format type>Typy</format></code>"
 
-#. type: Plain text
-#: ../E/cbot.txt:9
-#, no-wrap
-msgid "The <a cbot|type>type</a> of a variable appears with a green background. "
-msgstr "<a cbot|type>Typ</a> zmiennej wyświetlany jest na zielonym tle. "
-
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:11
 #, no-wrap
 msgid "<code><format const>Constants</format></code>"
 msgstr "<code><format const>Stałe</format></code>"
-
-#. type: Plain text
-#: ../E/cbot.txt:12
-#, no-wrap
-msgid "Constants like <a cbot|category>categories</a> are displayed with a red background. "
-msgstr "Stałe, podobnie jak <a cbot|category>kategorie</a>, wyświetlane są na czerwonym tle. "
 
 #. type: \t; header
 #: ../E/cbot.txt:14
@@ -763,4 +745,22 @@ msgid ""
 "<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:6
+#, no-wrap
+msgid "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:9
+#, no-wrap
+msgid "The <a cbot|type>type</a> of a variable appears like that: <format type>type</format>. "
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:12
+#, no-wrap
+msgid "Constants like <a cbot|category>categories</a> are displayed like that: <format const>constant</format>. "
 msgstr ""

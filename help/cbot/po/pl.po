@@ -443,12 +443,6 @@ msgid "Categories represent the names of objects in the CBOT language. Everythin
 msgstr "Kategorie to nazwy obiektów języka CBOT. W grze COLOBOT wszystko to obiekty: roboty, budynki, surowce, itd., nawet Ty."
 
 #. type: Plain text
-#: ../E/category.txt:4
-#, no-wrap
-msgid "In a program, categories are always displayed on a <format const>red background</format>. If a category isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr "W programie kategorie są wyświetlane na <format const>czerwonym tle</format>. Jeśli kategoria nie jest podświetlona na czerwono, w jej nazwie jest literówka. Wielkie i małe litery powinny być zachowane."
-
-#. type: Plain text
 #: ../E/category.txt:33
 #, no-wrap
 msgid ""
@@ -5388,12 +5382,6 @@ msgstr "typ"
 msgid "Once you defined a variable, you can use it to put information in it. However, the information that a variable can contain must always be of the correct type: a variable of type <a cbot|float>float</a> can not contain a string, etc."
 msgstr "Po zdefiniowaniu zmiennej można w niej umieszczać informacje. Jednakże informacja, którą może przechowywać zmienna musi być odpowiedniego typu: zmienna typu <a cbot|float>float</a> nie może zawierać łańcucha itd."
 
-#. type: Plain text
-#: ../E/type.txt:9
-#, no-wrap
-msgid "In a program, the name of a type is always written on <format type>green background</format>. If the name of a type is not colored, this means that the name is misspelled. Type names are always written with lower case characters. Here is a list of the different types: "
-msgstr "W programie typy zmiennych wyświetlane są na <format type>zielonym tle</format>. Jeśli jest inaczej, prawdopodobnie w nazwie jest literówka. Nazwy typów są zawsze zapisywane małymi literami. Oto lista różnych typów: "
-
 #. type: Source code
 #: ../E/type.txt:11
 #, no-wrap
@@ -7863,4 +7851,16 @@ msgstr ""
 #: ../E/trunc.txt:10
 #, no-wrap
 msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:4
+#, no-wrap
+msgid "In a program, categories are always displayed like that: <format const>category</format>. If a category isn't highlighted, it is misspelled. Caps and lower cases should be kept as is."
+msgstr ""
+
+#. type: Plain text
+#: ../E/type.txt:9
+#, no-wrap
+msgid "In a program, the name of a type is always displayed like that: <format type>type</format>. If the name of a type is not highlighted, this means that the name is misspelled. Type names are always written with lower case characters. Here is a list of the different types: "
 msgstr ""
