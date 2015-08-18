@@ -1,10 +1,10 @@
 \b;Instruction \c;strlen\n;
 Get the length of a string.
 
-Syntax¦:
+Syntax:
 \s;\c;strlen ( string );\n;
 
-Examples¦:
+Examples:
 \s;\c;	int len = strlen("abc");  // len is 3
 \s;	int len = strlen("");  // len is 0
 \s;	if ( strlen(s) == 0 )  // is string empty ?

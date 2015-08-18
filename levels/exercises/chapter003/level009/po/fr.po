@@ -45,7 +45,7 @@ msgstr "Exercice"
 #, no-wrap
 msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
-"The main actors of this exercise are¦:"
+"The main actors of this exercise are:"
 msgstr "Télécommandez un robot par le biais d'une <a object|exchange>borne d'information</a> pour qu'il déplace du <a object|uranore>minerai d'uranium</a>. Les 3 acteurs principaux de cet exercice sont:"
 
 #. type: Bullet: '1)'
@@ -75,7 +75,7 @@ msgstr "tremot1a"
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple¦:"
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple:"
 msgstr "Une borne stocke des couples \"nom/valeur\". Pour commander le robot esclave, nous avons choisi d'utiliser un seul couple:"
 
 #. type: Plain text
@@ -87,7 +87,7 @@ msgstr "    nom=\"order\", valeur=numéro de l'opération à effectuer"
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "The slace robot understands following orders¦:"
+msgid "The slace robot understands following orders:"
 msgstr "Les ordres suivants sont compris par le robot esclave:"
 
 #. type: Plain text
@@ -108,7 +108,7 @@ msgstr ""
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid ""
-"To instruct the slave to move forward 10 meters all you have to do is¦:\n"
+"To instruct the slave to move forward 10 meters all you have to do is:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
 "Par exemple, pour demander au robot esclave d'avancer de 10 mètres, il faut utiliser l'instruction <code><a cbot|send>send</a></code> et écrire:\n"
@@ -133,7 +133,7 @@ msgstr "Remarque: Il existe une meilleure façon d'attendre l'exécution de l'or
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
-msgid "To finish the exercise you must¦:"
+msgid "To finish the exercise you must:"
 msgstr "Pour effectuer cet exercice, il faut:"
 
 #. type: Bullet: '1)'

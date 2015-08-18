@@ -79,8 +79,8 @@ msgstr "Ведомый"
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> <code>order</code> содержит в себе две части: <code>m_type</code> для заявок на выполнение (движение или поворот) и <code>m_param</code> для дистанции или угла поворота¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> <code>order</code> содержит в себе две части: <code>m_type</code> для заявок на выполнение (движение или поворот) и <code>m_param</code> для дистанции или угла поворота:"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
@@ -147,8 +147,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
-msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>¦:"
-msgstr "Другой метод <code>get</code> может быть использован ведомым ботом для получения задания. Этот метод возвращает выполненную заявку. Если лист пустой, будет возвращено значение <code>null</code> и бот будет ждать следующих команд. В противном случае первая заявка в списке будет возвращена, а оставшиеся будут \"продвинуты вверх\". Если массив не может быть \"укорочен\", то мы будем использовать временной массив <code>copy</code>¦:"
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>:"
+msgstr "Другой метод <code>get</code> может быть использован ведомым ботом для получения задания. Этот метод возвращает выполненную заявку. Если лист пустой, будет возвращено значение <code>null</code> и бот будет ждать следующих команд. В противном случае первая заявка в списке будет возвращена, а оставшиеся будут \"продвинуты вверх\". Если массив не может быть \"укорочен\", то мы будем использовать временной массив <code>copy</code>:"
 
 #. type: Plain text
 #: ../help/help.E.txt:33

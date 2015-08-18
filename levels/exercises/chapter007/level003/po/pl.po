@@ -50,7 +50,7 @@ msgstr "Pokieruj zdalnie robotem podległym bez używania <a object|exchange>sta
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The two main actors of this exercise are:"
-msgstr "Dwoma głównymi postaciami tego ćwiczenia są¦:"
+msgstr "Dwoma głównymi postaciami tego ćwiczenia są:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
@@ -79,8 +79,8 @@ msgstr "Robot podległy"
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Najpierw musimy zrozumieć jak działa program robota podległego. <a cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: <code>m_type</code> jest rozkazem do wykonania (move lub turn), a <code>m_param</code> jest odległością do pokonania lub kątem obrotu¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Najpierw musimy zrozumieć jak działa program robota podległego. <a cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: <code>m_type</code> jest rozkazem do wykonania (move lub turn), a <code>m_param</code> jest odległością do pokonania lub kątem obrotu:"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
@@ -147,8 +147,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
-msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>¦:"
-msgstr "Kolejna metoda <code>get</code> będzie używana przez robota podległego do otrzymywania rozkazów. Metoda ta jako wynik zwraca rozkaz do wykonania. Jeśli lista jest pusta, zostanie zwrócona wartość <code>null</code> i robot powinien czekać na więcej rozkazów. W przeciwnym przypadku powinien zostać zwrócony pierwszy rozkaz na liście, a pozostałe muszą zostać \"przesunięte\". Ponieważ tablica nie może być \"skrócona\", używamy pomocniczej tablicy <code>copy</code>¦:"
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>:"
+msgstr "Kolejna metoda <code>get</code> będzie używana przez robota podległego do otrzymywania rozkazów. Metoda ta jako wynik zwraca rozkaz do wykonania. Jeśli lista jest pusta, zostanie zwrócona wartość <code>null</code> i robot powinien czekać na więcej rozkazów. W przeciwnym przypadku powinien zostać zwrócony pierwszy rozkaz na liście, a pozostałe muszą zostać \"przesunięte\". Ponieważ tablica nie może być \"skrócona\", używamy pomocniczej tablicy <code>copy</code>:"
 
 #. type: Plain text
 #: ../help/help.E.txt:33

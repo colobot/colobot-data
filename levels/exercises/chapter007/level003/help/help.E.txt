@@ -8,7 +8,7 @@ The two main actors of this exercise are:
 The orders shall be stored, so the master will be able to transmit several orders without waiting for each order being processed. We use an \l;array\u cbot\array; for this purpose.
 
 \b;The slave
-First of all we must understand how the program of the slave works. The \l;class\u cbot\class; \c;order\n; contains two members: \c;m_type\n; is the order to execute (move or turn) and \c;m_param\n; is the distance to move or the rotation angle¦:
+First of all we must understand how the program of the slave works. The \l;class\u cbot\class; \c;order\n; contains two members: \c;m_type\n; is the order to execute (move or turn) and \c;m_param\n; is the distance to move or the rotation angle:
 
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
 \s;{
@@ -28,7 +28,7 @@ The \c;put\n; method will be used by the master robot for transmitting an order.
 \s;		m_fifo[sizeof(m_fifo)] = a;
 \s;	}
 \n;
-Another method \c;get\n; will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, \c;null\n; will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be "scrolled up". As an array can not be "shortened" we use a temporary array \c;copy\n;¦:
+Another method \c;get\n; will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, \c;null\n; will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be "scrolled up". As an array can not be "shortened" we use a temporary array \c;copy\n;:
 
 \c;\s;	\l;synchronized\u cbot\synchro; order get()
 \s;	{

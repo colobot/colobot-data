@@ -45,10 +45,10 @@ msgstr "Упражнение"
 #, no-wrap
 msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
-"The main actors of this exercise are¦:"
+"The main actors of this exercise are:"
 msgstr ""
 "Написать программу для бота так, чтобы он мог транспортировать <a object|uranore>урановую руду</a>, используя <a object|exchange>пост обмена информацией</a> как пульт дистанционного управления.\n"
-"Что потребуется¦:"
+"Что потребуется:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
@@ -77,8 +77,8 @@ msgstr "tremot1a"
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple¦:"
-msgstr "Пост обмена информацией хранит данные в виде \"name/value\"(имя/значение) только парами. Для управления ботом нам потребуется только одна такая пара ¦:"
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple:"
+msgstr "Пост обмена информацией хранит данные в виде \"name/value\"(имя/значение) только парами. Для управления ботом нам потребуется только одна такая пара :"
 
 #. type: Plain text
 #: ../help/help.E.txt:12
@@ -89,8 +89,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "The slace robot understands following orders¦:"
-msgstr "Робот понимает следующие команды(вместо значения order number)¦:"
+msgid "The slace robot understands following orders:"
+msgstr "Робот понимает следующие команды(вместо значения order number):"
 
 #. type: Plain text
 #: ../help/help.E.txt:16
@@ -110,10 +110,10 @@ msgstr ""
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid ""
-"To instruct the slave to move forward 10 meters all you have to do is¦:\n"
+"To instruct the slave to move forward 10 meters all you have to do is:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
-"Для того, чтобы бот двигался вперед на 10 метров, ему нужно подать инструкции¦:\n"
+"Для того, чтобы бот двигался вперед на 10 метров, ему нужно подать инструкции:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 
 #. type: Plain text
@@ -135,8 +135,8 @@ msgstr "Примечание: Существует более лучший сп�
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
-msgid "To finish the exercise you must¦:"
-msgstr "Для завершения упражнения вы должны¦:"
+msgid "To finish the exercise you must:"
+msgstr "Для завершения упражнения вы должны:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:31

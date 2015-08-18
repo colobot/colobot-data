@@ -8,7 +8,7 @@ Use the syntax above for declaring a file handle. You must use () to create an i
 Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files elsewhere than in the files/ folder.
 
 \b;For specialists
-\c;file\n; is actually not a simple type but a class. \c;open\n;, \c;close\n;, \c;writeln\n; etc. are methods of the \c;file\n; class. This is the reason why we always write \c;handle.method()\n;¦:
+\c;file\n; is actually not a simple type but a class. \c;open\n;, \c;close\n;, \c;writeln\n; etc. are methods of the \c;file\n; class. This is the reason why we always write \c;handle.method()\n;:
 \c;
 \s;	handle.open("test.txt", "w");
 \s;	handle.close();

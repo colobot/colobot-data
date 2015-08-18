@@ -50,7 +50,7 @@ msgstr "Pokieruj zdalnie robotem podległym bez używania <a object|exchange>sta
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The two main actors of this exercise are:"
-msgstr "Dwoma głównymi postaciami tego ćwiczenia są¦:"
+msgstr "Dwoma głównymi postaciami tego ćwiczenia są:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
@@ -73,8 +73,8 @@ msgstr "Robot podległy"
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Najpierw musimy zrozumieć jak działa program robota podległego. <a cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: <code>m_type</code> jest rozkazem do wykonania (move lub turn), a <code>m_param</code> jest odległością do pokonania lub kątem obrotu¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Najpierw musimy zrozumieć jak działa program robota podległego. <a cbot|class>Klasa</a> <code>order</code> zawiera dwa elementy: <code>m_type</code> jest rozkazem do wykonania (move lub turn), a <code>m_param</code> jest odległością do pokonania lub kątem obrotu:"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
@@ -121,8 +121,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing¦:"
-msgstr "<n/>Metoda <code>put</code> będzie używana przez robota nadrzędnego do przesyłania rozkazów. Jeśli zmienna <code>m_order</code> jest różna od <code><a cbot|nan>nan</a></code>, robot podległy nie zakończył wykonywania rozkazu a metoda <code>put</code> zwróci wartość <code>false</code> i niczego nie zrobi¦:"
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing:"
+msgstr "<n/>Metoda <code>put</code> będzie używana przez robota nadrzędnego do przesyłania rozkazów. Jeśli zmienna <code>m_order</code> jest różna od <code><a cbot|nan>nan</a></code>, robot podległy nie zakończył wykonywania rozkazu a metoda <code>put</code> zwróci wartość <code>false</code> i niczego nie zrobi:"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
@@ -307,8 +307,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:86
 #, no-wrap
-msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent¦:"
-msgstr "Po zakończeniu wykonywania rozkazu, należy wywołać metodę <code>delete</code>, aby powiadomić robota nadrzędnego, że może już przesłać następny rozkaz¦:"
+msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent:"
+msgstr "Po zakończeniu wykonywania rozkazu, należy wywołać metodę <code>delete</code>, aby powiadomić robota nadrzędnego, że może już przesłać następny rozkaz:"
 
 #. type: Plain text
 #: ../help/help.E.txt:88

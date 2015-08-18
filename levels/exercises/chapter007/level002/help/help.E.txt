@@ -6,7 +6,7 @@ The two main actors of this exercise are:
 2) The slave \l;practice bot\u object\bottr; which is already programmed and just waits for orders from the master.
 
 \b;The slave
-First of all we must understand how the program of the slave works. The \l;class\u cbot\class; \c;order\n; contains two members: \c;m_type\n; is the order to execute (move or turn) and \c;m_param\n; is the distance to move or the rotation angle¦:
+First of all we must understand how the program of the slave works. The \l;class\u cbot\class; \c;order\n; contains two members: \c;m_type\n; is the order to execute (move or turn) and \c;m_param\n; is the distance to move or the rotation angle:
 
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
 \s;{
@@ -20,7 +20,7 @@ A second \l;class\u cbot\class; \c;exchange\n; contains the mechanism for exchan
 \s;{
 \s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_order = new order;
 \n;
-\n;The \c;put\n; method will be used by the master robot for transmitting an order. As long as \c;m_order\n; is different from \c;\l;nan\u cbot\nan;\n;, the slave has not finished the order and the \c;put\n; method will return \c;false\n; and will do nothing¦:
+\n;The \c;put\n; method will be used by the master robot for transmitting an order. As long as \c;m_order\n; is different from \c;\l;nan\u cbot\nan;\n;, the slave has not finished the order and the \c;put\n; method will return \c;false\n; and will do nothing:
 
 \c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(order a)
 \s;	{
@@ -83,7 +83,7 @@ Now we have received the order in the \c;todo\n; variable. All we have to do is 
 \s;			message("Unknown order");
 \s;		}
 \n;
-As soon as the execution of the order is finished, we must call the \c;delete\n; method so the master knows that another order can be sent¦:
+As soon as the execution of the order is finished, we must call the \c;delete\n; method so the master knows that another order can be sent:
 
 \c;\s;		list.delete();
 \s;	}

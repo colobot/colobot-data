@@ -73,8 +73,8 @@ msgstr "Ведомый"
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> <code>order</code> содержит в себе две части: <code>m_type</code> для заявок на выполнение (движение или поворот) и <code>m_param</code> для дистанции или угла поворота¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Прежде всего нужно понять, как программа работает. <a cbot|class>Класс</a> <code>order</code> содержит в себе две части: <code>m_type</code> для заявок на выполнение (движение или поворот) и <code>m_param</code> для дистанции или угла поворота:"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
@@ -121,8 +121,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing¦:"
-msgstr "Метод <code>\"put\"</code> позволит ведущему боту передавать команды. Пока значение переменной <code>m_order</code> отличается от <code><a cbot|nan>nan</a></code>, ведомый бот не закончит работу и метод <code>put</code> вернет <code>ложь</code>(т.е. бот ничего не будет делать)¦:"
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing:"
+msgstr "Метод <code>\"put\"</code> позволит ведущему боту передавать команды. Пока значение переменной <code>m_order</code> отличается от <code><a cbot|nan>nan</a></code>, ведомый бот не закончит работу и метод <code>put</code> вернет <code>ложь</code>(т.е. бот ничего не будет делать):"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
@@ -236,7 +236,7 @@ msgstr ""
 #: ../help/help.E.txt:60
 #, no-wrap
 msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a value different from <code>nan</code>, the while loop stops."
-msgstr "Внешний <code>цикл</code> длится вечно. Внутренний <code>цикл</code> ждет заявку с помощью метода <code>get</code> и <code>exchange</code> класса. Как только метод <code>get</code> вернет значение, отличное от <code>nan</code>, цикл остановится."
+msgstr "Внешний <code>цикл</code> длится вечно. Внутренний <code>цикл</code> ждет заявку с помощью метода <code>get</code> и <code>exchange</code> класса. Как только метод <code>get</code> вернет значение, отличное от <code>nan</code>, цикл останови��ся."
 
 #. type: Plain text
 #: ../help/help.E.txt:62
@@ -307,8 +307,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:86
 #, no-wrap
-msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent¦:"
-msgstr "Как только поданая заявка выполнена, мы можем использовать метод <code>delete</code>, чтобы ведущий бот знал, что ожидается следущая заявка¦:"
+msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent:"
+msgstr "Как только поданая заявка выполнена, мы можем использовать метод <code>delete</code>, чтобы ведущий бот знал, что ожидается следущая заявка:"
 
 #. type: Plain text
 #: ../help/help.E.txt:88

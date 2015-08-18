@@ -1,9 +1,9 @@
 \b;Instruction \c;eof\n;
-Test the end of file condition of an open file. This is a method of the \c;\l;file\u cbot\file;\n; class; therefore you cannot write  \c;eof()\n; but only \c;handle.eof()\n;¦:
+Test the end of file condition of an open file. This is a method of the \c;\l;file\u cbot\file;\n; class; therefore you cannot write  \c;eof()\n; but only \c;handle.eof()\n;:
 \c;
 \s;	if ( handle.eof() )  
 \n;
-Example¦:
+Example:
 \c;
 \s;	while ( not handle.eof() )
 \s;	{

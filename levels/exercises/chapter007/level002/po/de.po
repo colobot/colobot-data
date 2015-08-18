@@ -73,8 +73,8 @@ msgstr "Der Slave"
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
-msgstr "Zu allererst müssen wir klären, wie der Slave funktioniert. Die <a cbot|class>Klasse</a> <code>order</code> besitzt zwei Variablen: <code>m_type</code> ist der auszuführende Befehl (bewegen oder drehen) und <code>m_param</code> ist die Entfernung oder der Drehungswinkel¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Zu allererst müssen wir klären, wie der Slave funktioniert. Die <a cbot|class>Klasse</a> <code>order</code> besitzt zwei Variablen: <code>m_type</code> ist der auszuführende Befehl (bewegen oder drehen) und <code>m_param</code> ist die Entfernung oder der Drehungswinkel:"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
@@ -121,8 +121,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing¦:"
-msgstr "<n/>Die Methode <code>put</code> wird vom Master dazu verwendet, Befehle zu übermitteln. Solange <code>m_order</code> nicht <code><a cbot|nan>nan</a></code> ist, hat der Slave seinen Befehl noch nicht abgearbeitet und die Methode <code>put</code> gibt <code>false</code> zurück und tut sonst nichts¦:"
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing:"
+msgstr "<n/>Die Methode <code>put</code> wird vom Master dazu verwendet, Befehle zu übermitteln. Solange <code>m_order</code> nicht <code><a cbot|nan>nan</a></code> ist, hat der Slave seinen Befehl noch nicht abgearbeitet und die Methode <code>put</code> gibt <code>false</code> zurück und tut sonst nichts:"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
@@ -307,8 +307,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:86
 #, no-wrap
-msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent¦:"
-msgstr "Wenn wir einen Befehl vollständig bearbeitet haben, müssen wir die Methode <code>delete</code> aufrufen, damit der Master weiß, dass er den nächsten Befehl senden kann¦:"
+msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent:"
+msgstr "Wenn wir einen Befehl vollständig bearbeitet haben, müssen wir die Methode <code>delete</code> aufrufen, damit der Master weiß, dass er den nächsten Befehl senden kann:"
 
 #. type: Plain text
 #: ../help/help.E.txt:88

@@ -73,7 +73,7 @@ msgstr "Le robot récepteur"
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
 msgstr ""
 "Pour commencer, il faut comprendre le programme du robot d'entraînement qui attend les ordres.\n"
 "Une <a cbot|class>classe</a> <code>order</code> contient deux variables: <code>global_type</code> détermine l'ordre à effectuer (avancer ou tourner) et <code>global_param</code> détermine la distance à avancer ou l'angle de rotation:"
@@ -123,7 +123,7 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing¦:"
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as <code>m_order</code> is different from <code><a cbot|nan>nan</a></code>, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing:"
 msgstr "Une première méthode <code>put</code> sera utilisée par le robot émetteur pour donner un ordre. Si l'ordre est différent de <code><a cbot|nan>nan</a></code>, cela signifie qu'il n'a pas encore été effectué par le robot récepteur. Dans ce cas, la méthode <code>get</code> ne fait rien et retourne <code>false</code>:"
 
 #. type: Plain text
@@ -309,7 +309,7 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:86
 #, no-wrap
-msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent¦:"
+msgid "As soon as the execution of the order is finished, we must call the <code>delete</code> method so the master knows that another order can be sent:"
 msgstr "Dès que l'exécution de l'ordre est terminée, il faut appeler la méthode <code>delete</code> pour indiquer au robot émetteur qu'il peut envoyer l'ordre suivant:"
 
 #. type: Plain text

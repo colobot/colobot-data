@@ -45,10 +45,10 @@ msgstr "Ćwiczenie"
 #, no-wrap
 msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
-"The main actors of this exercise are¦:"
+"The main actors of this exercise are:"
 msgstr ""
 "Pokieruj zdalnie robotem, używając <a object|exchange>stacji przekaźnikowej informacji</a>, aby przetransportować <a object|uranore>rudę uranu</a>.\n"
-"Głównymi postaciami tego ćwiczenia są¦:"
+"Głównymi postaciami tego ćwiczenia są:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
@@ -77,8 +77,8 @@ msgstr "tremot1a"
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple¦:"
-msgstr "Stacja przekaźnikowa informacji przechowuje pary \"nazwa/wartość\". Aby kontrolować robota podległego wystarczy użyć tylko jednej pary¦:"
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple:"
+msgstr "Stacja przekaźnikowa informacji przechowuje pary \"nazwa/wartość\". Aby kontrolować robota podległego wystarczy użyć tylko jednej pary:"
 
 #. type: Plain text
 #: ../help/help.E.txt:12
@@ -89,8 +89,8 @@ msgstr "    nazwa=\"order\", wartoscr=numer rozkazu"
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "The slace robot understands following orders¦:"
-msgstr "Robot odbiorca rozumie następujące rozkazy¦:"
+msgid "The slace robot understands following orders:"
+msgstr "Robot odbiorca rozumie następujące rozkazy:"
 
 #. type: Plain text
 #: ../help/help.E.txt:16
@@ -110,10 +110,10 @@ msgstr ""
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid ""
-"To instruct the slave to move forward 10 meters all you have to do is¦:\n"
+"To instruct the slave to move forward 10 meters all you have to do is:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
-"Aby rozkazać robotowi podległemu przemieścić się 10 metrów naprzód, wystarczy napisać¦:\n"
+"Aby rozkazać robotowi podległemu przemieścić się 10 metrów naprzód, wystarczy napisać:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 
 #. type: Plain text
@@ -135,8 +135,8 @@ msgstr "Wskazówka: Jest lepszy sposób na czekanie na zakończenie wykonywania 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
-msgid "To finish the exercise you must¦:"
-msgstr "Aby zakończyć ćwiczenie, robot musi¦:"
+msgid "To finish the exercise you must:"
+msgstr "Aby zakończyć ćwiczenie, robot musi:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:31

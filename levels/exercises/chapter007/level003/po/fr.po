@@ -79,7 +79,7 @@ msgstr "Le robot récepteur"
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle¦:"
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
 msgstr ""
 "Pour commencer, il faut comprendre le programme du robot d'entraînement qui attend les ordres.\n"
 "Une <a cbot|class>classe</a> <code>order</code> contient deux variables: <code>global_type</code> détermine l'ordre à effectuer (avancer ou tourner) et <code>global_param</code> détermine la distance à avancer ou l'angle de rotation:"
@@ -151,7 +151,7 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
-msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>¦:"
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>:"
 msgstr "Une deuxième méthode <code>get</code> sera utilisée par le robot récepteur pour prendre connaissance d'un ordre à effectuer. Si la liste est vide, on retourne <code>null</code> et le robot devra attendre. Dans le cas contraire, il faut retourner le premier ordre de la liste, et décaler tout le contenu de la liste vers le haut. Pour cela, il est nécessaire d'utiliser une nouvelle liste intermédiaire <code>copy</code>, car une liste existante n'est jamais raccourcie:"
 
 #. type: Plain text

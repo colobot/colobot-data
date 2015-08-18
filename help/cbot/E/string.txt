@@ -13,13 +13,13 @@ You can append two strings with the \c;+\n; operator :
 Returns the string:
 \s;\c;	"Good morning, Sir"
 \n;
-If you want to put a quotation mark (") or a backslash (\) in a string you must write¦:
+If you want to put a quotation mark (") or a backslash (\) in a string you must write:
 \s;\c;"This is \"very\" important"
 \n;which will result in the string \c; This is "very" important.
 \s;\c;"%user%\\ant.txt"
 \n;will result in \c;%user%\ant.txt
 \n;
-Following instructions can be used with strings¦:
+Following instructions can be used with strings:
 \c;\l;strlen\u cbot\strlen;     \n;Get string length
 \c;\l;strleft\u cbot\strleft;    \n;Extract left part
 \c;\l;strright\u cbot\strright;   \n;Extract right part

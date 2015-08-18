@@ -1,13 +1,13 @@
 \b;Instruction \c;strleft\n;
 Extracts the first (that is, leftmost) characters from a string.
 
-Syntax¦:
+Syntax:
 \s;\c;strleft ( string, len );\n;
 
 \t;len: \c;\l;int\u cbot\int;\n;
 Number of characters to be extracted.
 
-Examples¦:
+Examples:
 \s;\c;	string s = strleft("abcdef", 2);  // s is "ab"
 \s;	string s = strleft("abc", 10);  // s is "abc"
 \n;
