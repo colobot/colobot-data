@@ -7,9 +7,11 @@ EndingFile win=-1 lost=-1
 Audio filename="music002.ogg"
 
 #Include file="levels/missions/chapter001/planet.txt"
+ForegroundName image="lens5.png"
 TerrainRelief image="relief11.png" factor=1.0
 TerrainResource image="res05.png"
 #Include file="levels/missions/chapter001/terrain.txt"
+TerrainCloud image="cloud09.png" level=125.0
 TerrainCreate
 
 GroundSpot pos= 0; 0 radius=40 color=0.863;0.667;0.627 // vaisseau
