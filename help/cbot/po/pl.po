@@ -7895,12 +7895,6 @@ msgstr ""
 msgid "Immediately creates an <a cbot|category>object</a>."
 msgstr ""
 
-#. type: Plain text
-#: ../E/produce.txt:10
-#, no-wrap
-msgid "Where object will be created."
-msgstr ""
-
 #. type: \t; header
 #: ../E/produce.txt:12
 #, no-wrap
@@ -7923,12 +7917,6 @@ msgstr ""
 #: ../E/produce.txt:18
 #, no-wrap
 msgid "program: <code><a cbot|string>string</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/produce.txt:19
-#, no-wrap
-msgid "Program for the object. Will have effect only for programmable objects like robots or aliens. "
 msgstr ""
 
 #. type: Plain text
@@ -7959,4 +7947,16 @@ msgstr ""
 #: ../E/produce.txt:28
 #, no-wrap
 msgid "It is used by <a object|mother>AlienQueen</a> to produce <a object|egg>AlienEggs</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:10
+#, no-wrap
+msgid "Where object will be created. The second syntax creates the object at the current bot's position."
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:19
+#, no-wrap
+msgid "Program for the object. Will have effect only for programmable objects like robots or aliens."
 msgstr ""

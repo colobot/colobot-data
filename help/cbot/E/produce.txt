@@ -7,7 +7,7 @@ or
 Immediately creates an \l;object\u cbot\category;.
 
 \t;position: \c;\l;point\u cbot\point;\n;
-Where object will be created.
+Where object will be created. The second syntax creates the object at the current bot's position.
 
 \t;orientation: \c;\l;float\u cbot\float;\n;
 Orientation (angle) of the object.
@@ -16,7 +16,7 @@ Orientation (angle) of the object.
 \l;Category\u cbot\category; of the object.
 
 \t;program: \c;\l;string\u cbot\string;\n;
-Program for the object. Will have effect only for programmable objects like robots or aliens. 
+Program for the object. Will have effect only for programmable objects like robots or aliens.
 
 \t;power: \c;\l;float\u cbot\float;\n;
 Energy level.

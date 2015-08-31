@@ -7,8 +7,8 @@ You can open the console by pressing the \key;\c;~\n;\norm; button on your keybo
 \t;Missions
 o \c;winmission   \n;Immediately win the current mission
 o \c;lostmission  \n;Immediately lose the current mission
-o \c;allmission   \n;All missions are unlocked
-o \c;showsoluce   \n;Unlock solution to the current mission
+o \c;allmission   \n;All missions are unlocked, works also in main menu
+o \c;showsoluce   \n;All solutions are unlocked, works also in main menu
 
 \t;Gameplay
 o \c;allresearch  \n;All researches are done
@@ -18,20 +18,21 @@ o \c;fullenergy   \n;Restore energy in the currently selected bot
 o \c;fullshield   \n;Restore shield in the currently selected object
 o \c;fullrange    \n;Flying reactor is cold
 o \c;fullpower    \n;\c;fullenergy\n; + \c;fullshield\n; + \c;fullrange\n;
-o \c;selectinsect \n;You can select and control aliens
+o \c;selectinsect \n;You can select and control aliens, works also in main menu, type again to disable
 o \c;fly          \n;You can fly even if flying is disabled in the current mission
-o \c;invradar     \n;Mini-map works like you would have built a \l;radar\u object\radar;
+o \c;invradar     \n;Mini-map works like you would have built a \l;radar\u object\radar;, works also in main menu, type again to disable
 o \c;addfreezer   \n;Flying reactor heats more slowly
 o \c;addhusky     \n;You take less damage than usual
 o \c;nolimit      \n;You can fly higher
 o \c;trainerpilot \n;You can drive robots which could be previously controlled only by programs
-o \c;noclip       \n;You can pass through objects
-o \c;clip         \n;Disable \c;noclip\n;
-o \c;speed        \n;Set the speed of the game to the given number, for example \c;speed 2\n; - two times faster, \c;speed 0.5\n; - two times slower
+o \c;noclip       \n;The currently selected object can pass through objects
+o \c;clip         \n;Disable \c;noclip\n; on the currently selected object
+o \c;speed        \n;Set the speed of the game to the given number, for example \c;speed 2\n; - two times faster, \c;speed 0.5\n; - two times slower, works also in main menu
 
 \t;Debug
-o \c;showstat     \n;Show debug statistics on the screen
-o \c;debugmode    \n;Enable debug mode (useful for the game developers)
+These commands work also in main menu. Type them again to set them off.
+o \c;showstat     \n;Show debug statistics on the screen, \key;F12\norm; keyboard key has the same effect
+o \c;debugmode    \n;Enable debug mode (useful for the game developers): the verbose debugging of events and other things; make sure you run the game with \c;-loglevel trace\n; to see the effect; see also \c;-debug\n; commandline parameter
 
 \t;Aesthetic
 o \c;photo1       \n;Free camera, you can change angle with \key;\c;+\n;\norm; and \key;\c;-\n;\norm; keys, type again to set it off
@@ -39,12 +40,9 @@ o \c;photo2       \n;Same as \c;photo1\n;, except it hides interface, type again
 
 \b;CBOT
 There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for "legal" programs. It should be fine to use them for level creation though if there is no other way.
-
-o \c;\l;produce\u cbot\produce;      \n;Immediately creates an object
-
-\t;Level Controller functions
 Numbers mean order of parameters.
 
+o \c;\l;produce\u cbot\produce;      \n;Immediately creates an object
 o \c;delete       \n;Damages the object, \c;1\n;: object's ID, \c;2\n;: magnifyDamage multiplier, without \c;2\n; the object explodes
 o \c;setbuild     \n;Sets buildings bitmask, \c;1\n;: new bitmask
 o \c;setresearchenable \n;Sets researches bitmask, \c;1\n;: new bitmask
