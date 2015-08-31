@@ -63,12 +63,6 @@ msgstr ""
 "CBOT besteht wie jede objektorientierte Sprache aus Befehlen (siehe unten), <a cbot|bloc>Blöcken</a>, <a cbot|function>Funktionen</a>, <a cbot|class>Klassen</a>, <a cbot|var>Variablen</a>, <a cbot|array>Arrays</a>, <a cbot|expr>Ausdrücken</a> und <a cbot|cond>Bedingungen</a>."
 
 #. type: Bullet: 'o'
-#: ../E/cbot.txt:5
-#, no-wrap
-msgid "<code><format token>Instructions</format></code>"
-msgstr "<code><format token>Befehle</format></code>"
-
-#. type: Bullet: 'o'
 #: ../E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
@@ -746,12 +740,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:6
-#, no-wrap
-msgid "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr ""
-
-#. type: Plain text
 #: ../E/cbot.txt:9
 #, no-wrap
 msgid "The <a cbot|type>type</a> of a variable appears like that: <format type>type</format>. "
@@ -761,4 +749,294 @@ msgstr ""
 #: ../E/cbot.txt:12
 #, no-wrap
 msgid "Constants like <a cbot|category>categories</a> are displayed like that: <format const>constant</format>. "
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:5
+#, no-wrap
+msgid ""
+"<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
+"In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
+msgstr ""
+
+#. type: \b; header
+#: ../E/cheats.txt:1
+#, no-wrap
+msgid "Cheats"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cheats.txt:2
+#, no-wrap
+msgid "Great, you have found this secret page. We hope you will use informations contained here only for other than cheating purposes. Like testing the game or recording a cool video about Colobot."
+msgstr ""
+
+#. type: \b; header
+#: ../E/cheats.txt:4
+#, no-wrap
+msgid "Console"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cheats.txt:5
+#, no-wrap
+msgid "You can open the console by pressing the <key/><code>~</code><norm/> button on your keyboard. Press <key/><code>ENTER</code><norm/> to hide it or pass one of the commands below."
+msgstr ""
+
+#. type: \t; header
+#: ../E/cheats.txt:7
+#, no-wrap
+msgid "Missions"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cheats.txt:13
+#, no-wrap
+msgid "Gameplay"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cheats.txt:32
+#, no-wrap
+msgid "Debug"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cheats.txt:36
+#, no-wrap
+msgid "Aesthetic"
+msgstr ""
+
+#. type: \b; header
+#: ../E/cheats.txt:40
+#, no-wrap
+msgid "CBOT"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cheats.txt:41
+#, no-wrap
+msgid "There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for \"legal\" programs. It should be fine to use them for level creation though if there is no other way."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:43
+#, no-wrap
+msgid "<code><a cbot|produce>produce</a>      </code>Immediately creates an object"
+msgstr ""
+
+#. type: \t; header
+#: ../E/cheats.txt:45
+#, no-wrap
+msgid "Level Controller functions"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cheats.txt:46
+#, no-wrap
+msgid "Numbers mean order of parameters."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:8
+#, no-wrap
+msgid "<code>winmission   </code>Immediately win the current mission"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:9
+#, no-wrap
+msgid "<code>lostmission  </code>Immediately lose the current mission"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:10
+#, no-wrap
+msgid "<code>allmission   </code>All missions are unlocked"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:11
+#, no-wrap
+msgid "<code>showsoluce   </code>Unlock solution to the current mission"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:14
+#, no-wrap
+msgid "<code>allresearch  </code>All researches are done"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:15
+#, no-wrap
+msgid "<code>allbuildings </code>All buildings are enabled"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:16
+#, no-wrap
+msgid "<code>all          </code><code>allbuildings</code> + <code>allresearch</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:17
+#, no-wrap
+msgid "<code>fullenergy   </code>Restore energy in the currently selected bot"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:18
+#, no-wrap
+msgid "<code>fullshield   </code>Restore shield in the currently selected object"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:19
+#, no-wrap
+msgid "<code>fullrange    </code>Flying reactor is cold"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:20
+#, no-wrap
+msgid "<code>fullpower    </code><code>fullenergy</code> + <code>fullshield</code> + <code>fullrange</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:21
+#, no-wrap
+msgid "<code>selectinsect </code>You can select and control aliens"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:22
+#, no-wrap
+msgid "<code>fly          </code>You can fly even if flying is disabled in the current mission"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:23
+#, no-wrap
+msgid "<code>invradar     </code>Mini-map works like you would have built a <a object|radar>radar</a>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:24
+#, no-wrap
+msgid "<code>addfreezer   </code>Flying reactor heats more slowly"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:25
+#, no-wrap
+msgid "<code>addhusky     </code>You take less damage than usual"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:26
+#, no-wrap
+msgid "<code>nolimit      </code>You can fly higher"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:27
+#, no-wrap
+msgid "<code>trainerpilot </code>You can drive robots which could be previously controlled only by programs"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:28
+#, no-wrap
+msgid "<code>noclip       </code>You can pass through objects"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:29
+#, no-wrap
+msgid "<code>clip         </code>Disable <code>noclip</code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:30
+#, no-wrap
+msgid "<code>speed        </code>Set the speed of the game to the given number, for example <code>speed 2</code> - two times faster, <code>speed 0.5</code> - two times slower"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:33
+#, no-wrap
+msgid "<code>showstat     </code>Show debug statistics on the screen"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:34
+#, no-wrap
+msgid "<code>debugmode    </code>Enable debug mode (useful for the game developers)"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:37
+#, no-wrap
+msgid "<code>photo1       </code>Free camera, you can change angle with <key/><code>+</code><norm/> and <key/><code>-</code><norm/> keys, type again to set it off"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:38
+#, no-wrap
+msgid "<code>photo2       </code>Same as <code>photo1</code>, except it hides interface, type again to set it off"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:48
+#, no-wrap
+msgid "<code>delete       </code>Damages the object, <code>1</code>: object's ID, <code>2</code>: magnifyDamage multiplier, without <code>2</code> the object explodes"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:49
+#, no-wrap
+msgid "<code>setbuild     </code>Sets buildings bitmask, <code>1</code>: new bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:50
+#, no-wrap
+msgid "<code>setresearchenable </code>Sets researches bitmask, <code>1</code>: new bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:51
+#, no-wrap
+msgid "<code>setresearchdone </code>Sets done researches bitmask, <code>1</code>: new bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:52
+#, no-wrap
+msgid "<code>getbuild     </code>Returns buildings bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:53
+#, no-wrap
+msgid "<code>getresearchenable </code>Returns researches bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:54
+#, no-wrap
+msgid "<code>getresearchdone </code>Returns done researches bitmask"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:55
+#, no-wrap
+msgid "<code>playmusic    </code>Plays music, <code>1</code>: file name, <code>2</code>: repeat"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/cheats.txt:56
+#, no-wrap
+msgid "<code>stopmusic    </code>Stops music"
 msgstr ""
