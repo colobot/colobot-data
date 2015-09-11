@@ -43,6 +43,7 @@ There are hidden commands in CBOT that are not even highlighted in the editor. T
 Numbers mean order of parameters.
 
 o \c;\l;produce\u cbot\produce;      \n;Immediately creates an object
+o \c;ipf          \n;Sets the number of instructions per frame, \c;1\n;: the number, default is \c;100\n;
 o \c;delete       \n;Damages the object, \c;1\n;: object's ID, \c;2\n;: magnifyDamage multiplier, without \c;2\n; the object explodes
 o \c;setbuild     \n;Sets buildings bitmask, \c;1\n;: new bitmask
 o \c;setresearchenable \n;Sets researches bitmask, \c;1\n;: new bitmask
