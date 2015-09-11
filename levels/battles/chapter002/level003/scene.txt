@@ -1,0 +1,16 @@
+Title.E text="Shooting battle - vs other player"
+Resume.E text="Challenge your friend!"
+
+#Include file="%cat%/level_common.txt"
+Level type=CODE_BATTLE magnifyDamage=10
+
+BeginObject
+
+// Team "Blue" (1)
+CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
+
+// Team "Red" (2)
+CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2
+
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0 winTeam=1
+EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=0 winTeam=2

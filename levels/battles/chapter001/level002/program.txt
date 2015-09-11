@@ -1,0 +1,215 @@
+object RadarFriendly(int cat)
+{
+	return radar(cat, 0, 360, 0, 1000, 1, FilterFriendly);
+}
+
+object SearchObjectAt(int cat, point pos)
+{
+	object item = search(Titanium, pos);
+	if(item == null) return null;
+	if(distance(pos, item.position) > 0.5) return null;
+	return item;
+}
+
+public void object::StandardEnemy_Recharge()
+{
+	object item = RadarFriendly(PowerStation);
+	goto(item.position);
+	if(this.load != null && this.load.category == PowerCell)
+	{
+		while(this.load.energyLevel < 1) wait(0.05);
+	}
+	while(this.energyLevel < 1) wait(0.05);
+}
+
+void object::GetTitanium()
+{
+	object item;
+	do
+	{
+		item = radar(TitaniumOre, 0, 360, 0, 40);
+	}
+	while(item == null);
+	goto(item.position);
+	grab();
+	item = RadarFriendly(Converter);
+	goto(item.position);
+	drop();
+	move(-2.5);
+	point converterPos = item.position;
+	while((item = SearchObjectAt(Titanium, converterPos)) == null) wait(0.05);
+	goto(item.position);
+	grab();
+}
+
+void object::GetPowerCell()
+{
+	object item = radar(PowerCell, 0, 360, 0, 40);
+	if (item != null)
+	{
+		goto(item.position);
+		grab();
+		if(item.energyLevel < 1)
+		{
+			StandardEnemy_Recharge();
+		}
+	}
+	else
+	{
+		GetTitanium();
+		item = RadarFriendly(PowerPlant);
+		goto(item.position);
+		drop();
+		while(item.energyCell == null || item.energyCell.category != PowerCell) wait(0.05);
+		grab();
+	}
+}
+
+void object::BuildSomewhere(int cat)
+{
+	GetTitanium();
+	goto(flatspace(this.position, 10, 10, 40, 8));
+	drop();
+	build(cat);
+}
+
+void object::GoResearch(int what)
+{
+	GetPowerCell();
+	object item = RadarFriendly(ResearchCenter);
+	goto(item.position);
+	while(item.busy()) wait(0.05);
+	if (item.energyCell != null)
+	{
+		drop(Behind);
+		grab();
+		turn(90);
+		drop();
+		turn(-90);
+		grab(Behind);
+	}
+	drop();
+	item.research(what);
+}
+
+void object::FactoryRobot(int cat, string program)
+{
+	GetTitanium();
+	object item = RadarFriendly(BotFactory);
+	goto(item.position);
+	drop();
+	move(-5);
+	item.factory(cat, program);
+	point pos = this.position;
+	GetPowerCell();
+	goto(pos);
+	turn(direction(item.position));
+	while(radar(cat, 0, 45, 0, 10) == null) wait(0.05);
+	goto(item.position);
+	drop();
+	move(-5);
+}
+
+extern void object::StandardEnemy()
+{
+	// TODO: Enable after done debugging
+	//errmode(0);
+
+	build(Converter);
+	BuildSomewhere(PowerStation);
+	BuildSomewhere(BotFactory);
+	BuildSomewhere(PowerPlant);
+	BuildSomewhere(ResearchCenter);
+	GoResearch(ResearchWinged);
+	GoResearch(ResearchShooter);
+	while(true)
+	{
+		if (this.energyCell.energyLevel < 0.25)
+		{
+			StandardEnemy_Recharge();
+		}
+		FactoryRobot(WingedShooter, "StandardEnemy_Attack");
+	}
+}
+
+public void object::StandardEnemy_Attack()
+{
+	while(this.energyCell == null) wait(0.05);
+	while(radar(Any, 180, 45, 0, 5) != null) wait(0.05);
+	move(-7.5);
+
+	while(true)
+	{
+		if(this.energyCell.energyLevel < 0.3 || this.temperature > 0.5)
+		{
+			StandardEnemy_Recharge();
+			while(this.temperature > 0) wait(0.05);
+		}
+
+		bool isInFront = true;
+		object item = radar(Any, 0, 120, 0, 1000, 1, FilterEnemy);
+		if (item == null)
+		{
+			isInFront = false;
+			item = radar(Any, 0, 360, 0, 1000, 1, FilterEnemy);
+			if (item == null)
+			{
+				wait(0.05);
+				continue;
+			}
+		}
+
+		float targetHeight = topo(this.position);
+		if(targetHeight < 0) targetHeight = 0;
+		targetHeight += 9;
+
+		float targetSpeed = distance(this.position, item.position)/40;
+		if(targetSpeed > 1) targetSpeed = 1;
+		if(!isInFront) targetSpeed = 1;
+
+		float targetDirection = direction(item.position);
+
+		bool canShoot = true;
+		if(abs(targetDirection) > 10) canShoot = false;
+		if(distance(this.position, item.position) > 40) canShoot = false;
+
+		/*
+		Here we calculate the aim angle
+		Take a look at this picture:
+		(yes, I'm terrible at ASCII-art :P)
+
+		 \/ target
+		 ***
+		 *  ***
+		H*     ***
+		 *   angle** \/ robot
+		 *************
+		       L
+		*/
+		float H = item.position.z-this.position.z;
+		float L = distance2d(this.position, item.position);
+		float angle = atan(H/L);
+		if(aim(angle, -targetDirection) != 0) canShoot = false; // funkcja aim() zwraca != 0 jesli cel poza zasiegiem
+
+		if(!canShoot) targetSpeed = 1;
+
+		jet((targetHeight-this.position.z)/4);
+		if(targetDirection < 0)
+		{
+			motor(targetSpeed, targetSpeed+targetDirection/90);
+		}
+		else
+		{
+			motor(targetSpeed-targetDirection/90, targetSpeed);
+		}
+
+		if(canShoot)
+		{
+			fire(0.1);
+		}
+		else
+		{
+			wait(0.05);
+		}
+	}
+}
