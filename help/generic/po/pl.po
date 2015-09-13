@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2014-07-03 10:19+0200\n"
+"PO-Revision-Date: 2015-09-13 22:47+0100\n"
 "Last-Translator: krzys_h <krzys_h@interia.pl>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.1.1\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-POOTLE-MTIME: 1404379159.000000\n"
+"Language-Team: \n"
 
 #. type: Plain text
 #: ../E/authors.txt:1
@@ -500,49 +500,49 @@ msgstr ""
 #: ../E/battles.txt:1
 #, no-wrap
 msgid "Code battles"
-msgstr ""
+msgstr "Programobitwy"
 
 #. type: Plain text
 #: ../E/battles.txt:2
 #, no-wrap
 msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually."
-msgstr ""
+msgstr "Programobitwa to zupełnie nowy tryb gry wprowadzony w grze Colobot: Gold Edition. Polega on na ustawieniu dwóch różnych programów (twojego i przeciwnika), aby walczyły między sobą. W tym trybie gracz nie ma możliwości ręcznej interakcji ze światem."
 
 #. type: Plain text
 #: ../E/battles.txt:18
 #, no-wrap
 msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
-msgstr ""
+msgstr "Dzięki nowym funkcjom w Gold Edition można tworzyć w pełni zautomatyzowane bazy, które nie wymagają żadnego wpływu <a object|human>człowieka</a>. Wszystkie te funkcje są opisane w <a cbot>dokumentacji CBOT</a>."
 
 #. type: Plain text
 #: ../E/battles.txt:20
 #, no-wrap
 msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
-msgstr ""
+msgstr "Drzewo produkcji jest wyjaśnione w Misjach i Ćwiczeniach, ale jeślibyś chciał zagrać w Programobitwy od razu, bez przechodzenia całej gry, to oto krótki opis jak to wszystko działa w Colobot'cie."
 
 #. type: \t; header
 #: ../E/battles.txt:22
 #, no-wrap
 msgid "What you want to achieve"
-msgstr ""
+msgstr "Jaki jest twój cel"
 
 #. type: Plain text
 #: ../E/battles.txt:23
 #, no-wrap
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
-msgstr ""
+msgstr "Twoim zdaniem jest po prostu zniszczenie przeciwnika. Aby to zrobić, potrzebujesz czegoś zabójczego, jak na przykład robota, a dokładniej <a object|botfr>działa</a>. Prawdopodobnie będziesz ich często tracił, więc powinieneś mieć stałą i ciągłą produkcję. Pomocne w tym byłoby posiadanie więcej <a object|botgr>transporterów</a>, <a object|factory>fabryk</a>, <a object|convert>hut</a> i tym podobnych. Pamiętaj, że roboty potrzebują <a object|power>baterii</a>. W każdym razie, zanim w ogóle będziesz mogł przejmować się tymi rzeczami, musisz przeprowadzić kilka <a object|research>badań</a>, aby zdobyć lepsze technologie. I tym sposobem dotarliśmy do początku, gdzie mamy jedynego <a object|botgr>robota</a> i <a object|titan>kostkę tytanu</a>."
 
 #. type: Image filename
 #: ../E/battles.txt:25
 #, no-wrap
 msgid "productionline1"
-msgstr ""
+msgstr "productionline1"
 
 #. type: \t; header
 #: ../E/battles.txt:27
 #, no-wrap
 msgid "Titanium production"
-msgstr ""
+msgstr "Produkcja kostek tytanu"
 
 #. type: Plain text
 #: ../E/battles.txt:28
@@ -555,12 +555,18 @@ msgid ""
 "5. Use or move somewhere your new Titanium.\n"
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
+"1. <a cbot|radar>Znajdź</a> <a object|titan>kostkę tytanu</a>.\n"
+"2. <a cbot|build>Zbuduj</a> <a object|convert>hutę</a>.\n"
+"3. Znajdź <a object|titanore>rudę tytanu</a>.\n"
+"4. Umieść ją w hucie. Cofnij się i poczekaj aż huta skończy pracować.\n"
+"5. Użyj lub przesuń gdzieś nową kostkę tytanu.\n"
+"Powtarzaj kroki 3-5, aby utrzymać produkcję."
 
 #. type: \t; header
 #: ../E/battles.txt:35
 #, no-wrap
 msgid "Researches"
-msgstr ""
+msgstr "Badania"
 
 #. type: Plain text
 #: ../E/battles.txt:36
@@ -570,12 +576,15 @@ msgid ""
 "2. Power it with a <a object|power>PowerCell</a>.\n"
 "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
 msgstr ""
+"1. <a cbot|build>Zbuduj</a> <a object|research>centrum badawcze</a>.\n"
+"2. Zasil je przy pomocy <a object|power>ogniwa elektrycznego</a>.\n"
+"3. <a cbot|research>Zażądaj</a> <a cbot|researches>badań</a> i poczekaj aż centrum badawcze skończy pracować."
 
 #. type: \t; header
 #: ../E/battles.txt:40
 #, no-wrap
 msgid "Robot production"
-msgstr ""
+msgstr "Produkcja robotów"
 
 #. type: Plain text
 #: ../E/battles.txt:41
@@ -586,12 +595,16 @@ msgid ""
 "3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
 "4. Power the robot with a <a object|power>PowerCell</a>."
 msgstr ""
+"1. <a cbot|build>Zbuduj</a> <a object|factory>fabrykę robotów</a>.\n"
+"2. Umieść w jej środku <a object|titan>kostkę tytanu</a> i cofnij się.\n"
+"3. <a cbot|factory>Zażądaj</a> konstrukcji robota i poczekaj aż fabryka skończy pracować.\n"
+"4. Zasil nowego robota przy pomocy <a object|power>ogniwa elektrycznego</a>."
 
 #. type: \t; header
 #: ../E/battles.txt:46
 #, no-wrap
 msgid "Power cell production"
-msgstr ""
+msgstr "Produkcja ogniw elektrycznych"
 
 #. type: Plain text
 #: ../E/battles.txt:47
@@ -600,18 +613,20 @@ msgid ""
 "1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
 "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
 msgstr ""
+"1. <a cbot|build>Zbuduj</a> <a object|energy>elektrownię</a>.\n"
+"2. Umieść w środku <a object|titan>kostkę tytanu</a> i poczekaj aż elektrownia skończy pracować."
 
 #. type: \t; header
 #: ../E/battles.txt:50
 #, no-wrap
 msgid "There is more"
-msgstr ""
+msgstr "Jest tego więcej"
 
 #. type: Plain text
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr ""
+msgstr "Istnieje o wiele więcej możliwości, ale tutaj są opisane podstawy. Czytaj dokumentację, gra i myśl kreatywnie, aby dojść do ciekawych pomysłów. Baw się dobrze. Powodzenia!"
 
 #. type: Plain text
 #: ../E/battles.txt:54
