@@ -10,10 +10,20 @@ BeginObject
 CreateObject pos=0;-40 dir=1.5 type=WheeledGrabber team=1 select=true
 CreateObject pos=0;-38.5 type=Titanium
 CreateObject pos=0;-57.5 dir=1.5 type=Derrick magnifyDamage=0 selectable=false
+CreateObject pos=0;-60 dir=1.5 type=RadarStation magnifyDamage=0 selectable=false
 
 // Team "Red" (2)
-// TODO: Put some ants there!!!
-CreateObject pos=0;40 dir=0.5 type=AlienAnt
+// TODO: Write (or find) some better ant scripts for this purpose
+CreateObject pos=0;40 type=AlienNest
+CreateObject pos=-5;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=0;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=5;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=-5;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=0;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=5;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=-5;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=0;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=5;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
 
 EndMissionTake pos=0;0 dist=10000 type=AlienAnt min=0 max=0
 EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
