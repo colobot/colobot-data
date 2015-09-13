@@ -10,8 +10,9 @@ In order to start a code battle you need to:
 
 \t;Controlling the spectator's view
 After a code battle is started, the camera is put into a special mode:
-o One can select objects as a player normally would, but one will not see their interface.
-o One can also switch to the free camera view by clicking somewhere on the map. One can move around in this view by using the numerical keyboard.
+o One can select objects as a player normally would, but one will not see their interface and the camera does not rotate when the object rotates. One can also use numerical keyboard instead of mouse in order to rotate the object-centered camera.
+o One can also switch to the free camera view by clicking somewhere on the map. One can move around in this view by using the numerical keyboard and \key;PageUp\norm;/\key;PageDown\norm; keys.
+o One can return to the normal view by pressing the \button 13; button above the mini-map.
 
 \b;Basics of production line\m production;
 With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from \l;human\u object\human;. All of them are described in the \l;CBOT documentation\u cbot;.
