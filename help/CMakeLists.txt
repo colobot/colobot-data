@@ -9,12 +9,14 @@ set(HELP_INSTALL_DATA_DIR  ${COLOBOT_INSTALL_DATA_DIR}/help)
 ##
 function(add_help_category help_category_dir install_subdir)
 
-    message(STATUS "Adding translation targets for help/${help_category_dir}")
-
+    # Always install English files
     file(GLOB english_help_files ${help_category_dir}/E/*)
     install(FILES ${english_help_files} DESTINATION ${HELP_INSTALL_DATA_DIR}/E/${install_subdir})
 
-    if(PYTHONINTERP_FOUND)
+    # If translations are turned on, also generate translated files
+    if(TRANSLATIONS)
+        message(STATUS "Adding translation targets for help/${help_category_dir}")
+
         set(work_dir ${DATA_BINARY_DIR}/help-po/${help_category_dir})
         generate_translations(translated_help_files
                               "help"

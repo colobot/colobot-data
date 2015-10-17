@@ -9,13 +9,13 @@ set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
 ##
 function(add_level_category level_category_dir)
 
-    message(STATUS "Adding translation targets for level/${level_category_dir}")
-
-    # Without Python, just install all files as they are
-    if(NOT PYTHONINTERP_FOUND)
+    # If translations are turned off, just install all files as they are
+    if(NOT TRANSLATIONS)
         install(DIRECTORY ${level_category_dir} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
         return()
     endif()
+
+    message(STATUS "Adding translation targets for level/${level_category_dir}")
 
     add_chaptertitles(${level_category_dir})
 
