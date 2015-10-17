@@ -13,7 +13,7 @@ function(add_level_category level_category_dir)
 
     # Without Python, just install all files as they are
     if(NOT PYTHONINTERP_FOUND)
-        install(DIRECTORY ${add_level_category} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
+        install(DIRECTORY ${level_category_dir} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
         return()
     endif()
 
