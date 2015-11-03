@@ -1,74 +1,134 @@
 \b;Expressions
-Expressions can include the following operators: 
+Expressions are used for various calculations with many different variables, which return the desired result. What distinguishes them from standard instructions are operators, which are described below.
 
+Specifically speaking, an expression is an ordered series of operations which yield a result. Operations consist of operators, which are special \l;functions\u cbot\function; \c;T f(t1 x1, t2 x2, ..., tn xn)\n;, where \c;xi\n; is a value of type \c;ti\n;, and \c;T\n; is the result type. For example, \c;float +(float a, float b)\n; returns a sum of values \c;a\n; and \c;b\n;. Note: Operators are a part of the CBOT language and they cannot be defined in program. Also, the operators cannot be used as usual \l;functions\u cbot\function;, they need to be written using a special notation depending on the operator, for example \c;a+b\n;.
+
+In nearly all operations, \l;constants\u cbot;, \l;variables\u cbot\var;, \l;functions\u cbot\function; returning non-\l;void\u cbot\void; type and also other operations can be used as values.
+
+\b;Binary operations
+Assuming that \c;a\n;, \c;b\n; can be values of declared and initialized variables of types \c;t1\n; and \c;t2\n;, the binary operations can be described as follows:
+\s;\c;r = a op b\n;
+Where \c;r\n; is the result of the operation and \c;op\n; is a binary operator which works with values of types \c;t1\n; and \c;t2\n;.
+
+\t;Order of operations
+Let \c;a op1 b op2 c\n; be a legal expression, then the following rules apply:
+o If \c;op1 == op2\n; or \c;op1\n; is as strong as \c;op2\n; or \c;op1\n; is stronger than \c;op2\n;, first calculate \c;a op1 b\n; and store its result in a temporary variable \c;r\n;, then calculate \c;r op2 c\n;, which is the final result of the expression.
+o If \c;op1\n; is weaker than \c;op2\n;, first calculate \c;b op2 c\n; and store its result in a temporary variable \c;r\n;, then calculate \c;a op1 r\n;, which is the final result of the expression.
+
+Note: an operation can be made stronger by surrounding it in brackets, so for example assuming that \c;op1\n; is weaker than \c;op2\n;, in an expression \c;(a op1 b) op2 c\n; the \c;a op1 b\n; operation will be executed first.
+
+Tip: always use brackets if you are not sure about the order of operations, do not try to remember how strong are each of the operators. Generally it should be fairly obvious.
+
+Here is a complicated example, which uses arithemtic operations described below, showing how expressions are calculated:
+\c;Assume a, b, c, d, x, y, z, e are all initialized variables of type float or int. Then the following expression should be calculated the following way:
+  a * b + c - d / x % (y * z) - e =
+= r1 + c - d / x % (y * z) - e    = , r1 = a * b
+= r2 - d / x % (y * z) - e        = , r2 = r1 + c
+= r2 - r3 % (y * z) - e           = , r3 = d / x
+= r2 - r3 % r4 - e                = , r4 = y * z
+= r2 - r5 - e                     = , r5 = r3 % r4
+= r6 - e                          = , r6 = r2 - r5
+= r7                                , r7 = r6 - e
+r7 is the final result of this expression.
+\n;
+
+\b;Assignment operator
+\c;=\n; is the assignment operator. It is used to store the result of an expression in a variable.
+
+On the left side of this operator there must be so called l-value and on the right side - r-value. L-values are just \l;variables\u cbot\var;\n;, r-values are expressions or just usual values. This makes the assignment operator kind of special, because what is l-value is pretty restrictive (it cannot be an expression, constant and so on, only single variable). Also, the type of l-value must match the type of r-value (unless a conversion is possible, for example assigning a \c;\l;float\u cbot\float;\n; to \c;\l;int\u cbot\int;\n;).
+
+Note: it may be not obvious at first, but notice that \c;=\n; is an *operator* not an instruction. This mean that it can be used in the middle of an other expression! The result of \c;=\n; is the value which was assigned to the l-value - the result of the expression on the right. Example:
+\c;
+\s; float a;
+\s; float b = 2.0 * (a = 4.0); // b == 8.0
+\n;
+This example is actually really confusing, but this property is actually useful, because it lets doing something like this:
+\c;
+\s; float a, b, c, d, e;
+\s; a = b = c = d = e = 1.0; // a == b == c == d == e == 1.0
+\n;
+
+\b;Basic arithmetic operations
+Binary operators below are working with fundamental number types (\c;\l;int\u cbot\int;\n;, \c;\l;float\u cbot\float;\n;).
+
+\t;List
 \c;+\n;  addition
 \c;-\n;  subtraction
 \c;*\n;  multiplication
 \c;/\n;  division
 \c;%\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
 
-With the addition operator \c;+\n;, you can not only add numbers, you can also append \l;strings\u cbot\string;.
+\t;Notes
+o The \c;*\n;, \c;/\n;, \c;%\n; are all stronger than \c;+\n; and \c;-\n;.
+o The result \l;type\u cbot\type; is always \c;\l;float\u cbot\float;\n;. If \c;a\n; or \c;b\n; are of type \c;\l;int\u cbot\int;\n;, they are automatically converted to \c;\l;float\u cbot\float;\n;. Note: this means that results of intermediate calculations tends to be as precise as possible, the precision is lost only during converting the final (\c;\l;float\u cbot\float;\n;) result to \c;\l;int\u cbot\int;\n;, for example by the assignment \c;=\n; operator.
+
+\t;Real life examples
 \c;
-\s;	int    i = 12+3;      // returns 15
-\s;	string s = "a"+"bc";  // returns "abc"
-\s;	int    i = 2-5;       // returns -3
-\s;	float  f = 3.01*10;   // returns 30.1
-\s;	int    i = 5/3;       // returns 1
-\s;	float  f = 5/3;       // returns 1.67
-\s;	float  f = 5/0;       // returns an error
-\s;	int    i = 13%5;      // returns 3
-\s;	int    i = -8%3;      // returns -2
+\s; int    i = 12 + 3;      // i == 15
+\s; int    i = 2 - 5;       // i == -3
+\s; 
+\s; float  f = 3.01 * 10;   // f == 30.1
+\s; 
+\s; int    i = 5 / 3;       // i == 1 (automatic conversion to int)
+\s; float  f = 5 / 3;       // f == 1.67
+\s; float  f = 5 / 0;       // returns an error (division by zero)
+\s; 
+\s; int    i = 13 % 5;      // i == 3
+\s; int    i = -8 % 3;      // i == -2
+\s; 
+\s; float  f = sin(90) * i; // f == -2.0
+\s; 
 \n;
-An expression can include constants or \l;variables\u cbot\var;. For example:
+\t;Compound assignment operators
+Besides the \c;=\n; operator for variable assignment there are several compound-assignment operators.
 
-\s;\c;	12+dist\n;
-
-Multiplications and divisions are performed before additions and subtractions. In order to be sure that the operations are performed in the right order, use brackets: 
-\c;
-\s;	12*a+b/c \n;is equivalent to\c; (12*a)+(b/c)
-\s;	2.5*(dist+range)
-\n;
-In order to improve readability, you can put as many spaces as you want: 
-\c;
-\s;	12*a + b/c
-\s;	2.5 * (dist+range)
-\n;
-
-\t;Compound assignment operators (for specialists)
-Besides the \c;=\n; operators for variable assignment there are several compound-assignment operators.
-
-The compound-assignment operators combine the \c;=\n; assignment operator with another binary operator such as \c;+\n; or \c;-\n;. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as   
-
-\c;\s;expression1 += expression2
-  
+The compound-assignment operators combine the \c;=\n; assignment operator with another binary operator such as \c;+\n; or \c;-\n;. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as
+\s;\c;lvalue += expression\n;
 is equivalent to
+\s;\c;lvalue = lvalue + expression\n;
 
-\c;\s;expression1 = expression1 + expression2
-
+\t;List
 \c;+=\n;  addition
 \c;-=\n;  subtraction
 \c;*=\n;  multiplication
 \c;/=\n;  division
 \c;%=\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
 
-\t;Prefix and posfix increment- and decrement operators (for specialists)
+\b;String concatenation
+If at least one of the values used with the \c;+\n; operator is a \l;string\u cbot\string;, then the operation of concatenation is performed. The result of the operator is then a string, which is created by joining end-to-end the string and the other value. If the other value is not a string, then it is converted to string beforehand.
+
+\t;Examples
+\c;
+\s;	string s = "a" + "bc";  // returns "abc"
+\s;	string s = 1 + "bc";    // returns "1bc"
+\s;	string s = 2.5 + "bc";  // returns "2.5bc"
+\s;	string s = "a" + true;  // returns "atrue"
+\n;
+Tip: the properties of the concatenation \c;+\n; operator is useful with the \l;message();\u cbot\message; function, because it does not work with other types than string. An empty string can be used together with a value in order to create a string, which actually can be passed to the \l;message();\u cbot\message; function:
+\c;
+\s; float pi = 3.14;
+\s; // message(pi); // does not work
+\s; message(""+pi);
+\n;
+\b;Prefix and postfix increment- and decrement operators
 The operators \c;++\n; and \c;--\n; allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner.
 
 For example to increment the variable \c;a\n; you can write
-\c;\s;	a++ ;
-\n;instead of
-\c;\s;	a = a + 1 ;
-\n;
-The value of the expression \c;a++\n; is the value of the variable \c;a\n; before the increment. If you use the prefix operator \c;++a\n; the value of the expression is the value of the variable \c;a\n; after the increment. The same holds for the \c;--\n; decrement operator.
+\s;\c;a++;\n;
+instead of
+\s;\c;a = a + 1;\n;
 
-Examples:
-\c;\s;	a = 2 ;
-\s;	b = a++ ;
-\s;	// now b contains 2 and a contains 3
+The result of the operation \c;a++\n; is the value of the variable \c;a\n; *before* the increment. If you use the prefix operator \c;++a\n; the result of the operation is the value of the variable \c;a\n; *after* the increment. The same holds for the \c;--\n; decrement operator.
 
-\c;\s;	a = 2 ;
-\s;	b = ++a ;
-\s;	// now b contains 3 and a contains 3
+\t;Examples
+\c;
+\s; a = 2;
+\s; b = a++;
+\s; // now b contains 2 and a contains 3
+
+\s; a = 2;
+\s; b = ++a;
+\s; // now b contains 3 and a contains 3
 \n;
 
 \t;See also
