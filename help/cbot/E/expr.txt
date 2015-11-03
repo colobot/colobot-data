@@ -109,8 +109,8 @@ Tip: the properties of the concatenation \c;+\n; operator is useful with the \l;
 \s; // message(pi); // does not work
 \s; message(""+pi);
 \n;
-\b;Logical operators
-Logical operators work with values of type \l;bool\u cbot\bool; and they always return a \l;bool\u cbot\bool;. They are mainly used in \l;conditions\u cbot\cond;.
+\b;Comparison operators
+Comparison operators work with values of type \l;float\u cbot\bool; and they always return a \l;bool\u cbot\bool;. They are mainly used in \l;conditions\u cbot\cond;.
 
 \t;List
 \c;a == b  \n;\c;a\n; equals \c;b\n;
@@ -134,6 +134,19 @@ Be careful not to confuse the equality comparison \c;==\n; with the assignment o
 \c;a == b\n; is an expression that compares \c;a\n; with \c;b\n;.
 \c;a = b\n; is an expression that copies the value of \c;b\n; into \c;a\n;.
 
+\b;Logical operators
+Logical operators work with values of type \l;bool\u cbot\bool; and they always return a \l;bool\u cbot\bool;. They are mainly used in \l;conditions\u cbot\cond;.
+
+\t;List
+\c;!a      \n;not \c;a\n;
+\c;a && b  \n;\c;a\n; and \c;b\n;
+\c;a || b  \n;\c;a\n; or \c;b\n;
+
+\t;Examples
+\c;!false        \n;returns true
+\c;true && false \n;returns false 
+\c;true || false \n;returns true
+
 \b;Ternary operator
 The ternary operator is nothing more than a syntax sugar. It is also known as "inline if". It might be confusing at first, because its syntax is a little more complicated than other operators. It can be described as follows:
 \c;(condition) ? (result when true) : (result when false)\n;
@@ -143,6 +156,23 @@ Firstly, the condition is valued and then the first result is returned if the co
 
 \t;Example
 \s;\c;float c = ((3.0 > 2.0) ? 10.0 : -10.0); // c == 10.0\n;
+
+\b;Bitwise operators
+Bitwise operators are similar to the logical operator, because they are operating on bits (which can be only 0 or 1, conditions can have a value only of false or true). So in theory, they should be working with basically any type of variable, because each value in the computer must be stored as a sequence of bits.
+
+\t;List
+\c;a & b  \n;\c;a\n; AND \c;b\n;
+\c;a | b  \n;\c;a\n; OR \c;b\n;
+\c;a ^ b  \n;\c;a\n; XOR \c;b\n;
+\c;a >> b  \n;shift bits of \c;a\n; to the right \c;b\n; times
+\c;a << b  \n;shift bits of \c;a\n; to the left \c;b\n; times
+
+\t;Examples
+\c;2 & 1         \n;returns 0
+\c;2 | 1         \n;returns 3
+\c;2 ^ 2         \n;returns 0
+\c;2 >> 1        \n;returns 1
+\c;2 << 1        \n;returns 4
 
 \b;Prefix and postfix increment- and decrement operators
 The operators \c;++\n; and \c;--\n; allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner.
