@@ -134,6 +134,16 @@ Be careful not to confuse the equality comparison \c;==\n; with the assignment o
 \c;a == b\n; is an expression that compares \c;a\n; with \c;b\n;.
 \c;a = b\n; is an expression that copies the value of \c;b\n; into \c;a\n;.
 
+\b;Ternary operator
+The ternary operator is nothing more than a syntax sugar. It is also known as "inline if". It might be confusing at first, because its syntax is a little more complicated than other operators. It can be described as follows:
+\c;(condition) ? (result when true) : (result when false)\n;
+Brackets are not needed.
+
+Firstly, the condition is valued and then the first result is returned if the condition is true, otherwise the second result is returned.
+
+\t;Example
+\s;\c;float c = ((3.0 > 2.0) ? 10.0 : -10.0); // c == 10.0\n;
+
 \b;Prefix and postfix increment- and decrement operators
 The operators \c;++\n; and \c;--\n; allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner.
 
