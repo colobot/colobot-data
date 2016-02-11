@@ -6534,7 +6534,7 @@ msgstr "<a cbot|category>Kategoria</a> robota, który ma zostać skonstruowany."
 #: ../E/factory.txt:13
 #, no-wrap
 msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
-msgstr "program: <code><a cbot|string>string</a></code> (domyślnie przyjmuje: <code>””</code>)"
+msgstr "program: <code><a cbot|string>string</a></code> (domyślnie przyjmuje: <code>\"\"</code>)"
 
 #. type: Plain text
 #: ../E/factory.txt:14
@@ -6692,11 +6692,11 @@ msgstr ""
 "{\n"
 "\tsend(\"order\", 1, 100);\n"
 "\twait(5);\n"
-"\tsend(„order”, 3, 100);\n"
+"\tsend(\"order\", 3, 100);\n"
 "\twait(5);\n"
-"\tsend(„order”, 2, 100);\n"
+"\tsend(\"order\", 2, 100);\n"
 "\twait(5);\n"
-"\tsend(„order”, 4, 100);\n"
+"\tsend(\"order\", 4, 100);\n"
 "\twait(5);\n"
 "}"
 
@@ -6726,7 +6726,7 @@ msgid ""
 msgstr ""
 "void SendToPost(float op)\n"
 "{\n"
-"\tsend(„order”, op, 100);\n"
+"\tsend(\"order\", op, 100);\n"
 "\twait(5);\n"
 "}\n"
 "\n"
@@ -6804,7 +6804,7 @@ msgstr ""
 #: ../E/function.txt:68
 #, no-wrap
 msgid "The <code>Example</code> function will receive an <a cbot|int>integer</a> <code>a</code>, a <a cbot|float>floating point number</a> <code>x</code> and a <a cbot|string>string</a> <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code><a cbot|int>int</a></code> to a function, its parameter is a copy of whatever value was being passed as the argument, and the function can change its parameter value without affecting values in the code that invoked the function."
-msgstr "Funkcja <code>Przyklad</code> otrzyma <a cbot|int>liczbę całkowitą</a> <code>a</code>, <a cbot|float>liczbę zmiennoprzecinkową</a> <code>x</code> i <a cbot|string>łańcuch znaków</a> <code>s</code>. Parametry są \"przekazywane wartościami”, tzn. wartości zmiennych parametrów w funkcji są kopiami wartości, które zostały do niej przekazane. Jeśli przekażesz funkcji wartość typu <code><a cbot|int>int</a></code>, wartość ta zostanie skopiowana do parametru i funkcja będzie mogła na niej operować, nie zmieniając jednocześnie wartości w kodzie, który ją wywołał."
+msgstr "Funkcja <code>Przyklad</code> otrzyma <a cbot|int>liczbę całkowitą</a> <code>a</code>, <a cbot|float>liczbę zmiennoprzecinkową</a> <code>x</code> i <a cbot|string>łańcuch znaków</a> <code>s</code>. Parametry są \"przekazywane wartościami\", tzn. wartości zmiennych parametrów w funkcji są kopiami wartości, które zostały do niej przekazane. Jeśli przekażesz funkcji wartość typu <code><a cbot|int>int</a></code>, wartość ta zostanie skopiowana do parametru i funkcja będzie mogła na niej operować, nie zmieniając jednocześnie wartości w kodzie, który ją wywołał."
 
 #. type: Plain text
 #: ../E/function.txt:70
@@ -6881,9 +6881,9 @@ msgstr ""
 "\n"
 "string Sign(float a)\n"
 "{\n"
-"\tif (a > 0)  return „dodatnia”;\n"
-"\tif (a < 0)  return „ujemna”;\n"
-"\treturn „null”;\n"
+"\tif (a > 0)  return \"dodatnia\";\n"
+"\tif (a < 0)  return \"ujemna\";\n"
+"\treturn \"null\";\n"
 "}"
 
 #. type: \b; header
@@ -7106,7 +7106,7 @@ msgstr "grubosc: <code><a cbot|float>float</a></code> (domyślna wartość: <cod
 #: ../E/pendown.txt:10 ../E/penwidth.txt:7
 #, no-wrap
 msgid "Width of the pen. The width cannot be higher than <code>1.0</code> and cannot be lower than <code>0.0</code>. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible."
-msgstr "Grubość pisaka. Nie może być większa od <code>1.0</code> i mniejsza od <code>0.0</code>. Przekazanie większej wartości spowoduje, że pisak będzie najgrubszy, a mniejszej – że będzie najcieńszy. "
+msgstr "Grubość pisaka. Nie może być większa od <code>1.0</code> i mniejsza od <code>0.0</code>. Przekazanie większej wartości spowoduje, że pisak będzie najgrubszy, a mniejszej - że będzie najcieńszy. "
 
 #. type: Plain text
 #: ../E/pendown.txt:13
