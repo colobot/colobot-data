@@ -4,7 +4,7 @@ An array is basically a collection of variables of the same type or class. You c
 \s;int    [ ] a;   // an array of int
 \s;int    a [12];  // an array of int limited to 12 elements
 \s;string s[3];    // an array of 3 strings
-\s;float  xy[][];  // an 2 dimensionnal array of floats
+\s;float  xy[][];  // a 2 dimensionnal array of floats
 \n;
 Actually when the CBOT interpreter encounters an array declaration, it just creates a \c;\l;null\u cbot\null;\n; \l;reference\u cbot\pointer;:
 \c;
@@ -26,6 +26,17 @@ When an array is declared with a maximum size, the program will stop as soon as 
 \s;}
 \n;
 If you pass an array as parameter to a \l;function\u cbot\function;, the function only receives a \l;reference\u cbot\pointer; to the array. That means if you modify an array element in the function, the element of the array that has been passed the function will be actuallay modified.
+
+\b;Initialization syntax
+You can initialize a new array using the following syntax:
+\c;
+\s;type arrayName[] = { value0, value1, value2, ..., valueN };
+\n;
+Examples:
+\c;
+\s;int numbers[] = { 10, 20, 30 };
+\s;MyClass objects[] = { new MyClass(1), new MyClass(2) };
+\n;
 
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
