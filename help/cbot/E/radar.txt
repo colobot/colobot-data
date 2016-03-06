@@ -1,5 +1,5 @@
 \b;Instruction \c;radar\n;
-With the instruction \c;radar()\n;, you can look for objects like \l;enemies\u object\mother;, bots, buildings or raw materials.
+With the instruction \c;radar();\n;, you can look for objects like \l;enemies\u object\mother;, bots, buildings or raw materials.
 
 \b;Basic use
 Write in brackets the \l;name of the object\u cbot\category; that you look for. Put the result in a variable of the \l;type\u cbot\type; \c;object\n;. Here is an example that looks for the closest ant:
@@ -78,5 +78,5 @@ When one or more parameters are not specified, the default values indicated abov
 Generally, only the first parameter is specified: f. ex. \c;radar (AlienAnt)\n; detects the closest ant, wherever it may be. 
 
 \t;See also
-\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\c;\l;radarall\u cbot\radarall;();\n;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
 
