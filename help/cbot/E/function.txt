@@ -112,9 +112,7 @@ You can declare several functions with the same name but different parameters:
 \s;	return sqrt((a*a)+(b*b)+(c*c));
 \s;}
 \n;
-CBOT will call either the one or the other function depending on the parameters passed. They must be distinguishable, i.e. you can't declare two functions with the same name and parameter types in the exact same order, e.g. declaring \c;int Pythagoras(float b, float a)\n; will result in an error. The result type does not matter.
-
-Note that the built-in functions like \c;\l;goto\u cbot\goto;();\n; can be overloaded too.
+CBOT will call either the one or the other function depending on the parameters passed. They must be distinguishable, i.e. you can't declare two functions with the same name and parameter types in the exact same order, e.g. declaring \c;int Pythagoras(float b, float a)\n; will result in error. Note that result type does not matter.
 
 \b;Public functions
 You can also declare a function \l;public\u cbot\public; so it can be used by other bots.
