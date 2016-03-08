@@ -10,7 +10,7 @@ EndingFile win=-1 lost=0
 Audio filename="music009.ogg"
 
 // Planets for SpaceShip transition animation
-Planet mode=1 pos=4.1;0.1 dim=0.50 speed= 0.000 dir=0.3 image="planet03.png" uv1=0.0;0.0 uv2=0.5;0.5
+Planet mode=1 pos=4.1;0.1 dim=0.50 speed= 0.000 dir=0.3 image="planets/planet-terranova.png" uv1=0.0;0.0 uv2=1.0;1.0
 
 #Include file="%chap%/planet.txt"
 TerrainRelief image="relief31.png" factor=1.0
