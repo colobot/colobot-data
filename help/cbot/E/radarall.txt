@@ -2,8 +2,7 @@
 \c;radarall();\n; is an enhancement of the \c;\l;radar\u cbot\radar;();\n; function -- it detects all objects matching the given criteria.
 
 \b;Example\c;
-\s;object[] items;
-\s;items = radarall(PowerCell);
+\s;object[] items = radarall(PowerCell);
 \s;for (int i = 0; i < sizeof(items); ++i)
 \s;{
 \s;    message(items[i].id);
