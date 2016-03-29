@@ -29,7 +29,7 @@ public class exchange
 	}
 
 	// Delete an order.
-	synchronized void delete()
+	synchronized void remove()
 	{
 		m_order.m_type = nan;
 	}
@@ -63,6 +63,6 @@ extern void object::Slave4( )
 		{
 			message("Unknown order");
 		}
-		list.delete();
+		list.remove();
 	}
 }
