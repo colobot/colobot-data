@@ -19,83 +19,145 @@ msgstr ""
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Introductory exercise"
+msgid "Hi"
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is your first exercise, where you will learn how to program bots available for your disposition during the future missions. We created a programming language specifically for our bots, namely <code>CBOT</code>. If you already know some other popular languages like Java or C++, you will soon find out that CBOT is similar to them in many ways."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "Your <code>SatCom communicator</code> always provides you with useful informations about your current situation. You are reading the main page right now. It is changing between missions (including also exercises), so it should be your habit to always read it before taking any significant action."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "Brief"
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "Your job"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:19
-#, no-wrap
-msgid "If you feel confident, you can try to open the source code in the editor and analyse it or even modify it and write your own. We will learn all these and more in the next exercise."
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:21
-#, no-wrap
-msgid "See also"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:22
-#, no-wrap
-msgid "<a command>Controls</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:12
-#, no-wrap
-msgid "In theory, you can solve most problems by controlling robots by yourself, but programming is a much better way of doing things if you know how to use this tool properly. We used here the word \"tool\", because that is what programming really is - a hammer to build a house, a knife to cut the food, and so on. It exists because it makes our lifes easier and, sometimes, makes some tasks even possible or just gives us faster and better solutions. For example, a human can add two to two, but computer can add 123456789 to 6473892123 with ease."
+msgid "Welcome to Colobot: Gold Edition, a real-time strategy game connecting saving the world with programming robots! This is one of the many game modes available, namely Programming Course or just Exercises. Here you will not only gain fundamental and advanced knowledge about bot programming, but also start thinking like a programmer, or maybe even like a computer scientist. After this course, you should be able to program your way through the game in the other game modes and also get an unfair advantage of experience when you decide to learn the real-world programming. And all you have to do is to beat this game. This is a great deal, isn't it?"
 msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "<button 63/>"
+msgid "Satellite Communicator"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "You are reading this message from your mobile satellite communicator, shortly <button 63/>. Your task and useful information are provided to you in every mission, so always read briefings sent to your <button 63/>. You can always reopen it by pressing <format key>F2</format> on your keyboard. Information about the <button 63/> navigation can be found <a navig>here</a>, although you probably don't need to read it if you have ever used a web browser."
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Programming"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Why program?"
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "You have probably already noticed that you are being attacked by two <a object|ant>aliens</a>. Do not panic. They are not real and will not hurt you unless you accidentaly come too close to their range of fire. Currently, they should be focused on the bot. It is a <a object|botfr>wheeled shooter</a>, a robot built in order to defend human beings against any harmful threat, especially aliens. Bots can be controlled in two ways: by a program or by remote control. The latter is not possible during exercises, so do not even try. It will, however, be available to you during missions."
+msgid "Imagine yourself building a base. In the beginning it's easy, you just get some resources, build some structures... After a while you start using robots and remote control to do tasks without leaving your comfy armchair. Yet, naturally, the base is growing and it becomes impossible to manage the base all by yourself, a one puny human. If only you could just tell the robotic employees what to do..."
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:12
 #, no-wrap
-msgid "There is another page, or rather a set of pages, called <code>CBOT programming book</code>. During these exercises, it will be your greatest friend. You can open it by clicking on the book <button 188/> button or on links, which occasionally you may come across with. For example, <a cbot>here</a>. You can always come back to the main page by clicking on the top <button 185/> button or return to previously visited page by clicking on the left arrow <button 55/> buttton. You can learn more about navigating in SatCom <a navig>here</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:17
-#, no-wrap
-msgid "We have already written a program for this exercise. All you need to do is run it. Select the bot <button 143/> and choose the \"Solution\" program from the list. Then, click on the orange arrow <button 21/> button in order to run it. After that, just watch how the bot destroys the aliens and notice how programming is powerful. And it is just the beginning! We will do a lot of interesting stuff in the next exercises."
+msgid "You can do that by using programming. In fact, you can even get much better and more precise results, since computers don't make mistakes like humans do (well, they do, but it's probably user/programmer/project manager's fault). They do exactly as they are said, without second thoughts. This makes them much more efficient, for example try to calculate 56783.5678 * 1455.6 in your mind in a fraction of a second. Impossible, right? Not for a computer."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "There are a lot of programming languages. It is often a hard task to find the one that will get the job done with least time, effort and best possible result. You do not write webpages in C++ like you do not use a hammer to cut a bread. We wanted to have a language similar to the ones that most programmers already know and at the same time as simple as possible, in order to let our employees working in the field write working and useful programs in no time. With CBOT you can focus on logic (what needs to be done) instead of a lot of technical stuff, like moving a part of the robot arm. We call CBOT a <code>high-level</code> programming language, like C++ and Java for example, because it is (in most cases) not controlling directly physical parts of the robot. For that, there are other programming languages, for example Assembler, but we will not bother with anything except CBOT in these exercises."
+msgid "It doesn't end at mathematics. With proper algorithms computers can sort enormous chunks of data, find the shortest paths, build other robots, basically do everything we want. We only need to know the algorithm and write it in a form understandable by computer. Creating the algorithm is actually the hardest part, there are a lot of scientists trying to come up with the best solutions or prove that an efficient solution for particular problems doesn't even exist. We'll cover some of the popular algorithmic problems in later chapters."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "However, you don't have to be a scientist to solve problems, this is what all programmers do every day. Problem solving is the essence of programming, this is where most of the fun lies, to see your program finally working, to understand why, to make someone's (your) life easier. How to get the alphabetically sorted list of all shop customers in a reasonable amount of time? How to get to New York from Warsaw the fastest way possible? What is the most optimal way you can pack for your travel? How to shoot invading aliens while flying? These are only few examples of problems you can solve by programming!"
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Programming languages"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "So, how do you talk with a computer? You obviously can't just say \"build me a base\" and expect the computer to understand you. Natural language is unnatural for machines, because it's too complicated, sophisticated and ambiguous. Even humans can't understand each other from time to time. Try to explain to a machine that \"keep this under your hat\" doesn't mean to literally put a thing under your gorgeous hat and you'll fail miserably. Machines need precise and determined sequence of instructions. How is the \"keep\" action defined? What is \"this\"? What does \"under\" mean? Where is \"your hat\"? Only after you precisely define all the words, the computer can understand the sentence and start executing."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "What is the language of electronic machines? Binary numbers, literally! Zero when there is no current, one when there is. It's not even that easy, because there is no place to type zeroes and ones, you probably need to plug in some cables, pull some levers and god knows what else. Back in the old times, this is what programming was and if you made any mistake, you would need to start all over again! In the picture below you can see the first world's computer, ENIAC."
+msgstr ""
+
+#. type: Image filename
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "eniac"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "Don't worry, now it's much easier to program, but at the same time we solve harder problems nowadays, since the old ones are already solved. Today, we use so called programming languages. They are formal, simple languages usually familiar to the language of mathematics (but with far less odd symbols, which make mathematical language scary and unreadable for other people). Programming languages are connecting the low-level computer language with the natural human language. When you write a program in such a language, it is understandable by a human being and at the same time it can be translated to the language understandable by a computer. The process of translation the source code is called compilation and is done by compilers."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "The language you'll be learning in this course is called CBOT. It was specifically created for programming robots in the game, but it's based on widely used real-world programming languages like C++ or Java. If you already know them, you'll beat this course in no time. If not, then it's even better, because that's why this programming course exist in the first place, to teach you programming."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "Glossary"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "Task"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "In this exercise you won't be doing anything related to programming yet. We just want you to get familiarized with the game basic controls. Click <a command>here</a> for more details."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "Feel free to play around the map to see how the interface works. After you're done, move your <a object|botgr>robot</a> to the <a object|base>SpaceShip</a> and take off."
+msgstr ""
+
+#. type: Image filename
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "compilation"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "CBOT is a high-level language, which is the opposite of a low-level language. Low-level languages are close to machine, for example they give you direct access to memory and processor instructions. Programs written in a low-level language are usually error prone and less multiplatform, and source code is less readable. That's why most programmers are using high-level languages which provide layers of abstraction, so they don't need to think about for example memory management and can focus on the program logic instead."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid ""
+"Summing up, you should know the following terms after this lesson:\n"
+"* Algorithm - precisely described set of operations to be performed in order to solve a specific problem.\n"
+"* Program - a form of an algorithm which can be executed by a computer.\n"
+"* Source code - an algorithm written in a programming language.\n"
+"* Programming language - a formal constructed language designed to communicate instructions to a machine.\n"
+"* Compiler - a program that transforms source code to another language, usually in an executable form.\n"
+"* Low-level language - a programming language with direct access to machine components like memory.\n"
+"* High-level language - the opposite of low-level language."
 msgstr ""
