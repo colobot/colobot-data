@@ -76,28 +76,10 @@ msgstr ""
 msgid "Programming languages"
 msgstr ""
 
-#. type: Plain text
-#: ../help/help.E.txt:19
-#, no-wrap
-msgid "So, how do you talk with a computer? You obviously can't just say \"build me a base\" and expect the computer to understand you. Natural language is unnatural for machines, because it's too complicated, sophisticated and ambiguous. Even humans can't understand each other from time to time. Try to explain to a machine that \"keep this under your hat\" doesn't mean to literally put a thing under your gorgeous hat and you'll fail miserably. Machines need precise and determined sequence of instructions. How is the \"keep\" action defined? What is \"this\"? What does \"under\" mean? Where is \"your hat\"? Only after you precisely define all the words, the computer can understand the sentence and start executing."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:21
-#, no-wrap
-msgid "What is the language of electronic machines? Binary numbers, literally! Zero when there is no current, one when there is. It's not even that easy, because there is no place to type zeroes and ones, you probably need to plug in some cables, pull some levers and god knows what else. Back in the old times, this is what programming was and if you made any mistake, you would need to start all over again! In the picture below you can see the first world's computer, ENIAC."
-msgstr ""
-
 #. type: Image filename
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "eniac"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:25
-#, no-wrap
-msgid "Don't worry, now it's much easier to program, but at the same time we solve harder problems nowadays, since the old ones are already solved. Today, we use so called programming languages. They are formal, simple languages usually familiar to the language of mathematics (but with far less odd symbols, which make mathematical language scary and unreadable for other people). Programming languages are connecting the low-level computer language with the natural human language. When you write a program in such a language, it is understandable by a human being and at the same time it can be translated to the language understandable by a computer. The process of translation the source code is called compilation and is done by compilers."
 msgstr ""
 
 #. type: Plain text
@@ -122,12 +104,6 @@ msgstr ""
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "In this exercise you won't be doing anything related to programming yet. We just want you to get familiarized with the game basic controls. Click <a command>here</a> for more details."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:46
-#, no-wrap
-msgid "Feel free to play around the map to see how the interface works. After you're done, move your <a object|botgr>robot</a> to the <a object|base>SpaceShip</a> and take off."
 msgstr ""
 
 #. type: Image filename
@@ -159,5 +135,29 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "You are reading this message from your mobile satellite communicator, shortly <button 63/>. Your task and useful information are provided to you in every mission, so always read briefings sent to your <button 63/>. You can always reopen it by pressing <format key><key help/></format> on your keyboard. Information about the <button 63/> navigation can be found <a navig>here</a>, although you probably don't need to read it if you have ever used a web browser."
+msgid "You are reading this message on your mobile satellite communicator, shortly <button 63/>. Your task and useful information are provided to you in every mission, so always read briefings sent to your <button 63/>. You can always reopen it by pressing <format key><key help/></format> on your keyboard. Information about the <button 63/> navigation can be found <a navig>here</a>, although you probably don't need to read it if you've ever used a web browser."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "So, how do you talk with a computer? You obviously can't just say \"build me a base\" and expect the computer to understand you. Natural language is unnatural for machines, because it's too complicated, sophisticated and ambiguous. Even humans can't understand each other from time to time. Try to explain to a machine that \"keep this under your hat\" doesn't mean to literally put a thing under your gorgeous hat, and you'll fail miserably. Machines need precise and determined sequence of instructions. How is the \"keep\" action defined? What is \"this\"? What does \"under\" mean? Where is \"your hat\"? Only after you precisely define all the words, a computer can understand the sentence and start executing it."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "What is the language of electronic machines? Binary numbers, literally! Zero when there is no current, one when there is. It's not even that easy, because there is no place to type zeroes and ones, you probably need to plug in some cables, pull some levers and god knows what else. Back in the old times, this is what programming was and if you made any mistake, you would need to start it all over again! In the picture below you can see the first world's computer, ENIAC."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "Don't worry, now it's much easier to program, but at the same time we solve harder problems nowadays, since the old ones are already solved. Today, we use so called programming languages. They are formal, simple languages usually familiar to the language of mathematics (but with far less odd symbols, which make mathematical language scary and unreadable for other people). Programming languages are connecting the low-level computer language with the natural human language. When you write a program in such a language, it is understandable by a human being and at the same time it can be translated to the language understandable by a computer. The process of translation of the source code is called compilation and is done by compilers."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "Feel free to play around the map to see how the interface works. After you're done, move your <a object|botgr>robot</a> and <a object|human>yourself</a> to the <a object|base>SpaceShip</a> and take off."
 msgstr ""
