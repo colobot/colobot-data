@@ -1,0 +1,20 @@
+Title.E text="Shooting battle - vs computer"
+Resume.E text="It's getting a bit harder now, isn't it?"
+
+#Include file="%cat%/level_common.txt"
+Level type=CODE_BATTLE magnifyDamage=10
+
+BeginObject
+
+// Team "Blue" (1)
+CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
+
+// Team "Red" (2)
+// TODO: selectable=0, but only before start?
+CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2 script1="%lvl%/program.txt" scriptReadOnly1=true run=1
+
+DoneResearch type=WINGER
+DoneResearch type=SHOOTER
+
+EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0

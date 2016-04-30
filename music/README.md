@@ -14,14 +14,16 @@ It currently includes:
  * Track 10: "You Win!" - music012.flac
  * Track 11: "You Lose..." - music010.flac
  * Track 12: "Jazz Buzzing EasterEgg" - music013.flac
-* New audio tracks, composed by **Emxx52** ([forum](http://colobot.info/forum/memberlist.php?mode=viewprofile&u=68), [GitHub](https://github.com/Emxx52))
+* New audio tracks, composed by **Emxx52** ([forum](http://colobot.info/forum/memberlist.php?mode=viewprofile&u=68), [GitHub](https://github.com/Emxx52)), also available [on SoundCloud](https://soundcloud.com/emxx-fiftytwo/sets/colobot-gold-edition-soundtrack)
  * "Constructive Destruction" - Constructive.flac
- * "Humanitarian" - Humanitaian.flac
+ * "Humanitarian" - Humanitaian.flac *(not available in-game yet)*
  * "Humanitarian v2 - The Box" - Hv2.flac
+ * "Infinite Storm v2 - Being Approximately Overcharged" - Infinite.flac *(not available in-game yet)*
+ * "Proton Ame" - Proton.flac *(not available in-game yet)*
  * "Prototype" - Prototype.flac
  * "Quite Busy" - Quite.flac
- * "Infinite Storm v2 - Being Approximately Overcharged" - Infinite.flac
- * "Proton Ame" - Proton.flac
+ * "Quite Busy v2 - Echoes of the Sand" *(not available in-game yet)*
+ * "Under Construction - Terralice Theme" *(not available in-game yet)*
 * New main menu intro music, composed by **PiXeL** ([forum](http://colobot.info/forum/memberlist.php?mode=viewprofile&u=243))
  * Intro1.ogg
  * Intro2.ogg

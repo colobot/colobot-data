@@ -1,20 +1,19 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Didier Raboud <odyx@debian.org>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-03-25 16:35+0100\n"
+"Last-Translator: Didier Raboud <odyx@debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. type: \b; header
 #: ../E/abstime.txt:1
@@ -25,7 +24,7 @@ msgstr "Instruction <code>abstime</code>"
 #. type: Plain text
 #: ../E/abstime.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/errmode.txt:5 ../E/flatgrnd.txt:2 ../E/readln.txt:8 ../E/send.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/testinfo.txt:2 ../E/writeln.txt:8
 #, no-wrap
-msgid "Syntax¦:"
+msgid "Syntax:"
 msgstr "Syntaxe:"
 
 #. type: Source code
@@ -53,13 +52,13 @@ msgid "Time in seconds."
 msgstr "Temps en secondes."
 
 #. type: \t; header
-#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:30 ../E/asin.txt:11 ../E/atan.txt:11 ../E/atan2.txt:16 ../E/bloc.txt:48 ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27 ../E/buildingenabled.txt:22 ../E/busy.txt:14 ../E/canbuild.txt:22 ../E/canresearch.txt:14 ../E/category.txt:107 ../E/ceil.txt:12 ../E/class.txt:70 ../E/close.txt:6 ../E/cond.txt:27 ../E/continue.txt:24 ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/destroy.txt:15 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13 ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32 ../E/expr.txt:74 ../E/extern.txt:29 ../E/factory.txt:21 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30 ../E/flatgrnd.txt:16 ../E/flatspace.txt:25 ../E/float.txt:24 ../E/floor.txt:12 ../E/for.txt:38 ../E/function.txt:129 ../E/goto.txt:34 ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14 ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14 ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:79 ../E/open.txt:18 ../E/openfile.txt:10 ../E/pencolor.txt:14 ../E/pendown.txt:17 ../E/penup.txt:11 ../E/penwidth.txt:14 ../E/point.txt:35 ../E/pointer.txt:51 ../E/pow.txt:14 ../E/private.txt:17 ../E/public.txt:49 ../E/radar.txt:80 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16 ../E/recycle.txt:12 ../E/research.txt:18 ../E/researched.txt:14 ../E/researches.txt:27 ../E/retobj.txt:13 ../E/return.txt:29 ../E/round.txt:12 ../E/search.txt:25 ../E/send.txt:17 ../E/shield.txt:18 ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22 ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32 ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10 ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10 ../E/strval.txt:17 ../E/switch.txt:70 ../E/synchro.txt:23 ../E/takeoff.txt:15 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16 ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4 ../E/trunc.txt:12 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66 ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
+#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:41 ../E/asin.txt:11 ../E/atan.txt:11 ../E/atan2.txt:16 ../E/bloc.txt:48 ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27 ../E/buildingenabled.txt:22 ../E/busy.txt:14 ../E/canbuild.txt:22 ../E/canresearch.txt:14 ../E/category.txt:109 ../E/ceil.txt:12 ../E/class.txt:70 ../E/close.txt:6 ../E/cond.txt:4 ../E/continue.txt:24 ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/destroy.txt:15 ../E/detect.txt:27 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13 ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32 ../E/expr.txt:197 ../E/extern.txt:29 ../E/factory.txt:21 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30 ../E/flatgrnd.txt:16 ../E/flatspace.txt:25 ../E/float.txt:24 ../E/floor.txt:12 ../E/for.txt:51 ../E/function.txt:129 ../E/goto.txt:34 ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14 ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14 ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:79 ../E/open.txt:18 ../E/openfile.txt:10 ../E/pencolor.txt:14 ../E/pendown.txt:17 ../E/penup.txt:11 ../E/penwidth.txt:14 ../E/point.txt:35 ../E/pointer.txt:51 ../E/pow.txt:14 ../E/private.txt:17 ../E/produce.txt:30 ../E/public.txt:49 ../E/radar.txt:80 ../E/radarall.txt:19 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16 ../E/recycle.txt:12 ../E/research.txt:18 ../E/researched.txt:14 ../E/researches.txt:27 ../E/retobj.txt:13 ../E/return.txt:29 ../E/round.txt:12 ../E/search.txt:25 ../E/send.txt:17 ../E/shield.txt:18 ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22 ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32 ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10 ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10 ../E/strval.txt:17 ../E/switch.txt:70 ../E/synchro.txt:23 ../E/takeoff.txt:15 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16 ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4 ../E/trunc.txt:12 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66 ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
 #, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: ../E/abstime.txt:11 ../E/aim.txt:24 ../E/array.txt:31 ../E/bool.txt:5 ../E/break.txt:25 ../E/busy.txt:15 ../E/cond.txt:28 ../E/continue.txt:25 ../E/deletef.txt:10 ../E/destroy.txt:16 ../E/direct.txt:14 ../E/dist.txt:30 ../E/dist2d.txt:14 ../E/drop.txt:29 ../E/errmode.txt:33 ../E/expr.txt:75 ../E/extern.txt:30 ../E/false.txt:5 ../E/fire.txt:31 ../E/flatgrnd.txt:17 ../E/flatspace.txt:26 ../E/float.txt:25 ../E/for.txt:39 ../E/function.txt:130 ../E/goto.txt:35 ../E/grab.txt:29 ../E/if.txt:40 ../E/int.txt:19 ../E/jet.txt:15 ../E/message.txt:25 ../E/move.txt:22 ../E/nan.txt:15 ../E/object.txt:80 ../E/openfile.txt:11 ../E/pencolor.txt:15 ../E/pendown.txt:18 ../E/penup.txt:12 ../E/penwidth.txt:15 ../E/point.txt:36 ../E/radar.txt:81 ../E/recycle.txt:13 ../E/retobj.txt:14 ../E/return.txt:30 ../E/search.txt:26 ../E/shield.txt:19 ../E/sizeof.txt:22 ../E/sniff.txt:17 ../E/space.txt:23 ../E/string.txt:33 ../E/switch.txt:71 ../E/takeoff.txt:16 ../E/term.txt:31 ../E/thump.txt:13 ../E/topo.txt:14 ../E/true.txt:5 ../E/turn.txt:33 ../E/type.txt:33 ../E/var.txt:67 ../E/void.txt:11 ../E/wait.txt:22
+#: ../E/abstime.txt:11 ../E/aim.txt:24 ../E/array.txt:42 ../E/bool.txt:5 ../E/break.txt:25 ../E/busy.txt:15 ../E/cond.txt:5 ../E/continue.txt:25 ../E/deletef.txt:10 ../E/destroy.txt:16 ../E/detect.txt:28 ../E/direct.txt:14 ../E/dist.txt:30 ../E/dist2d.txt:14 ../E/drop.txt:29 ../E/errmode.txt:33 ../E/expr.txt:198 ../E/extern.txt:30 ../E/false.txt:5 ../E/fire.txt:31 ../E/flatgrnd.txt:17 ../E/flatspace.txt:26 ../E/float.txt:25 ../E/for.txt:52 ../E/function.txt:130 ../E/goto.txt:35 ../E/grab.txt:29 ../E/if.txt:40 ../E/int.txt:19 ../E/jet.txt:15 ../E/message.txt:25 ../E/move.txt:22 ../E/nan.txt:15 ../E/object.txt:80 ../E/openfile.txt:11 ../E/pencolor.txt:15 ../E/pendown.txt:18 ../E/penup.txt:12 ../E/penwidth.txt:15 ../E/point.txt:36 ../E/produce.txt:31 ../E/recycle.txt:13 ../E/retobj.txt:14 ../E/return.txt:30 ../E/search.txt:26 ../E/shield.txt:19 ../E/sizeof.txt:22 ../E/sniff.txt:17 ../E/space.txt:23 ../E/string.txt:33 ../E/switch.txt:71 ../E/takeoff.txt:16 ../E/term.txt:31 ../E/thump.txt:13 ../E/topo.txt:14 ../E/true.txt:5 ../E/turn.txt:33 ../E/type.txt:33 ../E/var.txt:67 ../E/void.txt:11 ../E/wait.txt:22
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
@@ -141,20 +140,6 @@ msgstr "Les tableaux (pour spécialistes)"
 #, no-wrap
 msgid "An array is basically a collection of variables of the same type or class. You can use N dimensionnal arrays in the CBOT language. Each dimension is limited to 9999 elements. You must use square brackets <code>[]</code> after the type name or the variable name to declare an array."
 msgstr "CBOT gère des tableaux de N dimensions, mais limités volontairement à un maximum de 9999 éléments par dimension. Les tableaux peuvent être de chaque type de base et même avec des éléments d'une classe quelconque. Pour déclarer un tableau, il faut mettre des crochets <code>[]</code> après le type, ou/et après le nom de la variable déclarée."
-
-#. type: Source code
-#: ../E/array.txt:4
-#, no-wrap
-msgid ""
-"int    [ ] a;   // an array of int\n"
-"int    a [12];  // an array of int limited to 12 elements\n"
-"string s[3];    // an array of 3 strings\n"
-"float  xy[][];  // an 2 dimensionnal array of floats"
-msgstr ""
-"int    [ ] a;   // un tableau de nombre entier\n"
-"int    a [12];  // idem limité à 12 éléments\n"
-"string s[3];    // un tableau de 3 chaînes\n"
-"float  xy[][];  // un tableau à 2 dimensions"
 
 #. type: Plain text
 #: ../E/array.txt:9
@@ -420,6 +405,17 @@ msgid ""
 "\t<n/>more instructions ...<c/>\n"
 "}"
 msgstr ""
+"<c/>int i = 0;\n"
+"while ( true )\n"
+"{\n"
+"\t<n/>Instructions …<c/>\n"
+"\ti = i+1;\n"
+"\tif ( i >= 10 )\n"
+"\t{\n"
+"\t\tbreak;\n"
+"\t}\n"
+"\t<n/>plus d'instructions …<c/>\n"
+"}"
 
 #. type: \b; header
 #: ../E/category.txt:1
@@ -434,13 +430,7 @@ msgid "Categories represent the names of objects in the CBOT language. Everythin
 msgstr "La catégorie détermine la nature d'un objet. Dans COLOBOT, tout est objet: les robots, les bâtiments, les matières premières, les éléments du décor, etc."
 
 #. type: Plain text
-#: ../E/category.txt:4
-#, no-wrap
-msgid "In a program, categories are always displayed on a <format const>red background</format>. If a category isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr "Dans un programme, un nom de catégorie est toujours <format const>colorié en rouge</format>. Si une catégorie n'est pas coloriée, c'est que son nom est mal orthographié. Il faut par exemple respecter les majuscules et les minuscules."
-
-#. type: Plain text
-#: ../E/category.txt:33
+#: ../E/category.txt:34
 #, no-wrap
 msgid ""
 "       <code><a object|titanore>TitaniumOre</a>          </code>Titanium Ore\n"
@@ -464,7 +454,7 @@ msgstr ""
 "       <code><a object|tnt>TNT</a>            </code>Caisse d'explosif"
 
 #. type: Plain text
-#: ../E/category.txt:46
+#: ../E/category.txt:47
 #, no-wrap
 msgid ""
 "<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Practice Bot\n"
@@ -474,7 +464,7 @@ msgstr ""
 "<button 173/>   <code><a object|bottarg>TargetBot</a>           </code>Robot cible"
 
 #. type: Plain text
-#: ../E/category.txt:49
+#: ../E/category.txt:50
 #, no-wrap
 msgid ""
 "<button 137/>   <code><a object|botgr>WheeledGrabber</a>         </code>Wheeled Grabber\n"
@@ -488,7 +478,7 @@ msgstr ""
 "<button 150/>   <code><a object|botgs>LeggedGrabber</a></code>"
 
 #. type: Plain text
-#: ../E/category.txt:54
+#: ../E/category.txt:55
 #, no-wrap
 msgid ""
 "<button 140/>   <code><a object|botsr>WheeledSniffer</a>         </code>Wheeled Sniffer\n"
@@ -502,7 +492,7 @@ msgstr ""
 "<button 152/>   <code><a object|botss>LeggedSniffer</a></code>"
 
 #. type: Plain text
-#: ../E/category.txt:59
+#: ../E/category.txt:60
 #, no-wrap
 msgid ""
 "<button 143/>   <code><a object|botfr>WheeledShooter</a>         </code>Wheeled Shooter\n"
@@ -516,7 +506,7 @@ msgstr ""
 "<button 151/>   <code><a object|botfs>LeggedShooter</a></code>"
 
 #. type: Plain text
-#: ../E/category.txt:64
+#: ../E/category.txt:65
 #, no-wrap
 msgid ""
 "<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     </code>Wheeled Orga Shooter\n"
@@ -530,7 +520,7 @@ msgstr ""
 "<button 156/>   <code><a object|botos>LeggedOrgaShooter</a></code>"
 
 #. type: Plain text
-#: ../E/category.txt:69
+#: ../E/category.txt:70
 #, no-wrap
 msgid ""
 "<button 149/>   <code><a object|botsub>Subber</a>                 </code>Subber\n"
@@ -546,7 +536,7 @@ msgstr ""
 "<button 147/>   <code><a object|botphaz>PhazerShooter</a>       </code>Robot phazer"
 
 #. type: Plain text
-#: ../E/category.txt:78
+#: ../E/category.txt:79
 #, no-wrap
 msgid ""
 "       <code><a object|mother>AlienQueen</a>         </code>Alien Queen\n"
@@ -564,7 +554,7 @@ msgstr ""
 "       <code><a object|worm>AlienWorm</a>       </code>Ver"
 
 #. type: Plain text
-#: ../E/category.txt:88
+#: ../E/category.txt:89
 #, no-wrap
 msgid ""
 "<button 136/>   <code><a object|human>Me</a>              </code>You!\n"
@@ -580,31 +570,7 @@ msgstr ""
 "       <code>Ruin         </code>Bâtiment en ruine"
 
 #. type: Plain text
-#: ../E/category.txt:97
-#, no-wrap
-msgid ""
-"       <code><a object|flag>BlueFlag</a>          </code>Blue Flag\n"
-"       <code><a object|flag>RedFlag</a>           </code>Red Flag\n"
-"       <code><a object|flag>GreenFlag</a>         </code>Green Flag\n"
-"       <code><a object|flag>YellowFlag</a>        </code>Yellow Flag\n"
-"       <code><a object|flag>VioletFlag</a>        </code>Violet Flag\n"
-"       <code><a object|waypoint>WayPoint</a>          </code>Checkpoint\n"
-"       <code><a object|enerspot>EnergySpot</a>        </code>Underground Energy Deposit\n"
-"       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
-"       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
-msgstr ""
-"       <code><a object|waypoint>WayPoint</a>       </code>Indicateur de chemin\n"
-"       <code><a object|flag>BlueFlag</a>       </code>Drapeau bleu\n"
-"       <code><a object|flag>RedFlag</a>        </code>Drapeau rouge\n"
-"       <code><a object|flag>GreenFlag</a>      </code>Drapeau vert\n"
-"       <code><a object|flag>YellowFlag</a>     </code>Drapeau jaune\n"
-"       <code><a object|flag>VioletFlag</a>     </code>Drapeau violet\n"
-"       <code><a object|enerspot>PowerSpot</a>      </code>Energie en sous-sol\n"
-"       <code><a object|stonspot>TitaniumSpot</a>   </code>Minerai de titanium en sous-sol\n"
-"       <code><a object|uranspot>UraniumSpot</a>    </code>Minerai d'uranium en sous-sol"
-
-#. type: Plain text
-#: ../E/category.txt:108
+#: ../E/category.txt:110
 #, no-wrap
 msgid "<a cbot>CBOT Language</a> and <a cbot|type>Variables</a>."
 msgstr "<a cbot>Programmation</a> et <a cbot|type>types</a>."
@@ -800,7 +766,7 @@ msgstr "Instruction <code>close</code>"
 #. type: Plain text
 #: ../E/close.txt:2
 #, no-wrap
-msgid "Close a file opened previously with <code><a cbot|open>open</a></code>. This is a method of the <code><a cbot|file>file</a></code> class; therefore you cannot write  <code>close()</code> but only <code>handle.close()</code>¦:"
+msgid "Close a file opened previously with <code><a cbot|open>open</a></code>. This is a method of the <code><a cbot|file>file</a></code> class; therefore you cannot write  <code>close()</code> but only <code>handle.close()</code>:"
 msgstr "L'instruction <c/>close();<n/> ferme un fichier de texte dans le dossier files/. Cette instruction est une méthode de la classe <code><a cbot|file>file</a></code>. C'est la raison pour laquelle on n'écrit jamais <code>close()</code> tout seul, mais <code>handle.close()</code>:"
 
 #. type: Source code
@@ -826,17 +792,7 @@ msgid "Conditions"
 msgstr "Les conditions"
 
 #. type: Plain text
-#: ../E/cond.txt:2
-#, no-wrap
-msgid ""
-"A condition is a special <a cbot|expr>expression</a> that returns a <a cbot|bool>boolean</a> value, that can only be either <code><a cbot|true>true</a></code> or <code><a cbot|false>false</a></code>. With a condition, you can choose f. ex. if the instructions in a <code><a cbot|while>while</a></code> loop must be repeated again, or if the instruction in a <code><a cbot|if>if</a></code> bloc must be executed.\n"
-"Here are some operators that you can use in conditions to compare two values :"
-msgstr ""
-"Une condition est une <a cbot|expr>expression</a> particulière, qui prend une valeur <a cbot|bool>booléenne</a>, c'est-à-dire pouvant être vraie ou fausse (<code><a cbot|true>true</a></code> ou <code><a cbot|false>false</a></code>). Une condition détermine par exemple s'il faut continuer ou non une boucle <code><a cbot|while>while</a></code>.\n"
-"Les opérateurs de comparaison sont:"
-
-#. type: Plain text
-#: ../E/cond.txt:5
+#: ../E/expr.txt:116
 #, no-wrap
 msgid ""
 "<code>a == b  </code><code>a</code> equals <code>b</code>\n"
@@ -854,13 +810,7 @@ msgstr ""
 "<code>a >= b  </code><code>a</code> plus grand ou égal à <code>b</code>"
 
 #. type: Plain text
-#: ../E/cond.txt:12
-#, no-wrap
-msgid "For example :"
-msgstr "Par exemple:"
-
-#. type: Plain text
-#: ../E/cond.txt:14
+#: ../E/expr.txt:124
 #, no-wrap
 msgid ""
 "<code>12 == 12  </code>returns true\n"
@@ -878,13 +828,13 @@ msgstr ""
 "<code>12 >= 12  </code>retourne vrai"
 
 #. type: Plain text
-#: ../E/cond.txt:22
+#: ../E/expr.txt:132
 #, no-wrap
 msgid "Be careful not to confuse the equality comparison <code>==</code> with the assignment of a <a cbot|var>variable</a> <code>=</code>."
 msgstr "Il faut faire très attention à ne pas confondre la comparaison d'égalité <code>==</code> avec l'affectation d'une <a cbot|var>variable</a> <code>=</code>."
 
 #. type: Plain text
-#: ../E/cond.txt:24
+#: ../E/expr.txt:134
 #, no-wrap
 msgid ""
 "<code>a == b</code> is an expression that compares <code>a</code> with <code>b</code>.\n"
@@ -967,7 +917,7 @@ msgstr "L'instruction <c/>deletefile();<n/> supprime un fichier dans le dossier 
 #: ../E/deletef.txt:4
 #, no-wrap
 msgid "Files can only be deleted in the files/ folder which is located in the folder where Colobot has been installed. You cannot not delete files that are located elsewhere than in the files/ folder."
-msgstr ""
+msgstr "Les fichiers ne peuvent être supprimés que dans le dossier files/, situé là où Colobot a été installé. Il n'est pas possible de supprimer des fichiers situés ailleurs que dans ce dossier files/."
 
 #. type: Source code
 #: ../E/deletef.txt:7
@@ -1002,7 +952,7 @@ msgstr "name: <code>string</code>"
 #. type: Plain text
 #: ../E/delinfo.txt:8
 #, no-wrap
-msgid "Name of the information to be deleted. This name is a string: it must be written in quotation marks \"¦\"."
+msgid "Name of the information to be deleted. This name is a string: it must be written in quotation marks \"\"."
 msgstr "Nom de l'information à supprimer dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets \"\"."
 
 #. type: \t; header
@@ -1126,13 +1076,13 @@ msgstr ""
 "\tmove(distance(position, chose.position) - 40);"
 
 #. type: \b; header, \t; header
-#: ../E/build.txt:13 ../E/buildingenabled.txt:12 ../E/canbuild.txt:12 ../E/dist.txt:17 ../E/drop.txt:11 ../E/errmode.txt:4 ../E/file.txt:10 ../E/fire.txt:9 ../E/float.txt:19 ../E/goto.txt:11 ../E/grab.txt:11 ../E/if.txt:22 ../E/int.txt:13 ../E/motor.txt:14 ../E/move.txt:7 ../E/radar.txt:13 ../E/return.txt:9 ../E/switch.txt:46 ../E/turn.txt:18 ../E/wait.txt:9 ../E/while.txt:19
+#: ../E/build.txt:13 ../E/buildingenabled.txt:12 ../E/canbuild.txt:12 ../E/detect.txt:4 ../E/dist.txt:17 ../E/drop.txt:11 ../E/errmode.txt:4 ../E/file.txt:10 ../E/fire.txt:9 ../E/float.txt:19 ../E/goto.txt:11 ../E/grab.txt:11 ../E/if.txt:22 ../E/int.txt:13 ../E/motor.txt:14 ../E/move.txt:7 ../E/radar.txt:13 ../E/radarall.txt:11 ../E/return.txt:9 ../E/switch.txt:46 ../E/turn.txt:18 ../E/wait.txt:9 ../E/while.txt:19
 #, no-wrap
 msgid "For specialists"
 msgstr "Pour spécialistes"
 
-#. type: Plain text
-#: ../E/acos.txt:2 ../E/aim.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14 ../E/buildingenabled.txt:13 ../E/busy.txt:2 ../E/canbuild.txt:13 ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/destroy.txt:2 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatspace.txt:2 ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2 ../E/pow.txt:2 ../E/radar.txt:14 ../E/rand.txt:2 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2 ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2 ../E/sqrt.txt:2 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10
+#. type: Plain text, \t; header
+#: ../E/abstime.txt:2 ../E/acos.txt:2 ../E/aim.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14 ../E/buildingenabled.txt:13 ../E/busy.txt:2 ../E/canbuild.txt:13 ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/destroy.txt:2 ../E/detect.txt:5 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/errmode.txt:5 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatgrnd.txt:2 ../E/flatspace.txt:2 ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2 ../E/pow.txt:2 ../E/produce.txt:2 ../E/radar.txt:14 ../E/radarall.txt:12 ../E/rand.txt:2 ../E/readln.txt:8 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2 ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2 ../E/send.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2 ../E/sqrt.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2 ../E/testinfo.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10 ../E/writeln.txt:8
 #, no-wrap
 msgid "Syntax:"
 msgstr "Syntaxe:"
@@ -1352,7 +1302,7 @@ msgstr "Instruction <code>eof</code>"
 #. type: Plain text
 #: ../E/eof.txt:2
 #, no-wrap
-msgid "Test the end of file condition of an open file. This is a method of the <code><a cbot|file>file</a></code> class; therefore you cannot write  <code>eof()</code> but only <code>handle.eof()</code>¦:"
+msgid "Test the end of file condition of an open file. This is a method of the <code><a cbot|file>file</a></code> class; therefore you cannot write  <code>eof()</code> but only <code>handle.eof()</code>:"
 msgstr "L'instruction <c/>eof();<n/> teste s'il existe encore une ou plusieurs lignes à lire dans le fichier de texte ouvert dans le dossier files/. Cette instruction est une méthode de la classe <code><a cbot|file>file</a></code>. C'est la raison pour laquelle on n'écrit jamais <code>eof()</code> tout seul, mais <code>handle.eof()</code>:"
 
 #. type: Source code
@@ -1364,7 +1314,7 @@ msgstr "\tif ( handle.eof() )"
 #. type: Plain text
 #: ../E/eof.txt:6 ../E/readln.txt:11
 #, no-wrap
-msgid "Example¦:"
+msgid "Example:"
 msgstr "Example:"
 
 #. type: Source code
@@ -1436,7 +1386,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:15
 #, no-wrap
-msgid "Example 1¦:"
+msgid "Example 1:"
 msgstr "Example 1:"
 
 #. type: Source code
@@ -1458,7 +1408,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:22
 #, no-wrap
-msgid "Example 2¦:"
+msgid "Example 2:"
 msgstr "Example 2:"
 
 #. type: Source code
@@ -1489,139 +1439,13 @@ msgid "Expressions"
 msgstr "Les expressions"
 
 #. type: Plain text
-#: ../E/expr.txt:2
-#, no-wrap
-msgid "Expressions can include the following operators: "
-msgstr "Les expressions peuvent contenir les opérations suivantes:"
-
-#. type: Plain text
-#: ../E/expr.txt:4
-#, no-wrap
-msgid ""
-"<code>+</code>  addition\n"
-"<code>-</code>  subtraction\n"
-"<code>*</code>  multiplication\n"
-"<code>/</code>  division\n"
-"<code>%</code>  remainder of the division (only for the type <code><a cbot|int>int</a></code>)"
-msgstr ""
-"<code>+ </code>  addition\n"
-"<code>- </code>  soustraction\n"
-"<code>* </code>  multiplication\n"
-"<code>/ </code>  division\n"
-"<code>% </code>  reste de la division (seulement pour le type <code><a cbot|int>int</a></code>)"
-
-#. type: Plain text
-#: ../E/expr.txt:10
-#, no-wrap
-msgid "With the addition operator <code>+</code>, you can not only add numbers, you can also append <a cbot|string>strings</a>."
-msgstr "L'addition permet non seulement d'additionner des nombres, mais également d'appondre des <a cbot|string>chaînes de caractères</a>."
-
-#. type: Source code
-#: ../E/expr.txt:12
-#, no-wrap
-msgid ""
-"\tint    i = 12+3;      // returns 15\n"
-"\tstring s = \"a\"+\"bc\";  // returns \"abc\"\n"
-"\tint    i = 2-5;       // returns -3\n"
-"\tfloat  f = 3.01*10;   // returns 30.1\n"
-"\tint    i = 5/3;       // returns 1\n"
-"\tfloat  f = 5/3;       // returns 1.67\n"
-"\tfloat  f = 5/0;       // returns an error\n"
-"\tint    i = 13%5;      // returns 3\n"
-"\tint    i = -8%3;      // returns -2"
-msgstr ""
-"\tint    i = 12+3;      // donne 15\n"
-"\tstring s = \"a\"+\"bc\";  // donne \"abc\"\n"
-"\tint    i = 2-5;       // donne -3\n"
-"\tfloat  f = 3.01*10;   // donne 30.1\n"
-"\tint    i = 5/3;       // donne 1\n"
-"\tfloat  f = 5/3;       // donne 1.67\n"
-"\tfloat  f = 5/0;       // donne une erreur\n"
-"\tint    i = 13%5;      // donne 3\n"
-"\tint    i = -8%3;      // donne -2"
-
-#. type: Plain text
-#: ../E/expr.txt:22
-#, no-wrap
-msgid "An expression can include constants or <a cbot|var>variables</a>. For example:"
-msgstr "Une expression peut contenir des constantes ou des <a cbot|var>variables</a>. Par exemple:"
-
-#. type: Source code
-#: ../E/expr.txt:24
-#, no-wrap
-msgid "<code>\t12+dist</code>"
-msgstr "<code>\t12+distance</code>"
-
-#. type: Plain text
-#: ../E/expr.txt:26
-#, no-wrap
-msgid "Multiplications and divisions are performed before additions and subtractions. In order to be sure that the operations are performed in the right order, use brackets: "
-msgstr "Les multiplications et les divisions sont effectuées avant les additions et les soustractions. En cas de doute, mieux vaut utiliser des parenthèses."
-
-#. type: Source code
-#: ../E/expr.txt:28
-#, no-wrap
-msgid ""
-"\t12*a+b/c <n/>is equivalent to<c/> (12*a)+(b/c)\n"
-"\t2.5*(dist+range)"
-msgstr ""
-"\t12*a+b/c <n/>est équivalent à<c/> (12*a)+(b/c)\n"
-"\t2.5*(distance+marge)"
-
-#. type: Plain text
-#: ../E/expr.txt:31
-#, no-wrap
-msgid "In order to improve readability, you can put as many spaces as you want: "
-msgstr "Vous pouvez mettre autant d'espaces que vous le désirez, pour améliorer la lisibilité:"
-
-#. type: Source code
-#: ../E/expr.txt:33
-#, no-wrap
-msgid ""
-"\t12*a + b/c\n"
-"\t2.5 * (dist+range)"
-msgstr ""
-"\t12*a + b/c\n"
-"\t2.5 * (distance+marge)"
-
-#. type: \t; header
-#: ../E/expr.txt:37
-#, no-wrap
-msgid "Compound assignment operators (for specialists)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:38
-#, no-wrap
-msgid "Besides the <code>=</code> operators for variable assignment there are several compound-assignment operators."
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:40
-#, no-wrap
-msgid "The compound-assignment operators combine the <code>=</code> assignment operator with another binary operator such as <code>+</code> or <code>-</code>. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as   "
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:42
-#, no-wrap
-msgid "<c/><s/>expression1 += expression2"
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:44
+#: ../E/expr.txt:86
 #, no-wrap
 msgid "is equivalent to"
-msgstr ""
+msgstr "est équivalent à"
 
 #. type: Plain text
-#: ../E/expr.txt:46
-#, no-wrap
-msgid "<c/><s/>expression1 = expression1 + expression2"
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:48
+#: ../E/expr.txt:90
 #, no-wrap
 msgid ""
 "<code>+=</code>  addition\n"
@@ -1630,64 +1454,17 @@ msgid ""
 "<code>/=</code>  division\n"
 "<code>%=</code>  remainder of the division (only for the type <code><a cbot|int>int</a></code>)"
 msgstr ""
-
-#. type: \t; header
-#: ../E/expr.txt:54
-#, no-wrap
-msgid "Prefix and posfix increment- and decrement operators (for specialists)"
-msgstr ""
+"<code>+=</code>  addition\n"
+"<code>-=</code>  soustraction\n"
+"<code>*=</code>  multiplication\n"
+"<code>/=</code>  division\n"
+"<code>%=</code>  reste de la division (seulement pour le type <code><a cbot|int>int</a></code>)"
 
 #. type: Plain text
-#: ../E/expr.txt:55
+#: ../E/expr.txt:178
 #, no-wrap
 msgid "The operators <code>++</code> and <code>--</code> allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner."
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:57
-#, no-wrap
-msgid ""
-"For example to increment the variable <code>a</code> you can write\n"
-"<c/><s/>\ta++ ;\n"
-"<n/>instead of\n"
-"<c/><s/>\ta = a + 1 ;"
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:62
-#, no-wrap
-msgid "The value of the expression <code>a++</code> is the value of the variable <code>a</code> before the increment. If you use the prefix operator <code>++a</code> the value of the expression is the value of the variable <code>a</code> after the increment. The same holds for the <code>--</code> decrement operator."
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:64
-#, no-wrap
-msgid ""
-"Examples:\n"
-"<c/><s/>\ta = 2 ;"
-msgstr ""
-
-#. type: Source code
-#: ../E/expr.txt:66
-#, no-wrap
-msgid ""
-"\tb = a++ ;\n"
-"\t// now b contains 2 and a contains 3"
-msgstr ""
-
-#. type: Plain text
-#: ../E/expr.txt:69
-#, no-wrap
-msgid "<c/><s/>\ta = 2 ;"
-msgstr ""
-
-#. type: Source code
-#: ../E/expr.txt:70
-#, no-wrap
-msgid ""
-"\tb = ++a ;\n"
-"\t// now b contains 3 and a contains 3"
-msgstr ""
+msgstr "Les opérateurs <code>++</code> et <code>--</code> permettent d'incrémenter (++) ou décrémenter (--) une variable de manière particulièrement compacte et efficace."
 
 #. type: \b; header
 #: ../E/extern.txt:1
@@ -1801,12 +1578,12 @@ msgstr "Notez la présence des parenthèses, indispensables pour créer une inst
 #: ../E/file.txt:8
 #, no-wrap
 msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files elsewhere than in the files/ folder."
-msgstr ""
+msgstr "Les fichiers ne peuvent être créés et ouverts que dans le dossier files/, situé là où Colobot a été installé. Il n'est pas possible de créer ou ouvrir des fichiers situés ailleurs que dans ce dossier files/."
 
 #. type: Plain text
 #: ../E/file.txt:11
 #, no-wrap
-msgid "<code>file</code> is actually not a simple type but a class. <code>open</code>, <code>close</code>, <code>writeln</code> etc. are methods of the <code>file</code> class. This is the reason why we always write <code>handle.method()</code>¦:"
+msgid "<code>file</code> is actually not a simple type but a class. <code>open</code>, <code>close</code>, <code>writeln</code> etc. are methods of the <code>file</code> class. This is the reason why we always write <code>handle.method()</code>:"
 msgstr "En réalité, <code>file</code> n'est pas un type, mais une classe. <code>open</code>, <code>close</code>, <code>writeln</code> etc. sont des méthodes de la classe <code>file</code>. C'est la raison pour laquelle on écrit <code>classe.méthode()</code>:"
 
 #. type: Source code
@@ -1979,7 +1756,7 @@ msgstr "Pour représenter un nombre entier (12 ou -5000 par exemple) il faut uti
 #: ../E/float.txt:12
 #, no-wrap
 msgid "Do not insert space or colon characters into a number. To separate the whole part from the fractional part, use a dot. "
-msgstr ""
+msgstr "Ne pas insérer d'caractères d'espace ou de double-point dans un nombre. Pour séparer les entiers des parties fractionnelles, utiliser un point."
 
 #. type: Source code
 #: ../E/float.txt:14
@@ -2040,12 +1817,6 @@ msgid "<code>before</code>"
 msgstr "<code>avant</code>"
 
 #. type: Plain text
-#: ../E/for.txt:11
-#, no-wrap
-msgid "This instruction is executed before the first loop instance."
-msgstr "Cette instruction simple est exécutée avant le premier tour de boucle."
-
-#. type: Plain text
 #: ../E/for.txt:14
 #, no-wrap
 msgid "This <a cbot|cond>condition</a> determines if another instance of the loop must be executed. It is tested before every instance of the loop. "
@@ -2056,12 +1827,6 @@ msgstr "Cette <a cbot|cond>condition</a> détermine s'il faut continuer la boucl
 #, no-wrap
 msgid "<code>end</code>"
 msgstr "<code>fin</code>"
-
-#. type: Plain text
-#: ../E/for.txt:17
-#, no-wrap
-msgid "This instruction is executed at the end of every instance of the loop. "
-msgstr "Cette instruction simple est exécutée à la fin de chaque tour de boucle."
 
 #. type: Source code
 #: ../E/for.txt:21
@@ -2121,7 +1886,7 @@ msgstr "Les fonctions"
 #: ../E/function.txt:118
 #, no-wrap
 msgid "You can also declare a function <a cbot|public>public</a> so it can be used by other bots."
-msgstr ""
+msgstr "Il est aussi possible de déclarer une fonction <a cbot|public>public</a> pour lui permettre d'être utilisée par d'autres robots."
 
 #. type: \b; header
 #: ../E/goto.txt:1
@@ -2443,7 +2208,7 @@ msgid "Direct control of the jet of a <a object|botgj>winged bot</a>. The jet is
 msgstr "Commande directe du réacteur d'un <a object|botgj>robot volant</a>."
 
 #. type: \t; header
-#: ../E/jet.txt:7
+#: ../E/jet.txt:7 ../E/produce.txt:21
 #, no-wrap
 msgid "power: <code><a cbot|float>float</a></code>"
 msgstr "power: <code><a cbot|float>float</a></code>"
@@ -2639,6 +2404,9 @@ msgid ""
 "<c/>motor(2, 2);<n/> will not move forward any faster than <code>motor(1, 1)</code> \n"
 "<c/>motor(-2, -2);<n/> will not move backward any faster than <code>motor(-1, -1)</code>"
 msgstr ""
+"Note :\n"
+"<c/>motor(2, 2);<n/> ne conduira pas à un déplacement vers l'avant plus rapide qu'avec <code>motor(1, 1)</code> \n"
+"<c/>motor(-2, -2);<n/>  ne conduira pas à un déplacement vers l'arrière plus rapide qu'avec <code>motor(-1, -1)</code>"
 
 #. type: \b; header
 #: ../E/move.txt:1
@@ -2776,6 +2544,10 @@ msgid ""
 "<n/>you can write:\n"
 "<c/><s/>\tMyClass item();"
 msgstr ""
+"Au lieu de :\n"
+"<c/><s/>\tMaClasse chose = new MaClasse();\n"
+"<n/>on peut écrire :\n"
+"<c/><s/>\\MaClasse chose();"
 
 #. type: Plain text
 #: ../E/new.txt:14
@@ -2977,8 +2749,8 @@ msgstr "<code>load</code>"
 msgid "This information also returns the description of a whole object: the description of the object carried by a <a object|botgr>grabber</a>. If it carries nothing, <code>load</code> returns <code>null</code>."
 msgstr "Cette information est spéciale, comme la précédente. Elle contient les caractéristiques de l'objet transporté par le <a object|botgr>robot déménageur</a>. S'il ne transporte rien, <code>load</code> vaut <code>null</code>."
 
-#. type: \b; header
-#: ../E/object.txt:66
+#. type: \t; header, \b; header
+#: ../E/expr.txt:99 ../E/expr.txt:123 ../E/expr.txt:145 ../E/expr.txt:170 ../E/expr.txt:187 ../E/object.txt:66
 #, no-wrap
 msgid "Examples"
 msgstr "Examples"
@@ -3020,7 +2792,7 @@ msgstr "Instruction <code>open</code>"
 #. type: Plain text
 #: ../E/open.txt:2
 #, no-wrap
-msgid "Open a text file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.open()</code>¦:"
+msgid "Open a text file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.open()</code>:"
 msgstr "L'instruction <c/>open();<n/> ouvre un fichier de texte dans le dossier files/. Cette instruction est une méthode de la classe <code><a cbot|file>file</a></code>. C'est la raison pour laquelle on n'écrit jamais <code>open()</code> tout seul, mais <code>handle.open()</code>:"
 
 #. type: Source code
@@ -3032,7 +2804,7 @@ msgstr "\thandle.open(\"essai.txt\", \"w\");"
 #. type: Plain text
 #: ../E/open.txt:6
 #, no-wrap
-msgid "To open a file, proceed as follows¦:"
+msgid "To open a file, proceed as follows:"
 msgstr "Pour ouvrir un fichier, procédez comme suit:"
 
 #. type: Source code
@@ -3063,7 +2835,7 @@ msgstr ""
 #: ../E/open.txt:16
 #, no-wrap
 msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files that are located elsewhere than in the files/ folder."
-msgstr ""
+msgstr "Les fichiers ne peuvent être créés et ouverts que dans le dossier files/, situé là où Colobot a été installé. Il n'est pas possible de créer ou ouvrir des fichiers situés ailleurs que dans ce dossier files/."
 
 #. type: Plain text
 #: ../E/open.txt:19
@@ -3273,7 +3045,7 @@ msgstr ""
 #: ../E/pointer.txt:26
 #, no-wrap
 msgid ""
-"Calling the fucntion <code>Test()</code>¦:\n"
+"Calling the fucntion <code>Test()</code>:\n"
 "<c/><s/>{"
 msgstr ""
 "Un appel à cette fonction va donner cela:\n"
@@ -3303,7 +3075,7 @@ msgstr "En effet, l'instance avec le résultat <code>33</code> n'était pointée
 #: ../E/pointer.txt:35
 #, no-wrap
 msgid ""
-"A function can return an instance¦:\n"
+"A function can return an instance:\n"
 "<c/><s/>MyClass Test2( )"
 msgstr ""
 "Une <a cbot|function>fonction</a> peut rendre une instance en sortie. Pour cela, il faut la définir ainsi:\n"
@@ -3419,7 +3191,7 @@ msgstr "Instruction <code>public</code> (pour spécialistes)"
 #. type: Plain text
 #: ../E/public.txt:2
 #, no-wrap
-msgid "This instruction has two distinct purposes¦:"
+msgid "This instruction has two distinct purposes:"
 msgstr "Cette instruction a deux rôles distincts:"
 
 #. type: Bullet: '1)'
@@ -3449,7 +3221,7 @@ msgstr "La présence de ce mot rend la <a cbot|function>fonction</a> disponible 
 #. type: Plain text
 #: ../E/public.txt:10
 #, no-wrap
-msgid "For example in the first bot we would have¦:"
+msgid "For example in the first bot we would have:"
 msgstr "Par exemple, dans un premier robot:"
 
 #. type: Source code
@@ -3471,7 +3243,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/public.txt:18
 #, no-wrap
-msgid "And in another bot we would have¦:"
+msgid "And in another bot we would have:"
 msgstr "Et dans un autre robot:"
 
 #. type: Source code
@@ -3567,12 +3339,6 @@ msgid "Instruction <code>radar</code>"
 msgstr "Instruction <code>radar</code>"
 
 #. type: Plain text
-#: ../E/radar.txt:2
-#, no-wrap
-msgid "With the instruction <code>radar()</code>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials."
-msgstr "Avec l'instruction <code>radar()</code>, le robot peut chercher des objets comme des <a object|mother>ennemis</a>, des robots ou des bâtiments."
-
-#. type: Plain text
 #: ../E/radar.txt:5
 #, no-wrap
 msgid "Write in brackets the <a cbot|category>name of the object</a> that you look for. Put the result in a variable of the <a cbot|type>type</a> <code>object</code>. Here is an example that looks for the closest ant:"
@@ -3613,7 +3379,7 @@ msgid "Seen from above, the purple zone corresponds to the zone where objects wi
 msgstr "La zone arrondie violette correspond, vue d'en haut, à la zone dans laquelle les objets sont détectés."
 
 #. type: \t; header
-#: ../E/search.txt:7
+#: ../E/produce.txt:15 ../E/search.txt:7
 #, no-wrap
 msgid "category: <code><a cbot|int>int</a></code>"
 msgstr "catégorie: <code><a cbot|int>int</a></code>"
@@ -3669,7 +3435,7 @@ msgid "Returns the first object found that corresponds to the specified category
 msgstr "Objet trouvé le plus proche. La valeur <code><a cbot|null>null</a></code> indique que rien n'a été trouvé."
 
 #. type: \t; header
-#: ../E/cond.txt:21 ../E/radar.txt:68
+#: ../E/expr.txt:131 ../E/radar.txt:68
 #, no-wrap
 msgid "Remark"
 msgstr "Remarque"
@@ -3719,7 +3485,7 @@ msgstr "Instruction <code>readln</code>"
 #. type: Plain text
 #: ../E/readln.txt:2
 #, no-wrap
-msgid "Read one line from an open file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.readln()</code>¦:"
+msgid "Read one line from an open file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.readln()</code>:"
 msgstr "L'instruction <c/>readln();<n/> lit une ligne de texte dans un fichier ouvert dans le dossier files/. Cette instruction est une méthode de la classe <code><a cbot|file>file</a></code>. C'est la raison pour laquelle on n'écrit jamais <code>readln()</code> tout seul, mais <code>handle.readln()</code>:"
 
 #. type: Source code
@@ -3785,7 +3551,7 @@ msgstr "Reçoit une information de la <a object|exchange>borne</a> la plus proch
 #. type: Plain text
 #: ../E/receive.txt:8
 #, no-wrap
-msgid "Name of the information required from the exchange post. This name is a string: it must be written in quotation marks \"¦\"."
+msgid "Name of the information required from the exchange post. This name is a string: it must be written in quotation marks \"\"."
 msgstr "Nom de l'information à lire dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets \"\"."
 
 #. type: Plain text
@@ -3967,7 +3733,7 @@ msgid "<c/>search ( category, position );<n/>"
 msgstr "<c/>search ( catégorie, pos );<n/>"
 
 #. type: \t; header
-#: ../E/topo.txt:7
+#: ../E/produce.txt:9 ../E/topo.txt:7
 #, no-wrap
 msgid "position: <code><a cbot|point>point</a></code>"
 msgstr "pos: <code><a cbot|point>point</a></code>"
@@ -4006,7 +3772,7 @@ msgstr "Envoie une information dans la <a object|exchange>borne</a> la plus proc
 #: ../E/send.txt:8
 #, no-wrap
 msgid ""
-"Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks \"¦\".\n"
+"Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks \"\".\n"
 "If there is any information having this name, a new entry is created, as far as the total number of entries does not exceed 10. If there is already an information having this name, value is simply replaced by the new."
 msgstr ""
 "Nom de l'information à écrire dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets \"\".\n"
@@ -4369,9 +4135,9 @@ msgid "Substring we are searching for."
 msgstr "Sous-chaîne recherchée."
 
 #. type: Plain text
-#: ../E/strfind.txt:13 ../E/strleft.txt:10 ../E/strlen.txt:7 ../E/strlower.txt:7 ../E/strmid.txt:13 ../E/strright.txt:10 ../E/strupper.txt:7 ../E/strval.txt:4 ../E/strval.txt:11 ../E/writeln.txt:11
+#: ../E/array.txt:35 ../E/strfind.txt:13 ../E/strleft.txt:10 ../E/strlen.txt:7 ../E/strlower.txt:7 ../E/strmid.txt:13 ../E/strright.txt:10 ../E/strupper.txt:7 ../E/strval.txt:4 ../E/strval.txt:11 ../E/writeln.txt:11
 #, no-wrap
-msgid "Examples¦:"
+msgid "Examples:"
 msgstr "Examples:"
 
 #. type: Source code
@@ -4455,38 +4221,38 @@ msgstr "<c/>\"bonjour Monsieur\""
 #. type: Plain text
 #: ../E/string.txt:16
 #, no-wrap
-msgid "If you want to put a quotation mark (\") or a backslash (\\) in a string you must write¦:"
+msgid "If you want to put a quotation mark (\") or a backslash (\\) in a string you must write:"
 msgstr "Pour mettre un guillemet ou un slash inversé dans une chaîne, il faut écrire:"
 
 #. type: Source code
 #: ../E/string.txt:17
 #, no-wrap
 msgid "<c/>\"This is \\\"very\\\" important\""
-msgstr ""
+msgstr "<c/>\"Ceci est \\\"très\\\" important\""
 
 #. type: Plain text
 #: ../E/string.txt:18
 #, no-wrap
 msgid "<n/>which will result in the string <c/> This is \"very\" important."
-msgstr ""
+msgstr "<n/>, ce qui donnera la chaîne de caractères <c/> Ceci est \"très\" important."
 
 #. type: Source code
 #: ../E/string.txt:19
 #, no-wrap
 msgid "<c/>\"%user%\\\\ant.txt\""
-msgstr ""
+msgstr "<c/>\"%user%\\\\ant.txt\""
 
 #. type: Plain text
 #: ../E/string.txt:20
 #, no-wrap
 msgid "<n/>will result in <c/>%user%\\ant.txt"
-msgstr ""
+msgstr "<n/>, ce qui donnera <c/>%user%\\ant.txt"
 
 #. type: Plain text
 #: ../E/string.txt:22
 #, no-wrap
 msgid ""
-"Following instructions can be used with strings¦:\n"
+"Following instructions can be used with strings:\n"
 "<code><a cbot|strlen>strlen</a>     </code>Get string length\n"
 "<code><a cbot|strleft>strleft</a>    </code>Extract left part\n"
 "<code><a cbot|strright>strright</a>   </code>Extract right part\n"
@@ -4856,7 +4622,7 @@ msgstr ""
 #: ../E/synchro.txt:18
 #, no-wrap
 msgid ""
-"What happens if two bots execute the <code>inc</code> method at the same time¦?\n"
+"What happens if two bots execute the <code>inc</code> method at the same time?\n"
 "Both of them will execute <code>val=nb</code> and wait 2 seconds so both of them will have <code>val=33</code>. With <code>synchronized</code> the first bot starts execution with <code>val=33</code> and then waits 2 seconds and returns. Only once the first bot has returned from the <code>inc</code> method, the second bot will be allowed to enter the <code>inc</code> method and therefore the second bot will always have <code>val=34</code>."
 msgstr ""
 "Que se passe-t-il, sans le mot <code>synchronized</code>, si deux robots exécutent la méthode <code>inc</code> à peu prêt en même temps?\n"
@@ -4868,7 +4634,7 @@ msgstr ""
 #: ../E/synchro.txt:21
 #, no-wrap
 msgid "You can have more than one synchronized method in your <a cbot|class>class</a> in order to prevent simultaneous execution across more than one method. In other words: as long as a bot's program is inside a synchronized method, no other bot can enter any synchronized method of the same class."
-msgstr ""
+msgstr "Il est possible d'avoir plus d'une méthode synchrone par <a cbot|class>class</a> pour prévenir l'exécution simultanée à travers plusieurs méthodes. En d'autres termes: tant que le programme d'un robot est en train d'exécuter une méthode synchrone, aucun autre robot ne peut exécuter aucune autre méthode synchrone de la même classe."
 
 #. type: Plain text
 #: ../E/synchro.txt:24
@@ -4989,7 +4755,7 @@ msgstr "Teste si une information existe dans la <a object|exchange>borne</a> la 
 #. type: Plain text
 #: ../E/testinfo.txt:8
 #, no-wrap
-msgid "Name of the information to be tested in the exchange post. This name is a string: it must be written in quotation marks \"¦\"."
+msgid "Name of the information to be tested in the exchange post. This name is a string: it must be written in quotation marks \"\"."
 msgstr "Nom de l'information à tester dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets \"\"."
 
 #. type: Plain text
@@ -5339,13 +5105,7 @@ msgstr "Le type du contenu."
 #: ../E/type.txt:7
 #, no-wrap
 msgid "Once you defined a variable, you can use it to put information in it. However, the information that a variable can contain must always be of the correct type: a variable of type <a cbot|float>float</a> can not contain a string, etc."
-msgstr ""
-
-#. type: Plain text
-#: ../E/type.txt:9
-#, no-wrap
-msgid "In a program, the name of a type is always written on <format type>green background</format>. If the name of a type is not colored, this means that the name is misspelled. Type names are always written with lower case characters. Here is a list of the different types: "
-msgstr "Dans un programme, un nom de type est toujours <format type>colorié en vert</format>. Si un type n'est pas colorié, c'est que son nom est mal orthographié. Il faut par exemple frapper tout le nom en minuscules. Voici les différents types possibles:"
+msgstr "Une fois la variable définie, elle peut être utilisée pour stocker de l'information. Cependant, l'information contenue dans une variable doit toujours être du bon type: une variable de type <a cbot|float>float</a> ne peut pas contenir de chaîne de caractères, etc."
 
 #. type: Source code
 #: ../E/type.txt:11
@@ -5779,19 +5539,19 @@ msgstr "L'utilisation la plus courante de <code>while</code> consiste à répét
 #: ../E/while.txt:6
 #, no-wrap
 msgid "look for a spider,"
-msgstr ""
+msgstr "cherche une araignée,"
 
 #. type: Bullet: 'o'
 #: ../E/while.txt:7
 #, no-wrap
 msgid "turn towards it,"
-msgstr ""
+msgstr "tourne dans sa direction,"
 
 #. type: Bullet: 'o'
 #: ../E/while.txt:8
 #, no-wrap
 msgid "shoot."
-msgstr ""
+msgstr "tire,"
 
 #. type: Source code
 #: ../E/while.txt:10
@@ -5882,7 +5642,7 @@ msgstr "Instruction <code>writeln</code>"
 #. type: Plain text
 #: ../E/writeln.txt:2
 #, no-wrap
-msgid "Write one line of text to an open file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.writeln()</code>¦:"
+msgid "Write one line of text to an open file in the files/ folder. This is a method of the <code><a cbot|file>file</a></code> class. This is the reason why we always write <code>handle.writeln()</code>:"
 msgstr "L'instruction <c/>writeln();<n/> écrit une ligne de texte dans un fichier ouvert dans le dossier files/. Cette instruction est une méthode de la classe <code><a cbot|file>file</a></code>. C'est la raison pour laquelle on n'écrit jamais <code>writeln()</code> tout seul, mais <code>handle.writeln()</code>:"
 
 #. type: Source code
@@ -5931,45 +5691,166 @@ msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> et <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
 
-#. type: Plain text
-#: ../E/for.txt:19
+#. type: \b; header
+#: ../E/acos.txt:1
 #, no-wrap
-msgid ""
-"Example: count from 1 to 4\n"
-"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
-msgstr ""
+msgid "Instruction <code>acos</code>"
+msgstr "Instruction <code>acos</code>"
 
 #. type: Source code
-#: ../E/build.txt:15
+#: ../E/acos.txt:3
 #, no-wrap
-msgid "<c/>build ( cat );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:17
-#, no-wrap
-msgid "Tells the robot to build a building using a titanium cube placed on a flat ground nearby."
-msgstr ""
+msgid "<c/>acos ( value );<n/>"
+msgstr "<c/>acos( valeur);</n>"
 
 #. type: \t; header
-#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/factory.txt:10 ../E/radar.txt:22
+#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/ceil.txt:6 ../E/floor.txt:6 ../E/round.txt:6 ../E/sqrt.txt:5 ../E/trunc.txt:6
 #, no-wrap
-msgid "cat: <code><a cbot|int>int</a></code>"
-msgstr ""
+msgid "value: <code><a cbot|float>float</a></code>"
+msgstr "valeur : <code><a cbot|float>float</a></code>"
+
+#. type: Plain text
+#: ../E/acos.txt:6 ../E/asin.txt:6
+#, no-wrap
+msgid "Number between -1 and 1 (including both)."
+msgstr "Nombre entre -1 et 1 (compris)."
+
+#. type: Plain text
+#: ../E/acos.txt:9
+#, no-wrap
+msgid "Arcus cosine (in degrees) of the value."
+msgstr "Arc cosinus de la valeur (en degrés)."
+
+#. type: Plain text
+#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|expr>expressions</a>."
+
+#. type: Source code
+#: ../E/aim.txt:3
+#, no-wrap
+msgid "<c/>aim ( y, x );<n/>"
+msgstr "<c/>aim ( y, x );<n/>"
+
+#. type: Plain text
+#: ../E/aim.txt:5
+#, no-wrap
+msgid "This instruction sets the vertical and the horizontal angle of the cannon. The following robots are equipped with a cannon: "
+msgstr "Cette instruction définit les angles verticaux et horizontaux du canon. Les robots suivants sont équipés de canons:"
+
+#. type: Plain text
+#: ../E/aim.txt:10
+#, no-wrap
+msgid "When controlling the robot through programming, the gun can be also turned left or right by turning the whole robot with the instruction <code><a cbot|turn>turn</a></code>."
+msgstr "Lorsqu'un robot est contrôlé par un programme, le canon peut aussi être tourné horizontalement en tournant le robot entier, avec l'instruction <code><a cbot|turn>turn</a></code>."
+
+#. type: \t; header
+#: ../E/aim.txt:12 ../E/atan2.txt:7 ../E/pow.txt:8
+#, no-wrap
+msgid "y: <code><a cbot|float>float</a></code>"
+msgstr "y: <code><a cbot|float>float</a></code>"
+
+#. type: \t; header
+#: ../E/aim.txt:15
+#, no-wrap
+msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr "x: <code><a cbot|float>float</a></code> (valuer par défaut : <code>0</code>)"
+
+#. type: Plain text
+#: ../E/aim.txt:16
+#, no-wrap
+msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters."
+msgstr "Angle en degrés du canon par rapport au robot. Une valeur positive oriente le canon vers la droite. L'angle doit être compris entre <code>-40</code> et <code>+40</code> degrés, pour tous les robots équipés."
+
+#. type: \b; header
+#: ../E/asin.txt:1
+#, no-wrap
+msgid "Instruction <code>asin</code>"
+msgstr "Instruction <code>asin</code>"
+
+#. type: Source code
+#: ../E/asin.txt:3
+#, no-wrap
+msgid "<c/>asin ( value );<n/>"
+msgstr "<c/>asin ( value );<n/>"
+
+#. type: Plain text
+#: ../E/asin.txt:9
+#, no-wrap
+msgid "Arcus sine (in degrees) of the value."
+msgstr "Arc sinus de la valeur (en degrés)."
+
+#. type: \b; header
+#: ../E/atan.txt:1
+#, no-wrap
+msgid "Instruction <code>atan</code>"
+msgstr "Instruction <code>atan</code>"
+
+#. type: Source code
+#: ../E/atan.txt:3
+#, no-wrap
+msgid "<c/>atan ( value );<n/>"
+msgstr "<c/>atan ( value );<n/>"
+
+#. type: Plain text
+#: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7 ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
+#, no-wrap
+msgid "Number."
+msgstr "Nombre."
+
+#. type: Plain text
+#: ../E/atan.txt:9
+#, no-wrap
+msgid "Arcus tangent (in degrees) of the value."
+msgstr "Arc tangente de la valeur (en degrés)."
+
+#. type: \b; header
+#: ../E/atan2.txt:1
+#, no-wrap
+msgid "Instruction <code>atan2</code>"
+msgstr "Instruction <code>atan2</code>"
+
+#. type: Source code
+#: ../E/atan2.txt:3
+#, no-wrap
+msgid "<c/>atan2 ( y, x );<n/>"
+msgstr "<c/>atan2 ( y, x );<n/>"
+
+#. type: Plain text
+#: ../E/atan2.txt:5
+#, no-wrap
+msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/><a cbot|atan>atan();</a><n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
+msgstr "L'intérêt d'utiliser deux arguments au lieu d'un est l'obtention de l'information sur les signes des entrées, afin de retourner le quadrant correct pour l'angle calculé, ce qui n'est pas possible avec la fonction <c/><a cbot|atan>atan();</a><n/> à un seul argument. Par exemple, pour un point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> vaut <code>45.00</code> degrés, mais <c/>atan2(-1, -1);<n/> vaut <code>-135.00</code> degrés, ce qui est évidemment plus correct dans ce cas."
+
+#. type: \t; header
+#: ../E/atan2.txt:10 ../E/pow.txt:5
+#, no-wrap
+msgid "x: <code><a cbot|float>float</a></code>"
+msgstr "x: <code><a cbot|float>float</a></code>"
+
+#. type: Plain text
+#: ../E/atan2.txt:14
+#, no-wrap
+msgid "Arcus tangent (in degrees) of <code>y/x</code>."
+msgstr "Arc tangente de  <code>y/x</code> (en degrés)."
 
 #. type: \b; header
 #: ../E/build.txt:1
 #, no-wrap
 msgid "Instruction <code>build</code>"
+msgstr "Instruction <code>build</code>"
+
+#. type: Plain text
+#: ../E/build.txt:2
+#, no-wrap
+msgid "The instruction <c/>build();<n/> instructs the bot to build a building of the given <a cbot|category>category</a>. Currently works for <a object|botgc>Grabbers</a>, <a object|human>Me</a> and <a object|tech>Tech</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/build.txt:23
+#: ../E/build.txt:5
 #, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
-"<code>== 0 </code>Successfully built\n"
-"<code>!= 0 </code>Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)"
+msgid "This command is mostly useful in an attempt to build a fully automatised base, where an <a object|human>astronaut</a> does not need to do anything except starting a program and watching bots working. What is more, it makes beating the game by using only programming a possible task (however, it is a challenge rather for experienced gamers, who beat the whole game at least once)."
 msgstr ""
 
 #. type: Plain text
@@ -5987,118 +5868,355 @@ msgid ""
 " build(<a object|factory>BotFactory</a>);"
 msgstr ""
 
-#. type: Plain text
-#: ../E/build.txt:5
-#, no-wrap
-msgid "This command is mostly useful in an attempt to build a fully automatised base, where an <a object|human>astronaut</a> does not need to do anything except starting a program and watching bots working. What is more, it makes beating the game by using only programming a possible task (however, it is a challenge rather for experienced gamers, who beat the whole game at least once)."
-msgstr ""
-
 #. type: Source code
-#: ../E/aim.txt:3
+#: ../E/build.txt:15
 #, no-wrap
-msgid "<c/>aim ( y, x );<n/>"
+msgid "<c/>build ( cat );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/aim.txt:10
+#: ../E/build.txt:17
 #, no-wrap
-msgid "When controlling the robot through programming, the gun can be also turned left or right by turning the whole robot with the instruction <code><a cbot|turn>turn</a></code>."
+msgid "Tells the robot to build a building using a titanium cube placed on a flat ground nearby."
 msgstr ""
 
 #. type: \t; header
-#: ../E/aim.txt:12 ../E/atan2.txt:7 ../E/pow.txt:8
+#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/detect.txt:11 ../E/factory.txt:10 ../E/radar.txt:22
 #, no-wrap
-msgid "y: <code><a cbot|float>float</a></code>"
+msgid "cat: <code><a cbot|int>int</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:20 ../E/buildingenabled.txt:17 ../E/canbuild.txt:17
+#, no-wrap
+msgid "<a cbot|category>Category</a> of a building."
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:23
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
+"<code>== 0 </code>Successfully built\n"
+"<code>!= 0 </code>Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/build.txt:28
+#, no-wrap
+msgid "<a cbot|canbuild>canbuild</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/buildingenabled.txt:1
+#, no-wrap
+msgid "Instruction <code>buildingenabled</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:2
+#, no-wrap
+msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of the given <a cbot|category>category</a> can be built in the level."
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:5
+#, no-wrap
+msgid "It is similar to the <c/><a cbot|canbuild>canbuild();</a><n/> instruction. However, it does not check if a required research has been done."
+msgstr ""
+
+#. type: Source code
+#: ../E/buildingenabled.txt:7
+#, no-wrap
+msgid ""
+" <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
+" {\n"
+" \tbuild(<a object|factory>BotFactory</a>);\n"
+" }"
+msgstr ""
+
+#. type: Source code
+#: ../E/buildingenabled.txt:14
+#, no-wrap
+msgid "<c/>buildingenabled ( cat );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: ../E/atan2.txt:10 ../E/pow.txt:5
+#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19 ../E/canresearch.txt:10 ../E/detect.txt:23 ../E/researched.txt:10
 #, no-wrap
-msgid "x: <code><a cbot|float>float</a></code>"
+msgid "Return value: <code><a cbot|bool>bool</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/aim.txt:5
+#: ../E/buildingenabled.txt:20
 #, no-wrap
-msgid "This instruction sets the vertical and the horizontal angle of the cannon. The following robots are equipped with a cannon: "
+msgid "<code>true</code> if the building can be built in the level even if required research has not been done, <code>false</code> otherwise."
+msgstr ""
+
+#. type: Plain text
+#: ../E/buildingenabled.txt:23
+#, no-wrap
+msgid "<a cbot|build>build</a>, <a cbot|canbuild>canbuild</a>, <a object|research>ResearchCenter</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: ../E/rand.txt:1
+#: ../E/busy.txt:1
 #, no-wrap
-msgid "Instruction <code>rand</code>"
+msgid "Instruction <code>busy</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/rand.txt:3
+#: ../E/busy.txt:3
 #, no-wrap
-msgid "<c/>rand ( );<n/>"
+msgid "<c/><a cbot|object>object</a>.busy ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/rand.txt:6
+#: ../E/busy.txt:5
 #, no-wrap
-msgid "Pseudorandom number between 0 and 1 (including 0, but excluding 1)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
-#, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/acos.txt:1
-#, no-wrap
-msgid "Instruction <code>acos</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/acos.txt:3
-#, no-wrap
-msgid "<c/>acos ( value );<n/>"
+msgid "Checks if the object is busy."
 msgstr ""
 
 #. type: \t; header
-#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/ceil.txt:6 ../E/floor.txt:6 ../E/round.txt:6 ../E/sqrt.txt:5 ../E/trunc.txt:6
+#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7 ../E/takeoff.txt:7
 #, no-wrap
-msgid "value: <code><a cbot|float>float</a></code>"
+msgid "<a cbot|object>object</a>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/acos.txt:6 ../E/asin.txt:6
+#: ../E/busy.txt:8
 #, no-wrap
-msgid "Number between -1 and 1 (including both)."
-msgstr ""
-
-#. type: \b; header
-#: ../E/asin.txt:1
-#, no-wrap
-msgid "Instruction <code>asin</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/asin.txt:3
-#, no-wrap
-msgid "<c/>asin ( value );<n/>"
-msgstr ""
-
-#. type: \b; header
-#: ../E/atan.txt:1
-#, no-wrap
-msgid "Instruction <code>atan</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/atan.txt:3
-#, no-wrap
-msgid "<c/>atan ( value );<n/>"
+msgid "Any building which can take some action (e.g. <a cbot|convert>Converter</a>)."
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7 ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
+#: ../E/busy.txt:11
 #, no-wrap
-msgid "Number."
+msgid ""
+"<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
+"<code><format const>false</format></code> if the object is not doing anything"
+msgstr ""
+
+#. type: \b; header
+#: ../E/canbuild.txt:1
+#, no-wrap
+msgid "Instruction <code>canbuild</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:2
+#, no-wrap
+msgid "The instruction <c/>canbuild();<n/> lets you know if <a object|botgc>Grabbers</a>, <a object|human>Me</a> or <a object|human>Tech</a> can build a building of the given <a cbot|category>category</a>. "
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:5
+#, no-wrap
+msgid "It helps to prevent errors in programs using the <c/><a cbot|build>build();</a><n/> instruction. Here is an example:"
+msgstr ""
+
+#. type: Source code
+#: ../E/canbuild.txt:7
+#, no-wrap
+msgid ""
+" <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
+" {\n"
+" \tbuild(<a object|factory>BotFactory</a>);\n"
+" }"
+msgstr ""
+
+#. type: Source code
+#: ../E/canbuild.txt:14
+#, no-wrap
+msgid "<c/>canbuild ( cat );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:20
+#, no-wrap
+msgid "<code>true</code> if the building can be built, <code>false</code> otherwise."
+msgstr ""
+
+#. type: Plain text
+#: ../E/canbuild.txt:23
+#, no-wrap
+msgid "<a cbot|build>build</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/canresearch.txt:1
+#, no-wrap
+msgid "Instruction <code>canresearch</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/canresearch.txt:3
+#, no-wrap
+msgid "<c/>canresearch ( research );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:5
+#, no-wrap
+msgid "Checks if the <a cbot|researches>research</a> can be done in the level."
+msgstr ""
+
+#. type: \t; header
+#: ../E/canresearch.txt:7 ../E/researched.txt:7
+#, no-wrap
+msgid "research: <code><a cbot|int>int</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:8 ../E/research.txt:11 ../E/researched.txt:8
+#, no-wrap
+msgid "<a cbot|researches>Research name</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:11
+#, no-wrap
+msgid ""
+"<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
+"<format const>false</format> if the research cannot be done"
+msgstr ""
+
+#. type: Plain text
+#: ../E/canresearch.txt:15
+#, no-wrap
+msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:6
+#, no-wrap
+msgid "Below are the different categories available:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:8
+#, no-wrap
+msgid "Buildings:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:32
+#, no-wrap
+msgid "Portable Objects:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:45
+#, no-wrap
+msgid "Robots:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:77
+#, no-wrap
+msgid "Enemies:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:87
+#, no-wrap
+msgid "Miscellaneous:"
+msgstr ""
+
+#. type: \t; header
+#: ../E/category.txt:96
+#, no-wrap
+msgid "Flags and Other Indicators:"
+msgstr ""
+
+#. type: \b; header
+#: ../E/ceil.txt:1
+#, no-wrap
+msgid "Instruction <code>ceil</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/ceil.txt:3
+#, no-wrap
+msgid "<c/>ceil ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:4
+#, no-wrap
+msgid "Rounds up a number."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:10
+#, no-wrap
+msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
+#, no-wrap
+msgid "<a cbot|round>round</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/colors.txt:1
+#, no-wrap
+msgid "Value <code>Colors</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:2
+#, no-wrap
+msgid "Color names are used to define a specific color to use. They can be passed to functions like <a cbot|pendown>pendown</a> or <a cbot|pencolor>pencolor</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:4
+#, no-wrap
+msgid "In a program, colors are always displayed on a <format const>red background</format>. If a color isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:6
+#, no-wrap
+msgid "Below are the different colors available:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:8
+#, no-wrap
+msgid ""
+"<code><format const>White</format></code>\n"
+"<code><format const>Black</format></code>\n"
+"<code><format const>Gray</format></code>\n"
+"<code><format const>LightGray</format></code>\n"
+"<code><format const>Red</format></code>\n"
+"<code><format const>Pink</format></code>\n"
+"<code><format const>Purple</format></code>\n"
+"<code><format const>Orange</format></code>\n"
+"<code><format const>Yellow</format></code>\n"
+"<code><format const>Beige</format></code>\n"
+"<code><format const>Brown</format></code>\n"
+"<code><format const>Skin</format></code>\n"
+"<code><format const>Green</format></code>\n"
+"<code><format const>LightGreen</format></code>\n"
+"<code><format const>Blue</format></code>\n"
+"<code><format const>LightBlue</format></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:25
+#, no-wrap
+msgid "You can also draw colored symbols:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/colors.txt:27
+#, no-wrap
+msgid ""
+"<code><format const>BlackArrow</format></code>\n"
+"<code><format const>RedArrow</format></code>"
 msgstr ""
 
 #. type: \b; header
@@ -6126,287 +6244,191 @@ msgid "Cosine of the angle."
 msgstr ""
 
 #. type: \b; header
-#: ../E/pow.txt:1
+#: ../E/destroy.txt:1
 #, no-wrap
-msgid "Instruction <code>pow</code>"
+msgid "Instruction <code>destroy</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/pow.txt:3
+#: ../E/destroy.txt:3
 #, no-wrap
-msgid "<c/>pow ( x, y );<n/>"
+msgid "<c/><a cbot|object>object</a>.destroy ( );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:6
+#: ../E/destroy.txt:5
 #, no-wrap
-msgid "Base."
+msgid "Destroys an object."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:9
+#: ../E/destroy.txt:8
 #, no-wrap
-msgid "Exponent."
+msgid "<a object|destroy>Destroyer</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pow.txt:12
+#: ../E/destroy.txt:11
 #, no-wrap
-msgid "x to the y (x raised to the yth power)."
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
+"<code>== 0 </code>The operation of destroying of an object was started\n"
+"<code>!= 0 </code>The instruction could not be done (e.g. nothing to destroy)"
 msgstr ""
 
 #. type: \b; header
-#: ../E/sin.txt:1
+#: ../E/detect.txt:1
 #, no-wrap
-msgid "Instruction <code>sin</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/sin.txt:3
-#, no-wrap
-msgid "<c/>sin ( angle );<n/>"
+msgid "Instruction <code>detect</code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/sin.txt:9
+#: ../E/detect.txt:2
 #, no-wrap
-msgid "Sine of the angle."
+msgid "With the instruction <c/>detect();<n/>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials, which are in front of the bot. It is a simpler version of <c/><a cbot|radar>radar</a>();<n/>."
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:6
+#, no-wrap
+msgid "<c/>detect ( cat );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/detect.txt:8
+#, no-wrap
+msgid "Detects the nearest object of the specified <a cbot|category>category</a> being in front of the bot. It is similar to the following instruction:"
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:9
+#, no-wrap
+msgid "<c/>radar(cat, 0, 45, 0, 20);<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:12 ../E/radar.txt:23
+#, no-wrap
+msgid "<a cbot|category>Category</a> of the objects that should be detected. For example, when you are looking for an ant, write <code>radar(AlienAnt)</code>. "
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:13
+#, no-wrap
+msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:<c/>"
+msgstr ""
+
+#. type: Source code
+#: ../E/detect.txt:14
+#, no-wrap
+msgid ""
+"int bots[4];\n"
+"bots[0] = WheeledGrabber;\n"
+"bots[1] = TrackedGrabber;\n"
+"bots[2] = WingedGrabber;\n"
+"bots[3] = LeggedGrabber;\n"
+"object nearestGrabber = radar(bots);"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/detect.txt:21 ../E/search.txt:17
+#, no-wrap
+msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on)."
+msgstr ""
+
+#. type: Plain text
+#: ../E/detect.txt:24
+#, no-wrap
+msgid ""
+"<format const>true</format> if the object was found\n"
+"<format const>false</format> if the object was not found"
 msgstr ""
 
 #. type: \b; header
-#: ../E/sqrt.txt:1
+#: ../E/factory.txt:1
 #, no-wrap
-msgid "Instruction <code>sqrt</code>"
+msgid "Instruction <code>factory</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/sqrt.txt:3
+#: ../E/factory.txt:3
 #, no-wrap
-msgid "<c/>sqrt ( value );<n/>"
+msgid "<c/><a cbot|object>object</a>.factory ( cat, program );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/sqrt.txt:6
+#: ../E/factory.txt:5
 #, no-wrap
-msgid "Non-negative number."
+msgid "Starts a construction of a bot of the given <a cbot|category>category</a> and runs the specified program on it after the construction is finished."
 msgstr ""
 
 #. type: Plain text
-#: ../E/sqrt.txt:9
+#: ../E/factory.txt:8
 #, no-wrap
-msgid "Square root of the value."
-msgstr ""
-
-#. type: \b; header
-#: ../E/tan.txt:1
-#, no-wrap
-msgid "Instruction <code>tan</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/tan.txt:3
-#, no-wrap
-msgid "<c/>tan ( angle );<n/>"
+msgid "<a object|factory>BotFactory</a>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/tan.txt:9
+#: ../E/factory.txt:11
 #, no-wrap
-msgid "Tangent of the angle."
-msgstr ""
-
-#. type: Plain text
-#: ../E/acos.txt:9
-#, no-wrap
-msgid "Arcus cosine (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/asin.txt:9
-#, no-wrap
-msgid "Arcus sine (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/atan.txt:9
-#, no-wrap
-msgid "Arcus tangent (in degrees) of the value."
-msgstr ""
-
-#. type: Plain text
-#: ../E/tan.txt:6
-#, no-wrap
-msgid "Angle in degrees (except multiples of 90)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:28
-#, no-wrap
-msgid "<a cbot|canbuild>canbuild</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/canbuild.txt:1
-#, no-wrap
-msgid "Instruction <code>canbuild</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/canbuild.txt:14
-#, no-wrap
-msgid "<c/>canbuild ( cat );<n/>"
+msgid "<a cbot|category>Category</a> of the robot to construct."
 msgstr ""
 
 #. type: \t; header
-#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19 ../E/canresearch.txt:10 ../E/researched.txt:10
+#: ../E/factory.txt:13
 #, no-wrap
-msgid "Return value: <code><a cbot|bool>bool</a></code>"
+msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/canbuild.txt:20
+#: ../E/factory.txt:14
 #, no-wrap
-msgid "<code>true</code> if the building can be built, <code>false</code> otherwise."
+msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a <a cbot|file>filename</a> or just a raw source code."
 msgstr ""
 
 #. type: Plain text
-#: ../E/canbuild.txt:23
-#, no-wrap
-msgid "<a cbot|build>build</a>, <a cbot|buildingenabled>buildingenabled</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:20 ../E/buildingenabled.txt:17 ../E/canbuild.txt:17
-#, no-wrap
-msgid "<a cbot|category>Category</a> of a building."
-msgstr ""
-
-#. type: \b; header
-#: ../E/buildingenabled.txt:1
-#, no-wrap
-msgid "Instruction <code>buildingenabled</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:2
-#, no-wrap
-msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of the given <a cbot|category>category</a> can be built in the level."
-msgstr ""
-
-#. type: Source code
-#: ../E/buildingenabled.txt:7
+#: ../E/factory.txt:17
 #, no-wrap
 msgid ""
-" <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
-" {\n"
-" \tbuild(<a object|factory>BotFactory</a>);\n"
-" }"
-msgstr ""
-
-#. type: Source code
-#: ../E/buildingenabled.txt:14
-#, no-wrap
-msgid "<c/>buildingenabled ( cat );<n/>"
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
+"<code>== 0 </code>The construction successfully started\n"
+"<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/buildingenabled.txt:20
+#: ../E/factory.txt:22
 #, no-wrap
-msgid "<code>true</code> if the building can be built in the level even if required research has not been done, <code>false</code> otherwise."
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:23
-#, no-wrap
-msgid "<a cbot|build>build</a>, <a cbot|canbuild>canbuild</a>, <a object|research>ResearchCenter</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: Source code
-#: ../E/canbuild.txt:7
-#, no-wrap
-msgid ""
-" <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
-" {\n"
-" \tbuild(<a object|factory>BotFactory</a>);\n"
-" }"
-msgstr ""
-
-#. type: Plain text
-#: ../E/build.txt:2
-#, no-wrap
-msgid "The instruction <c/>build();<n/> instructs the bot to build a building of the given <a cbot|category>category</a>. Currently works for <a object|botgc>Grabbers</a>, <a object|human>Me</a> and <a object|tech>Tech</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/buildingenabled.txt:5
-#, no-wrap
-msgid "It is similar to the <c/><a cbot|canbuild>canbuild();</a><n/> instruction. However, it does not check if a required research has been done."
-msgstr ""
-
-#. type: Plain text
-#: ../E/canbuild.txt:2
-#, no-wrap
-msgid "The instruction <c/>canbuild();<n/> lets you know if <a object|botgc>Grabbers</a>, <a object|human>Me</a> or <a object|human>Tech</a> can build a building of the given <a cbot|category>category</a>. "
-msgstr ""
-
-#. type: Plain text
-#: ../E/canbuild.txt:5
-#, no-wrap
-msgid "It helps to prevent errors in programs using the <c/><a cbot|build>build();</a><n/> instruction. Here is an example:"
+msgid "<a cbot|researched>researched</a>, <a cbot|>wait</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: ../E/atan2.txt:1
+#: ../E/flatspace.txt:1
 #, no-wrap
-msgid "Instruction <code>atan2</code>"
+msgid "Instruction <code>flatspace</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/atan2.txt:3
+#: ../E/flatspace.txt:3
 #, no-wrap
-msgid "<c/>atan2 ( y, x );<n/>"
+msgid "<c/>flatspace ( center, flatmin, rmin, rmax, dist );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan2.txt:14
+#: ../E/flatspace.txt:5
 #, no-wrap
-msgid "Arcus tangent (in degrees) of <code>y/x</code>."
+msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar to <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/flatspace.txt:10
+#, no-wrap
+msgid "flatmin: <code><a cbot|float>float</a></code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/atan2.txt:5
+#: ../E/flatspace.txt:11
 #, no-wrap
-msgid "The purpose of using two arguments instead of one is to gather information on the signs of the inputs in order to return the appropriate quadrant of the computed angle, which is not possible for the single-argument <c/><a cbot|atan>atan();</a><n/> function. For example, consider a point <code>(-1, -1)</code>: <c/>atan(-1/-1);<n/> is <code>45.00</code> degrees, whereas <c/>atan2(-1, -1);<n/> is <code>-135.00</code> degrees, which is obviously more correct in this case."
-msgstr ""
-
-#. type: \b; header
-#: ../E/ceil.txt:1
-#, no-wrap
-msgid "Instruction <code>ceil</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/ceil.txt:3
-#, no-wrap
-msgid "<c/>ceil ( value );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/floor.txt:4
-#, no-wrap
-msgid "Rounds down a number."
-msgstr ""
-
-#. type: Plain text
-#: ../E/ceil.txt:10
-#, no-wrap
-msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
-#, no-wrap
-msgid "<a cbot|round>round</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
+msgid "Minimum radius of flat ground around the desired position."
 msgstr ""
 
 #. type: \b; header
@@ -6422,9 +6444,9 @@ msgid "<c/>floor ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/ceil.txt:4
+#: ../E/floor.txt:4
 #, no-wrap
-msgid "Rounds up a number."
+msgid "Rounds down a number."
 msgstr ""
 
 #. type: Plain text
@@ -6433,70 +6455,12 @@ msgstr ""
 msgid "Floor of the value, i.e. the largest integer not greater than <code>value</code>. For example, <code>floor(2.9)</code> is <code>2.00</code>."
 msgstr ""
 
-#. type: \b; header
-#: ../E/round.txt:1
-#, no-wrap
-msgid "Instruction <code>round</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/round.txt:3
-#, no-wrap
-msgid "<c/>round ( value );<n/>"
-msgstr ""
-
 #. type: Plain text
-#: ../E/round.txt:4
+#: ../E/for.txt:19
 #, no-wrap
-msgid "Rounds a number."
-msgstr ""
-
-#. type: Plain text
-#: ../E/round.txt:10
-#, no-wrap
-msgid "Rounded <code>value</code>. For example, <code>round(2.5)</code> is <code>3.0</code>, whereas <code>round(2.4)</code> is <code>2.0</code>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/trunc.txt:1
-#, no-wrap
-msgid "Instruction <code>trunc</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/trunc.txt:3
-#, no-wrap
-msgid "<c/>trunc ( value );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/trunc.txt:10
-#, no-wrap
-msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/round.txt:13
-#, no-wrap
-msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/trunc.txt:4
-#, no-wrap
-msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
-msgstr ""
-
-#. type: Plain text
-#: ../E/aim.txt:16
-#, no-wrap
-msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun to the right. The angle must range from <code>-40</code> to <code>+40</code> degrees for all shooters."
-msgstr ""
-
-#. type: \t; header
-#: ../E/aim.txt:15
-#, no-wrap
-msgid "x: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgid ""
+"Example: count from 1 to 4\n"
+"<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
 msgstr ""
 
 #. type: Plain text
@@ -6527,6 +6491,12 @@ msgid ""
 "\t// instructions\n"
 "\t\n"
 "}"
+msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:14
+#, no-wrap
+msgid "Nothing but a name can be changed in the main function. The keyword <code><a cbot|extern>extern</a></code> distinguish the main function from others."
 msgstr ""
 
 #. type: Plain text
@@ -6577,10 +6547,32 @@ msgid ""
 "}"
 msgstr ""
 
+#. type: Plain text
+#: ../E/function.txt:47
+#, no-wrap
+msgid "Now the program is much easier to read. It is a good practice to split the program into several functions with self-describing names."
+msgstr ""
+
 #. type: \b; header
 #: ../E/function.txt:49
 #, no-wrap
 msgid "Syntax"
+msgstr ""
+
+#. type: Source code
+#: ../E/function.txt:51
+#, no-wrap
+msgid ""
+"result_type FunctionName(optional_parameters)\n"
+"{\n"
+"\tbody\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../E/function.txt:56
+#, no-wrap
+msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
 msgstr ""
 
 #. type: \t; header
@@ -6593,6 +6585,18 @@ msgstr ""
 #: ../E/function.txt:59
 #, no-wrap
 msgid "A function can have parameters:"
+msgstr ""
+
+#. type: Source code
+#: ../E/function.txt:61
+#, no-wrap
+msgid ""
+"void Example(int a, float x, string s)\n"
+"{\n"
+"\tmessage(a);\n"
+"\tmessage(x);\n"
+"\tmessage(s);\n"
+"}"
 msgstr ""
 
 #. type: Plain text
@@ -6710,34 +6714,6 @@ msgstr ""
 msgid "Declaring a function as a part of the <a cbot|object>object</a> namespace gives it access to <code><a cbot|this>this</a></code> <a cbot|pointer>pointer</a>, in other words, to all available properties of the robot which the program is run on."
 msgstr ""
 
-#. type: Plain text
-#: ../E/function.txt:47
-#, no-wrap
-msgid "Now the program is much easier to read. It is a good practice to split the program into several functions with self-describing names."
-msgstr ""
-
-#. type: Source code
-#: ../E/function.txt:51
-#, no-wrap
-msgid ""
-"result_type FunctionName(optional_parameters)\n"
-"{\n"
-"\tbody\n"
-"}"
-msgstr ""
-
-#. type: Source code
-#: ../E/function.txt:61
-#, no-wrap
-msgid ""
-"void Example(int a, float x, string s)\n"
-"{\n"
-"\tmessage(a);\n"
-"\tmessage(x);\n"
-"\tmessage(s);\n"
-"}"
-msgstr ""
-
 #. type: Source code
 #: ../E/function.txt:123
 #, no-wrap
@@ -6749,78 +6725,352 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/function.txt:56
+#: ../E/object.txt:2
 #, no-wrap
-msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
+msgid "Use this type for variables that contain the characteristics of an object, be it a bot, a building, some raw material, an enemy, etc. Here are all properties of an object: "
 msgstr ""
 
-#. type: \b; header
-#: ../E/factory.txt:1
+#. type: Plain text
+#: ../E/object.txt:4
 #, no-wrap
-msgid "Instruction <code>factory</code>"
+msgid ""
+"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
+"<code><a cbot|point>point</a>  object.position     </code>Position of the object (x,y,z)\n"
+"<code><a cbot|float>float</a>  object.orientation  </code>Orientation of the object (0..360)\n"
+"<code><a cbot|float>float</a>  object.pitch        </code>Forward/backward angle of the object\n"
+"<code><a cbot|float>float</a>  object.roll         </code>Right/left angle of the object \n"
+"<code><a cbot|float>float</a>  object.energyLevel  </code>Energy level (0..1)\n"
+"<code><a cbot|float>float</a>  object.shieldLevel  </code>Shield level (0..1)\n"
+"<code><a cbot|float>float</a>  object.temperature  </code>Jet temperature (0..1)\n"
+"<code><a cbot|float>float</a>  object.altitude     </code>Altitude above ground\n"
+"<code><a cbot|float>float</a>  object.lifeTime     </code>Lifetime of the object\n"
+"<code>object object.energyCell   </code>Power cell on the bot\n"
+"<code>object object.load         </code>Object carried by the bot\n"
+"<code><a cbot|int>int</a>    object.team         </code>The object's team (see <a battles>code battles</a>)\n"
+"<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object"
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:19
+#, no-wrap
+msgid "Also, some objects have additional methods (instructions). See them in <a cbot>the main list</a> in the <c/>\"Instructions specific for some objects\" section."
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:22
+#, no-wrap
+msgid "The <n/><a cbot|category>category</a> of an object allows you to know what it is, f. ex. what kind of bot, building, enemy, etc."
 msgstr ""
 
 #. type: Source code
-#: ../E/factory.txt:3
+#: ../E/object.txt:60
 #, no-wrap
-msgid "<c/><a cbot|object>object</a>.factory ( cat, program );<n/>"
+msgid "<code>team</code>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:5
+#: ../E/object.txt:61
 #, no-wrap
-msgid "Starts a construction of a bot of the given <a cbot|category>category</a> and runs the specified program on it after the construction is finished."
+msgid "The bot's team. Used in <a battles>code battles</a>. If the object has no team assigned (e.g. in no team-based levels, the object being a resource), this is equal to <code>0</code>."
+msgstr ""
+
+#. type: Source code
+#: ../E/object.txt:63
+#, no-wrap
+msgid "<code>velocity</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/object.txt:64
+#, no-wrap
+msgid "Current velocity of the object. Should be treated as a three-dimensional vector."
+msgstr ""
+
+#. type: \b; header
+#: ../E/pencolor.txt:1
+#, no-wrap
+msgid "Instruction <code>pencolor</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pencolor.txt:3
+#, no-wrap
+msgid "<c/>pencolor ( color );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pencolor.txt:4
+#, no-wrap
+msgid "The instruction <c/>pencolor();<n/> instructs the bot to change the color of the pencil."
 msgstr ""
 
 #. type: \t; header
-#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7 ../E/takeoff.txt:7
+#: ../E/pencolor.txt:6 ../E/pendown.txt:6
 #, no-wrap
-msgid "<a cbot|object>object</a>"
+msgid "color: <code><a cbot|int>int</a></code> (default value: <code>Black</code>)"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:8
+#: ../E/pencolor.txt:7 ../E/pendown.txt:7
 #, no-wrap
-msgid "<a object|factory>BotFactory</a>"
+msgid "<a cbot|colors>Color name</a>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:11
-#, no-wrap
-msgid "<a cbot|category>Category</a> of the robot to construct."
-msgstr ""
-
-#. type: \t; header
-#: ../E/factory.txt:13
-#, no-wrap
-msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/factory.txt:14
-#, no-wrap
-msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a <a cbot|file>filename</a> or just a raw source code."
-msgstr ""
-
-#. type: Plain text
-#: ../E/category.txt:6
-#, no-wrap
-msgid "Below are the different categories available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/factory.txt:17
+#: ../E/pencolor.txt:10
 #, no-wrap
 msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
-"<code>== 0 </code>The construction successfully started\n"
-"<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
+"<code>== 0 </code>The color was changed\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/pendown.txt:1
+#, no-wrap
+msgid "Instruction <code>pendown</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pendown.txt:3
+#, no-wrap
+msgid "<c/>pendown ( color, width );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/factory.txt:22
+#: ../E/pendown.txt:4
 #, no-wrap
-msgid "<a cbot|researched>researched</a>, <a cbot|>wait</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgid "The instruction <c/>pendown();<n/> instructs the bot to have the pen down, so it starts drawing."
+msgstr ""
+
+#. type: \t; header
+#: ../E/pendown.txt:9
+#, no-wrap
+msgid "width: <code><a cbot|float>float</a></code> (default value: <code>0.5</code>)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pendown.txt:10 ../E/penwidth.txt:7
+#, no-wrap
+msgid "Width of the pen. The width cannot be higher than <code>1.0</code> and cannot be lower than <code>0.0</code>. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pendown.txt:13
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
+"<code>== 0 </code>The pen is now down\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/penup.txt:1
+#, no-wrap
+msgid "Instruction <code>penup</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/penup.txt:3
+#, no-wrap
+msgid "<c/>penup ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penup.txt:4
+#, no-wrap
+msgid "The instruction <c/>penup();<n/> instructs the bot to have the pen up, so it stops drawing. The pen is up by default, so it should be used only after using <code><a cbot|pendown>pendown</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/penup.txt:7
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
+"<code>== 0 </code>The pen is now up\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/penwidth.txt:1
+#, no-wrap
+msgid "Instruction <code>penwidth</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/penwidth.txt:3
+#, no-wrap
+msgid "<c/>penwidth ( color );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penwidth.txt:4
+#, no-wrap
+msgid "The instruction <c/>penwidth();<n/> instructs the bot to change the width of the pencil."
+msgstr ""
+
+#. type: \t; header
+#: ../E/penwidth.txt:6
+#, no-wrap
+msgid "width: <code><a cbot|float>float</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/penwidth.txt:10
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
+"<code>== 0 </code>The width was changed\n"
+"<code>!= 0 </code>The instruction did not work"
+msgstr ""
+
+#. type: \b; header
+#: ../E/pow.txt:1
+#, no-wrap
+msgid "Instruction <code>pow</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/pow.txt:3
+#, no-wrap
+msgid "<c/>pow ( x, y );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:6
+#, no-wrap
+msgid "Base."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:9
+#, no-wrap
+msgid "Exponent."
+msgstr ""
+
+#. type: Plain text
+#: ../E/pow.txt:12
+#, no-wrap
+msgid "x to the y (x raised to the yth power)."
+msgstr ""
+
+#. type: Source code
+#: ../E/radar.txt:15
+#, no-wrap
+msgid "<c/>radar ( cat, angle, focus, min, max, sens, filter );<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/radar.txt:24
+#, no-wrap
+msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:25 ../E/search.txt:10
+#, no-wrap
+msgid "<c/><s/>int bots[4];"
+msgstr ""
+
+#. type: Source code
+#: ../E/radar.txt:26
+#, no-wrap
+msgid ""
+"bots[0] = WheeledGrabber;\n"
+"bots[1] = TrackedGrabber;\n"
+"bots[2] = WingedGrabber;\n"
+"bots[3] = LeggedGrabber;\n"
+"object nearestGrabber = radar(bots);<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/radar.txt:31
+#, no-wrap
+msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on). Filters may be useful to use with this keyword."
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:33
+#, no-wrap
+msgid "angle: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:39
+#, no-wrap
+msgid "focus: <code><a cbot|float>float</a></code> (default value: <code>360</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:42
+#, no-wrap
+msgid "min: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:45
+#, no-wrap
+msgid "max: <code><a cbot|float>float</a></code> (default value: <code>1000</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:48
+#, no-wrap
+msgid "sens: <code><a cbot|float>float</a></code> (default value: <code>1</code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/radar.txt:51
+#, no-wrap
+msgid "filter: <code><a cbot|int>int</a></code> (default value: <code><format const>FilterNone</format></code>)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:52
+#, no-wrap
+msgid "Determines which type of objects should be detected. Especially useful in use with an <a cbot|array>array</a> or <format const>Any</format>. The following filters are available:"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:54
+#, no-wrap
+msgid ""
+"<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
+"<code><format const>FilterOnlyLanding</format> </code>Detects only objects being on the ground\n"
+"<code><format const>FilterOnlyFlying</format>  </code>Detects only objects not being on the ground\n"
+"<code><format const>FilterFriendly</format>    </code>Detects only allies (objects in the same team)\n"
+"<code><format const>FilterEnemy</format>       </code>Detects only enemies (objects in an other team except neutral)\n"
+"<code><format const>FilterNeutral</format>     </code>Detects only neutral objects (e.g. resources)"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:61
+#, no-wrap
+msgid "The last three are mainly useful in <a battles>code battles</a>. You can also pass a team ID to search only for objects from a specific team. Attention: you should use <format const>FilterNeutral</format> instead of <code>0</code> or else it will not work."
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:63
+#, no-wrap
+msgid "Filters and IDs can be mixed using bitwise OR operator <code>|</code>, for example <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> will only detect an object from team <code>2</code> that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once."
+msgstr ""
+
+#. type: \b; header
+#: ../E/rand.txt:1
+#, no-wrap
+msgid "Instruction <code>rand</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/rand.txt:3
+#, no-wrap
+msgid "<c/>rand ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/rand.txt:6
+#, no-wrap
+msgid "Pseudorandom number between 0 and 1 (including 0, but excluding 1)."
 msgstr ""
 
 #. type: \b; header
@@ -6835,6 +7085,18 @@ msgstr ""
 msgid "<c/><a cbot|object>object</a>.research ( type );<n/>"
 msgstr ""
 
+#. type: Plain text
+#: ../E/research.txt:5
+#, no-wrap
+msgid "Starts a <a cbot|researches>research</a> of the given type."
+msgstr ""
+
+#. type: Plain text
+#: ../E/research.txt:8
+#, no-wrap
+msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>."
+msgstr ""
+
 #. type: \t; header
 #: ../E/research.txt:10
 #, no-wrap
@@ -6842,9 +7104,50 @@ msgid "type: <code><a cbot|int>int</a></code>"
 msgstr ""
 
 #. type: Plain text
+#: ../E/research.txt:14
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
+"<code>== 0 </code>The research successfully started\n"
+"<code>!= 0 </code>The research could not be started (e.g. the research is disabled in the level, no power cell)"
+msgstr ""
+
+#. type: Plain text
 #: ../E/research.txt:19
 #, no-wrap
 msgid "<a cbot|researches>Research names</a>, <a cbot|canresearch>canresearch</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/researched.txt:1
+#, no-wrap
+msgid "Instruction <code>researched</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/researched.txt:3
+#, no-wrap
+msgid "<c/>researched ( research );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:5
+#, no-wrap
+msgid "Checks if the <a cbot|researches>research</a> was done in the level."
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:11
+#, no-wrap
+msgid ""
+"<format const>true</format> if the research was done\n"
+"<format const>false</format> if the research was not done"
+msgstr ""
+
+#. type: Plain text
+#: ../E/researched.txt:15
+#, no-wrap
+msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|canresearch>canresearch</a>, <a cbot|canbuild>canbuild</a> <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
@@ -6863,167 +7166,6 @@ msgstr ""
 #: ../E/researches.txt:4
 #, no-wrap
 msgid "In a program, research names are always displayed on a <format const>red background</format>. If a research name is not highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr ""
-
-#. type: Plain text
-#: ../E/researches.txt:28
-#, no-wrap
-msgid "<a cbot>CBOT Language</a>, <a cbot|type>variables</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/busy.txt:1
-#, no-wrap
-msgid "Instruction <code>busy</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/busy.txt:3
-#, no-wrap
-msgid "<c/><a cbot|object>object</a>.busy ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:5
-#, no-wrap
-msgid "Checks if the object is busy."
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:8
-#, no-wrap
-msgid "Any building which can take some action (e.g. <a cbot|convert>Converter</a>)."
-msgstr ""
-
-#. type: Plain text
-#: ../E/busy.txt:11
-#, no-wrap
-msgid ""
-"<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
-"<code><format const>false</format></code> if the object is not doing anything"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:2
-#, no-wrap
-msgid "Use this type for variables that contain the characteristics of an object, be it a bot, a building, some raw material, an enemy, etc. Here are all properties of an object: "
-msgstr ""
-
-#. type: \b; header
-#: ../E/takeoff.txt:1
-#, no-wrap
-msgid "Instruction <code>takeoff</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/takeoff.txt:3
-#, no-wrap
-msgid "<c/><a cbot|object>object</a>.takeoff ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/takeoff.txt:5
-#, no-wrap
-msgid "Takes off the spaceship."
-msgstr ""
-
-#. type: Plain text
-#: ../E/takeoff.txt:8
-#, no-wrap
-msgid "<a object|base>SpaceShip</a>"
-msgstr ""
-
-#. type: Source code
-#: ../E/object.txt:60
-#, no-wrap
-msgid "<code>team</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/object.txt:63
-#, no-wrap
-msgid "<code>velocity</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:64
-#, no-wrap
-msgid "Current velocity of the object. Should be treated as a three-dimensional vector."
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:19
-#, no-wrap
-msgid "Also, some objects have additional methods (instructions). See them in <a cbot>the main list</a> in the <c/>\"Instructions specific for some objects\" section."
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:22
-#, no-wrap
-msgid "The <n/><a cbot|category>category</a> of an object allows you to know what it is, f. ex. what kind of bot, building, enemy, etc."
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:8
-#, no-wrap
-msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>."
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:8
-#, no-wrap
-msgid "Buildings:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:31
-#, no-wrap
-msgid "Portable Objects:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:44
-#, no-wrap
-msgid "Robots:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:76
-#, no-wrap
-msgid "Enemies:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:86
-#, no-wrap
-msgid "Miscellaneous:"
-msgstr ""
-
-#. type: \t; header
-#: ../E/category.txt:95
-#, no-wrap
-msgid "Flags and Other Indicators:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:5
-#, no-wrap
-msgid "Starts a <a cbot|researches>research</a> of the given type."
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:8 ../E/research.txt:11 ../E/researched.txt:8
-#, no-wrap
-msgid "<a cbot|researches>Research name</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/research.txt:14
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
-"<code>== 0 </code>The research successfully started\n"
-"<code>!= 0 </code>The research could not be started (e.g. the research is disabled in the level, no power cell)"
 msgstr ""
 
 #. type: Plain text
@@ -7082,395 +7224,39 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/takeoff.txt:11
+#: ../E/researches.txt:28
 #, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
-"<code>== 0 </code>Spaceship takes off\n"
-"<code>!= 0 </code>Spaceship could not take off (e.g. mission is not finished yet)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:61
-#, no-wrap
-msgid "The bot's team. Used in <a battles>code battles</a>. If the object has no team assigned (e.g. in no team-based levels, the object being a resource), this is equal to <code>0</code>."
+msgid "<a cbot>CBOT Language</a>, <a cbot|type>variables</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: \b; header
-#: ../E/colors.txt:1
+#: ../E/round.txt:1
 #, no-wrap
-msgid "Value <code>Colors</code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:2
-#, no-wrap
-msgid "Color names are used to define a specific color to use. They can be passed to functions like <a cbot|pendown>pendown</a> or <a cbot|pencolor>pencolor</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:4
-#, no-wrap
-msgid "In a program, colors are always displayed on a <format const>red background</format>. If a color isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is."
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:6
-#, no-wrap
-msgid "Below are the different colors available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:8
-#, no-wrap
-msgid ""
-"<code><format const>White</format></code>\n"
-"<code><format const>Black</format></code>\n"
-"<code><format const>Gray</format></code>\n"
-"<code><format const>LightGray</format></code>\n"
-"<code><format const>Red</format></code>\n"
-"<code><format const>Pink</format></code>\n"
-"<code><format const>Purple</format></code>\n"
-"<code><format const>Orange</format></code>\n"
-"<code><format const>Yellow</format></code>\n"
-"<code><format const>Beige</format></code>\n"
-"<code><format const>Brown</format></code>\n"
-"<code><format const>Skin</format></code>\n"
-"<code><format const>Green</format></code>\n"
-"<code><format const>LightGreen</format></code>\n"
-"<code><format const>Blue</format></code>\n"
-"<code><format const>LightBlue</format></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:25
-#, no-wrap
-msgid "You can also draw colored symbols:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/colors.txt:27
-#, no-wrap
-msgid ""
-"<code><format const>BlackArrow</format></code>\n"
-"<code><format const>RedArrow</format></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/object.txt:4
-#, no-wrap
-msgid ""
-"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
-"<code><a cbot|point>point</a>  object.position     </code>Position of the object (x,y,z)\n"
-"<code><a cbot|float>float</a>  object.orientation  </code>Orientation of the object (0..360)\n"
-"<code><a cbot|float>float</a>  object.pitch        </code>Forward/backward angle of the object\n"
-"<code><a cbot|float>float</a>  object.roll         </code>Right/left angle of the object \n"
-"<code><a cbot|float>float</a>  object.energyLevel  </code>Energy level (0..1)\n"
-"<code><a cbot|float>float</a>  object.shieldLevel  </code>Shield level (0..1)\n"
-"<code><a cbot|float>float</a>  object.temperature  </code>Jet temperature (0..1)\n"
-"<code><a cbot|float>float</a>  object.altitude     </code>Altitude above ground\n"
-"<code><a cbot|float>float</a>  object.lifeTime     </code>Lifetime of the object\n"
-"<code>object object.energyCell   </code>Power cell on the bot\n"
-"<code>object object.load         </code>Object carried by the bot\n"
-"<code><a cbot|int>int</a>    object.team         </code>The object's team (see <a battles>code battles</a>)\n"
-"<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object"
-msgstr ""
-
-#. type: \b; header
-#: ../E/pencolor.txt:1
-#, no-wrap
-msgid "Instruction <code>pencolor</code>"
+msgid "Instruction <code>round</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/pencolor.txt:3
+#: ../E/round.txt:3
 #, no-wrap
-msgid "<c/>pencolor ( color );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/pencolor.txt:6 ../E/pendown.txt:6
-#, no-wrap
-msgid "color: <code><a cbot|int>int</a></code> (default value: <code>Black</code>)"
+msgid "<c/>round ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/pencolor.txt:7 ../E/pendown.txt:7
+#: ../E/round.txt:4
 #, no-wrap
-msgid "<a cbot|colors>Color name</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/pendown.txt:1
-#, no-wrap
-msgid "Instruction <code>pendown</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/pendown.txt:3
-#, no-wrap
-msgid "<c/>pendown ( color, width );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/pendown.txt:9
-#, no-wrap
-msgid "width: <code><a cbot|float>float</a></code> (default value: <code>0.5</code>)"
+msgid "Rounds a number."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pendown.txt:10 ../E/penwidth.txt:7
+#: ../E/round.txt:10
 #, no-wrap
-msgid "Width of the pen. The width cannot be higher than <code>1.0</code> and cannot be lower than <code>0.0</code>. Passing a higher value will result in the width being the highest possible and passing a lower value will result in the width being the lowest possible."
+msgid "Rounded <code>value</code>. For example, <code>round(2.5)</code> is <code>3.0</code>, whereas <code>round(2.4)</code> is <code>2.0</code>."
 msgstr ""
 
 #. type: Plain text
-#: ../E/pendown.txt:13
+#: ../E/round.txt:13
 #, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
-"<code>== 0 </code>The pen is now down\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: Plain text
-#: ../E/pencolor.txt:4
-#, no-wrap
-msgid "The instruction <c/>pencolor();<n/> instructs the bot to change the color of the pencil."
-msgstr ""
-
-#. type: Plain text
-#: ../E/pencolor.txt:10
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
-"<code>== 0 </code>The color was changed\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: \b; header
-#: ../E/penup.txt:1
-#, no-wrap
-msgid "Instruction <code>penup</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/penup.txt:3
-#, no-wrap
-msgid "<c/>penup ( );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penup.txt:7
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
-"<code>== 0 </code>The pen is now up\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: \b; header
-#: ../E/penwidth.txt:1
-#, no-wrap
-msgid "Instruction <code>penwidth</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/penwidth.txt:3
-#, no-wrap
-msgid "<c/>penwidth ( color );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penwidth.txt:4
-#, no-wrap
-msgid "The instruction <c/>penwidth();<n/> instructs the bot to change the width of the pencil."
-msgstr ""
-
-#. type: \t; header
-#: ../E/penwidth.txt:6
-#, no-wrap
-msgid "width: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/penwidth.txt:10
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
-"<code>== 0 </code>The width was changed\n"
-"<code>!= 0 </code>The instruction did not work"
-msgstr ""
-
-#. type: Plain text
-#: ../E/pendown.txt:4
-#, no-wrap
-msgid "The instruction <c/>pendown();<n/> instructs the bot to have the pen down, so it starts drawing."
-msgstr ""
-
-#. type: Plain text
-#: ../E/penup.txt:4
-#, no-wrap
-msgid "The instruction <c/>penup();<n/> instructs the bot to have the pen up, so it stops drawing. The pen is up by default, so it should be used only after using <code><a cbot|pendown>pendown</a></code>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/canresearch.txt:1
-#, no-wrap
-msgid "Instruction <code>canresearch</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/canresearch.txt:3
-#, no-wrap
-msgid "<c/>canresearch ( research );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:5
-#, no-wrap
-msgid "Checks if the <a cbot|researches>research</a> can be done in the level."
-msgstr ""
-
-#. type: \t; header
-#: ../E/canresearch.txt:7 ../E/researched.txt:7
-#, no-wrap
-msgid "research: <code><a cbot|int>int</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:11
-#, no-wrap
-msgid ""
-"<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
-"<format const>false</format> if the research cannot be done"
-msgstr ""
-
-#. type: Plain text
-#: ../E/canresearch.txt:15
-#, no-wrap
-msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|researched>researched</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/researched.txt:1
-#, no-wrap
-msgid "Instruction <code>researched</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/researched.txt:3
-#, no-wrap
-msgid "<c/>researched ( research );<n/>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:5
-#, no-wrap
-msgid "Checks if the <a cbot|researches>research</a> was done in the level."
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:11
-#, no-wrap
-msgid ""
-"<format const>true</format> if the research was done\n"
-"<format const>false</format> if the research was not done"
-msgstr ""
-
-#. type: Plain text
-#: ../E/researched.txt:15
-#, no-wrap
-msgid "<a cbot|researches>Research names</a>, <a cbot|research>research</a>, <a cbot|canresearch>canresearch</a>, <a cbot|canbuild>canbuild</a> <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
-#. type: \b; header
-#: ../E/flatspace.txt:1
-#, no-wrap
-msgid "Instruction <code>flatspace</code>"
-msgstr ""
-
-#. type: Source code
-#: ../E/flatspace.txt:3
-#, no-wrap
-msgid "<c/>flatspace ( center, flatmin, rmin, rmax, dist );<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/flatspace.txt:10
-#, no-wrap
-msgid "flatmin: <code><a cbot|float>float</a></code>"
-msgstr ""
-
-#. type: Plain text
-#: ../E/flatspace.txt:11
-#, no-wrap
-msgid "Minimum radius of flat ground around the desired position."
-msgstr ""
-
-#. type: Plain text
-#: ../E/flatspace.txt:5
-#, no-wrap
-msgid "Determines the position of the nearest free space with at least <code>flatmin</code> of flat ground around a given position. Works similar to <c/><a cbot|space>space();</a><n/>. Useful for finding a place for a <a cbot|category>building</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/function.txt:14
-#, no-wrap
-msgid "Nothing but a name can be changed in the main function. The keyword <code><a cbot|extern>extern</a></code> distinguish the main function from others."
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/radar.txt:24
-#, no-wrap
-msgid "<a cbot|array>Array</a> of categories of the objects that should be detected. For example, when you are looking only for grabbers:"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/radar.txt:23
-#, no-wrap
-msgid "<a cbot|category>Category</a> of the objects that should be detected. For example, when you are looking for an ant, write <code>radar(AlienAnt)</code>. "
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:25 ../E/search.txt:10
-#, no-wrap
-msgid "<c/><s/>int bots[4];"
-msgstr ""
-
-#. type: Source code
-#: ../E/radar.txt:26
-#, no-wrap
-msgid ""
-"bots[0] = WheeledGrabber;\n"
-"bots[1] = TrackedGrabber;\n"
-"bots[2] = WingedGrabber;\n"
-"bots[3] = LeggedGrabber;\n"
-"object nearestGrabber = radar(bots);<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:33
-#, no-wrap
-msgid "angle: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:39
-#, no-wrap
-msgid "focus: <code><a cbot|float>float</a></code> (default value: <code>360</code>)"
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:42
-#, no-wrap
-msgid "min: <code><a cbot|float>float</a></code> (default value: <code>0</code>)"
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:48
-#, no-wrap
-msgid "sens: <code><a cbot|float>float</a></code> (default value: <code>1</code>)"
+msgid "<a cbot|trunc>trunc</a>, <a cbot|floor>floor</a>, <a cbot|ceil>ceil</a>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
 msgstr ""
 
 #. type: Plain text
@@ -7509,122 +7295,46 @@ msgstr ""
 msgid "position: <code><a cbot|point>point</a></code> (default value: <code><a cbot|this>this</a>.<a cbot|object>position</a></code>)"
 msgstr ""
 
-#. type: \t; header
-#: ../E/radar.txt:45
+#. type: \b; header
+#: ../E/sin.txt:1
 #, no-wrap
-msgid "max: <code><a cbot|float>float</a></code> (default value: <code>1000</code>)"
+msgid "Instruction <code>sin</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/sin.txt:3
+#, no-wrap
+msgid "<c/>sin ( angle );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/sin.txt:9
+#, no-wrap
+msgid "Sine of the angle."
 msgstr ""
 
 #. type: \b; header
-#: ../E/destroy.txt:1
+#: ../E/sqrt.txt:1
 #, no-wrap
-msgid "Instruction <code>destroy</code>"
+msgid "Instruction <code>sqrt</code>"
 msgstr ""
 
 #. type: Source code
-#: ../E/destroy.txt:3
+#: ../E/sqrt.txt:3
 #, no-wrap
-msgid "<c/><a cbot|object>object</a>.destroy ( );<n/>"
+msgid "<c/>sqrt ( value );<n/>"
 msgstr ""
 
 #. type: Plain text
-#: ../E/destroy.txt:5
+#: ../E/sqrt.txt:6
 #, no-wrap
-msgid "Destroys an object."
+msgid "Non-negative number."
 msgstr ""
 
 #. type: Plain text
-#: ../E/destroy.txt:8
+#: ../E/sqrt.txt:9
 #, no-wrap
-msgid "<a object|destroy>Destroyer</a>."
-msgstr ""
-
-#. type: Plain text
-#: ../E/category.txt:10
-#, no-wrap
-msgid ""
-"<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
-"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Spaceship\n"
-"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
-"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
-"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
-"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Information Exchange Post\n"
-"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Repair Center\n"
-"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Defense Tower\n"
-"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Organic Matter Analyzer \n"
-"<button 164/>   <code><a object|station>PowerStation</a>     </code>Power Station\n"
-"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Power Cell Factory\n"
-"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nuclear Plant\n"
-"<button 162/>   <code><a object|convert>Converter</a>        </code>Titanium Converter\n"
-"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
-"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
-"<button 175/>   <code><a object|safe>Vault</a>            </code>Vault\n"
-"       <code><a object|start>StartArea</a>        </code>Starting Pad\n"
-"       <code><a object|goal>GoalArea</a>         </code>Finishing Pad\n"
-"       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
-msgstr ""
-
-#. type: Plain text
-#: ../E/destroy.txt:11
-#, no-wrap
-msgid ""
-"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
-"<code>== 0 </code>The operation of destroying of an object was started\n"
-"<code>!= 0 </code>The instruction could not be done (e.g. nothing to destroy)"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/search.txt:17
-#, no-wrap
-msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on)."
-msgstr ""
-
-#. type: Source code
-#: ../E/radar.txt:15
-#, no-wrap
-msgid "<c/>radar ( cat, angle, focus, min, max, sens, filter );<n/>"
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../E/radar.txt:31
-#, no-wrap
-msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on). Filters may be useful to use with this keyword."
-msgstr ""
-
-#. type: \t; header
-#: ../E/radar.txt:51
-#, no-wrap
-msgid "filter: <code><a cbot|int>int</a></code> (default value: <code><format const>FilterNone</format></code>)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:52
-#, no-wrap
-msgid "Determines which type of objects should be detected. Especially useful in use with an <a cbot|array>array</a> or <format const>Any</format>. The following filters are available:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:54
-#, no-wrap
-msgid ""
-"<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
-"<code><format const>FilterOnlyLanding</format> </code>Detects only objects being on the ground\n"
-"<code><format const>FilterOnlyFlying</format>  </code>Detects only objects not being on the ground\n"
-"<code><format const>FilterFriendly</format>    </code>Detects only allies (objects in the same team)\n"
-"<code><format const>FilterEnemy</format>       </code>Detects only enemies (objects in an other team except neutral)\n"
-"<code><format const>FilterNeutral</format>     </code>Detects only neutral objects (e.g. resources)"
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:61
-#, no-wrap
-msgid "The last three are mainly useful in <a battles>code battles</a>. You can also pass a team ID to search only for objects from a specific team. Attention: you should use <format const>FilterNeutral</format> instead of <code>0</code> or else it will not work."
-msgstr ""
-
-#. type: Plain text
-#: ../E/radar.txt:63
-#, no-wrap
-msgid "Filters and IDs can be mixed using bitwise OR operator <code>|</code>, for example <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> will only detect an object from team <code>2</code> that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once."
+msgid "Square root of the value."
 msgstr ""
 
 #. type: \b; header
@@ -7637,6 +7347,18 @@ msgstr ""
 #: ../E/switch.txt:2
 #, no-wrap
 msgid "With the instruction <code>switch() {}</code> you can execute a proper set of instructions (a case) basing on some value."
+msgstr ""
+
+#. type: Plain text
+#: ../E/switch.txt:5
+#, no-wrap
+msgid "Note: the <a cbot|busy>busy</a> instruction might be much better to use in this scenario."
+msgstr ""
+
+#. type: Plain text
+#: ../E/switch.txt:7
+#, no-wrap
+msgid "See the following <a cbot|function>function</a>: the bot will be <a cbot|wait>waiting</a> a proper amount of time for a certain task to be completed:"
 msgstr ""
 
 #. type: Source code
@@ -7701,6 +7423,12 @@ msgid ""
 "}"
 msgstr ""
 
+#. type: Plain text
+#: ../E/switch.txt:44
+#, no-wrap
+msgid "<a object|convert>Converter</a> and <a object|factory>bot factory</a> have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not <code><a cbot|break>break</a></code> it."
+msgstr ""
+
 #. type: Source code
 #: ../E/switch.txt:48
 #, no-wrap
@@ -7713,24 +7441,6 @@ msgid ""
 "\tcase valueN: instructionsN\n"
 "\tdefault: instructionsDefault\n"
 "}"
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:5
-#, no-wrap
-msgid "Note: the <a cbot|busy>busy</a> instruction might be much better to use in this scenario."
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:7
-#, no-wrap
-msgid "See the following <a cbot|function>function</a>: the bot will be <a cbot|wait>waiting</a> a proper amount of time for a certain task to be completed:"
-msgstr ""
-
-#. type: Plain text
-#: ../E/switch.txt:44
-#, no-wrap
-msgid "<a object|convert>Converter</a> and <a object|factory>bot factory</a> have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not <code><a cbot|break>break</a></code> it."
 msgstr ""
 
 #. type: Plain text
@@ -7751,13 +7461,845 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../E/switch.txt:68
-#, no-wrap
-msgid "Do not put a <a cbot|term>semicolon</a> at the end of the <code>switch ( ) { }</code> instruction."
-msgstr ""
-
-#. type: Plain text
 #: ../E/switch.txt:65
 #, no-wrap
 msgid "You can exit from the the <code>switch() {}</code> instruction using <code><a cbot|break>break</a></code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/switch.txt:68
+#, no-wrap
+msgid "Do not put a <a cbot|term>semicolon</a> at the end of the <code>switch ( ) { }</code> instruction."
+msgstr "Il ne faut pas mettre de <a cbot|term>point-virgule</a> à la fin de l'instruction <code>switch ( ) { }</code>."
+
+#. type: \b; header
+#: ../E/takeoff.txt:1
+#, no-wrap
+msgid "Instruction <code>takeoff</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/takeoff.txt:3
+#, no-wrap
+msgid "<c/><a cbot|object>object</a>.takeoff ( );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:5
+#, no-wrap
+msgid "Takes off the spaceship."
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:8
+#, no-wrap
+msgid "<a object|base>SpaceShip</a>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/takeoff.txt:11
+#, no-wrap
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
+"<code>== 0 </code>Spaceship takes off\n"
+"<code>!= 0 </code>Spaceship could not take off (e.g. mission is not finished yet)"
+msgstr ""
+
+#. type: \b; header
+#: ../E/tan.txt:1
+#, no-wrap
+msgid "Instruction <code>tan</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/tan.txt:3
+#, no-wrap
+msgid "<c/>tan ( angle );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/tan.txt:6
+#, no-wrap
+msgid "Angle in degrees (except multiples of 90)."
+msgstr ""
+
+#. type: Plain text
+#: ../E/tan.txt:9
+#, no-wrap
+msgid "Tangent of the angle."
+msgstr ""
+
+#. type: \b; header
+#: ../E/trunc.txt:1
+#, no-wrap
+msgid "Instruction <code>trunc</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/trunc.txt:3
+#, no-wrap
+msgid "<c/>trunc ( value );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/trunc.txt:4
+#, no-wrap
+msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
+msgstr ""
+
+#. type: Plain text
+#: ../E/trunc.txt:10
+#, no-wrap
+msgid "Truncated <code>value</code>. For example, <code>trunc(-2.5)</code> is <code>-2.00</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:4
+#, no-wrap
+msgid "In a program, categories are always displayed like that: <format const>category</format>. If a category isn't highlighted, it is misspelled. Caps and lower cases should be kept as is."
+msgstr ""
+
+#. type: Plain text
+#: ../E/type.txt:9
+#, no-wrap
+msgid "In a program, the name of a type is always displayed like that: <format type>type</format>. If the name of a type is not highlighted, this means that the name is misspelled. Type names are always written with lower case characters. Here is a list of the different types: "
+msgstr ""
+
+#. type: \b; header
+#: ../E/produce.txt:1
+#, no-wrap
+msgid "Instruction <code>produce</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/produce.txt:3
+#, no-wrap
+msgid "<c/>produce ( position, orientation, category, program, power );<n/>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/produce.txt:4
+#, no-wrap
+msgid "r"
+msgstr ""
+
+#. type: Source code
+#: ../E/produce.txt:5
+#, no-wrap
+msgid "<c/>produce ( category, power );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:7
+#, no-wrap
+msgid "Immediately creates an <a cbot|category>object</a>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/produce.txt:12
+#, no-wrap
+msgid "orientation: <code><a cbot|float>float</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:13
+#, no-wrap
+msgid "Orientation (angle) of the object."
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:16
+#, no-wrap
+msgid "<a cbot|category>Category</a> of the object."
+msgstr ""
+
+#. type: \t; header
+#: ../E/produce.txt:18
+#, no-wrap
+msgid "program: <code><a cbot|string>string</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:22
+#, no-wrap
+msgid "Energy level."
+msgstr ""
+
+#. type: \t; header
+#: ../E/produce.txt:24
+#, no-wrap
+msgid "Return: <code><a cbot|void>void</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:25
+#, no-wrap
+msgid "Nothing."
+msgstr ""
+
+#. type: \b; header
+#: ../E/produce.txt:27
+#, no-wrap
+msgid "Example usage"
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:28
+#, no-wrap
+msgid "It is used by <a object|mother>AlienQueen</a> to produce <a object|egg>AlienEggs</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:10
+#, no-wrap
+msgid "Where object will be created. The second syntax creates the object at the current bot's position."
+msgstr ""
+
+#. type: Plain text
+#: ../E/produce.txt:19
+#, no-wrap
+msgid "Program for the object. Will have effect only for programmable objects like robots or aliens."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:2
+#, no-wrap
+msgid "Expressions are used for various calculations with many different variables, which return the desired result. What distinguishes them from standard instructions are operators, which are described below."
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:8
+#, no-wrap
+msgid "Binary operations"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:9
+#, no-wrap
+msgid "Assuming that <code>a</code>, <code>b</code> can be values of declared and initialized variables of types <code>t1</code> and <code>t2</code>, the binary operations can be described as follows:"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:10
+#, no-wrap
+msgid "<code>r = a op b</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:11
+#, no-wrap
+msgid "Where <code>r</code> is the result of the operation and <code>op</code> is a binary operator which works with values of types <code>t1</code> and <code>t2</code>."
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:13
+#, no-wrap
+msgid "Order of operations"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:14
+#, no-wrap
+msgid "Let <code>a op1 b op2 c</code> be a legal expression, then the following rules apply:"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/expr.txt:15
+#, no-wrap
+msgid "If <code>op1 == op2</code> or <code>op1</code> is as strong as <code>op2</code> or <code>op1</code> is stronger than <code>op2</code>, first calculate <code>a op1 b</code> and store its result in a temporary variable <code>r</code>, then calculate <code>r op2 c</code>, which is the final result of the expression."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/expr.txt:16
+#, no-wrap
+msgid "If <code>op1</code> is weaker than <code>op2</code>, first calculate <code>b op2 c</code> and store its result in a temporary variable <code>r</code>, then calculate <code>a op1 r</code>, which is the final result of the expression."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:18
+#, no-wrap
+msgid "Note: an operation can be made stronger by surrounding it in brackets, so for example assuming that <code>op1</code> is weaker than <code>op2</code>, in an expression <code>(a op1 b) op2 c</code> the <code>a op1 b</code> operation will be executed first."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:20
+#, no-wrap
+msgid "Tip: always use brackets if you are not sure about the order of operations, do not try to remember how strong are each of the operators. Generally it should be fairly obvious."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:22
+#, no-wrap
+msgid ""
+"Here is a complicated example, which uses arithemtic operations described below, showing how expressions are calculated:\n"
+"<c/>Assume a, b, c, d, x, y, z, e are all initialized variables of type float or int. Then the following expression should be calculated the following way:\n"
+"  a * b + c - d / x % (y * z) - e =\n"
+"= r1 + c - d / x % (y * z) - e    = , r1 = a * b\n"
+"= r2 - d / x % (y * z) - e        = , r2 = r1 + c\n"
+"= r2 - r3 % (y * z) - e           = , r3 = d / x\n"
+"= r2 - r3 % r4 - e                = , r4 = y * z\n"
+"= r2 - r5 - e                     = , r5 = r3 % r4\n"
+"= r6 - e                          = , r6 = r2 - r5\n"
+"= r7                                , r7 = r6 - e\n"
+"r7 is the final result of this expression."
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:35
+#, no-wrap
+msgid "Assignment operator"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:36
+#, no-wrap
+msgid "<code>=</code> is the assignment operator. It is used to store the result of an expression in a variable."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:38
+#, no-wrap
+msgid "On the left side of this operator there must be so called l-value and on the right side - r-value. L-values are just <a cbot|var>variables</a><n/>, r-values are expressions or just usual values. This makes the assignment operator kind of special, because what is l-value is pretty restrictive (it cannot be an expression, constant and so on, only single variable). Also, the type of l-value must match the type of r-value (unless a conversion is possible, for example assigning a <code><a cbot|float>float</a></code> to <code><a cbot|int>int</a></code>)."
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:42
+#, no-wrap
+msgid ""
+" float a;\n"
+" float b = 2.0 * (a = 4.0); // b == 8.0"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:45
+#, no-wrap
+msgid "This example is actually really confusing, but this property is actually useful, because it lets doing something like this:"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:47
+#, no-wrap
+msgid ""
+" float a, b, c, d, e;\n"
+" a = b = c = d = e = 1.0; // a == b == c == d == e == 1.0"
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:50
+#, no-wrap
+msgid "Basic arithmetic operations"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:51
+#, no-wrap
+msgid "Binary operators below are working with fundamental number types (<code><a cbot|int>int</a></code>, <code><a cbot|float>float</a></code>)."
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:53 ../E/expr.txt:89 ../E/expr.txt:115 ../E/expr.txt:140 ../E/expr.txt:163
+#, no-wrap
+msgid "List"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:54
+#, no-wrap
+msgid ""
+"<code>+</code>  addition\n"
+"<code>-</code>  subtraction\n"
+"<code>*</code>  multiplication\n"
+"<code>/</code>  division\n"
+"<code>%</code>  remainder of the division (only for the type <code><a cbot|int>int</a></code>)"
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:60
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/expr.txt:61
+#, no-wrap
+msgid "The <code>*</code>, <code>/</code>, <code>%</code> are all stronger than <code>+</code> and <code>-</code>."
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/expr.txt:62
+#, no-wrap
+msgid "The result <a cbot|type>type</a> is always <code><a cbot|float>float</a></code>. If <code>a</code> or <code>b</code> are of type <code><a cbot|int>int</a></code>, they are automatically converted to <code><a cbot|float>float</a></code>. Note: this means that results of intermediate calculations tends to be as precise as possible, the precision is lost only during converting the final (<code><a cbot|float>float</a></code>) result to <code><a cbot|int>int</a></code>, for example by the assignment <code>=</code> operator."
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:64
+#, no-wrap
+msgid "Real life examples"
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:81
+#, no-wrap
+msgid "Compound assignment operators"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:82
+#, no-wrap
+msgid "Besides the <code>=</code> operator for variable assignment there are several compound-assignment operators."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:84
+#, no-wrap
+msgid "The compound-assignment operators combine the <code>=</code> assignment operator with another binary operator such as <code>+</code> or <code>-</code>. Compound-assignment operators perform the operation specified by the additional operator and then assign the result to the left operand. For example, a compound-assignment expression such as"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:85
+#, no-wrap
+msgid "<code>lvalue += expression</code>"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:87
+#, no-wrap
+msgid "<code>lvalue = lvalue + expression</code>"
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:96
+#, no-wrap
+msgid "String concatenation"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:97
+#, no-wrap
+msgid "If at least one of the values used with the <code>+</code> operator is a <a cbot|string>string</a>, then the operation of concatenation is performed. The result of the operator is then a string, which is created by joining end-to-end the string and the other value. If the other value is not a string, then it is converted to string beforehand."
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:101
+#, no-wrap
+msgid ""
+"\tstring s = \"a\" + \"bc\";  // returns \"abc\"\n"
+"\tstring s = 1 + \"bc\";    // returns \"1bc\"\n"
+"\tstring s = 2.5 + \"bc\";  // returns \"2.5bc\"\n"
+"\tstring s = \"a\" + true;  // returns \"atrue\""
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:106
+#, no-wrap
+msgid "Tip: the properties of the concatenation <code>+</code> operator is useful with the <a cbot|message>message();</a> function, because it does not work with other types than string. An empty string can be used together with a value in order to create a string, which actually can be passed to the <a cbot|message>message();</a> function:"
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:177
+#, no-wrap
+msgid "Prefix and postfix increment- and decrement operators"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:180
+#, no-wrap
+msgid "For example to increment the variable <code>a</code> you can write"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:181
+#, no-wrap
+msgid "<c/>a++;<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:182
+#, no-wrap
+msgid "instead of"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:183
+#, no-wrap
+msgid "<c/>a = a + 1;<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:185
+#, no-wrap
+msgid "The result of the operation <code>a++</code> is the value of the variable <code>a</code> *before* the increment. If you use the prefix operator <code>++a</code> the result of the operation is the value of the variable <code>a</code> *after* the increment. The same holds for the <code>--</code> decrement operator."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:4
+#, no-wrap
+msgid "Specifically speaking, an expression is an ordered series of operations which yield a result. Operations consist of operators, which are special <a cbot|function>functions</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, where <code>xi</code> is a value of type <code>ti</code>, and <code>T</code> is the result type. For example, <code>float +(float a, float b)</code> returns a sum of values <code>a</code> and <code>b</code>. Note: Operators are a part of the CBOT language and they cannot be defined in program. Also, the operators cannot be used as usual <a cbot|function>functions</a>, they need to be written using a special notation depending on the operator, for example <code>a+b</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:6
+#, no-wrap
+msgid "In nearly all operations, <a cbot>constants</a>, <a cbot|var>variables</a>, <a cbot|function>functions</a> returning non-<a cbot|void>void</a> type and also other operations can be used as values."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:40
+#, no-wrap
+msgid "Note: it may be not obvious at first, but notice that <code>=</code> is an *operator* not an instruction. This mean that it can be used in the middle of an other expression! The result of <code>=</code> is the value which was assigned to the l-value - the result of the expression on the right. Example:"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:66
+#, no-wrap
+msgid ""
+" int    i = 12 + 3;      // i == 15\n"
+" int    i = 2 - 5;       // i == -3\n"
+" \n"
+" float  f = 3.01 * 10;   // f == 30.1\n"
+" \n"
+" int    i = 5 / 3;       // i == 1 (automatic conversion to int)\n"
+" float  f = 5 / 3;       // f == 1.67\n"
+" float  f = 5 / 0;       // returns an error (division by zero)\n"
+" \n"
+" int    i = 13 % 5;      // i == 3\n"
+" int    i = -8 % 3;      // i == -2\n"
+" \n"
+" float  f = sin(90) * i; // f == -2.0\n"
+" "
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:108
+#, no-wrap
+msgid ""
+" float pi = 3.14;\n"
+" // message(pi); // does not work\n"
+" message(\"\"+pi);"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:189
+#, no-wrap
+msgid ""
+" a = 2;\n"
+" b = a++;\n"
+" // now b contains 2 and a contains 3"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:193
+#, no-wrap
+msgid ""
+" a = 2;\n"
+" b = ++a;\n"
+" // now b contains 3 and a contains 3"
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:137
+#, no-wrap
+msgid "Logical operators"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:138
+#, no-wrap
+msgid "Logical operators work with values of type <a cbot|bool>bool</a> and they always return a <a cbot|bool>bool</a>. They are mainly used in <a cbot|cond>conditions</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:150
+#, no-wrap
+msgid "Ternary operator"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:151
+#, no-wrap
+msgid ""
+"The ternary operator is nothing more than a syntax sugar. It is also known as \"inline if\". It might be confusing at first, because its syntax is a little more complicated than other operators. It can be described as follows:\n"
+"<code>(condition) ? (result when true) : (result when false)</code>\n"
+"Brackets are not needed."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:155
+#, no-wrap
+msgid "Firstly, the condition is valued and then the first result is returned if the condition is true, otherwise the second result is returned."
+msgstr ""
+
+#. type: \t; header
+#: ../E/expr.txt:157
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Source code
+#: ../E/expr.txt:158
+#, no-wrap
+msgid "<c/>float c = ((3.0 > 2.0) ? 10.0 : -10.0); // c == 10.0<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cond.txt:2
+#, no-wrap
+msgid "A condition is a special <a cbot|expr>expression</a> that returns a <a cbot|bool>boolean</a> value, that can only be either <code><a cbot|true>true</a></code> or <code><a cbot|false>false</a></code>. With a condition, you can choose f. ex. if the instructions in a <code><a cbot|while>while</a></code> loop must be repeated again, or if the instruction in a <code><a cbot|if>if</a></code> bloc must be executed."
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:112
+#, no-wrap
+msgid "Comparison operators"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:113
+#, no-wrap
+msgid "Comparison operators work with values of type <a cbot|bool>float</a> and they always return a <a cbot|bool>bool</a>. They are mainly used in <a cbot|cond>conditions</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:141
+#, no-wrap
+msgid ""
+"<code>!a      </code>not <code>a</code>\n"
+"<code>a && b  </code><code>a</code> and <code>b</code>\n"
+"<code>a || b  </code><code>a</code> or <code>b</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:146
+#, no-wrap
+msgid ""
+"<code>!false        </code>returns true\n"
+"<code>true && false </code>returns false \n"
+"<code>true || false </code>returns true"
+msgstr ""
+
+#. type: \b; header
+#: ../E/expr.txt:160
+#, no-wrap
+msgid "Bitwise operators"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:161
+#, no-wrap
+msgid "Bitwise operators are similar to the logical operator, because they are operating on bits (which can be only 0 or 1, conditions can have a value only of false or true). So in theory, they should be working with basically any type of variable, because each value in the computer must be stored as a sequence of bits."
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:164
+#, no-wrap
+msgid ""
+"<code>a & b  </code><code>a</code> AND <code>b</code>\n"
+"<code>a | b  </code><code>a</code> OR <code>b</code>\n"
+"<code>a ^ b  </code><code>a</code> XOR <code>b</code>\n"
+"<code>a >> b  </code>shift bits of <code>a</code> to the right <code>b</code> times\n"
+"<code>a << b  </code>shift bits of <code>a</code> to the left <code>b</code> times"
+msgstr ""
+
+#. type: Plain text
+#: ../E/expr.txt:171
+#, no-wrap
+msgid ""
+"<code>2 & 1         </code>returns 0\n"
+"<code>2 | 1         </code>returns 3\n"
+"<code>2 ^ 2         </code>returns 0\n"
+"<code>2 >> 1        </code>returns 1\n"
+"<code>2 << 1        </code>returns 4"
+msgstr ""
+
+#. type: Source code
+#: ../E/array.txt:4
+#, no-wrap
+msgid ""
+"int    [ ] a;   // an array of int\n"
+"int    a [12];  // an array of int limited to 12 elements\n"
+"string s[3];    // an array of 3 strings\n"
+"float  xy[][];  // a 2 dimensionnal array of floats"
+msgstr ""
+
+#. type: \b; header
+#: ../E/array.txt:30
+#, no-wrap
+msgid "Initialization syntax"
+msgstr ""
+
+#. type: Plain text
+#: ../E/array.txt:31
+#, no-wrap
+msgid "You can initialize a new array using the following syntax:"
+msgstr ""
+
+#. type: Source code
+#: ../E/array.txt:33
+#, no-wrap
+msgid "type arrayName[] = { value0, value1, value2, ..., valueN };"
+msgstr ""
+
+#. type: Source code
+#: ../E/array.txt:37
+#, no-wrap
+msgid ""
+"int numbers[] = { 10, 20, 30 };\n"
+"MyClass objects[] = { new MyClass(1), new MyClass(2) };"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:2
+#, no-wrap
+msgid "With the instruction <c/>radar();<n/>, you can look for objects like <a object|mother>enemies</a>, bots, buildings or raw materials."
+msgstr ""
+
+#. type: Plain text
+#: ../E/radar.txt:81
+#, no-wrap
+msgid "<c/><a cbot|radarall>radarall</a>();<n/>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: \b; header
+#: ../E/radarall.txt:1
+#, no-wrap
+msgid "Instruction <code>radarall</code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radarall.txt:2
+#, no-wrap
+msgid "<c/>radarall();<n/> is an enhancement of the <c/><a cbot|radar>radar</a>();<n/> function -- it detects all objects matching the given criteria."
+msgstr ""
+
+#. type: \b; header
+#: ../E/radarall.txt:4
+#, no-wrap
+msgid "Example<c/>"
+msgstr ""
+
+#. type: Source code
+#: ../E/radarall.txt:13
+#, no-wrap
+msgid "<c/>radarall ( cat, angle, focus, min, max, sens, filter );<n/>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/radarall.txt:15
+#, no-wrap
+msgid "The function works generally the same as the <c/><a cbot|radar>radar</a>();<n/> function with the only difference being that it returns an <a cbot|array>array</a> of <a cbot|object>objects</a> instead of one object. If no object is found, <code><a cbot|null>null</a></code> is returned."
+msgstr ""
+
+#. type: Plain text
+#: ../E/radarall.txt:17
+#, no-wrap
+msgid "The order of objects in the returned array is sorted by distance and depends on the <code>sens</code> parameter. The first object in the array is the object which would be returned by the <c/>radar();<n/> function called with the exactly same parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../E/radarall.txt:20
+#, no-wrap
+msgid "<c/><a cbot|radar>radar</a>();<n/>, <a cbot>programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/for.txt:11
+#, no-wrap
+msgid "This set of instructions is executed before the first loop instance."
+msgstr ""
+
+#. type: Plain text
+#: ../E/for.txt:17
+#, no-wrap
+msgid "This set of instructions is executed at the end of every instance of the loop. "
+msgstr ""
+
+#. type: \t; header
+#: ../E/for.txt:38
+#, no-wrap
+msgid "Executing more instructions"
+msgstr ""
+
+#. type: Plain text
+#: ../E/for.txt:39
+#, no-wrap
+msgid "In the <code>before</code> and <code>end</code> part of a <code>for</code> loop you can specify more than one instruction by using comma. Example:"
+msgstr ""
+
+#. type: Source code
+#: ../E/for.txt:41
+#, no-wrap
+msgid ""
+"int i = 0;\n"
+"int j;\n"
+"for (i++, j = 2; i < 3 && j > 0; i++, j--)\n"
+"{\n"
+"    message(i);\n"
+"    message(j);\n"
+"}"
+msgstr ""
+"int i = 0;\n"
+"int j;\n"
+"for (i++, j = 2; i < 3 && j > 0; i++, j--)\n"
+"{\n"
+"    message(i);\n"
+"    message(j);\n"
+"}"
+
+#. type: Plain text
+#: ../E/for.txt:49
+#, no-wrap
+msgid "The output of the above code is <code>1 2 2 1</code>."
+msgstr ""
+
+#. type: Source code
+#: ../E/radarall.txt:5
+#, no-wrap
+msgid ""
+"object[] items = radarall(PowerCell);\n"
+"for (int i = 0; i < sizeof(items); ++i)\n"
+"{\n"
+"    message(items[i].id);\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:98
+#, no-wrap
+msgid ""
+"       <code><a object|flag>BlueFlag</a>          </code>Blue Flag\n"
+"       <code><a object|flag>RedFlag</a>           </code>Red Flag\n"
+"       <code><a object|flag>GreenFlag</a>         </code>Green Flag\n"
+"       <code><a object|flag>YellowFlag</a>        </code>Yellow Flag\n"
+"       <code><a object|flag>VioletFlag</a>        </code>Violet Flag\n"
+"       <code><a object|waypoint>WayPoint</a>          </code>Checkpoint\n"
+"       <code><a object|target2>Target2</a>           </code>Flying checkpoint\n"
+"       <code><a object|enerspot>EnergySpot</a>        </code>Underground Energy Deposit\n"
+"       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
+"       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
+msgstr ""
+
+#. type: Plain text
+#: ../E/category.txt:10
+#, no-wrap
+msgid ""
+"<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
+"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Spaceship\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Information Exchange Post\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Repair Center\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Defense Tower\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Organic Matter Analyzer \n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Power Station\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Power Cell Factory\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nuclear Plant\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Titanium Converter\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Vault\n"
+"       <code><a object|start>StartArea</a>        </code>Starting Pad\n"
+"       <code><a object|goal>GoalArea</a>         </code>Finishing Pad\n"
+"       <code><a object|target1>Target1</a>          </code>Flying target\n"
+"       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
 msgstr ""

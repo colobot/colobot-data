@@ -8,8 +8,8 @@ HelpFile name="cbot.txt"
 EndingFile win=201 lost=0
 
 // Planets for SpaceShip transition animation
-Planet mode=1 pos=1.0;0.2 dim=0.50 speed=0.0 dir=0.3 image="planet01.png" uv1=0.0;0.0 uv2=0.5;0.5
-Planet mode=1 pos=4.1;0.1 dim=0.15 speed=0.0 dir=0.3 image="planet01.png" uv1=0.0;0.5 uv2=0.5;1.0
+Planet mode=1 pos=1.0;0.2 dim=0.50 speed=0.0 dir=0.3 image="planets/planet-earth.png" uv1=0.0;0.0 uv2=1.0;1.0
+Planet mode=1 pos=4.1;0.1 dim=0.15 speed=0.0 dir=0.3 image="planets/planet-moon.png" uv1=0.0;0.0 uv2=1.0;1.0
 
 #Include file="%chap%/planet.txt"
 TerrainRelief image="relief03.png" factor=1.0

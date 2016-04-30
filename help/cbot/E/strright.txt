@@ -1,13 +1,13 @@
 \b;Instruction \c;strright\n;
 Extracts the last (that is, rightmost) characters from a string.
 
-Syntax¦:
+Syntax:
 \s;\c;strright ( string, len );\n;
 
 \t;len: \c;\l;int\u cbot\int;\n;
 Number of characters to be extracted.
 
-Examples¦:
+Examples:
 \s;\c;	string s = strright("abcdef", 2);  // s is "ef"
 \s;	string s = strright("abc", 10);  // s is "abc"
 \n;

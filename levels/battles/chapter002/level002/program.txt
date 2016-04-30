@@ -1,0 +1,76 @@
+extern void object::StandardEnemy_Attack()
+{
+	while(this.energyCell == null) wait(0.05);
+	while(radar(Any, 180, 45, 0, 5) != null) wait(0.05);
+	move(-7.5);
+
+	while(true)
+	{
+		bool isInFront = true;
+		object item = radar(Any, 0, 120, 0, 1000, 1, FilterEnemy);
+		if (item == null)
+		{
+			isInFront = false;
+			item = radar(Any, 0, 360, 0, 1000, 1, FilterEnemy);
+			if (item == null)
+			{
+				wait(0.05);
+				continue;
+			}
+		}
+
+		float targetHeight = topo(this.position);
+		if(targetHeight < 0) targetHeight = 0;
+		targetHeight += 9;
+
+		float targetSpeed = distance(this.position, item.position)/40;
+		if(targetSpeed > 1) targetSpeed = 1;
+		if(!isInFront) targetSpeed = 1;
+
+		float targetDirection = direction(item.position);
+
+		bool canShoot = true;
+		if(abs(targetDirection) > 10) canShoot = false;
+		if(distance(this.position, item.position) > 40) canShoot = false;
+
+		/*
+		Here we calculate the aim angle
+		Take a look at this picture:
+		(yes, I'm terrible at ASCII-art :P)
+
+		 \/ target
+		 ***
+		 *  ***
+		H*     ***
+		 *   angle** \/ robot
+		 *************
+		       L
+		*/
+		float H = item.position.z-this.position.z;
+		float L = distance2d(this.position, item.position);
+		float angle = atan(H/L);
+		if(aim(angle, -targetDirection) != 0) canShoot = false; // funkcja aim() zwraca != 0 jesli cel poza zasiegiem
+
+		if(!canShoot) targetSpeed = 1;
+		if(distance(this.position, item.position) < 20) targetSpeed = 0;
+
+		jet((targetHeight-this.position.z)/4);
+		if(targetDirection < 0)
+		{
+			motor(targetSpeed, targetSpeed+targetDirection/90);
+		}
+		else
+		{
+			motor(targetSpeed-targetDirection/90, targetSpeed);
+		}
+
+		if(canShoot)
+		{
+			fire(0.1);
+		}
+		else
+		{
+			wait(0.05);
+		}
+	}
+}

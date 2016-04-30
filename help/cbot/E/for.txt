@@ -8,13 +8,13 @@ Syntax:
 This instruction allows you to execute a certain number of times the instructions contained in the \l;block\u cbot\bloc;.
 
 \t;\c;before\n;
-This instruction is executed before the first loop instance.
+This set of instructions is executed before the first loop instance.
 
 \t;\c;condition\n;
 This \l;condition\u cbot\cond; determines if another instance of the loop must be executed. It is tested before every instance of the loop. 
 
 \t;\c;end\n;
-This instruction is executed at the end of every instance of the loop. 
+This set of instructions is executed at the end of every instance of the loop. 
 
 Example: count from 1 to 4
 \c;\s;\c;for ( i = 1 ; i <= 4 ; i++ )
@@ -34,6 +34,19 @@ The following example is strictly equivalent to a \c;for\n;-loop, but it uses th
 Do not put a \l;semicolon\u cbot\term; at the end of the line \c;for ( )\n;.
 
 The instructions \c;\l;break\u cbot\break;\n; and \c;\l;continue\u cbot\continue;\n; can be useful inside a block following the instruction \c;for \n;.
+
+\t;Executing more instructions
+In the \c;before\n; and \c;end\n; part of a \c;for\n; loop you can specify more than one instruction by using comma. Example:
+\c;
+\s;int i = 0;
+\s;int j;
+\s;for (i++, j = 2; i < 3 && j > 0; i++, j--)
+\s;{
+\s;    message(i);
+\s;    message(j);
+\s;}
+\n;
+The output of the above code is \c;1 2 2 1\n;.
 
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

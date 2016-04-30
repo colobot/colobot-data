@@ -9,13 +9,13 @@ set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
 ##
 function(add_level_category level_category_dir)
 
-    message(STATUS "Adding translation targets for level/${level_category_dir}")
-
-    # Without Python, just install all files as they are
-    if(NOT PYTHONINTERP_FOUND)
-        install(DIRECTORY ${add_level_category} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
+    # If translations are turned off, just install all files as they are
+    if(NOT TRANSLATIONS)
+        install(DIRECTORY ${level_category_dir} DESTINATION ${LEVEL_INSTALL_DATA_DIR})
         return()
     endif()
+
+    message(STATUS "Adding translation targets for level/${level_category_dir}")
 
     add_chaptertitles(${level_category_dir})
 
@@ -89,9 +89,10 @@ function(add_level level_dir)
 endfunction()
 
 
-add_level_category(challenges)
-add_level_category(exercises)
-add_level_category(freemissions)
 add_level_category(missions)
+add_level_category(freemissions)
+add_level_category(exercises)
+add_level_category(challenges)
+add_level_category(battles)
 
 install(DIRECTORY other DESTINATION ${LEVEL_INSTALL_DATA_DIR})

@@ -1,11 +1,11 @@
 \b;Instruction \c;send\n;
-Syntax¦:
+Syntax:
 \s;\c;send ( name, value, power );\n;
 
 Sends an information to the closest \l;information exchange post\u object\exchange;.
 
 \t;name: \c;string\n;
-Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks "¦".
+Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks "".
 If there is any information having this name, a new entry is created, as far as the total number of entries does not exceed 10. If there is already an information having this name, value is simply replaced by the new.
 
 \t;value: \c;float\n;

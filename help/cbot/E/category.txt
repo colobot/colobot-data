@@ -1,7 +1,7 @@
 \b;Value \c;Categories\n;
 Categories represent the names of objects in the CBOT language. Everything in COLOBOT is an object: robots, buildings, raw materials, etc., even yourself.
 
-In a program, categories are always displayed on a \const;red background\norm;. If a category isn't highlighted in red, it is misspelled. Caps and lower cases should be kept as is.
+In a program, categories are always displayed like that: \const;category\norm;. If a category isn't highlighted, it is misspelled. Caps and lower cases should be kept as is.
 
 Below are the different categories available:
 
@@ -25,6 +25,7 @@ Below are the different categories available:
 \button 175;   \c;\l;Vault\u object\safe;            \n;Vault
        \c;\l;StartArea\u object\start;        \n;Starting Pad
        \c;\l;GoalArea\u object\goal;         \n;Finishing Pad
+       \c;\l;Target1\u object\target1;          \n;Flying target
        \c;\l;AlienNest\u object\nest;        \n;Alien Nest
 
 
@@ -100,6 +101,7 @@ Below are the different categories available:
        \c;\l;YellowFlag\u object\flag;        \n;Yellow Flag
        \c;\l;VioletFlag\u object\flag;        \n;Violet Flag
        \c;\l;WayPoint\u object\waypoint;          \n;Checkpoint
+       \c;\l;Target2\u object\target2;           \n;Flying checkpoint
        \c;\l;EnergySpot\u object\enerspot;        \n;Underground Energy Deposit
        \c;\l;TitaniumSpot\u object\stonspot;      \n;Underground Titanium Deposit
        \c;\l;UraniumSpot\u object\uranspot;       \n;Underground Uranium Deposit

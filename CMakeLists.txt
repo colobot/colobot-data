@@ -1,9 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
-find_package(PythonInterp 2.7)
+option(TRANSLATIONS "Enable translations of help and level files" ON)
 
-if(NOT PYTHONINTERP_FOUND)
-    message(WARNING "Python not found, help and level files will NOT be translated!")
+if(TRANSLATIONS)
+    find_package(PythonInterp 2.7 REQUIRED)
+else()
+    message(STATUS "Translations disabled; only English files will be installed")
 endif()
 
 if(NOT DEFINED COLOBOT_INSTALL_DATA_DIR)
@@ -18,7 +20,7 @@ install(DIRECTORY ai         DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY fonts      DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY icons      DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY models     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY models-new DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
+# install(DIRECTORY models-new DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY sounds     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY textures   DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY            DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/mods) # Empty directory

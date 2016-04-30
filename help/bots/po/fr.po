@@ -1,182 +1,181 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Didier Raboud <odyx@debian.org>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-03-25 16:57+0100\n"
+"Last-Translator: Didier Raboud <odyx@debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. type: \b; header
 #: ../E/botfc.txt:1
 #, no-wrap
 msgid "<button 144/> Tracked Shooter"
-msgstr ""
+msgstr "<button 144/> Canon sur chenilles"
 
 #. type: Image filename
 #: ../E/botfc.txt:2
 #, no-wrap
 msgid "botfc"
-msgstr ""
+msgstr "botfc"
 
 #. type: Plain text
 #: ../E/botfc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Robot à chenilles équipé d'un canon à boules de feu"
 
 #. type: Plain text
 #: ../E/botfc.txt:5 ../E/botfj.txt:5 ../E/botfr.txt:5 ../E/botfs.txt:5
 #, no-wrap
 msgid "The fireball cannon is an efficient weapon against most kinds of <a object|mother>enemies</a>. Use it sparingly though for it requires large amounts of energy. A <a object|power>regular power cell</a> will only allow you to shoot 4 fireball bursts."
-msgstr ""
+msgstr "Le canon à boules de feu est une arme efficace contre la plupart des types d'<a object|mother>ennemis</a>. À utiliser avec parcimonie, parce qu'il consomme de grandes quantités d'énergie. Une <a object|power>batterie normal</a> ne permettra de tirer que quatre salves de boules de feu."
 
 #. type: Plain text
 #: ../E/botfc.txt:7 ../E/botfj.txt:7 ../E/botfr.txt:7 ../E/botfs.txt:7
 #, no-wrap
 msgid "Tip : it is possible to move the mouse while shooting, so as to sweep a larger area."
-msgstr ""
+msgstr "Truc: Il es possible de déplacer la souris pendant le tir pour couvrir une plus grande surface."
 
 #. type: Plain text
 #: ../E/botfc.txt:9
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botfr>wheeled shooter</a> is a better option. When it is possible to build <a object|botfj>winged bots</a>, these represent the best solution for long distances."
-msgstr ""
+msgstr "Les robots à chenille peuvent gravir des pentes raides mais ils plutôt lents et utilisent beaucoup d'énergie. Sur un terrain plat et pour de courtes distances, le <a object|botfr>canon à roues</a> est une meilleure option. Lorsqu'il est possible de construire les <a object|botfj>robots volants</a>, ceux-ci représentent la meilleures solution pour les grandes distances."
 
 #. type: \t; header
 #: ../E/botfc.txt:11 ../E/botfj.txt:13 ../E/botfr.txt:11 ../E/botfs.txt:11 ../E/botgc.txt:24 ../E/botgj.txt:26 ../E/botgr.txt:24 ../E/botgs.txt:24 ../E/botoc.txt:9 ../E/botoj.txt:11 ../E/botor.txt:9 ../E/botos.txt:9 ../E/botphaz.txt:5 ../E/botrecy.txt:5 ../E/botsc.txt:11 ../E/botshld.txt:9 ../E/botsj.txt:13 ../E/botsr.txt:11 ../E/botss.txt:11 ../E/botsub.txt:7
 #, no-wrap
 msgid "Programming"
-msgstr ""
+msgstr "Programmation "
 
 #. type: Plain text
 #: ../E/botfc.txt:12 ../E/botfr.txt:12 ../E/botfs.txt:12 ../E/botgc.txt:25 ../E/botgj.txt:27 ../E/botgr.txt:25 ../E/botgs.txt:25 ../E/botoc.txt:10 ../E/botor.txt:10 ../E/botos.txt:10 ../E/botphaz.txt:6 ../E/botrecy.txt:6 ../E/botsc.txt:12 ../E/botshld.txt:10 ../E/botsr.txt:12 ../E/botss.txt:12 ../E/botsub.txt:8 ../E/bottump.txt:10
 #, no-wrap
 msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
-msgstr ""
+msgstr "Pour programmer les mouvements du robot, utiliser les commandes suivantes: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
 
 #. type: Plain text
 #: ../E/botfc.txt:14 ../E/botfj.txt:16 ../E/botfr.txt:14 ../E/botfs.txt:14
 #, no-wrap
 msgid "To program the fireball cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
-msgstr ""
+msgstr "Pour programmer le cannon à boules de feux, utiliser <code><a cbot|fire>fire</a></code>. Pour élever ou abaisser la visée, utiliser <code><a cbot|aim>aim</a></code>."
 
 #. type: \t; header
 #: ../E/botfc.txt:16 ../E/botfj.txt:18 ../E/botfr.txt:16 ../E/botfs.txt:16 ../E/botgc.txt:29 ../E/botgj.txt:31 ../E/botgr.txt:29 ../E/botgs.txt:29 ../E/botoc.txt:14 ../E/botoj.txt:16 ../E/botor.txt:14 ../E/botos.txt:14 ../E/botphaz.txt:10 ../E/botrecy.txt:10 ../E/botsc.txt:16 ../E/botshld.txt:14 ../E/botsj.txt:18 ../E/botsr.txt:16 ../E/botss.txt:16 ../E/botsub.txt:12 ../E/bottarg.txt:7 ../E/bottr.txt:8 ../E/bottump.txt:14
 #, no-wrap
 msgid "Object <a cbot|category>Category</a>"
-msgstr ""
+msgstr "<a cbot|category>Catégorie</a> d'objet"
 
 #. type: Plain text
 #: ../E/botfc.txt:17
 #, no-wrap
 msgid "<code>TrackedShooter</code>"
-msgstr ""
+msgstr "<code>TrackedShooter</code>"
 
 #. type: \t; header
 #: ../E/botfc.txt:19 ../E/botfj.txt:21 ../E/botfr.txt:19 ../E/botfs.txt:19 ../E/botgc.txt:32 ../E/botgj.txt:34 ../E/botgr.txt:32 ../E/botgs.txt:32 ../E/botoc.txt:17 ../E/botoj.txt:19 ../E/botor.txt:17 ../E/botos.txt:17 ../E/botphaz.txt:13 ../E/botrecy.txt:13 ../E/botsc.txt:19 ../E/botshld.txt:17 ../E/botsj.txt:21 ../E/botsr.txt:19 ../E/botss.txt:19 ../E/botsub.txt:15 ../E/bottarg.txt:10 ../E/bottr.txt:11 ../E/bottump.txt:17
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: ../E/botfc.txt:20 ../E/botfj.txt:22 ../E/botfr.txt:20 ../E/botfs.txt:20 ../E/botgc.txt:33 ../E/botgj.txt:35 ../E/botgr.txt:33 ../E/botgs.txt:33 ../E/botoc.txt:18 ../E/botoj.txt:20 ../E/botor.txt:18 ../E/botos.txt:18 ../E/botphaz.txt:14 ../E/botrecy.txt:14 ../E/botsc.txt:20 ../E/botshld.txt:18 ../E/botsj.txt:22 ../E/botsr.txt:20 ../E/botss.txt:20 ../E/botsub.txt:16 ../E/bottarg.txt:11 ../E/bottr.txt:12 ../E/bottump.txt:18
 #, no-wrap
 msgid "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a cbot|category>Categories</a>."
-msgstr ""
+msgstr "<a cbot>Le language CBOT</a>, <a cbot|type>Variables</a> et <a cbot|category>Catégories</a>."
 
 #. type: \b; header
 #: ../E/botfj.txt:1
 #, no-wrap
 msgid "<button 145/> Winged Shooter"
-msgstr ""
+msgstr "<button 145/> Canon volant"
 
 #. type: Image filename
 #: ../E/botfj.txt:2
 #, no-wrap
 msgid "botfj"
-msgstr ""
+msgstr "botfj"
 
 #. type: Plain text
 #: ../E/botfj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Robot volant mû par jet, équipé d'un canon à boules de feu"
 
 #. type: Plain text
 #: ../E/botfj.txt:9 ../E/botgj.txt:20 ../E/botoj.txt:7
 #, no-wrap
 msgid "The display at the bottom of your screen indicates the temperature of the reactor. Keep an eye on it. If the reactor overheats, the engine will stop and the bot will crash."
-msgstr ""
+msgstr "L'affichage en bas de l'écran indique la température du réacteur. Garder un œil dessus. Si le réacteur surchauffe, le moteur va s'arrêter et le robot va se crasher."
 
 #. type: Plain text
 #: ../E/botfj.txt:11
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botfr>wheeled shooter</a> instead."
-msgstr ""
+msgstr "Les robots volants peuvent voler au delà d'obstacles naturels tels que montagnes ou lacs, mais leur quantité d'énergie disponible est rapidement épuisée. Ils sont lents sur le sol. Pour couvrir des petites distances pour lesquelles le vol n'est pas nécessaire, il est recommandé de plutôt utiliser un  <a object|botfr>canon sur roues</a>."
 
 #. type: Plain text
 #: ../E/botfj.txt:14 ../E/botoj.txt:12 ../E/botsj.txt:14
 #, no-wrap
 msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
-msgstr ""
+msgstr "Pour programmer les mouvements du robot, utiliser les commandes suivantes: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
 
 #. type: Plain text
 #: ../E/botfj.txt:19
 #, no-wrap
 msgid "<code>WingedShooter</code>"
-msgstr ""
+msgstr "<code>WingedShooter</code>"
 
 #. type: \b; header
 #: ../E/botfr.txt:1
 #, no-wrap
 msgid "<button 143/> Wheeled Shooter"
-msgstr ""
+msgstr "<button 143/> Canon sur roues"
 
 #. type: Image filename
 #: ../E/botfr.txt:2
 #, no-wrap
 msgid "botfr"
-msgstr ""
+msgstr "botfr"
 
 #. type: Plain text
 #: ../E/botfr.txt:3
 #, no-wrap
 msgid "Wheeled bot equipped with a fireball cannon."
-msgstr ""
+msgstr "Robot sur roues équipé d'un canon à boules de feu"
 
 #. type: Plain text
 #: ../E/botfr.txt:9 ../E/botgr.txt:20
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botfj>winged shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked shooter</a>."
-msgstr ""
+msgstr "Les roues constituent un moyen standard, rapide et économe de propulsion, parfaitement adapté à un terrain relativement plat. Lorsque le terrain devient plus accidenté, il est plus adéquat d'utiliser un <a object|botfj>canon volant</a> où, si ça n'est pas possible, un <a object|botfc>canon à chenilles</a>."
 
 #. type: Plain text
 #: ../E/botfr.txt:17
 #, no-wrap
 msgid "<code>WheeledShooter</code>"
-msgstr ""
+msgstr "<code>WheeledShooter</code>"
 
 #. type: \b; header
 #: ../E/botfs.txt:1
 #, no-wrap
 msgid "<button 151/> Legged Shooter"
-msgstr ""
+msgstr "<button 151/> Canon sur pattes"
 
 #. type: Image filename
 #: ../E/botfs.txt:2
 #, no-wrap
 msgid "botfs"
-msgstr ""
+msgstr "botfs"
 
 #. type: Plain text
 #: ../E/botfs.txt:3
@@ -194,7 +193,7 @@ msgstr ""
 #: ../E/botfs.txt:17
 #, no-wrap
 msgid "<code>LeggedShooter</code>"
-msgstr ""
+msgstr "<code>LeggedShooter</code>"
 
 #. type: \b; header
 #: ../E/botgc.txt:1
@@ -206,7 +205,7 @@ msgstr ""
 #: ../E/botgc.txt:2
 #, no-wrap
 msgid "botgc"
-msgstr ""
+msgstr "botgc"
 
 #. type: Plain text
 #: ../E/botgc.txt:3
@@ -300,7 +299,7 @@ msgstr ""
 #: ../E/botgc.txt:30
 #, no-wrap
 msgid "<code>TrackedGrabber</code>"
-msgstr ""
+msgstr "<code>TrackedGrabber</code>"
 
 #. type: \b; header
 #: ../E/botgj.txt:1
@@ -312,7 +311,7 @@ msgstr ""
 #: ../E/botgj.txt:2
 #, no-wrap
 msgid "botgj"
-msgstr ""
+msgstr "botgj"
 
 #. type: Plain text
 #: ../E/botgj.txt:3
@@ -330,7 +329,7 @@ msgstr ""
 #: ../E/botgj.txt:32
 #, no-wrap
 msgid "<code>WingedGrabber</code>"
-msgstr ""
+msgstr "<code>WingedGrabber</code>"
 
 #. type: \b; header
 #: ../E/botgr.txt:1
@@ -342,7 +341,7 @@ msgstr ""
 #: ../E/botgr.txt:2
 #, no-wrap
 msgid "botgr"
-msgstr ""
+msgstr "botgr"
 
 #. type: Plain text
 #: ../E/botgr.txt:3
@@ -360,7 +359,7 @@ msgstr ""
 #: ../E/botgr.txt:30
 #, no-wrap
 msgid "<code>WheeledGrabber</code>"
-msgstr ""
+msgstr "<code>WheeledGrabber</code>"
 
 #. type: \b; header
 #: ../E/botgs.txt:1
@@ -372,7 +371,7 @@ msgstr ""
 #: ../E/botgs.txt:2
 #, no-wrap
 msgid "botgs"
-msgstr ""
+msgstr "botgs"
 
 #. type: Plain text
 #: ../E/botgs.txt:3
@@ -390,7 +389,7 @@ msgstr ""
 #: ../E/botgs.txt:30
 #, no-wrap
 msgid "<code>LeggedGrabber</code>"
-msgstr ""
+msgstr "<code>LeggedGrabber</code>"
 
 #. type: \b; header
 #: ../E/botoc.txt:1
@@ -402,7 +401,7 @@ msgstr ""
 #: ../E/botoc.txt:2
 #, no-wrap
 msgid "botoc"
-msgstr ""
+msgstr "botoc"
 
 #. type: Plain text
 #: ../E/botoc.txt:3
@@ -432,7 +431,7 @@ msgstr ""
 #: ../E/botoc.txt:15
 #, no-wrap
 msgid "<code>TrackedOrgaShooter</code>"
-msgstr ""
+msgstr "<code>TrackedOrgaShooter</code>"
 
 #. type: \b; header
 #: ../E/botoj.txt:1
@@ -444,7 +443,7 @@ msgstr ""
 #: ../E/botoj.txt:2
 #, no-wrap
 msgid "botoj"
-msgstr ""
+msgstr "botoj"
 
 #. type: Plain text
 #: ../E/botoj.txt:3
@@ -468,7 +467,7 @@ msgstr ""
 #: ../E/botoj.txt:17
 #, no-wrap
 msgid "<code>WingedOrgaShooter</code>"
-msgstr ""
+msgstr "<code>WingedOrgaShooter</code>"
 
 #. type: \b; header
 #: ../E/botor.txt:1
@@ -480,7 +479,7 @@ msgstr ""
 #: ../E/botor.txt:2
 #, no-wrap
 msgid "botor"
-msgstr ""
+msgstr "botor"
 
 #. type: Plain text
 #: ../E/botor.txt:3
@@ -504,7 +503,7 @@ msgstr ""
 #: ../E/botor.txt:15
 #, no-wrap
 msgid "<code>WheeledOrgaShooter</code>"
-msgstr ""
+msgstr "<code>WheeledOrgaShooter</code>"
 
 #. type: \b; header
 #: ../E/botos.txt:1
@@ -516,7 +515,7 @@ msgstr ""
 #: ../E/botos.txt:2
 #, no-wrap
 msgid "botos"
-msgstr ""
+msgstr "botos"
 
 #. type: Plain text
 #: ../E/botos.txt:3
@@ -540,7 +539,7 @@ msgstr ""
 #: ../E/botos.txt:15
 #, no-wrap
 msgid "<code>LeggedOrgaShooter</code>"
-msgstr ""
+msgstr "<code>LeggedOrgaShooter</code>"
 
 #. type: \b; header
 #: ../E/botphaz.txt:1
@@ -552,7 +551,7 @@ msgstr ""
 #: ../E/botphaz.txt:2
 #, no-wrap
 msgid "botphaz"
-msgstr ""
+msgstr "botphaz"
 
 #. type: Plain text
 #: ../E/botphaz.txt:3
@@ -570,7 +569,7 @@ msgstr ""
 #: ../E/botphaz.txt:11
 #, no-wrap
 msgid "<code>PhazerShooter</code>"
-msgstr ""
+msgstr "<code>PhazerShooter</code>"
 
 #. type: \b; header
 #: ../E/botrecy.txt:1
@@ -600,7 +599,7 @@ msgstr ""
 #: ../E/botrecy.txt:11
 #, no-wrap
 msgid "<code>RecyclerBot</code>"
-msgstr ""
+msgstr "<code>RecyclerBot</code>"
 
 #. type: \b; header
 #: ../E/botsc.txt:1
@@ -654,7 +653,7 @@ msgstr ""
 #: ../E/botsc.txt:17
 #, no-wrap
 msgid "<code>TrackedSniffer</code>"
-msgstr ""
+msgstr "<code>TrackedSniffer</code>"
 
 #. type: \b; header
 #: ../E/botshld.txt:1
@@ -666,7 +665,7 @@ msgstr ""
 #: ../E/botshld.txt:2
 #, no-wrap
 msgid "botshld"
-msgstr ""
+msgstr "botshld"
 
 #. type: Plain text
 #: ../E/botshld.txt:3
@@ -696,7 +695,7 @@ msgstr ""
 #: ../E/botshld.txt:15
 #, no-wrap
 msgid "<code>Shielder</code>"
-msgstr ""
+msgstr "<code>Shielder</code>"
 
 #. type: \b; header
 #: ../E/botsj.txt:1
@@ -708,7 +707,7 @@ msgstr ""
 #: ../E/botsj.txt:2
 #, no-wrap
 msgid "botsj"
-msgstr ""
+msgstr "botsj"
 
 #. type: Plain text
 #: ../E/botsj.txt:3
@@ -732,7 +731,7 @@ msgstr ""
 #: ../E/botsj.txt:19
 #, no-wrap
 msgid "<code>WingedSniffer</code>"
-msgstr ""
+msgstr "<code>WingedSniffer</code>"
 
 #. type: \b; header
 #: ../E/botsr.txt:1
@@ -744,7 +743,7 @@ msgstr ""
 #: ../E/botsr.txt:2
 #, no-wrap
 msgid "botsr"
-msgstr ""
+msgstr "botsr"
 
 #. type: Plain text
 #: ../E/botsr.txt:3
@@ -762,7 +761,7 @@ msgstr ""
 #: ../E/botsr.txt:17
 #, no-wrap
 msgid "<code>WheeledSniffer</code>"
-msgstr ""
+msgstr "<code>WheeledSniffer</code>"
 
 #. type: \b; header
 #: ../E/botss.txt:1
@@ -774,7 +773,7 @@ msgstr ""
 #: ../E/botss.txt:2
 #, no-wrap
 msgid "botss"
-msgstr ""
+msgstr "botss"
 
 #. type: Plain text
 #: ../E/botss.txt:3
@@ -792,7 +791,7 @@ msgstr ""
 #: ../E/botss.txt:17
 #, no-wrap
 msgid "<code>LeggedSniffer</code>"
-msgstr ""
+msgstr "<code>LeggedSniffer</code>"
 
 #. type: \b; header
 #: ../E/botsub.txt:1
@@ -804,7 +803,7 @@ msgstr ""
 #: ../E/botsub.txt:2
 #, no-wrap
 msgid "botsub"
-msgstr ""
+msgstr "botsub"
 
 #. type: Plain text
 #: ../E/botsub.txt:3
@@ -828,7 +827,7 @@ msgstr ""
 #: ../E/botsub.txt:13
 #, no-wrap
 msgid "<code>Subber</code>"
-msgstr ""
+msgstr "<code>Subber</code>"
 
 #. type: \b; header
 #: ../E/bottarg.txt:1
@@ -840,7 +839,7 @@ msgstr ""
 #: ../E/bottarg.txt:2
 #, no-wrap
 msgid "bottarg"
-msgstr ""
+msgstr "bottarg"
 
 #. type: Plain text
 #: ../E/bottarg.txt:3
@@ -858,7 +857,7 @@ msgstr ""
 #: ../E/bottarg.txt:8
 #, no-wrap
 msgid "<code>TargetBot</code>"
-msgstr ""
+msgstr "<code>TargetBot</code>"
 
 #. type: \b; header
 #: ../E/bottr.txt:1
@@ -870,7 +869,7 @@ msgstr ""
 #: ../E/bottr.txt:2
 #, no-wrap
 msgid "bottr"
-msgstr ""
+msgstr "bottr"
 
 #. type: Plain text
 #: ../E/bottr.txt:3
@@ -882,7 +881,7 @@ msgstr ""
 #: ../E/bottr.txt:5 ../E/bottump.txt:9
 #, no-wrap
 msgid "Instructions"
-msgstr ""
+msgstr "Instructions"
 
 #. type: Plain text
 #: ../E/bottr.txt:6
@@ -894,7 +893,7 @@ msgstr ""
 #: ../E/bottr.txt:9
 #, no-wrap
 msgid "<code>PracticeBot</code>"
-msgstr ""
+msgstr "<code>PracticeBot</code>"
 
 #. type: \b; header
 #: ../E/bottump.txt:1
@@ -906,7 +905,7 @@ msgstr ""
 #: ../E/bottump.txt:2
 #, no-wrap
 msgid "bottump"
-msgstr ""
+msgstr "bottump"
 
 #. type: Plain text
 #: ../E/bottump.txt:3
@@ -936,10 +935,10 @@ msgstr ""
 #: ../E/bottump.txt:15
 #, no-wrap
 msgid "<code>Thumper</code>"
-msgstr ""
+msgstr "<code>Thumper</code>"
 
 #. type: Plain text
 #: ../E/botdraw.txt:1
 #, no-wrap
 msgid "TODO"
-msgstr ""
+msgstr "À FAIRE"
