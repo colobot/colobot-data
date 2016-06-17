@@ -107,52 +107,6 @@ msgid "<a command>Controls</a>"
 msgstr "<a command>Управление</a>"
 
 #. type: \b; header
-#: ../help/prog.E.txt:1
-#, no-wrap
-msgid "Programs dispatched by Houston"
-msgstr "Программы, отправленные Хьюстоном"
-
-#. type: Plain text
-#: ../help/prog.E.txt:2
-#, no-wrap
-msgid "Following is a program that has been developed by our engineers. It allows you to switch <a object|power>power cells</a>. A charged cell needs to be placed on the ground in front of the bot."
-msgstr "Ниже приведен текст программы, написанной нашими инженерами. Она позволяет вам переключать <a object|power>энергетические батарейки</a>. Заряженные батарейки необходимо разместить на земле около бота."
-
-#. type: Plain text
-#: ../help/prog.E.txt:4
-#, no-wrap
-msgid "In order to execute this program, select the program <code>SwitchCell1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>."
-msgstr "Чтобы запустить программу, выберите программу <code>SwitchCell1</code> из списка программ, доступных для бота (в левом нижнем углу экрана), и щелкните на стрелке <button 21/>"
-
-#. type: Source code
-#: ../help/prog.E.txt:6
-#, no-wrap
-msgid ""
-"extern void object::SwitchCell1()\n"
-"{\n"
-"\t<a cbot|grab>grab</a>(InFront);     // take the new cell in front\n"
-"\t<a cbot|drop>drop</a>(Behind);      // and drop it behind\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(EnergyCell);  // take the cell from the bot\n"
-"\t<a cbot|drop>drop</a>(InFront);     // and drop it in front\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(Behind);      // take the new cell\n"
-"\t<a cbot|drop>drop</a>(EnergyCell);  // and drop it on the bot\n"
-"}"
-msgstr ""
-"extern void object::SwitchCell1()\n"
-"{\n"
-"\t<a cbot|grab>grab</a>(InFront);     // взять новыю батарейку\n"
-"\t<a cbot|drop>drop</a>(Behind);      // бросить ее за собой\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(EnergyCell);  // взять у бота батарейку\n"
-"\t<a cbot|drop>drop</a>(InFront);     // сбросить ее перед собой\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(Behind);      // взять новую батарейку\n"
-"\t<a cbot|drop>drop</a>(EnergyCell);  // установить ее в боте\n"
-"}"
-
-#. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
