@@ -182,8 +182,8 @@ DoneResearch type=iPAW
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=WingedOrgaShooter lost=0
-EndMissionTake pos=160.00;-260.00 type=WingedOrgaShooter min=1
-EndMissionTake pos=160.00;-260.00 type=Me min=1
+EndMissionTake pos=160.00;-260.00 dist=8.0 type=WingedOrgaShooter min=1
+EndMissionTake pos=160.00;-260.00 dist=8.0 type=Me min=1
 EndMissionTake pos=0.00;0.00 dist=1000.00 type=AlienAnt min=0 max=0
 
 Camera eye=160.00;5.00;-363.25 lookat=160.00;1.00;-263.25 delay=0

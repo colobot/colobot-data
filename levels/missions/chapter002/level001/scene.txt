@@ -74,9 +74,9 @@ EnableResearch type=WINGER
 DoneResearch type=TRACKER
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
-EndMissionTake pos=12.50;-75.00 type=TitaniumOre min=4
-EndMissionTake pos=12.50;-75.00 type=WheeledGrabber min=1
-EndMissionTake pos=12.50;-75.00 type=WingedGrabber min=1 immediat=1
+EndMissionTake pos=12.50;-75.00 dist=8.0 type=TitaniumOre min=4
+EndMissionTake pos=12.50;-75.00 dist=8.0 type=WheeledGrabber min=1
+EndMissionTake pos=12.50;-75.00 dist=8.0 type=WingedGrabber min=1 immediat=1
 EndMissionDelay win=1 lost=1
 
 Camera eye=12.50;20.0;-120.00 lookat=12.50;1.00;-78.25 delay=0
