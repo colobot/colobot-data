@@ -61,7 +61,7 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "The question is just how many meters the bot must move. The instruction <code><a cbot|dist>distance</a>( , )</code> calculates the distance between two positions. In this case, we need to know the distance between the bot and the target. The position of the target is given by <code>item.position</code>, the position of the bot is give by <code>position</code>. The distance between the bot and the target is given by <code><a cbot|dist>distance</a>(position, item.position)</code>. The range of a fireball cannon is 40 meters. In order to get close enough, the bot must move forward <code><a cbot|dist>distance</a>(position, item.position)-40</code> meters. The following line will do this:"
+msgid "The question is just how many meters the bot must move. The instruction <code><a cbot|dist>distance</a>( , )</code> calculates the distance between two positions. In this case, we need to know the distance between the bot and the target. The position of the target is given by <code>item.position</code>, the position of the bot is given by <code>position</code>. The distance between the bot and the target is given by <code><a cbot|dist>distance</a>(position, item.position)</code>. The range of a fireball cannon is 40 meters. In order to get close enough, the bot must move forward <code><a cbot|dist>distance</a>(position, item.position)-40</code> meters. The following line will do this:"
 msgstr ""
 
 #. type: Source code
