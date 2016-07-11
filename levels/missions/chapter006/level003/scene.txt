@@ -2,7 +2,7 @@ Title.E text="Mountain Warfare"
 Resume.E text="Use legged bots to fight on broken terrain."
 Instructions name="%lvl%/help/help.%lng%.txt"
 Satellite name="%lvl%/help/report.%lng%.txt"
-Loading name="%lvl%/help/prog.%lng%.txt"
+Loading name="programs/8_ServiceTower1_link.txt"
 SoluceFile name="%lvl%/help/soluce.%lng%.txt"
 HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
@@ -131,7 +131,7 @@ DoneResearch type=ATOMIC
 DoneResearch type=iPAW
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
-EndMissionTake pos=37.50;-95.00 type=BlackBox min=1
+EndMissionTake pos=37.50;-95.00 dist=8.0 type=BlackBox min=1
 //EndMissionTake pos=0.00;0.00 dist=1000.00 type=AlienAnt min=0 max=0
 
 Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0

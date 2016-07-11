@@ -107,52 +107,6 @@ msgid "<a command>Controls</a>"
 msgstr "Die <a command>Steuerung</a>"
 
 #. type: \b; header
-#: ../help/prog.E.txt:1
-#, no-wrap
-msgid "Programs dispatched by Houston"
-msgstr "Von Houston übermittelte Programme"
-
-#. type: Plain text
-#: ../help/prog.E.txt:2
-#, no-wrap
-msgid "Following is a program that has been developed by our engineers. It allows you to switch <a object|power>power cells</a>. A charged cell needs to be placed on the ground in front of the bot."
-msgstr "Es folgt ein Programm, das von unseren Ingenieuren entwickelt wurde. Damit wechselt der Roboter selbständig seine <a object|power>Batterie</a> gegen eine vor ihm am Boden stehende aus."
-
-#. type: Plain text
-#: ../help/prog.E.txt:4
-#, no-wrap
-msgid "In order to execute this program, select the program <code>SwitchCell1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>."
-msgstr "Um dieses Programm auszuführen, wählen Sie das Programm <code>SwitchCell1</code> in der Liste der Programme die für den Roboter verfügbar sind (in der Ecke links unten auf Ihrem Bildschirm). Klicken Sie dann auf das Pfeil-Symbol <button 21/>."
-
-#. type: Source code
-#: ../help/prog.E.txt:6
-#, no-wrap
-msgid ""
-"extern void object::SwitchCell1()\n"
-"{\n"
-"\t<a cbot|grab>grab</a>(InFront);     // take the new cell in front\n"
-"\t<a cbot|drop>drop</a>(Behind);      // and drop it behind\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(EnergyCell);  // take the cell from the bot\n"
-"\t<a cbot|drop>drop</a>(InFront);     // and drop it in front\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(Behind);      // take the new cell\n"
-"\t<a cbot|drop>drop</a>(EnergyCell);  // and drop it on the bot\n"
-"}"
-msgstr ""
-"extern void object::SwitchCell1()\n"
-"{\n"
-"\t<a cbot|grab>grab</a>(InFront);     // nimm die neue Batterie von vorn\n"
-"\t<a cbot|drop>drop</a>(Behind);      // und stelle sie hinten ab\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(EnergyCell);  // nimm die Batterie vom Roboter\n"
-"\t<a cbot|drop>drop</a>(InFront);     // und stelle sie vorn ab\n"
-"\t\n"
-"\t<a cbot|grab>grab</a>(Behind);      // nimm die neue Batterie\n"
-"\t<a cbot|drop>drop</a>(EnergyCell);  // und stelle sie auf den Roboter\n"
-"}"
-
-#. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"

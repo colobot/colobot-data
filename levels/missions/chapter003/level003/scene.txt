@@ -2,12 +2,12 @@ Title.E text="On the Offensive"
 Resume.E text="Develop an offensive weapons system and confront the giant ants."
 Instructions name="%lvl%/help/help.%lng%.txt"
 Satellite name="%lvl%/help/report.%lng%.txt"
-Loading name="%lvl%/help/prog.%lng%.txt"
+Loading name="programs/3_Recharge2.txt"
 SoluceFile name="%lvl%/help/soluce.%lng%.txt"
 HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
 
-AudioChange filename="Constructive.ogg" type=WingedShooter powermin=0.8 repeat=0
+AudioChange pos=0.00;0.00 dist=25000.00 tool=Shooter powermin=0.8 filename="Constructive.ogg" repeat=0
 
 #Include file="%chap%/planet.txt"
 TerrainRelief image="relief17.png" factor=1.0
