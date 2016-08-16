@@ -1,0 +1,741 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: \b; header
+#: ../E/1_SwitchCell.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Von Houston übermittelte Programme"
+
+#. type: Plain text
+#: ../E/1_SwitchCell1.txt:2
+#, no-wrap
+msgid "Following is a program that has been developed by our engineers. It allows you to switch <a object|power>power cells</a>. A charged cell needs to be placed on the ground in front of the bot."
+msgstr "Es folgt ein Programm, das von unseren Ingenieuren entwickelt wurde. Damit wechselt der Roboter selbständig seine <a object|power>Batterie</a> gegen eine vor ihm am Boden stehende aus."
+
+#. type: Plain text
+#: ../E/1_SwitchCell1.txt:4
+#, no-wrap
+msgid "In order to execute this program, select the program <code>SwitchCell1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>."
+msgstr "Um dieses Programm auszuführen, wählen Sie das Programm <code>SwitchCell1</code> in der Liste der Programme die für den Roboter verfügbar sind (in der Ecke links unten auf Ihrem Bildschirm). Klicken Sie dann auf das Pfeil-Symbol <button 21/>."
+
+#. type: Source code
+#: ../E/1_SwitchCell1.txt:6
+#, no-wrap
+msgid ""
+"extern void object::SwitchCell1()\n"
+"{\n"
+"\t<a cbot|grab>grab</a>(InFront);     // take the new cell in front\n"
+"\t<a cbot|drop>drop</a>(Behind);      // and drop it behind\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(EnergyCell);  // take the cell from the bot\n"
+"\t<a cbot|drop>drop</a>(InFront);     // and drop it in front\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(Behind);      // take the new cell\n"
+"\t<a cbot|drop>drop</a>(EnergyCell);  // and drop it on the bot\n"
+"}"
+msgstr ""
+"extern void object::SwitchCell1()\n"
+"{\n"
+"\t<a cbot|grab>grab</a>(InFront);     // nimm die neue Batterie von vorn\n"
+"\t<a cbot|drop>drop</a>(Behind);      // und stelle sie hinten ab\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(EnergyCell);  // nimm die Batterie vom Roboter\n"
+"\t<a cbot|drop>drop</a>(InFront);     // und stelle sie vorn ab\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(Behind);      // nimm die neue Batterie\n"
+"\t<a cbot|drop>drop</a>(EnergyCell);  // und stelle sie auf den Roboter\n"
+"}"
+
+#. type: \b; header
+#: ../E/10_FollowPhazer.txt:1 ../E/1_SwitchCell1.txt:1 ../E/1_SwitchCell1_link.txt:1 ../E/2_Recharge1.txt:1 ../E/2_Recharge1_link.txt:1 ../E/3_Recharge2.txt:1 ../E/3_Recharge2_link.txt:1 ../E/4_CollectTitanium1.txt:1 ../E/5_CollectTitanium2.txt:1 ../E/5_CollectTitanium2_link.txt:1 ../E/6_KillAnt1.txt:1 ../E/6_KillAnt1_link.txt:1 ../E/7_CollectTitanium3.txt:1 ../E/8_ServiceTower1.txt:1 ../E/8_ServiceTower1_link.txt:1 ../E/9_terranova.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Von Houston übermittelte Programme"
+
+#. type: Plain text
+#: ../E/1_SwitchCell1_link.txt:2 ../E/2_Recharge1_link.txt:2 ../E/3_Recharge2_link.txt:2 ../E/5_CollectTitanium2_link.txt:2 ../E/6_KillAnt1_link.txt:2 ../E/8_ServiceTower1_link.txt:2
+#, no-wrap
+msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
+msgstr "Wir haben für diese Mission kein spezielles Programm entwickelt. Allerdings können Sie Ihre eigenen Programme schreiben, falls Sie glauben, es wäre sinnvoll."
+
+#. type: \b; header
+#: ../E/10_FollowPhazer.txt:40 ../E/1_SwitchCell1_link.txt:4 ../E/2_Recharge1.txt:20 ../E/2_Recharge1_link.txt:4 ../E/3_Recharge2.txt:23 ../E/3_Recharge2_link.txt:4 ../E/4_CollectTitanium1.txt:24 ../E/5_CollectTitanium2.txt:32 ../E/5_CollectTitanium2_link.txt:4 ../E/6_KillAnt1.txt:23 ../E/6_KillAnt1_link.txt:4 ../E/7_CollectTitanium3.txt:53 ../E/8_ServiceTower1.txt:43 ../E/8_ServiceTower1_link.txt:4 ../E/9_terranova.txt:20
+#, no-wrap
+msgid "Archives"
+msgstr "Archiv"
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:41 ../E/1_SwitchCell1_link.txt:5 ../E/2_Recharge1.txt:21 ../E/2_Recharge1_link.txt:5 ../E/3_Recharge2.txt:24 ../E/3_Recharge2_link.txt:5 ../E/4_CollectTitanium1.txt:25 ../E/5_CollectTitanium2.txt:33 ../E/5_CollectTitanium2_link.txt:5 ../E/6_KillAnt1.txt:24 ../E/6_KillAnt1_link.txt:5 ../E/7_CollectTitanium3.txt:54 ../E/8_ServiceTower1.txt:44 ../E/8_ServiceTower1_link.txt:5 ../E/9_terranova.txt:21
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr "Index der Programme, die in vorhergehenden Missionen gesendet wurden:"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:50 ../E/1_SwitchCell1_link.txt:7 ../E/2_Recharge1.txt:23 ../E/2_Recharge1_link.txt:8 ../E/3_Recharge2.txt:26 ../E/3_Recharge2_link.txt:9 ../E/4_CollectTitanium1.txt:29 ../E/5_CollectTitanium2.txt:38 ../E/5_CollectTitanium2_link.txt:11 ../E/6_KillAnt1.txt:30 ../E/6_KillAnt1_link.txt:12 ../E/7_CollectTitanium3.txt:61 ../E/8_ServiceTower1.txt:52 ../E/8_ServiceTower1_link.txt:14 ../E/9_terranova.txt:30
+#, no-wrap
+msgid "<code><a programs/1_SwitchCell1>SwitchCell1</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/2_Recharge1.txt:2
+#, no-wrap
+msgid "Below is a program that has been developed by our engineers. It allows you to recharge the <a object|power>power cell</a> of a bot: it goes to the closest <a object|station>power station</a>, waits 5 seconds, and comes back to the initial position."
+msgstr "Unten sehen Sie ein Programm, das von unseren Ingenieuren entwickelt wurde. Es erlaubt Ihnen, die <a object|power>Batterie</a> eines Roboters aufzuladen: er geht zum nächsten <a object|station>Kraftwerk</a>, wartet 5 Sekunden und kommt zu seiner Ausgangsposition zurück."
+
+#. type: Plain text
+#: ../E/2_Recharge1.txt:4
+#, no-wrap
+msgid "Remark: If you click on an element of the program underlined in blue, your SatCom will display a text that explains this element. The texts that follow a double slash <code>//</code> are not part of the program, but are comments that help you to understand the program."
+msgstr "Bemerkung: Wenn Sie auf ein blau unterstrichenes Element im Programm klicken, wird Ihr SatCom einen Text anzeigen, der das Element erklärt. Die Zeilen nach einem doppelten Schrägstrich <code>//</code> sind nicht Teil des Programms, es sind Kommentare die Ihnen helfen sollen das Programm zu verstehen."
+
+#. type: Source code
+#: ../E/2_Recharge1.txt:6
+#, no-wrap
+msgid ""
+"extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
+"\t<a cbot|type>object</a> item;           // info. about power station\n"
+"\t\n"
+"\tstart = position;      // store initial position\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
+"\t<a cbot|wait>wait</a>(5);               // wait 5 seconds\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
+"}"
+msgstr ""
+"extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;        // Variable für Ausgangsposition\n"
+"\t<a cbot|type>object</a> item;         // Info über Kraftwerk\n"
+"\t\n"
+"\tstart = position;    // speichere Ausgangsposition\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);// orte das Kraftwerk\n"
+"\t<a cbot|goto>goto</a>(item.position); // gehe zum Kraftwerk\n"
+"\t<a cbot|wait>wait</a>(5);             // warte 5 Sekunden\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);         // zurück zur Ausgangsposition\n"
+"}"
+
+#. type: Plain text
+#: ../E/3_Recharge2.txt:2
+#, no-wrap
+msgid "We have improved the recharge program. When it arrives at the <a object|station>power station</a>, the bot does not wait exactly 5 seconds, but only until the <a object|power>power cell</a> is fully charged. After the bot is back at the initial position, it displays a message on the screen."
+msgstr "Wir haben das Aufladeprogramm verbessert. Wenn er am <a object|station>Kraftwerk</a> ankommt, wartet der Roboter nicht genau 5 Sekunden, sondern nur so lange, bis sich die <a object|power>Batterie</a> vollständig aufgeladen hat. Wenn der Roboter an seiner Ausgangposition angekommen ist, gibt er eine Nachricht auf dem Bildschirm aus."
+
+#. type: Source code
+#: ../E/3_Recharge2.txt:4
+#, no-wrap
+msgid ""
+"extern void object::Recharge2()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
+"\t<a cbot|type>object</a> item;           // info. about power station\n"
+"\t\n"
+"\tstart = position;      // store initial position\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
+"\t{\n"
+"\t\t<a cbot|wait>wait</a>(1);           // wait until recharged\n"
+"\t}\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
+"\t<a cbot|message>message</a>(\"Recharge completed\");\n"
+"}"
+msgstr ""
+"extern void object::Recharge2()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // Variable für Ausgangspos.\n"
+"\t<a cbot|type>object</a> item;           // Info über Kraftwerk\n"
+"\t\n"
+"\tstart = position;      // speichere Ausgangsposition\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // orte Kraftwerk\n"
+"\t<a cbot|goto>goto</a>(item.position);   // gehe zum Kraftwerk\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
+"\t{\n"
+"\t\t<a cbot|wait>wait</a>(1);           // warte bis voll geladen\n"
+"\t}\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // zurück zur Ausgangsposition\n"
+"\t<a cbot|message>message</a>(\"Aufladen beendet.\"); //Meldung\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:49 ../E/2_Recharge1_link.txt:7 ../E/3_Recharge2.txt:27 ../E/3_Recharge2_link.txt:8 ../E/4_CollectTitanium1.txt:28 ../E/5_CollectTitanium2.txt:37 ../E/5_CollectTitanium2_link.txt:10 ../E/6_KillAnt1.txt:29 ../E/6_KillAnt1_link.txt:11 ../E/7_CollectTitanium3.txt:60 ../E/8_ServiceTower1.txt:51 ../E/8_ServiceTower1_link.txt:13 ../E/9_terranova.txt:29
+#, no-wrap
+msgid "<code><a programs/2_Recharge1>Recharge1</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:48 ../E/3_Recharge2_link.txt:7 ../E/4_CollectTitanium1.txt:27 ../E/5_CollectTitanium2.txt:36 ../E/5_CollectTitanium2_link.txt:9 ../E/6_KillAnt1.txt:28 ../E/6_KillAnt1_link.txt:10 ../E/7_CollectTitanium3.txt:59 ../E/8_ServiceTower1.txt:50 ../E/8_ServiceTower1_link.txt:12 ../E/9_terranova.txt:28
+#, no-wrap
+msgid "<code><a programs/3_Recharge2>Recharge2</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/4_CollectTitanium1.txt:2
+#, no-wrap
+msgid ""
+"Below is one of the programs that has been developed by our engineers.\n"
+"It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of <a object|titanore>titanium ore</a> and place it on the <a object|convert>converter</a>."
+msgstr "Unten sehen Sie eines der Programme, die von unseren Ingenieuren entwickelt wurden.\\Es instruiert einen <a object|botgr>Transporter</a> die nächste Einheit <a object|titanore>Titanerz</a> zu holen und sie auf dem <a object|convert>Titankonverter</a> zu platzieren."
+
+#. type: Plain text
+#: ../E/4_CollectTitanium1.txt:5
+#, no-wrap
+msgid "In order to execute this program, select the program <code>CollectTitanium1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>. At any moment you can stop the program and take over at the controls with the stop button <button 8/>."
+msgstr "Um dieses Programm auszuführen, wählen Sie das Programm <code>CollectTitanium1</code> in der Liste der Programme die für den Roboter verfügbar sind (in der Ecke links unten auf Ihrem Bildschirm). Klicken Sie dann auf das Pfeil-Symbol <button 21/>. Sie können das Programm jederzeit stoppen um selbst die Kontrolle  zu übernehmen. Drücken Sie dazu auf die Stop-Schaltfläche <button 8/>."
+
+#. type: Source code
+#: ../E/4_CollectTitanium1.txt:7
+#, no-wrap
+msgid ""
+"extern void object::CollectTitanium1()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t// 2) Go to the titanium ore and grab it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\n"
+"\t// 3) Go to the converter and drop it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"}"
+msgstr ""
+"extern void object::CollectTitanium1()\n"
+"{\n"
+"\t// 1) Variablen deklarieren.\n"
+"\t<a cbot|type>object</a>  item;            // Info über Objekte\n"
+"\t\n"
+"\t// 2) Gehe zum Titanerz und greife es.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// suche nach Titanerz\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dessen Position\n"
+"\t<a cbot|grab>grab</a>();                  // greife das Titanerz\n"
+"\t\n"
+"\t// 3) Gehe zum Titankonverter und lege es ab.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // orte den Konverter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dieser Position\n"
+"\t<a cbot|drop>drop</a>();                  // lege das Titanerz ab\n"
+"\t<a cbot|move>move</a>(-2.5);              // gehe 2.5m zurück\n"
+"}"
+
+#. type: Plain text
+#: ../E/5_CollectTitanium2.txt:2
+#, no-wrap
+msgid ""
+"Below is one of the programs that has been developed by our engineers.\n"
+"An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
+msgstr ""
+"Unten sehen Sie eines der Programme, die von unseren Ingenieuren entwickelt wurden.\n"
+"Eine verbesserte Version des letzten Programms: der <a object|botgr>Transporter</a> macht auf dem Rückweg vom Konverter, falls notwendig, einen Stopp beim <a object|station>Kraftwerk</a>, um seine Batterie aufzuladen."
+
+#. type: Plain text
+#: ../E/5_CollectTitanium2.txt:5
+#, no-wrap
+msgid "This program also works on <a object|botgj>winged grabbers</a>, if the <a object|derrick>derrick</a> is on another island than the <a object|convert>converter</a>."
+msgstr "Dieses Programm funktioniert auch mit <a object|botgj>Jettransportern</a>, falls sich der <a object|derrick>Bohrturm</a> auf einer anderen Insel als der <a object|convert>Titankonverter</a> befindet."
+
+#. type: Source code
+#: ../E/5_CollectTitanium2.txt:7
+#, no-wrap
+msgid ""
+"extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t// 2) Go to the titanium ore and grab it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\n"
+"\t// 3) Go to the converter and drop it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"\t\t\n"
+"\t// 4) If power cell half empty, recharges.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // if so:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // go there\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // wait\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Variablen deklarieren.\n"
+"\t<a cbot|type>object</a>  item;            // Info über Objekte\n"
+"\t\n"
+"\t// 2) Gehe zum Titanerz und greife es.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// suche nach Titanerz\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dessen Position\n"
+"\t<a cbot|grab>grab</a>();                  // greife das Titanerz\n"
+"\t\n"
+"\t// 3) Gehe zum Titankonverter und lege es ab.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // orte den Konverter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // gehe zu dieser Position\n"
+"\t<a cbot|drop>drop</a>();                  // lege das Titanerz ab\n"
+"\t<a cbot|move>move</a>(-2.5);              // gehe 2,5m zurück\n"
+"\t\t\n"
+"\t// 4) Ist die Batterie halb leer, dann aufladen.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // ist es so:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // suche Kraftwerk\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // gehe dort hin\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // warte\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:47 ../E/5_CollectTitanium2.txt:35 ../E/5_CollectTitanium2_link.txt:8 ../E/6_KillAnt1.txt:27 ../E/6_KillAnt1_link.txt:9 ../E/7_CollectTitanium3.txt:58 ../E/8_ServiceTower1.txt:49 ../E/8_ServiceTower1_link.txt:11 ../E/9_terranova.txt:27
+#, no-wrap
+msgid "<code><a programs/4_CollectTitanium1>CollectTitanium1</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:46 ../E/5_CollectTitanium2_link.txt:7 ../E/6_KillAnt1.txt:26 ../E/6_KillAnt1_link.txt:8 ../E/7_CollectTitanium3.txt:57 ../E/8_ServiceTower1.txt:48 ../E/8_ServiceTower1_link.txt:10 ../E/9_terranova.txt:26
+#, no-wrap
+msgid "<code><a programs/5_CollectTitanium2>CollectTitanium2</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/6_KillAnt1.txt:2
+#, no-wrap
+msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
+msgstr "Führen Sie umgehend das Programm <code>KillAnt1</code> auf Ihrem <a object|botfr>Radshooter</a> aus, es wird Ihre westliche Flanke schützen. In der Zwischenzeit können Sie Ihre Abwehrstrategie ausarbeiten."
+
+#. type: Source code
+#: ../E/6_KillAnt1.txt:4
+#, no-wrap
+msgid ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // info. about object\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // go west\n"
+"\t<a cbot|aim>aim</a>(0);                  // aim straight\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // repeat forever:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // ant detected ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // shoot 0.5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // wait 1 second\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // Info über Objekt\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // gehe nach Westen\n"
+"\t<a cbot|aim>aim</a>(0);                  // ziele geradeaus\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // wiederhole immer:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // Ameise geortet ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // schieße 0.5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // warte 1 Sekunde\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:45 ../E/6_KillAnt1_link.txt:7 ../E/7_CollectTitanium3.txt:56 ../E/8_ServiceTower1.txt:47 ../E/8_ServiceTower1_link.txt:9 ../E/9_terranova.txt:25
+#, no-wrap
+msgid "<code><a programs/6_KillAnt1>KillAnt1</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/7_CollectTitanium3.txt:2
+#, no-wrap
+msgid "As you will need lots of titanium for this mission, we have made the program <code>CollectTitanium</code> still more efficient. It gathers a whole series of titanium cubes on a free surface, so you can let it work on its own. It also recharges itself at the <a object|station>power station</a> if necessary."
+msgstr "Da Sie für diese Mission viel Titan benötigen, haben wir das Programm <code>CollectTitanium</code> noch effizienter gemacht. Es sammelt alles Titan auf freiem Gelände, sodass Sie es von allein arbeiten lassen können. Es lädt ausserdem selbständig die Batterie beim <a object|station>Kraftwerk</a> auf, wenn notwendig."
+
+#. type: Source code
+#: ../E/7_CollectTitanium3.txt:4
+#, no-wrap
+msgid ""
+"extern void object::CollectTitanium3()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)             // repeat forever\n"
+"\t{\n"
+"\t\t\n"
+"\t\t// 2) Go to the titanium ore and grab it.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\t\n"
+"\t\t// 3) Go to the converter and drop it.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"\t\t\n"
+"\t\t// 4) Wait until titanium converted and grab it\n"
+"\t\t<a cbot|do>do</a>\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);              // wait for cube\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
+"\t\t}\n"
+"\t\t<a cbot|while>while</a> ( item == null );\n"
+"\t\t<a cbot|goto>goto</a>(item.position);\n"
+"\t\t<a cbot|grab>grab</a>();                   // grab it\n"
+"\t\t\n"
+"\t\t// 5) Drop on a free space\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // go to free space\n"
+"\t\t<a cbot|drop>drop</a>();                   // drop titanium\n"
+"\t\t\n"
+"\t\t// 6) If power cell half empty, recharges.\n"
+"\t\t<a cbot|if>if</a> ( energyCell.energyLevel < 0.5 )\n"
+"\t\t{                         // if so:\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);\n"
+"\t\t\t<a cbot|if>if</a> ( item != null )   // station found ?\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|goto>goto</a>(item.position); // go there\n"
+"\t\t\t\t<a cbot|while>while</a> ( energyCell.energyLevel < 1 )\n"
+"\t\t\t\t{                 // until recharged:\n"
+"\t\t\t\t\t<a cbot|wait>wait</a>(1);      // wait\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::CollectTitanium3()\n"
+"{\n"
+"\t// 1) Variablen festlegen.\n"
+"\t<a cbot|type>object</a>  item;            // Info über Objekte\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)             // wiederhole immer wieder\n"
+"\t{\n"
+"\t\t\n"
+"\t\t// 2) Gehe zum Titanerz und nimm es.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// suche nach Titan\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // gehe zur Position\n"
+"\t\t<a cbot|grab>grab</a>();                  // greife das Titan\n"
+"\t\t\n"
+"\t\t// 3) Gehe zum Konverter und lege es ab.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // orte den Konverter\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // gehe zur Position\n"
+"\t\t<a cbot|drop>drop</a>();                  // lege das Titan ab\n"
+"\t\t<a cbot|move>move</a>(-2.5);              // gehe 2.5m zurück\n"
+"\t\t\n"
+"\t\t// 4) Warte auf das Titan und nimm es\n"
+"\t\t<a cbot|do>do</a>\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);              // warte auf den Würfel\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
+"\t\t}\n"
+"\t\t<a cbot|while>while</a> ( item == null );\n"
+"\t\t<a cbot|goto>goto</a>(item.position);\n"
+"\t\t<a cbot|grab>grab</a>();                   // nimm ihn\n"
+"\t\t\n"
+"\t\t// 5) Lege den Würfel auf einer freien Fläche ab\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // geh zu freier Fläche\n"
+"\t\t<a cbot|drop>drop</a>();                   // lege das Titan ab\n"
+"\t\t\n"
+"\t\t// 6) Ist die Batterie halb leer, lade sie auf.\n"
+"\t\t<a cbot|if>if</a> ( energyCell.energyLevel < 0.5 )\n"
+"\t\t{                         // wenn es so ist:\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);\n"
+"\t\t\t<a cbot|if>if</a> ( item != null )   // Kraftwerk gefunden ?\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|goto>goto</a>(item.position); // gehe dahin\n"
+"\t\t\t\t<a cbot|while>while</a> ( energyCell.energyLevel < 1 )\n"
+"\t\t\t\t{                 // bis voll geladen:\n"
+"\t\t\t\t\t<a cbot|wait>wait</a>(1);      // warte\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../E/8_ServiceTower1.txt:2
+#, no-wrap
+msgid "We have developed a program that takes care of recharging the power cell of a <a object|tower>defense tower</a>:"
+msgstr "Wir haben ein Programm entwickelt, was dafür sorgt, dass die Batterie eines <a object|tower>Geschützturmes</a> wieder aufgeladen wird:"
+
+#. type: Bullet: '1)'
+#: ../E/8_ServiceTower1.txt:4
+#, no-wrap
+msgid "Go to a <a object|tower>defense tower</a>."
+msgstr "Begib dich zu einem <a object|tower>Geschützturm</a>."
+
+#. type: Bullet: '2)'
+#: ../E/8_ServiceTower1.txt:5
+#, no-wrap
+msgid "Wait until the <a object|power>power cell</a> is 80% empty."
+msgstr "Warte bis die <a object|power>Batterie</a> zu 80% leer ist."
+
+#. type: Bullet: '3)'
+#: ../E/8_ServiceTower1.txt:6
+#, no-wrap
+msgid "Grab the <a object|power>power cell</a> and recharge it on a <a object|station>power station</a>."
+msgstr "Nimm die <a object|power>Batterie</a> und lade sie bei einem <a object|station>Kraftwerk</a> auf."
+
+#. type: Bullet: '4)'
+#: ../E/8_ServiceTower1.txt:7
+#, no-wrap
+msgid "Put it back on the <a object|tower>defense tower</a>."
+msgstr ""
+
+#. type: Plain text
+#: ../E/8_ServiceTower1.txt:9
+#, no-wrap
+msgid "Build the <a object|station>power station</a> as close as possible to the tower in order to reduce the time when the tower has got no power cell. A good trick is to place a power cell on the ground in front of the tower. The wasp will attack the power cell, and if the first shoot misses or a wasp arrives when the defense tower has got no energy, only the power cell is destroyed and not the defense tower."
+msgstr "Bauen Sie das <a object|station>Kraftwerk</a> so nah wie möglich an den Turm, um die Zeit zu reduzieren, in der der Turm keine Batterie hat. Ein guter Trick ist, eine Batterie auf den Boden vor dem Turm zu stellen. Eine Wespe wird die Batterie attackieren und wenn der erste Schuss daneben geht oder der Turm gerade keine Energie hat, wird nur die Batterie zerstört und nicht der Geschützturm."
+
+#. type: Source code
+#: ../E/8_ServiceTower1.txt:11
+#, no-wrap
+msgid ""
+"extern void object::ServiceTower1()\n"
+"{\n"
+"\t<a cbot|object>object</a>  tower;               // info. about tower\n"
+"\t<a cbot|object>object</a>  station;             // info. about station\n"
+"\t\n"
+"\t// 1) go to the defense tower\n"
+"\ttower = <a cbot|radar>radar</a>(DefenseTower); // look for tower\n"
+"\t<a cbot|goto>goto</a>(tower.position);        // go there\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // repeat forever\n"
+"\t{\n"
+"\t\t// 2) wait until power cell is empty\n"
+"\t\t<a cbot|while>while</a> ( tower.energyCell.energyLevel > 0.2 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(2);\n"
+"\t\t}\n"
+"\t\t<a cbot|grab>grab</a>();                  // grab the power cell\n"
+"\t\t\n"
+"\t\t// 3) go to the power station to recharge\n"
+"\t\tstation = <a cbot|radar>radar</a>(PowerStation);\n"
+"\t\t<a cbot|goto>goto</a>(station.position);  // go there\n"
+"\t\t<a cbot|while>while</a> ( load.energyLevel < 1 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // wait until recharged\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// 4) go back to defense tower\n"
+"\t\t<a cbot|goto>goto</a>(tower.position);    // go to tower\n"
+"\t\t<a cbot|drop>drop</a>();                  // drop the power cell\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::ServiceTower1()\n"
+"{\n"
+"\t<a cbot|object>object</a>  tower;              // Info über Geschützturm\n"
+"\t<a cbot|object>object</a>  station;            // Info über Kraftwerk\n"
+"\t\n"
+"\t// 1) gehe zu einem Geschützturm\n"
+"\ttower = <a cbot|radar>radar</a>(DefenseTower);// suche einen Turm\n"
+"\t<a cbot|goto>goto</a>(tower.position);       // gehe dort hin\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )              // wiederhole unendlich\n"
+"\t{\n"
+"\t\t// 2) warte bis die Batterie leer ist\n"
+"\t\t<a cbot|while>while</a> ( tower.energyCell.energyLevel > 0.2 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(2);\n"
+"\t\t}\n"
+"\t\t<a cbot|grab>grab</a>();                 // greife die Batterie\n"
+"\t\t\n"
+"\t\t// 3) begib dich zum Kraftwerk um sie aufzuladen\n"
+"\t\tstation = <a cbot|radar>radar</a>(PowerStation);\n"
+"\t\t<a cbot|goto>goto</a>(station.position); // gehe dort hin\n"
+"\t\t<a cbot|while>while</a> ( load.energyLevel < 1 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);            // warte bis voll geladen\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// 4) gehe zum Geschützturm zurück\n"
+"\t\t<a cbot|goto>goto</a>(tower.position);   // gehe zum Turm\n"
+"\t\t<a cbot|drop>drop</a>();                 // stelle die Batterie ab\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:44 ../E/8_ServiceTower1.txt:46 ../E/8_ServiceTower1_link.txt:8 ../E/9_terranova.txt:24
+#, no-wrap
+msgid "<code><a programs/7_CollectTitanium3>CollectTitanium3</a></code>"
+msgstr ""
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:43 ../E/8_ServiceTower1_link.txt:7 ../E/9_terranova.txt:23
+#, no-wrap
+msgid "<code><a programs/8_ServiceTower1>ServiceTower1</a></code>"
+msgstr ""
+
+#. type: Plain text
+#: ../E/9_terranova.txt:2
+#, no-wrap
+msgid "According to the data transmitted by the satellite, our engineers have developed two programs. The first one guides the <a object|botshld>shielder bot</a> through the narrow valley north close to the place where the key has been located. You can follow it without fearing any attack:"
+msgstr "Entsprechend den Daten die vom Satelliten übermittelt wurden, haben unsere Ingenieure zwei Programme entwickelt. Das erste führt den <a object|botshld>Schutzschild</a> durch das schmale Tal, welches zur Position, wo der Schlüssel geortet wurde, führt. Sie können ihm folgen, ohne einen Angriff befürchten zu müssen."
+
+#. type: Source code
+#: ../E/9_terranova.txt:4
+#, no-wrap
+msgid ""
+"extern void object::Outward()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
+"\t<a cbot|goto>goto</a>(6,160);    // go close to the key\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
+"}"
+msgstr ""
+"extern void object::Outward()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // aktiviere den Schild\n"
+"\t<a cbot|goto>goto</a>(6,160);    // gehe in die Nähe des Schlüssels\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deaktiviere den Schild\n"
+"}"
+
+#. type: Plain text
+#: ../E/9_terranova.txt:11
+#, no-wrap
+msgid "The second program guides the <a object|botshld>shielder bot</a> back to the <a object|base>spaceship</a>:"
+msgstr "Das zweite Programm führt den <a object|botshld>Schutzschild</a> zurück zum <a object|base>Raumschiff</a>:"
+
+#. type: Source code
+#: ../E/9_terranova.txt:13
+#, no-wrap
+msgid ""
+"extern void object::Return()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
+"\t<a cbot|goto>goto</a>(8,60);     // go to the spaceship\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
+"}"
+msgstr ""
+"extern void object::Return()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // aktiviere den Schild\n"
+"\t<a cbot|goto>goto</a>(8,60);     // gehe zum Raumschiff\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deaktiviere den Schild\n"
+"}"
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:2
+#, no-wrap
+msgid "Below is a program that has been developed by our engineers."
+msgstr "Unten befindet sich ein Programm das von unseren Ingenieuren entwickelt wurde."
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:4
+#, no-wrap
+msgid "It instructs the <a object|botshld>shielder</a> to follow and protect the <a object|botphaz>phazer</a>."
+msgstr "Es instruiert den <a object|botshld>Schutzschild</a>, dem <a object|botphaz>Phazershooter</a> zu folgen und ihn zu schützen."
+
+#. type: Source code
+#: ../E/10_FollowPhazer.txt:6
+#, no-wrap
+msgid ""
+"extern void object::FollowPhazer()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;              // info. about phazer\n"
+"\t<a cbot|type>point</a>     dest;              // position where to go\n"
+"\t<a cbot|type>float</a>     dist;              // distance to phazer\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PhazerShooter</a>);\n"
+"\t<a cbot|if>if</a> ( item == null )\n"
+"\t{\n"
+"\t\t<a cbot|message>message</a>(\"No phazer found\");\n"
+"\t\t<a cbot|return>return</a>;                  // stop the program\n"
+"\t}\n"
+"\t<a cbot|shield>shield</a>(1, 25);               // activate the shield\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // repeat forever\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(PhazerShooter);// look for phazer\n"
+"\t\t<a cbot|if>if</a> ( item == null )  break;\n"
+"\t\t\n"
+"\t\tdist = <a cbot|dist>distance</a>(item.position, position);\n"
+"\t\t<a cbot|if>if</a> ( dist < 5 )\n"
+"\t\t{                        // if closer than 5 m:\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // wait\n"
+"\t\t}\n"
+"\t\t<a cbot|if>else</a>                     // otherwise:\n"
+"\t\t{ // Calculate a position 5 m before the phazer\n"
+"\t\t\tdest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;\n"
+"\t\t\tdest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;\n"
+"\t\t\tdest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;\n"
+"\t\t\t<a cbot|goto>goto</a>(dest, 0, 1, 1); // and go there\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::FollowPhazer()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;          // Info über Phazershooter\n"
+"\t<a cbot|type>point</a>     dest;          // Zielposition\n"
+"\t<a cbot|type>float</a>     dist;          // Abstand zum Phazershooter\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PhazerShooter</a>);\n"
+"\t<a cbot|if>if</a> ( item == null )\n"
+"\t{\n"
+"\t\t<a cbot|message>message</a>(\"Keinen Phazershooter gefunden.\");\n"
+"\t\t<a cbot|return>return</a>;                  // stoppe das Programm\n"
+"\t}\n"
+"\t<a cbot|shield>shield</a>(1, 25);               // aktiviere den Schild\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // endlos wiederholen\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(PhazerShooter);// orte den PS\n"
+"\t\t<a cbot|if>if</a> ( item == null )  break;\n"
+"\t\t\n"
+"\t\tdist = <a cbot|dist>distance</a>(item.position, position);\n"
+"\t\t<a cbot|if>if</a> ( dist < 5 )\n"
+"\t\t{                        // wenn näher als 5 m:\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // warte\n"
+"\t\t}\n"
+"\t\t<a cbot|if>else</a>                     // ansonsten:\n"
+"\t\t{ // Berechne eine Position 5m vor dem PS\n"
+"\t\t\tdest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;\n"
+"\t\t\tdest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;\n"
+"\t\t\tdest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;\n"
+"\t\t\t<a cbot|goto>goto</a>(dest, 0, 1, 1); // und gehe dort hin\n"
+"\t\t}\n"
+"\t}\n"
+"}"

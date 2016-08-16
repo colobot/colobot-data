@@ -150,7 +150,7 @@ EnableBuild type=Flag
 EnableResearch type=TRACKER
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
-EndMissionTake pos=0.00;0.00 type=BlackBox min=1
-EndMissionTake pos=0.00;0.00 type=WheeledGrabber min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=BlackBox min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=WheeledGrabber min=1
 
 Camera eye=-18.0;1.0;48.0 lookat=0.0;0.0;0.0 delay=2

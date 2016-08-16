@@ -2,7 +2,7 @@ Title.E text="Killer Mushrooms"
 Resume.E text="Run the gauntlet of poison-spitting mushrooms and find the first key to the vault."
 Instructions name="%lvl%/help/help.%lng%.txt"
 Satellite name="%lvl%/help/report.%lng%.txt"
-Loading name="%lvl%/help/prog.%lng%.txt"
+Loading name="programs/9_terranova.txt"
 SoluceFile name="%lvl%/help/soluce.%lng%.txt"
 HelpFile name="cbot.txt"
 EndingFile win=-1 lost=0
@@ -240,8 +240,8 @@ DoneResearch type=RECYCLER
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=KeyA lost=0
-EndMissionTake pos=0.00;0.00 type=KeyA min=1
-EndMissionTake pos=0.00;0.00 type=Shielder min=1
-EndMissionTake pos=0.00;0.00 type=Subber min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=KeyA min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=Shielder min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=Subber min=1
 
 Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0
