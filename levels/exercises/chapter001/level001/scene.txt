@@ -85,8 +85,8 @@ EndMissionTake pos=0.0;0.0 dist=25000.00 type=Me lost=0
 EndMissionTake pos=0.0;0.0 dist=25000.00 type=WheeledGrabber lost=0
 
 // Get on the SpaceShip
-EndMissionTake pos=-20;-95.0 type=Me min=1
-EndMissionTake pos=-20;-95.0 type=WheeledGrabber min=1
+EndMissionTake pos=-20;-95.0 dist=8.0 type=Me min=1
+EndMissionTake pos=-20;-95.0 dist=8.0 type=WheeledGrabber min=1
 
 //EndMissionDelay win=3.00
 

@@ -59,12 +59,6 @@ msgid "You can do that by using programming. In fact, you can even get much bett
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:14
-#, no-wrap
-msgid "It doesn't end at mathematics. With proper algorithms computers can sort enormous chunks of data, find the shortest paths, build other robots, basically do everything we want. We only need to know the algorithm and write it in a form understandable by computer. Creating the algorithm is actually the hardest part, there are a lot of scientists trying to come up with the best solutions or prove that an efficient solution for particular problems doesn't even exist. We'll cover some of the popular algorithmic problems in later chapters."
-msgstr ""
-
-#. type: Plain text
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "However, you don't have to be a scientist to solve problems, this is what all programmers do every day. Problem solving is the essence of programming, this is where most of the fun lies, to see your program finally working, to understand why, to make someone's (your) life easier. How to get the alphabetically sorted list of all shop customers in a reasonable amount of time? How to get to New York from Warsaw the fastest way possible? What is the most optimal way you can pack for your travel? How to shoot invading aliens while flying? These are only few examples of problems you can solve by programming!"
@@ -80,12 +74,6 @@ msgstr ""
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "eniac"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:29
-#, no-wrap
-msgid "The language you'll be learning in this course is called CBOT. It was specifically created for programming robots in the game, but it's based on widely used real-world programming languages like C++ or Java. If you already know them, you'll beat this course in no time. If not, then it's even better, because that's why this programming course exist in the first place, to teach you programming."
 msgstr ""
 
 #. type: \t; header
@@ -139,25 +127,37 @@ msgid "You are reading this message on your mobile satellite communicator, short
 msgstr ""
 
 #. type: Plain text
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "Feel free to play around the map to see how the interface works. After you're done, move your <a object|botgr>robot</a> and <a object|human>yourself</a> to the <a object|base>SpaceShip</a> and take off."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "It doesn't end at mathematics. With proper algorithms computers can sort enormous chunks of data, find the shortest paths, build other robots, basically do everything we want. We only need to know the algorithm and write it in a form understandable by computer. Creating the algorithm is actually the hardest part, there are a lot of scientists trying to come up with the best solutions, or to prove that an efficient solution for particular problems doesn't even exist. We'll cover some of the popular algorithmic problems in later chapters."
+msgstr ""
+
+#. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
-msgid "So, how do you talk with a computer? You obviously can't just say \"build me a base\" and expect the computer to understand you. Natural language is unnatural for machines, because it's too complicated, sophisticated and ambiguous. Even humans can't understand each other from time to time. Try to explain to a machine that \"keep this under your hat\" doesn't mean to literally put a thing under your gorgeous hat, and you'll fail miserably. Machines need precise and determined sequence of instructions. How is the \"keep\" action defined? What is \"this\"? What does \"under\" mean? Where is \"your hat\"? Only after you precisely define all the words, a computer can understand the sentence and start executing it."
+msgid "So, how do you talk with a computer? You obviously can't just say \"build me a base\" and expect the computer to understand you. Natural language is unnatural for machines, because it's too complicated, sophisticated and ambiguous. Even humans can't understand each other from time to time. Try to explain to a machine that \"keep this under your hat\" doesn't mean to literally put a thing under your gorgeous hat. You'll fail miserably. Machines need precise and determined sequence of instructions. How is the \"keep\" action defined? What is \"this\"? What does \"under\" mean? Where is \"your hat\"? Only after you precisely define all the words, a computer can understand a sentence and start executing it."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:21
 #, no-wrap
-msgid "What is the language of electronic machines? Binary numbers, literally! Zero when there is no current, one when there is. It's not even that easy, because there is no place to type zeroes and ones, you probably need to plug in some cables, pull some levers and god knows what else. Back in the old times, this is what programming was and if you made any mistake, you would need to start it all over again! In the picture below you can see the first world's computer, ENIAC."
+msgid "What is the language of electronic machines? Binary numbers, literally! Zero when there is no current, one when there is. It's not even that easy, because there is no place to type zeroes and ones, you probably need to plug in some cables, pull some levers and god knows what else. Back in the old times, this is what programming was, and if you made any mistake, you would need to start it all over again! In the picture below you can see the first world's computer, ENIAC."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:25
 #, no-wrap
-msgid "Don't worry, now it's much easier to program, but at the same time we solve harder problems nowadays, since the old ones are already solved. Today, we use so called programming languages. They are formal, simple languages usually familiar to the language of mathematics (but with far less odd symbols, which make mathematical language scary and unreadable for other people). Programming languages are connecting the low-level computer language with the natural human language. When you write a program in such a language, it is understandable by a human being and at the same time it can be translated to the language understandable by a computer. The process of translation of the source code is called compilation and is done by compilers."
+msgid "Don't worry, now it's much easier to program, but at the same time we solve harder problems nowadays, since the old ones are already solved. Today, we use so called programming languages. They are formal, simple languages usually familiar to the language of mathematics (but with far less odd symbols, which make mathematical language scary and unreadable for outsiders). Programming languages are connecting the low-level computer language with the natural human language. When you write a program in such a language, it is understandable by a human being and at the same time it can be translated to a language understandable by a computer. The process of translation of source code is called compilation and is done by compilers."
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:46
+#: ../help/help.E.txt:29
 #, no-wrap
-msgid "Feel free to play around the map to see how the interface works. After you're done, move your <a object|botgr>robot</a> and <a object|human>yourself</a> to the <a object|base>SpaceShip</a> and take off."
+msgid "The language you'll be learning in this course is called CBOT. It was specifically created for programming robots in the game, but it's based on widely used real-world programming languages, like C++ or Java. If you already know them, you'll beat this course in no time. If not, then it's even better, because that's why this programming course exist in the first place, to teach you programming."
 msgstr ""
