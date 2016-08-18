@@ -3,7 +3,7 @@ Resume text="Begin your CBOT programming course. Learn the interface and gain so
 ScriptName text="SlowDownAndCarryOnToTheNextExercise"
 Instructions name="%lvl%/help/help.%lng%.txt"
 //HelpFile name="cbot.txt"
-EndingFile win=-1 lost=0
+EndingFile lost="levels/other/lost000.txt"
 Level type=NORMAL
 
 #Include file="%cat%/planet.txt"

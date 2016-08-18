@@ -1,4 +1,9 @@
-extern void object::Solution()
+extern void object::SpecializedAntiAlienDefenseProgram()
 {
-	move(15);
+    fire(1);
+    turn(90);
+    fire(1);
+    turn(-180);
+    fire(1);
+    turn(90);
 }

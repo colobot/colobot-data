@@ -16,270 +16,127 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.11.0\n"
 
-#. type: \t; header
-#: ../help/help.E.txt:79
-#, no-wrap
-msgid "See also"
-msgstr ""
-
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "What you already know"
 msgstr ""
 
-#. type: Plain text
-#: ../help/help.E.txt:2
-#, no-wrap
-msgid "In the previous exercise we demonstrated you how programming can be useful and why you should continue this course. You also gained the precious knowledge about programming in general. Now is the time to learn how to actually write programs and you will do it in this exercise."
-msgstr ""
-
 #. type: \b; header
-#: ../help/help.E.txt:4
-#, no-wrap
-msgid "Why programming languages exists"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "In order to create <code>source code</code>, you need to use a special tool - any plain text editor (like Notepad, not like Wordpad). Imagine you open a simple text editor and write <code>\"tell me what is 2+2\"</code>. You could say it is an <code>algorithm</code>, a very simple one, but an algorithm. But you should not say that this is a computer program. Computers do not understand natural language and it is very hard to make them understand it. Human languages, like English or Polish, are not very precise and are complicated. For example, a person would understand if someone said to him/her \"keep this under your hat\" as \"do not tell anyone this\", but a computer would have problems with that idiom and probably would not understand what that sentence really mean. It would interpret it as \"keep this under your hat\" and probably it would show an error with a message saying \"'this' is an information, it can't be put under a hat as it is not a physical thing!\". Sometimes even a person can't understand another person, so how can we tell a computer what to do?"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:7
-#, no-wrap
-msgid "That is why programming languages were created. They are as precise as formal mathematics and (usually) readable for human. But there is another problem. Computers still do not understand them, because they are still a plain text. There is no difference for a computer if in a text file it reads <code>\"tell me what is 2+2\"</code> or <c/>\"message(2+2);\"<n/>. \"What? What was the point then?!\", you might think. The point is, because of brutal precision of these languages, the algorithms written in them actually <code>can</code> be translated to a machine language, to ones and zeroes (one as electric current flows, and zero as it does not flow). The more high-level language, the more readable it is for human. The more low-level language, the more closer it is to the machine language."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "The process of translating an algorithm written in one of the programming languages to a machine language is called <code>compiling</code> and is done, what a surprise, by a <code>compiler</code>."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:11
-#, no-wrap
-msgid "CBOT editor"
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "Structure of a CBOT program"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:17
-#, no-wrap
-msgid "Here is the source code you should see after opening the editor:"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:26
-#, no-wrap
-msgid "It probably does not make much sense to you, so we will explain each element."
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:28
-#, no-wrap
-msgid "Name"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:35
-#, no-wrap
-msgid "This part is hard to explain at this point, so just assume this just must be there."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:38
-#, no-wrap
-msgid "This is a <code><format token>keyword</format></code> that indicates the <a cbot|extern>main function</a>."
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:43
-#, no-wrap
-msgid "Parentheses"
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:46
-#, no-wrap
-msgid "Instructions"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:47
-#, no-wrap
-msgid "An <token/><a cbot>instruction</a><norm/> is a command, a description or a part of a structure in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction, which consists of another set of instructions. Let's see an example."
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:49
-#, no-wrap
-msgid "Moving a robot"
-msgstr ""
-
-#. type: Source code
-#: ../help/help.E.txt:52
-#, no-wrap
-msgid "<c/>move(5);<n/>"
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:59
-#, no-wrap
-msgid "Blocks"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:71
-#, no-wrap
-msgid "Program immediately ends after all instructions are done, when it reaches the end of the body (block) of the main function (<code>}</code>)."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:73
+#: ../help/help.E.txt:37
 #, no-wrap
 msgid "Task"
 msgstr ""
 
 #. type: \t; header
-#: ../help/help.E.txt:76
+#: ../help/help.E.txt:40
 #, no-wrap
 msgid "Tip"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:80
+#: ../help/help.E.txt:2
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgid "In the last exercise you (hopefully) read and learned about programming in general. You know that programming solves problems, automates repetitive tasks and you can tell the difference between a low-level and high-level language. You also know what is a compiler and an algorithm, so you probably already are wiser than some of your friends and family! And that's just the beginning!"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:62
+#: ../help/help.E.txt:6
 #, no-wrap
-msgid "For example, if you want your robot to move 3 meters forward, you can write a program like this one:"
+msgid "(If you did program your way through, then either you already know how to program or you cheated (reading a guide on the Internet counts as cheating!). Otherwise... That's really impressive! Keep up the good job!)"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Unforeseen consequences"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "How to run a program"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:74
+#: ../help/help.E.txt:35
 #, no-wrap
-msgid "Write and run a program that commands the bot to move 15 meters forward."
-msgstr ""
-
-#. type: Source code
-#: ../help/help.E.txt:19
-#, no-wrap
-msgid ""
-"extern void object::MyFirstProgram()\n"
-"{\n"
-"\t\n"
-"\t\n"
-"\t\n"
-"}"
-msgstr ""
-
-#. type: Source code
-#: ../help/help.E.txt:64
-#, no-wrap
-msgid ""
-"extern void object::Example()\n"
-"{\n"
-"\t\n"
-"\tmove(3);\n"
-"\t\n"
-"}"
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:37
-#, no-wrap
-msgid "<token/><code>extern</code><norm/>"
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:40
-#, no-wrap
-msgid "<type/><code>void</code><norm/>"
+msgid "Just in time!"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:12
+#: ../help/help.E.txt:38
 #, no-wrap
-msgid "Programmers like to use <code>Integrated Development Environments</code>, which are most often an advanced text editor and a compiler integrated with each other, probably created specifically to work with one or more specific languages. You could call the <code>CBOT editor</code> an IDE. At first look it may look like a fancy text editor. It has options like \"New\" <button 56/>, \"Open\" <button 57/>, \"Save\" <button 58/>, \"Undo\" <button 59/>, you can type in it, and so on. But it has also a special button, which executes the CBOT compiler."
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:56
-#, no-wrap
-msgid "Whitespaces"
-msgstr ""
-
-#. type: \t; header
-#: ../help/help.E.txt:34
-#, no-wrap
-msgid "<type/><code>object</code><norm/>::"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:44
-#, no-wrap
-msgid "They indicates that the given name is a function. They have also another role, which you will read about in the next paragraphs."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:50
-#, no-wrap
-msgid "One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say \"move 5 meters forward\". The number of meters here is a <code>parameter</code> of the function <code><a cbot|move>move</a></code>. You can give such commands to a robot using CBOT:"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:54
-#, no-wrap
-msgid "The above code means exactly \"move 5 meters forward\". Parameters of a function are always passed between parentheses."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:57
-#, no-wrap
-msgid "Notice the semicolon (<c/>;<n/>) at the end of the line. It explicitly says that this is the end of a <a cbot|term>statement</a>, one step of the algorithm. \"Why is it, can't CBOT know the end of a statement based on the end of the line?\", you might ask. Technically, we could make it that way and some languages are built that way, but very often compilers ignore all whitespaces (invisible characters, like a space, tabulator or new line) on purpose. Arguably, it makes programs more readable and easier to write. You may have a different opinion about it, but that's how it works in many languages, including CBOT. Anyway, because of ignoring all whitespaces, these languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++ for example), it is done by using semicolons and curly braces."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:29
-#, no-wrap
-msgid ""
-"Let's start from the middle. <code>MyFirstProgram</code> is the name of the program, but also the name of the main function. You will learn more about <a cbot|function>functions</a> later, for now you just need to know that the main function will be executed after you run your program. You can change the name to anything you want if you strict to these rules:\n"
-"1. Use only letters from the English alphabet.\n"
-"2. Do not start with a number.\n"
-"3. Do not use any other characters except underscore (<code>_</code>)."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:60
-#, no-wrap
-msgid "You must put your instructions in the body of the main function. The body of a function is between <code>{</code> and <code>}</code>. The content between curly braces we can call also more generally a <a cbot|bloc>block</a>. The body of the function should be put immediately after the declaration, which we have already seen and analyzed (the first line)."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:77
-#, no-wrap
-msgid "If your program did not work, you can always quickly reset everything to the initial state by clicking on <button 9/> while a bot is selected."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:14
-#, no-wrap
-msgid "Select the <a object|botgr>wheeled grabber</a> standing on the platform ahead of you. Click on <button 24/> to create a new program, select the program from the list and then click on <button 22/> to open it in the editor. You should see a simple program, which does nothing. Click on <button 87/> to compile it. You can play around a little with all the buttons. After you are done, open your <button 63/> again and read on."
+msgid "Kill all the surrounding aliens and survive the ambush. Running away is prohibited under the threat of being fired and losing all the fun."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:41
 #, no-wrap
-msgid "This is <a cbot|type>type</a> of a value returned by (being a result of) the main function. Imagine a function called <code>Add</code>, which is similar to the arithmetic <code>+</code> symbol, then the result of <code>Add(2, 2)</code> is <code>4</code> (<code>2+2</code>). We say that the <code>Add</code> function <code>returns</code> a number. The main function returns nothing, thus the result type is of type <code><format type>void</format></code>."
+msgid "If something goes wrong, you can reset the whole level by pressing <button 9/> while selecting a robot. Do that b e f o r e it is destroyed!"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "You had to beat the previous exercise by <a command>manually</a> (oh, no!) controlling the astronaut and the robot. Goosebumps! Never ever you'll have to do that again, at least in this course. Altough you can't program the astronaut (unfortunately), you won't need to do that anyway. Robots are usually sufficient."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid ""
+"\\tab;>>> WARNING! Enemy signatures detected nearby!\n"
+"\\tab;>>> WARNING! Enemy type: <a object/ant>AlienAnt</a>.\n"
+"\\tab;>>> WARNING! Enemies seem to be approaching this position!\n"
+"\\tab;>>> Searching for solutions...\n"
+"\\tab;>>> Solution found.\n"
+"\\tab;>>> Uploading SpecializedAntiAlienDefenseProgram to <a object/botfr>WheeledShooter</a>...\n"
+"\\tab;>>> Do not close the Sattelite Communicator before the uploading is complete!"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "What? What's that about? It seems that you're surrounded by a l i e n s! Don't worry! It will take them some time to get here and you have WheeledShooter with you, fortunately, as <a object/human>the astronauts</a> are not allowed to have weapons (for some reason...). Let's take that moment to learn how to run the program that is being uploaded to your Shooter."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "Below the list there are buttons for managing the list, for example adding <button 24/> and deleting <button 25/> a program from the list. We don't have time and need right now to learn about those, but it should be fairly intuitive."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "On the right side of the list you'll find two big buttons. <button 22/> opens the CBOT editor which we will discuss soon enough. Now, <button 21/> is what we're looking for. It runs the program selected on the list."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Note"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Note that from this point on the manual control of the robots we provide in this course is disabled."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "After you close your <button 63/> (do not do that right now!) and select your robot (better do it fast after the upload is complete) you'll see a few buttons and a list in the lower left corner of the screen. Every robot can have more than one program on its hard disk, but can only run one of them at a time. You can select a program by clicking on the position on the list with the <format key>left mouse button</format>."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"\\tab;>>> CAUTION! Enemies are close!\n"
+"\\tab;>>> Uploading of the SpecializedAntiAlienDefenseProgram completed.\n"
+"\\tab;>>> It can be run from the 1. position on the list.\n"
+"\\tab;>>> Thanks for choosing Terranova Communications and have a nice day!"
 msgstr ""
