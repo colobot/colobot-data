@@ -1,11 +1,11 @@
 extern void object::AI()
 {
-    wait(3);
-    move(5);
-    object shooter = radar(WheeledShooter);
-    while (true)
-    {
-        fire(shooter.position);
-        wait(3);
-    }
+	wait(3);
+	move(5);
+	object shooter = radar(WheeledShooter);
+	while (true)
+	{
+		fire(shooter.position);
+		wait(3);
+	}
 }
