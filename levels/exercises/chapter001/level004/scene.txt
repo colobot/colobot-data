@@ -20,7 +20,7 @@ CreateObject pos=45.00;-60.00 dir=0.7 type=Me option=2
 CreateObject pos=40.50;-65.00 dir=1.0 type=PracticeBot select=1 reset=1 trainer=1 script1="%lvl%/scripts/solution.txt" camera=FIX
 
 // Stuck friend
-CreateObject pos=45.50;-65.00 dir=0.0 type=PracticeBot reset=1 trainer=1 script1="%lvl%/scripts/friend.txt" run=1 //selectable=false
+CreateObject pos=45.50;-65.00 dir=0.0 type=PracticeBot reset=1 trainer=1 script1="%lvl%/scripts/friend.txt" run=1 selectable=false
 
 // Start, middle area
 CreateObject pos=40.50;-65.00 type=StartArea
