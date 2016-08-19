@@ -3,7 +3,7 @@ Resume text="Learn how to use the CBOT editor and write your first program."
 ScriptName text="MyFirstProgram"
 Instructions name="%lvl%/help/help.%lng%.txt" immediat=1
 HelpFile name="cbot.txt"
-EndingFile lost="other/lost000.txt"
+EndingFile win="other/win009.txt" lost="other/lost000.txt"
 Level type=NORMAL
 
 #Include file="%cat%/planet.txt"
