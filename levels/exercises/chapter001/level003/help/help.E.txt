@@ -65,7 +65,7 @@ Inside the curly braces \c;{}\n; is the actual code. But before we jump into cod
 An  \l;i n s t r u c t i o n\u cbot;  is a command in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction, which consists of another set of instructions. Let's see an example.
 
 \t;Moving a robot
-One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say "move 5 meters forward". The number of meters here is a  p a r a m e t e r  of the function \c;\l;move\u cbot\move;\n;. You can give such commands to a robot using CBOT:
+One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say "move 5 meters forward". The number of meters here is a  p a r a m e t e r  of the function \token;\c;\l;move\u cbot\move;\n;\norm;. You can give such commands to a robot using CBOT:
 
 \s;\c;move(5);\n;
 

@@ -260,12 +260,6 @@ msgid "An  <a cbot>i n s t r u c t i o n</a>  is a command in CBOT. Most of them
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:68
-#, no-wrap
-msgid "One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say \"move 5 meters forward\". The number of meters here is a  p a r a m e t e r  of the function <code><a cbot|move>move</a></code>. You can give such commands to a robot using CBOT:"
-msgstr ""
-
-#. type: Plain text
 #: ../help/help.E.txt:72
 #, no-wrap
 msgid "The above code means exactly \"move 5 meters forward\". Parameters of a function are always passed between parentheses <code>()</code>. If there are more parameters, they are separated by commas <code>,</code>, as we've seen in the <code>Add(2,2)</code> example. No, by default there does not exist a function called <code>Add</code> in CBOT, it is just a simple example to illustrate how functions (instructions) work."
@@ -359,4 +353,10 @@ msgid ""
 "\t\n"
 "\t\n"
 "}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:68
+#, no-wrap
+msgid "One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say \"move 5 meters forward\". The number of meters here is a  p a r a m e t e r  of the function <token/><code><a cbot|move>move</a></code><norm/>. You can give such commands to a robot using CBOT:"
 msgstr ""

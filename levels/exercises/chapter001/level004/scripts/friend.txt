@@ -1,0 +1,23 @@
+extern void object::StuckFriend()
+{
+	object player = null;
+	do
+	{
+		player = radar(PracticeBot, 180.0, 45.0, 0.0, 2.3);
+	} while (player == null);
+
+	message("Huh?!", DisplayWarning);
+
+	float time = 0.0;
+	motor(0.2, 0.2);
+	while (time <= 1.5)
+	{
+		wait(0.1);
+		time += 0.1;
+	}
+
+	message("I'm not sleeping, mkay?!", DisplayWarning);
+
+	object goal = radar(GoalArea);
+	goto(goal.position);
+}
