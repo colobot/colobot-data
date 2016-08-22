@@ -1,0 +1,32 @@
+\b;What Have You Already Done
+Since you are reading this, it should be assumed that the last exercise turned out just right. Get it? Turned out. Turned. Haha. Eh, forget it...
+
+You are able to steer your robot from now on and learned a little about angles. We're just going to leave an image from the previous briefing here, since it might be helpful in this exercise too. (Of course it's not because our graphics designer likes his diagram so much he insisted on putting it here again. We don't know where you got this idea.)
+
+\image turn_diagram 16 16;
+If you were scared by the amount of math in the last exercise, you might get a heart attack in this one. Which leads us to the question...
+
+\b;Do Programmers Need to Know Math?
+The answer is: it depends on what you want to do.
+
+Many programmers should feel at least a little bit comfortably with math up to high school level. This should be fairly enough to get a lot of stuff done. Most of the school material might not be necessary, but better to know more than less, don't you think? You never know when being able to solve a quadratic equation might come in handy. If you aren't a high school graduate yet, don't worry. You still have time, just don't take math classes too lightly. Treat them at least like a training of logical and abstract thinking, of being able to solve problems, which is obviously important in programming.
+
+\b;When Math Is Crucial
+Math is especially needed in graphics-related software, video games, robotics, cryptography and so on. You can't know physics without math. Even when you are creating a simple Graphical User Interface (GUI) or a website, you might need to do some simple calculations in order to get a GUI element, like a button, properly positioned. Most importantly, you won't get away from math if you want to create your SuperEfficientAndEffectiveAlienKillingProgram, although a simpler program might be sufficient for you, so yeah, the answer to the question is ambigous indeed.
+
+You might even want to make a step further. In universities they teach you some really hard high-level math, yet Computer Science wouldn't exist without it. Algorithms are complicated and it is important for a computer scientist to be able to tell how long an algorithm will be running, to prove if it is correct or to just get an idea how to solve a hard problem, like finding the shortest path (which is not that trivial as you might think).
+
+We don't want to scare you. You can be a decent programmer without doing more complicated calculations than addition, subtraction, multiplication and division. In this course though, we will try to teach you some math when it's necessary. This is not a math course, but you'll see that math has many applications in programming. Especially geometry and trigonometry is useful in Colobot. The more you know, the better. You might be surprised how math synergizes well with programming.
+
+Remember that programming languages like CBOT are only tools to get a job done. We want you to learn how to program, not only how to use CBOT. If you know a concept, you won't have much problems to adapt to a different tool with this concept, maybe a language like C++ or Java.
+
+\b;Negative Angles
+Alright, time to get down to business. If you happened to take a look into the \token;\c;\l;turn();\u cbot/turn;\n;\norm; documentation, you'd already know what negative angles mean for the turn \token;\c;\l;turn();\u cbot/turn;\n;\norm; function. If you did not, then go ahead and read it.
+
+\b;Task
+We (again) placed some \l;waypoints\u object\waypoint; on the ground. We'll be doing this quite often, by the way, so better get used to it! The first and the last waypoint are 5 meters away from the \l;platforms\u object/start;. The zigzag is presented on the image.
+
+\image zigzag1 20 8;
+Your \l;robot\u object/bottr; must go through all of the waypoints and get to the \l;goal area\u object/goal;.
+
+Note that any solution will work, which means you don't necessarily need to drive zigzag, although that's a quick and the easiest way to solve this problem. Try to come up with 3 or more solutions for this problem before taking the driving license exam, which is going to happen after this exercise! For example, turn only left, or only use multiples of 90 degrees (hint: Pythagorean theorem).

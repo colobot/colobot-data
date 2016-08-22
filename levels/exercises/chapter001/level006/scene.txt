@@ -1,0 +1,74 @@
+Title text="Everything Is Relative"
+Resume text="Test your math abilities."
+ScriptName text="Zigzag"
+Instructions name="%lvl%/help/help.%lng%.txt" immediat=1
+HelpFile name="cbot.txt"
+EndingFile win="other/win009.txt" lost="other/lost000.txt"
+Level type=NORMAL
+
+#Include file="%cat%/planet.txt"
+TerrainRelief image="relief02.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainWater image="water12.png" level=30.0 moveX=1.0 moveY=0.3
+#Include file="%cat%/terrain.txt"
+TerrainCreate
+
+BeginObject
+
+// Player controllable
+CreateObject pos=60.00;-60.00 dir=0.7 type=Me option=2
+CreateObject pos=55.50;-65.00 dir=1.0 type=PracticeBot select=1 reset=1 trainer=1 script1="%lvl%/scripts/solution.txt" camera=FIX
+
+// Start, middle area
+CreateObject pos=55.50;-65.00 type=StartArea
+CreateObject pos=55.50;-62.50 dir=1.0 type=Barrier1
+CreateObject pos=58.00;-65.00 dir=0.5 type=Barrier1
+CreateObject pos=55.50;-67.50 dir=1.0 type=Barrier1
+
+// Waypoints
+CreateObject pos=50.50;-65.00 type=WayPoint reset=1
+CreateObject pos=50.50;-62.50 dir=1.0 type=Barrier1
+
+CreateObject pos=36.36;-79.14 type=WayPoint reset=1
+CreateObject pos=36.36;-81.64 dir=1.0 type=Barrier1
+
+CreateObject pos=22.22;-65.00 type=WayPoint reset=1
+CreateObject pos=22.22;-62.50 dir=1.0 type=Barrier1
+
+CreateObject pos=15.15;-72.07 type=WayPoint reset=1
+CreateObject pos=15.15;-74.57 dir=1.0 type=Barrier1
+
+CreateObject pos=8.08;-65.00 type=WayPoint reset=1
+CreateObject pos=8.08;-62.50 dir=1.0 type=Barrier1
+
+// GoalArea
+CreateObject pos=3.08;-65.00 type=GoalArea reset=1
+CreateObject pos=3.08;-62.50 dir=1.0 type=Barrier1
+CreateObject pos=0.58;-65.00 dir=0.5 type=Barrier1
+CreateObject pos=3.08;-67.50 dir=1.0 type=Barrier1
+
+// Lights
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+WaterColor color=-0.6;-0.1;-0.1
+
+// Map settings
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=8
+
+// Don't die
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=PracticeBot lost=0
+
+// Remove all waypoints and get on the GoalArea
+EndMissionTake pos=3.08;-65.00 dist=1.25 type=PracticeBot min=1
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=WayPoint min=0 max=0
+
+EndMissionDelay win=4.00
+
+Camera eye=60.00;20.00;-50.00 lookat=55.50;1.00;-65.00 delay=10

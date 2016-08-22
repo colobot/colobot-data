@@ -1,0 +1,14 @@
+extern void object::Solution()
+{
+	move(5);
+	turn(45);
+	move(20);
+	turn(-90);
+	move(20);
+	turn(90);
+	move(10);
+	turn(-90);
+	move(10);
+	turn(45);
+	move(5);
+}
