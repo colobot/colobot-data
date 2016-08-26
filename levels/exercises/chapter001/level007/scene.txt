@@ -1,0 +1,156 @@
+Title text="Driving License Exam"
+Resume text="Beat a simple labirynth to end your robot driving course."
+ScriptName text="AnswerSheet"
+Instructions name="%lvl%/help/help.%lng%.txt" immediat=1
+HelpFile name="cbot.txt"
+EndingFile win="other/win009.txt" lost="other/lost000.txt"
+Level type=NORMAL
+
+#Include file="%cat%/planet.txt"
+TerrainRelief image="relief02.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainWater image="water12.png" level=30.0 moveX=1.0 moveY=0.3
+#Include file="%cat%/terrain.txt"
+TerrainCreate
+
+BeginObject
+
+// Player controllable
+CreateObject pos=60.00;-60.00 dir=0.7 type=Me option=2
+CreateObject pos=55.50;-65.00 dir=1.0 type=PracticeBot select=1 reset=1 trainer=1 script1="%lvl%/scripts/solution.txt" camera=FIX
+
+// StartArea
+CreateObject pos=55.50;-65.00 type=StartArea
+CreateObject pos=55.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=58.00;-65.00 dir=0.5 type=Barrier1
+CreateObject pos=55.50;-67.50 dir=0.0 type=Barrier1
+
+// Labirynth
+// Sorted by columns and rows
+
+// Calculations for 45 angle barriers
+// 2.5 / sqrt(2) = 1.768
+// 2.5 - 1.768 = 0.732
+// 1.25 / sqrt(2) = 0.884
+// 2.5 - 0.884 = 1.616
+
+// Column 1
+CreateObject pos=50.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=45.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=40.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=35.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=30.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=20.50;-62.50 dir=0.0 type=Barrier1
+CreateObject pos=15.50;-62.50 dir=0.0 type=Barrier1
+
+// Column 2
+CreateObject pos=28.00;-65.00 dir=0.5 type=Barrier1
+CreateObject pos=27.116;-66.616 dir=0.25 type=Barrier0
+CreateObject pos=24.768;-64.268 dir=0.25 type=Barrier1
+CreateObject pos=12.116;-63.384 dir=0.75 type=Barrier0
+CreateObject pos=9.768;-65.732 dir=0.75 type=Barrier1
+
+// Column 3
+CreateObject pos=45.50;-67.50 dir=0.0 type=Barrier1
+CreateObject pos=40.50;-67.50 dir=0.0 type=Barrier1
+CreateObject pos=35.50;-67.50 dir=0.0 type=Barrier1
+
+// Column 4
+CreateObject pos=53.00;-70.00 dir=0.5 type=Barrier1
+CreateObject pos=48.00;-70.00 dir=0.5 type=Barrier1
+CreateObject pos=33.00;-70.00 dir=0.5 type=Barrier1
+CreateObject pos=28.00;-70.00 dir=0.5 type=Barrier1
+CreateObject pos=22.116;-71.616 dir=0.25 type=Barrier0
+CreateObject pos=19.768;-69.268 dir=0.25 type=Barrier1
+CreateObject pos=17.116;-68.384 dir=0.75 type=Barrier0
+CreateObject pos=14.768;-70.732 dir=0.75 type=Barrier1
+CreateObject pos=8.00;-70.00 dir=0.5 type=Barrier1
+
+// Column 5
+CreateObject pos=45.50;-72.50 dir=0.0 type=Barrier1
+CreateObject pos=40.50;-72.50 dir=0.0 type=Barrier1
+
+// Column 6
+CreateObject pos=53.00;-75.00 dir=0.5 type=Barrier1
+CreateObject pos=38.00;-75.00 dir=0.5 type=Barrier1
+CreateObject pos=28.00;-75.00 dir=0.5 type=Barrier1
+CreateObject pos=23.00;-75.00 dir=0.5 type=Barrier1
+CreateObject pos=22.116;-73.384 dir=0.75 type=Barrier0
+CreateObject pos=19.768;-75.732 dir=0.75 type=Barrier1
+CreateObject pos=13.00;-75.00 dir=0.5 type=Barrier1
+CreateObject pos=8.00;-75.00 dir=0.5 type=Barrier1
+
+// Column 7
+CreateObject pos=50.50;-77.50 dir=0.0 type=Barrier1
+CreateObject pos=45.50;-77.50 dir=0.0 type=Barrier1
+CreateObject pos=35.50;-77.50 dir=0.0 type=Barrier1
+
+// Column 8
+CreateObject pos=53.00;-80.00 dir=0.5 type=Barrier1
+CreateObject pos=43.00;-80.00 dir=0.5 type=Barrier1
+CreateObject pos=28.00;-80.00 dir=0.5 type=Barrier1
+CreateObject pos=23.00;-80.00 dir=0.5 type=Barrier1
+CreateObject pos=22.116;-81.616 dir=0.25 type=Barrier0
+CreateObject pos=19.768;-79.268 dir=0.25 type=Barrier1
+CreateObject pos=8.00;-80.00 dir=0.5 type=Barrier1
+
+// Column 9
+CreateObject pos=45.50;-82.50 dir=0.0 type=Barrier1
+CreateObject pos=35.50;-82.50 dir=0.0 type=Barrier1
+CreateObject pos=30.50;-82.50 dir=0.0 type=Barrier1
+CreateObject pos=10.50;-82.50 dir=0.0 type=Barrier1
+
+// Column 10
+CreateObject pos=53.00;-85.00 dir=0.5 type=Barrier1
+CreateObject pos=48.00;-85.00 dir=0.5 type=Barrier1
+CreateObject pos=38.00;-85.00 dir=0.5 type=Barrier1
+CreateObject pos=37.116;-86.616 dir=0.25 type=Barrier0
+CreateObject pos=34.768;-84.268 dir=0.25 type=Barrier1
+CreateObject pos=23.00;-85.00 dir=0.5 type=Barrier1
+CreateObject pos=17.116;-86.616 dir=0.25 type=Barrier0
+CreateObject pos=14.768;-84.268 dir=0.25 type=Barrier1
+
+// Column 11
+CreateObject pos=40.50;-87.50 dir=0.0 type=Barrier1
+CreateObject pos=25.50;-87.50 dir=0.0 type=Barrier1
+
+// Column 12
+CreateObject pos=53.00;-90.00 dir=0.5 type=Barrier1
+CreateObject pos=32.116;-91.616 dir=0.25 type=Barrier0
+CreateObject pos=29.768;-89.268 dir=0.25 type=Barrier1
+CreateObject pos=23.00;-90.00 dir=0.5 type=Barrier1
+CreateObject pos=18.00;-90.00 dir=0.5 type=Barrier1
+
+// Column 13
+CreateObject pos=50.50;-92.50 dir=0.0 type=Barrier1
+CreateObject pos=45.50;-92.50 dir=0.0 type=Barrier1
+CreateObject pos=40.50;-92.50 dir=0.0 type=Barrier1
+CreateObject pos=35.50;-92.50 dir=0.0 type=Barrier1
+
+// GoalArea
+CreateObject pos=20.50;-95.00 type=GoalArea reset=1
+
+// Lights
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+WaterColor color=-0.6;-0.1;-0.1
+
+// Map settings
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=8
+
+// Don't die
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=PracticeBot lost=0
+
+// Escape the labirynth!
+EndMissionTake pos=20.50;-95.00 dist=1.25 type=PracticeBot min=1
+
+EndMissionDelay win=4.00
+
+Camera eye=60.00;20.00;-50.00 lookat=55.50;1.00;-65.00 delay=10
