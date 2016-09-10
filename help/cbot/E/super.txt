@@ -1,0 +1,47 @@
+\b;Keyword \c;super\n;
+This keyword is similar to \c;\l;this\u cbot\this;\n;, however, it grants access to methods from the parent class (see the \c;\l;extends\u cbot\extends;\n; keyword), which is especially useful for method overriding.
+
+\t;Example
+\c;
+\s;public class Parent
+\s;{
+\s;	protected int field;
+\s;	
+\s;	void Parent()
+\s;	{
+\s;		field = 0;
+\s;	}
+\s;	
+\s;	void Print()
+\s;	{
+\s;		message("Parent's field: " + field);
+\s;	}
+\s;}
+\s;
+\s;public class Child extends Parent
+\s;{
+\s;	private int childsField;
+\s;	
+\s;	void Child()
+\s;	{
+\s;		super.Parent();
+\s;		childsField = field + 1;
+\s;	}
+\s;	
+\s;	void Print()
+\s;	{
+\s;		super.Print();
+\s;		message("Child's field: " + childsField);
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Child child();
+\s;	child.Print(); // Will show both 0 and 1
+\s;}
+\n;
+
+\t;See also
+\c;\l;class\u cbot\class;\n;, \c;\l;this\u cbot\this;\n;
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
