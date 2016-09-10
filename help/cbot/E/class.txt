@@ -1,72 +1,122 @@
 \b;Instruction \c;class\n;
-This allows you to declare a class definition using following syntax:
+This keyword allows you to create a class definition by using the following syntax:
 \c;
 \s;public class ClassName
 \s;{
 \s;	declarations;
 \s;}
 \n;
-Classes can only be \l;public\u cbot\public;, that is they can be used from all bots in a mission. Class members are also public, that is they are accessible from outside the class. Class members can be fields or functions (also called methods), for example the followin class \c;MyClass\n; contains 4 fields (a, b, x and s) and one method (MyFunction).
+\t;All Classes Are Public
+Classes can be only \l;public\u cbot\public;. This means that they can be used by all bots in a mission.
+
+\b;Class Members
+Class members are fields (\l;variables\u cbot\var;) and methods (\l;functions\u cbot\function;).
+
+For example, the following class dubbed \c;MyClass\n; contains 4 fields (\c;a\n;, \c;b\n;, \c;x\n; and \c;s\n;) and one method (\c;MyFunction\n;).
 \c;
 \s;public class MyClass
 \s;{
 \s;	int     a, b;
 \s;	float   x = 3.33;
 \s;	string  s = "hello";
-\s;	float   MyFunction( float value )
+\s;	float   MyFunction(float value)
 \s;	{
-\s;		return (value*x)-1;
+\s;		return (value * x) - 1;
 \s;	}
 \s;}
 \n;
-As shown in this exemple the class members can be initialized (\c;x=3.33\n;). You can also define a constructor which is a special method having the same name as the class name. This method will be called automatically at creation time of a class instance. You can also declare more than one method with the same name but different parameters.
+\b;Accessing Class Members
+Class members can be accessed outside of the class definition by using the \c;.\n; operator. Example:
 \c;
 \s;public class MyClass
 \s;{
+\s;	int myField = 0;
+\s;	int MyFunction()
+\s;	{
+\s;		return myField * 2;
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	MyClass myObject();
+\s;	myObject.myField = 10;
+\s;	message(myObject.MyFunction()); // 20
+\s;	MyClass mySecondObject();
+\s;	mySecondObject.myField = myObject.myField - 2;
+\s;	message(mySecondObject.MyFunction()); // 16
+\s;}
+\n;
+Class members are \l;public\u cbot\public; by default, which means that they are accessible outside of the class definition. They can also be declared as \c;\l;private\u cbot\private;\n; or \c;\l;protected\u cbot\protected;\n;. Such members can only be accessed inside of the class definition.
+
+\t;Class Members Modifiers
+Fields and methods can also be declared as \c;\l;static\u cbot\static;\n;. Methods can be additionaly declared as \c;\l;synchronized\u cbot\synchro;\n;.
+
+\t;Member Initialization
+As shown in the previous exemple, the class members can be initialized in the class definition (\c;int x = 3.33;\n;).
+
+Another way of initiliazing fields is by defining a constructor which is a special method having the same name as the class. This method will be called automatically at \l;creation\u cbot\new; time of a class instance. Constructors can be \l;overloaded\u cbot\function;.
+
+Example:\c;
+\s;public class MyClass
+\s;{
 \s;	int  a, b;
-\s;	void MyClass( )
+\s;	void MyClass()
 \s;	{
 \s;		a = 2;  b = 3;
 \s;	}
-\s;	void MyClass( int a, int b )
+\s;	void MyClass(int a, int b)
 \s;	{
 \s;		this.a = a;  this.b = b;
 \s;	}
 \s;}
 \n;
-In this example two constructors are declared for \c;MyClass\n;, one without parameters and the other one with two parameters. As the names of the parameters of the second constructor are the same as the names of the two members \c;a\n; et \c;b\n; we must use the \c;\l;this\u cbot\this;.a\n; and \c;\l;this\u cbot\this;.b\n; to avoid confusion with the parameters. Another more simpler solution would be to give different names to the parameters.
+
+\t;Using \c;\l;this\u cbot\this;\n;
+As the names of the parameters of the second constructor are the same as the names of the two members \c;a\n; and \c;b\n;, we must use the \c;\l;this\u cbot\this;\n; \l;reference\u cbot\pointer; to avoid confusion with the parameters' names.
+
+\b;Object Creation
+You can create objects of type \c;YourClass\n; using the \c;\l;new\u cbot\new;\n; keyword. Example:
 \c;
-\s;void Test( )
+\s;extern void object::Test()
 \s;{
-\s;	MyClass item1();      // constr. w/o parameters
-\s;	MyClass item2(4, 5);  // constr. with 2 parameters
-\s;	MyClass item3;        // no constructor called,
-\s;                          // therefore item3 == null
+\s;	MyClass object1();       // Call default constructor (without parameters)
+\s;	MyClass object2(4, 5);   // Call constructor with two int parameters
+\s;	MyClass object3;         // No constructor called, object3 == null
+\s;	object3 = new MyClass(); // We call constructor now, object3 != null
 \s;}
 \n;
-You can also define a destructor. This must be a \c;void\n; fonction without parameters that has the same name as the class name but prefixed by the ~ character. The destructor is called automatically as soon as the class instance is no more referenced by anyone.
+
+\b;Object Destruction
+You can also define a destructor. This must be a \c;\l;void\u cbot\void;\n; fonction without parameters, which has the same name as the class but prefixed with the \c;~\n; character. The destructor is called automatically as soon as the class instance is no more referenced by anyone. Example:
 \c;
 \s;public class MyClass
 \s;{
 \s;	static private int counter = 0; // instance counter
 \s;	void  MyClass( )
 \s;	{
-\s;		counter ++;  // one instance more
+\s;		counter++;  // one instance more
 \s;	}
 \s;	void ~MyClass( )
 \s;	{
-\s;		counter --;  // one instance less
+\s;		counter--;  // one instance less
 \s;	}
 \s;}
-\s;void Test()
+\s;extern void object::Test()
 \s;{
-\s;	MyClass item1( );  // counter = 1
-\s;	MyClass item2( );  // counter = 2
-\s;	item1 = null;      // counter = 1
-\s;}                      // counter = 0
+\s;	                   // counter == 0
+\s;	MyClass item1( );  // counter == 1
+\s;	MyClass item2( );  // counter == 2
+\s;	item1 = null;      // counter == 1
+\s;}
+\s;// counter == 0
 \n;
-If you pass a class instance as parameter to a \l;function\u cbot\function;, the function only receives a \l;reference\u cbot\pointer; to the instance. That means if you modify the instance in the function, the instance that has been passed to the function will be actuallay modified.
+\b;Passing Objects to Functions
+Objects in CBOT are passed by \l;reference\u cbot\pointer;. This means that when an object is passed to a \l;function\u cbot\function;, the function receives a copy of a pointer to the instance, not a copy of the object, so any modifications on the object will be visible outside of the function.
+
+\b;Inheritance
+A class can inherit public and protected members of another class by using the \c;\l;extends\u cbot\extends;\n; keyword.
 
 \t;See also
-\c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;static\u cbot\static;\n;, \c;\l;synchronized\u cbot\synchro;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;reference\u cbot\pointer;\n;, \c;\l;this\u cbot\this;\n;
+\c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;static\u cbot\static;\n;, \c;\l;synchronized\u cbot\synchro;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;reference\u cbot\pointer;\n;, \c;\l;this\u cbot\this;\n;, \c;\l;super\u cbot\super;\n;, \c;\l;extends\u cbot\extends;\n;
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
