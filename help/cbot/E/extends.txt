@@ -1,0 +1,107 @@
+\b;Keyword \c;extends\n;
+This keyword is used in a \c;\l;class\u cbot\class;\n; definition when we want the class to inherit members from another class. The class which is extended we usually call a parent or base, the extending class we call a child.
+
+\t;Example
+\c;
+\s;public class Parent
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Child extends Parent
+\s;{
+\s;	void bar()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Child child();
+\s;	child.foo(); // Will show "foo"
+\s;	child.bar(); // Will show "bar"
+\s;}
+\n;
+
+\b;Inherited Members
+Only \c;\l;public\u cbot\public;\n; and \c;\l;protected\u cbot\protected;\n; members are inherited. \c;\l;private\u cbot\private;\n; members are directly inaccessible even for a child, although they can be accessed indirectly through inherited methods.
+
+Constructors and destructors are not inherited, however, they can be overriden.
+
+\b;Method Overriding
+Inherited methods can be overriden (redefined) in the child class definition. Example:
+\c;
+\s;public class Parent
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Child extends Parent
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Child child();
+\s;	child.foo(); // Will show "bar"
+\s;}
+\n;
+A parent's method can be called inside an overriden method by using the \c;\l;super\u cbot\super;\n; keyword.
+
+\b;Polymorphism
+\c;\l;Reference\u cbot\pointer;\n; of type Parent can point to an object of type Child. However, such a pointer can't be used to access a child member. In order to access a child member, it must be assured that the Parent reference really points to a Child object. If that's the case, it can be safely copied to a pointer of type Child, which has access to the child members.
+
+\t;Example
+\c;
+\s;public class Parent
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Child extends Parent
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;	void bar()
+\s;	{
+\s;		message("foo bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Parent people[2];
+\s;	people[0] = new Parent();
+\s;	people[1] = new Child();
+\s;	for (int i = 0; i < 2; ++i)
+\s;	{
+\s;		people[i].foo();
+\s;	}
+\s;	//people[1].bar(); // Error
+\s;	Child child = people[1];
+\s;	child.bar(); // OK
+\s;}
+\n;
+
+\b;Multiple Inheritance
+A child cannot have multiple parents, however, a parent can have many children.
+
+\t;See also
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;reference\u cbot\pointer;\n;, \c;\l;this\u cbot\this;\n;, \c;\l;super\u cbot\super;\n;
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
