@@ -130,27 +130,14 @@ msgstr ""
 msgid "Specific instructions for classes:"
 msgstr ""
 
-#. type: Plain text
-#: ../E/cbot.txt:86
-#, no-wrap
-msgid ""
-"<code><a cbot|class>class</a>      </code>Class declararion\n"
-"<code><a cbot|public>public</a>     </code>Declares a public function\n"
-"<code><a cbot|private>private</a>    </code>Declares a private class member\n"
-"<code><a cbot|static>static</a>     </code>Declares a static class member\n"
-"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous execution\n"
-"<code><a cbot|new>new</a>        </code>Creates a new instance\n"
-"<code><a cbot|this>this</a>       </code>Reference to the current instance"
-msgstr ""
-
 #. type: \t; header
-#: ../E/cbot.txt:94
+#: ../E/cbot.txt:95
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:95
+#: ../E/cbot.txt:96
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -164,13 +151,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:104
+#: ../E/cbot.txt:105
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:105
+#: ../E/cbot.txt:106
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -182,13 +169,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/battles.txt:53 ../E/cbot.txt:128 ../E/freehelp.txt:4
+#: ../E/battles.txt:53 ../E/cbot.txt:129 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: ../E/cbot.txt:129
+#: ../E/cbot.txt:130
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr ""
@@ -653,13 +640,13 @@ msgid ""
 msgstr ""
 
 #. type: \t; header
-#: ../E/cbot.txt:112
+#: ../E/cbot.txt:113
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:113
+#: ../E/cbot.txt:114
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -1066,4 +1053,18 @@ msgid ""
 "<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
 "<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:86
+#, no-wrap
+msgid ""
+"<code><a cbot|class>class</a>      </code>Class declararion\n"
+"<code><a cbot|public>public</a>     </code>Declares a public class member\n"
+"<code><a cbot|private>private</a>    </code>Declares a private class member\n"
+"<code><a cbot|protected>protected</a>  </code>Declares a protected class member\n"
+"<code><a cbot|static>static</a>     </code>Declares a static class member\n"
+"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous execution\n"
+"<code><a cbot|new>new</a>        </code>Creates a new instance\n"
+"<code><a cbot|this>this</a>       </code>Reference to the current instance"
 msgstr ""
