@@ -53,7 +53,7 @@ Class members are \l;public\u cbot\public; by default, which means that they are
 Fields and methods can also be declared as \c;\l;static\u cbot\static;\n;. Methods can be additionaly declared as \c;\l;synchronized\u cbot\synchro;\n;.
 
 \t;Member Initialization
-As shown in the previous exemple, the class members can be initialized in the class definition (\c;int x = 3.33;\n;).
+As shown in the previous example, the class members can be initialized in the class definition (\c;int x = 3.33;\n;).
 
 Another way of initiliazing fields is by defining a constructor which is a special method having the same name as the class. This method will be called automatically at \l;creation\u cbot\new; time of a class instance. Constructors can be \l;overloaded\u cbot\function;.
 

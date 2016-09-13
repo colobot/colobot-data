@@ -8292,12 +8292,6 @@ msgid "Fields and methods can also be declared as <code><a cbot|static>static</a
 msgstr ""
 
 #. type: Plain text
-#: ../E/class.txt:56
-#, no-wrap
-msgid "As shown in the previous exemple, the class members can be initialized in the class definition (<c/>int x = 3.33;<n/>)."
-msgstr ""
-
-#. type: Plain text
 #: ../E/class.txt:58
 #, no-wrap
 msgid "Another way of initiliazing fields is by defining a constructor which is a special method having the same name as the class. This method will be called automatically at <a cbot|new>creation</a> time of a class instance. Constructors can be <a cbot|function>overloaded</a>."
@@ -8651,4 +8645,10 @@ msgstr ""
 #: ../E/extends.txt:60
 #, no-wrap
 msgid "A parent's method can be called inside an overriden method by using the <code><a cbot|super>super</a></code> keyword."
+msgstr ""
+
+#. type: Plain text
+#: ../E/class.txt:56
+#, no-wrap
+msgid "As shown in the previous example, the class members can be initialized in the class definition (<c/>int x = 3.33;<n/>)."
 msgstr ""
