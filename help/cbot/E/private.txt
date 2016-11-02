@@ -1,5 +1,7 @@
 \b;Instruction \c;private\n; (for specialists)
-\l;Class\u cbot\class; members can be \l;public\u cbot\public; (by default) or private. A member can be declared private by putting \c;private\n; before the type declaration of the member. Private members are not accessible from outside the class definition.
+This is an access modifier for \l;class\u cbot\class; members. Private members are not accessible outside of the class definition.
+
+\t;Example
 \c;
 \s;public class MyClass
 \s;{
@@ -15,5 +17,5 @@
 \s;}
 \n;
 \t;See also
-\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;, \c;\l;protected\u cbot\protected;\n;
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

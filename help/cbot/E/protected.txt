@@ -1,0 +1,28 @@
+\b;Keyword \c;protected\n;
+This is an access modifier for \l;class\u cbot\class; members. Protected class members can be accessed in a child class, but they can't be accessed outside of classes definitions being part of the same inheritance tree (see the \c;\l;extends\u cbot\extends;\n; keyword).
+
+\t;Example
+\c;
+\s;public class Parent
+\s;{
+\s;	protected int field = 0;
+\s;}
+\s;
+\s;public class Child extends Parent
+\s;{
+\s;	void Print()
+\s;	{
+\s;		message(field);
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Child child();
+\s;	child.Print(); // 0
+\s;	//child.field = 1; // Error!
+\s;}
+\n;
+\t;See also
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;extends\u cbot\extends;\n;
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

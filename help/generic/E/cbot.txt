@@ -84,12 +84,15 @@ Constants like \l;categories\u cbot\category; are displayed like that: \const;co
 
 \t;Specific instructions for classes:
 \c;\l;class\u cbot\class;      \n;Class declararion
-\c;\l;public\u cbot\public;     \n;Declares a public function
+\c;\l;public\u cbot\public;     \n;Declares a public class member
 \c;\l;private\u cbot\private;    \n;Declares a private class member
+\c;\l;protected\u cbot\protected;  \n;Declares a protected class member
 \c;\l;static\u cbot\static;     \n;Declares a static class member
 \c;\l;synchronized\u cbot\synchro; \n;Prevents simultaneous execution
 \c;\l;new\u cbot\new;        \n;Creates a new instance
 \c;\l;this\u cbot\this;       \n;Reference to the current instance
+\c;\l;extends\u cbot\extends;    \n;Extends a class
+\c;\l;super\u cbot\super;      \n;Grants access to the parent class
 
 \t;Specific instructions for strings:
 \c;\l;strlen\u cbot\strlen;     \n;Gets string length
