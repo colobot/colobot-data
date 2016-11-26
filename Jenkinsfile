@@ -1,3 +1,5 @@
+properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '30', artifactNumToKeepStr: '10']]])
+
 node('master') {
     stage 'Pull changes'
     checkout scm
