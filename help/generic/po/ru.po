@@ -154,6 +154,14 @@ msgid ""
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
 msgstr ""
+"<code><a cbot|strlen>strlen</a>     </code>Получает длину строки\n"
+"<code><a cbot|strleft>strleft</a>    </code>Извлекает левую часть\n"
+"<code><a cbot|strright>strright</a>   </code>Извлекает правую часть\n"
+"<code><a cbot|strmid>strmid</a>     </code>Извлекает центральную часть\n"
+"<code><a cbot|strfind>strfind</a>    </code>Находит подстроку.\n"
+"<code><a cbot|strval>strval</a>     </code>Конвертирует строку в число\n"
+"<code><a cbot|strupper>strupper</a>   </code>Конвертирует в верхний регистр\n"
+"<code><a cbot|strlower>strlower</a>   </code>Конвертирует в нижний регистр"
 
 #. type: \t; header
 #: ../E/cbot.txt:107
@@ -469,37 +477,37 @@ msgstr ""
 #: ../E/battles.txt:1
 #, no-wrap
 msgid "Code battles"
-msgstr ""
+msgstr "Битвы программ"
 
 #. type: Plain text
 #: ../E/battles.txt:2
 #, no-wrap
 msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually."
-msgstr ""
+msgstr "Битва программ - это полностью новый игровой режим представленный в Colobot: Gold Edition. Идея в том, что вы уставливаете две программы (вашу и оппонента) чтобы они сражались друг с другом. Игрок не может взаимодействовать с миром вручную."
 
 #. type: Plain text
 #: ../E/battles.txt:18
 #, no-wrap
 msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
-msgstr ""
+msgstr "С новыми функциями предоставленными в Gold Edition, вы можете создать полностью автоматизированную базу, которой не нужно никакое влияние со стороны <a object|human>человека</a>. Все они описаны в <a cbot>Документации CBOT</a>."
 
 #. type: Plain text
 #: ../E/battles.txt:20
 #, no-wrap
 msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
-msgstr ""
+msgstr "Произведственная линия объяснена в Миссиях и Упражнениях, но вы можете прямо перейти в битвы программ не нарушая всю игру. Поэтому здесь приведено краткое описание как что работает в Colobot."
 
 #. type: \t; header
 #: ../E/battles.txt:22
 #, no-wrap
 msgid "What you want to achieve"
-msgstr ""
+msgstr "Что вы хотите достичь"
 
 #. type: Plain text
 #: ../E/battles.txt:23
 #, no-wrap
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
-msgstr ""
+msgstr "В основном, вы хотите уничтожить оппонента. Чтобы это сделать, вам нужно что то летающее, например, робот, особенно, <a object|botfr>стрелок</a>. Но вы, вероятно, будете их часто терять, поэтому, возможно, вы должны поддерживать производство работающим. Например, больше <a object|botgr>сборщиков</a> или больше <a object|factory>фабрик</a>, <a object|convert>конвертеров</a> и так далее было бы полезно в этом случае. Запомните, что роботам нужны <a object|power>батареи</a>. В любом случае, перед тем как вы начнете, вы должны также сделать несколько <a object|research>исследований</a> чтобы получить лучшие технологии. И опять, вы вначале с одним <a object|botgr>роботом</a> и <a object|titan>Титаном</a>."
 
 #. type: Image filename
 #: ../E/battles.txt:25
@@ -511,7 +519,7 @@ msgstr ""
 #: ../E/battles.txt:27
 #, no-wrap
 msgid "Titanium production"
-msgstr ""
+msgstr "Производство титана"
 
 #. type: Plain text
 #: ../E/battles.txt:28
@@ -524,12 +532,18 @@ msgid ""
 "5. Use or move somewhere your new Titanium.\n"
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
+"1. <a cbot|radar>Найдите</a> <a object|titan>Титан</a>.\n"
+"2. <a cbot|build>Постройте</a> <a object|convert>Конвертер</a>.\n"
+"3. Найдите <a object|titanore>Титановую руду</a>.\n"
+"4. Поместите ее в конвертер. Отойдите назад и подождите, пока конвертер закончит работу.\n"
+"5. Используйте или переместите ваш новый Титан.\n"
+"Повторяйте шаги 3-5 чтобы поддерживать ваше производство работающим."
 
 #. type: \t; header
 #: ../E/battles.txt:35
 #, no-wrap
 msgid "Researches"
-msgstr ""
+msgstr "Исследования"
 
 #. type: Plain text
 #: ../E/battles.txt:36
@@ -544,7 +558,7 @@ msgstr ""
 #: ../E/battles.txt:40
 #, no-wrap
 msgid "Robot production"
-msgstr ""
+msgstr "Производство роботов"
 
 #. type: Plain text
 #: ../E/battles.txt:41
@@ -560,7 +574,7 @@ msgstr ""
 #: ../E/battles.txt:46
 #, no-wrap
 msgid "Power cell production"
-msgstr ""
+msgstr "Произодство батарей"
 
 #. type: Plain text
 #: ../E/battles.txt:47
@@ -574,19 +588,19 @@ msgstr ""
 #: ../E/battles.txt:50
 #, no-wrap
 msgid "There is more"
-msgstr ""
+msgstr "Есть еще"
 
 #. type: Plain text
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr ""
+msgstr "Есть еще больше опций, это только основные. Прочитайте документацию, играйте в игруи творчески думайте чтобы придумать новые идеи. Удачи и веселья!"
 
 #. type: Plain text
 #: ../E/battles.txt:54
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot|programming>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
 
 #. type: Plain text
 #: ../E/cbot.txt:15
@@ -836,19 +850,19 @@ msgstr ""
 #: ../E/cheats.txt:17
 #, no-wrap
 msgid "<code>fullenergy   </code>Restore energy in the currently selected bot"
-msgstr ""
+msgstr "<code>fullenergy   </code>Восстановите энегрию в текущем выбранном боте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:18
 #, no-wrap
 msgid "<code>fullshield   </code>Restore shield in the currently selected object"
-msgstr ""
+msgstr "<code>fullshield   </code>Востановите щит в текущем выбранном объекте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:19
 #, no-wrap
 msgid "<code>fullrange    </code>Flying reactor is cold"
-msgstr ""
+msgstr "<code>fullrange    </code>Летающий реактор холодный"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:20
@@ -860,13 +874,13 @@ msgstr ""
 #: ../E/cheats.txt:22
 #, no-wrap
 msgid "<code>fly          </code>You can fly even if flying is disabled in the current mission"
-msgstr ""
+msgstr "<code>fly          </code>Вы можете летать даже если летание отключено в текущей миссии"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:24
 #, no-wrap
 msgid "<code>addfreezer   </code>Flying reactor heats more slowly"
-msgstr ""
+msgstr "<code>addfreezer   </code>Летающий реактор нагревается более медленно"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:25
@@ -890,13 +904,13 @@ msgstr "<code>trainerpilot </code>Вы можете вести роботов, �
 #: ../E/cheats.txt:38
 #, no-wrap
 msgid "<code>photo1       </code>Free camera, you can change angle with <key/><code>+</code><norm/> and <key/><code>-</code><norm/> keys, type again to set it off"
-msgstr ""
+msgstr "<code>photo1       </code>Свободная камера, вы можете менять угол клавишами <key/><code>+</code><norm/> и <key/><code>-</code><norm/>, нажмите опять, чтобы это отключить"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:39
 #, no-wrap
 msgid "<code>photo2       </code>Same as <code>photo1</code>, except it hides interface, type again to set it off"
-msgstr ""
+msgstr "<code>photo2       </code>Также как <code>photo1</code>, за исключением того, что это скрывает интерфейс, нажмите опять, чтобы это отключить"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:47
