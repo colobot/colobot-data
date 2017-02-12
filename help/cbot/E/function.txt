@@ -11,7 +11,7 @@ You probably already know how to create a function. Every program in CBOT must h
 \s;	
 \s;}
 \n;
-Nothing but a name can be changed in the main function. The keyword \c;\l;extern\u cbot\extern;\n; distinguish the main function from others.
+Nothing but a name can be changed in the main function. The keyword \c;\l;extern\u cbot\extern;\n; distinguishes the main function from others.
 
 \b;Basic use
 With functions you can divide your program into several parts. Each of them will execute a specific task. For example, see the following program:
@@ -114,7 +114,7 @@ You can declare several functions with the same name but different parameters:
 \n;
 CBOT will call either the one or the other function depending on the parameters passed. They must be distinguishable, i.e. you can't declare two functions with the same name and parameter types in the exact same order, e.g. declaring \c;int Pythagoras(float b, float a)\n; will result in error. Note that result type does not matter.
 
-\b;Public functions
+\b;Public Functions
 You can also declare a function \l;public\u cbot\public; so it can be used by other bots.
 
 \b;object::
@@ -125,6 +125,42 @@ Declaring a function as a part of the \l;object\u cbot\object; namespace gives i
 \s;	message(this.category);
 \s;}
 \n;
+
+\b;Default Parameters
+Last function parameters can have default values that can be omitted when calling.
+\c;
+\s;float Add(float a = 0.0, float b = 0.0)
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;// Somewhere in the main program...
+\s;Add(); // Will return 0.0
+\s;Add(2.0); // Will return 2.0
+\s;Add(2.0, 3.0); // Will return 5.0
+\s;// ...
+\n;
+
+\t;Default Parameters and Overloading
+Functions with default parameters still can be overloaded, one must only ensure that function calls are not ambiguous. For example, consider the following code:
+\c;
+\s;float Add(float a = 0.0, float b = 0.0)
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;string Add(string a = "", string b = "")
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;// Somewhere in the main program...
+\s;Add(); // Compilation error: ambiguous call
+\s;Add(""); // Ok
+\s;Add(0.0); // Ok
+\s;// ...
+\n;
+Note that in the above example overloading causes the first default parameter to be useless as caller needs to pass it anyway in order to distinguish the two functions.
 
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
