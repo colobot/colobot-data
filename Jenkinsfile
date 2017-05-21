@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
-properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '30', artifactNumToKeepStr: '10']]])
+if (env.BRANCH_NAME.startsWith('PR-')) {
+    properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactNumToKeepStr: '1']]])
+} else {
+    properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '30', artifactNumToKeepStr: '5']]])
+}
 
 node('master') {
     stage('Pull changes') {
@@ -22,7 +26,7 @@ node('master') {
         sh 'rm -f data.zip'
         zip zipFile: 'data.zip', archive: true, dir: 'build/install'
     }
-    
+
     // Clean workspace after building pull requests
     // to save disk space on the Jenkins host
     if (env.BRANCH_NAME.startsWith('PR-')) {
