@@ -22,4 +22,10 @@ node('master') {
         sh 'rm -f data.zip'
         zip zipFile: 'data.zip', archive: true, dir: 'build/install'
     }
+    
+    // Clean workspace after building pull requests
+    // to save disk space on the Jenkins host
+    if (env.BRANCH_NAME.startsWith('PR-')) {
+        cleanWs()
+    }
 }
