@@ -62,7 +62,7 @@ msgstr ""
 #: ../E/cbot.txt:1
 #, no-wrap
 msgid "Programming - the CBOT language"
-msgstr ""
+msgstr "Программирование - язык CBOT"
 
 #. type: Plain text
 #: ../E/cbot.txt:2
@@ -71,48 +71,50 @@ msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
+"Язык CBOT очень близок к структуре и синтаксису языков C++ и Java. Он был адаптировать для специальный целей COLOBOT и для эффективного педагогического подхода.\n"
+"Этот язык состоит из инструкций (смотри ниже), <a cbot|bloc>блоки</a>, <a cbot|function>функции</a>, <a cbot|class>классы</a>, <a cbot|var>переменные</a>, <a cbot|array>массивы</a>, <a cbot|expr>выражения</a> и <a cbot|cond>условия</a>."
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:8
 #, no-wrap
 msgid "<code><format type>Type</format></code>"
-msgstr ""
+msgstr "<code><format type>Тип</format></code>"
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:11
 #, no-wrap
 msgid "<code><format const>Constants</format></code>"
-msgstr ""
+msgstr "<code><format const>Константы</format></code>"
 
 #. type: \t; header
 #: ../E/cbot.txt:14
 #, no-wrap
 msgid "Instructions in the CBOT language:"
-msgstr ""
+msgstr "Инструкции в языке CBOT:"
 
 #. type: \t; header
 #: ../E/cbot.txt:29
 #, no-wrap
 msgid "Specific instructions for bots:"
-msgstr ""
+msgstr "Специальные инструкции для ботов:"
 
 #. type: \t; header
 #: ../E/cbot.txt:54
 #, no-wrap
 msgid "Instructions about topology:"
-msgstr ""
+msgstr "Инструкции о топологии:"
 
 #. type: \t; header
 #: ../E/cbot.txt:60
 #, no-wrap
 msgid "Instructions specific to some bots:"
-msgstr ""
+msgstr "Специальные инструкции для некоторых ботов:"
 
 #. type: \t; header
 #: ../E/cbot.txt:79
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
-msgstr ""
+msgstr "Специальные инструкции по обмену сообщениями:"
 
 #. type: Plain text
 #: ../E/cbot.txt:80
@@ -123,18 +125,22 @@ msgid ""
 "<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
 msgstr ""
+"<code><a cbot|receive>receive</a>    </code>Получает информацию\n"
+"<code><a cbot|send>send</a>       </code>Посылает новую информацию\n"
+"<code><a cbot|testinfo>testinfo</a>   </code>Проверяет существует ли информация\n"
+"<code><a cbot|delinfo>deleteinfo</a> </code>Удаляет существующую информацию\n"
 
 #. type: \t; header
 #: ../E/cbot.txt:85
 #, no-wrap
 msgid "Specific instructions for classes:"
-msgstr ""
+msgstr "Специальные инструкции для классов:"
 
 #. type: \t; header
 #: ../E/cbot.txt:97
 #, no-wrap
 msgid "Specific instructions for strings:"
-msgstr ""
+msgstr "Специальные инструкции для строк:"
 
 #. type: Plain text
 #: ../E/cbot.txt:98
@@ -149,12 +155,20 @@ msgid ""
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
 msgstr ""
+"<code><a cbot|strlen>strlen</a>     </code>Получает длину строки\n"
+"<code><a cbot|strleft>strleft</a>    </code>Извлекает левую часть\n"
+"<code><a cbot|strright>strright</a>   </code>Извлекает правую часть\n"
+"<code><a cbot|strmid>strmid</a>     </code>Извлекает центральную часть\n"
+"<code><a cbot|strfind>strfind</a>    </code>Находит подстроку.\n"
+"<code><a cbot|strval>strval</a>     </code>Конвертирует строку в число\n"
+"<code><a cbot|strupper>strupper</a>   </code>Конвертирует в верхний регистр\n"
+"<code><a cbot|strlower>strlower</a>   </code>Конвертирует в нижний регистр"
 
 #. type: \t; header
 #: ../E/cbot.txt:107
 #, no-wrap
 msgid "Specific instructions for files:"
-msgstr ""
+msgstr "Специальные инструкции для файлов:"
 
 #. type: Plain text
 #: ../E/cbot.txt:108
@@ -167,6 +181,12 @@ msgid ""
 "<code><a cbot|eof>eof</a>        </code>Tests if end of file\n"
 "<code><a cbot|deletef>deletefile</a> </code>Deletes a file"
 msgstr ""
+"<code><a cbot|open>open</a>       </code>Открывает файл\n"
+"<code><a cbot|close>close</a>      </code>Закрывает файл\n"
+"<code><a cbot|writeln>writeln</a>    </code>Записывает строку в файл\n"
+"<code><a cbot|readln>readln</a>     </code>Читает строку из файла\n"
+"<code><a cbot|eof>eof</a>        </code>Проверяет достугнут ли конец файла\n"
+"<code><a cbot|deletef>deletefile</a> </code>Удаляет файл"
 
 #. type: \t; header
 #: ../E/battles.txt:53 ../E/cbot.txt:131 ../E/freehelp.txt:4
@@ -178,7 +198,7 @@ msgstr "См. также"
 #: ../E/cbot.txt:132
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot|type>Типы</a> и <a cbot|category>категории</a>."
 
 #. type: \b; header
 #: ../E/command.txt:1
@@ -458,37 +478,37 @@ msgstr ""
 #: ../E/battles.txt:1
 #, no-wrap
 msgid "Code battles"
-msgstr ""
+msgstr "Битвы программ"
 
 #. type: Plain text
 #: ../E/battles.txt:2
 #, no-wrap
 msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually."
-msgstr ""
+msgstr "Битва программ - это полностью новый игровой режим представленный в Colobot: Gold Edition. Идея в том, что вы уставливаете две программы (вашу и оппонента) чтобы они сражались друг с другом. Игрок не может взаимодействовать с миром вручную."
 
 #. type: Plain text
 #: ../E/battles.txt:18
 #, no-wrap
 msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
-msgstr ""
+msgstr "С новыми функциями предоставленными в Gold Edition, вы можете создать полностью автоматизированную базу, которой не нужно никакое влияние со стороны <a object|human>человека</a>. Все они описаны в <a cbot>Документации CBOT</a>."
 
 #. type: Plain text
 #: ../E/battles.txt:20
 #, no-wrap
 msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
-msgstr ""
+msgstr "Произведственная линия объяснена в Миссиях и Упражнениях, но вы можете прямо перейти в битвы программ не нарушая всю игру. Поэтому здесь приведено краткое описание как что работает в Colobot."
 
 #. type: \t; header
 #: ../E/battles.txt:22
 #, no-wrap
 msgid "What you want to achieve"
-msgstr ""
+msgstr "Что вы хотите достичь"
 
 #. type: Plain text
 #: ../E/battles.txt:23
 #, no-wrap
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
-msgstr ""
+msgstr "В основном, вы хотите уничтожить оппонента. Чтобы это сделать, вам нужно что то летающее, например, робот, особенно, <a object|botfr>стрелок</a>. Но вы, вероятно, будете их часто терять, поэтому, возможно, вы должны поддерживать производство работающим. Например, больше <a object|botgr>сборщиков</a> или больше <a object|factory>фабрик</a>, <a object|convert>конвертеров</a> и так далее было бы полезно в этом случае. Запомните, что роботам нужны <a object|power>батареи</a>. В любом случае, перед тем как вы начнете, вы должны также сделать несколько <a object|research>исследований</a> чтобы получить лучшие технологии. И опять, вы вначале с одним <a object|botgr>роботом</a> и <a object|titan>Титаном</a>."
 
 #. type: Image filename
 #: ../E/battles.txt:25
@@ -500,7 +520,7 @@ msgstr ""
 #: ../E/battles.txt:27
 #, no-wrap
 msgid "Titanium production"
-msgstr ""
+msgstr "Производство титана"
 
 #. type: Plain text
 #: ../E/battles.txt:28
@@ -513,12 +533,18 @@ msgid ""
 "5. Use or move somewhere your new Titanium.\n"
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
+"1. <a cbot|radar>Найдите</a> <a object|titan>Титан</a>.\n"
+"2. <a cbot|build>Постройте</a> <a object|convert>Конвертер</a>.\n"
+"3. Найдите <a object|titanore>Титановую руду</a>.\n"
+"4. Поместите ее в конвертер. Отойдите назад и подождите, пока конвертер закончит работу.\n"
+"5. Используйте или переместите ваш новый Титан.\n"
+"Повторяйте шаги 3-5 чтобы поддерживать ваше производство работающим."
 
 #. type: \t; header
 #: ../E/battles.txt:35
 #, no-wrap
 msgid "Researches"
-msgstr ""
+msgstr "Исследования"
 
 #. type: Plain text
 #: ../E/battles.txt:36
@@ -533,7 +559,7 @@ msgstr ""
 #: ../E/battles.txt:40
 #, no-wrap
 msgid "Robot production"
-msgstr ""
+msgstr "Производство роботов"
 
 #. type: Plain text
 #: ../E/battles.txt:41
@@ -549,7 +575,7 @@ msgstr ""
 #: ../E/battles.txt:46
 #, no-wrap
 msgid "Power cell production"
-msgstr ""
+msgstr "Произодство батарей"
 
 #. type: Plain text
 #: ../E/battles.txt:47
@@ -563,19 +589,19 @@ msgstr ""
 #: ../E/battles.txt:50
 #, no-wrap
 msgid "There is more"
-msgstr ""
+msgstr "Есть еще"
 
 #. type: Plain text
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr ""
+msgstr "Есть еще больше опций, это только основные. Прочитайте документацию, играйте в игруи творчески думайте чтобы придумать новые идеи. Удачи и веселья!"
 
 #. type: Plain text
 #: ../E/battles.txt:54
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot|programming>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
 
 #. type: Plain text
 #: ../E/cbot.txt:15
@@ -595,6 +621,19 @@ msgid ""
 "<code><a cbot|return>return</a>     </code>Exit from a function\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
 msgstr ""
+"<code><a cbot|extern>extern</a>     </code>Показывает главную функцию\n"
+"<code><a cbot|if>if</a>         </code>Структура выбора\n"
+"<code><a cbot|if>else</a>       </code>Структура альтернативного выбора\n"
+"<code><a cbot|switch>switch</a>     </code>Структура множественного выбора\n"
+"<code><a cbot|switch>case</a>       </code>Один выбор\n"
+"<code><a cbot|switch>default</a>    </code>Выбор по умолчанию \n"
+"<code><a cbot|for>for</a>        </code>Структура цикла\n"
+"<code><a cbot|while>while</a>      </code>Структура управления\n"
+"<code><a cbot|do>do</a>         </code>Структура управления\n"
+"<code><a cbot|break>break</a>      </code>Выход из цикла\n"
+"<code><a cbot|continue>continue</a>   </code>Продолжает цикл\n"
+"<code><a cbot|return>return</a>     </code>Выход из функции\n"
+"<code><a cbot|sizeof>sizeof</a>     </code>Размер массива"
 
 #. type: Plain text
 #: ../E/cbot.txt:55
@@ -605,6 +644,10 @@ msgid ""
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
 msgstr ""
+"<code><a cbot|space>space</a>      </code>Вычисляет свободное пространство\n"
+"<code><a cbot|flatspace>flatspace</a>  </code>Вычисляет свободное, ровное пространство\n"
+"<code><a cbot|topo>topo</a>       </code>Возвращает высоту точки\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Возвращает радиус плоской области"
 
 #. type: Plain text
 #: ../E/cbot.txt:61
@@ -622,12 +665,23 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
 msgstr ""
+"<code><a cbot|grab>grab</a>       </code>Поднимает объект\n"
+"<code><a cbot|drop>drop</a>       </code>Ставит объект\n"
+"<code><a cbot|sniff>sniff</a>      </code>Проигрывает подземные звуки\n"
+"<code><a cbot|thump>thump</a>      </code>Переворачивает вражеских насекомых\n"
+"<code><a cbot|recycle>recycle</a>    </code>Перерабатывает заброшенног бота\n"
+"<code><a cbot|shield>shield</a>     </code>Достает или убирает щит\n"
+"<code><a cbot|fire>fire</a>       </code>Стреляет из пушки\n"
+"<code><a cbot|aim>aim</a>        </code>Поворачивает пушку\n"
+"<code><a cbot|build>build</a>      </code>Строит здание\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Проверяет можно ли построить здание\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Проверяет можно ли построить здание на уровне"
 
 #. type: \t; header
 #: ../E/cbot.txt:73
 #, no-wrap
 msgid "Instructions specific for some <a cbot|object>objects</a>:"
-msgstr ""
+msgstr "Специальные инструкции применяемые к некоторым <a cbot|object>объектам</a>:"
 
 #. type: Plain text
 #: ../E/cbot.txt:74
@@ -638,12 +692,16 @@ msgid ""
 "<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
 "<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
 msgstr ""
+"<code><a cbot|factory>factory</a>    </code>Начинает создание бота\n"
+"<code><a cbot|research>research</a>   </code>Начинает исследование\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Начинает взлет космического корабля\n"
+"<code><a cbot|busy>busy</a>       </code>Проверяет занят ли объект"
 
 #. type: \t; header
 #: ../E/cbot.txt:115
 #, no-wrap
 msgid "Mathematical functions:"
-msgstr ""
+msgstr "Математические функции:"
 
 #. type: Plain text
 #: ../E/cbot.txt:116
@@ -664,18 +722,32 @@ msgid ""
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
 msgstr ""
+"<code><a cbot|rand>rand</a>       </code>Возвращает случайное число\n"
+"<code><a cbot|pow>pow</a>        </code>Возвращает степень числа\n"
+"<code><a cbot|sqrt>sqrt</a>       </code>Вовращает квадратный корень\n"
+"<code><a cbot|floor>floor</a>      </code>Возвращает предыдущее целое число\n"
+"<code><a cbot|ceil>ceil</a>       </code>Возвращает наименьшее следующее целое число\n"
+"<code><a cbot|round>round</a>      </code>Возвращает округленное число\n"
+"<code><a cbot|trunc>trunc</a>      </code>Возвращает усеченное число\n"
+"<code><a cbot|sin>sin</a>        </code>Возвращает синус\n"
+"<code><a cbot|cos>cos</a>        </code>Возвращает косинус\n"
+"<code><a cbot|tan>tan</a>        </code>Возвращает тангенс\n"
+"<code><a cbot|asin>asin</a>       </code>Возвращает арксинус\n"
+"<code><a cbot|acos>acos</a>       </code>Возвращает арккосинус\n"
+"<code><a cbot|atan>atan</a>       </code>Возвращает арктангенс\n"
+"<code><a cbot|atan2>atan2</a>      </code>Возвращет арктангенс, имеет два аргумента"
 
 #. type: Plain text
 #: ../E/cbot.txt:9
 #, no-wrap
 msgid "The <a cbot|type>type</a> of a variable appears like that: <format type>type</format>. "
-msgstr ""
+msgstr "<a cbot|type>Тип</a> переменной выглядит следующим образом: <format type>тип</format>. "
 
 #. type: Plain text
 #: ../E/cbot.txt:12
 #, no-wrap
 msgid "Constants like <a cbot|category>categories</a> are displayed like that: <format const>constant</format>. "
-msgstr ""
+msgstr "Константы такие как <a cbot|category>категории</a> отображаются следующим образом: <format const>константа</format>. "
 
 #. type: Plain text
 #: ../E/cbot.txt:5
@@ -683,55 +755,55 @@ msgstr ""
 msgid ""
 "<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
 "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr ""
+msgstr "В редакторе программы, инструкция в языке CBOT всегда отображется как <format token>инструкция</format>. Если инструкция не подсвечена, это означает что она неправильно написана. Имена инструкций всегда пишутся в нижнем регистре."
 
 #. type: \b; header
 #: ../E/cheats.txt:1
 #, no-wrap
 msgid "Cheats"
-msgstr ""
+msgstr "Коды к игре"
 
 #. type: Plain text
 #: ../E/cheats.txt:2
 #, no-wrap
 msgid "Great, you have found this secret page. We hope you will use informations contained here only for other than cheating purposes. Like testing the game or recording a cool video about Colobot."
-msgstr ""
+msgstr "Прерасно, вы нашли эту секретную страницу. Мы надеемся вы будет использовать информацию содержащуюся здесь для других целей только не для обманных целей. Например тестирование игры или запись классного видео о Colobot."
 
 #. type: \b; header
 #: ../E/cheats.txt:4
 #, no-wrap
 msgid "Console"
-msgstr ""
+msgstr "Консоль"
 
 #. type: Plain text
 #: ../E/cheats.txt:5
 #, no-wrap
 msgid "You can open the console by pressing the <key/><code>~</code><norm/> button on your keyboard. Press <key/><code>ENTER</code><norm/> to hide it or pass one of the commands below."
-msgstr ""
+msgstr "Вы можете открыть консоль нажатием кнопки <key/><code>~</code><norm/> на вашей клавиатуре. Нажмите <key/><code>ENTER</code><norm/> чтобы скрыть это или чтобы выполнить одну из команд приведенных ниже."
 
 #. type: \t; header
 #: ../E/cheats.txt:7
 #, no-wrap
 msgid "Missions"
-msgstr ""
+msgstr "Миссии"
 
 #. type: \t; header
 #: ../E/cheats.txt:13
 #, no-wrap
 msgid "Gameplay"
-msgstr ""
+msgstr "Игровой процесс"
 
 #. type: \t; header
 #: ../E/cheats.txt:32
 #, no-wrap
 msgid "Debug"
-msgstr ""
+msgstr "Отладка"
 
 #. type: \t; header
 #: ../E/cheats.txt:37
 #, no-wrap
 msgid "Aesthetic"
-msgstr ""
+msgstr "Эстетика"
 
 #. type: \b; header
 #: ../E/cheats.txt:41
@@ -743,25 +815,25 @@ msgstr ""
 #: ../E/cheats.txt:45
 #, no-wrap
 msgid "<code><a cbot|produce>produce</a>      </code>Immediately creates an object"
-msgstr ""
+msgstr "<code><a cbot|produce>produce</a>      </code>Немедленно создает объект"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:8
 #, no-wrap
 msgid "<code>winmission   </code>Immediately win the current mission"
-msgstr ""
+msgstr "<code>winmission   </code>Немедленно успешно заканчивает текущую миссию"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:9
 #, no-wrap
 msgid "<code>lostmission  </code>Immediately lose the current mission"
-msgstr ""
+msgstr "<code>lostmission  </code>Немедленно заканчивает текущую миссию с поражением"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:14
 #, no-wrap
 msgid "<code>allresearch  </code>All researches are done"
-msgstr ""
+msgstr "<code>allresearch  </code>Все исследования сделаны"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:15
@@ -779,19 +851,19 @@ msgstr ""
 #: ../E/cheats.txt:17
 #, no-wrap
 msgid "<code>fullenergy   </code>Restore energy in the currently selected bot"
-msgstr ""
+msgstr "<code>fullenergy   </code>Восстановите энегрию в текущем выбранном боте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:18
 #, no-wrap
 msgid "<code>fullshield   </code>Restore shield in the currently selected object"
-msgstr ""
+msgstr "<code>fullshield   </code>Востановите щит в текущем выбранном объекте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:19
 #, no-wrap
 msgid "<code>fullrange    </code>Flying reactor is cold"
-msgstr ""
+msgstr "<code>fullrange    </code>Летающий реактор холодный"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:20
@@ -803,43 +875,43 @@ msgstr ""
 #: ../E/cheats.txt:22
 #, no-wrap
 msgid "<code>fly          </code>You can fly even if flying is disabled in the current mission"
-msgstr ""
+msgstr "<code>fly          </code>Вы можете летать даже если летание отключено в текущей миссии"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:24
 #, no-wrap
 msgid "<code>addfreezer   </code>Flying reactor heats more slowly"
-msgstr ""
+msgstr "<code>addfreezer   </code>Летающий реактор нагревается более медленно"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:25
 #, no-wrap
 msgid "<code>addhusky     </code>You take less damage than usual"
-msgstr ""
+msgstr "<code>addhusky     </code>Вы можете получать меньше повреждений чем обычно"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:26
 #, no-wrap
 msgid "<code>nolimit      </code>You can fly higher"
-msgstr ""
+msgstr "<code>nolimit      </code>Вы можете лететь выше"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:27
 #, no-wrap
 msgid "<code>trainerpilot </code>You can drive robots which could be previously controlled only by programs"
-msgstr ""
+msgstr "<code>trainerpilot </code>Вы можете вести роботов, которые раньше могли контролироваться только программами."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:38
 #, no-wrap
 msgid "<code>photo1       </code>Free camera, you can change angle with <key/><code>+</code><norm/> and <key/><code>-</code><norm/> keys, type again to set it off"
-msgstr ""
+msgstr "<code>photo1       </code>Свободная камера, вы можете менять угол клавишами <key/><code>+</code><norm/> и <key/><code>-</code><norm/>, нажмите опять, чтобы это отключить"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:39
 #, no-wrap
 msgid "<code>photo2       </code>Same as <code>photo1</code>, except it hides interface, type again to set it off"
-msgstr ""
+msgstr "<code>photo2       </code>Также как <code>photo1</code>, за исключением того, что это скрывает интерфейс, нажмите опять, чтобы это отключить"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:47
@@ -893,7 +965,7 @@ msgstr ""
 #: ../E/cheats.txt:55
 #, no-wrap
 msgid "<code>stopmusic    </code>Stops music"
-msgstr ""
+msgstr "<code>stopmusic    </code>Останавливает музыку"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:10
@@ -941,7 +1013,7 @@ msgstr ""
 #: ../E/cheats.txt:33
 #, no-wrap
 msgid "These commands work also in main menu. Type them again to set them off."
-msgstr ""
+msgstr "Эти команды также работают в главном меню. Напишите их опять, чтобы их выключить."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:34
@@ -973,31 +1045,31 @@ msgstr ""
 #: ../E/battles.txt:17
 #, no-wrap
 msgid "Basics of production line\\m production;"
-msgstr ""
+msgstr "Основые производственной линии\\m production;"
 
 #. type: \b; header
 #: ../E/battles.txt:4
 #, no-wrap
 msgid "How to control the level"
-msgstr ""
+msgstr "Как управлять уровнем"
 
 #. type: \t; header
 #: ../E/battles.txt:6
 #, no-wrap
 msgid "Starting a code battle"
-msgstr ""
+msgstr "Начать битву программ"
 
 #. type: \t; header
 #: ../E/battles.txt:11
 #, no-wrap
 msgid "Controlling the spectator's view"
-msgstr ""
+msgstr "Управление видом наблюдателя"
 
 #. type: Plain text
 #: ../E/battles.txt:12
 #, no-wrap
 msgid "After a code battle is started, the camera is put into a special mode:"
-msgstr ""
+msgstr "После того, как битва программ началась, камере будет поставлена в специальный режим:"
 
 #. type: Plain text
 #: ../E/battles.txt:7
