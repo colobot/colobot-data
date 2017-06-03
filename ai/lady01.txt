@@ -38,11 +38,12 @@ int object::WaspCount()
 	while ( true )
 	{
 		item = retobject(i++);
-		if ( item == null )  return total;
+		if ( item == null )  break;
 
 		if ( item.category == AlienWasp )
 		{
 			total ++;
 		}
 	}
+	return total;
 }

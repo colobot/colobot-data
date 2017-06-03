@@ -64,11 +64,12 @@ int object::AlienCount()
 	while ( true )
 	{
 		item = retobject(i++);
-		if ( item == null )  return total;
+		if ( item == null )  break;
 
 		if ( item.category == AlienAnt )
 		{
 			total ++;
 		}
 	}
+	return total;
 }
