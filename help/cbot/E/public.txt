@@ -31,7 +31,7 @@ If you have declared a function \c;public\n;, you cannot define a function with 
 If a bot containing a \c;public\n; function is destroyed, the other bots that make use of this function will be stopped with an error.
 
 \b;Instruction \c;public\n; for classes
-\l;Class\u cbot\class; members can be public (by default) or \l;privat\u cbot\private;. A member can be declared private by putting \c;private\n; before the member type. Private members are not accessible from outside the class definition.
+\c;public\n; is also an access modifier for \l;class\u cbot\class; members, which is the default one. Public members can be accessed from outside of the class definition.
 \c;
 \s;public class MyClass
 \s;{
@@ -47,5 +47,5 @@ If a bot containing a \c;public\n; function is destroyed, the other bots that ma
 \s;}
 \n;
 \t;See also
-\c;\l;class\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;functions\u cbot\function;\n;
+\c;\l;class\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;functions\u cbot\function;\n;
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
