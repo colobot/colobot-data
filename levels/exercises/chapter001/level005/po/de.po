@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.11.0\n"
 
 #. type: \b; header
-#: ../help/help.E.txt:20
+#: ../help/help.E.txt:24
 #, no-wrap
 msgid "Task"
 msgstr ""
@@ -53,57 +53,33 @@ msgid "An angle is created by two lines meeting each other. We call the lines --
 msgstr ""
 
 #. type: Image filename
-#: ../help/help.E.txt:10
+#: ../help/help.E.txt:11
 #, no-wrap
 msgid "angle"
 msgstr ""
 
-#. type: Plain text
-#: ../help/help.E.txt:11
-#, no-wrap
-msgid "In CBOT, we measure angles by using units called degrees. So, the angle of 0 degrees means two lines overlapping each other, 90 degrees is the angle of the square, and 35 degrees can be for example one of the angles of a triangle. Angles can be between 0 and 360 degrees, where 360 means full rotation, so it's basically the same as 0 degrees."
-msgstr ""
-
 #. type: \b; header
-#: ../help/help.E.txt:13
+#: ../help/help.E.txt:15
 #, no-wrap
 msgid "How to Turn?"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:14
-#, no-wrap
-msgid "You can rotate your robot using the instruction <token/><c/><a cbot/turn>turn();</a>|n;<norm/>, but instead of specifying a distance like in the <token/><c/><a cbot/move>move();</a><n/><norm/> instruction, you must specify an angle (distance wouldn't make much sense for turning, don't you think?). This doesn't mean you must use some special notation, for CBOT number are just numbers, but a number like <code>5</code> means something different for <token/><c/><a cbot/move>move();</a>|n;<norm/> and <token/><c/><a cbot/turn>turn();</a><n/><norm/>."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "Imagine that you are looking at a robot from above and there is a line symbolizing the direction the robot's headed. Then there is a second line symbolizing the direction that you want your robot to head. Both lines meet in the center of the robot, so the robot is in this case the vertex. The angle between the two lines is what you need to pass to the <token/><c/><a cbot/turn>turn();</a><n/><norm/> function. The robot will turn anti-clockwise. Note that the direction of the robot has changed, so if you will turn 90 degrees twice, then your robot will be rotated 180 degrees relative to its starting rotation."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:18
+#: ../help/help.E.txt:22
 #, no-wrap
 msgid "How do you figure out the angle? It depends on the situation. In simple programs, like in this chapter, the angles are rather simple and you can \"guess\" them. The above picture might be helpful with that. You should remember the most important values like <code>0</code>, <code>90</code>, <code>180</code> and <code>360</code>. Test some angles in this exercise if you want."
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:21
+#: ../help/help.E.txt:25
 #, no-wrap
 msgid "We placed some <a object|waypoint>waypoints</a> on the ground. Together with the <a object/start>start area</a> they could form a square of side 20 meters. Get to all of them with your <a object/bottr>robot</a> and return to your starting position."
 msgstr ""
 
 #. type: \t; header
-#: ../help/help.E.txt:23
+#: ../help/help.E.txt:27
 #, no-wrap
 msgid "Tip"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:24
-#, no-wrap
-msgid "You can run a program multiple times in an exercise. You also can just write a longer program that doesn't need to be started more than once."
 msgstr ""
 
 #. type: Plain text
@@ -113,7 +89,31 @@ msgid "You did it! You wrote your own program and learned about negative paramet
 msgstr ""
 
 #. type: Image filename
-#: ../help/help.E.txt:17
+#: ../help/help.E.txt:20
 #, no-wrap
 msgid "turn_diagram"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "In CBOT, we measure angles by using units called degrees. The angle of 0 degrees means two lines overlapping each other, 90 degrees is the inside angle between two sides of a square, and 35 degrees can be for example one of the three angles of a triangle. Different angles can be anything between 0 and 360 degrees, where 360 means full rotation, so it's basically the same as 0 degrees. The measure of an angle doesn't need to be an integer, it can be any real number like <code>64.65329</code>."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "You can rotate your robot using the instruction <token/><c/><a cbot/turn>turn();</a>|n;<norm/>, but instead of specifying a distance like in the <token/><c/><a cbot/move>move();</a><n/><norm/> instruction, you must specify an angle (distance wouldn't make much sense for turning, don't you think?). This doesn't mean you must use some special notation, for CBOT numbers are just numbers. However, a number like <code>5</code> means something different for <token/><c/><a cbot/move>move();</a>|n;<norm/> and <token/><c/><a cbot/turn>turn();</a><n/><norm/>. The meaning of a symbol in programming sometimes depends on the context in which it is used."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Imagine that you are looking at a robot from above and there is a line symbolizing the direction the robot's headed. Then there is a second line symbolizing the direction that you want your robot to head. Both lines meet in the center of the robot, so the robot is in this case the vertex. The angle between the two lines is what you need to pass to the <token/><c/><a cbot/turn>turn();</a><n/><norm/> function. The robot will turn anti-clockwise. Note that the direction of the robot has changed, so if you turn 90 degrees twice, then your robot is rotated 180 degrees relative to its starting rotation."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "You can run a program multiple times in an exercise. You can also just write a longer program that doesn't need to be started more than once."
 msgstr ""

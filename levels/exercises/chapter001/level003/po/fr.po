@@ -22,18 +22,6 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
-#. type: \b; header
-#: ../help/help.E.txt:18
-#, no-wrap
-msgid "Structure of a CBOT program"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:19
-#, no-wrap
-msgid "Here is the source code you should see after opening the editor:"
-msgstr ""
-
 #. type: \t; header
 #: ../help/help.E.txt:44
 #, no-wrap
@@ -71,12 +59,6 @@ msgid "<c/>move(5);<n/>"
 msgstr ""
 
 #. type: \t; header
-#: ../help/help.E.txt:76
-#, no-wrap
-msgid "Whitespaces"
-msgstr ""
-
-#. type: \t; header
 #: ../help/help.E.txt:83
 #, no-wrap
 msgid "Blocks"
@@ -100,58 +82,16 @@ msgstr ""
 msgid "What You Already Know"
 msgstr ""
 
-#. type: Plain text
-#: ../help/help.E.txt:2
-#, no-wrap
-msgid "In the previous exercise you were shown how programming can be useful and why you should continue this course (to avoid death from an alien ambush, obviously). You also gained precious knowledge about programming in general. Now it's time to learn how to actually write programs. Yay!"
-msgstr ""
-
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Note"
 msgstr ""
 
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "This will be a long brief, but it's necessary for you to grasp the concepts before you start coding. The task for this exercise is quite simple (it's literally one line of code), but don't rush it. Take your time and read carefully the next sections to understand as much as you can. It'll only get harder in the future."
-msgstr ""
-
 #. type: \b; header
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "CBOT Editor"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:8
-#, no-wrap
-msgid "Programmers like to use so called Integrated Development Environments, shortly IDEs. They are usually \"just\" advanced text editors with compilers, debuggers and other fancy tools included, all integrated with each other. They make programmers' life easier by syntax highlighting, shortcuts, on-the-fly error checking and many more features (it depends on how advanced an IDE is)."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:10
-#, no-wrap
-msgid "CBOT editor is an IDE. Maybe it isn't that much advanced, but it gets the job done and, what is more important, it won't distract you with myriad of options and writing/fixing code for you. In this course, it is you who should write all the code, not a tool. That's the point, unless you want to be a slave of your tools."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:12
-#, no-wrap
-msgid "At first look the CBOT editor may look like just a text editor. It has options like \"New\" <button 56/>, \"Open\" <button 57/>, \"Save\" <button 58/>, \"Undo\" <button 59/>, you can type in it, and so on. However, it also has more interesting buttons and features, which makes it an IDE, not just an editor."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:14
-#, no-wrap
-msgid "You should close the <button 63/> in a moment to view the editor, although do reopen <button 63/> before you start writing any code, please."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "Use <button 24/> to add a new program to the list. Select the new program and then press <button 22/> to open it in the editor. You should at this point see a simple program viewed in the CBOT editor. This program does nothing yet, but you can already compile it by pressing <button 87/>. It should show you no errors. Play a little with the editor now, try to figure out what each button does, but don't worry about it that much. After you are done, open your <button 63/> again and head on to the next section."
 msgstr ""
 
 #. type: Plain text
@@ -185,27 +125,6 @@ msgid "Many things in CBOT must have a name, an  i d e n t i f i e r. An identif
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:36
-#, no-wrap
-msgid ""
-"1. It can only contain letters from the English alphabet, digits and an underscore characters <code>_</code>.\n"
-"2. It cannot start with a digit.\n"
-"3. It must not repeat in the same block of code."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:42
-#, no-wrap
-msgid "We'll be coming back to the naming issue a few times later, as we learn about more things we can actually name. Oh, also try not to get into arguments about naming conventions, just stick to what's best for you or what already was picked and used for the project. Programmers like to argue about such silly things in their free time. You may want to listen to our advices about naming, but you don't have to. Remember to respect other people's preferences."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:45
-#, no-wrap
-msgid "You can actually skip that part, but the main function usually has it anyway, even though it is sometimes not necessary. It gives you access to often useful information about the robot the program is running on, for example energy level, shield level, what does it hold, where it is on the map, and so on. We won't be covering that stuff for now as it's not needed at this level, just know that this weird part has its purpose."
-msgstr ""
-
-#. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "This is a  k e y w o r d  that indicates the <a cbot|extern>main function</a>. Simple as that. There can only be one main function in a program, therefore there should be only one <token/><code>extern</code><norm/> word in the program."
@@ -221,12 +140,6 @@ msgstr ""
 #: ../help/help.E.txt:53
 #, no-wrap
 msgid "This is a <a cbot|type>type</a> of the value returned by (being a result of) the main function."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:55
-#, no-wrap
-msgid "It'll be best explained by an example. Imagine a (not main) function called <code>Add</code>, which is just another way to represent the arithmetic <code>+</code> symbol. The result of <code>Add(2, 2)</code> is <code>4</code>. So <code>Add(2, 2)</code> basically means: calculate <code>2 + 2</code> and represent the result, which is <code>4</code>. So <code>Add(2, 2) + Add(2, 2)</code> means <code>4 + 4</code>. We say that the <code>Add</code> function  r e t u r n s  a number, <code>4</code> in this case. This result can be used by another function (for example the main function)."
 msgstr ""
 
 #. type: Plain text
@@ -254,12 +167,6 @@ msgid "Inside the curly braces <code>{}</code> is the actual code. But before we
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:65
-#, no-wrap
-msgid "An  <a cbot>i n s t r u c t i o n</a>  is a command in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction, which consists of another set of instructions. Let's see an example."
-msgstr ""
-
-#. type: Plain text
 #: ../help/help.E.txt:72
 #, no-wrap
 msgid "The above code means exactly \"move 5 meters forward\". Parameters of a function are always passed between parentheses <code>()</code>. If there are more parameters, they are separated by commas <code>,</code>, as we've seen in the <code>Add(2,2)</code> example. No, by default there does not exist a function called <code>Add</code> in CBOT, it is just a simple example to illustrate how functions (instructions) work."
@@ -269,18 +176,6 @@ msgstr ""
 #: ../help/help.E.txt:74
 #, no-wrap
 msgid "We say that we  c a l l  a function when we use it like that."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:77
-#, no-wrap
-msgid "Notice the semicolon (<c/>;<n/>) at the end of the line. It explicitly says that this is the end of a  <a cbot|term>s t a t e m e n t</a> -- one step of the algorithm."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:81
-#, no-wrap
-msgid "Because of ignoring all whitespaces, those languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++), it is done by using semicolons and curly braces."
 msgstr ""
 
 #. type: Plain text
@@ -302,12 +197,6 @@ msgid "There is a lot of theory and words to learn in this exercise. This is rea
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:100
-#, no-wrap
-msgid "If you feel ready, here's your task: write and run a program that commands <a object/bottr>the bot</a> to move 15 meters forward."
-msgstr ""
-
-#. type: Plain text
 #: ../help/help.E.txt:102
 #, no-wrap
 msgid "Additional, recommended exercises for this level: rename the main function, remove some parts of the program and see if it still works, try to brake the program in as many ways as you can think of, put the <c/>move();<n/> instruction outside of the main function."
@@ -317,18 +206,6 @@ msgstr ""
 #: ../help/help.E.txt:104
 #, no-wrap
 msgid "Tip (Reminder)"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:40
-#, no-wrap
-msgid "Simple, right? Notice that you cannot use spaces! Yet identifiers are often more complicated than one word, but you can write identifiers using <code>PascalCase</code>, <code>camelCase</code>, <code>underscores_as_spaces</code> or whatever you like. The identifiers don't matter for a computer as long as they follow the rules. However, they strongly matter for you, other programmers and everyone who will read your code. You should use meaningful names so that after two years you can open your old code and figure out what it does in seconds. Really, proper naming is important! Also, you should generally prefer to use English words, since English is the language of IT."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:79
-#, no-wrap
-msgid "\"Why is it, can't CBOT know the end of a statement based on the end of the line?\", you might ask. Technically, we could make it that way and some languages are built that way, but many compilers ignore all  w h i t e s p a c e s  (invisible characters, like a space, tabulator or new line). Arguably, it makes programs more readable and easier to write by giving the freedom of formatting to the programmer. You may have a different opinion about it, but that's how it works in many languages, including CBOT."
 msgstr ""
 
 #. type: Source code
@@ -359,4 +236,127 @@ msgstr ""
 #: ../help/help.E.txt:68
 #, no-wrap
 msgid "One of the available instructions tells the bot to move forward or backward a specified distance. To a person we would say \"move 5 meters forward\". The number of meters here is a  p a r a m e t e r  of the function <token/><code><a cbot|move>move</a></code><norm/>. You can give such commands to a robot using CBOT:"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "In the previous exercise you were shown how programming can be useful and why you should continue this course (to avoid death from an alien ambush, obviously). You also gained some precious knowledge about programming in general. Now it's time to learn how to actually write programs. Yay!"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "This will be a long brief, however, it is necessary for you to grasp the concepts before starting to code. The task for this exercise is quite simple (it's literally one line of code) but don't rush it. Take your time and read carefully the next sections to understand as much as you can. It'll only get harder in the future."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Programmers like to use so called Integrated Development Environments, shortly IDEs. They are usually \"just\" advanced text editors with compilers, debuggers and other fancy tools included, all integrated with each other. They make programmer lives easier thanks to syntax highlighting, keyboard shortcuts, on-the-fly error checking and many more features (it depends on how advanced an IDE is)."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "CBOT editor is an IDE. Maybe it isn't that much advanced, but it gets the job done and, what is more important, it won't distract you with myriad of options and it won't write/fix code for you. In this course, it is you who should write all the code, not a tool. That's the point of it, unless you want to be a slave of your tools."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "At first look the CBOT editor may look like just a normal text editor. It has options like \"New\" <button 56/>, \"Open\" <button 57/>, \"Save\" <button 58/>, \"Undo\" <button 59/>, you can type in it, and so on. However, it also has more interesting buttons and features which make it an IDE, not just an editor."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "You should close <button 63/> in a moment to view the editor, although do reopen <button 63/> before you start writing any code, please."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Use <button 24/> to add a new program to the list. Select the new program and then press <button 22/> to open it in the editor. At this point, you should see a simple program viewed in the CBOT editor. This program does nothing yet, but you can already compile it by pressing <button 87/>. It should show you no errors. Play a little with the editor now, try to figure out what each button does, but don't worry about it that much. After you're done, open your <button 63/> again and head on to the next section."
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "The Structure of CBOT Programs"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "Here's the source code you should be looking at after opening the editor:"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"1. It can only contain letters from the English alphabet, digits, and underscore characters <code>_</code>.\n"
+"2. It cannot start with a digit.\n"
+"3. It must not repeat in the same block of code."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "Simple, right? Notice that you cannot use spaces! Yet identifiers are often more complicated than one word, but you can write identifiers using <code>PascalCase</code>, <code>camelCase</code>, <code>underscores_as_spaces</code> or whatever style you like. The identifiers don't matter for a computer as long as they follow the rules above. However, they strongly matter for you, other programmers and everyone who will ever read your code. You should use meaningful names so that after two years you can open your old code and figure out what it does. Really, proper naming is important! Also, you should generally prefer to use English words, since English is the language of IT."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "We'll be coming back to the naming issue a few times later, as we'll be learning about more things we can actually name. Oh, also try not to get into arguments about naming conventions, just stick to what's best for you or what already was picked for the project. Programmers like to argue about such silly things as \"the one and only correct naming convention\" in their free time. You may want to listen to our advices about naming but you don't have to. Remember to respect other people's preferences."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:45
+#, no-wrap
+msgid "You can actually skip that part, but the main function usually has it anyway, even though it's sometimes unnecessary. It gives you access to often useful information about the robot the program is running on like energy level, shield level, what does it hold, where it is on the map, and so on. We won't be covering that stuff yet as it's not needed at this level, just know that this weird part has its purpose."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "It can be best explained with an example. Imagine a (not main) function called <code>Add</code>, which is just another way to represent the arithmetic <code>+</code> symbol. The result of <code>Add(2, 2)</code> is <code>4</code>. So <code>Add(2, 2)</code> basically means: calculate <code>2 + 2</code> and represent the result, which is <code>4</code>. So <code>Add(2, 2) + Add(1, 4)</code> means <code>4 + 5</code>. We say that the <code>Add</code> function  r e t u r n s  a number, <code>4</code> in this case. This result can be used by another function (for example the main function)."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:65
+#, no-wrap
+msgid "An  <a cbot>i n s t r u c t i o n</a>  is a command in CBOT. Most of them are just pre-defined functions available for you. You could say that the main function is your own instruction which consists of a sequence of other instructions. Let's see an example."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:76
+#, no-wrap
+msgid "White spaces"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:77
+#, no-wrap
+msgid "Notice the semicolon (<c/>;<n/>) at the end of the line. It explicitly says that this is the end of a  <a cbot|term>s t a t e m e n t</a> -- one step of an algorithm."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:79
+#, no-wrap
+msgid "\"Why is it, can't CBOT know the end of a statement based on the end of the line?\", you might ask. Technically, we could make it that way and some languages are built that way, but many compilers ignore all  w h i t e  s p a c e s  (invisible characters, like a space, tabulator or new line). Arguably, it makes programs more readable and easier to write by giving the freedom of formatting to the programmer. You may have a different opinion about it, but that's how it works in many languages, including CBOT."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:81
+#, no-wrap
+msgid "Because of ignoring all white spaces, those languages must have some way to distinguish each statement from each other. In CBOT (like in Java or C++), it is done by using semicolons and curly braces."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:100
+#, no-wrap
+msgid "When you feel ready, here's your task: write and run a program that commands <a object/bottr>the bot</a> to move 15 meters forward."
 msgstr ""
