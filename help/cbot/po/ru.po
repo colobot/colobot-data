@@ -1115,7 +1115,7 @@ msgstr ""
 "Oper обозначает, где именно бот должен бросить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
 "<code>InFront   </code>  Кладет перед ботом (значение по умолчанию).\n"
 "<code>Behind    </code>  Кладет позади.\n"
-"<code>EnergyPack</code>  Кладет на место расположеня собственной энергобатареи бота."
+"<code>EnergyCell</code>  Кладет на место расположеня собственной энергобатареи бота."
 
 #. type: Plain text
 #: ../E/drop.txt:24
@@ -1862,7 +1862,7 @@ msgstr ""
 "Oper означает, что бот должен сначала отыскать обьект. Если это не обозначить, подбирается обьект прямо перед ботом.\n"
 "<code>InFront   </code>  Берет пере собой (по умолчанию).\n"
 "<code>Behind    </code>  Берет позади.\n"
-"<code>EnergyPack</code>  Берет свою свою собственную батарею."
+"<code>EnergyCell</code>  Берет свою свою собственную батарею."
 
 #. type: Plain text
 #: ../E/grab.txt:24
@@ -2496,7 +2496,7 @@ msgstr "<code>energyLevel</code>"
 #: ../E/object.txt:37
 #, no-wrap
 msgid "Energy level, between 0 and 1. A normal <a object|power>power cell</a> that is fully charged returns the value <code>1</code>. A <a object|atomic>nuclear power cell</a> never returns a value higher than 1, it just lasts longer. Attention: The energy level of a bot is always zero, because the energy is not contained in the bot, but in the power cell. To know the energy level of the power cell of a bot, you must write <code>energyCell.energyLevel</code>. "
-msgstr "Уровень энергии может быть от 0 до 1. Обычная <a object|power>энергетическая ячейка</a>, которая полностью заряжена, будет возвращать значение <code>1</code>. <a object|atomic>Ядерная энергетическая ячейка</a> тоже не будет возвращать значение больше 1, просто это значение будет держаться дольше. Внимание: энергетический уровень бота всегда равен нулю, так как энергия содержится не в боте, а в энергетической ячейке. Чтобы определить энергетический уровень энергетической ячейки бота, вы должны написать <code>energyPack.energyLevel</code>."
+msgstr "Уровень энергии может быть от 0 до 1. Обычная <a object|power>энергетическая ячейка</a>, которая полностью заряжена, будет возвращать значение <code>1</code>. <a object|atomic>Ядерная энергетическая ячейка</a> тоже не будет возвращать значение больше 1, просто это значение будет держаться дольше. Внимание: энергетический уровень бота всегда равен нулю, так как энергия содержится не в боте, а в энергетической ячейке. Чтобы определить энергетический уровень энергетической ячейки бота, вы должны написать <code>energyCell.energyLevel</code>."
 
 #. type: Source code
 #: ../E/object.txt:39
@@ -2564,9 +2564,9 @@ msgid ""
 "If you want to know the energy level of a robot, you must not check <code>energyLevel</code>, but <code>energyCell.energyLevel</code>.\n"
 "If the bot has bot no power cell, <code>energyCell</code> returns <code>null</code>."
 msgstr ""
-"Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyPack содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
-"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyPack.energyLevel</code>.\n"
-"Если у бота нет энергетической ячейки, то <code>energyPack</code> вернет <code>null</code>."
+"Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyCell содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
+"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
+"Если у бота нет энергетической ячейки, то <code>energyCell</code> вернет <code>null</code>."
 
 #. type: Source code
 #: ../E/object.txt:57
