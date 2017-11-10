@@ -445,7 +445,7 @@ msgstr ""
 "       <code><a object|uranore>UraniumOre</a>           </code>Урановая Руда\n"
 "       <code><a object|titan>Titanium</a>             </code>Куб переработанного титана\n"
 "       <code><a object|power>PowerCell</a>            </code>Обычная Батарейка\n"
-"       <code><a object|atomic>NuclearPowerCell</a>     </code>Ядерная Батарейка\n"
+"       <code><a object|atomic>NuclearCell</a>          </code>Ядерная Батарейка\n"
 "       <code><a object|bullet>OrgaMatter</a>           </code>Органическая Материя\n"
 "       <code><a object|bbox>BlackBox</a>             </code>Черный Ящик\n"
 "       <code><a object|tnt>TNT</a>                  </code>Взрывное устройство\n"
@@ -752,7 +752,7 @@ msgstr "Инструкция deletefile удаляет существующие 
 #. type: Plain text
 #: ../E/deletef.txt:4
 #, no-wrap
-msgid "Files can only be deleted in the files/ folder which is located in the folder where Colobot has been installed. You cannot not delete files that are located elsewhere than in the files/ folder."
+msgid "Files can only be deleted in the files/ folder which is located in the folder inside Colobot save directory. You cannot not delete files that are located elsewhere than in the files/ folder."
 msgstr "Файлы и папки могут быть удалены только в той дирректории, в которую была установлена COLOBOT. Вы не можете удалять файлы и папки, находящиеся в другом месте."
 
 #. type: Source code
@@ -1115,7 +1115,7 @@ msgstr ""
 "Oper обозначает, где именно бот должен бросить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
 "<code>InFront   </code>  Кладет перед ботом (значение по умолчанию).\n"
 "<code>Behind    </code>  Кладет позади.\n"
-"<code>EnergyPack</code>  Кладет на место расположеня собственной энергобатареи бота."
+"<code>EnergyCell</code>  Кладет на место расположеня собственной энергобатареи бота."
 
 #. type: Plain text
 #: ../E/drop.txt:24
@@ -1414,7 +1414,7 @@ msgstr "Используйте синтаксис для объявления д
 #. type: Plain text
 #: ../E/file.txt:8
 #, no-wrap
-msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files elsewhere than in the files/ folder."
+msgid "Files can only be created and opened in the files/ folder which is located in the folder inside Colobot save directory. You cannot not create or open files elsewhere than in the files/ folder."
 msgstr "Файлы и папки могут быть открыты или созданы только в папке с установленной игрой COLOBOT. Вы не можете удалять папки за пределами этой дирректории."
 
 #. type: Plain text
@@ -1862,7 +1862,7 @@ msgstr ""
 "Oper означает, что бот должен сначала отыскать обьект. Если это не обозначить, подбирается обьект прямо перед ботом.\n"
 "<code>InFront   </code>  Берет пере собой (по умолчанию).\n"
 "<code>Behind    </code>  Берет позади.\n"
-"<code>EnergyPack</code>  Берет свою свою собственную батарею."
+"<code>EnergyCell</code>  Берет свою свою собственную батарею."
 
 #. type: Plain text
 #: ../E/grab.txt:24
@@ -2496,7 +2496,7 @@ msgstr "<code>energyLevel</code>"
 #: ../E/object.txt:37
 #, no-wrap
 msgid "Energy level, between 0 and 1. A normal <a object|power>power cell</a> that is fully charged returns the value <code>1</code>. A <a object|atomic>nuclear power cell</a> never returns a value higher than 1, it just lasts longer. Attention: The energy level of a bot is always zero, because the energy is not contained in the bot, but in the power cell. To know the energy level of the power cell of a bot, you must write <code>energyCell.energyLevel</code>. "
-msgstr "Уровень энергии может быть от 0 до 1. Обычная <a object|power>энергетическая ячейка</a>, которая полностью заряжена, будет возвращать значение <code>1</code>. <a object|atomic>Ядерная энергетическая ячейка</a> тоже не будет возвращать значение больше 1, просто это значение будет держаться дольше. Внимание: энергетический уровень бота всегда равен нулю, так как энергия содержится не в боте, а в энергетической ячейке. Чтобы определить энергетический уровень энергетической ячейки бота, вы должны написать <code>energyPack.energyLevel</code>."
+msgstr "Уровень энергии может быть от 0 до 1. Обычная <a object|power>энергетическая ячейка</a>, которая полностью заряжена, будет возвращать значение <code>1</code>. <a object|atomic>Ядерная энергетическая ячейка</a> тоже не будет возвращать значение больше 1, просто это значение будет держаться дольше. Внимание: энергетический уровень бота всегда равен нулю, так как энергия содержится не в боте, а в энергетической ячейке. Чтобы определить энергетический уровень энергетической ячейки бота, вы должны написать <code>energyCell.energyLevel</code>."
 
 #. type: Source code
 #: ../E/object.txt:39
@@ -2564,9 +2564,9 @@ msgid ""
 "If you want to know the energy level of a robot, you must not check <code>energyLevel</code>, but <code>energyCell.energyLevel</code>.\n"
 "If the bot has bot no power cell, <code>energyCell</code> returns <code>null</code>."
 msgstr ""
-"Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyPack содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
-"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyPack.energyLevel</code>.\n"
-"Если у бота нет энергетической ячейки, то <code>energyPack</code> вернет <code>null</code>."
+"Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyCell содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
+"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
+"Если у бота нет энергетической ячейки, то <code>energyCell</code> вернет <code>null</code>."
 
 #. type: Source code
 #: ../E/object.txt:57
@@ -2655,7 +2655,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/open.txt:17
 #, no-wrap
-msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files that are located elsewhere than in the files/ folder."
+msgid "Files can only be created and opened in the files/ folder which is located in the folder inside Colobot save directory. You cannot not create or open files that are located elsewhere than in the files/ folder."
 msgstr "Файлы могут находиться только в папке с установленной игрой."
 
 #. type: Plain text
@@ -8026,7 +8026,7 @@ msgid ""
 "       <code><a object|flag>VioletFlag</a>        </code>Violet Flag\n"
 "       <code><a object|waypoint>WayPoint</a>          </code>Checkpoint\n"
 "       <code><a object|target2>Target2</a>           </code>Flying checkpoint\n"
-"       <code><a object|enerspot>EnergySpot</a>        </code>Underground Energy Deposit\n"
+"       <code><a object|enerspot>PowerSpot</a>        </code>Underground Energy Deposit\n"
 "       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
 "       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
 msgstr ""

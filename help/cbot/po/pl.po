@@ -753,8 +753,8 @@ msgstr "Instrukcja deletefile usuwa istniejący plik z folderu files/. "
 #. type: Plain text
 #: ../E/deletef.txt:4
 #, no-wrap
-msgid "Files can only be deleted in the files/ folder which is located in the folder where Colobot has been installed. You cannot not delete files that are located elsewhere than in the files/ folder."
-msgstr "Pliki mogą być usuwane tylko w folderze files/ znajdującym się w folderze, w którym została zainstalowana gra Colobot. Nie jest możliwe usuwanie plików znajdujących się w innych folderach."
+msgid "Files can only be deleted in the files/ folder which is located in the folder inside Colobot save directory. You cannot not delete files that are located elsewhere than in the files/ folder."
+msgstr "Pliki mogą być usuwane tylko w folderze files/ znajdującym się w folderze zapisów gry Colobot. Nie jest możliwe usuwanie plików znajdujących się w innych folderach."
 
 #. type: Source code
 #: ../E/deletef.txt:7
@@ -1409,8 +1409,8 @@ msgstr "Powyższej składni należ używać do deklarowania zmiennej plikowej. K
 #. type: Plain text
 #: ../E/file.txt:8
 #, no-wrap
-msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files elsewhere than in the files/ folder."
-msgstr "Pliki mogą być tworzone i otwierane tylko w folderze files/, który znajduje sie w folderze instalacji gry Colobot. Nie jest możliwe tworzenie ani otwieranie plików poza folderem files/."
+msgid "Files can only be created and opened in the files/ folder which is located in the folder inside Colobot save directory. You cannot not create or open files elsewhere than in the files/ folder."
+msgstr "Pliki mogą być tworzone i otwierane tylko w folderze files/, który znajduje sie w folderze zapisów gry Colobot. Nie jest możliwe tworzenie ani otwieranie plików poza folderem files/."
 
 #. type: Plain text
 #: ../E/file.txt:11
@@ -2661,8 +2661,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/open.txt:17
 #, no-wrap
-msgid "Files can only be created and opened in the files/ folder which is located in the folder where Colobot has been installed. You cannot not create or open files that are located elsewhere than in the files/ folder."
-msgstr "Pliki mogą być tworzone tylko w folderze files/ znajdującym się w folderze, w którym została zainstalowana gra Colobot. Nie jest możliwe tworzenie ani otwieranie plików znajdujących się w innych folderach."
+msgid "Files can only be created and opened in the files/ folder which is located in the folder inside Colobot save directory. You cannot not create or open files that are located elsewhere than in the files/ folder."
+msgstr "Pliki mogą być tworzone tylko w folderze files/ znajdującym się w folderze zapisów gry Colobot. Nie jest możliwe tworzenie ani otwieranie plików znajdujących się w innych folderach."
 
 #. type: Plain text
 #: ../E/open.txt:20
@@ -8208,7 +8208,7 @@ msgid ""
 "       <code><a object|flag>VioletFlag</a>        </code>Violet Flag\n"
 "       <code><a object|waypoint>WayPoint</a>          </code>Checkpoint\n"
 "       <code><a object|target2>Target2</a>           </code>Flying checkpoint\n"
-"       <code><a object|enerspot>EnergySpot</a>        </code>Underground Energy Deposit\n"
+"       <code><a object|enerspot>PowerSpot</a>        </code>Underground Energy Deposit\n"
 "       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
 "       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
 msgstr ""
