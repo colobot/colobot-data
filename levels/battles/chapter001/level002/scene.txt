@@ -1,5 +1,5 @@
-Title.E text="Code battle - vs computer"
-Resume.E text="Challenge your... computer? Actually, challenge the developers! But, for real, this is just a simple enemy program that you can use if you don't have any real opponent"
+Title.E text="ShootOut"
+Resume.E text="Challenge your friend in this simple 1v1 scenario. May the best WingedShooter win!"
 
 #Include file="%cat%/level_common.txt"
 Level type=CODE_BATTLE magnifyDamage=10
@@ -7,15 +7,10 @@ Level type=CODE_BATTLE magnifyDamage=10
 BeginObject
 
 // Team "Blue" (1)
-CreateObject pos=0;-40 dir=1.5 type=WheeledGrabber team=1 select=true
-CreateObject pos=0;-38.5 type=Titanium
-CreateObject pos=0;-57.5 dir=1.5 type=Derrick magnifyDamage=0 selectable=false
+CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
 
 // Team "Red" (2)
-// TODO: selectable=0, but only before start?
-CreateObject pos=0;40 dir=0.5 type=WheeledGrabber team=2 script1="%lvl%/program.txt" scriptReadOnly1=true run=1
-CreateObject pos=0;38.5 type=Titanium
-CreateObject pos=0;57.5 dir=0.5 type=Derrick magnifyDamage=0 selectable=false
+CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2
 
-EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
-EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0 winTeam=1
+EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=0 winTeam=2

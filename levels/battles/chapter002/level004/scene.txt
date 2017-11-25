@@ -1,5 +1,5 @@
-Title.E text="ShootingRange"
-Resume.E text="Aim & shoot - simple as that!"
+Title.E text="ShootOut"
+Resume.E text="Challenge the developers! Sharpen your CodeBattle skills."
 
 #Include file="%cat%/level_common.txt"
 Level type=CODE_BATTLE magnifyDamage=10
@@ -11,7 +11,7 @@ CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 selec
 
 // Team "Red" (2)
 // TODO: selectable=0, but only before start?
-CreateObject pos=0;40 dir=0.5 type=PracticeBot team=2 script1="flash.txt" scriptReadOnly1=true run=1
+CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2 script1="%lvl%/program.txt" scriptReadOnly1=true run=1
 
 DoneResearch type=WINGER
 DoneResearch type=SHOOTER
