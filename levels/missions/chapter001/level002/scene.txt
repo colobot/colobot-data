@@ -39,7 +39,7 @@ CreateObject pos=-18.0;-30.0 dir=0.0 type=RadarStation
 CreateObject pos= 37; 47 cmdline=3;-37;47;-37;-47;37;-47 dir=1.0 type=PracticeBot trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
 CreateObject pos= 37;-47 cmdline=3;37;47;-37;47;-37;-47 dir=1.5 type=WheeledSniffer trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
 CreateObject pos=-37;-47 cmdline=5;33;-47;33;-43;-33;-43;-33;43;-37;43 dir=0.0 type=WheeledShooter trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
-CreateObject pos= 5; 5 cmdline=3;5;-5;-5;-5;-5;5 dir=0.5 type=TrackedSniffer trainer=1 script1="strain2.txt" run=1 power=100 selectable=0
+CreateObject pos= 5; 5 cmdline=3;5;-5;-5;-5;-5;5 dir=0.5 type=TrackedSniffer script1="strain2.txt" run=1 power=100 selectable=0
 
 CreateObject pos=-45;31 dir=1.5 type=Tech option=2 selectable=0 clip=0
 CreateObject pos=-47;24 dir=1.2 type=Tech option=2 selectable=0 clip=0 script1="human02.txt" run=1
