@@ -1,0 +1,198 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-02-25 21:46+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Titanium 2"
+msgstr "Titan 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use the bot's radar to look for the titanium ore and bring it to the converter."
+msgstr "Najděte titanovou rudu pomocí robotova radaru a odvezte ji do konvertoru."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Titanium2"
+msgstr "Titan2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Take a chunk of <a object|titanore>titanium ore</a> the exact location of which we do not know. Use the bot's radar to find it. Bring the titanium ore to the <a object|convert>converter</a>."
+msgstr "Vezměte hroudu <a object|titanore>titanové rudy</a>, jejíž přesnou polohu neznáme. Najděte ji pomocí robotova radaru. Pak ji odvezte do <a object|convert>konvertoru</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "As you have certainly noticed, the programs written in the previous exercises were completely \"blind\": if the titanium ore, the power cell or the spiders had been at another location, the bot would not have found them."
+msgstr "Jak jste si jistě všimli, programy napsané v předchozích cvičeních fungovaly zcela \"naslepo\": kdyby byla titanová ruda, baterie nebo pavouci někde jinde, robot by je nenašel."
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "The radar represents the \"eyes\" of the bot. With the radar, it can detect the objects around it. For example the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> will return information about the closest chunk of <a object|titanore>titanium ore</a>. However, we will have to \"store\" the information returned by the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> somewhere. For this task we will need a <a cbot|var>variable</a>."
+msgstr "Radar představuje \"oči\" robota. Pomocí radaru může hledat objekty v okolí. Například příkaz <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> vrátí informace o nejbližší hroudě <a object|titanore>titanové rudy</a>. Jenže informace vrácené příkazem <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> budeme muset někam uložit. K tomu slouží <a cbot|var>proměnné</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "A <a cbot|var>variable</a> is like a small box with a name where you can put some information, retrieve it, change it, etc. Before you can use a variable, you have got to declare it. First you must indicate the <a cbot|type>type</a> of the variable, in this case <code>object</code>. A variable of this type can contain all the information describing an object such as a chunk of titanium ore, a spider, an ant, a bot, a power cell, etc. Then you must write the name that you want to give to the variable, for example <code>item</code>. If we put this together, we get the following line:"
+msgstr "<a cbot|var>Proměnná</a> je jako malá pojmenovaná krabička, kde si můžete nějakou informaci odložit, prohlédnout, upravit, atd. Před použitím proměnné ji musíte nejprve deklarovat. Nejdříve musíte určit <a cbot|type>datový typ</a> proměnné, v tomto případě <code>object</code>. Do proměnné tohoto typu můžete uložit všechny informace popisující nějaký objekt, například hroudu titanové rudy, pavouka, mravence, robota, baterii, atd. Pak musíte napsat jméno, které chcete nové proměnné přidělit, například <code>item</code>. Když to dáme dohromady, vyjde nám následující řádek:"
+
+#. type: Source code
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a cbot|type>object</a> item;"
+msgstr "<a cbot|type>object</a> item;"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "Then we must put the information returned by the instruction <code><a cbot|radar>radar</a>(TitaniumOre)</code> into this variable:"
+msgstr "Pak do této proměnné musíme uložit informace vrácené příkazem <code><a cbot|radar>radar</a>(TitaniumOre)</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "item = <a cbot|radar>radar</a>(TitaniumOre);"
+msgstr "item = <a cbot|radar>radar</a>(TitaniumOre);"
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "The variable <code>item</code> contains many different kinds of information: it contains the position, the orientation, the pitch, etc. In order to get the position of the chunk of titanium ore, write <code>item.position</code>. Then we use the instruction <c/>goto();<n/> in order to move the bot to this position. Here is a line that puts all this together:"
+msgstr "Proměnná <code>item</code> obsahuje několik různých informací: obsahuje polohu, azimut, náklon, atd. Pokud chcete zjistit polohu hroudy titanové rudy, napište <code>item.position</code>. Pak na dané místo můžeme s robotem dojet příkazem <c/>goto();<n/>. Shrnuto do jednoho řádku:"
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "<a cbot|goto>goto</a>(item.position);"
+msgstr "<a cbot|goto>goto</a>(item.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "If we \"translate\" this into English, this would mean: go to the position of the object described by the variable <code>item</code>."
+msgstr "Když to \"přeložíme\" do češtiny, znamená to: dojeď k pozici objektu popsaného v proměnné <code>item</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "You can then just pick up what is at this position with the instruction <c/><a cbot|grab>grab</a>();<n/>."
+msgstr "Pak můžete příkazem <c/><a cbot|grab>grab</a>();<n/> zvednout to, co na daném místě leží."
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "If we put all this together, we get the following program:"
+msgstr "Když to vše dáme dohromady, vyjde nám následující program:"
+
+#. type: Source code
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"extern void object::Titanium2( )\n"
+"{\n"
+"\t\n"
+"\t<a cbot|type>object</a> item;\n"
+"\titem = <a cbot|radar>radar</a>(TitaniumOre);\n"
+"\t<a cbot|goto>goto</a>(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"}"
+msgstr ""
+"extern void object::Titan2( )\n"
+"{\n"
+"\t\n"
+"\t<a cbot|type>object</a> item;\n"
+"\titem = <a cbot|radar>radar</a>(TitaniumOre);\n"
+"\t<a cbot|goto>goto</a>(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "Then you must look for the <a cbot|convert>converter</a>, and put the information about the converter into the variable <code>item</code>:"
+msgstr "Pak musíte najít <a object|convert>konvertor</a> a uložit informace o něm do proměnné <code>item</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "item = <a cbot|radar>radar</a>(Converter);"
+msgstr "item = <a cbot|radar>radar</a>(Converter);"
+
+#. type: Plain text
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "Go to the converter with the same instruction <c/><a cbot|goto>goto</a>(item.position);<n/> as above, drop the titanium, and step back. The converter will take care of the rest."
+msgstr "Dojeďte ke konvertoru opět příkazem <c/><a cbot|goto>goto</a>(item.position);<n/> jako předtím, položte rudu a zacouvejte. Konvertor zařídí zbytek."
+
+#. type: Plain text
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
+msgstr "Pokud se chcete dozvědět více o \"názvech\" různých druhů objektů v tomto programovacím jazyce, přečtěte si <a cbot|category>popis kategorií</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:45
+#, no-wrap
+msgid "Remarks"
+msgstr "Poznámky"
+
+#. type: Plain text
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "A <a cbot|var>variable</a> must be declared only once at the beginning of the program! You can then use it as often as you want."
+msgstr "<a cbot|var>Proměnnou</a> musíte deklarovat pouze jednou na začátku programu. Pak ji můžete použít, kolikrát budete chtít."
+
+#. type: Plain text
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid "In order to avoid retyping the instructions explained above, you can select them with the mouse, and copy-paste <button 61/> them into your program."
+msgstr "Abyste příkazy popsané výše nemuseli přepisovat ručně, můžete je vybrat myší a zkopírovat <button 61/> do editoru programu."
+
+#. type: \t; header
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:51
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
