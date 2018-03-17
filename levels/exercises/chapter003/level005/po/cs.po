@@ -1,0 +1,194 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-13 23:21+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Exchange posts 2"
+msgstr "Komunikační stanice 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Collect more valuable information from information exchange posts."
+msgstr "Získejte z komunikačních stanic více užitečných informací."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Info"
+msgstr "Info"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "In this exercise, the <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
+msgstr "<a object|exchange>Komunikační stanice</a> podél trasy v tomto cvičení obsahují směr a vzdálenost k další stanici. A předem nevíte, kolika komunikačních stanic se musíte dotázat na cestu k cíli."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
+msgstr "Načíst směrový úhel z <a object|exchange>komunikační stanice</a>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
+msgstr "Načíst vzdálenost z <a object|exchange>komunikační stanice</a>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "If no information could be retrieved, stop the program."
+msgstr "Pokud se informace nepodařilo načíst, ukončit program."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Execute the rotation."
+msgstr "Otočit robota."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Move forward to the next post."
+msgstr "Dojet k další stanici."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> loop. The instructions between the braces <code>{ }</code> will be repeated over and over, or until a <code><a cbot|break>break</a></code> instruction is executed."
+msgstr "Pro neomezené opakování příkazů použijte cyklus <code><a cbot|while>while</a> (true)</code>. Příkazy mezi složenými závorkami <code>{ }</code> se budou opakovat donekonečna, nebo dokud cyklus neukončí příkaz <code><a cbot|break>break</a></code>."
+
+#. type: Source code
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<c/>\twhile ( true )"
+msgstr "<c/>\twhile ( true )"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr "Tentokrát potřebujete dvě <a cbot|var>proměnné</a>, jednu pro směrový úhel, druhou pro vzdálenost. Například <code>dir</code> a <code>len</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "<c/>\tfloat  dir, len;"
+msgstr "<c/>\tfloat  dir, len;"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Then you can retrieve the information:"
+msgstr "Pak můžete načíst informace:"
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid ""
+"<c/>\tdir = receive(\"Direction\");\n"
+"<c/>\tlen = receive(\"Length\");"
+msgstr ""
+"<c/>\tdir = receive(\"Direction\");\n"
+"<c/>\tlen = receive(\"Length\");"
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid ""
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
+msgstr ""
+"Proměnná <a cbot|type>typu</a> <code><a cbot|float>float</a></code> může obsahovat speciální hodnotu nazvanou <code><a cbot|nan>nan</a></code>. Tato hodnota znamená, že proměnná neobsahuje žádné číslo (Not A Number).\n"
+"Když v dosahu nebude žádná <a object|exchange>komunikační stanice</a>, buď protože robot dorazil do cíle, nebo protože jel špatným směrem, obě proměnné <code>dir</code> i <code>len</code> budou obsahovat právě tuto hodnotu. To můžete zkontrolovat příkazem <code><a cbot|if>if</a></code> a případně ukončit cyklus příkazem <code><a cbot|break>break</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "<c/>\tif ( dir == nan )  break;"
+msgstr "<c/>\tif ( dir == nan )  break;"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "If the information retrieval from the <a object|exchange>exchange post</a> has been performed successfully, execute the rotation:"
+msgstr "Pokud bylo načtení informací z <a object|exchange>komunikační stanice</a> úspěšné, otočte robota:"
+
+#. type: Source code
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr "<c/>\tturn(dir);"
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "And move forward:"
+msgstr "A popojeďte vpřed:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "<c/>\tmove(len);"
+msgstr "<c/>\tmove(len);"
+
+#. type: \b; header
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "Remark"
+msgstr "Poznámky"
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains two values called <code>\"Direction\"</code> and <code>\"Length\"</code>."
+msgstr "Když kliknete na <a object|exchange>komunikační stanici</a>, můžete se podívat, jaké informace obsahuje. Všechny komunikační stanice v tomto cvičení obsahují dvě hodnoty nazvané <code>\"Direction\"</code> a <code>\"Length\"</code>."
+
+#. type: \t; header
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "\tRepeat forever:"
+msgstr "\tNeustále opakovat:"
