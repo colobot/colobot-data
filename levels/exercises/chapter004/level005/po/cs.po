@@ -1,0 +1,248 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-21 23:38+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Shadow"
+msgstr "Ocásek"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Jezděte za jiným robotem jako jeho ocásek."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Follow"
+msgstr "Ocasek"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
+msgstr "Držte se blízko <a object|bottr>cvičného cíle</a> naloženého výbušninami, ale nesmíte se ho dotknout, jinak vybuchne. Pokaždé, když se cvičný cíl zastaví, musíte k němu být blíže než 10 metrů. Když s ním udržíte krok 10 zastávek po sobě, zavede Vás na cílovou značku a cvičení skončí. Cvičný cíl při každé zastávce kontroluje, kde jste. Pokud budete moc daleko, budete muset začít znovu od začátku."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Look for the target bot."
+msgstr "Najít cvičný cíl."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the distance to the bot."
+msgstr "Vypočítat vzdálenost k cíli."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "if the distance to the target bot is less than 5m, move backward."
+msgstr "Pokud je vzdálenost menší než 5m, zacouvat."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Otherwise, calculate the direction of the target bot, and move towards it."
+msgstr "Jinak spočítat směrový úhel a popojet k cvičnému cíli."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "As many times before, use <code><a cbot|while>while</a> (true)</code> in order to perform the infinite loop:"
+msgstr "Stejně jako mnohokrát předtím, použijte cyklus <code><a cbot|while>while</a> (true)</code> k vytvoření nekonečné smyčky:"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"<code>while (true)\n"
+"{\n"
+"\t</code>instructions to be repeated ...<c/>\n"
+"}"
+msgstr ""
+"<code>while (true)\n"
+"{\n"
+"\t</code>příkazy, které se mají opakovat...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Look for the target bot with the instruction <code><a cbot|radar>radar</a></code>:"
+msgstr "Cvičný cíl najděte příkazem <code><a cbot|radar>radar</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<c/>\ttarget = radar(TargetBot);"
+msgstr "<c/>\ttarget = radar(TargetBot);"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "You do not have to test if the radar found a target bot: there must be one."
+msgstr "Nemusíte kontrolovat, jestli radar něco našel, protože jeden cvičný cíl v tomto cvičení být musí."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Use the instruction <code><a cbot|dist>distance</a>( , )</code> to calculate the distance between two points. The first point will be the position of your own bot, given by <code>position</code>. The second point is the position of the target bot, given by <code>target.position</code>."
+msgstr "Pro výpočet vzdálenosti mezi dvěma body použijte příkaz <code><a cbot|dist>distance</a>( , )</code>. První bod bude poloha vašeho robota daná výrazem <code>position</code>. Druhý bod bude poloha cvičného cíle daná výrazem <code>target.position</code>."
+
+#. type: Source code
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "<c/>len = distance(position, target.position);"
+msgstr "<c/>len = distance(position, target.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid ""
+"If the distance to the target bot is smaller than 5m, move backward with a speed inversely proportional to the distance: the closer you are to the bot, the faster you must move backward.\n"
+"\tDistance = 5.0 meters -> speed =  0.0\n"
+"\tDistance = 2.5 meters -> speed = -0.5\n"
+"\tDistance = 0.0 meters -> speed = -1.0\n"
+"You can use the <a cbot|expr>expression</a> <code>distance/5-1</code> in order to achieve this, together with the <code><a cbot|if>if</a></code> to test if the target is closer than 5m:"
+msgstr ""
+"Pokud jste od cvičného cíle méně než 5m daleko, couvejte rychlostí nepřímo úměrnou vzdálenosti: čím blíže k němu jste, tím rychleji musíte couvat.\n"
+"\tVzdálenost = 5.0 metrů -> výkon =  0.0\n"
+"\tVzdálenost = 2.5 metru -> výkon = -0.5\n"
+"\tVzdálenost = 0.0 metrů -> výkon = -1.0\n"
+"Vhodný výkon motorů můžete vypočítat <a cbot|expr>výrazem</a> <code>distance/5-1</code> a vzdálenost od cvičného cíle kontrolujte příkazem <code><a cbot|if>if</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"<c/>if ( len < 5 )  // too close ?\n"
+"{\n"
+"\tmotor(len/5-1, len/5-1);  // moves backward\n"
+"}"
+msgstr ""
+"<c/>if ( len < 5 )  // moc blízko?\n"
+"{\n"
+"\tmotor(len/5-1, len/5-1);  // zacouvat\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "If the distance to the target is greater than 5m, move towards the target. First calculate the angle necessary to face the target with the instruction <code><a cbot|direct>direction</a></code>. You can then adjust the speed of the right-hand and left-hand motor in order to follow the target:"
+msgstr "Pokud je vzdálenost od cvičného cíle větší než 5m, jeďte k němu. Nejprve příkazem <code><a cbot|direct>direction</a></code> spočítejte směrový úhel, o který se k němu musíte otočit. Pak můžete nastavit výkon motorů a vyjet k cíli:"
+
+#. type: Source code
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // target on the left side?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // target on the right side?\n"
+"\t{\n"
+"\t\t<n/>it is up to you to fill in<c/>\n"
+"\t}\n"
+"}"
+msgstr ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // cíl je nalevo?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // cíl je napravo?\n"
+"\t{\n"
+"\t\t<n/>zbytek dopište sami<c/>\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid ""
+"When the target is on your left, <code>dir</code> takes a positive value, ranging between 0 and 180. The <a cbot|expr>expression</a> <code>1-dir/90</code> returns a speed ranging between 1 and -1, according to the direction:\n"
+"\tdirection =   0 -> speed =  1.0\n"
+"\tdirection =  45 -> speed =  0.5\n"
+"\tdirection =  90 -> speed =  0.0\n"
+"\tdirection = 135 -> speed = -0.5\n"
+"\tdirection = 180 -> speed = -1.0"
+msgstr ""
+"Když bude cíl nalevo od robota, proměnná <code>dir</code> bude obsahovat kladnou hodnotu od 0 do 180. <a cbot|expr>Výraz</a> <code>1-dir/90</code> vrátí hodnotu výkonu od -1 do 1 v závislosti na směrovém úhlu:\n"
+"\túhel =   0 -> výkon =  1.0\n"
+"\túhel =  45 -> výkon =  0.5\n"
+"\túhel =  90 -> výkon =  0.0\n"
+"\túhel = 135 -> výkon = -0.5\n"
+"\túhel = 180 -> výkon = -1.0"
+
+#. type: Image filename
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "radar2"
+msgstr "radar2_cs"
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "When the target is on the right side, <code>dir</code> is negative, ranging between 0 and -180."
+msgstr "Když bude cíl napravo od robota, <code>dir</code> bude obsahovat zápornou hodnotu od 0 do -180."
+
+#. type: Plain text
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "The only task left for you now is to declare the <a cbot|var>variables</a> that you use in the program. <code>target</code> is of type <code>object</code>, whereas <code>dir</code> and <code>len</code> are of type <code>float</code>."
+msgstr "Dále už musíte jen deklarovat <a cbot|var>proměnné</a>, které budete v programu používat. Proměnná <code>target</code> je typu <code>object</code>, zatímco proměnné <code>dir</code> a <code>len</code> jsou typu <code>float</code>."
+
+#. type: \t; header
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Repeat forever :"
+msgstr "Opakovat stále dokola:"
