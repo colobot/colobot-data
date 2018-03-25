@@ -1,0 +1,156 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-25 15:54+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Flying mover"
+msgstr "Letecká přeprava"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Move a titanium cube across obstacles."
+msgstr "Převezte kostku titanu přes překážky."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Preprava"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
+msgstr "Odvezte <a object|titan>kostku titanu</a> na cílovou značku. Přesnou polohu titanu neznáte, ale prozradíme Vám polohu cílové značky: x=10 a y=-60."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The instruction <code>goto</code>"
+msgstr "Příkaz <code>goto</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid ""
+"The winged bot can get across obstacles. The instruction <code><a cbot|goto>goto</a></code>, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.\n"
+"This instruction can actually receive a second parameter, which is not compulsory: the flying altitude. If no second parameter is given, the flying altitude will be set to the default value of 10m."
+msgstr ""
+"Létající roboti mohou létat přes překážky. Pokud na létajícím robotu zavoláte příkaz <code><a cbot|goto>goto</a></code>, robot při přesunu na delší vzdálenost na začátku automaticky vzlétne a na konci přistane.\n"
+"Tento příkaz navíc přijímá i druhý parametr, který není povinný: letovou výšku. Pokud příkaz zavoláte bez druhého parametru, letová výška se nastaví na výchozí hodnotu 10m."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid ""
+"Therefore, the instruction:\n"
+"<c/><s/>goto(item.position);<n/>"
+msgstr ""
+"Tedy následující příkaz:\n"
+"<c/><s/>goto(item.position);<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid ""
+"Is equivalent to:\n"
+"<c/><s/>goto(item.position, 10);<n/>"
+msgstr ""
+"Je totožný jako:\n"
+"<c/><s/>goto(item.position, 10);<n/>"
+
+#. type: \b; header
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "The program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:"
+msgstr "Najdět kostku titanu pomocí příkazu <c/><a cbot|radar>radar</a>(Titanium);<n/>. Pak zkontrolujte, jestli radar opravdu něco našel. V tomto cvičení je to sice zbytečné, protože předem víme, že tu někde titan je. Ale je lepší si pěstovat zvyk, že výstupy radaru je třeba kontrolovat:"
+
+#. type: Source code
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
+msgstr ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "The variable <code>item</code> is of type <code><a cbot|object>object</a></code>. In order to know the exact location of the object described by the variable, just write <code>item.position</code>."
+msgstr "Proměnná <code>item</code> je typu <code><a cbot|object>object</a></code>. Přesnou polohu objektu popsaného touto proměnnou získáte výrazem <code>item.position</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "In order to take the titanium cube, use the instruction <code><a cbot|grab>grab</a>()</code> without any parameter."
+msgstr "Pro zvednutí kostky titanu použijte příkaz <code><a cbot|grab>grab</a>()</code> bez parametrů."
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "In order to drop the titanium, use the instruction <code><a cbot|drop>drop</a>()</code> without any parameter."
+msgstr "Pro položení titanu použijte příkaz <code><a cbot|drop>drop</a>()</code> bez parametrů."
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid ""
+"We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
+"Remark: You do not have to take care of the <code>z</code> coordinate in the case of a bot that can not fly."
+msgstr ""
+"Známe polohu cílové značky: x=10; y=-60. Musíte deklarovat <a cbot|var>proměnnou</a> typu <a cbot|point>point</a> a tyto souřadnice do ní uložit. Pak můžete tuto proměnnou předat jako argument příkazu <code><a cbot|goto>goto</a></code>.\n"
+"Poznámka: Pokud robot neumí létat, nemusíte se starat o souřadnici <code>z</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "It is now up to you to finish the program..."
+msgstr "Dopsat zbytek programu už je na Vás..."
+
+#. type: \t; header
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."

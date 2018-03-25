@@ -1,0 +1,262 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-24 21:41+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mover 3"
+msgstr "Přeprava 3"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Convert some titanium ore to titanium cubes."
+msgstr "Vyrobte z titanové rudy několik kostek titanu."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Preprava"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
+msgstr "Vyrobte z <a object|titanore>titanové rudy</a> dvě <a object|titan>kostky titanu</a> a položte je na cílové značky na souřadnicích:"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "derrick"
+msgstr "derrick"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
+msgstr "<a object|derrick>Vrtná věž</a> těží titanovou rudu z podzemí; hroudu rudy pak stačí jen zvednout ze země."
+
+#. type: Image filename
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "convert"
+msgstr "convert"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
+msgstr "<a object|convert>Konvertor</a> vyrábí z rudy titanové kostky. Jednoduše položte hroudu rudy na podložku, zacouvejte a počkejte na dokončení výroby."
+
+#. type: \b; header
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Wait until there is some titanium ore."
+msgstr "Počkat na vytěžení titanové rudy."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Go to the titanium ore."
+msgstr "Dojet k hroudě rudy."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Pick it up."
+msgstr "Zvednout ji."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Go to converter."
+msgstr "Dojet ke konvertoru."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "Drop the titanium ore."
+msgstr "Položit rudu."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "Move back 2.5 meters."
+msgstr "Zacouvat 2,5 metru."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Wait until there is a titanium cube."
+msgstr "Počkat na vyrobení kostky titanu."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Pick up the titanium cube."
+msgstr "Zvednout kostku titanu."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "Go to the platform."
+msgstr "Dojet na cílovou značku."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Drop the titanium cube."
+msgstr "Položit kostku titanu."
+
+#. type: \b; header
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "The program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"A <code><a cbot|for>for</a></code> loop allows you to repeat 2 times all the instructions.\n"
+"The titanium ore is not available immediately. You will have to wait until the derrick extracts it. Use a <code><a cbot|do>do</a></code> loop, as follows:"
+msgstr ""
+"Cyklus <code><a cbot|for>for</a></code> umožňuje dvakrát zopakovat zadané příkazy.\n"
+"Titanová ruda není dostupná hned od začátku. Budete muset počkat, než ji vrtná věž vytěží. Na to použijte cyklus <code><a cbot|do>do</a></code> takto:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"do\n"
+"{\n"
+"\tobj = radar(TitaniumOre);\n"
+"}\n"
+"while ( obj == null );"
+msgstr ""
+"do\n"
+"{\n"
+"\tobj = radar(TitaniumOre);\n"
+"}\n"
+"while ( obj == null );"
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"After the loop (when the radar has found one titanium ore), you can go to its location <code>obj.position</code> with the instruction <code><a cbot|goto>goto</a></code>. Use the instruction <code><a cbot|grab>grab</a></code> to grab the titanium ore.\n"
+"Use the following instruction in order to find the converter:"
+msgstr ""
+"Po skončení cyklu (když radar našel nějakou titanovou rudu) zjistíte její polohu výrazem <code>obj.position</code> a můžete k ní dojet příkazem <code><a cbot|goto>goto</a></code>. Pro zvednutí rudy použijte příkaz <code><a cbot|grab>grab</a></code>.\n"
+"Pro nalezení konvertoru použijte následující příkaz:"
+
+#. type: Source code
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "obj = radar(Converter);"
+msgstr "obj = radar(Converter);"
+
+#. type: Plain text
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid ""
+"After you dropped the ore on the converter, move back 2.5 meters with <code><a cbot|move>move</a>(-2.5)</code>.\n"
+"A second <code>do</code> loop allows you to wait until the titanium cube is available. You must limit the range of the radar to 5m, otherwise you would immediately find the titanium cube that you already dropped on a pad:"
+msgstr ""
+"Po položení rudy do konvertoru zacouvejte 2,5 metru příkazem <code><a cbot|move>move</a>(-2.5)</code>.\n"
+"Dalším cyklem <code>do</code> pak můžete počkat na vyrobení kostky titanu. Dosah radaru musíte omezit na 5m, jinak by okamžitě našel kostku titanu, kterou jste už předtím položili na cílovou značku:"
+
+#. type: Source code
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid ""
+"do\n"
+"{\n"
+"\tobj = radar(Titanium, 0, 360, 0, 5);\n"
+"}\n"
+"while ( obj == null );"
+msgstr ""
+"do\n"
+"{\n"
+"\tobj = radar(Titanium, 0, 360, 0, 5);\n"
+"}\n"
+"while ( obj == null );"
+
+#. type: Plain text
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid "The <code>x</code> coordinates of the 2 pads are all equal to 10. The <code>y</code> coordinates are respectively -60 and -65. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0 and 1:"
+msgstr "Obě cílové značky mají souřadnici <code>x</code> rovnu 10. Souřadnice <code>y</code> mají hodnotu -60 a -65. Nejpohodlnější způsob, jak získat souřadnice další cílové značky, je využít řídící proměnnou <code>for</code> cyklu \"<code>i</code>\", která bude v jednotlivých opakováních cyklu postupně nabývat hodnot 0 a 1:"
+
+#. type: Source code
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+msgstr ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "It is up to you to finish the program..."
+msgstr "Dopsat zbytek programu už je na Vás..."
+
+#. type: \t; header
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Repeat two times :"
+msgstr "Opakovat dvakrát:"
