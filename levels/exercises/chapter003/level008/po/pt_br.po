@@ -1,0 +1,170 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "The gold digger"
+msgstr "Le chercheur d'or"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Instruct your bot to search a zone for subsoil resources."
+msgstr "Recherche de minerai en sous-sol en programmant un robot pour quadriller une zone."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Digger"
+msgstr "Cherche"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercice"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Search the whole zone inside the barriers with the <a object|botsr>sniffer bot</a> for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross."
+msgstr ""
+"Programmez le <a object|botsr>robot</a> renifleur pour quadriller le secteur entre les barrières.\n"
+"Vous devez trouver 3 emplacements permettant de construire un derrick. Un emplacement découvert est marqué d'une croix rouge."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Description"
+msgstr "Description"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters."
+msgstr "L'enclos est carré et mesure 25 mètres de côté. Une bonne base consiste à effectuer un sondage tous les 5 mètres."
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "sniff1"
+msgstr "sniff1"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops one into another:"
+msgstr "Une façon d'y parvenir consiste à imbriquer deux boucles <code><a cbot|for>for</a></code> l'une dans l'autre:"
+
+#. type: Source code
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>sound the subsoil<code>\n"
+"\t\t</code>move 5m forward<code>\n"
+"\t}\n"
+"\t</code>sound the subsoil<code>\n"
+"\t</code>quarter turn left<code>\n"
+"\t</code>move 5m forward<code>\n"
+"\t</code>quarter turn left<c/>\n"
+"}"
+msgstr ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>o  sondage ...<code>\n"
+"\t\t</code>o  avancer de 5 mètres<code>\n"
+"\t}\n"
+"\t</code>o  sondage ...<code>\n"
+"\t</code>o  quart de tour à gauche<code>\n"
+"\t</code>o  avancer de 5 mètres<code>\n"
+"\t</code>o  quart de tour à gauche<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid ""
+"This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!\n"
+"You will have noticed that if <code>y</code> is even, the bot must turn left, and if <code>y</code> is odd, the bot must turn right.\n"
+"The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the division of <code>y</code> by <code>2</code>. For example, if <code>y=3</code>, the expression returns <code>1</code>.\n"
+"The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
+msgstr ""
+"Ce programme ne fonctionne pas. Après la première ligne sondée, le <a object|botsr>robot</a> tourne à gauche puis sonde la deuxième ligne en revenant en arrière. Au deuxième virage, il doit tourner à droite!\n"
+"On constate que si <code>y</code> est pair, il faut tourner à gauche. A l'inverse, si <code>y</code> est impair, il faut tourner à droite.\n"
+"L'<a cbot|expr>expression</a> <code>y%2</code> permet d'obtenir le reste de la division de <code>y</code> par <code>2</code>. Donc, si <code>y=3</code>, on obtient <code>1</code>.\n"
+"Le test <code><a cbot|if>if</a> { }</code> peut être suivi d'un <code>else { }</code>. Si le test est vrai, le premier <a cbot|bloc>bloc</a> <code>{ }</code> est exécuté, sinon c'est le deuxième bloc <code>{ }</code>."
+
+#. type: Source code
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>is even<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>is uneven<c/>\n"
+"}"
+msgstr ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>est pair ...<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>est impair ...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "It is up to you to finish the program."
+msgstr "A vous de terminer le programme ..."
+
+#. type: \b; header
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "Remark"
+msgstr "Remarque"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a cbot|turn>turn</a>( )</code> to move the bot."
+msgstr ""
+"L'instruction <code><a cbot|sniff>sniff</a>( )</code> effectue un sondage.\n"
+"Utilisez également les instructions <code><a cbot|move>move</a>( )</code> et <code><a cbot|turn>turn</a>( )</code>."
+
+#. type: \t; header
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a tcell2>Exercice précédent</a> et <a cbot>programmation</a>."

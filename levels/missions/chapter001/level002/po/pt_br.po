@@ -1,0 +1,124 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Building"
+msgstr "Construction"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Learn how to construct buildings."
+msgstr "Familiarisez-vous avec le matériel."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Instructions de Houston"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This is your second drill. <a object|human>You</a> should now familiarize yourself with the handling of basic equipment. This could turn out to be your best ally during the course of this expedition."
+msgstr "Vous devez à présent apprendre le maniement du matériel qui vous accompagnera durant votre voyage. "
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The construction of buildings and the manufacturing of bots all require the use of <a object|titan>titanium</a>. Titanium is a mineral found in most solar systems in the universe."
+msgstr "Tout est construit à base de titanium, disponible sur la plupart des systèmes solaires de l'univers. "
+
+#. type: \b; header
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Procedure"
+msgstr "Marche à suivre"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Position yourself close to the first <a object|titan>titanium cube</a>."
+msgstr "Approchez-vous à environ 5 mètres du premier <a object|titan>cube de titanium</a>."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Build a <a object|research>research center</a> <button 163/>. Note that only <a object|human>you</a> can accomplish the task of building; no bot can be substituted."
+msgstr "Construisez un <a object|research>centre de recherches</a> <button 163/>. Notez bien que <a object|human>vous</a> seul êtes capable de construire. Aucun robot ne peut vous remplacer pour cette tâche."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "With a second <a object|titan>titanium cube</a>, build a <a object|factory>bot factory</a> <button 160/>."
+msgstr "Construisez une <a object|factory>fabrique de robots</a> <button 160/> avec le deuxième cube de titanium."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+
+#. type: \t; header
+#: ../help/help.E.txt:13 ../help/soluce.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:14 ../help/soluce.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Commandes</a>."
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Solution"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Walk down the street that runs beside <a object|Huston>Mission Control</a>. You will find a <a object|titan>titanium cube</a> on the left hand side of the road, right after the <a object|botgr>grabber bot</a>."
+msgstr "Pour trouver le premier <a object|titan>cube de titanium</a>, longez la route qui passe devant le centre de recherches. Le cube se trouve quelques mètres après le <a object|botgr>robot déménageur</a>, sur le bord gauche de la route."
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Face the cube. Click on the first button at the bottom left of your screen: <button 163/> <build a <a object|research>research center</a>>."
+msgstr "Placez-vous sur la route, face au cube, puis cliquez sur le premier bouton <button 163/>, en bas à gauche de la fenêtre, pour construire le <a object|research>centre de recherches</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:5
+#, no-wrap
+msgid "Walk further down the road. The second cube is on the right past the four green <a object|power>power cells</a>."
+msgstr "Continuez ensuite la route. Le deuxième cube se trouve juste après les quatre <a object|power>piles</a> vertes."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Repeat 1) but click on the second button: <button 160/> <build a <a object|factory>bot factory</a>>."
+msgstr "Toujours en restant sur la route, cliquez cette fois sur le deuxième bouton <button 160/>, en bas à gauche de la fenêtre."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "As soon as both buildings are completed, the mission is at an end."
+msgstr "Dès que la <a object|factory>fabrique de robots</a> est terminée, la mission est réussie."
