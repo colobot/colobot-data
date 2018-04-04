@@ -1,0 +1,260 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mover 3"
+msgstr "Le déménageur 3"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Convert some titanium ore to titanium cubes."
+msgstr "Déplacer du minerai pour le convertir en métal."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Déplace"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercice"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
+msgstr "Il faut convertir du <a object|titanore>minerai de titanium</a> en <a object|titan>titanium</a>, puis déposer 2 cubes de titanium sur les plates-formes dont les coordonnées sont:"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "derrick"
+msgstr "derrick"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
+msgstr "Le <a object|derrick>derrick</a> extrait automatiquement du minerai de titanium, qui ne demande qu'à être ramassé."
+
+#. type: Image filename
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "convert"
+msgstr "convert"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
+msgstr "Le <a object|convert>convertisseur</a> transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre."
+
+#. type: \b; header
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "General principle"
+msgstr "Principe"
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Repeat two times :"
+msgstr "Répéter 2 fois:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Wait until there is some titanium ore."
+msgstr "Attendre tant qu'on ne trouve pas de minerai."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Go to the titanium ore."
+msgstr "Aller vers le minerai."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Pick it up."
+msgstr "Prendre le minerai."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Go to converter."
+msgstr "Aller vers le convertisseur."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "Drop the titanium ore."
+msgstr "Déposer le minerai."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "Move back 2.5 meters."
+msgstr "Reculer de 4 mètres."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Wait until there is a titanium cube."
+msgstr "Attendre tant qu'on ne trouve pas de titanium."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Pick up the titanium cube."
+msgstr "Prendre le titanium."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "Go to the platform."
+msgstr "Aller sur une plate-forme."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Drop the titanium cube."
+msgstr "Déposer le titanium."
+
+#. type: \b; header
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "The program"
+msgstr "Solution"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"A <code><a cbot|for>for</a></code> loop allows you to repeat 2 times all the instructions.\n"
+"The titanium ore is not available immediately. You will have to wait until the derrick extracts it. Use a <code><a cbot|do>do</a></code> loop, as follows:"
+msgstr ""
+"Une boucle <code><a cbot|for>for</a></code> permet de répéter 2 fois l'ensemble des instructions.\n"
+"Le minerai n'est pas forcément disponible tout de suite. Il faut donc attendre que le derrick le produise, ce qui s'effectue avec une boucle <code><a cbot|do>do</a></code> comme suit:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"do\n"
+"{\n"
+"\tobj = radar(TitaniumOre);\n"
+"}\n"
+"while ( obj == null );"
+msgstr ""
+"<c/>do\n"
+"{\n"
+"\tobj = radar(TitaniumOre);\n"
+"}\n"
+"while ( obj == null );"
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"After the loop (when the radar has found one titanium ore), you can go to its location <code>obj.position</code> with the instruction <code><a cbot|goto>goto</a></code>. Use the instruction <code><a cbot|grab>grab</a></code> to grab the titanium ore.\n"
+"Use the following instruction in order to find the converter:"
+msgstr ""
+"Lorsque la boucle se termine, vous pouvez aller à la position <code>obj.position</code> avec l'instruction <code><a cbot|goto>goto</a></code>. Pour prendre le minerai, utilisez <code><a cbot|grab>grab</a></code>.\n"
+"Pour trouver le convertisseur, il faut utiliser:"
+
+#. type: Source code
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "obj = radar(Converter);"
+msgstr "<c/>obj = radar(Converter);"
+
+#. type: Plain text
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid ""
+"After you dropped the ore on the converter, move back 2.5 meters with <code><a cbot|move>move</a>(-2.5)</code>.\n"
+"A second <code>do</code> loop allows you to wait until the titanium cube is available. You must limit the range of the radar to 5m, otherwise you would immediately find the titanium cube that you already dropped on a pad:"
+msgstr ""
+"Après avoir déposé le minerai sur le convertisseur, reculez de 4 mètres avec <code><a cbot|move>move</a>(-4)</code>.\n"
+"Une deuxième boucle <code>do</code> permet d'attendre la disponibilité du titanium. Attention à limiter la distance maximale du radar à 10 mètres, pour ne pas reprendre du titanium déjà déposé sur une plate-forme:"
+
+#. type: Source code
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid ""
+"do\n"
+"{\n"
+"\tobj = radar(Titanium, 0, 360, 0, 5);\n"
+"}\n"
+"while ( obj == null );"
+msgstr ""
+"<c/>do\n"
+"{\n"
+"\tobj = radar(Titanium, 0, 360, 0, 10);\n"
+"}\n"
+"while ( obj == null );"
+
+#. type: Plain text
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid "The <code>x</code> coordinates of the 2 pads are all equal to 10. The <code>y</code> coordinates are respectively -60 and -65. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0 and 1:"
+msgstr "Les coordonnées <code>x</code> des 2 plates-formes sont toutes égales à 10. En revanche, les coordonnées <code>y</code> varient de -60 à -65. Une bonne idée pour calculer la position est de faire intervenir la variable <code>i</code> de la boucle <code>for</code>, qui prend les valeurs 0 et 1:"
+
+#. type: Source code
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+msgstr ""
+"<c/>dest.x = 10;\n"
+"dest.y = -60-5*i;"
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "It is up to you to finish the program..."
+msgstr "A vous de terminer le programme ..."
+
+#. type: \t; header
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a tremova2>Exercice précédent</a> et <a cbot>programmation</a>."

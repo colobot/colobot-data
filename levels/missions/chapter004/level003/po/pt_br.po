@@ -1,0 +1,160 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "System Failure"
+msgstr "La panne"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Pursue a rogue bot."
+msgstr "Poursuivez un robot fou."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Instructions de Houston"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "We have just received this warning from the observation satellite: a rogue bot from the previous expedition has seized the black box from your spaceship."
+msgstr "Le satellite d'observation nous a transmis qu'un robot volant provenant de la première expédition a pris la <a object|bbox>boîte noire</a> de votre vaisseau et est en train de l'emporter."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "We are going to investigate this incident further but it is of vital importance that you retrieve your black box at once."
+msgstr "Ramenez-la à tout prix sur votre vaisseau. Nous allons investiguer sur les causes de cet incident qui peut mettre en danger votre mission."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+
+#. type: \t; header
+#: ../help/help.E.txt:8 ../help/soluce.E.txt:6
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Commandes</a>."
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Rapport du satellite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr "En orbite géostationnaire autour de Crystalium."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SURFACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      4.3C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Température:      4.3 degrés\n"
+"\\tab;Atmosphère:       azote\n"
+"\\tab;Vent:             0.0 m/s\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SOUS-SOL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energie:          aucune\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMATIONS SPECIALES<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         unknown organisms\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Détecté:          robot fou\n"
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;                  organismes inconnus\n"
+"\\tab;  - Danger:      ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Solution"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "If you lose the bot, it will drop the black box somewhere southwest of your spaceship on a region surrounded by crystals."
+msgstr "Si vous n'arrivez pas à suivre le robot, sachez qu'il va poser la <a object|bbox>boîte noire</a> quelque part au sud-ouest du <a object|base>vaisseau spatial</a>, dans une zone entourée de cristaux."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "In case your power runs out before you can bring the black box back, use the second grabber left on the spaceship."
+msgstr "S'il ne vous reste pas assez d'énergie pour ramener la <a object|bbox>boîte noire</a>, utilisez le <a object|botgj>robot</a> resté sur le <a object|base>vaisseau spatial</a>."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Commandes</a>."
