@@ -1,0 +1,170 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Alien Queen"
+msgstr "La quatrième clé"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Get the fourth key, open the vault and make the planet safe for human habitation."
+msgstr "Récupérez la quatrième et dernière clé."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Instructions de Houston"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "With the help of the fourth <a object|key>key</a> (D) located nearby, you will finally gain access to the <a object|safe>vault</a>. The groundbreaking bot you'll find inside was named a \"<a object|botphaz>phazer</a>\"."
+msgstr "Avec la quatrième <a object|key>clé</a> qui se trouve à proximité, vous aurez accès au <a object|safe>bunker</a> contenant le nouveau système d'armement, que nous avons appelé \"<a object|botphaz>robot phazer</a>\"."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "A program allowing for a collaboration between a <a object|botphaz>phazer</a> and a <a object|botshld>shielder</a> has been attached."
+msgstr "Nous vous avons transmis un programme pour faire collaborer le <a object|botshld>robot bouclier</a> avec le <a object|botphaz>robot phazer</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "You should soon find yourself in a position to test your new weapon. Your last mission is to dispose of the <a object|mother>Alien Queen</a>, the egglayer responsible for the growing number of insects on Terranova. The phazer might very well be the only bot capable of getting the job done."
+msgstr "Vous pourrez immédiatement tester ce nouveau système: votre mission consiste à tuer la  <a object|mother>reine</a> qui pond les oeufs dont sortent les fourmis qui infestent Terranova. Le <a object|botphaz>robot phazer</a> semble être le seul qui puisse en venir à bout."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "There will then be no further obstacle to the human colonization of this magnificent planet and you'll soon be able to notify Earth of the success of your mission."
+msgstr "La voie sera alors libre pour la colonisation de cette magnifique planète, et vous pourrez informer la terre que vous avez réussi votre mission!"
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+
+#. type: \t; header
+#: ../help/help.E.txt:12 ../help/soluce.E.txt:5
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Commandes</a>."
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Rapport du satellite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Terranova."
+msgstr "En orbite géostationnaire autour de Terranova."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SURFACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      23.7C\n"
+"\\tab;Atmosphere:       oxygen\n"
+"\\tab;Wind:             0.5 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Température:      23.7 degrés\n"
+"\\tab;Atmosphère:       oxygène\n"
+"\\tab;Vent:             0.5 m/s\n"
+"\\tab;Minerai titanium: par endroits\n"
+"\\tab;Minerai uranium:  par endroits"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SOUS-SOL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    in some places (spaceship)\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energie:          près du vaisseau\n"
+"\\tab;Minerai titanium: aucun\n"
+"\\tab;Minerai uranium:  aucun"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMATIONS SPECIALES<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       immediate\n"
+"\\tab;Detected:         giant egglayer\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;  - Danger:      ?\n"
+"\\tab;Détecté:          pondeuse géante\n"
+"\\tab;  - Danger:      ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Solution"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid ""
+"Unfortunately no walkthrough has been provided for this mission.\n"
+"You are on your own..."
+msgstr ""
+"Aucune solution n'est disponible pour cette mission.\n"
+"Vous devez vous débrouiller ..."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Commandes</a>."
