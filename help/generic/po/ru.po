@@ -333,21 +333,7 @@ msgid "Game"
 msgstr "Игра"
 
 #. type: Plain text
-#: ../E/command.txt:40
-#, no-wrap
-msgid ""
-"<format key><key speed10/></format> = normal speed x1\n"
-"<format key><key speed15/></format> = medium speed x1.5\n"
-"<format key><key speed20/></format> = faster speed x2\n"
-"<format key><key quit/></format> = exits mission <button 11/>"
-msgstr ""
-"<format key><key speed10/></format> = нормальная скорость x1\n"
-"<format key><key speed15/></format> = средняя скорость x1.5\n"
-"<format key><key speed20/></format> = высокая скорость x2\n"
-"<format key><key quit/></format> = выход из миссии <button 11/>"
-
-#. type: Plain text
-#: ../E/command.txt:45
+#: ../E/command.txt:47
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
 msgstr "Все эти клавиши можно переназначить в меню опции/управление."
@@ -1141,4 +1127,16 @@ msgid ""
 "<code><a cbot|this>this</a>       </code>Reference to the current instance\n"
 "<code><a cbot|extends>extends</a>    </code>Extends a class\n"
 "<code><a cbot|super>super</a>      </code>Grants access to the parent class"
+msgstr ""
+
+#. type: Plain text
+#: ../E/command.txt:40
+#, no-wrap
+msgid ""
+"<format key><key speed_dec/></format> = slow down speed by half\n"
+"<format key><key speed_reset/></format> = normal speed x1\n"
+"<format key><key speed_inc/></format> = increase speed twice\n"
+"<format key><key quicksave/></format> = quick save\n"
+"<format key><key quickload/></format> = quick load\n"
+"<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
