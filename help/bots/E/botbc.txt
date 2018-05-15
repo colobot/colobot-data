@@ -1,0 +1,32 @@
+\b;\button 193; Tracked Builder
+\image botbc 8 8;
+Tracked bot equipped with a neutron gun.
+
+\button 196; Opens a build menu with the following options :
+\button 160;   \c;\l;BotFactory\u object\factory;       \n;Robot Factory
+\button 163;   \c;\l;ResearchCenter\u object\research;   \n;Research Center
+\button 168;   \c;\l;RadarStation\u object\radar;     \n;Radar
+\button 172;   \c;\l;ExchangePost\u object\exchange;     \n;Information Exchange Post
+\button 169;   \c;\l;RepairCenter\u object\repair;     \n;Repair Center
+\button 165;   \c;\l;DefenseTower\u object\tower;     \n;Defense Tower
+\button 166;   \c;\l;AutoLab\u object\labo;          \n;Organic Matter Analyzer 
+\button 164;   \c;\l;PowerStation\u object\station;     \n;Power Station
+\button 167;   \c;\l;PowerPlant\u object\energy;       \n;Power Cell Factory
+\button 170;   \c;\l;NuclearPlant\u object\nuclear;     \n;Nuclear Plant
+\button 162;   \c;\l;Converter\u object\convert;        \n;Titanium Converter
+\button 161;   \c;\l;Derrick\u object\derrick;          \n;Derrick
+\button 174;   \c;\l;PowerCaptor\u object\captor;      \n;Parabolic Lightning Conductor
+\button 175;   \c;\l;Vault\u object\safe;            \n;Vault
+
+Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a \l;wheeled builder\u object\botbr; is a better option. When it is possible to build \l;winged bots\u object\botbj;, these represent the best solution for long distances.
+
+\t;Programming
+To program the bot's movements, use the following commands : \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+To program the neutron gun, use \c;\l;build\u cbot\build;\n;.
+
+\t;Object \l;Category\u cbot\category;
+\c;TrackedBuilder\n;
+
+\t;See also
+\l;CBOT Language\u cbot;, \l;Variables\u cbot\type; and \l;Categories\u cbot\category;.
