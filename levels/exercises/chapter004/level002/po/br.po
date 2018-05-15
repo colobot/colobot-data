@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-08 17:39-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,6 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -25,67 +26,81 @@ msgstr "Radar"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the radar to find lots of stupid blue crosses."
-msgstr "Utilisez le radar pour trouver des objets répartis aléatoirement."
+msgstr "Use o radar para encontrar muitas cruzes azuis estúpidas."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Find"
-msgstr "Cherche"
+msgstr "Encontrar"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
-msgstr "Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a object|waypoint>croix bleues</a> posées au sol. Dès que le robot est sur une croix, elle disparaît. Le principe à utiliser est le suivant:"
+msgid ""
+"Let the bot find all the <a object|waypoint>blue crosses</a> on the ground."
+" As soon as the bot passed over one of the crosses, it will disappear. Here"
+" is the general principle that you will apply:"
+msgstr ""
+"Deixe o robô encontrar todos as <a object|waypoint>cruzes azuis</a> no chão."
+" Assim que o robô passar por cima de uma das cruzes, ela desaparecerá. Aqui"
+" está o princípio geral que você aplicará:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Repeat forever:"
-msgstr "Répéter à l'infini:"
+msgstr "Repita para sempre:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Look for a cross"
-msgstr "Chercher une croix"
+msgstr "Procure uma cruz"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "If there is none, stop the program."
-msgstr "Si rien n'est trouvé, stopper"
+msgstr "Se não houver nenhum, pare o programa."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Calculate the direction of the cross."
-msgstr "Calculer la direction de la croix"
+msgstr "Calcule a direção da cruz."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "Set the speed of the motors in such a way that they will find their way to the cross."
-msgstr "Donner une consigne de vitesse aux moteurs pour se diriger dans la bonne direction"
+msgid ""
+"Set the speed of the motors in such a way that they will find their way to"
+" the cross."
+msgstr ""
+"Defina a velocidade dos motores de tal forma que eles encontrem seu caminho"
+" para a cruz."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "The program"
-msgstr "Le programme"
+msgstr "O programa"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
-msgstr "La boucle infinie s'écrit avec <code><a cbot|while>while</a></code>:"
+msgid ""
+"Use a <code><a cbot|while>while</a></code> loop in order to repeat several"
+" instructions over and over:"
+msgstr ""
+"Use um laço <code><a cbot|while>while</a></code> para repetir várias"
+" instruções várias vezes:"
 
 #. type: Source code
 #: ../help/help.E.txt:12
@@ -98,26 +113,40 @@ msgid ""
 msgstr ""
 "<code>while ( true )\n"
 "{\n"
-"\t</code>instructions...<c/>\n"
+"\t</code>instruções...<c/>\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
-msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
-msgstr "L'instruction <code><a cbot|radar>radar</a></code> détecte un objet. Cette instruction reçoit de 1 à 6 paramètres. Dans notre cas, il suffit de spécifier le premier paramètre, pour détecter toutes les croix:"
+msgid ""
+"The instruction <code><a cbot|radar>radar</a></code> will detect the blue"
+" crosses and put their description into a variable, for example <code>spot<"
+"/code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one"
+" parameter, i.e. the category of the object that it must look for:"
+msgstr ""
+"A instrução <code><a cbot|radar>radar</a></code> irá detectar as cruzes azuis"
+" e colocar sua descrição em uma variável, por exemplo <code>local</code>."
+" Neste caso, <code><a cbot|radar>radar</a>()</code> precisa de apenas um"
+" parâmetro, ou seja, a categoria do objeto que ele deve procurar:"
 
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "<c/>spot = radar(WayPoint);"
-msgstr "<c/>spot = radar(WayPoint);"
+msgstr "<c/>local = radar(WayPoint);"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
-msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
-msgstr "Si toutes les croix sont trouvées, <code>radar</code> retourne un <a cbot|null>objet nul</a>, qu'il faut détecter comme suit avec un <code><a cbot|if>if</a></code>:"
+msgid ""
+"Once all the crosses have been found, <code>radar</code> will return the"
+" value <code><a cbot|null>null</a></code>. You will have to test this case"
+" and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
+msgstr ""
+"Uma vez que todas as cruzes tenham sido encontradas, <code>radar</code>"
+" retornará o valor <code><a cbot|null>null</a></code>. Você terá que testar"
+" este caso e reagir de acordo com a instrução <code><a cbot|if>if</a></code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:21
@@ -129,35 +158,58 @@ msgid ""
 "\tbreak;        // stops the loop\n"
 "}"
 msgstr ""
-"<c/>if ( spot == null )  // plus rien?\n"
+"<c/>if ( local == null )  // acabou?\n"
 "{\n"
-"\tmotor(0, 0);  // stoppe\n"
-"\tbreak;\n"
+"\tmotor(0, 0);  // para os motores\n"
+"\tbreak;        // para o laço\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:26
 #, no-wrap
-msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
-msgstr "<n/>L'instruction <code><a cbot|break>break</a></code> sort de la boucle infinie <code>while ( true )</code>."
+msgid ""
+"<n/>The instruction <code><a cbot|break>break</a></code> will stop the"
+" infinite loop <code>while (true)</code>."
+msgstr ""
+"<n/> A instrução <code><a cbot|break>break</a></code> irá parar o laço"
+" infinito  <code>while (true)</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:28
 #, no-wrap
-msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
-msgstr "Le calcul de la direction est obtenu par l'instruction <code><a cbot|direct>direction</a>(point)</code>, qui retourne l'angle permettant d'orienter le <a object|bottr>robot</a> vers le point spécifié. La coordonnée de l'objet s'obtient simplement avec <code>spot.position</code>. La ligne suivante met donc dans la <a cbot|var>variable</a> <code>dir</code> l'angle correspondant à la direction de la croix:"
+msgid ""
+"Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate"
+" the angle of the rotation that the bot must perform in order to turn towards"
+" the blue cross. The coordinates of the object are given by <code"
+">spot.position</code>. The following line will put the angle of the necessary"
+" rotation into the <a cbot|var>variable</a> <code>dir</code>:"
+msgstr ""
+"Use a instrução <code><a cbot|direct>direction</a>()</code> para calcular o"
+" ângulo da rotação que o robô deve realizar para virar na direção da cruz"
+" azul. As coordenadas do objeto são dadas por <code>local.position</code>. A"
+" linha a seguir colocará o ângulo da rotação necessária na <a cbot|var"
+">variável</a> <code>dir</code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "<c/>dir = direction(spot.position);"
-msgstr "<c/>dir = direction(spot.position);"
+msgstr "<c/>dir = direction(local.position);"
 
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
-msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
-msgstr "L'angle obtenu est positif si le point est à gauche, et négatif s'il est à droite. Si la croix à atteindre est à gauche, il faut donner une consigne de vitesse maximale au moteur droite, et une consigne proportionnelle à l'angle au moteur gauche:"
+msgid ""
+"The value of the angle is positive if the blue cross is on your left hand,"
+" and negative if it is on your right hand. If the cross to be reached is on"
+" your left hand, you must set the right-hand motor to full speed, and set the"
+" left-hand motor to a lower speed, according to the angle:"
+msgstr ""
+"O valor do ângulo é positivo se a cruz azul estiver na sua mão esquerda e"
+" negativa se estiver na sua mão direita. Se a cruz a ser alcançada estiver à"
+" sua esquerda, você deve ajustar o motor do lado direito para a velocidade"
+" máxima e ajustar o motor do lado esquerdo para uma velocidade menor, de"
+" acordo com o ângulo:"
 
 #. type: Plain text
 #: ../help/help.E.txt:33
@@ -169,17 +221,23 @@ msgid ""
 "    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
 "    direction = <code>180</code> -> speed = <code>-1.0</code>"
 msgstr ""
-"    direction = <code>  0</code> -> vitesse = <code> 1.0</code>\n"
-"    direction = <code> 45</code> -> vitesse = <code> 0.5</code>\n"
-"    direction = <code> 90</code> -> vitesse = <code> 0.0</code>\n"
-"    direction = <code>135</code> -> vitesse = <code>-0.5</code>\n"
-"    direction = <code>180</code> -> vitesse = <code>-1.0</code>"
+"     direção = <code> 0 </code> -> velocidade = <code> 1.0 </code> \n"
+"     direção = <code> 45 </code> -> velocidade = <code> 0.5 </code> \n"
+"     direção = <code> 90 </code> -> velocidade = <code> 0.0 </code> \n"
+"     direção = <code> 135 </code> -> velocidade = <code> -0.5 </code> \n"
+"     direção = <code> 180 </code> -> velocidade = <code> -1.0 </code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:39
 #, no-wrap
-msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
-msgstr "Le diagramme ci-dessous montre les consignes aux moteurs gauche et droite selon l'angle, pour l'instruction <code><a cbot|motor>motor</a></code>:"
+msgid ""
+"The graphic below shows the speed of the left-hand and right-hand motor as"
+" set by the instruction <code><a cbot|motor>motor</a></code>, according to"
+" the angle:"
+msgstr ""
+"O gráfico abaixo mostra a velocidade do motor do lado esquerdo e do lado"
+" direito, conforme definido pela instrução <code><a cbot|motor>motor</a><"
+"/code>, de acordo com o ângulo:"
 
 #. type: Image filename
 #: ../help/help.E.txt:41
@@ -190,8 +248,18 @@ msgstr "radar2"
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
-msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
-msgstr "Si la croix est droit devant, la direction vaut 0 degrés. Les deux moteurs recevront les consignes 1 et 1, ce qui signifie avancer tout droit à la vitesse maximale. Si la croix est derrière, la vitesse du moteur droite sera -1. Le <a object|bottr>robot</a> effectue donc un demi-tour par la droite, ce qui est bien le comportement souhaité. L'<a cbot|expr>expression</a> <code>1+dir/90</code> donne exactement le résultat souhaité."
+msgid ""
+"If the cross is straight ahead, the angle is 0 degrees. The motors will get"
+" the speeds 1 and 1, which means full speed ahead. If the cross is behind,"
+" the right motor will be set to speed -1: it will turn around. You can use"
+" the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate"
+" the necessary speed of the motors:"
+msgstr ""
+"Se a cruz estiver em frente, o ângulo é 0 graus. Os motores terão as"
+" velocidades 1 e 1, o que significa velocidade total à frente. Se a cruz"
+" estiver atrás, o motor direito será ajustado para a velocidade -1: ele"
+" girará. Você pode usar a <a cbot|expr>expressão</a> <code>1+dir/90</code>"
+" para calcular a velocidade necessária dos motores:"
 
 #. type: Source code
 #: ../help/help.E.txt:43
@@ -202,16 +270,21 @@ msgid ""
 "\tmotor(1, 1+dir/90);  // turns more or less\n"
 "}"
 msgstr ""
-"<c/>if ( dir < 0 )  // à droite?\n"
+"<c/>if ( dir < 0 )  // no lado direito?\n"
 "{\n"
-"\tmotor(1, 1+dir/90);  // tourne plus ou moins\n"
+"\tmotor(1, 1+dir/90);  // gira mais ou menos\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
-msgstr "Le même raisonnement s'applique lorsque la direction est positive, comprise entre 0 et 180 degrés, et que la croix est à gauche. A vous de trouver les instructions nécessaires."
+msgid ""
+"Use the same principle if the angle has got a positive value, ranging between"
+" 0 and 180 degrees. It is up to you to work out the exact instructions to be"
+" performed:"
+msgstr ""
+"Use o mesmo princípio se o ângulo tiver um valor positivo, variando entre 0 e"
+" 180 graus. Cabe a você descobrir as instruções exatas a serem executadas:"
 
 #. type: Source code
 #: ../help/help.E.txt:49
@@ -222,25 +295,36 @@ msgid ""
 "\t</code>up to you to fill in here...<c/>\n"
 "}"
 msgstr ""
-"<code>else  // à gauche?\n"
+"<code>else  // no lado esquerdo?\n"
 "{\n"
-"\t</code>à vous de trouver ...<c/>\n"
+"\t</code>cabe a você preencher aqui...<c/>\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:54
 #, no-wrap
-msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
-msgstr "Pour que ce programme fonctionne, il faut encore déclarer toutes les variables utilisées, au début. <code>spot</code> est de type <code><a cbot|object>object</a></code>, alors que <code>dir</code> est de type <code><a cbot|float>float</a></code>."
+msgid ""
+"At the beginning of the program, you must still declare all the variables. <"
+"code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <"
+"code>dir</code> is of type <code><a cbot|float>float</a></code>."
+msgstr ""
+"No início do programa, você ainda deve declarar todas as variáveis. <code"
+">local</code> é do tipo <code> <code><a cbot|object>object</a></code>,"
+" enquanto <code>dir</code> é do tipo <code><a cbot|float>float</a></code>."
 
 #. type: \t; header
 #: ../help/help.E.txt:56
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:57
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tcircle3>Exercice précédent</a> et <a cbot>programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

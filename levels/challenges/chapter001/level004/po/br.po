@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-15 10:24-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,42 +14,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Labyrinth 3"
-msgstr "Labyrinthe"
+msgstr "Labirinto 3"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Teach your bot how to find its way out of the labyrinth."
-msgstr "Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
+msgstr "Ensine seu robô a descobrir como sair do labirinto."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Labyrinth"
-msgstr "Labyrinthe"
+msgstr "Labirinto"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
-msgstr "Programmez le <a object|bottr>robot</a> pour qu'il avance sans se cogner dans un labyrinthe. On part du principe que le labyrinthe n'est pas connu d'avance, et qu'il n'est constitué que d'un chemin, sans aucune bifurcation ni cul-de-sac. Les cases du labyrinthe sont des carrés mesurant 5 mètres de côté."
+msgid ""
+"Program the bot so that it will find its way without hitting the walls of the"
+" labyrinth. We suppose that you do not know the configuration of the"
+" labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is"
+" made of squares measuring 5m each."
+msgstr ""
+"Programe o robô para que ele encontre o caminho sem bater nas paredes do"
+" labirinto. Supomos que você não conheça a configuração do labirinto, mas não"
+" há bifurcações nem becos sem saída. O labirinto é feito de quadrados medindo"
+" 5m cada."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Useful instructions"
-msgstr "Instructions utiles"
+msgstr "Instruções úteis"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
@@ -60,19 +69,24 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
-"<code><a cbot|radar>radar</a></code> pour détecter un obstacle\n"
-"<code><a cbot|if>if</a></code> pour test une condition\n"
-"<code><a cbot|move>move</a></code> pour avancer le robot\n"
-"<code><a cbot|turn>turn</a></code> pour tourner le robot"
+"<code><a cbot|radar>radar</a></code> para detectar obstáculos\n"
+"<code><a cbot|if>if</a></code> para testar uma condição\n"
+"<code><a cbot|move>move</a></code> para mover o robô\n"
+"<code><a cbot|turn>turn</a></code> para girar o robô"
 
 #. type: \t; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

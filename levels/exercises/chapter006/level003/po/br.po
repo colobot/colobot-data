@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-11 17:29-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,56 +14,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Remote control #2"
-msgstr "Télécommande #2"
+msgstr "Controle remoto #2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Remote control a robot using an information exchange post, so it will pass over the 6 blue waypoints."
-msgstr "Télécommandez un robot par le biais d'une borne d'information."
+msgid ""
+"Remote control a robot using an information exchange post, so it will pass"
+" over the 6 blue waypoints."
+msgstr ""
+"Controle remotamente um robô usando uma posto de troca de informações, para"
+" que ele passe pelos 6 pontos de referência azuis."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "remote"
-msgstr "Remote"
+msgstr "Remoto"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid ""
-"Remote control a robot using an <a object|exchange>information exchange post</a>, so it will pass over the 6 blue waypoints.\n"
+"Remote control a robot using an <a object|exchange>information exchange post<"
+"/a>, so it will pass over the 6 blue waypoints.\n"
 "The main actors of this exercise are:"
-msgstr "Télécommandez un robot par le biais d'une <a object|exchange>borne d'information</a> pour qu'il passe par les 6 croix bleues. Les 3 acteurs principaux de cet exercice sont:"
+msgstr ""
+"Comande remotamente um robô usando uma <a object|exchange>posto de troca de"
+" informações</a>, para que ele passe pelos 6 pontos de referência azuis. \n"
+"Os principais atores deste exercício são:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "A <a object|botgr>wheeled grabber</a> robot without an energy cell. This is the master you have to program."
-msgstr "Un <a object|botgr>robot déménageur</a> sans pile, donc immobile. C'est lui l'émetteur que vous devez programmer."
+msgid ""
+"A <a object|botgr>wheeled grabber</a> robot without an energy cell. This is"
+" the master you have to program."
+msgstr ""
+"Um robô <a object|botgr>agarrador com rodas</a> sem uma célula de energia."
+" Este é o mestre que você tem que programar."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "An <a object|exchange>information exchange post</a> that receives information from the master and then transmits it to the slave."
-msgstr "Une <a object|exchange>borne d'information</a> qui reçoit des informations de l'émetteur puis les transmet au récepteur."
+msgid ""
+"An <a object|exchange>information exchange post</a> that receives information"
+" from the master and then transmits it to the slave."
+msgstr ""
+"Um <a object|exchange>posto de troca de informações</a> que recebe"
+" informações do mestre e as transmite para o escravo."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "A <a object|bottr>practice bot</a> which waits for orders from the exchange post. This robot has already been programmed."
-msgstr "Un <a object|bottr>robot d'entraînement</a> qui attend les ordres de la borne. Ce robot est déjà programmé."
+msgid ""
+"A <a object|bottr>practice bot</a> which waits for orders from the exchange"
+" post. This robot has already been programmed."
+msgstr ""
+"Um <a object|bottr>robô de prática</a> que aguarda ordens do posto de troca."
+" Este robô já foi programado."
 
 #. type: Image filename
 #: ../help/help.E.txt:9
@@ -74,46 +95,57 @@ msgstr "tremot2a"
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use two couples:"
-msgstr "Une borne stocke des couples \"nom/valeur\". Pour commander le robot esclave, nous avons choisi d'utiliser deux couples:"
+msgid ""
+"An information exchange post stores \"name/value\" couples. To control the"
+" \"slave\" robot we use two couples:"
+msgstr ""
+"Um posto de troca de informações armazena casais de \"nome / valor\". Para"
+" controlar o robô \"escravo\", usamos dois pares:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "name=\"order\", value=order number"
-msgstr "nom=\"order\", valeur=numéro de l'opération à effectuer"
+msgstr "nome=\"order\", valor=número da ordem"
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "nom=\"param\", valuer=parameter  for the operation"
-msgstr "nom=\"param\", valeur=paramètre de l'opération"
+msgstr "nome=\"param\", valor=parâmetro para a operação"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid ""
-"Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write:\n"
+"Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the"
+" distance to move or the turning angle. For example to make the slave move 20"
+" meters write:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // order \"move\""
 msgstr ""
-"L'ordre #1 signifie \"move\" et l'ordre #2 signifie \"turn\". Le paramètre est la distance à avancer ou l'angle à tourner. Par exemple, pour demander au robot esclave d'avancer de 20 mètres, il faut écrire:\n"
-"<c/><s/>\tsend(\"order\",  1, 100);  // order \"move\""
+"A ordem nº 1 significa \"move\" e a ordem nº 2 significa \"turn\". O"
+" parâmetro é a distância a ser movida ou o ângulo de giro. Por exemplo, para"
+" fazer o escravo se mover 20 metros, escreva: \n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // ordem \"move\""
 
 #. type: Source code
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "\t<a cbot|send>send</a>(\"param\", 20, 100);  // distance 20 meters"
-msgstr "\tsend(\"param\", 20, 100);  // distance"
+msgstr ""
+"\t<a cbot|send>send</a>(\"param\", 20, 100);  // distância de 20 metros"
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid ""
-"These two instruction send following 2 pieces of information to the exchange post:\n"
+"These two instruction send following 2 pieces of information to the exchange"
+" post:\n"
 "<c/>    order=1\n"
 "    param=20"
 msgstr ""
-"Ces deux instructions <code><a cbot|send>send</a></code> envoient les deux informations suivantes dans la borne:\n"
+"Essas duas instruções são enviadas após duas informações para o posto de"
+" troca: \n"
 "<c/>    order=1\n"
 "    param=20"
 
@@ -121,11 +153,21 @@ msgstr ""
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid ""
-"The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write:\n"
-"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait for end of work"
+"The slave robot waits for an order and executes it. Once the order has been"
+" executed by the slave, it removes the order from the exchange post. Once an"
+" order has been sent, the master must wait for the slave finishing the order"
+" before sending the next order. This is done by testing if the order is still"
+" inside the exchange post. Just write:\n"
+"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait"
+" for end of work"
 msgstr ""
-"Le robot esclave attend un ordre puis l'exécute. Lorsque l'exécution est terminée, il supprime l'ordre de la borne. Après avoir envoyé un ordre, le robot émetteur doit donc attendre la disparition de l'ordre dans la borne, signe que l'esclave a terminé sa tâche. Cela s'écrit ainsi, avec l'instruction <code><a cbot|testinfo>testinfo</a></code>:\n"
-"<c/><s/>\twhile ( testinfo(\"order\", 100) )  // wait end of work"
+"O robô escravo espera por uma ordem e a executa. Uma vez que o pedido foi"
+" executado pelo escravo, ele remove o pedido do posto de troca. Uma vez"
+" enviado um pedido, o mestre deve aguardar o escravo concluir o pedido antes"
+" de enviar o próximo pedido. Isso é feito testando se o pedido ainda está"
+" dentro do posto de troca. Apenas escreva: \n"
+"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // espera"
+" pelo fim do trabalho"
 
 #. type: Source code
 #: ../help/help.E.txt:25
@@ -143,11 +185,15 @@ msgstr ""
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid ""
-"As we must give more than one order its most convenient to write a <a cbot|function>function</a> <code>SendToPost</code>, that sends the order and wait for its completion:\n"
+"As we must give more than one order its most convenient to write a <a"
+" cbot|function>function</a> <code>SendToPost</code>, that sends the order and"
+" wait for its completion:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 msgstr ""
-"Comme il faudra donner plusieurs ordres, il est plus simple de créer une <a cbot|function>fonction</a> <code>SendToPost</code> qui se charge d'envoyer un ordre puis d'attendre son exécution:\n"
-"<c/><s/>void object::SendToPost(float order, float param)"
+"Como devemos dar mais de um pedido, é mais conveniente escrever uma <a"
+" cbot|function>função</a> <code>EnviarParaPosto</ code>, que envia o pedido e"
+" aguarda sua conclusão: \n"
+"<c/><s/>void object::EnviarParaPosto(float ordem, float parametro)"
 
 #. type: Source code
 #: ../help/help.E.txt:31
@@ -164,10 +210,10 @@ msgid ""
 "}"
 msgstr ""
 "{\n"
-"\tsend(\"param\", param, 100);  // send the parameter\n"
-"\tsend(\"order\", order, 100);  // send the order\n"
+"\tsend(\"param\", parametro, 100);  // envia o parâmetro\n"
+"\tsend(\"order\", ordem, 100);  // envia a ordem\n"
 "\n"
-"\twhile ( testinfo(\"order\", 100) )  // wait end of work\n"
+"\twhile ( testinfo(\"ordem\", 100) )  // espera pelo fim do trabalho\n"
 "\t{\n"
 "\t\twait(1);\n"
 "\t}\n"
@@ -180,14 +226,14 @@ msgid ""
 "To move forward by 20 meters, you must write in the main program:\n"
 "<c/><s/>\tSendToPost(1, 20);  // move(20);"
 msgstr ""
-"Pour donner l'ordre d'avancer de 20 mètres, il suffit alors d'écrire, dans le programme principal:\n"
-"<c/><s/>\tSendToPost(1, 20);  // move(20);"
+"Para avançar 20 metros, você deve escrever no programa principal: \n"
+"<c/><s/>\tEnviarParaPosto(1, 20);  // move(20);"
 
 #. type: Plain text
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "This is the route the robot must travel through:"
-msgstr "Voilà le parcours que le robot esclave doit effectuer:"
+msgstr "Esta é a rota pela qual o robô deve viajar:"
 
 #. type: Image filename
 #: ../help/help.E.txt:46
@@ -199,16 +245,21 @@ msgstr "tremot2b"
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "It's up to you to finish the programming."
-msgstr "A vous de terminer le programme ..."
+msgstr "Cabe a você terminar o programa."
 
 #. type: \t; header
 #: ../help/help.E.txt:49
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:50
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tpyta>Exercice précédent</a> et <a cbot>programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

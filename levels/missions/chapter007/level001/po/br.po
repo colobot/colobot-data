@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 12:01-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,78 +14,98 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Cloning"
-msgstr "Le canon orgaShooter"
+msgstr "Clonagem"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Reproduce the technology to manufacture an orga shooter yourself."
-msgstr "Faites les recherches nécessaires pour pouvoir construire des canons orgaShooter."
+msgstr "Reproduza a tecnologia para que você fabrique um atirador orgânico."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Find some more <a object|bullet>organic matter</a> and, given an appropriate research program performed by your <a object|labo>autolab</a>, <a object|human>you</a> should be able to manufacture orga shooters yourself."
-msgstr "Retrouvez de la <a object|bullet>matière organique</a> pour faire dans votre <a object|labo>laboratoire</a> les recherches nécessaires à la construction des canons orgaShooter."
+msgid ""
+"Find some more <a object|bullet>organic matter</a> and, given an appropriate"
+" research program performed by your <a object|labo>autolab</a>, <a"
+" object|human>you</a> should be able to manufacture orga shooters yourself."
+msgstr ""
+"Encontre um pouco mais de <a object|bullet>matéria orgânica</a> e, dado um"
+" programa de pesquisa apropriado realizado pelo seu <a object|labo>autolab</a"
+">, <a object|human>você</a> deve ser capaz de fabricar atiradores orgânicos"
+" sozinho."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Produce a <a object|botos>legged orga shooter</a> and bring it back aboard your <a object|base>spaceship</a>."
-msgstr "Construisez ensuite un <a object|botos>robot orgaShooter à pattes</a> et amenez-le sur le <a object|base>vaisseau</a>."
+msgid ""
+"Produce a <a object|botos>legged orga shooter</a> and bring it back aboard"
+" your <a object|base>spaceship</a>."
+msgstr ""
+"Produza um <a object|botos>atirador orgânico com pernas</a> e traga-o de"
+" volta a bordo de sua <a object|base>espaçonave</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "Please keep in mind that low energy resources are a major concern on this planet."
-msgstr "Nous attirons vous attention sur l'approvisionnement en énergie qui est un problème majeur sur cette planète."
+msgid ""
+"Please keep in mind that low energy resources are a major concern on this"
+" planet."
+msgstr ""
+"Por favor, tenha em mente que os recursos de baixa energia são uma grande"
+" preocupação neste planeta."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:19
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Centaury."
-msgstr "En orbite géostationnaire autour de Centaury."
+msgstr "Atualmente em uma órbita geo-estacionária de Centaury."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -97,17 +117,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
-"\\tab;Température:      23.4 degrés\n"
-"\\tab;Atmosphère:       oxygène, azote, ammoniaque\n"
-"\\tab;Vent:             1.2 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  par endroits"
+"\\tab; Temperatura: 23.4C \n"
+"\\tab; Atmosfera: oxigênio, nitrogênio, amônia \n"
+"\\tab; Vento: 1.2 mps \n"
+"\\tab; Minério de titânio: alguns \n"
+"\\tab; Minério de urânio: alguns"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -117,15 +137,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -135,78 +155,128 @@ msgid ""
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
-"\\tab;Détecté:          fourmis géantes\n"
-"\\tab;                  araignées géantes\n"
-"\\tab;  - Danger:       oui, pas imminent"
+"\\tab; Detectado: formigas gigantes \n"
+"\\tab; - Perigo: não imediato \n"
+"\\tab; Detectado: abandonados reutilizáveis"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "You'll find some useful items in a small valley northeast."
-msgstr "Dans un creux au nord-est se trouvent plusieurs objets précieux au milieu de ruines:"
+msgstr "Você encontrará alguns itens úteis em um pequeno vale a nordeste."
 
 #. type: Bullet: 'o'
 #: ../help/soluce.E.txt:3
 #, no-wrap
-msgid "A <a object|botrecy>recycler</a> that will allow you to make your first <a object|titan>titanium cube</a>."
-msgstr "Un <a object|botrecy>robot recycleur</a>, qui permet d'obtenir le premier <a object|titan>cube de titanium</a>."
+msgid ""
+"A <a object|botrecy>recycler</a> that will allow you to make your first <a"
+" object|titan>titanium cube</a>."
+msgstr ""
+"Um <a object|botrecy>reciclador</a> que permitirá que você faça o seu"
+" primeiro <a object|titan>cubo de titânio</a>."
 
 #. type: Bullet: 'o'
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "A <a object|botgs>legged grabber</a> that is very good at climbing steep slopes."
-msgstr "Un <a object|botgs>robot déménageur à pattes</a>, très utile pour gravir les fortes pentes."
+msgid ""
+"A <a object|botgs>legged grabber</a> that is very good at climbing steep"
+" slopes."
+msgstr ""
+"Um <a object|botgs>agarrador com pernas</a> é muito bom para subir encostas"
+" íngremes."
 
 #. type: Bullet: 'o'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "A nearly charged <a object|atomic>nuclear power cell</a>."
-msgstr "Une <a object|atomic>pile atomique</a> presque pleine."
+msgstr "Uma <a object|atomic>célula de energia nuclear</a> quase carregada."
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:7
 #, no-wrap
-msgid "Power the <a object|botgs>legged grabber</a> with the <a object|atomic>nuclear power cell</a>, and use it to carry a <a object|titan>titanium cube</a> to the <a object|base>spaceship</a>. Choose the direct way over the mountains."
-msgstr "Equipez le <a object|botgs>déménageur à pattes</a> de la pile atomique, et faites-lui porter un cube de titanium vers le <a object|base>vaisseau spatial</a> en prenant le chemin direct par les montagnes."
+msgid ""
+"Power the <a object|botgs>legged grabber</a> with the <a object|atomic"
+">nuclear power cell</a>, and use it to carry a <a object|titan>titanium cube<"
+"/a> to the <a object|base>spaceship</a>. Choose the direct way over the"
+" mountains."
+msgstr ""
+"Energize o <a object|botgs>agarrador com pernas</a> com a <a object|atomic"
+">célula de energia nuclear</a>, e use-o para transportar um <a object|titan"
+">cubo de titânio</a> para a <a object|base>nave espacial</a>. Escolha o"
+" caminho direto sobre as montanhas."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:9
 #, no-wrap
-msgid "Use the titanium to build a <a object|convert>converter</a>. Execute the program <code>CollectTitanium3</code> on the <a object|botgs>legged grabber</a> and you will have plenty of titanium."
-msgstr "Vous pourrez alors construire un convertisseur. Puis exécutez le programme <code>ApporteTitanium3</code> sur le <a object|botgs>déménageur à pattes</a> et vous aurez tout le titanium nécessaire."
+msgid ""
+"Use the titanium to build a <a object|convert>converter</a>. Execute the"
+" program <code>CollectTitanium3</code> on the <a object|botgs>legged grabber<"
+"/a> and you will have plenty of titanium."
+msgstr ""
+"Use o titânio para construir um <a object|convert>conversor</a>. Execute o"
+" programa <code>ColetarTitanio3</code> no <a object|botgs>agarrador com"
+" pernas</a> e você terá bastante titânio."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:11
 #, no-wrap
-msgid "Stop the program, and use the grabber to collect some <a object|uranore>uranium ore</a> in a second small valley to the east. Again, do not take the way of the valley which is crawling with ants, but take the direct way over the mountains."
-msgstr "Stoppez le programme, et allez chercher du <a object|uranore>minerai d'uranium</a> dans un deuxième creux plus à l'est. Là encore, ne parcourez pas la vallée qui y mène, elle est infestée de fourmis, mais passez par les montagnes."
+msgid ""
+"Stop the program, and use the grabber to collect some <a object|uranore"
+">uranium ore</a> in a second small valley to the east. Again, do not take the"
+" way of the valley which is crawling with ants, but take the direct way over"
+" the mountains."
+msgstr ""
+"Pare o programa, e use o agarrador para coletar algum <a object|uranore"
+">minério de urânio</a> em um segundo vale a leste. Novamente, não tome o"
+" caminho do vale que está cheio de formigas, mas siga o caminho direto sobre"
+" as montanhas."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:13
 #, no-wrap
-msgid "Build a <a object|botfj>winged shooter</a> and power it with a <a object|atomic>nuclear power cell</a>. If you take the pass south-east, you will arrive immediately at the ant nest. Kill all the ants, and bring back a ball of <a object|bullet>organic matter</a> to the <a object|base>spaceship</a>."
-msgstr "Construisez un <a object|botfj>shooter volant</a> et équipez-le d'une pile nucléaire. En empruntant le col qui se trouve au sud-est du vaisseau, vous arriverez rapidement vers le nid des fourmis. Eliminez toutes les fourmis, et vous pourrez ramener une bulle de <a object|bullet>matière organique</a> vers la base."
+msgid ""
+"Build a <a object|botfj>winged shooter</a> and power it with a <a"
+" object|atomic>nuclear power cell</a>. If you take the pass south-east, you"
+" will arrive immediately at the ant nest. Kill all the ants, and bring back a"
+" ball of <a object|bullet>organic matter</a> to the <a object|base>spaceship<"
+"/a>."
+msgstr ""
+"Construa um <a object|botfj>atirador alado </a> e energize-o com uma <a"
+" object|atomic>célula de energia nuclear</a>. Se você tomar a passagem para o"
+" sudeste, você chegará imediatamente ao ninho da formiga. Mate todas as"
+" formigas e traga de volta uma bola de <a object|bullet>matéria orgânica</a>"
+" para a <a object|base>espaçonave</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:15
 #, no-wrap
-msgid "Build an <a object|labo>auto-lab</a>, drop the <a object|bullet>organic matter</a> on the platform and click the <button 110/> button in order to develop the blueprints for the orgaShooter cannon."
-msgstr "Construisez un <a object|labo>laboratoire</a>, posez-y la <a object|bullet>matière organique</a> et cliquez sur le bouton <button 110/> pour développer les plans pour le canon orgaShooter."
+msgid ""
+"Build an <a object|labo>auto-lab</a>, drop the <a object|bullet>organic"
+" matter</a> on the platform and click the <button 110/> button in order to"
+" develop the blueprints for the orgaShooter cannon."
+msgstr ""
+"Construa um <a object|labo>auto-laboratório</a>, solte a <a object|bullet"
+">matéria orgânica</a> na plataforma e clique no botão <button 110/> para"
+" desenvolver os diagramas para o canhão orgânico."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:17
 #, no-wrap
-msgid "Build a <a object|botos>legged orga shooter</a>, bring it aboard and take off."
-msgstr "Lorsque la <a object|bullet>matière organique</a> a été analysée, construisez un <a object|botos>robot orgaShooter à pattes</a>, amenez-le sur votre <a object|base>vaisseau spatial</a> puis décollez."
+msgid ""
+"Build a <a object|botos>legged orga shooter</a>, bring it aboard and take off."
+msgstr ""
+"Construa um <a object|botos>atirador orgânico com pernas</a>, traga-o a bordo"
+" e decole."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:20
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+

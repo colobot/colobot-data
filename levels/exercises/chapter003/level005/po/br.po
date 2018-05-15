@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-08 15:19-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,108 +14,130 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Exchange posts 2"
-msgstr "Bornes 2"
+msgstr "Postos de troca 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Collect more valuable information from information exchange posts."
-msgstr "Récolter des informations de direction et de distance, afin d'apprendre le concept de variable."
+msgstr "Colete informações mais valiosas de postos de troca de informações."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Info"
-msgstr "Suivre"
+msgstr "Informação"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "In this exercise, the <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
-msgstr "9 <a object|exchange>bornes</a> d'informations sont placées le long d'un chemin. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la borne suivante."
+msgid ""
+"In this exercise, the <a object|exchange>information exchange posts</a> along"
+" the way contain the direction of the next post and the distance. And you do"
+" not know how many exchange posts you must get in touch with before arriving"
+" at your goal."
+msgstr ""
+"Neste exercício, os <a object|exchange>postos de troca de informações</a> ao"
+" longo do caminho contêm a direção do próximo posto e a distância. E você não"
+" sabe com quantos postos de troca você deve entrar em contato antes de chegar"
+" ao seu objetivo."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr "Principe"
+msgstr "Princípio geral"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "\tRepeat forever:"
-msgstr ""
+msgstr "\tRepita para sempre:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
-msgstr "Lire la direction dans la <a object|exchange>borne</a>."
+msgstr "Recupere a direção do <a object|exchange>posto de troca</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
-msgstr "Lire la longueur dans la <a object|exchange>borne</a>."
+msgstr "Recupere a distância do <a object|exchange>posto de troca</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "If no information could be retrieved, stop the program."
-msgstr ""
+msgstr "Se nenhuma informação puder ser recuperada, pare o programa."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Execute the rotation."
-msgstr "Tourner dans la direction obtenue."
+msgstr "Execute a rotação."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Move forward to the next post."
-msgstr "Avancer de la longueur obtenue."
+msgstr "Avançe para o próximo posto."
 
 #. type: Plain text
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "In order to repeat always, use a <code><a cbot|while>while</a> (true)</code> loop. The instructions between the braces <code>{ }</code> will be repeated over and over, or until a <code><a cbot|break>break</a></code> instruction is executed."
+msgid ""
+"In order to repeat always, use a <code><a cbot|while>while</a> (true)</code>"
+" loop. The instructions between the braces <code>{ }</code> will be repeated"
+" over and over, or until a <code><a cbot|break>break</a></code> instruction"
+" is executed."
 msgstr ""
+"Para repetir sempre, use um laço <code><a cbot|while>while</a> (true)</code>."
+" As instruções entre as chaves <code>{ }</ code> serão repetidas"
+" repetidamente, ou até que uma instrução <code><a cbot|break>break</a></code>"
+" seja executada."
 
 #. type: Source code
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "<c/>\twhile ( true )"
-msgstr ""
+msgstr "<c/>\twhile ( true )"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
-msgid "This time you need 2 <a cbot|var>variables</a>, one for the rotation angle, one for the distance, for example <code>dir</code> and <code>len</code> :"
-msgstr "Il faut définir deux <a cbot|var>variables</a> <code>dir</code> et <code>len</code>:"
+msgid ""
+"This time you need 2 <a cbot|var>variables</a>, one for the rotation angle,"
+" one for the distance, for example <code>dir</code> and <code>len</code> :"
+msgstr ""
+"Desta vez você precisa de 2 <a cbot|var>variáveis</a>, uma para o ângulo de"
+" rotação, uma para a distância, por exemplo <code>dir</code> e <code>dist</"
+" code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "<c/>\tfloat  dir, len;"
-msgstr "<c/>\tfloat  dir, len;"
+msgstr "<c/>\tfloat  dir, dist;"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Then you can retrieve the information:"
-msgstr "Et ensuite leur assigner la direction à prendre et la longueur à avancer:"
+msgstr "Então você pode recuperar as informações:"
 
 #. type: Source code
 #: ../help/help.E.txt:19
@@ -125,27 +147,47 @@ msgid ""
 "<c/>\tlen = receive(\"Length\");"
 msgstr ""
 "<c/>\tdir = receive(\"Direction\");\n"
-"<c/>\tlen = receive(\"Length\");"
+"<c/>\tdist = receive(\"Length\");"
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid ""
-"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
-"When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code>"
+" can take a special value called <code><a cbot|nan>nan</a></code>. This value"
+" means that the variable contains no number (Not A Number).\n"
+"When there is no <a object|exchange>exchange post</a> nearby, either because"
+" the bot has reached the goal, or because it took the wrong way, the two"
+" variables <code>dir</code> and <code>len</code> contain this value. You can"
+" test this with the instruction <code><a cbot|if>if</a></code>, and stop the"
+" program if necessary with the instruction <code><a cbot|break>break</a><"
+"/code>:"
 msgstr ""
+"Uma variável do <a cbot|type>tipo</a> <code><a cbot|float>float</a> pode ter"
+" um valor especial chamado <code><a cbot|nan>nan</a></code>. Este valor"
+" significa que a variável não contém nenhum número (Not An Number - Não Um"
+" Número). \n"
+"Quando não há <a object|exchange>postos de troca</a> por perto, seja porque o"
+" robô alcançou o objetivo, ou porque tomou o caminho errado, as duas"
+" variáveis <code>dir</ code> e <code>dist</ code> contém este valor. Você"
+" pode testar isso com a instrução <code><a cbot|if>if</a></code>, e parar o"
+" programa se necessário com a instrução <code><a cbot|break>break</a></code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "<c/>\tif ( dir == nan )  break;"
-msgstr ""
+msgstr "<c/>\tif ( dir == nan )  break;"
 
 #. type: Plain text
 #: ../help/help.E.txt:26
 #, no-wrap
-msgid "If the information retrieval from the <a object|exchange>exchange post</a> has been performed successfully, execute the rotation:"
+msgid ""
+"If the information retrieval from the <a object|exchange>exchange post</a>"
+" has been performed successfully, execute the rotation:"
 msgstr ""
+"Se a recuperação de informações do <a object|exchange>posto de troca</a>"
+" tiver sido executada com sucesso, execute a rotação:"
 
 #. type: Source code
 #: ../help/help.E.txt:27
@@ -157,34 +199,47 @@ msgstr "<c/>\tturn(dir);"
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "And move forward:"
-msgstr "Puis avancer avec:"
+msgstr "E siga em frente:"
 
 #. type: Source code
 #: ../help/help.E.txt:30
 #, no-wrap
 msgid "<c/>\tmove(len);"
-msgstr "<c/>\tmove(len);"
+msgstr "<c/>\tmove(dist);"
 
 #. type: \b; header
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "Remark"
-msgstr "Remarque"
+msgstr "Observação"
 
 #. type: Plain text
 #: ../help/help.E.txt:33
 #, no-wrap
-msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains two values called <code>\"Direction\"</code> and <code>\"Length\"</code>."
-msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient deux informations appelées <code>\"Direction\"</code> et <code>\"Length\"</code>."
+msgid ""
+"You can click on an <a object|exchange>information exchange post</a> in order"
+" to read what information it contains. In this exercise, every exchange post"
+" contains two values called <code>\"Direction\"</code> and <code>\"Length\"<"
+"/code>."
+msgstr ""
+"Você pode clicar em um <a object|exchange>posto de troca de informações</a>"
+" para ler quais informações ele contém. Neste exercício, todos os postos de"
+" troca contêm dois valores chamados <code>\"Direction\"</code> e <code"
+">\"Length\"</code>."
 
 #. type: \t; header
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:36
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a texch1>Exercice précédent</a> et <a cbot>programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

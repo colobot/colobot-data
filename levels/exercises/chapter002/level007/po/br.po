@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-08 12:16-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,48 +14,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Wasp Hunter 2"
-msgstr "Chasseur de guêpes 2"
+msgstr "Caçador de vespas 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Get better at shooting down the wasps."
-msgstr "Attrapez des guêpes de manière plus efficace"
+msgstr "Fique melhor em abater as vespas."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Wasp2"
-msgstr "Guêpes2"
+msgstr "Vespa2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr "Objectif"
+msgstr "Objetivo"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Bring down the flying wasps in a more efficient way than with the previous program."
-msgstr "Attraper des <a object|wasp>guêpes</a> en vol de manière plus efficace qu'avec le programme précédent."
+msgid ""
+"Bring down the flying wasps in a more efficient way than with the previous"
+" program."
+msgstr ""
+"Derrube as vespas voadoras de uma maneira mais eficiente do que com o"
+" programa anterior."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr "Programme"
+msgstr "Programa"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Here is again the program of the previous exercise that shoots down all the wasps after many, many unsuccessful attempts:"
-msgstr "Voici encore une fois le programme de l'exercice précédent qui tire sur les guêpes:"
+msgid ""
+"Here is again the program of the previous exercise that shoots down all the"
+" wasps after many, many unsuccessful attempts:"
+msgstr ""
+"Aqui está novamente o programa do exercício anterior que abate todas as"
+" vespas depois de muitas, muitas tentativas malsucedidas:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -69,7 +78,8 @@ msgid ""
 "\t\n"
 "\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0,"
+" 20) == null)\n"
 "\t\t{\n"
 "\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
 "\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
@@ -94,86 +104,132 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
-"extern void object::Guêpes1()\n"
+"extern void object::Vespa1()\n"
 "{\n"
-"\tobject    chose;\n"
+"\t<a cbot|type>object</a>    item;\n"
 "\t\n"
-"\taim(0);\n"
+"\t<a cbot|aim>aim</a>(0);\n"
 "\t\n"
-"\twhile ( true )\n"
+"\t<a cbot|while>while</a> (true)\n"
 "\t{\n"
-"\t\twhile ( radar(AlienWasp, 0, 360, 0, 20) == null )\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0,"
+" 20) == null)\n"
 "\t\t{\n"
-"\t\t\tchose = radar(AlienWasp);\n"
-"\t\t\tturn(direction(chose.position));\n"
-"\t\t\tmotor(1,1);\n"
+"\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|motor>motor</a>(1,1);\n"
 "\t\t\t\n"
-"\t\t\tjet(0);\n"
-"\t\t\tif ( position.z > chose.position.z )\n"
+"\t\t\t<a cbot|jet>jet</a>(0);\n"
+"\t\t\t<a cbot|if>if</a> (position.z > item.position.z)\n"
 "\t\t\t{\n"
-"\t\t\t\tjet(-0.3);\n"
+"\t\t\t\t<a cbot|jet>jet</a>(-0.3);\n"
 "\t\t\t}\n"
 "\t\t\t\n"
-"\t\t\tif ( position.z < chose.position.z - 1 )\n"
+"\t\t\t<a cbot|if>if</a> (position.z < item.position.z - 1)\n"
 "\t\t\t{\n"
-"\t\t\t\tjet(0.3);\n"
+"\t\t\t\t<a cbot|jet>jet</a>(0.3);\n"
 "\t\t\t}\n"
 "\t\t\t\n"
-"\t\t\twait(0.2);\n"
+"\t\t\t<a cbot|wait>wait</a>(0.2);\n"
 "\t\t}\n"
-"\t\tchose = radar(AlienWasp);\n"
-"\t\tturn(direction(chose.position));\n"
-"\t\tfire(1);\n"
+"\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t<a cbot|fire>fire</a>(1);\n"
 "\t}\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:40
 #, no-wrap
-msgid "The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst."
-msgstr "Comme vous l'avez constaté, le taux de réussite de ce programme n'est pas très élevé, car les guèpes ont souvent le temps de partir. Le seul moyen pour rendre le programme plus efficace consiste à régler la vitesse des moteurs de gauche et de droite ainsi que du réacteur de manière à ce que le mouvement du robot pendant la salve de tir accompagne le mouvement de la cible."
+msgid ""
+"The many failures are due to the fact that the wasp is already gone before"
+" the bullets can reach it. The only way to improve the program consists in"
+" setting the power of the two motors and of the jet in such a way that the"
+" bot follows the movement of the target during the burst."
+msgstr ""
+"As muitas falhas se devem ao fato de que a vespa já se foi antes que as balas"
+" possam alcançá-la. A única maneira de melhorar o programa consiste em"
+" ajustar a potência dos dois motores e do jato de tal maneira que o robô siga"
+" o movimento do alvo durante a rajada."
 
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
-msgid "Just before the shot, the program adjusts a last time the direction with <c/>turn(direction(item.position));<n/>. In order to follow the wasp during the burst, you have to \"remember\" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right."
-msgstr "Juste avant le tir, le programme fait un dernier ajustement avec un <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(chose.position));<n/>. Pour suivre la guêpe, il faut mémoriser l'angle de cette dernière rotation: si l'angle est positif, il faut continuer à tourner à gauche pendant le tir; si l'angle est négatif, il faut continuer à tourner à droite."
+msgid ""
+"Just before the shot, the program adjusts a last time the direction with <c/"
+">turn(direction(item.position));<n/>. In order to follow the wasp during the"
+" burst, you have to \"remember\" the angle of this last rotation: if the"
+" angle was positive (rotation to the left), the bot must continue to turn"
+" left during the burst; if the angle was negative, the bot must continue to"
+" turn right."
+msgstr ""
+"Pouco antes do disparo, o programa ajusta pela última vez a direção com <c/"
+">turn(direction(item.position));<n/>. Para acompanhar a vespa durante a"
+" rajada, você deve \"lembrar\" o ângulo desta última rotação: se o ângulo foi"
+" positivo (rotação para a esquerda), o robô deve continuar a virar à esquerda"
+" durante a rajada; Se o ângulo foi negativo, o robô deve continuar a virar à"
+" direita."
 
 #. type: Plain text
 #: ../help/help.E.txt:44
 #, no-wrap
-msgid "In order to \"remember\" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it <code>angle</code>, we must define the variable with the following line at the beginning of the program:"
-msgstr "Pour mémoriser l'angle de la dernière rotation, nous avons besoin d'une variable qui puisse contenir un simple nombre. Nous définissons donc tout au début du programme une variable <code>angle</code> du type <code><a cbot|float>float</a></code>:"
+msgid ""
+"In order to \"remember\" the angle of the last rotation, we need a variable"
+" that can contain just one number. If we choose to call it <code>angle</code"
+">, we must define the variable with the following line at the beginning of"
+" the program:"
+msgstr ""
+"Para \"lembrar\" o ângulo da última rotação, precisamos de uma variável que"
+" possa conter apenas um número. Se escolhermos chamá-lo de <code>angulo</"
+" code>, devemos definir a variável com a seguinte linha no início do programa:"
 
 #. type: Source code
 #: ../help/help.E.txt:46
 #, no-wrap
 msgid "\t<a cbot|type>float</a> angle;"
-msgstr "\tfloat    angle;"
+msgstr "\t<a cbot|type>float</a> angulo;"
 
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "The variable type <a cbot|type>float</a> is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the <a cbot|type>text about variable types</a> if you want to know more about the different types of variables and what they can contain."
-msgstr "Référez-vous au texte sur les <a cbot|type>types de variables</a> pour en savoir plus."
+msgid ""
+"The variable type <a cbot|type>float</a> is the variable type that can"
+" contain any number, i.e. whole numbers or real numbers. Please refer to the"
+" <a cbot|type>text about variable types</a> if you want to know more about"
+" the different types of variables and what they can contain."
+msgstr ""
+"O tipo de variável <a cbot|type>float</a> é o tipo de variável que pode"
+" conter qualquer número, ou seja, números inteiros ou reais. Por favor,"
+" consulte o texto <a cbot|type>sobre tipos de variáveis</a> se você quiser"
+" saber mais sobre os diferentes tipos de variáveis e o que elas podem conter."
 
 #. type: Plain text
 #: ../help/help.E.txt:50
 #, no-wrap
-msgid "Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we will put the rotation angle into the variable <code>angle</code>:"
-msgstr "Juste avant l'instruction <c/><a cbot|fire>fire</a>(1);<n/>, au lieu de tourner directement de l'angle nécessaire, nous mettons la valeur dans la variable <code>angle</code>:"
+msgid ""
+"Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a"
+" cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we"
+" will put the rotation angle into the variable <code>angle</code>:"
+msgstr ""
+"Pouco antes da instrução <c/>fire(1);<n/>, em vez de escrever <c/><a"
+" cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, vamos"
+" colocar o ângulo de rotação na variável <code>angulo</code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:52
 #, no-wrap
 msgid "\tangle = direction(item.position);"
-msgstr "\tangle = direction(chose.position);"
+msgstr "\tangulo = direction(item.position);"
 
 #. type: Plain text
 #: ../help/help.E.txt:54
 #, no-wrap
-msgid "Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:"
-msgstr "Puis nous tournons de l'angle nécessaire, et nous réglons la puissance des moteurs pour que le robot continue le mouvement:"
+msgid ""
+"Then we perform the rotation, and we set the power of the motors so that the"
+" bot continues the movement:"
+msgstr ""
+"Em seguida, realizamos a rotação e definimos a potência dos motores para que"
+" o robô continue o movimento:"
 
 #. type: Source code
 #: ../help/help.E.txt:56
@@ -189,8 +245,8 @@ msgid ""
 "\t\tmotor(0.5,1);\n"
 "\t}"
 msgstr ""
-"\tturn(angle);\n"
-"\tif ( angle < 0 )\n"
+"\tturn(angulo);\n"
+"\tif (angulo < 0)\n"
 "\t{\n"
 "\t\tmotor(1,0.5);\n"
 "\t}\n"
@@ -202,14 +258,23 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:66
 #, no-wrap
-msgid "The instruction <code>else</code> determines what instructions the program should execute if the condition stated in the <code>if</code> instruction is false."
-msgstr "L'instruction <code>else</code> indique ce qu'il faut faire dans le cas où la condition de <code><a cbot|if>if</a></code> n'est pas remplie."
+msgid ""
+"The instruction <code>else</code> determines what instructions the program"
+" should execute if the condition stated in the <code>if</code> instruction is"
+" false."
+msgstr ""
+"A instrução <code>else</code> determina quais instruções o programa deve"
+" executar se a condição declarada na instrução <code>if</code> for falsa."
 
 #. type: Plain text
 #: ../help/help.E.txt:68
 #, no-wrap
-msgid "Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:"
-msgstr "Puis il faut remettre les instructions qui règlent la puissance du réacteur pour que le robot suive le mouvement de la guêpe dans la direction verticale:"
+msgid ""
+"Then we must set the power of the jet so that the bot follows the wasp also"
+" in the vertical direction:"
+msgstr ""
+"Então devemos definir o poder do jato para que o robô siga a vespa também na"
+" direção vertical:"
 
 #. type: Source code
 #: ../help/help.E.txt:70
@@ -227,12 +292,12 @@ msgid ""
 "\t}"
 msgstr ""
 "\tjet(0);\n"
-"\tif ( position.z > chose.position.z )\n"
+"\tif(position.z > item.position.z)\n"
 "\t{\n"
 "\t\tjet(-0.3);\n"
 "\t}\n"
 "\t\n"
-"\tif ( position.z < chose.position.z - 1 )\n"
+"\tif(position.z < item.position.z - 1)\n"
 "\t{\n"
 "\t\tjet(0.3);\n"
 "\t}"
@@ -240,17 +305,23 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:81
 #, no-wrap
-msgid "As you will see, this program is much more efficient than the previous one!"
-msgstr "Comme vous pourrez le constater, le taux de réussite est nettement plus élevé que dans l'exercice précédent."
+msgid ""
+"As you will see, this program is much more efficient than the previous one!"
+msgstr "Como você verá, este programa é muito mais eficiente que o anterior!"
 
 #. type: \t; header
 #: ../help/help.E.txt:83
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:84
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tant4>Exercice précédent</a> et <a cbot>programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

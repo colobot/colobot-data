@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-04-18 13:03-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,210 +14,294 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Departure"
-msgstr "Le grand départ"
+msgstr "Saída"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Equip your spaceship and get ready for takeoff."
-msgstr "Equipez votre vaisseau spatial en vue du grand départ vers l'aventure."
+msgstr "Equipe sua nave espacial e prepare-se para a decolagem."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Objectif"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Your <a object|base>spaceship</a> is now standing on the launching pad, ready for takeoff."
-msgstr "Votre <a object|base>vaisseau spatial</a> est arrivé sur l'aire de lancement. Votre dernière mission d'entraînement consiste à l'équiper de sa <a object|bbox>boîte noire</a>."
+msgid ""
+"Your <a object|base>spaceship</a> is now standing on the launching pad, ready"
+" for takeoff."
+msgstr ""
+"Sua <a object|base>espaçonave</a> agora está na plataforma de lançamento,"
+" pronta para decolar."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "The last drill left for <a object|human>you</a> to perform before embarking on your journey is to equip your spaceship with its <a object|bbox>black box</a>. The only way to reach the <a object|bbox>black box</a> is by a steep path that can only be climbed by a <a object|botgc>tracked grabber</a> which you need to build."
-msgstr "Celle-ci se trouve sur une montagne proche. Le seul moyen d'accès est une route à forte déclivité, qui ne peut être pratiquée qu'avec un robot équipé de chenilles que vous devez construire."
+msgid ""
+"The last drill left for <a object|human>you</a> to perform before embarking"
+" on your journey is to equip your spaceship with its <a object|bbox>black"
+" box</a>. The only way to reach the <a object|bbox>black box</a> is by a"
+" steep path that can only be climbed by a <a object|botgc>tracked grabber</a>"
+" which you need to build."
+msgstr ""
+"O último exercício para <a object|human>você</a> realizar antes de embarcar"
+" em sua jornada é equipar sua espaçonave com sua <a object|bbox>caixa preta<"
+"/a>. A única maneira de alcançar a <a object|bbox>caixa preta</a> é por um"
+" caminho íngreme que só pode ser escalado por um <a object|botgc> agarrador"
+" com esteiras</a> que você precisa construir."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "Unfortunately your <a object|factory>bot factory</a> hasn't yet got the capacity to assemble this type of bot. You need to request your <a object|research>research center</a> to come up with a blueprint for this particular propeller."
-msgstr "Votre <a object|factory>fabrique de robots</a> n'a pas les informations nécessaires pour produire ce type de robot. Activez votre <a object|research>centre de recherches</a>, doté d'une énorme puissance de calcul, afin qu'il fournisse les plans de ce nouveau mode de propulsion."
+msgid ""
+"Unfortunately your <a object|factory>bot factory</a> hasn't yet got the"
+" capacity to assemble this type of bot. You need to request your <a"
+" object|research>research center</a> to come up with a blueprint for this"
+" particular propeller."
+msgstr ""
+"Infelizmente, sua <a object|factory>fábrica de robôs</a> ainda não tem a"
+" capacidade de montar esse tipo de robô. Você precisa solicitar ao seu <a"
+" object|research>centro de pesquisa</a> para criar um modelo para este"
+" propulsor em particular."
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Procedure"
-msgstr "Marche à suivre"
+msgstr "Procedimento"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "Power the research center with one of the green <a object|power>power cells</a>."
-msgstr "Amenez une <a object|power>pile</a> sur le <a object|research>centre de recherches</a>."
+msgid ""
+"Power the research center with one of the green <a object|power>power cells<"
+"/a>."
+msgstr ""
+"Alimente o centro de pesquisa com uma das <a object|power>células de energia<"
+"/a> verdes."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Click on the <tracked bot research program> button <button 64/>."
-msgstr "Sélectionnez le centre de recherches et cliquez sur le bouton <Recherche les chenilles> <button 64/>."
+msgstr "Clique no <tracked bot research program> botão <button 64/>."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "Drop a <a object|titan>titanium cube</a> in the center of the <a object|factory>bot factory</a> and build a <a object|botgc>tracked grabber</a>."
-msgstr "Déposez un bloc de <a object|titan>titanium</a> dans la <a object|factory>fabrique de robots</a>. Reculez, puis sélectionnez la fabrique. Cliquez sur le bouton <Fabrique un déménageur à chenilles> <button 138/>."
+msgid ""
+"Drop a <a object|titan>titanium cube</a> in the center of the <a"
+" object|factory>bot factory</a> and build a <a object|botgc>tracked grabber<"
+"/a>."
+msgstr ""
+"Deixe um <a object|titan>cubo de titânio</a> no centro da <a object|factory"
+">fábrica de robôs</a> e construa um <a object|botgc>agarrador com esteiras</a"
+">."
 
 #. type: Bullet: '4)'
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "Power and radio-control the <a object|botgc>tracked grabber</a> to the top of the southwest-oriented mountain."
-msgstr "Equipez le <a object|botgc>robot déménageur</a> d'une <a object|power>pile</a>. Prenez les commandes du <a object|botgc>robot déménageur à chenilles</a>, et faites-lui gravir la montagne située au sud-ouest pour chercher la <a object|bbox>boîte noire</a>."
+msgid ""
+"Power and radio-control the <a object|botgc>tracked grabber</a> to the top of"
+" the southwest-oriented mountain."
+msgstr ""
+"Energize e controle por rádio o <a object|botgc>agarrador com esteiras</a>"
+" até o topo da montanha orientada para o sudoeste."
 
 #. type: Bullet: '5)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Bring the black box back aboard your spaceship."
-msgstr "Amenez cette boîte noire sur votre <a object|base>vaisseau spatial</a>."
+msgstr "Traga a caixa preta de volta a bordo de sua nave espacial."
 
 #. type: Bullet: '6)'
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "Don't forget to take the <a object|botgr>wheeled grabber</a> along. These bots may prove very useful in the future."
-msgstr "Prenez avec vous le <a object|botgr>robot déménageur à roues</a>, qui sera très utile par la suite."
+msgid ""
+"Don't forget to take the <a object|botgr>wheeled grabber</a> along. These"
+" bots may prove very useful in the future."
+msgstr ""
+"Não se esqueça de levar o <a object|botgr>agarrador com rodas</a>. Esses"
+" robôs podem ser muito úteis no futuro."
 
 #. type: Bullet: '7)'
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "Climb aboard the <a object|base>spaceship</a>."
-msgstr "Prenez place sur le vaisseau spatial."
+msgstr "Suba a bordo da <a object|base>espaçonave</a>."
 
 #. type: Bullet: '8)'
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "Select the <a object|base>spaceship</a> and take off <button 28/>."
-msgstr "Sélectionnez le <a object|base>vaisseau spatial</a>. Décollez <button 28/>."
+msgstr "Selecione a <a object|base>espaçonave</a> e decole <button 28/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
-msgid "Please note: To work more efficiently, you can use the <a object|botgr>wheeled grabber</a>."
-msgstr "Remarque: Pour travailler plus efficacement, vous pouvez utiliser le <a object|botgr>robot déménageur</a>."
+msgid ""
+"Please note: To work more efficiently, you can use the <a object|botgr"
+">wheeled grabber</a>."
+msgstr ""
+"Por favor, note: Para trabalhar de forma mais eficiente, você pode usar o <a"
+" object|botgr>agarrador com rodas</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:21
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:23 ../help/soluce.E.txt:27
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:24 ../help/soluce.E.txt:28
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "Before taking off, you need to bring the following aboard your spaceship:"
+msgid ""
+"Before taking off, you need to bring the following aboard your spaceship:"
 msgstr ""
+"Antes de decolar, você precisa trazer o seguinte a bordo de sua nave espacial:"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "<a object|bbox>Black box</a>."
-msgstr ""
+msgstr "<a object|bbox>Caixa preta</a>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "<a object|botgr>Wheeled</a> and <a object|botgc>tracked</a> grabbers."
 msgstr ""
+"Agarradores com <a object|botgr>rodas</a> e com <a object|botgc>esteiras</a>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "<a object|human>Yourself</a>."
-msgstr ""
+msgstr "<a object|human>Você mesmo</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Here is a detailed breakdown of the operations:"
-msgstr ""
+msgstr "Aqui está uma análise detalhada das operações:"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:9
 #, no-wrap
-msgid "Power the <a object|research>research center</a> with one of the green <a object|power>power cells</a>."
+msgid ""
+"Power the <a object|research>research center</a> with one of the green <a"
+" object|power>power cells</a>."
 msgstr ""
+"Energize o <a object|research>centro de pesquisa</a> com uma das <a"
+" object|power>células de energia</a> verdes."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
-msgid "Activate the <a object|research>research center</a> then click on the <button 64/> <tracked bot research program> button."
+msgid ""
+"Activate the <a object|research>research center</a> then click on the <button"
+" 64/> <tracked bot research program> button."
 msgstr ""
+"Ative o <a object|research>centro de pesquisa</a> e clique no botão <button"
+" 64/> <tracked bot research program>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:11
 #, no-wrap
-msgid "Place a <a object|titan>titanium cube</a> inside the <a object|factory>bot factory</a>."
+msgid ""
+"Place a <a object|titan>titanium cube</a> inside the <a object|factory>bot"
+" factory</a>."
 msgstr ""
+"Coloque um <a object|titan>cubo de titânio</a> dentro da <a object|factory"
+">fábrica de robôs</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Step back out and activate the <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Volte e ative a <a object|factory>fábrica de robôs</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:13
 #, no-wrap
-msgid "Click on the <button 138/> <build a <a object|botgc>tracked grabber</a>> button."
+msgid ""
+"Click on the <button 138/> <build a <a object|botgc>tracked grabber</a>>"
+" button."
 msgstr ""
+"Clique no botão <button 138/> <build a <a object|botgc>agarrador com"
+" esteiras</a>>."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:14
 #, no-wrap
-msgid "Power the <a object|botgc>tracked grabber</a> with a brand new <a object|power>power cell</a>."
+msgid ""
+"Power the <a object|botgc>tracked grabber</a> with a brand new <a"
+" object|power>power cell</a>."
 msgstr ""
+"Energize o <a object|botgc>agarrador com esteiras</a> com uma nova <a"
+" object|power>célula de energia</a>."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:15
 #, no-wrap
-msgid "Radio-control the <a object|botgc>tracked grabber</a> to the top of the mountain in the south-west."
+msgid ""
+"Radio-control the <a object|botgc>tracked grabber</a> to the top of the"
+" mountain in the south-west."
 msgstr ""
+"Radio-controle o <a object|botgc>agarrador com esteiras</a> para o topo da"
+" montanha a sudoeste."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16
 #, no-wrap
-msgid "Bring the <a object|bbox>black box</a> back aboard your <a object|base>spaceship</a>."
+msgid ""
+"Bring the <a object|bbox>black box</a> back aboard your <a object|base"
+">spaceship</a>."
 msgstr ""
+"Traga a <a object|bbox>caixa preta</a> de volta a sua <a object|base"
+">espaçonave</a>."
 
 #. type: Bullet: '9)'
 #: ../help/soluce.E.txt:17
 #, no-wrap
-msgid "Radio-control both the <a object|botgc>tracked</a> and the <a object|botgr>wheeled</a> grabbers onto the platform."
+msgid ""
+"Radio-control both the <a object|botgc>tracked</a> and the <a object|botgr"
+">wheeled</a> grabbers onto the platform."
 msgstr ""
+"Radio-controle ambos os agarradores <a object|botgc>com esteiras </a> e com <"
+"a object|botgr>rodas</ a> na plataforma."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:18
@@ -226,21 +310,46 @@ msgid ""
 "10) Climb aboard the <a object|base>spaceship</a> yourself.\n"
 "11) Take off!"
 msgstr ""
+"10) Suba a bordo da <a object|base>espaçonave</a>.\n"
+"11) Decole!"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:21
 #, no-wrap
-msgid "In order to take off, select the <a object|base>spaceship</a>, provided that it is visible, by clicking on it. If it is not visible, you need to click one of the buttons in the upper left corner of your screen. The blue triangle <button 130/> allows you to alternate between symbols for bots and symbols for buildings. Click once to shift to the <buildings> list. A <button 171/> <spaceship> symbol will now appear. Click on the button to select it."
+msgid ""
+"In order to take off, select the <a object|base>spaceship</a>, provided that"
+" it is visible, by clicking on it. If it is not visible, you need to click"
+" one of the buttons in the upper left corner of your screen. The blue"
+" triangle <button 130/> allows you to alternate between symbols for bots and"
+" symbols for buildings. Click once to shift to the <buildings> list. A <"
+"button 171/> <spaceship> symbol will now appear. Click on the button to"
+" select it."
 msgstr ""
+"Para decolar, selecione a <a object|base>espaçonave</a>, desde que esteja"
+" visível, clicando nela. Se não estiver visível, você precisa clicar em um"
+" dos botões no canto superior esquerdo da tela. O triângulo azul <button 130/"
+"> permite alternar entre símbolos para robôs e símbolos para edifícios."
+" Clique uma vez para mudar para a lista <buildings>. Um símbolo <button 171/>"
+" <spaceship> aparecerá agora. Clique no botão para selecioná-lo."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:23
 #, no-wrap
-msgid "Once the spaceship is selected, click on the larger <button 28/> <takeoff> button in the lower center of your screen. If the objects mentioned above as well as yourself are indeed standing on deck, takeoff will take place."
+msgid ""
+"Once the spaceship is selected, click on the larger <button 28/> <takeoff>"
+" button in the lower center of your screen. If the objects mentioned above as"
+" well as yourself are indeed standing on deck, takeoff will take place."
 msgstr ""
+"Quando a espaçonave estiver selecionada, clique no botão maior <button 28/> <"
+"takeoff> no centro inferior da tela. Se os objetos mencionados acima, bem"
+" como você mesmo, estiverem de fato no convés, a decolagem acontecerá."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:25
 #, no-wrap
-msgid "No object or bot should hinder the closing of the eight large panel doors."
+msgid ""
+"No object or bot should hinder the closing of the eight large panel doors."
 msgstr ""
+"Nenhum objeto ou robô deve impedir o fechamento das oito grandes portas do"
+" painel."
+

@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-15 10:56-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,36 +14,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Function"
-msgstr "Une fonction"
+msgstr "Função"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Create a function to move a bot."
-msgstr "Créer une fonction pour déplacer un robot."
+msgstr "Crie uma função para mover um robô."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr "Déplace"
+msgstr "Mover"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
-msgstr "Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a object|waypoint>croix bleues</a> posées au sol. Le trajet à effectuer est composé de deux carrés. Le premier mesure 15 mètres de côté, et le deuxième 25 mètres."
+msgid ""
+"The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue"
+" crosses</a> on the ground. The way that must be covered is made of two"
+" squares. The first one measures 15 meters, the second 25 meters."
+msgstr ""
+"O <a object|bottr>robô</a> deve passar por todas as <a object|waypoint>cruzes"
+" azuis</a> no solo. O caminho que deve ser coberto é feito de dois quadrados."
+" O primeiro mede 15 metros, o segundo 25 metros."
 
 #. type: Image filename
 #: ../help/help.E.txt:4
@@ -55,13 +62,21 @@ msgstr "tproc1a"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "General principle"
-msgstr "Fonction"
+msgstr "Princípio geral"
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
-msgstr "Pour résoudre ce problème, il est intéressant de créer une <a cbot|function>fonction</a> qui déplace le robot le long d'un carré. La fonction principale devient alors très simple:"
+msgid ""
+"In order to solve this problem, the most efficient solution consists in"
+" creating a <a cbot|function>function</a> that instructs the bot to move on a"
+" square shape of a certain size. The main program becomes then very simple:<"
+"c/>"
+msgstr ""
+"Para resolver esse problema, a solução mais eficiente consiste em criar uma <"
+"a cbot|function>função</a> que instrui o robô a se mover em uma forma"
+" quadrada de um determinado tamanho. O programa principal torna-se então"
+" muito simples: <c/>"
 
 #. type: Source code
 #: ../help/help.E.txt:8
@@ -73,17 +88,17 @@ msgid ""
 "\t\tSquare(25);\n"
 "\t}"
 msgstr ""
-"\textern void object::Déplacer( )\n"
-"\t{\n"
-"\t\tCarré(15);\n"
-"\t\tCarré(25);\n"
-"\t}"
+"\extern void object::Funcao3( )\n"
+"{\n"
+"\tQuadrado(15);\n"
+"\tQuadrado(25);\n"
+"}"
 
 #. type: \b; header
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "Useful instructions"
-msgstr "Instructions utiles"
+msgstr "Instruções úteis"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
@@ -93,18 +108,23 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
-"<code><a cbot|for>for</a></code> boucle pour répéter des instructions\n"
-"<code><a cbot|move>move</a></code> pour avancer le robot\n"
-"<code><a cbot|turn>turn</a></code> pour tourner le robot"
+"<code><a cbot|for>for</a></code> laço para repetir algumas instruções\n"
+"<code><a cbot|for>move</a></code> para mover o robô \n"
+"<code><a cbot|turn>turn</a></code> para girar o robô"
 
 #. type: \t; header
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 11:24-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,72 +14,91 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Technological Treasure"
-msgstr "Sauvetage"
+msgstr "Tesouro tecnológico"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Rediscover a new type of bot."
-msgstr "Partez sauver un tout nouveau type de robot."
+msgstr "Redescubra um novo tipo de robô."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "An urgent notification from Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Uma notificação urgente do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
-msgstr "Au moment du décollage, le satellite d'observation nous a informé qu'il a découvert un robot d'un type inconnu. Ramenez ce robot sur le vaisseau."
+msgid ""
+"As you were about to take off, we received from the satellite the following"
+" piece of information: a bot of a type yet unknown has been spotted on"
+" Volcano. Try to bring it back onto your spaceship for further study."
+msgstr ""
+"Quando você estava prestes a decolar, recebemos do satélite a seguinte"
+" informação: um robô de um tipo ainda desconhecido foi localizado no vulcão."
+" Tente trazê-lo de volta para sua nave espacial para um estudo mais"
+" aprofundado."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
-msgstr "Nos ingénieurs ont trouvé entre-temps une manière de faire fonctionner les réacteurs dans les températures qui règnent sur Volcano, au moins pour de courtes durées. Les informations nécessaires ont été transmises à votre vaisseau."
+msgid ""
+"Our engineers on Earth have very recently come up with a formula that should"
+" allow reactors to function properly, at least for a short while, despite the"
+" high temperatures. The data have been transmitted to you."
+msgstr ""
+"Nossos engenheiros na Terra recentemente elaboraram uma fórmula que deveria"
+" permitir que os reatores funcionassem adequadamente, pelo menos por um curto"
+" período, apesar das altas temperaturas. Os dados foram transmitidos para"
+" você."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:12
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr "En orbite géostationnaire autour de Volcano."
+msgstr "Atualmente em uma órbita geo-estacionária de Volcano."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -91,17 +110,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      96.7 degrés\n"
-"\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vent:             2.8 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Temperatura:      96.7C\n"
+"\\tab;Atmosfera:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vento:             2.8 mps\n"
+"\\tab;Minério de titânio:     nenhum\n"
+"\\tab;Minério de urânio:      nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -111,15 +130,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -130,49 +149,79 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
-"\\tab;Détecté:          fourmis géantes\n"
-"\\tab;  - Danger:       oui, pas imminent\n"
-"\\tab;Détecté:          robot\n"
-"\\tab;  - Type:         inconnu"
+"\\tab; Detectado: robô \n"
+"\\tab; - Tipo: desconhecido \n"
+"\\tab; Detectado: formigas gigantes \n"
+"\\tab; - Perigo: não imediato"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "A gap in the northwest mountain leads the way to a lake of boiling lava."
-msgstr "Une découpe dans la montagne au nord-ouest de votre <a object|base>vaisseau</a> vous permet d'atteindre l'océan de lave brûlante."
+msgid ""
+"A gap in the northwest mountain leads the way to a lake of boiling lava."
+msgstr "Uma lacuna na montanha noroeste leva a um lago de lava fervente."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "Just hop from one rocky island to the next. Keep checking your reactor, let it cool off completely before taking off again. The mini map will help you to figure out where the closest island is."
-msgstr "Il faut alors voler d'un piton rocheux à l'autre, en surveillant attentivement la température du réacteur. Après un atterrissage, attendez un refroidissement complet avant de décoller. La mini-carte permet de trouver à chaque fois le piton rocheux le plus proche."
+msgid ""
+"Just hop from one rocky island to the next. Keep checking your reactor, let"
+" it cool off completely before taking off again. The mini map will help you"
+" to figure out where the closest island is."
+msgstr ""
+"Apenas pule de uma ilha rochosa para a próxima. Continue verificando o"
+" reator, deixe esfriar completamente antes de decolar novamente. O mini mapa"
+" irá ajudá-lo a descobrir onde fica a ilha mais próxima."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
-msgid "In case of an ant attack, don't worry too much. Just take the time for your reactor to cool off, without lingering longer than necessary, and your built-in shield should do its duty. However we advise you to save the game from time to time (key Esc, and \"Save\"), so you will not have to start from the beginning in case of a landing in the lava lake."
-msgstr "Si vous êtes attaqués par des <a object|ant>fourmis</a>, pas de panique. Attendez le refroidissement de votre réacteur avant de décoller. Votre bouclier de protection fera son travail en attendant... Il est tout de même conseillé d'enregistrer régulièrement la partie (appuyez sur Esc, puis \"Enregistrer\"). Ainsi vous ne devez pas recommencer à zéro en cas de plongeon dans la lave."
+msgid ""
+"In case of an ant attack, don't worry too much. Just take the time for your"
+" reactor to cool off, without lingering longer than necessary, and your"
+" built-in shield should do its duty. However we advise you to save the game"
+" from time to time (key Esc, and \"Save\"), so you will not have to start"
+" from the beginning in case of a landing in the lava lake."
+msgstr ""
+"No caso de um ataque de formiga, não se preocupe muito. Reserve um tempo para"
+" o seu reator esfriar, sem demorar mais do que o necessário, e seu escudo"
+" embutido deve cumprir seu dever. No entanto, aconselhamos que você salve o"
+" jogo de tempos em tempos (tecla Esc e \"Salvar\"), assim você não terá que"
+" começar do começo no caso de um pouso no lago de lava."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
-msgid "The bot is at the westernmost point on your map though you'll have to take a roundabout route to reach it. A <a object|atomic>nuclear power cell</a> lies nearby."
-msgstr "Le robot cherché est à l'extrême ouest de la carte, mais il faut faire un grand détour pour l'atteindre. Lorsque vous l'avez trouvé, une <a object|atomic>pile atomique</a> n'est pas loin."
+msgid ""
+"The bot is at the westernmost point on your map though you'll have to take a"
+" roundabout route to reach it. A <a object|atomic>nuclear power cell</a> lies"
+" nearby."
+msgstr ""
+"O robô está no ponto mais ocidental do seu mapa, mas você terá que pegar uma"
+" rota para alcançá-lo. Uma <a object|atomic>célula de energia nuclear</a>"
+" está próxima."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:10
 #, no-wrap
-msgid "You don't have to radio-control the bot back to the spaceship by the same way you came because its reactor has a greater range than yours. One or two stops may still be needed and watch out for those ants."
-msgstr "Pour convoyer le robot jusqu'au <a object|base>vaisseau spatial</a>, vous n'êtes pas du tout obligé de suivre le même chemin en sens inverse, car son réacteur surchauffe moins rapidement. Il faut tout de même prévoir un ou deux arrêts. Et attention aux fourmis..."
+msgid ""
+"You don't have to radio-control the bot back to the spaceship by the same way"
+" you came because its reactor has a greater range than yours. One or two"
+" stops may still be needed and watch out for those ants."
+msgstr ""
+"Você não precisa controlar por rádio o robô de volta à nave espacial pelo"
+" mesmo caminho que você veio, pois o reator tem um alcance maior que o seu."
+" Uma ou duas paradas ainda podem ser necessárias e atente para essas formigas."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:13
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+

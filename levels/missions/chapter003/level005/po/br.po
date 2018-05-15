@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-01 16:18-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,72 +14,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Black Box"
-msgstr "Boîte noire"
+msgstr "Caixa Preta"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Explore the underwater world looking for another black box."
-msgstr "Explorez les fonds marins à la recherche d'une boîte noire."
+msgstr "Explore o mundo subaquático procurando outra caixa preta."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
-msgstr "Retrouvez et ramenez la <a object|bbox>boîte noire</a> de l'expédition précédente."
+msgid ""
+"Locate and retrieve another <a object|bbox>black box</a> from the previous"
+" expedition."
+msgstr ""
+"Localize e recupere outra <a object|bbox>caixa preta</a> da expedição"
+" anterior."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "The observation satellite seems to have spotted it underwater. Water is harmless to you as long as you wear your helmet but keep in mind that you can't carry objects underwater. A <a object|botsub>subber</a> may come in handy."
-msgstr "Le satellite d'observation semble l'avoir localisée sous l'eau. Cette eau est sans danger pour votre scaphandre, mais vous ne pouvez pas porter des objets sous l'eau. Pour cette tâche, vous aurez besoin d'un robot <a object|botsub>sous-marin</a>."
+msgid ""
+"The observation satellite seems to have spotted it underwater. Water is"
+" harmless to you as long as you wear your helmet but keep in mind that you"
+" can't carry objects underwater. A <a object|botsub>subber</a> may come in"
+" handy."
+msgstr ""
+"O satélite de observação parece tê-la visto debaixo d'água. A água é"
+" inofensiva para você, desde que você use seu capacete, mas tenha em mente"
+" que você não pode carregar objetos debaixo d'água. Um <a object|botsub"
+">mergulhador</a> pode ser útil."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:14
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
-msgstr "En orbite géostationnaire autour de Tropica."
+msgstr "Atualmente em uma órbita geo-estacionária de Tropica."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -91,17 +108,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      29.4 degrés\n"
-"\\tab;Atmosphère:       hélium, oxygène\n"
-"\\tab;Vent:             0.3 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Temperatura: 29,4C \n"
+"\\tab; Atmosfera: hélio, oxigênio \n"
+"\\tab; Vento: 0,3 mps \n"
+"\\tab; Minério de titânio: alguns \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -111,15 +128,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -130,72 +147,89 @@ msgid ""
 "\\tab;Detected:         scattered derelicts\n"
 "\\tab;Detected:         black box (underwater)"
 msgstr ""
-"\\tab;Détecté:          minerai de titanium\n"
-"\\tab;  - Solution:     convertisseur (à construire)\n"
-"\\tab;Détecté:          boîte noire (sous l'eau)"
+"\\tab; Detectado: minério de titânio \n"
+"\\tab; - Requer: conversor \n"
+"\\tab; Detectado: abandonados dispersos \n"
+"\\tab; Detectado: caixa preta (subaquática)"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "Locate the <a object|bbox>black box</a> on your own. You can try to spot it from above, using your jet engine, or dive into the water."
-msgstr "Cherchez la <a object|bbox>boîte noire</a> en volant et en nageant."
+msgid ""
+"Locate the <a object|bbox>black box</a> on your own. You can try to spot it"
+" from above, using your jet engine, or dive into the water."
+msgstr ""
+"Localize a <a object|bbox>caixa preta</a> sozinha. Você pode tentar"
+" localizá-la de cima, usando seu motor a jato, ou mergulhar na água."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:3
 #, no-wrap
-msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr "Construisez un <a object|convert>convertisseur</a> à proximité du <a object|titanore>minerai de titanium</a>."
+msgid ""
+"Build a <a object|convert>converter</a> near the chunks of titanium ore."
+" You'll find them in the vicinity of the spaceship to the east."
+msgstr ""
+"Construa um <a object|convert>conversor</a> perto dos pedaços de minério de"
+" titânio. Você os encontrará nas proximidades da espaçonave a leste."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
-msgstr "Produisez 2 <a object|titan>cubes de titanium</a>."
+msgstr "Produza dois <a object|titan>cubos de titânio</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
-msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr "Construisez une <a object|factory>fabrique de robots</a> à proximité de la <a object|bbox>boîte noire</a>."
+msgid ""
+"Build a <a object|factory>bot factory</a> not too far from the black box."
+msgstr ""
+"Construa uma <a object|factory>fábrica de robôs</a> não muito longe da caixa"
+" preta."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Manufacture a <a object|botsub>subber</a>."
-msgstr "Fabriquez un <a object|botsub>sous-marin</a>."
+msgstr "Fabrique um <a object|botsub>mergulhador</a>."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:7
 #, no-wrap
 msgid "Bring the black box back on board."
-msgstr "Ramenez la <a object|bbox>boîte noire</a> sur le <a object|base>vaisseau spatial</a>."
+msgstr "Traga a caixa preta de volta a bordo."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Take off."
-msgstr "Décollez."
+msgstr "Decole."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:10
 #, no-wrap
-msgid "The black box is lying at the bottom of a small lake, northeast of the spaceship."
-msgstr "La <a object|bbox>boîte noire</a> se trouve au fond du petit lac rond, au nord-est du vaisseau spatial."
+msgid ""
+"The black box is lying at the bottom of a small lake, northeast of the"
+" spaceship."
+msgstr ""
+"A caixa preta está no fundo de um pequeno lago, a nordeste da espaçonave."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr "Vous pouvez construire la <a object|factory>fabrique de robots</a> sur la rive sud du petit lac, ou à côté du vaisseau spatial."
+msgstr "Você pode construir a fábrica de robôs ao lado do lago, na margem sul."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:15
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>"
+
+

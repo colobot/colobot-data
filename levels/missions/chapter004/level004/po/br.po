@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 10:08-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,78 +14,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "The Lost Valley"
-msgstr "La vallée perdue"
+msgstr "O Vale Perdido"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Explore a foggy and perilous valley."
-msgstr "Récupérer la boîte noire dans une vallée profonde et remplie de brouillard."
+msgstr "Explore um vale nebuloso e perigoso."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This planet has turned out to be a very unlikely candidate for colonization. Better to leave it for good. Retrieve the <a object|bbox>black box</a> from the previous expedition and head towards the next planet."
-msgstr "Cette planète ne convient pas à une colonisation à grande échelle. Trouvez et ramenez la <a object|bbox>boîte noire</a> de la première expédition, et décollez vers la prochaine planète."
+msgid ""
+"This planet has turned out to be a very unlikely candidate for colonization."
+" Better to leave it for good. Retrieve the <a object|bbox>black box</a> from"
+" the previous expedition and head towards the next planet."
+msgstr ""
+"Este planeta acabou por ser um candidato muito improvável para a colonização."
+" Melhor deixar para o bem. Recupere a <a object|bbox>caixa preta</a> da"
+" expedição anterior e siga em direção ao próximo planeta. "
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "The observation satellite has indicated that its present location is at the bottom of a valley. However the pervasive stratum of electromagnetic smog could make all satellite information rather undependable."
-msgstr "Le satellite d'observation <button 186/> a repéré la <a object|bbox>boîte noire</a> au fond d'une vallée. Le brouillard électromagnétique qui y règne limite cependant la qualité de ses informations. "
+msgid ""
+"The observation satellite has indicated that its present location is at the"
+" bottom of a valley. However the pervasive stratum of electromagnetic smog"
+" could make all satellite information rather undependable."
+msgstr ""
+"O satélite de observação indicou que sua localização atual está no fundo de"
+" um vale. No entanto, o estrato difuso da poluição eletromagnética poderia"
+" tornar toda a informação sobre satélites pouco confiável."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Stay alert."
-msgstr "Soyez vigilant."
+msgstr "Fique alerta."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr "En orbite géostationnaire autour de Crystalium."
+msgstr "Atualmente em uma órbita geo-estacionária de Crystalium."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -97,17 +114,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      1.2 degrés\n"
-"\\tab;Atmosphère:       azote\n"
-"\\tab;Vent:             0.0 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Temperatura: 1.2C \n"
+"\\tab; Atmosfera: nitrogênio \n"
+"\\tab; Vento: 0,0 mps \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -117,15 +134,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -134,29 +151,44 @@ msgid ""
 "\\tab;Detected:         electromagnetic smog\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
-"\\tab;Détecté:          ruines utilisables\n"
-"\\tab;Détecté:          brouillard électromagnétique"
+"\\tab; Detectado: poluição eletromagnética \n"
+"\\tab; Detectado: abandonados reutilizáveis"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "Somewhere northeast in the valley itself you should come across a fully functional <a object|station>power station</a>. Northwest you will find several <a object|power>power cells</a>."
-msgstr "Vous trouverez quelque part au nord-est au fond de la vallée une précieuse <a object|station>station de recharge</a> encore fonctionnelle. Au nord-ouest se trouvent plusieurs <a object|power>piles</a>."
+msgid ""
+"Somewhere northeast in the valley itself you should come across a fully"
+" functional <a object|station>power station</a>. Northwest you will find"
+" several <a object|power>power cells</a>."
+msgstr ""
+"Em algum lugar a nordeste do próprio vale, você deve se deparar com uma <a"
+" object|station>estação de energia</a> totalmente funcional. A noroeste você"
+" encontrará várias <a object|power>células de energia</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "A few shooters in working condition have been abandoned in and around the same area in the valley; use them to shoot all the ants. With the <a object|botgj>winged grabber</a>, you can then retrieve the <a object|bbox>black box</a> that is located behind the derelict spaceship and take off."
-msgstr "Plusieurs <a object|botfj>robots shooter</a> sont abandonnés à différents endroits dans la vallée et vous permettront de tuer les fourmis. Puis, à l'aide du <a object|botgj>robot déménageur volant</a>, vous pourrez ramener la <a object|bbox>boîte noire</a> qui se trouve derrière la ruine du vaisseau et décoller."
+msgid ""
+"A few shooters in working condition have been abandoned in and around the"
+" same area in the valley; use them to shoot all the ants. With the <a"
+" object|botgj>winged grabber</a>, you can then retrieve the <a object|bbox"
+">black box</a> that is located behind the derelict spaceship and take off."
+msgstr ""
+"Alguns atiradores em condições de trabalho foram abandonados em torno da"
+" mesma área no vale; use-os para atirar em todas as formigas. Com o <a"
+" object|botgj>agarrador alado</a>, você pode recuperar a <a object|bbox>caixa"
+" preta</a> localizada atrás da espaçonave abandonada e decolar."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+

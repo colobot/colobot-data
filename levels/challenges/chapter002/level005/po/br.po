@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-15 10:51-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,51 +14,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Radar and traps 2"
-msgstr "Radar et pièges 2"
+msgstr "Radar e armadilhas 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Try to figure out how to survive in a hostile environment."
-msgstr "A vous d'imaginer comment survivre dans un milieu hostile."
+msgstr "Tente descobrir como sobreviver em um ambiente hostil."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Traps"
-msgstr "Cherche"
+msgstr "Armadilhas"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Exercise"
-msgstr "Exercice"
+msgstr "Exercício"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Instruct your <a object|bottr>bot</a> to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>."
-msgstr "Programmez le <a object|bottr>robot</a> pour qu'il trouve toutes les <a object|waypoint>croix bleues</a> posées au sol, en évitant les <a object|mine>mines</a>."
+msgid ""
+"Instruct your <a object|bottr>bot</a> to find all the <a object|waypoint>blue"
+" crosses</a> on the ground, but do not get too close to the <a object|mine"
+">mines</a>."
+msgstr ""
+"Instrua seu <a object|bottr>robô</a> para encontrar todas as <a"
+" object|waypoint>cruzes azuis</a> no chão, mas não se aproxime demais das <a"
+" object|mine>minas</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "If a bot gets within less than 2m of the center of a mine (which is the position returned by the radar instruction), il will blow up. However, you must take into account the inertia of the bot. Probably a safety distance of 3 to 3.5m would be more appropriate."
-msgstr "On ne peut pas s'approcher à moins de 2 mètres d'une mine. Si vous utilisez cette distance dans l'instruction <code><a cbot|radar>radar</a></code>, cela ne fonctionnera pas. En effet, il faut tenir compte de l'inertie du robot. Une distance comprise entre 3 et 3.5 mètres semble appropriée. A vous de faire des essais ..."
+msgid ""
+"If a bot gets within less than 2m of the center of a mine (which is the"
+" position returned by the radar instruction), il will blow up. However, you"
+" must take into account the inertia of the bot. Probably a safety distance of"
+" 3 to 3.5m would be more appropriate."
+msgstr ""
+"Se um robô ficar a menos de 2m do centro de uma mina (que é a posição"
+" retornada pela instrução de radar), ela explodirá. No entanto, você deve"
+" levar em conta a inércia do robô. Provavelmente, uma distância de segurança"
+" de 3 a 3,5 m seria mais apropriada."
 
 #. type: \t; header
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

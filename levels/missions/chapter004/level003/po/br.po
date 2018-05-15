@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 10:04-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,72 +14,86 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "System Failure"
-msgstr "La panne"
+msgstr "Falha de sistema"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Pursue a rogue bot."
-msgstr "Poursuivez un robot fou."
+msgstr "Perseguir um robô trapaceiro."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "We have just received this warning from the observation satellite: a rogue bot from the previous expedition has seized the black box from your spaceship."
-msgstr "Le satellite d'observation nous a transmis qu'un robot volant provenant de la première expédition a pris la <a object|bbox>boîte noire</a> de votre vaisseau et est en train de l'emporter."
+msgid ""
+"We have just received this warning from the observation satellite: a rogue"
+" bot from the previous expedition has seized the black box from your"
+" spaceship."
+msgstr ""
+"Acabamos de receber essa advertência do satélite de observação: um robô"
+" trapaceiro da expedição anterior pegou a caixa preta de sua espaçonave."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "We are going to investigate this incident further but it is of vital importance that you retrieve your black box at once."
-msgstr "Ramenez-la à tout prix sur votre vaisseau. Nous allons investiguer sur les causes de cet incident qui peut mettre en danger votre mission."
+msgid ""
+"We are going to investigate this incident further but it is of vital"
+" importance that you retrieve your black box at once."
+msgstr ""
+"Vamos investigar esse incidente ainda mais, mas é de vital importância que"
+" você recupere sua caixa preta de uma só vez."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr "En orbite géostationnaire autour de Crystalium."
+msgstr "Atualmente em uma órbita geo-estacionária de Crystalium."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -91,17 +105,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      4.3 degrés\n"
-"\\tab;Atmosphère:       azote\n"
-"\\tab;Vent:             0.0 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Temperatura: 4.3C \n"
+"\\tab; Atmosfera: nitrogênio \n"
+"\\tab; Vento: 0,0 mps \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -111,15 +125,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -130,31 +144,40 @@ msgid ""
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
-"\\tab;Détecté:          robot fou\n"
-"\\tab;Détecté:          fourmis géantes\n"
-"\\tab;                  organismes inconnus\n"
-"\\tab;  - Danger:      ?"
+"\\tab; Detectado: formigas gigantes \n"
+"\\tab; - Perigo: não imediato \n"
+"\\tab; Detectado: organismos desconhecidos \n"
+"\\tab; - Perigo: ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "If you lose the bot, it will drop the black box somewhere southwest of your spaceship on a region surrounded by crystals."
-msgstr "Si vous n'arrivez pas à suivre le robot, sachez qu'il va poser la <a object|bbox>boîte noire</a> quelque part au sud-ouest du <a object|base>vaisseau spatial</a>, dans une zone entourée de cristaux."
+msgid ""
+"If you lose the bot, it will drop the black box somewhere southwest of your"
+" spaceship on a region surrounded by crystals."
+msgstr ""
+"Se você perder o robô, ele derrubará a caixa preta em algum lugar a sudoeste"
+" de sua nave espacial em uma região cercada por cristais."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "In case your power runs out before you can bring the black box back, use the second grabber left on the spaceship."
-msgstr "S'il ne vous reste pas assez d'énergie pour ramener la <a object|bbox>boîte noire</a>, utilisez le <a object|botgj>robot</a> resté sur le <a object|base>vaisseau spatial</a>."
+msgid ""
+"In case your power runs out before you can bring the black box back, use the"
+" second grabber left on the spaceship."
+msgstr ""
+"Caso a sua energia acabe antes que você possa trazer a caixa preta de volta,"
+" use o segundo agarrador deixado na espaçonave."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+

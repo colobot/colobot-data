@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-08 11:40-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,63 +14,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Fighter Jet 1"
-msgstr "Chasseur à réaction 1"
+msgstr "Jato de combate 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct a winged shooter to clean the whole region."
-msgstr "Programmez un shooter volant pour qu'il nettoie toute la région"
+msgstr "Instrua um atirador alado para limpar toda a região."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr "Chasseur1"
+msgstr "Mover"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objectif"
-msgstr "Objectif"
+msgstr "Objetivo"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
-msgstr "Programmez un <a object|botoj>orgaShooter volant</a> pour qu'il aille à la rencontre des <a object|ant>fourmis</a>."
+msgid ""
+"Program a <a object|botfj>winged shooter</a> to hunt all ants in the region."
+msgstr ""
+"Programe um <a object|botfj>atirador alado</a> para caçar todas as formigas"
+" na região."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr "Programme"
+msgstr "Programa"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "In this swamp, a wheeled or tracked shooter is of little use. And ants, in opposition to spiders, keep moving: you can not just turn towards the closest ant, move forward and shoot."
-msgstr "Dans ce terrain marécageux, un shooter à roues ou à chenilles est inopérant. En plus, les fourmis se déplacent: on ne peut donc pas se tourner en direction de la fourmi la plus proche, avancer, puis tirer."
+msgid ""
+"In this swamp, a wheeled or tracked shooter is of little use. And ants, in"
+" opposition to spiders, keep moving: you can not just turn towards the"
+" closest ant, move forward and shoot."
+msgstr ""
+"Neste pântano, um atirador com rodas ou esteiras é de pouca utilidade. E as"
+" formigas, em oposição às aranhas, continuam em movimento: você não pode"
+" simplesmente virar-se para a formiga mais próxima, seguir em frente e atirar."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "The easiest way to solve the problem consists in flying at a height of 10 meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with a conditional loop as long as the <a cbot|dist>distance</a> is greater than 20m. In this conditional loop, you must look for the closest ant, turn towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait a little, for example 0.2 seconds. All these instructions must be repeated until the ant is at less than 20 meters. Then just shoot it."
-msgstr "Le moyen le plus simple consiste à monter à une altitude de 10 mètres, à viser vers le bas avec <c/><a cbot|aim>aim</a>(-20);<n/>, puis à s'approcher avec une boucle conditionnelle tant que la distance est supérieure à 20 mètres. Dans cette boucle, il faut chercher la fourmi la plus proche, se tourner vers elle, mettre les moteurs en avant toute avec <c/><a cbot|motor>motor</a>(1,1);<n/>, puis attendre un petit moment, par exemple 0.2 secondes. Toutes ces instructions seront donc répétées jusqu'à ce que la fourmi soit à moins de 20 mètres et puisse être atteinte."
+msgid ""
+"The easiest way to solve the problem consists in flying at a height of 10"
+" meters, aiming downward with <c/>aim(-20);<n/>, and approaching the ant with"
+" a conditional loop as long as the <a cbot|dist>distance</a> is greater than"
+" 20m. In this conditional loop, you must look for the closest ant, turn"
+" towards it, set the motors at full speed with <c/>motor(1,1);<n/>, and wait"
+" a little, for example 0.2 seconds. All these instructions must be repeated"
+" until the ant is at less than 20 meters. Then just shoot it."
+msgstr ""
+"A maneira mais fácil de resolver o problema consiste em voar a uma altura de"
+" 10 metros, apontando para baixo com <c/>aim(-20);<n/>, e aproximando a"
+" formiga com um laço condicional enquanto a <a cbot|dist>distância</a> é"
+" maior que 20 metros. Neste laço condicional, você deve procurar a formiga"
+" mais próxima, girar em direção a ela, colocar os motores em velocidade"
+" máxima com <c/>motor(1,1);<n/> e esperar um pouco, por exemplo 0,2 segundos."
+" Todas estas instruções devem ser repetidas até que a formiga esteja a menos"
+" de 20 metros. Então apenas atire nela."
 
 #. type: \t; header
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tant3>Exercice précédent</a> et <a cbot>programmation</a>."
+msgid ""
+"<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category"
+">categories</a>."
+msgstr ""
+"<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category"
+">categorias</a>."
+

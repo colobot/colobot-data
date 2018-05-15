@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 10:27-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,78 +14,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Invasion"
-msgstr "Invasion"
+msgstr "Invasão"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Hold out against a giant ant invasion."
-msgstr "Résistez à une invasion de fourmis géantes."
+msgstr "Segure-se contra uma invasão de formigas gigantes."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Eliminate all hostile presence from the region."
-msgstr "Nettoyer la région de toute présence hostile."
+msgstr "Elimine toda a presença hostil da região."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
-msgstr "Les informations transmises par le satellite d'observation <button 186/> ont révélé une forte concentration d'éléments hostiles près de votre vaisseau, votre situation nous préoccupe! A vous de planifier la suite des opérations à l'aide des techniques d'attaque et de défense disponibles: <a object|tower>tours de défense</a> et <a object|botfj>robot shooter</a>."
+msgid ""
+"Your current situation is of utmost concern to us. The satellite has detected"
+" an extremely strong enemy presence approaching your spaceship from all"
+" directions. Use your best judgment and the quickest, most efficient defense:"
+" either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
+msgstr ""
+"Sua situação atual é de extrema preocupação para nós. O satélite detectou uma"
+" presença inimiga extremamente forte se aproximando de sua nave espacial de"
+" todas as direções. Use seu melhor julgamento e a defesa mais rápida e"
+" eficiente: <a object|tower>torres</a> ou <a object|botfr>atiradores</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
-msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
-msgstr "Pour cette raison, nous vous avons envoyé un programme pour le <a object|botfr>robot shooter</a> permettant de parer au plus pressé. Exécutez-le rapidement; il protègera votre flanc ouest."
+msgid ""
+"In order to increase your survival chances, we have developed a program that"
+" will protect your west flank if you execute it on your <a object|botfr"
+">wheeled shooter</a>; see the program page <button 53/>."
+msgstr ""
+"Para aumentar suas chances de sobrevivência, desenvolvemos um programa que"
+" protegerá seu flanco oeste se você o executar em seu <a object|botfr"
+">atirador com rodas</a>; veja a página do programa <button 53/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:8
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr "En orbite géostationnaire autour de Saari."
+msgstr "Atualmente em uma órbita geo-estacionária de Saari."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -97,17 +116,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      38.4 degrés\n"
-"\\tab;Atmosphère:       CO2, oxygène, azote\n"
-"\\tab;Vent:             1.4 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Temperatura: 38.4C \n"
+"\\tab; Atmosfera: CO2, oxigênio, nitrogênio \n"
+"\\tab; Vento: 1.4 mps \n"
+"\\tab; Minério de titânio: alguns \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -117,15 +136,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          partout\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: em todos os lugares \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -134,35 +153,63 @@ msgid ""
 "\\tab;Detected:         giant ants approaching \n"
 "\\tab;  - Danger:       yes, immediate"
 msgstr ""
-"\\tab;Détecté:          fourmis géantes à proximité\n"
-"\\tab;  - Danger:       oui, imminent"
+"\\tab; Detectado: formigas gigantes se aproximando \n"
+"\\tab; - Perigo: sim, imediato"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
-msgstr "Exécutez immédiatement le programme <code>TueFourmi1</code> dans le shooter à roues; il s'occupera de la première vague venant de l'ouest."
+msgid ""
+"Execute immediately the program <code>KillAnt1</code> on the <a object|botfr"
+">wheeled shooter</a>; it will take care of the first wave of attack coming"
+" from west."
+msgstr ""
+"Execute imediatamente o programa <code>MatarFormiga1</ code> no <a"
+" object|botfr>atirador com rodas </a>; ele cuidará da primeira onda de ataque"
+" vinda do oeste."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
-msgstr "Pendant que ce programme fait son travail, construisez vite deux <a object|tower>tours de défense</a>, la première au nord du <a object|base>vaisseau</a> et la deuxième au sud. Pendant que <a object|human>vous</a> construisez la tour, utilisez le <a object|botgr>robot déménageur</a> pour aller chercher une <a object|power>pile</a>."
+msgid ""
+"Then build two <a object|tower>defense towers</a> one in the north of the <a"
+" object|base>spaceship</a>, the other one in the south (you have to do this"
+" VERY quickly). While <a object|human>you</a> are building, use the <a"
+" object|botgr>grabber</a> to get a <a object|power>power cell</a>."
+msgstr ""
+"Em seguida, construa duas <a object|tower>torres de defesa</a> no norte da <a"
+" object|base>espaçonave</a>, a outra no sul (você precisa fazer isso muito"
+" rapidamente). Enquanto <a object|human>você</a> estiver construindo, use o <"
+"a object|botgr>agarrador</a> para obter uma <a object|power>célula de"
+" energia</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
-msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
-msgstr "Lorsque les vagues d'assaut successives constituées d'une quinzaine de <a object|ant>fourmis</a> sont décimées, vous aurez tout le temps de construire un <a object|radar>radar</a> pour repérer les fourmis restées en retrait, et un <a object|convert>convertisseur</a>, une <a object|factory>fabrique de robots</a>, une <a object|station>station de recharge</a> et un <a object|botfj>shooter volant</a> pour finir le travail."
+msgid ""
+"As soon as the successive waves of attack, made up of about fifteen <a"
+" object|ant>ants</a>, are gone, you have time to take care of the ants that"
+" did not attack. Build a <a object|radar>radar</a> in order to spot them, and"
+" a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a"
+" object|station>power station</a> and a <a object|botfj>winged shooter</a> in"
+" order to get rid of them..."
+msgstr ""
+"Assim que as sucessivas ondas de ataque, formadas por cerca de quinze"
+" formigas, se forem, você terá tempo de cuidar das formigas que não atacaram."
+" Construa um <a object|radar>radar</a> para localizá-las, um <a"
+" object|convert>conversor</a>, uma <a object|factory>fábrica de robôs</a>,"
+" uma <a object|station>estação de energia</a> e um <a object|botfj>atirador"
+" alado</a> para livrar-se delas..."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+

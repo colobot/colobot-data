@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-11 16:57+0100\n"
+"PO-Revision-Date: 2018-05-02 11:52-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -14,66 +14,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Time for a sharp exit"
-msgstr "Départ en catastrophe"
+msgstr "Hora de uma saída acentuada"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Try to leave the planet alive."
-msgstr "Essayez de quitter cette planète vivant."
+msgstr "Tente deixar o planeta vivo."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Instructions de Houston"
+msgstr "Do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Défendez-vous contre l'attaque des <a object|ant>fourmis</a>, et décollez!"
+msgstr ""
+"Você precisa repelir um ataque de formiga de última hora antes de decolar."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+msgid ""
+"<format key><key help/></format> allows you to review these instructions at"
+" all times on your personal SatCom <button 63/>."
+msgstr ""
+"<format key><key help/></format> permite-lhe rever estas instruções a"
+" qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:6 ../help/soluce.E.txt:8
 #, no-wrap
 msgid "See also"
-msgstr "Voir aussi"
+msgstr "Veja também"
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Rapport du satellite"
+msgstr "Relatório do satélite"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr "En orbite géostationnaire autour de Volcano."
+msgstr "Atualmente em uma órbita geo-estacionária de Volcano."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr "-> SURFACE<c/>"
+msgstr "-> SUPERFÍCIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -85,17 +91,17 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      96.6 degrés\n"
-"\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vent:             2.7 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Temperatura:      96.6C\n"
+"\\tab;Atmosfera:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vento:             2.7 mps\n"
+"\\tab;Minério de titânio:     nenhum\n"
+"\\tab;Minério de urânio:      nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> SOUS-SOL<c/>"
+msgstr "-> SUBSOLO<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -105,15 +111,15 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab; Fonte de energia: nenhuma \n"
+"\\tab; Minério de titânio: nenhum \n"
+"\\tab; Minério de urânio: nenhum"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -122,35 +128,55 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       immediate"
 msgstr ""
-"\\tab;Détecté:          fourmis géantes\n"
-"\\tab;  - Danger:       oui, imminent"
+"\\tab; Detectado: formigas gigantes \n"
+"\\tab; - Perigo: imediato"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Solution"
+msgstr "Passo a passo"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
-msgid "It is safer for <a object|human>you</a> to stay on the <a object|base>spaceship</a>. You may get hit a few times but not fatally."
-msgstr "<a object|human>Vous</a> êtes suffisamment résistant contre les tirs de fourmis pour pouvoir rester sur le <a object|base>vaisseau</a>. Les quelques tirs encaissés seront douloureux, mais pas fatals."
+msgid ""
+"It is safer for <a object|human>you</a> to stay on the <a object|base"
+">spaceship</a>. You may get hit a few times but not fatally."
+msgstr ""
+"É mais seguro que <a object|human>você</a> permaneça na <a object|base"
+">espaçonave</a>. Você pode ser atingido algumas vezes, mas não fatalmente."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
-msgid "Put your new <a object|botoj>winged orga shooter</a> to good use and don't waste any time. First shoot the ants on your right, then turn clockwise around the spaceship, flying at low altitude."
-msgstr "Prenez les commandes du <a object|botoj>robot orgaShooter</a> et abattrez en premier les <a object|ant>fourmis</a> à votre droite, puis contournez le <a object|base>vaisseau</a> dans le sens des aiguilles d'une montre, et tirez sur tout ce qui bouge."
+msgid ""
+"Put your new <a object|botoj>winged orga shooter</a> to good use and don't"
+" waste any time. First shoot the ants on your right, then turn clockwise"
+" around the spaceship, flying at low altitude."
+msgstr ""
+"Coloque o seu novo <a object|botoj>atirador orgânico alado</a> em bom uso e"
+" não perca tempo. Primeiro atire nas formigas à sua direita, depois gire no"
+" sentido horário em torno da nave espacial, voando a baixa altitude."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
-msgid "If you can not do it this way, place the <a object|botoj>winged orga shooter</a> on a safe place north of the spaceship, then save yourself. You can then take your time to shoot the ants one after another; they can do no harm to the spaceship and the black box."
-msgstr "Si vous n'y arrivez pas de cette manière, mettez le <a object|botoj>robot orgaShooter</a> en sécurité un peu plus loin, puis mettez-vous vous-même en sécurité. Vous pourrez alors en toute tranquillité éliminer les fourmis une à une. Le vaisseau et la <a object|bbox>boîte noire</a> ne risquent rien."
+msgid ""
+"If you can not do it this way, place the <a object|botoj>winged orga shooter<"
+"/a> on a safe place north of the spaceship, then save yourself. You can then"
+" take your time to shoot the ants one after another; they can do no harm to"
+" the spaceship and the black box."
+msgstr ""
+"Se você não pode fazer desta forma, coloque o <a object|botoj>atirador"
+" orgânico alado</a> em um local seguro ao norte da espaçonave e salve-se."
+" Você pode então tomar seu tempo para atirar nas formigas uma após a outra;"
+" elas não podem fazer mal à nave espacial e à caixa preta."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr "<a command>Commandes</a>."
+msgstr "<a command>Controles</a>."
+
+
