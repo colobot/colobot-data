@@ -16,21 +16,7 @@ if(NOT DEFINED COLOBOT_INSTALL_DATA_DIR)
     endif()
 endif()
 
-install(DIRECTORY ai         DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY fonts      DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY icons      DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY models     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-# install(DIRECTORY models-new DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY sounds     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY textures   DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY            DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/mods) # Empty directory
-
 set(DATA_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
-set(DATA_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 
-add_subdirectory(help)
-add_subdirectory(levels)
-
-if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/music/CMakeLists.txt)
-    add_subdirectory(music)
-endif()
+add_subdirectory(common)
+add_subdirectory(colobot)

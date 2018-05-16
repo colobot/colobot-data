@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 
-include(../i18n-tools/I18NTools.cmake)
+include(${DATA_SOURCE_DIR}/i18n-tools/I18NTools.cmake)
 
-set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_DATA_DIR}/levels)
+set(LEVEL_INSTALL_DATA_DIR ${COLOBOT_INSTALL_COLOBOT_DATA_DIR}/levels)
 
 ##
 # Add level category directory with all chapters inside
@@ -44,7 +44,7 @@ endfunction()
 ##
 function(add_chaptertitles level_category_dir)
 
-    set(work_dir ${DATA_BINARY_DIR}/levels-po/${level_category_dir})
+    set(work_dir ${DATA_CURRENT_BINARY_DIR}/levels-po/${level_category_dir})
     generate_translations(translated_chaptertitle_files
                           "chaptertitles"
                           ${CMAKE_CURRENT_SOURCE_DIR}
@@ -64,7 +64,7 @@ endfunction()
 ##
 function(add_level level_dir)
 
-    set(work_dir ${DATA_BINARY_DIR}/levels-po/${level_dir})
+    set(work_dir ${DATA_CURRENT_BINARY_DIR}/levels-po/${level_dir})
     generate_translations(translated_level_files
                           "level"
                           ${CMAKE_CURRENT_SOURCE_DIR}
