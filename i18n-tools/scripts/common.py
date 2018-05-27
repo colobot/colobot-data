@@ -120,7 +120,10 @@ class LanguageFile:
         Return single language character e.g. "de" -> "D"
     """
     def language_char(self):
-        return self.language[0].upper()
+        if self.language == 'pt':
+            return 'B';
+        else:
+            return self.language[0].upper()
 
     """
         Try to translate given text; if not found among translations,
