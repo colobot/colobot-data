@@ -1,0 +1,250 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-03 21:49+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Departure"
+msgstr "Odlet"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Equip your spaceship and get ready for takeoff."
+msgstr "Naložte vybavení do rakety a připravte se k odletu."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Your <a object|base>spaceship</a> is now standing on the launching pad, ready for takeoff."
+msgstr "Vaše <a object|base>raketa</a> už čeká na startovní ploše připravená k odletu."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The last drill left for <a object|human>you</a> to perform before embarking on your journey is to equip your spaceship with its <a object|bbox>black box</a>. The only way to reach the <a object|bbox>black box</a> is by a steep path that can only be climbed by a <a object|botgc>tracked grabber</a> which you need to build."
+msgstr "<a object|human>Vaše</a> poslední cvičení před zahájením výpravy je vybavit raketu <a object|bbox>černou skříňkou</a>. Jediná cesta k <a object|bbox>černé skříňce</a> vede po příkrém svahu, který vyjede pouze <a object|botgc>pásové rameno</a>. To si musíte vyrobit."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Unfortunately your <a object|factory>bot factory</a> hasn't yet got the capacity to assemble this type of bot. You need to request your <a object|research>research center</a> to come up with a blueprint for this particular propeller."
+msgstr "Bohužel, Vaše <a object|factory>továrna na roboty</a> zatím nedokáže tento typ robota vyrábět. Nejprve musíte zadat <a object|research>výzkumné stanici</a> příkaz, aby vytvořila výrobní plány pro tento druh pohonu."
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Procedure"
+msgstr "Postup"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Power the research center with one of the green <a object|power>power cells</a>."
+msgstr "Vložte jednu zelenou <a object|power>baterii</a> do výzkumné stanice."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Click on the <tracked bot research program> button <button 64/>."
+msgstr "Klikněte na tlačítko Spustit výzkum pásových robotů <button 64/>."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Drop a <a object|titan>titanium cube</a> in the center of the <a object|factory>bot factory</a> and build a <a object|botgc>tracked grabber</a>."
+msgstr "Doprostřed <a object|factory>továrny na roboty</a> položte <a object|titan>kostku titanu</a> a vyrobte <a object|botgc>pásové rameno</a>."
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "Power and radio-control the <a object|botgc>tracked grabber</a> to the top of the southwest-oriented mountain."
+msgstr "Do zdířky <a object|botgc>pásového ramena</a> vložte baterii a dojeďte s ním na vrchol hory na jihozápadě."
+
+#. type: Bullet: '5)'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "Bring the black box back aboard your spaceship."
+msgstr "Na palubu rakety přivezte černou skříňku."
+
+#. type: Bullet: '6)'
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Don't forget to take the <a object|botgr>wheeled grabber</a> along. These bots may prove very useful in the future."
+msgstr "Nezapomeňte naložit i <a object|botgr>pojízdné rameno</a>. Tito roboti se Vám v budoucnu mohou hodit."
+
+#. type: Bullet: '7)'
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Climb aboard the <a object|base>spaceship</a>."
+msgstr "Nastupte do <a object|base>rakety</a>."
+
+#. type: Bullet: '8)'
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Select the <a object|base>spaceship</a> and take off <button 28/>."
+msgstr "Vyberte <a object|base>raketu</a> a odleťte <button 28/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "Please note: To work more efficiently, you can use the <a object|botgr>wheeled grabber</a>."
+msgstr "Pamatujte: <a object|botgr>Pojízdné rameno</a> Vám může usnadnit práci."
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:23 ../help/soluce.E.txt:27
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:24 ../help/soluce.E.txt:28
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Before taking off, you need to bring the following aboard your spaceship:"
+msgstr "Před odletem musíte do rakety naložit:"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "<a object|bbox>Black box</a>."
+msgstr "<a object|bbox>Černou skříňku</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:5
+#, no-wrap
+msgid "<a object|botgr>Wheeled</a> and <a object|botgc>tracked</a> grabbers."
+msgstr "<a object|botgr>Pojízdné</a> a <a object|botgc>pásové</a> rameno."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "<a object|human>Yourself</a>."
+msgstr "<a object|human>Sebe</a>."
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:9
+#, no-wrap
+msgid "Power the <a object|research>research center</a> with one of the green <a object|power>power cells</a>."
+msgstr "Vložte jednu zelenou <a object|power>baterii</a> do výzkumné stanice."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Activate the <a object|research>research center</a> then click on the <button 64/> <tracked bot research program> button."
+msgstr "Vyberte <a object|research>výzkumnou stanici</a> a klikněte na tlačítko <button 64/> Spustit výzkum pásových robotů."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "Place a <a object|titan>titanium cube</a> inside the <a object|factory>bot factory</a>."
+msgstr "Do <a object|factory>továrny na roboty</a> položte <a object|titan>kostku titanu</a>."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Step back out and activate the <a object|factory>bot factory</a>."
+msgstr "Ustupte ven a vyberte <a object|factory>továrnu na roboty</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid "Click on the <button 138/> <build a <a object|botgc>tracked grabber</a>> button."
+msgstr "Klikněte na tlačítko <button 138/> Vyrobit pásové rameno."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:14
+#, no-wrap
+msgid "Power the <a object|botgc>tracked grabber</a> with a brand new <a object|power>power cell</a>."
+msgstr "Do zdířky <a object|botgc>pásového ramena</a> vložte nabitou baterii."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:15
+#, no-wrap
+msgid "Radio-control the <a object|botgc>tracked grabber</a> to the top of the mountain in the south-west."
+msgstr "Dojeďte s <a object|botgc>pásovým ramenem</a> na vrchol hory na jihozápadě."
+
+#. type: Bullet: '8)'
+#: ../help/soluce.E.txt:16
+#, no-wrap
+msgid "Bring the <a object|bbox>black box</a> back aboard your <a object|base>spaceship</a>."
+msgstr "Na palubu <a object|base>rakety</a> přivezte <a object|bbox>černou skříňku</a>."
+
+#. type: Bullet: '9)'
+#: ../help/soluce.E.txt:17
+#, no-wrap
+msgid "Radio-control both the <a object|botgc>tracked</a> and the <a object|botgr>wheeled</a> grabbers onto the platform."
+msgstr "Dojeďte s <a object|botgc>pásovým</a> i <a object|botgr>pojízdným</a> ramenem na palubu rakety."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:18
+#, no-wrap
+msgid ""
+"10) Climb aboard the <a object|base>spaceship</a> yourself.\n"
+"11) Take off!"
+msgstr ""
+"10) Sami nastupte na palubu <a object|base>rakety</a>.\n"
+"11) Odlet!"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:21
+#, no-wrap
+msgid "In order to take off, select the <a object|base>spaceship</a>, provided that it is visible, by clicking on it. If it is not visible, you need to click one of the buttons in the upper left corner of your screen. The blue triangle <button 130/> allows you to alternate between symbols for bots and symbols for buildings. Click once to shift to the <buildings> list. A <button 171/> <spaceship> symbol will now appear. Click on the button to select it."
+msgstr "Abyste odletěli, nejprve klikněte na <a object|base>raketu</a>, pokud ji vidíte na obrazovce. Pokud ji nevidíte, můžete ji vybrat kliknutím na jedno z tlačítek v levém horním rohu obrazovky. Tlačítko s trojúhelníkem <button 130/> přepíná mezi tlačítky robotů a budov. Klikněte na něj, abyste přepnuli na seznam budov. Objeví se tlačítko se symbolem rakety <button 171/>, na které klikněte."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:23
+#, no-wrap
+msgid "Once the spaceship is selected, click on the larger <button 28/> <takeoff> button in the lower center of your screen. If the objects mentioned above as well as yourself are indeed standing on deck, takeoff will take place."
+msgstr "Když máte raketu vybranou, klikněte uprostřed dolní části obrazovky na velké tlačítko <button 28/> Odlet. Pokud budete na palubě spolu s výše uvedenými objekty, raketa odletí."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:25
+#, no-wrap
+msgid "No object or bot should hinder the closing of the eight large panel doors."
+msgstr "Žádný robot ani objekt při tom nesmí překážet na osmi velkých nájezdových rampách, aby se mohly uzavřít."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Here is a detailed breakdown of the operations:"
+msgstr "Zde je podrobný seznam nutných kroků:"
