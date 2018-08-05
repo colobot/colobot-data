@@ -18,12 +18,15 @@ pipeline {
         }
         stage('Build data') {
             steps {
-                sh '''
-                    cmake -DCMAKE_INSTALL_PREFIX=/install -DCOLOBOT_INSTALL_DATA_DIR=/install/data ..
-                    make
-                    rm -rf install
-                    DESTDIR=. make install
-                '''
+                sh 'mkdir -p build'
+                dir('build') {
+                    sh '''
+                        cmake -DCMAKE_INSTALL_PREFIX=/install -DCOLOBOT_INSTALL_DATA_DIR=/install/data ..
+                        make
+                        rm -rf install
+                        DESTDIR=. make install
+                    '''
+                }
             }
         }
 
