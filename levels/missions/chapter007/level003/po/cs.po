@@ -1,0 +1,176 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-16 16:07+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Cleansing"
+msgstr "Čistka"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Find the resources you need to eradicate all life in the region."
+msgstr "Najděte potřebné suroviny, abyste zlikvidovali veškerý život v oblasti."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Build a <a object|radar>radar</a> on one of the highest accessible spots and make sure that no organism can destroy it after <a object|human>you</a>'re gone."
+msgstr "Na jednom z nejvyšších přístupných míst postavte <a object|radar>radar</a> a postarejte se, aby ho po <a object|human>Vašem</a> odletu žádný organizmus nezničil."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The destruction of a previous radar set up by the first expedition was probably the cause of a communication breakdown, which led to complete loss of contact."
+msgstr "Zničení předchozího radaru postaveného první výpravou bylo zřejmě příčinou výpadků spojení, které nakonec vedly k úplné ztrátě kontaktu."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:8 ../help/soluce.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Centaury."
+msgstr "Aktuálně na stacionární oběžné dráze Kentaura."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      25.4C\n"
+"\\tab;Atmosphere:       oxygen, nitrogen, ammonia\n"
+"\\tab;Wind:             0.7 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Teplota:           25,4 °C\n"
+"\\tab;Atmosféra:         kyslík, dusík, čpavek\n"
+"\\tab;Vítr:              0,7 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      trocha"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     žádný\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         spiders\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         reusable derelicts"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední\n"
+"\\tab;Nalezeno:          pavouci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední\n"
+"\\tab;Nalezeno:          recyklovatelné vraky"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "In order to kill all ants and spiders in this large and mountainous region, you will need a <a object|botfj>winged orga shooter</a> powered with <a object|atomic>nuclear power cells</a>. In a small valley to the southeast you will find everything you need: <a object|titanium>titanium cubes</a>, <a object|power>power cells</a> and even a <a object|botgj>winged grabber</a> in working condition."
+msgstr "Na likvidaci všech mravenců a pavouků v této rozlehlé hornaté oblasti budete potřebovat <a object|botoj>létající biokanón</a> napájený <a object|atomic>jadernou baterií</a>. V malém údolí na jihovýchodě najdete vše potřebné: <a object|titan>Kostky titanu</a>, <a object|power>baterie</a> a dokonce i plně funkční <a object|botgj>létající rameno</a>."
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Build a <a object|radar>radar</a> and a <a object|botfj>winged shooter</a> and power it. Kill the ant that is watching over the <a object|uranore>uranium ore</a> further north."
+msgstr "Postavte <a object|radar>radar</a>, vyrobte <a object|botoj>létající biokanón</a> a vložte do něj baterii. Zlikvidujte mravence, který hlídá <a object|uranore>uranovou rudu</a> kousek na sever."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Use the abandoned <a object|nuclear>nuclear plant</a> on the hill above and the <a object|botgj>winged grabber</a> to produce several <a object|atomic>nuclear power cells</a>, and use one to power the <a object|botfj>winged shooter</a>."
+msgstr "Pošlete <a object|botgj>létající rameno</a> vyrobit několik <a object|atomic>jaderných baterií</a> v opuštěné <a object|nuclear>jaderné elektrárně</a> na kopci nad rudou a jednu novou baterii vložte do <a object|botoj>létajícího biokanónu</a>."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Wipe out all insects from the region. There is one isolated ant in the northwest hidden in a hole: an approach from the west thorough the deep valley will make it easier to hit."
+msgstr "Zlikvidujte veškerý hmyz v oblasti. Na severozápadě se jeden osamělý mravenec ukrývá v díře: Když k němu poletíte ze západu skrz hluboké údolí, bude jednodušší ho trefit."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"
