@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-03-03 20:34+01\n"
+"PO-Revision-Date: 2018-08-20 22:25+02\n"
 "Last-Translator: next_ghost <next_ghost@quick.cz>\n"
 "Language-Team: Czech <next_ghost@quick.cz>\n"
 "Language: Czech\n"
@@ -320,21 +320,7 @@ msgid "Game"
 msgstr "Hra"
 
 #. type: Plain text
-#: ../E/command.txt:40
-#, no-wrap
-msgid ""
-"<format key><key speed10/></format> = normal speed x1\n"
-"<format key><key speed15/></format> = medium speed x1.5\n"
-"<format key><key speed20/></format> = faster speed x2\n"
-"<format key><key quit/></format> = exits mission <button 11/>"
-msgstr ""
-"<format key><key speed10/></format> = normální rychlost x1\n"
-"<format key><key speed15/></format> = střední rychlost x1,5\n"
-"<format key><key speed20/></format> = vysoká rychlost x2\n"
-"<format key><key quit/></format> = ukončí misi <button 11/>"
-
-#. type: Plain text
-#: ../E/command.txt:45
+#: ../E/command.txt:47
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
 msgstr "Všechny tyto klávesy lze přenastavit v nabídce Nastavení/Ovládání."
@@ -1190,3 +1176,21 @@ msgstr ""
 "<code><a cbot|this>this</a>       </code>Ukazatel na aktuální instanci třídy\n"
 "<code><a cbot|extends>extends</a>    </code>Vytvoří odvozenou třídu\n"
 "<code><a cbot|super>super</a>      </code>Ukazatel na rodičovskou třídu"
+
+#. type: Plain text
+#: ../E/command.txt:40
+#, no-wrap
+msgid ""
+"<format key><key speed_dec/></format> = slow down speed by half\n"
+"<format key><key speed_reset/></format> = normal speed x1\n"
+"<format key><key speed_inc/></format> = increase speed twice\n"
+"<format key><key quicksave/></format> = quick save\n"
+"<format key><key quickload/></format> = quick load\n"
+"<format key><key quit/></format> = exits mission <button 11/>"
+msgstr ""
+"<format key><key speed_dec/></format> = zpomalit hru na polovinu\n"
+"<format key><key speed_reset/></format> = normální rychlost x1\n"
+"<format key><key speed_inc/></format> = zdvojnásobit rychlost hry\n"
+"<format key><key quicksave/></format> = rychlé uložení\n"
+"<format key><key quickload/></format> = rychlé načtení\n"
+"<format key><key quit/></format> = ukončit misi <button 11/>"
