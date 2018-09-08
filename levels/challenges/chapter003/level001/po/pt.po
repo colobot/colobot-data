@@ -1,0 +1,189 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-15 10:53-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mover 1"
+msgstr "Mover 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Retrieve some titanium ore in order to convert it to titanium cubes."
+msgstr "Recupere um pouco de minério de titânio para convertê-lo em cubos de titânio."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Mover"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercício"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
+msgstr "Converta algum <a object|titanore>minério de titânio</a> em <a object|titan>cubos de titânio</a>, depois derrube 2 cubos de titânio nos blocos cujas coordenadas são:"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65"
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "derrick"
+msgstr "extrator"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
+msgstr "A <a object|derrick>extrator</a> extrai o minério de titânio do subsolo; você só tem que pegá-lo."
+
+#. type: Image filename
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "convert"
+msgstr "converter"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
+msgstr "O <a object|convert>conversor</a> converte minério de titânio em cubos de titânio. Basta soltar o minério de titânio na plataforma, recuar e esperar até que ele seja convertido."
+
+#. type: \b; header
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "General principle"
+msgstr "Princípio geral"
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Repeat two times :"
+msgstr "Repita 2 vezes:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Wait until there is some titanium ore."
+msgstr "Espere até que haja algum minério de titânio."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "Go to the titanium ore."
+msgstr "Vá para o minério de titânio."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Pick it up."
+msgstr "Pegue-o."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Go to the converter."
+msgstr "Vá para o conversor."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "Drop the titanium ore."
+msgstr "Solte o minério de titânio."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "Move back 2.5 meters."
+msgstr "Volte 2,5 metros."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Wait until there is a titanium cube."
+msgstr "Espere até que haja um cubo de titânio."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Pick up the titanium cube."
+msgstr "Pegue o cubo de titânio."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "Go to the platform."
+msgstr "Vá para a plataforma."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Drop the titanium cube."
+msgstr "Solte o cubo de titânio."
+
+#. type: \b; header
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Instruções úteis"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"<code><a cbot|for>for</a></code> to repeat some instructions\n"
+"<code><a cbot|do>do - while</a></code> to repeat some instructions\n"
+"<code><a cbot|radar>radar</a></code> to look for different objects\n"
+"<code><a cbot|goto>goto</a></code> to move the bot\n"
+"<code><a cbot|grab>grab</a></code> to grab an object\n"
+"<code><a cbot|drop>drop</a></code> to drop an object"
+msgstr ""
+"<code><a cbot|for>for</a></code> para repetir algumas instruções\n"
+"<code><a cbot|do>do - while</a></code> para repetir algumas instruções\n"
+"<code><a cbot|radar>radar</a></code> para procurar por objetos diferentes\n"
+"<code><a cbot|goto>goto</a></code> para mover o robô\n"
+"<code><a cbot|grab>grab</a></code> para pegar um objeto\n"
+"<code><a cbot|drop>drop</a></code> para largar um objeto"
+
+#. type: \t; header
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "See also"
+msgstr "Veja também"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category>categorias</a>."

@@ -1,0 +1,155 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-11 10:52-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Flying mover"
+msgstr "Movimento voador"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Move a titanium cube across obstacles."
+msgstr "Mova um cubo de titânio através dos obstáculos."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Mover"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercício"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
+msgstr "Mova o <a object|titan>cubo de titânio</a> no bloco alvo. Você não sabe a posição do titânio, mas podemos dizer-lhe a posição do bloco alvo: x = 10 e y = -60."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The instruction <code>goto</code>"
+msgstr "A instrução <code>goto</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid ""
+"The winged bot can get across obstacles. The instruction <code><a cbot|goto>goto</a></code>, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.\n"
+"This instruction can actually receive a second parameter, which is not compulsory: the flying altitude. If no second parameter is given, the flying altitude will be set to the default value of 10m."
+msgstr ""
+"O robô alado pode atravessar obstáculos. A instrução  <code><a cbot|goto>goto</a></code>, se executada em um robô alado, executará automaticamente um movimento de vôo, com uma decolagem no início, e um pouso no final . \n"
+"Esta instrução pode realmente receber um segundo parâmetro, que não é obrigatório: a altitude de vôo. Se nenhum segundo parâmetro for dado, a altitude de vôo será definida para o valor padrão de 10m."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid ""
+"Therefore, the instruction:\n"
+"<c/><s/>goto(item.position);<n/>"
+msgstr ""
+"Portanto, a instrução: \n"
+"<c/><s/>goto(item.position);<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid ""
+"Is equivalent to:\n"
+"<c/><s/>goto(item.position, 10);<n/>"
+msgstr ""
+"É equivalente a: \n"
+"<c/><s/>goto(item.position, 10);<n/>"
+
+#. type: \b; header
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "The program"
+msgstr "O programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:"
+msgstr "Use a instrução  <c/><a cbot|radar>radar</a>(Titanium);<n/> para encontrar o cubo de titânio. Em seguida, teste se um cubo de titânio foi realmente encontrado. Neste exercício, essa linha não é muito útil, porque sabemos que existe um cubo de titânio em algum lugar. No entanto, é melhor ter o hábito de testar o que seu radar retorna:"
+
+#. type: Source code
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
+msgstr ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "The variable <code>item</code> is of type <code><a cbot|object>object</a></code>. In order to know the exact location of the object described by the variable, just write <code>item.position</code>."
+msgstr "A variável <code>item</code> é do tipo <code><a cbot|object>object</a></code>. Para saber a localização exata do objeto descrito pela variável, apenas escreva <code>item.position</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "In order to take the titanium cube, use the instruction <code><a cbot|grab>grab</a>()</code> without any parameter."
+msgstr "Para pegar o cubo de titânio, use a instrução <code><a cbot|grab>grab</a>()</code> sem nenhum parâmetro."
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "In order to drop the titanium, use the instruction <code><a cbot|drop>drop</a>()</code> without any parameter."
+msgstr "Para eliminar o titânio, use a instrução <code><a cbot|drop>drop</a>()</code> sem nenhum parâmetro."
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid ""
+"We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
+"Remark: You do not have to take care of the <code>z</code> coordinate in the case of a bot that can not fly."
+msgstr ""
+"Conhecemos as coordenadas do bloco alvo: x = 10 e y = -60. Você deve declarar uma <a cbot|var>variável</a> do tipo <a cbot|point>point</a>, depois preenchê-la com as coordenadas corretas. Então você pode dar essa variável como um parâmetro para a instrução <code><a cbot|goto>goto</a></code>.\n"
+"Observação: Você não precisa cuidar da coordenada <code>z</code> no caso de um robô que não pode voar."
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "It is now up to you to finish the program..."
+msgstr "Agora cabe a você terminar o programa ..."
+
+#. type: \t; header
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "See also"
+msgstr "Veja também"
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category>categorias</a>."
