@@ -1,0 +1,214 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-15 14:20+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Cloning"
+msgstr "Kopírování"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Reproduce the technology to manufacture an orga shooter yourself."
+msgstr "Okopírujte technologii pro výrobu biokanónů."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Find some more <a object|bullet>organic matter</a> and, given an appropriate research program performed by your <a object|labo>autolab</a>, <a object|human>you</a> should be able to manufacture orga shooters yourself."
+msgstr "Najděte další vzorek <a object|bullet>organické hmoty</a> a proveďte nezbytný výzkum v <a object|labo>laboratoři</a>, abyste mohli vyrábět nové biokanóny."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Produce a <a object|botos>legged orga shooter</a> and bring it back aboard your <a object|base>spaceship</a>."
+msgstr "Vyrobte <a object|botos>chodící biokanón</a> a naložte ho do <a object|base>rakety</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Please keep in mind that low energy resources are a major concern on this planet."
+msgstr "Pamatujte, že nedostatek zdrojů energie na této planetě představuje vážnou komplikaci."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10 ../help/soluce.E.txt:19
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Centaury."
+msgstr "Aktuálně na stacionární oběžné dráze Kentaura."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      23.4C\n"
+"\\tab;Atmosphere:       oxygen, nitrogen, ammonia\n"
+"\\tab;Wind:             1.2 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Teplota:           23,4 °C\n"
+"\\tab;Atmosféra:         kyslík, dusík, čpavek\n"
+"\\tab;Vítr:              1,2 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      trocha"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     žádný\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         reusable derelicts"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední\n"
+"\\tab;Nalezeno:          recyklovatelné vraky"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Bullet: 'o'
+#: ../help/soluce.E.txt:3
+#, no-wrap
+msgid "A <a object|botrecy>recycler</a> that will allow you to make your first <a object|titan>titanium cube</a>."
+msgstr "<a object|botrecy>Recyklátor</a>, kterým si vyrobíte první <a object|titan>kostku titanu</a>."
+
+#. type: Bullet: 'o'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "A <a object|botgs>legged grabber</a> that is very good at climbing steep slopes."
+msgstr "<a object|botgs>Chodící rameno</a>, které umí šplhat i po prudkých svazích."
+
+#. type: Bullet: 'o'
+#: ../help/soluce.E.txt:5
+#, no-wrap
+msgid "A nearly charged <a object|atomic>nuclear power cell</a>."
+msgstr "Skoro plnou <a object|atomic>jadernou baterii</a>."
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:7
+#, no-wrap
+msgid "Power the <a object|botgs>legged grabber</a> with the <a object|atomic>nuclear power cell</a>, and use it to carry a <a object|titan>titanium cube</a> to the <a object|base>spaceship</a>. Choose the direct way over the mountains."
+msgstr "<a object|atomic>Jadernou baterii</a> vložte do <a object|botgs>chodícího ramena</a> a odvezte s ním <a object|titan>kostku titanu</a> zpět k <a object|base>raketě</a>. Jeďte přímou čarou přes kopec."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:9
+#, no-wrap
+msgid "Use the titanium to build a <a object|convert>converter</a>. Execute the program <code>CollectTitanium3</code> on the <a object|botgs>legged grabber</a> and you will have plenty of titanium."
+msgstr "Z titanu postavte <a object|convert>konvertor</a>. Na <a object|botgs>chodícím rameně</a> spusťte program <code>CollectTitanium3</code>, a budete mít titanu víc než dost."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "Stop the program, and use the grabber to collect some <a object|uranore>uranium ore</a> in a second small valley to the east. Again, do not take the way of the valley which is crawling with ants, but take the direct way over the mountains."
+msgstr "Vypněte program a pošlete chodící rameno posbírat trochu <a object|uranore>uranové rudy</a> do druhého malého údolí na východě. Opět nejezděte po cestě skrz údolí, která se hemží mravenci, ale jeďte přímou čarou přes hory."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid "Build a <a object|botfj>winged shooter</a> and power it with a <a object|atomic>nuclear power cell</a>. If you take the pass south-east, you will arrive immediately at the ant nest. Kill all the ants, and bring back a ball of <a object|bullet>organic matter</a> to the <a object|base>spaceship</a>."
+msgstr "Vyrobte <a object|botfj>létající kanón</a> a vložte do něj <a object|atomic>jadernou baterii</a>. Když proletíte průsmykem na jihovýchodě, dostanete se přímo k mravenčímu hnízdu. Zlikvidujte všechny mravence a zpět k <a object|base>raketě</a> přivezte vzorek <a object|bullet>organické hmoty</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:15
+#, no-wrap
+msgid "Build an <a object|labo>auto-lab</a>, drop the <a object|bullet>organic matter</a> on the platform and click the <button 110/> button in order to develop the blueprints for the orgaShooter cannon."
+msgstr "Postavte <a object|labo>laboratoř</a>, položte <a object|bullet>organickou hmotu</a> na její plošinku a klikněte na tlačítko <button 110/>, abyste spustili vývoj výrobních plánů pro biokanóny."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:17
+#, no-wrap
+msgid "Build a <a object|botos>legged orga shooter</a>, bring it aboard and take off."
+msgstr "Vyrobte <a object|botos>chodící biokanón</a>, naložte ho do rakety a odleťte."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:20
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "You'll find some useful items in a small valley northeast."
+msgstr "V malém údolí na severovýchodě najdete několik užitečných věcí."

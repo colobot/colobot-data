@@ -1,0 +1,152 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-05 23:01+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Flying Tower 2"
+msgstr "Létající věž 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Program a flying tower that wastes less energy."
+msgstr "Naprogramujte létající obrannou věž, která nebude tolik plýtvat energií."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Obrana2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Adapt the program <code>Tower1</code> in order to avoid wasting energy when shooting at ants that are out of range."
+msgstr "Upravte program <code>Obrana1</code>, aby zbytečně neplýtval energií palbou na mravence mimo dostřel."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The program <code>Tower1</code> shoots in the direction of the closest ant, even if it is still out of range:"
+msgstr "Program <code>Obrana1</code> střílí na nejbližšího mravence, i když je mimo dostřel:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Tour1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\titem = radar(AlienAnt);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Obrana1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\titem = radar(AlienAnt);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "If the bot must perform the same task than before with only a <a object|power>regular power cell</a>, you can insert a loop that waits until the ant is close enough, i.e. until the ant is at less than 40 meters. Only one burst will be needed for every ant then."
+msgstr "Tentokrát musí robot splnit stejný úkol pouze s <a object|power>obyčejnou baterií</a>. Musíte tedy přidat cyklus, který bude čekat, až se mravenec dostatečně přiblíží, t.j. dokud nebude blíže než 40 metrů. Pak bude na každého mravence stačit jediná dávka."
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "You can give the instruction <code><a cbot|radar()>radar</a></code> more parameters (numbers) indicating where the radar should look for the ants. For example <c/>radar(AlienAnt,0,360,0,40);<n/> will only look for ants that are closer than 40 meters. The two first numbers tell the radar to search in all directions, the two last numbers tell the radar to detect only ants that are at a distance between 0 and 40 meters. If no ant is found that is closer than 40 meters, the instruction <code><a cbot|radar()>radar</a></code> returns the value <code>null</code>. We can then write a conditional loop similar to the one written in the last exercise that waits as long as there is no ant closer than 40 meters:"
+msgstr "Příkazu <code><a cbot|radar>radar</a>()</code> můžete zadat více parametrů (čísel) vymezujících, kde má radar hledat mravence. Například <c/>radar(AlienAnt,0,360,0,40);<n/> bude hledat mravence pouze do vzdálenosti 40 metrů. První dvě čísla říkají radaru, aby hledal ve všech směrech, další dvě čísla říkají, aby hledal pouze mravence ve vzdálenosti od 0 do 40 metrů. Pokud žádný mravenec není blíže než 40 metrů, příkaz <code><a cbot|radar>radar</a>()</code> vrátí hodnotu <code>null</code>. Můžeme tedy podobně jako v předchozím cvičení napsat cyklus, který bude čekat, dokud se některý mravenec nepřiblíží na méně než 40 metrů:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
+msgstr ""
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "Notice that two equal signs \"==\" are needed to perform a comparison of equality."
+msgstr "Všimněte si, že porovnání na rovnost se zapisuje dvěma rovnítky za sebou: \"==\""
+
+#. type: Plain text
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "Just insert these lines before the instruction <c/>fire(0);<n/>, and the bot will wait before shooting until the ant is closer than 40 meters. Like this a regular power cell is enough to kill all ants. "
+msgstr "Jednoduše vložte výše uvedený kód před příkaz <c/>fire(1);<n/> a robot bude před výstřelem čekat, až se mravenec přiblíží na méně než 40 metrů. Pak bude na likvidaci mravenců stačit i obyčejná baterie. "
+
+#. type: \t; header
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."

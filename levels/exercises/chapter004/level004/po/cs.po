@@ -1,0 +1,120 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-19 21:34+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Patient hunter"
+msgstr "Trpělivý lovec"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Be patient enough not to waste your ammunitions."
+msgstr "Buďte dost trpěliví, abyste neplýtvali střelivem."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Patient"
+msgstr "Trpelivost"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You must find a way to destroy the four moving <a object|bottarg>target bots</a> without wasting one shot. Notice that after every move, the targets will stay motionless during one second."
+msgstr "Vymyslete způsob, jak zničit čtyři pohyblivé <a object|bottarg>cvičné cíle</a> a ani jednou při tom neminout. Všimněte si, že cvičné cíle zůstanou po každém přesunu na jednu sekundu nehybně stát."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Detect a target with the instruction <c/><a cbot|radar>radar</a>(TargetBot);<n/>."
+msgstr "Najděte cíl příkazem <c/><a cbot|radar>radar</a>(TargetBot);<n/>."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Turn towards the target with <c/><a cbot|turn>turn</a>(direction());<n/>."
+msgstr "Otočte k cíli příkazem <c/><a cbot|turn>turn</a>(direction());<n/>."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "After the rotation, check if the target did not move."
+msgstr "Po otočení zkontrolujte, jestli se cíl nepohnul."
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "If it did not, wait 0.2 seconds with <c/><a cbot|wait>wait</a>(0.2);<n/>."
+msgstr "Pokud se nepohnul, počkejte 0,2 sekundy příkazem <c/><a cbot|wait>wait</a>(0.2);<n/>."
+
+#. type: Bullet: '5)'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Re-check if the target did not move."
+msgstr "Znovu zkontrolujte, jestli se cíl nepohnul."
+
+#. type: Bullet: '6)'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "If it did not, shoot with <c/><a cbot|fire>fire</a>(2);<n/> and wait 2 seconds for the target to be hit by the bullets and destroyed."
+msgstr "Pokud se nepohnul, vystřelte příkazem <c/><a cbot|fire>fire</a>(2);<n/> a počkejte 2 sekundy, než střely cíl zasáhnou a zničí."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "There are of course other ways to achieve the goal."
+msgstr "Samozřejmě jsou i jiné možnosti, jak úkol splnit."
+
+#. type: \b; header
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Remark"
+msgstr "Poznámky"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "In order to increase the efficiency of your shots, aim a little downward with <c/><a cbot|aim>aim</a>(-3);<n/>."
+msgstr "Abyste zlepšili přesnost palby, namiřte trochu dolů příkazem <c/><a cbot|aim>aim</a>(-3);<n/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."

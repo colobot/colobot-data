@@ -1,0 +1,1112 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-07-14 11:49+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../E/botfc.txt:1
+#, no-wrap
+msgid "<button 144/> Tracked Shooter"
+msgstr "<button 144/> Pásový kanón"
+
+#. type: Image filename
+#: ../E/botfc.txt:2
+#, no-wrap
+msgid "botfc"
+msgstr "botfc"
+
+#. type: Plain text
+#: ../E/botfc.txt:3
+#, no-wrap
+msgid "Tracked bot equipped with a fireball cannon."
+msgstr "Pásový robot vybavený plazmovým kanónem."
+
+#. type: Plain text
+#: ../E/botfc.txt:5 ../E/botfj.txt:5 ../E/botfr.txt:5 ../E/botfs.txt:5
+#, no-wrap
+msgid "The fireball cannon is an efficient weapon against most kinds of <a object|mother>enemies</a>. Use it sparingly though for it requires large amounts of energy. A <a object|power>regular power cell</a> will only allow you to shoot 4 fireball bursts."
+msgstr "Plazmový kanón je účinná zbraň proti většině druhů <a object|mother>nepřátel</a>. Střílejte ale s rozmyslem, protože má značnou spotřebu energie. <a object|power>Běžná baterie</a> vystačí jen na 4 dávky plazmy."
+
+#. type: Plain text
+#: ../E/botfc.txt:7 ../E/botfj.txt:7 ../E/botfr.txt:7 ../E/botfs.txt:7
+#, no-wrap
+msgid "Tip : it is possible to move the mouse while shooting, so as to sweep a larger area."
+msgstr "Tip: Během palby můžete hýbat myší, abyste pokropili větší oblast."
+
+#. type: Plain text
+#: ../E/botfc.txt:9
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botfr>wheeled shooter</a> is a better option. When it is possible to build <a object|botfj>winged bots</a>, these represent the best solution for long distances."
+msgstr "Pásoví roboti mohou vyjet i příkré svahy, ale jsou pomalí a mají velkou spotřebu energie. Na kratší vzdálenosti v rovném terénu se více hodí <a object|botfr>pojízdné kanóny</a>. Na velké vzdálenosti jsou pak ideální <a object|botfj>létající roboti</a>, pokud je můžete stavět."
+
+#. type: \t; header
+#: ../E/botbc.txt:23 ../E/botbj.txt:23 ../E/botbr.txt:23 ../E/botbs.txt:23 ../E/botfc.txt:11 ../E/botfj.txt:13 ../E/botfr.txt:11 ../E/botfs.txt:11 ../E/botgc.txt:24 ../E/botgj.txt:26 ../E/botgr.txt:24 ../E/botgs.txt:24 ../E/botoc.txt:9 ../E/botoj.txt:11 ../E/botor.txt:9 ../E/botos.txt:9 ../E/botphaz.txt:5 ../E/botrecy.txt:5 ../E/botsc.txt:11 ../E/botshld.txt:9 ../E/botsj.txt:13 ../E/botsr.txt:11 ../E/botss.txt:11 ../E/botsub.txt:7
+#, no-wrap
+msgid "Programming"
+msgstr "Programování"
+
+#. type: Plain text
+#: ../E/botbc.txt:24 ../E/botbr.txt:24 ../E/botbs.txt:24 ../E/botfc.txt:12 ../E/botfr.txt:12 ../E/botfs.txt:12 ../E/botgc.txt:25 ../E/botgj.txt:27 ../E/botgr.txt:25 ../E/botgs.txt:25 ../E/botoc.txt:10 ../E/botor.txt:10 ../E/botos.txt:10 ../E/botphaz.txt:6 ../E/botrecy.txt:6 ../E/botsc.txt:12 ../E/botshld.txt:10 ../E/botsr.txt:12 ../E/botss.txt:12 ../E/botsub.txt:8 ../E/bottump.txt:10
+#, no-wrap
+msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+msgstr "Pro ovládání pohybu robota používejte následující příkazy: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+
+#. type: Plain text
+#: ../E/botfc.txt:14 ../E/botfj.txt:16 ../E/botfr.txt:14 ../E/botfs.txt:14
+#, no-wrap
+msgid "To program the fireball cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr "Pro střelbu z kanónu používejte příkaz <code><a cbot|fire>fire</a></code>. Pro míření používejte příkaz <code><a cbot|aim>aim</a></code>."
+
+#. type: \t; header
+#: ../E/botbc.txt:28 ../E/botbj.txt:28 ../E/botbr.txt:28 ../E/botbs.txt:28 ../E/botfc.txt:16 ../E/botfj.txt:18 ../E/botfr.txt:16 ../E/botfs.txt:16 ../E/botgc.txt:29 ../E/botgj.txt:31 ../E/botgr.txt:29 ../E/botgs.txt:29 ../E/botoc.txt:14 ../E/botoj.txt:16 ../E/botor.txt:14 ../E/botos.txt:14 ../E/botphaz.txt:10 ../E/botrecy.txt:10 ../E/botsc.txt:16 ../E/botshld.txt:14 ../E/botsj.txt:18 ../E/botsr.txt:16 ../E/botss.txt:16 ../E/botsub.txt:12 ../E/bottarg.txt:7 ../E/bottr.txt:8 ../E/bottump.txt:14
+#, no-wrap
+msgid "Object <a cbot|category>Category</a>"
+msgstr "<a cbot|category>Kategorie</a> objektu"
+
+#. type: Plain text
+#: ../E/botfc.txt:17
+#, no-wrap
+msgid "<code>TrackedShooter</code>"
+msgstr "<code>TrackedShooter</code>"
+
+#. type: \t; header
+#: ../E/botbc.txt:31 ../E/botbj.txt:31 ../E/botbr.txt:31 ../E/botbs.txt:31 ../E/botfc.txt:19 ../E/botfj.txt:21 ../E/botfr.txt:19 ../E/botfs.txt:19 ../E/botgc.txt:32 ../E/botgj.txt:34 ../E/botgr.txt:32 ../E/botgs.txt:32 ../E/botoc.txt:17 ../E/botoj.txt:19 ../E/botor.txt:17 ../E/botos.txt:17 ../E/botphaz.txt:13 ../E/botrecy.txt:13 ../E/botsc.txt:19 ../E/botshld.txt:17 ../E/botsj.txt:21 ../E/botsr.txt:19 ../E/botss.txt:19 ../E/botsub.txt:15 ../E/bottarg.txt:10 ../E/bottr.txt:11 ../E/bottump.txt:17
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../E/botbc.txt:32 ../E/botbj.txt:32 ../E/botbr.txt:32 ../E/botbs.txt:32 ../E/botfc.txt:20 ../E/botfj.txt:22 ../E/botfr.txt:20 ../E/botfs.txt:20 ../E/botgc.txt:33 ../E/botgj.txt:35 ../E/botgr.txt:33 ../E/botgs.txt:33 ../E/botoc.txt:18 ../E/botoj.txt:20 ../E/botor.txt:18 ../E/botos.txt:18 ../E/botphaz.txt:14 ../E/botrecy.txt:14 ../E/botsc.txt:20 ../E/botshld.txt:18 ../E/botsj.txt:22 ../E/botsr.txt:20 ../E/botss.txt:20 ../E/botsub.txt:16 ../E/bottarg.txt:11 ../E/bottr.txt:12 ../E/bottump.txt:18
+#, no-wrap
+msgid "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a cbot|category>Categories</a>."
+msgstr "<a cbot>Jazyk CBOT</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: \b; header
+#: ../E/botfj.txt:1
+#, no-wrap
+msgid "<button 145/> Winged Shooter"
+msgstr "<button 145/> Létající kanón"
+
+#. type: Image filename
+#: ../E/botfj.txt:2
+#, no-wrap
+msgid "botfj"
+msgstr "botfj"
+
+#. type: Plain text
+#: ../E/botfj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped with a fireball cannon."
+msgstr "Létající robot s tryskovým pohonem vybavený plazmovým kanónem."
+
+#. type: Plain text
+#: ../E/botfj.txt:9 ../E/botgj.txt:20 ../E/botoj.txt:7
+#, no-wrap
+msgid "The display at the bottom of your screen indicates the temperature of the reactor. Keep an eye on it. If the reactor overheats, the engine will stop and the bot will crash."
+msgstr "Měřič v dolní části obrazovky ukazuje teplotu reaktoru. Dávejte na ni pozor. Když se reaktor přehřeje, tryskový motor přestane fungovat a robot se zřítí na zem."
+
+#. type: Plain text
+#: ../E/botfj.txt:11
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botfr>wheeled shooter</a> instead."
+msgstr "Létající roboti mohou létat přes přírodní překážky jako například hory nebo jezera, ale brzy jim dochází energie. Na zemi jsou pomalí. Na kratší vzdálenosti, kdy nemá cenu létat, se více hodí <a object|botfr>pojízdné kanóny</a>."
+
+#. type: Plain text
+#: ../E/botbj.txt:24 ../E/botfj.txt:14 ../E/botoj.txt:12 ../E/botsj.txt:14
+#, no-wrap
+msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
+msgstr "Pro ovládání pohybu robota používejte následující příkazy: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
+
+#. type: Plain text
+#: ../E/botfj.txt:19
+#, no-wrap
+msgid "<code>WingedShooter</code>"
+msgstr "<code>WingedShooter</code>"
+
+#. type: \b; header
+#: ../E/botfr.txt:1
+#, no-wrap
+msgid "<button 143/> Wheeled Shooter"
+msgstr "<button 143/> Pojízdný kanón"
+
+#. type: Image filename
+#: ../E/botfr.txt:2
+#, no-wrap
+msgid "botfr"
+msgstr "botfr"
+
+#. type: Plain text
+#: ../E/botfr.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped with a fireball cannon."
+msgstr "Pojízdný robot na kolečkách vybavený plazmovým kanónem."
+
+#. type: Plain text
+#: ../E/botfr.txt:9 ../E/botgr.txt:20
+#, no-wrap
+msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botfj>winged shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked shooter</a>."
+msgstr "Kolečka představují nejběžnější pohon s dobrou rychlostí a nízkou spotřebou energie, který se skvěle hodí do relativně rovného terénu. V hornatém terénu je doporučeno používat <a object|botfj>létající kanóny</a>, případně <a object|botfc>pásové kanóny</a>, pokud létající roboti nejsou k dispozici."
+
+#. type: Plain text
+#: ../E/botfr.txt:17
+#, no-wrap
+msgid "<code>WheeledShooter</code>"
+msgstr "<code>WheeledShooter</code>"
+
+#. type: \b; header
+#: ../E/botfs.txt:1
+#, no-wrap
+msgid "<button 151/> Legged Shooter"
+msgstr "<button 151/> Chodící kanón"
+
+#. type: Image filename
+#: ../E/botfs.txt:2
+#, no-wrap
+msgid "botfs"
+msgstr "botfs"
+
+#. type: Plain text
+#: ../E/botfs.txt:3
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with a fireball cannon."
+msgstr "Šestinohý chodící robot vybavený plazmovým kanónem."
+
+#. type: Plain text
+#: ../E/botfs.txt:9
+#, no-wrap
+msgid "A moving legged shooter uses up half as much energy as a <a object|botfr>wheeled shooter</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
+msgstr "Chodící kanón při pohybu spotřebovává jen polovinu energie oproti <a object|botfr>pojízdnému kanónu</a>. Chodící roboti navíc dokáží vyšplhat i po nejpříkřejších svazích."
+
+#. type: Plain text
+#: ../E/botfs.txt:17
+#, no-wrap
+msgid "<code>LeggedShooter</code>"
+msgstr "<code>LeggedShooter</code>"
+
+#. type: \b; header
+#: ../E/botgc.txt:1
+#, no-wrap
+msgid "<button 138/> Tracked Grabber"
+msgstr "<button 138/> Pásové rameno"
+
+#. type: Image filename
+#: ../E/botgc.txt:2
+#, no-wrap
+msgid "botgc"
+msgstr "botgc"
+
+#. type: Plain text
+#: ../E/botgc.txt:3
+#, no-wrap
+msgid "Tracked bot equipped with an operating arm."
+msgstr "Pásový robot vybavený manipulačním ramenem."
+
+#. type: Plain text
+#: ../E/botgc.txt:5 ../E/botgj.txt:5 ../E/botgr.txt:5 ../E/botgs.txt:5
+#, no-wrap
+msgid ""
+"<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
+"<button 33/> The object is lying in front of the bot, on the ground or on the back of a second bot.\n"
+"<button 35/> The object is the bot's own power cell.\n"
+"<button 34/> The object is lying behind the bot, on the ground."
+msgstr ""
+"<button 32/> Zvedne nebo položí předmět na místě určeném jedním z následujících přepínačů:\n"
+"<button 33/> Předmět leží před robotem na zemi nebo ve zdířce jiného robota.\n"
+"<button 35/> Předmět je robotova vlastní baterie.\n"
+"<button 34/> Předmět leží na zemi za robotem."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:11 ../E/botgj.txt:11 ../E/botgr.txt:11 ../E/botgs.txt:11
+#, no-wrap
+msgid "<a object|titanore>Titanium ore</a>."
+msgstr "<a object|titanore>Titanová ruda</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:12 ../E/botgj.txt:12 ../E/botgr.txt:12 ../E/botgs.txt:12
+#, no-wrap
+msgid "<a object|uranore>Uranium ore</a>."
+msgstr "<a object|uranore>Uranová ruda</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:13 ../E/botgj.txt:13
+#, no-wrap
+msgid "<a object|titan>Cube of titanium</a>."
+msgstr "<a object|titan>Kostka titanu</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:14 ../E/botgj.txt:14 ../E/botgr.txt:14 ../E/botgs.txt:14
+#, no-wrap
+msgid "<a object|power>Regular power cell</a>."
+msgstr "<a object|power>Běžná baterie</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:15 ../E/botgj.txt:15 ../E/botgr.txt:15 ../E/botgs.txt:15
+#, no-wrap
+msgid "<a object|atomic>Nuclear power cell</a>."
+msgstr "<a object|atomic>Jaderná baterie</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:16 ../E/botgj.txt:16 ../E/botgr.txt:16 ../E/botgs.txt:16
+#, no-wrap
+msgid "<a object|bbox>Black box</a>."
+msgstr "<a object|bbox>Černá skříňka</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:17 ../E/botgj.txt:17 ../E/botgr.txt:17 ../E/botgs.txt:17
+#, no-wrap
+msgid "<a object|key>Keys A, B, C, and D</a>."
+msgstr "<a object|key>Klíče A, B, C a D</a>."
+
+#. type: Bullet: 'o'
+#: ../E/botgc.txt:18 ../E/botgj.txt:18 ../E/botgr.txt:18 ../E/botgs.txt:18
+#, no-wrap
+msgid "<a object|bullet>Organic matter</a>."
+msgstr "<a object|bullet>Organická hmota</a>."
+
+#. type: Plain text
+#: ../E/botgc.txt:20
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use much energy. On flat ground for short distances, a <a object|botgr>wheeled grabber</a> is a better option. When it is possible to build <a object|botgj>winged bots</a>, these represent the best solution for long distances."
+msgstr "Pásoví roboti mohou vyjet i příkré svahy, ale jsou pomalí a mají velkou spotřebu energie. Na kratší vzdálenosti v rovném terénu se více hodí <a object|botgr>pojízdná ramena</a>. Na velké vzdálenosti jsou pak ideální <a object|botgj>létající roboti</a>, pokud je můžete stavět."
+
+#. type: Plain text
+#: ../E/botgc.txt:22 ../E/botgj.txt:24 ../E/botgr.txt:22 ../E/botgs.txt:22
+#, no-wrap
+msgid "A grabber won't function underwater. What you'll need instead is a <a object|botsub>subber</a>."
+msgstr "Robotická ramena nefungují pod vodou. Pro obojživelné operace budete potřebovat <a object|botsub>ponorku</a>."
+
+#. type: Plain text
+#: ../E/botgc.txt:27 ../E/botgj.txt:29 ../E/botgr.txt:27 ../E/botgs.txt:27
+#, no-wrap
+msgid "To program the operating arm, use <code><a cbot|grab>grab</a></code> and <code><a cbot|drop>drop</a></code>."
+msgstr "Pro ovládání manipulačního ramena používejte příkazy <code><a cbot|grab>grab</a></code> a <code><a cbot|drop>drop</a></code>."
+
+#. type: Plain text
+#: ../E/botgc.txt:30
+#, no-wrap
+msgid "<code>TrackedGrabber</code>"
+msgstr "<code>TrackedGrabber</code>"
+
+#. type: \b; header
+#: ../E/botgj.txt:1
+#, no-wrap
+msgid "<button 139/> Winged Grabber"
+msgstr "<button 139/> Létající rameno"
+
+#. type: Image filename
+#: ../E/botgj.txt:2
+#, no-wrap
+msgid "botgj"
+msgstr "botgj"
+
+#. type: Plain text
+#: ../E/botgj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped with an operating arm."
+msgstr "Létající robot s tryskovým pohonem vybavený manipulačním ramenem."
+
+#. type: Plain text
+#: ../E/botgj.txt:22
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botgr>wheeled grabber</a> instead."
+msgstr "Létající roboti mohou létat přes přírodní překážky jako například hory nebo jezera, ale brzy jim dochází energie. Na zemi jsou pomalí. Na kratší vzdálenosti, kdy nemá cenu létat, se více hodí <a object|botgr>pojízdná ramena</a>."
+
+#. type: Plain text
+#: ../E/botgj.txt:32
+#, no-wrap
+msgid "<code>WingedGrabber</code>"
+msgstr "<code>WingedGrabber</code>"
+
+#. type: \b; header
+#: ../E/botgr.txt:1
+#, no-wrap
+msgid "<button 137/> Wheeled Grabber"
+msgstr "<button 137/> Pojízdné rameno"
+
+#. type: Image filename
+#: ../E/botgr.txt:2
+#, no-wrap
+msgid "botgr"
+msgstr "botgr"
+
+#. type: Plain text
+#: ../E/botgr.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped with an operating arm."
+msgstr "Pojízdný robot na kolečkách vybavený manipulačním ramenem."
+
+#. type: Bullet: 'o'
+#: ../E/botgr.txt:13 ../E/botgs.txt:13
+#, no-wrap
+msgid "<a object|titan>Converted titanium</a>."
+msgstr "<a object|titan>Zpracovaný titan</a>."
+
+#. type: Plain text
+#: ../E/botgr.txt:30
+#, no-wrap
+msgid "<code>WheeledGrabber</code>"
+msgstr "<code>WheeledGrabber</code>"
+
+#. type: \b; header
+#: ../E/botgs.txt:1
+#, no-wrap
+msgid "<button 150/> Legged Grabber"
+msgstr "<button 150/> Chodící rameno"
+
+#. type: Image filename
+#: ../E/botgs.txt:2
+#, no-wrap
+msgid "botgs"
+msgstr "botgs"
+
+#. type: Plain text
+#: ../E/botgs.txt:3
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with an operating arm."
+msgstr "Šestinohý chodící robot vybavený manipulačním ramenem."
+
+#. type: Plain text
+#: ../E/botgs.txt:20
+#, no-wrap
+msgid "A moving legged grabber uses up half as much energy as a <a object|botgr>wheeled grabber</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
+msgstr "Chodící rameno při pohybu spotřebovává jen polovinu energie oproti <a object|botgr>pojízdnému ramenu</a>. Chodící roboti navíc dokáží vyšplhat i po nejpříkřejších svazích."
+
+#. type: Plain text
+#: ../E/botgs.txt:30
+#, no-wrap
+msgid "<code>LeggedGrabber</code>"
+msgstr "<code>LeggedGrabber</code>"
+
+#. type: \b; header
+#: ../E/botoc.txt:1
+#, no-wrap
+msgid "<button 154/> Tracked Orga Shooter"
+msgstr "<button 154/> Pásový biokanón"
+
+#. type: Image filename
+#: ../E/botoc.txt:2
+#, no-wrap
+msgid "botoc"
+msgstr "botoc"
+
+#. type: Plain text
+#: ../E/botoc.txt:3
+#, no-wrap
+msgid "Tracked bot equipped with an orgaball cannon."
+msgstr "Pásový robot vybavený biokanónem."
+
+#. type: Plain text
+#: ../E/botoc.txt:5
+#, no-wrap
+msgid "The orgaball cannon is more effective than the <a object|botfc>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
+msgstr "Biokanón je účinnější než <a object|botfc>plazmový kanón</a>. Střílí malé kuličky žíravé <a object|bullet>organické hmoty</a>. <a object|power>Běžná baterie</a> vystačí na 11 dávek."
+
+#. type: Plain text
+#: ../E/botoc.txt:7
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botor>wheeled orga shooter</a> is a better option. When it is possible to build <a object|botoj>winged bots</a>, these represent the best solution for long distances."
+msgstr "Pásoví roboti mohou vyjet i příkré svahy, ale jsou pomalí a mají velkou spotřebu energie. Na kratší vzdálenosti v rovném terénu se více hodí <a object|botor>pojízdné biokanóny</a>. Na velké vzdálenosti jsou pak ideální <a object|botoj>létající roboti</a>, pokud je můžete stavět."
+
+#. type: Plain text
+#: ../E/botoc.txt:12 ../E/botoj.txt:14 ../E/botor.txt:12 ../E/botos.txt:12
+#, no-wrap
+msgid "To program the orgaball cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr "Pro střelbu z biokanónu používejte příkaz <code><a cbot|fire>fire</a></code>. Pro míření používejte příkaz <code><a cbot|aim>aim</a></code>."
+
+#. type: Plain text
+#: ../E/botoc.txt:15
+#, no-wrap
+msgid "<code>TrackedOrgaShooter</code>"
+msgstr "<code>TrackedOrgaShooter</code>"
+
+#. type: \b; header
+#: ../E/botoj.txt:1
+#, no-wrap
+msgid "<button 155/> Winged Orga Shooter"
+msgstr "<button 155/> Létající biokanón"
+
+#. type: Image filename
+#: ../E/botoj.txt:2
+#, no-wrap
+msgid "botoj"
+msgstr "botoj"
+
+#. type: Plain text
+#: ../E/botoj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped with an orgaball cannon."
+msgstr "Létající robot s tryskovým pohonem vybavený biokanónem."
+
+#. type: Plain text
+#: ../E/botoj.txt:5
+#, no-wrap
+msgid "The orgaball cannon is more effective than the <a object|botfj>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
+msgstr "Biokanón je účinnější než <a object|botfj>plazmový kanón</a>. Střílí malé kuličky žíravé <a object|bullet>organické hmoty</a>. <a object|power>Běžná baterie</a> vystačí na 11 dávek."
+
+#. type: Plain text
+#: ../E/botoj.txt:9
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botor>wheeled orga shooter</a> instead."
+msgstr "Létající roboti mohou létat přes přírodní překážky jako například hory nebo jezera, ale brzy jim dochází energie. Na zemi jsou pomalí. Na kratší vzdálenosti, kdy nemá cenu létat, se více hodí <a object|botor>pojízdné biokanóny</a>."
+
+#. type: Plain text
+#: ../E/botoj.txt:17
+#, no-wrap
+msgid "<code>WingedOrgaShooter</code>"
+msgstr "<code>WingedOrgaShooter</code>"
+
+#. type: \b; header
+#: ../E/botor.txt:1
+#, no-wrap
+msgid "<button 153/> Wheeled Orga Shooter"
+msgstr "<button 153/> Pojízdný biokanón"
+
+#. type: Image filename
+#: ../E/botor.txt:2
+#, no-wrap
+msgid "botor"
+msgstr "botor"
+
+#. type: Plain text
+#: ../E/botor.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped with an orgaball cannon."
+msgstr "Pojízdný robot na kolečkách vybavený biokanónem."
+
+#. type: Plain text
+#: ../E/botor.txt:5
+#, no-wrap
+msgid "The orgaball cannon is more effective than the <a object|botfr>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
+msgstr "Biokanón je účinnější než <a object|botfr>plazmový kanón</a>. Střílí malé kuličky žíravé <a object|bullet>organické hmoty</a>. <a object|power>Běžná baterie</a> vystačí na 11 dávek."
+
+#. type: Plain text
+#: ../E/botor.txt:7
+#, no-wrap
+msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to instead use a <a object|botoj>winged orga shooter</a>, or, if this is impossible, a <a object|botoc>tracked orga shooter</a>."
+msgstr "Kolečka představují nejběžnější pohon s dobrou rychlostí a nízkou spotřebou energie, který se skvěle hodí do relativně rovného terénu. V hornatém terénu je doporučeno používat <a object|botoj>létající biokanóny</a>, případně <a object|botoc>pásové biokanóny</a>, pokud létající roboti nejsou k dispozici."
+
+#. type: Plain text
+#: ../E/botor.txt:15
+#, no-wrap
+msgid "<code>WheeledOrgaShooter</code>"
+msgstr "<code>WheeledOrgaShooter</code>"
+
+#. type: \b; header
+#: ../E/botos.txt:1
+#, no-wrap
+msgid "<button 156/> Legged Orga Shooter"
+msgstr "<button 156/> Chodící biokanón"
+
+#. type: Image filename
+#: ../E/botos.txt:2
+#, no-wrap
+msgid "botos"
+msgstr "botos"
+
+#. type: Plain text
+#: ../E/botos.txt:3
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with an orgaball cannon."
+msgstr "Šestinohý chodící robot vybavený biokanónem."
+
+#. type: Plain text
+#: ../E/botos.txt:5
+#, no-wrap
+msgid "The orgaball cannon is more effective than the <a object|botfs>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
+msgstr "Biokanón je účinnější než <a object|botfs>plazmový kanón</a>. Střílí malé kuličky žíravé <a object|bullet>organické hmoty</a>. <a object|power>Běžná baterie</a> vystačí na 11 dávek."
+
+#. type: Plain text
+#: ../E/botos.txt:7
+#, no-wrap
+msgid "A moving legged orga shooter uses up half as much energy as a <a object|botor>wheeled orga shooter</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
+msgstr "Chodící biokanón při pohybu spotřebovává jen polovinu energie oproti <a object|botor>pojízdnému biokanónu</a>. Chodící roboti navíc dokáží vyšplhat i po nejpříkřejších svazích."
+
+#. type: Plain text
+#: ../E/botos.txt:15
+#, no-wrap
+msgid "<code>LeggedOrgaShooter</code>"
+msgstr "<code>LeggedOrgaShooter</code>"
+
+#. type: \b; header
+#: ../E/botphaz.txt:1
+#, no-wrap
+msgid "<button 147/> Phazer Shooter"
+msgstr "<button 147/> Fázové dělo"
+
+#. type: Image filename
+#: ../E/botphaz.txt:2
+#, no-wrap
+msgid "botphaz"
+msgstr "botphaz"
+
+#. type: Plain text
+#: ../E/botphaz.txt:3
+#, no-wrap
+msgid "Tracked bot equipped with a very powerful phazer cannon, efficient against most kinds of enemies. When you aim upward, it can shoot up to 60 meters. It is the only weapon that can kill the <a object|mother>Alien Queen</a>."
+msgstr "Pásový robot vybavený velmi ničivým fázový dělem, které je účinné na většinu druhů nepřátel. Když zamíříte vzhůru, dokáže dostřelit až 60 metrů daleko. Je to jediná zbraň, která dokáže zabít <a object|mother>královnu vetřelců</a>."
+
+#. type: Plain text
+#: ../E/botphaz.txt:8
+#, no-wrap
+msgid "To program the phazer cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
+msgstr "Pro střelbu z fázového děla používejte příkaz <code><a cbot|fire>fire</a></code>. Pro míření používejte příkaz <code><a cbot|aim>aim</a></code>."
+
+#. type: Plain text
+#: ../E/botphaz.txt:11
+#, no-wrap
+msgid "<code>PhazerShooter</code>"
+msgstr "<code>PhazerShooter</code>"
+
+#. type: \b; header
+#: ../E/botrecy.txt:1
+#, no-wrap
+msgid "<button 148/> Recycler"
+msgstr "<button 148/> Recyklátor"
+
+#. type: Image filename
+#: ../E/botrecy.txt:2
+#, no-wrap
+msgid "botrecy"
+msgstr "botrecy"
+
+#. type: Plain text
+#: ../E/botrecy.txt:3
+#, no-wrap
+msgid "Tracked bot designed to convert a <a object|wreck>derelict bot</a> back into a reusable <a object|titan>titanium cube</a>."
+msgstr "Pásový robot vytvořený pro recyklaci <a object|wreck>vraků robotů</a> zpět na znovu použitelnou <a object|titan>kostku titanu</a>."
+
+#. type: Plain text
+#: ../E/botrecy.txt:8
+#, no-wrap
+msgid "To program the recycling of a derelict bot, use <code><a cbot|recycle>recycle</a></code>."
+msgstr "Pro recyklaci vraku robota v programu používejte příkaz <code><a cbot|recycle>recycle</a></code>."
+
+#. type: Plain text
+#: ../E/botrecy.txt:11
+#, no-wrap
+msgid "<code>RecyclerBot</code>"
+msgstr "<code>Recycler</code>"
+
+#. type: \b; header
+#: ../E/botsc.txt:1
+#, no-wrap
+msgid "<button 141/> Tracked Sniffer"
+msgstr "<button 141/> Pásový detektor"
+
+#. type: Image filename
+#: ../E/botsc.txt:2
+#, no-wrap
+msgid "botsc"
+msgstr "botsc"
+
+#. type: Plain text
+#: ../E/botsc.txt:3
+#, no-wrap
+msgid "Tracked bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
+msgstr "Pásový robot vybavený zařízením pro hledání podzemních surovin. Kdykoliv detektor najde něco užitečného, položí na zem jednu z následujících značek:"
+
+#. type: Bullet: '-'
+#: ../E/botsc.txt:5 ../E/botsj.txt:5 ../E/botsr.txt:5 ../E/botss.txt:5
+#, no-wrap
+msgid "a <a object|stonspot>red cross</a>       -> <a object|titanore>titanium ore</a>."
+msgstr "<a object|stonspot>červený křížek</a>  -> <a object|titanore>titanová ruda</a>."
+
+#. type: Bullet: '-'
+#: ../E/botsc.txt:6 ../E/botsj.txt:6 ../E/botsr.txt:6 ../E/botss.txt:6
+#, no-wrap
+msgid "a <a object|uranspot>yellow circle</a>  -> <a object|uranore>uranium ore</a>."
+msgstr "<a object|uranspot>žluté kolečko</a>    -> <a object|uranore>uranová ruda</a>."
+
+#. type: Bullet: '-'
+#: ../E/botsc.txt:7 ../E/botsj.txt:7 ../E/botsr.txt:7 ../E/botss.txt:7
+#, no-wrap
+msgid "a <a object|enerspot>green cross</a>   -> energy deposit, useful for a <a object|station>power station</a> or a <a object|energy>power plant</a>."
+msgstr "<a object|enerspot>zelený křížek</a>    -> podzemní zdroj energie pro <a object|station>nabíječku</a> nebo <a object|energy>továrnu na baterie</a>."
+
+#. type: Plain text
+#: ../E/botsc.txt:9
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botsr>wheeled sniffer</a> is a better option. When it is possible to build <a object|botsj>winged bots</a>, these represent the best solution for long distances."
+msgstr "Pásoví roboti mohou vyjet i příkré svahy, ale jsou pomalí a mají velkou spotřebu energie. Na kratší vzdálenosti v rovném terénu se více hodí <a object|botsr>pojízdné detektory</a>. Na velké vzdálenosti jsou pak ideální <a object|botsj>létající roboti</a>, pokud je můžete stavět."
+
+#. type: Plain text
+#: ../E/botsc.txt:14 ../E/botsj.txt:16 ../E/botsr.txt:14 ../E/botss.txt:14
+#, no-wrap
+msgid "To program the sniffing arm, use <code><a cbot|sniff>sniff</a></code>."
+msgstr "Pro ovládání sondy detektoru používejte příkaz <code><a cbot|sniff>sniff</a></code>."
+
+#. type: Plain text
+#: ../E/botsc.txt:17
+#, no-wrap
+msgid "<code>TrackedSniffer</code>"
+msgstr "<code>TrackedSniffer</code>"
+
+#. type: \b; header
+#: ../E/botshld.txt:1
+#, no-wrap
+msgid "<button 157/> Shielder"
+msgstr "<button 157/> Mobilní štít"
+
+#. type: Image filename
+#: ../E/botshld.txt:2
+#, no-wrap
+msgid "botshld"
+msgstr "botshld"
+
+#. type: Plain text
+#: ../E/botshld.txt:3
+#, no-wrap
+msgid "Tracked bot designed to protect and defend against all <a object|mother>enemy</a> attacks within a perimeter of 10 to 25 meters. The individual shields of bots and buildings are re-energized through the shielder's defensive actions. This bot is the only way to get through narrow passages adorned with poisonous green mushrooms."
+msgstr "Pásový robot vytvořený na ochranu oblasti velké 10 až 25 metrů proti všem <a object|mother>nepřátelským</a> útokům. Aktivní silové pole dobíjí štíty robotů a budov v dosahu. Tento robot představuje jedinou možnost, jak se bezpečně dostat skrz úzké průsmyky plné jedovatých zelených hub."
+
+#. type: Plain text
+#: ../E/botshld.txt:5
+#, no-wrap
+msgid "A <a object|power>regular power cell</a> allows for a 20-second activity span with a radius of 25 meters, much too short in most cases. A <a object|atomic>nuclear power cell</a> is of course more suited to this bot."
+msgstr "<a object|power>Běžná baterie</a> dokáže štít o poloměru 25 metrů napájet po dobu 20 sekund, což je většinou moc krátká doba. Pro tohoto robota jsou vhodnější <a object|atomic>jaderné baterie</a>."
+
+#. type: Plain text
+#: ../E/botshld.txt:7
+#, no-wrap
+msgid "The energy consumption is proportional to the radius of the protective sphere. With a radius of 10 meters, the bot can work 2.5 times longer than with the maximum radius of 25 meters."
+msgstr "Spotřeba energie je přímo úměrná poloměru silového pole. Štít o poloměru 10 metrů vydrží fungovat 2,5krát déle než štít o maximálním poloměru 25 metrů."
+
+#. type: Plain text
+#: ../E/botshld.txt:12
+#, no-wrap
+msgid "To program the deployment of the shield, use <code><a cbot|shield>shield</a></code>."
+msgstr "Pro ovládání generátoru silového pole používejte příkaz <code><a cbot|shield>shield</a></code>."
+
+#. type: Plain text
+#: ../E/botshld.txt:15
+#, no-wrap
+msgid "<code>Shielder</code>"
+msgstr "<code>Shielder</code>"
+
+#. type: \b; header
+#: ../E/botsj.txt:1
+#, no-wrap
+msgid "<button 142/> Winged Sniffer"
+msgstr "<button 142/> Létající detektor"
+
+#. type: Image filename
+#: ../E/botsj.txt:2
+#, no-wrap
+msgid "botsj"
+msgstr "botsj"
+
+#. type: Plain text
+#: ../E/botsj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
+msgstr "Létající robot s tryskovým pohonem vybavený zařízením pro hledání podzemních surovin. Kdykoliv detektor najde něco užitečného, položí na zem jednu z následujících značek:"
+
+#. type: Plain text
+#: ../E/botsj.txt:9
+#, no-wrap
+msgid "The display at the bottom of your screen indicates the temperature of the reactor. Keep an eye on it. If the reactor overheats, the engine stops and the bot crashes."
+msgstr "Měřič v dolní části obrazovky ukazuje teplotu reaktoru. Dávejte na ni pozor. Když se reaktor přehřeje, tryskový motor přestane fungovat a robot se zřítí na zem."
+
+#. type: Plain text
+#: ../E/botsj.txt:11
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply uses up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botsr>wheeled sniffer</a> instead."
+msgstr "Létající roboti mohou létat přes přírodní překážky jako například hory nebo jezera, ale brzy jim dochází energie. Na zemi jsou pomalí. Na kratší vzdálenosti, kdy nemá cenu létat, se více hodí <a object|botsr>pojízdné detektory</a>."
+
+#. type: Plain text
+#: ../E/botsj.txt:19
+#, no-wrap
+msgid "<code>WingedSniffer</code>"
+msgstr "<code>WingedSniffer</code>"
+
+#. type: \b; header
+#: ../E/botsr.txt:1
+#, no-wrap
+msgid "<button 140/> Wheeled Sniffer"
+msgstr "<button 140/> Pojízdný detektor"
+
+#. type: Image filename
+#: ../E/botsr.txt:2
+#, no-wrap
+msgid "botsr"
+msgstr "botsr"
+
+#. type: Plain text
+#: ../E/botsr.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
+msgstr "Pojízdný robot na kolečkách vybavený zařízením pro hledání podzemních surovin. Kdykoliv detektor najde něco užitečného, položí na zem jednu z následujících značek:"
+
+#. type: Plain text
+#: ../E/botsr.txt:9
+#, no-wrap
+msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botsj>winged sniffer</a> instead, or, if this is impossible, a <a object|botsc>tracked sniffer</a>."
+msgstr "Kolečka představují nejběžnější pohon s dobrou rychlostí a nízkou spotřebou energie, který se skvěle hodí do relativně rovného terénu. V hornatém terénu je doporučeno používat <a object|botsj>létající detektory</a>, případně <a object|botsc>pásové detektory</a>, pokud létající roboti nejsou k dispozici."
+
+#. type: Plain text
+#: ../E/botsr.txt:17
+#, no-wrap
+msgid "<code>WheeledSniffer</code>"
+msgstr "<code>WheeledSniffer</code>"
+
+#. type: \b; header
+#: ../E/botss.txt:1
+#, no-wrap
+msgid "<button 152/> Legged Sniffer"
+msgstr "<button 152/> Chodící detektor"
+
+#. type: Image filename
+#: ../E/botss.txt:2
+#, no-wrap
+msgid "botss"
+msgstr "botss"
+
+#. type: Plain text
+#: ../E/botss.txt:3
+#, no-wrap
+msgid "Ant-legged creeping bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
+msgstr "Šestinohý chodící robot vybavený zařízením pro hledání podzemních surovin. Kdykoliv detektor najde něco užitečného, položí na zem jednu z následujících značek:"
+
+#. type: Plain text
+#: ../E/botss.txt:9
+#, no-wrap
+msgid "A moving legged shooter uses up half as much energy as a <a object|botsr>wheeled sniffer</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
+msgstr "Chodící detektor při pohybu spotřebovává jen polovinu energie oproti <a object|botsr>pojízdnému detektoru</a>. Chodící roboti navíc dokáží vyšplhat i po nejpříkřejších svazích."
+
+#. type: Plain text
+#: ../E/botss.txt:17
+#, no-wrap
+msgid "<code>LeggedSniffer</code>"
+msgstr "<code>LeggedSniffer</code>"
+
+#. type: \b; header
+#: ../E/botsub.txt:1
+#, no-wrap
+msgid "<button 149/> Subber"
+msgstr "<button 149/> Ponorka"
+
+#. type: Image filename
+#: ../E/botsub.txt:2
+#, no-wrap
+msgid "botsub"
+msgstr "botsub"
+
+#. type: Plain text
+#: ../E/botsub.txt:3
+#, no-wrap
+msgid "Amphibious tracked bot equipped with an operating claw. The subber is the only bot capable of moving and running operations underwater."
+msgstr "Obojživelný pásový robot vybavený manipulačním klepetem. Ponorka je jediný robot, který se dokáže pohybovat a pracovat pod vodou."
+
+#. type: Plain text
+#: ../E/botsub.txt:5
+#, no-wrap
+msgid "It is best to check the <a object|power>power cell</a> readings prior to immersion since replacing or recharging it underwater is impossible. The subber can only pick up objects from the ground, as opposed to, for example, a battery from the back of another bot."
+msgstr "Před ponořením nezapomeňte zkontrolovat stav <a object|power>baterie</a>, protože pod vodou ji nelze dobít ani vyměnit. Ponorka dokáže zvedat předměty pouze ze země, ne ze zdířky jiného robota."
+
+#. type: Plain text
+#: ../E/botsub.txt:10
+#, no-wrap
+msgid "To program the operating claw, use <code><a cbot|grab>grab</a></code> and <code><a cbot|drop>drop</a></code>."
+msgstr "Pro ovládání manipulačního klepeta používejte příkazy <code><a cbot|grab>grab</a></code> a <code><a cbot|drop>drop</a></code>."
+
+#. type: Plain text
+#: ../E/botsub.txt:13
+#, no-wrap
+msgid "<code>Subber</code>"
+msgstr "<code>Subber</code>"
+
+#. type: \b; header
+#: ../E/bottarg.txt:1
+#, no-wrap
+msgid "<button 173/> Target Bot"
+msgstr "<button 173/> Cvičný cíl"
+
+#. type: Image filename
+#: ../E/bottarg.txt:2
+#, no-wrap
+msgid "bottarg"
+msgstr "bottarg"
+
+#. type: Plain text
+#: ../E/bottarg.txt:3
+#, no-wrap
+msgid "Wheeled bot intended solely for target practice. It is autonomous and its trajectory is dependant upon the nature of the exercise."
+msgstr "Pojízdný robot na kolečkách sloužící pouze jako cíl pro cvičnou střelbu. Je naprogramovaný předem pro potřeby příslušného cvičení."
+
+#. type: Plain text
+#: ../E/bottarg.txt:5
+#, no-wrap
+msgid "Note that target bots, loaded as they are with <a object|tnt>TNT</a>, are extremely sensitive to shocks."
+msgstr "Mějte na paměti, že cvičné cíle jsou naložené <a object|tnt>výbušninami</a>, takže jsou extrémně citlivé na nárazy."
+
+#. type: Plain text
+#: ../E/bottarg.txt:8
+#, no-wrap
+msgid "<code>TargetBot</code>"
+msgstr "<code>TargetBot</code>"
+
+#. type: \b; header
+#: ../E/bottr.txt:1
+#, no-wrap
+msgid "<button 158/> Practice Bot"
+msgstr "<button 158/> Cvičný robot"
+
+#. type: Image filename
+#: ../E/bottr.txt:2
+#, no-wrap
+msgid "bottr"
+msgstr "bottr"
+
+#. type: Plain text
+#: ../E/bottr.txt:3
+#, no-wrap
+msgid "Wheeled bot intended solely for training and practice. Its only purpose is to help you get accustomed to the programming of the bots' various ground movements."
+msgstr "Pojízdný robot na kolečkách určený pouze pro výcvik. Jeho jediným účelem je naučit Vás ovládat pohyb robotů po zemi pomocí programu."
+
+#. type: \t; header
+#: ../E/bottr.txt:5 ../E/bottump.txt:9
+#, no-wrap
+msgid "Instructions"
+msgstr "Příkazy"
+
+#. type: Plain text
+#: ../E/bottr.txt:6
+#, no-wrap
+msgid "To program the bot's movements, use the following commands: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+msgstr "Pro ovládání pohybu robota používejte následující příkazy: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
+
+#. type: Plain text
+#: ../E/bottr.txt:9
+#, no-wrap
+msgid "<code>PracticeBot</code>"
+msgstr "<code>PracticeBot</code>"
+
+#. type: \b; header
+#: ../E/bottump.txt:1
+#, no-wrap
+msgid "<button 146/> Thumper"
+msgstr "<button 146/> Buchar"
+
+#. type: Image filename
+#: ../E/bottump.txt:2
+#, no-wrap
+msgid "bottump"
+msgstr "bottump"
+
+#. type: Plain text
+#: ../E/bottump.txt:3
+#, no-wrap
+msgid "Tracked bot designed to hit the ground with enormous force. The purpose of the thumping is to turn <a object|ant>ants</a> and <a object|spider>spiders</a> belly up within a radius of 100 meters. An insect on its back is not dead but will struggle to get right side up again. After approximately 60 seconds of effort, it will usually succeed."
+msgstr "Pásový robot, který dokáže obrovskou silou udeřit do země. Cílem tohoto úderu je převrátit <a object|ant>mravence</a> a <a object|spider>pavouky</a> v okruhu 100 metrů na záda. Vetřelci převrácení na záda nejsou mrtví, ale bude jim chvíli trvat, než se opět postaví na nohy. Většinou se jim to podaří zhruba po 60 sekundách."
+
+#. type: Plain text
+#: ../E/bottump.txt:5
+#, no-wrap
+msgid "To visualize the zone of impact, hit the <range> button <button 41/>. Little red dots outline the circular zone for 20 seconds."
+msgstr "Pro zobrazení účinné oblasti stiskněte tlačítko Dosah <button 41/>. Kruhová oblast účinku se na 20 sekund vyznačí pomocí malých červených teček."
+
+#. type: Plain text
+#: ../E/bottump.txt:7
+#, no-wrap
+msgid "The bot uses up a large amount of power. A thump will drain 2/5ths of a <a object|power>regular power cell</a>."
+msgstr "Tento robot má značnou spotřebu energie. Jeden úder spotřebuje 2/5 kapacity <a object|power>běžné baterie</a>."
+
+#. type: Plain text
+#: ../E/bottump.txt:12
+#, no-wrap
+msgid "To program the thumping, use <code><a cbot|thump>thump</a></code>."
+msgstr "Pro provedení úderu v programu používejte příkaz <code><a cbot|thump>thump</a></code>."
+
+#. type: Plain text
+#: ../E/bottump.txt:15
+#, no-wrap
+msgid "<code>Thumper</code>"
+msgstr "<code>Thumper</code>"
+
+#. type: Plain text
+#: ../E/botgc.txt:10 ../E/botgj.txt:10 ../E/botgr.txt:10 ../E/botgs.txt:10
+#, no-wrap
+msgid "The following objects can be transported :"
+msgstr "Následující objekty lze převážet:"
+
+#. type: Plain text
+#: ../E/botdraw.txt:1
+#, no-wrap
+msgid "TODO"
+msgstr "Dodělat"
+
+#. type: \b; header
+#: ../E/botbc.txt:1
+#, no-wrap
+msgid "<button 193/> Tracked Builder"
+msgstr "<button 193/> Pásový stavitel"
+
+#. type: Image filename
+#: ../E/botbc.txt:2
+#, no-wrap
+msgid "botbc"
+msgstr "botbc"
+
+#. type: Plain text
+#: ../E/botbc.txt:3
+#, no-wrap
+msgid "Tracked bot equipped with a neutron gun."
+msgstr "Pásový robot vybavený neutronovou pistolí."
+
+#. type: Plain text
+#: ../E/botbc.txt:5 ../E/botbj.txt:5 ../E/botbr.txt:5 ../E/botbs.txt:5
+#, no-wrap
+msgid ""
+"<button 196/> Opens a build menu with the following options :\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Information Exchange Post\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Repair Center\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Defense Tower\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Organic Matter Analyzer \n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Power Station\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Power Cell Factory\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nuclear Plant\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Titanium Converter\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Vault"
+msgstr ""
+"<button 196/> Otevře stavební menu s následujícími možnostmi:\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Továrna na roboty\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Výzkumná stanice\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Komunikační stanice\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Opravna\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Obranná věz\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Laboratoř\n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Nabíječka\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Továrna na baterie\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Jaderná elektrárna\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Konvertor titanu\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Vrtná věž\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolický hromosvod\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Trezor"
+
+#. type: Plain text
+#: ../E/botbc.txt:21
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botbr>wheeled builder</a> is a better option. When it is possible to build <a object|botbj>winged bots</a>, these represent the best solution for long distances."
+msgstr "Pásoví roboti mohou vyjet i příkré svahy, ale jsou pomalí a mají velkou spotřebu energie. Na kratší vzdálenosti v rovném terénu se více hodí <a object|botbr>pojízdní stavitelé</a>. Na velké vzdálenosti jsou pak ideální <a object|botbj>létající roboti</a>, pokud je můžete stavět."
+
+#. type: Plain text
+#: ../E/botbc.txt:26 ../E/botbj.txt:26 ../E/botbr.txt:26 ../E/botbs.txt:26
+#, no-wrap
+msgid "To program the neutron gun, use <code><a cbot|build>build</a></code>."
+msgstr "Pro ovládání neutronové pistole používejte příkaz <code><a cbot|build>build</a></code>."
+
+#. type: Plain text
+#: ../E/botbc.txt:29
+#, no-wrap
+msgid "<code>TrackedBuilder</code>"
+msgstr "<code>TrackedBuilder</code>"
+
+#. type: \b; header
+#: ../E/botbj.txt:1
+#, no-wrap
+msgid "<button 194/> Winged Builder"
+msgstr "<button 194/> Létající stavitel"
+
+#. type: Image filename
+#: ../E/botbj.txt:2
+#, no-wrap
+msgid "botbj"
+msgstr "botbj"
+
+#. type: Plain text
+#: ../E/botbj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped with a neutron gun."
+msgstr "Létající robot s tryskovým pohonem vybavený neutronovou pistolí."
+
+#. type: Plain text
+#: ../E/botbj.txt:21
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botbr>wheeled builder</a> instead."
+msgstr "Létající roboti mohou létat přes přírodní překážky jako například hory nebo jezera, ale brzy jim dochází energie. Na zemi jsou pomalí. Na kratší vzdálenosti, kdy nemá cenu létat, se více hodí <a object|botbr>pojízdní stavitelé</a>."
+
+#. type: Plain text
+#: ../E/botbj.txt:29
+#, no-wrap
+msgid "<code>WingedBuilder</code>"
+msgstr "<code>WingedBuilder</code>"
+
+#. type: \b; header
+#: ../E/botbr.txt:1
+#, no-wrap
+msgid "<button 192/> Wheeled Builder"
+msgstr "<button 192/> Pojízdný stavitel"
+
+#. type: Image filename
+#: ../E/botbr.txt:2
+#, no-wrap
+msgid "botbr"
+msgstr "botbr"
+
+#. type: Plain text
+#: ../E/botbr.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped with a neutron gun."
+msgstr "Pojízdný robot na kolečkách vybavený neutronovou pistolí."
+
+#. type: Plain text
+#: ../E/botbr.txt:21
+#, no-wrap
+msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botbj>winged builder</a> instead, or, if this is impossible, a <a object|botbc>tracked builder</a>."
+msgstr "Kolečka představují nejběžnější pohon s dobrou rychlostí a nízkou spotřebou energie, který se skvěle hodí do relativně rovného terénu. V hornatém terénu je doporučeno používat <a object|botbj>létající stavitele</a>, případně <a object|botbc>pásové stavitele</a>, pokud létající roboti nejsou k dispozici."
+
+#. type: Plain text
+#: ../E/botbr.txt:29
+#, no-wrap
+msgid "<code>WheeledBuilder</code>"
+msgstr "<code>WheeledBuilder</code>"
+
+#. type: \b; header
+#: ../E/botbs.txt:1
+#, no-wrap
+msgid "<button 195/> Legged Builder"
+msgstr "<button 195/> Chodící stavitel"
+
+#. type: Image filename
+#: ../E/botbs.txt:2
+#, no-wrap
+msgid "botbs"
+msgstr "botbs"
+
+#. type: Plain text
+#: ../E/botbs.txt:3
+#, no-wrap
+msgid "Ant-legged creeping bot equipped with a neutron gun."
+msgstr "Šestinohý chodící robot vybavený neutronovou pistolí."
+
+#. type: Plain text
+#: ../E/botbs.txt:21
+#, no-wrap
+msgid "A moving legged builder uses up half as much energy as a <a object|botbr>wheeled builder</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
+msgstr "Chodící stavitel při pohybu spotřebovává jen polovinu energie oproti <a object|botbr>pojízdnému staviteli</a>. Chodící roboti navíc dokáží vyšplhat i po nejpříkřejších svazích."
+
+#. type: Plain text
+#: ../E/botbs.txt:29
+#, no-wrap
+msgid "<code>LeggedBuilder</code>"
+msgstr "<code>LeggedBuilder</code>"

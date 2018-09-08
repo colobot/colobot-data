@@ -1,0 +1,172 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-19 13:34+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Alien Queen"
+msgstr "Královna vetřelců"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Get the fourth key, open the vault and make the planet safe for human habitation."
+msgstr "Získejte čtvrtý klíč, otevřete trezor a zabezpečte planetu pro lidské osídlení."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "With the help of the fourth <a object|key>key</a> (D) located nearby, you will finally gain access to the <a object|safe>vault</a>. The groundbreaking bot you'll find inside was named a \"<a object|botphaz>phazer</a>\"."
+msgstr "Díky čtvrtému <a object|key>klíči</a> (D), který se nachází poblíž, budete konečně moci otevřít <a object|safe>trezor</a>. Převratného robota ukrytého uvnitř jsme nazvali \"<a object|botphaz>fázové dělo</a>.\""
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "A program allowing for a collaboration between a <a object|botphaz>phazer</a> and a <a object|botshld>shielder</a> has been attached."
+msgstr "V příloze najdete program umožňující spolupráci <a object|botphaz>fázového děla</a> a <a object|botshld>mobilního štítu</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "You should soon find yourself in a position to test your new weapon. Your last mission is to dispose of the <a object|mother>Alien Queen</a>, the egglayer responsible for the growing number of insects on Terranova. The phazer might very well be the only bot capable of getting the job done."
+msgstr "Hned budete mít i příležitost vyzkoušet svou novou zbraň. Vaší poslední misí je zlikvidovat <a object|mother>královnu vetřelců</a>, která klade vejce a je tedy příčinou rostoucího množství hmyzu na Terranově. Fázové dělo je možná jediná zbraň schopná tento úkol splnit."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "There will then be no further obstacle to the human colonization of this magnificent planet and you'll soon be able to notify Earth of the success of your mission."
+msgstr "Kolonizaci této skvostné planety lidmi pak už nebude nic bránit a brzy budete moci Zemi oznámit úspěch své mise."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:12 ../help/soluce.E.txt:5
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Terranova."
+msgstr "Aktuálně na stacionární oběžné dráze Terranovy."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      23.7C\n"
+"\\tab;Atmosphere:       oxygen\n"
+"\\tab;Wind:             0.5 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Teplota:           23,7 °C\n"
+"\\tab;Atmosféra:         kyslík\n"
+"\\tab;Vítr:              0,5 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      trocha"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    in some places (spaceship)\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     na některých místech (u rakety)\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       immediate\n"
+"\\tab;Detected:         giant egglayer\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     bezprostřední\n"
+"\\tab;Nalezeno:          obří kladeč vajec\n"
+"\\tab;  - Nebezpečí:     ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid ""
+"Unfortunately no walkthrough has been provided for this mission.\n"
+"You are on your own..."
+msgstr ""
+"Bohužel, pro tuto misi není k dispozici žádný návod.\n"
+"Musíte si poradit sami..."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"

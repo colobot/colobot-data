@@ -1,0 +1,182 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-17 13:26+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Remote control #1"
+msgstr "Dálkové ovládání #1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Remote control a robot using an information exchange post, so it will transport uranium ore."
+msgstr "Ovládejte robota na dálku prostřednictvím komunikační stanice, aby převážel uranovou rudu."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "remote"
+msgstr "Ovladac"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid ""
+"Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
+"The main actors of this exercise are:"
+msgstr ""
+"Ovládejte robota na dálku prostřednictvím <a object|exchange>komunikační stanice</a>, aby převážel <a object|uranore>uranovou rudu</a>.\n"
+"Hlavní role v tomto cvičení hrají:"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "A <a object|botsr>sniffer</a> (can't carry anything)."
+msgstr "<a object|botsr>Pojízdný detektor</a> (nemůže nic převážet)."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "An <a object|exchange>information exchange post</a> that receives information from a sender and then transmits it to a receiver."
+msgstr "<a object|exchange>Komunikační stanice</a>, která přijme informace od odesílatele a pošle je příjemci."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "A <a object|botgr>grabber</a> which waits for orders from the exchange post. You have no way control this robot directly."
+msgstr "<a object|botgr>Pojízdné rameno</a>, které čeká na povely od komunikační stanice. Tohoto robota nemůžete ovládat přímo."
+
+#. type: Image filename
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "tremot1a"
+msgstr "tremot1a_cs"
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple:"
+msgstr "Do komunikační stanice lze ukládat informace v podobě dvojice \"název-hodnota\". K ovládání \"dělníka\" bude stačit jen jedna taková dvojice:"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "    name=\"order\", valuer=order number"
+msgstr "    název=\"order\", hodnota=číslo povelu"
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "The slace robot understands following orders:"
+msgstr "Dělník rozumí následujícím povelům:"
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid ""
+"    1 -> grab();     // take an object\n"
+"    2 -> drop();     // drop an object\n"
+"    3 -> move(10);   // move 10 meters forward\n"
+"    4 -> move(-10);  // move 10 meters backwards"
+msgstr ""
+"    1 -> grab();     // zvednout předmět\n"
+"    2 -> drop();     // položit předmět\n"
+"    3 -> move(10);   // popojet o 10 metrů vpřed\n"
+"    4 -> move(-10);  // zacouvat o 10 metrů"
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid ""
+"To instruct the slave to move forward 10 meters all you have to do is:\n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
+msgstr ""
+"Když chcete dělníkovi dát povel, aby popojel o 10 metrů vpřed, stačí napsat toto:\n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // povel 3 -> \"move(10)\""
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid ""
+"After the send instruction we wait for 5 seconds to be sure the move is done.\n"
+"<c/><s/>\t<a cbot|wait>wait</a>(5);"
+msgstr ""
+"Po příkazu send počkáme 5 sekund, aby dělník měl čas daný povel vykonat.\n"
+"<c/><s/>\t<a cbot|wait>wait</a>(5);"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "Remark: There is a better way for waiting the order has been executed, but we'll see this later in exercise \"Remote Control #2\"."
+msgstr "Poznámka: Na vykonání povelu se dá čekat i lepším způsobem, ale to si ukážeme později ve cvičení \"Dálkové ovládání #2\"."
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "To finish the exercise you must:"
+msgstr "Pro splnění cvičné úlohy musíte:"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "Take the uranium ore"
+msgstr "Zvednout uranovou rudu"
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "Move forward by 10 meters"
+msgstr "Popojet vpřed o 10 metrů"
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "Drop the uranium ore"
+msgstr "Položit uranovou rudu"
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "Move backwards by 10 meters"
+msgstr "Zacouvat o 10 metrů"
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "It's up to you to write the program."
+msgstr "Napsat vhodný program už je na Vás."
+
+#. type: \t; header
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
