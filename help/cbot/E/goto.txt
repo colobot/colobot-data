@@ -24,7 +24,7 @@ Flight altitude for \l;winged bots\u object\botgj;. The altitude is useful only 
 This parameter tells the bot how it must reach the goal: 
 \c;0\n;  stops exactly at the goal position
 \c;1\n;  goes close to the goal position, without stopping.
-If no value is given, \c;1\n; (precision) is the default value. 
+If no value is given, \c;0\n; (precision) is the default value.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;goto()\n;.
