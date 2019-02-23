@@ -1,0 +1,108 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-04 17:21+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Barrage Fire"
+msgstr "Rozptýlená palba"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Set the power of the different motors in order to achieve a barrage fire."
+msgstr "Ovládejte motory robota přímo, abyste mohli pokropit palbou širší okolí."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Kropitko"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "As a defense against several giant ants attacking from the north, rotate the bot when shooting in order to perform barrage fire."
+msgstr "Ze severu se blíží roj obřích mravenců. Otáčejte robotem během palby, abyste je všechny pokropili."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "When you are radio-guiding a bot, you can rotate the cannon during the burst in order to sweep a whole zone. You can also do this when programming the bot, but you have to turn the whole bot with the instruction <code><a cbot|motor>motor</a>( , )</code>. This instruction asks for two numbers: the speed of the left-hand motor, and the speed of the right-hand motor. These numbers must range between -1 and +1.<c/> motor(1,1);<n/> moves the bot forward with maximum speed (both motors at full power).<c/> motor(-1,-1);<n/> moves the bot backward with maximum speed.<c/> motor(1,0.9);<n/> moves the bot forward with a slight turn to the right: the left-hand motor turns a little faster than the right-hand motor. And <c/>motor(1,-1);<n/> will turn the bot clockwise on the spot: the left-hand motor moves forward, the right-hand motor moves backward."
+msgstr "Když robota ovládáte ručně, můžete během palby otáčet kanónem, abyste pokropili větší oblast. Totéž můžete udělat i v programu, ale v tom případě musíte otáčet celého robota příkazem <code><a cbot|motor>motor</a>( , )</code>. Tento příkaz vyžaduje dvě čísla: rychlost levého motoru a rychlost pravého motoru. Obě čísla musejí být v rozsahu -1 až +1. <c/>motor(1,1);<n/> rozjede robota kupředu plnou rychlostí (oba motory na plný výkon). <c/>motor(-1,-1);<n/> rozjede robota vzad plnou rychlostí. <c/>motor(1,0.9);<n/> rozjede robota vpřed a bude mírně točit doprava: levý motor běží trochu rychleji než pravý. A <c/>motor(1,-1);<n/> bude robota otáčet na místě po směru hodinových ručiček: levý motor běží vpřed, pravý motor vzad."
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "After a <a cbot|motor>motor</a> instruction the motors will keep this speed until the next <code>motor</code>, <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> or <code><a cbot|goto>goto</a></code> instruction. For example, if you perform a rotation on the spot with <c/>motor(1,-1);<n/> and afterward you shoot with <c/>fire(1);<n/>, the bot will continue to turn during the burst, and will sweep a whole zone."
+msgstr "Po příkazu <a cbot|motor>motor</a> poběží motory dál danou rychlostí až do dalšího zavolání příkazu <code>motor</code>, <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> nebo <code><a cbot|goto>goto</a></code>. Například pokud robota začnete otáčet příkazem <c/>motor(1,-1);<n/>, a pak začnete střílet příkazem <c/>fire(1);<n/>, robot se bude otáčet dál během palby a pokropí celé okolí."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "rotate clockwise with <c/>motor(1,-1);<n/>"
+msgstr "začněte otáčet po směru hodinových ručiček příkazem <c/> motor(1,-1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "a 2 seconds burst with <c/>fire(2);<n/>"
+msgstr "vystřelte dvousekundovou dávku příkazem <c/>fire(2);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "rotate counter-clockwise with <c/>motor(-1,1);<n/>"
+msgstr "začněte otáčet proti směru hodinových ručiček příkazem <c/> motor(-1,1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "a 2 seconds burst."
+msgstr "vystřelte další dvousekundovou dávku."
+
+#. type: \t; header
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "The ants attack from the north. In order to sweep the whole zone north of the bot, first turn 90 degrees left with <c/>turn(90);<n/>, then repeat always with <code><a cbot|while>while</a> (true)</code> the following instructions:"
+msgstr "Mravenci útočí ze severu. Abyste pokropili celou oblast na sever od robota, nejprve se otočte o 90 stupňů vlevo příkazem <c/>turn(90);<n/> a pak cyklem <code><a cbot|while>while</a> (true)</code> opakujte následující příkazy:"

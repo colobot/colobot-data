@@ -1,0 +1,164 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-13 15:44+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mountain Warfare"
+msgstr "Boj v horách"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use legged bots to fight on broken terrain."
+msgstr "Využijte chodící roboty pro boj v členitém terénu."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This planet is obviously unsuited to a long-lasting colonization. Retrieve the <a object|bbox>black box</a> from the previous expedition then take off."
+msgstr "Tato planeta je zjevně nevhodná pro dlouhodobou kolonizaci. Vyzvedněte <a object|bbox>černou skříňku</a> po předchozí výpravě a odleťte."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:6 ../help/soluce.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Aktuálně na stacionární oběžné dráze Vulkánu."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      83.5C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             3.4 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           83,5 °C\n"
+"\\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vítr:              3,4 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Power a <a object|botfs>legged shooter</a>. There is even a <a object|atomic>nuclear cell</a> left behind the <a object|factory>bot factory</a>."
+msgstr "Vložte baterii do <a object|botfs>chodícího kanónu</a>. Za <a object|factory>továrnou na roboty</a> dokonce zůstala jedna <a object|atomic>jaderná baterie</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Climb the northern cliff and kill a few <a object|ant>ants</a>. The best access is from the east."
+msgstr "Vyšplhejte na severní útes a zlikvidujte několik <a object|ant>mravenců</a>. Nejlepší přístup je z východu."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Keep going until all ants are out of the way."
+msgstr "Pokračujte, dokud se nezbavíte všech mravenců."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Climb the northern cliff with a <a object|botgs>legged grabber</a> and retrieve the <a object|bbox>black box</a> that you will find in the derelict bot factory."
+msgstr "Vyšplhejte na severní útes s <a object|botgs>chodícím ramenem</a> a vyzvedněte <a object|bbox>černou skříňku</a>, kterou najdete v rozbořené továrně na roboty."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"

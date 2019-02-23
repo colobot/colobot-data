@@ -1,0 +1,89 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-07 09:28-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Titanium 1"
+msgstr "Titânio 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Take a chunk of titanium ore and bring it to the converter."
+msgstr "Pegue um pedaço de minério de titânio e leve-o ao conversor."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Titanium1"
+msgstr "Titanio1"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Write a program that takes a chunk of <a object|titanore>titanium ore</a> and drops in on the <a object|convert>converter</a> in order to produce a <a object|titan>titanium cube</a>."
+msgstr "Escreva um programa que pegue um pedaço de <a object|titanore>minério de titânio</a> e coloque no <a object|convert>conversor</a> para produzir um <a object|titan>cubo de titânio</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "You will need a new instruction:"
+msgstr "Você precisará de uma nova instrução:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "move();<n/>"
+msgstr "move();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Instructs the bot to move forward or backward. The distance of the move is given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, <c/>move(-1);<n/> moves the bot 1m backward."
+msgstr "Instrui o robô a avançar ou retroceder. A distância do movimento é dada entre parênteses em metros: <c/>move(10);<n/> move o robô 10 m para frente, <c/>move(-1);<n/> move o robô 1 m para trás ."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "The instructions <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have already been explained in the previous exercises. If you have any questions about these instructions, click the name of the instruction underlined in blue, and an explanation of the instruction will appear."
+msgstr "As instruções <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> e <code><a cbot|drop>drop</a>()</code> já foram explicadas nos exercícios anteriores. Se você tiver alguma dúvida sobre essas instruções, clique no nome da instrução sublinhada em azul e uma explicação da instrução será exibida."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a object|convert>converter</a> is 10m behind the bot. After dropping the titanium ore on the converter, do not forget to move back (for example <c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
+msgstr "O <a object|titanore>minério de titânio</a> está 20 m à frente do robô, o <a object|convert>conversor</a> está 10 m atrás do robô. Depois de soltar o minério de titânio no conversor, não se esqueça de voltar (por exemplo,  <c/>move(-2.5);<n/>) para permitir que o conversor funcione."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal "

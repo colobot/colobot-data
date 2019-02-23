@@ -1,0 +1,258 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-10 19:04+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Wasp Hunter 2"
+msgstr "Lovec vos 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Get better at shooting down the wasps."
+msgstr "Naučte se lépe střílet na vosy."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Wasp2"
+msgstr "Vosa2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Bring down the flying wasps in a more efficient way than with the previous program."
+msgstr "Napište efektivnější program na likvidaci létajících vos než byl ten předchozí."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Here is again the program of the previous exercise that shoots down all the wasps after many, many unsuccessful attempts:"
+msgstr "Zde je opět program z předchozího cvičení, který po spoustě neúspěšných pokusů nakonec sestřelí všechny vosy:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Wasp1()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;\n"
+"\t\n"
+"\t<a cbot|aim>aim</a>(0);\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)\n"
+"\t{\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|motor>motor</a>(1,1);\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|jet>jet</a>(0);\n"
+"\t\t\t<a cbot|if>if</a> (position.z > item.position.z)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(-0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|if>if</a> (position.z < item.position.z - 1)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|wait>wait</a>(0.2);\n"
+"\t\t}\n"
+"\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t<a cbot|fire>fire</a>(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Vosa1()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;\n"
+"\t\n"
+"\t<a cbot|aim>aim</a>(0);\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)\n"
+"\t{\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|motor>motor</a>(1,1);\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|jet>jet</a>(0);\n"
+"\t\t\t<a cbot|if>if</a> (position.z > item.position.z)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(-0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|if>if</a> (position.z < item.position.z - 1)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|wait>wait</a>(0.2);\n"
+"\t\t}\n"
+"\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t<a cbot|fire>fire</a>(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst."
+msgstr "Robot se často nedokáže trefit, protože vosa stihne uletět pryč, než ji střela zasáhne. Tomu lze zabránit jedině tak, že budete přímo ovládat výkon všech motorů, aby robot během palby stále držel cíl na mušce."
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "Just before the shot, the program adjusts a last time the direction with <c/>turn(direction(item.position));<n/>. In order to follow the wasp during the burst, you have to \"remember\" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right."
+msgstr "Robot těsně před výstřelem ještě naposledy upraví směr příkazem <c/>turn(direction(item.position));<n/>. Abyste mohli během palby držet vosu na mušce, musíte si tento úhel \"zapamatovat\": pokud byl úhel kladný (otočení doleva), robot musí během palby dále točit doleva, pokud byl záporný, robot musí dále točit doprava."
+
+#. type: Plain text
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "In order to \"remember\" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it <code>angle</code>, we must define the variable with the following line at the beginning of the program:"
+msgstr "Na \"zapamatování\" daného úhlu potřebujeme proměnnou, do které lze uložit jedno číslo. Když ji nazveme <code>angle</code>, musíme ji na začátku programu deklarovat následujícím řádkem kódu:"
+
+#. type: Source code
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "\t<a cbot|type>float</a> angle;"
+msgstr "\t<a cbot|type>float</a> angle;"
+
+#. type: Plain text
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid "The variable type <a cbot|type>float</a> is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the <a cbot|type>text about variable types</a> if you want to know more about the different types of variables and what they can contain."
+msgstr "Proměnná typu <a cbot|type>float</a> může obsahovat libovolné číslo, t.j. celá čísla nebo reálná čísla. Pokud se chcete dozvědět více o různých typech proměnných a co mohou obsahovat, přečtěte si <a cbot|type>popis datových typů</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid "Just before the instruction <c/>fire(1);<n/>, instead of writing <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/>, we will put the rotation angle into the variable <code>angle</code>:"
+msgstr "Těsně před příkazem <c/>fire(1);<n/> místo příkazu <c/><a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));<n/> uložíme úhel pro otočení do proměnné <code>angle</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid "\tangle = direction(item.position);"
+msgstr "\tangle = direction(item.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:54
+#, no-wrap
+msgid "Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:"
+msgstr "Pak robota otočíme a nastavíme výkon motorů, aby robot zatáčel dále:"
+
+#. type: Source code
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid ""
+"\tturn(angle);\n"
+"\tif (angle < 0)\n"
+"\t{\n"
+"\t\tmotor(1,0.5);\n"
+"\t}\n"
+"\telse\n"
+"\t{\n"
+"\t\tmotor(0.5,1);\n"
+"\t}"
+msgstr ""
+"\tturn(angle);\n"
+"\tif (angle < 0)\n"
+"\t{\n"
+"\t\tmotor(1,0.5);\n"
+"\t}\n"
+"\telse\n"
+"\t{\n"
+"\t\tmotor(0.5,1);\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:66
+#, no-wrap
+msgid "The instruction <code>else</code> determines what instructions the program should execute if the condition stated in the <code>if</code> instruction is false."
+msgstr "Příkaz <code>else</code> označuje blok, který se provede v případě, když podmínka v příkazu <code>if</code> neplatí."
+
+#. type: Plain text
+#: ../help/help.E.txt:68
+#, no-wrap
+msgid "Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:"
+msgstr "Nakonec musíme nastavit i výkon tryskového motoru, aby robot udržoval stejnou letovou výšku jako vosa:"
+
+#. type: Source code
+#: ../help/help.E.txt:70
+#, no-wrap
+msgid ""
+"\tjet(0);\n"
+"\tif(position.z > item.position.z)\n"
+"\t{\n"
+"\t\tjet(-0.3);\n"
+"\t}\n"
+"\t\n"
+"\tif(position.z < item.position.z - 1)\n"
+"\t{\n"
+"\t\tjet(0.3);\n"
+"\t}"
+msgstr ""
+"\tjet(0);\n"
+"\tif(position.z > item.position.z)\n"
+"\t{\n"
+"\t\tjet(-0.3);\n"
+"\t}\n"
+"\t\n"
+"\tif(position.z < item.position.z - 1)\n"
+"\t{\n"
+"\t\tjet(0.3);\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:81
+#, no-wrap
+msgid "As you will see, this program is much more efficient than the previous one!"
+msgstr "Uvidíte, že tento programu bude mnohem úspěšnější než ten předchozí!"
+
+#. type: \t; header
+#: ../help/help.E.txt:83
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:84
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."

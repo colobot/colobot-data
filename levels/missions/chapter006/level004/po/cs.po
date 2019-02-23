@@ -1,0 +1,180 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-13 23:02+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Technological Treasure"
+msgstr "Technologický poklad"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Rediscover a new type of bot."
+msgstr "Znovu objevte nový druh robota."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "An urgent notification from Mission Control"
+msgstr "Naléhavá zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Zatímco jste se chystali k odletu, dostali jsme ze satelitu následující informaci: Na Vulkánu byl objeven robot prozatím neznámého typu. Pokuste se ho přivézt na palubu rakety k dalšímu zkoumání."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Naši inženýři na Zemi právě vymysleli vylepšení, díky kterému by měly tryskové motory alespoň na kratší lety řádně fungovat i za vysokých teplot. Data jsme Vám poslali."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:8 ../help/soluce.E.txt:12
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Aktuálně na stacionární oběžné dráze Vulkánu."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      96.7C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             2.8 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           96,7 °C\n"
+"\\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vítr:              2,8 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     žádný\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Nalezeno:          robot\n"
+"\\tab;  - Typ:           neznámý\n"
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "A gap in the northwest mountain leads the way to a lake of boiling lava."
+msgstr "Průsmyk v severozápadních horách vede k jezeru vroucí lávy."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Just hop from one rocky island to the next. Keep checking your reactor, let it cool off completely before taking off again. The mini map will help you to figure out where the closest island is."
+msgstr "Jednoduše skákejte z jednoho skalnatého ostrůvku na druhý. Hlídejte si tryskový motor, před každým vzletem ho nechte úplně vychladnout. Minimapa Vám vždy pomůže najít nejbližší další ostrov."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "In case of an ant attack, don't worry too much. Just take the time for your reactor to cool off, without lingering longer than necessary, and your built-in shield should do its duty. However we advise you to save the game from time to time (key Esc, and \"Save\"), so you will not have to start from the beginning in case of a landing in the lava lake."
+msgstr "V případě útoku mravenců se příliš nelekejte. Po vychladnutí tryskového motoru zbytečně neotálejte, a Váš osobní štít by Vás měl spolehlivě ochránit. Přesto ale doporučujeme občas uložit hru (klávesa Esc, a pak \"Uložit\"), ať v případě pádu do lávového jezera nemusíte začínat úplně od začátku."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "The bot is at the westernmost point on your map though you'll have to take a roundabout route to reach it. A <a object|atomic>nuclear power cell</a> lies nearby."
+msgstr "Robot se nachází na nejzápadnějším místě mapy, ale budete se k němu muset dostat oklikou. Kousek od něj leží <a object|atomic>jaderná baterie</a>."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "You don't have to radio-control the bot back to the spaceship by the same way you came because its reactor has a greater range than yours. One or two stops may still be needed and watch out for those ants."
+msgstr "Robota nemusíte zpět k raketě řídit stejnou cestou, kterou jste k němu doletěli, protože jeho tryskový motor se zahřívá pomaleji než ten Váš. Jedna nebo dvě zastávky by měly stačit a pozor na mravence."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"

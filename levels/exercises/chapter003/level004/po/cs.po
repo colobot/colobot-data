@@ -1,0 +1,170 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-12 23:17+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Exchange posts 1"
+msgstr "Komunikační stanice 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Collect valuable information from information exchange posts."
+msgstr "Získejte z komunikačních stanic užitečné informace."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Info"
+msgstr "Info"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid ""
+"Several <a object|exchange>information exchange posts</a> stand in the middle of a <a object|mine>mine</a> field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a <a object|mine>mine</a>.\n"
+"The exchange posts are distant 20m from each other."
+msgstr ""
+"Uprostřed <a object|mine>minového pole</a> stojí několik <a object|exchange>komunikačních stanic</a>. Když robot přijede dost blízko ke komunikační stanici, může z ní číst uložené informace. Každá stanice řekne robotovi úhel, o který se musí otočit, aby bezpečně dojel k další stanici a nenajel při tom na <a object|mine>minu</a>.\n"
+"Komunikační stanice jsou od sebe vzdálené 20 metrů."
+
+#. type: \b; header
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "General principe"
+msgstr "Obecný postup"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Move 20m forward."
+msgstr "Popojet o 20m vpřed."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Read the direction of the next <a object|exchange>information exchange post</a>."
+msgstr "Načíst směrový úhel k další <a object|exchange>komunikační stanici</a>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Execute the necessary rotation."
+msgstr "Otočit o daný úhel."
+
+#. type: Image filename
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "tinfo1"
+msgstr "tinfo1"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "In order to repeat the steps above, use a <code><a cbot|for>for</a></code> loop, as we saw it before."
+msgstr "Pro opakování výše uvedených kroků použijte <code><a cbot|for>for</a></code> cyklus jako v předchozím cvičení."
+
+#. type: Source code
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+msgstr "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Move forward with the instruction <c/>move(20);<n/>."
+msgstr "Popojeďte vpřed příkazem <c/>move(20);<n/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid ""
+"Use the instruction <c/><a cbot|receive>receive</a>(\"Direction\");<n/> in order to read the information contained in the <a object|exchange>exchange post</a>. This is of course possible only when the bot is close enough to the exchange post.\n"
+"You will need a <a cbot|var>variable</a> to contain the value retrieved from the exchange post. Let us call it <code>dir</code>; you must declare it with the following line:"
+msgstr ""
+"Pro přečtení informace uložené v <a object|exchange>komunikační stanici</a> použijte příkaz <c/><a cbot|receive>receive</a>(\"Direction\");<n/>. Ten samozřejmě bude fungovat jen když je robot ke stanici dostatečně blízko.\n"
+"Pro uložení hodnoty přečtené z komunikační stanice budete potřebovat <a cbot|var>proměnnou</a>. Nazvěme ji <code>dir</code> a musíte ji deklarovat následujícím řádkem:"
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "<c/>\tfloat  dir;"
+msgstr "<c/>\tfloat  dir;"
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Then retrieve the rotation angle from the exchange post, and put it into the variable:"
+msgstr "Pak přečtěte směrový úhel z komunikační stanice a uložte ho do proměnné:"
+
+#. type: Source code
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "<c/>\tdir = receive(...);"
+msgstr "<c/>\tdir = receive(...);"
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Then you can execute the rotation:"
+msgstr "Pak můžete robota otočit:"
+
+#. type: Source code
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr "<c/>\tturn(dir);"
+
+#. type: \b; header
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "Remark"
+msgstr "Poznámky"
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains only one value called <code>\"Direction\"</code>, but it can contain up to 10 different values, as you will see in some of the following exercises."
+msgstr "Když kliknete na <a object|exchange>komunikační stanici</a>, můžete se podívat, jaké informace obsahuje. Všechny stanice v tomto cvičení obsahují pouze jedinou hodnotu nazvanou <code>\"Direction\"</code>, ale mohou obsahovat až 10 různých hodnot, jak uvidíte v dalších cvičeních."
+
+#. type: \t; header
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Repeat 5 times :"
+msgstr "Opakovat pětkrát:"

@@ -1,0 +1,181 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-07 11:10-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Power Cell 2"
+msgstr "Célula de energia 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Power all the winged shooters."
+msgstr "Ligue todos os atiradores alados."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Spider2"
+msgstr "Aranha2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
+msgstr "Alimente os <a object|botfj>atiradores alados</a> com <a object|power>células de energia</a>, para que eles possam matar as formigas no formigueiro localizado em um buraco ao norte de sua posição."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
+msgstr "O <a object|botgr>agarrador com rodas</a> deve ir para uma <a object|power>célula de energia</a>, pegá-la, ir para um <a object|botfj>atirador alado</a>, e soltar a célula. Essa tarefa é muito semelhante à tarefa executada no exercício anterior. Aqui está este programa novamente:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
+msgstr ""
+"extern void object::Titanio2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
+msgstr "A melhor maneira de resolver o presente exercício é copiar <button 61/> o programa acima para a área de transferência (de <code>object</ code> para <c/>drop();<n/>), e colar <button 62/> no editor do programa. Então você só precisa fazer as alterações necessárias para adaptá-lo à nova tarefa."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
+msgstr "Em vez de procurar minério de titânio (<code>TitaniumOre</code>), procure por uma célula de energia (<code>PowerCell</code>). Em vez de ir para um conversor (<code>Converter</code>), vá para um atirador alado (<code>WingedShooter</code>). Assim que o atirador alado tiver uma nova célula de potência, ela começará a funcionar."
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
+msgstr "Se você quiser saber mais sobre os \"nomes\" dos diferentes objetos na linguagem de programação, consulte o <a cbot|category>texto sobre as categorias</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "Further improvement: loops"
+msgstr "Melhoria adicional: laços"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
+msgstr "Depois que o programa explicado acima funcionar corretamente, você poderá melhorá-lo para repetir a tarefa várias vezes. Assim você não terá que executar o programa várias vezes para alimentar vários robôs."
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
+msgstr "Todos os programas escritos até agora executam todas as instruções apenas uma vez, uma após a outra, do começo ao fim do programa. Você também pode dizer ao robô para repetir algumas instruções: basta escrever <code>while(true)</code>, uma chave aberta, as instruções a serem repetidas e uma chave de fechamento. Repetir algumas instruções várias vezes dessa maneira é chamado de laço (loop). Aqui está um exemplo de um programa que repete várias vezes as instruções que buscam uma célula de energia, agarra-a e solta-a em um atirador alado:"
+
+#. type: Source code
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
+msgstr ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
+msgstr "É claro que a declaração da variável <c/>object item;<n/> não deve estar dentro do loop, mas antes: declarar uma variável apenas uma vez."
+
+#. type: \t; header
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "Remark"
+msgstr "Observação"
+
+#. type: Plain text
+#: ../help/help.E.txt:45
+#, no-wrap
+msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
+msgstr "Um robô pode executar um programa perfeitamente por conta própria. Enquanto você pode, por exemplo, selecionar o astronauta e dar uma olhada no que está acontecendo no ninho, o show vale a pena. Mas tenha cuidado para não levar um tiro com seus próprios robôs ..."
+
+#. type: \t; header
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "See also"
+msgstr "Veja também"
+
+#. type: Plain text
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category>categorias</a>."

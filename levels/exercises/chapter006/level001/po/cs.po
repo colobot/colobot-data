@@ -1,0 +1,240 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-25 21:32+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "A function"
+msgstr "Funkce"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Create a function in order to make your program shorter."
+msgstr "Napište funkci, abyste si zjednodušili program."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Trasa"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
+msgstr "<a object|bottr>Robot</a> musí projet přes všechny <a object|waypoint>modré křížky</a> na zemi. Trasa se skládá ze dvou čtverců. První čtverec měří 15 metrů, druhý 25 metrů."
+
+#. type: Image filename
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "tproc1a"
+msgstr "tproc1a"
+
+#. type: \b; header
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
+msgstr "Nejjednodušším řešením tohoto úkolu je vytvořit <a cbot|function>funkci</a>, která robota pošle objet čtverec o zadané délce. Hlavní program pak bude velmi jednoduchý:<c/>"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Function1( )\n"
+"{\n"
+"\tSquare(15);\n"
+"\tSquare(25);\n"
+"}"
+msgstr ""
+"extern void object::Trasa( )\n"
+"{\n"
+"\tSquare(15);\n"
+"\tSquare(25);\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "You still have to define the function called <code>Square</code>. In order to do this, you will have to write some instructions outside the <a cbot|bloc>block</a> that until now was the frame of each one of your programs. At the very end of the program, after the last closing brace, we will define the function <code>Square</code>. The program will take the following shape:"
+msgstr "Teď ještě musíte naprogramovat funkci nazvanou <code>Square</code>. Pro vytvoření nové funkce musíte napsat několik příkazů mimo <a cbot|bloc>blok</a>, který až doteď obsahoval celý Váš program. Úplně na konci programu, až za poslední složenou závorkou, definujeme funkci <code>Square</code>. Program pak bude vypadat takto:"
+
+#. type: Source code
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid ""
+"extern void object::Function1( )\n"
+"{\n"
+"\t<n/>main function ...<code>\n"
+"}\n"
+"\n"
+"void object::Square(float length)\n"
+"{\n"
+"\t</code>new function ...<c/>\n"
+"}"
+msgstr ""
+"extern void object::Trasa( )\n"
+"{\n"
+"\t<n/>hlavní funkce...<code>\n"
+"}\n"
+"\n"
+"void object::Square(float length)\n"
+"{\n"
+"\t</code>nová funkce...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "Let us look in detail at the different elements of the declaration of the function <code>Square</code>:"
+msgstr "Podívejme se podrobně na jednotlivé prvky definice funkce <code>Square</code>:"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"<code><a cbot|void>void</a></code>\n"
+"This means that this function will return no value."
+msgstr ""
+"<code><a cbot|void>void</a></code>\n"
+"Toto znamená, že funkce nebude vracet žádnou hodnotu."
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"<code><a cbot|object>object</a>::</code>\n"
+"When you write this in front of the function name, you can have access in the function to all the characteristics of the bot, such as <code>position</code>, <code>orientation</code>, etc. In this exercise, this element is not compulsory, as we will not need the characteristics of the bot in the function."
+msgstr ""
+"<code><a cbot|object>object</a>::</code>\n"
+"Když toto napíšete před název funkce, budete mít uvnitř funkce přístup ke všem vlastnostem robota, například k proměnným <code>position</code>, <code>orientation</code>, atd. V tomto cvičení můžete tento prvek vynechat, protože ve funkci <code>Square</code> nebudeme vlastnosti robota potřebovat."
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid ""
+"<code>Square (  )</code>\n"
+"This is the name of the function. You can call it Square, or any other name."
+msgstr ""
+"<code>Square (  )</code>\n"
+"Toto je název funkce. Můžete ji nazvat Square, nebo i libovolně jinak."
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"<code><a cbot|float>float</a> length</code>\n"
+"Here you define the parameters that the function will get when it is called. The first time the function is actually called with <code>Square(15)</code>, the variable <code>length</code> will contain the value <code>15</code>. The second time, <code>length</code> will contain <code>25</code>."
+msgstr ""
+"<code><a cbot|float>float</a> length</code>\n"
+"Zde definujete parametry, které funkci musíte předat, když ji voláte. Poprvé budeme funkci volat jako <code>Square(15)</code>, takže proměnná <code>length</code> dostane hodnotu <code>15</code>. Podruhé dostane proměnná <code>length</code> hodnotu <code>25</code>."
+
+#. type: Bullet: '-'
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "First the main function <code>Function</code> will be executed."
+msgstr "Nejprve se spustí hlavní funkce <code>Trasa</code>."
+
+#. type: Bullet: '-'
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "At the line <code>Square(15)</code>, the program will follow the red arrow and enter the function <code>Square</code> a first time, <code>length</code> containing <code>15</code>."
+msgstr "Na řádku <code>Square(15)</code> program poprvé zavolá funkci <code>Square</code> s hodnotou <code>15</code> v proměnné <code>length</code>, jak znázorňuje červená šipka."
+
+#. type: Bullet: '-'
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "At the end of the function <code>Square</code>, the program follows the orange arrow and comes back to the main function."
+msgstr "Na konci funkce <code>Square</code> se program vrátí po oranžové šipce zpět do hlavní funkce."
+
+#. type: Bullet: '-'
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "At the line <code>Square(25)</code>, the program will follow the blue arrow and enter the function <code>Square</code> a second time."
+msgstr "Na řádku <code>Square(25)</code> program zavolá funkci <code>Square</code> podruhé, jak znázorňuje modrá šipka."
+
+#. type: Bullet: '-'
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "At the end of the function <code>Square</code>, the program follows the light blue arrow and comes back to the main function."
+msgstr "Na konci funkce <code>Square</code> se program opět vrátí do hlavní funkce po světle modré šipce."
+
+#. type: Image filename
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "tproc1b"
+msgstr "tproc1b_cs"
+
+#. type: Plain text
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "In the function <code>Square</code>, use the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code>. In order to make it shorter, you can use a <code><a cbot|for>for</a></code> loop, that will repeat the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code> 4 times; however, this is not compulsory."
+msgstr "Ve funkci <code>Square</code> použijte příkazy <code><a cbot|move>move</a></code> a <code><a cbot|turn>turn</a></code>. Pro zjednodušení můžete použít i cyklus <code><a cbot|for>for</a></code>, abyste příkazy <code><a cbot|move>move</a></code> a <code><a cbot|turn>turn</a></code> zopakovali čtyřikrát. Ale pokud nechcete, nemusíte."
+
+#. type: Source code
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid ""
+"void object::Square(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<4 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
+msgstr ""
+"void object::Square(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<4 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
+
+#. type: \t; header
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "Here is in detail what will happen when the program is executed:"
+msgstr "Program bude po spuštění fungovat takto:"

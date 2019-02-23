@@ -1,0 +1,168 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-24 15:13+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mover 2"
+msgstr "Přeprava 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Retrieve several titanium cubes."
+msgstr "Přivezte několik kostek titanu."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Preprava"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This exercise is very similar to the previous one. There are now three <a object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here are the coordinates of the finishing pads:"
+msgstr "Toto cvičení je velmi podobné jako to předchozí. Tentokrát musíte odvézt tři <a object|titan>kostky titanu</a> na tři cílové značky. Zde jsou souřadnice cílových značek:"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
+msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "General principle"
+msgstr "Obecný postup"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Look for the most distant titanium cube with <code><a cbot|radar>radar</a></code>."
+msgstr "Najít nejvzdálenější kostku titanu příkazem <code><a cbot|radar>radar</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Pick it up with <code><a cbot|grab>grab</a></code>."
+msgstr "Zvednout ji příkazem <code><a cbot|grab>grab</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "Go to one of the pads with <code><a cbot|goto>goto</a></code>."
+msgstr "Dojet k jedné z cílových značek příkazem <code><a cbot|goto>goto</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "Drop the titanium with <code><a cbot|drop>drop</a></code>."
+msgstr "Položit titan příkazem <code><a cbot|drop>drop</a></code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "If you look for the nearest titanium cube, the radar would find one that you already retrieved and dropped on a pad. Therefore you must look for the most distant titanium cube."
+msgstr "Pokud byste hledali nejbližší kostku titanu, radar najde tu, kterou už jste přivezli a položili na značku. Proto musíte hledat nejvzdálenější kostku titanu."
+
+#. type: \b; header
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "The program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all the instructions necessary to retrieve the titanium cube. Inside the loop, in order to find the most distant titanium cube, use the instruction <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value <code>-1</code> means that instead of looking for the closest item, the radar will return the most distant that it can find."
+msgstr "Všechny příkazy pro přivezení kostky titanu opakujte třikrát pomocí cyklu <code><a cbot|for>for</a></code>. Uvnitř cyklu hledejte nejvzdálenější kostku titanu příkazem <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. Poslední hodnota <code>-1</code> znamená, že radar má místo nejbližšího objektu hledat ten nejvzdálenější."
+
+#. type: Source code
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid ""
+"object  metal;\n"
+"metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
+"if ( metal == null )  return;\n"
+"goto(metal.position);"
+msgstr ""
+"object  metal;\n"
+"metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
+"if ( metal == null )  return;\n"
+"goto(metal.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "The variable <code>metal</code> if of type <code><a cbot|object>object</a></code>. In order to know the position of the object described by the variable, you must write <code>metal.position</code>."
+msgstr "Proměnná <code>metal</code> je typu <code><a cbot|object>object</a></code>. Polohu objektu popsaného touto proměnnou zjistíte výrazem <code>metal.position</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "The <code>x</code> coordinates of the 3 pads are all equal to 10. The <code>y</code> coordinates are respectively -60, -65 and -70. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0, 1 and 2:"
+msgstr "Všechny cílové značky mají souřadnici <code>x</code> rovnu 10. Souřadnice <code>y</code> mají hodnoty -60, -65 a -70. Nejpohodlnější způsob, jak získat souřadnice další cílové značky, je využít řídící proměnnou <code>for</code> cyklu \"<code>i</code>\", která bude v jednotlivých opakováních cyklu postupně nabývat hodnot 0, 1 a 2:"
+
+#. type: Source code
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+msgstr ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "It is up to you now to finish the program."
+msgstr "Dopsat zbytek programu už je na Vás."
+
+#. type: \t; header
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Repeat 3 times:"
+msgstr "Opakovat třikrát:"

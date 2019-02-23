@@ -1,0 +1,200 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-10 18:06+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Uranium"
+msgstr "Uran"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "An attempt to retrieve some uranium ore."
+msgstr "Pokus získat trochu uranové rudy."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The observation satellite has detected a chunk of <a object|uranore>uranium ore</a> on the summit of the main mountain. You need to bring it back to your spaceship."
+msgstr "Průzkumný satelit objevil na vrcholu nejvyšší hory hroudu <a object|uranore>uranové rudy</a>. Musíte ji naložit do rakety."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:6 ../help/soluce.E.txt:21
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Aktuálně na stacionární oběžné dráze Saari."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      41.3C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             2.3 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      some (mountain summit)"
+msgstr ""
+"\\tab;Teplota:           41,3 °C\n"
+"\\tab;Atmosféra:         CO2, kyslík, dusík\n"
+"\\tab;Vítr:              2,3 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      trocha (na vrcholu hory)"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Nalezeno:          recyklovatelné vraky\n"
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "You'll find a <a object|titan>titanium cube</a> left in a smashed up bot factory. Use it to build a <a object|station>power station</a>."
+msgstr "V rozbořené továrně na roboty najdete <a object|titan>kostku titanu</a>. Postavte z ní <a object|station>nabíječku</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "The <a object|botrecy>recycler</a> is designed to convert derelicts back into usable titanium cubes."
+msgstr "<a object|botrecy>Recyklátor</a> dokáže zrecyklovat vraky na znovu použitelné kostky titanu."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build both a <a object|repair>repair center</a> and a <a object|radar>radar</a>."
+msgstr "Postavte <a object|repair>opravnu</a> a <a object|radar>radar</a>."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Recharge one of the <a object|power>power cells</a> available and power a <a object|botfj>winged shooter</a>."
+msgstr "Nabijte jednu z dostupných <a object|power>baterií</a> a vložte ji do zdířky <a object|botfj>létajícího kanónu</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Eliminate all <a object|ant>ants</a>. Note that you should recharge and repair the shooter regularly. Check your levels."
+msgstr "Zlikvidujte všechny <a object|ant>mravence</a>. Pamatujte, že byste měli kanón pravidelně nabíjet a opravovat. Hlídejte si štít a baterii."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Fully charge the <a object|botgr>grabber</a>'s power cell, then radio-control it to the summit..."
+msgstr "Plně nabijte baterii <a object|botgr>pojízdného ramena</a> a dojeďte s ním na vrchol hory..."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid ""
+"      a) Access the first level by ramp on west;\n"
+"      b) On first level travel east to find second ramp;\n"
+"      c) On second level travel south to find third ramp;\n"
+"      d) On third level travel west for access to summit;\n"
+"...then, with the chunk, straight back to the spaceship by the most direct route so as to save the remaining power."
+msgstr ""
+"      a) Na první patro vyjeďte po nájezdu na západě;\n"
+"      b) Na prvním patře jeďte na východ k druhému nájezdu;\n"
+"      c) Na druhém patře jeďte na jih k třetímu nájezdu;\n"
+"      d) Z třetího patra se na vrchol dostanete ze západu;\n"
+"...pak seberte rudu a vyražte přímou čarou k raketě, ať neplýtváte zbývající energií."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:19
+#, no-wrap
+msgid "Climb aboard the ship yourself and take off."
+msgstr "Sami nastupte do rakety a odleťte."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:22
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"
