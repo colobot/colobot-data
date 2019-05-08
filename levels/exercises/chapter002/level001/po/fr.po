@@ -1,20 +1,20 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# BCE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 18:27+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -56,7 +56,7 @@ msgstr "Programme"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "When you are radio-guiding a bot, you can rotate the cannon during the burst in order to sweep a whole zone. You can also do this when programming the bot, but you have to turn the whole bot with the instruction <code><a cbot|motor>motor</a>( , )</code>. This instruction asks for two numbers: the speed of the left-hand motor, and the speed of the right-hand motor. These numbers must range between -1 and +1.<c/> motor(1,1);<n/> moves the bot forward with maximum speed (both motors at full power).<c/> motor(-1,-1);<n/> moves the bot backward with maximum speed.<c/> motor(1,0.9);<n/> moves the bot forward with a slight turn to the right: the left-hand motor turns a little faster than the right-hand motor. And <c/>motor(1,-1);<n/> will turn the bot clockwise on the spot: the left-hand motor moves forward, the right-hand motor moves backward."
-msgstr "Quand on prend les commandes d'un robot shooter, on peut faire basculer le canon pendant la salve de tir et balayer ainsi toute une zone. Ceci est également possible quand on programme le shooter: on utilise l'instruction <code><a cbot|motor>motor</a>( , )</code>. Cette instruction demande deux nombres: la vitesse du moteur de gauche, et la vitesse du moteur de droite. Les valeurs peuvent aller de -1 à 1.<c/> motor(1,1);<n/> fait avancer le robot à la vitesse maximum. <c/>motor(-1,-1);<n/> fait reculer le robot à la vitesse maximum.<c/> motor(1,0.9);<n/> le fait avancer avec un léger virage à droite: le moteur de droite tourne un peu moins vite. Et <c/>motor(1,-1);<n/> le fait tourner sur place vers la droite: le moteur de gauche avance, le moteur de droite recule."
+msgstr "Quand on prend les commandes d'un robot tireur, on peut faire basculer le canon pendant la salve de tir et balayer ainsi toute une zone. Ceci est également possible quand on programme le tireur: on utilise l'instruction <code><a cbot|motor>motor</a>( , )</code>. Cette instruction demande deux nombres: la vitesse du moteur de gauche, et la vitesse du moteur de droite. Les valeurs peuvent aller de -1 à 1.<c/> motor(1,1);<n/> fait avancer le robot à la vitesse maximum. <c/>motor(-1,-1);<n/> fait reculer le robot à la vitesse maximum.<c/> motor(1,0.9);<n/> le fait avancer avec un léger virage à droite: le moteur de droite tourne un peu moins vite. Et <c/>motor(1,-1);<n/> le fait tourner sur place vers la droite: le moteur de gauche avance, le moteur de droite recule."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
@@ -104,4 +104,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tremova4>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a tremova4>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
