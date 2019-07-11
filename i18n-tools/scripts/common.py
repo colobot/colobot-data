@@ -150,7 +150,7 @@ class LanguageFile:
 def find_translation_file_names(po_dir):
     pot_file_name = os.path.join(po_dir, 'translations.pot') # default
     po_file_names = []
-    for file_name in os.listdir(po_dir):
+    for file_name in sorted(os.listdir(po_dir)):
         if file_name.endswith('.pot'):
             pot_file_name = os.path.join(po_dir, file_name)
         elif file_name.endswith('.po'):
