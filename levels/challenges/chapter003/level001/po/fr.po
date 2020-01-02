@@ -1,32 +1,33 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 17:52+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Mover 1"
-msgstr "Le déménageur 1"
+msgstr "Le déménageur défi 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve some titanium ore in order to convert it to titanium cubes."
-msgstr "Déplacer du minerai pour le convertir en métal."
+msgstr "Déplacer du minerai de titane pour le raffiner en bloc de titane."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +45,7 @@ msgstr "Exercice"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
-msgstr "Il faut convertir du <a object|titanore>minerai de titanium</a> en <a object|titan>titanium</a>, puis déposer 2 cubes de titanium sur les plates-formes dont les coordonnées sont:"
+msgstr "Il faut raffiner du <a object|titanore>minerai de titane</a> en <a object|titan>titane</a>, puis déposer 2 <a object|titan>blocs de titane</a> sur les plates-formes dont les coordonnées sont:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -66,7 +67,7 @@ msgstr "derrick"
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
-msgstr "Le <a object|derrick>derrick</a> extrait automatiquement du minerai de titanium, qui ne demande qu'à être ramassé."
+msgstr "Le <a object|derrick>derrick</a> extrait automatiquement du minerai de titane du sous-sol, que vous n'avez plus qu'à ramasser."
 
 #. type: Image filename
 #: ../help/help.E.txt:10
@@ -78,13 +79,13 @@ msgstr "convert"
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
-msgstr "Le <a object|convert>convertisseur</a> transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre."
+msgstr "La <a object|convert>raffinerie</a> transforme le minerai en titane. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre."
 
 #. type: \b; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "General principle"
-msgstr "Principe"
+msgstr "Idée générale"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
@@ -114,7 +115,7 @@ msgstr "Prendre le minerai."
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Go to the converter."
-msgstr "Aller vers le convertisseur (<code><a object|convert>Converter</a></code>)."
+msgstr "Aller vers la <a object|convert>raffinerie</a> (<code><a object|convert>Converter</a></code>)."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:19
@@ -132,13 +133,13 @@ msgstr "Reculer de 4 mètres."
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "Wait until there is a titanium cube."
-msgstr "Attendre tant qu'on ne trouve pas de titanium."
+msgstr "Attendre tant qu'on ne trouve pas de titane."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Pick up the titanium cube."
-msgstr "Prendre le titanium (<code><a object|titan>Titanium</a></code>)."
+msgstr "Prendre le <a object|titan>bloc de titane</a> (<code><a object|titan>Titanium</a></code>)."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:23
@@ -150,7 +151,7 @@ msgstr "Aller sur une plate-forme."
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "Drop the titanium cube."
-msgstr "Déposer le titanium."
+msgstr "Déposer le <a object|titan>bloc de titane</a>."
 
 #. type: \b; header
 #: ../help/help.E.txt:26
@@ -186,4 +187,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Programmation</a>."
+msgstr "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."

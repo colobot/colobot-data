@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -44,13 +45,13 @@ msgstr "Nettoyer la région de toute présence hostile."
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
-msgstr "Les informations transmises par le satellite d'observation <button 186/> ont révélé une forte concentration d'éléments hostiles près de votre vaisseau, votre situation nous préoccupe! A vous de planifier la suite des opérations à l'aide des techniques d'attaque et de défense disponibles: <a object|tower>tours de défense</a> et <a object|botfj>robot shooter</a>."
+msgstr "Les informations transmises par le satellite d'observation <button 186/> ont révélé une forte concentration d'éléments hostiles près de votre vaisseau, votre situation nous préoccupe! A vous de planifier la suite des opérations à l'aide des techniques d'attaque et de défense disponibles: <a object|tower>tours de défense</a> et <a object|botfj>robots tireurs</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
-msgstr "Pour cette raison, nous vous avons envoyé un programme pour le <a object|botfr>robot shooter</a> permettant de parer au plus pressé. Exécutez-le rapidement; il protègera votre flanc ouest."
+msgstr "Pour cette raison, nous vous avons envoyé un programme pour le <a object|botfr>robot tireur</a> permettant de parer au plus pressé. Exécutez-le rapidement; il protègera votre flanc ouest."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
@@ -101,8 +102,8 @@ msgstr ""
 "\\tab;Température:      38.4 degrés\n"
 "\\tab;Atmosphère:       CO2, oxygène, azote\n"
 "\\tab;Vent:             1.4 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:par endroits\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -119,14 +120,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          partout\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -148,19 +149,19 @@ msgstr "Solution"
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
-msgstr "Exécutez immédiatement le programme <code>TueFourmi1</code> dans le shooter à roues; il s'occupera de la première vague venant de l'ouest."
+msgstr "Exécutez immédiatement le programme <code>TueFourmi1</code> dans le tireur à roues; il s'occupera de la première vague venant de l'ouest."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
-msgstr "Pendant que ce programme fait son travail, construisez vite deux <a object|tower>tours de défense</a>, la première au nord du <a object|base>vaisseau</a> et la deuxième au sud. Pendant que <a object|human>vous</a> construisez la tour, utilisez le <a object|botgr>robot déménageur</a> pour aller chercher une <a object|power>pile</a>."
+msgstr "Pendant que ce programme fait son travail, construisez vite deux <a object|tower>tours de défense</a>, la première au nord du <a object|base>vaisseau</a> et la deuxième au sud. Pendant que <a object|human>vous</a> construisez la tour, utilisez le <a object|botgr>robot préhenseur</a> pour aller chercher une <a object|power>batterie</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
-msgstr "Lorsque les vagues d'assaut successives constituées d'une quinzaine de <a object|ant>fourmis</a> sont décimées, vous aurez tout le temps de construire un <a object|radar>radar</a> pour repérer les fourmis restées en retrait, et un <a object|convert>convertisseur</a>, une <a object|factory>fabrique de robots</a>, une <a object|station>station de recharge</a> et un <a object|botfj>shooter volant</a> pour finir le travail."
+msgstr "Lorsque les vagues d'assaut successives constituées d'une quinzaine de <a object|ant>fourmis</a> sont décimées, vous aurez tout le temps de construire un <a object|radar>radar</a> pour repérer les fourmis restées en retrait, et une <a object|convert>raffinerie</a>, une <a object|factory>usine de robots</a>, une <a object|station>station de recharge</a> et un <a object|botfj>tireur volant</a> pour finir le travail."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:9

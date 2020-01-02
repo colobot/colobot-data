@@ -1,38 +1,39 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-16 07:38+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Power Cell 1"
-msgstr "Pile 1"
+msgstr "Batterie 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct a bot to change the power cell of a nearby winged shooter."
-msgstr "Programmer un robot pour qu'il change la pile d'un autre robot"
+msgstr "Programmer un robot pour qu'il change la batterie d'un autre robot"
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Spider2"
-msgstr "Pile1"
+msgstr "Batterie1"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -44,7 +45,7 @@ msgstr "Objectif"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a> to change the <a object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The winged shooter can then shoot the spiders."
-msgstr "Changez la <a object|power>pile</a> du robot <a object|botfj>shooter</a>, pour qu'il puisse partir à la chasse aux <a object|bottarg>cibles</a>. "
+msgstr "Programmez un <a object|botgr>robot préhenseur</a> pour qu'il change la <a object|power>batterie</a> du robot <a object|botfj>tireur</a>, afin qu'il puisse partir à la chasse aux nuisibles. "
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,19 +57,19 @@ msgstr "Marche à suivre"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Program the <a object|botgr>grabber bot</a>."
-msgstr "Programmez le robot déménageur."
+msgstr "Programmez le <a object|botgr>robot préhenseur</a>."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Execute the program with the arrow button <button 21/>."
-msgstr "Exécutez le programme en cliquant sur le bouton <button 21/>."
+msgstr "Exécutez le programme en cliquant sur la flèche <button 21/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The <a object|botfj>winged shooter</a> is already programmed, it will do its job as soon as it has got a new power cell."
-msgstr "Le robot shooter est déjà programmé, et entrera en action dès qu'il aura une pile neuve."
+msgstr "Le <a object|botfj>robot tireur</a> est déjà programmé, et entrera en action dès qu'il aura une batterie neuve."
 
 #. type: \t; header
 #: ../help/help.E.txt:9
@@ -128,7 +129,7 @@ msgstr "Voyons le début du programme:"
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "pick up the empty power cell with <c/>grab();<n/>"
-msgstr "on prend la pile vide avec <c/>grab();<n/>"
+msgstr "on prend la batterie vide avec <c/><a cbot|grab>grab</a>();<n/>"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:23
@@ -140,7 +141,7 @@ msgstr "on tourne à gauche de 90 degrés <code>turn(90)</code>"
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "drop the empty cell with <c/>drop();<n/>"
-msgstr "on pose la pile vide <c/>drop();<n/>"
+msgstr "on pose la batterie vide <c/><a cbot|drop>drop</a>();<n/>"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:25
@@ -158,31 +159,31 @@ msgstr "A vous de faire la suite!"
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program, and click the braces button <button 22/>."
-msgstr ""
+msgstr "Si vous avez un problème, vous pouvez toujours regarder la solution : sélectionnez le programme <code>Solution</code> et cliquez sur le bouton des accolades <button 22/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Remarques"
 
 #. type: Plain text
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
-msgstr ""
+msgstr "Veillez à écrire les instructions avec précision, en respectant les minuscules et les majuscules."
 
 #. type: Plain text
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "Always write one instruction per line, finishing each line with a semicolon."
-msgstr ""
+msgstr "Prenez l'habitude de toujours n'écrire qu'une instruction par ligne, en terminant bien chaque ligne par un point-virgule."
 
 #. type: Plain text
 #: ../help/help.E.txt:36
 #, no-wrap
 msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button <button 59/>. You can also start over again from the beginning (hit the key \"Esc\", the click \"Restart\"). The program you have written will not be lost."
-msgstr ""
+msgstr "Si votre programme ne fait pas exactement ce que vous voulez, vous pouvez remettre le robot au point de départ avec le bouton <button 59/>. Vous pouvez également recommencer depuis le début (appuyez sur la touche \"Esc\", cliquez sur \"Redémarrer\"). Le programme que vous avez écrit ne sera pas perdu."
 
 #. type: Plain text
 #: ../help/help.E.txt:38

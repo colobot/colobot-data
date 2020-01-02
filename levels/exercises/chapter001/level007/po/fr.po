@@ -1,20 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 0.1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-12 13:29+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -38,52 +39,52 @@ msgstr "Araignée3"
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "Objectif"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Move towards the spiders that are out of shooting range."
-msgstr ""
+msgstr "Déplacement au devant des araignées qui sont hors de portée de tir"
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Programme"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The program will look like the previous one, but before you shoot, use the instruction <c/><a cbot|move>move</a>();<n/> in order to get close enough."
-msgstr ""
+msgstr "Le programme ressemblera au précédent, mais avant de pouvoir tirer, il faut utiliser l'instruction <c/><a cbot|move>move</a>();<n/> afin de se rapprocher suffisemment."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The question is just how many meters the bot must move. The instruction <code><a cbot|dist>distance</a>( , )</code> calculates the distance between two positions. In this case, we need to know the distance between the bot and the target. The position of the target is given by <code>item.position</code>, the position of the bot is given by <code>position</code>. The distance between the bot and the target is given by <code><a cbot|dist>distance</a>(position, item.position)</code>. The range of a fireball cannon is 40 meters. In order to get close enough, the bot must move forward <code><a cbot|dist>distance</a>(position, item.position)-40</code> meters. The following line will do this:"
-msgstr ""
+msgstr "La question est juste de savoir de combien de mètres le robot doit s'avancer. L'instruction <code><a cbot|dist>distance</a>( , )</code> permet de calculer la distance entre deux positions. Dans ce cas, nous devons connaître la distance entre le robot et son objectif. La position de l'Objectif est fournie par <code>item.position</code>, la position du robot est donnée par <code>position</code> (this.position pour les avancés). La distance entre le robot et l'objectif est fournie par <code><a cbot|dist>distance</a>(position, item.position)</code>. La portée de tir du canon est de 40 mètres. Afin d'aller suffisamment prêt, le robot doit avancer <code><a cbot|dist>distance</a>(position, item.position)-40</code> mètres. La ligne suivante permet d'effectuer cela:"
 
 #. type: Source code
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, item.position)-40);"
-msgstr ""
+msgstr "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, item.position)-40);"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Just insert this line into the program before the instruction <c/>fire(1);<n/>, and the bot will start to move."
-msgstr ""
+msgstr "Inserez cette ligne dans le programme avant l'instruction <c/>fire(1);<n/>, et le robot commencera à se déplacer."
 
 #. type: \t; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Voir aussi"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."

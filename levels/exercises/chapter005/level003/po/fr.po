@@ -1,20 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 18:29+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +27,7 @@ msgstr "Le déménageur 3"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Convert some titanium ore to titanium cubes."
-msgstr "Déplacer du minerai pour le convertir en métal."
+msgstr "Déplacer du minerai de titane pour le raffiner en bloc de titane."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +45,7 @@ msgstr "Exercice"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Convert some <a object|titanore>titanium ore</a> to <a object|titan>titanium cubes</a>, then drop 2 titanium cubes on the pads whose coordinates are:"
-msgstr "Il faut convertir du <a object|titanore>minerai de titanium</a> en <a object|titan>titanium</a>, puis déposer 2 cubes de titanium sur les plates-formes dont les coordonnées sont:"
+msgstr "Il faut raffiner du <a object|titanore>minerai de titane</a> en <a object|titan>blocs de titane</a>, puis déposer 2 <a object|titan>blocs de titane</a> sur les plates-formes dont les coordonnées sont:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -66,7 +67,7 @@ msgstr "derrick"
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "The <a object|derrick>derrick</a> extracts titanium ore from the subsoil; you just have to pick it up."
-msgstr "Le <a object|derrick>derrick</a> extrait automatiquement du minerai de titanium, qui ne demande qu'à être ramassé."
+msgstr "Le <a object|derrick>derrick</a> extrait automatiquement du minerai de titane, qui ne demande qu'à être ramassé."
 
 #. type: Image filename
 #: ../help/help.E.txt:10
@@ -78,13 +79,13 @@ msgstr "convert"
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "The <a object|convert>converter</a> converts titanium ore to titanium cubes. Just drop the titanium ore on the platform, move backward, and wait until it has been converted."
-msgstr "Le <a object|convert>convertisseur</a> transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre."
+msgstr "La <a object|convert>raffinerie</a> transforme le minerai en titane. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre."
 
 #. type: \b; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "General principle"
-msgstr "Principe"
+msgstr "Idée générale"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
@@ -114,7 +115,7 @@ msgstr "Prendre le minerai."
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Go to converter."
-msgstr "Aller vers le convertisseur."
+msgstr "Aller vers la raffinerie."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:19
@@ -132,13 +133,13 @@ msgstr "Reculer de 4 mètres."
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "Wait until there is a titanium cube."
-msgstr "Attendre tant qu'on ne trouve pas de titanium."
+msgstr "Attendre tant qu'on ne trouve pas de <a object|titan>bloc de titane</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Pick up the titanium cube."
-msgstr "Prendre le titanium."
+msgstr "Prendre le bloc de titane."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:23
@@ -150,7 +151,7 @@ msgstr "Aller sur une plate-forme."
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "Drop the titanium cube."
-msgstr "Déposer le titanium."
+msgstr "Déposer le titane."
 
 #. type: \b; header
 #: ../help/help.E.txt:26
@@ -192,7 +193,7 @@ msgid ""
 "Use the following instruction in order to find the converter:"
 msgstr ""
 "Lorsque la boucle se termine, vous pouvez aller à la position <code>obj.position</code> avec l'instruction <code><a cbot|goto>goto</a></code>. Pour prendre le minerai, utilisez <code><a cbot|grab>grab</a></code>.\n"
-"Pour trouver le convertisseur, il faut utiliser:"
+"Pour trouver la <a object|convert>raffinerie</a>, il faut utiliser:"
 
 #. type: Source code
 #: ../help/help.E.txt:39
@@ -207,8 +208,8 @@ msgid ""
 "After you dropped the ore on the converter, move back 2.5 meters with <code><a cbot|move>move</a>(-2.5)</code>.\n"
 "A second <code>do</code> loop allows you to wait until the titanium cube is available. You must limit the range of the radar to 5m, otherwise you would immediately find the titanium cube that you already dropped on a pad:"
 msgstr ""
-"Après avoir déposé le minerai sur le convertisseur, reculez de 4 mètres avec <code><a cbot|move>move</a>(-4)</code>.\n"
-"Une deuxième boucle <code>do</code> permet d'attendre la disponibilité du titanium. Attention à limiter la distance maximale du radar à 10 mètres, pour ne pas reprendre du titanium déjà déposé sur une plate-forme:"
+"Après avoir déposé le minerai sur la <a object|convert>raffinerie</a>, reculez de 4 mètres avec <code><a cbot|move>move</a>(-4)</code>.\n"
+"Une deuxième boucle <code>do</code> permet d'attendre la disponibilité du titane. Attention à limiter la distance maximale du radar à 10 mètres, pour ne pas reprendre un bloc de titane déjà déposé sur une plate-forme:"
 
 #. type: Source code
 #: ../help/help.E.txt:44
@@ -258,4 +259,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:58
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tremova2>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a tremova2>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
