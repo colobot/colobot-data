@@ -21,10 +21,13 @@ source translation file, the `*.po` files are the translations.
 
 Help files are divided in two categories:
  * Generic help files, about the game, the objects, the syntax, etc. These
-   are stored in `help/`, in four sub-categories: generic, bots, object
-   and bots.
+   are stored in `help/`, in 5 sub-categories: generic, bots, object, programs
+   and cbots.
  * Level-specific help files, about the level, instructions, example
-   programs, etc. These are stored in `levels/$level/help/`.
+   programs, etc. are stored like `levels/$type/$chapterXxx/$levelYyy/help/`.
+    type beeing into : missions/freemissions/exercises/challenges & battles
+ * some generics are also stored into `levels/other`
+
 
 Help files have their source in English, always stored in the `E/`
 subdirectory. Every other language directory is dynamically generated

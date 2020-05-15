@@ -1,0 +1,248 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-18 16:13+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Radar"
+msgstr "Radar"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use the radar to find lots of stupid blue crosses."
+msgstr "Hledejte pomocí radaru spoustu hloupých modrých křížků."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Find"
+msgstr "Hledac"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
+msgstr "Pošlete robota najít všechny <a object|waypoint>modré křížky</a> na zemi. Každý křížek zmizí, když přes něj robot přejede. Zde je obecný postup, jak úkol vyřešit:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Look for a cross"
+msgstr "Najít křížek."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "If there is none, stop the program."
+msgstr "Pokud žádný neexistuje, ukončit program."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the direction of the cross."
+msgstr "Vypočítat směr ke křížku."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Set the speed of the motors in such a way that they will find their way to the cross."
+msgstr "Nastavit výkon motorů, aby robot ke křížku postupně dojel."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "The program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Use a <code><a cbot|while>while</a></code> loop in order to repeat several instructions over and over:"
+msgstr "Opakujte několik příkazů stále dokola pomocí cyklu <code><a cbot|while>while</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>instructions...<c/>\n"
+"}"
+msgstr ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>příkazy...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
+msgstr "Najděte modré křížky pomocí příkazu <code><a cbot|radar>radar</a></code> a uložte si jejich popis do proměnné, nazvěme ji například <code>spot</code>. V tomto případě potřebuje příkaz <code><a cbot|radar>radar</a>()</code> pouze jeden parametr, tj. kategorii objektu, který má hledat:"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<c/>spot = radar(WayPoint);"
+msgstr "<c/>spot = radar(WayPoint);"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
+msgstr "Po nalezení posledního křížku vrátí příkaz <code>radar</code> hodnotu <code><a cbot|null>null</a></code>. Tuto možnost musíte vhodně ošetřit příkazem <code><a cbot|if>if</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid ""
+"<c/>if ( spot == null )  // no more ?\n"
+"{\n"
+"\tmotor(0, 0);  // stops the motors\n"
+"\tbreak;        // stops the loop\n"
+"}"
+msgstr ""
+"<c/>if ( spot == null )  // už žádné křížky?\n"
+"{\n"
+"\tmotor(0, 0);  // zastavit motory\n"
+"\tbreak;        // ukončit cyklus\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "<n/>The instruction <code><a cbot|break>break</a></code> will stop the infinite loop <code>while (true)</code>."
+msgstr "<n/>Příkaz <code><a cbot|break>break</a></code> ukončí nekonečný cyklus <code>while (true)</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
+msgstr "Úhel, o který se robot musí otočit směrem ke křížku, vypočítejte příkazem <code><a cbot|direct>direction</a>()</code>. Polohu objektu udává výraz <code>spot.position</code>. Následující řádek uloží potřebný úhel do <a cbot|var>proměnné</a> <code>dir</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "<c/>dir = direction(spot.position);"
+msgstr "<c/>dir = direction(spot.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
+msgstr "Pokud bude modrý křížek nalevo od robota, úhel bude kladný, naopak pro křížek napravo bude záporný. Pokud je křížek nalevo od robota, musíte pravý motor spustit na plný výkon a levý motor na nižší výkon podle úhlu:"
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid ""
+"    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
+"    direction = <code> 45</code> -> speed = <code> 0.5</code>\n"
+"    direction = <code> 90</code> -> speed = <code> 0.0</code>\n"
+"    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
+"    direction = <code>180</code> -> speed = <code>-1.0</code>"
+msgstr ""
+"    úhel = <code>  0</code> -> výkon = <code> 1.0</code>\n"
+"    úhel = <code> 45</code> -> výkon = <code> 0.5</code>\n"
+"    úhel = <code> 90</code> -> výkon = <code> 0.0</code>\n"
+"    úhel = <code>135</code> -> výkon = <code>-0.5</code>\n"
+"    úhel = <code>180</code> -> výkon = <code>-1.0</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "The graphic below shows the speed of the left-hand and right-hand motor as set by the instruction <code><a cbot|motor>motor</a></code>, according to the angle:"
+msgstr "Obrázek níže ilustruje, jaký výkon jednotlivých motorů má příkaz <code><a cbot|motor>motor</a></code> nastavit v závislosti na úhlu:"
+
+#. type: Image filename
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "radar2"
+msgstr "radar2_cs"
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
+msgstr "Pokud je křížek rovně před robotem, úhel bude 0 stupňů. Motorům se zadá výkon 1 a 1, což znamená plnou rychlostí vpřed. Pokud je křížek za robotem, pravému motoru se zadá výkon -1: robot se otočí. Vhodný výkon motorů můžete vypočítat <a cbot|expr>výrazem</a> <code>1+dir/90</code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid ""
+"<c/>if ( dir < 0 )  // on the right side?\n"
+"{\n"
+"\tmotor(1, 1+dir/90);  // turns more or less\n"
+"}"
+msgstr ""
+"<c/>if ( dir < 0 )  // je křížek napravo?\n"
+"{\n"
+"\tmotor(1, 1+dir/90);  // zatočit podle úhlu\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid "Use the same principle if the angle has got a positive value, ranging between 0 and 180 degrees. It is up to you to work out the exact instructions to be performed:"
+msgstr "Podobně postupujte, pokud je úhel kladný, v rozsahu od 0 do 180 stupňů. Vymyslet správné příkazy pro robota už je na Vás:"
+
+#. type: Source code
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid ""
+"<code>else  // on the left side?\n"
+"{\n"
+"\t</code>up to you to fill in here...<c/>\n"
+"}"
+msgstr ""
+"<code>else  // je křížek nalevo?\n"
+"{\n"
+"\t</code>sem doplňte příkazy...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:54
+#, no-wrap
+msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
+msgstr "Na začátku programu samozřejmě musíte deklarovat všechny proměnné. Proměnná <code>spot</code> musí mít typ <code><a cbot|object>object</a></code>, <code>dir</code> musí mít typ <code><a cbot|float>float</a></code>."
+
+#. type: \t; header
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Repeat forever:"
+msgstr "Opakovat stále dokola:"

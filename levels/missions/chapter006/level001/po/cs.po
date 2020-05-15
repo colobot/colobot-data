@@ -1,0 +1,196 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-12 13:12+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Transport"
+msgstr "Přeprava"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Develop your nuclear technology in order to increase your operating range."
+msgstr "Vyzkoumejte jadernou energii, abyste si rozšířili operační oblast."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You need to retrieve an <a object|tnt>explosive device</a> that has been spotted in a deep valley next to a lake of boiling lava."
+msgstr "Musíte vyzvednout <a object|tnt>výbušninu</a>, kterou jsme objevili v hlubokém údolí vedle jezera vroucí lávy."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
+msgstr "Kvůli vysoké teplotě prostředí přestaly fungovat tryskové motory, tedy nemůžete létat. Dnes Vás čeká dlouhá cesta, takže byste své roboty měli vybavit <a object|atomic>jadernými bateriemi</a>. Jaderné baterie se vyrábí z <a object|uranore>uranové rudy</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "A more efficient program for the gathering of raw materials is attached to this message."
+msgstr "V příloze této zprávy je efektivnější program pro sběr surovin."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "A note of warning: the explosive device is extremely volatile. Use extreme caution."
+msgstr "Varování: Výbušnina je extrémně nestabilní. Zacházejte s ní velmi opatrně."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:12 ../help/soluce.E.txt:14
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Aktuálně na stacionární oběžné dráze Vulkánu."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      84.6C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             2.2 mps\n"
+"\\tab;Titanium ore:     everywhere\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Teplota:           84,6 °C\n"
+"\\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vítr:              2,2 m/s\n"
+"\\tab;Titanová ruda:     všude\n"
+"\\tab;Uranová ruda:      trocha"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         unknown organisms\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Nalezeno:          recyklovatelné vraky\n"
+"\\tab;Nalezeno:          neznámé organizmy\n"
+"\\tab;  - Nebezpečí:     ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Start by recharging a <a object|power>regular power cell</a> and power the <a object|research>research center</a>. Use it to research the technology for the building of a <a object|nuclear>nuclear plant</a> <button 170/>."
+msgstr "Nejprve nabijte jednu <a object|power>běžnou baterii</a> a vložte ji do <a object|research>výzkumné stanice</a>. Vyzkoumejte technologii pro stavbu <a object|nuclear>jaderných elektráren</a> <button 170/>. "
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Produce a <a object|botgr>wheeled grabber</a>."
+msgstr "Vyrobte <a object|botgr>pojízdné rameno</a>."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Find some <a object|uranore>uranium ore</a> northwest of your position. The nuclear plant will then transform it into <a object|atomic>nuclear power cells</a> of a longer duration."
+msgstr "Na severozápad od Vaší pozice najdete trochu <a object|uranore>uranové rudy</a>. Jaderná elektrárna z ní vyrobí <a object|atomic>jadernou baterii</a> s větší kapacitou."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along the way."
+msgstr "Jednu jadernou baterii dejte <a object|botfr>pojízdnému kanónu</a> a pošlete ho zlikvidovat všechny <a object|spider>pavouky</a> číhající na cestě."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "A <a object|radar>radar</a> is optional but could turn out useful to mark the position of the spiders on your mini map."
+msgstr "Jestli postavíte <a object|radar>radar</a> je čistě na Vás, ale mohlo by se Vám hodit, že pavouky uvidíte na minimapě."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "A wheeled grabber should be part of the expedition. It will both clear the way cluttered with <a object|titanore>titanium ore</a> and bring the <a object|tnt>explosive device</a> back."
+msgstr "Na výpravu byste dále měli poslat i pojízdné rameno. Uvolněte s ním cestu zasypanou <a object|titanore>titanovou rudou</a> a přivezte zpět <a object|tnt>výbušninu</a>."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:15
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"

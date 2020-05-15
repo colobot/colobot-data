@@ -1,0 +1,175 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-08 11:51-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Fighter Jet 2"
+msgstr "Jato de combate 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Adapt the program to a mountainous terrain."
+msgstr "Adapte o programa a um terreno montanhoso."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Mover"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Adapt the flying height of the <a object|botfj>winged shooter</a> to the terrain."
+msgstr "Adapte a altura de vôo do <a object|botfj>atirador alado</a> de acordo com o terreno."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Here is one more time the program of the previous exercise that hunts ants:"
+msgstr "Aqui está mais uma vez o programa do exercício anterior que caça formigas:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::JetFighter1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile (position.z < 10)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = radar(AlienAnt);\n"
+"\t\t\tturn(direction(item.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::LutadorJato1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile (position.z < 10)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = radar(AlienAnt);\n"
+"\t\t\tturn(direction(item.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "The bot always stays at an altitude of 10m above sea level. This is not adapted to the mountainous terrain of the present exercise, the bot has got to adapt to the terrain. The best way to do so is to insert just before the <c/>wait(0.2);<n/> a test to see if the height above ground is too low or too high, and to react accordingly."
+msgstr "O robô sempre fica a uma altitude de 10m acima do nível do mar. Isto não está adaptado ao terreno montanhoso do presente exercício, o robô tem que se adaptar ao terreno. A melhor maneira de fazer isso é inserir antes do  <c/>wait(0.2);<n/> um teste para ver se a altura acima do solo é muito baixa ou muito alta, e reagir de acordo."
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "We already saw that <code>position.z</code> gives the altitude above sea level. <code><a cbot|topo>topo</a>(position)</code> gives the altitude of the ground at the position of the bot. If we want the bot to stay at an altitude between 6 and 9m above ground, we must treat the following cases: if <code>position.z-topo(position)</code> is smaller than 6, the bot must climb with <c/>jet(1);<n/>. If <code>position.z-topo(position)</code> is greater than 9, the bot must go down with <c/>jet(-1);<n/>. In order to program these tests, use the instruction <code><a cbot|if>if</a></code>, that executes the instructions in braces only once if the condition is true:"
+msgstr "Nós já vimos que <code>position.z</code> dá a altitude acima do nível do mar. <code><a cbot|topo>topo</a>(position)</code> dá a altitude do solo na posição do robô. Se quisermos que o robô permaneça a uma altitude entre 6 e 9m acima do solo, devemos tratar os seguintes casos: se <code>position.z-topo(position)</code> for menor que 6, o robô deve subir com  <c/>jet(1);<n/>. Se <code>position.z-topo(position)</code> for maior que 9, o robô deve descer com <c/>jet(-1);<n/>. Para programar esses testes, use a instrução <code><a cbot|if>if</a></code>, que executa as instruções entre chaves apenas uma vez se a condição for verdadeira:"
+
+#. type: Source code
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
+msgstr ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "Before starting the testing, stabilize the altitude with <c/>jet(0);<n/>: in case the height above ground lies between 6 and 9m, the bot must neither climb nor go down. If afterwards either <c/>jet(1);<n/> or <c/>jet(-1);<n/> is executed, it will cancel the previous <c/>jet(0);<n/>."
+msgstr "Antes de iniciar o teste, estabilize a altitude com <c/>jet(0);<n/>: no caso de a altura acima do solo ficar entre 6 e 9m, o robô não deve nem subir nem descer. Se depois <c/>jet(1);<n/> ou <c/>jet(-1);<n/> for executado, ele cancelará a instrução <c/>jet(0);<n/> anterior."
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid "Just insert these lines before the <code>wait(0.2)</code>, and the bot will adapt to the terrain. You can then delete the first lines of the program that set the initial altitude at 10m."
+msgstr "Apenas insira estas linhas antes do <code>wait(0.2)</code>, e o robô irá se adaptar ao terreno. Você pode então excluir as primeiras linhas do programa que definem a altitude inicial em 10m."
+
+#. type: \t; header
+#: ../help/help.E.txt:51
+#, no-wrap
+msgid "See also"
+msgstr "Veja também"
+
+#. type: Plain text
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category>categorias</a>."

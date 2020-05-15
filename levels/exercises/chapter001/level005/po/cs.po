@@ -1,0 +1,182 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-02-26 22:43+01\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Power Cell 2"
+msgstr "Baterie 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Power all the winged shooters."
+msgstr "Rozdejte baterie všem létajícím kanónům."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Spider2"
+msgstr "Pavouk2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
+msgstr "Rozdejte <a object|botfj>létajícím kanónům</a> <a object|power>baterie</a>, aby mohly zlikvidovat mravenčí hnízdo na sever od Vaší pozice."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
+msgstr "<a object|botgr>Pojízdné rameno</a> musí dojet k <a object|power>baterii</a>, zvednout ji, odjet k <a object|botfj>létajícímu kanónu</a> a položit baterii. Tento úkol je velmi podobný jako v předchozím cvičení. Zde je opět program z minula:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
+msgstr ""
+"extern void object::Titan2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
+msgstr "Nejjednodušší způsob, jak toto cvičení vyřešit, je zkopírovat <button 61/> výše uvedený program do schránky (od slova <code>object</code> až po <c/>drop();<n/>) a vložit <button 62/> ho do editoru programu. Pak stačí jen udělat potřebné úpravy, aby plnil trochu jiný úkol."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
+msgstr "Místo titanové rudy (<code>TitaniumOre</code>) hledejte baterii (<code>PowerCell</code>). Místo ke konvertoru (<code>Converter</code>) jeďte k létajícímu kanónu (<code>WingedShooter</code>). Hned jak kanóny dostanou novou baterii, pustí se do práce."
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
+msgstr "Pokud se chcete dozvědět více o \"názvech\" různých druhů objektů v tomto programovacím jazyce, přečtěte si <a cbot|category>popis kategorií</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "Further improvement: loops"
+msgstr "Další vylepšení: cykly"
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
+msgstr "Až bude výše popsaný program správně fungovat, můžete ho ještě dále vylepšit, aby svůj úkol prováděl pořád dokola. Pak ho nebudete muset ručně spouštět několikrát za sebou, aby obsloužil více robotů."
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
+msgstr "Všechny předchozí programy prováděly každý příkaz pouze jednou, jeden po druhém od začátku do konce programu. Robotovi ale můžete říct, aby některé příkazy opakoval: prostě napište <code>while (true)</code>, levou složenou závorku, příkazy, které se mají opakovat, a pravou složenou závorku. Tomuto opakování příkazů se říká cyklus. Tady je příklad pogramu, který pořád dokola opakuje příkazy na vyhledání baterie, její zvednutí a položení do létajícího kanónu:"
+
+#. type: Source code
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
+msgstr ""
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(PowerCell);\n"
+"\t\tgoto(item.position);\n"
+"\t\tgrab();\n"
+"\t\t\n"
+"\t\titem = radar(WingedShooter);\n"
+"\t\tgoto(item.position);\n"
+"\t\tdrop();\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
+msgstr "Deklarace proměnné <c/>object item;<n/> je před cyklem, ale mohla by být i na jeho začátku. Ale pozor, pokud ji deklarujete uvnitř cyklu, pak se při každém opakování její obsah na začátku vymaže, a po skončení cyklu už nebude dostupná vůbec."
+
+#. type: \t; header
+#: ../help/help.E.txt:44
+#, no-wrap
+msgid "Remark"
+msgstr "Poznámky"
+
+#. type: Plain text
+#: ../help/help.E.txt:45
+#, no-wrap
+msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
+msgstr "Robot může svůj program stejně dobře vykonávat i bez Vašeho dohledu. Mezitím můžete přepnout na kosmonauta a jít se podívat, co se bude dít v hnízdě, ta podívaná za to stojí. Ale dávejte pozor, aby Vás netrefili Vaši vlastní roboti..."
+
+#. type: \t; header
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."

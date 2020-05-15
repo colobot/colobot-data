@@ -37,9 +37,11 @@ This control will for example operate the arm of a \l;grabber\u object\botgr; or
 \key;\key prog;\norm; = programming help
 
 \t;Game
-\key;\key speed10;\norm; = normal speed x1
-\key;\key speed15;\norm; = medium speed x1.5
-\key;\key speed20;\norm; = faster speed x2
+\key;\key speed_dec;\norm; = slow down speed by half
+\key;\key speed_reset;\norm; = normal speed x1
+\key;\key speed_inc;\norm; = increase speed twice
+\key;\key quicksave;\norm; = quick save
+\key;\key quickload;\norm; = quick load
 \key;\key quit;\norm; = exits mission \button 11;
 
 All these commands can be redefined in the options/controls menu.

@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -95,8 +96,8 @@ msgstr ""
 "\\tab;Température:      29.4 degrés\n"
 "\\tab;Atmosphère:       hélium, oxygène\n"
 "\\tab;Vent:             0.3 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:par endroits\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -113,14 +114,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          aucune\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -131,8 +132,9 @@ msgid ""
 "\\tab;Detected:         scattered derelicts\n"
 "\\tab;Detected:         black box (underwater)"
 msgstr ""
-"\\tab;Détecté:          minerai de titanium\n"
-"\\tab;  - Solution:     convertisseur (à construire)\n"
+"\\tab;Détecté:          minerai de titane\n"
+"\\tab;  - Solution:     raffinerie (à construire)\n"
+"\\tab;Detected:         épaves éparses\n"
 "\\tab;Détecté:          boîte noire (sous l'eau)"
 
 #. type: \b; header
@@ -151,19 +153,19 @@ msgstr "Cherchez la <a object|bbox>boîte noire</a> en volant et en nageant."
 #: ../help/soluce.E.txt:3
 #, no-wrap
 msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr "Construisez un <a object|convert>convertisseur</a> à proximité du <a object|titanore>minerai de titanium</a>."
+msgstr "Construisez une <a object|convert>raffinerie</a> à proximité du <a object|titanore>minerai de titane</a>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
-msgstr "Produisez 2 <a object|titan>cubes de titanium</a>."
+msgstr "Produisez deux <a object|titan>blocs de titane</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr "Construisez une <a object|factory>fabrique de robots</a> à proximité de la <a object|bbox>boîte noire</a>."
+msgstr "Construisez une <a object|factory>usine de robots</a> à proximité de la <a object|bbox>boîte noire</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:6
@@ -193,7 +195,7 @@ msgstr "La <a object|bbox>boîte noire</a> se trouve au fond du petit lac rond, 
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr "Vous pouvez construire la <a object|factory>fabrique de robots</a> sur la rive sud du petit lac, ou à côté du vaisseau spatial."
+msgstr "Vous pouvez construire une <a object|factory>usine de robots</a> sur la rive sud du petit lac, ou à côté du vaisseau spatial."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:15

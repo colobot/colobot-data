@@ -1,14 +1,16 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -50,13 +52,13 @@ msgstr "Trouvez et ramenez la <a object|bbox>boîte noire</a> qu'ils ont laissé
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
-msgstr "Les <a object|power>piles</a> de vos robots sont presque déchargées. Il faudra donc en priorité les recharger. Le satellite d'observation <button 186/> nous transmet que le sous-sol lunaire est très riche en énergie. Vous pouvez donc construire une <a object|station>station de recharge</a> sur n'importe quelle zone plane."
+msgstr "Les <a object|power>batteries</a> de vos robots sont presque déchargées. Il faudra donc en priorité les recharger. Le satellite d'observation <button 186/> nous transmet que le sous-sol lunaire est très riche en énergie. Vous pouvez donc construire une <a object|station>station de recharge</a> sur n'importe quelle zone plane."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
-msgstr "Nous vous avons envoyé un petit programme très utile pour recharger la <a object|power>pile</a> des robots. Consultez la page <button 53/>."
+msgstr "Nous vous avons envoyé un petit programme très utile pour recharger la <a object|power>batterie</a> des robots. Consultez la page <button 53/>."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
@@ -68,7 +70,7 @@ msgstr "Marche à suivre"
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
-msgstr "Construisez un <a object|convert>convertisseur</a> avec le seul <a object|titan>cube de titanium</a> disponible. Ce bâtiment transforme le <a object|titanore>minerai de titanium</a> en <a object|titan>cubes de titanium</a> utilisables pour construire des bâtiments ou des robots."
+msgstr "Construisez une <a object|convert>raffinerie</a> avec le seul <a object|titan>bloc de titane</a> disponible. Ce bâtiment transforme le <a object|titanore>minerai de titane</a> en <a object|titan>blocs de titane</a> utilisables pour construire des bâtiments ou des robots."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:12
@@ -80,7 +82,7 @@ msgstr "Construisez une <a object|station>station de recharge</a>. Construisez u
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
-msgstr "Après avoir rechargé la <a object|power>pile</a>, partez chercher la <a object|bbox>boîte noire</a> avec le <a object|botgj>robot déménageur volant</a>. Ramenez la boîte noire sur le <a object|base>vaisseau</a>. Décollez."
+msgstr "Après avoir rechargé la <a object|power>batterie</a>, partez chercher la <a object|bbox>boîte noire</a> avec le <a object|botgj>robot préhenseur volant</a>. Ramenez la boîte noire sur le <a object|base>vaisseau</a> et décollez."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
@@ -122,7 +124,7 @@ msgstr "-> SURFACE<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      -38.2C\n"
+"\\tab;Temperature:      -38.2°C\n"
 "\\tab;Atmosphere:       none\n"
 "\\tab;Wind:             0.0 mps\n"
 "\\tab;Titanium ore:     none\n"
@@ -131,8 +133,8 @@ msgstr ""
 "\\tab;Température:      -38.2 degrés\n"
 "\\tab;Atmosphère:       aucune\n"
 "\\tab;Vent:             0.0 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -149,8 +151,8 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          partout\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
@@ -162,49 +164,49 @@ msgstr "Solution"
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a converter <button 162/> with the only titanium cube available."
-msgstr ""
+msgstr "Construisez une <a object|convert>raffinerie</a> <button 162/> avec le seul bloc de titane disponible."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Deposit one chunk of titanium ore at a time at the center of the platform and let the converter do the rest."
-msgstr ""
+msgstr "Déposez un morceau de minerai de titane à la fois au centre de la platforme et laissez la <a object|convert>raffinerie</a> effectuer le reste."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a power station <button 164/> with one of the newly converted titanium cubes."
-msgstr ""
+msgstr "Construisez une station de recharge <button 164/> avec le nouveau bloc de titane."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "If you don't feel like looking for the black box yourself, build a radar <button 168/> and the box will appear on your mini map somewhere north of your present location, at the bottom of a crater, next to a few derelict spacecraft and debris from the previous expedition."
-msgstr ""
+msgstr "Si vous n'avez pas envie de chercher vous-même la boîte noire, construisez un radar <button 168/> et la boîte apparaîtra sur votre mini-carte quelque part au nord de votre position actuelle, au fond d'un cratère, à côté d'un vaisseau spatial abandonné et des débris de l'expédition précédente."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Place the grabbers at the center of the power station platform to recharge them. The cells should still have a little power left in them, just enough to radio-control the bots onto the platform."
-msgstr ""
+msgstr "Placez les préhenseurs au centre de la plate-forme de la station de recharge pour les recharger. Les cellules devraient encore avoir un peu d'énergie à l'intérieur, juste assez pour télécommander les robots sur la plate-forme."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Radio-control the winged grabber to the black box and back."
-msgstr ""
+msgstr "Télécommandez le préhenseur volant vers la boîte noire et faites la rapporter."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "Gather both grabbers and the black box onto the spaceship platform and climb on board yourself."
-msgstr ""
+msgstr "Rassemblez les deux préhenseurs et la boîte noire sur la plate-forme du vaisseau spatial et montez à bord vous-même."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16
 #, no-wrap
 msgid "Take off."
-msgstr ""
+msgstr "Décollez."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:19

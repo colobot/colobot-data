@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +39,7 @@ msgstr "Instructions de Houston"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
-msgstr "Eliminez toute présence nuisible de la région. A vous de trouver le moyen le plus efficace (<a object|tower>tour de défense</a> ou robot <a object|botfj>shooter</a>)."
+msgstr "Eliminez toute présence nuisible de la région. A vous de trouver le moyen le plus efficace (<a object|tower>tour de défense</a> ou <a object|botfj>robot tireur</a>)."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -50,13 +51,13 @@ msgstr "Nous avons constaté que le <a object|radar>radar</a> détecte parfaitem
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
-msgstr "Nous avons transmis à votre <a object|factory>fabrique de robots</a> les informations nécessaires pour construire un robot capable de <a object|botsj>détecter</a> les richesses du sous-sol (énergie, minerai). Les informations transmises par l'expédition précédente laissent à penser que la présence de titanium en sous-sol favorise la croissance de grands cristaux bleu-violets. Ceci peut vous permettre de gagner du temps dans vos recherches des gisements de <a object|titanore>minerai de titanium</a>, que vous pouvez ensuite exploiter à l'aide d'un <a object|derrick>derrick</a>."
+msgstr "Nous avons transmis à votre <a object|factory>usine de robots</a> les instructions nécessaires pour assembler un robot capable de <a object|botsj>détecter</a> les richesses du sous-sol (énergie, minerai). Les informations transmises par l'expédition précédente laissent à penser que la présence de titane en sous-sol favorise la croissance de grands cristaux bleu-violets. Ceci peut vous permettre de gagner du temps dans vos recherches des gisements de <a object|titanore>minerai de titane</a>, que vous pouvez ensuite exploiter à l'aide d'un <a object|derrick>derrick</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "Nous avons amélioré le programme permettant à un robot d'amener le minerai vers le <a object|convert>convertisseur</a> (voir la page programmes <button 53/>)."
+msgstr "Nous avons amélioré le programme permettant à un robot d'amener le minerai vers la <a object|convert>raffinerie</a> (voir la page programmes <button 53/>)."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:16
@@ -101,8 +102,8 @@ msgstr ""
 "\\tab;Température:      3.2 degrés\n"
 "\\tab;Atmosphère:       azote\n"
 "\\tab;Vent:             0.0 m/s\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -119,14 +120,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          près du vaisseau\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:par endroits\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -148,7 +149,7 @@ msgstr "Solution"
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a>."
-msgstr "Construisez une <a object|factory>fabrique de robots</a>."
+msgstr "Construisez une <a object|factory>usine de robots</a>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:3
@@ -172,13 +173,13 @@ msgstr "Construisez un <a object|derrick>derrick</a> proche de la croix rouge."
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a <a object|convert>converter</a>."
-msgstr "Construisez un <a object|convert>convertisseur</a>."
+msgstr "Construisez une <a object|convert>raffinerie</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
-msgstr "Le couple derrick-convertisseur permet de produire du <a object|titan>titanium</a> tant qu'il en faut. Pour automatiser cette tâche, exécutez le programme <code>ApporteTitanium2</code> dans le <a object|botgj>robot déménageur volant</a>."
+msgstr "Le couple <a object|derrick>derrick</a>-<a object|convert>raffinerie</a> permet de produire du <a object|titan>titane</a> tant qu'il en faut. Pour automatiser cette tâche, exécutez le programme <code>ApporteTitane2</code> dans le <a object|botgj>robot préhenseur volant</a>."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:10
@@ -196,7 +197,7 @@ msgstr "Construisez un <a object|radar>radar</a>."
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Produce a <a object|botfj>winged shooter</a>."
-msgstr "Construisez un <a object|botfj>robot shooter volant</a>."
+msgstr "Construisez un <a object|botfj>robot tireur volant</a>."
 
 #. type: Bullet: '9)'
 #: ../help/soluce.E.txt:13

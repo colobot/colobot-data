@@ -1,0 +1,204 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-08 13:02+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Black Box"
+msgstr "Černá skříňka"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Explore the underwater world looking for another black box."
+msgstr "Prozkoumejte svět pod vodou a hledejte další černou skříňku."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
+msgstr "Najděte a vyzvedněte další <a object|bbox>černou skříňku</a> po předchozí výpravě."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The observation satellite seems to have spotted it underwater. Water is harmless to you as long as you wear your helmet but keep in mind that you can't carry objects underwater. A <a object|botsub>subber</a> may come in handy."
+msgstr "Průzkumný satelit ji podle všeho objevil pod vodou. Voda Vám osobně neublíží, když máte na hlavě helmu, ale pamatujte, že pod vodou nemůžete nosit předměty. Mohla by se Vám hodit <a object|botsub>ponorka</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:8 ../help/soluce.E.txt:14
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Tropica."
+msgstr "Aktuálně na stacionární oběžné dráze Tropiky."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      29.4C\n"
+"\\tab;Atmosphere:       helium, oxygen\n"
+"\\tab;Wind:             0.3 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           29,4 °C\n"
+"\\tab;Atmosféra:         helium, kyslík\n"
+"\\tab;Vítr:              0,3 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     žádný\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         titanium ore\n"
+"\\tab;  - Requires:     converter\n"
+"\\tab;Detected:         scattered derelicts\n"
+"\\tab;Detected:         black box (underwater)"
+msgstr ""
+"\\tab;Nalezeno:          titanová ruda\n"
+"\\tab;  - Vyžaduje:      konvertor\n"
+"\\tab;Nalezeno:          roztroušené vraky\n"
+"\\tab;Nalezeno:          černá skříňka (pod vodou)"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Návod"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Locate the <a object|bbox>black box</a> on your own. You can try to spot it from above, using your jet engine, or dive into the water."
+msgstr "Sami najděte <a object|bbox>černou skříňku</a>. Můžete ji hledat ze vzduchu díky tryskovému motoru nebo se potopit pod vodu."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:3
+#, no-wrap
+msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
+msgstr "Vedle kusů titanové rudy postavte <a object|convert>konvertor</a>. Najdete je poblíž rakety směrem na západ."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Produce two <a object|titan>cubes</a>."
+msgstr "Vyrobte dvě <a object|titan>kostky titanu</a>."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:5
+#, no-wrap
+msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
+msgstr "Nedaleko černé skříňky postavte <a object|factory>továrnu na roboty</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Manufacture a <a object|botsub>subber</a>."
+msgstr "Vyrobte <a object|botsub>ponorku</a>."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:7
+#, no-wrap
+msgid "Bring the black box back on board."
+msgstr "Přivezte černou skříňku zpět na palubu."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Take off."
+msgstr "Odleťte."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "The black box is lying at the bottom of a small lake, northeast of the spaceship."
+msgstr "Černá skříňka leží na dně malého jezírka severovýchodně od rakety."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "You can build the bot factory right beside the lake, on the south bank."
+msgstr "Továrnu na roboty můžete postavit hned vedle jezírka na jižním břehu."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:15
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Ovládání</a>"

@@ -338,18 +338,22 @@ msgstr "Gra"
 #: ../E/command.txt:40
 #, no-wrap
 msgid ""
-"<format key><key speed10/></format> = normal speed x1\n"
-"<format key><key speed15/></format> = medium speed x1.5\n"
-"<format key><key speed20/></format> = faster speed x2\n"
+"<format key><key speed_dec/></format> = slow down speed by half\n"
+"<format key><key speed_reset/></format> = normal speed x1\n"
+"<format key><key speed_inc/></format> = increase speed twice\n"
+"<format key><key quicksave/></format> = quick save\n"
+"<format key><key quickload/></format> = quick load\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
-"<format key><key speed10/></format> = normalna prędkość x1\n"
-"<format key><key speed15/></format> = średnia prędkość x1,5\n"
-"<format key><key speed20/></format> = duża prędkość x2\n"
+"<format key><key speed_dec/></format> = zwolnij o połowę\n"
+"<format key><key speed_reset/></format> = normalna prędkość\n"
+"<format key><key speed_inc/></format> = zwiększ dwukrotnie\n"
+"<format key><key quicksave/></format> = szybki zapis\n"
+"<format key><key quickload/></format> = szybki odczyt\n"
 "<format key><key quit/></format> = wyjście z misji <button 11/>"
 
 #. type: Plain text
-#: ../E/command.txt:45
+#: ../E/command.txt:47
 #, no-wrap
 msgid "All these commands can be redefined in the options/controls menu."
 msgstr "Wszystkie powyższe ustawienia klawiszy sterowania mogą być zmienione w menu opcje/sterowanie."

@@ -1,20 +1,20 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# BCE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 18:22+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -119,7 +119,7 @@ msgstr ""
 #: ../help/help.E.txt:37
 #, no-wrap
 msgid "In order to adapt the program to shooting wasps, you need to make a few changes. Replace all <code>radar(AlienAnt)</code> with <code>radar(AlienWasp)</code>. The cannon must aim straight forward and not downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must fly at the same height as the wasp. For this, you must compare the altitude of the bot given by <code>position.z</code> with the altitude of the wasp given by <code>item.position.z</code>: if <code>position.z > item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If <code>position.z < item.position.z-1</code>, climb slowly with <c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is better if the altitude of the bot is a little lower than the altitude of the wasp. In this case, we admit that the altitude of the bot ranges between the altitude of the wasp and the altitude of the wasp minus 1."
-msgstr "Pour que le shooter soit capable d'attraper des guêpes en vol, il faut faire quelques changements. Il faut remplacer tous les <code><a cbot|radar>radar</a>(AlienAnt)</code> par <code>radar(AlienWasp)</code>. Le canon doit viser tout droit et non pas vers le bas, remplacez <c/><a cbot|aim>aim</a>(-20);<n/> par <c/>aim(0);<n/>. Et le robot doit voler à la même altitude que la guêpe. Pour cela, il faut comparer l'altitude du robot donnée par <code>position.z</code> avec l'altitude de la guêpe donné par <code>chose.position.z</code>. Si <code>position.z > chose.position.z</code>, il faut descendre doucement avec <c/><a cbot|jet>jet</a>(-0.3);<n/>. Si <code>position.z < chose.position.z-1</code>, il faut monter doucement avec <c/><a cbot|jet>jet</a>(0.3);<n/>. Comme un robot shooter est plus haut qu'une guêpe, il vaut mieux que le robot soit un peu plus bas: on admet donc que l'altitude du robot soit située entre l'altitude de la guêpe et l'altitude de la guêpe moins 1."
+msgstr "Pour que le tireur soit capable d'attraper des guêpes en vol, il faut faire quelques changements. Il faut remplacer tous les <code><a cbot|radar>radar</a>(AlienAnt)</code> par <code>radar(AlienWasp)</code>. Le canon doit viser tout droit et non pas vers le bas, remplacez <c/><a cbot|aim>aim</a>(-20);<n/> par <c/>aim(0);<n/>. Et le robot doit voler à la même altitude que la guêpe. Pour cela, il faut comparer l'altitude du robot donnée par <code>position.z</code> avec l'altitude de la guêpe donné par <code>chose.position.z</code>. Si <code>position.z > chose.position.z</code>, il faut descendre doucement avec <c/><a cbot|jet>jet</a>(-0.3);<n/>. Si <code>position.z < chose.position.z-1</code>, il faut monter doucement avec <c/><a cbot|jet>jet</a>(0.3);<n/>. Comme un robot tireur est plus haut qu'une guêpe, il vaut mieux que le robot soit un peu plus bas: on admet donc que l'altitude du robot soit située entre l'altitude de la guêpe et l'altitude de la guêpe moins 1."
 
 #. type: \t; header
 #: ../help/help.E.txt:39
@@ -143,4 +143,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:43
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tant4>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a tant4>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."

@@ -1,0 +1,358 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-03-30 17:28+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Remote control #3"
+msgstr "Dálkové ovládání #3"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Remote control a bot without using an information exchange post by using a string."
+msgstr "Ovládejte robota na dálku pomocí textového řetězce bez použití komunikační stanice."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Remote3"
+msgstr "Ovladac3"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercice"
+msgstr "Cvičení"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. You must use a <a cbot|string>string</a> to pass the orders to the slave bot. This string contains the order the slave shoud execute, for exemple <code>\"move(20)\"</code>. You can see that this is the same syntax as used in the CBOT language but we could have chosen any other syntax for exemple something like <code>\"advance=20\"</code>. The string will be a <code><a cbot|static>static</a></code> class member that will be used to communicate from the master to the slave."
+msgstr "Ovládejte na dálku jiného robota bez použití <a object|exchange>komunikační stanice</a>. Robot má za úkol přejet přes 6 modrých křížků. Pro předání povelů dělníkovi musíte použít <a cbot|string>textový řetězec</a>. Tento řetězec bude obsahovat povely, které má dělník vykonat, například <code>\"move(20)\"</code>. Všimněte si, že se příkazy budou zapisovat ve stejné syntaxi jako v jazyce CBOT, ale mohli jsme zvolit i libovolný jiný formát, například něco jako <code>\"advance=20\"</code>. Velitel bude dělníkovi předávat řetězec s povely přes atribut třídy deklarovaný jako <code><a cbot|static>static</a></code>."
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave."
+msgstr "<a object|botgr>Pojízdné rameno</a> bez baterie, tím pádem nepojízdné. To je velitel, kterého musíte naprogramovat, aby předával povely dělníkovi."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "The slave <a object|bottr>practice bot</a> which is already programmed and just waits for orders from the master."
+msgstr "<a object|bottr>Cvičný robot</a>, který už je naprogramovaný a jen čeká na povely od velitele."
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The slave"
+msgstr "Dělník"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchaning the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_order</code> which will contain the order to be executed. The word <code>static</code> insures that the member <code>m_order</code> is shared between all instances of the <a cbot|class>class</a> exchange."
+msgstr "Nejprve si musíme vysvětlit, jak funguje program dělníka. <a cbot|class>Třída</a> <code>exchange</code> poskytuje mechanismus pro předávání povelů. V ní je deklarovaný <a cbot|static>statický</a> atribut <code>m_order</code>, kam budeme povely ukládat. Klíčové slovo <code>static</code> znamená, že všechny instance <a cbot|class>třídy</a> <code>exchange</code> budou atribut <code>m_order</code> sdílet mezi sebou."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
+msgstr ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as the string <code>m_order</code> is not empty, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing."
+msgstr "<n/>Velitel bude pro předání povelu volat metodu <code>put</code>. Pokud atribut <code>m_order</code> nebude prázdný, dělník ještě nedokončil předchozí příkaz, takže metoda <code>put</code> vrátí hodnotu <code>false</code> a nebude nic dělat."
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(string order)"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(string order)"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tif ( m_order == \"\" )\n"
+"\t\t{\n"
+"\t\t\tm_order = order;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
+msgstr ""
+"\t{\n"
+"\t\tif ( m_order == \"\" )\n"
+"\t\t{\n"
+"\t\t\tm_order = order;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the string contained in <code>m_order</code> and empties it, so a new order can be accepted:"
+msgstr "Dělník si pak povely přečte pomocí metody <code>get</code>. Tato metoda vrátí řetězec uložený v atributu <code>m_order</code> a vymaže ho, aby se do něj mohl uložit nový povel:"
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> string get()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> string get()"
+
+#. type: Source code
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tstring ret = m_order;\n"
+"\t\tm_order = \"\";\n"
+"\t\treturn ret;\n"
+"\t}\n"
+"}"
+msgstr ""
+"\t{\n"
+"\t\tstring ret = m_order;\n"
+"\t\tm_order = \"\";\n"
+"\t\treturn ret;\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>."
+msgstr "Hlavní program dělníka obsahuje instanci třídy <code>exchange</code> nazvanou <code>list</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+
+#. type: Source code
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\tstring   todo;"
+msgstr ""
+"{\n"
+"\texchange list();\n"
+"\tstring   todo;"
+
+#. type: Plain text
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a non empty string, the while loop stops."
+msgstr "Vnější cyklus <code>while</code> se opakuje donekonečna. Vnitřní cyklus <code>while</code> čeká na povel a stále volá metodu <code>get</code> třídy <code>exchange</code>. Když metoda <code>get</code> vrátí neprázdný řetězec, vnitřní cyklus skončí."
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+
+#. type: Source code
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != \"\" )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+msgstr ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != \"\" )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "Now we have received the order in the <code>todo</code> variable. All we have to do is execute it:"
+msgstr "Když máme povel uložený v proměnné <code>todo</code>, zbývá ho jen provést:"
+
+#. type: Plain text
+#: ../help/help.E.txt:60
+#, no-wrap
+msgid "<c/><s/>\t\tif ( <a cbot|strfind>strfind</a>(todo, \"move\") == 0 )"
+msgstr "<c/><s/>\t\tif ( <a cbot|strfind>strfind</a>(todo, \"move\") == 0 )"
+
+#. type: Source code
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid ""
+"\t\t{\n"
+"\t\t\tmove(<a cbot|strval>strval</a>(<a cbot|strmid>strmid</a>(todo,5)));\n"
+"\t\t}\n"
+"\t\tif ( strfind(todo, \"turn\") == 0 )\n"
+"\t\t{\n"
+"\t\t\tturn(strval(strmid(todo,5)));\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+"\t\t{\n"
+"\t\t\tmove(<a cbot|strval>strval</a>(<a cbot|strmid>strmid</a>(todo,5)));\n"
+"\t\t}\n"
+"\t\tif ( strfind(todo, \"turn\") == 0 )\n"
+"\t\t{\n"
+"\t\t\tturn(strval(strmid(todo,5)));\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+
+#. type: \b; header
+#: ../help/help.E.txt:71
+#, no-wrap
+msgid "The master"
+msgstr "Velitel"
+
+#. type: Plain text
+#: ../help/help.E.txt:72
+#, no-wrap
+msgid "In the master we write an function called <code>SendOrder</code> which will send an order to the slave:"
+msgstr "Pro velitele napíšeme funkci <code>SendOrder</code>, která pošle povel dělníkovi:"
+
+#. type: Plain text
+#: ../help/help.E.txt:74
+#, no-wrap
+msgid "<c/><s/>void object::SendOrder(string order)"
+msgstr "<c/><s/>void object::SendOrder(string order)"
+
+#. type: Source code
+#: ../help/help.E.txt:75
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\t\n"
+"\twhile ( list.put(order) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"{\n"
+"\texchange list();\n"
+"\t\n"
+"\twhile ( list.put(order) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:84
+#, no-wrap
+msgid ""
+"The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method.\n"
+"Now the main program of the master is very simple:"
+msgstr ""
+"Cyklus <code>while</code> bude čekat na přijetí předchozího povelu, tedy dokud dělník nedokončí volání metody <code>get</code>.\n"
+"Dál už bude hlavní program velitele celkem jednoduchý:"
+
+#. type: Plain text
+#: ../help/help.E.txt:87
+#, no-wrap
+msgid "<c/><s/>extern void object::Remote3( )"
+msgstr "<c/><s/>extern void object::Ovladac3( )"
+
+#. type: Source code
+#: ../help/help.E.txt:88
+#, no-wrap
+msgid ""
+"{\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(-90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"}"
+msgstr ""
+"{\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(-90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:100
+#, no-wrap
+msgid "<format key><key help/></format> show these instruction at any time."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:102
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:103
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>programming</a>."
+msgstr "<a command>Ovládání</a> a <a cbot>programování</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The two main actors of this exercise are:"
+msgstr "Hlavní role v tomto cvičení hrají:"

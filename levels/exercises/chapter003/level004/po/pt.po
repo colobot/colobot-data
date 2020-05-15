@@ -1,0 +1,169 @@
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# José Robson Mariano Alves <jose.alves@ifto.edu.br>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot-data 0.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-05-08 15:08-0300\n"
+"Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Exchange posts 1"
+msgstr "Troca de mensagens 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Collect valuable information from information exchange posts."
+msgstr "Colete informações valiosas de postos de troca de informações."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Info"
+msgstr "Informação"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Exercício"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid ""
+"Several <a object|exchange>information exchange posts</a> stand in the middle of a <a object|mine>mine</a> field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a <a object|mine>mine</a>.\n"
+"The exchange posts are distant 20m from each other."
+msgstr ""
+"Vários <a object|exchange>postos de troca de informações</a> estão no meio de um campo <a object|mine>minado</a>. Quando o robô está próximo o suficiente para um posto de troca, ele pode ler as informações que ele contém. Cada postagem de troca contém o ângulo de rotação que deve ser executado para alcançar o próximo posto de troca, sem tocar uma <a object|mine>mina</a>. \n"
+"Os postos de troca estão distantes 20 metros um do outro."
+
+#. type: \b; header
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "General principe"
+msgstr "Princípio geral"
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Repeat 5 times :"
+msgstr "Repita 5 vezes:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Move 20m forward."
+msgstr "Mova 20 m para frente."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Read the direction of the next <a object|exchange>information exchange post</a>."
+msgstr "Leia a direção do próximo <a object|exchange>posto de troca de informações</a>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Execute the necessary rotation."
+msgstr "Execute a rotação necessária."
+
+#. type: Image filename
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "tinfo1"
+msgstr "tinfo1"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "In order to repeat the steps above, use a <code><a cbot|for>for</a></code> loop, as we saw it before."
+msgstr "Para repetir os passos acima, use um laço <code><a cbot|for>for</a></code>, como vimos antes."
+
+#. type: Source code
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+msgstr "<c/>\tfor ( int i=0 ; i<5 ; i=i+1 )"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "Move forward with the instruction <c/>move(20);<n/>."
+msgstr "Avance com a instrução <c/>move(20);<n/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid ""
+"Use the instruction <c/><a cbot|receive>receive</a>(\"Direction\");<n/> in order to read the information contained in the <a object|exchange>exchange post</a>. This is of course possible only when the bot is close enough to the exchange post.\n"
+"You will need a <a cbot|var>variable</a> to contain the value retrieved from the exchange post. Let us call it <code>dir</code>; you must declare it with the following line:"
+msgstr ""
+"Use a instrução <c/><a cbot|receive>receive</a>(\"Direction\");<n/> para ler as informações contidas no <a object|exchange>posto de troca </a>. É claro que isso é possível apenas quando o robô está próximo o suficiente do posto de troca. \n"
+"Você precisará de uma <a cbot|var>variável</a> para conter o valor recuperado do posto de troca. Vamos chamá-lo de <code>dir</code>; você deve declará-lo com a seguinte linha:"
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "<c/>\tfloat  dir;"
+msgstr "<c/>\tfloat  dir;"
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Then retrieve the rotation angle from the exchange post, and put it into the variable:"
+msgstr "Em seguida, recupere o ângulo de rotação do posto de troca e coloque-o na variável:"
+
+#. type: Source code
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "<c/>\tdir = receive(...);"
+msgstr "<c/>\tdir = receive(...);"
+
+#. type: Plain text
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Then you can execute the rotation:"
+msgstr "Então você pode executar a rotação:"
+
+#. type: Source code
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "<c/>\tturn(dir);"
+msgstr "<c/>\tturn(dir);"
+
+#. type: \b; header
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "Remark"
+msgstr "Observação"
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains only one value called <code>\"Direction\"</code>, but it can contain up to 10 different values, as you will see in some of the following exercises."
+msgstr "Você pode clicar em um <a object|exchange>posto de troca de informações</a> para ler quais informações ele contém. Neste exercício, todo posto de troca contém apenas um valor chamado <code>\"Direction\"</ code>, mas ele pode conter até 10 valores diferentes, como você verá em alguns dos exercícios seguintes."
+
+#. type: \t; header
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "See also"
+msgstr "Veja também"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programação</a>, <a cbot|type>tipos</a> e <a cbot|category>categorias</a>."

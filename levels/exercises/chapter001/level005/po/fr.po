@@ -1,38 +1,39 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 22:42+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Power Cell 2"
-msgstr "Pile 2"
+msgstr "Batterie 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Power all the winged shooters."
-msgstr "Equiper les robots shooters de piles"
+msgstr "Équipez de batteries les robots tireurs"
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Spider2"
-msgstr "Pile2"
+msgstr "Batterie2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -44,7 +45,7 @@ msgstr "Objectif"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
-msgstr "Equipez les <a object|botfj>robots shooter</a> de <a object|power>piles</a>, pour que ceux-ci puissent assainir le nid de <a object|ant>fourmis</a> qui se trouve dans un cratère au nord de votre position."
+msgstr "Équipez-les <a object|botfj>robots tireur</a> de <a object|power>batteries</a>, pour que ceux-ci puissent assainir le nid de <a object|ant>fourmis</a> qui se trouve dans un cratère au nord de votre position."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,7 +57,7 @@ msgstr "Programme"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
-msgstr "Le robot déménageur doit aller vers une pile, prendre celle-ci, aller vers un robot, et poser la pile. Voici un programme d'un exercice précédent qui accomplit une tâche semblable:"
+msgstr "Le robot préhenseur doit aller vers une batterie, prendre celle-ci, aller vers un robot, et poser la batterie. Voici un programme d'un exercice précédent qui accomplit une tâche semblable:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -75,30 +76,30 @@ msgid ""
 "\tdrop();\n"
 "}"
 msgstr ""
-"extern void object::Titanium2()\n"
+"extern void object::Titane2()\n"
 "{\n"
 "\tobject    chose;\n"
 "\t\n"
 "\tchose = radar(TitaniumOre);\n"
 "\tgoto(chose.position);\n"
-"\tgrab();\n"
+"\t<a cbot|grab>grab</a>();\n"
 "\t\n"
 "\tchose = radar(Converter);\n"
 "\tgoto(chose.position);\n"
-"\tdrop();\n"
+"\t<a cbot|drop>drop</a>();\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
-msgstr ""
+msgstr "La meilleure façon de résoudre cet exercice est de copier le programme ci-dessus dans le presse-papiers (de <code>object</code> à <c/><a cbot|drop>drop</a>();<n/>), et de le coller <button 62/> dans l'éditeur de programme. Il ne vous reste plus qu'à effectuer les modifications nécessaires pour l'adapter à la nouvelle tâche."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
-msgstr "Vous pouvez reprendre ce programme avec couper-coller, et apporter les changements nécessaires. Au lieu de chercher un minerai de titanium (<code>TitaniumOre</code>), cherchez une pile (<code><a object|power>PowerCell</a></code>). Au lieu d'aller ensuite vers un convertisseur (<code>Converter</code>), allez vers un robot shooter (<code><a object|botfj>WingedShooter</a></code>). Le shooter fera ensuite son travail."
+msgstr "Vous pouvez reprendre ce programme avec couper-coller, et apporter les changements nécessaires. Au lieu de chercher un minerai de titane (<code>TitaniumOre</code>), cherchez une batterie (<code><a object|power>PowerCell</a></code>). Au lieu d'aller ensuite vers une <a object|convert>raffinerie</a> (<code>Converter</code>), allez vers un robot tireur (<code><a object|botfj>WingedShooter</a></code>). Le tireur fera ensuite son travail."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
@@ -110,7 +111,7 @@ msgstr "Pour savoir comment s'appellent les différents objets dans le langage d
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "Further improvement: loops"
-msgstr "Perfectionnement: les boucles"
+msgstr "Améliorations : les boucles"
 
 #. type: Plain text
 #: ../help/help.E.txt:27
@@ -143,18 +144,18 @@ msgstr ""
 "\t{\n"
 "\t\tchose = radar(PowerCell);\n"
 "\t\tgoto(chose.position);\n"
-"\t\tgrab();\n"
+"\t\t<a cbot|grab>grab</a>();\n"
 "\t\t\n"
 "\t\tchose = radar(WingedShooter);\n"
 "\t\tgoto(chose.position);\n"
-"\t\tdrop();\n"
+"\t\t<a cbot|drop>drop</a>();\n"
 "\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
-msgstr "N'oubliez pas de déclararer la variable <c/>object chose;<n/> avant de l'utiliser la première fois."
+msgstr "N'oubliez pas de déclarer la variable <c/>object chose;<n/> avant de l'utiliser la première fois."
 
 #. type: \t; header
 #: ../help/help.E.txt:44
@@ -178,4 +179,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tlaby2>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a tlaby2>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."
