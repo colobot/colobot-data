@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-05-15 10:12-0300\n"
+"PO-Revision-Date: 2018-05-15 10:06-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_PT\n"
@@ -19,35 +19,89 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Shooting battle - vs static target"
-msgstr "Batalha de tiro - vs alvo estático"
+msgid "AlienHunt"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Just aim & shoot! It looks so simple..."
-msgstr "Apenas aponte e dispare! Parece tão simples ..."
+msgid "A map for begginers! Research technologies, build your infrastructure, and kill all AlienAnts on the opposite side of the river."
+msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (shooting a target)"
-msgstr "Batalha de Código (tiro de um alvo)"
-
-#. type: \b; header
-#: ../help/help.E.txt:4
-#, no-wrap
-msgid "Objective"
-msgstr "Objetivo"
-
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "Destroy the target located on the opposite side of the river."
-msgstr "Destrua o alvo localizado no lado oposto do rio."
+msgid "Code Battle (vs Aliens)"
+msgstr "Batalha de Código (vs Alienígenas)"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is <a battles>a code battle</a> level, where you need to shoot a harmless target, in order to learn how to aim properly."
-msgstr "Este é um nível de <a battles>batalhas de código</a> onde você precisa atirar em um alvo inofensivo, a fim de aprender como mirar corretamente."
+msgid "This is a training code battle level, which purpose is to familiarize you with this <a battles>game mode</a>."
+msgstr "Este é um nível de batalha de código de treinamento, cujo objetivo é familiarizá-lo com este <a battles>modo de jogo</a>."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Brief introduction"
+msgstr "Breve introdução"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. There are two or more teams and the one that survives the longest is the winner. As the name suggest, you can only use programming in this game mode."
+msgstr "Batalha de código é um modo de jogo completamente novo apresentado no Colobot: Edição de Ouro. Existem duas ou mais equipes e a que sobrevive por mais tempo é a vencedora. Como o nome sugere, você só pode usar a programação neste modo de jogo."
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "It is recommended to read <a %lvl%/help/help.%lng% notes>the notes section</a> below."
+msgstr "Recomenda-se a leitura da <a %lvl%/help/help.%lng% notes>seção de notas </a> abaixo."
+
+#. type: \b; header
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Your objective"
+msgstr "Seu objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Kill all the aliens located on the other side of the river."
+msgstr "Mate todos os alienígenas localizados no outro lado do rio."
+
+#. type: \b; header
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "Notes\\m notes;"
+msgstr "Notas\\m notas;"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "The <a object/ant>aliens</a> will not attack you, unless you come too close to them."
+msgstr "Os <a object/ant>alienígenas</a> não atacarão você, a menos que você chegue muito perto deles."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "There is <a object/enerspot>an underground power source</a> only under the beginning base areas."
+msgstr "Existe <a object/enerspot> uma fonte de energia subterrânea </a> apenas nas áreas de base iniciais."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "The pre-built <a object|derrick>Derrick</a> and <a |object\\radar>RadarStation</a> are indestructible."
+msgstr "O pré-construído <a object|derrick>Extrator</a> e <a |object\\radar>Estação de radar</a> são indestrutíveis."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "<a cbot>The CBOT documentation</a> might come in handy."
+msgstr "<a cbot> A documentação do CBOT </a> pode ser útil."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "If you have not played Colobot before, it is recommended to read about <a battles production>the basics of production line</a>."
+msgstr "Se você ainda não jogou Colobot, é recomendado ler sobre <a battles production>os fundamentos da linha de produção</a>."
