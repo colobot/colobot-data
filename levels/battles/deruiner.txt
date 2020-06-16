@@ -1,0 +1,12 @@
+extern void object::Deruin()
+{
+	while(true)
+	{
+		while(radar(606) != null)
+        {
+            delete(radar(606).id);
+            wait(rand()+1);
+        }
+        wait(1);
+	}
+}

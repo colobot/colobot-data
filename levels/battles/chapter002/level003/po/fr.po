@@ -1,6 +1,7 @@
 # Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # ...
+# Didier Raboud <odyx@debian.org>, 2016.
 # B-CE <.>, 2019.
 msgid ""
 msgstr ""
@@ -20,20 +21,26 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Shooting battle - vs other player"
-msgstr "Bataille de tirs - contre un autre joueur"
+msgid "ShootingRange"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Challenge your friend!"
-msgstr "Défiez vos amis !"
+msgid "Aim & shoot - simple as that!"
+msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (shooting an other player)"
-msgstr "Bataille de code (tirer sur un autre joueur)"
+msgid "Code Battle (shooting a target)"
+msgstr "Bataille de code (tirer sur une cible)"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This is <a battles>a code battle</a> level, where you need to shoot a harmless target, in order to learn how to aim properly."
+msgstr "Il s'agit d'un niveau de <a battles>bataille de codes</a>, où vous devez dégommer une cible désarmée, afin d'apprendre à viser correctement."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -44,23 +51,5 @@ msgstr "Vos objectifs"
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Destroy the other <a object/botfj>Shooter</a> located on the opposite side of the river."
-msgstr "Détruisez l'autre <a object/botfj>tireur</a> situé de l'autre côté de la rivière."
-
-#. type: \b; header
-#: ../help/help.E.txt:7
-#, no-wrap
-msgid "Notes\\m notes;"
-msgstr "Notes\\m notes;"
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:8
-#, no-wrap
-msgid "You can try to find a program to fight against in the International Colobot Community (<code>http://colobot.info</code>)."
-msgstr "Vous pouvez essayer de trouver un programme adversaire dans la communauté internationale Colobot (<code>http://colobot.info</code>)."
-
-#. type: Plain text
-#: ../help/help.E.txt:2
-#, no-wrap
-msgid "This is <a battles>a code battle</a> level, where you fight against an other program, presumably written by some other player, in order to improve your aim."
-msgstr "Il s'agit d'un niveau de <a battles>bataille de codes</a>, où vous affrontez un autre programme, idéalement écrit par un autre joueur, afin d'améliorer votre stratégie."
+msgid "Destroy the target located on the opposite side of the river."
+msgstr "Détruisez l'objectif situé de l'autre côté de la rivière."

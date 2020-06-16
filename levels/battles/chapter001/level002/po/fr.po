@@ -1,4 +1,4 @@
-# Copyright (C) 2016 Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Didier Raboud <odyx@debian.org>, 2016.
 # B-CE <.>, 2019.
@@ -20,38 +20,38 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Code battle - vs computer"
-msgstr "Bataille de code - contre l'ordinateur"
+msgid "ShootOut"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Challenge your... computer? Actually, challenge the developers! But, for real, this is just a simple enemy program that you can use if you don't have any real opponent"
-msgstr "Défier votre... ordinateur ? En fait, défiez les développeurs ! Mais, pour de vrai, ce n'est qu'un simple programme ennemi que vous pouvez utiliser si vous n'avez pas d'adversaire réel."
+msgid "Challenge your friend in this simple 1v1 scenario. May the best WingedShooter win!"
+msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (vs Computer)"
-msgstr "Bataille de code (contre l'ordinateur)"
+msgid "Code Battle (shooting an other player)"
+msgstr "Bataille de code (tirer sur un autre joueur)"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is <a battles>a code battle</a> level, where you fight against a simple program written by the developers of the game."
-msgstr "Il s'agit d'un niveau de <a battles>bataille de codes</a>, où vous luttez contre un programme simple, écrit par les développeurs du jeu."
+msgid "This is <a battles>a code battle</a> level, where you fight against an other program, presumably written by some other player, in order to improve your aim."
+msgstr "Il s'agit d'un niveau de <a battles>bataille de codes</a>, où vous affrontez un autre programme, idéalement écrit par un autre joueur, afin d'améliorer votre stratégie."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Your objective"
+msgid "Objective"
 msgstr "Vos objectifs"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Destroy the red team located on the opposite side of the river."
-msgstr "Détruisez l'équipe rouge située de l'autre côté de la rivière."
+msgid "Destroy the other <a object/botfj>Shooter</a> located on the opposite side of the river."
+msgstr "Détruisez l'autre <a object/botfj>tireur</a> situé de l'autre côté de la rivière."
 
 #. type: \b; header
 #: ../help/help.E.txt:7
@@ -62,11 +62,5 @@ msgstr "Notes\\m notes;"
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "There is <a object/enerspot>an underground power source</a> only under the beginning base areas."
-msgstr "Il y a une <a object/enerspot>source d'énergie sous-terraine</a> uniquement sous la zone de démarrage."
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "The pre-built <a object|derrick>Derricks</a> and <a |object\\radar>RadarStations</a> are indestructible."
-msgstr "Les éléments initiaux (<a object|derrick>derrick</a> et <a object\\radar>station radar</a> sont indestructibles."
+msgid "You can try to find a program to fight against in the International Colobot Community (<code>http://colobot.info</code>)."
+msgstr "Vous pouvez essayer de trouver un programme adversaire dans la communauté internationale Colobot (<code>http://colobot.info</code>)."
