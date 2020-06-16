@@ -5,16 +5,16 @@ Resume.E text="A map for begginers! Research technologies, build your infrastruc
 Level type=CODE_BATTLE
 
 BeginObject
+LevelController script="%cat%/deruiner.txt"
 
 // Team "Blue" (1)
-CreateObject pos=5;-35 dir=1.5 type=WheeledGrabber team=1
-CreateObject pos=0;-35 type=Titanium
-CreateObject pos=-5;-35 dir=1.5 type=WheeledBuilder team=1 select=true
-CreateObject pos=0;-58 dir=1.5 type=Derrick magnifyDamage=0 selectable=false
-CreateObject pos=0;-65 dir=1.5 type=RadarStation magnifyDamage=0 selectable=false
+CreateObject pos=-5;-65 dir=1.5 type=WheeledGrabber team=1 select=1
+CreateObject pos=0;-65 type=Titanium
+CreateObject pos=5;-65 dir=1.5 type=WheeledBuilder team=1
+CreateObject pos=0;-88 dir=1.5 type=Derrick team=1 magnifyDamage=0
+CreateObject pos=-46;-103 dir=1.5 type=RadarStation team=1 magnifyDamage=0
 
 // Team "Red" (2)
-// TODO: Write (or find) some better ant scripts for this purpose
 CreateObject pos=0;35 type=AlienNest
 CreateObject pos=-43;43 dir=0.3 type=AlienAnt script1="ant03.txt" run=1
 CreateObject pos=33;31 dir=1.1 type=AlienAnt script1="antatt30.txt" run=1
@@ -26,5 +26,5 @@ CreateObject pos=18;70 dir=0.7 type=AlienEgg autoValue1=14.4 autoType=AlienAnt a
 CreateObject pos=-23;82 dir=0.1 type=AlienAnt script1="antattaw.txt" run=1
 CreateObject pos=-21;101 dir=0.5 type=AlienEgg autoValue1=38.5 autoType=AlienAnt autoString="ant03.txt" run=1
 
+EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=2
 EndMissionTake pos=0;0 dist=10000 type=AlienAnt min=0 max=0
-EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0

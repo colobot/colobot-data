@@ -7,6 +7,7 @@ FogColor air=0.816;0.784;0.875;0.000 water=0.369;0.600;0.706;0.000 // magenta
 VehicleColor color=0.784;0.769;0.682;0.000 // sable
 VehicleColor team=1 color=0;0;1
 VehicleColor team=2 color=1;0;0
+SecondTexture rank=1
 Background up=0.937;0.875;0.878;0.000 down=0.749;0.753;0.875;0.000 cloudUp=0.306;0.306;0.498;0.000 cloudDown=0.306;0.306;0.498;
 ForegroundName image="lens5.png"
 Planet pos=3.0;0.2 dim=0.35 speed= 0.001 dir=0.4 image="planet03.png" uv1=0.5;0.5 uv2=1.0;1.0
@@ -106,5 +107,14 @@ EnableResearch type=iGUN
 EnableResearch type=SUBBER
 EnableResearch type=SNIFFER
 EnableResearch type=RECYCLER
+EnableResearch type=BUILDER
+DoneResearch type=BUILDER
+
+View eye= 20;25;-100 lookat=-8;8;-10 button=136
+View eye=-20;25; 100 lookat= 8;8;10 button=159
+View eye=0;175;0 lookat=0;0;0.1 button=95
+View eye=85;35;0 lookat=0;25;0 button=79
+
+EndMissionDelay win=5 lost=5
 
 Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0

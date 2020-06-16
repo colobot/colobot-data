@@ -10,8 +10,7 @@ BeginObject
 CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
 
 // Team "Red" (2)
-// TODO: selectable=0, but only before start?
-CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2 script1="%lvl%/program.txt" scriptReadOnly1=true run=1
+CreateObject pos=0;40 dir=0.5 type=WingedShooter trainer=1 range=0 power=100 team=2 script1="%lvl%/program.txt" run=1 selectable=0
 
 DoneResearch type=WINGER
 DoneResearch type=SHOOTER

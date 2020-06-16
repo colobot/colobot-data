@@ -5,18 +5,19 @@ Resume.E text="Build your base and eliminate your foe!"
 Level type=CODE_BATTLE magnifyDamage=10
 
 BeginObject
+LevelController script="%cat%/deruiner.txt"
 
 // Team "Blue" (1)
-CreateObject pos= 5;-35 dir=1.5 type=WheeledGrabber team=1
-CreateObject pos=0;-35 type=Titanium
-CreateObject pos=-5;-35 dir=1.5 type=WheeledBuilder team=1 select=true
-CreateObject pos=0;-58 dir=1.5 type=Derrick magnifyDamage=0 selectable=false
+CreateObject pos=-5;-65 dir=1.5 type=WheeledGrabber team=1 select=1
+CreateObject pos=0;-65 type=Titanium
+CreateObject pos=5;-65 dir=1.5 type=WheeledBuilder team=1
+CreateObject pos=0;-88 dir=1.5 type=Derrick team=1 magnifyDamage=0
 
 // Team "Red" (2)
-CreateObject pos=-5;35 dir=0.5 type=WheeledGrabber team=2
-CreateObject pos=0;35 type=Titanium
-CreateObject pos=5;35 dir=0.5 type=WheeledBuilder  team=2
-CreateObject pos=0;58 dir=0.5 type=Derrick magnifyDamage=0 selectable=false
+CreateObject pos=5;65 dir=0.5 type=WheeledGrabber team=2
+CreateObject pos=0;65 type=Titanium
+CreateObject pos=-5;65 dir=0.5 type=WheeledBuilder team=2
+CreateObject pos=0;88 dir=0.5 type=Derrick team=2 magnifyDamage=0
 
-EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0 winTeam=1
-EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=0 winTeam=2
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=1 winTeam=1
+EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=1 winTeam=2
