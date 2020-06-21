@@ -1,8 +1,8 @@
-\b;Instruction \c;busy\n;
+\b;Instruction \c;isbusy\n;
 Syntax:
-\s;\c;\l;object\u cbot\object;.busy ( );\n;
+\s;\c;isbusy ( object );\n;
 
-Checks if the object is busy.
+Checks if a given object is busy.
 
 \t;\l;object\u cbot\object;
 Any building which can take some action (e.g. \l;Converter\u cbot\convert;).

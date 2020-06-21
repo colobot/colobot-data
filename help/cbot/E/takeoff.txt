@@ -1,11 +1,11 @@
 \b;Instruction \c;takeoff\n;
 Syntax:
-\s;\c;\l;object\u cbot\object;.takeoff ( );\n;
+\s;\c;takeoff ( object );\n;
 
-Takes off the spaceship.
+Launch a spaceship.
 
 \t;\l;object\u cbot\object;
-\l;SpaceShip\u object\base;
+\l;SpaceShip\u object\base;, nearest by default.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;takeoff()\n;.
