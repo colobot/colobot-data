@@ -36,7 +36,7 @@ A function can return an instance:
 \c;\s;MyClass Test2( )
 \s;{
 \s;	MyClass item = new MyClass();
-\s;	item.x = 33;
+\s;	item.a = 33;
 \s;	return item;
 \s;}
 \n;
