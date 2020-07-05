@@ -93,12 +93,12 @@ CreateObject pos=17.50;-90.00 dir=0.0 type=Barricade1
 CreateObject pos=12.50;-90.00 dir=0.0 type=Barricade1
 CreateObject pos= 7.50;-90.00 dir=0.0 type=Barricade1
 
-CreateObject pos=32.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
-CreateObject pos=27.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
-CreateObject pos=22.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
-CreateObject pos=17.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
-CreateObject pos=12.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
-CreateObject pos= 7.50;-87.50 dir=1.5 type=TargetBot reset=1 script1="flash.txt" run=1
+CreateObject pos=32.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
+CreateObject pos=27.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
+CreateObject pos=22.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
+CreateObject pos=17.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
+CreateObject pos=12.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
+CreateObject pos= 7.50;-87.50 dir=1.5 type=TargetBot selectable=0 reset=1 script1="flash.txt" run=1
 
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
 CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain

@@ -65,10 +65,10 @@ TerrainCreate
 BeginObject
 CreateObject pos=25.00;-77.50 dir=1.0 type=Me option=2
 CreateObject pos=20.00;-75.00 dir=1.0 type=TrackedShooter reset=1 camera=BACK trainer=1 script4="tchasse1.txt" scriptRunnable4=false select=1
-CreateObject pos=10.00;-62.50 dir=1.0 type=TargetBot reset=1 script1="tchasse2.txt" run=1
-CreateObject pos=32.50;-65.00 dir=1.0 type=TargetBot reset=1 script1="tchasse3.txt" run=1
-CreateObject pos=30.00;-87.50 dir=1.0 type=TargetBot reset=1 script1="tchasse4.txt" run=1
-CreateObject pos= 7.50;-85.00 dir=1.0 type=TargetBot reset=1 script1="tchasse5.txt" run=1
+CreateObject pos=10.00;-62.50 dir=1.0 type=TargetBot selectable=0 reset=1 script1="tchasse2.txt" run=1
+CreateObject pos=32.50;-65.00 dir=1.0 type=TargetBot selectable=0 reset=1 script1="tchasse3.txt" run=1
+CreateObject pos=30.00;-87.50 dir=1.0 type=TargetBot selectable=0 reset=1 script1="tchasse4.txt" run=1
+CreateObject pos= 7.50;-85.00 dir=1.0 type=TargetBot selectable=0 reset=1 script1="tchasse5.txt" run=1
 
 CreateObject pos=20.00;-72.50 dir=0.0 type=Barrier1
 CreateObject pos=20.00;-77.50 dir=0.0 type=Barrier1

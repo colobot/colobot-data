@@ -66,7 +66,7 @@ BeginObject
 CreateObject pos= 2.50;-77.50 dir=0.0 type=GoalArea
 CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
 CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 script4="tfollow1.txt" scriptRunnable4=false select=1
-CreateObject pos=20.00;-77.50 dir=1.0 type=TargetBot reset=1 script1="tfollow2.txt" run=1
+CreateObject pos=20.00;-77.50 dir=1.0 type=TargetBot selectable=0 reset=1 script1="tfollow2.txt" run=1
 
 // Ligne supérieure.
 CreateObject pos= 7.50;-62.50 dir=0.0 type=Barrier1
