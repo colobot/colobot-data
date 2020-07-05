@@ -5654,12 +5654,6 @@ msgstr ""
 msgid "<c/>build ( cat );<n/>"
 msgstr "<c/>build ( categoria );<n/>"
 
-#. type: Plain text
-#: ../E/build.txt:15
-#, no-wrap
-msgid "Tells the robot to build a building using a titanium cube placed on a flat ground nearby."
-msgstr "Diz ao robô para construir um edifício usando um cubo de titânio colocado em uma superfície plana perto."
-
 #. type: \t; header
 #: ../E/build.txt:17 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/detect.txt:11 ../E/factory.txt:7 ../E/radar.txt:22
 #, no-wrap
@@ -9342,3 +9336,9 @@ msgstr ""
 #, no-wrap
 msgid "Note: the <a cbot|isbusy>isbusy</a> instruction might be much better to use in this scenario."
 msgstr "Nota: a instrução <a cbot|isbusy>isbusy</a> pode ser muito boa para usar neste cenário."
+
+#. type: Plain text
+#: ../E/build.txt:15
+#, no-wrap
+msgid "Constructs a building using a titanium cube in front of the <a object|botbr>builder</a>."
+msgstr ""
