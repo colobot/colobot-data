@@ -1,5 +1,5 @@
 \b;Instruction \c;canbuild\n;
-The instruction \c;canbuild();\n; lets you know if \l;Grabbers\u object\botgc;, \l;Me\u object\human; or \l;Tech\u object\human; can build a building of the given \l;category\u cbot\category;. 
+The instruction \c;canbuild();\n; lets you know if \l;Builders\u object\botbr;, \l;Me\u object\human; or \l;Tech\u object\human; can build a building of a given \l;category\u cbot\category;.
 
 \b;Basic use
 It helps to prevent errors in programs using the \c;\l;build();\u cbot\build;\n; instruction. Here is an example:
@@ -20,4 +20,5 @@ Syntax:
 \c;true\n; if the building can be built, \c;false\n; otherwise.
 
 \t;See also
-\l;build\u cbot\build;, \l;buildingenabled\u cbot\buildingenabled;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\c;\l;build\u cbot\build;\n;, \c;\l;buildingenabled\u cbot\buildingenabled;\n;.
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

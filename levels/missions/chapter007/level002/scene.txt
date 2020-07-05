@@ -66,19 +66,19 @@ CreateObject pos=-21.0; 21.0 dir=0.0 type=GoalArea
 CreateObject pos=-21.0;-21.0 dir=0.0 type=GoalArea
 CreateObject pos= 21.0; 2.5 dir=0.0 type=GoalArea
 
-CreateObject pos= 17; 42.5 dir=1.5 type=TargetBot shield=0.01
-CreateObject pos= 7; 42.5 dir=1.5 type=TargetBot shield=0.01
-CreateObject pos= -3; 42.5 dir=1.5 type=TargetBot shield=0.01
-CreateObject pos=-13; 42.5 dir=1.5 type=TargetBot shield=0.01
+CreateObject pos= 17; 42.5 dir=1.5 type=TargetBot selectable=0 shield=0.01
+CreateObject pos= 7; 42.5 dir=1.5 type=TargetBot selectable=0 shield=0.01
+CreateObject pos= -3; 42.5 dir=1.5 type=TargetBot selectable=0 shield=0.01
+CreateObject pos=-13; 42.5 dir=1.5 type=TargetBot selectable=0 shield=0.01
 
-CreateObject pos=-47; 32.5 dir=0.0 type=TargetBot shield=0.01
-CreateObject pos=-47; 17.5 dir=0.0 type=TargetBot shield=0.01
-CreateObject pos=-47; -7.5 dir=0.0 type=TargetBot shield=0.01
-CreateObject pos=-47;-22.5 dir=0.0 type=TargetBot shield=0.01
+CreateObject pos=-47; 32.5 dir=0.0 type=TargetBot selectable=0 shield=0.01
+CreateObject pos=-47; 17.5 dir=0.0 type=TargetBot selectable=0 shield=0.01
+CreateObject pos=-47; -7.5 dir=0.0 type=TargetBot selectable=0 shield=0.01
+CreateObject pos=-47;-22.5 dir=0.0 type=TargetBot selectable=0 shield=0.01
 
-CreateObject pos= 57;-12.5 dir=1.0 type=TargetBot shield=0.01
-CreateObject pos= 47; 12.5 dir=1.0 type=TargetBot shield=0.01
-CreateObject pos= 37; 2.5 dir=1.0 type=TargetBot shield=0.01
+CreateObject pos= 57;-12.5 dir=1.0 type=TargetBot selectable=0 shield=0.01
+CreateObject pos= 47; 12.5 dir=1.0 type=TargetBot selectable=0 shield=0.01
+CreateObject pos= 37; 2.5 dir=1.0 type=TargetBot selectable=0 shield=0.01
 
 
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain

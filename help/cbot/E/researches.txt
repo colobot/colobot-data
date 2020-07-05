@@ -8,21 +8,23 @@ Below are the different research names available.
 \t;Done by \l;ResearchCenter\u object\research;:
 \c;\const;ResearchTracked\norm;       \n;Tracked bots (e.g. \l;tracked grabber\u object\botgc;)
 \c;\const;ResearchWinged\norm;        \n;Winged bots (e.g. \l;winged grabber\u object\botgj;)
-\c;\const;ResearchShooter\norm;       \n;Bots with cannon (e.g. \l;tracked shooter\u object\botfc;)
-\c;\const;ResearchPhazerShooter\norm; \n;\l;Phazer shooter\u object\botphaz;
-\c;\const;ResearchThumper\norm;       \n;\l;Thumper\u object\bottump;
-\c;\const;ResearchShielder\norm;      \n;\l;Shielder\u object\botshld;
+\c;\const;ResearchShooter\norm;       \n;\l;Fireball cannon\u object\botfr;
 \c;\const;ResearchDefenseTower\norm;  \n;\l;Defense tower\u object\tower;
 \c;\const;ResearchNuclearPlant\norm;  \n;\l;Nuclear plant\u object\nuclear;
+\c;\const;ResearchThumper\norm;       \n;\l;Thumper\u object\bottump;
+\c;\const;ResearchShielder\norm;      \n;\l;Shielder\u object\botshld;
+\c;\const;ResearchPhazerShooter\norm; \n;\l;Phazer cannon\u object\botphaz;
+\c;\const;ResearchBuilder\norm;       \n;\l;Neutron gun\u object\botbr;
 
 \t;Done by \l;AutoLab\u object\labo;:
+\c;\const;ResearchTarget\norm;        \n;\l;Target bot\u object\bottarg;
 \c;\const;ResearchLegged\norm;        \n;Legged bots (e.g. \l;legged grabber\u object\botgs;)
-\c;\const;ResearchOrgaShooter\norm;   \n;Bots with orgaball cannon (e.g. \l;tracked orga shooter\u object\botoc;)
+\c;\const;ResearchOrgaShooter\norm;   \n;\l;Orgaball cannon\u object\botor;
 
 \t;Impossible to research:
-\c;\const;ResearchSniffer\norm;       \n;Sniffers (e.g. \l;tracked sniffer\u object\botsc;)
+\c;\const;ResearchSniffer\norm;       \n;\l;Sniffer\u object\botsr;
 \c;\const;ResearchSubber\norm;        \n;\l;Subber\u object\botsub;
 \c;\const;ResearchRecycler\norm;      \n;\l;Recycler\u object\botrecy;
 
 \t;See also
-\l;CBOT Language\u cbot;, \l;variables\u cbot\type; and \l;categories\u cbot\category;.
+\l;CBOT Language\u cbot;, \l;Variables\u cbot\type; and \l;Categories\u cbot\category;.

@@ -1,17 +1,17 @@
 \b;Instruction \c;factory\n;
 Syntax:
-\s;\c;\l;object\u cbot\object;.factory ( cat, program );\n;
+\s;\c;factory ( cat, program, object );\n;
 
-Starts a construction of a bot of the given \l;category\u cbot\category; and runs the specified program on it after the construction is finished.
-
-\t;\l;object\u cbot\object;
-\l;BotFactory\u object\factory;
+Starts a construction of a bot of a given \l;category\u cbot\category; and runs a specified program on it after the construction is finished.
 
 \t;cat: \c;\l;int\u cbot\int;\n;
 \l;Category\u cbot\category; of the robot to construct.
 
 \t;program: \c;\l;string\u cbot\string;\n; (default value: \c;""\n;)
-Program that will be run on the bot after factory finishes the construction. This can be either a \l;public\u cbot\public; \l;function\u cbot\function;, a \l;filename\u cbot\file; or just a raw source code.
+Program that will be run on the bot after factory finishes the construction. This can be either a \l;public\u cbot\public; \l;function\u cbot\function;, a \l;filename\u cbot\file; or raw code.
+
+\t;\l;object\u cbot\object;
+\l;BotFactory\u object\factory;, nearest by default.
 
 \t;Return value: \c;\l;int\u cbot\int;\n;
 Normally an error stops the program. You can prevent the program from stopping on errors by using the \c;\l;errmode\u cbot\errmode;(0)\n; instruction. A value different from zero if an error occurred is then returned by \c;factory()\n;.
@@ -19,4 +19,5 @@ Normally an error stops the program. You can prevent the program from stopping o
 \c;!= 0 \n;The construction could not be started (e.g. no \l;Titanium\u object\titan; in the factory, the bot is not researched)
 
 \t;See also
-\l;researched\u cbot\researched;, \l;wait\u cbot\;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\c;\l;researched\u cbot\researched;\n;, \c;\l;wait\u cbot\wait;\n;.
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

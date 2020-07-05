@@ -2,7 +2,7 @@
 Syntax:
 \s;\c;canresearch ( research );\n;
 
-Checks if the \l;research\u cbot\researches; can be done in the level.
+Checks if a \l;research\u cbot\researches; can be done during current mission.
 
 \t;research: \c;\l;int\u cbot\int;\n;
 \l;Research name\u cbot\researches;.
@@ -12,4 +12,5 @@ Checks if the \l;research\u cbot\researches; can be done in the level.
 \const;false\norm; if the research cannot be done
 
 \t;See also
-\l;Research names\u cbot\researches;, \l;research\u cbot\research;, \l;researched\u cbot\researched;, \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Research names\u cbot\researches;, \c;\l;research\u cbot\research;\n;, \c;\l;researched\u cbot\researched;\n;.
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
