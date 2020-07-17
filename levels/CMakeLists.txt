@@ -90,7 +90,7 @@ endfunction()
 
 
 add_level_category(missions)
-add_level_category(freemissions)
+add_level_category(free)
 add_level_category(exercises)
 add_level_category(challenges)
 add_level_category(battles)
