@@ -94,5 +94,6 @@ add_level_category(free)
 add_level_category(exercises)
 add_level_category(challenges)
 add_level_category(battles)
+add_level_category(plus)
 
 install(DIRECTORY other DESTINATION ${LEVEL_INSTALL_DATA_DIR})

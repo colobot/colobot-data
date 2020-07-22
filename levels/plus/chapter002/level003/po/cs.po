@@ -1,0 +1,154 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-05 21:40+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Black Box"
+msgstr "Černá skříňka"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Discover crucial information left behind by the first expedition."
+msgstr "Najděte důležité informace zanechané první výpravou."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going."
+msgstr "Nedokážeme s jistotou určit, kam předchozí výprava po opuštění Měsíce zamířila, ani proč se vydala právě tím směrem."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Locate the <a object|bbox>black box</a> they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit."
+msgstr "Najděte <a object|bbox>černou skříňku</a>, kterou tu určitě zanechali, a přineste ji zpět na palubu rakety. Černá skříňka by měla obsahovat souřadnice další planety, kterou se předchozí výprava chystala prozkoumat."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
+msgstr "<a object|power>Baterie</a> Vašich robotů jsou téměř zcela vybité. Dobít je by mělo být Vaším prvořadým cílem. Průzkumný satelit na oběžné dráze hlásí, že geologické podloží v této oblasti je plné energie. Na kterékoliv rovné ploše proto můžete postavit funkční <a object|station>nabíječku</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
+msgstr "Vyvinuli jsme program, který robotovi nabije <a object|power>baterii</a>. Podrobnosti najdete v seznamu programů ve svém SatKomu <button 53/>."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Procedure"
+msgstr "Postup"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
+msgstr "Nejprve musíte postavit <a object|convert>konvertor</a>, který z dříve nasbíraných kusů titanové rudy vyrobí použitelné <a object|titan>kostky titanu</a>."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "You should then build both a <a object|station>power station</a> and a <a object|radar>radar</a> which will indicate the location of the black box on your mini map."
+msgstr "Pak byste měli postavit <a object|station>nabíječku</a> a <a object|radar>radar</a>, který označí polohu černé skříňky na Vaší minimapě."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
+msgstr "Po nabití baterií vyražte pro černou skříňku. Než budete moci odstartovat, musíte ji položit na palubu <a object|base>rakety</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of the Moon."
+msgstr "Aktuálně na stacionární oběžné dráze Měsíce."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      -38.2°C\n"
+"\\tab;Atmosphere:       none\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           -38,2 °C\n"
+"\\tab;Atmosféra:         žádná\n"
+"\\tab;Vítr:              0,0 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"

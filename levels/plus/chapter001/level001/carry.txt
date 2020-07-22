@@ -1,0 +1,69 @@
+extern void object::MVP()
+{
+	errmode(0);
+	grab();
+
+	while(radar(ExchangePost)==null)wait(2);
+	while(!testinfo("",80))wait(0.2);
+
+	wait(2.5);
+	if(receive("",80)==nan)
+	{
+		// ?
+		while(drop(Behind)!=0)wait(0.2);
+		Attack();
+	}
+
+	point traject;
+	// Intro
+	traject.x =  -105;
+	traject.y = -61.5;
+	goto(traject);
+	motor(0.5,1);
+	wait(1);
+
+	// Road
+	traject.x = -85;
+	traject.y = -47;
+	goto(traject);
+	traject.x =   0;
+	traject.y = -47;
+	goto(traject);
+
+	// Ship
+	traject.x = 0;
+	traject.y = 0;
+	goto(traject);
+	while(drop()!=0)wait(0.2);
+	move(-5);
+	if(ismovie()!=0)
+	{
+		// Panic
+		move(5);
+		return;
+	}
+	traject.y = -41;
+	turn(direction(traject));
+	goto(traject ,0,0,2);
+
+	// Roam
+	Attack();
+}
+void object::Attack( )
+{
+	point	traject[10];
+	int		nb, i;
+
+	nb = cmdline(0);
+
+	for ( i=0 ; i<nb ; i++ )
+	{
+		traject[i].x = cmdline(i*2+1);
+		traject[i].y = cmdline(i*2+2);
+	}
+
+	for ( i=0 ; true ; i++ )
+	{
+		goto(traject[i%nb] ,0,0,2);
+	}
+}

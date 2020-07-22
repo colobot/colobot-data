@@ -1,0 +1,46 @@
+extern void object::SafeHome()
+{
+	while(radar(WingedOrgaShooter)==null)wait(2);
+	while(radar(WingedOrgaShooter).energyCell==null)wait(0.2);
+
+	while(radar(AlienEgg)!=null)delete(radar(AlienEgg).id, 0);
+	point spawnPos;
+
+	// Ants
+	spawnPos.x =  -87;
+	spawnPos.y = -132;
+	produce(spawnPos, 0, AlienAnt, "ant03.txt");
+
+	spawnPos.x =  -94;
+	spawnPos.y =  -30;
+	produce(spawnPos, 0, AlienAnt, "ant03.txt");
+
+	spawnPos.x =  -94;
+	spawnPos.y =  -20;
+	produce(spawnPos, 0, AlienAnt, "ant03.txt");
+
+	spawnPos.x =  -90;
+	spawnPos.y =  -25;
+	produce(spawnPos, 0, AlienAnt, "ant03.txt");
+
+	spawnPos.x =  110;
+	spawnPos.y =  160;
+	produce(spawnPos, 0, AlienAnt, "ant03.txt");
+
+	spawnPos.x = -313;
+	spawnPos.y =   48;
+	produce(spawnPos, 126, AlienAnt, "ant03.txt");
+
+	spawnPos.x = -340;
+	spawnPos.y =   52;
+	produce(spawnPos, 36, AlienAnt, "ant03.txt");
+
+	// Spiders
+	spawnPos.x = -240;
+	spawnPos.y =   65;
+	produce(spawnPos, 0, AlienSpider, "spider01.txt");
+
+	spawnPos.x = -165;
+	spawnPos.y =  225;
+	produce(spawnPos, 0, AlienSpider, "spider01.txt");
+}
