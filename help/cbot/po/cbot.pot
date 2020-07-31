@@ -2508,17 +2508,6 @@ msgid ""
 "<c/><s/>MyClass Test2( )"
 msgstr ""
 
-#. type: Source code
-#: ../E/pointer.txt:37
-#, no-wrap
-msgid ""
-"{\n"
-"\tMyClass item = new MyClass();\n"
-"\titem.x = 33;\n"
-"\treturn item;\n"
-"}"
-msgstr ""
-
 #. type: Plain text
 #: ../E/pointer.txt:43
 #, no-wrap
@@ -8060,4 +8049,15 @@ msgstr ""
 #: ../E/build.txt:15
 #, no-wrap
 msgid "Constructs a building using a titanium cube in front of the <a object|botbr>builder</a>."
+msgstr ""
+
+#. type: Source code
+#: ../E/pointer.txt:37
+#, no-wrap
+msgid ""
+"{\n"
+"\tMyClass item = new MyClass();\n"
+"\titem.a = 33;\n"
+"\treturn item;\n"
+"}"
 msgstr ""
