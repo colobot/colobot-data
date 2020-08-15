@@ -111,13 +111,13 @@ msgid "Instructions specific to some bots:"
 msgstr "Специальные инструкции для некоторых ботов:"
 
 #. type: \t; header
-#: ../E/cbot.txt:77
+#: ../E/cbot.txt:79
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr "Специальные инструкции по обмену сообщениями:"
 
 #. type: Plain text
-#: ../E/cbot.txt:78
+#: ../E/cbot.txt:80
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -131,19 +131,19 @@ msgstr ""
 "<code><a cbot|delinfo>deleteinfo</a> </code>Удаляет существующую информацию\n"
 
 #. type: \t; header
-#: ../E/cbot.txt:83
+#: ../E/cbot.txt:85
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr "Специальные инструкции для классов:"
 
 #. type: \t; header
-#: ../E/cbot.txt:95
+#: ../E/cbot.txt:97
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr "Специальные инструкции для строк:"
 
 #. type: Plain text
-#: ../E/cbot.txt:96
+#: ../E/cbot.txt:98
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -165,13 +165,13 @@ msgstr ""
 "<code><a cbot|strlower>strlower</a>   </code>Конвертирует в нижний регистр"
 
 #. type: \t; header
-#: ../E/cbot.txt:105
+#: ../E/cbot.txt:107
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr "Специальные инструкции для файлов:"
 
 #. type: Plain text
-#: ../E/cbot.txt:106
+#: ../E/cbot.txt:108
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -189,13 +189,13 @@ msgstr ""
 "<code><a cbot|deletef>deletefile</a> </code>Удаляет файл"
 
 #. type: \t; header
-#: ../E/battles.txt:53 ../E/cbot.txt:129 ../E/freehelp.txt:4
+#: ../E/battles.txt:53 ../E/cbot.txt:131 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: ../E/cbot.txt:130
+#: ../E/cbot.txt:132
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot|type>Типы</a> и <a cbot|category>категории</a>."
@@ -636,13 +636,13 @@ msgstr ""
 "<code><a cbot|flatgrnd>flatground</a> </code>Возвращает радиус плоской области"
 
 #. type: \t; header
-#: ../E/cbot.txt:113
+#: ../E/cbot.txt:115
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr "Математические функции:"
 
 #. type: Plain text
-#: ../E/cbot.txt:114
+#: ../E/cbot.txt:116
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -1037,7 +1037,7 @@ msgid "One can also switch to the free camera view by clicking somewhere on the 
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:84
+#: ../E/cbot.txt:86
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -1111,5 +1111,7 @@ msgid ""
 "<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
 "<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
 "<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
-"<code><a cbot|build>build</a>      </code>Builds a building"
+"<code><a cbot|build>build</a>      </code>Builds a building\n"
+"<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
+"<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
 msgstr ""
