@@ -20,47 +20,41 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Technological Treasure"
-msgstr "Sauvetage"
+msgid "Mountain Warfare"
+msgstr "Varappe"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Rediscover a new type of bot."
-msgstr "Partez sauver un tout nouveau type de robot."
+msgid "Use legged bots to fight on broken terrain."
+msgstr "Utilisez des robots à pattes pour livrer bataille en terrain accidenté."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "An urgent notification from Mission Control"
+msgid "From Mission Control"
 msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
-msgstr "Au moment du décollage, le satellite d'observation nous a informé qu'il a découvert un robot d'un type inconnu. Ramenez ce robot sur le vaisseau."
+msgid "This planet is obviously unsuited to a long-lasting colonization. Retrieve the <a object|bbox>black box</a> from the previous expedition then take off."
+msgstr "Cette planète est inadaptée à une colonisation durable. Ramenez la <a object|bbox>boîte noire</a> de la première expédition sur le <a object|base>vaisseau</a>, et décollez."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
-#, no-wrap
-msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
-msgstr "Nos ingénieurs ont trouvé entre-temps une manière de faire fonctionner les réacteurs dans les températures qui règnent sur Volcano, au moins pour de courtes durées. Les informations nécessaires ont été transmises à votre vaisseau."
-
-#. type: Plain text
-#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
-#: ../help/help.E.txt:8
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: ../help/help.E.txt:9
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Commandes</a>."
@@ -87,15 +81,15 @@ msgstr "-> SURFACE<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.7C\n"
+"\\tab;Temperature:      83.5C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.8 mps\n"
+"\\tab;Wind:             3.4 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      96.7 degrés\n"
+"\\tab;Température:      83.5 degrés\n"
 "\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vent:             2.8 m/s\n"
+"\\tab;Vent:             3.4 m/s\n"
 "\\tab;Minerai de titane:aucun\n"
 "\\tab;Minerai d'uranium:aucun"
 
@@ -109,11 +103,11 @@ msgstr "-> SOUS-SOL<c/>"
 #: ../help/report.E.txt:12
 #, no-wrap
 msgid ""
-"\\tab;Energy source:    none\n"
+"\\tab;Energy source:    everywhere\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Energie:          aucune\n"
+"\\tab;Energie:          partout\n"
 "\\tab;Minerai de titane:aucun\n"
 "\\tab;Minerai d'uranium:aucun"
 
@@ -127,12 +121,8 @@ msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
-"\\tab;Detected:         bot\n"
-"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
 "\\tab;Détecté:          fourmis géantes\n"
-"\\tab;  - Danger:       oui, pas imminent\n"
-"\\tab;Détecté:          robot\n"
-"\\tab;  - Type:         inconnu"
+"\\tab;  - Danger:       oui, pas imminent"

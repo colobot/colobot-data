@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-08-13 23:02+02\n"
+"PO-Revision-Date: 2018-08-14 22:27+02\n"
 "Last-Translator: next_ghost <next_ghost@quick.cz>\n"
 "Language-Team: Czech <next_ghost@quick.cz>\n"
 "Language: Czech\n"
@@ -20,47 +20,41 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Technological Treasure"
-msgstr "Technologický poklad"
+msgid "Time for a sharp exit"
+msgstr "Čas prásknout do bot"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Rediscover a new type of bot."
-msgstr "Znovu objevte nový druh robota."
+msgid "Try to leave the planet alive."
+msgstr "Pokuste se z planety odletět živí."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "An urgent notification from Mission Control"
-msgstr "Naléhavá zpráva z řídícího střediska"
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
-msgstr "Zatímco jste se chystali k odletu, dostali jsme ze satelitu následující informaci: Na Vulkánu byl objeven robot prozatím neznámého typu. Pokuste se ho přivézt na palubu rakety k dalšímu zkoumání."
+msgid "You need to repel a last minute ant attack before taking off."
+msgstr "Před odletem musíte odrazit náhlý útok mravenců."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
-#, no-wrap
-msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
-msgstr "Naši inženýři na Zemi právě vymysleli vylepšení, díky kterému by měly tryskové motory alespoň na kratší lety řádně fungovat i za vysokých teplot. Data jsme Vám poslali."
-
-#. type: Plain text
-#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
 
 #. type: \t; header
-#: ../help/help.E.txt:8
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
 msgstr "Užitečné odkazy"
 
 #. type: Plain text
-#: ../help/help.E.txt:9
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
@@ -87,15 +81,15 @@ msgstr "-> POVRCH<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.7C\n"
+"\\tab;Temperature:      96.6C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.8 mps\n"
+"\\tab;Wind:             2.7 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Teplota:           96,7 °C\n"
+"\\tab;Teplota:           96,6 °C\n"
 "\\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vítr:              2,8 m/s\n"
+"\\tab;Vítr:              2,7 m/s\n"
 "\\tab;Titanová ruda:     žádná\n"
 "\\tab;Uranová ruda:      žádná"
 
@@ -127,12 +121,8 @@ msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
-"\\tab;Detected:         bot\n"
-"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       not immediate"
+"\\tab;  - Danger:       immediate"
 msgstr ""
-"\\tab;Nalezeno:          robot\n"
-"\\tab;  - Typ:           neznámý\n"
 "\\tab;Nalezeno:          obří mravenci\n"
-"\\tab;  - Nebezpečí:     není bezprostřední"
+"\\tab;  - Nebezpečí:     bezprostřední"

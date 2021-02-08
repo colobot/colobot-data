@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-05-02 11:52-0300\n"
+"PO-Revision-Date: 2018-05-02 11:24-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_PT\n"
@@ -19,41 +19,47 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Time for a sharp exit"
-msgstr "Hora de uma saída acentuada"
+msgid "Technological Treasure"
+msgstr "Tesouro tecnológico"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Try to leave the planet alive."
-msgstr "Tente deixar o planeta vivo."
+msgid "Rediscover a new type of bot."
+msgstr "Redescubra um novo tipo de robô."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "From Mission Control"
-msgstr "Do Centro de Controle de Missões"
+msgid "An urgent notification from Mission Control"
+msgstr "Uma notificação urgente do Centro de Controle de Missões"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Você precisa repelir um ataque de formiga de última hora antes de decolar."
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Quando você estava prestes a decolar, recebemos do satélite a seguinte informação: um robô de um tipo ainda desconhecido foi localizado no vulcão. Tente trazê-lo de volta para sua nave espacial para um estudo mais aprofundado."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Nossos engenheiros na Terra recentemente elaboraram uma fórmula que deveria permitir que os reatores funcionassem adequadamente, pelo menos por um curto período, apesar das altas temperaturas. Os dados foram transmitidos para você."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "<format key><key help/></format> permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal <button 63/>."
 
 #. type: \t; header
-#: ../help/help.E.txt:6
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr "Veja também"
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Controles</a> e <a cbot>Linguagem CBOT</a>"
@@ -80,15 +86,15 @@ msgstr "-> SUPERFÍCIE<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.6C\n"
+"\\tab;Temperature:      96.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.7 mps\n"
+"\\tab;Wind:             2.8 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Temperatura:      96.6C\n"
+"\\tab;Temperatura:      96.7C\n"
 "\\tab;Atmosfera:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vento:             2.7 mps\n"
+"\\tab;Vento:             2.8 mps\n"
 "\\tab;Minério de titânio:     nenhum\n"
 "\\tab;Minério de urânio:      nenhum"
 
@@ -120,8 +126,12 @@ msgstr "-> INFORMAÇÃO ADICIONAL<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       immediate"
+"\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab; Detectado: robô \n"
+"\\tab; - Tipo: desconhecido \n"
 "\\tab; Detectado: formigas gigantes \n"
-"\\tab; - Perigo: imediato"
+"\\tab; - Perigo: não imediato"

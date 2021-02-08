@@ -19,41 +19,47 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Time for a sharp exit"
-msgstr "Rette sich wer kann"
+msgid "Technological Treasure"
+msgstr "Technologisches Erbe"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Try to leave the planet alive."
-msgstr "Versuchen Sie, diesen Planeten mit heiler Haut zu verlassen."
+msgid "Rediscover a new type of bot."
+msgstr "Bergen Sie ein von Ihren Vorgängern entwickeltes Waffensystem."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "From Mission Control"
-msgstr "Vom Kontrollzentrum"
+msgid "An urgent notification from Mission Control"
+msgstr "Eine dringende Nachricht vom Kontrollzentrum"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Sie müssen einen letzten Angriff der Insekten abwehren, bevor Sie abheben können."
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Gerade, als Sie abheben wollten, haben wir vom Satelliten folgende Information erhalten: ein Roboter bisher unbekannten Typs ist auf Volcano gesichtet worden. Versuchen Sie, ihn auf Ihr Schiff zu bringen, um weitere Studien vornehmen zu können."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Unsere Ingenieure auf der Erde haben vor kurzem eine Formel gefunden, die es den Triebwerken trotz der hohen Temperaturen erlaubt, wenigstens für kurze Zeit einwandfrei zu funktionieren. Die Daten wurden Ihnen übermittelt."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
 
 #. type: \t; header
-#: ../help/help.E.txt:6
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr "Siehe auch"
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
@@ -62,7 +68,7 @@ msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Satellitenbericht"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
@@ -80,15 +86,15 @@ msgstr "-> Oberfläche<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.6C\n"
+"\\tab;Temperature:      96.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.7 mps\n"
+"\\tab;Wind:             2.8 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Temperatur:     96.6C\n"
+"\\tab;Temperatur:     96.7C\n"
 "\\tab;Atmosphäre:     CO2. SO2. HCN, HS, CH4. NH3\n"
-"\\tab;Wind:           2.7 m/s\n"
+"\\tab;Wind:           2.8 m/s\n"
 "\\tab;Titanerz:       nicht vorhanden\n"
 "\\tab;Platinerz:      nicht vorhanden"
 
@@ -120,8 +126,12 @@ msgstr "-> Zusätzliche Informationen<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       immediate"
+"\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Entdeckt:       Roboter\n"
+"\\tab;  - Typ:         unbekannt\n"
 "\\tab;Entdeckt:       Riesenameisen\n"
-"\\tab;  - Gefahr:     unmittelbar"
+"\\tab;  - Gefahr:     nicht unmittelbar"

@@ -1,10 +1,10 @@
-Title.E text="Technological Treasure"
-Resume.E text="Rediscover a new type of bot."
+Title.E text="Time for a sharp exit"
+Resume.E text="Try to leave the planet alive."
 Instructions name="%lvl%/help/help.%lng%.txt"
 Satellite name="%lvl%/help/report.%lng%.txt"
 Loading name="programs/8_ServiceTower1_link.txt"
 HelpFile name="cbot.txt"
-EndingFile win=604 lost=0
+EndingFile win=-1 lost=0
 
 Audio filename="music006.ogg"
 
@@ -21,20 +21,24 @@ GroundSpot color=0.510;0.314;0.000 min=-10 max=10 smooth=20
 MaxFlyingHeight max=40
 
 BeginObject
-LevelController script="%lvl%/safehome.txt"
-
-CreateObject pos=160.00;-260.00 dir=0.0 type=SpaceShip run=1
+CreateObject pos=160.00;-260.00 dir=0.0 type=SpaceShip run=0
 CreateObject pos=160.00;-263.25 dir=1.5 type=Me range=5
-CreateObject pos=156.75;-263.25 dir=1.5 type=WingedGrabber power=100 script4="exchg1.txt" script3="charge2.txt" script2="titan3.txt" script1="tower1.txt" range=5
+CreateObject pos=163.25;-263.25 dir=1.5 type=WingedOrgaShooter power=40 select=1 script1="charge2.txt"
 CreateObject pos=156.75;-260.00 dir=0.0 type=BlackBox
+
+CreateObject pos=129;-283 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=210;-280 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+//CreateObject pos=187;-242 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=200;-262 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=205;-287 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=178;-302 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=120;-270 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
+CreateObject pos=145;-223 cmdline=160;-260; 60 dir=0.0 type=AlienAnt script1="antict.txt" run=1
 
 CreateObject pos= -33;-163 dir=1.2 type=Greenery15
 CreateObject pos= -30;-168 dir=0.2 type=Greenery16
 CreateObject pos= -24;-160 dir=0.7 type=Greenery17
 CreateObject pos= -25;-158 dir=0.0 type=Greenery18
-
-CreateObject pos= -87;-127 cmdline= -87;-127; 17 dir=0.0 type=AlienAnt script1="antich.txt" run=1
-CreateObject pos= -94; -25 cmdline= -94; -25; 40 dir=0.0 type=AlienAnt script1="antich.txt" run=1
 
 CreateObject pos= -90; -49 dir=0.0 type=Greenery18
 CreateObject pos= -65; -32 dir=0.9 type=Greenery16
@@ -59,13 +63,21 @@ CreateObject pos= 70; 33 dir=0.9 type=Greenery15
 CreateObject pos= 81; 81 dir=0.9 type=Greenery17
 CreateObject pos= 83; 86 dir=0.0 type=Greenery15
 
-CreateObject pos= 110; 133 dir=0.7 type=Greenery15
-CreateObject pos= 109; 152 dir=0.9 type=Greenery17
-CreateObject pos= 104; 154 dir=0.9 type=Greenery16
-CreateObject pos= 106; 163 dir=0.3 type=Greenery15
-CreateObject pos= 109; 159 dir=1.0 type=Greenery18
-CreateObject pos= 114; 171 dir=0.9 type=Greenery19
-CreateObject pos= 126; 204 dir=0.2 type=Greenery16
+CreateObject pos= 151; 151 dir=0.7 type=Greenery15
+CreateObject pos= 151; 177 dir=0.9 type=Greenery17
+CreateObject pos= 155; 180 dir=0.9 type=Greenery16
+CreateObject pos= 160; 180 dir=0.3 type=Greenery15
+CreateObject pos= 159; 173 dir=1.0 type=Greenery18
+CreateObject pos= 155; 173 dir=0.9 type=Greenery19
+CreateObject pos= 144; 217 dir=0.2 type=Greenery16
+
+CreateObject pos= 166; 256 dir=0.7 type=Greenery15
+
+CreateObject pos= 59; 254 dir=0.9 type=Greenery16
+CreateObject pos= 57; 257 dir=0.2 type=Greenery18
+
+CreateObject pos= 109; 311 dir=0.2 type=Greenery18
+CreateObject pos= 106; 310 dir=1.7 type=Greenery15
 
 CreateObject pos=-246; 144 dir=0.0 type=Greenery18
 CreateObject pos=-242; 141 dir=0.4 type=Greenery15
@@ -85,8 +97,6 @@ CreateObject pos=-342;66 dir=0.4 type=PowerCell power=0.0
 CreateObject pos=-342;59 dir=0.4 type=PowerCell power=0.0
 CreateObject pos=-321;53 dir=0.4 type=PowerCell power=0.0
 CreateObject pos=-304;48 dir=0.4 type=PowerCell power=0.0
-CreateObject pos=-348;54 dir=0.0 type=NuclearCell power=0.4 proxyActivate=1 proxyDistance=5
-CreateObject pos=-345;82 dir=1.2 type=WingedOrgaShooter power=0 proxyActivate=1 proxyDistance=12 camera=BACK
 CreateObject pos=-308;50 dir=0.0 type=Greenery16
 CreateObject pos=-305;43 dir=0.4 type=Greenery15
 CreateObject pos=-309;41 dir=0.1 type=Greenery17
@@ -101,9 +111,6 @@ CreateObject pos=-347;64 dir=0.9 type=Greenery15
 CreateObject pos=-348;73 dir=0.2 type=Greenery17
 CreateObject pos=-344;76 dir=1.4 type=Greenery16
 CreateObject pos=-348;81 dir=0.6 type=Greenery18
-
-CreateObject pos=-313;48 cmdline=-313;48; 10 dir=0.7 type=AlienEgg
-CreateObject pos=-340;52 cmdline=-340;52; 10 dir=0.2 type=AlienEgg
 
 CreateFog pos= -27;-162 height=-10 dim=50 delay=4.0 type=2
 CreateFog pos= -27;-162 height=-12 dim=50 delay=5.0 type=3
@@ -176,8 +183,8 @@ DoneResearch type=BUILDER
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=WingedOrgaShooter lost=0
+EndMissionTake pos=160.00;-260.00 dist=8.0 type=WingedOrgaShooter min=1
 EndMissionTake pos=160.00;-260.00 dist=8.0 type=Me min=1
-EndMissionTake pos=160.00;-260.00 dist=8.0 type=WingedOrgaShooter min=1 immediat=1
-EndMissionDelay win=1 lost=1
+EndMissionTake pos=0.00;0.00 dist=1000.00 type=AlienAnt min=0 max=0
 
-Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0
+Camera eye=160.00;5.00;-363.25 lookat=160.00;1.00;-263.25 delay=0

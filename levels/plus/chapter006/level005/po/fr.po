@@ -20,41 +20,47 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Time for a sharp exit"
-msgstr "Départ en catastrophe"
+msgid "Technological Treasure"
+msgstr "Sauvetage"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Try to leave the planet alive."
-msgstr "Essayez de quitter cette planète vivant."
+msgid "Rediscover a new type of bot."
+msgstr "Partez sauver un tout nouveau type de robot."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "From Mission Control"
+msgid "An urgent notification from Mission Control"
 msgstr "Instructions de Houston"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Défendez-vous contre l'attaque des <a object|ant>fourmis</a>, et décollez!"
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Au moment du décollage, le satellite d'observation nous a informé qu'il a découvert un robot d'un type inconnu. Ramenez ce robot sur le vaisseau."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Nos ingénieurs ont trouvé entre-temps une manière de faire fonctionner les réacteurs dans les températures qui règnent sur Volcano, au moins pour de courtes durées. Les informations nécessaires ont été transmises à votre vaisseau."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
 
 #. type: \t; header
-#: ../help/help.E.txt:6
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr "Voir aussi"
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Commandes</a>."
@@ -81,15 +87,15 @@ msgstr "-> SURFACE<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.6C\n"
+"\\tab;Temperature:      96.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.7 mps\n"
+"\\tab;Wind:             2.8 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Température:      96.6 degrés\n"
+"\\tab;Température:      96.7 degrés\n"
 "\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Vent:             2.7 m/s\n"
+"\\tab;Vent:             2.8 m/s\n"
 "\\tab;Minerai de titane:aucun\n"
 "\\tab;Minerai d'uranium:aucun"
 
@@ -121,8 +127,12 @@ msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       immediate"
+"\\tab;  - Danger:       not immediate"
 msgstr ""
 "\\tab;Détecté:          fourmis géantes\n"
-"\\tab;  - Danger:       oui, imminent"
+"\\tab;  - Danger:       oui, pas imminent\n"
+"\\tab;Détecté:          robot\n"
+"\\tab;  - Type:         inconnu"

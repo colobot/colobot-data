@@ -19,13 +19,13 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Analysis"
+msgid "Time for a sharp exit"
 msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Recover and analyze some organic matter."
+msgid "Try to leave the planet alive."
 msgstr ""
 
 #. type: \b; header
@@ -37,59 +37,23 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "The previous expedition provided us with a piece of information about some <a object|bullet>organic matter</a>, which seems to be produced by the <a object|ant>ants</a>, and which opened startling new possibilities. It apparently allows the creation of a new type of mutant bot with enhanced performance through the use of insect parts."
+msgid "You need to repel a last minute ant attack before taking off."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Your mission is to experiment with the first practical application of this \"green gold\". Build a <a object|botgs>legged grabber bot</a>, load it on the spaceship and take off."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:6
-#, no-wrap
-msgid "Procedure"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:7
-#, no-wrap
-msgid "Take a sample of organic matter from a nest of giant ants. The analysis of it will be performed by an <a object|labo>autolab</a>, which will also perform the necessary research to allow a practical application."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "In order to improve your defense capacity, we have transmitted a program to your <a object|botgr>grabber bots</a> that takes care of recharging the power cell of a <a object|tower>defense tower</a> (see <button 53/> )."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:11
-#, no-wrap
-msgid "Note"
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:12
-#, no-wrap
-msgid "The temperature has dropped significantly, it should therefore be possible to fly."
-msgstr ""
-
-#. type: Plain text
-#: ../help/help.E.txt:14
-#, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr ""
 
 #. type: \t; header
-#: ../help/help.E.txt:16
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
 msgstr ""
 
 #. type: Plain text
-#: ../help/help.E.txt:17
+#: ../help/help.E.txt:7
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr ""
@@ -116,11 +80,11 @@ msgstr ""
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      53.1C\n"
+"\\tab;Temperature:      96.6C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             0.3 mps\n"
-"\\tab;Titanium ore:     some\n"
-"\\tab;Uranium ore:      little"
+"\\tab;Wind:             2.7 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
 msgstr ""
 
 #. type: Source code
@@ -133,7 +97,7 @@ msgstr ""
 #: ../help/report.E.txt:12
 #, no-wrap
 msgid ""
-"\\tab;Energy source:    everywhere\n"
+"\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -149,7 +113,5 @@ msgstr ""
 #, no-wrap
 msgid ""
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       yes, not immediate\n"
-"\\tab;Detected:         unknown flying organisms\n"
-"\\tab;  - Danger:       yes, immediate"
+"\\tab;  - Danger:       immediate"
 msgstr ""

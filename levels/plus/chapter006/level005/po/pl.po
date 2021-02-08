@@ -19,41 +19,47 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Time for a sharp exit"
-msgstr "Czas na szybki odlot"
+msgid "Technological Treasure"
+msgstr "Technologiczny skarb"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Try to leave the planet alive."
-msgstr "Postaraj się odlecieć żywy z planety."
+msgid "Rediscover a new type of bot."
+msgstr "Odkryj tajemnicę robota nowego typu."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "From Mission Control"
-msgstr "Z Centrum Kontroli Misji"
+msgid "An urgent notification from Mission Control"
+msgstr "Pilna wiadomość z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Przed opuszczeniem tej planety musisz odeprzeć ostatni atak mrówek."
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Podczas Twoich przygotowań do odlotu, otrzymaliśmy z satelity następującą informację: na Wulkanii został wykryty robot nieznanego typu. Spróbuj dostarczyć go na statek kosmiczny do dalszych badań."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Nasi inżynierowie na Ziemi ostatnio znaleźli rozwiązanie, które umożliwi choć krótkie działanie reaktorów pomimo wysokiej temperatury. Dane te zostały przesłane do Ciebie."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
-#: ../help/help.E.txt:6
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr "Zobacz również"
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
@@ -80,15 +86,15 @@ msgstr "-> POWIERZCHNIA<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.6C\n"
+"\\tab;Temperature:      96.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.7 mps\n"
+"\\tab;Wind:             2.8 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Temperatura:      96,6C\n"
+"\\tab;Temperatura:      96,7C\n"
 "\\tab;Atmosfera:        CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wiatr:            2,7 m/s\n"
+"\\tab;Wiatr:            2,8 m/s\n"
 "\\tab;Ruda tytanu:      brak\n"
 "\\tab;Ruda uranu:       brak"
 
@@ -120,8 +126,12 @@ msgstr "-> DODATKOWE INFORMACJE<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       immediate"
+"\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Wykryto:          robot\n"
+"\\tab;  - Typ:          nieznany\n"
 "\\tab;Wykryto:          olbrzymie mrówki\n"
-"\\tab;  - Zagrożenie:   bezpośrednie"
+"\\tab;  - Zagrożenie:   niebezpośrednie"

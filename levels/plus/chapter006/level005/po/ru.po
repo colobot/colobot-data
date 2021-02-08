@@ -19,41 +19,47 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Time for a sharp exit"
-msgstr "Время уйти не попрощавшись"
+msgid "Technological Treasure"
+msgstr "Технологическое сокровище"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Try to leave the planet alive."
-msgstr "Попытайтесь улететь с планеты живым."
+msgid "Rediscover a new type of bot."
+msgstr "Откройте для себя новый тип бота."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgid "An urgent notification from Mission Control"
+msgstr "Срочное сообщение центра управления полетом"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "You need to repel a last minute ant attack before taking off."
-msgstr "Перед тем, как взлететь, вы должны отразить последнюю атаку муравьев."
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Когда вы уже собирались взлететь, мы получили со спутника следующий обрывок информации: на Вулкане обнаружен неизвестного пока типа бот. Попытайтесь доставить его к себе на корабль для продолжения дальнейших исследований."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Наши инженеры на Земле недавно вывели формулу, которая должна обеспечить нормальную работу реакторов, по крайней мере, некоторое время, несмотря на высокую температуру. Данные об этом были вам переданы."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
 msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
 
 #. type: \t; header
-#: ../help/help.E.txt:6
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "See also"
 msgstr "См. также"
 
 #. type: Plain text
-#: ../help/help.E.txt:7
+#: ../help/help.E.txt:9
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
 msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
@@ -80,15 +86,15 @@ msgstr "-> ПОВЕРХНОСТЬ<c/>"
 #: ../help/report.E.txt:5
 #, no-wrap
 msgid ""
-"\\tab;Temperature:      96.6C\n"
+"\\tab;Temperature:      96.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Wind:             2.7 mps\n"
+"\\tab;Wind:             2.8 mps\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Температура:      96.6C\n"
+"\\tab;Температура:      96.7C\n"
 "\\tab;Атмосфера:       CO2, SO2, HCN, HS, CH4, NH3\n"
-"\\tab;Ветер:             2.7 м/с\n"
+"\\tab;Ветер:             2.8 м/с\n"
 "\\tab;Титановая руда:     нет\n"
 "\\tab;Урановая руда:      нет"
 
@@ -120,8 +126,12 @@ msgstr "-> ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ<c/>"
 #: ../help/report.E.txt:17
 #, no-wrap
 msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
 "\\tab;Detected:         giant ants\n"
-"\\tab;  - Danger:       immediate"
+"\\tab;  - Danger:       not immediate"
 msgstr ""
+"\\tab;Замечено:         бот\n"
+"\\tab;  - Тип:         неизвестен\n"
 "\\tab;Замечено:         гигантские муравьи\n"
-"\\tab;  - Опасность:       прямая"
+"\\tab;  - Опасность:       непрямая"
