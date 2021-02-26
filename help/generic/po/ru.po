@@ -2,61 +2,49 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-26 18:06+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
-
-#. type: Plain text
-#: ../E/authors.txt:1
-#, no-wrap
-msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
-msgstr ""
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:2
 #, no-wrap
 msgid "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
-msgstr ""
+msgstr "Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:3
 #, no-wrap
 msgid "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
-msgstr ""
+msgstr "Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:4
 #, no-wrap
 msgid "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
-msgstr ""
-
-#. type: Plain text
-#: ../E/authors.txt:6
-#, no-wrap
-msgid "Colobot: Gold Edition developers"
-msgstr ""
+msgstr "Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:7
 #, no-wrap
 msgid "TerranovaTeam: https://github.com/orgs/colobot/members"
-msgstr ""
+msgstr "TerranovaTeam: https://github.com/orgs/colobot/members"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:8
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
-msgstr ""
+msgstr "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
 
 #. type: \b; header
 #: ../E/cbot.txt:1
@@ -71,8 +59,8 @@ msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
-"Язык CBOT очень близок к структуре и синтаксису языков C++ и Java. Он был адаптировать для специальный целей COLOBOT и для эффективного педагогического подхода.\n"
-"Этот язык состоит из инструкций (смотри ниже), <a cbot|bloc>блоки</a>, <a cbot|function>функции</a>, <a cbot|class>классы</a>, <a cbot|var>переменные</a>, <a cbot|array>массивы</a>, <a cbot|expr>выражения</a> и <a cbot|cond>условия</a>."
+"Язык CBOT очень близок к структуре и синтаксису языков C++ и Java. Он был адаптирован для специальных целей COLOBOT и для эффективного педагогического подхода.\n"
+"Этот язык состоит из инструкций (смотрите ниже), <a cbot|bloc>блоки</a>, <a cbot|function>функции</a>, <a cbot|class>классы</a>, <a cbot|var>переменные</a>, <a cbot|array>массивы</a>, <a cbot|expr>выражения</a> и <a cbot|cond>условия</a>."
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:8
@@ -125,10 +113,10 @@ msgid ""
 "<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
 msgstr ""
-"<code><a cbot|receive>receive</a>    </code>Получает информацию\n"
-"<code><a cbot|send>send</a>       </code>Посылает новую информацию\n"
-"<code><a cbot|testinfo>testinfo</a>   </code>Проверяет существует ли информация\n"
-"<code><a cbot|delinfo>deleteinfo</a> </code>Удаляет существующую информацию\n"
+"<code><a cbot|receive>receive</a>    </code>Получить информацию\n"
+"<code><a cbot|send>send</a>       </code>Послать новую информацию\n"
+"<code><a cbot|testinfo>testinfo</a>   </code>Проверить существование информации\n"
+"<code><a cbot|delinfo>deleteinfo</a> </code>Удалить существующую информацию"
 
 #. type: \t; header
 #: ../E/cbot.txt:85
@@ -155,14 +143,14 @@ msgid ""
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
 msgstr ""
-"<code><a cbot|strlen>strlen</a>     </code>Получает длину строки\n"
-"<code><a cbot|strleft>strleft</a>    </code>Извлекает левую часть\n"
-"<code><a cbot|strright>strright</a>   </code>Извлекает правую часть\n"
-"<code><a cbot|strmid>strmid</a>     </code>Извлекает центральную часть\n"
-"<code><a cbot|strfind>strfind</a>    </code>Находит подстроку.\n"
-"<code><a cbot|strval>strval</a>     </code>Конвертирует строку в число\n"
-"<code><a cbot|strupper>strupper</a>   </code>Конвертирует в верхний регистр\n"
-"<code><a cbot|strlower>strlower</a>   </code>Конвертирует в нижний регистр"
+"<code><a cbot|strlen>strlen</a>     </code>Получить длину строки\n"
+"<code><a cbot|strleft>strleft</a>    </code>Извлечь левую часть\n"
+"<code><a cbot|strright>strright</a>   </code>Извлечь правую часть\n"
+"<code><a cbot|strmid>strmid</a>     </code>Извлечь центральную часть\n"
+"<code><a cbot|strfind>strfind</a>    </code>Найти подстроку.\n"
+"<code><a cbot|strval>strval</a>     </code>Преобразовать строку в число\n"
+"<code><a cbot|strupper>strupper</a>   </code>Преобразовать в верхний регистр\n"
+"<code><a cbot|strlower>strlower</a>   </code>Преобразовать в нижний регистр"
 
 #. type: \t; header
 #: ../E/cbot.txt:107
@@ -181,18 +169,18 @@ msgid ""
 "<code><a cbot|eof>eof</a>        </code>Tests if end of file\n"
 "<code><a cbot|deletef>deletefile</a> </code>Deletes a file"
 msgstr ""
-"<code><a cbot|open>open</a>       </code>Открывает файл\n"
-"<code><a cbot|close>close</a>      </code>Закрывает файл\n"
-"<code><a cbot|writeln>writeln</a>    </code>Записывает строку в файл\n"
-"<code><a cbot|readln>readln</a>     </code>Читает строку из файла\n"
-"<code><a cbot|eof>eof</a>        </code>Проверяет достугнут ли конец файла\n"
-"<code><a cbot|deletef>deletefile</a> </code>Удаляет файл"
+"<code><a cbot|open>open</a>       </code>Открыть файл\n"
+"<code><a cbot|close>close</a>      </code>Закрыть файл\n"
+"<code><a cbot|writeln>writeln</a>    </code>Записать строку в файл\n"
+"<code><a cbot|readln>readln</a>     </code>Считать строку из файла\n"
+"<code><a cbot|eof>eof</a>        </code>Проверить достигнут ли конец файла (EOF)\n"
+"<code><a cbot|deletef>deletefile</a> </code>Удалить файл"
 
 #. type: \t; header
 #: ../E/battles.txt:53 ../E/cbot.txt:131 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../E/cbot.txt:132
@@ -210,7 +198,7 @@ msgstr "Управление"
 #: ../E/command.txt:2
 #, no-wrap
 msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
-msgstr "Советуем играть, держа одну руку на кнопках со стрелками, а вторую - на мыши."
+msgstr "Рекомендуется играть одной рукой на клавишах со стрелками, а другой рукой мышью."
 
 #. type: \t; header
 #: ../E/command.txt:4
@@ -228,11 +216,11 @@ msgid ""
 "<format key><key down/></format> = move back\n"
 "These controls are unavailable when working with the <a object|bottr>practice bots</a>."
 msgstr ""
-"<format key><key left/></format> = поворот влево\n"
-"<format key><key right/></format> = поворот вправо\n"
-"<format key><key up/></format> = вперед\n"
-"<format key><key down/></format> = назад\n"
-"Эти клавиши управления недоступны при работе с <a object|bottr>учебными ботами</a>."
+"<format key><key left/></format> = повернуть влево\n"
+"<format key><key right/></format> = повернуть вправо\n"
+"<format key><key up/></format> = двигаться вперёд\n"
+"<format key><key down/></format> = двигаться назад\n"
+"Это управление недоступно при работе с <a object|bottr>Ботом Учебным</a>."
 
 #. type: Plain text
 #: ../E/command.txt:11
@@ -242,9 +230,9 @@ msgid ""
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
 "These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
 msgstr ""
-"<format key><key gup/></format> = взлет и подъем <button 28/>\n"
-"<format key><key gdown/></format> = спуск и посадка <button 29/>\n"
-"Конечно же, этими клавишами могут пользоваться только <a object|human>астронавт</a> и различные <a object|botgj>летающие боты</a>."
+"<format key><key gup/></format> = взлететь и подняться <button 28/>\n"
+"<format key><key gdown/></format> = спуститься и приземлиться <button 29/>\n"
+"Это управление, доступно только для <a object|human>Космонавта</a>, а также для <a object|botgj>Бота Крылатого</a> и только в некоторых миссиях."
 
 #. type: Plain text
 #: ../E/command.txt:15
@@ -256,11 +244,11 @@ msgid ""
 "mouse left = aim left\n"
 "These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
 msgstr ""
-"Мышь вперед = поднять прицел\n"
-"Мышь назад = опустить прицел\n"
-"Мышь вправо = прицел вправо\n"
-"Мышь влево = прицел влево\n"
-"Эти движения доступны только для <a object|botfr>стрелков</a>, <a object|botor>орга-стрелков</a> и <a object|botphaz>фазерного стрелка</a>."
+"мышь вперёд = прицел поднять\n"
+"мышь назад = прицел опустить\n"
+"мышь вправо = прицел вправо\n"
+"мышь влево = прицел влево\n"
+"Это управление доступно только для <a object|botfr>Стрелка</a>, <a object|botor>Био-Стрелка</a> и <a object|botphaz>Стрелка Ферзь</a>."
 
 #. type: Plain text
 #: ../E/command.txt:21
@@ -269,14 +257,14 @@ msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
-"<format key><key action/></format> = основное действие для выбранного объекта (человек или бот)\n"
-"Эта клавиша, например, управляет рукой <a object|botgr>сборщика</a> или производит <a object|botfr>выстрел</a> <button 42/>."
+"<format key><key action/></format> = основное действие для данного выбора (человек или бот)\n"
+"Это управление, например управляет манипулятором <a object|botgr>Погрузчика</a> или огнём <a object|botfr>Стрелка</a> <button 42/>."
 
 #. type: \t; header
 #: ../E/command.txt:24
 #, no-wrap
 msgid "Selections"
-msgstr "Выделения"
+msgstr "Выбор"
 
 #. type: Plain text
 #: ../E/command.txt:25
@@ -287,8 +275,8 @@ msgid ""
 "<format key><key desel/></format> = previous selection <button 10/>"
 msgstr ""
 "<format key><key next/></format> = выбрать следующий объект\n"
-"<format key><key human/></format> = выбрать астронавта\n"
-"<format key><key desel/></format> = предыдущий объект <button 10/>"
+"<format key><key human/></format> = выбрать космонавта\n"
+"<format key><key desel/></format> = выбрать предыдущий объект <button 10/>"
 
 #. type: \t; header
 #: ../E/command.txt:29
@@ -305,10 +293,10 @@ msgid ""
 "<format key><key away/></format> = zoom out\n"
 "<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
 msgstr ""
-"<format key><key camera/></format> = переключения между бортовой и задней камерой <button 13/>\n"
-"<format key><key near/></format> = увеличение\n"
-"<format key><key away/></format> = уменьшение\n"
-"<format key><key visit/></format> = останавливает игру и показывает место, откуда появилось последнее сообщение. Нажмите еще раз, чтобы увидеть место, где появилось предыдущее сообщение."
+"<format key><key camera/></format> = переключить между бортовой и задней камерой <button 13/>\n"
+"<format key><key near/></format> = увеличить\n"
+"<format key><key away/></format> = уменьшить\n"
+"<format key><key visit/></format> = остановить игру и показать последнее сообщение. Нажать повторно, чтобы показать предыдущее сообщение."
 
 #. type: \t; header
 #: ../E/command.txt:35
@@ -348,7 +336,7 @@ msgstr "Задание"
 #: ../E/freehelp.txt:2
 #, no-wrap
 msgid "Here you can play around without any definite objective. You can do whatever you want, explore the region, build a base camp and several bots, run various research programs, kill the insects if you find some, etc."
-msgstr "Здесь вы можете играть безо всякой определенной цели. Вы можете делать все, что хотите, исследовать местность, создать базу и ботов, начать разнообразные исследовательские программы, убивать насекомых, которых вы встретите и т.п."
+msgstr "Здесь можно поиграться без какой-либо конкретной цели. Вы можете делать всё, что захотите, исследовать регион, построить базовый лагерь и несколько ботов, запускать различные исследовательские программы, убивать насекомых, если вы их найдете раньше чем они найдут вас, и т.д."
 
 #. type: Plain text
 #: ../E/freehelp.txt:5
@@ -360,13 +348,13 @@ msgstr "<a command>Управление</a>."
 #: ../E/licences.txt:1
 #, no-wrap
 msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
-msgstr "Фотография туманности NGC3606, освещающей небо Орфея и программа установки были получены с помощью космического телескопа Хаббл. Она используется с лоюбезного разрешения авторов Вольфганга Бранднера (JPL/IPAC), Эвы K. Гребель (Вашингтонский университет), Ю-Хуа Чу (Университет Иллинойса) и NASA."
+msgstr "Фотография туманности NGC3606, освещающее небо на Орфеоне, и программа установки были сделаны с помощью космического телескопа Хаббла. Она используется с разрешения авторов Вольфганга Бранднера (JPL/IPAC), Евы К. Гребель (Вашингтонский университет), Ю-Хуа Чу (Иллинойсский университет Урбана-Шампейн) и NASA."
 
 #. type: Plain text
 #: ../E/licences.txt:3
 #, no-wrap
 msgid "The thunder sound on Orpheon is used by limited permission from CREATIVE."
-msgstr "Звук грома на Орфее используется по ограниченному разрешению CREATIVE."
+msgstr "Звук грома на Орфеоне используется с ограниченным правом от CREATIVE."
 
 #. type: \b; header
 #: ../E/navig.txt:1
@@ -378,7 +366,7 @@ msgstr "Навигация"
 #: ../E/navig.txt:2
 #, no-wrap
 msgid "The three buttons on the upper left-hand corner of the screen allow you to navigate in the different texts of the help file:"
-msgstr "Три клавиши, размещенные в левом верхнем углу экрана, позволяют вам перемещаться по разнообразному тексту файла помощи:"
+msgstr "Три кнопки в верхнем левом углу экрана позволяют перемещаться по тексту справки:"
 
 #. type: Plain text
 #: ../E/navig.txt:4
@@ -388,7 +376,7 @@ msgid ""
 "Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
 msgstr ""
 "<button 30/> Домой\n"
-"Возврат к домашней странице, то есть к первой отображенной странице. Например, когда вы нажимаете клавишу <format key><key help/></format> или <format key><key prog/></format> ."
+"Возвращает на домашнюю страницу, то есть на первую показанную страницу, например, когда вы нажимаете <format key><key help/></format> или <format key><key prog/></format> клавиши."
 
 #. type: Plain text
 #: ../E/navig.txt:7
@@ -398,7 +386,7 @@ msgid ""
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
 msgstr ""
 "<button 55/> Назад\n"
-"Возврат к предыдущей странице, то есть к той странице, которая была отображена в то время, когда вы щелкнули на ссылке."
+"Возвращает на предыдущую страницу, то есть страницу, которая отображалась до того, как вы нажали ссылку."
 
 #. type: Plain text
 #: ../E/navig.txt:10
@@ -407,8 +395,8 @@ msgid ""
 "<button 48/> Next\n"
 "Get again to the next page, after you used the \"Home\" or \"Previous\" button."
 msgstr ""
-"<button 48/> Дальше\n"
-"Снова перейти на следующую страницу, после того, как вы нажимали кнопки \"Домой\" или \"Назад\"."
+"<button 48/> Далее\n"
+"Вернет на следующую страницу после того, как вы нажали кнопку «Домой» или «Назад»."
 
 #. type: \t; header
 #: ../E/navig.txt:13
@@ -423,7 +411,7 @@ msgid ""
 "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
 "This remark is valid for all buttons in COLOBOT."
 msgstr ""
-"Когда цвет кнопки серый, это означает, что ее нельзя использовать в этот момент. Например, когда вы находитесь на домашней странице, серой будет кнопка \"Домой\", так как в ее использовании нет смысла.\n"
+"Когда цвет кнопки серый, это означает, что её нельзя использовать в этот момент. Например, когда вы находитесь на домашней странице, серой будет кнопка \"Домой\", так как в её использовании нет смысла.\n"
 "Этот комментарий может быть применен для всех кнопок игры COLOBOT."
 
 #. type: \t; header
@@ -457,32 +445,44 @@ msgid ""
 "Houston congratulates you in the name of mankind for the success of your mission.\n"
 "The Great Migration to Terra Nova will start very soon."
 msgstr ""
-"Хьюстон поздравляет вас от имени всего человечества с успешным выполнением миссии.\n"
-"Большое переселение на Терра Нову начнется очень скоро."
+"Хьюстон от имени всего человечества поздравляет Вас с успешным выполнением миссии.\n"
+"Великое Переселение на Терра Нова начнётся очень скоро."
+
+#. type: Plain text
+#: ../E/authors.txt:1
+#, no-wrap
+msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
+msgstr "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
+
+#. type: Plain text
+#: ../E/authors.txt:6
+#, no-wrap
+msgid "Colobot: Gold Edition developers"
+msgstr "Colobot: Gold Edition developers"
 
 #. type: \b; header
 #: ../E/battles.txt:1
 #, no-wrap
 msgid "Code battles"
-msgstr "Битвы программ"
+msgstr "Битва программ"
 
 #. type: Plain text
 #: ../E/battles.txt:2
 #, no-wrap
 msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. The idea is that you set up two programs (yours and the opponent's) to fight with each other. The player can't interact with the world manually."
-msgstr "Битва программ - это полностью новый игровой режим представленный в Colobot: Gold Edition. Идея в том, что вы уставливаете две программы (вашу и оппонента) чтобы они сражались друг с другом. Игрок не может взаимодействовать с миром вручную."
+msgstr "Битва программ - это полностью новый игровой режим представленный в Colobot: Gold Edition. Идея в том, что вы устанавливаете две программы (вашу и оппонента) чтобы они сражались друг с другом. Игрок не может взаимодействовать с миром вручную."
 
 #. type: Plain text
 #: ../E/battles.txt:18
 #, no-wrap
 msgid "With the new functions provided in the Gold Edition, you can create a fully automatised base, which does not need any influence from <a object|human>human</a>. All of them are described in the <a cbot>CBOT documentation</a>."
-msgstr "С новыми функциями предоставленными в Gold Edition, вы можете создать полностью автоматизированную базу, которой не нужно никакое влияние со стороны <a object|human>человека</a>. Все они описаны в <a cbot>Документации CBOT</a>."
+msgstr "С новыми функциями представленными в Gold Edition, вы можете создать полностью автоматизированную базу, которой не нужно никакое внимание со стороны <a object|human>человека</a>. Все они описаны в <a cbot>Документации CBOT</a>."
 
 #. type: Plain text
 #: ../E/battles.txt:20
 #, no-wrap
 msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
-msgstr "Произведственная линия объяснена в Миссиях и Упражнениях, но вы можете прямо перейти в битвы программ не нарушая всю игру. Поэтому здесь приведено краткое описание как что работает в Colobot."
+msgstr "Производственная линия объяснена в Миссиях и Тренировках, но вы можете прямо перейти к Битве программ не нарушая всю игру. Это краткое описание того, как всё работает в Colobot."
 
 #. type: \t; header
 #: ../E/battles.txt:22
@@ -494,19 +494,19 @@ msgstr "Что вы хотите достичь"
 #: ../E/battles.txt:23
 #, no-wrap
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
-msgstr "В основном, вы хотите уничтожить оппонента. Чтобы это сделать, вам нужно что то летающее, например, робот, особенно, <a object|botfr>стрелок</a>. Но вы, вероятно, будете их часто терять, поэтому, возможно, вы должны поддерживать производство работающим. Например, больше <a object|botgr>сборщиков</a> или больше <a object|factory>фабрик</a>, <a object|convert>конвертеров</a> и так далее было бы полезно в этом случае. Запомните, что роботам нужны <a object|power>батареи</a>. В любом случае, перед тем как вы начнете, вы должны также сделать несколько <a object|research>исследований</a> чтобы получить лучшие технологии. И опять, вы вначале с одним <a object|botgr>роботом</a> и <a object|titan>Титаном</a>."
+msgstr "В основном, вы хотите уничтожить оппонента. Для этого вам понадобится что-нибудь смертоносное, например, бот, в частности, <a object|botfr>Стрелок</a>. Но вы, вероятно, будете их терять довольно часто, поэтому не стоит останавливать производство. Например, понадобится больше <a object|botgr>Погрузчиков</a> или больше <a object|factory>Фабрик</a>, <a object|convert>Преобразователей</a> и т.д. Помните, что ботам нужны <a object|power>Батареи</a>. В любом случае, вначале, вы должны провести несколько <a object|research>Исследований</a>, чтобы заполучить развитые технологии. И вот мы в самом начале, с единственным <a object|botgr>Ботом</a> и <a object|titan>Титаном</a>."
 
 #. type: Image filename
 #: ../E/battles.txt:25
 #, no-wrap
 msgid "productionline1"
-msgstr ""
+msgstr "productionline1"
 
 #. type: \t; header
 #: ../E/battles.txt:27
 #, no-wrap
 msgid "Titanium production"
-msgstr "Производство титана"
+msgstr "Производство Титана"
 
 #. type: Plain text
 #: ../E/battles.txt:28
@@ -520,9 +520,9 @@ msgid ""
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
 "1. <a cbot|radar>Найдите</a> <a object|titan>Титан</a>.\n"
-"2. <a cbot|build>Постройте</a> <a object|convert>Конвертер</a>.\n"
-"3. Найдите <a object|titanore>Титановую руду</a>.\n"
-"4. Поместите ее в конвертер. Отойдите назад и подождите, пока конвертер закончит работу.\n"
+"2. <a cbot|build>Постройте</a> <a object|convert>Преобразователь</a>.\n"
+"3. Найдите <a object|titanore>Руду Титановую</a>.\n"
+"4. Поместите её в Преобразователь. Отойдите назад и подождите, пока Преобразователь закончит.\n"
 "5. Используйте или переместите ваш новый Титан.\n"
 "Повторяйте шаги 3-5 чтобы поддерживать ваше производство работающим."
 
@@ -540,12 +540,15 @@ msgid ""
 "2. Power it with a <a object|power>PowerCell</a>.\n"
 "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
 msgstr ""
+"1. <a cbot|build>Постройте</a> a <a object|research>Центр Иссоедований</a>.\n"
+"2. Включите с помощью <a object|power>Батареи</a>.\n"
+"3. <a cbot|research>Выберите</a> <a cbot|researches>Исследование</a> и дождитесь, пока Центр Исследований закончит."
 
 #. type: \t; header
 #: ../E/battles.txt:40
 #, no-wrap
 msgid "Robot production"
-msgstr "Производство роботов"
+msgstr "Производство ботов"
 
 #. type: Plain text
 #: ../E/battles.txt:41
@@ -556,12 +559,16 @@ msgid ""
 "3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
 "4. Power the robot with a <a object|power>PowerCell</a>."
 msgstr ""
+"1. <a cbot|build>Постройте</a> <a object|factory>Фабрику Ботов</a>.\n"
+"2. Поместите <a object|titan>Титан</a> внутрь и отойдите назад.\n"
+"3. <a cbot|factory>Выберите</a> конструкцию бота и дождитесь, пока Фабрика Ботов закончит.\n"
+"4. Оживите бота с помощью <a object|power>Батареи</a>."
 
 #. type: \t; header
 #: ../E/battles.txt:46
 #, no-wrap
 msgid "Power cell production"
-msgstr "Произодство батарей"
+msgstr "Производство Батареи"
 
 #. type: Plain text
 #: ../E/battles.txt:47
@@ -570,18 +577,20 @@ msgid ""
 "1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
 "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
 msgstr ""
+"1. <a cbot|build>Постройте</a> <a object|energy>Энергостанцию</a>.\n"
+"2. Поместите <a object|titan>Титан</a> внутрь и дождитесь, пока Энергостанция закончит."
 
 #. type: \t; header
 #: ../E/battles.txt:50
 #, no-wrap
 msgid "There is more"
-msgstr "Есть еще"
+msgstr "Есть ещё"
 
 #. type: Plain text
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr "Есть еще больше опций, это только основные. Прочитайте документацию, играйте в игруи творчески думайте чтобы придумать новые идеи. Удачи и веселья!"
+msgstr "Есть ещё больше опций, это только основные. Прочитайте документацию, играйте в игру и творчески думайте чтобы придумать новые идеи. Удачи и веселья!"
 
 #. type: Plain text
 #: ../E/battles.txt:54
@@ -630,10 +639,10 @@ msgid ""
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
 msgstr ""
-"<code><a cbot|space>space</a>      </code>Вычисляет свободное пространство\n"
-"<code><a cbot|flatspace>flatspace</a>  </code>Вычисляет свободное, ровное пространство\n"
-"<code><a cbot|topo>topo</a>       </code>Возвращает высоту точки\n"
-"<code><a cbot|flatgrnd>flatground</a> </code>Возвращает радиус плоской области"
+"<code><a cbot|space>space</a>      </code>Вычислить свободное пространство\n"
+"<code><a cbot|flatspace>flatspace</a>  </code>Вычислить свободное, ровное пространство\n"
+"<code><a cbot|topo>topo</a>       </code>Вернуть высоту точки\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Вернуть радиус ровной области"
 
 #. type: Plain text
 #: ../E/cbot.txt:61
@@ -651,17 +660,17 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
 msgstr ""
-"<code><a cbot|grab>grab</a>       </code>Поднимает объект\n"
-"<code><a cbot|drop>drop</a>       </code>Ставит объект\n"
-"<code><a cbot|sniff>sniff</a>      </code>Проигрывает подземные звуки\n"
-"<code><a cbot|thump>thump</a>      </code>Переворачивает вражеских насекомых\n"
-"<code><a cbot|recycle>recycle</a>    </code>Перерабатывает заброшенног бота\n"
-"<code><a cbot|shield>shield</a>     </code>Достает или убирает щит\n"
-"<code><a cbot|fire>fire</a>       </code>Стреляет из пушки\n"
-"<code><a cbot|aim>aim</a>        </code>Поворачивает пушку\n"
-"<code><a cbot|build>build</a>      </code>Строит здание\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Проверяет можно ли построить здание\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Проверяет можно ли построить здание на уровне"
+"<code><a cbot|grab>grab</a>       </code>Поднять объект\n"
+"<code><a cbot|drop>drop</a>       </code>Поставить объект\n"
+"<code><a cbot|sniff>sniff</a>      </code>Произвести подземное сканирование\n"
+"<code><a cbot|thump>thump</a>      </code>Перевернуть вражеских насекомых\n"
+"<code><a cbot|recycle>recycle</a>    </code>Переработать брошенного бота\n"
+"<code><a cbot|shield>shield</a>     </code>Развернуть или свернуть щит\n"
+"<code><a cbot|fire>fire</a>       </code>Стрелять из орудия\n"
+"<code><a cbot|aim>aim</a>        </code>Повернуть орудие\n"
+"<code><a cbot|build>build</a>      </code>Строить здание\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Проверить возможность постройки здания\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Проверить возможность построить здание на уровне"
 
 #. type: \t; header
 #: ../E/cbot.txt:73
@@ -678,10 +687,10 @@ msgid ""
 "<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
 "<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
 msgstr ""
-"<code><a cbot|factory>factory</a>    </code>Начинает создание бота\n"
-"<code><a cbot|research>research</a>   </code>Начинает исследование\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Начинает взлет космического корабля\n"
-"<code><a cbot|busy>busy</a>       </code>Проверяет занят ли объект"
+"<code><a cbot|factory>factory</a>    </code>Начать создание бота\n"
+"<code><a cbot|research>research</a>   </code>Начать исследование\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Начать взлёт космического корабля\n"
+"<code><a cbot|busy>busy</a>       </code>Проверить занят ли объект"
 
 #. type: \t; header
 #: ../E/cbot.txt:115
@@ -708,20 +717,20 @@ msgid ""
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
 msgstr ""
-"<code><a cbot|rand>rand</a>       </code>Возвращает случайное число\n"
-"<code><a cbot|pow>pow</a>        </code>Возвращает степень числа\n"
-"<code><a cbot|sqrt>sqrt</a>       </code>Вовращает квадратный корень\n"
-"<code><a cbot|floor>floor</a>      </code>Возвращает предыдущее целое число\n"
-"<code><a cbot|ceil>ceil</a>       </code>Возвращает наименьшее следующее целое число\n"
-"<code><a cbot|round>round</a>      </code>Возвращает округленное число\n"
-"<code><a cbot|trunc>trunc</a>      </code>Возвращает усеченное число\n"
-"<code><a cbot|sin>sin</a>        </code>Возвращает синус\n"
-"<code><a cbot|cos>cos</a>        </code>Возвращает косинус\n"
-"<code><a cbot|tan>tan</a>        </code>Возвращает тангенс\n"
-"<code><a cbot|asin>asin</a>       </code>Возвращает арксинус\n"
-"<code><a cbot|acos>acos</a>       </code>Возвращает арккосинус\n"
-"<code><a cbot|atan>atan</a>       </code>Возвращает арктангенс\n"
-"<code><a cbot|atan2>atan2</a>      </code>Возвращет арктангенс, имеет два аргумента"
+"<code><a cbot|rand>rand</a>       </code>Вернуть случайное число\n"
+"<code><a cbot|pow>pow</a>        </code>Вернуть степень числа\n"
+"<code><a cbot|sqrt>sqrt</a>       </code>Вернуть квадратный корень\n"
+"<code><a cbot|floor>floor</a>      </code>Вернуть предыдущее целое число\n"
+"<code><a cbot|ceil>ceil</a>       </code>Вернуть наименьшее следующее целое число\n"
+"<code><a cbot|round>round</a>      </code>Вернуть округлённое число\n"
+"<code><a cbot|trunc>trunc</a>      </code>Вернуть усечённое число\n"
+"<code><a cbot|sin>sin</a>        </code>Вернуть синус\n"
+"<code><a cbot|cos>cos</a>        </code>Вернуть косинус\n"
+"<code><a cbot|tan>tan</a>        </code>Вернуть тангенс\n"
+"<code><a cbot|asin>asin</a>       </code>Вернуть арксинус\n"
+"<code><a cbot|acos>acos</a>       </code>Вернуть арккосинус\n"
+"<code><a cbot|atan>atan</a>       </code>Вернуть арктангенс\n"
+"<code><a cbot|atan2>atan2</a>      </code>Вернуть арктангенс, имеет два аргумента"
 
 #. type: Plain text
 #: ../E/cbot.txt:9
@@ -741,19 +750,21 @@ msgstr "Константы такие как <a cbot|category>категории
 msgid ""
 "<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
 "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr "В редакторе программы, инструкция в языке CBOT всегда отображется как <format token>инструкция</format>. Если инструкция не подсвечена, это означает что она неправильно написана. Имена инструкций всегда пишутся в нижнем регистре."
+msgstr ""
+"<a cheats>o</a>  |c;<format token>Инструкции</format><n/>\n"
+"В редакторе программ, инструкция на языке CBOT всегда отображается как: <format token>инструкция</format>. Если инструкция не подсвечена, это означает, что она написана с ошибкой. Инструкция всегда пишется в нижнем регистре. "
 
 #. type: \b; header
 #: ../E/cheats.txt:1
 #, no-wrap
 msgid "Cheats"
-msgstr "Коды к игре"
+msgstr "Ытич"
 
 #. type: Plain text
 #: ../E/cheats.txt:2
 #, no-wrap
 msgid "Great, you have found this secret page. We hope you will use informations contained here only for other than cheating purposes. Like testing the game or recording a cool video about Colobot."
-msgstr "Прерасно, вы нашли эту секретную страницу. Мы надеемся вы будет использовать информацию содержащуюся здесь для других целей только не для обманных целей. Например тестирование игры или запись классного видео о Colobot."
+msgstr "Прекрасно, вы нашли эту секретную страницу. Мы надеемся вы будет использовать информацию содержащуюся здесь только в других целях, а не для жульничества. Например тестирование игры или запись классного/отстойного видео о Colobot."
 
 #. type: \b; header
 #: ../E/cheats.txt:4
@@ -765,7 +776,7 @@ msgstr "Консоль"
 #: ../E/cheats.txt:5
 #, no-wrap
 msgid "You can open the console by pressing the <key/><code>~</code><norm/> button on your keyboard. Press <key/><code>ENTER</code><norm/> to hide it or pass one of the commands below."
-msgstr "Вы можете открыть консоль нажатием кнопки <key/><code>~</code><norm/> на вашей клавиатуре. Нажмите <key/><code>ENTER</code><norm/> чтобы скрыть это или чтобы выполнить одну из команд приведенных ниже."
+msgstr "Вы можете открыть консоль нажатием кнопки <key/><code>~</code><norm/> на вашей клавиатуре. Нажмите <key/><code>ENTER</code><norm/> чтобы скрыть её или чтобы выполнить одну из команд приведенных ниже."
 
 #. type: \t; header
 #: ../E/cheats.txt:7
@@ -795,85 +806,85 @@ msgstr "Эстетика"
 #: ../E/cheats.txt:41
 #, no-wrap
 msgid "CBOT"
-msgstr ""
+msgstr "CBOT"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:45
 #, no-wrap
 msgid "<code><a cbot|produce>produce</a>      </code>Immediately creates an object"
-msgstr "<code><a cbot|produce>produce</a>      </code>Немедленно создает объект"
+msgstr "<code><a cbot|produce>produce</a>      </code>Немедленно создать объект"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:8
 #, no-wrap
 msgid "<code>winmission   </code>Immediately win the current mission"
-msgstr "<code>winmission   </code>Немедленно успешно заканчивает текущую миссию"
+msgstr "<code>winmission   </code>Немедленно выиграть текущую миссию"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:9
 #, no-wrap
 msgid "<code>lostmission  </code>Immediately lose the current mission"
-msgstr "<code>lostmission  </code>Немедленно заканчивает текущую миссию с поражением"
+msgstr "<code>lostmission  </code>Немедленно проиграть текущую миссию"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:14
 #, no-wrap
 msgid "<code>allresearch  </code>All researches are done"
-msgstr "<code>allresearch  </code>Все исследования сделаны"
+msgstr "<code>allresearch  </code>Все исследования доступны"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:15
 #, no-wrap
 msgid "<code>allbuildings </code>All buildings are enabled"
-msgstr ""
+msgstr "<code>allbuildings </code>Все здания доступны"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:16
 #, no-wrap
 msgid "<code>all          </code><code>allbuildings</code> + <code>allresearch</code>"
-msgstr ""
+msgstr "<code>all          </code><code>allbuildings</code> + <code>allresearch</code>"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:17
 #, no-wrap
 msgid "<code>fullenergy   </code>Restore energy in the currently selected bot"
-msgstr "<code>fullenergy   </code>Восстановите энегрию в текущем выбранном боте"
+msgstr "<code>fullenergy   </code>Восстановить энергию в текущем выбранном боте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:18
 #, no-wrap
 msgid "<code>fullshield   </code>Restore shield in the currently selected object"
-msgstr "<code>fullshield   </code>Востановите щит в текущем выбранном объекте"
+msgstr "<code>fullshield   </code>Восстановить щит в текущем выбранном объекте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:19
 #, no-wrap
 msgid "<code>fullrange    </code>Flying reactor is cold"
-msgstr "<code>fullrange    </code>Летающий реактор холодный"
+msgstr "<code>fullrange    </code>Реактивный двигатель охладить"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:20
 #, no-wrap
 msgid "<code>fullpower    </code><code>fullenergy</code> + <code>fullshield</code> + <code>fullrange</code>"
-msgstr ""
+msgstr "<code>fullpower    </code><code>fullenergy</code> + <code>fullshield</code> + <code>fullrange</code>"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:22
 #, no-wrap
 msgid "<code>fly          </code>You can fly even if flying is disabled in the current mission"
-msgstr "<code>fly          </code>Вы можете летать даже если летание отключено в текущей миссии"
+msgstr "<code>fly          </code>Вы можете летать даже если полёт отключен в текущей миссии"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:24
 #, no-wrap
 msgid "<code>addfreezer   </code>Flying reactor heats more slowly"
-msgstr "<code>addfreezer   </code>Летающий реактор нагревается более медленно"
+msgstr "<code>addfreezer   </code>Реактивный двигатель нагревать медленнее"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:25
 #, no-wrap
 msgid "<code>addhusky     </code>You take less damage than usual"
-msgstr "<code>addhusky     </code>Вы можете получать меньше повреждений чем обычно"
+msgstr "<code>addhusky     </code>Вы получаете меньше повреждений чем обычно"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:26
@@ -885,133 +896,133 @@ msgstr "<code>nolimit      </code>Вы можете лететь выше"
 #: ../E/cheats.txt:27
 #, no-wrap
 msgid "<code>trainerpilot </code>You can drive robots which could be previously controlled only by programs"
-msgstr "<code>trainerpilot </code>Вы можете вести роботов, которые раньше могли контролироваться только программами."
+msgstr "<code>trainerpilot </code>Вы можете управлять роботами, которыми раньше можно было управлять только программно"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:38
 #, no-wrap
 msgid "<code>photo1       </code>Free camera, you can change angle with <key/><code>+</code><norm/> and <key/><code>-</code><norm/> keys, type again to set it off"
-msgstr "<code>photo1       </code>Свободная камера, вы можете менять угол клавишами <key/><code>+</code><norm/> и <key/><code>-</code><norm/>, нажмите опять, чтобы это отключить"
+msgstr "<code>photo1       </code>Свободная камера, вы можете менять угол клавишами <key/><code>+</code><norm/> и <key/><code>-</code><norm/>, повторить для отключения"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:39
 #, no-wrap
 msgid "<code>photo2       </code>Same as <code>photo1</code>, except it hides interface, type again to set it off"
-msgstr "<code>photo2       </code>Также как <code>photo1</code>, за исключением того, что это скрывает интерфейс, нажмите опять, чтобы это отключить"
+msgstr "<code>photo2       </code>Также как <code>photo1</code>, дополнительно скрывает интерфейс, повторить для отключения"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:47
 #, no-wrap
 msgid "<code>delete       </code>Damages the object, <code>1</code>: object's ID, <code>2</code>: magnifyDamage multiplier, without <code>2</code> the object explodes"
-msgstr ""
+msgstr "<code>delete       </code>Разрушить объект, <code>1</code>: object's ID, <code>2</code>: magnifyDamage multiplier, без <code>2</code> объект взрывается"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:48
 #, no-wrap
 msgid "<code>setbuild     </code>Sets buildings bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setbuild     </code>Установить битовую маску Зданий, <code>1</code>: новая битовая маска"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:49
 #, no-wrap
 msgid "<code>setresearchenable </code>Sets researches bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setresearchenable </code>Установить битовую маску Исследований, <code>1</code>: новая битовая маска"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:50
 #, no-wrap
 msgid "<code>setresearchdone </code>Sets done researches bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setresearchdone </code>Предустановленная битовая маска Исследований, <code>1</code>: новая битовая маска"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:51
 #, no-wrap
 msgid "<code>getbuild     </code>Returns buildings bitmask"
-msgstr ""
+msgstr "<code>getbuild     </code>Вернуть битовую маску Зданий"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:52
 #, no-wrap
 msgid "<code>getresearchenable </code>Returns researches bitmask"
-msgstr ""
+msgstr "<code>getresearchenable </code>Вернуть битовую маску Исследований"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:53
 #, no-wrap
 msgid "<code>getresearchdone </code>Returns done researches bitmask"
-msgstr ""
+msgstr "<code>getresearchdone </code>Вернуть предустановленную битовую маску Исследований"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:54
 #, no-wrap
 msgid "<code>playmusic    </code>Plays music, <code>1</code>: file name, <code>2</code>: repeat"
-msgstr ""
+msgstr "<code>playmusic    </code>Проигрывать музыку, <code>1</code>: название файла, <code>2</code>: повторять"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:55
 #, no-wrap
 msgid "<code>stopmusic    </code>Stops music"
-msgstr "<code>stopmusic    </code>Останавливает музыку"
+msgstr "<code>stopmusic    </code>Остановить музыку"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:10
 #, no-wrap
 msgid "<code>allmission   </code>All missions are unlocked, works also in main menu"
-msgstr ""
+msgstr "<code>allmission   </code>Все миссии доступны, работает также в главном меню"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:11
 #, no-wrap
 msgid "<code>showsoluce   </code>All solutions are unlocked, works also in main menu"
-msgstr ""
+msgstr "<code>showsoluce   </code>Все описания доступны, работает также в главном меню"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:21
 #, no-wrap
 msgid "<code>selectinsect </code>You can select and control aliens, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>selectinsect </code>Вы можете выбрать и управлять пришельцами, работает также в главном меню, повторить для отключения"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:23
 #, no-wrap
 msgid "<code>invradar     </code>Mini-map works like you would have built a <a object|radar>radar</a>, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>invradar     </code>Мини-карта работает если бы у вас был построен <a object|radar>Радар</a>, работает также в главном меню, повторить для отключения"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:28
 #, no-wrap
 msgid "<code>noclip       </code>The currently selected object can pass through objects"
-msgstr ""
+msgstr "<code>noclip       </code>Текущий выбранный объект может проходить через объекты"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:29
 #, no-wrap
 msgid "<code>clip         </code>Disable <code>noclip</code> on the currently selected object"
-msgstr ""
+msgstr "<code>clip         </code>Отключить <code>noclip</code> на текущем выбранном объекте"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:30
 #, no-wrap
 msgid "<code>speed        </code>Set the speed of the game to the given number, for example <code>speed 2</code> - two times faster, <code>speed 0.5</code> - two times slower, works also in main menu"
-msgstr ""
+msgstr "<code>speed        </code>Установить скорость игры на заданное число, например <code>speed 2</code> - в два раза быстрее, <code>speed 0.5</code> - в два раза медленнее, работает также в главном меню"
 
 #. type: Plain text
 #: ../E/cheats.txt:33
 #, no-wrap
 msgid "These commands work also in main menu. Type them again to set them off."
-msgstr "Эти команды также работают в главном меню. Напишите их опять, чтобы их выключить."
+msgstr "Эти команды также работают в главном меню. Повторите их для отключения."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:34
 #, no-wrap
 msgid "<code>showstat     </code>Show debug statistics on the screen, <format key>F12</format> keyboard key has the same effect"
-msgstr ""
+msgstr "<code>showstat     </code>Отобразить отладочную информацию на экране, <format key>F12</format> клавиша клавиатуры имеет такой же эффект"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:35
 #, no-wrap
 msgid "<code>debugmode    </code>Enable debug mode (useful for the game developers): the verbose debugging of events and other things; make sure you run the game with <code>-loglevel trace</code> to see the effect; see also <code>-debug</code> commandline parameter"
-msgstr ""
+msgstr "<code>debugmode    </code>Включить режим отладки (полезно для разработчиков игр): подробная отладка событий и прочее; убедитесь, что вы запускаете игру с <code>-loglevel trace</code>, чтобы увидеть эффект; смотрите также <code>-debug</code> консольный параметр"
 
 #. type: Plain text
 #: ../E/cheats.txt:42
@@ -1020,18 +1031,20 @@ msgid ""
 "There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for \"legal\" programs. It should be fine to use them for level creation though if there is no other way.\n"
 "Numbers mean order of parameters."
 msgstr ""
+"В CBOT есть скрытые команды, которые не подсвечиваются в редакторе. Они считаются жульничеством, поэтому не используйте их для «легальных» программ. Их можно использовать при создании уровней, если нет другого пути.\n"
+"Цифры означают порядок параметров."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:46
 #, no-wrap
 msgid "<code>ipf          </code>Sets the number of instructions per frame, <code>1</code>: the number, default is <code>100</code>"
-msgstr ""
+msgstr "<code>ipf          </code>Установить количество инструкций на кадр, <code>1</code>: число, по умолчанию <code>100</code>"
 
 #. type: \b; header
 #: ../E/battles.txt:17
 #, no-wrap
 msgid "Basics of production line\\m production;"
-msgstr "Основые производственной линии\\m production;"
+msgstr "Основы производственной линии\\m производства;"
 
 #. type: \b; header
 #: ../E/battles.txt:4
@@ -1049,13 +1062,13 @@ msgstr "Начать битву программ"
 #: ../E/battles.txt:11
 #, no-wrap
 msgid "Controlling the spectator's view"
-msgstr "Управление видом наблюдателя"
+msgstr "Управление просмотром зрителей"
 
 #. type: Plain text
 #: ../E/battles.txt:12
 #, no-wrap
 msgid "After a code battle is started, the camera is put into a special mode:"
-msgstr "После того, как битва программ началась, камере будет поставлена в специальный режим:"
+msgstr "После того, как битва программ началась, камера будет переведена в специальный режим:"
 
 #. type: Plain text
 #: ../E/battles.txt:7
@@ -1065,24 +1078,27 @@ msgid ""
 "1. Run all the necessary programs for your/all team(s).\n"
 "2. Press the <button 21/> button above the mini-map."
 msgstr ""
+"Чтобы начать битву программ вам необходимо:\n"
+"1. Запустить все необходимые программы вашей/всей команды.\n"
+"2. Нажать кнопку <button 21/> над мини-картой."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:13
 #, no-wrap
 msgid "One can select objects as a player normally would, but one will not see their interface and the camera does not rotate when the object rotates. One can also use numerical keyboard instead of mouse in order to rotate the object-centered camera."
-msgstr ""
+msgstr "Можно выбирать объекты, как обычно делает игрок, но их интерфейс не виден, а камера не вращается, когда объект вращается. Можно также использовать числовую клавиатуру вместо мыши для поворота камеры по центру объекта."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:15
 #, no-wrap
 msgid "One can return to the normal view by pressing the <button 13/> button above the mini-map."
-msgstr ""
+msgstr "Вернуться к нормальному виду можно, нажав кнопку <button 13/> над мини-картой."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:14
 #, no-wrap
 msgid "One can also switch to the free camera view by clicking somewhere on the map. One can move around in this view by using the numerical keyboard and <format key>PageUp</format>/<format key>PageDown</format> keys."
-msgstr ""
+msgstr "Также можно переключиться в режим свободного просмотра камеры, щелкнув где-нибудь на карте. Также можно перемещаться с помощью цифровой клавиатуры и клавиш <format key>PageUp</format>/<format key>PageDown</format>."
 
 #. type: Plain text
 #: ../E/cbot.txt:30
@@ -1112,6 +1128,29 @@ msgid ""
 "<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
 msgstr ""
+"<code><a cbot|detect>detect</a>     </code>Обнаружить объект\n"
+"<code><a cbot|radar>radar</a>      </code>Обнаружить объект расширено\n"
+"<code><a cbot|radarall>radarall</a>   </code>Обнаружить множество объектов расширено\n"
+"<code><a cbot|search>search</a>     </code>Обнаружить объекта с определённой точки\n"
+"<code><a cbot|direct>direction</a>  </code>Рассчитать угол поворота\n"
+"<code><a cbot|dist>distance</a>   </code>Рассчитать расстояние\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Рассчитать расстояние\n"
+"<code><a cbot|wait>wait</a>       </code>Ждать\n"
+"<code><a cbot|move>move</a>       </code>Двигаться вперёд или назад\n"
+"<code><a cbot|turn>turn</a>       </code>Повернуться\n"
+"<code><a cbot|goto>goto</a>       </code>Перейти на заданную позицию\n"
+"<code><a cbot|motor>motor</a>      </code>Управлять двигателем напрямую\n"
+"<code><a cbot|jet>jet</a>        </code>Управлять реактивным двигателем напрямую\n"
+"<code><a cbot|message>message</a>    </code>Отобразить сообщение\n"
+"<code><a cbot|retobj>retobject</a>  </code>Вернуть объект из функции\n"
+"<code><a cbot|errmode>errmode</a>    </code>Контролировать обработчик ошибок\n"
+"<code><a cbot|abstime>abstime</a>    </code>Вернуть абсолютное время.\n"
+"<code><a cbot|pendown>pendown</a>    </code>Начать рисовать/Опустить перо\n"
+"<code><a cbot|penup>penup</a>      </code>Остановить рисовать/Поднять перо\n"
+"<code><a cbot|pencolor>pencolor</a>   </code>Поменять цвет пера\n"
+"<code><a cbot|penwidth>penwidth</a>   </code>Изменить ширину пера\n"
+"<code><a cbot|canresearch>canresearch</a> </code>Проверить, можно ли исследовать технологию\n"
+"<code><a cbot|researched>researched</a> </code>Проверить, исследуется ли технология"
 
 #. type: Plain text
 #: ../E/cbot.txt:86
@@ -1128,6 +1167,16 @@ msgid ""
 "<code><a cbot|extends>extends</a>    </code>Extends a class\n"
 "<code><a cbot|super>super</a>      </code>Grants access to the parent class"
 msgstr ""
+"<code><a cbot|class>class</a>      </code>Объявить Класс\n"
+"<code><a cbot|public>public</a>     </code>Объявить публичный член класса\n"
+"<code><a cbot|private>private</a>    </code>Объявить частный член класса\n"
+"<code><a cbot|protected>protected</a>  </code>Объявить защищённый член класса\n"
+"<code><a cbot|static>static</a>     </code>Объявить статический член класса\n"
+"<code><a cbot|synchro>synchronized</a> </code>Предотвратить одновременное выполнение\n"
+"<code><a cbot|new>new</a>        </code>Создать новый экземпляр\n"
+"<code><a cbot|this>this</a>       </code>Ссылка на текущий экземпляр\n"
+"<code><a cbot|extends>extends</a>    </code>Расширить класс\n"
+"<code><a cbot|super>super</a>      </code>Предоставить доступ к родительскому классу"
 
 #. type: Plain text
 #: ../E/command.txt:40
@@ -1140,3 +1189,9 @@ msgid ""
 "<format key><key quickload/></format> = quick load\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
+"<format key><key speed_dec/></format> = снизить скорость вдвое\n"
+"<format key><key speed_reset/></format> = нормальная скорость x1\n"
+"<format key><key speed_inc/></format> = увеличить скорость вдвое\n"
+"<format key><key quicksave/></format> = быстро сохранить\n"
+"<format key><key quickload/></format> = быстро загрузить\n"
+"<format key><key quit/></format> = завершить миссию <button 11/>"

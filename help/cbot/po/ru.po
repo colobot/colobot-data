@@ -2,19 +2,20 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-26 22:21+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,-1,47\n"
 
 #. type: \b; header
 #: ../E/abstime.txt:1
@@ -23,7 +24,27 @@ msgid "Instruction <code>abstime</code>"
 msgstr "Инструкция <code>abstime</code>"
 
 #. type: Plain text
-#: ../E/abstime.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/errmode.txt:5 ../E/flatgrnd.txt:2 ../E/readln.txt:8 ../E/send.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/testinfo.txt:2 ../E/writeln.txt:8
+#. type: Plain text, \t; header
+#: ../E/abstime.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/errmode.txt:5
+#: ../E/flatgrnd.txt:2 ../E/readln.txt:8 ../E/send.txt:2 ../E/strfind.txt:4
+#: ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4
+#: ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8
+#: ../E/testinfo.txt:2 ../E/writeln.txt:8 ../E/acos.txt:2 ../E/aim.txt:2
+#: ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14
+#: ../E/buildingenabled.txt:13 ../E/busy.txt:2 ../E/canbuild.txt:13
+#: ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/destroy.txt:2
+#: ../E/detect.txt:5 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2
+#: ../E/drop.txt:12 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatspace.txt:2
+#: ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12
+#: ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8
+#: ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2
+#: ../E/pow.txt:2 ../E/produce.txt:2 ../E/radar.txt:14 ../E/radarall.txt:12
+#: ../E/rand.txt:2 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2
+#: ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2
+#: ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2
+#: ../E/sqrt.txt:2 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2
+#: ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19
+#: ../E/wait.txt:10
 #, no-wrap
 msgid "Syntax:"
 msgstr "Синтаксис:"
@@ -32,7 +53,7 @@ msgstr "Синтаксис:"
 #: ../E/abstime.txt:3
 #, no-wrap
 msgid "<c/>abstime ( );<n/>"
-msgstr "<c/>thump ( );<n/>"
+msgstr "<c/>abstime ( );<n/>"
 
 #. type: Plain text
 #: ../E/abstime.txt:5
@@ -53,13 +74,60 @@ msgid "Time in seconds."
 msgstr "Время в секундах."
 
 #. type: \t; header
-#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:41 ../E/asin.txt:11 ../E/atan.txt:11 ../E/atan2.txt:16 ../E/bloc.txt:48 ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27 ../E/buildingenabled.txt:22 ../E/busy.txt:14 ../E/canbuild.txt:22 ../E/canresearch.txt:14 ../E/category.txt:114 ../E/ceil.txt:12 ../E/class.txt:120 ../E/close.txt:6 ../E/cond.txt:4 ../E/continue.txt:24 ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/destroy.txt:15 ../E/detect.txt:27 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13 ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32 ../E/expr.txt:197 ../E/extends.txt:105 ../E/extern.txt:29 ../E/factory.txt:21 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30 ../E/flatgrnd.txt:16 ../E/flatspace.txt:25 ../E/float.txt:24 ../E/floor.txt:12 ../E/for.txt:51 ../E/function.txt:165 ../E/goto.txt:34 ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14 ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14 ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:79 ../E/open.txt:19 ../E/openfile.txt:11 ../E/pencolor.txt:14 ../E/pendown.txt:17 ../E/penup.txt:11 ../E/penwidth.txt:14 ../E/point.txt:35 ../E/pointer.txt:51 ../E/pow.txt:14 ../E/private.txt:19 ../E/produce.txt:30 ../E/protected.txt:26 ../E/public.txt:49 ../E/radar.txt:80 ../E/radarall.txt:19 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16 ../E/recycle.txt:12 ../E/research.txt:18 ../E/researched.txt:14 ../E/researches.txt:27 ../E/retobj.txt:13 ../E/return.txt:29 ../E/round.txt:12 ../E/search.txt:25 ../E/send.txt:17 ../E/shield.txt:18 ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22 ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32 ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10 ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10 ../E/strval.txt:17 ../E/super.txt:45 ../E/switch.txt:70 ../E/synchro.txt:23 ../E/takeoff.txt:15 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16 ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4 ../E/trunc.txt:12 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66 ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
+#: ../E/abstime.txt:10 ../E/acos.txt:11 ../E/aim.txt:23 ../E/array.txt:41
+#: ../E/asin.txt:11 ../E/atan.txt:11 ../E/atan2.txt:16 ../E/bloc.txt:48
+#: ../E/bool.txt:4 ../E/break.txt:24 ../E/build.txt:27
+#: ../E/buildingenabled.txt:22 ../E/busy.txt:14 ../E/canbuild.txt:22
+#: ../E/canresearch.txt:14 ../E/category.txt:114 ../E/ceil.txt:12
+#: ../E/class.txt:120 ../E/close.txt:6 ../E/cond.txt:4 ../E/continue.txt:24
+#: ../E/cos.txt:11 ../E/deletef.txt:9 ../E/delinfo.txt:13 ../E/destroy.txt:15
+#: ../E/detect.txt:27 ../E/direct.txt:13 ../E/dist.txt:29 ../E/dist2d.txt:13
+#: ../E/do.txt:27 ../E/drop.txt:28 ../E/eof.txt:13 ../E/errmode.txt:32
+#: ../E/expr.txt:197 ../E/extends.txt:105 ../E/extern.txt:29
+#: ../E/factory.txt:21 ../E/false.txt:4 ../E/file.txt:16 ../E/fire.txt:30
+#: ../E/flatgrnd.txt:16 ../E/flatspace.txt:25 ../E/float.txt:24
+#: ../E/floor.txt:12 ../E/for.txt:51 ../E/function.txt:165 ../E/goto.txt:34
+#: ../E/grab.txt:28 ../E/if.txt:39 ../E/int.txt:18 ../E/jet.txt:14
+#: ../E/message.txt:24 ../E/motor.txt:38 ../E/move.txt:21 ../E/nan.txt:14
+#: ../E/new.txt:20 ../E/null.txt:4 ../E/object.txt:79 ../E/open.txt:19
+#: ../E/openfile.txt:11 ../E/pencolor.txt:14 ../E/pendown.txt:17
+#: ../E/penup.txt:11 ../E/penwidth.txt:14 ../E/point.txt:35 ../E/pointer.txt:51
+#: ../E/pow.txt:14 ../E/private.txt:19 ../E/produce.txt:30
+#: ../E/protected.txt:26 ../E/public.txt:49 ../E/radar.txt:80
+#: ../E/radarall.txt:19 ../E/rand.txt:8 ../E/readln.txt:18 ../E/receive.txt:16
+#: ../E/recycle.txt:12 ../E/research.txt:18 ../E/researched.txt:14
+#: ../E/researches.txt:27 ../E/retobj.txt:13 ../E/return.txt:29
+#: ../E/round.txt:12 ../E/search.txt:25 ../E/send.txt:17 ../E/shield.txt:18
+#: ../E/sin.txt:11 ../E/sizeof.txt:21 ../E/sniff.txt:16 ../E/space.txt:22
+#: ../E/sqrt.txt:11 ../E/static.txt:20 ../E/strfind.txt:18 ../E/string.txt:32
+#: ../E/strleft.txt:14 ../E/strlen.txt:12 ../E/strlower.txt:10
+#: ../E/strmid.txt:18 ../E/strright.txt:14 ../E/strupper.txt:10
+#: ../E/strval.txt:17 ../E/super.txt:45 ../E/switch.txt:70 ../E/synchro.txt:23
+#: ../E/takeoff.txt:15 ../E/tan.txt:11 ../E/term.txt:30 ../E/testinfo.txt:16
+#: ../E/this.txt:52 ../E/thump.txt:12 ../E/topo.txt:13 ../E/true.txt:4
+#: ../E/trunc.txt:12 ../E/turn.txt:32 ../E/type.txt:32 ../E/var.txt:66
+#: ../E/void.txt:10 ../E/wait.txt:21 ../E/while.txt:46 ../E/writeln.txt:19
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
-#: ../E/abstime.txt:11 ../E/aim.txt:24 ../E/array.txt:42 ../E/bool.txt:5 ../E/break.txt:25 ../E/busy.txt:15 ../E/cond.txt:5 ../E/continue.txt:25 ../E/deletef.txt:10 ../E/destroy.txt:16 ../E/detect.txt:28 ../E/direct.txt:14 ../E/dist.txt:30 ../E/dist2d.txt:14 ../E/drop.txt:29 ../E/errmode.txt:33 ../E/expr.txt:198 ../E/extern.txt:30 ../E/false.txt:5 ../E/fire.txt:31 ../E/flatgrnd.txt:17 ../E/flatspace.txt:26 ../E/float.txt:25 ../E/for.txt:52 ../E/function.txt:166 ../E/goto.txt:35 ../E/grab.txt:29 ../E/if.txt:40 ../E/int.txt:19 ../E/jet.txt:15 ../E/message.txt:25 ../E/move.txt:22 ../E/nan.txt:15 ../E/object.txt:80 ../E/openfile.txt:12 ../E/pencolor.txt:15 ../E/pendown.txt:18 ../E/penup.txt:12 ../E/penwidth.txt:15 ../E/point.txt:36 ../E/produce.txt:31 ../E/recycle.txt:13 ../E/retobj.txt:14 ../E/return.txt:30 ../E/search.txt:26 ../E/shield.txt:19 ../E/sizeof.txt:22 ../E/sniff.txt:17 ../E/space.txt:23 ../E/string.txt:33 ../E/switch.txt:71 ../E/takeoff.txt:16 ../E/term.txt:31 ../E/thump.txt:13 ../E/topo.txt:14 ../E/true.txt:5 ../E/turn.txt:33 ../E/type.txt:33 ../E/var.txt:67 ../E/void.txt:11 ../E/wait.txt:22
+#: ../E/abstime.txt:11 ../E/aim.txt:24 ../E/array.txt:42 ../E/bool.txt:5
+#: ../E/break.txt:25 ../E/busy.txt:15 ../E/cond.txt:5 ../E/continue.txt:25
+#: ../E/deletef.txt:10 ../E/destroy.txt:16 ../E/detect.txt:28
+#: ../E/direct.txt:14 ../E/dist.txt:30 ../E/dist2d.txt:14 ../E/drop.txt:29
+#: ../E/errmode.txt:33 ../E/expr.txt:198 ../E/extern.txt:30 ../E/false.txt:5
+#: ../E/fire.txt:31 ../E/flatgrnd.txt:17 ../E/flatspace.txt:26
+#: ../E/float.txt:25 ../E/for.txt:52 ../E/function.txt:166 ../E/goto.txt:35
+#: ../E/grab.txt:29 ../E/if.txt:40 ../E/int.txt:19 ../E/jet.txt:15
+#: ../E/message.txt:25 ../E/move.txt:22 ../E/nan.txt:15 ../E/object.txt:80
+#: ../E/openfile.txt:12 ../E/pencolor.txt:15 ../E/pendown.txt:18
+#: ../E/penup.txt:12 ../E/penwidth.txt:15 ../E/point.txt:36 ../E/produce.txt:31
+#: ../E/recycle.txt:13 ../E/retobj.txt:14 ../E/return.txt:30 ../E/search.txt:26
+#: ../E/shield.txt:19 ../E/sizeof.txt:22 ../E/sniff.txt:17 ../E/space.txt:23
+#: ../E/string.txt:33 ../E/switch.txt:71 ../E/takeoff.txt:16 ../E/term.txt:31
+#: ../E/thump.txt:13 ../E/topo.txt:14 ../E/true.txt:5 ../E/turn.txt:33
+#: ../E/type.txt:33 ../E/var.txt:67 ../E/void.txt:11 ../E/wait.txt:22
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
@@ -71,7 +139,8 @@ msgid "Instruction <code>aim</code>"
 msgstr "Инструкция <code>aim</code>"
 
 #. type: Plain text
-#: ../E/break.txt:2 ../E/continue.txt:2 ../E/direct.txt:2 ../E/motor.txt:15 ../E/while.txt:20
+#: ../E/break.txt:2 ../E/continue.txt:2 ../E/direct.txt:2 ../E/motor.txt:15
+#: ../E/while.txt:20
 #, no-wrap
 msgid "Syntax :"
 msgstr "Синтаксис :"
@@ -86,19 +155,19 @@ msgstr "<a object|botfr>Стрелок</a>"
 #: ../E/aim.txt:7 ../E/fire.txt:15
 #, no-wrap
 msgid "<a object|botor>Orga shooter</a>"
-msgstr "<a object|botor>Орга Стрелок</a>"
+msgstr "<a object|botor>Био-Стрелок</a>"
 
 #. type: Bullet: 'o'
 #: ../E/aim.txt:8 ../E/fire.txt:16
 #, no-wrap
 msgid "<a object|botphaz>Phazer shooter</a>"
-msgstr "<a object|botphaz>Фазер Стрелок</a>"
+msgstr "<a object|botphaz>Стрелок Ферзь</a>"
 
 #. type: Plain text
 #: ../E/fire.txt:18
 #, no-wrap
 msgid "When controlling the robot through programming, the only way to turn the gun left or right is to turn the whole robot with the instruction <code><a cbot|turn>turn</a></code>."
-msgstr "Когда вы управляете своим ботом путем программирования, единственный способ повернуть оружие направо или налево - это повернуть весь бот инструкцией <code><a cbot|turn>turn</a></code>."
+msgstr "Когда управление ботом осуществляется программно, единственный способ повернуть орудие направо или налево это инструкциея <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
 #: ../E/cos.txt:5 ../E/sin.txt:5 ../E/tan.txt:5 ../E/turn.txt:24
@@ -110,10 +179,14 @@ msgstr "угол: <code><a cbot|float>float</a></code>"
 #: ../E/aim.txt:13
 #, no-wrap
 msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun upward. For shooters and orga shooters, the angle must range from <code>-20</code> to <code>+20</code> degrees. For phazer shooters, the angle must range from <code>-20</code> to <code>45</code> degrees."
-msgstr "Угол оружия относительно робота, в градусах. Положительное значение ориентирует ружье вперед. Для стрелков и орга-стрелков, угол должен быть от <code>-20</code> до <code>+20</code> градусов. Для фазовый стрелок стрелков, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
+msgstr "Угол орудия относительно бота в градусах. Положительное значение ориентирует орудие вверх. Для Стрелков и Био-Стрелков, угол должен быть от <code>-20</code> до <code>+20</code> градусов. Для Стрелка Ферзь, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
 
 #. type: \t; header
-#: ../E/aim.txt:18 ../E/build.txt:22 ../E/destroy.txt:10 ../E/drop.txt:23 ../E/factory.txt:16 ../E/fire.txt:25 ../E/goto.txt:29 ../E/grab.txt:23 ../E/move.txt:16 ../E/pencolor.txt:9 ../E/pendown.txt:12 ../E/penup.txt:6 ../E/penwidth.txt:9 ../E/recycle.txt:7 ../E/research.txt:13 ../E/sniff.txt:11 ../E/takeoff.txt:10 ../E/thump.txt:7 ../E/turn.txt:27
+#: ../E/aim.txt:18 ../E/build.txt:22 ../E/destroy.txt:10 ../E/drop.txt:23
+#: ../E/factory.txt:16 ../E/fire.txt:25 ../E/goto.txt:29 ../E/grab.txt:23
+#: ../E/move.txt:16 ../E/pencolor.txt:9 ../E/pendown.txt:12 ../E/penup.txt:6
+#: ../E/penwidth.txt:9 ../E/recycle.txt:7 ../E/research.txt:13
+#: ../E/sniff.txt:11 ../E/takeoff.txt:10 ../E/thump.txt:7 ../E/turn.txt:27
 #, no-wrap
 msgid "Return value: <code><a cbot|int>int</a></code>"
 msgstr "Возвращаемое значение: <code><a cbot|int>int</a></code>"
@@ -126,9 +199,9 @@ msgid ""
 "<code>== 0 </code>The gun has now got the desired orientation\n"
 "<code>!= 0 </code>rotation impossible"
 msgstr ""
-"Ноль если все в порядке. Число отличное от нуля, если вращение выполнить не удалось:\n"
-"<code>== 0 </code>Оружие получило нужную ориентацию\n"
-"<code>!= 0 </code>вращение невозможно"
+"Ноль если все в порядке, число отличное от нуля если поворот выполнить не удалось:\n"
+"<code>== 0 </code>орудие сейчас сориентировано\n"
+"<code>!= 0 </code>поворот невозможен"
 
 #. type: \b; header
 #: ../E/array.txt:1
@@ -140,7 +213,7 @@ msgstr "Массивы"
 #: ../E/array.txt:2
 #, no-wrap
 msgid "An array is basically a collection of variables of the same type or class. You can use N dimensionnal arrays in the CBOT language. Each dimension is limited to 9999 elements. You must use square brackets <code>[]</code> after the type name or the variable name to declare an array."
-msgstr "Массив - это в основном набор переменных того же типа и класса. Вы можете использовать н-ное количество массивов в языке CBOT, однако максимальный размер массива равен 9999 элементов. Вы должны использовать квадратные скобки <code>[]</code> после того, как объявили массив."
+msgstr "Массив - это основной набор переменных того же типа и класса. Вы можете использовать N количество массивов в языке CBOT. Однако максимальный размер массива ограничен 9999 элементами. Вы должны использовать квадратные скобки <code>[]</code> после того, как объявили массив."
 
 #. type: Plain text
 #: ../E/array.txt:9
@@ -158,7 +231,7 @@ msgstr "int a[5];  // просто пустая ссылка"
 #: ../E/array.txt:13
 #, no-wrap
 msgid "As soon as you put values into the array, the elements are created and the reference is initialized:"
-msgstr "Как только вы поместите значения в массив, элементы создаются и ссылки инициализируются:"
+msgstr "Как только вы поместите значения в массив, созданные элементы и ссылки инициализируются:"
 
 #. type: Source code
 #: ../E/array.txt:15
@@ -202,7 +275,7 @@ msgstr ""
 #: ../E/array.txt:28
 #, no-wrap
 msgid "If you pass an array as parameter to a <a cbot|function>function</a>, the function only receives a <a cbot|pointer>reference</a> to the array. That means if you modify an array element in the function, the element of the array that has been passed the function will be actuallay modified."
-msgstr "Если вы передаете <a cbot|function>функции</a> массив в качестве параметра, то функция получает только <a cbot|pointer>ссылку</a> на массив. Это означает, что если вы измение элемент в массиве, то этот элемент будет измененным и в самой функции."
+msgstr "Если вы передаете <a cbot|function>функции</a> массив в качестве параметра, то функция получает только <a cbot|pointer>ссылку</a> на массив. Это означает, что если вы измените элемент в массиве, то этот элемент будет изменен и в самой функции."
 
 #. type: \b; header
 #: ../E/bloc.txt:1
@@ -214,7 +287,7 @@ msgstr "Блоки"
 #: ../E/bloc.txt:2
 #, no-wrap
 msgid "You can use braces <code>{ }</code> to group a number of instructions together in order to make one single block out of them, for example: "
-msgstr "Можно использовать скобки <code>{ }</code> чтобы сгруппировать несколько инструкций вместе и составить из них целый блок, например:"
+msgstr "Вы можете использовать фигурные скобки <code>{ }</code> чтобы сгруппировать несколько инструкций вместе и составить из них целый блок, например: "
 
 #. type: Source code
 #: ../E/bloc.txt:4
@@ -241,8 +314,8 @@ msgid ""
 "Every instruction in the block is followed by a <a cbot|term>semicolon</a>, but the block itself is not. \n"
 "Let us take the following example with the instruction <code><a cbot|if>if</a></code> to illustrate the use of blocks in a program:"
 msgstr ""
-"Каждая инструкци в блоке заканчивается  <a cbot|term>двоеточием</a>, но не сам блок.\n"
-"Расмотрим следующий пример с инструкцией <code><a cbot|if>if</a></code> чтобы проиллюстрировать блоки в программах:"
+"Каждая инструкция в блоке заканчивается  <a cbot|term>двоеточием</a>, но не сам блок.\n"
+"Рассмотрим следующий пример с инструкцией <code><a cbot|if>if</a></code>, чтобы проиллюстрировать блоки в программах:"
 
 #. type: Source code
 #: ../E/bloc.txt:14
@@ -266,7 +339,7 @@ msgid ""
 "If you want to perform instructions 1 and 2 only if the condition is true, you have to bracket them together in a block: "
 msgstr ""
 "Если <a cbot|cond>состояние</a> верно, то инструкции 1, 2 и 3 выполняются. Если состояние не верно, не выполняется только инструкция 1, а инструкции 2 и 3 выполняются. Тот факт, что инструкция 2 стоит в одной линии с инструкцией 1 на ход не влияет.\n"
-"Если вы хотите выполнить только инструкции 1 и 2, причем условие выполняется, вам нужно выделить их вместе в одном блоке:"
+"Если вы хотите выполнить только инструкции 1 и 2, причем условие выполняется, вам нужно выделить их вместе в одном блоке: "
 
 #. type: Source code
 #: ../E/bloc.txt:22
@@ -293,7 +366,7 @@ msgid ""
 "Blocks may be needed with instructions <code><a cbot|if>if</a></code>, <code><a cbot|while>while</a></code> and <code><a cbot|for>for</a></code>, in order to group several instructions that should be performed only if a condition is true, or repeated several times. \n"
 "You can fit blocks into other blocks, on as many levels as you need. Here is an example of imbrication on two levels :"
 msgstr ""
-"Блоки могут использоваться с инструкциями <code><a cbot|if>if</a></code>, <code><a cbot|while>while</a></code> и <code><a cbot|for>for</a></code>, чтобы сгруппировать отдельные инструкции, которые должны выполняться только если условие выполняется, или повторяется несколько раз.\n"
+"Блоки могут использоваться с инструкциями <code><a cbot|if>if</a></code>, <code><a cbot|while>while</a></code> и <code><a cbot|for>for</a></code>, чтобы сгруппировать отдельные инструкции, которые должны выполняться только если условие выполняется, или повторятся несколько раз.\n"
 "Можно включать блоки в другие блоки, на столько уровней насколько нужно. Вот пример включения в скобки на двух уровнях:"
 
 #. type: Source code
@@ -326,7 +399,7 @@ msgstr ""
 #: ../E/bloc.txt:43
 #, no-wrap
 msgid "You had better line up the open brace <code>{</code> with the closing brace <code>}</code> in order to improve readability, but it is not compulsory. The following example takes less space, is equivalent to the previous example, but it is not advisable to write your programs in the following style : "
-msgstr "Было бы целесообразнее выравнивать открытую скобку <code>{</code> по закрытой скобке <code>}</code> в целях улучшения читаемости, но это необязательно. Следующий пример занимает меньше места, но эквивалентен предыдущему примеру, однако писать свои программы в подобном стиле не рекомендуется:"
+msgstr "Было бы целесообразнее выравнивать открытую скобку <code>{</code> по закрытой скобке <code>}</code> в целях улучшения читаемости, но это необязательно. Следующий пример занимает меньше места, но эквивалентен предыдущему примеру, однако писать свои программы в подобном стиле не рекомендуется : "
 
 #. type: Source code
 #: ../E/bloc.txt:45
@@ -354,7 +427,7 @@ msgstr "Тип <code>bool</code>"
 #: ../E/bool.txt:2
 #, no-wrap
 msgid "In a variable of this type you can put a boolean value, that is a value that can take only two states: true or false. "
-msgstr "Переменной этого типа вы можете присваивать булевое значение, т.е. значение, которое может иметь лишь два состояния: да и нет."
+msgstr "Переменной этого типа вы можете присваивать булевое значение, т.е. значение, которое может иметь лишь два состояния: да и нет. "
 
 #. type: \b; header
 #: ../E/break.txt:1
@@ -386,7 +459,7 @@ msgstr "С помощью этой инструкции, вы можете не�
 #: ../E/break.txt:10 ../E/continue.txt:10
 #, no-wrap
 msgid "Here is an example:"
-msgstr "вот пример:"
+msgstr "Here is an example:"
 
 #. type: Source code
 #: ../E/break.txt:11
@@ -405,14 +478,15 @@ msgid ""
 "}"
 msgstr ""
 "<c/>int i = 0;\n"
-"while ( да )\n"
+"while ( true )\n"
 "{\n"
-"\t<n/>Инструкции...<c/>\n"
+"\t<n/>Инструкции ...<c/>\n"
 "\ti = i+1;\n"
 "\tif ( i >= 10 )\n"
 "\t{\n"
 "\t\tbreak;\n"
 "\t}\n"
+"\t<n/>ещё инструкции ...<c/>\n"
 "}"
 
 #. type: \b; header
@@ -425,7 +499,7 @@ msgstr "Значение <code>Категорий</code>"
 #: ../E/category.txt:2
 #, no-wrap
 msgid "Categories represent the names of objects in the CBOT language. Everything in COLOBOT is an object: robots, buildings, raw materials, etc., even yourself."
-msgstr "Категории отображают названия обьектов на языке CBOT. В игре COLOBOT все предеты являются обьектами: роботы, здания, сырье, и т.д., даже сам игрок."
+msgstr "Категории отображают названия объектов на языке CBOT. В игре COLOBOT все предметы являются объектами: боты, здания, сырье, и т.д., даже сам игрок."
 
 #. type: Plain text
 #: ../E/category.txt:34
@@ -441,15 +515,15 @@ msgid ""
 "       <code><a object|tnt>TNT</a>                  </code>Explosive device\n"
 "       <code><a object|key>KeyA..D</a>              </code>Keys A, B, C and D"
 msgstr ""
-"       <code><a object|titanore>TitaniumOre</a>          </code>Титановая Руда\n"
-"       <code><a object|uranore>UraniumOre</a>           </code>Урановая Руда\n"
-"       <code><a object|titan>Titanium</a>             </code>Куб переработанного титана\n"
-"       <code><a object|power>PowerCell</a>            </code>Обычная Батарейка\n"
-"       <code><a object|atomic>NuclearCell</a>          </code>Ядерная Батарейка\n"
-"       <code><a object|bullet>OrgaMatter</a>           </code>Органическая Материя\n"
-"       <code><a object|bbox>BlackBox</a>             </code>Черный Ящик\n"
-"       <code><a object|tnt>TNT</a>                  </code>Взрывное устройство\n"
-"       <code><a object|key>KeyA..D</a>              </code>Ключи A, B, C and D"
+"       <code><a object|titanore>TitaniumOre</a>          </code>Руда Титановая\n"
+"       <code><a object|uranore>UraniumOre</a>           </code>Руда Урановая\n"
+"       <code><a object|titan>Titanium</a>             </code>Титан\n"
+"       <code><a object|power>PowerCell</a>            </code>Батарея Обычная\n"
+"       <code><a object|atomic>NuclearCell</a>          </code>Батарея Ядерная\n"
+"       <code><a object|bullet>OrgaMatter</a>           </code>Био-Материя\n"
+"       <code><a object|bbox>BlackBox</a>             </code>Чёрный Ящик\n"
+"       <code><a object|tnt>TNT</a>                  </code>Заряд (ТНТ)\n"
+"       <code><a object|key>KeyA..D</a>              </code>Ключи A, B, C, и D"
 
 #. type: Plain text
 #: ../E/category.txt:47
@@ -458,8 +532,8 @@ msgid ""
 "<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Practice Bot\n"
 "<button 173/>   <code><a object|bottarg>TargetBot</a>              </code>Target Bot"
 msgstr ""
-"<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Тренировочный Бот\n"
-"<button 173/>   <code><a object|bottarg>TargetBot</a>              </code>Целевой бот"
+"<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Бот Учебный\n"
+"<button 173/>   <code><a object|bottarg>TargetBot</a>              </code>Бот Цель"
 
 #. type: Plain text
 #: ../E/category.txt:50
@@ -470,10 +544,10 @@ msgid ""
 "<button 139/>   <code><a object|botgj>WingedGrabber</a>          </code>Winged Grabber\n"
 "<button 150/>   <code><a object|botgs>LeggedGrabber</a>          </code>Legged Grabber"
 msgstr ""
-"<button 137/>   <code><a object|botgr>WheeledGrabber</a>         </code>Колесный сборщик\n"
-"<button 138/>   <code><a object|botgc>TrackedGrabber</a>         </code>Гусеничный сборщик\n"
-"<button 139/>   <code><a object|botgj>WingedGrabber</a>          </code>Летающий сборщик\n"
-"<button 150/>   <code><a object|botgs>LeggedGrabber</a>          </code>Шагающий сборщик"
+"<button 137/>   <code><a object|botgr>WheeledGrabber</a>         </code>Погрузчик Колёсный\n"
+"<button 138/>   <code><a object|botgc>TrackedGrabber</a>         </code>Погрузчик Гусеничный\n"
+"<button 139/>   <code><a object|botgj>WingedGrabber</a>          </code>Погрузчик Крылатый\n"
+"<button 150/>   <code><a object|botgs>LeggedGrabber</a>          </code>Погрузчик Муравьиногий"
 
 #. type: Plain text
 #: ../E/category.txt:55
@@ -484,10 +558,10 @@ msgid ""
 "<button 142/>   <code><a object|botsj>WingedSniffer</a>          </code>Winged Sniffer\n"
 "<button 152/>   <code><a object|botss>LeggedSniffer</a>          </code>Legged Sniffer"
 msgstr ""
-"<button 140/>   <code><a object|botsr>WheeledSniffer</a>         </code>Колесный сниффер\n"
-"<button 141/>   <code><a object|botsc>TrackedSniffer</a>         </code>Гусеничный сниффер\n"
-"<button 142/>   <code><a object|botsj>WingedSniffer</a>          </code>Летающий сниффер\n"
-"<button 152/>   <code><a object|botss>LeggedSniffer</a>          </code>Шагающий сниффер"
+"<button 140/>   <code><a object|botsr>WheeledSniffer</a>         </code>Разведчик Колёсный\n"
+"<button 141/>   <code><a object|botsc>TrackedSniffer</a>         </code>Разведчик Гусеничный\n"
+"<button 142/>   <code><a object|botsj>WingedSniffer</a>          </code>Разведчик Крылатый\n"
+"<button 152/>   <code><a object|botss>LeggedSniffer</a>          </code>Разведчик Муравьиногий"
 
 #. type: Plain text
 #: ../E/category.txt:60
@@ -498,10 +572,10 @@ msgid ""
 "<button 145/>   <code><a object|botfj>WingedShooter</a>          </code>Winged Shooter\n"
 "<button 151/>   <code><a object|botfs>LeggedShooter</a>          </code>Legged Shooter"
 msgstr ""
-"<button 143/>   <code><a object|botfr>WheeledShooter</a>         </code>Колесный стрелок\n"
-"<button 144/>   <code><a object|botfc>TrackedShooter</a>         </code>Гусеничный стрелок\n"
-"<button 145/>   <code><a object|botfj>WingedShooter</a>          </code>Летающий стрелок\n"
-"<button 151/>   <code><a object|botfs>LeggedShooter</a>          </code>Шагающий стрелок"
+"<button 143/>   <code><a object|botfr>WheeledShooter</a>         </code>Стрелок Колёсный\n"
+"<button 144/>   <code><a object|botfc>TrackedShooter</a>         </code>Стрелок Гусеничный\n"
+"<button 145/>   <code><a object|botfj>WingedShooter</a>          </code>Стрелок Крылатый\n"
+"<button 151/>   <code><a object|botfs>LeggedShooter</a>          </code>Стрелок Муравьиногий"
 
 #. type: Plain text
 #: ../E/category.txt:65
@@ -512,10 +586,10 @@ msgid ""
 "<button 155/>   <code><a object|botoj>WingedOrgaShooter</a>      </code>Winged Orga Shooter\n"
 "<button 156/>   <code><a object|botos>LeggedOrgaShooter</a>      </code>Legged Orga Shooter"
 msgstr ""
-"<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     </code>Колесный орга-стрелок\n"
-"<button 154/>   <code><a object|botoc>TrackedOrgaShooter</a>     </code>Гусеничный орга-стрелок\n"
-"<button 155/>   <code><a object|botoj>WingedOrgaShooter</a>      </code>Летающий орга-стрелок\n"
-"<button 156/>   <code><a object|botos>LeggedOrgaShooter</a>      </code>Шагающий орга-стрелок"
+"<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     </code>Био-Стрелок Колёсный\n"
+"<button 154/>   <code><a object|botoc>TrackedOrgaShooter</a>     </code>Био-Стрелок Гусеничный\n"
+"<button 155/>   <code><a object|botoj>WingedOrgaShooter</a>      </code>Био-Стрелок Крылатый\n"
+"<button 156/>   <code><a object|botos>LeggedOrgaShooter</a>      </code>Био-Стрелок Муравьиногий"
 
 #. type: Plain text
 #: ../E/category.txt:75
@@ -527,11 +601,11 @@ msgid ""
 "<button 146/>   <code><a object|bottump>Thumper</a>                </code>Thumper\n"
 "<button 147/>   <code><a object|botphaz>PhazerShooter</a>          </code>Phazer Shooter"
 msgstr ""
-"<button 149/>   <code><a object|botsub>Subber</a>                 </code>Саббер\n"
+"<button 149/>   <code><a object|botsub>Subber</a>                 </code>Амфибия\n"
 "<button 148/>   <code><a object|botrecy>Recycler</a>               </code>Утилизатор\n"
-"<button 157/>   <code><a object|botshld>Shielder</a>               </code>Мобильный щит\n"
-"<button 146/>   <code><a object|bottump>Thumper</a>                </code>Ударник\n"
-"<button 147/>   <code><a object|botphaz>PhazerShooter</a>          </code>Фазовый стрелок"
+"<button 157/>   <code><a object|botshld>Shielder</a>               </code>Защитник\n"
+"<button 146/>   <code><a object|bottump>Thumper</a>                </code>Кувалдник\n"
+"<button 147/>   <code><a object|botphaz>PhazerShooter</a>          </code>Стрелок Ферзь"
 
 #. type: Plain text
 #: ../E/category.txt:84
@@ -544,8 +618,8 @@ msgid ""
 "       <code><a object|wasp>AlienWasp</a>          </code>Wasp\n"
 "       <code><a object|worm>AlienWorm</a>          </code>Worm"
 msgstr ""
-"       <code><a object|mother>AlienQueen</a>         </code>Королева Чужих\n"
-"       <code><a object|egg>AlienEgg</a>           </code>Яйцо чужого\n"
+"       <code><a object|mother>AlienQueen</a>         </code>Королева Пришельцев\n"
+"       <code><a object|egg>AlienEgg</a>           </code>Яйцо Пришельцев\n"
 "       <code><a object|ant>AlienAnt</a>           </code>Муравей\n"
 "       <code><a object|spider>AlienSpider</a>        </code>Паук\n"
 "       <code><a object|wasp>AlienWasp</a>          </code>Оса\n"
@@ -619,7 +693,7 @@ msgid ""
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
-"<a cbot>Язык CBOT</a> и <a cbot|type>Переменные</a> и <a cbot|category>категории</a>."
+"<a cbot>Язык CBOT</a> и <a cbot|type>переменные</a> и <a cbot|category>категории</a>."
 
 #. type: \b; header
 #: ../E/cond.txt:1
@@ -638,8 +712,8 @@ msgid ""
 "<code>a >  b  </code><code>a</code> greater than <code>b</code>\n"
 "<code>a >= b  </code><code>a</code> greater than or equal to <code>b</code>"
 msgstr ""
-"<code>a == b  </code><code>a</code> равняется <code>b</code>\n"
-"<code>a != b  </code><code>a</code> отличное от <code>b</code>\n"
+"<code>a == b  </code><code>a</code> равно <code>b</code>\n"
+"<code>a != b  </code><code>a</code> не равно <code>b</code>\n"
 "<code>a <  b  </code><code>a</code> меньше чем <code>b</code>\n"
 "<code>a <= b  </code><code>a</code> меньше или равно <code>b</code>\n"
 "<code>a >  b  </code><code>a</code> больше чем <code>b</code>\n"
@@ -656,12 +730,12 @@ msgid ""
 "<code>12 >= 10  </code>returns true \n"
 "<code>12 >= 12  </code>returns true "
 msgstr ""
-"<code>12 == 12  </code>возвращает да\n"
-"<code>45 != 47  </code>возвращает да\n"
-"<code>99 == 98  </code>возвращает нет\n"
-"<code>12 <  -1  </code>возвращает нет\n"
-"<code>12 >= 10  </code>возвращает да\n"
-"<code>12 >= 12  </code>возвращает да"
+"<code>12 == 12  </code>возвращает true\n"
+"<code>45 != 47  </code>возвращает true \n"
+"<code>99 == 98  </code>возвращает false\n"
+"<code>12 <  -1  </code>возвращает false\n"
+"<code>12 >= 10  </code>возвращает true\n"
+"<code>12 >= 12  </code>возвращает true "
 
 #. type: Plain text
 #: ../E/expr.txt:132
@@ -728,7 +802,7 @@ msgstr ""
 "\t{\n"
 "\t\tcontinue;\n"
 "\t}\n"
-"\t<n/>Инструкции...<c/>\n"
+"\t<n/>Инструкции ...<c/>\n"
 "}"
 
 #. type: Plain text
@@ -747,13 +821,13 @@ msgstr "Инструкция <code>deletefile</code>"
 #: ../E/deletef.txt:2
 #, no-wrap
 msgid "The deletefile instruction deletes an existing file in the files/ folder. "
-msgstr "Инструкция deletefile удаляет существующие файлы/папки."
+msgstr "Инструкция deletefile удаляет существующие файлы/папки. "
 
 #. type: Plain text
 #: ../E/deletef.txt:4
 #, no-wrap
 msgid "Files can only be deleted in the files/ folder which is located in the folder inside Colobot save directory. You cannot not delete files that are located elsewhere than in the files/ folder."
-msgstr "Файлы и папки могут быть удалены только в той дирректории, в которую была установлена COLOBOT. Вы не можете удалять файлы и папки, находящиеся в другом месте."
+msgstr "Файлы и папки могут быть удалены только в той папке, в которую была установлена COLOBOT. Вы не можете удалять файлы и папки, находящиеся в другом месте."
 
 #. type: Source code
 #: ../E/deletef.txt:7
@@ -777,7 +851,7 @@ msgstr "<c/>deleteinfo ( name, power );<n/>"
 #: ../E/delinfo.txt:5
 #, no-wrap
 msgid "Delete an existing information in the closest <a object|exchange>information exchange post</a>."
-msgstr "Удаляет существующую информацию в ближайшем <a object|exchange>посте обмена информацией</a>."
+msgstr "Удаляет существующую информацию в ближайшем <a object|exchange>Пункте Обмена Информацией</a>."
 
 #. type: \t; header
 #: ../E/delinfo.txt:7 ../E/receive.txt:7 ../E/send.txt:7 ../E/testinfo.txt:7
@@ -789,19 +863,20 @@ msgstr "name: <code>string</code>"
 #: ../E/delinfo.txt:8
 #, no-wrap
 msgid "Name of the information to be deleted. This name is a string: it must be written in quotation marks \"\"."
-msgstr "Имя информации для удаления. Это имя - строка: она должна быть написана в кавычках \"\"."
+msgstr "Название информации для удаления. Название - это строка: она должна быть написана в кавычках \"\"."
 
 #. type: \t; header
-#: ../E/delinfo.txt:10 ../E/receive.txt:10 ../E/send.txt:14 ../E/testinfo.txt:10
+#: ../E/delinfo.txt:10 ../E/receive.txt:10 ../E/send.txt:14
+#: ../E/testinfo.txt:10
 #, no-wrap
 msgid "power: <code>float</code>"
-msgstr "power: <code>float</code>"
+msgstr "мощность: <code>float</code>"
 
 #. type: Plain text
 #: ../E/delinfo.txt:11
 #, no-wrap
 msgid "Power of the transmitter, which corresponds to the maximal distance between the sender and the exchange post. If the distance is longer, the information won't be deleted. Default value is 10 metres."
-msgstr "Мощность передатчика, определяющая максимальное расстояние до поста. Если пост находится слишком далеко, то информаация не будет удалена. Стандартное значение равно 10 метрам."
+msgstr "Мощность передатчика, определяющая максимальное расстояние до Пункта Обмена Информацией. Если расстояние слишком большое, то информация не будет удалена. Стандартное значение равно 10 метрам."
 
 #. type: Plain text
 #: ../E/delinfo.txt:14
@@ -841,10 +916,14 @@ msgstr "pos: <code><a cbot|point>point</a></code>"
 #: ../E/direct.txt:8
 #, no-wrap
 msgid "Position towards which the robot must point."
-msgstr "Позиция, к которой робот должен повернуться."
+msgstr "Позиция, к которой бот должен повернуться."
 
 #. type: \t; header
-#: ../E/acos.txt:8 ../E/asin.txt:8 ../E/atan.txt:8 ../E/atan2.txt:13 ../E/ceil.txt:9 ../E/cos.txt:8 ../E/direct.txt:10 ../E/dist.txt:26 ../E/dist2d.txt:10 ../E/flatgrnd.txt:13 ../E/floor.txt:9 ../E/pow.txt:11 ../E/rand.txt:5 ../E/receive.txt:13 ../E/round.txt:9 ../E/sin.txt:8 ../E/sqrt.txt:8 ../E/tan.txt:8 ../E/topo.txt:10 ../E/trunc.txt:9
+#: ../E/acos.txt:8 ../E/asin.txt:8 ../E/atan.txt:8 ../E/atan2.txt:13
+#: ../E/ceil.txt:9 ../E/cos.txt:8 ../E/direct.txt:10 ../E/dist.txt:26
+#: ../E/dist2d.txt:10 ../E/flatgrnd.txt:13 ../E/floor.txt:9 ../E/pow.txt:11
+#: ../E/rand.txt:5 ../E/receive.txt:13 ../E/round.txt:9 ../E/sin.txt:8
+#: ../E/sqrt.txt:8 ../E/tan.txt:8 ../E/topo.txt:10 ../E/trunc.txt:9
 #, no-wrap
 msgid "Return value: <code><a cbot|float>float</a></code>"
 msgstr "Возвращаемое значение: <code><a cbot|float>float</a></code>"
@@ -865,10 +944,14 @@ msgstr "Инструкция <code>distance</code>"
 #: ../E/dist.txt:2
 #, no-wrap
 msgid "With the instruction <code>distance( , )</code> you can calculate the distance between two positions."
-msgstr "С помощью инструкции <code>distance( , )</code> вы можете подсчитывать расстояние между  двумя позициями."
+msgstr "С помощью инструкции <code>distance( , )</code> вы можете рассчитать расстояние между двумя позициями."
 
 #. type: \b; header
-#: ../E/build.txt:4 ../E/buildingenabled.txt:4 ../E/canbuild.txt:4 ../E/dist.txt:4 ../E/drop.txt:4 ../E/fire.txt:4 ../E/function.txt:16 ../E/goto.txt:4 ../E/grab.txt:4 ../E/if.txt:4 ../E/motor.txt:4 ../E/move.txt:4 ../E/radar.txt:4 ../E/switch.txt:4 ../E/turn.txt:4 ../E/wait.txt:4 ../E/while.txt:4
+#: ../E/build.txt:4 ../E/buildingenabled.txt:4 ../E/canbuild.txt:4
+#: ../E/dist.txt:4 ../E/drop.txt:4 ../E/fire.txt:4 ../E/function.txt:16
+#: ../E/goto.txt:4 ../E/grab.txt:4 ../E/if.txt:4 ../E/motor.txt:4
+#: ../E/move.txt:4 ../E/radar.txt:4 ../E/switch.txt:4 ../E/turn.txt:4
+#: ../E/wait.txt:4 ../E/while.txt:4
 #, no-wrap
 msgid "Basic use"
 msgstr "Основное использование"
@@ -877,13 +960,13 @@ msgstr "Основное использование"
 #: ../E/dist.txt:5
 #, no-wrap
 msgid "If you write <code>position</code> alone, this gives you the position of the bot that executes the program. If you write the name of a variable followed by <code>.position</code>, this gives you the position of the object described in the variable."
-msgstr "Если вы напишете только <code>position</code>, то вы получите только позицию бота, который выполняет программу. Если вы напишете имя переменной, а за ней <code>.position</code>, то это даст вам позицию обьекта, который был обозначен вслед за переменной."
+msgstr "Если вы напишете только <code>position</code>, то вы получите только позицию бота, который выполняет программу. Если вы напишете имя переменной, а за ней <code>.position</code>, то это даст вам позицию объекта, который был обозначен вслед за переменной."
 
 #. type: Plain text
 #: ../E/dist.txt:7
 #, no-wrap
 msgid "Here is a program that moves forward, covering exactly the distance between the bot and the closest ant:"
-msgstr "Ниже приведена программа для движения вперед, на вличину, в точности равную расстоянию между ботом и ближайшим муравьем:"
+msgstr "Ниже приведена программа для движения вперёд, на величину, в точности равную расстоянию между ботом и ближайшим Муравьём:"
 
 #. type: Source code
 #: ../E/dist.txt:9
@@ -912,16 +995,15 @@ msgstr ""
 "\tmove(distance(position, item.position) - 40);"
 
 #. type: \b; header, \t; header
-#: ../E/build.txt:13 ../E/buildingenabled.txt:12 ../E/canbuild.txt:12 ../E/detect.txt:4 ../E/dist.txt:17 ../E/drop.txt:11 ../E/errmode.txt:4 ../E/file.txt:10 ../E/fire.txt:9 ../E/float.txt:19 ../E/goto.txt:11 ../E/grab.txt:11 ../E/if.txt:22 ../E/int.txt:13 ../E/motor.txt:14 ../E/move.txt:7 ../E/radar.txt:13 ../E/radarall.txt:11 ../E/return.txt:9 ../E/switch.txt:46 ../E/turn.txt:18 ../E/wait.txt:9 ../E/while.txt:19
+#: ../E/build.txt:13 ../E/buildingenabled.txt:12 ../E/canbuild.txt:12
+#: ../E/detect.txt:4 ../E/dist.txt:17 ../E/drop.txt:11 ../E/errmode.txt:4
+#: ../E/file.txt:10 ../E/fire.txt:9 ../E/float.txt:19 ../E/goto.txt:11
+#: ../E/grab.txt:11 ../E/if.txt:22 ../E/int.txt:13 ../E/motor.txt:14
+#: ../E/move.txt:7 ../E/radar.txt:13 ../E/radarall.txt:11 ../E/return.txt:9
+#: ../E/switch.txt:46 ../E/turn.txt:18 ../E/wait.txt:9 ../E/while.txt:19
 #, no-wrap
 msgid "For specialists"
 msgstr "Для специалистов"
-
-#. type: Plain text, \t; header
-#: ../E/abstime.txt:2 ../E/acos.txt:2 ../E/aim.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14 ../E/buildingenabled.txt:13 ../E/busy.txt:2 ../E/canbuild.txt:13 ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/destroy.txt:2 ../E/detect.txt:5 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/errmode.txt:5 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatgrnd.txt:2 ../E/flatspace.txt:2 ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2 ../E/pow.txt:2 ../E/produce.txt:2 ../E/radar.txt:14 ../E/radarall.txt:12 ../E/rand.txt:2 ../E/readln.txt:8 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2 ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2 ../E/send.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2 ../E/sqrt.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2 ../E/testinfo.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10 ../E/writeln.txt:8
-#, no-wrap
-msgid "Syntax:"
-msgstr "Синтаксис:"
 
 #. type: Source code
 #: ../E/dist.txt:19
@@ -969,7 +1051,7 @@ msgstr "<c/>distance2d ( pos1, pos2 );<n/>"
 #: ../E/dist2d.txt:5
 #, no-wrap
 msgid "Calculates the distance between two positions (ignores the z coordinate)."
-msgstr "Рассчитывает растояние между двумя позициями (пренебрегая координатой z)."
+msgstr "Рассчитывает расстояние между двумя позициями (пренебрегая координатой z)."
 
 #. type: \b; header
 #: ../E/do.txt:1
@@ -1038,7 +1120,8 @@ msgstr ""
 "while ( p == null );"
 
 #. type: \t; header
-#: ../E/do.txt:22 ../E/float.txt:11 ../E/for.txt:33 ../E/if.txt:36 ../E/int.txt:10 ../E/switch.txt:67 ../E/while.txt:41
+#: ../E/do.txt:22 ../E/float.txt:11 ../E/for.txt:33 ../E/if.txt:36
+#: ../E/int.txt:10 ../E/switch.txt:67 ../E/while.txt:41
 #, no-wrap
 msgid "Attention"
 msgstr "Внимание"
@@ -1065,13 +1148,13 @@ msgstr "Инструкция <code>drop</code>"
 #: ../E/drop.txt:2
 #, no-wrap
 msgid "The instruction <c/>drop();<n/> instructs the bot to drop whatever the operating arm is carrying on the ground, on the platform of a building or on the power cell location of a bot."
-msgstr "Инструкция <c/>drop();<n/> приказывает боту бросить все, что находися в данный момент в рабочей руке, на землю, на платформу здания, или на расположение энергобатарейки бота."
+msgstr "Инструкция <c/>drop();<n/> приказывает боту бросить всё, что находится в данный момент в манипуляторе, на землю, на платформу здания, или на отсек Батареи бота."
 
 #. type: Plain text
 #: ../E/drop.txt:5
 #, no-wrap
 msgid "The instruction <c/>drop();<n/> written in this form drops the object in front of the bot. Here is a short program that grabs an object in front of the bot and drops it 5 meters further:"
-msgstr "Инструкция <c/>drop();<n/> написанная таким образом заставит бот бросить обьект прямо перед собой. Ниже приведена короткая программа, в которой бот берет обьект перед собой, и кладет его на землю в пяти метрах от себя:"
+msgstr "Инструкция <c/>drop();<n/> написанная таким образом заставит бот бросить объект прямо перед собой. Ниже приведена короткая программа, в которой бот берет объект перед собой, и кладет его на землю в 5 метрах от себя:"
 
 #. type: Source code
 #: ../E/drop.txt:7
@@ -1095,7 +1178,7 @@ msgstr "<c/>drop ( oper );<n/>"
 #: ../E/drop.txt:15
 #, no-wrap
 msgid "This instruction appeals to the operating arm of a <a object|botgr>grabber bot</a>, in order to drop what it is holding."
-msgstr "Эта инструкция обращается к рабочей руке <a object|botgr>бота носильщика</a>, и приказывает ей положить все что она держит."
+msgstr "Эта инструкция обращается к манипулятору <a object|botgr>Погрузчика</a>, и приказывает ей положить что захвачено."
 
 #. type: \t; header
 #: ../E/drop.txt:17 ../E/grab.txt:17
@@ -1112,10 +1195,10 @@ msgid ""
 "<code>Behind    </code>  Drops behind.\n"
 "<code>EnergyCell</code>  Drops on the bot's own power cell location."
 msgstr ""
-"Oper обозначает, где именно бот должен бросить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
+"Oper обозначает, где именно бот должен бросить предмет. Если не обозначить это место, объект будет положен прямо перед ботом.\n"
 "<code>InFront   </code>  Кладет перед ботом (значение по умолчанию).\n"
 "<code>Behind    </code>  Кладет позади.\n"
-"<code>EnergyCell</code>  Кладет на место расположеня собственной энергобатареи бота."
+"<code>EnergyCell</code>  Кладет в собственный отсек Батареи бота."
 
 #. type: Plain text
 #: ../E/drop.txt:24
@@ -1126,8 +1209,8 @@ msgid ""
 "<code>!= 0 </code>error, no object was dropped"
 msgstr ""
 "Обычно в случае ошибки выполнение программы прекращается. Вы можете сделать так, что в случае ошибки программа не будет останавливаться, для чего используется инструкция <code><a cbot|errmode>errmode</a>(0)</code> . В случае ошибки <c/>drop();<n/> возвращает значение отличное от нуля.\n"
-"<code>== 0 </code>обьект был брошен\n"
-"<code>!= 0 </code>ошибка, обьект не был брошен"
+"<code>== 0 </code>объект был брошен\n"
+"<code>!= 0 </code>ошибка, объект не был брошен"
 
 #. type: \b; header
 #: ../E/eof.txt:1
@@ -1199,7 +1282,7 @@ msgstr "<c/>errmode ( mode );<n/>"
 #: ../E/errmode.txt:8
 #, no-wrap
 msgid "Normally the program is stopped when an error occurs. If you use the instruction <c/>errmode(0);<n/> at the beginning of the program, the instructions listed above return a value different from zero if the instruction could not be performed."
-msgstr "Обычно в случае ошибки выполнение программы прекращается. Если вы воспользуетесь инструкцией <c/>errmode(0);<n/> в начале программы, инструкции перечисленныен выше возвращают значение отличное от нуля, если инструкцию было невозможно выполенить."
+msgstr "Обычно в случае ошибки выполнение программы прекращается. Если вы воспользуетесь инструкцией <c/>errmode(0);<n/> в начале программы, инструкции перечисленные выше возвращают значение отличное от нуля, если инструкцию было невозможно выполнить."
 
 #. type: \t; header
 #: ../E/errmode.txt:10
@@ -1265,8 +1348,8 @@ msgstr ""
 "err = goto(pos);\n"
 "if ( err != 0 )\n"
 "{\n"
-"\t<n/>инструкция goto была выполнена некоррректно...<code>\n"
-"\t</code>предпримите меры...<c/>\n"
+"\t<n/>инструкция goto была выполнена некорректно. ..<code>\n"
+"\t</code>предпримите меры ...<c/>\n"
 "}"
 
 #. type: \b; header
@@ -1313,7 +1396,7 @@ msgstr "Инструкция <code>extern</code>"
 #: ../E/extern.txt:2
 #, no-wrap
 msgid "The <code>extern</code> instruction  determines the <a cbot|function>function</a> that acts as main program of a robot. The name of the function declared with <code>extern</code> will apear in the program list in the lower left corner of the screen."
-msgstr "Инструкция <code>extern</code> определяет <a cbot|function>функцию</a>, которая будет основной в программе бота. Имя функции, объявленой с помощью <code>extern</code>. появится в списке ваших программ в левом нижнем углу экрана."
+msgstr "Инструкция <code>extern</code> определяет <a cbot|function>функцию</a>, которая будет основной в программе бота. Имя функции, объявленной с помощью <code>extern</code>. появится в списке ваших программ в левом нижнем углу экрана."
 
 #. type: Source code
 #: ../E/extern.txt:4
@@ -1385,7 +1468,7 @@ msgstr "Тип <code>false</code>"
 #: ../E/false.txt:2
 #, no-wrap
 msgid "This value means that a condition is not true; it is one of the two values that a <a cbot|bool>boolean</a> <a cbot|var>variable</a> can take."
-msgstr "Это значение оббозначает, что условие не соблюдается; это одн�� из двух значений, которые могут принимать <a cbot|bool>булевые</a> <a cbot|var>переменные</a> ."
+msgstr "Это значение обозначает, что условие не соблюдается; это одно из двух значений, которые могут принимать <a cbot|bool>булевые</a> <a cbot|var>переменные</a> ."
 
 #. type: \b; header
 #: ../E/file.txt:1
@@ -1409,13 +1492,13 @@ msgstr "\tfile handle();"
 #: ../E/file.txt:6
 #, no-wrap
 msgid "Use the syntax above for declaring a file handle. You must use () to create an instance of the <code>file</code> class. Without the () the handle would have the value <code><a cbot|null>null</a></code>."
-msgstr "Используйте синтаксис для объявления дескриптора файла. Вы должны использовать () для создания класса <code>file</code>. без использования () дескриптор вернет <code><a cbot|null>null</a></code>."
+msgstr "Используйте синтаксис для объявления дескриптора файла. Вы должны использовать () для создания класса <code>file</code>. Без использования () дескриптор вернет <code><a cbot|null>null</a></code>."
 
 #. type: Plain text
 #: ../E/file.txt:8
 #, no-wrap
 msgid "Files can only be created and opened in the files/ folder which is located in the folder inside Colobot save directory. You cannot not create or open files elsewhere than in the files/ folder."
-msgstr "Файлы и папки могут быть открыты или созданы только в папке с установленной игрой COLOBOT. Вы не можете удалять папки за пределами этой дирректории."
+msgstr "Файлы и папки могут быть открыты или созданы только в папке с установленной игрой COLOBOT. Вы не можете удалять папки за пределами этой папки."
 
 #. type: Plain text
 #: ../E/file.txt:11
@@ -1453,13 +1536,13 @@ msgstr "Инструкция <code>fire</code>"
 #: ../E/fire.txt:2
 #, no-wrap
 msgid "The instruction <c/>fire();<n/> fires the bot's onboard cannon."
-msgstr "Инструкция <c/>fire();<n/> стреляет бортовой пушкой бота."
+msgstr "Инструкция <c/>fire();<n/> стреляет бортовым орудием бота."
 
 #. type: Plain text
 #: ../E/fire.txt:5
 #, no-wrap
 msgid "Generally this instruction is used to shoot one-second bursts:"
-msgstr "Обычно эта инструкция используется для стрельбы односекундными залпами:"
+msgstr "Обычно эта инструкция используется для стрельбы одно-секундными залпами:"
 
 #. type: Source code
 #: ../E/fire.txt:7
@@ -1472,12 +1555,6 @@ msgstr "\tfire(1);"
 #, no-wrap
 msgid "<c/>fire ( time );<n/>"
 msgstr "<c/>fire ( время );<n/>"
-
-#. type: Plain text
-#: ../E/fire.txt:13
-#, no-wrap
-msgid "Fires the gun, with a burst that lasts a certain time. The longer the burst, the more energy it needs. This instruction can be used with the following bot types: "
-msgstr "Стреляет из оружия, причем залп продолжается некоторое время. Чем дольше залп, тем больше энергии ему нужно. Эта инструкция может применяться к следующим типам ботов:"
 
 #. type: Plain text
 #: ../E/fire.txt:20
@@ -1495,7 +1572,7 @@ msgstr "время: <code><a cbot|float>float</a></code>"
 #: ../E/fire.txt:23
 #, no-wrap
 msgid "Duration of the burst. Generally, the value given is 1. Shorter bursts can also be performed in order to spare time and energy."
-msgstr "Длительность залпа. Обычно, присваемое значение равно 1. В целях экономии времени и энергии можно производить боле короткие залпы."
+msgstr "Длительность залпа. Обычно, присваиваемое значение равно 1. В целях экономии времени и энергии можно производить боле короткие залпы."
 
 #. type: Plain text
 #: ../E/fire.txt:26
@@ -1506,8 +1583,8 @@ msgid ""
 "<code>!= 0 </code>error, the cannon could not be fired"
 msgstr ""
 "Ноль если OK, или значение отличное от нуля, если произошла ошибка.\n"
-"<code>== 0 </code>пушка выстрелила\n"
-"<code>!= 0 </code>ошибка, пушка не смогла выстрелить"
+"<code>== 0 </code>орудие выстрелило\n"
+"<code>!= 0 </code>ошибка, орудие не смогло выстрелить"
 
 #. type: \b; header
 #: ../E/flatgrnd.txt:1
@@ -1587,7 +1664,7 @@ msgstr ""
 #: ../E/float.txt:9
 #, no-wrap
 msgid "If you need only whole numbers (f. ex. 12 or -5000), you should rather use the type <code><a cbot|int>int</a></code>."
-msgstr "Если вамнужно, чтобы переменная содержала только  целые числа (ф. экс. 12 или -5000), вам стоит использовать  <code><a cbot|int>int</a></code>."
+msgstr "Если Вам нужно, чтобы переменная содержала только  целые числа (например 12 или -5000), вам стоит использовать  <code><a cbot|int>int</a></code>."
 
 #. type: Plain text
 #: ../E/float.txt:12
@@ -1604,7 +1681,7 @@ msgid ""
 "  -54.34       -54,34\n"
 "12895.69    12,895.69"
 msgstr ""
-"   Писать       а не\n"
+"   Write       and not\n"
 "   12.56       12 . 56\n"
 "  -54.34       -54,34\n"
 "12895.69    12,895.69"
@@ -1638,7 +1715,7 @@ msgid ""
 msgstr ""
 "<c/>for ( before ; condition ; end )\n"
 "{\n"
-"\t<n/>Инструкции...<c/>\n"
+"\t<n/>Инструкции ...<c/>\n"
 "}"
 
 #. type: Plain text
@@ -1673,6 +1750,9 @@ msgid ""
 "\tmessage(i) ;\n"
 "}"
 msgstr ""
+"{\n"
+"\tmessage(i) ;\n"
+"}"
 
 #. type: Plain text
 #: ../E/for.txt:25
@@ -1691,6 +1771,12 @@ msgid ""
 "\tend;\n"
 "}"
 msgstr ""
+"<c/>before;\n"
+"while ( условие )\n"
+"{\n"
+"\t<n/>Инструкции ...<c/>\n"
+"\tend;\n"
+"}"
 
 #. type: Plain text
 #: ../E/for.txt:34
@@ -1732,7 +1818,7 @@ msgstr "Инструкция <c/>goto();<n/> приказывает боту д�
 #: ../E/goto.txt:5
 #, no-wrap
 msgid "The most current use consists in moving the bot to an object located with the instruction <c/><a cbot|radar>radar</a>();<n/>. If the information returned by the <c/><a cbot|radar>radar</a>();<n/> has been stored in a certain variable, write the name of the variable followed by <code>.position</code> in order to get the position of the object. Here is an example of a program that looks for a <a object|titan>titanium cube</a>, goes to the position and grabs it:"
-msgstr "Самое распространенное использование состоит в том, чтобы переместить бот к обьекту, обнаруженному с помощью инструкции <c/><a cbot|radar>radar</a>();<n/>. Если информация, добытая инструкцией <c/><a cbot|radar>radar</a>();<n/> помещена в определенную переменную, напишите имя этой переменной, а за ним <code>.position</code>, чтобы получить местоположение обьекта. Ниже приведен пример программы, которая ищет <a object|titan>титановый куб</a>, идет в его местоположение и берет его:"
+msgstr "Самое распространенное использование состоит в том, чтобы переместить бот к объекту, обнаруженному с помощью инструкции <c/><a cbot|radar>radar</a>();<n/>. Если информация, добытая инструкцией <c/><a cbot|radar>radar</a>();<n/> помещена в определенную переменную, напишите имя этой переменной, а за ним <code>.position</code>, чтобы получить местоположение объекта. Ниже приведен пример программы, которая ищет <a object|titan>Титан</a>, идёт к его местоположению и берет его:"
 
 #. type: Source code
 #: ../E/goto.txt:7
@@ -1818,13 +1904,13 @@ msgstr "Инструкция <code>grab</code>"
 #: ../E/grab.txt:2
 #, no-wrap
 msgid "The instruction <c/>grab();<n/> instructs the bot to use the operating arm to grab an object located on the ground, on the platform of a building or on the power cell location of a bot."
-msgstr "Инструкция <c/>grab();<n/> приказывает боту использовать рабочую руку для взятия предмета лежащего на земле, на платформе здания или на месте размещения энергобатареи бота."
+msgstr "Инструкция <c/>grab();<n/> приказывает боту использовать манипулятор для взятия предмета лежащего на земле, на платформе здания или отсека Батареи бота."
 
 #. type: Plain text
 #: ../E/grab.txt:5
 #, no-wrap
 msgid "The instruction <c/>grab();<n/> written in this form grabs the object located in front of the bot. Here is a short program that grabs an object in front of the bot and drops it 5 meters further:"
-msgstr "Инструкция <c/>grab();<n/> написанная в данноц форме, забирает обьект лежащий перед ботом. Вот пример короткой программы, которая забирает предмет, лежащий перед ботом и кладет его на 5 метров дальше:"
+msgstr "Инструкция <c/>grab();<n/> написанная в данной форме, забирает объект лежащий перед ботом. Вот пример короткой программы, которая забирает предмет, лежащий перед ботом и кладет его на 5 метров дальше:"
 
 #. type: Source code
 #: ../E/grab.txt:7
@@ -1848,7 +1934,7 @@ msgstr "<c/>grab ( oper );<n/>"
 #: ../E/grab.txt:15
 #, no-wrap
 msgid "This instruction appeals to the operating arm of a <a object|botgr>grabber bot</a>, in order to grab the closest object."
-msgstr "Эта инструкция обращается к рабочей руке <a object|botgr>сборщика</a>, чтобы взять ближайший обьект."
+msgstr "Эта инструкция обращается к манипулятору <a object|botgr>Погрузчика</a>, чтобы взять ближайший объект."
 
 #. type: Plain text
 #: ../E/grab.txt:18
@@ -1859,10 +1945,10 @@ msgid ""
 "<code>Behind    </code>  Grabs behind.\n"
 "<code>EnergyCell</code>  Grabs the bot's own power cell."
 msgstr ""
-"Oper означает, что бот должен сначала отыскать обьект. Если это не обозначить, подбирается обьект прямо перед ботом.\n"
+"Oper означает, что бот должен сначала отыскать объект. Если это не обозначить, подбирается объект прямо перед ботом.\n"
 "<code>InFront   </code>  Берет пере собой (по умолчанию).\n"
 "<code>Behind    </code>  Берет позади.\n"
-"<code>EnergyCell</code>  Берет свою свою собственную батарею."
+"<code>EnergyCell</code>  Берет свою собственную Батарею."
 
 #. type: Plain text
 #: ../E/grab.txt:24
@@ -1873,8 +1959,8 @@ msgid ""
 "<code>!= 0 </code>error, no object was grabbed"
 msgstr ""
 "Обычно в случае ошибки программа останавливается. Вы можете приказать программе не останавливаться, с помощью инструкции <code><a cbot|errmode>errmode</a>(0)</code>. Тогда в случае ошибки инструкция <code>grab()</code> возвращает значение отличное от нуля.\n"
-"<code>== 0 </code>обьект был взят\n"
-"<code>!= 0 </code>ошибка, обьект не был взят"
+"<code>== 0 </code>объект был взят\n"
+"<code>!= 0 </code>ошибка, объект не был взят"
 
 #. type: \b; header
 #: ../E/if.txt:1
@@ -1886,7 +1972,7 @@ msgstr "Инструкции <code>if</code> и <code>else</code>"
 #: ../E/if.txt:2
 #, no-wrap
 msgid "With the instruction <code>if() {}</code> you can execute a set of instructions only if a certain condition is true. Write the condition in brackets <code>()</code>, and the instructions in braces <code>{}</code>."
-msgstr "Инструкция <code>if() {}</code> выполняет набор инструкций только если выполняется определенное условие. Напишите условие в скобках <code>()</code>, а инструкции в квадратных скобках <code>{}</code>."
+msgstr "Инструкция <code>if() {}</code> выполняет набор инструкций только если выполняется определенное условие. Напишите условие в скобках <code>()</code>, а инструкции в фигурных скобках <code>{}</code>."
 
 #. type: Plain text
 #: ../E/if.txt:5
@@ -1914,7 +2000,7 @@ msgstr ""
 #: ../E/if.txt:13
 #, no-wrap
 msgid "You can also test if an object exists at all. If the instruction <c/><a cbot|radar>radar</a>();<n/> does not find the requested object, it returns the value <code>null</code>. So you can test if an object does not exists with the condition  <code>(item == null)</code>, or test if it exists with  <code>(item != null)</code>. Two equal signs <code>==</code> test equality, an exclamation mark followed by an equal sign <code>!=</code> test inequality. Here is a test that will go to rechage the <a object|power>power cell</a> only if there is a <a object|station>power station</a>:"
-msgstr "Вы также можете проверить, существует ли обьект вообще. Если инструкция <c/><a cbot|radar>radar</a>();<n/> не находит требуемый обьект, она возвращает значение <code>null</code>. Поэтому вы можете проверить наличие обьекта с помощью условия <code>(item == null)</code>, или с помощью <code>(item != null)</code>. Два знака равенства <code>==</code> проверяют равность, знак восклицания, за которым идет знак равенства <code>!=</code> проверяют неравенство. Вот тестовая программа, которая отправит бот на перезарядку <a object|power>энергобатареи</a> только в случае наличия <a object|station>электростанции</a>:"
+msgstr "Вы также можете проверить, существует ли объект вообще. Если инструкция <c/><a cbot|radar>radar</a>();<n/> не находит требуемый объект, она возвращает значение <code>null</code>. Поэтому вы можете проверить наличие объекта с помощью условия <code>(item == null)</code>, или с помощью <code>(item != null)</code>. Два знака равенства <code>==</code> проверяют равенство, знак восклицания, за которым идет знак равенства <code>!=</code> проверяют неравенство. Вот тестовая программа, которая отправит бот на перезарядку <a object|power>энергобатареи</a> только в случае наличия <a object|station>Энергозаправки</a>:"
 
 #. type: Source code
 #: ../E/if.txt:15
@@ -2000,7 +2086,7 @@ msgstr ""
 #: ../E/int.txt:8
 #, no-wrap
 msgid "To represent real numbers like 12.05 or -0.005, use the type <code><a cbot|float>float</a></code>."
-msgstr "Чтобы представить числа подобные 12.05 или -0.005, исползуйте тип <code><a cbot|float>float</a></code>."
+msgstr "Чтобы представить числа подобные 12.05 или -0.005, используйте тип <code><a cbot|float>float</a></code>."
 
 #. type: Plain text
 #: ../E/int.txt:11
@@ -2030,13 +2116,13 @@ msgstr "Инструкция <code>jet</code>"
 #: ../E/jet.txt:3
 #, no-wrap
 msgid "<c/>jet ( power );<n/>"
-msgstr "<c/>jet ( сила );<n/>"
+msgstr "<c/>jet ( power );<n/>"
 
 #. type: Plain text
 #: ../E/jet.txt:5
 #, no-wrap
 msgid "Direct control of the jet of a <a object|botgj>winged bot</a>. The jet is what makes the bot fly. Use this instruction in order to take off, climb, descend or land."
-msgstr "Прямое управление реактивным двигателем <a object|botgj>крылатого бота</a>. Именно двигатель заставляет бот перемещаться. Используйте эту инструкцию, чтобы подыматься, опускаться или приземляться."
+msgstr "Прямое управление реактивным двигателем <a object|botgj>Бота Крылатого</a>. Именно двигатель заставляет бот перемещаться. Используйте эту инструкцию, чтобы подыматься, опускаться или приземляться."
 
 #. type: \t; header
 #: ../E/jet.txt:7 ../E/produce.txt:21
@@ -2048,16 +2134,18 @@ msgstr "power: <code><a cbot|float>float</a></code>"
 #: ../E/jet.txt:8
 #, no-wrap
 msgid "Power of the jet, ranges between <code>-1</code> and <code>+1</code>. <c/>jet(1);<n/> instructs the bot to climb as fast as possible, <c/>jet(-1);<n/> descends as fast as possible, <c/>jet(0);<n/> stabilizes the altitude. In order to get slower altitude changes, use intermediate values, for example <c/>jet(0.3);<n/>."
-msgstr "Сила двигателся, варьируется между <code>-1</code> и <code>+1</code>. <c/>jet(1);<n/> приказывает боту подняться как можно выше, <c/>jet(-1);<n/> опускается как можно быстрее, <c/>jet(0);<n/> стабилизирует высоту. Чтобы изменять высоту медленее, используйте средние значения, наприер <c/>jet(0.3);<n/>."
+msgstr "Сила двигателя, варьируется между <code>-1</code> и <code>+1</code>. <c/>jet(1);<n/> приказывает боту подняться как можно выше, <c/>jet(-1);<n/> опускается как можно быстрее, <c/>jet(0);<n/> стабилизирует высоту. Чтобы изменять высоту медленнее, используйте средние значения, например <c/>jet(0.3);<n/>."
 
 #. type: \t; header
-#: ../E/jet.txt:11 ../E/message.txt:21 ../E/motor.txt:35 ../E/shield.txt:15 ../E/wait.txt:18
+#: ../E/jet.txt:11 ../E/message.txt:21 ../E/motor.txt:35 ../E/shield.txt:15
+#: ../E/wait.txt:18
 #, no-wrap
 msgid "Return value: <code><a cbot|void>void</a></code>"
 msgstr "Возвращаемое значение: <code><a cbot|void>void</a></code>"
 
 #. type: Plain text
-#: ../E/jet.txt:12 ../E/message.txt:22 ../E/motor.txt:36 ../E/shield.txt:16 ../E/wait.txt:19
+#: ../E/jet.txt:12 ../E/message.txt:22 ../E/motor.txt:36 ../E/shield.txt:16
+#: ../E/wait.txt:19
 #, no-wrap
 msgid "None."
 msgstr "Нет."
@@ -2108,23 +2196,17 @@ msgstr ""
 msgid "type: <code><a cbot|int>int</a></code> (default value <code>DisplayMessage</code>)"
 msgstr "type: <code><a cbot|int>int</a></code> (default value <code>DisplayMessage</code>)"
 
-#. type: Plain text
-#: ../E/message.txt:15
-#, no-wrap
-msgid "Type of the message, that determines the background color. "
-msgstr "ТИп сообщения, определяющий фоновый цвет."
-
 #. type: Bullet: 'o'
 #: ../E/message.txt:16
 #, no-wrap
 msgid "<code>DisplayMessage</code>  Standard message on yellow background."
-msgstr "<code>DisplayMessage</code>  Стандартное сообщение нажелтом фоне."
+msgstr "<code>DisplayMessage</code>  Стандартное сообщение на жёлтом фоне."
 
 #. type: Bullet: 'o'
 #: ../E/message.txt:17
 #, no-wrap
 msgid "<code>DisplayInfo   </code>  Information on green background."
-msgstr "<code>DisplayInfo   </code>  Информация на зеленом фоне."
+msgstr "<code>DisplayInfo   </code>  Информация на зелёном фоне."
 
 #. type: Bullet: 'o'
 #: ../E/message.txt:18
@@ -2180,19 +2262,19 @@ msgstr "Так как левый двигатель на половине ско
 #: ../E/motor.txt:16
 #, no-wrap
 msgid "<c/>motor ( left, right );<n/>"
-msgstr "<c/>motor ( налево, направо );<n/>"
+msgstr "<c/>motor ( левый, правый );<n/>"
 
 #. type: Plain text
 #: ../E/motor.txt:18
 #, no-wrap
 msgid "Gives speed instructions to the right and left motors of the robot. The motors will keep this speed until a new motor instruction is performed, or until a <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> or <code><a cbot|goto>goto</a></code> instruction is performed."
-msgstr "Дает инструкции о скорости движения правому и левому двигателям робота. Двигатели будут поддерживать постоянную скорость до тех пор. пока двигателям не будет отдана новая инструкция, или пока не будут отданы инструкции <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> или <code><a cbot|goto>goto</a></code>."
+msgstr "Дает инструкции о скорости движения правому и левому двигателям робота. Двигатели будут поддерживать постоянную скорость до тех пор пока двигателям не будет отдана новая инструкция, или пока не будут отданы инструкции <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code> или <code><a cbot|goto>goto</a></code>."
 
 #. type: \t; header
 #: ../E/motor.txt:20
 #, no-wrap
 msgid "left: <code><a cbot|float>float</a></code>"
-msgstr "налево: <code><a cbot|float>float</a></code>"
+msgstr "левый: <code><a cbot|float>float</a></code>"
 
 #. type: Plain text
 #: ../E/motor.txt:21
@@ -2204,7 +2286,7 @@ msgstr "Дает инструкцию о скорости левого двиг�
 #: ../E/motor.txt:23
 #, no-wrap
 msgid "right: <code><a cbot|float>float</a></code>"
-msgstr "направо: <code><a cbot|float>float</a></code>"
+msgstr "правый: <code><a cbot|float>float</a></code>"
 
 #. type: Plain text
 #: ../E/motor.txt:24
@@ -2248,13 +2330,13 @@ msgstr "Инструкция <code>move</code>"
 #: ../E/move.txt:2
 #, no-wrap
 msgid "The instruction <c/>move();<n/> instructs the bot to move forward or backward while keeping the same orientation. In brackets you must specify the length of the move in meters."
-msgstr "Инструкция <c/>move();<n/> приказывает боту двигаться вперед или назад, придерживаясь той же ориентации. В скобках вы должны указать дальность перемещения в метрах."
+msgstr "Инструкция <c/>move();<n/> приказывает боту двигаться вперёд или назад, придерживаясь той же ориентации. В скобках вы должны указать дальность перемещения в метрах."
 
 #. type: Plain text
 #: ../E/move.txt:5
 #, no-wrap
 msgid "If you want the bot to move forward 30 meters, write <c/>move(30);<n/>. In order to move the bot backward after it dropped a chunk of <a object|titanore>titanium ore</a> on the <a object|convert>converter</a>, write <c/>move(-2.5);<n/>."
-msgstr "Если вы хотите, чтобы бот переместился вперед на 30 метро, то напишите <c/>move(30);<n/>. Чтобы отправить бота назад после того, как он бросил кусок <a object|titanore>титаниумовой руды</a> в <a object|convert>преобразователь</a>, напишите <c/>move(-2.5);<n/>."
+msgstr "Если вы хотите, чтобы бот переместился вперёд на 30 метро, то напишите <c/>move(30);<n/>. Чтобы отправить бота назад после того, как он бросил кусок <a object|titanore>Руды Титановой</a> в <a object|convert>Преобразователь</a>, напишите <c/>move(-2.5);<n/>."
 
 #. type: Source code
 #: ../E/move.txt:9
@@ -2511,8 +2593,8 @@ msgid ""
 "Shield level of a robot or building. A level <code>1</code> indicates that the shield is still perfect. Every time that the bot or building gets a bullet or collides with another object, the shield level decreases. When the level reaches <code>0</code>, the next bullet or collision will destroy the bot or building. \n"
 "Bots can re-energize their shield on a <a object|repair>repair center</a>. The shield of a building is repaired if it lays inside the protection sphere of a <a object|botshld>shielder</a>."
 msgstr ""
-"Уровень полей робота или здания. Уровень <code>1</code> показывает, что поля превосходны. Каждый раз, когда по боту или зданию попадает пуля или же он сталкивается с другим объектом, уровень полей уменьшается. Когда уровень становится равным <code>0</code>, первая же пуля или столкновение приведут к уничтожению бота или здания.\n"
-"Боты могут перезаряжать свои поля в <a object|repair>центре починки</a>. Поля здания восстанавливаются, если оно помещается внутрь защитной сферы <a object|botshld>полевика</a>."
+"Уровень полей бота или здания. Уровень <code>1</code> показывает, что поля превосходны. Каждый раз, когда по боту или зданию попадает пуля или же он сталкивается с другим объектом, уровень полей уменьшается. Когда уровень становится равным <code>0</code>, первая же пуля или столкновение приведут к уничтожению бота или здания.\n"
+"Боты могут перезаряжать свои поля в <a object|repair>Пункте Ремонта</a>. Поля здания восстанавливаются, если оно помещается внутрь защитной сферы <a object|botshld>Защитника</a>."
 
 #. type: Source code
 #: ../E/object.txt:43
@@ -2548,7 +2630,7 @@ msgstr "<code>lifeTime</code>"
 #: ../E/object.txt:50
 #, no-wrap
 msgid "The age of the object in seconds since it's creation."
-msgstr ""
+msgstr "The age of the object in seconds since it's creation."
 
 #. type: Source code
 #: ../E/object.txt:52
@@ -2565,7 +2647,7 @@ msgid ""
 "If the bot has bot no power cell, <code>energyCell</code> returns <code>null</code>."
 msgstr ""
 "Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyCell содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
-"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
+"Если вы хотите определить энергетический уровень бота, то вы должны проверить не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
 "Если у бота нет энергетической ячейки, то <code>energyCell</code> вернет <code>null</code>."
 
 #. type: Source code
@@ -2578,10 +2660,11 @@ msgstr "<code>load</code>"
 #: ../E/object.txt:58
 #, no-wrap
 msgid "This information also returns the description of a whole object: the description of the object carried by a <a object|botgr>grabber</a>. If it carries nothing, <code>load</code> returns <code>null</code>."
-msgstr "Эта информация также вернет описание целого объекта: описание объекта, который несет <a object|botgr>несущий</a>. Если он ничего не несет, то <code>load</code> вернет <code>null</code>."
+msgstr "Эта информация также вернет описание целого объекта: описание объекта, который несет <a object|botgr>Погрузчик</a>. Если он ничего не несет, то <code>load</code> вернет <code>null</code>."
 
 #. type: \t; header, \b; header
-#: ../E/expr.txt:99 ../E/expr.txt:123 ../E/expr.txt:145 ../E/expr.txt:170 ../E/expr.txt:187 ../E/object.txt:66
+#: ../E/expr.txt:99 ../E/expr.txt:123 ../E/expr.txt:145 ../E/expr.txt:170
+#: ../E/expr.txt:187 ../E/object.txt:66
 #, no-wrap
 msgid "Examples"
 msgstr "Примеры"
@@ -3724,9 +3807,9 @@ msgid ""
 "<code>UraniumSpot </code>  ->  <a object|uranspot>Yellow circle</a>\n"
 "<code>PowerSpot   </code>  ->  <a object|enerspot>Green cross</a>"
 msgstr ""
-"<code>TitaniumSpot</code>  ->  <a object|stonspot>Красный крест</a>\n"
-"<code>UraniumSpot </code>  ->  <a object|uranspot>Желтый круг</a>\n"
-"<code>PowerSpot   </code>  ->  <a object|enerspot>Зеленый крест</a>"
+"<code>TitaniumSpot</code>  ->  <a object|stonspot>Крест Красный</a>\n"
+"<code>UraniumSpot </code>  ->  <a object|uranspot>Круг Желтый</a>\n"
+"<code>PowerSpot   </code>  ->  <a object|enerspot>Крест Зелёный</a>"
 
 #. type: Plain text
 #: ../E/sniff.txt:12
@@ -3921,7 +4004,9 @@ msgid "Substring we are searching for."
 msgstr "Подстрока для поиска."
 
 #. type: Plain text
-#: ../E/array.txt:35 ../E/strfind.txt:13 ../E/strleft.txt:10 ../E/strlen.txt:7 ../E/strlower.txt:7 ../E/strmid.txt:13 ../E/strright.txt:10 ../E/strupper.txt:7 ../E/strval.txt:4 ../E/strval.txt:11 ../E/writeln.txt:11
+#: ../E/array.txt:35 ../E/strfind.txt:13 ../E/strleft.txt:10 ../E/strlen.txt:7
+#: ../E/strlower.txt:7 ../E/strmid.txt:13 ../E/strright.txt:10
+#: ../E/strupper.txt:7 ../E/strval.txt:4 ../E/strval.txt:11 ../E/writeln.txt:11
 #, no-wrap
 msgid "Examples:"
 msgstr "Примеры:"
@@ -4574,7 +4659,7 @@ msgstr ""
 #: ../E/this.txt:1
 #, no-wrap
 msgid "Instruction <code>this</code>"
-msgstr "Инструкция <code>this</code>"
+msgstr ""
 
 #. type: Plain text
 #: ../E/this.txt:2
@@ -5034,12 +5119,6 @@ msgstr ""
 msgid "In the example above, the keyword <code>int</code> indicates that this variable can contain only whole numbers, which is adequate to counting objects. If you want to measure a distance, better use a variable that can contain also real numbers, with a fractional part (like 3.45 or 0.034): in this case, use the type <code>float</code>."
 msgstr "В приведенном выше примере ключевое слово <code>int</code> показывает, что эта переменная может содержать только целые числа, которые соответствуют подсчитываемым объектам. Если вы хотите измерить расстояние, то лучше используйте переменную, которая может содержать и дробные числа с дробной частью (например 3.45 или 0.034): в этом случае используйте тип <code>float</code>."
 
-#. type: Plain text
-#: ../E/var.txt:21
-#, no-wrap
-msgid "In fact, a variable is made up of three parts:"
-msgstr "Фактически переменная состоит из трех частей:"
-
 #. type: Bullet: '1)'
 #: ../E/var.txt:22
 #, no-wrap
@@ -5062,7 +5141,7 @@ msgstr "и содержимого, то есть самой информации
 #: ../E/var.txt:26
 #, no-wrap
 msgid "the name"
-msgstr "имя"
+msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:27
@@ -5075,16 +5154,6 @@ msgstr "Имя вам нужно для того, чтобы различать 
 #, no-wrap
 msgid "the type"
 msgstr "тип"
-
-#. type: Plain text
-#: ../E/var.txt:30
-#, no-wrap
-msgid ""
-"The <a cbot|type>type</a> determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a string, the coordinates of a point, information about an object, etc. \n"
-"Here is a list of the most common variable types:"
-msgstr ""
-"<a cbot|type>Тип</a> определяет какой вид информации может содержать переменная. В зависимости от типа переменная может содержать целое число, дробное число, строку, координаты точки, информацию об объекте и так далее.\n"
-"Вот список наиболее часто используемых типов переменных:"
 
 #. type: Bullet: 'o'
 #: ../E/var.txt:32
@@ -5301,12 +5370,6 @@ msgstr "Инструкция <code>while</code>"
 msgid "The instruction <code>while () {}</code> is used to repeat a set of instructions several times."
 msgstr "Инструкция <code>while () {}</code> используется для того, чтобы несколько раз повторять один и тот же набор инструкций."
 
-#. type: Plain text
-#: ../E/while.txt:5
-#, no-wrap
-msgid "The most frequent use of <code>while</code> consists in repeating a set of instructions again and again. In order to achieve this, write <code>while (true) {}</code> and put the instructions to be repeated in braces <code>{}</code>. As an example, here is a program that repeats again and again the following actions:"
-msgstr "Наиболее часто <code>while</code> используется для того, чтобы снова и снова повторять набор инструкций. Для того, чтобы добиться этого, напишите <code>while (true) {}</code> и впишите инструкции, которые нужно повторять, в скобки <code>{}</code>. Как пример здесь представлена программа, которая снова и снова повторяет следующие действия:"
-
 #. type: Bullet: 'o'
 #: ../E/while.txt:6
 #, no-wrap
@@ -5463,6 +5526,40 @@ msgstr ""
 "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
 
+#. type: Plain text
+#: ../E/fire.txt:13
+#, no-wrap
+msgid "Fires the gun, with a burst that lasts a certain time. The longer the burst, the more energy it needs. This instruction can be used with the following bot types: "
+msgstr "Стреляет из оружия, причем залп продолжается некоторое время. Чем дольше залп, тем больше энергии ему нужно. Эта инструкция может применяться к следующим типам ботов:"
+
+#. type: Plain text
+#: ../E/message.txt:15
+#, no-wrap
+msgid "Type of the message, that determines the background color. "
+msgstr "ТИп сообщения, определяющий фоновый цвет."
+
+#. type: Plain text
+#: ../E/var.txt:21
+#, no-wrap
+msgid "In fact, a variable is made up of three parts:"
+msgstr "Фактически переменная состоит из трех частей:"
+
+#. type: Plain text
+#: ../E/var.txt:30
+#, no-wrap
+msgid ""
+"The <a cbot|type>type</a> determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a string, the coordinates of a point, information about an object, etc. \n"
+"Here is a list of the most common variable types:"
+msgstr ""
+"<a cbot|type>Тип</a> определяет какой вид информации может содержать переменная. В зависимости от типа переменная может содержать целое число, дробное число, строку, координаты точки, информацию об объекте и так далее.\n"
+"Вот список наиболее часто используемых типов переменных:"
+
+#. type: Plain text
+#: ../E/while.txt:5
+#, no-wrap
+msgid "The most frequent use of <code>while</code> consists in repeating a set of instructions again and again. In order to achieve this, write <code>while (true) {}</code> and put the instructions to be repeated in braces <code>{}</code>. As an example, here is a program that repeats again and again the following actions:"
+msgstr "Наиболее часто <code>while</code> используется для того, чтобы снова и снова повторять набор инструкций. Для того, чтобы добиться этого, напишите <code>while (true) {}</code> и впишите инструкции, которые нужно повторять, в скобки <code>{}</code>. Как пример здесь представлена программа, которая снова и снова повторяет следующие действия:"
+
 #. type: \b; header
 #: ../E/acos.txt:1
 #, no-wrap
@@ -5476,7 +5573,8 @@ msgid "<c/>acos ( value );<n/>"
 msgstr "<c/>acos ( значение );<n/>"
 
 #. type: \t; header
-#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/ceil.txt:6 ../E/floor.txt:6 ../E/round.txt:6 ../E/sqrt.txt:5 ../E/trunc.txt:6
+#: ../E/acos.txt:5 ../E/asin.txt:5 ../E/atan.txt:5 ../E/ceil.txt:6
+#: ../E/floor.txt:6 ../E/round.txt:6 ../E/sqrt.txt:5 ../E/trunc.txt:6
 #, no-wrap
 msgid "value: <code><a cbot|float>float</a></code>"
 msgstr "значение: <code><a cbot|float>float</a></code>"
@@ -5494,7 +5592,9 @@ msgid "Arcus cosine (in degrees) of the value."
 msgstr "Арккосинус (в градусах) от значени."
 
 #. type: Plain text
-#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17 ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12 ../E/sqrt.txt:12 ../E/tan.txt:12
+#: ../E/acos.txt:12 ../E/asin.txt:12 ../E/atan.txt:12 ../E/atan2.txt:17
+#: ../E/cos.txt:12 ../E/pow.txt:15 ../E/rand.txt:9 ../E/sin.txt:12
+#: ../E/sqrt.txt:12 ../E/tan.txt:12
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|expr>expressions</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|expr>выражения</a>."
@@ -5566,7 +5666,8 @@ msgid "<c/>atan ( value );<n/>"
 msgstr "<c/>atan ( значение );<n/>"
 
 #. type: Plain text
-#: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7 ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
+#: ../E/atan.txt:6 ../E/atan2.txt:8 ../E/atan2.txt:11 ../E/ceil.txt:7
+#: ../E/floor.txt:7 ../E/round.txt:7 ../E/trunc.txt:7
 #, no-wrap
 msgid "Number."
 msgstr "Число."
@@ -5653,7 +5754,8 @@ msgid "Tells the robot to build a building using a titanium cube placed on a fla
 msgstr "Говорит роботу построить здание используя титановый куб расположенный на плоском участке земли поблизости."
 
 #. type: \t; header
-#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16 ../E/detect.txt:11 ../E/factory.txt:10 ../E/radar.txt:22
+#: ../E/build.txt:19 ../E/buildingenabled.txt:16 ../E/canbuild.txt:16
+#: ../E/detect.txt:11 ../E/factory.txt:10 ../E/radar.txt:22
 #, no-wrap
 msgid "cat: <code><a cbot|int>int</a></code>"
 msgstr ""
@@ -5714,7 +5816,8 @@ msgid "<c/>buildingenabled ( cat );<n/>"
 msgstr ""
 
 #. type: \t; header
-#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19 ../E/canresearch.txt:10 ../E/detect.txt:23 ../E/researched.txt:10
+#: ../E/buildingenabled.txt:19 ../E/busy.txt:10 ../E/canbuild.txt:19
+#: ../E/canresearch.txt:10 ../E/detect.txt:23 ../E/researched.txt:10
 #, no-wrap
 msgid "Return value: <code><a cbot|bool>bool</a></code>"
 msgstr "Возвращаемое значение: <code><a cbot|bool>bool</a></code>"
@@ -5750,7 +5853,8 @@ msgid "Checks if the object is busy."
 msgstr "Проверяет занят объект или нет."
 
 #. type: \t; header
-#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7 ../E/takeoff.txt:7
+#: ../E/busy.txt:7 ../E/destroy.txt:7 ../E/factory.txt:7 ../E/research.txt:7
+#: ../E/takeoff.txt:7
 #, no-wrap
 msgid "<a cbot|object>object</a>"
 msgstr ""
@@ -7557,7 +7661,8 @@ msgid "Binary operators below are working with fundamental number types (<code><
 msgstr ""
 
 #. type: \t; header
-#: ../E/expr.txt:53 ../E/expr.txt:89 ../E/expr.txt:115 ../E/expr.txt:140 ../E/expr.txt:163
+#: ../E/expr.txt:53 ../E/expr.txt:89 ../E/expr.txt:115 ../E/expr.txt:140
+#: ../E/expr.txt:163
 #, no-wrap
 msgid "List"
 msgstr "Список"
@@ -7790,7 +7895,8 @@ msgid "Firstly, the condition is valued and then the first result is returned if
 msgstr ""
 
 #. type: \t; header
-#: ../E/expr.txt:157 ../E/extends.txt:4 ../E/extends.txt:65 ../E/private.txt:4 ../E/protected.txt:4 ../E/super.txt:4
+#: ../E/expr.txt:157 ../E/extends.txt:4 ../E/extends.txt:65 ../E/private.txt:4
+#: ../E/protected.txt:4 ../E/super.txt:4
 #, no-wrap
 msgid "Example"
 msgstr "Пример"
@@ -8030,6 +8136,16 @@ msgid ""
 "       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
 "       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
 msgstr ""
+"       <code><a object|flag>BlueFlag</a>          </code>Флаг Синий\n"
+"       <code><a object|flag>RedFlag</a>           </code>Флаг Красный\n"
+"       <code><a object|flag>GreenFlag</a>         </code>Флаг Зелёный\n"
+"       <code><a object|flag>YellowFlag</a>        </code>Флаг Жёлтый\n"
+"       <code><a object|flag>VioletFlag</a>        </code>Флаг Фиолетовый\n"
+"       <code><a object|waypoint>WayPoint</a>          </code>Этап\n"
+"       <code><a object|target2>Target2</a>           </code>Цель Воздушная\n"
+"       <code><a object|enerspot>PowerSpot</a>        </code>Подземное Месторождение Энергии\n"
+"       <code><a object|stonspot>TitaniumSpot</a>      </code>Подземное Месторождение Титана\n"
+"       <code><a object|uranspot>UraniumSpot</a>       </code>Подземное Месторождение Урана"
 
 #. type: Plain text
 #: ../E/category.txt:10
@@ -8056,6 +8172,26 @@ msgid ""
 "       <code><a object|target1>Target1</a>          </code>Flying target\n"
 "       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
 msgstr ""
+"<button 176/>   <code><a object|huston>Houston</a>          </code>Центр Управления\n"
+"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Космический Корабль\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Фабрика Ботов\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Центр Исследований\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Радар\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Пункт Обмена Информацией\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Пункт Ремонта\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Башня Обороны\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Лаборатория \n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Энергозаправка\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Энергостанция Обычная\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Энергостанция Ядерная\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Преобразователь\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Вышка\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Молниеотвод\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Ангар\n"
+"       <code><a object|start>StartArea</a>        </code>Старт\n"
+"       <code><a object|goal>GoalArea</a>         </code>Финиш\n"
+"       <code><a object|target1>Target1</a>          </code>Цель\n"
+"       <code><a object|nest>AlienNest</a>        </code>Гнездо Пришельцев"
 
 #. type: Plain text
 #: ../E/class.txt:10
@@ -8707,6 +8843,16 @@ msgid ""
 "Add(2.0, 3.0); // Will return 5.0\n"
 "// ..."
 msgstr ""
+"float Add(float a = 0.0, float b = 0.0)\n"
+"{\n"
+"\treturn a + b;\n"
+"}\n"
+"\n"
+"// Somewhere in the main program...\n"
+"Add(); // Will return 0.0\n"
+"Add(2.0); // Will return 2.0\n"
+"Add(2.0, 3.0); // Will return 5.0\n"
+"// ..."
 
 #. type: \t; header
 #: ../E/function.txt:144
@@ -8740,6 +8886,21 @@ msgid ""
 "Add(0.0); // Ok\n"
 "// ..."
 msgstr ""
+"float Add(float a = 0.0, float b = 0.0)\n"
+"{\n"
+"\treturn a + b;\n"
+"}\n"
+"\n"
+"string Add(string a = \"\", string b = \"\")\n"
+"{\n"
+"\treturn a + b;\n"
+"}\n"
+"\n"
+"// Somewhere in the main program...\n"
+"Add(); // Compilation error: ambiguous call\n"
+"Add(\"\"); // Ok\n"
+"Add(0.0); // Ok\n"
+"// ..."
 
 #. type: Plain text
 #: ../E/function.txt:163
@@ -8756,3 +8917,7 @@ msgid ""
 "<button 194/>   <code><a object|botbj>WingedBuilder</a>          </code>Winged Builder\n"
 "<button 195/>   <code><a object|botbs>LeggedBuilder</a>          </code>Legged Builder"
 msgstr ""
+"<button 192/>   <code><a object|botbr>WheeledBuilder</a>         </code>Строитель Колёсный\n"
+"<button 193/>   <code><a object|botbc>TrackedBuilder</a>         </code>Строитель Гусеничный\n"
+"<button 194/>   <code><a object|botbj>WingedBuilder</a>          </code>Строитель Крылатый\n"
+"<button 195/>   <code><a object|botbs>LeggedBuilder</a>          </code>Строитель Муравьиногий"

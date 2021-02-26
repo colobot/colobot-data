@@ -2,19 +2,20 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-26 18:08+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,85,-1\n"
 
 #. type: \b; header
 #: ../E/ant.txt:1
@@ -32,16 +33,27 @@ msgstr "ant"
 #: ../E/ant.txt:3
 #, no-wrap
 msgid "Ants shoot tiny corrosive balls that eventually gnaw into the protective shielding of bots and buildings, causing them to explode."
-msgstr "Муравьи выстреливают маленькие едкие шарики, которые в конце концов прогрызают защитное покрытие ботов и зданий, заставляя их взрываться."
+msgstr "Муравьи стреляют крошечными токсичными сферами, которые разъедают защитные экраны ботов и зданий, заставляя их взрываться."
 
 #. type: Plain text
 #: ../E/ant.txt:5
 #, no-wrap
 msgid "<a object|human>You</a> can resist their attack much longer than most buildings and bots, and your protective shield will be restored as your wounds heal. However, if you stay too long in their range or if there are too many of them, your life is in great danger."
-msgstr "<a object|human>Вы</a> можете сопротивляться их атакам намного дольше чем большинство зданий и ботов, а ваш щит будет восстановлен когда залечатся ваши раны. Впрочем, если вы слишком долго будете оставаться с ними или их будет слишком много, ваша жизнь будет в большой опасности."
+msgstr "<a object|human>Вы</a> можете противостоять их атакам гораздо дольше, чем большинство зданий и ботов, и ваш защитный щит будет восстанавливаться по мере заживления ран. Однако, если вы слишком долго остаетесь в зоне поражения или их слишком много, ваша жизнь подвергается большой опасности."
 
 #. type: \t; header
-#: ../E/ant.txt:7 ../E/atomic.txt:11 ../E/barrier.txt:4 ../E/base.txt:7 ../E/bbox.txt:10 ../E/bullet.txt:8 ../E/captor.txt:21 ../E/convert.txt:20 ../E/derrick.txt:25 ../E/destroy.txt:20 ../E/egg.txt:4 ../E/energy.txt:24 ../E/enerspot.txt:13 ../E/exchange.txt:27 ../E/factory.txt:29 ../E/flag.txt:14 ../E/goal.txt:4 ../E/human.txt:15 ../E/huston.txt:7 ../E/labo.txt:20 ../E/mine.txt:10 ../E/mother.txt:11 ../E/nest.txt:4 ../E/nuclear.txt:20 ../E/power.txt:12 ../E/radar.txt:22 ../E/repair.txt:20 ../E/research.txt:23 ../E/ruin.txt:6 ../E/safe.txt:5 ../E/spider.txt:5 ../E/start.txt:4 ../E/station.txt:24 ../E/stonspot.txt:10 ../E/target1.txt:5 ../E/target2.txt:8 ../E/titan.txt:10 ../E/titanore.txt:10 ../E/tnt.txt:8 ../E/tower.txt:18 ../E/uranore.txt:12 ../E/uranspot.txt:11 ../E/wasp.txt:7 ../E/waypoint.txt:8 ../E/worm.txt:7 ../E/wreck.txt:6
+#: ../E/ant.txt:7 ../E/atomic.txt:11 ../E/barrier.txt:4 ../E/base.txt:7
+#: ../E/bbox.txt:10 ../E/bullet.txt:8 ../E/captor.txt:21 ../E/convert.txt:20
+#: ../E/derrick.txt:25 ../E/destroy.txt:20 ../E/egg.txt:4 ../E/energy.txt:24
+#: ../E/enerspot.txt:13 ../E/exchange.txt:27 ../E/factory.txt:29
+#: ../E/flag.txt:14 ../E/goal.txt:4 ../E/human.txt:15 ../E/huston.txt:7
+#: ../E/labo.txt:20 ../E/mine.txt:10 ../E/mother.txt:11 ../E/nest.txt:4
+#: ../E/nuclear.txt:20 ../E/power.txt:12 ../E/radar.txt:22 ../E/repair.txt:20
+#: ../E/research.txt:23 ../E/ruin.txt:6 ../E/safe.txt:5 ../E/spider.txt:5
+#: ../E/start.txt:4 ../E/station.txt:24 ../E/stonspot.txt:10 ../E/target1.txt:5
+#: ../E/target2.txt:8 ../E/titan.txt:10 ../E/titanore.txt:10 ../E/tnt.txt:8
+#: ../E/tower.txt:18 ../E/uranore.txt:12 ../E/uranspot.txt:11 ../E/wasp.txt:7
+#: ../E/waypoint.txt:8 ../E/worm.txt:7 ../E/wreck.txt:6
 #, no-wrap
 msgid "Object <a cbot|category>Category</a>"
 msgstr "Объект <a cbot|category>Категория</a>"
@@ -53,13 +65,36 @@ msgid "<code>AlienAnt</code>"
 msgstr "<code>AlienAnt</code>"
 
 #. type: \t; header
-#: ../E/ant.txt:10 ../E/atomic.txt:14 ../E/barrier.txt:7 ../E/base.txt:10 ../E/bbox.txt:13 ../E/bullet.txt:11 ../E/captor.txt:24 ../E/convert.txt:23 ../E/derrick.txt:28 ../E/destroy.txt:23 ../E/egg.txt:7 ../E/energy.txt:27 ../E/enerspot.txt:16 ../E/exchange.txt:30 ../E/factory.txt:32 ../E/flag.txt:21 ../E/goal.txt:7 ../E/human.txt:18 ../E/huston.txt:10 ../E/key.txt:16 ../E/labo.txt:23 ../E/mine.txt:13 ../E/mother.txt:14 ../E/nest.txt:7 ../E/nuclear.txt:23 ../E/power.txt:15 ../E/radar.txt:25 ../E/repair.txt:23 ../E/research.txt:26 ../E/ruin.txt:9 ../E/safe.txt:8 ../E/spider.txt:8 ../E/start.txt:7 ../E/station.txt:27 ../E/stonspot.txt:13 ../E/target1.txt:8 ../E/target2.txt:11 ../E/titan.txt:13 ../E/titanore.txt:13 ../E/tnt.txt:11 ../E/tower.txt:21 ../E/uranore.txt:15 ../E/uranspot.txt:14 ../E/wasp.txt:10 ../E/waypoint.txt:11 ../E/worm.txt:10 ../E/wreck.txt:9
+#: ../E/ant.txt:10 ../E/atomic.txt:14 ../E/barrier.txt:7 ../E/base.txt:10
+#: ../E/bbox.txt:13 ../E/bullet.txt:11 ../E/captor.txt:24 ../E/convert.txt:23
+#: ../E/derrick.txt:28 ../E/destroy.txt:23 ../E/egg.txt:7 ../E/energy.txt:27
+#: ../E/enerspot.txt:16 ../E/exchange.txt:30 ../E/factory.txt:32
+#: ../E/flag.txt:21 ../E/goal.txt:7 ../E/human.txt:18 ../E/huston.txt:10
+#: ../E/key.txt:16 ../E/labo.txt:23 ../E/mine.txt:13 ../E/mother.txt:14
+#: ../E/nest.txt:7 ../E/nuclear.txt:23 ../E/power.txt:15 ../E/radar.txt:25
+#: ../E/repair.txt:23 ../E/research.txt:26 ../E/ruin.txt:9 ../E/safe.txt:8
+#: ../E/spider.txt:8 ../E/start.txt:7 ../E/station.txt:27 ../E/stonspot.txt:13
+#: ../E/target1.txt:8 ../E/target2.txt:11 ../E/titan.txt:13
+#: ../E/titanore.txt:13 ../E/tnt.txt:11 ../E/tower.txt:21 ../E/uranore.txt:15
+#: ../E/uranspot.txt:14 ../E/wasp.txt:10 ../E/waypoint.txt:11 ../E/worm.txt:10
+#: ../E/wreck.txt:9
 #, no-wrap
 msgid "See also"
-msgstr "Смотри также"
+msgstr "Смотрите также"
 
 #. type: Plain text
-#: ../E/ant.txt:11 ../E/atomic.txt:15 ../E/barrier.txt:8 ../E/base.txt:11 ../E/bbox.txt:14 ../E/bullet.txt:12 ../E/captor.txt:25 ../E/convert.txt:24 ../E/derrick.txt:29 ../E/egg.txt:8 ../E/energy.txt:28 ../E/enerspot.txt:17 ../E/exchange.txt:31 ../E/factory.txt:33 ../E/flag.txt:22 ../E/goal.txt:8 ../E/human.txt:19 ../E/huston.txt:11 ../E/key.txt:17 ../E/labo.txt:24 ../E/mine.txt:14 ../E/mother.txt:15 ../E/nest.txt:8 ../E/nuclear.txt:24 ../E/power.txt:16 ../E/radar.txt:26 ../E/repair.txt:24 ../E/research.txt:27 ../E/ruin.txt:10 ../E/safe.txt:9 ../E/spider.txt:9 ../E/start.txt:8 ../E/station.txt:28 ../E/stonspot.txt:14 ../E/target1.txt:9 ../E/target2.txt:12 ../E/titan.txt:14 ../E/titanore.txt:14 ../E/tnt.txt:12 ../E/tower.txt:22 ../E/uranore.txt:16 ../E/uranspot.txt:15 ../E/wasp.txt:11 ../E/waypoint.txt:12 ../E/worm.txt:11 ../E/wreck.txt:10
+#: ../E/ant.txt:11 ../E/atomic.txt:15 ../E/barrier.txt:8 ../E/base.txt:11
+#: ../E/bbox.txt:14 ../E/bullet.txt:12 ../E/captor.txt:25 ../E/convert.txt:24
+#: ../E/derrick.txt:29 ../E/egg.txt:8 ../E/energy.txt:28 ../E/enerspot.txt:17
+#: ../E/exchange.txt:31 ../E/factory.txt:33 ../E/flag.txt:22 ../E/goal.txt:8
+#: ../E/human.txt:19 ../E/huston.txt:11 ../E/key.txt:17 ../E/labo.txt:24
+#: ../E/mine.txt:14 ../E/mother.txt:15 ../E/nest.txt:8 ../E/nuclear.txt:24
+#: ../E/power.txt:16 ../E/radar.txt:26 ../E/repair.txt:24 ../E/research.txt:27
+#: ../E/ruin.txt:10 ../E/safe.txt:9 ../E/spider.txt:9 ../E/start.txt:8
+#: ../E/station.txt:28 ../E/stonspot.txt:14 ../E/target1.txt:9
+#: ../E/target2.txt:12 ../E/titan.txt:14 ../E/titanore.txt:14 ../E/tnt.txt:12
+#: ../E/tower.txt:22 ../E/uranore.txt:16 ../E/uranspot.txt:15 ../E/wasp.txt:11
+#: ../E/waypoint.txt:12 ../E/worm.txt:11 ../E/wreck.txt:10
 #, no-wrap
 msgid "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a cbot|category>Categories</a>."
 msgstr "<a cbot>Язык CBOT</a>, <a cbot|type>Переменные</a> и <a cbot|category>Категории</a>."
@@ -68,7 +103,7 @@ msgstr "<a cbot>Язык CBOT</a>, <a cbot|type>Переменные</a> и <a c
 #: ../E/atomic.txt:1
 #, no-wrap
 msgid "Nuclear Power Cell"
-msgstr "Ядерная батарея"
+msgstr "Батарея Ядерная"
 
 #. type: Image filename
 #: ../E/atomic.txt:2
@@ -83,26 +118,30 @@ msgid ""
 "A nuclear power cell supplies the bots and some buildings with energy.\n"
 "Its capacity is 100 times that of a <a object|power>regular power cell</a>."
 msgstr ""
-"Ядерная батарея обеспечивает энергией ботов и некоторые здания.\n"
-"Она в 10 раз более мощная, чем <a object|power>обычная батарея</a>."
+"Батарея Ядерная снабжает энергией ботов и некоторые здания.\n"
+"Её ёмкость в 100 раз больше, чем у <a object|power>Батареи Обычной</a>."
 
 #. type: Plain text
 #: ../E/atomic.txt:6
 #, no-wrap
 msgid "Nuclear power cells cannot be recharged or recycled. A <a object|nuclear>nuclear plant</a> and some <a object|uranore>uranium ore</a> is needed to produce a new and fully charged nuclear power cell."
-msgstr "Ядерные батарея нельзя перезаряжать или перерабатывать. <a object|nuclear>Ядерный завод</a> и <a object|uranore>урановая руда</a> необходимы, чтобы произвести новую полностью заряженную ядерную батарею."
+msgstr "Батарея Ядерная не подлежит перезарядке или переработке. Потребуется <a object|nuclear>Энергостанция Ядерная</a> и <a object|uranore>Руда Урановая</a> для производства новой и полностью заряженной Батареи Ядерной."
 
 #. type: \t; header
-#: ../E/atomic.txt:8 ../E/bbox.txt:7 ../E/bullet.txt:5 ../E/enerspot.txt:10 ../E/flag.txt:11 ../E/key.txt:10 ../E/mine.txt:7 ../E/power.txt:9 ../E/stonspot.txt:7 ../E/target2.txt:5 ../E/titan.txt:7 ../E/titanore.txt:7 ../E/tnt.txt:5 ../E/uranore.txt:9 ../E/uranspot.txt:8 ../E/waypoint.txt:5
+#: ../E/atomic.txt:8 ../E/bbox.txt:7 ../E/bullet.txt:5 ../E/enerspot.txt:10
+#: ../E/flag.txt:11 ../E/key.txt:10 ../E/mine.txt:7 ../E/power.txt:9
+#: ../E/stonspot.txt:7 ../E/target2.txt:5 ../E/titan.txt:7 ../E/titanore.txt:7
+#: ../E/tnt.txt:5 ../E/uranore.txt:9 ../E/uranspot.txt:8 ../E/waypoint.txt:5
 #, no-wrap
 msgid "Transport"
 msgstr "Транспорт"
 
 #. type: Plain text
-#: ../E/atomic.txt:9 ../E/bbox.txt:8 ../E/bullet.txt:6 ../E/key.txt:11 ../E/power.txt:10 ../E/titan.txt:8 ../E/titanore.txt:8 ../E/tnt.txt:6
+#: ../E/atomic.txt:9 ../E/bbox.txt:8 ../E/bullet.txt:6 ../E/key.txt:11
+#: ../E/power.txt:10 ../E/titan.txt:8 ../E/titanore.txt:8 ../E/tnt.txt:6
 #, no-wrap
 msgid "All <a object|botgr>grabbers</a> and the <a object|human>astronaut</a>."
-msgstr "Все <a object|botgr>сборщики</a> и <a object|human>астронавт</a>."
+msgstr "Все <a object|botgr>Погрузчики</a> и <a object|human>Космонавт</a>."
 
 #. type: Plain text
 #: ../E/atomic.txt:12
@@ -120,7 +159,7 @@ msgstr "Барьер"
 #: ../E/barrier.txt:2
 #, no-wrap
 msgid "The barrier is nothing more than an obstacle used in the exercises."
-msgstr "Барьер это просто препятствие, которое используется для тренировок."
+msgstr "Барьер - это не более чем препятствие, используемое на тренировках."
 
 #. type: Plain text
 #: ../E/barrier.txt:5
@@ -132,7 +171,7 @@ msgstr "<code>Barrier</code>"
 #: ../E/base.txt:1
 #, no-wrap
 msgid "<button 171/> Spaceship"
-msgstr "<button 171/> Космический корабль"
+msgstr "<button 171/> Космический Корабль"
 
 #. type: Image filename
 #: ../E/base.txt:2
@@ -144,13 +183,13 @@ msgstr "base"
 #: ../E/base.txt:3
 #, no-wrap
 msgid "<a object|human>Your</a> means of transportation from one planet to the next, the only way to travel safely across the cosmos and accomplish your missions."
-msgstr "\\lЕдинственный путь безопасно путешествовать по космосу и выполнять свои миссии - это космический корабль."
+msgstr "<a object|human>Ваше</a> средство передвижения с одной планеты на другую, единственный способ безопасно путешествовать по космосу и выполнять свои миссии."
 
 #. type: Plain text
 #: ../E/base.txt:5
 #, no-wrap
 msgid "In addition to yourself, the spaceship can carry bots and raw materials. Whenever a mission is completed, you must select the spaceship, then click on the <takeoff> command <button 28/>."
-msgstr "Также он способен нести ботов и необработанные материалы. Когда заканчивается миссия, вы должны выбрать космический корабль, затем кликнуть на команде <взлет> <button 28/>."
+msgstr "Помимо вас, Космический Корабль может перевозить ботов и сырье. Когда миссия завершена, вы должны выбрать Космический Корабль, затем нажать <takeoff> команду <button 28/>."
 
 #. type: Plain text
 #: ../E/base.txt:8
@@ -162,7 +201,7 @@ msgstr "<code>SpaceShip</code>"
 #: ../E/bbox.txt:1
 #, no-wrap
 msgid "Black Box"
-msgstr "Черный Ящик"
+msgstr "Чёрный Ящик"
 
 #. type: Image filename
 #: ../E/bbox.txt:2
@@ -174,13 +213,13 @@ msgstr "bbox"
 #: ../E/bbox.txt:3
 #, no-wrap
 msgid "A black box is actually orange so as to be easier to identify and locate. Each <a object|base>spaceship</a> is equipped with a black box that records and stores information about the flight."
-msgstr "Черный ящик на самом деле оранжевого цвета, чтобы его было легче найти. Каждый <a object|base>космический корабль</a> оборудован черным ящиком, который записывает и хранит информацию о полете."
+msgstr "Чёрный ящик на самом деле оранжевого цвета, чтобы было легче распознать и найти его. Каждый <a object|base>Космический Корабль</a> оснащен Чёрным Ящиком, в котором записывается и хранится информация о полете."
 
 #. type: Plain text
 #: ../E/bbox.txt:5
 #, no-wrap
 msgid "A black box can also be used to leave important information. On every planet the first expedition has left a black box containing the coordinates of the planet it was heading towards next."
-msgstr "Черный ящик также можно использовать, чтобы оставлять важную информацию. На каждой планете первая экспедиция оставила черный ящик, соде��жащий координаты следующей планеты, на которую они направлялись."
+msgstr "Чёрный Ящик также можно использовать для хранения важной информации. На каждой планете первая экспедиция оставила черный ящик с координатами планеты, к которой она направилась."
 
 #. type: Plain text
 #: ../E/bbox.txt:11
@@ -192,7 +231,7 @@ msgstr "<code>BlackBox</code>"
 #: ../E/bullet.txt:1
 #, no-wrap
 msgid "Organic Matter"
-msgstr "Органическая Материя"
+msgstr "Био-Материя"
 
 #. type: Image filename
 #: ../E/bullet.txt:2
@@ -204,7 +243,7 @@ msgstr "bullet"
 #: ../E/bullet.txt:3
 #, no-wrap
 msgid "The organic matter is the insects' secretion. <a object|wasp>Wasps</a> often use balls of organic matter to bombard you. You should perhaps try to get hold of some since it could allow you, given the necessary <a object|labo>analysis</a>, to discover new and strange technologies that will improve the efficiency of your bots."
-msgstr "Органическая материя - это выделения насекомых. <a object|wasp>Осы</a> часто используют шарики из органической материи, чтобы вас бомбардировать. Наверное вам следует добыть себе несколько таких, так как это позволит вам, после необходимых <a object|labo>исследований</a>, открыть новые технологии, которые увеличат эффективность ваших ботов."
+msgstr "Био-Материя - это выделения насекомых. <a object|wasp>Осы</a> часто используют сферы из Био-Материи, чтобы бомбардировать вас. Возможно, вам стоит попытаться заполучить некоторое их количество, чтобы после проведения необходимых <a object|labo>Исследований</a>, открыть новые и необычные технологии, которые улучшат эффективность ваших ботов."
 
 #. type: Plain text
 #: ../E/bullet.txt:9
@@ -216,7 +255,7 @@ msgstr "<code>OrgaMatter</code>"
 #: ../E/captor.txt:1
 #, no-wrap
 msgid "<button 174/> Power Captor"
-msgstr "<button 174/> Громоотвод/Молниеотвод"
+msgstr "<button 174/> Молниеотвод"
 
 #. type: Image filename
 #: ../E/captor.txt:2
@@ -231,41 +270,48 @@ msgid ""
 "The power captor acts as both a lightning conductor and a power converter.\n"
 "It offers protection within a radius of 50 meters against the perilous lightning bolts of magnetic storms. Additionally, when the captor is hit by lightning, all bots and <a object|power>power cells</a> placed underneath, with the exception of the <a object|atomic>nuclear power cells</a>, are recharged."
 msgstr ""
-"Это тросовый молниеотвод и преобразователь энергии.\n"
-"Он предлагает защиту в радиусе 50 метров от опасных молний и магнитных бурь. Дополнительно, когда в Захватчик попадает молния, все боты и <a object|power>аккумуляторы</a>, которые находятся под ним, кроме <a object|atomic>ядерных аккумуляторов</a>, заряжаются."
+"Молниеотвод улавливает разряды молний и преобразует в энергию.\n"
+"Он защищает в радиусе 50 метров от воздействия молнии во время магнитных бурь. Кроме того, когда в Молниеотвод попадает молния, все боты и <a object|power>Батареи Обычные</a>, размещенные снизу, кроме <a object|atomic>Батареи Ядерной</a>, перезаряжаются."
 
 #. type: Plain text
 #: ../E/captor.txt:6
 #, no-wrap
 msgid "To visualize the zone shielded by a power captor, select it then hit the <range> button <button 41/>. Red dots outline the circular zone for 20 seconds."
-msgstr "Чтобы увидеть зону, покрываемую им, выберите молниеотвод, а затем нажмите кнопку <дальность> <button 41/>. Красные точки покажут круглую зону на 20 секунд."
+msgstr "Чтобы показать зону действия, выберите Молниеотвод и нажмите <range> кнопку <button 41/>. Маленькие красные точки очертят круговую зону на 20 секунд."
 
 #. type: Plain text
 #: ../E/captor.txt:8
 #, no-wrap
 msgid "In the vastness of space, few planets suffer from magnetic storms. Among the ones you'll be visiting, only Orpheon is subject to this phenomenon."
-msgstr "В пустоте космоса редкие планеты страдают от магнитных бурь. Среди тех, которые вы посетите, только Орфеон подвержен этому феномену."
+msgstr "На просторах космоса мало планет подверженных явлению магнитных бурь. Из тех, что вы посетите, только Орфеон подвержен этому явлению."
 
 #. type: Plain text
 #: ../E/captor.txt:10
 #, no-wrap
 msgid "Note that your <a object|base>spaceship</a> can also act as a lightning conductor. However it will not recharge power cells."
-msgstr "Учтите, что ваш <a object|base>космический корабль</a> также может служить громоотводом. Впрочем, он не будет заряжать аккумуляторы."
+msgstr "Заметьте, что ваш <a object|base>Космический Корабль</a> также может действовать как Молниеотвод. Однако он не будет заряжать Батареи."
 
 #. type: \t; header
-#: ../E/captor.txt:12 ../E/convert.txt:5 ../E/derrick.txt:10 ../E/destroy.txt:5 ../E/energy.txt:9 ../E/exchange.txt:12 ../E/factory.txt:14 ../E/labo.txt:5 ../E/nuclear.txt:5 ../E/radar.txt:7 ../E/repair.txt:5 ../E/research.txt:8 ../E/station.txt:9 ../E/tower.txt:9
+#: ../E/captor.txt:12 ../E/convert.txt:5 ../E/derrick.txt:10 ../E/destroy.txt:5
+#: ../E/energy.txt:9 ../E/exchange.txt:12 ../E/factory.txt:14 ../E/labo.txt:5
+#: ../E/nuclear.txt:5 ../E/radar.txt:7 ../E/repair.txt:5 ../E/research.txt:8
+#: ../E/station.txt:9 ../E/tower.txt:9
 #, no-wrap
 msgid "Requirements for building"
-msgstr "Требования для постройки"
+msgstr "Требования к зданию"
 
 #. type: Plain text
 #: ../E/captor.txt:13 ../E/destroy.txt:6 ../E/nuclear.txt:6
 #, no-wrap
 msgid "Any flat surface of at least 10 meters wide."
-msgstr "Любая плоская поверхность минимум 10 метров в ширину."
+msgstr "Любая ровная поверхность шириной не менее 10 метров."
 
 #. type: \t; header
-#: ../E/captor.txt:15 ../E/convert.txt:14 ../E/derrick.txt:19 ../E/destroy.txt:14 ../E/energy.txt:18 ../E/exchange.txt:21 ../E/factory.txt:23 ../E/labo.txt:14 ../E/nuclear.txt:14 ../E/radar.txt:16 ../E/repair.txt:14 ../E/research.txt:17 ../E/station.txt:18 ../E/tower.txt:12
+#: ../E/captor.txt:15 ../E/convert.txt:14 ../E/derrick.txt:19
+#: ../E/destroy.txt:14 ../E/energy.txt:18 ../E/exchange.txt:21
+#: ../E/factory.txt:23 ../E/labo.txt:14 ../E/nuclear.txt:14 ../E/radar.txt:16
+#: ../E/repair.txt:14 ../E/research.txt:17 ../E/station.txt:18
+#: ../E/tower.txt:12
 #, no-wrap
 msgid "Power source"
 msgstr "Источник энергии"
@@ -277,10 +323,14 @@ msgid "Lightning bolts."
 msgstr "Молнии."
 
 #. type: \t; header
-#: ../E/captor.txt:18 ../E/convert.txt:17 ../E/derrick.txt:22 ../E/destroy.txt:17 ../E/energy.txt:21 ../E/exchange.txt:24 ../E/factory.txt:26 ../E/labo.txt:17 ../E/nuclear.txt:17 ../E/radar.txt:19 ../E/repair.txt:17 ../E/research.txt:20 ../E/station.txt:21 ../E/tower.txt:15
+#: ../E/captor.txt:18 ../E/convert.txt:17 ../E/derrick.txt:22
+#: ../E/destroy.txt:17 ../E/energy.txt:21 ../E/exchange.txt:24
+#: ../E/factory.txt:26 ../E/labo.txt:17 ../E/nuclear.txt:17 ../E/radar.txt:19
+#: ../E/repair.txt:17 ../E/research.txt:20 ../E/station.txt:21
+#: ../E/tower.txt:15
 #, no-wrap
 msgid "Duration of operation"
-msgstr "Длительность действия"
+msgstr "Длительность операции"
 
 #. type: Plain text
 #: ../E/captor.txt:19 ../E/exchange.txt:25 ../E/tower.txt:16
@@ -298,7 +348,7 @@ msgstr "<code>PowerCaptor</code>"
 #: ../E/convert.txt:1
 #, no-wrap
 msgid "<button 162/> Converter"
-msgstr "<button 162/> Конвертер"
+msgstr "<button 162/> Преобразователь"
 
 #. type: Image filename
 #: ../E/convert.txt:2
@@ -310,31 +360,36 @@ msgstr "convert"
 #: ../E/convert.txt:3
 #, no-wrap
 msgid "This building was designed to convert chunks of <a object|titanore>titanium ore</a> into usable <a object|titan>titanium cubes</a>. All <a object|human>you</a> need to do is place a chunk at the center of the platform and step back. The converter takes care of the rest."
-msgstr "Это здание было спроектировано для того, чтобы превращать куски <a object|titanore>титановой руды</a> в <a object|titan>титановые кубы</a>. Все что <a object|human>вам</a> нужно сделать - это поместить кусок на платформу и отойти. Конвертер позаботится обо всем."
+msgstr "Это здание было спроектировано для переработки куска <a object|titanore>Руды Титановой</a> в <a object|titan>Титан</a>. Все что <a object|human>Вам</a> надо, - это поместить кусок в центр платформы и отойти. Об остальном позаботится Преобразователь."
 
 #. type: Plain text
 #: ../E/convert.txt:6 ../E/labo.txt:6 ../E/repair.txt:6
 #, no-wrap
 msgid "Any flat surface of at least 6 meters wide."
-msgstr "Любая ровная поверхность шириной по крайней мере 6 метров."
+msgstr "Любая ровная поверхность шириной не менее 6 метров."
 
 #. type: \t; header
-#: ../E/convert.txt:8 ../E/derrick.txt:13 ../E/destroy.txt:8 ../E/energy.txt:12 ../E/exchange.txt:15 ../E/factory.txt:17 ../E/labo.txt:8 ../E/nuclear.txt:8 ../E/radar.txt:10 ../E/repair.txt:8 ../E/research.txt:11 ../E/station.txt:12
+#: ../E/convert.txt:8 ../E/derrick.txt:13 ../E/destroy.txt:8 ../E/energy.txt:12
+#: ../E/exchange.txt:15 ../E/factory.txt:17 ../E/labo.txt:8 ../E/nuclear.txt:8
+#: ../E/radar.txt:10 ../E/repair.txt:8 ../E/research.txt:11 ../E/station.txt:12
 #, no-wrap
 msgid "Input"
-msgstr "Поступают"
+msgstr "Вход"
 
 #. type: Plain text
 #: ../E/convert.txt:9
 #, no-wrap
 msgid "Titanium ore."
-msgstr "Титановая руда."
+msgstr "Руда Титановая."
 
 #. type: \t; header
-#: ../E/convert.txt:11 ../E/derrick.txt:16 ../E/destroy.txt:11 ../E/energy.txt:15 ../E/exchange.txt:18 ../E/factory.txt:20 ../E/labo.txt:11 ../E/nuclear.txt:11 ../E/radar.txt:13 ../E/repair.txt:11 ../E/research.txt:14 ../E/station.txt:15
+#: ../E/convert.txt:11 ../E/derrick.txt:16 ../E/destroy.txt:11
+#: ../E/energy.txt:15 ../E/exchange.txt:18 ../E/factory.txt:20 ../E/labo.txt:11
+#: ../E/nuclear.txt:11 ../E/radar.txt:13 ../E/repair.txt:11
+#: ../E/research.txt:14 ../E/station.txt:15
 #, no-wrap
 msgid "Output"
-msgstr "Продукция"
+msgstr "Выход"
 
 #. type: Plain text
 #: ../E/convert.txt:12 ../E/energy.txt:13 ../E/factory.txt:18
@@ -343,10 +398,13 @@ msgid "Titanium."
 msgstr "Титан."
 
 #. type: Plain text
-#: ../E/convert.txt:15 ../E/derrick.txt:20 ../E/destroy.txt:15 ../E/exchange.txt:16 ../E/exchange.txt:22 ../E/factory.txt:24 ../E/labo.txt:15 ../E/nuclear.txt:15 ../E/radar.txt:11 ../E/radar.txt:17 ../E/repair.txt:15
+#: ../E/convert.txt:15 ../E/derrick.txt:20 ../E/destroy.txt:15
+#: ../E/exchange.txt:16 ../E/exchange.txt:22 ../E/factory.txt:24
+#: ../E/labo.txt:15 ../E/nuclear.txt:15 ../E/radar.txt:11 ../E/radar.txt:17
+#: ../E/repair.txt:15
 #, no-wrap
 msgid "None."
-msgstr "Нет."
+msgstr "Ничто."
 
 #. type: Plain text
 #: ../E/convert.txt:18 ../E/factory.txt:27
@@ -364,7 +422,7 @@ msgstr "<code>Converter</code>"
 #: ../E/derrick.txt:1
 #, no-wrap
 msgid "<button 161/> Derrick"
-msgstr "<button 161/> Буровая вышка"
+msgstr "<button 161/> Вышка"
 
 #. type: Image filename
 #: ../E/derrick.txt:2
@@ -376,49 +434,49 @@ msgstr "derrick"
 #: ../E/derrick.txt:3
 #, no-wrap
 msgid "The derrick is intended for the extraction of raw materials."
-msgstr "Буровая вышка предназначена для добывания сырья."
+msgstr "Вышка предназначена для добычи сырья."
 
 #. type: Plain text
 #: ../E/derrick.txt:5
 #, no-wrap
 msgid "In order to determine the best site on which to erect a derrick, a <a object|botsr>sniffer</a> should be used to prospect the subsoil. The marks it lays down provide information about the specifics of what the derrick will be able to extract:"
-msgstr "Чтобы определить подходящее место для вышки, нужно использовать <a object|botsr>сниффер</a>, который исследует землю. Отметки, которые он ставит, дают информацию о специфике того, что сможет добывать Вышка:"
+msgstr "Чтобы определить лучшее место для установки Вышки, следует использовать <a object|botsr>Разведчик</a> для поиска месторождений. Отметки, которые Разведчик проставит, укажут на то, что сможет добывать Вышка:"
 
 #. type: Bullet: '-'
 #: ../E/derrick.txt:7
 #, no-wrap
 msgid "a <a object|stonspot>red cross</a> -> <a object|titanore>titanium ore</a>."
-msgstr "<a object|stonspot>красный крест</a> -> <a object|titanore>титановая руда</a>."
+msgstr "<a object|stonspot>Крест Красный</a> -> <a object|titanore>Руда Титановая</a>."
 
 #. type: Bullet: '-'
 #: ../E/derrick.txt:8
 #, no-wrap
 msgid "a <a object|uranspot>yellow circle</a>  -> <a object|uranore>uranium ore</a>."
-msgstr "<a object|uranspot>желтый круг</a>  -> <a object|uranore>урановая руда</a>."
+msgstr "<a object|uranspot>Круг Жёлтый</a>  -> <a object|uranore>Руда Урановая</a>."
 
 #. type: Plain text
 #: ../E/derrick.txt:11
 #, no-wrap
 msgid "Any flat and geologically adequate surface of at least 2.5 meters wide."
-msgstr "Любая плоская геологически подходящая поверхность минимум 2.5 метра в ширину."
+msgstr "Любая ровная и геологически подходящая поверхность шириной не менее 2,5 метров."
 
 #. type: Plain text
 #: ../E/derrick.txt:14
 #, no-wrap
 msgid "Titanium or uranium ore in the subsoil."
-msgstr "Титановая или урановая руда подпочвы."
+msgstr "Месторождение Руды Титановой или Урановой."
 
 #. type: Plain text
 #: ../E/derrick.txt:17
 #, no-wrap
 msgid "Chunks of titanium or uranium ore."
-msgstr "Куски титановой или урановой руды."
+msgstr "Куски Руды Титановой или Урановой."
 
 #. type: Plain text
 #: ../E/derrick.txt:23
 #, no-wrap
 msgid "10 seconds for titanium and 30 for uranium."
-msgstr "10 секунд для титана и 30 для урана."
+msgstr "10 секунд для Титана и 30 для Урана."
 
 #. type: Plain text
 #: ../E/derrick.txt:26
@@ -430,13 +488,13 @@ msgstr "<code>Derrick</code>"
 #: ../E/egg.txt:1
 #, no-wrap
 msgid "Alien Egg"
-msgstr "Яйцо Чужих"
+msgstr "Яйцо Пришельцев"
 
 #. type: Plain text
 #: ../E/egg.txt:2
 #, no-wrap
 msgid "The alien eggs are laid by the <a object|mother>Alien Queen</a>. After a short time, they will hatch and an <a object|ant>ant</a>, a <a object|wasp>wasp</a>, a <a object|spider>spider</a> or a <a object|worm>worm</a> will come out."
-msgstr "Яйца чужих откладывает <a object|mother>Королева Чужих</a>. После короткого времени они начнут вылупляться и из них выберутся <a object|ant>муравей</a>, <a object|wasp>оса</a>, <a object|spider>паук</a> или <a object|worm>червь</a>."
+msgstr "Яйцо Пришельцев откладывает <a object|mother>Королева Пришельцев</a>. Через короткое время из него вылупится <a object|ant>Муравей</a>, <a object|wasp>Оса</a>, <a object|spider>Паук</a> или <a object|worm>Червь</a>."
 
 #. type: Plain text
 #: ../E/egg.txt:5
@@ -448,7 +506,7 @@ msgstr "<code>AlienEgg</code>"
 #: ../E/energy.txt:1
 #, no-wrap
 msgid "<button 167/> Power Plant"
-msgstr "<button 167/> Электростанция"
+msgstr "<button 167/> Энергостанция Обычная"
 
 #. type: Image filename
 #: ../E/energy.txt:2
@@ -460,37 +518,37 @@ msgstr "energy"
 #: ../E/energy.txt:3
 #, no-wrap
 msgid "The power plant is a <a object|power>power cell</a> factory. It transforms a <a object|titan>titanium cube</a> into a regular power cell fully charged and ready for use."
-msgstr "Электростанция - это фабрика <a object|power>батарей</a>. Она превращает <a object|titan>титановый куб</a> в обычный полностью заряженный аккумулятор, готовый к использованию."
+msgstr "Энергостанция Обычная - это производство <a object|power>Батареи Обычной</a>. Перерабатывает <a object|titan>Титан</a> в полностью заряженную и готовую к использованию Батарею Обычную."
 
 #. type: Plain text
 #: ../E/energy.txt:5
 #, no-wrap
 msgid "A power plant requires some energy in the subsoil. If the satellite report says that energy is available only at some places, you will need a <a object|botsr>sniffer bot</a> to prospect the subsoil. The marks it lays down provide information about the specifics of its findings: a <a object|enerspot>green cross</a> means that there is an energy deposit at this location beneath the surface, which is indispensable for the construction of a power plant or a <a object|station>power station</a>."
-msgstr "Электростанции требуется немного энергии в подпочве. Если в сообщениях спутника говорится, что энергия доступна только в определенных местах, то вам понадобится <a object|botsr>сниффер</a>, чтобы исследовать подпочву. Отметки, которые он ставит дают информацию об особенностях того, что он нашел: <a object|enerspot>зеленый крест</a> означает, что под землей в этом месте есть залежи энергии, которые необходимы для строительства электростанции или <a object|station>заправочной станции</a>."
+msgstr "Энергостанция Обычная требует небольшое Месторождение Энергии. Если в отчете спутника указано, что энергия доступна только в отдельных местах, вам понадобится <a object|botsr>Бот Разведчик</a> для поиска месторождения. Отметки, проставленные Разведчиком, в виде: <a object|enerspot>Крест Зелёный</a> указывают на Месторождение Энергии, необходимое для строительства Энергостанции Обычной или <a object|station>Энергозаправки</a>."
 
 #. type: Plain text
 #: ../E/energy.txt:7
 #, no-wrap
 msgid "If the large power cell at the base of the plant remains red after the construction is completed, this means that the site is not geologically adequate."
-msgstr "Если большой аккумулятор внизу завода остается красным после завершения постройки, это значит, что это место геологически не подходит."
+msgstr "Если большая батарея в основании станции остается красной после завершения строительства, это означает, что площадка не подходит с геологической точки зрения."
 
 #. type: Plain text
 #: ../E/energy.txt:10
 #, no-wrap
 msgid "Any flat and geologically adequate surface of at least 4 meters wide."
-msgstr "Любая плоская и геологически подходящая поверхность как минимум 4 метра в ширину."
+msgstr "Любая ровная и геологически подходящая поверхность шириной не менее 4 метров."
 
 #. type: Plain text
 #: ../E/energy.txt:16
 #, no-wrap
 msgid "Regular power cell."
-msgstr "Обыкновенная батарея."
+msgstr "Батарея Обычная."
 
 #. type: Plain text
 #: ../E/energy.txt:19 ../E/station.txt:19
 #, no-wrap
 msgid "Subsoil energy."
-msgstr "Подземная энергия."
+msgstr "Месторождение Энергии."
 
 #. type: Plain text
 #: ../E/energy.txt:22
@@ -508,7 +566,7 @@ msgstr "<code>PowerPlant</code>"
 #: ../E/enerspot.txt:1
 #, no-wrap
 msgid "Underground Energy Deposit"
-msgstr "Подземное месторождении энергии"
+msgstr "Подземное Месторождение Энергии"
 
 #. type: Image filename
 #: ../E/enerspot.txt:2
@@ -520,28 +578,29 @@ msgstr "enerspot"
 #: ../E/enerspot.txt:3
 #, no-wrap
 msgid "Whenever a <a object|botsr>sniffer</a> uncovers a source of energy in the subsoil, it lays down a green cross. The following buildings can be erected nearby :"
-msgstr "Когда <a object|botsr>сниффер</a> находит источник энергии в подпочве, то он устанавливает зеленый крест. Рядом могут быть поставлены следующие здания :"
+msgstr "Каждый раз, когда <a object|botsr>Разведчик</a> обнаруживает Месторождение Энергии, он ставит Крест Зелёный. Следующие здания могут быть возведены поблизости :"
 
 #. type: Bullet: 'o'
 #: ../E/enerspot.txt:5
 #, no-wrap
 msgid "<a object|station>Power station</a>"
-msgstr "<a object|station>Элекростанция</a>"
+msgstr "<a object|station>Энергозаправкa</a>"
 
 #. type: Bullet: 'o'
 #: ../E/enerspot.txt:6
 #, no-wrap
 msgid "<a object|energy>Power plant</a>"
-msgstr "<a object|energy>Энергостанция</a>"
+msgstr "<a object|energy>Энергостанция Обычная</a>"
 
 #. type: Plain text
 #: ../E/enerspot.txt:8
 #, no-wrap
 msgid "In order to prospect the subsoil you need a <a object|botsr>sniffer bot</a>, which can also discover <a object|titanore>titanium ore</a> deposits (indicated by a <a object|stonspot>red cross</a>) or <a object|uranore>uranium ore</a> deposits (indicated by a <a object|uranspot>yellow circle</a>)."
-msgstr "Чтобы разведать подпочву вам нужен <a object|botsr>сниффер</a>, который также может находить залежи <a object|titanore>титановой руды</a> (показанной <a object|stonspot>красным крестом</a>) или <a object|uranore>урановой руды</a> (показываемой <a object|uranspot>желтым кругом</a>)."
+msgstr "Для поиска месторождений вам понадобится <a object|botsr>Бот Разведчик</a>, который также может обнаруживать месторождения <a object|titanore>Руды Титановой</a> (отмечено <a object|stonspot>Крест Красный</a>) или <a object|uranore>Руды Урановой</a> (отмечено <a object|uranspot> Круг Жёлтый</a>)."
 
 #. type: Plain text
-#: ../E/enerspot.txt:11 ../E/flag.txt:12 ../E/mine.txt:8 ../E/stonspot.txt:8 ../E/target2.txt:6 ../E/uranspot.txt:9 ../E/waypoint.txt:6
+#: ../E/enerspot.txt:11 ../E/flag.txt:12 ../E/mine.txt:8 ../E/stonspot.txt:8
+#: ../E/target2.txt:6 ../E/uranspot.txt:9 ../E/waypoint.txt:6
 #, no-wrap
 msgid "Impossible."
 msgstr "Невозможно."
@@ -556,7 +615,7 @@ msgstr "<code>PowerSpot</code>"
 #: ../E/exchange.txt:1
 #, no-wrap
 msgid "<button 172/> Information Exchange Post"
-msgstr "<button 172/> Пост обмена информации"
+msgstr "<button 172/> Пункт Обмена Информацией"
 
 #. type: Image filename
 #: ../E/exchange.txt:2
@@ -573,7 +632,12 @@ msgid ""
 "\\tab;\"Position.x\"  23.45\n"
 "\\tab;\"Position.y\"  -102.70\n"
 "\\tab;\"Quantity\"    3.00"
-msgstr "Это здание дает цифровую информацию. Пост может содержать до 10 единиц информации, каждая со своим именем."
+msgstr ""
+"В этом здании хранится цифровая информация. Пункт может содержать до 10 единиц информации, каждая со своим именем.\n"
+"Например, пункт может содержать 3 единицы информации:<c/>\n"
+"\\tab;\"Position.x\"  23.45\n"
+"\\tab;\"Position.y\"  -102.70\n"
+"\\tab;\"Quantity\"    3.00"
 
 #. type: Plain text
 #: ../E/exchange.txt:9
@@ -581,13 +645,15 @@ msgstr "Это здание дает цифровую информацию. По
 msgid ""
 "To put new information, you must execute the command <code><a cbot|send>send</a></code>.\n"
 "To read information from a post, you must execute the command <code><a cbot|receive>receive</a></code>."
-msgstr "Чтобы получить информацию, <a object|human>вы</a> должны быть достаточно близко к посту (менее 12 метров) и вы должны дать команду <code><a cbot|receive>receive</a></code>."
+msgstr ""
+"Чтобы отправить новую информацию в пункт, вы должны выполнить команду <code><a cbot|send>send</a></code>.\n"
+"Чтобы принять информацию из пункта, вы должны выполнить команду <code><a cbot|receive>receive</a></code>."
 
 #. type: Plain text
 #: ../E/exchange.txt:13 ../E/radar.txt:8
 #, no-wrap
 msgid "Any flat surface of at least 2.5 meters wide."
-msgstr "Любая ровная поверхность шириной по крайней мере 2.5 метра."
+msgstr "Любая ровная поверхность шириной не менее 2.5 метров."
 
 #. type: Plain text
 #: ../E/exchange.txt:19
@@ -617,13 +683,13 @@ msgstr "factory"
 #: ../E/factory.txt:3
 #, no-wrap
 msgid "This building is intended for the manufacturing of bots using <a object|titan>titanium</a>."
-msgstr "Это здание предназначено для производства ботов с использованием <a object|titan>титана</a>."
+msgstr "Это здание предназначено для создания ботов из <a object|titan>Титана</a>."
 
 #. type: Bullet: '1)'
 #: ../E/factory.txt:5
 #, no-wrap
 msgid "Place the titanium cube inside the factory."
-msgstr "Поместите титановый куб в фабрику."
+msgstr "Поместите Титан внутрь Фабрики."
 
 #. type: Bullet: '2)'
 #: ../E/factory.txt:6
@@ -641,31 +707,31 @@ msgstr "Выберите фабрику."
 #: ../E/factory.txt:8
 #, no-wrap
 msgid "Click on the button showing the diagram of the bot you want the factory to assemble (e.g. <button 137/> for a <a object|botgr>wheeled grabber</a>)."
-msgstr "Кликните на кнопке, которая показывает диаграмму бота, которого вы хотите построить (например <button 137/> для <a object|botgr>колесного сборщика</a>)."
+msgstr "Нажмите на кнопку с картинкой бота, которого вы хотите построить (например: <button 137/> для <a object|botgr>Погрузчик Колёсный</a>)."
 
 #. type: Plain text
 #: ../E/factory.txt:10
 #, no-wrap
 msgid "The finished bot does not include an onboard <a object|power>power cell</a>. You'll need to supply it with one for it to be able to leave the factory."
-msgstr "Законченный бот не имеет на борту <a object|power>батареи</a>. Вам понадобится вставить ее в отверстие для батарее, чтобы бот смог покинуть фабрику."
+msgstr "Готовый бот не имеет на борту <a object|power>Батареи</a>. Вам понадобится вставить ее в батарейный отсек, чтобы бот смог покинуть Фабрику."
 
 #. type: Plain text
 #: ../E/factory.txt:12
 #, no-wrap
 msgid "The list of feasible bots will depend upon the research your <a object|research>research center</a> has completed at this time."
-msgstr "Список возможных ботов будет зависеть от исследований, которые завершил ваш <a object|research>исследовательский центр</a> на этот момент."
+msgstr "Список доступных ботов будет зависеть от уровня исследований, которые ваш <a object|research>Центр Исследований</a> завершил на текущий момент."
 
 #. type: Plain text
 #: ../E/factory.txt:15
 #, no-wrap
 msgid "Any flat surface of at least 7.5 meters wide."
-msgstr "Любая плоская поверхность минимум 7.5 метров в ширину."
+msgstr "Любая ровная поверхность шириной не менее 7.5 метров."
 
 #. type: Plain text
 #: ../E/factory.txt:21
 #, no-wrap
 msgid "Completed bot."
-msgstr "Законченный бот"
+msgstr "Готовый бот."
 
 #. type: Plain text
 #: ../E/factory.txt:30
@@ -677,7 +743,7 @@ msgstr "<code>BotFactory</code>"
 #: ../E/flag.txt:1
 #, no-wrap
 msgid "Colored Flag"
-msgstr "Цветной Флаг"
+msgstr "Флаг"
 
 #. type: Image filename
 #: ../E/flag.txt:2
@@ -689,25 +755,25 @@ msgstr "flag"
 #: ../E/flag.txt:3
 #, no-wrap
 msgid "The colored flags are helpful to mark strategic locations or positions that <a object|human>you</a> will need to find again. Flags appear on the mini-map in the shape of a cross of the same color as the flag."
-msgstr "Цветные флаги помогаю отметить стратегические места или позиции? которые <a object|human>вам</a> снова нужно будет найти. Флаги появляются на мини карте в виде креста того же цвета, что и флаг."
+msgstr "Флагами разного цвета можно отметить стратегические места или позиции, которые <a object|human>Вам</a> нужно будет снова найти. Флаги появляются на мини-карте в виде креста того же цвета, что и флаг."
 
 #. type: Plain text
 #: ../E/flag.txt:5
 #, no-wrap
 msgid "Use the buttons <button 118/> and <button 119/> to plant and remove flags, the colors of which you can choose with the buttons above."
-msgstr "Используйте кнопки <button 118/> и <button 119/>, чтобы ставить и убирать флаги, цвета которых вы можете выбирать кнопками наверху."
+msgstr "Используйте кнопки <button 118/> и <button 119/>, чтобы установить и убрать флаг, цвет которого вы можете выбрать с помощью кнопок выше."
 
 #. type: Plain text
 #: ../E/flag.txt:7
 #, no-wrap
 msgid "When your mini-map is out of order, the fact that flags follow the direction of the wind can help you to find your way and not to walk around in circles."
-msgstr "Когда ваша мини карта не в порядке, тот факт, что флаги развеваются по ветру может помочь вам найти свой пути и не бродить кругами."
+msgstr "Когда ваша мини-карта вышла из строя, тот факт, что флаги развеваются по ветру, поможет вам сориентироваться, а не ходить по кругу."
 
 #. type: Plain text
 #: ../E/flag.txt:9
 #, no-wrap
 msgid "When programming, you can use flags to give a bot a reference to a certain position: the instruction <code><a cbot|radar>radar</a></code> allows bots to know the exact position of a flag of a given color."
-msgstr "При программировании, вы можете использовать флаги, чтобы направить ботов в определенную позицию: инструкция <code><a cbot|radar>radar</a></code> позволяет ботам узнать точную позицию флага определенного цвета."
+msgstr "При программировании вы можете использовать флаги, чтобы направить бота на определенную позицию: инструкция <code><a cbot|radar>radar</a></code> позволяет ботам определить точную позицию флага определенного цвета."
 
 #. type: Plain text
 #: ../E/flag.txt:15
@@ -729,13 +795,13 @@ msgstr ""
 #: ../E/goal.txt:1
 #, no-wrap
 msgid "Finishing Pad"
-msgstr "Конечная Площадка"
+msgstr "Финиш"
 
 #. type: Plain text
 #: ../E/goal.txt:2
 #, no-wrap
 msgid "The finishing pad is an objective to be reached in some exercises."
-msgstr "Конечная площадка это цель, которую нужно достигнуть в некоторых упражнениях."
+msgstr "Финиш - это конечный пункт, который нужно достигнуть на тренировках."
 
 #. type: Plain text
 #: ../E/goal.txt:5
@@ -747,7 +813,7 @@ msgstr "<code>FinishArea</code>"
 #: ../E/human.txt:1
 #, no-wrap
 msgid "<button 136/> Astronaut"
-msgstr "<button 136/> Астронавт"
+msgstr "<button 136/> Космонавт"
 
 #. type: Image filename
 #: ../E/human.txt:2
@@ -759,37 +825,37 @@ msgstr "human"
 #: ../E/human.txt:3
 #, no-wrap
 msgid "The astronaut is you within the game."
-msgstr "Астронавт - это вы в игре."
+msgstr "Космонавт - это вы в игре."
 
 #. type: Plain text
 #: ../E/human.txt:5
 #, no-wrap
 msgid "If you die, the mission immediately fails."
-msgstr "Если вы умираете, миссия сразу заканчивается."
+msgstr "Если вы умираете, миссия немедленно завершается."
 
 #. type: Plain text
 #: ../E/human.txt:7
 #, no-wrap
 msgid "You can construct buildings with the help of the neutron gun holstered to your survival kit. The survival kit allows you, in most missions, to fly, thanks to the reactor placed underneath, or to swim with no time limit. You can carry most objects but the weight will slow down your movements considerably. Flying, swimming and walking underwater are also made impossible if you are carrying an object. The use of a <a object|botgr>grabber</a> or a <a object|botsub>subber</a> is advised for tasks such as these."
-msgstr "Вы можете строить здания с помощью нейтронной пушки, прикрепленной к вашему портативному реактивному двигателю. Он позволяет вам, в большинстве миссий летать, или плавать неограниченное время. Вы можете переносить большинство объектов, но вес будет значительно замедлять ваши движения. Полеты, плаванье и ходьба под водой также становятся невозможны, если вы несете что-либо. Для подобных заданий лучше использовать <a object|botgr>сборщика</a> или <a object|botsub>саббер</a>."
+msgstr "Вы можете строить здания с помощью нейтронного пистолета, прикрепленного к вашему ранцу для выживания. Ранец для выживания позволяет вам в большинстве миссий летать благодаря размещенным снизу двигателю или плавать без ограничения по времени. Вы можете переносить большинство объектов, но вес значительно замедлит ваши движения. Полеты, плавание и ходьба под водой становятся невозможны, если вы переносите какой-либо объект. Для подобных задач лучше использовать <a object|botgr>Погрузчика</a> или <a object|botsub>Амфибию</a>."
 
 #. type: Plain text
 #: ../E/human.txt:9
 #, no-wrap
 msgid "You cannot carry <a object|uranore>uranium ore</a> because of the risks attached to radioactivity. "
-msgstr "Вы не можете нести <a object|uranore>урановую руду</a> из-за того, что она радиоактивна."
+msgstr "Из-за радиоактивности Вы не можете переносить <a object|uranore>Руду Урановую</a>. "
 
 #. type: Plain text
 #: ../E/human.txt:11
 #, no-wrap
 msgid "A special button <button 111/> allows you to ensure that the ground around you is flat. This is important since building is only possible on a flat surface. A flat surface is designated green while a sloping one is red."
-msgstr "Особая кнопка <button 111/> позволяет вам убедиться, что земля вокруг вас плоская. Это важно, так как здания можно строить только на плоской поверхности. Плоская поверхность показана зеленым, тогда как наклонная красным."
+msgstr "Специальная кнопка <button 111/> позволяет вам убедиться, что земля вокруг вас ровная. Это важно, поскольку строительство возможно только на ровной поверхности. Ровная поверхность отображается зелёной, а наклонная - красной."
 
 #. type: Plain text
 #: ../E/human.txt:13
 #, no-wrap
 msgid "A button <button 118/> allows you to mark a location with <a object|flag>flags</a> of various colors. This can help you not to get lost, to find important positions again, or to indicate a position to a bot. 5 flags of 5 different colors are at your disposal. You can remove a flag by using the next button <button 119/> and store it for further use."
-msgstr "Кнопка <button 118/> позволяет вам помечать места <a object|flag>флагами</a> различных цветов. Это может помочь вам не заблудиться, и снова найти важные места, или показать место боту. 5 флагов 5 различных цветов находятся в вашем распоряжении. Вы можете убрать флаг с помощью следующей кнопки <button 119/> и хранить его для дальнейшего использования."
+msgstr "Кнопка <button 118/> позволяет вам отмечать места с помощью <a object|flag>Флагов</a> различных цветов. Это поможет Вам не заблудиться, снова найти важные места или указать позицию боту. В вашем распоряжении 5 флагов 5 разных цветов. Вы можете убрать флаг, нажав следующую кнопку <button 119/>, и сохранить его для дальнейшего использования."
 
 #. type: Plain text
 #: ../E/human.txt:16
@@ -801,7 +867,7 @@ msgstr "<code>Me</code>"
 #: ../E/huston.txt:1
 #, no-wrap
 msgid "<button 176/> Mission Control"
-msgstr "<button 176/> Управление миссии"
+msgstr "<button 176/> Центр Управления"
 
 #. type: Image filename
 #: ../E/huston.txt:2
@@ -813,13 +879,13 @@ msgstr "huston"
 #: ../E/huston.txt:3
 #, no-wrap
 msgid "Earth control center for all <a object|human>your</a> space missions. Though still named after the well-known mission control of the old days, \"Houston\" is actually located in the middle of the Nevada Desert, the new center for space exploration activities."
-msgstr "Центр управления на земле управляет всеми <a object|human>вашими</a> космическими миссиями. Хотя он и назван в честь хорошо известного центра старых дней, \"Хьюстон\" на самом деле находится в центре пустыни Невада, в новом центре космических исследований."
+msgstr "Центр Управления на земле руководит всеми <a object|human>Вашими</a> космическими миссиями. Хотя он и назван в честь хорошо известного центра управления полетами, \"Хьюстон\" на самом деле теперь находится в центре пустыни Невада, в новом центре космических исследований."
 
 #. type: Plain text
 #: ../E/huston.txt:5
 #, no-wrap
 msgid "The Mission Control Center watches over you day and night, and a whole team of scientists and engineers are working hard trying to find a solution to all the problems that you encounter."
-msgstr "Центр Управления Миссии следит за вами день и ночь, а целая команда ученых и инженеров тяжело работают, пытаясь найти решение проблем, с которыми вы сталкиваетесь."
+msgstr "Центр Управления полётами наблюдают за вами день и ночь, и целая команда ученых и инженеров трудолюбиво, пытается найти решение всех проблем, с которыми Вы сталкиваетесь."
 
 #. type: Plain text
 #: ../E/huston.txt:8
@@ -843,7 +909,7 @@ msgstr "key"
 #: ../E/key.txt:3
 #, no-wrap
 msgid "The keys give <a object|human>you</a> access to the <a object|safe>vault</a>. You'll need 4 of them."
-msgstr "Ключи дают <a object|human>вам</a> доступ к <a object|safe>хранилищу</a>. Вам понадобится 4 штуки."
+msgstr "Ключи дают <a object|human>Вам</a> доступ к <a object|safe>Ангару</a>. Вам понадобится 4 штуки."
 
 #. type: Bullet: 'o'
 #: ../E/key.txt:5
@@ -861,13 +927,13 @@ msgstr "Ключ B, красный и пятиугольный"
 #: ../E/key.txt:7
 #, no-wrap
 msgid "Key C, green and shaped like a 6-pointed star"
-msgstr "Ключ C, зеленый и выглядящий как 6-конечная звезда"
+msgstr "Ключ C, зелёный и в форме 6-конечной звезды"
 
 #. type: Bullet: 'o'
 #: ../E/key.txt:8
 #, no-wrap
 msgid "Key D, yellow and circular"
-msgstr "Ключ D, желтый и круглый"
+msgstr "Ключ D, жёлтый и круглый"
 
 #. type: \t; header
 #: ../E/key.txt:13
@@ -885,7 +951,7 @@ msgstr "<code>KeyA</code>, <code>KeyB</code>, <code>KeyC</code> and <code>KeyD</
 #: ../E/labo.txt:1
 #, no-wrap
 msgid "<button 166/> Autolab"
-msgstr "<button 166/> Автолабjhfnjhbz"
+msgstr "<button 166/> Лаборатория"
 
 #. type: Image filename
 #: ../E/labo.txt:2
@@ -897,13 +963,13 @@ msgstr "labo"
 #: ../E/labo.txt:3
 #, no-wrap
 msgid "The lab is intended for the analysis of <a object|bullet>organic matter</a>. It will help <a object|human>you</a> become familiar with the insects' very own technology and perhaps even use it to your advantage. Place a chunk of <a object|bullet>organic matter</a> on the platform, select the lab, and click the button corresponding to the desired research program."
-msgstr "Лаборатория предназначена для анализа <a object|bullet>органической материи</a>. Она поможет <a object|human>вам</a> узнать больше о технологиях насекомых и, возможно, даже использовать их себе на пользу. Поместите кусок <a object|bullet>органической материи</a> на платформу, выберите лабораторию и кликните на кнопке отвечающей за желаемую программу исследований."
+msgstr "Лаборатория предназначена для анализа <a object|bullet>Био-Материи</a>. Это поможет <a object|human>Вам</a> узнать больше о технологиями пришельцев и, возможно, даже использовать их в своих интересах. Поместите кусок <a object|bullet>Био-Материи</a> на платформу, выберите Лабораторию и нажмите кнопку, заинтересовавшей вас исследовательской программы."
 
 #. type: Plain text
 #: ../E/labo.txt:9
 #, no-wrap
 msgid "Organic matter."
-msgstr "Органическая материя."
+msgstr "Био-Материя."
 
 #. type: Plain text
 #: ../E/labo.txt:12 ../E/research.txt:15
@@ -927,7 +993,7 @@ msgstr "<code>AutoLab</code>"
 #: ../E/lrv.txt:1
 #, no-wrap
 msgid "Apollo Lunar Roving Vehicle"
-msgstr "Луноход Аполло"
+msgstr "Луноход Аполлон"
 
 #. type: Plain text
 #: ../E/lrv.txt:5
@@ -939,7 +1005,7 @@ msgstr "<code>< архивное изображение недоступно ></
 #: ../E/lrv.txt:9
 #, no-wrap
 msgid "The Lunar Jeep (LRV) was brought to the moon on July 30th 1971 by the astronauts David Scott and Jim Irwin from Apollo mission 15. Its batteries are still partly charged, which allows you to remote control it. But this old-fashioned technology will be of no use to you."
-msgstr "Лунный Джип (ЛРВ) был принесен на луну 30 июля 1971 года астронавтами Девидом Скоттом и Джимом Ирвином в миссии Аполло 15. Его батареи все еще частично заряжены, что позволяет вам удаленно контролировать его. Но эта старая технология вам не поможет."
+msgstr "Лунный джип (LRV) был доставлен на Луну 30 июля 1971 года астронавтами Дэвидом Скоттом и Джимом Ирвином из миссии 15 Аполлон. Его батареи все еще частично заряжены, что позволяет управлять им дистанционно. Но эта устаревшая технология вам ни к чему."
 
 #. type: \b; header
 #: ../E/mine.txt:1
@@ -957,13 +1023,13 @@ msgstr "mine"
 #: ../E/mine.txt:3
 #, no-wrap
 msgid "Mines were a defensive weapons system used by the first expedition. Because of the dangers this system causes for the mission itself, they are no longer used in your expedition. In some exercises mines are used to learn how to avoid obstacles. There is no way to remove them or to create new ones."
-msgstr "Мины были оборонительным оружием, которое использовалось в первой экспедиции. Из-за опасности, которую они несли для самой миссии, больше не применяются. В некоторых упражнениях мины используются для изучения того, как нужно обходить препятствия. Их невозможно убрать, впрочем, как и создать новые."
+msgstr "Мины были системой оборонительного оружия, использовавшейся в первой экспедиции. Из-за опасностей, которые эта система создавала для самой миссии, они больше не используются в вашей экспедиции. На тренировках мины используются, чтобы научиться избегать препятствий. Невозможно демонтировать их или установить новые."
 
 #. type: Plain text
 #: ../E/mine.txt:5
 #, no-wrap
 msgid "With a <a object|bottr>practice bot</a>, don't get any closer than 2 meters to the position given by the instruction <a cbot|radar>radar</a>."
-msgstr "С <a object|bottr>ботом для практики</a> не приближайтесь ближе чем на 2 метра к позиции выданной инструкцией <a cbot|radar>радара</a>."
+msgstr "На <a object|bottr>Боте Учебном</a> не подходите ближе 2 метров к позиции, отображенной на <a cbot|radar>Радаре</a>."
 
 #. type: Plain text
 #: ../E/mine.txt:11
@@ -975,7 +1041,7 @@ msgstr "<code>Mine</code>"
 #: ../E/mother.txt:1
 #, no-wrap
 msgid "Alien Queen"
-msgstr "Королева Чужих"
+msgstr "Королева Пришельцев"
 
 #. type: Image filename
 #: ../E/mother.txt:2
@@ -987,13 +1053,7 @@ msgstr "mother"
 #: ../E/mother.txt:3
 #, no-wrap
 msgid "This huge insect is the mother of them all. It lays <a object|egg>eggs</a> and from these eggs will hatch all the various kinds of insects <a object|human>you</a>'re likely to encounter. All of them are extremely hazardous to yourself and your mission. The queen's protective shell is particularly resistant to attack."
-msgstr "Это огромное насекомое является их матерью. Оно откладывает <a object|egg>яйца</a> и из этих яиц вылупятся различные насекомые, с которыми <a object|human>вы</a>, скорее всего встретитесь. Все они жутко опасны для вас и вашей миссии. Защитная оболочка королевы очень хорошо противостоит атакам."
-
-#. type: Plain text
-#: ../E/mother.txt:5
-#, no-wrap
-msgid "It gives birth to the following insects :"
-msgstr "Она рожает следующих насекомых :"
+msgstr "Это огромное насекомое - матка всех пришельцев. Она откладывает <a object|egg>Яйца</a>, и из этих яиц вылупляются всевозможные виды насекомых, которых <a object|human>Вы</a> можете встретить. Все они чрезвычайно опасны для вас и вашей миссии. Защитная оболочка Королевы особенно устойчива к атакам."
 
 #. type: Bullet: 'o'
 #: ../E/mother.txt:6
@@ -1029,13 +1089,13 @@ msgstr "<code>AlienQueen</code>"
 #: ../E/nest.txt:1
 #, no-wrap
 msgid "Nest"
-msgstr "Гнездо"
+msgstr "Гнездо Пришельцев"
 
 #. type: Plain text
 #: ../E/nest.txt:2
 #, no-wrap
 msgid "The alien nest is an odd structure out of which <a object|bullet>organic matter</a> erupts on a regular basis. <a object|wasp>Wasps</a> visit nests regularly to collect ammunition that they will use to bombard your bots, buildings and yourself."
-msgstr "Гездо чужих - это странное сооружение, из которого регулярно выплескивается <a object|bullet>органическая материя</a>. <a object|wasp>Осы</a> регулярно прилетают в гнездо, чтобы пополнить боезапас, который они используют, для бомбардирования ваших ботов, зданий и вас."
+msgstr "Гнездо Пришельцев - это странное сооружение, из которого регулярно извергается <a object|bullet>Био-Материя</a>. <a object|wasp>Осы</a> регулярно прилетают в гнездо, чтобы пополнить боеприпасы, которые они будут использовать для бомбардировки ваших ботов, зданий и Вас самих."
 
 #. type: Plain text
 #: ../E/nest.txt:5
@@ -1047,7 +1107,7 @@ msgstr "<code>AlienNest</code>"
 #: ../E/nuclear.txt:1
 #, no-wrap
 msgid "<button 170/> Nuclear Plant"
-msgstr "<button 170/> Ядерный реактор"
+msgstr "<button 170/> Энергостанция Ядерная"
 
 #. type: Image filename
 #: ../E/nuclear.txt:2
@@ -1059,25 +1119,25 @@ msgstr "nuclear"
 #: ../E/nuclear.txt:3
 #, no-wrap
 msgid "The nuclear plant is a <a object|atomic>nuclear power cell</a> factory. It transforms a chunk of <a object|uranore>uranium ore</a> into a <a object|atomic>nuclear power cell</a> fully charged and ready for use."
-msgstr "Ядерный реактор - это фабрика <a object|atomic>ядерных аккумуляторов</a>. Она превращает куски <a object|uranore>урановой руды</a> в полностью заряженные и готовые к использованию <a object|atomic>ядерные аккумуляторы</a>."
+msgstr "Энергостанция Ядерная - это производство <a object|atomic>Батареи Ядерной</a>. Перерабатывает кусок <a object|uranore>Руды Урановой</a> в полностью заряженную и готовую к использованию <a object|atomic>Батарею Ядерную</a>."
 
 #. type: Plain text
 #: ../E/nuclear.txt:9
 #, no-wrap
 msgid "Uranium ore."
-msgstr "Урановая руда."
+msgstr "Руда Урановая."
 
 #. type: Plain text
 #: ../E/nuclear.txt:12
 #, no-wrap
 msgid "Nuclear power cell."
-msgstr "Ядерный аккумулятор."
+msgstr "Батарея Ядерная."
 
 #. type: Plain text
 #: ../E/nuclear.txt:18
 #, no-wrap
 msgid "30 seconds."
-msgstr "30 секунд"
+msgstr "30 секунд."
 
 #. type: Plain text
 #: ../E/nuclear.txt:21
@@ -1089,7 +1149,7 @@ msgstr "<code>NuclearPlant</code>"
 #: ../E/power.txt:1
 #, no-wrap
 msgid "Regular Power Cell"
-msgstr "Обычная батарея"
+msgstr "Батарея Обычная"
 
 #. type: Image filename
 #: ../E/power.txt:2
@@ -1101,19 +1161,19 @@ msgstr "power"
 #: ../E/power.txt:3
 #, no-wrap
 msgid "A power cell supplies the bots and a few buildings with energy."
-msgstr "Батарея, который поставляет энергию ботам и некоторым зданиям."
+msgstr "Батарея снабжает энергией ботов и некоторые здания."
 
 #. type: Plain text
 #: ../E/power.txt:5
 #, no-wrap
 msgid "An entirely red power cell is empty. The green section indicates the remaining capacity. A power cell can be recharged using a <a object|station>power station</a>. A <a object|energy>power plant</a> is needed to produce a new and fully charged power cell."
-msgstr "Полностью красная батарея пуста. Зеленая секция показывает оставшуюся энергию. Батарея может быть перезаряжена с помощью <a object|station>электростанции</a>. <a object|energy>Электро завод</a> нужен для того, чтобы производить новые и полностью заряженные батареи."
+msgstr "Полностью красная Батарея пуста. Зелёная часть показывает оставшуюся емкость. Батарею можно перезаряжать на <a object|station>Энергозаправке</a>. А <a object|energy>Энергостанция</a> требуется для производства новой и полностью заряженные Батареи."
 
 #. type: Plain text
 #: ../E/power.txt:7
 #, no-wrap
 msgid "The capacity of a regular power cell is 100 times smaller than that of a <a object|atomic>nuclear power cell</a> produced by a <a object|nuclear>nuclear plant</a> using <a object|uranore>uranium ore</a>."
-msgstr "Емкость обычной батареи в 10 раз меньше, чем у <a object|atomic>ядерного аккумулятора</a>, который можно произвести на <a object|nuclear>ядерном заводе</a> с помощью <a object|uranore>урановой руды</a>."
+msgstr "Емкость Батареи Обычной в 100 раз меньше, чем у <a object|atomic>Батареи Ядерной</a>, произведенной на <a object|nuclear>Энергостанции Ядерной</a> из <a object|uranore>Руды Урановой</a>."
 
 #. type: Plain text
 #: ../E/power.txt:13
@@ -1137,19 +1197,19 @@ msgstr "radar"
 #: ../E/radar.txt:3
 #, no-wrap
 msgid "The radar indicates the direction of the nearest <a object|mother>enemy</a>. Moreover, the information given by the radar allows the mini-map at the bottom right corner of your screen to show the position of all bots, buildings and enemies as small squares and triangles of different colors."
-msgstr "Радар показывает направление до ближайшего <a object|mother>врага</a>. Более того, информация, получаемая радаром, позволяет показывать положение ботов, зданий и врагов на мини карте в нижнем правом центре экрана в виде маленьких квадратиков и треугольников разных цветов."
+msgstr "Радар показывает направление до ближайшего <a object|mother>Врага</a>. Более того, информация, предоставляемая радаром, позволяет на мини-карте в правом нижнем углу экрана отображать положение всех ботов, зданий и врагов в виде небольших квадратов и треугольников разных цветов."
 
 #. type: Plain text
 #: ../E/radar.txt:5
 #, no-wrap
 msgid "Radar stations also act as relays for communication with the Earth from distant planets."
-msgstr "Радарные станции также действуют как станции для связи удаленных планет с Землей."
+msgstr "Радар также действует как станция для связи с Землей с далеких планет."
 
 #. type: Plain text
 #: ../E/radar.txt:14
 #, no-wrap
 msgid "Information for the mini-map."
-msgstr "Информацию для мини карты."
+msgstr "Информация для мини-карты."
 
 #. type: Plain text
 #: ../E/radar.txt:20
@@ -1167,7 +1227,7 @@ msgstr "<code>RadarStation</code>"
 #: ../E/repair.txt:1
 #, no-wrap
 msgid "<button 169/> Repair Center"
-msgstr "<button 169/> Ремонтный пункт"
+msgstr "<button 169/> Пункт Ремонта"
 
 #. type: Image filename
 #: ../E/repair.txt:2
@@ -1179,7 +1239,7 @@ msgstr "repair"
 #: ../E/repair.txt:3
 #, no-wrap
 msgid "The repair center regenerates the shield on damaged bots. A bot's shield will absorb a certain amount of <a object|mother>enemy</a> hits. If there is no shield left, this means that the bot itself, when hit next, will be destroyed."
-msgstr "ремонтный пункт восстанавливает поля поврежденных ботов. Поле бота может выдержать некоторое количество <a object|mother>вражеских</a> попаданий. Если поля не осталось, то это означает, что при следующем попадании бот будет уничтожен."
+msgstr "Пункт Ремонта восстанавливает щит на поврежденных ботах. Щит бота поглощает определенное количество ударов <a object|mother>Врага</a>. Если щита не осталось, это означает, что бот при следующем ударе будет уничтожен."
 
 #. type: Plain text
 #: ../E/repair.txt:9
@@ -1191,13 +1251,13 @@ msgstr "Поврежденные боты."
 #: ../E/repair.txt:12
 #, no-wrap
 msgid "Repaired bot with regenerated shield."
-msgstr "Починенных ботов с восстановленными полями."
+msgstr "Отремонтированный бот с восстановленным щитом."
 
 #. type: Plain text
 #: ../E/repair.txt:18
 #, no-wrap
 msgid "A few seconds depending on the repair job to be done."
-msgstr "Несколько секунд, зависит от того. сколько нужно чинить."
+msgstr "Несколько секунд в зависимости от выполняемого ремонта."
 
 #. type: Plain text
 #: ../E/repair.txt:21
@@ -1209,7 +1269,7 @@ msgstr "<code>RepairCenter</code>"
 #: ../E/research.txt:1
 #, no-wrap
 msgid "<button 163/> Research Center"
-msgstr "<button 163/> Исследовательский центр"
+msgstr "<button 163/> Центр Исследований"
 
 #. type: Image filename
 #: ../E/research.txt:2
@@ -1221,7 +1281,7 @@ msgstr "research"
 #: ../E/research.txt:3
 #, no-wrap
 msgid "The research center is an enormous computer. Its most useful feature is its ability to come up with new technologies as well as improvements on existing ones regarding buildings and bots in particular."
-msgstr "Исследовательский центр - это огромный компьютер. Его наиболее полезная особенность - это способность разрабатывать новые технологии, а также улучшать существующие, в частности ботов и здания."
+msgstr "Центр Исследований - это огромный компьютер. Его самая полезная особенность - это способность разрабатывать новые технологии, а также улучшать существующие здания и боты."
 
 #. type: Plain text
 #: ../E/research.txt:5
@@ -1230,32 +1290,32 @@ msgid ""
 "The 65'536 processors it contains use up a large amount of energy.\n"
 "Each research program necessitates a brand new and fully charged <a object|power>power cell</a>"
 msgstr ""
-"65'536 процессоров, которые он содержит, расходуют огромное количество энергии.\n"
-"Каждая программа исследования делает необходимым новую и полностью заряженную <a object|power>батарею</a>"
+"Содержащиеся в нем 65'536 процессоров потребляют большое количество энергии.\n"
+"Каждая исследовательская программа требует совершенно новую и полностью заряженную <a object|power>Батарею<a>"
 
 #. type: Plain text
 #: ../E/research.txt:9
 #, no-wrap
 msgid "Any flat surface of at least 5 meters wide."
-msgstr "Любая ровная поверхность шириной по крайней мере 5 метров."
+msgstr "Любая ровная поверхность шириной не менее 5 метров."
 
 #. type: Plain text
 #: ../E/research.txt:12
 #, no-wrap
 msgid "Request for research."
-msgstr "Запрос на разработку."
+msgstr "Запрос на исследование."
 
 #. type: Plain text
 #: ../E/research.txt:18 ../E/tower.txt:13
 #, no-wrap
 msgid "Regular or nuclear power cell."
-msgstr "Обычная или ядерная батарея."
+msgstr "Батарея Обычная или Ядерная."
 
 #. type: Plain text
 #: ../E/research.txt:21
 #, no-wrap
 msgid "Between 9 seconds and 1 minute depending on the research."
-msgstr "От 9 секунд до 1 минуты в зависимости от разработки."
+msgstr "От 9 секунд до 1 минуты в зависимости от исследования."
 
 #. type: Plain text
 #: ../E/research.txt:24
@@ -1267,31 +1327,31 @@ msgstr "<code>ResearchCenter</code>"
 #: ../E/ruin.txt:1
 #, no-wrap
 msgid "Ruin"
-msgstr "Руина"
+msgstr "Руины"
 
 #. type: Plain text
 #: ../E/ruin.txt:2
 #, no-wrap
 msgid "A ruin is what's left of a building after it has been disabled by a <a object|spider>spider</a> or by friendly fire."
-msgstr "Руина - это то, что останется от здания после того, как оно было отключено <a object|spider>пауком</a> или дружественным огнем."
+msgstr "Руины - это то, что осталось от здания после того, как оно было выведено из строя <a object|spider>Пауком</a> или дружественным огнем."
 
 #. type: Plain text
 #: ../E/ruin.txt:4
 #, no-wrap
 msgid "It can't be converted back into a reusable <a object|titan>titanium cube</a>."
-msgstr "Она не может быть конвертинована назад в многоразовый <a object|titan>титановый куб</a>."
+msgstr "Руины нельзя снова преобразовать в <a object|titan>Титан</a>."
 
 #. type: Plain text
 #: ../E/ruin.txt:7
 #, no-wrap
 msgid "<code>Ruin</code>"
-msgstr ""
+msgstr "<code>Ruin</code>"
 
 #. type: \b; header
 #: ../E/safe.txt:1
 #, no-wrap
 msgid "<button 175/> Vault"
-msgstr "<button 175/> Хранилище"
+msgstr "<button 175/> Ангар"
 
 #. type: Image filename
 #: ../E/safe.txt:2
@@ -1303,7 +1363,7 @@ msgstr "safe"
 #: ../E/safe.txt:3
 #, no-wrap
 msgid "This dome-shaped building was conceived by the first expedition. Its purpose was to offer protection to a new type of advanced bot. To protect it from insect attacks, the vault was locked by 4 <a object|key>keys</a>. Only after you find the 4 keys and place each one of them on their corresponding slots will you be given access to the bot."
-msgstr "Это куполообразное здание было построено первой экспедицией. Его назначением было обеспечение защиты для нового типа продвинутого бота. Чтобы защитить его от нападений насекомых, хранилище было закрыто 4 <a object|key>ключами</a>. Только после того, как вы найдете все 4 ключа и разместите каждый из них в соответствующую ячейку, вы сможете получить доступ к боту."
+msgstr "Это куполообразное сооружение было задумано еще во время первой экспедиции. Его цель состоит в том, чтобы обеспечить сохранность новому типу продвинутых ботов. Для защиты от атак насекомых, Ангар был заблокирован четырьмя <a object|key>Ключами</a>. Только после того, как Вы найдете 4 ключа и поместите каждый из них в соответствующие слоты, получите доступ к боту."
 
 #. type: Plain text
 #: ../E/safe.txt:6
@@ -1327,7 +1387,7 @@ msgstr "spider"
 #: ../E/spider.txt:3
 #, no-wrap
 msgid "Spiders work like suicide commandoes: whenever a spider gets within a close enough range of its target, it inflates its abdomen and bursts into a multitude of tiny burning fragments. These fragments will set fire to everything they get in contact with. Luckily the spider won't survive."
-msgstr "Пауки работают как командос камикадзе: если паук достаточно приблизился к своей цели, он надувает свой живот и разрывается на множество крошечных горящих частей. Эти части подпалят все, на что попадут. К счастью паук тоже не выживает."
+msgstr "Пауки действуют как коммандос-самоубийца: всякий раз, когда паук оказывается на достаточно близком расстоянии от своей цели, он раздувает свое брюшко и разрывается на множество крошечных горящих фрагментов. Эти фрагменты воспламеняют все, с чем соприкасаются. К счастью, паук не выживет."
 
 #. type: Plain text
 #: ../E/spider.txt:6
@@ -1339,13 +1399,13 @@ msgstr "<code>AlienSpider</code>"
 #: ../E/start.txt:1
 #, no-wrap
 msgid "Starting Pad"
-msgstr "Стартовая полоса"
+msgstr "Старт"
 
 #. type: Plain text
 #: ../E/start.txt:2
 #, no-wrap
 msgid "The starting pad is a platform used in some exercises. "
-msgstr "Стартовая полоса - это платформа, которую используют в некоторых упражнениях."
+msgstr "Старт - это начальный пункт, используемый на тренировках. "
 
 #. type: Plain text
 #: ../E/start.txt:5
@@ -1357,7 +1417,7 @@ msgstr "<code>StartArea</code>"
 #: ../E/station.txt:1
 #, no-wrap
 msgid "<button 164/> Power Station"
-msgstr "<button 164/> Электростанция"
+msgstr "<button 164/> Энергозаправка"
 
 #. type: Image filename
 #: ../E/station.txt:2
@@ -1369,43 +1429,43 @@ msgstr "station"
 #: ../E/station.txt:3
 #, no-wrap
 msgid "The power station extracts energy from the underground and recharges <a object|power>regular power cells</a> through induction. To recharge a power cell loaded at the back of a bot, just move the bot to the center of the platform and wait a few seconds. A <a object|power>power cell</a> carried at arm's length can also be recharged. <a object|atomic>Nuclear power cells</a> are non-rechargeable."
-msgstr "Электростанция забирает энергию из под земли и перезаряжает <a object|power>обычные батареи</a> с помощью индукции. Чтобы перезарядить энергетическую батарею бота, нужно просто подвести бота к центру платформы и подождать несколько секунд. <a object|power>батарея</a>, поднесенная на длину руки также будет перезаряжена. <a object|atomic>Ядерные аккумулятроы</a> не перезаряжаются."
+msgstr "Энергозаправка добывает энергию из месторождения и заряжает <a object|power>Батарею Обычную</a> за счет индукции. Чтобы перезарядить Батарею, установленную в задней части бота, просто переместите бота в центр платформы и подождите несколько секунд. Можно также перезарядить <a object|power>Батарею</a>, находящуюся на вытянутых руках. <a object|atomic>Батарея Ядерная</a> не подлежит перезарядке."
 
 #. type: Plain text
 #: ../E/station.txt:5
 #, no-wrap
 msgid "A power plant needs some energy in the subsoil. If the satellite report says that energy is available only at some places, you will need a <a object|botsr>sniffer bot</a> to prospect the subsoil. The marks it lays down provide information about the specifics of its findings: a <a object|enerspot>green cross</a> means that there is an energy deposit at this location beneath the surface, which is indispensable to the construction of a power station or a <a object|energy>power plant</a>."
-msgstr "Электростанции нужна подземная энергия. Если спутниковые отчеты показывают, что энергия есть только в некоторых местах, то вам придется отправить <a object|botsr>сниффера</a> для изучения земли. Отметки, которые он оставляет, говорят о специфике его находок: <a object|enerspot>зеленый крест</a> означает, что в этом месте под землей есть залежи энергии, что необходимо для постройки электростанции и <a object|energy>энергетического завода</a>."
+msgstr "Энергозаправке требуется Месторождение Энергии. Если в спутниковом отчете говорится, что энергия доступна только в отдельных местах, вам понадобится <a object|botsr>Бот Разведчик</a> для поиска месторождения. Пометки, которые он проставит, укажут о находках: <a object|enerspot>Крест Зелёный</a> означает Месторождение Энергии, которое требуется для постройки Энергозаправки или <a object|energy>Энергостанции</a>."
 
 #. type: Plain text
 #: ../E/station.txt:7
 #, no-wrap
 msgid "The large power cell at the top of the station remaining red after the construction is completed can only mean that the site is not geologically adequate."
-msgstr "Если большие энергетические ячейки на верху станции после завершения ее постройки остаются красными, то это значит, что это место геологически не адекватно."
+msgstr "Если большая батарея наверху станции остается красной после завершения строительства, это означает, что площадка не подходит с геологической точки зрения."
 
 #. type: Plain text
 #: ../E/station.txt:10
 #, no-wrap
 msgid "Any flat and geologically adequate surface at least 6 meters wide."
-msgstr "Любое ровное и геологически подходящее место шириной по крайней мере 6 метров."
+msgstr "Любая ровная и геологически подходящая поверхность шириной не менее 6 метров."
 
 #. type: Plain text
 #: ../E/station.txt:13
 #, no-wrap
 msgid "Empty power cell."
-msgstr "Пустые энергетические ячейки."
+msgstr "Батареи пустые."
 
 #. type: Plain text
 #: ../E/station.txt:16
 #, no-wrap
 msgid "Recharged power cell."
-msgstr "Перезаряженные энергетические ячейки."
+msgstr "Батареи заряженные."
 
 #. type: Plain text
 #: ../E/station.txt:22
 #, no-wrap
 msgid "A few seconds, depending on the capacity to be recharged."
-msgstr "Несколько секунд, зависит от требуемого объема перезарядки."
+msgstr "Несколько секунд, в зависимости от заряжаемой емкости."
 
 #. type: Plain text
 #: ../E/station.txt:25
@@ -1417,7 +1477,7 @@ msgstr "<code>PowerStation</code>"
 #: ../E/stonspot.txt:1
 #, no-wrap
 msgid "Underground Titanium Deposit"
-msgstr "Подземные залежи титана"
+msgstr "Подземное Месторождение Титана"
 
 #. type: Image filename
 #: ../E/stonspot.txt:2
@@ -1429,13 +1489,13 @@ msgstr "stonspot"
 #: ../E/stonspot.txt:3
 #, no-wrap
 msgid "A red cross reveals the presence of a stratum of <a object|titanore>titanium ore</a> in the subsoil. It will be possible to extract it using a <a object|derrick>derrick</a>."
-msgstr "Красный крест говорит о присутствии пласта <a object|titanore>титановой руды</a> под землей. Ее можно добыть с помощью <a object|derrick>буровой вышки</a>."
+msgstr "Крест Красный отмечает наличие месторождения <a object|titanore>Руды Титановой</a>. Её можно будет добыть используя <a object|derrick>Вышку</a>."
 
 #. type: Plain text
 #: ../E/stonspot.txt:5
 #, no-wrap
 msgid "A <a object|botsr>sniffer</a> will lay down a red cross each time it uncovers a deposit. <a object|botsr>Sniffer bots</a> can also detect the presence of <a object|uranore>uranium ore</a> as indicated by a <a object|uranspot>yellow circle</a> and of energy as indicated by a <a object|enerspot>green cross</a>."
-msgstr "<a object|botsr>Сниффер</a> будет показывать красный крест каждый раз, когда будет обнаруживать ее залежи. <a object|botsr>Снифферы</a> также могут обнаруживать присутствие <a object|uranore>урановой руды</a>, что они будут показывать <a object|uranspot>желтым кругом</a>, а также энергии, что будет отмечено <a object|enerspot>зеленым крестом</a>."
+msgstr "<a object|botsr>Разведчик</a> будет ставить Крест Красный при обнаружении месторождения. <a object|botsr>Бот Разведчик</a> также может обнаружить месторождение <a object|uranore>Руды Урановой</a> отметив <a object|uranspot>Кругом Жёлтым</a>, и Энергии отметив <a object|enerspot>Крест Зелёный</a>."
 
 #. type: Plain text
 #: ../E/stonspot.txt:11
@@ -1459,13 +1519,13 @@ msgstr "titan"
 #: ../E/titan.txt:3
 #, no-wrap
 msgid "Titanium is indispensable for the construction of buildings, <a object|factory>bots</a> and <a object|energy>regular power cells</a>. There is usually some left on the <a object|base>spaceship</a> when you embark on a new mission."
-msgstr "Титан необходим для постройки зданий, <a object|factory>ботов</a> и <a object|energy>обычных батарей</a>. Обычно, когда вы отправляетесь на новую миссию, его немного есть на вашем <a object|base>космическом корабле</a>."
+msgstr "Титан незаменим при строительстве зданий, <a object|factory>Ботов</a> и <a object|energy>Батареи Обычной</a>. Немного Титана имеется на <a object|base>Космическом Корабле</a>, когда вы отправляетесь в новую миссию."
 
 #. type: Plain text
 #: ../E/titan.txt:5
 #, no-wrap
 msgid "If more is needed, you'll have to <a object|convert>convert</a> chunks of <a object|titanore>titanium ore</a> into usable titanium cubes."
-msgstr "Если вам нужно больше, то вы должны <a object|convert>превратить</a> куски <a object|titanore>титановой руды</a> в используемые титановые кубы."
+msgstr "Если требуется большее количество, вам понадобится <a object|convert>Преобразователь</a> и куски <a object|titanore>Руды Титановой</a> переработайте в Титан."
 
 #. type: Plain text
 #: ../E/titan.txt:11
@@ -1477,7 +1537,7 @@ msgstr "<code>Titanium</code>"
 #: ../E/titanore.txt:1
 #, no-wrap
 msgid "Titanium Ore"
-msgstr "Титановая руда"
+msgstr "Руда Титановая"
 
 #. type: Image filename
 #: ../E/titanore.txt:2
@@ -1489,13 +1549,13 @@ msgstr "titanore"
 #: ../E/titanore.txt:3
 #, no-wrap
 msgid "<a object|titan>Titanium</a> is indispensable for the construction of buildings, <a object|factory>bots</a> and <a object|energy>regular power cells</a>. The titanium <a object|human>you</a> see in its usable, cube shaped form has been <a object|convert>converted</a> from raw chunks of titanium ore."
-msgstr "<a object|titan>Титан</a> необходим для постройки зданий, <a object|factory>ботов</a> и <a object|energy>обычных батарей</a>. Титан, который <a object|human>вы</a> видите в его используемой, кубической форме, был <a object|convert>получен</a> из частей титановой руды."
+msgstr "<a object|titan>Титан</a> незаменим при строительстве зданий, <a object|factory>Ботов</a> и <a object|energy>Батареи Обычной</a>. Титан, который <a object|human>Вы </a> видите в готовом виде, был получен в <a object|convert>Преобразователе</a> из кусков Руды Титановой."
 
 #. type: Plain text
 #: ../E/titanore.txt:5
 #, no-wrap
 msgid "Titanium ore can be found either directly on the surface or in the subsoil. In the latter case, it needs to be first located and identified by a <a object|botsr>sniffer</a>, then extracted using a <a object|derrick>derrick</a>. If a sniffer identifies a titanium ore deposit, it lays down a <a object|stonspot>red cross</a>."
-msgstr "Титановую руду можно найти или прямо на поверхности или под землей. В последнем случае ее вначале должен обнаружить и распознать <a object|botsr>сниффер</a>, а затем д��быть с помощью <a object|derrick>буровой вышки</a>. Если сниффер определит залежи титановой руды, то появится <a object|stonspot>красный крест</a>."
+msgstr "Руду Титановую можно найти либо непосредственно на поверхности, либо в месторождении. В последнем случае месторождение нужно сначала найти и распознать с помощью <a object|botsr>Разведчика</a>, а затем добыть руду с помощью <a object|derrick>Вышки</a>. Если Разведчик обнаруживает месторождение Руды Титановой, ставит <a object|stonspot>Крест Красный</a>."
 
 #. type: Plain text
 #: ../E/titanore.txt:11
@@ -1507,7 +1567,7 @@ msgstr "<code>TitaniumOre</code>"
 #: ../E/tnt.txt:1
 #, no-wrap
 msgid " Explosive (TNT)"
-msgstr " Взрывчатка (ТНТ)"
+msgstr " Заряд (ТНТ)"
 
 #. type: Image filename
 #: ../E/tnt.txt:2
@@ -1519,7 +1579,7 @@ msgstr "tnt"
 #: ../E/tnt.txt:3
 #, no-wrap
 msgid "A TNT charge is extremely sensitive. You should approach it with caution so as not to hit it or give it any kind of shock. The risk is minimized once the explosive is within a <a object|botgr>grabber</a>'s grasp."
-msgstr "Заряд ТНТ чрезвычайно чувствителен. Чтобы не взорвать его и никак на него не повлиять, к нему нужно приближаться с осторожностью. Когда взрывчатка попадает в захват <a object|botgr>сборщика</a>, риск взрыва минимизирован."
+msgstr "Заряд TNT чрезвычайно чувствителен. Подходите к нему осторожно, чтобы не ударить и не встряхнуть. Риск минимален, когда взрывчатка окажется в манипуляторе <a object|botgr>Погрузчика</a>."
 
 #. type: Plain text
 #: ../E/tnt.txt:9
@@ -1531,7 +1591,7 @@ msgstr "<code>TNT</code>"
 #: ../E/tower.txt:1
 #, no-wrap
 msgid "<button 165/> Defense Tower"
-msgstr "<button 165/> Защитная башня"
+msgstr "<button 165/> Башня Обороны"
 
 #. type: Image filename
 #: ../E/tower.txt:2
@@ -1543,25 +1603,25 @@ msgstr "tower"
 #: ../E/tower.txt:3
 #, no-wrap
 msgid "The tower constitutes the best defense against <a object|mother>enemy</a> attacks, whether they originate on the ground or from the skies."
-msgstr "Башня является наилучшей защитой против нападений <a object|mother>противника</a>, откуда бы он ни нападал, с земли или с воздуха."
+msgstr "Башня представляет собой лучшую защиту от атак <a object|mother>Врагов</a>, независимо от того, исходят ли они с земли или с неба."
 
 #. type: Plain text
 #: ../E/tower.txt:5
 #, no-wrap
 msgid "The tower requires either a <a object|power>regular</a> or a <a object|atomic>nuclear</a> power cell. A regular power cell provides a capacity for 8 shots. A nuclear power cell is of course preferable. The tower starts blinking when it runs out of power."
-msgstr "Для башни требуется или <a object|power>обычная</a> или <a object|atomic>ядерная</a> батарея. Обычная батарея обеспечивает 8 выстрелов. Ядерный аккумулятор конечно предпочтительнее. Когда у башни заканчивается энергия, она начинает мерцать."
+msgstr "Башня требует либо <a object|power>Батарею Обычную</a>, либо <a object|atomic>Батарею Ядерную</a>. Батарея Обычная рассчитана на 8 выстрелов. Батарея Ядерная, конечно, предпочтительнее. Башня начинает мигать, когда в ней заканчивается энергия."
 
 #. type: Plain text
 #: ../E/tower.txt:7
 #, no-wrap
 msgid "The range is 40 meters. To visualize it, select the tower then hit the <range> button <button 41/>. Red dots outline the circular zone for 20 seconds."
-msgstr "Радиус ее действия 40 метров. Чтобы его показать, выберите башню, а затем нажмите на кнопку <радиус> <button 41/>. Красные точки на 20 секунд обозначат круговую зону."
+msgstr "Дальность действия 40 метров. Чтобы показать зону действия, выберите Башню и нажмите <range> кнопку <button 41/>. Маленькие красные точки очертят круговую зону на 20 секунд."
 
 #. type: Plain text
 #: ../E/tower.txt:10
 #, no-wrap
 msgid "Any flat surface of at least 3.5 meters wide."
-msgstr "Любая ровная поверхность шириной по крайней мере 3.5 метра."
+msgstr "Любая ровная поверхность шириной не менее 3.5 метров."
 
 #. type: Plain text
 #: ../E/tower.txt:19
@@ -1573,7 +1633,7 @@ msgstr "<code>DefenseTower</code>"
 #: ../E/uranore.txt:1
 #, no-wrap
 msgid "Uranium Ore"
-msgstr "Урановая руда"
+msgstr "Руда Урановая"
 
 #. type: Image filename
 #: ../E/uranore.txt:2
@@ -1585,25 +1645,25 @@ msgstr "uranore"
 #: ../E/uranore.txt:3
 #, no-wrap
 msgid "Uranium ore is essential to the production of <a object|atomic>nuclear power cells</a>."
-msgstr "Урановая руда является основой для производства <a object|atomic>ядерных аккумуляторов </a>."
+msgstr "Руда Урановая необходима для производства <a object|atomic>Батареи Ядерной</a>."
 
 #. type: Plain text
 #: ../E/uranore.txt:5
 #, no-wrap
 msgid "It is to be found on the surface or in the subsoil. In the latter case, it needs to be first located and identified by a <a object|botsr>sniffer</a>, then extracted using a <a object|derrick>derrick</a>. If a sniffer identifies a deposit of uranium ore, it lays down a <a object|uranspot>yellow circle</a>."
-msgstr "Ее можно найти на поверхности или под землей. В последнем случае в начале ее должны обнаружить и распознать ее <a object|botsr>сниффером</a>, а затем ее нужно добыть с помощью <a object|derrick>буровой вышки</a>. Если сниффер распознает залежи урановой руды, то он покажет <a object|uranspot>желтый круг</a>."
+msgstr "Руду Урановую можно найти либо непосредственно на поверхности, либо в месторождении. В последнем случае месторождение нужно сначала найти и распознать с помощью <a object|botsr>Разведчика</a>, а затем добыть руду с помощью <a object|derrick>Вышки</a>. Если Разведчик обнаруживает месторождение Руды Урановой, ставит <a object|stonspot>Круг Жёлтый</a>."
 
 #. type: Plain text
 #: ../E/uranore.txt:7
 #, no-wrap
 msgid "A <a object|nuclear>nuclear plant</a> will then take care of converting the chunk into a new and fully charged <a object|atomic>nuclear power cell</a>."
-msgstr "Затем после переработки на <a object|nuclear>ядерном заводе</a> из куска она превратится в новый и полностью заряженный <a object|atomic>ядерный аккумулятор</a>."
+msgstr "Затем <a object|nuclear>Энергостанция Ядерная</a> перерабатывает кусок в новую и полностью заряженную <a object|atomic>Батарею Ядерную</a>."
 
 #. type: Plain text
 #: ../E/uranore.txt:10
 #, no-wrap
 msgid "All <a object|botgr>grabbers</a>. Due to its radioactivity, the <a object|human>astronaut</a> can not transport it."
-msgstr "Все <a object|botgr>сборщики</a>. Из-за ее радиоактивности <a object|human>астронавт</a> не может ее транспортировать."
+msgstr "Все <a object|botgr>Погрузчики</a>. Из-за радиоактивности <a object|human>Космонавт</a> не может ее перемещать."
 
 #. type: Plain text
 #: ../E/uranore.txt:13
@@ -1615,7 +1675,7 @@ msgstr "<code>UraniumOre</code>"
 #: ../E/uranspot.txt:1
 #, no-wrap
 msgid " Underground Uranium Deposit"
-msgstr " Подземные залежи урана"
+msgstr " Подземное Месторождение Урана"
 
 #. type: Image filename
 #: ../E/uranspot.txt:2
@@ -1627,13 +1687,13 @@ msgstr "uranspot"
 #: ../E/uranspot.txt:3
 #, no-wrap
 msgid "A yellow circle reveals the presence of a stratum of <a object|uranore>uranium ore</a> in the subsoil. It will be possible to extract it using a <a object|derrick>derrick</a>."
-msgstr "Желтый круг говорит о присутствии пласта <a object|uranore>урановой руды</a> под землей. Ее можно добыть с помощью <a object|derrick>буровой вышки</a>."
+msgstr "Круг Жёлтый показывает наличие месторождения <a object|uranore>Руды Урановой</a>. Руду можно добыть используя <a object|derrick>Вышку</a>."
 
 #. type: Plain text
 #: ../E/uranspot.txt:5
 #, no-wrap
 msgid "A <a object|botsr>sniffer</a> will lay down a yellow circle each time it uncovers a deposit. <a object|botsr>Sniffer bots</a> can also detect the presence of <a object|titanore>titanium ore</a> as indicated by a <a object|stonspot>red cross</a> and of energy as indicated by a <a object|enerspot>green cross</a>."
-msgstr "<a object|botsr>Сниффер</a> будет показывать желтый круг каждый раз, когда он будет обнаруживать залежи. <a object|botsr>Снифферы</a> также могут обнаружить присутствие <a object|titanore>титановой руды</a>, что они будут отмечать <a object|stonspot>красным крестом</a>, а также энергии, что будет отмечаться <a object|enerspot>зеленым крестом</a>."
+msgstr "<a object|botsr>Разведчик</a> будет ставить Круг Жёлтый при обнаружении месторождения. <a object|botsr>Бот Разведчик</a> также может обнаружить месторождение <a object|uranore>Руды Титановой</a> отметив <a object|uranspot>Крест Красный</a>, и энергии отметив <a object|enerspot>Крест Зелёный</a>."
 
 #. type: Plain text
 #: ../E/uranspot.txt:12
@@ -1657,13 +1717,13 @@ msgstr "wasp"
 #: ../E/wasp.txt:3
 #, no-wrap
 msgid "The wasp is a formidable enemy, very hard to shoot down since its flying is particularly swift. Wasps carry balls of <a object|bullet>organic matter</a> that they will hurl at your bots and buildings and at yourself from above."
-msgstr "Оса - это грозный враг, которого очень тяжело уничтожить, так как она летает чрезвычайно быстро. Осы переносят шары <a object|bullet>органической материи</a>, которые они сбрасывают сверху на ваших ботов, здания и вас самих."
+msgstr "Оса - грозный враг, которую очень трудно сбить, так как она летит особенно быстро. Осы несут шары из <a object|bullet>Био-Материи</a>, которые они будут швырять сверху в ваших ботов, здания и вас."
 
 #. type: Plain text
 #: ../E/wasp.txt:5
 #, no-wrap
 msgid "The <a object|tower>defense tower</a> is the easiest way to get rid of them."
-msgstr "Легче всего избавиться от них с помощью <a object|tower>защитных башен</a>."
+msgstr "<a object|tower>Башня Обороны</a> - самый простой способ избавиться от них."
 
 #. type: Plain text
 #: ../E/wasp.txt:8
@@ -1675,7 +1735,7 @@ msgstr "<code>AlienWasp</code>"
 #: ../E/waypoint.txt:1
 #, no-wrap
 msgid "Checkpoint"
-msgstr "Чекпоинт"
+msgstr "Этап"
 
 #. type: Image filename
 #: ../E/waypoint.txt:2
@@ -1687,7 +1747,7 @@ msgstr "waypoint"
 #: ../E/waypoint.txt:3
 #, no-wrap
 msgid "In the exercises, blue crosses indicate positions that have to be crossed. They disappear as soon as a <a object|bottr>practice bot</a> crosses them."
-msgstr "В примерах синие кресты отмечают точки, которые нужно пересечь. Они исчезают сразу же после того, как <a object|bottr>тренировочный бот</a> их пересекает."
+msgstr "На тренировках Крест Синий обозначает позицию, которую необходимо пересечь. Крест исчезнет, как только его пересечет <a object|bottr>Бот Учебный</a>."
 
 #. type: Plain text
 #: ../E/waypoint.txt:9
@@ -1711,13 +1771,13 @@ msgstr "worm"
 #: ../E/worm.txt:3
 #, no-wrap
 msgid "Worms transmit viruses to programmed bots. The virus alters the programming to such an extent that the bot either functions in a very erratic way or stops functioning altogether."
-msgstr "Черви передают вирусы запрограммирован��ым ботам. Вирус изменяет программу до такой степени, что бот действует или очень странно, или вообще перестает функционировать."
+msgstr "Черви передают вирусы запрограммированным ботам. Вирус изменяет программу до такой степени, что бот либо работает очень странно, либо вообще перестает работать."
 
 #. type: Plain text
 #: ../E/worm.txt:5
 #, no-wrap
 msgid "Worms live in the subsoil but sometimes emerge and crawl on the surface. When they are underground they are undetectable and indestructible."
-msgstr "Черви живут под землей, но иногда они выползают на поверхность. Когда они под землей, их нельзя обнаружить и уничтожить."
+msgstr "Черви живут под землей, но иногда появляются и ползают по поверхности. Когда они находятся под землей, их невозможно обнаружить и невозможно уничтожить."
 
 #. type: Plain text
 #: ../E/worm.txt:8
@@ -1729,19 +1789,19 @@ msgstr "<code>AlienWorm</code>"
 #: ../E/wreck.txt:1
 #, no-wrap
 msgid "Derelict bot"
-msgstr "Обломки"
+msgstr "Обломки бота"
 
 #. type: Plain text
 #: ../E/wreck.txt:2
 #, no-wrap
 msgid "A derelict bot is what's left of a bot after it has been disabled by a <a object|spider>spider</a> or by friendly fire."
-msgstr "Обломки - это то, что осталось от бота после того, как он был обездвижен <a object|spider>пауком</a> или огнем дружественных отрядов."
+msgstr "Обломки - это то, что осталось от бота после того, как он был выведен из строя <a object|spider>Пауком</a> или дружественным огнем."
 
 #. type: Plain text
 #: ../E/wreck.txt:4
 #, no-wrap
 msgid "A <a object|botrecy>recycler</a> can convert a derelict bot back into a reusable <a object|titan>titanium cube</a>."
-msgstr "<a object|botrecy>Утилизатор</a> может преобразовывать обломки снова в используемый <a object|titan>титановый куб</a>."
+msgstr "<a object|botrecy>Утилизатор</a> может переработать Обломки обратно в <a object|titan>Титан</a>."
 
 #. type: Plain text
 #: ../E/wreck.txt:7
@@ -1749,11 +1809,17 @@ msgstr "<a object|botrecy>Утилизатор</a> может преобразо
 msgid "<code>Wreck</code>"
 msgstr "<code>Wreck</code>"
 
+#. type: Plain text
+#: ../E/mother.txt:5
+#, no-wrap
+msgid "It gives birth to the following insects :"
+msgstr "Она откладывает Яйца следующих насекомых :"
+
 #. type: \b; header
 #: ../E/destroy.txt:1
 #, no-wrap
 msgid "<button 169/> Destroyer"
-msgstr "<button 169/> Уничтожитель"
+msgstr "<button 169/> Разрушитель"
 
 #. type: Image filename
 #: ../E/destroy.txt:2
@@ -1765,19 +1831,19 @@ msgstr "destroy"
 #: ../E/destroy.txt:3
 #, no-wrap
 msgid "This building was designed to destroy objects. The object just needs to be placed at the center of the platform and the button can be pressed. The destroyer takes care of the rest."
-msgstr "Это здание было спроектировано чтобы уничтожать объекты. Объект нужно только положить в центр платформы и кнопка может быть нажата. Уничтожитель затем позаботится об остальном."
+msgstr "Это здание было спроектировано для разрушения объектов. Просто нужно разместить объект в центре платформы и нажать кнопку. Об остальном позаботится Разрушитель."
 
 #. type: Plain text
 #: ../E/destroy.txt:9
 #, no-wrap
 msgid "Object that is no longer needed."
-msgstr "Объект который больше не нужен."
+msgstr "Объект, который больше не нужен."
 
 #. type: Plain text
 #: ../E/destroy.txt:12
 #, no-wrap
 msgid "Satisfaction."
-msgstr "Удовлетворение"
+msgstr "Исполнение."
 
 #. type: Plain text
 #: ../E/destroy.txt:18
@@ -1789,7 +1855,7 @@ msgstr "5 секунд."
 #: ../E/destroy.txt:21
 #, no-wrap
 msgid "<code>Destroyer</code>"
-msgstr ""
+msgstr "<code>Destroyer</code>"
 
 #. type: Plain text
 #: ../E/destroy.txt:24
@@ -1801,7 +1867,7 @@ msgstr "<a cbot>Язык CBOT</a>, <a cbot|type>переменные</a> и <a c
 #: ../E/target2.txt:1
 #, no-wrap
 msgid "Target2"
-msgstr ""
+msgstr "Цель"
 
 #. type: Image filename
 #: ../E/target2.txt:2
@@ -1813,13 +1879,13 @@ msgstr "target2"
 #: ../E/target2.txt:9
 #, no-wrap
 msgid "<code>Target2</code>"
-msgstr ""
+msgstr "<code>Target2</code>"
 
 #. type: \b; header
 #: ../E/target1.txt:1
 #, no-wrap
 msgid "Target1"
-msgstr ""
+msgstr "Цель"
 
 #. type: Image filename
 #: ../E/target1.txt:2
@@ -1831,16 +1897,16 @@ msgstr "target1"
 #: ../E/target1.txt:3
 #, no-wrap
 msgid "These buildings appear in the flying exercise missions and their height can vary. In the center <a object|target2>Target2</a> is placed."
-msgstr "Эти здания появляются в миссиях по тренировочным полетам и их высота может изменяться. В центре расположена <a object|target2>Target2</a>."
+msgstr "Эти здания появляются в миссиях на тренировочных полетах, и их высота может изменяться. В центре размещается <a object|target2>Цель Воздушная</a>."
 
 #. type: Plain text
 #: ../E/target1.txt:6
 #, no-wrap
 msgid "<code>Target1</code>"
-msgstr ""
+msgstr "<code>Target1</code>"
 
 #. type: Plain text
 #: ../E/target2.txt:3
 #, no-wrap
 msgid "In the flying exercise missions, brown crosses indicate positions that have to be crossed by a winged bot. They disappear as soon as a bot flies through them. They are placed in the center of the <a object|target1>Target1</a> building."
-msgstr "В миссиях по тренировочным полетам, коричневые пересечения обозначают позиции которые должны быть пересечены  летающим ботом. Они исчезают как только бот пролетает через них. Они размещены в центре здания <a object|target1>Target1</a>."
+msgstr "На тренировочных полетах Крест Коричневый обозначает позицию, которую должен пересечь Бот Крылатый. Крест исчезает, как только через них пролетает бот. Крест размещается в центре здания <a object|target1>Цель</a>."
