@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2021-02-28 19:45+0300\n"
+"PO-Revision-Date: 2021-03-03 00:14+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,13 +33,13 @@ msgstr "ant"
 #: ../E/ant.txt:3
 #, no-wrap
 msgid "Ants shoot tiny corrosive balls that eventually gnaw into the protective shielding of bots and buildings, causing them to explode."
-msgstr "Муравьи стреляют крошечными токсичными сферами, которые разъедают защитные экраны ботов и зданий, заставляя их взрываться."
+msgstr "Муравьи стреляют крошечными токсичными сферами, которые разъедают щит ботов и зданий, заставляя их взрываться."
 
 #. type: Plain text
 #: ../E/ant.txt:5
 #, no-wrap
 msgid "<a object|human>You</a> can resist their attack much longer than most buildings and bots, and your protective shield will be restored as your wounds heal. However, if you stay too long in their range or if there are too many of them, your life is in great danger."
-msgstr "<a object|human>Вы</a> можете противостоять их атакам гораздо дольше, чем большинство зданий и ботов, и ваш защитный щит будет восстанавливаться по мере заживления ран. Однако, если вы слишком долго остаетесь в зоне поражения или их слишком много, ваша жизнь подвергается большой опасности."
+msgstr "<a object|human>Вы</a> можете противостоять их атакам гораздо дольше, чем большинство зданий и ботов, и ваша защита будет восстанавливаться по мере заживления ран. Однако, если вы слишком долго остаетесь в зоне поражения или их слишком много, ваша жизнь подвергается большой опасности."
 
 #. type: \t; header
 #: ../E/ant.txt:7 ../E/atomic.txt:11 ../E/barrier.txt:4 ../E/base.txt:7
@@ -277,7 +277,7 @@ msgstr ""
 #: ../E/captor.txt:6
 #, no-wrap
 msgid "To visualize the zone shielded by a power captor, select it then hit the <range> button <button 41/>. Red dots outline the circular zone for 20 seconds."
-msgstr "Чтобы показать зону действия, выберите Молниеотвод и нажмите <range> кнопку <button 41/>. Маленькие красные точки очертят круговую зону на 20 секунд."
+msgstr "Чтобы показать зону действия защиты, выберите Молниеотвод и нажмите <range> кнопку <button 41/>. Маленькие красные точки очертят круговую зону на 20 секунд."
 
 #. type: Plain text
 #: ../E/captor.txt:8
@@ -596,7 +596,7 @@ msgstr "<a object|energy>Энергостанция Обычная</a>"
 #: ../E/enerspot.txt:8
 #, no-wrap
 msgid "In order to prospect the subsoil you need a <a object|botsr>sniffer bot</a>, which can also discover <a object|titanore>titanium ore</a> deposits (indicated by a <a object|stonspot>red cross</a>) or <a object|uranore>uranium ore</a> deposits (indicated by a <a object|uranspot>yellow circle</a>)."
-msgstr "Для поиска месторождений вам понадобится <a object|botsr>Бот Разведчик</a>, который также может обнаруживать месторождения <a object|titanore>Руды Титановой</a> (отмечено <a object|stonspot>Крест Красный</a>) или <a object|uranore>Руды Урановой</a> (отмечено <a object|uranspot> Круг Жёлтый</a>)."
+msgstr "Для поиска месторождений вам понадобится <a object|botsr>Бот Разведчик</a>, который также может обнаруживать месторождения <a object|titanore>Руды Титановой</a> (отмечено <a object|stonspot>Крест Красный</a>) или <a object|uranore>Руды Урановой</a> (отмечено <a object|uranspot>Круг Жёлтый</a>)."
 
 #. type: Plain text
 #: ../E/enerspot.txt:11 ../E/flag.txt:12 ../E/mine.txt:8 ../E/stonspot.txt:8
@@ -633,11 +633,11 @@ msgid ""
 "\\tab;\"Position.y\"  -102.70\n"
 "\\tab;\"Quantity\"    3.00"
 msgstr ""
-"В этом здании хранится цифровая информация. Пункт может содержать до 10 единиц информации, каждая со своим именем.\n"
+"В этом здании хранится цифровая информация. Пункт может содержать до 10 единиц информации, каждая под своим названием.\n"
 "Например, пункт может содержать 3 единицы информации:<c/>\n"
 "\\tab;\"Position.x\"  23.45\n"
 "\\tab;\"Position.y\"  -102.70\n"
-"\\tab;\"Quantity\"    3.00"
+"\\tab;\"Quantity\"    3.00учф"
 
 #. type: Plain text
 #: ../E/exchange.txt:9
@@ -945,7 +945,7 @@ msgstr "Объект <a cbot|category>Категория</a>"
 #: ../E/key.txt:14
 #, no-wrap
 msgid "<code>KeyA</code>, <code>KeyB</code>, <code>KeyC</code> and <code>KeyD</code>"
-msgstr "<code>KeyA</code>, <code>KeyB</code>, <code>KeyC</code> and <code>KeyD</code>"
+msgstr "<code>KeyA</code>, <code>KeyB</code>, <code>KeyC</code> и <code>KeyD</code>"
 
 #. type: \b; header
 #: ../E/labo.txt:1
@@ -1239,7 +1239,7 @@ msgstr "repair"
 #: ../E/repair.txt:3
 #, no-wrap
 msgid "The repair center regenerates the shield on damaged bots. A bot's shield will absorb a certain amount of <a object|mother>enemy</a> hits. If there is no shield left, this means that the bot itself, when hit next, will be destroyed."
-msgstr "Пункт Ремонта восстанавливает щит на поврежденных ботах. Щит бота поглощает определенное количество ударов <a object|mother>Врага</a>. Если щита не осталось, это означает, что бот при следующем ударе будет уничтожен."
+msgstr "Пункт Ремонта восстанавливает щит на повреждённых ботах. Щит бота поглощает определенное количество ударов <a object|mother>Врага</a>. Если щита не осталось, это означает, что бот при следующем ударе будет уничтожен."
 
 #. type: Plain text
 #: ../E/repair.txt:9
