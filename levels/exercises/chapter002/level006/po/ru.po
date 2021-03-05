@@ -2,31 +2,31 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-05 15:56+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Wasp Hunter 1"
-msgstr "Охотник на ос 1"
+msgstr "Охотник на Ос 1"
 
 #. type: Resume-text, Plain text
 #: ../scene.txt:2 ../help/help.E.txt:2
 #, no-wrap
 msgid "Shoot down the flying wasps."
-msgstr "Уничтожьте летающих ос."
+msgstr "Сбивайте летающих ос."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -120,7 +120,7 @@ msgstr ""
 #: ../help/help.E.txt:37
 #, no-wrap
 msgid "In order to adapt the program to shooting wasps, you need to make a few changes. Replace all <code>radar(AlienAnt)</code> with <code>radar(AlienWasp)</code>. The cannon must aim straight forward and not downward, replace <c/>aim(-20);<n/> with <c/>aim(0);<n/>. And the bot must fly at the same height as the wasp. For this, you must compare the altitude of the bot given by <code>position.z</code> with the altitude of the wasp given by <code>item.position.z</code>: if <code>position.z > item.position.z</code>, go down slowly with <c/>jet(-0.3);<n/>. If <code>position.z < item.position.z-1</code>, climb slowly with <c/>jet(0.3);<n/>. A winged shooter is higher than a wasp, therefore it is better if the altitude of the bot is a little lower than the altitude of the wasp. In this case, we admit that the altitude of the bot ranges between the altitude of the wasp and the altitude of the wasp minus 1."
-msgstr "Чтобы приспособить программу к уничтожению ос, вы должны сделать некоторые изменения. Замените все <code>radar(AlienAnt)</code> на <code>radar(AlienWasp)</code>. Пушка должна целиться премо вперед, а не вниз, замените <c/>aim(-20);<n/> на <c/>aim(0);<n/>. Бот должен лететь на той же высоте, что и оса. Для этого вы должны сравнить высоту полета бота, заданную <code>position.z</code>, с высотой полета осы, заданной <code>item.position.z</code>: если <code>position.z > item.position.z</code>, медленно снизьте высоту <c/>jet(-0.3);<n/>. Если <code>position.z < item.position.z-1</code>, медленно наберите высоту <c/>jet(0.3);<n/>. Крылатый стрелок выше осы, поэтому будет лучше, если высота полета бота будет немного меньше высоты полета осы. В этом случае мы допускаем, что высота бота может изменяться от высоты полета осы до высоты полета осы минус 1."
+msgstr "Чтобы приспособить программу к уничтожению ос, вы должны сделать некоторые изменения. Замените все <code>radar(AlienAnt)</code> на <code>radar(AlienWasp)</code>. Орудие должно целиться прямо вперёд, а не вниз, замените <c/>aim(-20);<n/> на <c/>aim(0);<n/>. Бот должен лететь на той же высоте, что и оса. Для этого вы должны сравнить высоту полёта бота, заданную <code>position.z</code>, с высотой полета осы, заданной <code>item.position.z</code>: если <code>position.z > item.position.z</code>, медленно снизьте высоту <c/>jet(-0.3);<n/>. Если <code>position.z < item.position.z-1</code>, медленно наберите высоту <c/>jet(0.3);<n/>. Стрелок Крылатый выше осы, поэтому будет лучше, если высота полёта бота будет немного ниже высоты полёта осы. В этом случае мы допускаем, что высота бота может изменяться от высоты полёта осы до высоты полёта осы минус 1."
 
 #. type: \t; header
 #: ../help/help.E.txt:39
@@ -132,13 +132,13 @@ msgstr "Дальнейшее улучшение"
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "Wasps move very fast. In order to increase your chances to get them, better to repeat just before the <c/>fire(1);<n/> a <code>radar</code> and a <code>turn</code> in order to perform a last readjustment of the direction before the shot."
-msgstr "Осы летают очень быстро. Чтобы увеличить свои шансы попадания в осу, лучше повторить сразу перед <c/>fire(1);<n/>  <code>radar</code> и <code>turn</code> , чтобы провести последнее исправление направления перед тем, как сделать выстрел."
+msgstr "Осы летают очень быстро. Чтобы увеличить свои шансы попадания в осу, лучше повторить сразу перед <c/>fire(1);<n/>  <code>radar</code> и <code>turn</code>, выполнить последнюю корректировку направления перед выстрелом."
 
 #. type: \t; header
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:43

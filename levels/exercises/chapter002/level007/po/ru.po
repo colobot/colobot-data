@@ -2,25 +2,25 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-05 16:40+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Wasp Hunter 2"
-msgstr "Охотник на ос 2"
+msgstr "Охотник на Ос 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
@@ -44,7 +44,7 @@ msgstr "Задание"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Bring down the flying wasps in a more efficient way than with the previous program."
-msgstr "Убейте ос с еще большей эффективностью, чем вы делали это с помощью предыдущей программы."
+msgstr "Уничтожьте ос с ещё большей эффективностью, чем с предыдущей программой."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -132,19 +132,19 @@ msgstr ""
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "The many failures are due to the fact that the wasp is already gone before the bullets can reach it. The only way to improve the program consists in setting the power of the two motors and of the jet in such a way that the bot follows the movement of the target during the burst."
-msgstr "Многие ошибки возникали из-за того, что оса уже улетела до того, как пуля могла в нее попасть. Единственный способ улучшить программу- это установить мощность двух моторов и реактивного двигателя таким способом, чтобы во время выстрела бот летел по тому же курсу, что и цель."
+msgstr "Многие неудачи возникали из-за того, что оса улетела до того, как выстрел мог достичь её. Единственный способ улучшить программу состоит в установлении мощности двух моторов и реактивного двигателя таким образом, чтобы бот следовал за движением цели во время выстрела."
 
 #. type: Plain text
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "Just before the shot, the program adjusts a last time the direction with <c/>turn(direction(item.position));<n/>. In order to follow the wasp during the burst, you have to \"remember\" the angle of this last rotation: if the angle was positive (rotation to the left), the bot must continue to turn left during the burst; if the angle was negative, the bot must continue to turn right."
-msgstr "Сразу перед выстрелом программа настраивает последнее направление с помощью <c/>turn(direction(item.position));<n/>. Чтобы лететь за осой во время выстрела, вы должны \"запомнить\" угол этого последнего поворота: если угол был положительный (поворот влево), бот должен продолжать разворачиваться влево во время выстрела; если же угол был отрицательным, бот должен продолжать поворачиваться вправо."
+msgstr "Сразу перед выстрелом программа подстраивает последнее направление с помощью <c/>turn(direction(item.position));<n/>. Чтобы лететь за осой во время выстрела, Вы должны \"запомнить\" угол этого последнего поворота: если угол был положительным (поворот влево), бот должен продолжать поворачиваться влево во время выстрела; если же угол был отрицательным, бот должен продолжать поворачиваться вправо."
 
 #. type: Plain text
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "In order to \"remember\" the angle of the last rotation, we need a variable that can contain just one number. If we choose to call it <code>angle</code>, we must define the variable with the following line at the beginning of the program:"
-msgstr "Чтобы \"запомнить\" угол последнего поворота, нам нужна переменная, которая может содержать только одно число. Если мы назовем ее <code>angle</code>, мы должны задать переменную со следующей строки в самом начале программы:"
+msgstr "Чтобы \"запомнить\" угол последнего поворота, нам нужна переменная, которая может содержать только одно число. Если мы назовем её <code>angle</code>, мы должны объявить переменную со следующей строки в самом начале программы:"
 
 #. type: Source code
 #: ../help/help.E.txt:46
@@ -156,7 +156,7 @@ msgstr "\t<a cbot|type>float</a> angle;"
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "The variable type <a cbot|type>float</a> is the variable type that can contain any number, i.e. whole numbers or real numbers. Please refer to the <a cbot|type>text about variable types</a> if you want to know more about the different types of variables and what they can contain."
-msgstr "Тип переменной <a cbot|type>float</a> это изменчивый тип, который может содержать любое число, то есть целые числа или вещественные числа. Обратитесь пожалуйста к <a cbot|type>тексту о типах переменных</a> , если вы захотите узнать больше о различных типах переменных и о том, что они могут содержать."
+msgstr "Тип переменной <a cbot|type>float</a> - это тип переменной, который может содержать любое число, т.е. целые числа или действительные числа. Обратитесь пожалуйста к <a cbot|type>тексту о типах переменных</a> , если Вы захотите узнать больше о различных типах переменных и то, что они могут содержать."
 
 #. type: Plain text
 #: ../help/help.E.txt:50
@@ -174,7 +174,7 @@ msgstr "\tangle = direction(item.position);"
 #: ../help/help.E.txt:54
 #, no-wrap
 msgid "Then we perform the rotation, and we set the power of the motors so that the bot continues the movement:"
-msgstr "После этого мы произведем поворот и установим мощность моторов таким образом, чтобы бот продолжил движение:"
+msgstr "Затем мы выполним поворот и мы установим мощность моторов, чтобы бот продолжил движение:"
 
 #. type: Source code
 #: ../help/help.E.txt:56
@@ -210,7 +210,7 @@ msgstr "Инструкция <code>else</code> определяет то, как
 #: ../help/help.E.txt:68
 #, no-wrap
 msgid "Then we must set the power of the jet so that the bot follows the wasp also in the vertical direction:"
-msgstr "Потом мы должны установить мощность двигателя таким образом, чтобы бот следовал за осой также и в вертикальном направлении:"
+msgstr "Потом мы должны установить мощность реактивного двигателя, чтобы бот следовал за осой также и в вертикальном направлении:"
 
 #. type: Source code
 #: ../help/help.E.txt:70
@@ -242,13 +242,13 @@ msgstr ""
 #: ../help/help.E.txt:81
 #, no-wrap
 msgid "As you will see, this program is much more efficient than the previous one!"
-msgstr "Как вы видите, эта программа намного эффективней предыдущей!"
+msgstr "Как Вы видите, эта программа намного эффективней предыдущей!"
 
 #. type: \t; header
 #: ../help/help.E.txt:83
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:84

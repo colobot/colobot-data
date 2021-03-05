@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-05 10:40+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -24,9 +24,9 @@ msgstr "Пауки 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
-#, no-wrap, fuzzy
+#, no-wrap
 msgid "Use the radar to find and kill all spiders."
-msgstr "С помощью радара найдите и убейте всех муравьев."
+msgstr "Используйте радар, чтобы найти и уничтожить всех пауков."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Задание"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Kill several spiders whose exact location we do not know. Use the bot's radar to find them."
-msgstr "Убейте несколько пауков, чья точная позиция нам не известна. Чтобы их найти, используйте радар бота."
+msgstr "Уничтожьте несколько пауков, точное расположение которых мы не знаем. Используйте радар бота, чтобы найти их."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,7 +56,7 @@ msgstr "Программа"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Find the closest spider with the instruction <c/><a cbot|radar>radar</a>(AlienSpider);<n/>, as we did it in the previous exercises with titanium ore and power cells. But do not go to the position of the spider, the bot would be destroyed before arriving there. Just turn towards the spider. The instruction <code><a cbot|direct>direction</a>(item.position)</code> calculates the angle of the rotation that the robot must perform in order to aim at the spider. In order to actually aim at the spider, just write:"
-msgstr "Найдите ближайшего паука с помощью инструкции <c/><a cbot|radar>radar</a>(AlienSpider);<n/>, как  мы делали это с титановой рудой и батареями. Но не идите к пауку, бот будет уничтожен до того, как дойдет туда. Просто обойдите паука. Инструкция <code><a cbot|direct>direction</a>(item.position)</code> высчитывает угол вращения, чтобы бот мог прицелиться в паука. Чтобы точно прицелиться по пауку, просто напишите:"
+msgstr "Найдите ближайшего паука с помощью инструкции <c/><a cbot|radar>radar</a>(AlienSpider);<n/>, как мы делали это с Рудой Титановой и Батареями. Но не идите к пауку, бот будет уничтожен до того, как дойдёт туда. Просто обойдите паука. Инструкция <code><a cbot|direct>direction</a>(item.position)</code> высчитывает угол вращения, чтобы бот мог прицелиться в паука. Чтобы точно прицелиться по пауку, просто напишите:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -74,19 +74,19 @@ msgstr "Заметьте, что в конце строки перед точк�
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Then shoot with the instruction <c/><a cbot|fire>fire</a>(1);<n/>."
-msgstr "После этого стреляйте инструкцией <c/><a cbot|fire>fire</a>(1);<n/>."
+msgstr "Затем стреляйте с помощью инструкции <c/><a cbot|fire>fire</a>(1);<n/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Here also, you can use a loop with <code><a cbot|while>while</a> (true)</code> in order not to have to execute the program again for every spider, as we did in the last exercise."
-msgstr "И еще, вы можете использовать цикл <code><a cbot|while>while</a> (true)</code> чтобы не запускать программу для каждого паука, как мы делали это в предыдущем упражнении."
+msgstr "Также, Вы можете использовать цикл <code><a cbot|while>while</a> (true)</code> чтобы не запускать программу для каждого паука, как мы делали это в предыдущем упражнении."
 
 #. type: \t; header
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:16

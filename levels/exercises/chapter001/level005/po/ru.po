@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-05 15:30+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Батарея 2"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Power all the winged shooters."
-msgstr "Оснастите батареей всех крылатых стрелков."
+msgstr "Оснастите Батареей всех Стрелков Крылатых."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Задание"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
-msgstr "Оснастите <a object|botfj>крылатых стрелков</a>  <a object|power>батареями</a>, чтобы они смогли начать уничтожать муравьев в муравейнике, расположенном в норе на севере от вашей текущей позиции."
+msgstr "Оснастите <a object|botfj>Стрелков Крылатых</a> <a object|power>Батареями</a>, чтобы они смогли уничтожить муравьёв в муравейнике, расположенном в норе к северу от Вашей текущей позиции."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,7 +56,7 @@ msgstr "Программа"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
-msgstr "<a object|botgr>Крылатый сборщик</a> должен подойти к <a object|power>батарее</a>, взять ее, отправиться к <a object|botfj>крылатому стрелку</a> и бросить там батарею. Это задание очень напоминает задание, которое мы выполняли в предыдущем упражнении. Ниже мы еще раз приводим текст этой программы:"
+msgstr "<a object|botgr>Погрузчик Крылатый</a> должен подойти к <a object|power>Батарее</a>, взять её, подойти к <a object|botfj>Стрелку Крылатому</a> и вставить Батарею. Это задание очень напоминает задание, которое мы выполняли в предыдущем упражнении. Ниже мы ещё раз приводим текст этой программы:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -92,19 +92,19 @@ msgstr ""
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
-msgstr "Лучшим способом решения этого упражнения будет копирование <button 61/> программы, приведенной выше, в буфер обмена (от <code>object</code> до <c/>drop();<n/>). После этого вставьте <button 62/> ее в редактор программ. После этого вы должны будете просто сделать небольшие изменения, чтобы приспособить ее к новому заданию."
+msgstr "Лучшим способом решения этого упражнения будет копирование <button 61/> программы, приведённой выше, в буфер обмена (от <code>object</code> до <c/>drop();<n/>). После этого вставьте <button 62/> её в редактор программ. Затем Вы должны будете просто сделать небольшие изменения, чтобы приспособить её к новому заданию."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
-msgstr "Вместо того, чтобы искать титановую руду (<code>TitaniumOre</code>), ищите батареи (<code>PowerCell</code>). Вместо перехода к преобразователю (<code>Converter</code>), идите к крылатому стрелку (<code>WingedShooter</code>). Как только у крылатого стрелка появится новая батарея, он приступит к работе."
+msgstr "Вместо того, чтобы искать Руду Титановую (<code>TitaniumOre</code>), ищите Батарею (<code>PowerCell</code>). Вместо перехода к Преобразователю (<code>Converter</code>), идите к Стрелку Крылатому (<code>WingedShooter</code>). Как только Стрелок Крылатый получит новую Батарею, он приступит к работе."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr "Если вы хотите больше узнать об \"именах\" различных объектов этого языка программирования, обратитесь пожалуйста к <a cbot|category>тексту о категориях</a>."
+msgstr "Если вы хотите узнать больше о \"названиях\" различных объектов в языке программирования, обратитесь к <a cbot|category>тексту о категориях</a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:26
@@ -116,13 +116,13 @@ msgstr "Дальнейшее улучшение: циклы"
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
-msgstr "Как только программа, приведенная выше, заработает, вы можете улучшить ее, чтобы повторять задание снова и снова. Тогда вам не придется запускать программу каждый раз, когда возникает необходимость оснастить бота батареей."
+msgstr "Как только программа, приведённая выше, заработает, Вы можете улучшить её, чтобы повторять задание снова и снова. Тогда Вам не придется запускать программу каждый раз, когда возникает необходимость оснастить бот Батареей."
 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
-msgstr "Все программы, написанные до этого момента, выполняют все инструкции только один раз, одну за другой, с самого начала и до конца программы. Вы можете приказать ботам повторять некоторые инструкции: просто напишите <code>while (true)</code>, открывающая скобка, инструкции, которые следует повторять, и закрывающая скобка. Повторение некоторых инструкций таким способом носит название цикла. Вот пример программы, которая снова и снова повторяет инструкции, которые ищут батарею, берут ее и бросают крылатому стрелку:"
+msgstr "Все программы, написанные до этого момента, выполняют все инструкции только один раз, одну за другой, с самого начала и до конца программы. Вы можете приказать ботам повторять некоторые инструкции: просто напишите <code>while (true)</code>, открывающая скобка, инструкции, которые следует повторять, и закрывающая скобка. Повторение некоторых инструкций таким способом носит название цикла. Вот пример программы, которая снова и снова повторяет инструкции, которые ищут Батарею, берут её и вставляют Стрелку Крылатому:"
 
 #. type: Source code
 #: ../help/help.E.txt:31
@@ -154,7 +154,7 @@ msgstr ""
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
-msgstr "Конечно же, задание переменной <c/>object item;<n/> не должно производиться внутри цикла, а перед ним: задавайте переменную только один раз."
+msgstr "Конечно же, объявление переменной <c/>object item;<n/> не должно делаться внутри цикла, а перед ним: объявляйте переменную только один раз."
 
 #. type: \t; header
 #: ../help/help.E.txt:44
@@ -166,13 +166,13 @@ msgstr "Комментарий"
 #: ../help/help.E.txt:45
 #, no-wrap
 msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
-msgstr "Бот сам отлично справляется с задачей запуска програмы. В то же время, вы, например, можете выбрать астронавта и посмотреть на то, что происходит в гнезде. Это просто нужно увидеть. Но будьте осторожны, чтобы не быть подстреленным своими же собственными ботами..."
+msgstr "Бот сможет выполнить программу на отлично сам. Тем временем Вы, можете выбрать космонавта и поинтересоваться, что происходит в гнезде, на это стоит посмотреть. Но будьте осторожны, чтобы не быть подстреленным собственными ботами..."
 
 #. type: \t; header
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:48

@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-05 10:50+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -44,7 +44,7 @@ msgstr "Задание"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Move towards the spiders that are out of shooting range."
-msgstr "Передвигайтесь к паукам, которые находятся за пределами досягаемости ваших орудий."
+msgstr "Двигайтесь к паукам, которые находятся за пределами досягаемости орудия."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -56,13 +56,13 @@ msgstr "Программа"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The program will look like the previous one, but before you shoot, use the instruction <c/><a cbot|move>move</a>();<n/> in order to get close enough."
-msgstr "Программа будет выглядеть как и предыдущая, но перед тем, как вы будете стрелять, используйте инструкцию <c/><a cbot|move>move</a>();<n/> чтобы подойти достаточно близко."
+msgstr "Программа будет выглядеть как и предыдущая, но перед тем, как Вы выстрелите, используйте инструкцию <c/><a cbot|move>move</a>();<n/> чтобы подойти достаточно близко."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The question is just how many meters the bot must move. The instruction <code><a cbot|dist>distance</a>( , )</code> calculates the distance between two positions. In this case, we need to know the distance between the bot and the target. The position of the target is given by <code>item.position</code>, the position of the bot is given by <code>position</code>. The distance between the bot and the target is given by <code><a cbot|dist>distance</a>(position, item.position)</code>. The range of a fireball cannon is 40 meters. In order to get close enough, the bot must move forward <code><a cbot|dist>distance</a>(position, item.position)-40</code> meters. The following line will do this:"
-msgstr "Вопрос просто в том, как близко должен подойти бот к пауку. Инструкция <code><a cbot|dist>distance</a>( , )</code> рассчитывает расстояние между двумя позициями. В этом случае мы должны узнать расстояние между ботом и целью. Позиция цели задается инструкцией <code>item.position</code>, позиция бота задается <code>position</code>. Расстояние между ботом и целью задается <code><a cbot|dist>distance</a>(position, item.position)</code>. Дальность полета огненного шара из пушки 40 метров. Чтобы подойти достаточно близко, бот должен пройти вперед <code><a cbot|dist>distance</a>(position, item.position)-40</code> метров. Это будет сделано с помощью следующей строки:"
+msgstr "Вопрос в том, как близко должен подойти бот к пауку. Инструкция <code><a cbot|dist>distance</a>( , )</code> вычисляет расстояние между двумя позициями. В этом случае мы должны узнать расстояние между ботом и целью. Позиция цели задаётся инструкцией <code>item.position</code>, позиция бота задаётся <code>position</code>. Расстояние между ботом и целью задаётся <code><a cbot|dist>distance</a>(position, item.position)</code>. Дальность орудия 40 метров. Чтобы подойти достаточно близко, бот должен пройти вперёд <code><a cbot|dist>distance</a>(position, item.position)-40</code> метров. Это будет сделано с помощью следующей строки:"
 
 #. type: Source code
 #: ../help/help.E.txt:9
@@ -74,13 +74,13 @@ msgstr "\t<a cbot|move>move</a>(<a cbot|dist>distance</a>(position, item.positio
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Just insert this line into the program before the instruction <c/>fire(1);<n/>, and the bot will start to move."
-msgstr "Просто вставьте  в программу эту строку перед инструкцией <c/>fire(1);<n/>, и бот начнет двигаться."
+msgstr "Просто вставьте в программу эту строку перед инструкцией <c/>fire(1);<n/>, и бот начнёт двигаться."
 
 #. type: \t; header
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:14
