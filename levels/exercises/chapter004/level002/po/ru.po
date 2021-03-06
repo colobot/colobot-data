@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 16:18+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Радар"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the radar to find lots of stupid blue crosses."
-msgstr "С помощью радара найдите множество синих крестов."
+msgstr "Используйте радар, чтобы найти множество Крестов Синих."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,13 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Let the bot find all the <a object|waypoint>blue crosses</a> on the ground. As soon as the bot passed over one of the crosses, it will disappear. Here is the general principle that you will apply:"
-msgstr "Пусть бот отыщет на земле все <a object|waypoint>синие кресты</a>. Как только бот пройдет над одним из крестов, он исчезнет. Вот общий принцип, который вы должны применить:"
-
-#. type: Plain text
-#: ../help/help.E.txt:4
-#, no-wrap
-msgid "Repeat forever:"
-msgstr "Повторять всегда:"
+msgstr "Пусть бот найдет на земле все <a object|waypoint>Кресты Синие</a>. Как только бот пройдет над одним из крестов, он исчезнет. Вот общий принцип, который Вы должны применить:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:5
@@ -62,7 +56,7 @@ msgstr "Искать крест"
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "If there is none, stop the program."
-msgstr "Если креста нет, остановить программу."
+msgstr "Если его нет, остановить программу."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
@@ -74,7 +68,7 @@ msgstr "Рассчитать направление к кресту."
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Set the speed of the motors in such a way that they will find their way to the cross."
-msgstr "Установить скорость моторов таким способом, чтобы они могли найти путь к кресту."
+msgstr "Установить скорость моторов так, чтобы они могли найти путь к кресту."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
@@ -106,7 +100,7 @@ msgstr ""
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "The instruction <code><a cbot|radar>radar</a></code> will detect the blue crosses and put their description into a variable, for example <code>spot</code>. In this case, <code><a cbot|radar>radar</a>()</code> needs only one parameter, i.e. the category of the object that it must look for:"
-msgstr "Инструкция <code><a cbot|radar>radar</a></code> будет искать синие кресты и переводить направление к ним в переменную, например <code>spot</code>. В этом случае инструкции <code><a cbot|radar>radar</a>()</code> необходим всего один параметр, т.е. категория объекта, который он должен искать:"
+msgstr "Инструкция <code><a cbot|radar>radar</a></code> будет искать Кресты Синие и присваивать направление переменной, например <code>spot</code>. В этом случае инструкции <code><a cbot|radar>radar</a>()</code> необходим всего один параметр, т.е. категория объекта, который он должен искать:"
 
 #. type: Source code
 #: ../help/help.E.txt:18
@@ -118,7 +112,7 @@ msgstr "<c/>spot = radar(WayPoint);"
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "Once all the crosses have been found, <code>radar</code> will return the value <code><a cbot|null>null</a></code>. You will have to test this case and react accordingly with the instruction <code><a cbot|if>if</a></code>:"
-msgstr "Когда будут найдены все кресты, <code>radar</code> возвратит значение <code><a cbot|null>null</a></code>. Вы должны будете все это проверить и действовать согласно инструкции <code><a cbot|if>if</a></code>:"
+msgstr "Когда будут найдены все кресты, <code>radar</code> возвратит значение <code><a cbot|null>null</a></code>. Вы должны будете всё это проверять и действовать согласно инструкции <code><a cbot|if>if</a></code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:21
@@ -130,10 +124,10 @@ msgid ""
 "\tbreak;        // stops the loop\n"
 "}"
 msgstr ""
-"<c/>if ( spot == null )  // no more ?\n"
+"<c/>if ( spot == null )  // нет ещё ?\n"
 "{\n"
-"\tmotor(0, 0);  // stops the motors\n"
-"\tbreak;        // stops the loop\n"
+"\tmotor(0, 0);  // остановить моторы\n"
+"\tbreak;        // остановить цикл\n"
 "}"
 
 #. type: Plain text
@@ -146,7 +140,7 @@ msgstr "<n/>Инструкция <code><a cbot|break>break</a></code> остан
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "Use the instruction <code><a cbot|direct>direction</a>()</code> to calculate the angle of the rotation that the bot must perform in order to turn towards the blue cross. The coordinates of the object are given by <code>spot.position</code>. The following line will put the angle of the necessary rotation into the <a cbot|var>variable</a> <code>dir</code>:"
-msgstr "Используйте инструкцию <code><a cbot|direct>direction</a>()</code> чтобы рассчитать угол, на который должен развернуться бот, чтобы повернуться в направлении синего креста. Координаты объекта задаются <code>spot.position</code>. Следующие строки устанавливают угол необходимого поворота в <a cbot|var>переменную</a> <code>dir</code>:"
+msgstr "Используйте инструкцию <code><a cbot|direct>direction</a>()</code> чтобы рассчитать угол, на который должен повернуть бот в направлении Креста Синего. Координаты объекта задаются <code>spot.position</code>. Следующие строки присваивают угол необходимого поворота <a cbot|var>переменной</a> <code>dir</code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:29
@@ -158,7 +152,7 @@ msgstr "<c/>dir = direction(spot.position);"
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "The value of the angle is positive if the blue cross is on your left hand, and negative if it is on your right hand. If the cross to be reached is on your left hand, you must set the right-hand motor to full speed, and set the left-hand motor to a lower speed, according to the angle:"
-msgstr "Значение угла положительное, если синий крест расположен слева от вас, и отрицательное, если он справа. Если крест расположен слева, вы должны установить максимальную скорость правостороннего мотора и установить левосторонний мотор на более низкие обороты, в соответствии с углом:"
+msgstr "Значение угла положительное, если Крест Синий расположен слева от Вас, и отрицательное, если он справа. Если крест расположен слева, Вы должны установить максимальную скорость правостороннего мотора и установить левосторонний мотор на более низкие обороты, в соответствии с углом:"
 
 #. type: Plain text
 #: ../help/help.E.txt:33
@@ -170,11 +164,11 @@ msgid ""
 "    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
 "    direction = <code>180</code> -> speed = <code>-1.0</code>"
 msgstr ""
-"    направлние = <code>  0</code> -> скорость = <code> 1.0</code>\n"
-"    направлние = <code> 45</code> -> скорость = <code> 0.5</code>\n"
-"    направлние = <code> 90</code> -> скорость = <code> 0.0</code>\n"
-"    направлние = <code>135</code> -> скорость = <code>-0.5</code>\n"
-"    направлние = <code>180</code> -> скорость = <code>-1.0</code>"
+"    направление = <code>  0</code> -> скорость = <code> 1.0</code>\n"
+"    направление = <code> 45</code> -> скорость = <code> 0.5</code>\n"
+"    направление = <code> 90</code> -> скорость = <code> 0.0</code>\n"
+"    направление = <code>135</code> -> скорость = <code>-0.5</code>\n"
+"    направление = <code>180</code> -> скорость = <code>-1.0</code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:39
@@ -192,7 +186,7 @@ msgstr "radar2"
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "If the cross is straight ahead, the angle is 0 degrees. The motors will get the speeds 1 and 1, which means full speed ahead. If the cross is behind, the right motor will be set to speed -1: it will turn around. You can use the <a cbot|expr>expression</a> <code>1+dir/90</code> in order to calculate the necessary speed of the motors:"
-msgstr "Если крест расположен прямо впереди, угол равен 0 градусов. Моторы будут работать на скорости 1 и 1, что означает полный вперед. Если крест сзади, правый мотор будет работать на скорости -1: бот развернется. Вы можете использовать <a cbot|expr>выражение</a> <code>1+dir/90</code> чтобы рассчитать необходимую скорость моторов:"
+msgstr "Если крест расположен прямо впереди, угол равен 0 градусов. Моторы будут работать на скорости 1 и 1, что означает полный вперёд. Если крест сзади, правый мотор будет работать на скорости -1: бот развернётся. Вы можете использовать <a cbot|expr>выражение</a> <code>1+dir/90</code> чтобы рассчитывать необходимую скорость моторов:"
 
 #. type: Source code
 #: ../help/help.E.txt:43
@@ -203,9 +197,9 @@ msgid ""
 "\tmotor(1, 1+dir/90);  // turns more or less\n"
 "}"
 msgstr ""
-"<c/>if ( dir < 0 )  // справа?\n"
+"<c/>if ( dir < 0 )  // на правой стороне?\n"
 "{\n"
-"\tmotor(1, 1+dir/90);  // поворачивает\n"
+"\tmotor(1, 1+dir/90);  // поворачивает более или менее\n"
 "}"
 
 #. type: Plain text
@@ -223,25 +217,31 @@ msgid ""
 "\t</code>up to you to fill in here...<c/>\n"
 "}"
 msgstr ""
-"<code>else  // слева?\n"
+"<code>else  // с левой стороны?\n"
 "{\n"
-"\t</code>здесь идет код, написанный вами...<c/>\n"
+"\t</code>здесь идёт код, написанный Вами...<c/>\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:54
 #, no-wrap
 msgid "At the beginning of the program, you must still declare all the variables. <code>spot</code> is of type <code><a cbot|object>object</a></code>, whereas <code>dir</code> is of type <code><a cbot|float>float</a></code>."
-msgstr "В самом начале программы вы должны задать переменные. <code>spot</code> относится к типу <code><a cbot|object>object</a></code>, а <code>dir</code> к типу <code><a cbot|float>float</a></code>."
+msgstr "В самом начале программы Вы должны объявить переменные. <code>spot</code> относится к типу <code><a cbot|object>object</a></code>, а <code>dir</code> к типу <code><a cbot|float>float</a></code>."
 
 #. type: \t; header
 #: ../help/help.E.txt:56
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:57
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Repeat forever:"
+msgstr "Повторять всегда:"
