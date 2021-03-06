@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 11:26+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Лабиринт 1"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Teach your bot how to find its way out of the labyrinth."
-msgstr "Научите своего бота находить выход из лабиринта."
+msgstr "Научите свой бот, как найти выход из лабиринта."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
-msgstr "Запрограммируйте бота так, чтобы он нашел себе путь и не столкнулся со стенами лабиринта. Мы предполагаем, что конфигурация лабаринта вам неизвестна, но там нет раздвоений и тупиков. Лабиринт состоит из квадратов размером 5 метров каждый."
+msgstr "Запрограммируйте бот так, чтобы он нашёл себе путь не сталкиваясь со стенами лабиринта. Мы предполагаем, что Вы не знаете конфигурацию лабиринта, но там нет разветвлений и тупиков. Лабиринт состоит из квадратов размером 5 метров каждый."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -56,7 +56,7 @@ msgstr "Инструкция <code>radar</code>"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will find any <a object|barrier>barrier</a> in front of the radar that is closer than 5m. Let us take a closer look at the five parameters used:"
-msgstr "Инструкция <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> будет искать любую <a object|barrier>преграду</a>, расположенную перед радаром на расстоянии менее 5 метров. Давайте поближе рассмотрим пять использующихся параметров:"
+msgstr "Инструкция <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> будет искать любой <a object|barrier>Барьер</a>, расположенный перед радаром на расстоянии менее 5 метров. Давайте поближе рассмотрим пять используемых параметров:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -68,7 +68,7 @@ msgstr "<code>Barrier</code>"
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<a cbot|category>Category</a> of the object that the radar must look for, i.e. a barrier."
-msgstr "<a cbot|category>Категория</a> объекта, который должен искать радар, то есть преграда."
+msgstr "<a cbot|category>Категория</a> объекта, который должен искать радар, т.е. Барьер."
 
 #. type: Source code
 #: ../help/help.E.txt:10 ../help/help.E.txt:16
@@ -80,7 +80,7 @@ msgstr "<code>0</code>"
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Direction of the radar. <code>0</code> means that the radar must search straight forward."
-msgstr "Направление радара. <code>0</code> означает, что радар должен искать ее прямо перед собой."
+msgstr "Направление радара. <code>0</code> означает, что радар должен искать прямо перед собой."
 
 #. type: Source code
 #: ../help/help.E.txt:13
@@ -92,13 +92,13 @@ msgstr "<code>45</code>"
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "Opening angle in degrees. With an opening angle of 45 degrees, barriers situated between 22.5 degrees to the left and 22.5 degrees to the right will be detected."
-msgstr "Открывающий угол в градусах. С открывающим углом в 45 градусов, будут замечены преграды, расположенные между 22.5 градусами влево 22.5 градусами вправо."
+msgstr "Открывающий угол в градусах. С открывающим углом в 45 градусов, будут замечены Барьеры расположенные между 22.5 градусами влево и 22.5 градусами вправо."
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "Minimum detection distance. <code>0</code> means that even object that are very close to the bot will be detected."
-msgstr "Минимальное расстояние обнаружения. <code>0</code> означает, что будут обнаружены даже те объекты, которые расположены вплотную к боту."
+msgstr "Минимальное расстояние обнаружения. <code>0</code> означает, что даже объект, расположенный вплотную к боту будет обнаружен."
 
 #. type: Source code
 #: ../help/help.E.txt:19
@@ -110,13 +110,13 @@ msgstr "<code>5</code>"
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "Maximum detection range. Any barrier situated beyond <code>5</code> meters will not be detected."
-msgstr "Максимальное расстояние обнаружения. Любая преграда, расположенная на расстоянии более <code>5</code> метров не будет обнаружена."
+msgstr "Максимальное расстояние обнаружения. Любой Барьер, расположенный более <code>5</code> метров не будет обнаружен."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> will direct the radar 90 degrees to the left, in order to test if the way to the left is free."
-msgstr "Чтобы привести еще один пример, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> направит радар на 90 градусов влево, чтобы проверить, нет ли слева прохода."
+msgstr "Приведём другой пример, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> направит радар на 90 градусов влево, чтобы проверить есть ли путь налево."
 
 #. type: Image filename
 #: ../help/help.E.txt:24
@@ -130,35 +130,29 @@ msgstr "tlaby1"
 msgid "General principle"
 msgstr "Общий принцип"
 
-#. type: Plain text
-#: ../help/help.E.txt:26
-#, no-wrap
-msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad."
-msgstr "Программа должна заниматься только одним участком лабиринта. Вы должны будете запустить ее несколько раз, чтобы добраться до финальной площадки."
-
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "If there is nothing in front, move forward."
-msgstr "Если впереди ничего нет, идти вперед."
+msgstr "Если впереди ничего нет, двигаться вперёд."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "If there is nothing on the left side, quarter turn left, move forward."
-msgstr "Если слева ничего нет, поворот на четверть оборота влево, идти вперед."
+msgstr "Если слева ничего нет, поворот на четверть оборота влево, двигаться вперёд."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "If there is nothing on the right side, quarter turn right, move forward."
-msgstr "Если справа ничего нет, поворот на четверть оборота вправо, идти вперед."
+msgstr "Если справа ничего нет, поворот на четверть оборота вправо, двигаться вперёд."
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "First of all declare three <a cbot|var>variables</a> of type <code><a cbot|object>object</a></code>, that we call <code>front</code>, <code>left</code> and <code>right</code>. Variables of this type can contain the description of any object, for example of a barrier found by the radar."
-msgstr "Сначала задайте три <a cbot|var>переменные</a> типа <code><a cbot|object>объект</a></code>, которые мы называем <code>front</code>, <code>left</code> и <code>right</code>. Переменные этого типа могут содержать описание любого объекта, например преграды, обнаруженной радаром."
+msgstr "Сначала объявите три <a cbot|var>переменные</a> типа <code><a cbot|object>объект</a></code>, которые мы назовём <code>front</code>, <code>left</code> и <code>right</code>. Переменные этого типа могут содержать описание любого объекта, например Барьера, обнаруженного радаром."
 
 #. type: Source code
 #: ../help/help.E.txt:32
@@ -170,7 +164,7 @@ msgstr "<c/>\tobject   front, left, right;<n/>"
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "Look for barriers in all three directions, and put the result of the <code>radar</code> instruction into the three variables defined at point 1). If the radar finds nothing, the variable will contain the value <code><a cbot|null>null</a></code>."
-msgstr "Искать преграды во всех трех направлениях, и выводить результат инструкции <code>radar</code> в три переменные, заданные в пункте 1). Если радар не найдет ничего, переменная будет содержать значение <code><a cbot|null>null</a></code>."
+msgstr "Искать преграды во всех трёх направлениях, и помещать результат инструкции <code>radar</code> в три переменные, объявленные в пункте 1). Если радар ничего не найдет, переменная будет содержать значение <code><a cbot|null>null</a></code>."
 
 #. type: Source code
 #: ../help/help.E.txt:35
@@ -188,13 +182,13 @@ msgstr ""
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "Test if the way is free in front of the bot with the instruction <code><a cbot|if>if</a></code>. If the test is true, the instructions in braces <code>{ }</code> will be executed, otherwise the execution will resume after the closing brace <code>}</code>."
-msgstr "Проверка наличия свободного пространства перед ботом с помощью инструкции <code><a cbot|if>if</a></code>. Если проверка истинна, будет выполнена инструкция, заключенная в скобках <code>{ }</code> , иначе продолжится выполнение кода после закрывающей скобки <code>}</code>."
+msgstr "Проверка если путь свободен перед ботом с помощью инструкции <code><a cbot|if>if</a></code>. Если проверка истинна, инструкции в скобках <code>{ }</code> будут выполнены, в противном случае продолжится выполнение после закрывающей скобки <code>}</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "The instruction <code>return</code> leaves the program: the job is done."
-msgstr "Инструкция <code>return</code> прводит к остановке программы: работа выполнена."
+msgstr "Инструкция <code>return</code> завершает программу: работа выполнена."
 
 #. type: Source code
 #: ../help/help.E.txt:41
@@ -216,7 +210,7 @@ msgstr ""
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "Test if it is possible to turn left; if so, turn left with the instruction <code><a cbot|turn>turn</a></code> and move 5m forward."
-msgstr "Проверка возможности повернуть влево; если так, проводится поворот влево инструкцией <code><a cbot|turn>turn</a></code> и бот идет 5 метров вперед."
+msgstr "Проверка возможности повернуть влево; если это так, поворот налево с помощью инструкции <code><a cbot|turn>turn</a></code> и двигаться 5 метров вперёд."
 
 #. type: Source code
 #: ../help/help.E.txt:48
@@ -264,10 +258,16 @@ msgstr "Инструкция <code>if ( )</code> не должна заканч�
 #: ../help/help.E.txt:61
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:62
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad."
+msgstr "Программа должна заниматься только одним участком лабиринта. Вы должны будете выполнить её несколько раз, чтобы добраться до финишной площадки."

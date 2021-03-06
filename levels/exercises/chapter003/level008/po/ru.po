@@ -2,31 +2,31 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 11:30+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "The gold digger"
-msgstr "Золотоискатель"
+msgstr "Золото копатель"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Instruct your bot to search a zone for subsoil resources."
-msgstr "Прикажите своему боту исследовать местность в поисках полезных ископаемых."
+msgstr "Прикажите своему боту исследовать зону на месторождения."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Search the whole zone inside the barriers with the <a object|botsr>sniffer bot</a> for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross."
-msgstr "Обыщите всю территорию между барьерами, используя <a object|botsr>проверочного бота</a> в поисках подходящего места для постройки деррика. Когда бот простукивает землю и находит подходящее для деррика место, он обозначит это место красным крестом."
+msgstr "Исследуйте зону внутри барьеров, используя <a object|botsr>Бот Разведчик</a> для подходящего места под Вышку. Когда бот сканирует землю и находит подходящее место под Вышку, он помечает его Крестом Красным."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -56,7 +56,7 @@ msgstr "Описание"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters."
-msgstr "Зона между барьерами имеет площадь 25 квадратных метров. Наиболее эффективно будет проверять каждые 5 метров."
+msgstr "Зона внутри барьеров составляет 25 квадратных метров. Самый эффективный способ - проверить каждые 5 метров."
 
 #. type: Image filename
 #: ../help/help.E.txt:7
@@ -68,7 +68,7 @@ msgstr "sniff1"
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops one into another:"
-msgstr "Лучший способ достичь этого - вложить два цикла <code><a cbot|for>for</a></code> один в другой:"
+msgstr "Один из способов достичь этого - вложить два цикла <code><a cbot|for>for</a></code> один в другой:"
 
 #. type: Source code
 #: ../help/help.E.txt:10
@@ -91,12 +91,12 @@ msgstr ""
 "{\n"
 "\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
 "\t{\n"
-"\t\t<n/>зондирование почвы<code>\n"
-"\t\t</code>перейти на 5 метров вперед<code>\n"
+"\t\t<n/>сканировать землю<code>\n"
+"\t\t</code>перейти на 5 метров вперёд<code>\n"
 "\t}\n"
-"\t</code>зондирование почвы<code>\n"
+"\t</code>сканировать землю<code>\n"
 "\t</code>четверть оборота влево<code>\n"
-"\t</code>перейти на 5 метров вперед<code>\n"
+"\t</code>перейти на 5 метров вперёд<code>\n"
 "\t</code>четверть оборота вправо<c/>\n"
 "}"
 
@@ -109,8 +109,8 @@ msgid ""
 "The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the division of <code>y</code> by <code>2</code>. For example, if <code>y=3</code>, the expression returns <code>1</code>.\n"
 "The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
 msgstr ""
-"Эта программа хорошо работает только в начале. После первой линии бот поворачивает точно налево и исследует второю линию. Но после второй линии он должен свернуть вправо!\n"
-"Вы заметите, что если <code>y</code> четное, бот должен повернуть налево, а если <code>y</code> нечетное, бот должен повернуть направо.\n"
+"Эта программа хорошо работает только в начале. После первой линии бот поворачивает точно налево и сканирует второю линию. Но после второй линии он должен свернуть вправо!\n"
+"Вы заметите, что если <code>y</code> чётное, бот должен повернуть налево, а если <code>y</code> нечётное, бот должен повернуть направо.\n"
 "<a cbot|expr>Выражение</a> <code>y%2</code> возвращает остаток от деления <code>y</code> на <code>2</code>. например, если <code>y=3</code>, выражение возвращает <code>1</code>.\n"
 "Проверьте <code><a cbot|if>if</a> { }</code> может следовать за <code>else { }</code>. Если проверка истинная, будет выполнен первый <a cbot|bloc>блок</a> <code>{ }</code>. Иначе будет выполнен второй блок <code>{ }</code>."
 
@@ -140,7 +140,7 @@ msgstr ""
 #: ../help/help.E.txt:37
 #, no-wrap
 msgid "It is up to you to finish the program."
-msgstr "Теперь вы должны сами закончить программу."
+msgstr "Теперь Вы должны сами закончить эту программу."
 
 #. type: \b; header
 #: ../help/help.E.txt:39
@@ -152,13 +152,13 @@ msgstr "Комментарий"
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a cbot|turn>turn</a>( )</code> to move the bot."
-msgstr "Используйте инструкцию <code><a cbot|sniff>sniff</a>( )</code> чтобы простукать почву, и <code><a cbot|move>move</a>( )</code> и <code><a cbot|turn>turn</a>( )</code> чтобы перемещать бота."
+msgstr "Используйте инструкцию <code><a cbot|sniff>sniff</a>( )</code> чтобы сканировать землю, и <code><a cbot|move>move</a>( )</code> и <code><a cbot|turn>turn</a>( )</code> чтобы передвинуть бот."
 
 #. type: \t; header
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:43

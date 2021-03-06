@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 11:11+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Следуйте по тропе"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Move the bot along a given path."
-msgstr "Ведите бота по указанному пути."
+msgstr "Проведите бот по указанному пути."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Program the robot in such a way that it arrives on the finishing pad, after having passed by the three blue crosses."
-msgstr "Запрограммируйте бота таким образом, чтобы он прибыл на финишную площадку после того, как пройдет три синих креста."
+msgstr "Запрограммируйте бот таким образом, чтобы он прибыл на финишную площадку после того, как пройдёт три синих креста."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -56,25 +56,25 @@ msgstr "Процедура"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Take the power cell and put it on the rear of the bot."
-msgstr "Взять батарею и разместить ее в задней части бота."
+msgstr "Взять Батарею и вставить её в задней части бота."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Walk around on reconnaissance to understand what the bot must do. "
-msgstr "Произвести разведку, чтобы понять то, что должен сделать бот."
+msgstr "Прогуляйтесь вокруг для разведки, чтобы понять, что должен сделать бот. "
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Program the bot. To do so, you must select it, and then click on the braces button <button 22/>; you will get into the program editor."
-msgstr "Запрограммируйте бота. Чтобы сделать это, вы должны выбрать его и щелкнуть на кнопке скобок <button 22/>; и вы окажетесь в редакторе программы."
+msgstr "Запрограммируйте бот. Чтобы сделать это, Вы должны выбрать его и нажать кнопку скобок <button 22/>; Вы попадёте в редактор программ."
 
 #. type: Bullet: '4)'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Once you finished writing the program, click \"OK\", and execute the program with the arrow key <button 21/>."
-msgstr "После того, как вы закончите писать программу, нажмите \"OK\" и запустите программу, нажав кнопку со стрелкой <button 21/>."
+msgstr "После того, как Вы закончите писать программу, нажмите \"OK\" и запустите программу, нажав кнопку со стрелкой <button 21/>."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
@@ -92,15 +92,15 @@ msgid ""
 "The instruction <c/>turn(-90);<n/> turns right with an angle of 90 degrees. "
 msgstr ""
 "Площадки расположены на расстоянии 20 метров друг от друга.\n"
-"Инструкция <c/>move(20);<n/> перемещает на 20 метров вперед.\n"
-"Инструкция <c/>turn(90);<n/> разворачивает влево на угол в 90 градусов.\n"
-"Инструкция <c/>turn(-90);<n/> разворачивает вправо на угол в 90 градусов."
+"Инструкция <c/>move(20);<n/> передвигает на 20 метров вперёд.\n"
+"Инструкция <c/>turn(90);<n/> поворачивает влево на угол в 90 градусов.\n"
+"Инструкция <c/>turn(-90);<n/> поворачивает вправо на угол в 90 градусов. "
 
 #. type: Plain text
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "The frame of the program consists in:"
-msgstr "Фрейм программы заключается в:"
+msgstr "Рамки программы заключается в:"
 
 #. type: Source code
 #: ../help/help.E.txt:18
@@ -113,14 +113,14 @@ msgid ""
 msgstr ""
 "\textern void object::MoveBot( )\n"
 "\t{\n"
-"\t\t<n/>\\\\write the necessary instructions here ...<c/>\n"
+"\t\t<n/>\\\\Напишите необходимые инструкции здесь ...<c/>\n"
 "\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "For now, you must not change the frame of the program. Just insert the instructions you need to move the bot around between the braces <code>{ }</code>."
-msgstr "Вы не должны изменять фрейм программы. Просто вставьте сюда инструкции, которые вам необходимы для перемещения бота в кавычках <code>{ }</code>."
+msgstr "Вы не должны изменять рамки программы. Просто вставьте инструкции необходимые для передвижения бота в скобки <code>{ }</code>."
 
 #. type: \b; header
 #: ../help/help.E.txt:25
@@ -136,7 +136,7 @@ msgid ""
 "Every instruction must be terminated with a semicolon. "
 msgstr ""
 "Будьте очень внимательны с символами в верхнем и нижнем регистре!\n"
-"Каждая инструкция должна заканчиваться точкой с запятой."
+"Каждая инструкция должна заканчиваться точкой с запятой. "
 
 #. type: \b; header
 #: ../help/help.E.txt:29
@@ -148,13 +148,13 @@ msgstr "Полезные подсказки"
 #: ../help/help.E.txt:30
 #, no-wrap
 msgid "When you write the program, you can watch the scene by clicking on the button <Reduce> <button 51/>, and by moving the mouse to the edges of the window to turn the camera. "
-msgstr "Когда вы пишите программу, вы можете просмотреть сцену, нажав клавишу <Уменьшить> <button 51/>, и подводя мышь к краям окна, чтобы повернуть камеру."
+msgstr "Когда Вы пишите программу, Вы можете осмотреть сцену, нажав кнопку <Reduce> <button 51/>, и подводя мышь к краям окна, чтобы повернуть камеру. "
 
 #. type: \t; header
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:33

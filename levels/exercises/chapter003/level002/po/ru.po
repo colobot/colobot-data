@@ -2,31 +2,31 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 11:14+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Follow with variables"
-msgstr "За переменными"
+msgstr "Следуйте с переменными"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use variables in order to store the parameters of the path."
-msgstr "С помощью переменных сохраните параметры пути."
+msgstr "Используйте переменные, чтобы хранить параметры пути."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -47,8 +47,8 @@ msgid ""
 "This exercise is very similar to the previous one. The bot must move exactly in the same way, but when writing the program, you must use a new concept that is extremely important in programming: <a cbot|var>variables</a>.\n"
 "We saw that all the pads are at a distance form each other of 20 meters. And all the rotations performed consist in 90 degree angles. Instead of rewriting the same values over and over again in the program, we can store them in a variable: "
 msgstr ""
-"Это упражнение очень напоминает предыдущее. Бот должен делать то же самое. Но когда вы будете писать программу, то должны использовать новый принцип, который очень важен для программиста: <a cbot|var>переменные</a>.\n"
-"Мы видели, что все площадки расположены на расстоянии 20 метров друг от друга. А все углы поворота имели значение 90 градусов. Вместо того, чтобы каждый раз вводить одни и те же значения, мы можем сохранить их в переменной:"
+"Это упражнение очень напоминает предыдущее. Бот должен двигаться точно так же, но при написании программы Вы должны использовать новую концепцию, которая чрезвычайно важна в программировании: <a cbot|var>переменные</a>.\n"
+"Мы видели, что все площадки расположены на расстоянии 20 метров друг от друга. А все углы поворота имели значение 90 градусов. Вместо того, чтобы переписывать те же значения снова и снова, мы можем хранить их в переменной: "
 
 #. type: Plain text
 #: ../help/help.E.txt:5
@@ -108,17 +108,11 @@ msgstr ""
 msgid "Variables"
 msgstr "Переменные"
 
-#. type: Plain text
-#: ../help/help.E.txt:22
-#, no-wrap
-msgid "A <a cbot|var>variable</a> is composed of three elements: "
-msgstr "<a cbot|var>Переменная</a> состоит из трех элементов:"
-
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "The name,"
-msgstr "Имя,"
+msgstr "Название,"
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:24
@@ -136,25 +130,19 @@ msgstr "Содержание."
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "The name"
-msgstr "Имя"
+msgstr "Название"
 
 #. type: Plain text
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "Use the name to refer to a variable. For example, instead of writing <c/>move(20);<n/>, write <c/>move(dist);<n/>: \"dist\" is the name of the variable. You can choose almost any name for a variable, for example <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, etc."
-msgstr "Используйте имя, чтобы обращаться к переменной. Например, вместо того, чтобы писать <c/>move(20);<n/>, напишите <c/>move(dist);<n/>: \"dist\"  - это имя переменной. Для переменных вы можете выбирать любое имя, например <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, и т.п."
+msgstr "Используйте название, чтобы обращаться к переменной. Например, вместо того, чтобы писать <c/>move(20);<n/>, напишите <c/>move(dist);<n/>: \"dist\"  - это название переменной. Для переменных Вы можете выбирать любое название, например <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, и т.д."
 
 #. type: \t; header
 #: ../help/help.E.txt:30
 #, no-wrap
 msgid "The type"
 msgstr "Тип"
-
-#. type: Plain text
-#: ../help/help.E.txt:31
-#, no-wrap
-msgid "The type of a variable determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a character string, the coordinates of a point, etc. Here is a list with the most common variable types: "
-msgstr "Тип переменной определяет то, какой тип информации содержится в переменной. Согласно типу, переменная может содержать целое число, вещественное число, строку символов, координаты точки и т.п. Вот список часто употребляемых переменных:"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:32
@@ -166,7 +154,7 @@ msgstr "<code><a cbot|int>int</a></code> для целого числа (12, -50
 #: ../help/help.E.txt:33
 #, no-wrap
 msgid "<code><a cbot|float>float</a></code> for a real number (3.14, 0.2, -99.98, etc.)"
-msgstr "<code><a cbot|float>float</a></code> для вещественного числа (3.14, 0.2, -99.98, и т.д.)"
+msgstr "<code><a cbot|float>float</a></code> для действительного числа (3.14, 0.2, -99.98, и т.д.)"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:34
@@ -184,7 +172,7 @@ msgstr "<code><a cbot|point>point</a></code> для координат точк�
 #: ../help/help.E.txt:36
 #, no-wrap
 msgid "<code><a cbot|object>object</a></code> for the information about an object (bot, building, etc.) "
-msgstr "<code><a cbot|object>object</a></code> для информации об объекте (бот, здание, и т.д.)"
+msgstr "<code><a cbot|object>object</a></code> для информации об объекте (бот, здание, и т.д.) "
 
 #. type: \t; header
 #: ../help/help.E.txt:38
@@ -196,13 +184,13 @@ msgstr "Содержание"
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "The content of a variable can be a number, a string, coordinates, etc., according to the type of the variable. The content of a variable can change many times during the execution of a program. "
-msgstr "Содержание переменной может быть числом, строкой, координатами и т.п., согласно типу переменной. Содержание переменной может изменяться много раз во время выполнения программы."
+msgstr "Содержание переменной может быть числом, строкой, координатами и т.д., согласно типу переменной. Содержание переменной может изменяться много раз во время выполнения программы. "
 
 #. type: Plain text
 #: ../help/help.E.txt:41
 #, no-wrap
 msgid "Before you can use a variable, you have to declare it. For example, before you can use the two variables <code>dist</code> and <code>dir</code>, you must declare them with the following lines: "
-msgstr "Перед тем, как использовать переменную, вы должны задать ее. Например, перед тем, как вы сможете использовать две переменные <code>dist</code> и <code>dir</code>, вы должны задать их с помощью следующих строк:"
+msgstr "Перед тем, как использовать переменную, Вы должны объявить её. Например, перед тем, как Вы сможете использовать две переменные <code>dist</code> и <code>dir</code>, Вы должны объявить их с помощью следующих строк: "
 
 #. type: Source code
 #: ../help/help.E.txt:43
@@ -218,7 +206,7 @@ msgstr ""
 #: ../help/help.E.txt:46
 #, no-wrap
 msgid "Now you can use the two variables. To put the value 20 into <code>dist</code> and 90 into <code>dir</code>, write:"
-msgstr "Теперь вы можете использовать эти две переменные. Чтобы придать значение 20  <code>dist</code> и 90 <code>dir</code>, напишите:"
+msgstr "Теперь Вы можете использовать эти две переменные. Чтобы присвоить значение 20 <code>dist</code> и 90 <code>dir</code>, напишите:"
 
 #. type: Source code
 #: ../help/help.E.txt:48
@@ -234,7 +222,7 @@ msgstr ""
 #: ../help/help.E.txt:51
 #, no-wrap
 msgid "Now you can move and turn the bot with the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</code></a>:"
-msgstr "Теперь вы можете перемещать и поворачивать бота инструкциями <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</code></a>:"
+msgstr "Теперь Вы можете передвигать и поворачивать бот инструкциями <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</code></a>:"
 
 #. type: Source code
 #: ../help/help.E.txt:53
@@ -250,7 +238,7 @@ msgstr ""
 #: ../help/help.E.txt:56
 #, no-wrap
 msgid "You can also use a whole <a cbot|expr>mathematical expression</a> instead of just the variable:"
-msgstr "Вы также можете использовать  целое <a cbot|expr>маетматическое выражение</a> вместо переменной:"
+msgstr "Вы также можете использовать целое <a cbot|expr>математическое выражение</a> вместо переменной:"
 
 #. type: Source code
 #: ../help/help.E.txt:58
@@ -266,22 +254,34 @@ msgstr ""
 #: ../help/help.E.txt:61
 #, no-wrap
 msgid "The latter instruction will be needed to turn the bot right. "
-msgstr "ПОследняя инструкция необходима для того, чтобы повернуть бота вправо."
+msgstr "Крайняя инструкция необходима, чтобы повернуть бот вправо. "
 
 #. type: Plain text
 #: ../help/help.E.txt:63
 #, no-wrap
 msgid "Now, rewrite the program of the previous exercise, but use a variable for the distance and another variable for the angle of the rotation. "
-msgstr "Теперь перепишиет программу из предыдущего упражнения с использованием переменных дистанции и еще одной переменной для задания угла поворота."
+msgstr "Теперь перепишите программу из предыдущего упражнения с использованием переменной дистанции и другой переменной для задания угла поворота. "
 
 #. type: \t; header
 #: ../help/help.E.txt:65
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:66
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "A <a cbot|var>variable</a> is composed of three elements: "
+msgstr "<a cbot|var>Переменная</a> состоит из трёх элементов: "
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "The type of a variable determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a character string, the coordinates of a point, etc. Here is a list with the most common variable types: "
+msgstr "Тип переменной определяет, какую информацию сможет содержать переменная. Согласно типу, переменная может содержать целое число, действительное число, строку символов, координаты точки и т.д. Вот список наиболее распространённых типов переменных: "

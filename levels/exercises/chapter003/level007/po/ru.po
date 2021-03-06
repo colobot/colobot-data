@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-06 11:29+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Лабиринт 2"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Teach your bot to do the same job in a more autonomous way."
-msgstr "Научите своего бота делать ту же работу в автономном режиме."
+msgstr "Научите свой бот делать ту же работу в автономном режиме."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "This exercise is very similar to the previous one. This time the bot should find its way alone from the start to the goal; you will have to execute the program only once."
-msgstr "Это упражнение очень напоминает предыдущее упражнение. В этот раз бот должен сам найти этот путь со стартовой точки и до финиша; вы должны будете запустить программу только один раз."
+msgstr "Это упражнение очень похоже на предыдущее. В этот раз бот должен сам найти этот путь от старта до финиша; Вам придётся запустить программу только один раз."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -74,7 +74,7 @@ msgstr "Общий принцип"
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Use an infinite <code><a cbot|while>while</a></code> loop in order to execute the previous program several times:"
-msgstr "Используйте бесконечный цикл <code><a cbot|while>while</a></code>, чтобы выполнять предыдущую несколько раз:"
+msgstr "Используйте бесконечный цикл <code><a cbot|while>while</a></code>, чтобы выполнить предыдущую программу несколько раз:"
 
 #. type: Source code
 #: ../help/help.E.txt:10
@@ -89,16 +89,16 @@ msgid ""
 msgstr ""
 "<code>while ( true )\n"
 "{\n"
-"\t</code>Если спереди нет ничего, идти вперед<code>\n"
+"\t</code>Если впереди ничего нет, двигаться вперёд<code>\n"
 "\t</code>Если слева ничего нет, повернуть налево<code>\n"
-"\t</code>Если саправа ничего нет, повернуть направо<c/>\n"
+"\t</code>Если справа ничего нет, повернуть направо<c/>\n"
 "}"
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "Inside this <code>while</code> loop, replace the <code>return</code> instructions by <code><a cbot|continue>continue</a></code> instructions. <code>return</code> would quit the program, which is not what we want here. <code>continue</code> will just resume the execution at the beginning of the <code><a cbot|while>while</a></code> loop:"
-msgstr "Внутри цикла <code>while</code> замените инструкции <code>return</code> на инструкции <code><a cbot|continue>continue</a></code>. <code>return</code> приведет к выходу из программы, что не совсем то, что нам нужно. <code>continue</code> просто продолжит выполнение программы с самого начала цикла <code><a cbot|while>while</a></code>:"
+msgstr "Внутри цикла <code>while</code> замените инструкцию <code>return</code> на инструкцию <code><a cbot|continue>continue</a></code>. <code>return</code> приведёт к выходу из программы, что не совсем то, что нам нужно. <code>continue</code> просто продолжит выполнение программы с самого начала цикла <code><a cbot|while>while</a></code>:"
 
 #. type: Source code
 #: ../help/help.E.txt:18
@@ -120,7 +120,7 @@ msgstr ""
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "Remember"
-msgstr "Помните"
+msgstr "Запомните"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
@@ -190,13 +190,13 @@ msgstr "Помощь"
 #: ../help/help.E.txt:52
 #, no-wrap
 msgid "If you need some help, just click on the hyperlinks of the instructions <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> or <code><a cbot|turn>turn</a></code>."
-msgstr "Если вам понадобится помощь, шелкните на гиперлинке инструкций <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> или <code><a cbot|turn>turn</a></code>."
+msgstr "Если вам понадобится помощь, нажмите на гиперссылку инструкции <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> или <code><a cbot|turn>turn</a></code>."
 
 #. type: \t; header
 #: ../help/help.E.txt:54
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:55
