@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 13:11+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Функция"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Create a function in order to make your program shorter."
-msgstr "Создайте функцию чтобы запрограммировать стрелка."
+msgstr "Создайте функцию, чтобы сделать вашу программу короче."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
-msgstr "<a object|bottr>Бот</a> должен пройти через все <a object|waypoint>синие кресты</a> на земле. Путь, который следует преодолеть, состоит из двух квадратов. Первый - 15 метров, второй - 25 метров."
+msgstr "<a object|bottr>Бот</a> должен пройти через все <a object|waypoint>Кресты Синие</a> на земле. Путь, который следует преодолеть, состоит из двух квадратов. Первый размером 15 метров, второй 25 метров."
 
 #. type: Image filename
 #: ../help/help.E.txt:4
@@ -62,7 +62,7 @@ msgstr "Общий принцип"
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
-msgstr "Чтобы решить эту задачу, вы должны создать функцию, которая приказывает боту двигаться по квадрату с указанной стороной. Поэтому основная программа оказывается очень простой:<c/>"
+msgstr "Для решения этой проблемы наиболее простым является создание <a cbot|function>функции</a>, которая приказывает боту передвигаться по квадрату определённого размера. Главная программа становится очень простой:<c/>"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -84,7 +84,7 @@ msgstr ""
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "You still have to define the function called <code>Square</code>. In order to do this, you will have to write some instructions outside the <a cbot|bloc>block</a> that until now was the frame of each one of your programs. At the very end of the program, after the last closing brace, we will define the function <code>Square</code>. The program will take the following shape:"
-msgstr "Вам все еще нужно определить функцию, которая называется <code>Square</code>. Чтобы это сделать, вы должны написать несколько инструкций, вне <a cbot|bloc>блока</a> , которые до этого времени были фреймом каждой из ваших программ. В самом конце программы после последней закрывающей скобки мы определим функцию <code>Square</code>. Тогда программа примет следующий вид:"
+msgstr "Вам необходимо объявить функцию под названием <code>Square</code>. Для этого Вам нужно написать некоторые инструкции вне <a cbot|bloc>блока</a>, который был рамками каждой вашей программы. В самом конце программы после последней закрывающей скобки, мы объявим функцию <code>Square</code>. Программа примет следующий вид:"
 
 #. type: Source code
 #: ../help/help.E.txt:15
@@ -114,7 +114,7 @@ msgstr ""
 #: ../help/help.E.txt:25
 #, no-wrap
 msgid "Let us look in detail at the different elements of the declaration of the function <code>Square</code>:"
-msgstr "Теперь давайте детально разберем различные элементы задания функции <code>Square</code>:"
+msgstr "Давайте подробно рассмотрим различные элементы объявления функции <code>Square</code>:"
 
 #. type: Plain text
 #: ../help/help.E.txt:27
@@ -124,7 +124,7 @@ msgid ""
 "This means that this function will return no value."
 msgstr ""
 "<code><a cbot|void>void</a></code>\n"
-"Это значит, что эта функция не будет возвращать значение."
+"Это значит, что функция не будет возвращать значение."
 
 #. type: Plain text
 #: ../help/help.E.txt:30
@@ -134,7 +134,7 @@ msgid ""
 "When you write this in front of the function name, you can have access in the function to all the characteristics of the bot, such as <code>position</code>, <code>orientation</code>, etc. In this exercise, this element is not compulsory, as we will not need the characteristics of the bot in the function."
 msgstr ""
 "<code><a cbot|object>object</a>::</code>\n"
-"Если вы напишите это перед именем функции, то сможете с ее помощью получить доступ ко всем характеристикам бота, таким как <code>позиция</code>, <code>ориентация</code>, и т.п. В этом упражнении этот элемент не обязателен, так как нам для функции характеристики ботов не нужны."
+"Если Вы напишите это перед названием функции, Вы получаете доступ в функции ко всем характеристикам бота, таким как <code>position</code>, <code>orientation</code>, и т.д. В этом упражнении этот элемент не обязателен, так как нам не понадобятся характеристики бота в функции."
 
 #. type: Plain text
 #: ../help/help.E.txt:33
@@ -144,7 +144,7 @@ msgid ""
 "This is the name of the function. You can call it Square, or any other name."
 msgstr ""
 "<code>Square (  )</code>\n"
-"Это имя функции. Вы можете назвать ее Square, или дать любое другое имя."
+"Это название функции. Вы можете назвать её Square, или любым другим названием."
 
 #. type: Plain text
 #: ../help/help.E.txt:36
@@ -154,25 +154,19 @@ msgid ""
 "Here you define the parameters that the function will get when it is called. The first time the function is actually called with <code>Square(15)</code>, the variable <code>length</code> will contain the value <code>15</code>. The second time, <code>length</code> will contain <code>25</code>."
 msgstr ""
 "<code><a cbot|float>float</a> length</code>\n"
-"Здесь вы задаете параметры, которые получит функция после того как функция будет вызвана. При первом вызове функции с помощью <code>Square(15)</code>, переменная <code>length</code> будет содержать значение <code>15</code>. При втором вызове, <code>length</code> будет <code>25</code>."
-
-#. type: Plain text
-#: ../help/help.E.txt:39
-#, no-wrap
-msgid "Here is in detail what will happen when the program is executed:"
-msgstr "Вот детальное описание того, что произойдет после запуска программы:"
+"Здесь Вы определяете параметры, которые получит функция при вызове. При первом вызове функции с помощью <code>Square(15)</code>, переменная <code>length</code> будет содержать значение <code>15</code>. При втором вызове, <code>length</code> будет содержать <code>25</code>."
 
 #. type: Bullet: '-'
 #: ../help/help.E.txt:40
 #, no-wrap
 msgid "First the main function <code>Function</code> will be executed."
-msgstr "Сначала будет запущена главная функция <code>Function</code>."
+msgstr "Сначала будет выполнена главная функция <code>Function</code>."
 
 #. type: Bullet: '-'
 #: ../help/help.E.txt:41
 #, no-wrap
 msgid "At the line <code>Square(15)</code>, the program will follow the red arrow and enter the function <code>Square</code> a first time, <code>length</code> containing <code>15</code>."
-msgstr "В строке <code>Square(15)</code> программа будет следовать за красной стрелкой и перейдет в функцию <code>Square</code> в первый раз, <code>length</code> содержит <code>15</code>."
+msgstr "В строке <code>Square(15)</code> программа будет следовать за красной стрелкой и входит в функцию <code>Square</code> в первый раз, <code>length</code> содержит <code>15</code>."
 
 #. type: Bullet: '-'
 #: ../help/help.E.txt:42
@@ -184,7 +178,7 @@ msgstr "При завершении функции <code>Square</code> прог�
 #: ../help/help.E.txt:43
 #, no-wrap
 msgid "At the line <code>Square(25)</code>, the program will follow the blue arrow and enter the function <code>Square</code> a second time."
-msgstr "В строке <code>Square(25)</code> программа следует за синей стрелкой и переходит в функцию <code>Square</code> во второй раз."
+msgstr "В строке <code>Square(25)</code> программа следует за синей стрелкой и входит в функцию <code>Square</code> во второй раз."
 
 #. type: Bullet: '-'
 #: ../help/help.E.txt:44
@@ -202,7 +196,7 @@ msgstr "tproc1b"
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "In the function <code>Square</code>, use the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code>. In order to make it shorter, you can use a <code><a cbot|for>for</a></code> loop, that will repeat the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</a></code> 4 times; however, this is not compulsory."
-msgstr "В функции <code>Square</code> используйте инструкции <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</a></code>. Чтобы сделать ее покороче, вы можете использовать цикл <code><a cbot|for>for</a></code>, который повторит инструкции <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</a></code> 4 раза; но это не обязательно."
+msgstr "В функции <code>Square</code> используйте инструкции <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</a></code>. Чтобы сделать её короче, Вы можете использовать цикл <code><a cbot|for>for</a></code>, который повторит инструкции <code><a cbot|move>move</a></code> и <code><a cbot|turn>turn</a></code> 4 раза; но это не обязательно."
 
 #. type: Source code
 #: ../help/help.E.txt:49
@@ -230,10 +224,16 @@ msgstr ""
 #: ../help/help.E.txt:58
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:59
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "Here is in detail what will happen when the program is executed:"
+msgstr "Вот подробное описание того, что произойдёт при выполнении программы:"

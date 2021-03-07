@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 13:20+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +26,7 @@ msgstr "Дистанционное управление #2"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Remote control a robot using an information exchange post, so it will pass over the 6 blue waypoints."
-msgstr "Написать программу для бота так, чтобы он проехаться по 6 синим отметкам, используя для этого пост обмена информацией как пульт дистанционного управления."
+msgstr "Дистанционное управление ботом используя Пункт Обмена Информацией, чтобы он прошёл по 6 синим точкам."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -47,26 +47,26 @@ msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will pass over the 6 blue waypoints.\n"
 "The main actors of this exercise are:"
 msgstr ""
-"Написать программу для бота так, чтобы он проехаться по 6 синим отметкам, используя для этого <a object|exchange>пост обмена информацией</a> как пульт дистанционного управления.\n"
-"Что потребуется:"
+"Дистанционное управление ботом используя <a object|exchange>Пункт Обмена Информацией</a>, чтобы он прошёл по 6 синим точкам.\n"
+"Основные составляющие этого упражнения:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "A <a object|botgr>wheeled grabber</a> robot without an energy cell. This is the master you have to program."
-msgstr "<a object|botgr>Колесный сборщик</a> без батареи."
+msgstr "<a object|botgr>Погрузчик Колёсный</a> без Батареи. Это ведущий, который Вам нужно запрограммировать."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "An <a object|exchange>information exchange post</a> that receives information from the master and then transmits it to the slave."
-msgstr "<a object|exchange>Пост обмена информацией</a> - для приема и передачи информации."
+msgstr "<a object|exchange>Пункт Обмена Информацией</a>, который получает информацию от ведущего, а затем передает её ведомому."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "A <a object|bottr>practice bot</a> which waits for orders from the exchange post. This robot has already been programmed."
-msgstr "<a object|bottr>Тренировочный бот</a>, который будет ждать комманды от поста. Бот уже заранее запрограммирован."
+msgstr "<a object|bottr>Бот Учебный</a>, который ждёт приказы из Пункта Обмена Информацией. Этот бот уже запрограммирован."
 
 #. type: Image filename
 #: ../help/help.E.txt:9
@@ -78,19 +78,19 @@ msgstr "tremot2a"
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use two couples:"
-msgstr "Пост обмена информацией хранит данные в виде \"name/value\"(имя/значение) только парами. Для управления ботом нам потребуется две таких пары :"
+msgstr "Пункт Обмена Информацией хранит пары \"name/value\". Для управления \"ведомым\" ботом, мы используем только одну пару:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "name=\"order\", value=order number"
-msgstr ""
+msgstr "name=\"order\", value=order число"
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "nom=\"param\", valuer=parameter  for the operation"
-msgstr ""
+msgstr "nom=\"param\", valuer=parameter  для приказа"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
@@ -99,8 +99,8 @@ msgid ""
 "Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // order \"move\""
 msgstr ""
-"Параметр #1 будет \"двигать\", а параметр #2 будет \"поворачивать\". Параметром(#2) будут являться расстояние или угол поворота. Для примера продвинемся на 20 метров вперед:\n"
-"<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // даем команду \"двигаться\""
+"Приказ  #1 будет \"move\", а приказ #2 будет \"turn\". Параметром являться расстояние или угол поворота. Например, чтобы ведомый передвинулся 20 метров напишите:\n"
+"<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // приказ \"move\""
 
 #. type: Source code
 #: ../help/help.E.txt:17
@@ -116,7 +116,7 @@ msgid ""
 "<c/>    order=1\n"
 "    param=20"
 msgstr ""
-"Эти две инструкции необходимо передать на пост последними:\n"
+"Эти две инструкции отправляют 2 части информации в Пункт Обмена Информацией:\n"
 "<c/>    order=1\n"
 "    param=20"
 
@@ -127,9 +127,8 @@ msgid ""
 "The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write:\n"
 "<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait for end of work"
 msgstr ""
-"Бот получает информацию и выполняет программу. Как только данные были получены, он удаляется от поста. После того, как программа начала выполняться главный бот будет ждать, пока управляемый бот не завершит задания. Только после этого он отправит ему другую информуцию. Это делается путем тестирования.\n"
-"Просто напишите:\n"
-"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // ждать, пока работа закончится"
+"Ведомый бот ждёт приказ и выполняет его. После того, как приказ был выполнен ведомым, он удаляется из Пункта Обмена Информацией. После отправки приказа, ведущий должен дождаться пока ведомый выполнит приказ, прежде чем отправлять следующий приказ. Это делается проверкой находится ли приказ в Пункте Обмена Информацией. Просто напишите:\n"
+"<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // ждать окончания работы"
 
 #. type: Source code
 #: ../help/help.E.txt:25
@@ -150,7 +149,7 @@ msgid ""
 "As we must give more than one order its most convenient to write a <a cbot|function>function</a> <code>SendToPost</code>, that sends the order and wait for its completion:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 msgstr ""
-"Для наиболее удобной записи <a cbot|function>функции</a> <code>SendToPost</code>, можно применить такую программу:\n"
+"Поскольку мы должны передать более одного приказа, удобней написать <a cbot|function>функцию</a> <code>SendToPost</code>, которая отправляет приказ и ждёт его завершение:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 
 #. type: Source code
@@ -171,7 +170,7 @@ msgstr ""
 "\tsend(\"param\", param, 100);  // Отправить параметр\n"
 "\tsend(\"order\", order, 100);  // Отправить приказ\n"
 "\n"
-"\twhile ( testinfo(\"order\", 100) )  // wait for end of work\n"
+"\twhile ( testinfo(\"order\", 100) )  // ждать окончания работы\n"
 "\t{\n"
 "\t\twait(1);\n"
 "\t}\n"
@@ -184,14 +183,14 @@ msgid ""
 "To move forward by 20 meters, you must write in the main program:\n"
 "<c/><s/>\tSendToPost(1, 20);  // move(20);"
 msgstr ""
-"Для движения на 20 метров вперед, вы должны написать в главной программе вот это:\n"
+"Для передвижения 20 метров вперёд, Вы должны написать в главной программе:\n"
 "<c/><s/>\tSendToPost(1, 20);  // move(20);"
 
 #. type: Plain text
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "This is the route the robot must travel through:"
-msgstr "Этот маршрут робот должен пройти так:"
+msgstr "Это маршрут, по которому должен пройти бот:"
 
 #. type: Image filename
 #: ../help/help.E.txt:46
@@ -203,16 +202,16 @@ msgstr "tremot2b"
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "It's up to you to finish the programming."
-msgstr ""
+msgstr "Теперь Вы должны сами закончить эту программу."
 
 #. type: \t; header
 #: ../help/help.E.txt:49
 #, no-wrap
 msgid "See also"
-msgstr "Смотри также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:50
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Язык CBOT</a>, <a cbot|type>Переменные</a> и <a cbot|category>Категории</a>."
+msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
