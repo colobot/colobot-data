@@ -2,31 +2,31 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:09+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Mover 2"
-msgstr "Переселенец 2"
+msgstr "Перевозчик 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve several titanium cubes."
-msgstr "Найдите несколько титановых слитков."
+msgstr "Верните несколько кубов Титана."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "This exercise is very similar to the previous one. There are now three <a object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here are the coordinates of the finishing pads:"
-msgstr "Это упражнение очень напоминает предыдущее. Теперь у нас есть три <a object|titan>титановых слитка</a> которые вы должны доставить на 3 финишные площадки. Вот координаты финишной площадки:"
+msgstr "Это упражнение очень напоминает предыдущее. Теперь три <a object|titan>Титана</a>, которые Вы должны перевезти на 3 финишные площадки. Вот координаты финишных площадок:"
 
 #. type: Plain text
 #: ../help/help.E.txt:4
@@ -64,41 +64,35 @@ msgstr ""
 msgid "General principle"
 msgstr "Общий принцип"
 
-#. type: Plain text
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "Repeat 3 times:"
-msgstr "Повторить 3 раза:"
-
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Look for the most distant titanium cube with <code><a cbot|radar>radar</a></code>."
-msgstr "Искать самый отдаленный титановый слиток с помощью <code><a cbot|radar>radar</a></code>."
+msgstr "Найти самый дальний Титан с помощью <code><a cbot|radar>radar</a></code>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Pick it up with <code><a cbot|grab>grab</a></code>."
-msgstr "Взять его с помощью <code><a cbot|grab>grab</a></code>."
+msgstr "Подобрать его с помощью <code><a cbot|grab>grab</a></code>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "Go to one of the pads with <code><a cbot|goto>goto</a></code>."
-msgstr "Перейти к одной из площаок <code><a cbot|goto>goto</a></code>."
+msgstr "Дойти до одной из площадок <code><a cbot|goto>goto</a></code>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Drop the titanium with <code><a cbot|drop>drop</a></code>."
-msgstr "Бросить титин <code><a cbot|drop>drop</a></code>."
+msgstr "Поставить Титан <code><a cbot|drop>drop</a></code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "If you look for the nearest titanium cube, the radar would find one that you already retrieved and dropped on a pad. Therefore you must look for the most distant titanium cube."
-msgstr "Если вы ищите ближайший титановый слиток, радар укажет вам на тот, который вы уже нашли и принесли на площадку. Поэтому вы должны искать титановый слиток, находящийся от вас как можно дальше."
+msgstr "Если Вы ищите ближайший Титан, радар найдёт тот, который Вы уже нашли и перевезли на площадку. Поэтому Вы должны искать самый дальний Титан."
 
 #. type: \b; header
 #: ../help/help.E.txt:17
@@ -110,7 +104,7 @@ msgstr "Программа"
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all the instructions necessary to retrieve the titanium cube. Inside the loop, in order to find the most distant titanium cube, use the instruction <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value <code>-1</code> means that instead of looking for the closest item, the radar will return the most distant that it can find."
-msgstr "Используйте цикл <code><a cbot|for>for</a></code>, чтобы повторить все необходимые для поиска титанового слитка инструкции 3 раза. Внутри цикла, чтобы найти самый отдаленный титановый слиток, используйте инструкцию <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. Последнее значение <code>-1</code> означает то, что вместо поиска ближайшего предмета, радар будет выдавать предмет, находящийся на самом большом расстоянии от бота."
+msgstr "Используйте цикл <code><a cbot|for>for</a></code>, чтобы повторить 3 раза все инструкции необходимые для поиска Титана. Внутри цикла, чтобы найти самый дальний Титан, используйте инструкцию <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. Последнее значение <code>-1</code> означает, что вместо поиска ближайшего объекта, радар вернёт наиболее дальний, что он может найти."
 
 #. type: Source code
 #: ../help/help.E.txt:20
@@ -130,13 +124,13 @@ msgstr ""
 #: ../help/help.E.txt:25
 #, no-wrap
 msgid "The variable <code>metal</code> if of type <code><a cbot|object>object</a></code>. In order to know the position of the object described by the variable, you must write <code>metal.position</code>."
-msgstr "Переменная <code>metal</code> относится к типу <code><a cbot|object>object</a></code>. Чтобы узнать позицию объекта, описанного переменной, вы должны написать <code>metal.position</code>."
+msgstr "Переменная <code>metal</code> относится к типу <code><a cbot|object>object</a></code>. Чтобы узнать позицию объекта, описанного переменной, Вы должны написать <code>metal.position</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "The <code>x</code> coordinates of the 3 pads are all equal to 10. The <code>y</code> coordinates are respectively -60, -65 and -70. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0, 1 and 2:"
-msgstr "Координата <code>x</code> 3-х площадок равна 10. Координата <code>y</code> соответственно -60, -65 и -70. Самый простой способ получить координаты позиции заключается в использовании значения <code>i</code> цикла <code>for</code> , которая последовательно будет принимать значения 0, 1 и 2:"
+msgstr "Координаты <code>x</code> 3-х площадок равны 10. Координаты <code>y</code> соответственно -60, -65 и -70. Самый простой способ получить координаты позиции заключается в использовании значения <code>i</code> цикла <code>for</code>, которая последовательно будет принимать значения 0, 1 и 2:"
 
 #. type: Source code
 #: ../help/help.E.txt:29
@@ -152,16 +146,22 @@ msgstr ""
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "It is up to you now to finish the program."
-msgstr "Теперь вы сами должны закончить программу."
+msgstr "Теперь Вы должны сами закончить эту программу."
 
 #. type: \t; header
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Repeat 3 times:"
+msgstr "Повторить 3 раза:"

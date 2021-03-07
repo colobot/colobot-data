@@ -2,31 +2,31 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:09+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Mover 1"
-msgstr "Переселенец 1"
+msgstr "Перевозчик 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Retrieve a titanium cube."
-msgstr "Найдите титановый слиток."
+msgstr "Верните куб Титана."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -44,7 +44,7 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Move the <a object|titan>titanium cube</a> on the finishing pad. You do not know the position of the titanium, but we can tell you the position of the finishing pad x=10 and y=-60."
-msgstr "Переместите <a object|titan>титановый слиток</a> на финишную площадку. Вы не знаете, где лежит титан, но мы можем дать вам место, где находится финишная площадка x=10 и y=-60."
+msgstr "Перевезите <a object|titan>Титан</a> на финишную площадку. Вы не знаете позиции Титана, но мы можем сказать позицию финишной площадки x=10 и y=-60."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -56,49 +56,49 @@ msgstr "Инструкция <code>goto</code>"
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "In order to solve this problem easily, we will use a new way to move the bot with the instruction <code><a cbot|goto>goto</a></code>. With this instruction you can very easily reach every position, if you know the exact location in the form of its x and y coordinates. The bot will turn towards the goal, move forward, and even turn around any obstacle."
-msgstr "Чтобы легко справиться с этой задачей, мы будем использовать новый способ перемещения бота с помощью инструкции <code><a cbot|goto>goto</a></code>. Используя эту инструкцию, вы можете очень легко перейти к любой позиции, если вы точно знаете ее местоположение, то есть координаты x и y. Бот повернется в направлении цели, пойдет вперед и даже сможет обходить любые преграды."
+msgstr "Чтобы легко справиться с этой задачей, мы будем использовать новый способ перемещения бота с помощью инструкции <code><a cbot|goto>goto</a></code>. Используя эту инструкцию, Вы можете очень легко перейти к любой позиции, если Вы точно знаете её местоположение, то есть координаты x и y. Бот повернёт к цели, пойдет вперёд и даже сможет обходить любые преграды."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "If we summarize, the following are the different ways to move a bot:"
-msgstr "Подводя итог, ниже приведено несколько способов движения бота:"
+msgstr "Подводя итог, ниже приведено несколько способов передвижения бота:"
 
 #. type: Source code
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "<code>motor(left, right)</code>"
-msgstr "<code>motor(левый, правый)</code>"
+msgstr "<code>motor(left, right)</code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Allows a direct, precise control of the two motors, and allows you to stay in control of the motors at every fraction of a second."
-msgstr "Позволяет прямо и точно управлять двумя моторами и дает вам возможность управлять моторами в любой момент."
+msgstr "Позволяет прямо и точно управлять двумя моторами и даёт Вам возможность управлять моторами в любой момент."
 
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "<code>move(distance)</code> and <code>turn(angle)</code>"
-msgstr "<code>move(дистанция)</code> и <code>turn(угол)</code>"
+msgstr "<code>move(distance)</code> и <code>turn(angle)</code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Use these instructions in order to move forward of a certain distance, or to perform a rotation of a certain angle. All parameters are relative to the current position of the bot."
-msgstr "Используйте эти инструкции чтобы перейти вперед на указанную дистанцию, или произвести поворот на указанный угол. Все параметры имеют отношение к текущей позиции бота."
+msgstr "Используйте эти инструкции, чтобы передвигаться вперёд на указанную дистанцию, или повернуться на указанный угол. Все параметры имеют отношение к текущей позиции бота."
 
 #. type: Source code
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "<code>goto(position)</code>"
-msgstr "<code>goto(позиция)</code>"
+msgstr "<code>goto(position)</code>"
 
 #. type: Plain text
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "Allows you to reach easily a given absolute position."
-msgstr "Позволяет вам легко перейти к заданной абсолютной позиции."
+msgstr "Позволяет Вам легко перейти к заданной абсолютной позиции."
 
 #. type: \b; header
 #: ../help/help.E.txt:18
@@ -110,7 +110,7 @@ msgstr "Программа"
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "Use the instruction <c/><a cbot|radar>radar</a>(Titanium);<n/> in order to find the titanium cube. Then test if a titanium cube has actually been found. In this exercise, this line is not very useful, because we know that there is a titanium cube somewhere. However, it is better to take the habit of testing whatever your radar returns:"
-msgstr "Используйте инструкцию <c/><a cbot|radar>radar</a>(Titanium);<n/> чтобы найти титановый слиток. После этого проверьте, найден ли титановый слиток. В этом упражнении эта строка нам не очень пригодится, так как мы знаем, что титановый слиток где-то есть. Тем не менее, лучше приучить себя проверять все, что выдает вам ваш радар:"
+msgstr "Используйте инструкцию <c/><a cbot|radar>radar</a>(Titanium);<n/> для поиска Титана. Затем проверьте, на самом ли деле Титан найден. В этом упражнении эта строка мало полезна, так как мы знаем, что Титан где-то есть. Тем не менее, лучше привыкнуть проверять всё, что возвращает радар:"
 
 #. type: Source code
 #: ../help/help.E.txt:21
@@ -136,13 +136,13 @@ msgstr "Переменная <code>item</code> относится к типу <c
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "In order to take the titanium cube, use the instruction <code><a cbot|grab>grab</a>()</code> without any parameter."
-msgstr "Чтобы взять титановый слиток, используйте инструкцию <code><a cbot|grab>grab</a>()</code> без параметров."
+msgstr "Чтобы подобрать Титан, используйте инструкцию <code><a cbot|grab>grab</a>()</code> без параметров."
 
 #. type: Plain text
 #: ../help/help.E.txt:30
 #, no-wrap
 msgid "In order to drop the titanium, use the instruction <code><a cbot|drop>drop</a>()</code> without any parameter."
-msgstr "Чтобы бросить титановый слиток, используйте инструкцию <code><a cbot|drop>drop</a>()</code> без параметров."
+msgstr "Чтобы поставить Титан, используйте инструкцию <code><a cbot|drop>drop</a>()</code> без параметров."
 
 #. type: Plain text
 #: ../help/help.E.txt:32
@@ -151,20 +151,20 @@ msgid ""
 "We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
 "Remark: You do not have to take care of the <code>z</code> coordinate in the case of a bot that can not fly."
 msgstr ""
-"Нам известны координаты финишной площадки: x=10 и y=-60. Вы должны задать <a cbot|var>переменную</a> типа <a cbot|point>point</a>, а после этого присвоить ей соответствующие координаты. После этого вы можете использовать эту переменную как параметр для инструкции <code><a cbot|goto>goto</a></code>.\n"
-"Комментарий: Вас не должна беспокоить координата <code>z</code> , так как бот не умеет летать."
+"Нам известны координаты финишной площадки: x=10 и y=-60. Вы должны объявить <a cbot|var>переменную</a> типа <a cbot|point>point</a>, а после этого присвоить ей соответствующие координаты. Затем Вы можете использовать эту переменную как параметр для инструкции <code><a cbot|goto>goto</a></code>.\n"
+"Комментарий: Вас не должна беспокоить координата <code>z</code>, в случае если бот не умеет летать."
 
 #. type: Plain text
 #: ../help/help.E.txt:35
 #, no-wrap
 msgid "It is now up to you to finish the program..."
-msgstr "Теперь вы должны завершить написание программы..."
+msgstr "Теперь Вы должны сами закончить эту программу..."
 
 #. type: \t; header
 #: ../help/help.E.txt:37
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:38
