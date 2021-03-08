@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2021-03-08 13:54+0300\n"
+"PO-Revision-Date: 2021-03-08 14:31+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,7 +100,7 @@ msgstr ""
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "A second <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchanging the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_fifo</code> which will contain the list of orders to be executed. The word <code>static</code> insures that the member <code>m_fifo</code> is shared between all instances of the <a cbot|class>class</a> exchange."
-msgstr "Второй <a cbot|class>класс</a> <code>exchange</code> содержит в себе механизм обмена приказами. Мы объявляем <code><a cbot|static>static</a> член класса <code>m_fifo</code>, который будет содержать список приказов на выполнение. Слово <code>static</code> гарантирует, что член <code>m_fifo</code> будет доступен между всеми экземплярами <a cbot|class>класса</a> exchange."
+msgstr "Второй <a cbot|class>класс</a> <code>exchange</code> содержит в себе механизм обмена приказами. Мы объявляем <code><a cbot|static>static</a></code> член класса <code>m_fifo</code>, который будет содержать список приказов на выполнение. Слово <code>static</code> гарантирует, что член <code>m_fifo</code> будет доступен между всеми экземплярами <a cbot|class>класса</a> exchange."
 
 #. type: Plain text
 #: ../help/help.E.txt:21
@@ -184,7 +184,7 @@ msgstr ""
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>. We put () after the word <code>list</code> in order to create an instance of the class <code>exchange</code>."
-msgstr "Главная программа ведомого бота содержит класс <code>exchange</code> вызываемый через <code>list</code>. Мы поставили () после <code>list</code>> для создания экземпляра класса <code>exchange</code>."
+msgstr "Главная программа ведомого бота содержит класс <code>exchange</code> вызываемый через <code>list</code>. Мы поставили () после <code>list</code> для создания экземпляра класса <code>exchange</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:49
