@@ -2,37 +2,37 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-09 09:34+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Exchange posts 3"
-msgstr "Пункты обмена 3"
+msgstr "Пункт Обмена Информацией 3"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Collect lots of valuable information from information exchange posts."
-msgstr "Соберите много разнообразной информации на постах обмена информацией."
+msgstr "Получите важную информацию из Пунктов Обмена Информацией."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Info"
-msgstr "Инфо"
+msgstr "Info"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -44,49 +44,43 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Several <a object|exchange>information exchange posts</a> are standing along the way. When the bot is close enough to a post, it can read the instructions it contains. The <a object|exchange>information exchange posts</a> along the way contain the direction of the next post and the distance. And you do not know how many exchange posts you must get in touch with before arriving at your goal."
-msgstr "На пути стоят несколько <a object|exchange>постов обмена информацией</a>. Когда бот подходит на достаточно близкое расстояние к посту, он может прочитать инструкции, которые тот содержит. <a object|exchange>Посты обмена информацией</a> по пути содержат информацию о направлении и расстоянии до следующего поста. И вы не знаете сколько постов обмена встретится вам перед тем, как вы прибудете к цели."
+msgstr "Несколько <a object|exchange>Пунктов Обмена Информацией</a> установлено по пути. Когда бот достаточно близко, он может прочитать инструкции, которые они содержат. <a object|exchange>Пункты Обмена Информацией</a> по пути содержат направление к следующему пункту и расстояние. И Вы не знаете, сколько Пунктов Обмена Информацией Вы должны встретить до того, как достигните цели."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "General principle"
-msgstr "Общие принципы"
-
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "\tAlways repeat:"
-msgstr "\tПовторять всегда:"
+msgstr "Общий принцип"
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Retrieve the direction from the <a object|exchange>exchange post</a>."
-msgstr "Получить направление на <a object|exchange>посту обмена</a>."
+msgstr "Получите направление из <a object|exchange>Пункта Обмена Информацией</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Retrieve the distance from the <a object|exchange>exchange post</a>."
-msgstr "Получить расстояние на <a object|exchange>посту обмена</a>."
+msgstr "Получите расстояние из <a object|exchange>Пункта Обмена Информацией</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "If no information could be retrieved, stop the program."
-msgstr "Если нельзя получить никакой информации, остановить программу."
+msgstr "Если никакую информацию не возможно получить, остановите программу."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Execute the rotation."
-msgstr "Выполнить поворот."
+msgstr "Выполните поворот."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Move forward to the next post."
-msgstr "Отправиться к следующему посту."
+msgstr "Передвигайтесь вперёд к следующему пункту."
 
 #. type: \b; header
 #: ../help/help.E.txt:12
@@ -103,19 +97,25 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
-"<code><a cbot|while>while</a></code> для повтора инструкций\n"
-"<code><a cbot|receive>receive</a></code> для получения информации на посту\n"
-"<code><a cbot|move>move</a></code> для движения бота\n"
-"<code><a cbot|turn>turn</a></code> для поворота бота"
+"<code><a cbot|while>while</a></code> повторять инструкции\n"
+"<code><a cbot|receive>receive</a></code> получить информацию из пункта\n"
+"<code><a cbot|move>move</a></code> передвинуть бот\n"
+"<code><a cbot|turn>turn</a></code> повернуть бот"
 
 #. type: \t; header
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+msgstr "<a cbot|programming>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "\tAlways repeat:"
+msgstr "\tПовторять всегда:"

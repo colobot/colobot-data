@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-09 10:03+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,13 +26,13 @@ msgstr "Помощь"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Defend yourself agains all alien attacks."
-msgstr "Отражайте все атаки пришельцев."
+msgstr "Защищайте себя против всех инопланетных атак."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Defense"
-msgstr "Защита"
+msgstr "Defense"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -44,19 +44,19 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Defend against all enemy attacks"
-msgstr "Отразить все атаки врага."
+msgstr "Защищайтесь против всех инопланетных атак"
 
 #. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "General idea"
-msgstr "Общая идея"
+msgstr "Главная идея"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The range of your cannon is about 40m. The category of the enemies is <code>AlienAnt</code>. Turn towards the closest ant, even if it is still more than 40m away. But shoot only when it is closer than 40m, in order not to waste your energy."
-msgstr "Дальность стрельбы вашего оружия около 40 метров. Враг относится к категории <code>AlienAnt</code>. Повернитесь в сторону ближайшего муравья, даже если он все еще находится на расстоянии более 40 метров. Но стреляйте только тогда, когда он подойдет к вам на 40 метров, чтобы не потратить зря свою энергию."
+msgstr "Дальность Вашего орудия составляет около 40 метров. Категория пришельцев <code>Муравей</code>. Повернитесь к ближайшему муравью, даже если до него остаётся более 40 метров. Но стреляйте только тогда, когда он будет ближе 40 метров, чтобы не тратить Вашу энергию."
 
 #. type: \b; header
 #: ../help/help.E.txt:7
@@ -74,20 +74,20 @@ msgid ""
 "<code><a cbot|fire>fire</a></code> to fire your cannon\n"
 "<code><a cbot|wait>wait</a></code> to wait"
 msgstr ""
-"<code><a cbot|radar>radar</a></code> для поиска врагов (категория <code><a object|ant>AlienAnt</a></code>)\n"
-"<code><a cbot|direct>direction</a></code> для расчета направления\n"
-"<code><a cbot|dist>distance</a></code> для расчета расстояния\n"
-"<code><a cbot|fire>fire</a></code> для выстрела из орудия\n"
-"<code><a cbot|wait>wait</a></code> для ожидания"
+"<code><a cbot|radar>radar</a></code> обнаружить врага (категория <code><a object|ant>Муравей</a></code>)\n"
+"<code><a cbot|direct>direction</a></code> вычислить направление\n"
+"<code><a cbot|dist>distance</a></code> вычислить расстояние\n"
+"<code><a cbot|fire>fire</a></code> стрелять из Вашего орудия\n"
+"<code><a cbot|wait>wait</a></code> ждать"
 
 #. type: \t; header
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+msgstr "<a cbot|programming>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."

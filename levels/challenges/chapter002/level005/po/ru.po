@@ -2,37 +2,37 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-09 10:49+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Radar and traps 2"
-msgstr "Радар и ловушки 2"
+msgstr "Радар и Ловушки 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Try to figure out how to survive in a hostile environment."
-msgstr "Попытайтесь выжить во враждебном окружении."
+msgstr "Попробуйте выяснить, как выжить во враждебной среде."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Traps"
-msgstr "Ловушки"
+msgstr "Traps"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -44,22 +44,22 @@ msgstr "Упражнение"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Instruct your <a object|bottr>bot</a> to find all the <a object|waypoint>blue crosses</a> on the ground, but do not get too close to the <a object|mine>mines</a>."
-msgstr "Заставьте <a object|bottr>бота</a> отыскать на земле все <a object|waypoint>синие кресты</a>, но не подходите слишком близко к <a object|mine>минам</a>."
+msgstr "Научите бот найти все <a object|waypoint>Кресты Синие</a> на земле, но не приближайтесь слишком близко к <a object|mine>минам</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "If a bot gets within less than 2m of the center of a mine (which is the position returned by the radar instruction), il will blow up. However, you must take into account the inertia of the bot. Probably a safety distance of 3 to 3.5m would be more appropriate."
-msgstr "Если бот находится у мины на расстоянии менее 2 метров (которое является местом, возвращенным инструкцией радара), то она взрывается. Тем не менее, вы должны учитывать инерцию бота. Более безопасной будет дистанция в 3 - 3.5 м."
+msgstr "Если бот приблизится к мине ближе 2 метров (т.е. позиции возвращаемой инструкцией radar), он взорвётся. Однако Вы должны учитывать инерцию бота. Вероятно, безопасное расстояние от 3 до 3,5 метров было бы более подходящим."
 
 #. type: \t; header
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
+msgstr "<a cbot|programming>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
