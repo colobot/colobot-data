@@ -2,25 +2,25 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-13 12:28+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Black Box"
-msgstr "Черный ящик"
+msgstr "Чёрный Ящик"
 
 #. type: Resume-text
 #: ../scene.txt:2
@@ -32,31 +32,31 @@ msgstr "Найдите важную информацию, оставленную
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going."
-msgstr "Мы не уверены в том, куда направлялась предыдущая экспедиция, когда они покинули поверхность Луны и не знаем, почему они выбрали именно то направление, куда они отправились."
+msgstr "У нас нет возможности узнать, куда направилась предыдущая экспедиция, когда она покинула поверхность Луны, и почему она решила отправиться туда, куда она направилась."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Locate the <a object|bbox>black box</a> they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit."
-msgstr "Отыщите <a object|bbox>черный ящик</a>, который они должны были оставить за собой и привезите его обратно на борту своего корабля. В черном ящике должны содержаться координаты следующей планеты, которую собиралась посетить эта экспедиция."
+msgstr "Найдите <a object|bbox>Чёрный Ящик</a>, который они должны были оставить после себя и верните его на свой Корабль. Чёрный ящик должен содержать координаты следующей планеты, которую планировала посетить экспедиция."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
-msgstr "<a object|power>Батареи</a> ваших ботов почти полностью пусты. Вы должны как можно быстрее их подзарядить. Наблюдательный спутник на орбите сообщает о том, что под поверхностью грунта на этом участке есть очень много энергии. Поэтому у вас появилась возможность построить действующую <a object|station>электростанцию</a> на любой плоской поверхности."
+msgstr "<a object|power>Батареи</a> Ваших ботов почти полностью пусты. Подзарядка должна быть Вашим приоритетом. Спутник наблюдения на орбите сообщает, что недра этого района полны энергии. Таким образом, у Вас есть возможность построить действующую <a object|station>Энергозаправку</a> на любой ровной поверхности."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
-msgstr "Мы разработали программу, которая сможет зарядить <a object|power>батарею</a> любого бота. Обратитесь к странице программы вашего Саткома <button 53/>."
+msgstr "Мы разработали программу, которая перезаряжает <a object|power>Батарею</a> бота. Обратитесь к странице программы Вашего СпутникКом <button 53/>."
 
 #. type: \b; header
 #: ../help/help.E.txt:10
@@ -68,31 +68,31 @@ msgstr "Процедура"
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
-msgstr "Сначала вы должны построить <a object|convert>преобразователь</a>, который преобразует куски титановой руды, которые уже есть в вашем распоряжении, в <a object|titan>титановые кубы</a>, которые можно использовать."
+msgstr "Сначала Вам нужно построить <a object|convert>Преобразователь</a>, который переработает уже имеющиеся куски Руды Титановой в пригодный для использования <a object|titan>Титан</a>."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "You should then build both a <a object|station>power station</a> and a <a object|radar>radar</a> which will indicate the location of the black box on your mini map."
-msgstr "После этого вы должны построить <a object|station>электростанцию</a> и <a object|radar>радар</a>, который сможет указать на вашей миникарте место, где расположен черный ящик."
+msgstr "Затем Вы должны построить <a object|station>Энергозаправку</a> и <a object|radar>Радар</a>, который укажет местоположение Чёрного Ящика на Вашей мини-карте."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
-msgstr "Когда ваши батареи будут полностью заряжены, найдите черный ящик. После он должен быть размещен на платформе вашего <a object|base>космического корабля</a> для того, чтобы вы могли взлететь."
+msgstr "Когда Ваши Батареи будут полностью заряжены, найдите Чёрный Ящик. Его надо разместить на платформе <a object|base>Космического Корабля</a>, чтобы Вы могли взлететь."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СпутникКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:17 ../help/soluce.E.txt:18
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
@@ -104,13 +104,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of the Moon."
-msgstr "Геостацианарная орбита Луны."
+msgstr "Сейчас на геостационарной орбите Луны."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -129,16 +129,16 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Температура:      -38.2C\n"
-"\\tab;Атмосфера:       нет\n"
-"\\tab;Ветер:             0.0 м/с\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Атмосфера:        отсутствует\n"
+"\\tab;Ветер:            0.0 м/с\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -148,57 +148,57 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    везде\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          везде\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Build a converter <button 162/> with the only titanium cube available."
-msgstr "Постройте преобразователь <button 162/>, используя всего один доступный титановый слиток."
+msgstr "Постройте Преобразователь <button 162/>, с помощью только доступного Титана."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Deposit one chunk of titanium ore at a time at the center of the platform and let the converter do the rest."
-msgstr "Положите один кусок титановой руды в центре платформы и позвольте преобразователю закончить дело."
+msgstr "Поместите один кусок Руды Титановой в центре платформы и пусть Преобразователь сделает всё остальное."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a power station <button 164/> with one of the newly converted titanium cubes."
-msgstr "Постройте электростанцию <button 164/> , используя один из недавно изготовленных титановых слитков."
+msgstr "Постройте Энергозаправку <button 164/> , с помощью одного недавно переработанного Титана."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "If you don't feel like looking for the black box yourself, build a radar <button 168/> and the box will appear on your mini map somewhere north of your present location, at the bottom of a crater, next to a few derelict spacecraft and debris from the previous expedition."
-msgstr "Если вы не хотите сами заниматься поисками черного ящика, постройте радар <button 168/> и на вашей миникарте должен появиться ящик где-то на севере от вашей текущей позиции, на дне кратера, около нескольких заброшенных космических кораблей и обломков, оставшихся от предыдущей экспедиции."
+msgstr "Если Вам не хочется искать Чёрный ящик, постройте Радар <button 168/> и Ящик появится на Вашей мини-карте где-нибудь к северу от Вашего текущего местоположения, на дне кратера, рядом с заброшенным Космическим Кораблём и несколькими обломками от предыдущей экспедиции."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Place the grabbers at the center of the power station platform to recharge them. The cells should still have a little power left in them, just enough to radio-control the bots onto the platform."
-msgstr "Разместите сборщиков в центре платформы электростанции, чтобы их подзарядить. В батареях все еще может быть некоторое количество энергии. Этого должно хватить, чтобы иметь возможность управлять ботами, стоящими на платформе."
+msgstr "Поместите Погрузчики в центре Энергозаправки для подзарядки. В Батареях должно остаться немного энергии, достаточной для радио-управления ботами на платформе."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Radio-control the winged grabber to the black box and back."
-msgstr "С помощью радио управляйте крылатым сборщиком. Подведите его к черному ящику и обратно."
+msgstr "Проведите по радио-управлению Погрузчик Крылатый до Чёрного Ящика и обратно."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "Gather both grabbers and the black box onto the spaceship platform and climb on board yourself."
-msgstr "Возьмите оба сборщика и черный ящик и доставьте все это на платформу космического корабля, после чего сами займите место пилота."
+msgstr "Захватите оба Погрузчика и Чёрный Ящик на Космический Корабль и взберитесь на борт самостоятельно."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16
