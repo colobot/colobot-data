@@ -2,61 +2,61 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-14 13:05+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Black Box"
-msgstr "Черный ящик"
+msgstr "Чёрный Ящик"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Explore the underwater world looking for another black box."
-msgstr "Исследуйте подводные пространства в поисках еще одного черного ящика."
+msgstr "Исследуйте подводный мир в поисках другого Чёрного Ящика."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
-msgstr "Найдите и возьмите еще один <a object|bbox>черный ящик</a>, оставленный предыдущей экспедицией."
+msgstr "Найдите и извлеките другой <a object|bbox>Чёрный Ящик</a> от предыдущей экспедиции."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The observation satellite seems to have spotted it underwater. Water is harmless to you as long as you wear your helmet but keep in mind that you can't carry objects underwater. A <a object|botsub>subber</a> may come in handy."
-msgstr "Наблюдательный спутник обнаружил его под поверхностью воды. Вода не может повредить вам, пока у вас на голове есть шлем, но помните о том, что вы не можете перетаскивать предметы под водой. Поэтому вам может пригодиться <a object|botsub>саббер</a>."
+msgstr "Спутник наблюдения, кажется, заметил его под водой. Вода безвредна для Вас, пока Вы одеты в шлем, но имейте ввиду, что Вы не можете нести предметы под водой. <a object|botsub>Амфибия</a> может оказаться кстати."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СпутникКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:14
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
@@ -68,13 +68,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Tropica."
-msgstr "Геостацианарная орбита Тропики."
+msgstr "Сейчас на геостационарной орбите Тропики."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -93,16 +93,16 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Температура:      29.4C\n"
-"\\tab;Атмосфера:       гелий, кислород\n"
-"\\tab;Ветер:             0.3 м/с\n"
-"\\tab;Титановая руда:     немного\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Атмосфера:        гелий, кислород\n"
+"\\tab;Ветер:            0.3 м/с\n"
+"\\tab;Руда Титановая:   немного\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -112,9 +112,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    нет\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          отсутствует\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:16
@@ -131,52 +131,52 @@ msgid ""
 "\\tab;Detected:         scattered derelicts\n"
 "\\tab;Detected:         black box (underwater)"
 msgstr ""
-"\\tab;Замечено:         Титановая руда\n"
-"\\tab;  - Необходим:     преобразователь\n"
-"\\tab;Замечено:         разбросанные руины\n"
-"\\tab;Замечено:         черный ящик (под водой)"
+"\\tab;Обнаружено:       Руда Титановая\n"
+"\\tab;  - Требует:      Преобразователь\n"
+"\\tab;Обнаружено:       много брошенного\n"
+"\\tab;Обнаружено:       Чёрный Ящик (под водой)"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Locate the <a object|bbox>black box</a> on your own. You can try to spot it from above, using your jet engine, or dive into the water."
-msgstr "Найдите сами <a object|bbox>черный ящик</a>. Вы можете попытаться найти его сверху, используя свой реактивный двигатель, или нырнуть под воду."
+msgstr "Найдите <a object|bbox>Чёрный Ящик</a> самостоятельно. Вы можете попытаться обнаружить его сверху, используя свой реактивный двигатель или погрузиться в воду."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:3
 #, no-wrap
 msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr "Постройте <a object|convert>преобразователь</a> около кусков титановой руды. Вы найдете их недалеко от корабля на востоке."
+msgstr "Постройте <a object|convert>Преобразователь</a> вблизи кусков Руды Титановой. Вы найдёте их поблизости от Космического Корабля на востоке."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
-msgstr "Изготовьте несколько <a object|titan>слитков</a>."
+msgstr "Переработайте два <a object|titan>куба</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr "Постройте <a object|factory>фабрику ботов</a> недалеко от черного ящика."
+msgstr "Постройте <a object|factory>Фабрику Ботов</a> не слишком далеко от Чёрного Ящика."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Manufacture a <a object|botsub>subber</a>."
-msgstr "Постройте <a object|botsub>саббер</a>."
+msgstr "Изготовьте <a object|botsub>Амфибию</a>."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:7
 #, no-wrap
 msgid "Bring the black box back on board."
-msgstr "Доставьте черный ящик на борт."
+msgstr "Перенесите Чёрный Ящик на борт."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:8
@@ -188,13 +188,13 @@ msgstr "Взлетайте."
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "The black box is lying at the bottom of a small lake, northeast of the spaceship."
-msgstr "Черный ящик лежит на дне небольшого озера, на северо-востоке от корабля."
+msgstr "Чёрный Ящик лежит на дне небольшого озера, к северо-востоку от Космического Корабля."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr "Вы можете построить фабрику ботов прямо около озера на его южном берегу."
+msgstr "Вы можете построить Фабрику Ботов прямо рядом с озером, на южном берегу."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:15
