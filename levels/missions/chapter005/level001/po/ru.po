@@ -2,19 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-15 21:03+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,31 +26,31 @@ msgstr "Уран"
 #: ../scene.txt:2
 #, no-wrap
 msgid "An attempt to retrieve some uranium ore."
-msgstr "Попытка получить некоторое количество урановой руды."
+msgstr "Попытайтесь извлечь Руду Урановую."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "The observation satellite has detected a chunk of <a object|uranore>uranium ore</a> on the summit of the main mountain. You need to bring it back to your spaceship."
-msgstr "Наблюдательный спутник на орбите обнаружил на вершине главной горы залежи <a object|uranore>урановой руды</a>. Вы должны доставить ее на ваш космический корабль."
+msgstr "Спутник наблюдения обнаружил кусок <a object|uranore>Руды Урановой</a> на вершине основной горы. Вам необходимо принести его на Ваш Космический Корабль."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СатКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:6 ../help/soluce.E.txt:21
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:7
@@ -62,13 +62,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr "Геостацианарная орбита Саари."
+msgstr "Сейчас на геостационарной орбите Саари."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -87,16 +87,16 @@ msgid ""
 "\\tab;Uranium ore:      some (mountain summit)"
 msgstr ""
 "\\tab;Температура:      41.3C\n"
-"\\tab;Атмосфера:       CO2, кислород, азот\n"
-"\\tab;Ветер:             2.3 м/с\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      немного (вершины гор)"
+"\\tab;Атмосфера:        CO2, кислород, азот\n"
+"\\tab;Ветер:            2.3 м/с\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    немного (вершина горы)"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -106,9 +106,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    везде\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          везде\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:16
@@ -124,51 +124,51 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
-"\\tab;Замечено:         многочисленные руины\n"
-"\\tab;Замечено:         гигантские муравьи\n"
-"\\tab;  - Опасность:       непрямая"
+"\\tab;Обнаружено:       много хлама \n"
+"\\tab;Обнаружено:       гигантские муравьи\n"
+"\\tab;  - Угроза:       не прямая"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "You'll find a <a object|titan>titanium cube</a> left in a smashed up bot factory. Use it to build a <a object|station>power station</a>."
-msgstr "В разрушенной фабрике ботов вы найдете <a object|titan>титановый слиток</a>. С его помощью постройте <a object|station>электростанцию</a>."
+msgstr "Вы найдёте <a object|titan>Титан</a> оставленный в разбитой Фабрике Ботов. Используйте его для постройки <a object|station>Энергозаправки</a>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "The <a object|botrecy>recycler</a> is designed to convert derelicts back into usable titanium cubes."
-msgstr "<a object|botrecy>Утилизатор</a> разработан для преобразования обломков в титановые слитки, которые затем можно будет использовать."
+msgstr "<a object|botrecy>Утилизатор</a> предназначен для переработки обломков обратно в пригодный для использования Титан."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build both a <a object|repair>repair center</a> and a <a object|radar>radar</a>."
-msgstr "Постройте <a object|repair>пункт ремонта</a> и <a object|radar>радар</a>."
+msgstr "Постройте <a object|repair>Пункт Ремонта</a> и <a object|radar>Радар</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Recharge one of the <a object|power>power cells</a> available and power a <a object|botfj>winged shooter</a>."
-msgstr "Зарядите одну из доступных <a object|power>батарей</a> и оснастите нею <a object|botfj>крылатого стрелка</a>."
+msgstr "Перезарядите одну свободную <a object|power>Батарею</a> и подключите к <a object|botfj>Стрелку Крылатому</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Eliminate all <a object|ant>ants</a>. Note that you should recharge and repair the shooter regularly. Check your levels."
-msgstr "Уничтожьте всех <a object|ant>муравьев</a>. Помните, что вы постоянно должны заряжать и ремонтировать стрелка. Проверяйте его состояние."
+msgstr "Уничтожьте всех <a object|ant>муравьёв</a>. Заметьте, Вы должны регулярно перезаряжать и восстанавливать Стрелка. Проверяёте Ваши уровни."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Fully charge the <a object|botgr>grabber</a>'s power cell, then radio-control it to the summit..."
-msgstr "Полностью зарядите батарею <a object|botgr>сборщика</a>, после этого, управляя им по радио, отправьте его на вершину..."
+msgstr "Полностью зарядите на <a object|botgr>Погрузчике</a> Батарею, затем по радио-управлению доведите его до вершины горы..."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:13
@@ -180,17 +180,17 @@ msgid ""
 "      d) On third level travel west for access to summit;\n"
 "...then, with the chunk, straight back to the spaceship by the most direct route so as to save the remaining power."
 msgstr ""
-"      a) Доберитесь до первого уровня по западному склону;\n"
-"      b) Пройдите на восток по первому уровню чтобы найти второй склон;\n"
-"      c) Пройдите на юг по второму уровню, чтобы найти третий склон;\n"
-"      d) На третьем уровне направляйтесь на запад чтобы взобраться на вершину;\n"
-"...после этого, используя кусок, отправляйтесь к космическому кораблю по самому короткому пути чтобы сохранить оставшуюся энергию."
+"      a) Доберитесь к первому уровню по склону на западе;\n"
+"      b) На первом уровне двигайтесь на восток и найдите второй склон;\n"
+"      c) На втором уровне двигайтесь на север и найдите третий склон;\n"
+"      d) На третьем уровне двигайтесь на запад, чтобы добраться к вершине;\n"
+"...затем, с куском, возвращайтесь к Космическому Кораблю по самому прямому маршруту, чтобы сберечь остатки энергии."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:19
 #, no-wrap
 msgid "Climb aboard the ship yourself and take off."
-msgstr "Садитесь в корабль и взлетайте."
+msgstr "Поднимитесь на борт Космического Корабля сами и взлетайте."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:22

@@ -2,25 +2,25 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-15 20:53+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Disarmed"
-msgstr "Безоружен"
+msgstr "Обезоруженный"
 
 #. type: Resume-text
 #: ../scene.txt:2
@@ -32,31 +32,31 @@ msgstr "Постигните стратегию."
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Your satellite has located the remains of the previous expedition. You should come across a <a object|bbox>black box</a> not too far from there. It will give you the coordinates of your next destination."
-msgstr "Ваш спутник обнаружил остатки предыдущей экспедиции. Вы должны наткнуться на <a object|bbox>черный ящик</a>, который должен быть недалеко от этого места. Так вы узнаете координаты места, куда вы должны после этого отправиться."
+msgstr "Ваш спутник обнаружил остатки предыдущей экспедиции. Вы должны наткнуться на <a object|bbox>Чёрный Ящик</a> не слишком далеко отсюда. Он предоставит Вам координаты Вашего следующего пункта назначения."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Exterminate the few remaining ants. We've been notified that your neutron gun is currently out of order so you will not be able to build new bots. We're convinced that you're resourceful enough at this point to come up with a solution."
-msgstr "Уничтожьте несколько оставшихся муравьев. Мы заметили, что ваша нейтронная пушка в данный момент не работает, поэтому вы будете не в состоянии создавать новых ботов. Мы убеждены в том, что вы достаточно изобретательны и сможете найти выход из создавшегося положения."
+msgstr "Уничтожьте несколько оставшихся муравьёв. Мы были уведомлены, что Ваш нейтронный пистолет в настоящее время вышел из строя, поэтому Вы не сможете строить новые боты. Мы убеждены, что Вы достаточно находчивы и сможете выйти из создавшегося положения."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СатКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:8
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
@@ -68,13 +68,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Saari."
-msgstr "Геостацианарная орбита Саари."
+msgstr "Сейчас на геостационарной орбите Саари."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -93,16 +93,16 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Температура:      44.3C\n"
-"\\tab;Атмосфера:       CO2, кислород, азот\n"
-"\\tab;Ветер:             2.3 м/с\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Атмосфера:        CO2, кислород, азот\n"
+"\\tab;Ветер:            2.3 м/с\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -112,9 +112,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    нет\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          отсутствует\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:16
@@ -130,33 +130,33 @@ msgid ""
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
-"\\tab;Замечено:         многочисленные руины\n"
-"\\tab;Замечено:         гигантские муравьи\n"
-"\\tab;  - Опасность:       ?"
+"\\tab;Обнаружено:       много хлама \n"
+"\\tab;Обнаружено:       гигантские муравьи\n"
+"\\tab;  - Угроза:       ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "You should build a <a object|radar>radar</a> first."
-msgstr "Сначала вы должны построить <a object|radar>радар</a>."
+msgstr "Сначала Вы должны построить <a object|radar>Радар</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "The <a object|ant>ants</a> appear to be running away from you. Try to circle around each one of them until they find themselves trapped between you and a <a object|mine>mine</a>. They'll opt for the mine and blow themselves up."
-msgstr "Похоже, что <a object|ant>муравьи</a> убегают от вас. Попытайтесь обойти каждого из них пока они не окажутся в ловушке между вами и <a object|mine>миной</a>. Они предпочтут мину и подорвутся."
+msgstr "Похоже <a object|ant>муравьи</a> убегают от Вас. Попытайтесь обойти каждого из них пока они не окажутся в ловушке между Вами и <a object|mine>миной</a>. Они предпочтут мину и подорвутся."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Then bring the <a object|bbox>black box</a> aboard your ship. It is next to the derelict spaceship."
-msgstr "После этого доставьте на борт своего корабля <a object|bbox>черный ящик</a>. Он находится около обломков космического корабля."
+msgstr "Затем принесите <a object|bbox>Чёрный Ящик</a> на борт Вашего Корабля. Это рядом с заброшенным Космическим Кораблём."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:9
