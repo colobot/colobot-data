@@ -2,61 +2,61 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-15 12:56+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "System Failure"
-msgstr "Системная ошибка"
+msgstr "Системная Ошибка"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Pursue a rogue bot."
-msgstr "Преследуйте бота шалуна."
+msgstr "Преследуйте бота жулика."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We have just received this warning from the observation satellite: a rogue bot from the previous expedition has seized the black box from your spaceship."
-msgstr "Мы только что получили предупреждение с наблюдательного спутника: подлый бот из предыдущей экспедиции захватил с вашего корабля черный ящик."
+msgstr "Мы только что получили это предупреждение со Спутника наблюдения: бот жулик из предыдущей экспедиции схватил Чёрный Ящик с Вашего Космического Корабля."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "We are going to investigate this incident further but it is of vital importance that you retrieve your black box at once."
-msgstr "Мы собираемся тщательно расследовать обстоятельства этого происшествия, но для нас жизненно важно то, что вы должны вернуть этот черный ящик как можно быстрее."
+msgstr "Мы собираемся расследовать это происшествие в будущем, но жизненно важно, чтобы Вы немедленно вернули свой Чёрный Ящик."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СатКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
@@ -68,13 +68,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr "Геостацианарная орбита Кристаллиума."
+msgstr "Сейчас на геостационарной орбите Кристаллиума."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -93,16 +93,16 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Температура:      4.3C\n"
-"\\tab;Атмосфера:       азот\n"
-"\\tab;Ветер:             0.0 м/с\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Атмосфера:        азот\n"
+"\\tab;Ветер:            0.0 м/с\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -112,9 +112,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    нет\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          отсутствует\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:16
@@ -131,28 +131,28 @@ msgid ""
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
-"\\tab;Замечено:         гигантские муравьи\n"
-"\\tab;  - Опасность:       непрямая\n"
-"\\tab;Замечено:         неизвестные организмы\n"
-"\\tab;  - Опасность:       ?"
+"\\tab;Обнаружено:       гигантские муравьи\n"
+"\\tab;  - Угроза:       не сразу\n"
+"\\tab;Обнаружено:       неизвестные организмы\n"
+"\\tab;  - Угроза:       ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "If you lose the bot, it will drop the black box somewhere southwest of your spaceship on a region surrounded by crystals."
-msgstr "Если вы потеряете бота, он должен сбросить черный ящик где-то на юго-западе от вашего корабля в местности, окруженной кристаллами."
+msgstr "Если Вы потеряете бот, он бросит Чёрный Ящик где-то юго-западнее от Вашего Космического Корабля в районе, окружённом кристаллами."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "In case your power runs out before you can bring the black box back, use the second grabber left on the spaceship."
-msgstr "В случае, если у вас закончится энергия до того, как вы вернете черный ящик обратно, используйте второго сборщика слева от космического корабля."
+msgstr "Если Ваша энергия закончится до того, как Вы сможете вернуть Чёрный Ящик, используйте второго Погрузчика, оставленного на Космическом Корабле."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:7

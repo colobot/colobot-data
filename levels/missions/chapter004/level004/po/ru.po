@@ -2,25 +2,25 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-15 13:31+0300\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "The Lost Valley"
-msgstr "Заброшенная долина"
+msgstr "Потерянная Долина"
 
 #. type: Resume-text
 #: ../scene.txt:2
@@ -32,37 +32,37 @@ msgstr "Исследуйте туманную и опасную долину."
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr "Из центра управления миссии"
+msgstr "Из Центра Управления"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "This planet has turned out to be a very unlikely candidate for colonization. Better to leave it for good. Retrieve the <a object|bbox>black box</a> from the previous expedition and head towards the next planet."
-msgstr "Эта планета не является потенциальным кандидатом на колонизацию. Лучше оставить ее а покое. Найдите <a object|bbox>черный ящик</a> предыдущей экспедиции направляйтесь к следующей планете."
+msgstr "Эта планета оказалась очень маловероятным кандидатом на колонизацию. Лучше покинуть её навсегда. Верните <a object|bbox>Чёрный Ящик</a> предыдущей экспедиции и отправляйтесь к следующей планете."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The observation satellite has indicated that its present location is at the bottom of a valley. However the pervasive stratum of electromagnetic smog could make all satellite information rather undependable."
-msgstr "Спутник наблюдатель сообщил о том, что он находится на дне долины. Тем не менее, толстые слои электромагнитного смога могли стать причиной того, что спутник мог ошибиться."
+msgstr "Спутник наблюдения сообщил, что его нынешнее положение на дне долины. Однако повсеместный слой электромагнитного смога может сделать всю спутниковую информацию недостоверной."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Stay alert."
-msgstr "Будьте предельно внимательны."
+msgstr "Будьте бдительны."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr "<format key><key help/></format> позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома <button 63/>."
+msgstr "<format key><key help/></format> позволяет Вам просмотреть эти инструкции в любое время с помощью Вашего личного СатКом <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:10 ../help/soluce.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr "См. также"
+msgstr "Смотрите также"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
@@ -74,13 +74,13 @@ msgstr "<a command>Управление</a> и <a cbot>Язык CBOT</a>"
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr "Сообщение со спутника"
+msgstr "Спутниковый Отчёт"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Crystalium."
-msgstr "Геостацианарная орбита Кристаллиума."
+msgstr "Сейчас на геостационарной орбите Кристаллиума."
 
 #. type: Source code
 #: ../help/report.E.txt:4
@@ -99,16 +99,16 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Температура:      1.2C\n"
-"\\tab;Атмосфера:       азот\n"
-"\\tab;Ветер:             0.0 м/с\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Атмосфера:        азот\n"
+"\\tab;Ветер:            0.0 м/с\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr "-> ПОДПОЧВА<c/>"
+msgstr "-> НЕДРА<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -118,9 +118,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
-"\\tab;Источники энергии:    нет\n"
-"\\tab;Титановая руда:     нет\n"
-"\\tab;Урановая руда:      нет"
+"\\tab;Энергия:          отсутствует\n"
+"\\tab;Руда Титановая:   отсутствует\n"
+"\\tab;Руда Урановая:    отсутствует"
 
 #. type: Source code
 #: ../help/report.E.txt:16
@@ -135,26 +135,26 @@ msgid ""
 "\\tab;Detected:         electromagnetic smog\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
-"\\tab;Замечено:         electromagnetic smog\n"
-"\\tab;Замечено:         многочисленные руины"
+"\\tab;Обнаружено:       электромагнитный смог\n"
+"\\tab;Обнаружено:       много хлама"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr "Помощь"
+msgstr "Прохождение"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Somewhere northeast in the valley itself you should come across a fully functional <a object|station>power station</a>. Northwest you will find several <a object|power>power cells</a>."
-msgstr "Где-то на северо-востоке в какой-то из долин вы должны найти работающую <a object|station>электростанцию</a>. На северо-западе вы найдете несколько <a object|power>батарей</a>."
+msgstr "Где-то на северо-востоке в долине Вы столкнётесь с полностью действующей <a object|station>Энергозаправкой</a>. Северо-западней Вы найдёте несколько <a object|power>Батарей</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "A few shooters in working condition have been abandoned in and around the same area in the valley; use them to shoot all the ants. With the <a object|botgj>winged grabber</a>, you can then retrieve the <a object|bbox>black box</a> that is located behind the derelict spaceship and take off."
-msgstr "В том же месте в долине были покинуты несколько совершенно новых стрелков; с их помощью вы должны уничтожить всех муравьев. С помощью <a object|botgj>крылатого сборщика</a> вы можете найти <a object|bbox>черный ящик</a>, расположенный за старым космическим кораблем. После этого вы можете взлетать."
+msgstr "Несколько Стрелков в рабочем состоянии были заброшены в окрестностях долины; используйте их для уничтожения всех муравьёв. С помощью <a object|botgj>Погрузчика Крылатого</a>, Вы можете вернуть <a object|bbox>Чёрный Ящик</a>, который находится за заброшенным Космическим Кораблём и взлетайте."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:7
