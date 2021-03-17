@@ -7,13 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2021-03-16 12:09+0300\n"
+"PO-Revision-Date: 2021-03-17 16:52+0300\n"
+"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
+"Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: DavydovMA <davydovma@protonmail.ch>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,708,731\n"
 
@@ -23,28 +23,27 @@ msgstr ""
 msgid "Instruction <code>abstime</code>"
 msgstr "Инструкция <code>abstime</code>"
 
-#. type: Plain text
 #. type: Plain text, \t; header
-#: ../E/abstime.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/errmode.txt:5
-#: ../E/flatgrnd.txt:2 ../E/readln.txt:8 ../E/send.txt:2 ../E/strfind.txt:4
-#: ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4
-#: ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8
-#: ../E/testinfo.txt:2 ../E/writeln.txt:8 ../E/acos.txt:2 ../E/aim.txt:2
-#: ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14
+#: ../E/abstime.txt:2 ../E/acos.txt:2 ../E/aim.txt:2 ../E/asin.txt:2
+#: ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:14
 #: ../E/buildingenabled.txt:13 ../E/busy.txt:2 ../E/canbuild.txt:13
-#: ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/destroy.txt:2
-#: ../E/detect.txt:5 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2
-#: ../E/drop.txt:12 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatspace.txt:2
+#: ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/deletef.txt:6
+#: ../E/delinfo.txt:2 ../E/destroy.txt:2 ../E/detect.txt:5 ../E/dist.txt:18
+#: ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/errmode.txt:5
+#: ../E/factory.txt:2 ../E/fire.txt:10 ../E/flatgrnd.txt:2 ../E/flatspace.txt:2
 #: ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12
 #: ../E/if.txt:23 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8
 #: ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2
 #: ../E/pow.txt:2 ../E/produce.txt:2 ../E/radar.txt:14 ../E/radarall.txt:12
-#: ../E/rand.txt:2 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2
-#: ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2
-#: ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2
-#: ../E/sqrt.txt:2 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2
-#: ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19
-#: ../E/wait.txt:10
+#: ../E/rand.txt:2 ../E/readln.txt:8 ../E/receive.txt:2 ../E/recycle.txt:2
+#: ../E/research.txt:2 ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2
+#: ../E/search.txt:2 ../E/send.txt:2 ../E/shield.txt:2 ../E/sin.txt:2
+#: ../E/sniff.txt:2 ../E/space.txt:2 ../E/sqrt.txt:2 ../E/strfind.txt:4
+#: ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4
+#: ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/switch.txt:47
+#: ../E/takeoff.txt:2 ../E/tan.txt:2 ../E/testinfo.txt:2 ../E/thump.txt:2
+#: ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10
+#: ../E/writeln.txt:8
 #, no-wrap
 msgid "Syntax:"
 msgstr "Синтаксис:"
@@ -2877,9 +2876,9 @@ msgstr "Ссылки (для специалистов)"
 
 #. type: Plain text
 #: ../E/pointer.txt:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "CBOT uses references for <a cbot|class>classes</a> and <a cbot|array>arrays</a>. Any class variable actually contains a reference to the instance. The instance actually contains the class fields. Several references can reference the same instance. A <code><a cbot|null>null</a></code> reference references nothing. You can compare an instance to a suitcase and a reference to a carrier. Each time we need a new suitcase we create a new instance with a carrier. But a suitcase can be carried by more than one carrier. A carrier who carries no suitcase is a <code><a cbot|null>null</a></code> reference."
-msgstr "CBOT использует ссылки для <a cbot|class>классов</a> и <a cbot|array>массивов</a>. Любой класс содержит в себе ссылку на данный экземпляр. Экземпляр на самом деле содержит в себе ячейки классов. Некоторые ссылки могут ссылаться на ту же функцию. <code><a cbot|null>null</a></code> ссылка ссылается ни на что. You can compare an instance to a suitcase and a reference to a carrier. Each time we need a new suitcase we create a new instance with a carrier. But a suitcase can be carried by more than one carrier. A carrier who carries no suitcase is a <code><a cbot|null>null</a></code> reference."
+msgstr "CBOT использует ссылки для <a cbot|class>классов</a> и <a cbot|array>массивов</a>. Любой класс содержит в себе ссылку на данный экземпляр. Экземпляр на самом деле содержит в себе ячейки классов. Некоторые ссылки могут ссылаться на ту же функцию. <code><a cbot|null>null</a></code> ссылка ссылается ни на что. Вы можете сравнить экземпляр с чемоданом и ссылку с перевозчиком. Каждый раз, когда нам нужен новый чемодан, мы создаем новый экземпляр с перевозчиком. Но чемодан может перевозить не один перевозчик. Перевозчик, который не несёт чемодана, является <code><a cbot|null>null</a></code> ссылкой."
 
 #. type: Plain text
 #: ../E/pointer.txt:4
@@ -4123,7 +4122,7 @@ msgstr "<c/>\"%user%\\\\ant.txt\""
 #: ../E/string.txt:20
 #, no-wrap
 msgid "<n/>will result in <c/>%user%\\ant.txt"
-msgstr "<n/>приведет к <c/>%user%\ant.txt"
+msgstr "<n/>приведет к <c/>%user%\\ant.txt"
 
 #. type: Plain text
 #: ../E/string.txt:22
