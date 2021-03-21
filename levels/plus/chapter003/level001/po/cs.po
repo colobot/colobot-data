@@ -1,0 +1,158 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-07 13:47+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "On the Offensive"
+msgstr "Do útoku"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Develop an offensive weapons system and confront the giant ants."
+msgstr "Vyrobte útočný zbraňový systém a postavte se obřím mravencům."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid ""
+"Terminate all hostile life-form.\n"
+"Perform the necessary <a object|research>research program</a> in order to develop an offensive weapon system."
+msgstr ""
+"Zlikvidujte všechny nepřátelské organizmy.\n"
+"Spusťte nezbytný <a object|research>výzkumný program</a> pro vývoj útočného zbraňového systému."
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The satellite has detected an energy source, on a spot marked by the previous expedition with a blue flag (blue cross on the mini-map)."
+msgstr "Satelit objevil zdroj energie na místě, které předchozí výprava označila modrou vlajkou (modrý křížek na minimapě)."
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Do not forget to take a look at the satellite report <button 186/> before you venture any further in a mission; we suspect that you have not always done this."
+msgstr "Nezapomeňte se podívat na informace ze satelitu <button 186/>, než se pustíte do plnění mise. Máme obavu, že toto zanedbáváte."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "We have improved the recharge program. Please refer to the page <button 53/>."
+msgstr "Vylepšili jsme nabíjecí program. Podrobnosti najdete v seznamu programů <button 53/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "A note of warning: bots cannot be submerged. If in doubt, test the water yourself if you plan to radio-control a non-winged bot across - water shouldn't be deeper than knee-level."
+msgstr "Upozornění: Roboti se nemohou potápět. Pokud potřebujete zjistit, jestli pozemní robot dokáže bezpečně přebrodit vodu, vyzkoušejte hloubku sami - voda Vám nesmí sahat výše než po kolena."
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Tropica."
+msgstr "Aktuálně na stacionární oběžné dráze Tropiky."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      29.6C\n"
+"\\tab;Atmosphere:       helium, oxygen\n"
+"\\tab;Wind:             1.5 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           29,6 °C\n"
+"\\tab;Atmosféra:         helium, kyslík\n"
+"\\tab;Vítr:              1,5 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    isolated (blue flag)\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     lokální (modrá vlajka)\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         reusable derelicts"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     není bezprostřední\n"
+"\\tab;Nalezeno:          recyklovatelné vraky"

@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# ...
+# B-CE <.>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Transport"
+msgstr "Transport"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Develop your nuclear technology in order to increase your operating range."
+msgstr "Transportez une caisse d'explosif avec un véhicule équipé d'une pile atomique."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Instructions de Houston"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You need to retrieve an <a object|tnt>explosive device</a> that has been spotted in a deep valley next to a lake of boiling lava."
+msgstr "Ramener une <a object|tnt>caisse d'explosifs</a> que le satellite d'observation a localisée au fond d'une vallée encaissée."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
+msgstr "En raison de la température élevée, les réacteurs ne fonctionnent pas et le vol est impossible. Comme le chemin est long, vous devez équiper les robots de <a object|atomic>piles atomique</a> (recherche à faire) construites à base de <a object|uranore>minerai d'uranium</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "A more efficient program for the gathering of raw materials is attached to this message."
+msgstr "Nous vous avons envoyé un programme <code>ApporteTitane</code> plus performant (voir la page programme)."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "A note of warning: the explosive device is extremely volatile. Use extreme caution."
+msgstr "Attention: La caisse d'explosifs est très fragile. Vous devez vous en approcher avec la plus grande prudence. Au moindre choc, elle explose."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+
+#. type: \t; header
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Commandes</a>."
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Rapport du satellite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "En orbite géostationnaire autour de Volcano."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SURFACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      84.6C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             2.2 mps\n"
+"\\tab;Titanium ore:     everywhere\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Température:      84.6 degrés\n"
+"\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vent:             2.2 m/s\n"
+"\\tab;Minerai de titane:partout\n"
+"\\tab;Minerai d'uranium:par endroits"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SOUS-SOL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energie:          partout\n"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         unknown organisms\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Détecté:          ruines utilisables\n"
+"\\tab;Détecté:          organismes inconnus\n"
+"\\tab;  - Danger:       ?"

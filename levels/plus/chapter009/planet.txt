@@ -1,0 +1,15 @@
+AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
+FogColor air=0.816;0.784;0.875;0.000 water=0.369;0.600;0.706;0.000 // magenta
+VehicleColor color=0.784;0.769;0.682;0.000 // sable
+DeepView air=125.00 water=25.00
+FogStart air=0.9 water=0.5
+SecondTexture rank=1
+Background up=0.937;0.875;0.878;0.000 down=0.749;0.753;0.875;0.000 cloudUp=0.306;0.306;0.498;0.000 cloudDown=0.306;0.306;0.498;
+ForegroundName image="lens5.png"
+Planet pos=3.0;0.2 dim=0.35 speed= 0.001 dir=0.4 image="planet03.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet pos=0.0;0.7 dim=0.20 speed= 0.002 dir=0.3 image="planet03.png" uv1=0.0;0.5 uv2=0.5;1.0
+Planet pos=0.5;0.5 dim=0.15 speed=-0.005 dir=0.5 image="planet03.png" uv1=0.5;0.0 uv2=1.0;0.5
+
+TerrainGenerate vision=250.00 depth=1 slope=3.0 hard=0.3
+TerrainWind speed=-2.0;0.0
+TerrainCloud image="cloud02.png" level=87.5

@@ -1,0 +1,168 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-12 18:52+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Analysis"
+msgstr "Analýza"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Recover and analyze some organic matter."
+msgstr "Získejte a analyzujte trochu organické hmoty."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The previous expedition provided us with a piece of information about some <a object|bullet>organic matter</a>, which seems to be produced by the <a object|ant>ants</a>, and which opened startling new possibilities. It apparently allows the creation of a new type of mutant bot with enhanced performance through the use of insect parts."
+msgstr "Předchozí výprava nám poskytla několik informací o jakési <a object|bullet>organické hmotě</a>, kterou zřejmě produkují <a object|ant>mravenci</a> a která otevírá nové nečekané možnosti. Podle všeho umožňuje výrobu nových výkonnějších robotů s organickými částmi."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Your mission is to experiment with the first practical application of this \"green gold\". Build a <a object|botgs>legged grabber bot</a>, load it on the spaceship and take off."
+msgstr "Vaším úkolem je provést experiment s prvním praktickým využitím tohoto \"zeleného zlata.\" Vyrobte <a object|botgs>chodící rameno</a>, naložte ho do rakety a odleťte."
+
+#. type: \b; header
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Procedure"
+msgstr "Postup"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Take a sample of organic matter from a nest of giant ants. The analysis of it will be performed by an <a object|labo>autolab</a>, which will also perform the necessary research to allow a practical application."
+msgstr "Získejte vzorek organické hmoty z hnízda obřích mravenců. <a object|labo>Laboratoř</a> pak provede jeho analýzu včetně výzkumu nezbytného pro praktické využití."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "In order to improve your defense capacity, we have transmitted a program to your <a object|botgr>grabber bots</a> that takes care of recharging the power cell of a <a object|tower>defense tower</a> (see <button 53/> )."
+msgstr "Abychom zlepšili Vaši obranyschopnost, poslali jsme Vám program pro <a object|botgr>robotická ramena</a>, který se postará o dobíjení baterií <a object|tower>obranných věží</a> (viz <button 53/>)."
+
+#. type: \b; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Note"
+msgstr "Poznámka"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "The temperature has dropped significantly, it should therefore be possible to fly."
+msgstr "Teplota značně klesla, mělo by tedy být možné opět létat."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Aktuálně na stacionární oběžné dráze Vulkánu."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      53.1C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             0.3 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      little"
+msgstr ""
+"\\tab;Teplota:           53,1 °C\n"
+"\\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Vítr:              0,3 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      málo"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       yes, not immediate\n"
+"\\tab;Detected:         unknown flying organisms\n"
+"\\tab;  - Danger:       yes, immediate"
+msgstr ""
+"\\tab;Nalezeno:          obří mravenci\n"
+"\\tab;  - Nebezpečí:     ano, není bezprostřední\n"
+"\\tab;Nalezeno:          neznámé létající organizmy\n"
+"\\tab;  - Nebezpečí:     ano, bezprostřední"
