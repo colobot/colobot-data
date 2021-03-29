@@ -946,25 +946,25 @@ msgstr "<code>Thumper</code>"
 #: ../E/botdraw.txt:1
 #, no-wrap
 msgid "TODO"
-msgstr ""
+msgstr "TODO"
 
 #. type: \b; header
 #: ../E/botbc.txt:1
 #, no-wrap
 msgid "<button 193/> Tracked Builder"
-msgstr ""
+msgstr "<button 193/> Budowniczy na gąsienicach"
 
 #. type: Image filename
 #: ../E/botbc.txt:2
 #, no-wrap
 msgid "botbc"
-msgstr ""
+msgstr "botbc"
 
 #. type: Plain text
 #: ../E/botbc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with a neutron gun."
-msgstr ""
+msgstr "Robot na gąsienicach wyposażony w działo neutronowe"
 
 #. type: Plain text
 #: ../E/botbc.txt:5 ../E/botbj.txt:5 ../E/botbr.txt:5 ../E/botbs.txt:5
@@ -986,111 +986,126 @@ msgid ""
 "<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
 "<button 175/>   <code><a object|safe>Vault</a>            </code>Vault"
 msgstr ""
+"<button 196/> Otwiera menu budowania z następującymi opcjami:\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Fabryka robotów\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Centrum badawcze\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Stacja przekaźnikowa informacji\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Warsztat\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Wieża obronna\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Laboratorium\n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Stacja energetyczna\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Elektrownia\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Elektrownia atomowa\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Huta\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Kopalnia\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Stacja odgromnikowa\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Skrytka"
 
 #. type: Plain text
 #: ../E/botbc.txt:21
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botbr>wheeled builder</a> is a better option. When it is possible to build <a object|botbj>winged bots</a>, these represent the best solution for long distances."
-msgstr ""
+msgstr "Roboty na gąsienicach mogą pokonywać strome pochyłości ale są raczej powolne i zużywają mnóstwo energii. Na płaskim terenie na krótszych dystansach lepszym wyborem jest <a object|botbr>budowniczy na kołach</a>. Gdy jest to możliwe, zbudowanie <a object|botbj>budowniczego latającego</a> jest najlepszym sposobem pokonywania dużych odległości."
 
 #. type: Plain text
 #: ../E/botbc.txt:26 ../E/botbj.txt:26 ../E/botbr.txt:26 ../E/botbs.txt:26
 #, no-wrap
 msgid "To program the neutron gun, use <code><a cbot|build>build</a></code>."
-msgstr ""
+msgstr "Do zaprogramowania działa neutronowego można użyć instrukcji <code><a cbot|build>build</a></code>."
 
 #. type: Plain text
 #: ../E/botbc.txt:29
 #, no-wrap
 msgid "<code>TrackedBuilder</code>"
-msgstr ""
+msgstr "<code>TrackedBuilder</code>"
 
 #. type: \b; header
 #: ../E/botbj.txt:1
 #, no-wrap
 msgid "<button 194/> Winged Builder"
-msgstr ""
+msgstr "<button 194/> Budowniczy latający"
 
 #. type: Image filename
 #: ../E/botbj.txt:2
 #, no-wrap
 msgid "botbj"
-msgstr ""
+msgstr "botbj"
 
 #. type: Plain text
 #: ../E/botbj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped with a neutron gun."
-msgstr ""
+msgstr "Latający robot z napędem odrzutowym wyposażony w ramię chwytające."
 
 #. type: Plain text
 #: ../E/botbj.txt:21
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botbr>wheeled builder</a> instead."
-msgstr ""
+msgstr "Roboty latające mogą przemieszczać się ponad naturalnymi przeszkodami, takimi jak góry lub jeziora ale ich zapas energii szybko się zużywa. Na ziemi są one powolne. Na krótkich odległościach, nie wymagających latania, polecane jest użycie <a object|botbr>budowniczego na kołach</a>."
 
 #. type: Plain text
 #: ../E/botbj.txt:29
 #, no-wrap
 msgid "<code>WingedBuilder</code>"
-msgstr ""
+msgstr "<code>Budowniczy latający</code>"
 
 #. type: \b; header
 #: ../E/botbr.txt:1
 #, no-wrap
 msgid "<button 192/> Wheeled Builder"
-msgstr ""
+msgstr "<button 192/> Budowniczy na kołach"
 
 #. type: Image filename
 #: ../E/botbr.txt:2
 #, no-wrap
 msgid "botbr"
-msgstr ""
+msgstr "botbr"
 
 #. type: Plain text
 #: ../E/botbr.txt:3
 #, no-wrap
 msgid "Wheeled bot equipped with a neutron gun."
-msgstr ""
+msgstr "Robot na kołach wyposażony w działo neutronowe."
 
 #. type: Plain text
 #: ../E/botbr.txt:21
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botbj>winged builder</a> instead, or, if this is impossible, a <a object|botbc>tracked builder</a>."
-msgstr ""
+msgstr "Koła to standardowy, szybki i energooszczędny sposób napędu, idealny do poruszania się po relatywnie płaskich powierzchniach. Na pochyłym terenie polecane jest użycie <a object|botbj>budowniczego latającego</a>, a jeśli jest to niemożliwe, <a object|botbc>budowniczego na gąsienicach</a>."
 
 #. type: Plain text
 #: ../E/botbr.txt:29
 #, no-wrap
 msgid "<code>WheeledBuilder</code>"
-msgstr ""
+msgstr "<code>WheeledBuilder</code>"
 
 #. type: \b; header
 #: ../E/botbs.txt:1
 #, no-wrap
 msgid "<button 195/> Legged Builder"
-msgstr ""
+msgstr "<button 195/> Budowniczy na nogach"
 
 #. type: Image filename
 #: ../E/botbs.txt:2
 #, no-wrap
 msgid "botbs"
-msgstr ""
+msgstr "botbs"
 
 #. type: Plain text
 #: ../E/botbs.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with a neutron gun."
-msgstr ""
+msgstr "Robot pełzający na mrówczych odnóżach, wyposażony w działo neutronowe."
 
 #. type: Plain text
 #: ../E/botbs.txt:21
 #, no-wrap
 msgid "A moving legged builder uses up half as much energy as a <a object|botbr>wheeled builder</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr ""
+msgstr "Podczas poruszania się, budowniczy na nogach zużywa o połowę mniej energii od <a object|botbr>budowniczego na kołach</a>. Robot na nogach jest też idealnie przystosowany do wspinania się nawet po najbardziej stromych pochyłościach."
 
 #. type: Plain text
 #: ../E/botbs.txt:29
 #, no-wrap
 msgid "<code>LeggedBuilder</code>"
-msgstr ""
+msgstr "<code>LeggedBuilder</code>"
