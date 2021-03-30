@@ -78,7 +78,7 @@ extern void object::Attack( )
 					do 
 					{
 						wait(1); //tant que pas dans la zone
-                        if (radar(TargetBot, 0, 360, 0, 30) != null)
+						if (radar(TargetBot, 0, 360, 0, 30) != null)
 						{
 							BeScared();
 							break;
