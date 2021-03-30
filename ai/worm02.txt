@@ -26,11 +26,16 @@ extern void object::Attack( )
 	list[i++] = TrackedSniffer;
 	list[i++] = WheeledSniffer;
 	list[i++] = LeggedSniffer;
+	list[i++] = WingedBuilder;
+	list[i++] = TrackedBuilder;
+	list[i++] = WheeledBuilder;
+	list[i++] = LeggedBuilder;
 	list[i++] = Thumper;
 	list[i++] = PhazerShooter;
 	list[i++] = Recycler;
 	list[i++] = Shielder;
 	list[i++] = Subber;
+	list[i++] = TargetBot;
 	list[i++] = RadarStation;
 //	list[i++] = DefenseTower;
 
