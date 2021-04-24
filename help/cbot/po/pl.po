@@ -628,7 +628,7 @@ msgstr ""
 "<code>a <  b  </code><code>a</code> mniejsze od <code>b</code>\n"
 "<code>a <= b  </code><code>a</code> mniejsze od lub równe <code>b</code>\n"
 "<code>a >  b  </code><code>a</code> większe od <code>b</code>\n"
-"<code>a >= b  </code><code>a</code> wi��ksze od lub równe <code>b</code>"
+"<code>a >= b  </code><code>a</code> większe od lub równe <code>b</code>"
 
 #. type: Plain text
 #: ../E/expr.txt:124
@@ -5850,7 +5850,7 @@ msgstr "Zaokrągla liczbę."
 #: ../E/ceil.txt:10
 #, no-wrap
 msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
-msgstr "Zaokrąglona wartość, tzn. najmniejsza liczba całkowita nie mniejsza od <code>wartosc</code>. Dla przykładu, <code>ceil(2.1)</code> da w wyniku <code>3.0</code>."
+msgstr "Zaokrąglona wartość, tzn. najmniejsza liczba całkowita nie mniejsza od <code>wartosc</code>. Na przykład, <code>ceil(2.1)</code> da w wyniku <code>3.0</code>."
 
 #. type: Plain text
 #: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
@@ -5946,7 +5946,7 @@ msgstr "Instrukcja <code>cos</code>"
 #: ../E/cos.txt:3
 #, no-wrap
 msgid "<c/>cos ( angle );<n/>"
-msgstr "<c/>cos ( kat );<n/>"
+msgstr "<c/>cos ( kąt );<n/>"
 
 #. type: Plain text
 #: ../E/cos.txt:6 ../E/sin.txt:6
@@ -6340,7 +6340,7 @@ msgstr ""
 #: ../E/function.txt:68
 #, no-wrap
 msgid "The <code>Example</code> function will receive an <a cbot|int>integer</a> <code>a</code>, a <a cbot|float>floating point number</a> <code>x</code> and a <a cbot|string>string</a> <code>s</code>. Parameters are \"passed by value\", that is the values of parameter variables in a function are copies of the values the caller specified as variables. If you pass an <code><a cbot|int>int</a></code> to a function, its parameter is a copy of whatever value was being passed as the argument, and the function can change its parameter value without affecting values in the code that invoked the function."
-msgstr "Funkcja <code>Przyklad</code> otrzyma <a cbot|int>liczbę całkowitą</a> <code>a</code>, <a cbot|float>liczbę rzeczywistą</a> <code>x</code> i <a cbot|string>łańcuch znaków</a> <code>s</code>. Parametry są \"przekazywane wartościami\", tzn. wartości zmiennych parametrów w funkcji są kopiami wartości, które zostały do niej przekazane. Jeśli przekażesz funkcji wartość typu <code><a cbot|int>int</a></code>, wartość ta zostanie skopiowana do parametru i funkcja będzie mogła na niej operować, nie zmieniając jednocześnie wartości w kodzie, który ją wywołał."
+msgstr "Funkcja <code>Przyklad</code> otrzyma <a cbot|int>liczbę całkowitą</a> <code>a</code>, <a cbot|float>liczbę zmiennoprzecinkową</a> <code>x</code> i <a cbot|string>łańcuch znaków</a> <code>s</code>. Parametry są \"przekazywane wartościami\", tzn. wartości zmiennych parametrów w funkcji są kopiami wartości, które zostały do niej przekazane. Jeśli przekażesz funkcji wartość typu <code><a cbot|int>int</a></code>, wartość ta zostanie skopiowana do parametru i funkcja będzie mogła na niej operować, nie zmieniając jednocześnie wartości w kodzie, który ją wywołał."
 
 #. type: Plain text
 #: ../E/function.txt:70
@@ -6856,7 +6856,7 @@ msgstr "Ostatnie trzy są używane głównie w <a battles>programobitwach</a>. M
 #: ../E/radar.txt:63
 #, no-wrap
 msgid "Filters and IDs can be mixed using bitwise OR operator <code>|</code>, for example <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> will only detect an object from team <code>2</code> that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once."
-msgstr "Filtry i numery ID mogą być używane jednocześnie używając operatora logicznego LUB <code>|</code>, na przykład <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> wykryje wyłącznie obiekty z drużyny <code>2</code> znajdujące się na ziemi. Uwaga: możesz określić numer ID tylko jednej drużyny naraz, ale możesz używać wielu filtrów jednocześnie."
+msgstr "Filtry i numery ID mogą być używane jednocześnie używając operatora logicznego OR <code>|</code>, na przykład <c/>radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);<n/> wykryje wyłącznie obiekty z drużyny <code>2</code> znajdujące się na ziemi. Uwaga: możesz określić numer ID tylko jednej drużyny naraz, ale możesz używać wielu filtrów jednocześnie."
 
 #. type: \b; header
 #: ../E/rand.txt:1
@@ -6994,7 +6994,7 @@ msgstr "Wykrywa obiekt danej kategorii znajdujący się najbliżej określonej p
 #: ../E/search.txt:8
 #, no-wrap
 msgid "<a cbot|category>Category</a> of the objects that should be detected. For example, when you are looking for an ant, write <code>search(AlienAnt)</code>. "
-msgstr "<a cbot|category>Kategoria</a> obiektu które powinny zostać wykryte. Dla przykładu, gdy szukasz mrówek, napisz <code>search(AlienAnt)</code>. "
+msgstr "<a cbot|category>Kategoria</a> obiektu które powinny zostać wykryte. Na przykład, gdy szukasz mrówek, napisz <code>search(AlienAnt)</code>. "
 
 #. type: Bullet: 'o'
 #: ../E/search.txt:9
@@ -7072,13 +7072,13 @@ msgstr "Pierwiastek kwadratowy wartości."
 #: ../E/switch.txt:1
 #, no-wrap
 msgid "Instructions <code>switch</code>, <code>case</code> and <code>default</code>"
-msgstr "Instrukcje <code>switch</code> <code>case</code> i <code>default</code>"
+msgstr "Instrukcje <code>switch</code>, <code>case</code> i <code>default</code>"
 
 #. type: Plain text
 #: ../E/switch.txt:2
 #, no-wrap
 msgid "With the instruction <code>switch() {}</code> you can execute a proper set of instructions (a case) basing on some value."
-msgstr "Z instrukcją <code>switch() {}</code> możesz wykonać wybrany zestaw instrukcji na podstawie pewnej wartości."
+msgstr "Za pomocą instrukcji <code>switch() {}</code> możesz wykonać określony zestaw instrukcji, zależny od podanej wartości."
 
 #. type: Plain text
 #: ../E/switch.txt:7
@@ -7178,7 +7178,7 @@ msgstr ""
 #: ../E/switch.txt:44
 #, no-wrap
 msgid "<a object|convert>Converter</a> and <a object|factory>bot factory</a> have the same waiting time, so in order to not write the same instructions twice, we made multiple cases run the same code. In fact, all code after the highest case used will be executed if we do not <code><a cbot|break>break</a></code> it."
-msgstr "<a object|convert>Huta</a> i <a object|factory>fabryka robotów</a> mają ten sam czas działania, więc by nie pisać dwa razy tego samego kodu sprawiliśmy, by różne wartości uruchamiały ten sam kod. Zauważ, że cały kod po pierwszej wartości zostanie wykonany jeśli nie umieścimy instrukcji <code><a cbot|break>przerwy</a></code>."
+msgstr "<a object|convert>Huta</a> i <a object|factory>fabryka robotów</a> mają ten sam czas działania, więc by nie pisać dwa razy tego samego kodu sprawiliśmy, by różne wartości uruchamiały ten sam kod. Zauważ, że cały kod po pierwszej wartości zostanie wykonany jeśli nie umieścimy instrukcji <code><a cbot|break>break</a></code>."
 
 #. type: Source code
 #: ../E/switch.txt:48
@@ -7199,7 +7199,7 @@ msgstr ""
 "\tcase wartosc2: instrukcje2\n"
 "\t...\n"
 "\tcase wartoscN: instrukcjeN\n"
-"\tdefault: instrukcjedomyslne\n"
+"\tdefault: instrukcjeDomyślne\n"
 "}"
 
 #. type: Plain text
@@ -7294,7 +7294,7 @@ msgstr "<c/>trunc ( wartość );<n/>"
 #: ../E/trunc.txt:4
 #, no-wrap
 msgid "Truncation is a method of approximating a decimal number by dropping all decimal places past a certain point without rounding. For positive numbers, it works like the <c/><a cbot|floor>floor();</a><n/> function, and for negative numbers, it works like the <c/><a cbot|ceil>ceil();</a><n/> function. It can be said that it rounds towards zero."
-msgstr "Obcinanie jest metodą określania liczby dziesiętnej przez usunięcie wszystkich cyfr od określonego momentu bez zaokrąglania. Dla liczb dodatnich, działa to jak funkcja <c/><a cbot|floor>floor();</a><n/>, a dla liczb ujemnych działa jak funkcja <c/><a cbot|ceil>ceil();</a><n/>. Można powiedzieć że funkcja ta zaokrągla w stronę zera."
+msgstr "Obcinanie jest metodą określania liczby dziesiętnej przez usunięcie wszystkich cyfr od określonego miejsca bez zaokrąglania. Dla liczb dodatnich, działa to jak funkcja <c/><a cbot|floor>floor();</a><n/>, a dla liczb ujemnych działa jak funkcja <c/><a cbot|ceil>ceil();</a><n/>. Można powiedzieć że funkcja ta zaokrągla w stronę zera."
 
 #. type: Plain text
 #: ../E/trunc.txt:10
@@ -7520,7 +7520,7 @@ msgstr "<code>=</code> jest operatorem przypisania. Używany jest do przechowywa
 #: ../E/expr.txt:38
 #, no-wrap
 msgid "On the left side of this operator there must be so called l-value and on the right side - r-value. L-values are just <a cbot|var>variables</a><n/>, r-values are expressions or just usual values. This makes the assignment operator kind of special, because what is l-value is pretty restrictive (it cannot be an expression, constant and so on, only single variable). Also, the type of l-value must match the type of r-value (unless a conversion is possible, for example assigning a <code><a cbot|float>float</a></code> to <code><a cbot|int>int</a></code>)."
-msgstr "Po lewej stronie tego operatora musi znaleźć się tak zwana l-wartość a po prawej stronie - p-wartość. L-wartości to po prostu <a cbot|var>zmienne</a><n/>, natomiast r-wartości są wyrażeniami lub zwykłymi wartościami. To sprawia że operator przypisania jest dość unikatowy, ponieważ nie wszystko może być l-wartością (nie może to być wyrażenie, stała i podobne, jedynie pojedyncza zmienna). Oprócz tego, typ l-wartości musi mieć ten sam typ co r-wartość (chyba że możliwa jest konwersja, na przykład przypisanie <code><a cbot|float>liczby rzeczywistej</a></code> do <code><a cbot|int>liczby całkowitej</a></code>)."
+msgstr "Po lewej stronie tego operatora musi znaleźć się tak zwana l-wartość a po prawej stronie - p-wartość. L-wartości to po prostu <a cbot|var>zmienne</a><n/>, natomiast r-wartości są wyrażeniami lub zwykłymi wartościami. To sprawia że operator przypisania jest dość unikatowy, ponieważ nie wszystko może być l-wartością (nie może to być wyrażenie, stała i podobne, jedynie pojedyncza zmienna). Oprócz tego, typ l-wartości musi mieć ten sam typ co r-wartość (chyba że możliwa jest konwersja, na przykład przypisanie <code><a cbot|float>float</a></code> do <code><a cbot|int>int</a></code>)."
 
 #. type: Source code
 #: ../E/expr.txt:42
@@ -7558,7 +7558,7 @@ msgstr "Podstawowe operacje arytmetyczne"
 #: ../E/expr.txt:51
 #, no-wrap
 msgid "Binary operators below are working with fundamental number types (<code><a cbot|int>int</a></code>, <code><a cbot|float>float</a></code>)."
-msgstr "Operatory binarne poniżej działają z podstawowymi typami liczb (<code><a cbot|int>liczba całkowita</a></code>, <code><a cbot|float>liczba rzeczywista</a></code>)."
+msgstr "Operatory binarne poniżej działają z podstawowymi typami liczb (<code><a cbot|int>int</a></code>, <code><a cbot|float>float</a></code>)."
 
 #. type: \t; header
 #: ../E/expr.txt:53 ../E/expr.txt:89 ../E/expr.txt:115 ../E/expr.txt:140 ../E/expr.txt:163
@@ -7580,7 +7580,7 @@ msgstr ""
 "<code>-</code>  odejmowanie\n"
 "<code>*</code>  mnożenie\n"
 "<code>/</code>  dzielenie\n"
-"<code>%</code>  reszta z dzielenia (tylko dla <code><a cbot|int>liczb całkowitych</a></code>)"
+"<code>%</code>  reszta z dzielenia (tylko dla <code><a cbot|int>int</a></code>)"
 
 #. type: \t; header
 #: ../E/expr.txt:60
@@ -7598,7 +7598,7 @@ msgstr "Operatory <code>*</code>, <code>/</code>, <code>%</code> mają pierwsze�
 #: ../E/expr.txt:62
 #, no-wrap
 msgid "The result <a cbot|type>type</a> is always <code><a cbot|float>float</a></code>. If <code>a</code> or <code>b</code> are of type <code><a cbot|int>int</a></code>, they are automatically converted to <code><a cbot|float>float</a></code>. Note: this means that results of intermediate calculations tends to be as precise as possible, the precision is lost only during converting the final (<code><a cbot|float>float</a></code>) result to <code><a cbot|int>int</a></code>, for example by the assignment <code>=</code> operator."
-msgstr "Wynikowym <a cbot|type>typem</a> zawsze jest <code><a cbot|float>liczba rzeczywista</a></code>. Jeśli <code>a</code> lub <code>b</code> są typu <code><a cbot|int>całkowitego</a></code>, zostaną automatycznie przekonwertowane do <code><a cbot|float>liczby rzeczywistej</a></code>. Uwaga: to oznacza że wyniki obliczeń pośrednich będą tak dokładne jak to możliwe, precyzja jest tracona tylko podczas konwersji finałowego (<code><a cbot|float>rzeczywistego</a></code>) wyniku do <code><a cbot|int>liczby całkowitej</a></code>, na przykład przez operator <code>=</code>."
+msgstr "Wynikowym <a cbot|type>typem</a> zawsze jest <code><a cbot|float>float</a></code>. Jeśli <code>a</code> lub <code>b</code> są typu <code><a cbot|int>int</a></code>, zostaną automatycznie przekonwertowane do <code><a cbot|float>float</a></code>. Uwaga: to oznacza że wyniki obliczeń pośrednich będą tak dokładne jak to możliwe, precyzja jest tracona tylko podczas konwersji finałowego (<code><a cbot|float>float</a></code>) wyniku do <code><a cbot|int>int</a></code>, na przykład przez operator <code>=</code>."
 
 #. type: \t; header
 #: ../E/expr.txt:64
@@ -7646,7 +7646,7 @@ msgstr "Łączenie łańcuchów znaków"
 #: ../E/expr.txt:97
 #, no-wrap
 msgid "If at least one of the values used with the <code>+</code> operator is a <a cbot|string>string</a>, then the operation of concatenation is performed. The result of the operator is then a string, which is created by joining end-to-end the string and the other value. If the other value is not a string, then it is converted to string beforehand."
-msgstr "Jeśli przynajmniej jedna z wartości używanych z operatorem <code>+</code> jest <a cbot|string>łańcuchem znaków</a>, wtedy wykonywana jest operacja łączenia. Wynik operatora w takim razie jest łańcuchem znaków tworzonym przez dołączenie do łańcucha znaków innej wartości. Jeśli inna wartość nie jest łańcuchem, wtedy zostaje przekonwertowana w locie."
+msgstr "Jeśli przynajmniej jedna z wartości używanych z operatorem <code>+</code> jest <a cbot|string>łańcuchem znaków</a>, wtedy wykonywana jest operacja łączenia. Wynik operatora w takim razie jest łańcuchem znaków tworzonym przez dołączenie do łańcucha znaków innej wartości. Jeśli inna wartość nie jest łańcuchem zostaje najpierw przekonwertowana."
 
 #. type: Source code
 #: ../E/expr.txt:101
@@ -7708,19 +7708,19 @@ msgstr "Wynik operacji <code>a++</code> jest równy wartości zmiennej <code>a</
 #: ../E/expr.txt:4
 #, no-wrap
 msgid "Specifically speaking, an expression is an ordered series of operations which yield a result. Operations consist of operators, which are special <a cbot|function>functions</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, where <code>xi</code> is a value of type <code>ti</code>, and <code>T</code> is the result type. For example, <code>float +(float a, float b)</code> returns a sum of values <code>a</code> and <code>b</code>. Note: Operators are a part of the CBOT language and they cannot be defined in program. Also, the operators cannot be used as usual <a cbot|function>functions</a>, they need to be written using a special notation depending on the operator, for example <code>a+b</code>."
-msgstr "Dokładniej rzecz ujmując, wyrażenie jest uporządkowaną serią działań przynoszącą pewien wynik. Działania składają się z operatorów, które są specjalnymi <a cbot|function>funkcjami</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, gdzie <code>xi</code> jest wartością typu <code>ti</code>, a <code>T</code> jest typem wyniku. Na przykład, <code>float +(float a, float b)</code> zwraca sumę wartości <code>a</code> i <code>b</code>. Uwaga: Operatory są częścią języka CBOT i nie mogą być zdefiniowane w programie. Oprócz tego, operatory nie mogą być używane jak zwykłe <a cbot|function>funkcje</a>, one muszą być zapisane używając specjalnej notacji zależnej od operatora, na przykład <code>a+b</code>."
+msgstr "Dokładniej rzecz ujmując, wyrażenie jest uporządkowaną serią działań przynoszącą pewien wynik. Działania składają się z operatorów, które są specjalnymi <a cbot|function>funkcjami</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, gdzie <code>xi</code> jest wartością typu <code>ti</code>, a <code>T</code> jest typem wyniku. Na przykład, <code>float +(float a, float b)</code> zwraca sumę wartości <code>a</code> i <code>b</code>. Uwaga: Operatory są częścią języka CBOT i nie mogą być zdefiniowane w programie. Oprócz tego, operatory nie mogą być używane jak zwykłe <a cbot|function>funkcje</a>, muszą być zapisane używając specjalnej notacji zależnej od operatora, na przykład <code>a+b</code>."
 
 #. type: Plain text
 #: ../E/expr.txt:6
 #, no-wrap
 msgid "In nearly all operations, <a cbot>constants</a>, <a cbot|var>variables</a>, <a cbot|function>functions</a> returning non-<a cbot|void>void</a> type and also other operations can be used as values."
-msgstr "W niemal każdym działaniu, <a cbot>stałe</a>, <a cbot|var>zmienne</a>, <a cbot|function>funkcje</a> zwracające wartości typu nie-<a cbot|void>pustego</a> i inne działania mogą być użyte jako wartości."
+msgstr "W niemal każdym działaniu <a cbot>stałe</a>, <a cbot|var>zmienne</a>, <a cbot|function>funkcje</a> zwracające wartości typu nie-<a cbot|void>pustego</a> i inne działania mogą być użyte jako wartości."
 
 #. type: Plain text
 #: ../E/expr.txt:40
 #, no-wrap
 msgid "Note: it may be not obvious at first, but notice that <code>=</code> is an *operator* not an instruction. This mean that it can be used in the middle of an other expression! The result of <code>=</code> is the value which was assigned to the l-value - the result of the expression on the right. Example:"
-msgstr "Uwaga: to może nie być oczywiste na początku, ale zauważ że <code>=</code> jest *operatorem*, nie instrukcją. To oznacza że może zostać użyty w innym wyrażeniu! Wynik operatora <code>=</code> jest wartością która została przypisana do l-wartości - wynik wyrażenia po prawej. Przykład:"
+msgstr "Uwaga: to może nie być oczywiste na początku, ale zauważ że <code>=</code> jest *operatorem*, nie instrukcją. To oznacza, że może zostać użyty przy tworzeniu innego wyrażenia! Wynik operatora <code>=</code> jest wartością która została przypisana do l-wartości - inaczej mówiąc, operator ten zwraca wynik działania po jego prawej stronie. Przykład:"
 
 #. type: Source code
 #: ../E/expr.txt:66
@@ -7818,7 +7818,7 @@ msgid ""
 "<code>(condition) ? (result when true) : (result when false)</code>\n"
 "Brackets are not needed."
 msgstr ""
-"Operator trójskładnikowy to nic więcej niż skrót składniowy. Jest również znany jako \"skrócony if\". To może być na początku niejasne, ponieważ jego składnia jest trochę bardziej skomplikowana w porównaniu do innych operatorów. Można to opisać w następujący sposób:\n"
+"Operator trójskładnikowy to nic więcej niż skrót składniowy. Jest również znany jako \"skrócony if\". To może być na początku niejasne, ponieważ jego składnia jest trochę bardziej skomplikowana w porównaniu z innymi operatorami. Można to opisać w następujący sposób:\n"
 "<code>(warunek) ? (wynik jeśli prawda) : (wynik jeśli fałsz)</code>\n"
 "Nawiasy nie są wymagane."
 
@@ -7938,7 +7938,7 @@ msgstr ""
 "int    [ ] a;   // tablica typu całkowitego\n"
 "int    a [12];  // tablica typu całkowitego ograniczona do 12 elementów\n"
 "string s[3];    // tablica 3 łańcuchów znaków\n"
-"float  xy[][];  // 2-wymiarowa tablica liczb rzeczywistych"
+"float  xy[][];  // 2-wymiarowa tablica liczb zmiennoprzecinkowych"
 
 #. type: \b; header
 #: ../E/array.txt:30
@@ -8008,13 +8008,13 @@ msgstr "<c/>radarall ( kategoria, kąt, zakres, minimum, maksimum, sens, filtr )
 #: ../E/radarall.txt:15
 #, no-wrap
 msgid "The function works generally the same as the <c/><a cbot|radar>radar</a>();<n/> function with the only difference being that it returns an <a cbot|array>array</a> of <a cbot|object>objects</a> instead of one object. If no object is found, <code><a cbot|null>null</a></code> is returned."
-msgstr "Ta funkcja w gruncie rzeczy działa tak samo jak funkcja <c/><a cbot|radar>radar</a>();<n/>, z tą różnicą że zwraca <a cbot|array>tablicę</a> <a cbot|object>obiektów</a> zamiast jednego obiektu. Jeśli żaden obiekt nie został znaleziony, zwracana jest wartość <code><a cbot|null>null</a></code>."
+msgstr "Ta funkcja w gruncie rzeczy działa tak samo jak funkcja <c/><a cbot|radar>radar</a>();<n/>. Różnica polega na tym, że zwraca ona <a cbot|array>tablicę</a> <a cbot|object>obiektów</a> zamiast jednego obiektu. Jeśli żaden obiekt nie został znaleziony, zwracana jest wartość <code><a cbot|null>null</a></code>."
 
 #. type: Plain text
 #: ../E/radarall.txt:17
 #, no-wrap
 msgid "The order of objects in the returned array is sorted by distance and depends on the <code>sens</code> parameter. The first object in the array is the object which would be returned by the <c/>radar();<n/> function called with the exactly same parameters."
-msgstr "Kolejność obiektów w zwróconej tablicy jest określona przez dystans i zależy od parametru <code>sens</code>. Pierwszy obiekt w tablicy jest obiektem który byłby zwrócone przez funkcję <c/>radar();<n/> wywołaną z tymi samymi parametrami."
+msgstr "Kolejność obiektów w zwróconej tablicy jest określona przez dystans i zależy od parametru <code>sens</code>. Pierwszy obiekt w tablicy jest tym obiektem, który byłby zwrócony przez funkcję <c/>radar();<n/> wywołaną z tymi samymi parametrami."
 
 #. type: Plain text
 #: ../E/radarall.txt:20
@@ -8038,7 +8038,7 @@ msgstr "Ten zestaw instrukcji zostanie wykonany po każdym przebiegu pętli."
 #: ../E/for.txt:38
 #, no-wrap
 msgid "Executing more instructions"
-msgstr "Wykonywanie więcej instrukcji"
+msgstr "Wykonywanie wielu instrukcji"
 
 #. type: Plain text
 #: ../E/for.txt:39
@@ -8155,10 +8155,10 @@ msgstr ""
 "<button 161/>   <code><a object|derrick>Derrick</a>          </code>Kopalnia\n"
 "<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Stacja odgromnikowa\n"
 "<button 175/>   <code><a object|safe>Vault</a>            </code>Skrytka\n"
-"       <code><a object|start>StartArea</a>        </code>Platforma startowa\n"
-"       <code><a object|goal>GoalArea</a>         </code>Platforma końcowa\n"
-"       <code><a object|target1>Target1</a>          </code>Latający cel\n"
-"       <code><a object|nest>AlienNest</a>        </code>Gniazdo obcych"
+"      <code><a object|start>StartArea</a>        </code>Platforma startowa\n"
+"      <code><a object|goal>GoalArea</a>         </code>Platforma końcowa\n"
+"      <code><a object|target1>Target1</a>          </code>Latający cel\n"
+"      <code><a object|nest>AlienNest</a>        </code>Gniazdo obcych"
 
 #. type: Plain text
 #: ../E/class.txt:10
@@ -8170,13 +8170,13 @@ msgstr "Klasy mogą być wyłącznie <a cbot|public>publiczne</a>. To oznacza ż
 #: ../E/class.txt:12
 #, no-wrap
 msgid "Class Members"
-msgstr "Członkowie klasy"
+msgstr "Elementy klasy"
 
 #. type: Plain text
 #: ../E/class.txt:13
 #, no-wrap
 msgid "Class members are fields (<a cbot|var>variables</a>) and methods (<a cbot|function>functions</a>)."
-msgstr "Członkowie klasy to pola (<a cbot|var>zmienne</a>) i metody (<a cbot|function>funkcje</a>)."
+msgstr "Elementy klasy to pola (<a cbot|var>zmienne</a>) i metody (<a cbot|function>funkcje</a>)."
 
 #. type: Plain text
 #: ../E/class.txt:15
@@ -8214,7 +8214,7 @@ msgstr ""
 #: ../E/class.txt:55
 #, no-wrap
 msgid "Member Initialization"
-msgstr "Inicjalizowanie członków"
+msgstr "Inicjalizowanie elementów"
 
 #. type: Plain text
 #: ../E/class.txt:60
@@ -8256,7 +8256,7 @@ msgstr ""
 #: ../E/class.txt:76
 #, no-wrap
 msgid "As the names of the parameters of the second constructor are the same as the names of the two members <code>a</code> and <code>b</code>, we must use the <code><a cbot|this>this</a></code> <a cbot|pointer>reference</a> to avoid confusion with the parameters' names."
-msgstr "Ponieważ nazwy parametrów drugiego konstruktora są takie same jak nazwy członków <code>a</code> and <code>b</code>, musimy użyć <a cbot|pointer>referencji</a> <code><a cbot|this>this</a></code> by uniknąć pomyłki z nazwami parametrów."
+msgstr "Ponieważ nazwy parametrów drugiego konstruktora są takie same jak nazwy elementów <code>a</code> and <code>b</code>, musimy użyć <a cbot|pointer>referencji</a> <code><a cbot|this>this</a></code> by uniknąć pomyłki z nazwami parametrów."
 
 #. type: \b; header
 #: ../E/class.txt:78
@@ -8298,7 +8298,7 @@ msgstr "Dziedziczenie"
 #: ../E/class.txt:118
 #, no-wrap
 msgid "A class can inherit public and protected members of another class by using the <code><a cbot|extends>extends</a></code> keyword."
-msgstr "Klasa może dziedziczyć publicznych i chronionych członków innej klasy przez użycie słowa kluczowego <code><a cbot|extends>extends</a></code>."
+msgstr "Klasa może dziedziczyć publiczne i chronione elementy innej klasy przez użycie słowa kluczowego <code><a cbot|extends>extends</a></code>."
 
 #. type: Plain text
 #: ../E/class.txt:2
@@ -8316,7 +8316,7 @@ msgstr "Wszystkie klasy są publiczne"
 #: ../E/class.txt:52
 #, no-wrap
 msgid "Class Members Modifiers"
-msgstr "Modyfikatory członków klas"
+msgstr "Modyfikatory elementów klas"
 
 #. type: \t; header
 #: ../E/class.txt:75
@@ -8348,7 +8348,7 @@ msgstr ""
 #: ../E/class.txt:91
 #, no-wrap
 msgid "You can also define a destructor. This must be a <code><a cbot|void>void</a></code> fonction without parameters, which has the same name as the class but prefixed with the <code>~</code> character. The destructor is called automatically as soon as the class instance is no more referenced by anyone. Example:"
-msgstr "Możesz również zdefiniować destruktor. To musi być funkcja zwracająca <code><a cbot|void>void</a></code> nieprzyjmująca parametrów, mająca taką samą nazwę jak klasa ale z przedrostkiem <code>~</code>. Destruktor jest wzywany automatycznie gdy klasa przestanie być odwoływana przez cokolwiek. Przykład:"
+msgstr "Możesz również zdefiniować destruktor. Musi to być funkcja zwracająca <code><a cbot|void>void</a></code> nieprzyjmująca parametrów, mająca taką samą nazwę jak klasa, ale z przedrostkiem <code>~</code>. Destruktor jest wzywany automatycznie gdy klasa przestanie być odwoływana przez cokolwiek. Przykład:"
 
 #. type: Source code
 #: ../E/class.txt:93
@@ -8400,31 +8400,31 @@ msgstr ""
 #: ../E/class.txt:28
 #, no-wrap
 msgid "Accessing Class Members"
-msgstr "Dostęp do członków klasy"
+msgstr "Dostęp do elementów klasy"
 
 #. type: Plain text
 #: ../E/class.txt:29
 #, no-wrap
 msgid "Class members can be accessed outside of the class definition by using the <code>.</code> operator. Example:"
-msgstr "Do członków klasy można uzyskać dostęp spoza definicji klasy używając operatora <code>.</code> . Przykład:"
+msgstr "Do elementów klasy można uzyskać dostęp spoza definicji klasy używając operatora <code>.</code> (kropka). Przykład:"
 
 #. type: Plain text
 #: ../E/class.txt:50
 #, no-wrap
 msgid "Class members are <a cbot|public>public</a> by default, which means that they are accessible outside of the class definition. They can also be declared as <code><a cbot|private>private</a></code> or <code><a cbot|protected>protected</a></code>. Such members can only be accessed inside of the class definition."
-msgstr "Członkowie klasy są domyślnie zadeklarowani jako <a cbot|public>public</a>, co oznacza że są dostępni spoza definicji klasy. Mogą być również zadeklarowani jako <code><a cbot|private>private</a></code> lub <code><a cbot|protected>protected</a></code>. Tacy członkowie mogą być dostępni jedynie z wewnątrz definicji klasy."
+msgstr "Elementy klasy są domyślnie zadeklarowane jako <a cbot|public>public</a>, co oznacza że są dostępne spoza definicji klasy. Mogą być również zadeklarowane jako <code><a cbot|private>private</a></code> lub <code><a cbot|protected>protected</a></code>. Takie elementy mogą być dostępne jedynie z wewnątrz definicji klasy."
 
 #. type: Plain text
 #: ../E/class.txt:53
 #, no-wrap
 msgid "Fields and methods can also be declared as <code><a cbot|static>static</a></code>. Methods can be additionaly declared as <code><a cbot|synchro>synchronized</a></code>."
-msgstr "Pola i metody mogą być również zadeklarowani jako <code><a cbot|static>static</a></code>. Metody mogą być również deklarowane jako <code><a cbot|synchro>synchronized</a></code>."
+msgstr "Pola i metody mogą być również zadeklarowane jako <code><a cbot|static>static</a></code>. Metody mogą być również deklarowane jako <code><a cbot|synchro>synchronized</a></code>."
 
 #. type: Plain text
 #: ../E/class.txt:58
 #, no-wrap
 msgid "Another way of initiliazing fields is by defining a constructor which is a special method having the same name as the class. This method will be called automatically at <a cbot|new>creation</a> time of a class instance. Constructors can be <a cbot|function>overloaded</a>."
-msgstr "Inną metodą inicjalizacji pól jest zdefiniowanie konstruktora, który jest specjalną metodą która ma taką samą nazwę jak klasa. Ta metoda jest wywoływana automatycznie podczas <a cbot|new>tworzenia</a> instancji klasy. Konstruktory mogą być <a cbot|function>przeciążane</a>."
+msgstr "Innym sposobem inicjalizacji pól jest zdefiniowanie konstruktora. Jest to specjalna metoda o tej samej nazwie co klasa. Jest on wywoływany automatycznie podczas <a cbot|new>tworzenia</a> instancji klasy. Konstruktory mogą być <a cbot|function>przeciążane</a>."
 
 #. type: Source code
 #: ../E/class.txt:31
@@ -8488,7 +8488,7 @@ msgstr "Słowo kluczowe <code>protected</code>"
 #: ../E/protected.txt:2
 #, no-wrap
 msgid "This is an access modifier for <a cbot|class>class</a> members. Protected class members can be accessed in a child class, but they can't be accessed outside of classes definitions being part of the same inheritance tree (see the <code><a cbot|extends>extends</a></code> keyword)."
-msgstr "Jest to modyfikator dostępu do członków <a cbot|class>klasy</a>. Dostęp do chronionych członków klasy jest możliwy w klasie podrzędnej, ale nie jest możliwy spoza definicji klas będących częścią tego samego drzewa dziedziczenia (zobacz słowo kluczowe <code><a cbot|extends>extends</a></code>)."
+msgstr "Jest to modyfikator dostępu do elementów <a cbot|class>klasy</a>. Dostęp do chronionych elementów klasy jest możliwy w klasie podrzędnej, ale nie jest możliwy spoza definicji klas będących częścią tego samego drzewa dziedziczenia (zobacz słowo kluczowe <code><a cbot|extends>extends</a></code>)."
 
 #. type: Source code
 #: ../E/protected.txt:6
@@ -8538,7 +8538,7 @@ msgstr ""
 #: ../E/private.txt:2
 #, no-wrap
 msgid "This is an access modifier for <a cbot|class>class</a> members. Private members are not accessible outside of the class definition."
-msgstr "Jest to modyfikator dostępu dla członków <a cbot|class>klasy</a>. Prywatni członkowie nie są dostępni poza definicją klasy."
+msgstr "Jest to modyfikator dostępu dla elementów <a cbot|class>klasy</a>. Prywatne elementy nie są dostępne poza definicją klasy."
 
 #. type: Plain text
 #: ../E/private.txt:20
@@ -8554,7 +8554,7 @@ msgstr ""
 #: ../E/public.txt:34
 #, no-wrap
 msgid "<code>public</code> is also an access modifier for <a cbot|class>class</a> members, which is the default one. Public members can be accessed from outside of the class definition."
-msgstr "<code>public</code> jest domyślnym modyfikatorem dostępu dla członków <a cbot|class>klasy</a>. Publiczni członkowie są dostępni spoza definicji klasy."
+msgstr "<code>public</code> jest domyślnym modyfikatorem dostępu dla elementów <a cbot|class>klasy</a>. Publiczne elementy są dostępne spoza definicji klasy."
 
 #. type: Plain text
 #: ../E/public.txt:50
@@ -8612,13 +8612,13 @@ msgstr "Słowo kluczowe <code>extends</code>"
 #: ../E/extends.txt:30
 #, no-wrap
 msgid "Inherited Members"
-msgstr "Dziedziczeni członkowie"
+msgstr "Dziedziczone elementy"
 
 #. type: Plain text
 #: ../E/extends.txt:31
 #, no-wrap
 msgid "Only <code><a cbot|public>public</a></code> and <code><a cbot|protected>protected</a></code> members are inherited. <code><a cbot|private>private</a></code> members are directly inaccessible even for a child, although they can be accessed indirectly through inherited methods."
-msgstr "Tylko <code><a cbot|public>publiczni</a></code> i <code><a cbot|protected>chronieni</a></code> członkowie są dziedziczeni. <code><a cbot|private>private</a></code> członkowie są niedostępni nawet dla klas podrzędnych, mimo że mogą być dostępni niebezpośrednio poprzez metody dziedziczone."
+msgstr "Tylko <code><a cbot|public>publiczne</a></code> i <code><a cbot|protected>chronione</a></code> elementy są dziedziczone. <code><a cbot|private>Prywatne</a></code> elementy są niedostępne nawet dla klas podrzędnych, mimo że mogą być dostępne niebezpośrednio poprzez metody dziedziczone."
 
 #. type: Plain text
 #: ../E/extends.txt:33
@@ -8696,7 +8696,7 @@ msgstr "Polimorfizm"
 #: ../E/extends.txt:63
 #, no-wrap
 msgid "<code><a cbot|pointer>Reference</a></code> of type Parent can point to an object of type Child. However, such a pointer can't be used to access a child member. In order to access a child member, it must be assured that the Parent reference really points to a Child object. If that's the case, it can be safely copied to a pointer of type Child, which has access to the child members."
-msgstr "<code><a cbot|pointer>Odniesienie</a></code> typu klasy nadrzędnej może wskazywać na obiekt klasy podrzędnej. Jednak taki wskaźnik nie może zostać użyty do uzyskania dostępu do członków klasy podrzędnej. Żeby uzyskać dostęp do członków klasy podrzędnej, należy upewnić się że odniesienie do klasy nadrzędnej rzeczywiście wskazuje na obiekt klasy podrzędnej. W takim przypadku może on zostać bezpiecznie skopiowany do wskaźnika typu klasy podrzędnej który ma dostęp do członków klasy podrzędnej."
+msgstr "<code><a cbot|pointer>Odniesienie</a></code> typu klasy nadrzędnej może wskazywać na obiekt klasy podrzędnej. Jednak taki wskaźnik nie może zostać użyty do uzyskania dostępu do elementów klasy podrzędnej. Żeby uzyskać dostęp do elementów klasy podrzędnej, należy upewnić się że odniesienie do klasy nadrzędnej rzeczywiście wskazuje na obiekt klasy podrzędnej. W takim przypadku może on zostać bezpiecznie skopiowany do wskaźnika typu klasy podrzędnej który ma dostęp do elementów klasy podrzędnej."
 
 #. type: Source code
 #: ../E/extends.txt:67
@@ -8882,7 +8882,7 @@ msgstr ""
 #: ../E/extends.txt:2
 #, no-wrap
 msgid "This keyword is used in a <code><a cbot|class>class</a></code> definition when we want the class to inherit members from another class. The class which is extended we usually call a parent or base, the extending class we call a child."
-msgstr "To słowo kluczowe używane jest przy definicji <code><a cbot|class>klasy</a></code> gdy chcemy odziedziczyć członków innej klasy. Rozszerzająca klasa jest zwykle nazywana rodzicem lub bazą, rozszerzana klasa nazywana jest dzieckiem."
+msgstr "To słowo kluczowe używane jest przy definicji <code><a cbot|class>klasy</a></code> gdy chcemy odziedziczyć elementy innej klasy. Rozszerzająca klasa jest zwykle nazywana rodzicem lub bazą, rozszerzana klasa nazywana jest dzieckiem."
 
 #. type: Source code
 #: ../E/extends.txt:6
@@ -8944,7 +8944,7 @@ msgstr "Metody rodzica mogą być wywoływane wewnątrz nadpisywanej metody uży
 #: ../E/class.txt:56
 #, no-wrap
 msgid "As shown in the previous example, the class members can be initialized in the class definition (<c/>int x = 3.33;<n/>)."
-msgstr "Jak pokazano w poprzednim przykładzie, członkowie klasy mogą być inicjalizowani w definicji klasy (<c/>int x = 3.33;<n/>)."
+msgstr "Jak pokazano w poprzednim przykładzie, elementy klasy mogą być inicjalizowane w definicji klasy (<c/>int x = 3.33;<n/>)."
 
 #. type: Plain text
 #: ../E/open.txt:13
