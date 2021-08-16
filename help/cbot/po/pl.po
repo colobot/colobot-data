@@ -146,7 +146,7 @@ msgstr "Tablica jest zestawem obiektów tego samego typu lub klasy. W języku CB
 #: ../E/array.txt:9
 #, no-wrap
 msgid "Actually when the CBOT interpreter encounters an array declaration, it just creates a <code><a cbot|null>null</a></code> <a cbot|pointer>reference</a>:"
-msgstr "W rzeczywistości, gdy interpreter języka CBOT napotka deklarację tablicy, tworzy jedynie <a cbot|pointer>wskażnik</a> <code><a cbot|null>null</a></code>:"
+msgstr "W rzeczywistości, gdy interpreter języka CBOT napotka deklarację tablicy, tworzy jedynie <a cbot|pointer>wskaźnik</a> <code><a cbot|null>null</a></code>:"
 
 #. type: Source code
 #: ../E/array.txt:11
@@ -214,7 +214,7 @@ msgstr "Bloki"
 #: ../E/bloc.txt:2
 #, no-wrap
 msgid "You can use braces <code>{ }</code> to group a number of instructions together in order to make one single block out of them, for example: "
-msgstr "Do zgrupowania razem kilku instrukcji można użyć nawiasów klamrowych <code>{ }</code> i utworzyć z nich jeden blok, na przykład: "
+msgstr "Do zgrupowania razem kilku instrukcji można użyć nawiasów klamrowych <code>{}</code> i utworzyć z nich jeden blok, na przykład: "
 
 #. type: Source code
 #: ../E/bloc.txt:4
@@ -231,7 +231,7 @@ msgstr ""
 "\t\tfloat  t;\n"
 "\t\tt = a;\n"
 "\t\ta = b;\n"
-"\t\tb = t;  // zamienia zawartości a i b\n"
+"\t\tb = t;  // zamienia wartości a i b\n"
 "\t}"
 
 #. type: Plain text
@@ -241,7 +241,7 @@ msgid ""
 "Every instruction in the block is followed by a <a cbot|term>semicolon</a>, but the block itself is not. \n"
 "Let us take the following example with the instruction <code><a cbot|if>if</a></code> to illustrate the use of blocks in a program:"
 msgstr ""
-"Każda instrukcja w bloku zakończona jest <a cbot|term>średnikiem</a> ale sam blok już nie. \n"
+"Każda instrukcja w bloku zakończona jest <a cbot|term>średnikiem</a>, ale sam blok już nie. \n"
 "W celu zilustrowania użycia bloków w programie rozważmy następujący przykład z instrukcją <code><a cbot|if>if</a></code>:"
 
 #. type: Source code
@@ -265,8 +265,8 @@ msgid ""
 "If the <a cbot|cond>condition</a> is true, instructions 1, 2 and 3 are performed. If the condition is false, only instruction 1 is ignored, instructions 2 and 3 are performed. The fact that instruction 2 is lined up with instruction 1 does not matter. \n"
 "If you want to perform instructions 1 and 2 only if the condition is true, you have to bracket them together in a block: "
 msgstr ""
-"Jeśli <a cbot|cond>warunek</a> jest prawdziwy, wykonywane są instrukcje 1, 2 i 3. Jeśli nie, tylko instrukcja 1 jest pomijana, instrukcje 2 i 3 są wykonywane. Fakt, że instrukcja 2 jest na tym samym poziomie co instrukcja 1 nie ma znaczenia. \n"
-"Jeśli instrukcje 1 i 2 mają być wykonywane tylko gdy warunek jest prawdziwy, należy użyć nawiasów klamrowych do złączenie ich w jeden blok: "
+"Jeśli <a cbot|cond>warunek</a> jest prawdziwy, wykonywane są instrukcje 1, 2 i 3. Jeśli nie, tylko instrukcja 1 jest pomijana, instrukcje 2 i 3 są wykonywane. Fakt, że instrukcja 2 jest na tym samym poziomie co instrukcja 1, nie ma znaczenia. \n"
+"Jeśli instrukcje 1 i 2 mają być wykonywane tylko, gdy warunek jest prawdziwy, należy użyć nawiasów klamrowych do złączenia ich w jeden blok: "
 
 #. type: Source code
 #: ../E/bloc.txt:22
@@ -326,7 +326,7 @@ msgstr ""
 #: ../E/bloc.txt:43
 #, no-wrap
 msgid "You had better line up the open brace <code>{</code> with the closing brace <code>}</code> in order to improve readability, but it is not compulsory. The following example takes less space, is equivalent to the previous example, but it is not advisable to write your programs in the following style : "
-msgstr "Aby poprawić czytelność programu, najlepiej jest wyrównać klamrę otwierającą<code>{</code> z zamykającą <code>}</code>, chociaż nie jest to obowiązkowe. Następujący przykład zajmuje mniej miejsca i jest równoważny poprzedniemu, nie jest jednak polecane używanie takiego stylu: "
+msgstr "Aby poprawić czytelność programu, najlepiej jest wyrównać klamrę otwierającą <code>{</code> z zamykającą <code>}</code>, chociaż nie jest to obowiązkowe. Następujący przykład zajmuje mniej miejsca i jest równoważny poprzedniemu, nie jest jednak polecane używanie takiego stylu: "
 
 #. type: Source code
 #: ../E/bloc.txt:45
@@ -1280,7 +1280,7 @@ msgstr ""
 #: ../E/expr.txt:178
 #, no-wrap
 msgid "The operators <code>++</code> and <code>--</code> allow you to increment (++) or to decrement (--) a variable in very compact and efficient manner."
-msgstr "Operatory <code>++</code> i <code>--</code> umożliwiają wygodny i zwarty zapis zwiększania (++) lub zmiejszania (--) zmiennych."
+msgstr "Operatory <code>++</code> i <code>--</code> umożliwiają wygodny i zwarty zapis zwiększania (++) lub zmniejszania (--) zmiennych."
 
 #. type: \b; header
 #: ../E/extern.txt:1
@@ -1653,7 +1653,7 @@ msgid ""
 "}"
 msgstr ""
 "{\n"
-"\tmessage(i) ;\n"
+"\tmessage(i);\n"
 "}"
 
 #. type: Plain text
@@ -1902,7 +1902,7 @@ msgstr ""
 #: ../E/if.txt:13
 #, no-wrap
 msgid "You can also test if an object exists at all. If the instruction <c/><a cbot|radar>radar</a>();<n/> does not find the requested object, it returns the value <code>null</code>. So you can test if an object does not exists with the condition  <code>(item == null)</code>, or test if it exists with  <code>(item != null)</code>. Two equal signs <code>==</code> test equality, an exclamation mark followed by an equal sign <code>!=</code> test inequality. Here is a test that will go to rechage the <a object|power>power cell</a> only if there is a <a object|station>power station</a>:"
-msgstr "Można też sprawdzić czy obiekt istnieje w ogóle. Jeśli instrukcja <c/><a cbot|radar>radar</a>();<n/> nie znajdzie żądanego obiektu, zwraca wartość <code>null</code>. Można więc sprawdzić czy obiekt istnieje, warunkiem <code>(item != null)</code>  lub czy nie istnieje <code>(item == null)</code>. Dwa znaki równości <code>==</code> sprawdzają równość, znak równości poprzedzony wykrzyknikiem <code>!=</code>  sprawdza nierówność. Oto program testowy, który będzie ładował <a object|power>ogniwa elektryczne</a> tylko wtedy, gdy znajdzie <a object|station>stację energetyczną</a>:"
+msgstr "Można też sprawdzić, czy obiekt w ogóle istnieje. Jeśli instrukcja <c/><a cbot|radar>radar</a>();<n/> nie znajdzie żądanego obiektu, zwraca wartość <code>null</code>. Można dzięki temu zweryfikować czy obiekt istnieje, warunkiem <code>(item != null)</code>  lub czy nie istnieje <code>(item == null)</code>. Dwa znaki równości <code>==</code> sprawdzają równość, znak równości poprzedzony wykrzyknikiem <code>!=</code>  sprawdza nierówność. Oto program testowy, który będzie ładował <a object|power>ogniwa elektryczne</a> tylko wtedy, gdy znajdzie <a object|station>stację energetyczną</a>:"
 
 #. type: Source code
 #: ../E/if.txt:15
@@ -4858,7 +4858,7 @@ msgstr "Typy zmiennych"
 #: ../E/type.txt:2
 #, no-wrap
 msgid "When you define a <a cbot|var>variable</a>, you must give two elements: "
-msgstr "Definiując <a cbot|var>zmienną</a> należy podać dwa elementy: "
+msgstr "Definiując <a cbot|var>zmienną</a>, należy podać dwa elementy: "
 
 #. type: Bullet: '1)'
 #: ../E/type.txt:4
@@ -4876,7 +4876,7 @@ msgstr "typ"
 #: ../E/type.txt:7
 #, no-wrap
 msgid "Once you defined a variable, you can use it to put information in it. However, the information that a variable can contain must always be of the correct type: a variable of type <a cbot|float>float</a> can not contain a string, etc."
-msgstr "Po zdefiniowaniu zmiennej można w niej umieszczać informacje. Jednakże informacja, którą może przechowywać zmienna musi być odpowiedniego typu: zmienna typu <a cbot|float>float</a> nie może zawierać łańcucha itd."
+msgstr "Po zdefiniowaniu zmiennej można w niej umieszczać informacje. Jednakże informacja, którą może przechowywać zmienna, musi być odpowiedniego typu: zmienna typu <a cbot|float>float</a> nie może zawierać łańcucha itd."
 
 #. type: Source code
 #: ../E/type.txt:11
@@ -4978,7 +4978,7 @@ msgstr "Zmienna jest jak pudełko, do którego można wkładać różne informac
 #: ../E/var.txt:4
 #, no-wrap
 msgid "For example, you can use a variable to count the number of titanium ore units that the grabber has collected and carried to the converter. First, you must find a name for it: the name should not be too long, but explain by itself what the variable is used for. Let's call it <code>countTit</code>. This variable must contain only whole numbers, so choose the type <code>int</code>. At the beginning of the program, you must declare the variable. Then you put the value <code>0</code> into the variable, and every time you grab a titanium ore, you increase the variable by <code>1</code>. At every moment, the variable contains the number of titanium ore units that the grabber collected."
-msgstr "Na przykład można użyć zmiennej do liczenia jednostek rudy tytanu zebranych i przeniesionych przez transporter do huty. Najpierw należy ustalić odpowiednią nazwę dla zmiennej: nie powinna być ona zbyt długa, ale powinna wyjaśniać do czego używana jest zmienna. Nazwijmy ją <code>liczTyt</code>. Zmienna ta będzie zawierała tylko liczby całkowite, dlatego odpowiednim dla niej typem będzie <code>int</code>. Na początku programu zmienną trzeba zadeklarować. Następnie można w niej umieścić wartość <code>0</code>, zwiększając ją o <code>1</code> za każdym razem, gdy robot podniesie rudę tytanu. Zmienna ta będzie zawierać liczbę porcji rudy tytanu zebranych do tej pory przez robota."
+msgstr "Na przykład można użyć zmiennej do liczenia jednostek rudy tytanu zebranych i przeniesionych przez transporter do huty. Najpierw należy ustalić odpowiednią nazwę dla zmiennej: nie powinna być ona zbyt długa, ale powinna wyjaśniać, do czego używana jest zmienna. Nazwijmy ją <code>liczTyt</code>. Zmienna ta będzie zawierała tylko liczby całkowite, dlatego odpowiednim dla niej typem będzie <code>int</code>. Na początku programu zmienną trzeba zadeklarować. Następnie można w niej umieścić wartość <code>0</code>, zwiększając ją o <code>1</code> za każdym razem, gdy robot podniesie rudę tytanu. Zmienna ta będzie zawierać liczbę porcji rudy tytanu zebranych do tej pory przez robota."
 
 #. type: Plain text
 #: ../E/var.txt:6
@@ -5020,7 +5020,7 @@ msgid ""
 msgstr ""
 "W wyborze nazwy dla zmiennej jest dużo swobody, można ją nazwać dowolnie, np.: <code>odl</code>, <code>kierunek</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nic_do_zestrzelenia</code>, itd.\n"
 "Nazwa zmiennej musi zaczynać się od litery, po której może następować dowolna kombinacja liter, cyfr i znaków podkreślenia <code>_</code>. Oczywiście nie można używać słów kluczowych języka CBOT takich jak <code><a cbot|for>for</a></code>, <code><a cbot|while>while</a></code>, <code><a cbot|break>break</a></code>, <code><a cbot|continue>continue</a></code>, <code>do</code>, itd.\n"
-"Należy być ostrożnym w wyborze nazw przydzielanych zmiennym; pisanie programu może okazać się bardzo trudne jeśli zapomni się nazwy zmiennych lub nie pamięta do czego one służyły. Należy opracować własny system nazywania zmiennych i raczej nie używać nazw podobnych do <code>Bmo45</code>, <code>a</code> czy <code>tgBinX</code>."
+"Należy być ostrożnym w wyborze nazw przydzielanych zmiennym; pisanie programu może okazać się bardzo trudne jeśli zapomni się nazwy zmiennych lub nie pamięta, do czego one służyły. Należy opracować własny system nazywania zmiennych i raczej nie używać nazw podobnych do <code>Bmo45</code>, <code>a</code> czy <code>tgBinX</code>."
 
 #. type: Plain text
 #: ../E/var.txt:19
@@ -5178,7 +5178,7 @@ msgstr ""
 #: ../E/var.txt:55
 #, no-wrap
 msgid "At the end of this example, both variables <code>i</code> and <code>j</code> contain the value <code>13</code>."
-msgstr "Na końcu tego przykładu obie zmienne <code>i</code> i <code>j</code> zawierają wartość <code>13</code>."
+msgstr "Na końcu tego przykładu obie zmienne <code>i</code> oraz <code>j</code> zawierają wartość <code>13</code>."
 
 #. type: Plain text
 #: ../E/var.txt:57
@@ -5838,7 +5838,7 @@ msgstr "Instrukcja <code>ceil</code>"
 #: ../E/ceil.txt:3
 #, no-wrap
 msgid "<c/>ceil ( value );<n/>"
-msgstr "<c/>ceil ( wartosc );<n/>"
+msgstr "<c/>ceil ( wartość );<n/>"
 
 #. type: Plain text
 #: ../E/ceil.txt:4
@@ -5850,7 +5850,7 @@ msgstr "Zaokrągla liczbę."
 #: ../E/ceil.txt:10
 #, no-wrap
 msgid "Ceiling of the value, i.e. the smallest integer not less than <code>value</code>. For example, <code>ceil(2.1)</code> is <code>3.0</code>."
-msgstr "Zaokrąglona wartość, tzn. najmniejsza liczba całkowita nie mniejsza od <code>wartosc</code>. Na przykład, <code>ceil(2.1)</code> da w wyniku <code>3.0</code>."
+msgstr "Zaokrąglona wartość, tzn. najmniejsza liczba całkowita nie mniejsza od <code>wartość</code>. Na przykład, <code>ceil(2.1)</code> da w wyniku <code>3.0</code>."
 
 #. type: Plain text
 #: ../E/ceil.txt:13 ../E/floor.txt:13 ../E/trunc.txt:13
@@ -6142,7 +6142,7 @@ msgstr "Instrukcja <code>floor</code>"
 #: ../E/floor.txt:3
 #, no-wrap
 msgid "<c/>floor ( value );<n/>"
-msgstr "<c/>floor ( wartosc );<n/>"
+msgstr "<c/>floor ( wartość );<n/>"
 
 #. type: Plain text
 #: ../E/floor.txt:4
@@ -6154,7 +6154,7 @@ msgstr "Zaokrągla numer w dół."
 #: ../E/floor.txt:10
 #, no-wrap
 msgid "Floor of the value, i.e. the largest integer not greater than <code>value</code>. For example, <code>floor(2.9)</code> is <code>2.00</code>."
-msgstr "Zaokrąglona wartość, tzn. największa liczba całkowita nie większa od <code>wartosc</code>. Na przykład, <code>floor(2.9)</code> da w wyniku <code>2.00</code>."
+msgstr "Zaokrąglona wartość, tzn. największa liczba całkowita nie większa od <code>wartość</code>. Na przykład, <code>floor(2.9)</code> da w wyniku <code>2.00</code>."
 
 #. type: Plain text
 #: ../E/for.txt:19
@@ -6170,7 +6170,7 @@ msgstr ""
 #: ../E/function.txt:2
 #, no-wrap
 msgid "Function, simply put, is an instruction created by you."
-msgstr "Funkcja to, mówiąc najprościej, instrukcja stworzona przez ciebie."
+msgstr "Mówiąc najprościej, funkcja to instrukcja stworzona przez ciebie."
 
 #. type: \b; header
 #: ../E/function.txt:4
@@ -6304,7 +6304,7 @@ msgstr ""
 #: ../E/function.txt:56
 #, no-wrap
 msgid "Result <a cbot|type>type</a> should be <a cbot/void>void</a> if the function does not give any. Body is just a set of instructions. Function name must be created with the exact same rules applied to <a cbot|var>variables</a>."
-msgstr "Jeśli funkcja nie ma zwracać żadnych danych, <a cbot|type>typem</a> powinien być <a cbot/void>void</a>. Ciało funkcji stanowią instrukcje. Nazwa funkcji musi być stworzona w oparciu o reguły tworzenia nazw <a cbot|var>zmiennych</a>."
+msgstr "Jeśli funkcja nie ma zwracać żadnych danych, <a cbot|type>typem</a> powinien być <a cbot/void>void</a>. Ciało funkcji stanowią instrukcje. Nazwa funkcji musi być stworzona na podstawie reguł tworzenia nazw <a cbot|var>zmiennych</a>."
 
 #. type: \t; header
 #: ../E/function.txt:58
@@ -6385,7 +6385,7 @@ msgstr ""
 "{\n"
 "\tfloat value;\n"
 "\tvalue = Srednia(2, 6);\n"
-"\tmessage(value);  // zwroci 4\n"
+"\tmessage(value);  // zwróci 4\n"
 "}"
 
 #. type: Plain text
@@ -7054,7 +7054,7 @@ msgstr "Instrukcja <code>sqrt</code>"
 #: ../E/sqrt.txt:3
 #, no-wrap
 msgid "<c/>sqrt ( value );<n/>"
-msgstr "<c/>sqrt ( wartosc );<n/>"
+msgstr "<c/>sqrt ( wartość );<n/>"
 
 #. type: Plain text
 #: ../E/sqrt.txt:6
@@ -7193,12 +7193,12 @@ msgid ""
 "\tdefault: instructionsDefault\n"
 "}"
 msgstr ""
-"<c/>switch ( wartosc )\n"
+"<c/>switch ( wartość )\n"
 "{\n"
-"\tcase wartosc1: instrukcje1\n"
-"\tcase wartosc2: instrukcje2\n"
+"\tcase wartość1: instrukcje1\n"
+"\tcase wartość2: instrukcje2\n"
 "\t...\n"
-"\tcase wartoscN: instrukcjeN\n"
+"\tcase wartośćN: instrukcjeN\n"
 "\tdefault: instrukcjeDomyślne\n"
 "}"
 
@@ -7218,10 +7218,10 @@ msgid ""
 "If the <code>value</code> is equal to <code>valueN</code>, <code>instructionsN</code> and <code>instructionsDefault</code> are executed.\n"
 "If the <code>value</code> is not equal to any value in the given cases, <code>instructionsDefault</code> are executed."
 msgstr ""
-"Jeśli <code>wartość</code> jest równa <code>wartosc1</code>, bloki od <code>instrukcje1</code> do <code>N</code> (włącznie z <code>instrukcjedomyslne</code>) zostają wykonane.\n"
-"Jeśli <code>wartość</code> jest równa <code>wartosc2</code>, bloki od <code>instrukcje2</code> do <code>N</code> (włącznie z <code>instrukcjedomyslne</code>) zostają wykonane.\n"
+"Jeśli <code>wartość</code> jest równa <code>wartość1</code>, bloki od <code>instrukcje1</code> do <code>N</code> (włącznie z <code>instrukcjedomyślne</code>) zostają wykonane.\n"
+"Jeśli <code>wartość</code> jest równa <code>wartość2</code>, bloki od <code>instrukcje2</code> do <code>N</code> (włącznie z <code>instrukcjedomyślne</code>) zostają wykonane.\n"
 "I tak dalej.\n"
-"Jeśli <code>wartość</code> jest równa <code>wartoscN</code>, bloki <code>instrukcjeN</code> i <code>instrukcjedomyslne</code> zostają wykonane.\n"
+"Jeśli <code>wartość</code> jest równa <code>wartośćN</code>, bloki <code>instrukcjeN</code> i <code>instrukcjedomyslne</code> zostają wykonane.\n"
 "Jeśli <code>wartość</code> nie jest równa żadnej z powyższych wartości, tylko blok <code>instrukcjedomyslne</code> zostanie wykonany."
 
 #. type: Plain text
@@ -7306,13 +7306,13 @@ msgstr "Obcięta <code>wartość</code>. Na przykład, <code>trunc(-2.5)</code> 
 #: ../E/category.txt:4
 #, no-wrap
 msgid "In a program, categories are always displayed like that: <format const>category</format>. If a category isn't highlighted, it is misspelled. Caps and lower cases should be kept as is."
-msgstr "W edytorze kodu wszystkie kategorie są wyświetlane w następujący sposób: <format const>kategoria</format>. Jeśli kategoria nie jest podświetlona, oznacza to że nie jest prawidłowo wpisana. Wielkie i małe litery mają znaczenie."
+msgstr "W edytorze kodu wszystkie kategorie są wyświetlane w następujący sposób: <format const>kategoria</format>. Jeśli kategoria nie jest podświetlona, oznacza to, że nie jest prawidłowo wpisana. Wielkie i małe litery mają znaczenie."
 
 #. type: Plain text
 #: ../E/type.txt:9
 #, no-wrap
 msgid "In a program, the name of a type is always displayed like that: <format type>type</format>. If the name of a type is not highlighted, this means that the name is misspelled. Type names are always written with lower case characters. Here is a list of the different types: "
-msgstr "W edytorze kodu wszystkie typy są wyświetlane w następujący sposób: <format const>typ</format>. Jeśli nazwa typu nie jest podświetlona, oznacza to że nie jest prawidłowo wpisana. Nazwy typów zawsze są pisane z małych liter. Poniżej znajduje się lista wszystkich dostępnych typów: "
+msgstr "W edytorze kodu wszystkie typy są wyświetlane w następujący sposób: <format const>typ</format>. Jeśli nazwa typu nie jest podświetlona, oznacza to, że nie jest prawidłowo wpisana. Nazwy typów zawsze są pisane z małych liter. Poniżej znajduje się lista wszystkich dostępnych typów: "
 
 #. type: \b; header
 #: ../E/produce.txt:1
@@ -7426,7 +7426,7 @@ msgstr "Operacje binarne"
 #: ../E/expr.txt:9
 #, no-wrap
 msgid "Assuming that <code>a</code>, <code>b</code> can be values of declared and initialized variables of types <code>t1</code> and <code>t2</code>, the binary operations can be described as follows:"
-msgstr "Przyjmijmy że <code>a</code>, <code>b</code> są wartościami zadeklarowanych i zainicjalizowanych zmiennych typów <code>t1</code> i <code>t2</code>, działania binarne można opisać w następujący sposób:"
+msgstr "Przyjmijmy, że <code>a</code>, <code>b</code> są wartościami zadeklarowanych i zainicjalizowanych zmiennych typów <code>t1</code> i <code>t2</code>, działania binarne można opisać w następujący sposób:"
 
 #. type: Source code
 #: ../E/expr.txt:10
@@ -7438,7 +7438,7 @@ msgstr "<code>r = a op b</code>"
 #: ../E/expr.txt:11
 #, no-wrap
 msgid "Where <code>r</code> is the result of the operation and <code>op</code> is a binary operator which works with values of types <code>t1</code> and <code>t2</code>."
-msgstr "Gdzie <code>r</code> jest wynikiem operacji a <code>op</code> jest operatorem binarnym który działa z wartościami typów <code>t1</code> i <code>t2</code>."
+msgstr "Gdzie <code>r</code> jest wynikiem operacji, a <code>op</code> jest operatorem binarnym, który działa z wartościami typów <code>t1</code> i <code>t2</code>."
 
 #. type: \t; header
 #: ../E/expr.txt:13
@@ -7456,7 +7456,7 @@ msgstr "Niech <code>a op1 b op2 c</code> będzie prawidłowym wyrażeniem, wtedy
 #: ../E/expr.txt:15
 #, no-wrap
 msgid "If <code>op1 == op2</code> or <code>op1</code> is as strong as <code>op2</code> or <code>op1</code> is stronger than <code>op2</code>, first calculate <code>a op1 b</code> and store its result in a temporary variable <code>r</code>, then calculate <code>r op2 c</code>, which is the final result of the expression."
-msgstr "Jeśli <code>op1 == op2</code> lub <code>op1</code> ma ten sam priorytet co <code>op2</code> lub <code>op1</code> ma wyższy priorytet <code>op2</code>, najpierw oblicz <code>a op1 b</code> i przechowaj wynik działania w tymczasowej zmiennej <code>r</code>, a następnie oblicz <code>r op2 c</code>, co jest finałowym wynikiem wyrażenia."
+msgstr "Jeśli <code>op1 == op2</code> lub <code>op1</code> ma ten sam priorytet co <code>op2</code>, lub <code>op1</code> ma wyższy priorytet <code>op2</code>, najpierw oblicz <code>a op1 b</code> i przechowaj wynik działania w tymczasowej zmiennej <code>r</code>, a następnie oblicz <code>r op2 c</code>, co jest finałowym wynikiem wyrażenia."
 
 #. type: Bullet: 'o'
 #: ../E/expr.txt:16
@@ -7468,7 +7468,7 @@ msgstr "Jeśli <code>op1</code> ma mniejszy priorytet niż <code>op2</code>, naj
 #: ../E/expr.txt:18
 #, no-wrap
 msgid "Note: an operation can be made stronger by surrounding it in brackets, so for example assuming that <code>op1</code> is weaker than <code>op2</code>, in an expression <code>(a op1 b) op2 c</code> the <code>a op1 b</code> operation will be executed first."
-msgstr "Uwaga: działaniu można przypisać większy priorytet umieszczając je w nawiasach, na przykład przyjmując że <code>op1</code> jest mniej ważne niż <code>op2</code>, w wyrażeniu <code>(a op1 b) op2 c</code> operacja <code>a op1 b</code> będzie wykonana jako pierwsza."
+msgstr "Uwaga: działaniu można przypisać większy priorytet, umieszczając je w nawiasach. Na przykład przyjmując, że <code>op1</code> jest mniej ważne niż <code>op2</code>, w wyrażeniu <code>(a op1 b) op2 c</code> operacja <code>a op1 b</code> będzie wykonana jako pierwsza."
 
 #. type: Plain text
 #: ../E/expr.txt:20
@@ -7492,8 +7492,8 @@ msgid ""
 "= r7                                , r7 = r6 - e\n"
 "r7 is the final result of this expression."
 msgstr ""
-"Tu mamy do czynienia ze skomplikowanym przykładem używającym obliczeń arytmetycznych opisanych poniżej, co pokazuje nam jak wyrażenia są obliczane:\n"
-"<c/>Przyjmijmy że a, b, c, d, x, y, z, e są zainicjalizowanymi zmiennymi typu zmiennoprzecinkowego (float) lub całkowitego (int). W takim przypadku wyrażenia powinny zostać wykonane w następujący sposób:\n"
+"Tu mamy do czynienia ze skomplikowanym przykładem używającym obliczeń arytmetycznych opisanych poniżej, co pokazuje nam, jak obliczane są wyrażenia:\n"
+"<c/>Przyjmijmy, że a, b, c, d, x, y, z, e są zainicjalizowanymi zmiennymi typu zmiennoprzecinkowego (float) lub całkowitego (int). W takim przypadku wyrażenia powinny zostać wykonane w następujący sposób:\n"
 "  a * b + c - d / x % (y * z) - e =\n"
 "= r1 + c - d / x % (y * z) - e    = , r1 = a * b\n"
 "= r2 - d / x % (y * z) - e        = , r2 = r1 + c\n"
@@ -7520,7 +7520,7 @@ msgstr "<code>=</code> jest operatorem przypisania. Używany jest do przechowywa
 #: ../E/expr.txt:38
 #, no-wrap
 msgid "On the left side of this operator there must be so called l-value and on the right side - r-value. L-values are just <a cbot|var>variables</a><n/>, r-values are expressions or just usual values. This makes the assignment operator kind of special, because what is l-value is pretty restrictive (it cannot be an expression, constant and so on, only single variable). Also, the type of l-value must match the type of r-value (unless a conversion is possible, for example assigning a <code><a cbot|float>float</a></code> to <code><a cbot|int>int</a></code>)."
-msgstr "Po lewej stronie tego operatora musi znaleźć się tak zwana l-wartość a po prawej stronie - p-wartość. L-wartości to po prostu <a cbot|var>zmienne</a><n/>, natomiast r-wartości są wyrażeniami lub zwykłymi wartościami. To sprawia że operator przypisania jest dość unikatowy, ponieważ nie wszystko może być l-wartością (nie może to być wyrażenie, stała i podobne, jedynie pojedyncza zmienna). Oprócz tego, typ l-wartości musi mieć ten sam typ co r-wartość (chyba że możliwa jest konwersja, na przykład przypisanie <code><a cbot|float>float</a></code> do <code><a cbot|int>int</a></code>)."
+msgstr "Po lewej stronie tego operatora musi znaleźć się tak zwana l-wartość a po prawej stronie - p-wartość. L-wartości to po prostu <a cbot|var>zmienne</a><n/>, natomiast r-wartości są wyrażeniami lub zwykłymi wartościami. To sprawia, że operator przypisania jest dość unikatowy, ponieważ nie wszystko może być l-wartością (nie może to być wyrażenie, stała i podobne, jedynie pojedyncza zmienna). Oprócz tego typ l-wartości musi mieć ten sam typ co r-wartość (chyba że możliwa jest konwersja, na przykład przypisanie <code><a cbot|float>float</a></code> do <code><a cbot|int>int</a></code>)."
 
 #. type: Source code
 #: ../E/expr.txt:42
@@ -7598,7 +7598,7 @@ msgstr "Operatory <code>*</code>, <code>/</code>, <code>%</code> mają pierwsze�
 #: ../E/expr.txt:62
 #, no-wrap
 msgid "The result <a cbot|type>type</a> is always <code><a cbot|float>float</a></code>. If <code>a</code> or <code>b</code> are of type <code><a cbot|int>int</a></code>, they are automatically converted to <code><a cbot|float>float</a></code>. Note: this means that results of intermediate calculations tends to be as precise as possible, the precision is lost only during converting the final (<code><a cbot|float>float</a></code>) result to <code><a cbot|int>int</a></code>, for example by the assignment <code>=</code> operator."
-msgstr "Wynikowym <a cbot|type>typem</a> zawsze jest <code><a cbot|float>float</a></code>. Jeśli <code>a</code> lub <code>b</code> są typu <code><a cbot|int>int</a></code>, zostaną automatycznie przekonwertowane do <code><a cbot|float>float</a></code>. Uwaga: to oznacza że wyniki obliczeń pośrednich będą tak dokładne jak to możliwe, precyzja jest tracona tylko podczas konwersji finałowego (<code><a cbot|float>float</a></code>) wyniku do <code><a cbot|int>int</a></code>, na przykład przez operator <code>=</code>."
+msgstr "Wynikowym <a cbot|type>typem</a> zawsze jest <code><a cbot|float>float</a></code>. Jeśli <code>a</code> lub <code>b</code> są typu <code><a cbot|int>int</a></code>, zostaną automatycznie przekonwertowane do <code><a cbot|float>float</a></code>. Uwaga: to oznacza, że wyniki obliczeń pośrednich będą tak dokładne jak to możliwe, precyzja jest tracona tylko podczas konwersji finałowego (<code><a cbot|float>float</a></code>) wyniku do <code><a cbot|int>int</a></code>, na przykład przez operator <code>=</code>."
 
 #. type: \t; header
 #: ../E/expr.txt:64
@@ -7666,7 +7666,7 @@ msgstr ""
 #: ../E/expr.txt:106
 #, no-wrap
 msgid "Tip: the properties of the concatenation <code>+</code> operator is useful with the <a cbot|message>message();</a> function, because it does not work with other types than string. An empty string can be used together with a value in order to create a string, which actually can be passed to the <a cbot|message>message();</a> function:"
-msgstr "Porada: właściwości operatora łączenia <code>+</code> są użyteczne podczas korzystania z funkcji <a cbot|message>message();</a>, ponieważ nie działa to ze zmiennymi innego typu niż string. Pusty łańcuch może być użyty razem z wartością by stworzyć łańcuch, który może zostać przekazany do funkcji <a cbot|message>message();</a>:"
+msgstr "Porada: właściwości operatora łączenia <code>+</code> są użyteczne podczas korzystania z funkcji <a cbot|message>message();</a>, ponieważ nie działa to ze zmiennymi innego typu niż string. Pusty łańcuch może być użyty razem z wartością, by stworzyć łańcuch, który może zostać przekazany do funkcji <a cbot|message>message();</a>:"
 
 #. type: \b; header
 #: ../E/expr.txt:177
@@ -7708,19 +7708,19 @@ msgstr "Wynik operacji <code>a++</code> jest równy wartości zmiennej <code>a</
 #: ../E/expr.txt:4
 #, no-wrap
 msgid "Specifically speaking, an expression is an ordered series of operations which yield a result. Operations consist of operators, which are special <a cbot|function>functions</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, where <code>xi</code> is a value of type <code>ti</code>, and <code>T</code> is the result type. For example, <code>float +(float a, float b)</code> returns a sum of values <code>a</code> and <code>b</code>. Note: Operators are a part of the CBOT language and they cannot be defined in program. Also, the operators cannot be used as usual <a cbot|function>functions</a>, they need to be written using a special notation depending on the operator, for example <code>a+b</code>."
-msgstr "Dokładniej rzecz ujmując, wyrażenie jest uporządkowaną serią działań przynoszącą pewien wynik. Działania składają się z operatorów, które są specjalnymi <a cbot|function>funkcjami</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, gdzie <code>xi</code> jest wartością typu <code>ti</code>, a <code>T</code> jest typem wyniku. Na przykład, <code>float +(float a, float b)</code> zwraca sumę wartości <code>a</code> i <code>b</code>. Uwaga: Operatory są częścią języka CBOT i nie mogą być zdefiniowane w programie. Oprócz tego, operatory nie mogą być używane jak zwykłe <a cbot|function>funkcje</a>, muszą być zapisane używając specjalnej notacji zależnej od operatora, na przykład <code>a+b</code>."
+msgstr "Dokładniej rzecz ujmując, wyrażenie jest uporządkowaną serią działań przynoszącą pewien wynik. Działania składają się z operatorów, które są specjalnymi <a cbot|function>funkcjami</a> <code>T f(t1 x1, t2 x2, ..., tn xn)</code>, gdzie <code>xi</code> jest wartością typu <code>ti</code>, a <code>T</code> jest typem wyniku. Na przykład, <code>float +(float a, float b)</code> zwraca sumę wartości <code>a</code> i <code>b</code>. Uwaga: Operatory są częścią języka CBOT i nie mogą być zdefiniowane w programie. Oprócz tego, operatory nie mogą być używane jak zwykłe <a cbot|function>funkcje</a>, muszą być zapisane, używając specjalnej notacji zależnej od operatora, na przykład <code>a+b</code>."
 
 #. type: Plain text
 #: ../E/expr.txt:6
 #, no-wrap
 msgid "In nearly all operations, <a cbot>constants</a>, <a cbot|var>variables</a>, <a cbot|function>functions</a> returning non-<a cbot|void>void</a> type and also other operations can be used as values."
-msgstr "W niemal każdym działaniu <a cbot>stałe</a>, <a cbot|var>zmienne</a>, <a cbot|function>funkcje</a> zwracające wartości typu nie-<a cbot|void>pustego</a> i inne działania mogą być użyte jako wartości."
+msgstr "W niemal każdym działaniu <a cbot>stałe</a>, <a cbot|var>zmienne</a>, <a cbot|function>funkcje</a> zwracające wartości typu nie<a cbot|void>pustego</a> i inne działania mogą być użyte jako wartości."
 
 #. type: Plain text
 #: ../E/expr.txt:40
 #, no-wrap
 msgid "Note: it may be not obvious at first, but notice that <code>=</code> is an *operator* not an instruction. This mean that it can be used in the middle of an other expression! The result of <code>=</code> is the value which was assigned to the l-value - the result of the expression on the right. Example:"
-msgstr "Uwaga: to może nie być oczywiste na początku, ale zauważ że <code>=</code> jest *operatorem*, nie instrukcją. To oznacza, że może zostać użyty przy tworzeniu innego wyrażenia! Wynik operatora <code>=</code> jest wartością która została przypisana do l-wartości - inaczej mówiąc, operator ten zwraca wynik działania po jego prawej stronie. Przykład:"
+msgstr "Uwaga: to może nie być oczywiste na początku, ale zauważ, że <code>=</code> jest *operatorem*, nie instrukcją. To oznacza, że może zostać użyty przy tworzeniu innego wyrażenia! Wynik operatora <code>=</code> jest wartością, która została przypisana do l-wartości - inaczej mówiąc, operator ten zwraca wynik działania po jego prawej stronie. Przykład:"
 
 #. type: Source code
 #: ../E/expr.txt:66
@@ -7748,7 +7748,7 @@ msgstr ""
 " \n"
 " int    i = 5 / 3;       // i == 1 (automatyczna konwersja do int)\n"
 " float  f = 5 / 3;       // f == 1.67\n"
-" float  f = 5 / 0;       // zwraca błąd(dzielenie przez zero)\n"
+" float  f = 5 / 0;       // zwraca błąd (dzielenie przez zero)\n"
 " \n"
 " int    i = 13 % 5;      // i == 3\n"
 " int    i = -8 % 3;      // i == -2\n"
@@ -7826,7 +7826,7 @@ msgstr ""
 #: ../E/expr.txt:155
 #, no-wrap
 msgid "Firstly, the condition is valued and then the first result is returned if the condition is true, otherwise the second result is returned."
-msgstr "Najpierw obliczany jest warunek i jeśli jest on prawdziwy zwracany jest pierwszy wynik, w przeciwnym razie zwracany jest drugi wynik."
+msgstr "Najpierw obliczany jest warunek i jeśli jest on prawdziwy, zwracany jest pierwszy wynik, w przeciwnym razie zwracany jest drugi wynik."
 
 #. type: \t; header
 #: ../E/expr.txt:157 ../E/extends.txt:4 ../E/extends.txt:65 ../E/private.txt:4 ../E/protected.txt:4 ../E/super.txt:4
@@ -7844,7 +7844,7 @@ msgstr "<c/>float c = ((3.0 > 2.0) ? 10.0 : -10.0); // c == 10.0<n/>"
 #: ../E/cond.txt:2
 #, no-wrap
 msgid "A condition is a special <a cbot|expr>expression</a> that returns a <a cbot|bool>boolean</a> value, that can only be either <code><a cbot|true>true</a></code> or <code><a cbot|false>false</a></code>. With a condition, you can choose f. ex. if the instructions in a <code><a cbot|while>while</a></code> loop must be repeated again, or if the instruction in a <code><a cbot|if>if</a></code> bloc must be executed."
-msgstr "Warunek jest specjalnym <a cbot|expr>wyrażeniem</a> który zwraca wartość typu <a cbot|bool>bool</a>, która może być albo <code><a cbot|true>prawdą</a></code> lub <code><a cbot|false>fałszem</a></code>. Dzięki warunkowi możesz wybrać np. czy instrukcja w pętli <code><a cbot|while>while</a></code> musi być wykonana ponownie, lub czy instrukcja w bloku <code><a cbot|if>if</a></code> ma zostać wykonana."
+msgstr "Warunek jest specjalnym <a cbot|expr>wyrażeniem</a>, które zwraca wartość typu <a cbot|bool>bool</a>, która może być albo <code><a cbot|true>prawdą</a></code> lub <code><a cbot|false>fałszem</a></code>. Dzięki warunkowi możesz wybrać np. czy instrukcja w pętli <code><a cbot|while>while</a></code> musi być wykonana ponownie, lub czy instrukcja w bloku <code><a cbot|if>if</a></code> ma zostać wykonana."
 
 #. type: \b; header
 #: ../E/expr.txt:112
@@ -7892,7 +7892,7 @@ msgstr "Operatory bitowe"
 #: ../E/expr.txt:161
 #, no-wrap
 msgid "Bitwise operators are similar to the logical operator, because they are operating on bits (which can be only 0 or 1, conditions can have a value only of false or true). So in theory, they should be working with basically any type of variable, because each value in the computer must be stored as a sequence of bits."
-msgstr "Operatory bitowe są podobne do operatorów logicznych, gdyż działają w oparciu o bity (które mogą być tylko zerami lub jedynkami, warunki mogą mieć tylko wartości false lub true). Więc w teorii powinny działać z praktycznie każdym typem zmiennej, ponieważ każda wartość w komputerze musi być przechowywana w postaci sekwencji bitów."
+msgstr "Operatory bitowe są podobne do operatorów logicznych, gdyż działają na bitach (które mogą być tylko zerami lub jedynkami, warunki mogą mieć tylko wartości false lub true). Więc w teorii powinny działać z praktycznie każdym typem zmiennej, ponieważ każda wartość w komputerze musi być przechowywana w postaci sekwencji bitów."
 
 #. type: Plain text
 #: ../E/expr.txt:164
@@ -7950,13 +7950,13 @@ msgstr "Składnia inicjalizacji"
 #: ../E/array.txt:31
 #, no-wrap
 msgid "You can initialize a new array using the following syntax:"
-msgstr "Możesz zainicjować nową tablicę używając poniższej składni:"
+msgstr "Możesz zainicjować nową tablicę, używając poniższej składni:"
 
 #. type: Source code
 #: ../E/array.txt:33
 #, no-wrap
 msgid "type arrayName[] = { value0, value1, value2, ..., valueN };"
-msgstr "typ nazwaTablicy[] = { wartosc0, wartosc1, wartosc2, ..., wartoscN };"
+msgstr "typ nazwaTablicy[] = { wartość0, wartość1, wartość2, ..., wartośćN };"
 
 #. type: Source code
 #: ../E/array.txt:37
@@ -8164,7 +8164,7 @@ msgstr ""
 #: ../E/class.txt:10
 #, no-wrap
 msgid "Classes can be only <a cbot|public>public</a>. This means that they can be used by all bots in a mission."
-msgstr "Klasy mogą być wyłącznie <a cbot|public>publiczne</a>. To oznacza że mogą być wykonane przez wszystkie roboty obecne w bieżącej misji."
+msgstr "Klasy mogą być wyłącznie <a cbot|public>publiczne</a>. To oznacza, że mogą być wykonane przez wszystkie roboty obecne w bieżącej misji."
 
 #. type: \b; header
 #: ../E/class.txt:12
@@ -8204,9 +8204,9 @@ msgstr ""
 "\tint     a, b;\n"
 "\tfloat   x = 3.33;\n"
 "\tstring  s = \"Witaj\";\n"
-"\tfloat   MojaFunkcja(float wartosc)\n"
+"\tfloat   MojaFunkcja(float wartość)\n"
 "\t{\n"
-"\t\treturn (wartosc * x) - 1;\n"
+"\t\treturn (wartość * x) - 1;\n"
 "\t}\n"
 "}"
 
@@ -8256,7 +8256,7 @@ msgstr ""
 #: ../E/class.txt:76
 #, no-wrap
 msgid "As the names of the parameters of the second constructor are the same as the names of the two members <code>a</code> and <code>b</code>, we must use the <code><a cbot|this>this</a></code> <a cbot|pointer>reference</a> to avoid confusion with the parameters' names."
-msgstr "Ponieważ nazwy parametrów drugiego konstruktora są takie same jak nazwy elementów <code>a</code> and <code>b</code>, musimy użyć <a cbot|pointer>referencji</a> <code><a cbot|this>this</a></code> by uniknąć pomyłki z nazwami parametrów."
+msgstr "Ponieważ nazwy parametrów drugiego konstruktora są takie same jak nazwy elementów <code>a</code> and <code>b</code>, musimy użyć <a cbot|pointer>referencji</a> <code><a cbot|this>this</a></code>, by uniknąć pomyłki z nazwami parametrów."
 
 #. type: \b; header
 #: ../E/class.txt:78
@@ -8268,7 +8268,7 @@ msgstr "Tworzenie obiektu"
 #: ../E/class.txt:79
 #, no-wrap
 msgid "You can create objects of type <code>YourClass</code> using the <code><a cbot|new>new</a></code> keyword. Example:"
-msgstr "Możesz tworzyć obiekty typu <code>TwojaKlasa</code> używając słowa kluczowego <code><a cbot|new>new</a></code>. Przykład:"
+msgstr "Możesz tworzyć obiekty typu <code>TwojaKlasa</code>, używając słowa kluczowego <code><a cbot|new>new</a></code>. Przykład:"
 
 #. type: \b; header
 #: ../E/class.txt:90
@@ -8286,7 +8286,7 @@ msgstr "Przekazywanie obiektów do funkcji"
 #: ../E/class.txt:115
 #, no-wrap
 msgid "Objects in CBOT are passed by <a cbot|pointer>reference</a>. This means that when an object is passed to a <a cbot|function>function</a>, the function receives a copy of a pointer to the instance, not a copy of the object, so any modifications on the object will be visible outside of the function."
-msgstr "Obiekty w języku CBOT są przekazywane przez <a cbot|pointer>referencję</a>. To znaczy że gdy obiekt jest przekazywany do <a cbot|function>funkcji</a>, funkcja otrzymuje kopię wskaźnika do instancji, nie kopię obiektu, więc wszelkie modyfikacje obiektu są widoczne poza funkcją."
+msgstr "Obiekty w języku CBOT są przekazywane przez <a cbot|pointer>referencję</a>. Oznacza to, że gdy obiekt jest przekazywany do <a cbot|function>funkcji</a>, funkcja otrzymuje kopię wskaźnika do instancji, nie kopię obiektu, więc wszelkie modyfikacje obiektu są widoczne poza funkcją."
 
 #. type: \b; header
 #: ../E/class.txt:117
@@ -8304,7 +8304,7 @@ msgstr "Klasa może dziedziczyć publiczne i chronione elementy innej klasy prze
 #: ../E/class.txt:2
 #, no-wrap
 msgid "This keyword allows you to create a class definition by using the following syntax:"
-msgstr "To słowo kluczowe pozwala ci tworzyć definicje klasy używając następującej składni:"
+msgstr "To słowo kluczowe pozwala ci tworzyć definicje klasy, używając następującej składni:"
 
 #. type: \t; header
 #: ../E/class.txt:9
@@ -8412,7 +8412,7 @@ msgstr "Do elementów klasy można uzyskać dostęp spoza definicji klasy używa
 #: ../E/class.txt:50
 #, no-wrap
 msgid "Class members are <a cbot|public>public</a> by default, which means that they are accessible outside of the class definition. They can also be declared as <code><a cbot|private>private</a></code> or <code><a cbot|protected>protected</a></code>. Such members can only be accessed inside of the class definition."
-msgstr "Elementy klasy są domyślnie zadeklarowane jako <a cbot|public>public</a>, co oznacza że są dostępne spoza definicji klasy. Mogą być również zadeklarowane jako <code><a cbot|private>private</a></code> lub <code><a cbot|protected>protected</a></code>. Takie elementy mogą być dostępne jedynie z wewnątrz definicji klasy."
+msgstr "Elementy klasy są domyślnie zadeklarowane jako <a cbot|public>public</a>, co oznacza, że są dostępne spoza definicji klasy. Mogą być również zadeklarowane jako <code><a cbot|private>private</a></code> lub <code><a cbot|protected>protected</a></code>. Takie elementy mogą być dostępne jedynie z wewnątrz definicji klasy."
 
 #. type: Plain text
 #: ../E/class.txt:53
@@ -8696,7 +8696,7 @@ msgstr "Polimorfizm"
 #: ../E/extends.txt:63
 #, no-wrap
 msgid "<code><a cbot|pointer>Reference</a></code> of type Parent can point to an object of type Child. However, such a pointer can't be used to access a child member. In order to access a child member, it must be assured that the Parent reference really points to a Child object. If that's the case, it can be safely copied to a pointer of type Child, which has access to the child members."
-msgstr "<code><a cbot|pointer>Odniesienie</a></code> typu klasy nadrzędnej może wskazywać na obiekt klasy podrzędnej. Jednak taki wskaźnik nie może zostać użyty do uzyskania dostępu do elementów klasy podrzędnej. Żeby uzyskać dostęp do elementów klasy podrzędnej, należy upewnić się że odniesienie do klasy nadrzędnej rzeczywiście wskazuje na obiekt klasy podrzędnej. W takim przypadku może on zostać bezpiecznie skopiowany do wskaźnika typu klasy podrzędnej który ma dostęp do elementów klasy podrzędnej."
+msgstr "<code><a cbot|pointer>Odniesienie</a></code> typu klasy nadrzędnej może wskazywać na obiekt klasy podrzędnej. Jednak taki wskaźnik nie może zostać użyty do uzyskania dostępu do elementów klasy podrzędnej. Żeby uzyskać dostęp do elementów klasy podrzędnej, należy upewnić się, że odniesienie do klasy nadrzędnej rzeczywiście wskazuje na obiekt klasy podrzędnej. W takim przypadku może on zostać bezpiecznie skopiowany do wskaźnika typu klasy podrzędnej który ma dostęp do elementów klasy podrzędnej."
 
 #. type: Source code
 #: ../E/extends.txt:67
@@ -9036,7 +9036,7 @@ msgstr "Domyślne parametry i przeciążanie"
 #: ../E/function.txt:145
 #, no-wrap
 msgid "Functions with default parameters still can be overloaded, one must only ensure that function calls are not ambiguous. For example, consider the following code:"
-msgstr "Funkcje z parametrami domyślnymi również mogą być przeciążone, pod warunkiem że wywołanie jest jasne. Na przykład, spójrz na poniższy kod:"
+msgstr "Funkcje z parametrami domyślnymi również mogą być przeciążone, pod warunkiem, że wywołanie jest jasne. Na przykład, spójrz na poniższy kod:"
 
 #. type: Source code
 #: ../E/function.txt:147
