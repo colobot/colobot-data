@@ -20,73 +20,73 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Reverse Engineering"
-msgstr ""
+msgstr "Inżynieria odwrotna"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Ruin a ruin."
-msgstr ""
+msgstr "Zdemoluj ruinę."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Z Centrum Kontroli Misji"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We have determined that the best spot to build a <a object|radar>radar</a> on this planet is located on the highest mountain in this region. Unfortunately it is already occupied by a <a object|ruin>ruined radar</a>."
-msgstr ""
+msgstr "Ustaliliśmy, że najlepsze miejsce na zbudowanie <a object|radar>radaru</a> na tej planecie znajduje się na najwyższej górze w tym rejonie. Niestety jest ono obecnie zajęte przez <a object|ruin>zniszczony radar</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Build an <a object|labo>autolab</a> and use it to analyze the <a object|tnt>explosive device</a> you acquired, this will allow your <a object|factory>bot factory</a> to replicate the <a object|bottarg>target bot</a> designed by the previous expedition."
-msgstr ""
+msgstr "Zbuduj <a object|labo>laboratorium</a> i użyj go do analizy zdobytego <a object|tnt>ładunku wybuchowego</a>, pozwoli to twojej <a object|factory>fabryce</a> odtworzyć <a object|bottarg>robota-cel</a> zaprojektowanego przez poprzednią ekspedycję."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Use the target bot to dispose of the ruin and build a new radar in its place."
-msgstr ""
+msgstr "Użyj robota-cel do zniszczenia ruiny oraz zbuduj nowy radar na jej miejscu."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "Naciśnięcie klawisza <format key><key help/></format> pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Zobacz również"
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
-msgstr ""
+msgstr "<a command>Sterowanie</a> i <a cbot>Język CBOT</a>"
 
 #. type: \b; header
 #: ../help/report.E.txt:1
 #, no-wrap
 msgid "Satellite Report"
-msgstr ""
+msgstr "Raport z satelity"
 
 #. type: Plain text
 #: ../help/report.E.txt:2
 #, no-wrap
 msgid "Currently in a geo-stationary orbit of Volcano."
-msgstr ""
+msgstr "Obecnie na orbicie geostacjonarnej planety Wulkania."
 
 #. type: Source code
 #: ../help/report.E.txt:4
 #, no-wrap
 msgid "-> SURFACE<c/>"
-msgstr ""
+msgstr "-> POWIERZCHNIA<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -98,12 +98,17 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      some"
 msgstr ""
+"\\tab;Temperatura:      82,7C\n"
+"\\tab;Atmosfera:        CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wiatr:            1,2 m/s\n"
+"\\tab;Ruda tytanu:      trochę\n"
+"\\tab;Ruda uranu:       trochę"
 
 #. type: Source code
 #: ../help/report.E.txt:11
 #, no-wrap
 msgid "-> SUBSOIL<c/>"
-msgstr ""
+msgstr "-> PODGLEBIE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -113,12 +118,15 @@ msgid ""
 "\\tab;Titanium ore:     some (blue flag)\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Źródło energii:   w niektórych miejscach (wzniesienia)\n"
+"\\tab;Ruda tytanu:      trochę (niebieska flaga)\n"
+"\\tab;Ruda uranu:       brak"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr ""
+msgstr "-> DODATKOWE INFORMACJE<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -128,3 +136,6 @@ msgid ""
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
+"\\tab;Wykryto:          pająki\n"
+"\\tab;  - Zagrożenie:   niebezpośrednie\n"
+"\\tab;Wykryto:          użyteczne pozostałości"
