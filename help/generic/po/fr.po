@@ -1,19 +1,21 @@
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Didier Raboud <odyx@debian.org>, 2016.
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: colobot-data 0.1.7\n"
+"Project-Id-Version: colobot-data 0.1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2016-03-25 16:32+0100\n"
-"Last-Translator: Didier Raboud <odyx@debian.org>\n"
+"PO-Revision-Date: 2019-06-15 10:17+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Plain text
 #: ../E/authors.txt:1
@@ -70,7 +72,7 @@ msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
-"Le langage CBOT est très proche du C++ et du Java. Il a adapté à COLOBOT, et également adapté à une approche pédagogique simple.\n"
+"Le langage CBOT est très proche du C++ et du Java. Il a été adapté pour COLOBOT, et est également adapté pour une approche pédagogique simple.\n"
 "Ce langage est constitué d'instructions, de <a cbot|bloc>blocs</a>, de <a cbot|function>fonctions</a>, de <a cbot|class>classes</a>, de <a cbot|var>variables</a>, de <a cbot|array>tableaux</a>, d'<a cbot|expr>expressions</a> et de <a cbot|cond>conditions</a>."
 
 #. type: Bullet: 'o'
@@ -98,13 +100,13 @@ msgid "Specific instructions for bots:"
 msgstr "Instructions pour les robots:"
 
 #. type: \t; header
-#: ../E/cbot.txt:54
+#: ../E/cbot.txt:60
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr "Instructions sur le terrain:"
 
 #. type: \t; header
-#: ../E/cbot.txt:60
+#: ../E/cbot.txt:66
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr "Instructions spécifiques à certains robots:"
@@ -113,7 +115,7 @@ msgstr "Instructions spécifiques à certains robots:"
 #: ../E/cbot.txt:79
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
-msgstr "Instructions pour les bornes d'information:"
+msgstr "Instructions pour les station relais :"
 
 #. type: Plain text
 #: ../E/cbot.txt:80
@@ -209,7 +211,7 @@ msgstr "Commandes"
 #: ../E/command.txt:2
 #, no-wrap
 msgid "You are advised to play with one hand on the arrow keys and the other hand on the mouse."
-msgstr "Il est recommandé de jouer avec la main gauche sur les touches flèches du clavier, et la main droite sur la souris."
+msgstr "Il est recommandé de jouer avec une main sur les touches flèches du clavier, et l'autre main sur la souris."
 
 #. type: \t; header
 #: ../E/command.txt:4
@@ -259,7 +261,7 @@ msgstr ""
 "souris en avant = visée plus basse\n"
 "souris à droite = visée à droite\n"
 "souris à gauche = visée à gauche\n"
-"Ces commandes ne sont disponibles que pour les <a object|human>canons</a>, les <a object|botor>canons organiques</a> et le <a object|botphaz>canon phaseur</a>."
+"Ces commandes ne sont disponibles que pour les <a object|botfr>tireurs</a>, les <a object|botor>tireurs organiques</a> et le <a object|botphaz>hachoir</a>."
 
 #. type: Plain text
 #: ../E/command.txt:21
@@ -267,7 +269,7 @@ msgstr ""
 msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
-msgstr "<format key><key action/></format> = action principale selon le robot sélectionné. Par exemple, avec un <a object|botgr>robot déménageur</a>, cette commande actionne le bras. Avec un robot <a object|botfr>shooter</a>, cette commande fait feu (bouton <button 42/>)."
+msgstr "<format key><key action/></format> = action principale selon le robot sélectionné. Par exemple, avec un <a object|botgr>robot préhenseur</a>, cette commande actionne le bras. Avec un robot <a object|botfr>tireur</a>, cette commande fait feu (bouton <button 42/>)."
 
 #. type: \t; header
 #: ../E/command.txt:24
@@ -339,7 +341,7 @@ msgstr "Toutes ces touches peuvent être redéfinies dans les options/commandes.
 #: ../E/freehelp.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr "Objectif"
+msgstr "Vos objectifs"
 
 #. type: Plain text
 #: ../E/freehelp.txt:2
@@ -387,7 +389,7 @@ msgid ""
 "Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
 msgstr ""
 "<button 30/> Page initiale\n"
-"Revient à la page initiale, qui était affichée en début de mission, ou lorsque vous avez appuyé sur <format key><key help/></format> ou <format key><key prog/></format>."
+"Retourner à la page initiale, qui était affichée en début de mission, ou lorsque vous avez appuyé sur <format key><key help/></format> ou <format key><key prog/></format>."
 
 #. type: Plain text
 #: ../E/navig.txt:7
@@ -397,7 +399,7 @@ msgid ""
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
 msgstr ""
 "<button 55/> Page précédente \n"
-"Revient à la page précédente, affichée avant d'avoir cliqué sur un lien."
+"Retourner à la page précédente, affichée avant d'avoir cliqué sur un lien."
 
 #. type: Plain text
 #: ../E/navig.txt:10
@@ -407,7 +409,7 @@ msgid ""
 "Get again to the next page, after you used the \"Home\" or \"Previous\" button."
 msgstr ""
 "<button 48/> Page suivante\n"
-"Retourne à la page suivante, après utilisation du bouton \"page initiale\" ou \"page précédente\"."
+"Retourner à la page suivante, après utilisation du bouton \"page initiale\" ou \"page précédente\"."
 
 #. type: \t; header
 #: ../E/navig.txt:13
@@ -441,7 +443,7 @@ msgstr "Si votre souris dispose d'une molette, vous pouvez l'utiliser pour faire
 #: ../E/navig.txt:20
 #, no-wrap
 msgid "Font size"
-msgstr "Dimensions du texte"
+msgstr "Taille des caractères"
 
 #. type: Plain text
 #: ../E/navig.txt:21
@@ -481,21 +483,22 @@ msgstr "Avec les nouvelles fonctions proposées dans l'édition GOLD, il est pos
 #: ../E/battles.txt:20
 #, no-wrap
 msgid "Production line is explained in Missions and Exercises, but you may want to jump into code battles right away without beating the whole game. So here is a brief description of how the things works in Colobot."
-msgstr ""
+msgstr "La ligne de production est expliqué au sein des missions et exercices. Toutefois, si vous souhaitez lancer directement le mode bataille de code, sans terminer le jeu complet, ci-dessous figure une description succinte sur la façon dont les choses fonctionnent dans Colobot."
 
 #. type: \t; header
 #: ../E/battles.txt:22
 #, no-wrap
 msgid "What you want to achieve"
-msgstr ""
+msgstr "Ce que vous devrez accomplir"
 
 #. type: Plain text
 #: ../E/battles.txt:23
 #, no-wrap
 msgid "Basically, you want to destroy the opponent. To do that, you will need something lethal, for example, a robot, specifically, a <a object|botfr>shooter</a>. But you will probably be losing them quite often, so maybe you should keep the production going on. For example, more <a object|botgr>grabbers</a> or more <a object|factory>factories</a>, <a object|convert>converters</a> and so on would be helpful in that. Remember that robots needs <a object|power>batteries</a>. Anyway, before you can start, you must also do some <a object|research>researches</a> to get better technologies. And here we are at the beginning, with a single <a object|botgr>robot</a> and a <a object|titan>Titanium</a>."
-msgstr ""
+msgstr "En gros, vous souhaitez détruire l'adversaire. Pour ce faire, vous aurez besoin de quelque chose de mortel, par exemple, un robot, plus précisément, un <a object|botfr>tireur</a>. Mais vous les perdrez probablement assez souvent, alors vous devriez peut-être continuer la production. Par exemple, en ajoutant plus de <a object|botgr>préhenseurs</a> ou plus d'<a object|factory>usines</a>, de <a object|convert>raffineries</a> et ainsi de suite seraient utiles à cet effet. Rappelez-vous que les robots ont besoin de <a object|power>batteries</a>. Quoi qu'il en soit, avant de pouvoir commencer, vous devez aussi faire des <a object|research>recherches</a> pour obtenir de meilleures technologies. Et nous voici au début, avec un seul <a object|botgr>robot préhenseur</a> et un <a object|titan>bloc de titane</a>."
 
 #. type: Image filename
+# tocheck was : msgstr "ligne de production 1"
 #: ../E/battles.txt:25
 #, no-wrap
 msgid "productionline1"
@@ -505,7 +508,7 @@ msgstr "productionline1"
 #: ../E/battles.txt:27
 #, no-wrap
 msgid "Titanium production"
-msgstr "Production de titanium"
+msgstr "Production de titane"
 
 #. type: Plain text
 #: ../E/battles.txt:28
@@ -518,6 +521,12 @@ msgid ""
 "5. Use or move somewhere your new Titanium.\n"
 "Repeat steps 3-5 in order to keep your production going."
 msgstr ""
+"1. <a cbot|radar>Trouver</a> un <a object|titan>bloc de titane</a>.\n"
+"2. <a cbot|build>Construire</a> une <a object|convert>raffinerie</a>.\n"
+"3. Trouver un <a object|titanore>minerai de titane</a>.\n"
+"4. Placez-le dans la raffinerie. Reculez et attendez que la transformation soit terminée.\n"
+"5. Utilisez ou déplacez votre nouveau titane.\n"
+"Répétez les étapes 3 à 5 pour maintenir votre production."
 
 #. type: \t; header
 #: ../E/battles.txt:35
@@ -533,6 +542,9 @@ msgid ""
 "2. Power it with a <a object|power>PowerCell</a>.\n"
 "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
 msgstr ""
+"1. <a cbot|build>Construire</a> un <a object|research>centre de recherches</a>.\n"
+"2. Alimentez le avec une <a object|power>batterie</a>.\n"
+"3. <a cbot|research>Lancez</a> la <a cbot|researches>recherche</a> et attendre qu'elle soit découverte."
 
 #. type: \t; header
 #: ../E/battles.txt:40
@@ -549,6 +561,10 @@ msgid ""
 "3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
 "4. Power the robot with a <a object|power>PowerCell</a>."
 msgstr ""
+"1. <a cbot|build>Construire</a> une <a object|factory>usine</a>.\n"
+"2. Placez un <a object|titan>bloc de titane</a> à l'intérieur et reculez. \n"
+"3. <a cbot|factory>Demandez</a> la fabrication d'un robot et attendre jusqu'à ce que l'usine soit disponible.\n"
+"4. Activez le robot avec une <a object|power>batterie</a>."
 
 #. type: \t; header
 #: ../E/battles.txt:46
@@ -563,18 +579,20 @@ msgid ""
 "1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
 "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
 msgstr ""
+"1. <a cbot|build>Construire</a> une <a object|energy>fabrique de batteries</a>.\n"
+"2. Positionner un <a object|titan>bloc de titane</a> en son sein et attendre que la batterie soit disponnible."
 
 #. type: \t; header
 #: ../E/battles.txt:50
 #, no-wrap
 msgid "There is more"
-msgstr "Mais encore"
+msgstr "Mais aussi"
 
 #. type: Plain text
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr ""
+msgstr "Il y a beaucoup d'autres possibilités, mais ceci est la base. Lisez la documentation, jouez au jeu et faites preuve de créativité pour trouver de nouvelles idées. Bonne chance et amusez-vous bien."
 
 #. type: Plain text
 #: ../E/battles.txt:54
@@ -601,7 +619,7 @@ msgid ""
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
 msgstr ""
 "<code><a cbot|extern>extern</a>     </code>Indique la fonction principale\n"
-"<code><a cbot|if>if</a>         </code>Branchement\n"
+"<code><a cbot|if>if</a>         </code>Branchement conditionnel\n"
 "<code><a cbot|if>else</a>       </code>Branchement alternatif\n"
 "<code><a cbot|switch>switch</a>     </code>Choix multiples\n"
 "<code><a cbot|switch>case</a>       </code>Un choix\n"
@@ -609,13 +627,13 @@ msgstr ""
 "<code><a cbot|for>for</a>        </code>Structure de boucle\n"
 "<code><a cbot|while>while</a>      </code>Structure de contrôle\n"
 "<code><a cbot|do>do</a>         </code>Structure de contrôle\n"
-"<code><a cbot|break>break</a>      </code>Sortie de boucle\n"
+"<code><a cbot|break>break</a>      </code>Sortie d'une boucle\n"
 "<code><a cbot|continue>continue</a>   </code>Continuer la boucle\n"
 "<code><a cbot|return>return</a>     </code>Fin de la fonction\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Taille d'un tableau"
 
 #. type: Plain text
-#: ../E/cbot.txt:55
+#: ../E/cbot.txt:61
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
@@ -623,39 +641,10 @@ msgid ""
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
 msgstr ""
-
-#. type: Plain text
-#: ../E/cbot.txt:61
-#, no-wrap
-msgid ""
-"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
-"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
-"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
-"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
-"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
-"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
-"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
-"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
-"<code><a cbot|build>build</a>      </code>Builds a building\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
-msgstr ""
-
-#. type: \t; header
-#: ../E/cbot.txt:73
-#, no-wrap
-msgid "Instructions specific for some <a cbot|object>objects</a>:"
-msgstr " "
-
-#. type: Plain text
-#: ../E/cbot.txt:74
-#, no-wrap
-msgid ""
-"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
-"<code><a cbot|research>research</a>   </code>Starts a research\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
-"<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
-msgstr ""
+"<code><a cbot|space>space</a>      </code>Calculater un espace libre\n"
+"<code><a cbot|flatspace>flatspace</a>  </code>Calculater un espace plat libre\n"
+"<code><a cbot|topo>topo</a>       </code>Returne l'altitude d'une position\n"
+"<code><a cbot|flatgrnd>flatground</a> </code>Returne le rayon de l'espace plat disponnible"
 
 #. type: \t; header
 #: ../E/cbot.txt:115
@@ -682,6 +671,20 @@ msgid ""
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
 msgstr ""
+"<code><a cbot|rand>rand</a>       </code>Retourne une valeur aléatoire\n"
+"<code><a cbot|pow>pow</a>        </code>Retourne une puissance\n"
+"<code><a cbot|sqrt>sqrt</a>       </code>Retourne une racine carrée\n"
+"<code><a cbot|floor>floor</a>      </code>Retourne le plus grand entier qui précède\n"
+"<code><a cbot|ceil>ceil</a>       </code>Retourne le plus petit entier qui suit\n"
+"<code><a cbot|round>round</a>      </code>Retourne un arrondit\n"
+"<code><a cbot|trunc>trunc</a>      </code>Retourne la partie entière d'un nombre\n"
+"<code><a cbot|sin>sin</a>        </code>Retourne un sinus\n"
+"<code><a cbot|cos>cos</a>        </code>Retourne une cosinus\n"
+"<code><a cbot|tan>tan</a>        </code>Retourne une tangente\n"
+"<code><a cbot|asin>asin</a>       </code>Retourne un arc-sinus\n"
+"<code><a cbot|acos>acos</a>       </code>Retourne un arc-cosinus\n"
+"<code><a cbot|atan>atan</a>       </code>Retourne un arc-tangente\n"
+"<code><a cbot|atan2>atan2</a>      </code>Retourne un arc-tangente, à partir de deux arguments"
 
 #. type: Plain text
 #: ../E/cbot.txt:9
@@ -703,19 +706,19 @@ msgid ""
 "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
 msgstr ""
 "<a cheats>o</a>  |c;<format token>Instruction </format><n/>\n"
-"Dans l'éditeur de programmes, une instruction du language CBOT est toujours représentée ainsi: <format token>instruction</format>. Si une instruction n'est pas surlignée, elle a nécessairement été mal écrite. Les instructions sont toujours écrites en minuscules."
+"Dans l'éditeur de programmes, une instruction du langage CBOT est toujours représentée ainsi: <format token>instruction</format>. Si une instruction n'est pas surlignée, elle a nécessairement été mal écrite. Les instructions sont toujours écrites en minuscules."
 
 #. type: \b; header
 #: ../E/cheats.txt:1
 #, no-wrap
 msgid "Cheats"
-msgstr ""
+msgstr "Code de triche"
 
 #. type: Plain text
 #: ../E/cheats.txt:2
 #, no-wrap
 msgid "Great, you have found this secret page. We hope you will use informations contained here only for other than cheating purposes. Like testing the game or recording a cool video about Colobot."
-msgstr ""
+msgstr "Bravo, vous avez trouvé cette page secrète. Nous espérons que vous saurez utiliser les informations contenues ici dans d'autres objectifs que de tricher, comme tester le jeu ou enregistrer une vidéo sympa à propos de Colobot."
 
 #. type: \b; header
 #: ../E/cheats.txt:4
@@ -727,7 +730,7 @@ msgstr "Console"
 #: ../E/cheats.txt:5
 #, no-wrap
 msgid "You can open the console by pressing the <key/><code>~</code><norm/> button on your keyboard. Press <key/><code>ENTER</code><norm/> to hide it or pass one of the commands below."
-msgstr ""
+msgstr "Vous pouvez ouvrir une console en appytant sur la touche <key/><code>~</code><norm/>. Appuyez <key/><code>ENTREE</code><norm/> pour la cacher et accéder à ce qui se trouve au dessous."
 
 #. type: \t; header
 #: ../E/cheats.txt:7
@@ -763,217 +766,217 @@ msgstr "CBOT"
 #: ../E/cheats.txt:45
 #, no-wrap
 msgid "<code><a cbot|produce>produce</a>      </code>Immediately creates an object"
-msgstr ""
+msgstr "<code><a cbot|produce>produce</a>      </code>Créer immédiatement un objet"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:8
 #, no-wrap
 msgid "<code>winmission   </code>Immediately win the current mission"
-msgstr ""
+msgstr "<code>winmission   </code>Terminer par une victoire la mission en cours."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:9
 #, no-wrap
 msgid "<code>lostmission  </code>Immediately lose the current mission"
-msgstr ""
+msgstr "<code>lostmission  </code>Terminer par un échec la mission en cours."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:14
 #, no-wrap
 msgid "<code>allresearch  </code>All researches are done"
-msgstr ""
+msgstr "<code>allresearch  </code>Valider toutes les recherches"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:15
 #, no-wrap
 msgid "<code>allbuildings </code>All buildings are enabled"
-msgstr ""
+msgstr "<code>allbuildings </code>Rendre possible toutes les constructions de bâtiments"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:16
 #, no-wrap
 msgid "<code>all          </code><code>allbuildings</code> + <code>allresearch</code>"
-msgstr ""
+msgstr "<code>all          </code><code>allbuildings</code> + <code>allresearch</code>"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:17
 #, no-wrap
 msgid "<code>fullenergy   </code>Restore energy in the currently selected bot"
-msgstr ""
+msgstr "<code>fullenergy   </code>Restaurer l'énergie du robot actuellement sélectionné"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:18
 #, no-wrap
 msgid "<code>fullshield   </code>Restore shield in the currently selected object"
-msgstr ""
+msgstr "<code>fullshield   </code>Restaurer le bouclier du robot ou du bâtiment actuellement sélectionné"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:19
 #, no-wrap
 msgid "<code>fullrange    </code>Flying reactor is cold"
-msgstr ""
+msgstr "<code>fullrange    </code>Refroidir le réacteur du robot (volant) actuellement sélectionné"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:20
 #, no-wrap
 msgid "<code>fullpower    </code><code>fullenergy</code> + <code>fullshield</code> + <code>fullrange</code>"
-msgstr ""
+msgstr "<code>fullpower    </code><code>fullenergy</code> + <code>fullshield</code> + <code>fullrange</code>"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:22
 #, no-wrap
 msgid "<code>fly          </code>You can fly even if flying is disabled in the current mission"
-msgstr ""
+msgstr "<code>fly          </code>Rendre possible le vol, même si ce mode était désactivé dans la mission en cours."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:24
 #, no-wrap
 msgid "<code>addfreezer   </code>Flying reactor heats more slowly"
-msgstr ""
+msgstr "<code>addfreezer   </code>Voler plus longtemps: les réacteurs chauffent plus lentement"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:25
 #, no-wrap
 msgid "<code>addhusky     </code>You take less damage than usual"
-msgstr ""
+msgstr "<code>addhusky     </code>Vous prenez moins de dommages qu'habituellement"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:26
 #, no-wrap
 msgid "<code>nolimit      </code>You can fly higher"
-msgstr ""
+msgstr "<code>nolimit      </code>Vous pouvez voler plus haut"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:27
 #, no-wrap
 msgid "<code>trainerpilot </code>You can drive robots which could be previously controlled only by programs"
-msgstr ""
+msgstr "<code>trainerpilot </code>Vous pouvez diriger manuellement les robots qui n'étaient contrôlables que depuis les programmes"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:38
 #, no-wrap
 msgid "<code>photo1       </code>Free camera, you can change angle with <key/><code>+</code><norm/> and <key/><code>-</code><norm/> keys, type again to set it off"
-msgstr ""
+msgstr "<code>photo1       </code>Libére la caméra, vous pouvez changer l'angle avec les touches <key/><code>+</code><norm/> et <key/><code>-</code><norm/>. Tapez à nouveau pour désactiver"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:39
 #, no-wrap
 msgid "<code>photo2       </code>Same as <code>photo1</code>, except it hides interface, type again to set it off"
-msgstr ""
+msgstr "<code>photo2       </code>Comme <code>photo1</code>, en cachant l'interface. Tapez à nouveau pour désactiver"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:47
 #, no-wrap
 msgid "<code>delete       </code>Damages the object, <code>1</code>: object's ID, <code>2</code>: magnifyDamage multiplier, without <code>2</code> the object explodes"
-msgstr ""
+msgstr "<code>delete       </code>Endommager l'objet, <code>1</code>: identifiant de l'objet, <code>2</code>: coefficien multiplieur magnifyDamage, sans <code>2</code> l'objet explose"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:48
 #, no-wrap
 msgid "<code>setbuild     </code>Sets buildings bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setbuild     </code>Modifier la valeur du masque de bits des bâtiments, <code>1</code>: nouveau masque"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:49
 #, no-wrap
 msgid "<code>setresearchenable </code>Sets researches bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setresearchenable </code>Définir le masque de bits des recherches, <code>1</code>: nouveau masque"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:50
 #, no-wrap
 msgid "<code>setresearchdone </code>Sets done researches bitmask, <code>1</code>: new bitmask"
-msgstr ""
+msgstr "<code>setresearchdone </code>Définir le masque de bit des recherches effectuées, <code>1</code>: nouveau masque"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:51
 #, no-wrap
 msgid "<code>getbuild     </code>Returns buildings bitmask"
-msgstr ""
+msgstr "<code>getbuild     </code>Donne le masque de bits actuel des bâtiments"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:52
 #, no-wrap
 msgid "<code>getresearchenable </code>Returns researches bitmask"
-msgstr ""
+msgstr "<code>getresearchenable </code>Donne le masque de bits actuel de recherches"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:53
 #, no-wrap
 msgid "<code>getresearchdone </code>Returns done researches bitmask"
-msgstr ""
+msgstr "<code>getresearchdone </code>Donne le masque de bits actuel de recherches effectuées"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:54
 #, no-wrap
 msgid "<code>playmusic    </code>Plays music, <code>1</code>: file name, <code>2</code>: repeat"
-msgstr ""
+msgstr "<code>playmusic    </code>Joue une musique, <code>1</code>: nom de fichier, <code>2</code>: répétition"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:55
 #, no-wrap
 msgid "<code>stopmusic    </code>Stops music"
-msgstr ""
+msgstr "<code>stopmusic    </code>Stoper la musique"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:10
 #, no-wrap
 msgid "<code>allmission   </code>All missions are unlocked, works also in main menu"
-msgstr ""
+msgstr "<code>allmission   </code>Toutes les missions sont débloquées, fonctionne également à partir du menu principal"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:11
 #, no-wrap
 msgid "<code>showsoluce   </code>All solutions are unlocked, works also in main menu"
-msgstr ""
+msgstr "<code>showsoluce   </code>Toutes les solutions sont débloquées, fonctionne également à partir du menu principal"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:21
 #, no-wrap
 msgid "<code>selectinsect </code>You can select and control aliens, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>selectinsect </code>Permet de sélectionner et de contrôler les aliens, fonctionne également à partir du menu principal, tapez à nouveau pour désactiver"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:23
 #, no-wrap
 msgid "<code>invradar     </code>Mini-map works like you would have built a <a object|radar>radar</a>, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>invradar     </code>La mini-carte fonctionne comme si vous aviez construit un <a object|radar>radar</a>, fonctionne également à partir du menu principal, tapez à nouveau pour désactiver"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:28
 #, no-wrap
 msgid "<code>noclip       </code>The currently selected object can pass through objects"
-msgstr ""
+msgstr "<code>noclip       </code>Mode fantome : l'objet actuel peut passer à travers les autres objetsThe currently selected object can pass through objects"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:29
 #, no-wrap
 msgid "<code>clip         </code>Disable <code>noclip</code> on the currently selected object"
-msgstr ""
+msgstr "<code>clip         </code>Désactive le mode fantome (<code>noclip</code>) pour l'objet actuel"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:30
 #, no-wrap
 msgid "<code>speed        </code>Set the speed of the game to the given number, for example <code>speed 2</code> - two times faster, <code>speed 0.5</code> - two times slower, works also in main menu"
-msgstr ""
+msgstr "<code>speed        </code>Fixe la vitesse du jeu au nombre voulu, par exemple <code>speed 2</code> - deux fois plus rapide, <code>speed 0.5</code> - deux fois plus lent, fonctionne également à partir du menu principal"
 
 #. type: Plain text
 #: ../E/cheats.txt:33
 #, no-wrap
 msgid "These commands work also in main menu. Type them again to set them off."
-msgstr ""
+msgstr "Ces commandes fonctionnent également à partir du menu principal. Tapez les à nouveau pour les désactiver."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:34
 #, no-wrap
 msgid "<code>showstat     </code>Show debug statistics on the screen, <format key>F12</format> keyboard key has the same effect"
-msgstr ""
+msgstr "<code>showstat     </code>Montrer les statistiques de déboguage à l'écran, la touche <format key>F12</format> a le même effet"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:35
 #, no-wrap
 msgid "<code>debugmode    </code>Enable debug mode (useful for the game developers): the verbose debugging of events and other things; make sure you run the game with <code>-loglevel trace</code> to see the effect; see also <code>-debug</code> commandline parameter"
-msgstr ""
+msgstr "<code>debugmode    </code>Active le mode de déboguage (util pour les développeurs du jeu): le déboguage verbeux des évènements et autres éléments; assurez vous de bien lancer le jeu avec l'option <code>-loglevel trace</code> pour visualiser les effets; voir aussi <code>-debug</code> paramètres de la ligne de commande"
 
 #. type: Plain text
 #: ../E/cheats.txt:42
@@ -982,42 +985,44 @@ msgid ""
 "There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for \"legal\" programs. It should be fine to use them for level creation though if there is no other way.\n"
 "Numbers mean order of parameters."
 msgstr ""
+"Il y a des commandes cachées dans CBOT qui ne sont pas mises en évidence dans l'éditeur. Elles sont considérées comme des tricheries, alors ne les utilisez pas pour des programmes \"légaux\". Il devrait n'être possible de les utiliser seulement pour créer des niveaux s'il n'y a pas d'autre solution.\n"
+"Les nombres signifient l'ordre des paramètres."
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:46
 #, no-wrap
 msgid "<code>ipf          </code>Sets the number of instructions per frame, <code>1</code>: the number, default is <code>100</code>"
-msgstr ""
+msgstr "<code>ipf          </code>Fixe le nombre d'instructions par frame, <code>1</code>: le nombre, par défault <code>100</code>"
 
 #. type: \b; header
 #: ../E/battles.txt:17
 #, no-wrap
 msgid "Basics of production line\\m production;"
-msgstr ""
+msgstr "Bases de la ligne de production\\m production;"
 
 #. type: \b; header
 #: ../E/battles.txt:4
 #, no-wrap
 msgid "How to control the level"
-msgstr ""
+msgstr "Comment contrôler le niveau"
 
 #. type: \t; header
 #: ../E/battles.txt:6
 #, no-wrap
 msgid "Starting a code battle"
-msgstr ""
+msgstr "Démarrer la bataille de code"
 
 #. type: \t; header
 #: ../E/battles.txt:11
 #, no-wrap
 msgid "Controlling the spectator's view"
-msgstr ""
+msgstr "Contrôler la vue du spectateur"
 
 #. type: Plain text
 #: ../E/battles.txt:12
 #, no-wrap
 msgid "After a code battle is started, the camera is put into a special mode:"
-msgstr ""
+msgstr "Au démarrage de la bataille de code, la caméra est placée en mode spécial:"
 
 #. type: Plain text
 #: ../E/battles.txt:7
@@ -1027,24 +1032,71 @@ msgid ""
 "1. Run all the necessary programs for your/all team(s).\n"
 "2. Press the <button 21/> button above the mini-map."
 msgstr ""
+"Pour lancer la bataille de code, vous devez:\n"
+"1. Lancer tous les programmes nécessaires pour votre/toutes les équipe(s).\n"
+"2. Appuyer le <button 21/> bouton au dessus de la mini-carte."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:13
 #, no-wrap
 msgid "One can select objects as a player normally would, but one will not see their interface and the camera does not rotate when the object rotates. One can also use numerical keyboard instead of mouse in order to rotate the object-centered camera."
-msgstr ""
+msgstr "On peut sélectionner des objets comme un joueur le ferait normalement, mais on ne verra pas leur interface et la caméra ne tourne pas lorsque l'objet tourne. On peut aussi utiliser un clavier numérique à la place de la souris pour faire tourner la caméra centrée sur l'objet."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:15
 #, no-wrap
 msgid "One can return to the normal view by pressing the <button 13/> button above the mini-map."
-msgstr ""
+msgstr "On peut revenir à l'affichage par défaut en appuyant sur le bouton <button 13/> au-dessus de la mini-carte."
 
 #. type: Bullet: 'o'
 #: ../E/battles.txt:14
 #, no-wrap
 msgid "One can also switch to the free camera view by clicking somewhere on the map. One can move around in this view by using the numerical keyboard and <format key>PageUp</format>/<format key>PageDown</format> keys."
+msgstr "On peut aussi passer à la vue de la caméra libre en cliquant où on le désire sur la carte. On peut se déplacer dans cette vue en utilisant le clavier numérique et les touches <format key>PageUp</format>/<format key>PageDown</format>."
+
+#. type: Plain text
+#: ../E/cbot.txt:86
+#, no-wrap
+msgid ""
+"<code><a cbot|class>class</a>      </code>Class declararion\n"
+"<code><a cbot|public>public</a>     </code>Declares a public class member\n"
+"<code><a cbot|private>private</a>    </code>Declares a private class member\n"
+"<code><a cbot|protected>protected</a>  </code>Declares a protected class member\n"
+"<code><a cbot|static>static</a>     </code>Declares a static class member\n"
+"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous execution\n"
+"<code><a cbot|new>new</a>        </code>Creates a new instance\n"
+"<code><a cbot|this>this</a>       </code>Reference to the current instance\n"
+"<code><a cbot|extends>extends</a>    </code>Extends a class\n"
+"<code><a cbot|super>super</a>      </code>Grants access to the parent class"
 msgstr ""
+"<code><a cbot|class>class</a>      </code>Déclararion de classe\n"
+"<code><a cbot|public>public</a>     </code>Déclare un membre publique d'une classe\n"
+"<code><a cbot|private>private</a>    </code>Déclare un membre privé d'une classe\n"
+"<code><a cbot|protected>protected</a>  </code>Déclare un membre protégé d'une classe\n"
+"<code><a cbot|static>static</a>     </code>Déclare un membre statique d'une classe\n"
+"<code><a cbot|synchro>synchronized</a> </code>Evite les exécutions simultamnées\n"
+"<code><a cbot|new>new</a>        </code>Crée une nouvelle instance\n"
+"<code><a cbot|this>this</a>       </code>Réference à l'instance courante\n"
+"<code><a cbot|extends>extends</a>    </code>Etend une classe\n"
+"<code><a cbot|super>super</a>      </code>Donne accès à la classe mère"
+
+#. type: Plain text
+#: ../E/command.txt:40
+#, no-wrap
+msgid ""
+"<format key><key speed_dec/></format> = slow down speed by half\n"
+"<format key><key speed_reset/></format> = normal speed x1\n"
+"<format key><key speed_inc/></format> = increase speed twice\n"
+"<format key><key quicksave/></format> = quick save\n"
+"<format key><key quickload/></format> = quick load\n"
+"<format key><key quit/></format> = exits mission <button 11/>"
+msgstr ""
+"<format key><key speed_dec/></format> = divise la vitesse de moitié\n"
+"<format key><key speed_reset/></format> = vitesse standard x1\n"
+"<format key><key speed_inc/></format> = double la vitesse \n"
+"<format key><key quicksave/></format> = sauvegarde rapide\n"
+"<format key><key quickload/></format> = chargement rapide\n"
+"<format key><key quit/></format> = sortir de la mission <button 11/>"
 
 #. type: Plain text
 #: ../E/cbot.txt:30
@@ -1071,34 +1123,29 @@ msgid ""
 "<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
 "<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
 "<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
-"<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
-"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
+"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+"<code><a cbot|research>research</a>   </code>Starts a research\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Launches a spaceship\n"
+"<code><a cbot|isbusy>isbusy</a>     </code>Checks if object is busy\n"
+"<code><a cbot|canresearch>canresearch</a></code>Checks if a technology can be researched\n"
+"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
 msgstr ""
 
 #. type: Plain text
-#: ../E/cbot.txt:86
+#: ../E/cbot.txt:67
 #, no-wrap
 msgid ""
-"<code><a cbot|class>class</a>      </code>Class declararion\n"
-"<code><a cbot|public>public</a>     </code>Declares a public class member\n"
-"<code><a cbot|private>private</a>    </code>Declares a private class member\n"
-"<code><a cbot|protected>protected</a>  </code>Declares a protected class member\n"
-"<code><a cbot|static>static</a>     </code>Declares a static class member\n"
-"<code><a cbot|synchro>synchronized</a> </code>Prevents simultaneous execution\n"
-"<code><a cbot|new>new</a>        </code>Creates a new instance\n"
-"<code><a cbot|this>this</a>       </code>Reference to the current instance\n"
-"<code><a cbot|extends>extends</a>    </code>Extends a class\n"
-"<code><a cbot|super>super</a>      </code>Grants access to the parent class"
-msgstr ""
-
-#. type: Plain text
-#: ../E/command.txt:40
-#, no-wrap
-msgid ""
-"<format key><key speed_dec/></format> = slow down speed by half\n"
-"<format key><key speed_reset/></format> = normal speed x1\n"
-"<format key><key speed_inc/></format> = increase speed twice\n"
-"<format key><key quicksave/></format> = quick save\n"
-"<format key><key quickload/></format> = quick load\n"
-"<format key><key quit/></format> = exits mission <button 11/>"
+"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
+"<code><a cbot|build>build</a>      </code>Builds a building\n"
+"<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
+"<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
 msgstr ""

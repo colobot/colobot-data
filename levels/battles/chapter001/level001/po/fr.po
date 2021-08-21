@@ -1,106 +1,78 @@
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Didier Raboud <odyx@debian.org>, 2016.
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2016-03-25 16:59+0100\n"
-"Last-Translator: Didier Raboud <odyx@debian.org>\n"
+"PO-Revision-Date: 2019-06-02 08:17+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <LANGUAGE <LL@li.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Code battle - vs aliens"
+msgid "BaseBuilding"
 msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "A map for begginers! Research all needed technologies and build your infrastructure to kill all the aliens on the opposite side of the river - using programming only!"
+msgid "Build your base and eliminate your foe!"
 msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (vs Aliens)"
-msgstr ""
+msgid "Code Battle (vs Player)"
+msgstr "Bataille de code (contre d'autres joueurs)"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is a training code battle level, which purpose is to familiarize you with this <a battles>game mode</a>."
-msgstr ""
+msgid "This is <a battles>a code battle</a> level, where you fight against an other program, presumably written by some other player."
+msgstr "Il s'agit d'un niveau de <a battles>bataille de codes</a>, où vous affrontez un autre programme, un autre programme, supposé écrit par un autre joueur."
 
-#. type: \t; header
+#. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Brief introduction"
-msgstr "Brève introduction"
+msgid "Objective"
+msgstr "Vos objectifs"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. There are two or more teams and the one that survives the longest is the winner. As the name suggest, you can only use programming in this game mode."
-msgstr ""
+msgid "Destroy the other team located on the opposite side of the river."
+msgstr "Détruisez l'autre équipe située de l'autre côté de la rivière."
 
-#. type: Plain text
+#. type: \b; header
 #: ../help/help.E.txt:7
-#, no-wrap
-msgid "It is recommended to read <a %lvl%/help/help.%lng% notes>the notes section</a> below."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "Your objective"
-msgstr "Vos objectifs"
-
-#. type: Plain text
-#: ../help/help.E.txt:10
-#, no-wrap
-msgid "Kill all the aliens located on the other side of the river."
-msgstr ""
-
-#. type: \b; header
-#: ../help/help.E.txt:12
 #, no-wrap
 msgid "Notes\\m notes;"
 msgstr "Notes\\m notes;"
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:13
-#, no-wrap
-msgid "The <a object/ant>aliens</a> will not attack you, unless you come too close to them."
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "<a cbot>The CBOT documentation</a> might come in handy."
-msgstr ""
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:14
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "There is <a object/enerspot>an underground power source</a> only under the beginning base areas."
-msgstr ""
+msgstr "Il y a une <a object/enerspot>source d'énergie sous-terraine</a> uniquement sous la zone de démarrage."
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:17
+#: ../help/help.E.txt:9
 #, no-wrap
-msgid "If you have not played Colobot before, it is recommended to read about <a battles production>the basics of production line</a>."
-msgstr ""
+msgid "The pre-built <a object|derrick>Derricks</a> and <a |object\\radar>RadarStations</a> are indestructible."
+msgstr "Les éléments initiaux (<a object|derrick>derrick</a> et <a object\\radar>station radar</a> sont indestructibles."
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:15
+#: ../help/help.E.txt:10
 #, no-wrap
-msgid "The pre-built <a object|derrick>Derrick</a> and <a |object\\radar>RadarStation</a> are indestructible."
-msgstr ""
+msgid "You can try to find a program to fight against in the International Colobot Community (<code>http://colobot.info</code>)."
+msgstr "Vous pouvez essayer de trouver un programme adversaire dans la communauté internationale Colobot (<code>http://colobot.info</code>)."

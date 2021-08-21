@@ -1,0 +1,12 @@
+AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
+FogColor air=0.690;0.690;0.710;0.000 water=0.039;0.392;0.078;0.000 // grey
+VehicleColor color=0.459;0.620;0.251;0.000 // vert
+DeepView air=125.00 water=25.00
+FogStart air=0.5 water=0.1
+SecondTexture rank=8
+Background up=0.690;0.690;0.710;0.000 down=0.690;0.690;0.710;0.000 cloudUp=0.000;0.000;0.000;0.000 cloudDown=0.408;0.408;0.408;
+ForegroundName image="lens5.png"
+
+TerrainGenerate vision=400.00 depth=1 hard=0.7
+TerrainWind speed=-2.0;0.0
+TerrainCloud image="cloud03.png" level=125.0

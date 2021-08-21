@@ -1,0 +1,27 @@
+name: Build data
+
+on: [push, pull_request]
+
+jobs:
+  build_data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Colobot dependencies
+      run: sudo apt-get install -y --no-install-recommends vorbis-tools
+    - uses: actions/checkout@v2
+    - name: Create build directory
+      run: cmake -E make_directory build
+    - name: Run CMake
+      working-directory: build
+      run: cmake -DCMAKE_INSTALL_PREFIX=/install -DCOLOBOT_INSTALL_DATA_DIR=/install/data ..
+    - name: Build
+      working-directory: build
+      run: make
+    - name: Install
+      working-directory: build
+      run: DESTDIR=. make install
+    - name: Upload build
+      uses: actions/upload-artifact@v2
+      with:
+        name: data
+        path: build/install

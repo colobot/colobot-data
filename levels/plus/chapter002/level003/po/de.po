@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Black Box"
+msgstr "Flugschreiber"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Discover crucial information left behind by the first expedition."
+msgstr "Bergen Sie wichtige Informationen, die von der letzten Expedition hinterlassen wurden."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Vom Kontrollzentrum"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going."
+msgstr "Wir wissen weder, wo die vorhergehende Expedition hin wollte, als sie die Oberfläche des Mondes verließ, noch wieso sie dieses Ziel wählte."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Locate the <a object|bbox>black box</a> they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit."
+msgstr "Suchen Sie den <a object|bbox>Flugschreiber</a>, den sie zurückgelassen haben, und bringen Sie ihn an Bord Ihres Raumschiffes. Der Flugschreiber sollte die Koordinaten des Planeten enthalten, den die Expedition als nächstes anfliegen wollte."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
+msgstr "Die <a object|power>Batterien</a> Ihrer Roboter sind oft leer. Es ist eine Ihrer wichtigsten Aufgaben, sie wieder aufzuladen. Der Beobachtungssatellit in der Umlaufbahn hat ermittelt, dass der Boden in diesem Bereich mit Energie geladen ist. Sie sollten daher in der Lage sein, ein funktionierendes <a object|station>Kraftwerk</a> auf einer ebenen Fläche zu bauen."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
+msgstr "Wir haben ein Programm entwickelt, um die <a object|power>elektrolytische Batterie</a> eines Roboters wieder aufzuladen. Sehen Sie sich die entsprechende Seite in Ihrem SatCom an <button 53/>."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Procedure"
+msgstr "Vorgehensweise"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
+msgstr "Als erstes müssen Sie einen <a object|convert>Titankonverter</a> bauen, um Ihr Titanerz in verwendbare <a object|titan>Titanwürfel</a> umzuwandeln."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "You should then build both a <a object|station>power station</a> and a <a object|radar>radar</a> which will indicate the location of the black box on your mini map."
+msgstr "Sie sollten dann ein <a object|station>Kraftwerk</a> und ein <a object|radar>Radar</a> errichten, welches Ihnen die Position des Flugschreibers auf der Mini-Karte anzeigen wird."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
+msgstr "Mit den vollständig geladenen Batterien können Sie nun den Flugschreiber holen. Sobald er an Bord Ihres <a object|base>Raumschiffes</a> ist, können Sie starten."
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Mit <format key><key help/></format> können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom <button 63/> einsehen."
+
+#. type: \t; header
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "See also"
+msgstr "Siehe auch"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "Die <a command>Steuerung</a> und die <a cbot>CBOT-Sprache</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Satellitenbericht"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of the Moon."
+msgstr "Gegenwärtig in einer geostationären Umlaufbahn um den Mond."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> Oberfläche<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      -38.2°C\n"
+"\\tab;Atmosphere:       none\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Temperatur:     -38.2°C\n"
+"\\tab;Atmosphäre:     nicht vorhanden\n"
+"\\tab;Wind:           0.0 m/s\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Untergrund<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiefelder:  überall\n"
+"\\tab;Titanerz:       nicht vorhanden\n"
+"\\tab;Platinerz:      nicht vorhanden"

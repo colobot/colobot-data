@@ -1,0 +1,97 @@
+Title.E text="Flying Drill #1"
+Resume.E text="Sharpen your flying skills."
+Instructions name="%lvl%/help/help.%lng%.txt"
+Satellite name="%lvl%/help/report.%lng%.txt"
+Loading name="programs/1_SwitchCell1_link.txt"
+HelpFile name="cbot.txt"
+EndingFile win=202 lost=0
+
+#Include file="%chap%/planet.txt"
+TerrainRelief image="relief03.png" factor=1.0
+TerrainResource image="res00.png"
+#Include file="%chap%/terrain.txt"
+TerrainCreate
+
+MaxFlyingHeight max=55
+
+BeginObject
+CreateObject pos=12.50;-75.00 dir=0.0 type=SpaceShip run=0
+CreateObject pos=12.50;-78.25 dir=1.5 type=Me
+CreateObject pos=15.75;-78.25 dir=1.5 type=WheeledGrabber script1="exchg1.txt"
+CreateObject pos= 9.25;-78.25 dir=1.5 type=WheeledBuilder
+CreateObject pos=15.60;-71.88 dir=0.0 type=Titanium
+CreateObject pos=11.90;-72.50 dir=0.0 type=TitaniumOre
+CreateObject pos=13.10;-72.50 dir=0.0 type=TitaniumOre
+CreateObject pos=11.90;-71.25 dir=0.0 type=TitaniumOre
+CreateObject pos=13.10;-71.25 dir=0.0 type=TitaniumOre
+
+CreateObject pos=45.00;-77.00 dir=1.5 type=WingedGrabber range=70 magnifyDamage=2 cameraLock=1 select=1
+
+CreateObject pos= 46;-57 dir=0.0 h=-30 type=Target1
+CreateObject pos= 46;-57 dir=0.0 h=-30 type=Target2
+CreateObject pos= 52;-27 dir=0.3 h=-10 type=Target1
+CreateObject pos= 52;-27 dir=0.3 h=-10 type=Target2
+CreateObject pos= 100; 11 dir=0.0 h= 0 type=Target1
+CreateObject pos= 100; 11 dir=0.0 h= 0 type=Target2
+CreateObject pos= 78; 44 dir=1.7 h=-30 type=Target1
+CreateObject pos= 78; 44 dir=1.7 h=-30 type=Target2
+CreateObject pos= 54; 48 dir=1.3 h=-15 type=Target1
+CreateObject pos= 54; 48 dir=1.3 h=-15 type=Target2
+CreateObject pos= 31; 34 dir=1.5 h= 0 type=Target1
+CreateObject pos= 31; 34 dir=1.5 h= 0 type=Target2
+CreateObject pos= -11; 47 dir=1.8 h=-20 type=Target1
+CreateObject pos= -11; 47 dir=1.8 h=-20 type=Target2
+CreateObject pos= -70; 60 dir=0.5 h=-10 type=Target1
+CreateObject pos= -70; 60 dir=0.5 h=-10 type=Target2
+CreateObject pos=-104; 32 dir=0.3 h=-50 type=Target1
+CreateObject pos=-104; 32 dir=0.3 h=-50 type=Target2
+CreateObject pos=-161; 9 dir=0.5 h= 0 type=Target1
+CreateObject pos=-161; 9 dir=0.5 h= 0 type=Target2
+CreateObject pos=-187;-32 dir=0.0 h=-30 type=Target1
+CreateObject pos=-187;-32 dir=0.0 h=-30 type=Target2
+CreateObject pos=-165;-82 dir=1.7 h= 0 type=Target1
+CreateObject pos=-165;-82 dir=1.7 h= 0 type=Target2
+CreateObject pos=-104;-89 dir=0.4 h=-50 type=Target1
+CreateObject pos=-104;-89 dir=0.4 h=-50 type=Target2
+CreateObject pos= -20;-62 dir=0.6 h=-20 type=Target1
+CreateObject pos= -20;-62 dir=0.6 h=-20 type=Target2
+
+CreateObject pos= -99.0; 42.0 dir=1.2 type=ApolloLEM
+CreateObject pos= -61.0; 24.0 dir=0.5 type=ApolloJeep proxyActivate=1 proxyDistance=20 camera=BACK
+CreateObject pos= -94.0; 29.0 dir=0.5 type=ApolloFlag
+CreateObject pos= -84.0; 44.0 dir=0.5 type=ApolloAntenna
+CreateObject pos= -87.0; 49.0 dir=0.5 type=ApolloModule
+
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.50;-0.50;-0.50 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 2.00; 2.00; 2.00 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.84; 0.84; 0.84 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.48; 0.48; 0.48 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.48; 0.48; 0.48 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.24; 0.24; 0.24 type=Object
+
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=2
+
+NewScript name="exchg1.txt" type=WheeledGrabber
+NewScript name="exchg1.txt" type=TrackedGrabber
+NewScript name="exchg1.txt" type=WingedGrabber
+NewScript name="exchg1.txt" type=LeggedGrabber
+
+EnableBuild type=FlatGround
+EnableBuild type=Flag
+
+EnableResearch type=TRACKER
+EnableResearch type=WINGER
+EnableResearch type=BUILDER
+DoneResearch type=TRACKER
+DoneResearch type=WINGER
+DoneResearch type=BUILDER
+
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=WingedGrabber lost=0
+EndMissionTake pos=0.00;0.00 dist=1000.00 type=Target2 min=0 max=0
+EndMissionTake pos=12.50;-75.00 dist=8.0 type=WingedGrabber min=1 immediat=1
+EndMissionDelay win=1 lost=1
+
+Camera eye=45.00;20;-120.00 lookat=45.00;1.00;-77.00 delay=0

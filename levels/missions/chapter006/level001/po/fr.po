@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -44,13 +45,13 @@ msgstr "Ramener une <a object|tnt>caisse d'explosifs</a> que le satellite d'obse
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
-msgstr "En raison de la température élevée, les réacteurs ne fonctionnent pas et le vol est impossible. Comme le chemin est long, vous devez équiper les robots de <a object|atomic>piles atomiques</a> (recherche à faire) construites à base de <a object|uranore>minerai d'uranium</a>."
+msgstr "En raison de la température élevée, les réacteurs ne fonctionnent pas et le vol est impossible. Comme le chemin est long, vous devez équiper les robots de <a object|atomic>piles atomique</a> (recherche à faire) construites à base de <a object|uranore>minerai d'uranium</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "A more efficient program for the gathering of raw materials is attached to this message."
-msgstr "Nous vous avons envoyé un programme <code>ApporteTitanium</code> plus performant (voir la page programme)."
+msgstr "Nous vous avons envoyé un programme <code>ApporteTitane</code> plus performant (voir la page programme)."
 
 #. type: Plain text
 #: ../help/help.E.txt:8
@@ -107,8 +108,8 @@ msgstr ""
 "\\tab;Température:      84.6 degrés\n"
 "\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
 "\\tab;Vent:             2.2 m/s\n"
-"\\tab;Minerai titanium: partout\n"
-"\\tab;Minerai uranium:  par endroits"
+"\\tab;Minerai de titane:partout\n"
+"\\tab;Minerai d'uranium:par endroits"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -125,14 +126,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          partout\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -142,9 +143,9 @@ msgid ""
 "\\tab;Detected:         unknown organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
+"\\tab;Détecté:          ruines utilisables\n"
 "\\tab;Détecté:          organismes inconnus\n"
-"\\tab;  - Danger:      ?\n"
-"\\tab;Détecté:          ruines utilisables"
+"\\tab;  - Danger:       ?"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
@@ -156,13 +157,13 @@ msgstr "Solution"
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Start by recharging a <a object|power>regular power cell</a> and power the <a object|research>research center</a>. Use it to research the technology for the building of a <a object|nuclear>nuclear plant</a> <button 170/>."
-msgstr "Rechargez une <a object|power>pile</a> puis mettez-la sur le <a object|research>centre de recherches</a>, afin de rechercher la technologie nucléaire."
+msgstr "Rechargez une <a object|power>batterie</a> puis mettez-la sur le <a object|research>centre de recherches</a>, afin de rechercher la technologie nucléaire."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce a <a object|botgr>wheeled grabber</a>."
-msgstr "Construisez un <a object|botgr>robot déménageur</a> et exécutez le programme <code>ApporteTitanium3</code> pour disposer de suffisamment de cubes de titanium."
+msgstr "Construisez un <a object|botgr>robot préhenseur</a> et exécutez le programme <code>ApporteTitane3</code> pour disposer de suffisamment de <a object|titan>blocs de titane</a>."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
@@ -174,19 +175,19 @@ msgstr "Construisez un <a object|radar>radar</a> pour voir sur la carte les <a o
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along the way."
-msgstr "Construisez une <a object|nuclear>centrale nucléaire</a>. Utilisez le <a object|botgr>robot déménageur</a> pour l'alimenter en <a object|uranore>minerai d'uranium</a> que vous trouverez au nord-ouest. Equipez le <a object|botgr>robot déménageur</a> d'une <a object|atomic>pile atomique</a> ainsi produite."
+msgstr "Construisez une <a object|nuclear>centrale nucléaire</a>. Utilisez le <a object|botgr>robot préhenseur</a> pour l'alimenter en <a object|uranore>minerai d'uranium</a> que vous trouverez au nord-ouest. Equipez le <a object|botgr>robot préhenseur</a> d'une <a object|atomic>pile atomique</a> ainsi produite."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "A <a object|radar>radar</a> is optional but could turn out useful to mark the position of the spiders on your mini map."
-msgstr "Construisez un <a object|botfr>robot shooter</a> et équipez-le également d'une <a object|atomic>pile atomique</a>. Il vous servira à ouvrir le chemin en tuant les <a object|spider>araignées géantes</a>."
+msgstr "Construisez un <a object|botfr>robot tireur</a> et équipez-le également d'une <a object|atomic>pile atomique</a>. Il vous servira à ouvrir le chemin en tuant les <a object|spider>araignées géantes</a>."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "A wheeled grabber should be part of the expedition. It will both clear the way cluttered with <a object|titanore>titanium ore</a> and bring the <a object|tnt>explosive device</a> back."
-msgstr "Un <a object|botgr>robot déménageur</a> équipé d'une pile atomique devra également faire partie de l'expédition, afin de déblayer le chemin des cailloux de <a object|titanore>minerai de titanium</a> qui l'encombrent. C'est lui qui rapportera la <a object|tnt>caisse d'explosif</a>."
+msgstr "Un <a object|botgr>robot préhenseur</a> équipé d'une pile atomique devra également faire partie de l'expédition, afin de déblayer le chemin des cailloux de <a object|titanore>minerai de titane</a> qui l'encombrent. C'est lui qui rapportera la <a object|tnt>caisse d'explosif</a>."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:15

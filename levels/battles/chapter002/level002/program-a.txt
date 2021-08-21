@@ -1,0 +1,1297 @@
+/*******************/
+/* Data Structures */
+/*******************/
+public class BB_Object
+{
+	bool isEqual(BB_Object other)
+	{
+		//message("Generic BB_Object::isEqual used", DisplayWarning);
+		return this == other;
+	}
+}
+
+public class BB_Int extends BB_Object
+{
+	int value;
+	void BB_Int(int i = 0)
+	{
+		this.value = i;
+	}
+	
+	bool isEqual(BB_Object other)
+	{
+		if (other == null) return false;
+		if (this == other) return true;
+		BB_Int intOther = other;
+		return this.value == intOther.value;
+	}
+}
+
+public class BB_GameObject extends BB_Object
+{
+	object value;
+	void BB_GameObject(object value = null)
+	{
+		this.value = value;
+	}
+	
+	bool isEqual(BB_Object other)
+	{
+		if (other == null) return false;
+		if (this == other) return true;
+		BB_GameObject objectOther = other;
+		return this.value == objectOther.value;
+	}
+}
+
+public class BB_Array
+{
+	// synchronized is probably not enough for thread-safeness so
+	// todo: use some kind of mutex
+	
+	private BB_Object[] data;
+	private int size = 0;
+	
+	synchronized void push_back(BB_Object obj)
+	{
+		data[size] = obj;
+		size += 1;
+	}
+	
+	synchronized BB_Object pop_back()
+	{
+		if (size == 0) return null;
+		BB_Object obj = data[size-1];
+		data[size-1] = null;
+		size -= 1;
+		return obj;
+	}
+	
+	synchronized BB_Object back()
+	{
+		if (size == 0) return null;
+		return data[size-1];
+	}
+	
+	synchronized void push_front(BB_Object obj)
+	{
+		size += 1;
+		for (int i = size - 1; i > 0; --i)
+		    data[i] = data[i-1];
+		data[0] = obj;
+	}
+	
+	synchronized BB_Object pop_front()
+	{
+		if (size == 0) return null;
+		BB_Object obj = data[0];
+		for (int i = 1; i < size; ++i)
+		    data[i-1] = data[i];
+		data[size-1] = null;
+		size -= 1;
+		return obj;
+	}
+	
+	synchronized BB_Object front()
+	{
+		if (size == 0) return null;
+		return data[0];
+	}
+	
+	synchronized BB_Object find(BB_Object obj)
+	{
+		for (int i = 0; i < size; ++i)
+		    if (data[i].isEqual(obj))
+		        return data[i];
+		return null;
+	}
+	
+	synchronized void remove(BB_Object obj)
+	{
+		for (int i = 0; i < size; ++i)
+		{
+			if (data[i].isEqual(obj))
+			{
+				for (int j = i + 1; j < size; ++j)
+				{
+					data[j-1] = data[j]; 
+				}
+				data[size-1] = null;
+				size -= 1;
+			}
+		}
+	}
+	
+	int getSize()
+	{
+		return size;
+	}
+}
+/*********/
+/* Tasks */
+/*********/
+public class BB_Task extends BB_Object
+{
+	BB_Task update()
+	{
+		return null;
+	}
+	
+	string getName()
+	{
+		return "Generic Task";
+	}
+	
+	bool didComplete()
+	{
+		return false;
+	}
+	
+	bool didFail()
+	{
+		return false;
+	}
+}
+
+public class BB_TaskCompleted extends BB_Task
+{
+	bool didComplete()
+	{
+		return true;
+	}
+	
+	string getName()
+	{
+		return "Task Completed";
+	}
+}
+
+public class BB_TaskFailed extends BB_Task
+{
+	private BB_Task recovery;
+	
+	void BB_TaskFailed(BB_Task recovery = null)
+	{
+		this.recovery = recovery;
+	}
+	
+	string getName()
+	{
+		return "Task Failed";
+	}
+	
+	bool didFail()
+	{
+		return true;
+	}
+	
+	BB_Task getRecovery()
+	{
+		return recovery;
+	}
+}
+
+public class BB_TaskRecharge extends BB_Task
+{
+	private object energyCell;
+	
+	void BB_TaskRecharge(object energyCell)
+	{
+		this.energyCell = energyCell;
+	}
+	
+	string getName()
+	{
+		return "Task Recharge";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		object station = BB_findFriendly(PowerStation);
+		if (station == null) return new BB_TaskFailed();
+		// todo: better way to check if powerstation is occupied
+		int[] bots = {WheeledGrabber,WheeledBuilder,WingedShooter};
+		if (BB_findAt(bots, station.position, 1.0) != null)
+		{
+			BB_trygoto(space(station.position));
+			wait(5);
+			return new BB_TaskFailed();
+		}
+		BB_trygoto(station.position);
+		if (!BB_isAlive(station))
+		{
+			return new BB_TaskFailed();
+		}
+		while (BB_isAlive(station) && energyCell.energyLevel < 1) wait(0.1);
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskRepair extends BB_Task
+{
+    private object bot;
+    
+    void BB_TaskRepair(object bot)
+	{
+		this.bot = bot;
+	}
+	
+	string getName()
+	{
+		return "Task Repair";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		object center = BB_findFriendly(RepairCenter);
+		if (center == null) return new BB_TaskFailed();
+        // todo: better way to check if center is occupied
+		int[] bots = {WheeledGrabber,WheeledBuilder,WingedShooter};
+		if (BB_findAt(bots, center.position, 1.0) != null)
+		{
+			BB_trygoto(space(center.position));
+			wait(5);
+			return new BB_TaskFailed();
+		}
+		BB_trygoto(center.position);
+		if (!BB_isAlive(center))
+		{
+			return new BB_TaskFailed();
+		}
+		while (BB_isAlive(center) && bot.shieldLevel < 1) wait(0.1);
+        BB_trygoto(space());
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskBuild extends BB_Task
+{
+	private int category;
+	private object titanium;
+	
+	void BB_TaskBuild(object titanium, int category)
+	{
+		this.category = category;
+		this.titanium = titanium;
+	}
+	
+	string getName()
+	{
+		return "Task Build";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		if (titanium == null) return new BB_TaskFailed();
+		BB_trygoto(titanium.position);
+		//errmode(0);
+		int err = build(category);
+		//errmode(1);
+		if (err > 0)
+		{
+			if (BB_isAlive(titanium))
+			{
+				// Try again, probably someone blocked free space
+				wait(2);
+				return new BB_TaskFailed(this);
+			}
+			else
+			{
+				shared.buildingsInProgress.remove(new BB_Int(category));
+				shared.objectsInUse.remove(new BB_GameObject(titanium));
+				return new BB_TaskFailed();
+			}
+		}
+		shared.buildingsInProgress.remove(new BB_Int(category));
+		shared.objectsInUse.remove(new BB_GameObject(titanium));
+		return new BB_TaskCompleted();
+	}
+}
+
+/***************/
+/* Shared data */
+/***************/
+public class BB_Shared
+{
+	static BB_Array buildRequests = null;
+	static BB_Array buildingsInProgress = null;
+	static BB_Array objectsInUse = null;
+	
+	void BB_Shared()
+	{
+		if (buildRequests == null)
+		    buildRequests = new BB_Array();
+		if (buildingsInProgress == null)
+		    buildingsInProgress = new BB_Array();
+		if (objectsInUse == null)
+		    objectsInUse = new BB_Array();
+	}
+}
+
+public class BB_BuildRequest extends BB_Object
+{
+	int category;
+	object titanium;
+	void BB_BuildRequest(object titanium, int category)
+	{
+		this.titanium = titanium;
+		this.category = category;
+	}
+}
+
+/*****************/
+/* Grabber tasks */
+/*****************/
+public class BB_TaskGrabberRecharge extends BB_Task
+{
+	private object energyCell;
+	private object loadCell;
+	
+	void BB_TaskGrabberRecharge(object energyCell, object loadCell = null)
+	{
+		this.energyCell = energyCell;
+		this.loadCell = loadCell;
+	}
+	
+	string getName()
+	{
+		return "Task Grabber Recharge";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		object station = BB_findFriendly(PowerStation);
+		if (station == null) return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerStation));
+		// todo: find a better way to check if occupied
+		int[] bots = {WheeledGrabber,WheeledBuilder,WingedShooter};
+		if (BB_findAt(bots, station.position, 1.0) != null)
+		{
+			BB_trygoto(space(station.position));
+			wait(5);
+			return new BB_TaskFailed(); //todo: wait task
+		}
+		BB_trygoto(station.position);
+		if (!BB_isAlive(station))
+		{
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerStation));
+		}
+		if (loadCell != null) while (BB_isAlive(station) && loadCell.energyLevel < 1) wait(0.1);
+		while (BB_isAlive(station) && energyCell.energyLevel < 1) wait(0.1);
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskEnqueueBuilding extends BB_Task
+{
+	private int category;
+	
+	void BB_TaskEnqueueBuilding(int category)
+	{
+		this.category = category;
+	}
+	
+	string getName()
+	{
+		return "Task Enqueue Building";
+	}
+	
+	BB_Task update()
+	{
+		//todo: check if sufficient research
+		
+		BB_Shared shared();
+		BB_Int goCategory = new BB_Int(category);
+		if (BB_findFriendly(category) == null && shared.buildingsInProgress.find(goCategory) != null)
+		{
+			do
+            {
+				wait(1); //todo: make it a task
+			} while (shared.buildingsInProgress.find(goCategory) != null);
+			return new BB_TaskCompleted();
+		}
+		
+		object titanium = null;
+		if (!areWeHolding(Titanium))
+		{
+			titanium = BB_findInBase(Titanium);
+			if (titanium == null)
+			    return new BB_TaskFailed(new BB_TaskGetTitanium());
+		}
+		else
+		{
+			titanium = getLoad();
+			BB_trygoto(findFlatSpace());
+			trydrop();
+		}
+		
+		BB_GameObject goTitanium(titanium);
+		shared.objectsInUse.push_back(goTitanium);
+		shared.buildingsInProgress.push_back(goCategory);
+		shared.buildRequests.push_back(new BB_BuildRequest(titanium, category));
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskGetTitanium extends BB_Task
+{
+	void BB_TaskGetTitanium()
+	{
+		
+	}
+	
+	string getName()
+	{
+		return "Task Get Titanium";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		object titanium = getLoad();
+		if (areWeHolding(Titanium)) return new BB_TaskCompleted();
+		titanium = BB_findInBase(Titanium);
+		if (titanium == null) return new BB_TaskFailed(new BB_TaskProduceTitanium());
+		BB_GameObject goTitanium(titanium);
+		shared.objectsInUse.push_back(goTitanium);
+		BB_trygoto(titanium.position);
+		if (!BB_isAlive(titanium))
+		{
+			shared.objectsInUse.remove(goTitanium);
+			return new BB_TaskFailed(this);
+		}
+		trygrab();
+		shared.objectsInUse.remove(goTitanium);
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskProduceTitanium extends BB_Task
+{
+	void BB_TaskProduceTitanium()
+	{
+		
+	}
+	
+	string getName()
+	{
+		return "Task Produce Titanium";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		BB_Int goConverter(Converter);
+		object converter = BB_findFriendly(Converter);
+		if (converter == null && shared.buildingsInProgress.find(goConverter) == null)
+		{
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(Converter));
+		}
+		
+		if (!areWeHolding(TitaniumOre))
+		{
+			return new BB_TaskFailed(new BB_TaskGetTitaniumOre());
+		}
+		
+		if (converter == null)
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(Converter));
+		}
+		
+		BB_trygoto(converter.position);
+		if (!BB_isAlive(converter))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(Converter));
+		}
+		trydrop();
+		BB_trymove(-3);
+		object titanium = null;
+		while (BB_isAlive(converter) && titanium == null)
+		    titanium = BB_findAt(Titanium, converter.position); //todo: probably a wait task here?
+		if (titanium == null || !BB_isAlive(converter))
+		    return new BB_TaskFailed(new BB_TaskEnqueueBuilding(Converter));
+		BB_trymove(2.5);
+		trygrab();
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskGetTitaniumOre extends BB_Task
+{
+	void BB_TaskGetTitaniumOre()
+	{
+		
+	}
+	
+	string getName()
+	{
+		return "Task Get Titanium Ore";
+	}
+	
+	BB_Task update()
+	{
+		if (areWeHolding(TitaniumOre)) return new BB_TaskCompleted();
+		object ore = BB_findInBase(TitaniumOre);
+		if (ore == null)
+		{
+			object derrick = BB_findInBase(Derrick);
+			BB_trygoto(derrick.position);
+			while (ore == null)
+			    ore = BB_findAt(TitaniumOre, derrick.position);
+		}
+		else
+		{
+			BB_trygoto(ore.position);
+		}
+		trygrab();
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskResearch extends BB_Task
+{
+	int subject;
+	
+	void BB_TaskResearch(int subject)
+	{
+		this.subject = subject;
+	}
+	
+	string getName()
+	{
+		return "Task Research";
+	}
+	
+	BB_Task update()
+	{
+		if (researched(subject)) return new BB_TaskCompleted();
+		
+		BB_Shared shared();
+		BB_Int goResearchCenter(ResearchCenter);
+		object researchCenter = BB_findFriendly(ResearchCenter);
+		if (researchCenter == null && shared.buildingsInProgress.find(goResearchCenter) == null)
+		{
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(ResearchCenter));
+		}
+		
+		if (!areWeHolding(PowerCell))
+		{
+			return new BB_TaskFailed(new BB_TaskGetPowerCell());
+		}
+		
+		if (getLoad().energyLevel < 1)
+		{
+			return new BB_TaskFailed(new BB_TaskGrabberRecharge(getPowerCell(), getLoad()));
+		}
+		
+		researchCenter = BB_findFriendly(ResearchCenter);
+		if (researchCenter == null)
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(ResearchCenter));
+		}
+		
+		BB_trygoto(researchCenter.position);
+		
+		while (isbusy(researchCenter)) wait(0.1); // todo: wait task?
+		
+		if (!BB_isAlive(researchCenter))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(ResearchCenter));
+		}
+		
+		if (researchCenter.energyCell != null)
+		{
+			drop(Behind);
+			trygrab();
+			turn(90);
+			trydrop();
+			turn(-90);
+			grab(Behind);
+		}
+		trydrop();
+		
+		if (!BB_isAlive(researchCenter))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(ResearchCenter));
+		}
+		research(subject, researchCenter);
+		
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskGetPowerCell extends BB_Task
+{
+	void BB_TaskGetPowerCell()
+	{
+		
+	}
+	
+	string getName()
+	{
+		return "Task Power Cell";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		if (areWeHolding(PowerCell)) return new BB_TaskCompleted();
+		object powerCell = BB_findInBase(PowerCell);
+		if (powerCell == null) return new BB_TaskFailed(new BB_TaskProducePowerCell());
+		BB_Int goPowerCell(PowerCell);
+		shared.objectsInUse.push_back(goPowerCell);
+		BB_trygoto(powerCell.position);
+		if (!BB_isAlive(powerCell))
+		{
+			shared.objectsInUse.remove(goPowerCell);
+			return new BB_TaskFailed(this);
+		}
+		trygrab();
+		shared.objectsInUse.remove(goPowerCell);
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskProducePowerCell extends BB_Task
+{
+	void BB_TaskProducePowerCell()
+	{
+		
+	}
+	
+	string getName()
+	{
+		return "Task Produce PowerCell";
+	}
+	
+	BB_Task update()
+	{
+		BB_Shared shared();
+		BB_Int goPowerPlant(PowerPlant);
+		object powerPlant = BB_findFriendly(PowerPlant);
+		if (powerPlant == null && shared.buildingsInProgress.find(goPowerPlant) == null)
+		{
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerPlant));
+		}
+		
+		if (!areWeHolding(Titanium))
+		{
+			return new BB_TaskFailed(new BB_TaskGetTitanium());
+		}
+		
+		powerPlant = BB_findFriendly(PowerPlant);
+		if (powerPlant == null)
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerPlant));
+		}
+		
+		BB_trygoto(powerPlant.position);
+		if (!BB_isAlive(powerPlant))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerPlant));
+		}
+		trydrop();
+		while (BB_isAlive(powerPlant) &&
+		        powerPlant.energyCell == null || powerPlant.energyCell.category != PowerCell)
+		{
+			wait(0.1); //todo: probably a wait task here?
+		}
+		if (!BB_isAlive(powerPlant))
+		{
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(PowerPlant));
+		}
+		trygrab();
+		return new BB_TaskCompleted();
+	}
+}
+
+public class BB_TaskFactoryBot extends BB_Task
+{
+	int category;
+	string program;
+	
+	void BB_TaskFactoryBot(int category, string program)
+	{
+		this.category = category;
+		this.program = program;
+	}
+	
+	string getName()
+	{
+		return "Task Bot Factory";
+	}
+	
+	BB_Task update()
+	{
+		// todo: check if sufficient research done
+		
+		// We need a factory
+		BB_Shared shared();
+		BB_Int goBotFactory(BotFactory);
+		object botFactory = BB_findFriendly(BotFactory);
+        
+        if(botFactory == null)
+        {
+            goto(space());
+            while(shared.buildingsInProgress.find(goBotFactory) != null)
+            {
+                wait(5);
+                botFactory = BB_findFriendly(BotFactory);
+            }
+            if (shared.buildingsInProgress.find(goBotFactory) == null)
+            {
+                return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+            }
+        }
+        
+        
+		// Check if there's a robot in the factory
+		object robot = BB_findAt(category, botFactory.position);
+		if (robot == null)
+		{
+			if (botFactory == null || !isbusy(botFactory))
+			{
+				// We need to build it first
+				if (!areWeHolding(Titanium))
+				{
+					return new BB_TaskFailed(new BB_TaskGetTitanium());
+				}
+				else
+				{ 
+					object botFactory = BB_findFriendly(BotFactory);
+					if (botFactory == null)
+					{
+						return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+					}
+					
+					BB_trygoto(botFactory.position);
+					
+					if (!BB_isAlive(botFactory))
+					{
+						trydrop();
+						return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+					}
+					
+					trydrop();
+					BB_trymove(-2.5);
+					factory(category, program, botFactory);
+				}
+			}
+		}
+		
+		if (!areWeHolding(PowerCell))
+		{
+			return new BB_TaskFailed(new BB_TaskGetPowerCell());
+		}
+		
+		if (getLoad().energyLevel < 1)
+		{
+			return new BB_TaskFailed(new BB_TaskGrabberRecharge(getPowerCell(), getLoad()));
+		}
+		
+		botFactory = BB_findFriendly(BotFactory);
+		if (botFactory == null)
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+		}
+		
+		BB_trygoto(botFactory.position);
+		
+		if (!BB_isAlive(botFactory))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+		}
+		
+		while (isbusy(botFactory)) wait(0.1); // todo: wait task?
+		
+		if (!BB_isAlive(botFactory))
+		{
+			trydrop();
+			return new BB_TaskFailed(new BB_TaskEnqueueBuilding(BotFactory));
+		}
+		
+		trydrop();
+		//BB_trymove(-10);
+		
+		return new BB_TaskCompleted();
+	}
+}
+
+/********************/
+/* Helper functions */
+/********************/
+void BB_trygoto(point pos)
+{
+	//errmode(0);
+    int i=0;
+	while (goto(pos) != 0)
+    {
+        if(i>7)
+        {
+            goto(space());
+            goto(pos,0,1);
+            return;
+        }
+        else wait(2);
+        i++;
+    }
+	//errmode(1);
+}
+
+object BB_find(int cat, int filter = FilterNone)
+{
+	return radar(cat, 0, 360, 0, 1000, 1, filter);
+}
+
+object[] BB_findAll(int cat, int filter = FilterNone)
+{
+	return radarall(cat, 0, 360, 0, 1000, 1, filter);
+}
+
+object BB_findFriendly(int cat)
+{
+	return BB_find(cat, FilterFriendly);
+}
+
+object[] BB_findAllFriendly(int cat)
+{
+	return BB_findAll(cat, FilterFriendly);
+}
+
+object BB_findEnemy(int cat)
+{
+	return BB_find(cat, FilterEnemy);
+}
+
+bool object::BB_isInBase(point pos)
+{
+	switch (this.team)
+	{
+		case 1: // Blue team
+		return pos.y < -30;
+		case 2: // Red team
+		return pos.y > 30;
+	}
+	return false;
+}
+
+object BB_findInBase(int cat)
+{
+	BB_Shared shared();
+	object[] items = radarall(cat);
+	for (int i = 0; i < sizeof(items); ++i)
+	{
+		object item = items[i];
+		if (BB_isInBase(item.position) &&
+		    shared.objectsInUse.find(new BB_GameObject(item)) == null)
+		{
+			return item;
+		}
+	}
+	return null;
+}
+
+object BB_findAt(int cat, point pos, float radius = 3.0)
+{
+	return search(cat, pos, 0, radius);
+}
+
+object BB_findAt(int[] cat, point pos, float radius = 3.0)
+{
+	return search(cat, pos, 0, radius);
+}
+
+
+bool BB_isAlive(int cat, point pos)
+{
+	return BB_findAt(cat, pos) != null;
+}
+
+bool BB_isAlive(object obj)
+{
+	if (obj == null) return false;
+	return BB_isAlive(obj.category, obj.position);
+}
+
+bool BB_isAlive(int cat)
+{
+	return BB_findFriendly(cat) != null;
+}
+
+public void object::BB_BuilderProgram()
+{
+    errmode(0);
+	BB_Shared shared();
+	BB_Array tasks();
+	
+	float WAIT_TIME = 0.5;
+    
+    while (this.energyCell == null);
+	
+	if (sizeof(BB_findAllFriendly(WheeledBuilder)) >= 1)
+	{
+		// We're backup
+        while (radar(WheeledGrabber, 180, 60, 0, 5) != null);
+		move(-4.5);
+		BB_trygoto(space());
+		while (sizeof(BB_findAllFriendly(WheeledBuilder)) >= 1)
+		{
+			wait(5);
+		}
+	}
+	
+	while (true)
+	{
+		if (tasks.getSize() > 0)
+		{
+			BB_Task task = tasks.back();
+			BB_Task nextTask = task.update();
+			if (nextTask.didComplete())
+            {
+                tasks.pop_back();
+                BB_trygoto(space());
+            }
+			if (nextTask.didFail())
+			{
+				BB_TaskFailed taskFailed = nextTask;
+				nextTask = taskFailed.getRecovery();
+				if (nextTask != null) tasks.push_back(nextTask);
+				else
+				{
+					//message("Failed: " + task.getName(), DisplayError);
+					tasks.pop_back();
+				}
+			}
+		}
+		else if (shared.buildRequests.getSize() > 0)
+		{
+			BB_BuildRequest request = shared.buildRequests.pop_front();
+			tasks.push_back(new BB_TaskBuild(request.titanium, request.category));
+		}
+        else
+        {
+            BB_TaskRepair taskRepair = repair();
+            if (taskRepair != null) tasks.push_back(taskRepair);
+            BB_TaskRecharge taskRecharge = recharge();
+            if (taskRecharge != null) tasks.push_back(taskRecharge);
+        }
+		
+		
+		wait(WAIT_TIME);
+	}
+}
+
+public void object::BB_attack()
+{
+    errmode(0);
+	// Wait for our battery and driving space
+	while (this.energyCell == null);
+	while (radar(WheeledGrabber, 180, 60, 0, 5) != null);
+	move(-4.5);
+    jet(1);
+    wait(1);
+	
+	// Attack!
+	float ENERGY_LEVEL_TRESHOLD = 0.3;
+    float SHIELD_TRESHOLD = 0.5;
+	float TEMPERATURE_TRESHOLD = 0.8;
+	BB_TaskRecharge taskRecharge = null;
+    BB_TaskRepair taskRepair = null;
+	while (true)
+	{
+		if (this.energyCell.energyLevel < ENERGY_LEVEL_TRESHOLD)
+		{
+			BB_trygoto(space());
+
+			// todo: temp solution
+			taskRecharge = new BB_TaskRecharge(this.energyCell);
+			BB_Task nextTask = taskRecharge.update();
+			if (nextTask.didComplete()) continue;
+		}
+        
+        if (this.shieldLevel <= SHIELD_TRESHOLD)
+		{
+			// todo: temp solution
+			taskRepair = new BB_TaskRepair(this);
+			BB_Task nextTask = taskRepair.update();
+			if (nextTask.didComplete()) continue;
+		}
+		
+		if (this.temperature > TEMPERATURE_TRESHOLD)
+		{
+			BB_trygoto(space());
+			while (temperature > 0);
+		}
+		
+		bool isInFront = true;
+		object enemy = radar(Any, 0, 120, 0, 1000, 1, FilterEnemy);
+		if (enemy == null)
+		{
+			isInFront = false;
+			enemy = radar(Any, 0, 360, 0, 1000, 1, FilterEnemy);
+			if (enemy == null)
+			{
+				wait(0.05);
+				continue;
+			}
+		}
+        if (enemy.category == Derrick) enemy = search(Any, enemy.position, 2, 1000, 1, FilterEnemy);
+		
+		float targetHeight = topo(this.position);
+		if (targetHeight < 0) targetHeight = 0;
+		targetHeight += 10;
+		
+		float targetSpeed = distance(this.position, enemy.position) / 20;
+		if (targetSpeed > 1) targetSpeed = 1;
+		if (!isInFront) targetSpeed = 1;
+		
+		float targetDirection = direction(enemy.position);
+		
+		bool canShoot = isInFront;
+		if(abs(targetDirection) > 60) canShoot = false;
+		if(distance(this.position, enemy.position) > 40) canShoot = false;
+		
+		/*
+		Here we calculate the aim angle
+		Take a look at this picture:
+		(yes, I'm terrible at ASCII-art :P)
+		
+		 \/ target
+		 ***
+		 *  ***
+		H*     ***
+		 *   angle** \/ robot
+		 *************
+		       L
+		*/
+		
+		
+		if(!canShoot) targetSpeed = 1;
+		
+		jet(round(targetHeight - this.position.z) / 20);
+		if(targetDirection < 0)
+		{
+			motor(targetSpeed, targetSpeed + targetDirection / 90);
+		}
+		else
+		{
+			motor(targetSpeed - targetDirection / 90, targetSpeed);
+		}
+		        
+		float H = enemy.position.z - this.position.z;
+		float L = distance2d(this.position, enemy.position);
+		float angle = atan(H / L);
+		aim(angle, -targetDirection);
+        if(canShoot)
+		{
+			fire(0.5);
+			wait(0.1);
+		}
+		
+		wait(0.1);
+	}
+}
+
+BB_TaskRecharge object::recharge(bool force = false, float treshold = 0.25)
+{
+	if (force || energyCell.energyLevel < treshold)
+	    return new BB_TaskRecharge(this.energyCell);
+	return null;
+}
+
+BB_TaskGrabberRecharge object::rechargeGrabber(bool force = false, float treshold = 0.25)
+{
+	if (force || energyCell.energyLevel < treshold)
+	    return new BB_TaskGrabberRecharge(this.energyCell);
+	return null;
+}
+
+BB_TaskRepair object::repair(bool force = false, float treshold = 0.5)
+{
+	if (force || shieldLevel < treshold)
+	    return new BB_TaskRepair(this);
+	return null;
+}
+
+bool object::areWeHolding(int cat)
+{
+	return (this.load != null && this.load.category == cat);
+}
+
+object object::getLoad()
+{
+	return this.load;
+}
+
+point object::findFlatSpace()
+{
+	return flatspace(this.position, 10, 10, 40, 8);
+}
+
+object object::getPowerCell()
+{
+	return this.energyCell;
+}
+
+void object::trygrab()
+{
+	if (this.load != null)
+    {
+        point pos = this.position;
+        goto(space());
+        trydrop();
+        goto(pos);
+        turn(direction(radar(Any).position));
+    }
+	//errmode(0);
+	grab();
+	//errmode(1);
+}
+
+void object::trydrop()
+{
+	//errmode(0);
+	drop();
+    while (this.load != null)
+    {
+        if(this.load.category != TitaniumOre || radar(Any).category != Converter)
+        {
+            drop();
+            goto(space());
+        }
+        else
+        {
+            drop();
+            move(-0.5);
+        }
+    }        
+	//errmode(1);
+}
+
+void object::BB_trymove(float d)
+{
+	//errmode(0);
+	point init_pos = position;
+	int err = move(d);
+	int EPS = 0;
+	while (err > 0 && distance(init_pos, position) < abs(d))
+	{
+		if (d > 0)
+		{
+			err = move(abs(d) - distance(init_pos, position) + EPS);
+		}
+		else
+		{
+			err = move(-(abs(d) - distance(init_pos, position) + EPS));
+		}
+	}
+	//errmode(1);
+}
+
+public void object::BB_GrabberProgram()
+{
+    errmode(0);
+	BB_Shared shared();
+	BB_Array tasks(); // we're treating it as a stack
+	
+	float WAIT_TIME = 0.5;
+    
+    while (this.energyCell == null);
+	
+	if (sizeof(BB_findAllFriendly(WheeledGrabber)) >= 1)
+	{
+		// Pick up that can
+		while (radar(WheeledGrabber, 180, 60, 0, 5) != null);
+		move(-4.5);
+		BB_trygoto(space());
+        while(true)
+        {
+            // todo or not todo
+            wait(10);
+        }
+	}
+	else
+	{
+		// Set up the base first
+        tasks.push_back(new BB_TaskEnqueueBuilding(RepairCenter));
+		tasks.push_back(new BB_TaskFactoryBot(WingedShooter, "BB_attack"));
+		tasks.push_back(new BB_TaskResearch(ResearchShooter));
+		tasks.push_back(new BB_TaskResearch(ResearchWinged));
+		tasks.push_back(new BB_TaskEnqueueBuilding(ResearchCenter));
+		tasks.push_back(new BB_TaskEnqueueBuilding(BotFactory));
+		tasks.push_back(new BB_TaskEnqueueBuilding(PowerPlant));
+		tasks.push_back(new BB_TaskEnqueueBuilding(PowerStation));
+		tasks.push_back(new BB_TaskEnqueueBuilding(Converter));
+	}
+	
+	while (true)
+	{
+		if (tasks.getSize() > 0)
+		{
+			BB_Task task = tasks.back();
+			BB_Task nextTask = task.update();
+			if (nextTask.didComplete()) tasks.pop_back();
+			if (nextTask.didFail())
+			{
+				BB_TaskFailed taskFailed = nextTask;
+				nextTask = taskFailed.getRecovery();
+				if (nextTask != null) tasks.push_back(nextTask);
+				else
+				{
+					//message("Failed: " + task.getName(), DisplayError);
+					tasks.pop_back();
+				}
+			}
+		}
+		else
+		{
+			// Build some backups
+			if (sizeof(BB_findAllFriendly(Converter)) == 1
+			&& shared.buildingsInProgress.find(new BB_Int(Converter)) == null)
+			{
+				tasks.push_back(new BB_TaskEnqueueBuilding(Converter));
+			}
+			else if (sizeof(BB_findAllFriendly(WheeledBuilder)) == 1)
+			{
+				tasks.push_back(new BB_TaskFactoryBot(WheeledBuilder, "BB_BuilderProgram"));
+			}
+            else if (sizeof(BB_findAllFriendly(PowerStation)) == 0)
+			{
+				tasks.push_back(new BB_TaskEnqueueBuilding(PowerStation));
+			}
+            else if (sizeof(BB_findAllFriendly(RepairCenter)) == 0)
+			{
+				tasks.push_back(new BB_TaskEnqueueBuilding(RepairCenter));
+			}
+			else
+			{
+				// Pump shooters otherwise
+                BB_TaskRepair taskRepair = repair();
+                if (taskRepair != null) tasks.push_back(taskRepair);
+				tasks.push_back(new BB_TaskFactoryBot(WingedShooter, "BB_attack"));
+			}
+		}
+		
+		BB_TaskGrabberRecharge task = rechargeGrabber();
+		if (task != null) tasks.push_back(task);
+		
+		wait(WAIT_TIME);
+	}
+}
+
+extern void object::BB_Grabber()
+{
+	BB_GrabberProgram();
+}

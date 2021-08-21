@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-08-20 22:01+02\n"
+"PO-Revision-Date: 2018-08-20 20:43+02\n"
 "Last-Translator: next_ghost <next_ghost@quick.cz>\n"
 "Language-Team: Czech <next_ghost@quick.cz>\n"
 "Language: Czech\n"
@@ -20,35 +20,53 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Shooting battle - vs computer"
-msgstr "Duel - proti počítači"
+msgid "BaseBuilding"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "It's getting a bit harder now, isn't it?"
-msgstr "Teď už to nebude tak jednoduché, že?"
+msgid "Challenge the developers! Fight against a simple enemy program."
+msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (shooting an other shooter)"
-msgstr "Souboj programátorů (střelba na druhý kanón)"
-
-#. type: \b; header
-#: ../help/help.E.txt:4
-#, no-wrap
-msgid "Objective"
-msgstr "Úkol"
-
-#. type: Plain text
-#: ../help/help.E.txt:5
-#, no-wrap
-msgid "Destroy the other <a object/botfj>Shooter</a> located on the opposite side of the river."
-msgstr "Zničte druhý <a object|botfj>kanón</a> nacházející se na protějším břehu řeky."
+msgid "Code Battle (vs Computer)"
+msgstr "Souboj programátorů (proti počítači)"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is <a battles>a code battle</a> level, where you fight against a simple program for Shooter, written by the developers of the game, in order to improve your aim."
-msgstr "Toto je mapa pro <a battles>souboj programátorů</a>, kde budete bojovat proti druhému kanónu s jednoduchým programem od vývojářů hry, abyste se procvičili ve střelbě."
+msgid "This is <a battles>a code battle</a> level, where you fight against a simple program written by the developers of the game."
+msgstr "Toto je mapa pro <a battles>souboj programátorů</a>, kde budete bojovat proti jednoduchému programu od vývojářů hry."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Your objective"
+msgstr "Váš úkol"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Destroy the red team located on the opposite side of the river."
+msgstr "Zničte červený tým nacházející se na protějším břehu řeky."
+
+#. type: \b; header
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Notes\\m notes;"
+msgstr "Poznámky\\m notes;"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "There is <a object/enerspot>an underground power source</a> only under the beginning base areas."
+msgstr "V malém okruhu kolem počátečních základen jsou jediné <a object|enerspot>podzemní zdroje energie</a>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "The pre-built <a object|derrick>Derricks</a> and <a |object\\radar>RadarStations</a> are indestructible."
+msgstr "<a object|derrick>Vrtné věže</a> a <a object|radar>radary</a> stojící na mapě od začátku jsou nezničitelné."

@@ -1,20 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 18:28+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -26,7 +27,7 @@ msgstr "Télécommande #1"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Remote control a robot using an information exchange post, so it will transport uranium ore."
-msgstr "Télécommandez un robot par le biais d'une borne d'information."
+msgstr "Télécommandez un robot par le biais d'une station relais, afin qu'il transporte du minerai d'uranium."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -46,7 +47,7 @@ msgstr "Exercice"
 msgid ""
 "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will transport <a object|uranore>uranium ore</a>.\n"
 "The main actors of this exercise are:"
-msgstr "Télécommandez un robot par le biais d'une <a object|exchange>borne d'information</a> pour qu'il déplace du <a object|uranore>minerai d'uranium</a>. Les 3 acteurs principaux de cet exercice sont:"
+msgstr "Télécommandez un robot par le biais d'une <a object|exchange>station relais</a> pour qu'il déplace du <a object|uranore>minerai d'uranium</a>. Les 3 acteurs principaux de cet exercice sont:"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:5
@@ -58,13 +59,13 @@ msgstr "Un <a object|botsr>robot sniffer</a>, qui ne peut rien porter. C'est lui
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "An <a object|exchange>information exchange post</a> that receives information from a sender and then transmits it to a receiver."
-msgstr "Une <a object|exchange>borne d'information</a> qui reçoit des informations de l'émetteur puis les transmet au récepteur."
+msgstr "Une <a object|exchange>station relais</a> qui reçoit des informations de l'émetteur puis les transmet au récepteur."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "A <a object|botgr>grabber</a> which waits for orders from the exchange post. You have no way control this robot directly."
-msgstr "Un <a object|botgr>robot déménageur</a> qui attend les ordres de la borne. Ce robot est déjà programmé. Vous n'avez aucun moyen d'action directe sur lui!"
+msgstr "Un <a object|botgr>robot préhenseur</a> qui attend les ordres de la station. Ce robot est déjà programmé. Vous n'avez aucun moyen d'action directe sur lui!"
 
 #. type: Image filename
 #: ../help/help.E.txt:9
@@ -76,7 +77,7 @@ msgstr "tremot1a"
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "An information exchange post stores \"name/value\" couples. To control the \"slave\" robot we use just one couple:"
-msgstr "Une borne stocke des couples \"nom/valeur\". Pour commander le robot esclave, nous avons choisi d'utiliser un seul couple:"
+msgstr "Une station relais stocke des couples \"nom/valeur\". Pour commander le robot esclave, nous avons choisi d'utiliser un seul couple:"
 
 #. type: Plain text
 #: ../help/help.E.txt:12
@@ -99,10 +100,10 @@ msgid ""
 "    3 -> move(10);   // move 10 meters forward\n"
 "    4 -> move(-10);  // move 10 meters backwards"
 msgstr ""
-"    1 -> grab();     // prend\n"
-"    2 -> drop();     // dépose\n"
-"    3 -> move(10);   // avance\n"
-"    4 -> move(-10);  // recule"
+"    1 -> <a cbot|grab>grab</a>();     // prendre\n"
+"    2 -> <a cbot|drop>drop</a>();     // déposer\n"
+"    3 -> move(10);   // avancer\n"
+"    4 -> move(-10);  // reculer"
 
 #. type: Plain text
 #: ../help/help.E.txt:21
@@ -112,7 +113,7 @@ msgid ""
 "<c/><s/>\t<a cbot|send>send</a>(\"order\", 3, 100);  // order 3 -> \"move(10)\""
 msgstr ""
 "Par exemple, pour demander au robot esclave d'avancer de 10 mètres, il faut utiliser l'instruction <code><a cbot|send>send</a></code> et écrire:\n"
-"<c/><s/>\tsend(\"order\", 3);  // order \"move(10)\""
+"<c/><s/>\tsend(\"order\", 3);  // ordre \"move(10)\""
 
 #. type: Plain text
 #: ../help/help.E.txt:24
@@ -176,4 +177,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a tsniff>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a tsniff>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."

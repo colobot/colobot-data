@@ -1,0 +1,140 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-09 14:34+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Subterranean strategy"
+msgstr "Podzemní strategie"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use the planet's resources to combat the virus-spreading worms."
+msgstr "Využijte zdroje planety k boji proti červům přenášejícím viry."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
+msgstr "Vyčistěte oblast od všech nepřátelských organizmů. Jak toho dosáhnete (<a object|tower>obrannými věžemi</a> nebo <a object|botfj>létajícími kanóny</a>) je čistě na Vás."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The radar seems to be perfectly suited to the detection of worms. Keep in mind though that they only appear when they are on the surface."
+msgstr "Radar se zdá být pro hledání červů zvláště vhodný. Pamatujte ale, že je lze zaměřit pouze když vylezou na povrch."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
+msgstr "Vaší <a object|factory>továrně na roboty</a> jsme poslali plány robota vytvořeného pro hledání podzemních zdrojů: rudy nebo zdrojů energie. Zkráceně mu říkáme <a object|botsr>detektor</a>. Předběžná analýza naznačuje, že přítomnost titanové rudy na Krystaliu úzce souvisí s růstem velkých modrých krystalů. Pokud je to skutečně tak, tato informace by Vám měla ušetřit trochu cenného času. Pro těžbu je samozřejmě potřeba <a object|derrick>vrtná věž</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr "Aktuálně na stacionární oběžné dráze Krystalia."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      3.2C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           3,2 °C\n"
+"\\tab;Atmosféra:         dusík\n"
+"\\tab;Vítr:              0,0 m/s\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    isolated (close to the spaceship)\n"
+"\\tab;Titanium ore:     scattered\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     lokální (poblíž rakety)\n"
+"\\tab;Titanová ruda:     roztroušená\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         worms\n"
+"\\tab;  - Danger:       no"
+msgstr ""
+"\\tab;Nalezeno:          červi\n"
+"\\tab;  - Nebezpečí:     žádné"

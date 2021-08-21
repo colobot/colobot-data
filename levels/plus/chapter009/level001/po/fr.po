@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# ...
+# B-CE <.>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Killer Mushrooms"
+msgstr "La première clé"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Run the gauntlet of poison-spitting mushrooms and find the first key to the vault."
+msgstr "Récupérez la première clé."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Instructions de Houston"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "We've just received information that the first expedition designed a brand new weapon to be used on Terranova. It was safely stored away from possible enemy reach, inside a <a object|safe>vault</a> which can be accessed only by using four <a object|key>keys</a>. The keys are scattered on or under the planet surface."
+msgstr "Nous avons reçu des informations sur un nouveau système d'armement que la première expédition a mis au point. Ce système est mis à l'abri des attaques ennemies dans un bunker. Les quatre <a object|key>clés</a> qui y donnent accès sont disséminées sur toute la planète."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The observation satellite has located one of these keys (A) north of your present position."
+msgstr "Le satellite en a repéré une au nord de votre position. Ramenez-la sur le vaisseau."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "In compliance with Congress directives, our engineers have developed yet another strictly \"defensive\" bot : it is called a <a object|botshld>shielder</a> and it will offer adequate protection within a given perimeter. The data have been transmitted to your <a object|research>research center</a> along with a couple of relevant programs."
+msgstr "Suite à la pression du Congrès, nous avons développé une arme défensive qui peut vous être utile. Il s'agit d'un <a object|botshld>robot bouclier</a>, qui vous protège dans un certain périmètre de toute attaque ennemie. Votre <a object|research>centre de recherches</a> a reçu les informations correspondantes. Nous vous avons transmis deux programmes adaptés à ce nouveau robot."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "As you may know, uranium ore in the subsoil is a powerful fertilizer, furthering the growth of a variety of mushrooms. Please also note that <a object|titanore>titanium ore</a> is often located at the bottom of lakes on this planet."
+msgstr "La première expédition nous a indiqué que la présence d'<a object|uranore>uranium</a> dans le sous-sol favorise la croissance de certains champignons, et que le <a object|titanore>minerai de titane</a> se trouve souvent au fond des lacs. "
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "When your mission is completed and before taking off, bring both a <a object|botshld>shielder</a> and a <a object|botsub>subber</a> aboard your spaceship."
+msgstr "Avant de décoller, amenez un <a object|botshld>robot bouclier</a> et un <a object|botsub>sous-marin</a> sur le vaisseau."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> permet de revoir ces instructions sur votre SatCom."
+
+#. type: \t; header
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "See also"
+msgstr "Voir aussi"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Commandes</a>."
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Rapport du satellite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Terranova."
+msgstr "En orbite géostationnaire autour de Terranova."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SURFACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      24.8C\n"
+"\\tab;Atmosphere:       oxygen\n"
+"\\tab;Wind:             0.7 mps\n"
+"\\tab;Titanium ore:     underwater\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Température:      24.8 degrés\n"
+"\\tab;Atmosphère:       oxygène\n"
+"\\tab;Vent:             0.7 m/s\n"
+"\\tab;Minerai de titane:sous l'eau\n"
+"\\tab;Minerai d'uranium:aucun"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SOUS-SOL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    at some places\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Energie:          par endroits\n"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:par endroits"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       immediate\n"
+"\\tab;Detected:         giant wasps\n"
+"\\tab;  - Danger:       not immediate\n"
+"\\tab;Detected:         reusable derelicts"
+msgstr ""
+"\\tab;Détecté:          fourmis géantes\n"
+"\\tab;  - Danger:       oui\n"
+"\\tab;Détecté:          guêpes géantes\n"
+"\\tab;  - Danger:       oui\n"
+"\\tab;Détecté:          ruines utilisables"

@@ -2,14 +2,15 @@
 Syntax:
 \s;\c;researched ( research );\n;
 
-Checks if the \l;research\u cbot\researches; was done in the level.
+Checks if a \l;research\u cbot\researches; is done.
 
 \t;research: \c;\l;int\u cbot\int;\n;
 \l;Research name\u cbot\researches;.
 
 \t;Return value: \c;\l;bool\u cbot\bool;\n;
-\const;true\norm; if the research was done
-\const;false\norm; if the research was not done
+\const;true\norm; if the research is done
+\const;false\norm; if the research is not done
 
 \t;See also
-\l;Research names\u cbot\researches;, \l;research\u cbot\research;, \l;canresearch\u cbot\canresearch;, \l;canbuild\u cbot\canbuild; \l;programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
+\l;Research names\u cbot\researches;, \c;\l;research\u cbot\research;\n;, \c;\l;canresearch\u cbot\canresearch;\n;, \c;\l;canbuild\u cbot\canbuild;\n;.
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

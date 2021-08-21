@@ -1,0 +1,17 @@
+AmbientColor air=0.400;0.267;0.267;0.400 water=0.078;0.078;0.078;0.078 // grey
+FogColor air=0.196;0.118;0.039;0.000 water=0.263;0.314;0.392;0.000 // braun-orange
+VehicleColor color=0.620;0.471;0.322;0.000 // ocre
+InsectColor color=0.741;0.671;0.200;0.000 // brun
+DeepView air=200.00 water=25.00
+FogStart air=0.5 water=0.5
+SecondTexture rank=2
+Background image="back01.png" up=0.196;0.118;0.039;0.000 down=0.196;0.118;0.039;
+Planet pos=1.2; 0.2 dim=0.40 speed= 0.000 dir=0.5 image="planet02.png" uv1=0.0;0.0 uv2=0.5;0.5
+Planet pos=0.5; 0.4 dim=0.20 speed= 0.012 dir=0.7 image="planet02.png" uv1=0.5;0.0 uv2=1.0;0.5
+Planet pos=4.4; 0.3 dim=0.30 speed=-0.002 dir=0.3 image="planet02.png" uv1=0.0;0.5 uv2=0.5;1.0
+Planet pos=3.5; 0.4 dim=0.12 speed= 0.001 dir=0.8 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet pos=5.0; 0.5 dim=0.04 speed= 0.025 dir=1.2 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
+Planet pos=0.0; 0.2 dim=0.06 speed=-0.035 dir=0.4 image="planet02.png" uv1=0.0;0.0 uv2=0.5;0.5
+Planet pos=2.0; 0.5 dim=0.05 speed= 0.015 dir=2.0 image="planet02.png" uv1=0.5;0.5 uv2=1.0;1.0
+
+TerrainGenerate vision=400.00 depth=1 hard=0.5
