@@ -20,7 +20,7 @@ msgstr ""
 #: ../E/authors.txt:1
 #, no-wrap
 msgid "Developers and internal betatesters of Original COLOBOT game from EPSITEC"
-msgstr ""
+msgstr "Разработчики и внутренние бета-тестеры Оригинальной игры COLOBOT из EPSITEC"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:2
@@ -44,19 +44,19 @@ msgstr ""
 #: ../E/authors.txt:6
 #, no-wrap
 msgid "Colobot: Gold Edition developers"
-msgstr ""
+msgstr "Разработчки Colobot: Золотое Издание"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:7
 #, no-wrap
 msgid "TerranovaTeam: https://github.com/orgs/colobot/members"
-msgstr ""
+msgstr "Команда TerranovaTeam: https://github.com/orgs/colobot/members"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:8
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
-msgstr ""
+msgstr "Участники проекта на GitHub: https://github.com/colobot/colobot/graphs/contributors"
 
 #. type: \b; header
 #: ../E/cbot.txt:1
@@ -71,8 +71,8 @@ msgid ""
 "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
 msgstr ""
-"Язык CBOT очень близок к структуре и синтаксису языков C++ и Java. Он был адаптировать для специальный целей COLOBOT и для эффективного педагогического подхода.\n"
-"Этот язык состоит из инструкций (смотри ниже), <a cbot|bloc>блоки</a>, <a cbot|function>функции</a>, <a cbot|class>классы</a>, <a cbot|var>переменные</a>, <a cbot|array>массивы</a>, <a cbot|expr>выражения</a> и <a cbot|cond>условия</a>."
+"Язык CBOT очень близок к структуре и синтаксису языков C++ и Java. Он был специально адаптирован для COLOBOT и для эффективного практического педагогического применения.\n"
+"Этот язык состоит из: инструкций (смотри ниже), <a cbot|bloc>блоков</a>, <a cbot|function>функций</a>, <a cbot|class>классов</a>, <a cbot|var>переменных</a>, <a cbot|array>массивов</a>, <a cbot|expr>выражений</a> и <a cbot|cond>условий</a>."
 
 #. type: Bullet: 'o'
 #: ../E/cbot.txt:8
@@ -90,7 +90,7 @@ msgstr "<code><format const>Константы</format></code>"
 #: ../E/cbot.txt:14
 #, no-wrap
 msgid "Instructions in the CBOT language:"
-msgstr "Инструкции в языке CBOT:"
+msgstr "Инструкции языка CBOT:"
 
 #. type: \t; header
 #: ../E/cbot.txt:29
@@ -102,7 +102,7 @@ msgstr "Специальные инструкции для ботов:"
 #: ../E/cbot.txt:60
 #, no-wrap
 msgid "Instructions about topology:"
-msgstr "Инструкции о топологии:"
+msgstr "Инструкции связанные с топологией:"
 
 #. type: \t; header
 #: ../E/cbot.txt:66
@@ -114,7 +114,7 @@ msgstr "Специальные инструкции для некоторых б
 #: ../E/cbot.txt:79
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
-msgstr "Специальные инструкции по обмену сообщениями:"
+msgstr "Специальные инструкции для обмена сообщениями:"
 
 #. type: Plain text
 #: ../E/cbot.txt:80
@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 "<format key><key gup/></format> = взлет и подъем <button 28/>\n"
 "<format key><key gdown/></format> = спуск и посадка <button 29/>\n"
-"Конечно же, этими клавишами могут пользоваться только <a object|human>астронавт</a> и различные <a object|botgj>летающие боты</a>."
+"Этими клавишами может пользоваться как <a object|human>астронавт</a>, так и различные <a object|botgj>летающие боты</a>, но в некоторых миссиях полёты могут быть недоступны."
 
 #. type: Plain text
 #: ../E/command.txt:15
@@ -269,7 +269,7 @@ msgid ""
 "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
 msgstr ""
-"<format key><key action/></format> = основное действие для выбранного объекта (человек или бот)\n"
+"<format key><key action/></format> = выполняет основное действие для выбранного объекта (человек или бот)\n"
 "Эта клавиша, например, управляет рукой <a object|botgr>сборщика</a> или производит <a object|botfr>выстрел</a> <button 42/>."
 
 #. type: \t; header
@@ -360,7 +360,7 @@ msgstr "<a command>Управление</a>."
 #: ../E/licences.txt:1
 #, no-wrap
 msgid "The photograph of the nebula NGC3606 illuminating the sky on Orpheon and the installation program was taken with the Hubble space telescope. It is used with the permission of the authors Wolfgang Brandner (JPL/IPAC), Eva K. Grebel (Washington University), You-Hua Chu (Illinois Urbana-Champaign University) and NASA."
-msgstr "Фотография туманности NGC3606, освещающей небо Орфея и программа установки были получены с помощью космического телескопа Хаббл. Она используется с лоюбезного разрешения авторов Вольфганга Бранднера (JPL/IPAC), Эвы K. Гребель (Вашингтонский университет), Ю-Хуа Чу (Университет Иллинойса) и NASA."
+msgstr "Фотография туманности NGC3606, освещающей небо Орфея и программа установки были получены с помощью космического телескопа Хаббл. Она используется с любезного разрешения авторов Вольфганга Бранднера (JPL/IPAC), Евы K. Гребель (Вашингтонский университет), Ю-Хуа Чу (Университет Иллинойса) и NASA."
 
 #. type: Plain text
 #: ../E/licences.txt:3
@@ -398,7 +398,7 @@ msgid ""
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
 msgstr ""
 "<button 55/> Назад\n"
-"Возврат к предыдущей странице, то есть к той странице, которая была отображена в то время, когда вы щелкнули на ссылке."
+"Возврат к предыдущей странице, т.е. к той странице, которая отображалсь прежде, чем вы кликнули по ссылке."
 
 #. type: Plain text
 #: ../E/navig.txt:10
@@ -423,7 +423,7 @@ msgid ""
 "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
 "This remark is valid for all buttons in COLOBOT."
 msgstr ""
-"Когда цвет кнопки серый, это означает, что ее нельзя использовать в этот момент. Например, когда вы находитесь на домашней странице, серой будет кнопка \"Домой\", так как в ее использовании нет смысла.\n"
+"Когда кнопка окрашена в серый цвет - это означает, что ее нельзя использовать в текущий момент. Например, когда вы находитесь на домашней странице, серой будет кнопка \"Домой\", так как в ее использовании нет смысла.\n"
 "Этот комментарий может быть применен для всех кнопок игры COLOBOT."
 
 #. type: \t; header
@@ -436,7 +436,7 @@ msgstr "Прокрутка текста"
 #: ../E/navig.txt:18
 #, no-wrap
 msgid "If your mouse is equipped with a wheel, you can use it to scroll the text up and down. Otherwise, use the arrow keys and the scroll bar on the right-hand side of the screen."
-msgstr "Если на вашей мышке есть колесо, вы можете использовать его для прокрутки текста вверх или вниз. Если же колеса нет, воспользуйтесь клавишами со стрелками или полосой прокрутки в правой части экрана."
+msgstr "Если ваша мышка имеет колесо прокрутки, вы можете использовать его для перемещения по тексту вверх или вниз. Или, вы также можете воспользоваться клавишами со стрелками или полосой прокрутки в правой части экрана."
 
 #. type: \t; header
 #: ../E/navig.txt:20
@@ -607,7 +607,7 @@ msgid ""
 "<code><a cbot|return>return</a>     </code>Exit from a function\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
 msgstr ""
-"<code><a cbot|extern>extern</a>     </code>Показывает главную функцию\n"
+"<code><a cbot|extern>extern</a>     </code>Определяет главную функцию\n"
 "<code><a cbot|if>if</a>         </code>Структура выбора\n"
 "<code><a cbot|if>else</a>       </code>Структура альтернативного выбора\n"
 "<code><a cbot|switch>switch</a>     </code>Структура множественного выбора\n"
@@ -663,10 +663,10 @@ msgstr ""
 "<code><a cbot|rand>rand</a>       </code>Возвращает случайное число\n"
 "<code><a cbot|pow>pow</a>        </code>Возвращает степень числа\n"
 "<code><a cbot|sqrt>sqrt</a>       </code>Вовращает квадратный корень\n"
-"<code><a cbot|floor>floor</a>      </code>Возвращает предыдущее целое число\n"
-"<code><a cbot|ceil>ceil</a>       </code>Возвращает наименьшее следующее целое число\n"
+"<code><a cbot|floor>floor</a>      </code>Возвращает число округленное в большую сторону\n"
+"<code><a cbot|ceil>ceil</a>       </code>Возвращает число округленное в меньшую сторону\n"
 "<code><a cbot|round>round</a>      </code>Возвращает округленное число\n"
-"<code><a cbot|trunc>trunc</a>      </code>Возвращает усеченное число\n"
+"<code><a cbot|trunc>trunc</a>      </code>Возвращает целую часть числа без дробной части\n"
 "<code><a cbot|sin>sin</a>        </code>Возвращает синус\n"
 "<code><a cbot|cos>cos</a>        </code>Возвращает косинус\n"
 "<code><a cbot|tan>tan</a>        </code>Возвращает тангенс\n"
@@ -693,7 +693,7 @@ msgstr "Константы такие как <a cbot|category>категории
 msgid ""
 "<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
 "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr "В редакторе программы, инструкция в языке CBOT всегда отображется как <format token>инструкция</format>. Если инструкция не подсвечена, это означает что она неправильно написана. Имена инструкций всегда пишутся в нижнем регистре."
+msgstr "В редакторе программы, инструкция в языке CBOT всегда отображется как <format token>инструкция</format>. Если инструкция не подсвечена, это означает что она неправильно написана. Имена инструкций всегда пишутся строчными символами (в нижнем регистре)."
 
 #. type: \b; header
 #: ../E/cheats.txt:1
@@ -705,7 +705,7 @@ msgstr "Коды к игре"
 #: ../E/cheats.txt:2
 #, no-wrap
 msgid "Great, you have found this secret page. We hope you will use informations contained here only for other than cheating purposes. Like testing the game or recording a cool video about Colobot."
-msgstr "Прерасно, вы нашли эту секретную страницу. Мы надеемся вы будет использовать информацию содержащуюся здесь для других целей только не для обманных целей. Например тестирование игры или запись классного видео о Colobot."
+msgstr "Прекрасно, вы нашли эту секретную страницу. Мы надеемся вы будете использовать информацию содержащуюся здесь для любых целей, кроме обмана. Например тестирование игры или запись классного видео о Colobot."
 
 #. type: \b; header
 #: ../E/cheats.txt:4
@@ -777,7 +777,7 @@ msgstr "<code>allresearch  </code>Все исследования сделаны
 #: ../E/cheats.txt:15
 #, no-wrap
 msgid "<code>allbuildings </code>All buildings are enabled"
-msgstr ""
+msgstr "<code>allbuildings </code>Все строения доступны для постройки"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:16
@@ -909,7 +909,7 @@ msgstr "<code>stopmusic    </code>Останавливает музыку"
 #: ../E/cheats.txt:10
 #, no-wrap
 msgid "<code>allmission   </code>All missions are unlocked, works also in main menu"
-msgstr ""
+msgstr "<code>allmission   </code>Открывает все миссии, работает так же в главном меню"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:11
@@ -921,25 +921,25 @@ msgstr ""
 #: ../E/cheats.txt:21
 #, no-wrap
 msgid "<code>selectinsect </code>You can select and control aliens, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>selectinsect </code>Вы можете управлять чужими, также работает в главном меню, введите код еще раз для отмены"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:23
 #, no-wrap
 msgid "<code>invradar     </code>Mini-map works like you would have built a <a object|radar>radar</a>, works also in main menu, type again to disable"
-msgstr ""
+msgstr "<code>invradar     </code>Мини-карта работает так, словно вы имеете построенный <a object|radar>radar</a>, также работает в главном меню, введите код еще раз для отмены"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:28
 #, no-wrap
 msgid "<code>noclip       </code>The currently selected object can pass through objects"
-msgstr ""
+msgstr "<code>noclip       </code>Текущий выделенный объект может проходить сквозь объекты"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:29
 #, no-wrap
 msgid "<code>clip         </code>Disable <code>noclip</code> on the currently selected object"
-msgstr ""
+msgstr "<code>clip         </code>Отменяет <code>noclip</code> для текущего выделенного объекта"
 
 #. type: Bullet: 'o'
 #: ../E/cheats.txt:30
@@ -1051,6 +1051,16 @@ msgid ""
 "<code><a cbot|extends>extends</a>    </code>Extends a class\n"
 "<code><a cbot|super>super</a>      </code>Grants access to the parent class"
 msgstr ""
+"<code><a cbot|class>class</a>      </code>Определяет класс\n"
+"<code><a cbot|public>public</a>     </code>Определяет публичный (public) член класса\n"
+"<code><a cbot|private>private</a>    </code>Определяет приватный (private) член класса\n"
+"<code><a cbot|protected>protected</a>  </code>Определяет защищенный (protected) член класса\n"
+"<code><a cbot|static>static</a>     </code>Определяет статический (static) член класса\n"
+"<code><a cbot|synchro>synchronized</a> </code>Предотвращает одновременное выполнение\n"
+"<code><a cbot|new>new</a>        </code>Создает новый экземпляр класса\n"
+"<code><a cbot|this>this</a>       </code>Указатель на текущий объект данного класса\n"
+"<code><a cbot|extends>extends</a>    </code>Расширение уже существующего класса\n"
+"<code><a cbot|super>super</a>      </code>Предоставляет доступ к родительскому классу"
 
 #. type: Plain text
 #: ../E/command.txt:40
@@ -1063,6 +1073,12 @@ msgid ""
 "<format key><key quickload/></format> = quick load\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
 msgstr ""
+"<format key><key speed_dec/></format> = уменьшить скорость в 2 раза\n"
+"<format key><key speed_reset/></format> = нормальная скорость x1\n"
+"<format key><key speed_inc/></format> = увеличить скорость в 2 раза\n"
+"<format key><key quicksave/></format> = быстрое сохранение\n"
+"<format key><key quickload/></format> = быстрая загрузка\n"
+"<format key><key quit/></format> = покинуть миссию <button 11/>"
 
 #. type: Plain text
 #: ../E/cbot.txt:30
@@ -1098,6 +1114,35 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
 msgstr ""
+"<code><a cbot|detect>detect</a>     </code>Простая проверка объекта на наличие\n"
+"<code><a cbot|radar>radar</a>      </code>Поиск объекта\n"
+"<code><a cbot|radarall>radarall</a>   </code>Поиск множества объектов\n"
+"<code><a cbot|search>search</a>     </code>Поиск объекта в определенной точке пространства\n"
+"<code><a cbot|direct>direction</a>  </code>Вычеслить угол поворта\n"
+"<code><a cbot|dist>distance</a>   </code>Вычеслить дистанцию\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Вычеслить дистанцию без учета высоты\n"
+"<code><a cbot|wait>wait</a>       </code>Ожидать\n"
+"<code><a cbot|move>move</a>       </code>Переместиться вперед или назад\n"
+"<code><a cbot|turn>turn</a>       </code>Вращение\n"
+"<code><a cbot|goto>goto</a>       </code>Перейти в указанную позицию\n"
+"<code><a cbot|motor>motor</a>      </code>Прямое управление моторами\n"
+"<code><a cbot|jet>jet</a>        </code>Прямое управление реактивным двигателем\n"
+"<code><a cbot|message>message</a>    </code>Вывести сообщение\n"
+"<code><a cbot|retobj>retobject</a>  </code>Возвращает объект из функции\n"
+"<code><a cbot|errmode>errmode</a>    </code>Контроль обработки ошибок\n"
+"<code><a cbot|abstime>abstime</a>    </code>Возвращает абсолютное время\n"
+"<code><a cbot|pendown>pendown</a>    </code>Начать рисование (Опустить кисть)\n"
+"<code><a cbot|penup>penup</a>      </code>Прекратить рисование (Поднять кисть)\n"
+"<code><a cbot|pencolor>pencolor</a>   </code>Установить цвет кисти\n"
+"<code><a cbot|penwidth>penwidth</a>   </code>Установить размер кисти\n"
+"<code><a cbot|factory>factory</a>    </code>Начать производство бота\n"
+"<code><a cbot|research>research</a>   </code>Начать исследование\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Запустить космический корабль\n"
+"<code><a cbot|isbusy>isbusy</a>     </code>Проверить объект на занятость\n"
+"<code><a cbot|canresearch>canresearch</a></code>Проверить может ли технология быть исследованна\n"
+"<code><a cbot|researched>researched</a> </code>Проверить исследована ли уже технология\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Проверить можно ли построить постройку\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Проверить доступна ли строительство постройки в течени текущей миссии"
 
 #. type: Plain text
 #: ../E/cbot.txt:67
@@ -1115,3 +1160,14 @@ msgid ""
 "<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
 "<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
 msgstr ""
+"<code><a cbot|grab>grab</a>       </code>Взять объект\n"
+"<code><a cbot|drop>drop</a>       </code>Положить объект\n"
+"<code><a cbot|sniff>sniff</a>      </code>Просканировать звуком недра земли\n"
+"<code><a cbot|thump>thump</a>      </code>Опрокинуть насекомых ударом\n"
+"<code><a cbot|recycle>recycle</a>    </code>Переработать заброшеный бот в титановый куб\n"
+"<code><a cbot|shield>shield</a>     </code>Управление защитным полем\n"
+"<code><a cbot|fire>fire</a>       </code>Совершить выстрел\n"
+"<code><a cbot|aim>aim</a>        </code>Прицелить орудие\n"
+"<code><a cbot|build>build</a>      </code>Построить постройку\n"
+"<code><a cbot|flag>flag</a>       </code>Установить флаг\n"
+"<code><a cbot|deflag>deflag</a>     </code>Убрать флаг"
