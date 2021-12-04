@@ -86,13 +86,13 @@ msgstr "<a object|botfr>Стрелок</a>"
 #: ../E/aim.txt:7 ../E/fire.txt:15
 #, no-wrap
 msgid "<a object|botor>Orga shooter</a>"
-msgstr "<a object|botor>Орга Стрелок</a>"
+msgstr "<a object|botor>Орга стрелок</a>"
 
 #. type: Bullet: 'o'
 #: ../E/aim.txt:8 ../E/fire.txt:16
 #, no-wrap
 msgid "<a object|botphaz>Phazer shooter</a>"
-msgstr "<a object|botphaz>Фазер Стрелок</a>"
+msgstr "<a object|botphaz>Фазовый стрелок</a>"
 
 #. type: Plain text
 #: ../E/fire.txt:18
@@ -2508,7 +2508,7 @@ msgstr "<code>temperature</code>"
 #: ../E/object.txt:44
 #, no-wrap
 msgid "Temperature of the jet of <a object|botgj>winged bots</a>. <code>0</code> corresponds to a cold jet. When used, the temperature increases progressively. When it reaches the value <code>1</code>, the jet is overheated and stops working, until it cooled down a little. "
-msgstr "Температура реактивной струи <a object|botgj>летающих ботов</a>. <code>0</code> соответствует холодной струе. При их использовании температура растет по прогрессии. Когда она достигает значения <code>1</code>, двигатель перенагревается и прекращает работать до тех пор, пока немного не остынет."
+msgstr "Температура нагрева реактивного двигателя <a object|botgj>летающих ботов</a>. <code>0</code> - соответствует холодному двигателю. В полёте температура прогрессивно увеличивается и когда она достигает значения <code>1</code>, двигатель перегревается и прекращает работу до тех пор, пока немного не остынет."
 
 #. type: Source code
 #: ../E/object.txt:46
@@ -2520,7 +2520,7 @@ msgstr "<code>altitude</code>"
 #: ../E/object.txt:47
 #, no-wrap
 msgid "The <code>z</code> coordinate of the position indicates the altitude above sea level, whereas the <code>altitude</code> indicates the height above ground. This value is meaningful only for <a object|botgj>winged bots</a> and for <a object|wasp>wasps</a>. For all other objects, this value is zero. "
-msgstr "Координата положения <code>z</code> показывает высоту над уровнем моря, то есть <code>высота</code> показывает высоту над землей. Это значение имеет смысл только для <a object|botgj>летающих ботов</a> и для <a object|wasp>ос</a>. Для всех остальных объектов это значение равно нулю."
+msgstr "Координата <code>z</code> показывает высоту над уровнем моря, в то время как <code>altitude</code> показывает высоту над уровнем земли. Это значение имеет смысл только для <a object|botgj>летающих ботов</a> и для <a object|wasp>ос</a>. Для всех остальных объектов оно равно нулю."
 
 #. type: Source code
 #: ../E/object.txt:49
@@ -2532,7 +2532,7 @@ msgstr "<code>lifeTime</code>"
 #: ../E/object.txt:50
 #, no-wrap
 msgid "The age of the object in seconds since it's creation."
-msgstr ""
+msgstr "Возраст объекта в секундах, с момента его создания."
 
 #. type: Source code
 #: ../E/object.txt:52
@@ -2549,7 +2549,7 @@ msgid ""
 "If the bot has bot no power cell, <code>energyCell</code> returns <code>null</code>."
 msgstr ""
 "Это особая информация, так как она возвращает информацию о другом объекте, в данном случае о энергетическом заряде. Это означает, что energyCell содержит все характеристики обычного объекта, например <code>категорию</code> (PowerCell или NuclearCell), <code>положение</code> (положение ячейки) и так далее.\n"
-"Если вы хотите определить энергетический уровень робота, то вы должны проверить не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
+"Если вы хотите определить уровень заряда батареи у бота, то вы должны проверять не <code>energyLevel</code>, а <code>energyCell.energyLevel</code>.\n"
 "Если у бота нет энергетической ячейки, то <code>energyCell</code> вернет <code>null</code>."
 
 #. type: Source code
@@ -2562,7 +2562,7 @@ msgstr "<code>load</code>"
 #: ../E/object.txt:58
 #, no-wrap
 msgid "This information also returns the description of a whole object: the description of the object carried by a <a object|botgr>grabber</a>. If it carries nothing, <code>load</code> returns <code>null</code>."
-msgstr "Эта информация также вернет описание целого объекта: описание объекта, который несет <a object|botgr>несущий</a>. Если он ничего не несет, то <code>load</code> вернет <code>null</code>."
+msgstr "Это значение также возвращает полное описание объекта, который переносит <a object|botgr>сборщик</a>. Если он ничего не несет, то <code>load</code> вернет <code>null</code>."
 
 #. type: \t; header, \b; header
 #: ../E/expr.txt:99 ../E/expr.txt:123 ../E/expr.txt:145 ../E/expr.txt:170 ../E/expr.txt:187 ../E/object.txt:66
@@ -3166,9 +3166,9 @@ msgid ""
 "<code> 90</code> -> radar is facing a quarter turn left"
 msgstr ""
 "Направление, в котором смотрит радар, в градусах.\n"
-"<code>  0</code> -> радар смотрит прямо вперед\n"
-"<code>-90</code> -> радар смотрит на четверть круга вправо\n"
-"<code> 90</code> -> радар смотрит на четверть круга влево"
+"<code>  0</code> -> радар направлен прямо вперед\n"
+"<code>-90</code> -> радар направлен на четверть окружности вправо\n"
+"<code> 90</code> -> радар направлен на четверть окружности влево"
 
 #. type: Plain text
 #: ../E/radar.txt:40
@@ -6000,7 +6000,7 @@ msgstr ""
 #: ../E/detect.txt:21 ../E/search.txt:17
 #, no-wrap
 msgid "Keyword <format const>Any</format> if you are looking for any object (including even plants and so on)."
-msgstr ""
+msgstr "Применяйте ключевое слово <format const>Any</format> если вы ищите абсолютно любые объекты (включая разнообразные растения и не только их)."
 
 #. type: Plain text
 #: ../E/detect.txt:24
@@ -6009,6 +6009,8 @@ msgid ""
 "<format const>true</format> if the object was found\n"
 "<format const>false</format> if the object was not found"
 msgstr ""
+"<format const>true</format> если объект найден\n"
+"<format const>false</format> если объект не найден"
 
 #. type: \b; header
 #: ../E/factory.txt:1
@@ -6083,7 +6085,7 @@ msgstr ""
 #: ../E/floor.txt:4
 #, no-wrap
 msgid "Rounds down a number."
-msgstr ""
+msgstr "Округляет число в большую сторону"
 
 #. type: Plain text
 #: ../E/floor.txt:10
@@ -6373,6 +6375,20 @@ msgid ""
 "<code><a cbot|int>int</a>    object.team         </code>The object's team (see <a battles>code battles</a>)\n"
 "<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object"
 msgstr ""
+"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Категория</a> объекта\n"
+"<code><a cbot|point>point</a>  object.position     </code>Позиция объекта (x,y,z)\n"
+"<code><a cbot|float>float</a>  object.orientation  </code>Ориентация объекта (0..360) (Рысканье)\n"
+"<code><a cbot|float>float</a>  object.pitch        </code>Наклон (Тангаж) объекта вперед/назад\n"
+"<code><a cbot|float>float</a>  object.roll         </code>Наклон (Крен) объекта влево/вправо\n"
+"<code><a cbot|float>float</a>  object.energyLevel  </code>Заряд энергии (0..1)\n"
+"<code><a cbot|float>float</a>  object.shieldLevel  </code>Уровень брони (повреждений) (0..1)\n"
+"<code><a cbot|float>float</a>  object.temperature  </code>Температура реактивного двигателя (0..1)\n"
+"<code><a cbot|float>float</a>  object.altitude     </code>Высота над землей\n"
+"<code><a cbot|float>float</a>  object.lifeTime     </code>Время жизни объекта\n"
+"<code>object object.energyCell   </code>Элемент питания на борту бота\n"
+"<code>object object.load         </code>Объект транспортируемый ботом\n"
+"<code><a cbot|int>int</a>    object.team         </code>Команда объекта (см. <a battles>code battles</a>)\n"
+"<code><a cbot|point>point</a>  object.velocity     </code>Скорость объекта по трем осям"
 
 #. type: Plain text
 #: ../E/object.txt:19
@@ -6414,7 +6430,7 @@ msgstr "Текущая скорость объекта. Должна рассм�
 #: ../E/pencolor.txt:1
 #, no-wrap
 msgid "Instruction <code>pencolor</code>"
-msgstr ""
+msgstr "Инструкция <code>pencolor</code>"
 
 #. type: Source code
 #: ../E/pencolor.txt:3
@@ -6666,6 +6682,12 @@ msgid ""
 "<code><format const>FilterEnemy</format>       </code>Detects only enemies (objects in an other team except neutral)\n"
 "<code><format const>FilterNeutral</format>     </code>Detects only neutral objects (e.g. resources)"
 msgstr ""
+"<code><format const>FilterNone</format>        </code>Искать всё без исключений (по умолчанию)\n"
+"<code><format const>FilterOnlyLanding</format> </code>Искать только объекты находящиеся на поверхности земли (не в полёте)\n"
+"<code><format const>FilterOnlyFlying</format>  </code>Искать только объекты находящиеся в полёте\n"
+"<code><format const>FilterFriendly</format>    </code>Искать только дружественные объекты (объекты своей команды)\n"
+"<code><format const>FilterEnemy</format>       </code>Искать только вражеские объекты (объекы команды противника исключая нейтральные)\n"
+"<code><format const>FilterNeutral</format>     </code>Искать только нейтральные объекты (ресурсы и т.п.)"
 
 #. type: Plain text
 #: ../E/radar.txt:61
@@ -6916,7 +6938,7 @@ msgstr ""
 #: ../E/switch.txt:18
 #, no-wrap
 msgid "This function can be also written using the <code>switch() {}</code> instruction:"
-msgstr "Эта функция может быть также написана используя инструкцию <code>switch() {}</code>:"
+msgstr "Эта функция может быть также написана с помощью инструкции <code>switch() {}</code>:"
 
 #. type: Source code
 #: ../E/switch.txt:20
@@ -7586,6 +7608,9 @@ msgid ""
 "<code>a && b  </code><code>a</code> and <code>b</code>\n"
 "<code>a || b  </code><code>a</code> or <code>b</code>"
 msgstr ""
+"<code>!a      </code>НЕ <code>a</code> (инверсия)\n"
+"<code>a && b  </code><code>a</code> И <code>b</code>\n"
+"<code>a || b  </code><code>a</code> ИЛИ <code>b</code>"
 
 #. type: Plain text
 #: ../E/expr.txt:146
@@ -7629,6 +7654,11 @@ msgid ""
 "<code>2 >> 1        </code>returns 1\n"
 "<code>2 << 1        </code>returns 4"
 msgstr ""
+"<code>2 & 1         </code>вернёт 0\n"
+"<code>2 | 1         </code>вернёт 3\n"
+"<code>2 ^ 2         </code>вернёт 0\n"
+"<code>2 >> 1        </code>вернёт 1\n"
+"<code>2 << 1        </code>вернёт 4"
 
 #. type: Source code
 #: ../E/array.txt:4
@@ -7639,6 +7669,10 @@ msgid ""
 "string s[3];    // an array of 3 strings\n"
 "float  xy[][];  // a 2 dimensionnal array of floats"
 msgstr ""
+"int    [ ] a;   // массив элементов int типа\n"
+"int    a [12];  // массив int ограниченный 12-ю элементами\n"
+"string s[3];    // массив из 3 строк\n"
+"float  xy[][];  // 2-х мерный массив элементов float типа"
 
 #. type: \b; header
 #: ../E/array.txt:30
@@ -7650,7 +7684,7 @@ msgstr "Синтакс инициализации"
 #: ../E/array.txt:31
 #, no-wrap
 msgid "You can initialize a new array using the following syntax:"
-msgstr "Вы можете инициализировать новый массис используя следующий синтакс:"
+msgstr "Вы можете инициализировать новый массив используя следующий синтакс:"
 
 #. type: Source code
 #: ../E/array.txt:33
@@ -7789,6 +7823,16 @@ msgid ""
 "       <code><a object|stonspot>TitaniumSpot</a>      </code>Underground Titanium Deposit\n"
 "       <code><a object|uranspot>UraniumSpot</a>       </code>Underground Uranium Deposit"
 msgstr ""
+"       <code><a object|flag>BlueFlag</a>          </code>Синий Флаг\n"
+"       <code><a object|flag>RedFlag</a>           </code>Красный Флаг\n"
+"       <code><a object|flag>GreenFlag</a>         </code>Зелёный Флаг\n"
+"       <code><a object|flag>YellowFlag</a>        </code>Жёлтый Флаг\n"
+"       <code><a object|flag>VioletFlag</a>        </code>Фиолетовый Флаг\n"
+"       <code><a object|waypoint>WayPoint</a>          </code>Чекпоинт (контрольная точка)\n"
+"       <code><a object|target2>Target2</a>           </code>Парящий чекпоинт (контрольная точка)\n"
+"       <code><a object|enerspot>PowerSpot</a>        </code>Подземный Источник Энергии\n"
+"       <code><a object|stonspot>TitaniumSpot</a>      </code>Подземное Месторождение Титана\n"
+"       <code><a object|uranspot>UraniumSpot</a>       </code>Подземное Месторождение Урана"
 
 #. type: Plain text
 #: ../E/category.txt:10
@@ -7815,6 +7859,26 @@ msgid ""
 "       <code><a object|target1>Target1</a>          </code>Flying target\n"
 "       <code><a object|nest>AlienNest</a>        </code>Alien Nest"
 msgstr ""
+"<button 176/>   <code><a object|huston>Houston</a>          </code>Центр Управления Полётами\n"
+"<button 171/>   <code><a object|base>SpaceShip</a>        </code>Космический корабль\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Фабрика Ботов\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Исследовательский Центр\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Радар\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Пост Обмена Информацией\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Ремонтный Центр\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Оборонительная Башня\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Анализатор Органической Материи\n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Электростанция\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Фабрика Батарей\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Фабрика Ядерный Батарей\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Конвертер Титана\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Буровая Установка\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Пароболический Громоотвод\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Хранилище\n"
+"       <code><a object|start>StartArea</a>        </code>Стартовая Площадка\n"
+"       <code><a object|goal>GoalArea</a>         </code>Финишная Площадка\n"
+"       <code><a object|target1>Target1</a>          </code>Парящая Цель\n"
+"       <code><a object|nest>AlienNest</a>        </code>Гнездо Чужих"
 
 #. type: Plain text
 #: ../E/class.txt:10
@@ -7970,6 +8034,13 @@ msgid ""
 "\tobject3 = new MyClass(); // We call constructor now, object3 != null\n"
 "}"
 msgstr ""
+"extern void object::Test()\n"
+"{\n"
+"\tMyClass object1();       // Вызовет конструктор по умолчанию (тот, который без входных параметров)\n"
+"\tMyClass object2(4, 5);   // Вызовет конструктор с двумя двумя параметрами\n"
+"\tMyClass object3;         // Не вызовет конструктор, а просто объявит пустой объект, object3 == null\n"
+"\tobject3 = new MyClass(); // А вот теперь конструктор вызван, object3 != null\n"
+"}"
 
 #. type: Plain text
 #: ../E/class.txt:91
@@ -8510,10 +8581,10 @@ msgstr "Заметьте, что в вышеприведенном пример�
 #: ../E/category.txt:70
 #, no-wrap
 msgid ""
-"<button 192/>   <code><a object|botbr>WheeledBuilder</a>         </code>Wheeled Builder\n"
-"<button 193/>   <code><a object|botbc>TrackedBuilder</a>         </code>Tracked Builder\n"
-"<button 194/>   <code><a object|botbj>WingedBuilder</a>          </code>Winged Builder\n"
-"<button 195/>   <code><a object|botbs>LeggedBuilder</a>          </code>Legged Builder"
+"<button 192/>   <code><a object|botbr>WheeledBuilder</a>         </code>Колёсный Строитель\n"
+"<button 193/>   <code><a object|botbc>TrackedBuilder</a>         </code>Гусеничный Строитель\n"
+"<button 194/>   <code><a object|botbj>WingedBuilder</a>          </code>Летающий Строитель\n"
+"<button 195/>   <code><a object|botbs>LeggedBuilder</a>          </code>Шагающий Строитель"
 msgstr ""
 
 #. type: Plain text
@@ -8614,7 +8685,7 @@ msgstr ""
 #: ../E/isbusy.txt:1
 #, no-wrap
 msgid "Instruction <code>isbusy</code>"
-msgstr ""
+msgstr "Инструкция <code>isbusy</code>"
 
 #. type: Source code
 #: ../E/isbusy.txt:3
@@ -8626,7 +8697,7 @@ msgstr ""
 #: ../E/isbusy.txt:5
 #, no-wrap
 msgid "Checks if a given object is busy."
-msgstr ""
+msgstr "Проверяет указанный объект на занятость."
 
 #. type: Source code
 #: ../E/research.txt:3
@@ -8658,7 +8729,7 @@ msgstr ""
 #: ../E/researched.txt:5
 #, no-wrap
 msgid "Checks if a <a cbot|researches>research</a> is done."
-msgstr ""
+msgstr "Проверяет выполнено ли <a cbot|researches>исследование</a> или нет."
 
 #. type: Plain text
 #: ../E/researched.txt:11
@@ -8725,13 +8796,13 @@ msgstr ""
 #: ../E/takeoff.txt:5
 #, no-wrap
 msgid "Launch a spaceship."
-msgstr ""
+msgstr "Производит запуск космического корабля."
 
 #. type: Plain text
 #: ../E/takeoff.txt:8
 #, no-wrap
 msgid "<a object|base>SpaceShip</a>, nearest by default."
-msgstr ""
+msgstr "Ближайший <a object|base>SpaceShip</a>, по умолчанию."
 
 #. type: Plain text
 #: ../E/switch.txt:5
@@ -8743,7 +8814,7 @@ msgstr "Заметьте: инструкция <a cbot|isbusy>isbusy</a> мож�
 #: ../E/build.txt:15
 #, no-wrap
 msgid "Constructs a building using a titanium cube in front of the <a object|botbr>builder</a>."
-msgstr ""
+msgstr "Возводит строение используя титановй куб расположенный перед <a object|botbr>строителем</a>."
 
 #. type: Plain text
 #: ../E/category.txt:94
@@ -8760,12 +8831,22 @@ msgid ""
 "       <code><a object|bromush>BrownMushroom</a>   </code>Brown mushroom\n"
 "       <code><a object|gremush>GreenMushroom</a>   </code>Poisonous green mushroom"
 msgstr ""
+"<button 136/>   <code><a object|human>Me</a>              </code>Вы!\n"
+"       <code><a object|mine>Mine</a>            </code>Мина\n"
+"       <code><a object|barrier>Barrier</a>         </code>Барьер\n"
+"       <code><a object|wreck>Wreck</a>           </code>Покнутый бот\n"
+"       <code><a object|ruin>Ruin</a>            </code>Покинутая постройка\n"
+"       <code><a object|bush>Bush</a>            </code>Куст\n"
+"       <code><a object|gravi>GraviPlant</a>      </code>Гравитационное-растение\n"
+"       <code><a object|crystal>Crystal</a>         </code>Кристалл\n"
+"       <code><a object|bromush>BrownMushroom</a>   </code>Коричневый гриб\n"
+"       <code><a object|gremush>GreenMushroom</a>   </code>Ядовитый зелёный гриб"
 
 #. type: \b; header
 #: ../E/deflag.txt:1
 #, no-wrap
 msgid "Instruction <code>deflag</code>"
-msgstr ""
+msgstr "Инструкция <code>deflag</code>"
 
 #. type: Source code
 #: ../E/deflag.txt:3
@@ -8777,7 +8858,7 @@ msgstr ""
 #: ../E/deflag.txt:5
 #, no-wrap
 msgid "Removes a <a object|flag>colored flag</a> in front of the <a object|botsr>sniffer</a>."
-msgstr ""
+msgstr "Убирает <a object|flag>цветной флаг</a> расположенный перед <a object|botsr>сниффером</a>."
 
 #. type: Plain text
 #: ../E/deflag.txt:8
@@ -8792,7 +8873,7 @@ msgstr ""
 #: ../E/flag.txt:1
 #, no-wrap
 msgid "Instruction <code>flag</code>"
-msgstr ""
+msgstr "Инструкция <code>flag</code>"
 
 #. type: Source code
 #: ../E/flag.txt:3
@@ -8804,7 +8885,7 @@ msgstr ""
 #: ../E/flag.txt:5
 #, no-wrap
 msgid "Plants a <a object|flag>colored flag</a> in front of the <a object|botsr>sniffer</a>."
-msgstr ""
+msgstr "Устанавливает <a object|flag>цветнй флаг</a> перед <a object|botsr>сниффером</a>."
 
 #. type: \t; header
 #: ../E/flag.txt:7
