@@ -110,7 +110,7 @@ msgstr "угол: <code><a cbot|float>float</a></code>"
 #: ../E/aim.txt:13
 #, no-wrap
 msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun upward. For shooters and orga shooters, the angle must range from <code>-20</code> to <code>+20</code> degrees. For phazer shooters, the angle must range from <code>-20</code> to <code>45</code> degrees."
-msgstr "Угол оружия относительно робота, в градусах. Положительное значение ориентирует ружье вперед. Для стрелков и орга-стрелков, угол должен быть от <code>-20</code> до <code>+20</code> градусов. Для фазовый стрелок стрелков, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
+msgstr "Угол оружия относительно робота, в градусах. Положительное значение ориентирует ружье вперед. Для стрелков и орга-стрелков, угол должен быть от <code>-20</code> до <code>+20</code> градусов. Для фазового стрелка, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
 
 #. type: \t; header
 #: ../E/aim.txt:18 ../E/build.txt:20 ../E/deflag.txt:7 ../E/destroy.txt:10 ../E/drop.txt:23 ../E/factory.txt:16 ../E/fire.txt:25 ../E/flag.txt:14 ../E/goto.txt:29 ../E/grab.txt:23 ../E/move.txt:16 ../E/pencolor.txt:9 ../E/pendown.txt:12 ../E/penup.txt:6 ../E/penwidth.txt:9 ../E/recycle.txt:7 ../E/research.txt:13 ../E/sniff.txt:11 ../E/takeoff.txt:10 ../E/thump.txt:7 ../E/turn.txt:27
@@ -140,7 +140,7 @@ msgstr "Массивы"
 #: ../E/array.txt:2
 #, no-wrap
 msgid "An array is basically a collection of variables of the same type or class. You can use N dimensionnal arrays in the CBOT language. Each dimension is limited to 9999 elements. You must use square brackets <code>[]</code> after the type name or the variable name to declare an array."
-msgstr "Массив - это в основном набор переменных того же типа и класса. Вы можете использовать н-ное количество массивов в языке CBOT, однако максимальный размер массива равен 9999 элементов. Вы должны использовать квадратные скобки <code>[]</code> после того, как объявили массив."
+msgstr "Массив - это в основном набор переменных того же типа и класса. Вы можете использовать N-мерные массивы в языке CBOT, однако максимальный размер массива равен 9999 элементов. Вы должны использовать квадратные скобки <code>[]</code> после того, как объявили массив."
 
 #. type: Plain text
 #: ../E/array.txt:9
@@ -202,7 +202,7 @@ msgstr ""
 #: ../E/array.txt:28
 #, no-wrap
 msgid "If you pass an array as parameter to a <a cbot|function>function</a>, the function only receives a <a cbot|pointer>reference</a> to the array. That means if you modify an array element in the function, the element of the array that has been passed the function will be actuallay modified."
-msgstr "Если вы передаете <a cbot|function>функции</a> массив в качестве параметра, то функция получает только <a cbot|pointer>ссылку</a> на массив. Это означает, что если вы измение элемент в массиве, то этот элемент будет измененным и в самой функции."
+msgstr "Если вы передаете <a cbot|function>функции</a> массив в качестве параметра, то функция получает только <a cbot|pointer>ссылку</a> на массив. Это означает, что если вы измените элемент массива в функции, элемент массива, который был передан функцию, будет также изменен."
 
 #. type: \b; header
 #: ../E/bloc.txt:1
@@ -214,7 +214,7 @@ msgstr "Блоки"
 #: ../E/bloc.txt:2
 #, no-wrap
 msgid "You can use braces <code>{ }</code> to group a number of instructions together in order to make one single block out of them, for example: "
-msgstr "Можно использовать скобки <code>{ }</code> чтобы сгруппировать несколько инструкций вместе и составить из них целый блок, например:"
+msgstr "Можно использовать скобки <code>{ }</code> , чтобы сгруппировать несколько инструкций вместе и составить из них целый блок, например:"
 
 #. type: Source code
 #: ../E/bloc.txt:4
@@ -241,8 +241,8 @@ msgid ""
 "Every instruction in the block is followed by a <a cbot|term>semicolon</a>, but the block itself is not. \n"
 "Let us take the following example with the instruction <code><a cbot|if>if</a></code> to illustrate the use of blocks in a program:"
 msgstr ""
-"Каждая инструкци в блоке заканчивается  <a cbot|term>двоеточием</a>, но не сам блок.\n"
-"Расмотрим следующий пример с инструкцией <code><a cbot|if>if</a></code> чтобы проиллюстрировать блоки в программах:"
+"За каждой инструкцей в блоке следует <a cbot|term>точка с запятой</a>, но после самого блока нет.\n"
+"Рассмотрим следующий пример с инструкцией <code><a cbot|if>if</a></code> , чтобы проиллюстрировать блоки в программах:"
 
 #. type: Source code
 #: ../E/bloc.txt:14
@@ -354,7 +354,7 @@ msgstr "Тип <code>bool</code>"
 #: ../E/bool.txt:2
 #, no-wrap
 msgid "In a variable of this type you can put a boolean value, that is a value that can take only two states: true or false. "
-msgstr "Переменной этого типа вы можете присваивать булевое значение, т.е. значение, которое может иметь лишь два состояния: да и нет."
+msgstr "Переменной этого типа вы можете присваивать булево значение, т.е. значение, которое может иметь лишь два состояния: да и нет."
 
 #. type: \b; header
 #: ../E/break.txt:1
@@ -425,7 +425,7 @@ msgstr "Значение <code>Категорий</code>"
 #: ../E/category.txt:2
 #, no-wrap
 msgid "Categories represent the names of objects in the CBOT language. Everything in COLOBOT is an object: robots, buildings, raw materials, etc., even yourself."
-msgstr "Категории отображают названия обьектов на языке CBOT. В игре COLOBOT все предеты являются обьектами: роботы, здания, сырье, и т.д., даже сам игрок."
+msgstr "Категории отображают названия объектов на языке CBOT. Всё, что есть в COLOBOT является объектами: роботы, здания, сырье, и т.д., даже сам игрок."
 
 #. type: Plain text
 #: ../E/category.txt:34
@@ -737,7 +737,7 @@ msgstr "Инструкция deletefile удаляет существующие 
 #: ../E/deletef.txt:4
 #, no-wrap
 msgid "Files can only be deleted in the files/ folder which is located in the folder inside Colobot save directory. You cannot not delete files that are located elsewhere than in the files/ folder."
-msgstr "Файлы и папки могут быть удалены только в той дирректории, в которую была установлена COLOBOT. Вы не можете удалять файлы и папки, находящиеся в другом месте."
+msgstr "Файлы и папки могут быть удалены только в той директории, в которую была установлена COLOBOT. Вы не можете удалять файлы и папки, находящиеся в другом месте."
 
 #. type: Source code
 #: ../E/deletef.txt:7
@@ -785,7 +785,7 @@ msgstr "power: <code>float</code>"
 #: ../E/delinfo.txt:11
 #, no-wrap
 msgid "Power of the transmitter, which corresponds to the maximal distance between the sender and the exchange post. If the distance is longer, the information won't be deleted. Default value is 10 metres."
-msgstr "Мощность передатчика, определяющая максимальное расстояние до поста. Если пост находится слишком далеко, то информаация не будет удалена. Стандартное значение равно 10 метрам."
+msgstr "Мощность передатчика, определяющая максимальное расстояние до поста. Если пост находится слишком далеко, то информация не будет удалена. Стандартное значение равно 10 метрам."
 
 #. type: Plain text
 #: ../E/delinfo.txt:14
@@ -837,7 +837,7 @@ msgstr "Возвращаемое значение: <code><a cbot|float>float</a>
 #: ../E/direct.txt:11
 #, no-wrap
 msgid "Angle of the rotation that must be performed. -90 means f. ex. a rotation of 90 degrees to the right. "
-msgstr "Угол вращения, которое нужно проделать. -90 значит ф. экс. вращение на 90 градусов вправо."
+msgstr "Угол вращения, которое нужно проделать. Например -90 значит вращение на 90 градусов вправо."
 
 #. type: \b; header
 #: ../E/dist.txt:1
@@ -861,13 +861,13 @@ msgstr "Основное использование"
 #: ../E/dist.txt:5
 #, no-wrap
 msgid "If you write <code>position</code> alone, this gives you the position of the bot that executes the program. If you write the name of a variable followed by <code>.position</code>, this gives you the position of the object described in the variable."
-msgstr "Если вы напишете только <code>position</code>, то вы получите только позицию бота, который выполняет программу. Если вы напишете имя переменной, а за ней <code>.position</code>, то это даст вам позицию обьекта, который был обозначен вслед за переменной."
+msgstr "Если вы напишете только <code>position</code>, то вы получите только позицию бота, который выполняет программу. Если вы напишете имя переменной, а за ней <code>.position</code>, то это даст вам позицию объекта, который был обозначен вслед за переменной."
 
 #. type: Plain text
 #: ../E/dist.txt:7
 #, no-wrap
 msgid "Here is a program that moves forward, covering exactly the distance between the bot and the closest ant:"
-msgstr "Ниже приведена программа для движения вперед, на вличину, в точности равную расстоянию между ботом и ближайшим муравьем:"
+msgstr "Ниже приведена программа для движения вперед, на величину, равную расстоянию между ботом и ближайшим муравьем:"
 
 #. type: Source code
 #: ../E/dist.txt:9
@@ -917,7 +917,7 @@ msgstr "<c/>distance ( pos1, pos2 );<n/>"
 #: ../E/dist.txt:21
 #, no-wrap
 msgid "Calculates the distance between two positions. "
-msgstr "Рассчитывает растояние между двумя позициями."
+msgstr "Рассчитывает расстояние между двумя позициями."
 
 #. type: \t; header
 #: ../E/dist.txt:23 ../E/dist2d.txt:7
@@ -953,7 +953,7 @@ msgstr "<c/>distance2d ( pos1, pos2 );<n/>"
 #: ../E/dist2d.txt:5
 #, no-wrap
 msgid "Calculates the distance between two positions (ignores the z coordinate)."
-msgstr "Рассчитывает растояние между двумя позициями (пренебрегая координатой z)."
+msgstr "Рассчитывает расстояние между двумя позициями (пренебрегая координатой z)."
 
 #. type: \b; header
 #: ../E/do.txt:1
@@ -985,7 +985,7 @@ msgid ""
 "Be careful not to confuse the instruction <c/>do { } while ( );<n/> with the instruction <code><a cbot|while>while</a> ( ) { }</code>; the latter tests the condition before the instructions in the block are executed. "
 msgstr ""
 "Эта инструкция позволяет несколько раз выполнять инструкции внутри <a cbot|bloc>блока</a>. Инструкции выполняются как минимум один раз, поскольку условие выполняется только потом.\n"
-"Не путайте инструкцию <c/>do { } while ( );<n/> с инструкцией <code><a cbot|while>while</a> ( ) { }</code>; последняя проверяет условие до того как выполняются инструкции внутри блока."
+"Не путайте инструкцию <c/>do { } while ( );<n/> с инструкцией <code><a cbot|while>while</a> ( ) { }</code>; последняя проверяет условие до того, как выполняются инструкции внутри блока."
 
 #. type: \t; header
 #: ../E/do.txt:12 ../E/for.txt:13 ../E/while.txt:30
@@ -1049,13 +1049,13 @@ msgstr "Инструкция <code>drop</code>"
 #: ../E/drop.txt:2
 #, no-wrap
 msgid "The instruction <c/>drop();<n/> instructs the bot to drop whatever the operating arm is carrying on the ground, on the platform of a building or on the power cell location of a bot."
-msgstr "Инструкция <c/>drop();<n/> приказывает боту бросить все, что находися в данный момент в рабочей руке, на землю, на платформу здания, или на расположение энергобатарейки бота."
+msgstr "Инструкция <c/>drop();<n/> дает команду боту положить предмет, который находися в манипуляторе-захвате: на землю или на платформу здания или в батарейный отсек бота."
 
 #. type: Plain text
 #: ../E/drop.txt:5
 #, no-wrap
 msgid "The instruction <c/>drop();<n/> written in this form drops the object in front of the bot. Here is a short program that grabs an object in front of the bot and drops it 5 meters further:"
-msgstr "Инструкция <c/>drop();<n/> написанная таким образом заставит бот бросить обьект прямо перед собой. Ниже приведена короткая программа, в которой бот берет обьект перед собой, и кладет его на землю в пяти метрах от себя:"
+msgstr "Инструкция <c/>drop();<n/> написанная таким образом заставит бот бросить объект прямо перед собой. Ниже приведена короткая программа, в которой бот берет объект перед собой, и кладет его на землю в пяти метрах от себя:"
 
 #. type: Source code
 #: ../E/drop.txt:7
@@ -1096,10 +1096,10 @@ msgid ""
 "<code>Behind    </code>  Drops behind.\n"
 "<code>EnergyCell</code>  Drops on the bot's own power cell location."
 msgstr ""
-"Oper обозначает, где именно бот должен бросить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
-"<code>InFront   </code>  Кладет перед ботом (значение по умолчанию).\n"
-"<code>Behind    </code>  Кладет позади.\n"
-"<code>EnergyCell</code>  Кладет на место расположеня собственной энергобатареи бота."
+"Oper обозначает, где именно бот должен положить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
+"<code>InFront   </code>  Положить объект перед ботом (значение по умолчанию).\n"
+"<code>Behind    </code>  Положить объект за ботом.\n"
+"<code>EnergyCell</code>  Установить объект в собственный батарейный отсек."
 
 #. type: Plain text
 #: ../E/drop.txt:24
@@ -1110,8 +1110,8 @@ msgid ""
 "<code>!= 0 </code>error, no object was dropped"
 msgstr ""
 "Обычно в случае ошибки выполнение программы прекращается. Вы можете сделать так, что в случае ошибки программа не будет останавливаться, для чего используется инструкция <code><a cbot|errmode>errmode</a>(0)</code> . В случае ошибки <c/>drop();<n/> возвращает значение отличное от нуля.\n"
-"<code>== 0 </code>обьект был брошен\n"
-"<code>!= 0 </code>ошибка, обьект не был брошен"
+"<code>== 0 </code>команда успешно выполнена\n"
+"<code>!= 0 </code>ошибка, объект не удалось положить"
 
 #. type: \b; header
 #: ../E/eof.txt:1
@@ -7873,7 +7873,7 @@ msgstr ""
 "<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Фабрика Ядерный Батарей\n"
 "<button 162/>   <code><a object|convert>Converter</a>        </code>Конвертер Титана\n"
 "<button 161/>   <code><a object|derrick>Derrick</a>          </code>Буровая Установка\n"
-"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Пароболический Громоотвод\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Параболический Громоотвод\n"
 "<button 175/>   <code><a object|safe>Vault</a>            </code>Хранилище\n"
 "       <code><a object|start>StartArea</a>        </code>Стартовая Площадка\n"
 "       <code><a object|goal>GoalArea</a>         </code>Финишная Площадка\n"
@@ -8037,7 +8037,7 @@ msgstr ""
 "extern void object::Test()\n"
 "{\n"
 "\tMyClass object1();       // Вызовет конструктор по умолчанию (тот, который без входных параметров)\n"
-"\tMyClass object2(4, 5);   // Вызовет конструктор с двумя двумя параметрами\n"
+"\tMyClass object2(4, 5);   // Вызовет конструктор с двумя параметрами\n"
 "\tMyClass object3;         // Не вызовет конструктор, а просто объявит пустой объект, object3 == null\n"
 "\tobject3 = new MyClass(); // А вот теперь конструктор вызван, object3 != null\n"
 "}"
