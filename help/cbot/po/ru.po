@@ -110,7 +110,7 @@ msgstr "угол: <code><a cbot|float>float</a></code>"
 #: ../E/aim.txt:13
 #, no-wrap
 msgid "Angle in degrees of the gun relative to the robot. A positive value orients the gun upward. For shooters and orga shooters, the angle must range from <code>-20</code> to <code>+20</code> degrees. For phazer shooters, the angle must range from <code>-20</code> to <code>45</code> degrees."
-msgstr "Угол оружия относительно робота, в градусах. Положительное значение ориентирует ружье вперед. Для стрелков и орга-стрелков, угол должен быть от <code>-20</code> до <code>+20</code> градусов. Для фазового стрелка, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
+msgstr "Угол орудия, в градусах относительно робота. Положительное значение ориентирует орудие вверх. Для стрелков и орга-стрелков, угол должен быть в пределах от <code>-20</code> до <code>+20</code> градусов. Для фазового стрелка, угол должен быть в пределах от <code>-20</code> до <code>45</code> градусов."
 
 #. type: \t; header
 #: ../E/aim.txt:18 ../E/build.txt:20 ../E/deflag.txt:7 ../E/destroy.txt:10 ../E/drop.txt:23 ../E/factory.txt:16 ../E/fire.txt:25 ../E/flag.txt:14 ../E/goto.txt:29 ../E/grab.txt:23 ../E/move.txt:16 ../E/pencolor.txt:9 ../E/pendown.txt:12 ../E/penup.txt:6 ../E/penwidth.txt:9 ../E/recycle.txt:7 ../E/research.txt:13 ../E/sniff.txt:11 ../E/takeoff.txt:10 ../E/thump.txt:7 ../E/turn.txt:27
@@ -140,7 +140,7 @@ msgstr "Массивы"
 #: ../E/array.txt:2
 #, no-wrap
 msgid "An array is basically a collection of variables of the same type or class. You can use N dimensionnal arrays in the CBOT language. Each dimension is limited to 9999 elements. You must use square brackets <code>[]</code> after the type name or the variable name to declare an array."
-msgstr "Массив - это в основном набор переменных того же типа и класса. Вы можете использовать N-мерные массивы в языке CBOT, однако максимальный размер массива равен 9999 элементов. Вы должны использовать квадратные скобки <code>[]</code> после того, как объявили массив."
+msgstr "Массив - это набор переменных одного и того же типа или набор экземпляров одного и того же класса. Вы можете использовать N-мерные массивы в языке CBOT, однако массив не может содержать более 9999 элементов. Для объявления массива необходимо использовать квадратные скобки <code>[]</code> после имени типа или имени переменной."
 
 #. type: Plain text
 #: ../E/array.txt:9
@@ -354,7 +354,7 @@ msgstr "Тип <code>bool</code>"
 #: ../E/bool.txt:2
 #, no-wrap
 msgid "In a variable of this type you can put a boolean value, that is a value that can take only two states: true or false. "
-msgstr "Переменной этого типа вы можете присваивать булево значение, т.е. значение, которое может иметь лишь два состояния: да и нет."
+msgstr "Переменная данного типа может содержать в себе только логическое значение, которое может принимать, только два состояния: истинна (true) и ложь (false)."
 
 #. type: \b; header
 #: ../E/break.txt:1
@@ -425,7 +425,7 @@ msgstr "Значение <code>Категорий</code>"
 #: ../E/category.txt:2
 #, no-wrap
 msgid "Categories represent the names of objects in the CBOT language. Everything in COLOBOT is an object: robots, buildings, raw materials, etc., even yourself."
-msgstr "Категории отображают названия объектов на языке CBOT. Всё, что есть в COLOBOT является объектами: роботы, здания, сырье, и т.д., даже сам игрок."
+msgstr "Категории - это названия типов объектов используемые в языке CBOT. Всё, что присутствует в игре COLOBOT является объектом: роботы, здания, ресурсы... и даже сам игрок."
 
 #. type: Plain text
 #: ../E/category.txt:34
@@ -785,7 +785,7 @@ msgstr "power: <code>float</code>"
 #: ../E/delinfo.txt:11
 #, no-wrap
 msgid "Power of the transmitter, which corresponds to the maximal distance between the sender and the exchange post. If the distance is longer, the information won't be deleted. Default value is 10 metres."
-msgstr "Мощность передатчика, определяющая максимальное расстояние до поста. Если пост находится слишком далеко, то информация не будет удалена. Стандартное значение равно 10 метрам."
+msgstr "Мощность передатчика, соответствует максимальному расстоянию между роботом отправителем и постом. Если пост находится от робота дальше указанного расстояния, то информация не будет удалена. Значение по умолчанию равно 10 метрам."
 
 #. type: Plain text
 #: ../E/delinfo.txt:14
@@ -837,7 +837,7 @@ msgstr "Возвращаемое значение: <code><a cbot|float>float</a>
 #: ../E/direct.txt:11
 #, no-wrap
 msgid "Angle of the rotation that must be performed. -90 means f. ex. a rotation of 90 degrees to the right. "
-msgstr "Угол вращения, которое нужно проделать. Например -90 значит вращение на 90 градусов вправо."
+msgstr "Угол поворота, который необходимо выполнить. Например, -90 значит вращение на 90 градусов вправо."
 
 #. type: \b; header
 #: ../E/dist.txt:1
@@ -917,7 +917,7 @@ msgstr "<c/>distance ( pos1, pos2 );<n/>"
 #: ../E/dist.txt:21
 #, no-wrap
 msgid "Calculates the distance between two positions. "
-msgstr "Рассчитывает расстояние между двумя позициями."
+msgstr "Вычисляет расстояние между двумя позициями."
 
 #. type: \t; header
 #: ../E/dist.txt:23 ../E/dist2d.txt:7
@@ -953,7 +953,7 @@ msgstr "<c/>distance2d ( pos1, pos2 );<n/>"
 #: ../E/dist2d.txt:5
 #, no-wrap
 msgid "Calculates the distance between two positions (ignores the z coordinate)."
-msgstr "Рассчитывает расстояние между двумя позициями (пренебрегая координатой z)."
+msgstr "Вычисляет расстояние между двумя позициями (пренебрегая z координатой)."
 
 #. type: \b; header
 #: ../E/do.txt:1
@@ -1096,7 +1096,7 @@ msgid ""
 "<code>Behind    </code>  Drops behind.\n"
 "<code>EnergyCell</code>  Drops on the bot's own power cell location."
 msgstr ""
-"Oper обозначает, где именно бот должен положить предмет. Если не обозначить это место, обьект будет положен прямо перед ботом.\n"
+"Oper указывает, куда именно робот должен положить объект. Если данное значение не указанно, объект будет положен прямо перед ботом.\n"
 "<code>InFront   </code>  Положить объект перед ботом (значение по умолчанию).\n"
 "<code>Behind    </code>  Положить объект за ботом.\n"
 "<code>EnergyCell</code>  Установить объект в собственный батарейный отсек."
