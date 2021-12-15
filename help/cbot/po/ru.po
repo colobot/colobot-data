@@ -8591,13 +8591,13 @@ msgstr ""
 #: ../E/build.txt:2
 #, no-wrap
 msgid "The instruction <c/>build();<n/> instructs the bot to build a building of a given <a cbot|category>category</a>."
-msgstr ""
+msgstr "Инструкция <c/>build();<n/> дает задание боту построить здание указанной <a cbot|category>категории</a>."
 
 #. type: Plain text
 #: ../E/build.txt:5
 #, no-wrap
 msgid "Here is a program that looks for the nearest <a object|titan>titanium cube</a>, approaches it, and builds a <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Предложенная программа, ищет ближайшую <a object|titan>титановую заготовку</a>, подходит к ней и осуществляет строительство <a object|factory>фабрики ботов</a>."
 
 #. type: Plain text
 #: ../E/build.txt:26
@@ -8606,12 +8606,14 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code>Инструкции <a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
+"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
 
 #. type: Plain text
 #: ../E/buildingenabled.txt:2
 #, no-wrap
 msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of a given <a cbot|category>category</a> can be built during current mission."
-msgstr ""
+msgstr "Инструкция <c/>buildingenabled();<n/> позволяет определить может ли быть построено здание указанной <a cbot|category>категории</a> в течении текущей миссии."
 
 #. type: Plain text
 #: ../E/buildingenabled.txt:23
@@ -8620,6 +8622,8 @@ msgid ""
 "<code><a cbot|build>build</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code>Инструкции <a cbot|canbuild>build</a></code>, <code><a cbot|buildingenabled>canbuild</a></code>.\n"
+"<a cbot>Программирование</a>, <a cbot|type>типы</a> и <a cbot|category>категории</a>."
 
 #. type: Plain text
 #: ../E/canbuild.txt:2
@@ -8639,7 +8643,7 @@ msgstr ""
 #: ../E/canresearch.txt:5
 #, no-wrap
 msgid "Checks if a <a cbot|researches>research</a> can be done during current mission."
-msgstr ""
+msgstr "Проверяет может ли <a cbot|researches>исследование</a> быть проведено в течении текущей миссии."
 
 #. type: Plain text
 #: ../E/canresearch.txt:15
@@ -8659,7 +8663,7 @@ msgstr ""
 #: ../E/factory.txt:5
 #, no-wrap
 msgid "Starts a construction of a bot of a given <a cbot|category>category</a> and runs a specified program on it after the construction is finished."
-msgstr ""
+msgstr "Начинает строительство бота указанной <a cbot|category>категории</a> и запускает указанную программу в нем после того, как строительство завершится."
 
 #. type: Plain text
 #: ../E/factory.txt:11
@@ -8671,7 +8675,7 @@ msgstr ""
 #: ../E/factory.txt:14
 #, no-wrap
 msgid "<a object|factory>BotFactory</a>, nearest by default."
-msgstr ""
+msgstr "<a object|factory>BotFactory</a>, ближайшая по умолчанию."
 
 #. type: Plain text
 #: ../E/factory.txt:22
@@ -8709,13 +8713,13 @@ msgstr ""
 #: ../E/research.txt:5
 #, no-wrap
 msgid "Starts a <a cbot|researches>research</a> of a given type."
-msgstr ""
+msgstr "Начинает <a cbot|researches>исследование</a> указанного типа."
 
 #. type: Plain text
 #: ../E/research.txt:11
 #, no-wrap
 msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>. Nearest research center by default."
-msgstr ""
+msgstr "<a object|research>ResearchCenter</a> или <a object|labo>AutoLab</a>. Ближайший исследовательский центр по умолчанию."
 
 #. type: Plain text
 #: ../E/research.txt:19
@@ -8738,6 +8742,8 @@ msgid ""
 "<format const>true</format> if the research is done\n"
 "<format const>false</format> if the research is not done"
 msgstr ""
+"<format const>true</format> если исследование успешно завершено\n"
+"<format const>false</format> если исследование провести не удалось"
 
 #. type: Plain text
 #: ../E/researched.txt:15
@@ -8796,7 +8802,7 @@ msgstr ""
 #: ../E/takeoff.txt:5
 #, no-wrap
 msgid "Launch a spaceship."
-msgstr "Производит запуск космического корабля."
+msgstr "Осуществляет запуск космического корабля."
 
 #. type: Plain text
 #: ../E/takeoff.txt:8
@@ -8808,13 +8814,13 @@ msgstr "Ближайший <a object|base>SpaceShip</a>, по умолчанию
 #: ../E/switch.txt:5
 #, no-wrap
 msgid "Note: the <a cbot|isbusy>isbusy</a> instruction might be much better to use in this scenario."
-msgstr "Заметьте: инструкция <a cbot|isbusy>isbusy</a> может быть лучше использована в этом сценарии."
+msgstr "Примечание: инструкция <a cbot|isbusy>isbusy</a> лучше подходит для реализации приведенной ниже программы."
 
 #. type: Plain text
 #: ../E/build.txt:15
 #, no-wrap
 msgid "Constructs a building using a titanium cube in front of the <a object|botbr>builder</a>."
-msgstr "Возводит строение используя титановй куб расположенный перед <a object|botbr>строителем</a>."
+msgstr "Возводит строение из титанового куба расположенного перед <a object|botbr>строителем</a>."
 
 #. type: Plain text
 #: ../E/category.txt:94
