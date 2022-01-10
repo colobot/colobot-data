@@ -1,28 +1,39 @@
-extern void object::Hare( )
+point object::findPosition(float margin, float x0, float x_size, float y0, float y_size)
 {
-	int		nb = 0;
+	point dest (0,0,this.position.z);
+	float dist = 0;
+	do{
+		dest.x = x0+rand()*x_size;
+		dest.y = y0+rand()*y_size;
+		dist = distance(dest,this.position);
+		if(radar(PracticeBot, direction(dest), 55) != null)
+		{
+			dist *= -1; // make sure the loop will be run again
+		}
+	}while(dist < margin);
+	return dest;
+}
 
+extern void object::Hare2( )
+{
+	int  nb = 0;
+	point dest;
+	float dist = 10;
+	object bot;
+	
+	errmode(0);
+	
 	while ( true )
 	{
-		point	dest;
-		float	dist;
-		object	bot;
-
-		do
-		{
-			dest.x = 8+rand()*24;
-			dest.y = -89.5+rand()*24;
-			dist = distance(dest, position);
-		}
-		while ( dist < 10 );
+		dest = findPosition(dist, cmdline(0), cmdline(1), cmdline(2), cmdline(3));
 		goto(dest);
 		wait(2);
-
+		
 		bot = radar(PracticeBot, 0, 360, 0, 10);
 		if ( bot == null )
 		{
 			nb = 0;
-			message("Failure, you are too far away. Start again 10x.");
+			message("Failure, you are too far away. Start again 10x.", DisplayError);
 		}
 		else
 		{
@@ -33,7 +44,8 @@ extern void object::Hare( )
 			}
 			else
 			{
-				message("Well done, let's go home.");
+				message("Well done, let's go home.", DisplayInfo);
+				goto(10, -77.5, 1); // make shadow ride right on platform
 				goto(-2, -77.5, 0);
 				break;
 			}
