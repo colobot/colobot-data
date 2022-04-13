@@ -72,7 +72,7 @@ msgstr "Программы, отправленные Хьюстоном"
 #: ../E/1_SwitchCell1_link.txt:2 ../E/2_Recharge1_link.txt:2 ../E/3_Recharge2_link.txt:2 ../E/5_CollectTitanium2_link.txt:2 ../E/6_KillAnt1_link.txt:2 ../E/7_CollectTitanium3_link.txt:2 ../E/8_ServiceTower1_link.txt:2
 #, no-wrap
 msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
-msgstr "Для этой миссии мы не разрабатвали специальных программ. Тем не менее, вы можете сами написать свою собственную программу, если вы считаете, что это может вам понадобиться."
+msgstr "Для этой миссии мы не разрабатывали специальных программ. Тем не менее, вы можете сами написать свою собственную программу, если вы считаете, что это может вам понадобиться."
 
 #. type: \b; header
 #: ../E/10_FollowPhazer.txt:40 ../E/1_SwitchCell1_link.txt:4 ../E/2_Recharge1.txt:20 ../E/2_Recharge1_link.txt:4 ../E/3_Recharge2.txt:23 ../E/3_Recharge2_link.txt:4 ../E/4_CollectTitanium1.txt:24 ../E/5_CollectTitanium2.txt:32 ../E/5_CollectTitanium2_link.txt:4 ../E/6_KillAnt1.txt:23 ../E/6_KillAnt1_link.txt:4 ../E/7_CollectTitanium3.txt:53 ../E/7_CollectTitanium3_link.txt:4 ../E/8_ServiceTower1.txt:43 ../E/8_ServiceTower1_link.txt:4 ../E/9_terranova.txt:20
@@ -238,7 +238,7 @@ msgstr ""
 "\t// 1) Задание переменной.\n"
 "\t<a cbot|type>object</a>  item;            // информация об объектах\n"
 "\t\n"
-"\t// 2) Перейти к тиатновой руде и взять ее.\n"
+"\t// 2) Перейти к титановой руде и взять ее.\n"
 "\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// искать титановую руду\n"
 "\t<a cbot|goto>goto</a>(item.position);     // перейти к месту\n"
 "\t<a cbot|grab>grab</a>();                  // взять титан\n"
