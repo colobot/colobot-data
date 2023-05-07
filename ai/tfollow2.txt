@@ -1,6 +1,6 @@
 point object::findPosition(float margin, float x0, float x_size, float y0, float y_size)
 {
-	point dest (0,0,this.position.z);
+	point dest ( 0,0,this.position.z );
 	float dist = 0;
 	do
 	{
