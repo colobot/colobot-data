@@ -1,13 +1,13 @@
-point object::findPosition( float margin, float x0, float x_size, float y0, float y_size )
+point object::findPosition(float margin, float x0, float x_size, float y0, float y_size)
 {
-	point dest ( 0,0,this.position.z );
+	point dest (0,0,this.position.z);
 	float dist = 0;
 	do
 	{
 		dest.x = x0+rand()*x_size;
 		dest.y = y0+rand()*y_size;
 		dist = distance(dest,this.position);
-		if( radar( PracticeBot, direction( dest ), 55 ) != null )
+		if( radar(PracticeBot, direction(dest), 55) != null )
 		{
 			dist *= -1; // make sure the loop will be run again
 		}
@@ -27,7 +27,7 @@ extern void object::Hare2( )
 	
 	while ( true )
 	{
-		dest = findPosition( dist, cmdline( 0 ), cmdline( 1 ), cmdline( 2 ), cmdline( 3 ) );
+		dest = findPosition(dist, cmdline(0), cmdline(1), cmdline(2), cmdline(3));
 		goto(dest);
 		wait(2);
 		bot = radar(PracticeBot, 0, 360, 0, 10);
