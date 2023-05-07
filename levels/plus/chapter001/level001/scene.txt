@@ -173,36 +173,12 @@ CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
 MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
 MapZoom factor=4
 
-EnableBuild type=ResearchCenter
-EnableBuild type=BotFactory
-EnableBuild type=RadarStation
-EnableBuild type=AutoLab
 EnableBuild type=ExchangePost
 EnableBuild type=FlatGround
 EnableBuild type=Flag
 
 EnableResearch type=TRACKER
-EnableResearch type=WINGER
-EnableResearch type=SHOOTER
-EnableResearch type=TOWER
-EnableResearch type=ATOMIC
-EnableResearch type=THUMPER
-EnableResearch type=iPAW
-EnableResearch type=iGUN
-EnableResearch type=SHIELDER
-EnableResearch type=PHAZER
 EnableResearch type=BUILDER
-DoneResearch type=WINGER
-DoneResearch type=SHOOTER
-DoneResearch type=TOWER
-DoneResearch type=ATOMIC
-DoneResearch type=THUMPER
-DoneResearch type=iPAW
-DoneResearch type=iGUN
-DoneResearch type=SHIELDER
-DoneResearch type=SUBBER
-DoneResearch type=SNIFFER
-DoneResearch type=RECYCLER
 
 EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
 EndMissionTake pos=0.00;0.00 dist=8.0 type=BlackBox min=1
