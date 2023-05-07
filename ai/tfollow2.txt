@@ -3,7 +3,7 @@ point object::findPosition( float margin, float x0, float x_size, float y0, floa
 	point dest ( 0,0,this.position.z );
 	float dist = 0;
 	do
-    {
+	{
 		dest.x = x0+rand()*x_size;
 		dest.y = y0+rand()*y_size;
 		dist = distance(dest,this.position);
@@ -12,7 +12,7 @@ point object::findPosition( float margin, float x0, float x_size, float y0, floa
 			dist *= -1; // make sure the loop will be run again
 		}
 	}
-    while( dist < margin );
+	while( dist < margin );
 	return dest;
 }
 
