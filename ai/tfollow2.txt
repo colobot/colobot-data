@@ -47,7 +47,7 @@ extern void object::Hare2( )
 			else
 			{
 				message("Well done, let's go home.", DisplayInfo);
-				turn(direction(new point(10, -77.5))); //same as above
+				turn(direction(10, -77.5)); // same as above
 				goto(10, -77.5, 1); // make shadow ride right on platform
 				goto(-2, -77.5, 0);
 				break;
