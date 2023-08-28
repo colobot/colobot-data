@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Install Colobot dependencies
       run: sudo apt-get install -y --no-install-recommends vorbis-tools
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Create build directory
       run: cmake -E make_directory build
     - name: Run CMake
@@ -21,7 +21,7 @@ jobs:
       working-directory: build
       run: DESTDIR=. make install
     - name: Upload build
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: data
         path: build/install
