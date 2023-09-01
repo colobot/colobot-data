@@ -26,6 +26,7 @@ set(MUSIC_FILES
 )
 
 option(MUSIC "Enable music" ON)
+
 if(MUSIC)
     option(MUSIC_FLAC "Download music in FLAC fomat and convert it to *.ogg locally, this lets you change music quality" OFF)
     if(MUSIC_FLAC)
@@ -39,12 +40,21 @@ if(MUSIC)
 
     if(NOT DEFINED COLOBOT_INSTALL_DATA_DIR)
         if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-            set(COLOBOT_INSTALL_MUSIC_DIR ${CMAKE_INSTALL_PREFIX}/data/music CACHE PATH "Colobot shared music directory")
+            set(COLOBOT_INSTALL_MUSIC_DIR
+                ${CMAKE_INSTALL_PREFIX}/data/music
+                CACHE PATH "Colobot shared music directory"
+            )
         else()
-            set(COLOBOT_INSTALL_MUSIC_DIR ${CMAKE_INSTALL_PREFIX}/share/games/colobot/music CACHE PATH "Colobot shared music directory")
+            set(COLOBOT_INSTALL_MUSIC_DIR
+                ${CMAKE_INSTALL_PREFIX}/share/games/colobot/music
+                CACHE PATH "Colobot shared music directory"
+            )
         endif()
     else()
-        set(COLOBOT_INSTALL_MUSIC_DIR ${COLOBOT_INSTALL_DATA_DIR}/music CACHE PATH "Colobot shared music directory")
+        set(COLOBOT_INSTALL_MUSIC_DIR
+            ${COLOBOT_INSTALL_DATA_DIR}/music
+            CACHE PATH "Colobot shared music directory"
+        )
     endif()
 
     find_program(WGET wget)
@@ -60,22 +70,20 @@ if(MUSIC)
 
         # If the required file is already available in source directory, don't download
         if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
+            message(STATUS "Music file ${DOWNLOAD_FILE} already downloaded")
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
-            add_custom_target(download-${FILENAME}) # no operation
         else()
             if(NOT WGET)
-                    message(FATAL_ERROR "wget not found, music files can't be downloaded!")
+                message(FATAL_ERROR "wget not found, music files can't be downloaded!")
             endif()
 
-            message(STATUS "Adding download target for ${DOWNLOAD_FILE}")
-
-            add_custom_target(
-                download-${FILENAME}
-                ALL
-                ${WGET} -N "http://colobot.info/files/music/${DOWNLOAD_FILE}"
-                COMMENT "Downloading ${DOWNLOAD_FILE}"
+            execute_process(
+                COMMAND ${CMAKE_COMMAND} -E echo "Downloading ${DOWNLOAD_FILE}..."
+                COMMAND ${WGET} -N "https://colobot.info/files/music/${DOWNLOAD_FILE}"
+                WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
             )
-            set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_BINARY_DIR}/${DOWNLOAD_FILE}")
+
+            set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
         endif()
 
         if(MUSIC_FLAC)
@@ -84,13 +92,15 @@ if(MUSIC)
                 install(FILES ${DOWNLOAD_FILE_LOC} DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR})
             else()
                 message(STATUS "Adding OGG convert target for ${FILE}")
-                add_custom_command(
-                    OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg"
+
+                execute_process(
                     COMMAND ${OGGENC} -q ${MUSIC_QUALITY} -o "${FILENAME}.ogg" "${DOWNLOAD_FILE_LOC}"
-                    DEPENDS download-${FILENAME} "${DOWNLOAD_FILE_LOC}"
                 )
-                add_custom_target(generate-${FILENAME} ALL DEPENDS "${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg")
-                install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR})
+
+                install(FILES
+                    ${CMAKE_CURRENT_SOURCE_DIR}/${FILENAME}.ogg
+                    DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR}
+                )
             endif()
         else()
             message(STATUS "Adding install target for ${FILE}")
