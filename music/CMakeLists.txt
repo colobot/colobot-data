@@ -86,6 +86,12 @@ if(MUSIC)
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
         endif()
 
+        if(COLOBOT_DEVELOPMENT_MODE)
+            file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}"
+                DESTINATION ${CMAKE_CURRENT_BINARY_DIR}
+            )
+        endif()
+
         if(MUSIC_FLAC)
             if(DOWNLOAD_FILE MATCHES ".ogg")
                 message(STATUS "Adding install target for ${FILE} (FLAC not available)")

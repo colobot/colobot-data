@@ -23,15 +23,16 @@ function(generate_translations
     # first command is used to get list of input and output files when running CMake to
     # execute appropriate CMake install commands and set up dependencies properly
     execute_process(COMMAND ${PYTHON_EXECUTABLE}
-                    ${DATA_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
-                    --mode print_files
-                    --type ${type}
-                    --input_dir ${input_dir}
-                    --po_dir ${po_dir}
-                    --output_dir ${output_dir}
-                    ${output_subdir_opt} ${output_subdir}
-                    WORKING_DIRECTORY ${working_dir}
-                    OUTPUT_VARIABLE files_list)
+        ${PROJECT_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
+        --mode print_files
+        --type ${type}
+        --input_dir ${input_dir}
+        --po_dir ${po_dir}
+        --output_dir ${output_dir}
+        ${output_subdir_opt} ${output_subdir}
+        WORKING_DIRECTORY ${working_dir}
+        OUTPUT_VARIABLE files_list
+    )
 
     string(REGEX REPLACE "(.*)\n(.*)" "\\1" input_files "${files_list}")
     string(REGEX REPLACE "(.*)\n(.*)" "\\2" output_files "${files_list}")
@@ -47,24 +48,24 @@ function(generate_translations
 
     # actual command used to generate translations executed when building project
     add_custom_command(OUTPUT ${signal_file}
-                       COMMAND ${PYTHON_EXECUTABLE}
-                       ${DATA_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
-                       --mode generate
-                       --type ${type}
-                       --input_dir ${input_dir}
-                       --po_dir ${po_dir}
-                       --output_dir ${output_dir}
-                       ${output_subdir_opt} ${output_subdir}
-                       --signal_file ${signal_file}
-                       WORKING_DIRECTORY ${working_dir}
-                       DEPENDS ${input_files} ${po_files})
+        COMMAND ${PYTHON_EXECUTABLE}
+        ${PROJECT_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
+        --mode generate
+        --type ${type}
+        --input_dir ${input_dir}
+        --po_dir ${po_dir}
+        --output_dir ${output_dir}
+        ${output_subdir_opt} ${output_subdir}
+        --signal_file ${signal_file}
+        WORKING_DIRECTORY ${working_dir}
+        DEPENDS ${input_files} ${po_files}
+    )
 
     # generate some unique string for target name
     string(REGEX REPLACE "[/\\]" "_" target_suffix ${po_dir})
 
     # target to run the command
     add_custom_target(i18n_${target_suffix} ALL DEPENDS ${signal_file})
-
 endfunction()
 
 ##
