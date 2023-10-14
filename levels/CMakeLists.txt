@@ -148,4 +148,8 @@ add_level_category(challenges)
 add_level_category(battles)
 add_level_category(plus)
 
+if(COLOBOT_DEVELOPMENT_MODE)
+    file(COPY other DESTINATION ${PROJECT_BINARY_DIR}/levels/)
+endif()
+
 install(DIRECTORY other DESTINATION ${LEVEL_INSTALL_DATA_DIR})
