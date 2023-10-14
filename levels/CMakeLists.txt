@@ -71,15 +71,16 @@ endfunction()
 # Add chaptertitles
 ##
 function(add_chaptertitles level_category_dir)
-    set(work_dir ${PROJECT_BINARY_DIR}/levels-po/${level_category_dir})
+    set(work_dir ${PROJECT_BINARY_DIR}/levels/po/${level_category_dir})
 
-    generate_translations(translated_chaptertitle_files
-        "chaptertitles"
-        ${CMAKE_CURRENT_SOURCE_DIR}
-        ${level_category_dir}
-        ${level_category_dir}/po
-        ${work_dir}
-        ""
+    generate_translations(
+        OUTPUT_VAR      translated_chaptertitle_files
+        TYPE            "chaptertitles"
+        WORKING_DIR     ${CMAKE_CURRENT_SOURCE_DIR}
+        INPUT_DIR       ${level_category_dir}
+        PO_DIR          ${level_category_dir}/po
+        OUTPUT_DIR      ${work_dir}
+        OUTPUT_SUBDIR   "${install_subdir}"
     )
 
     install_preserving_relative_paths("${translated_chaptertitle_files}"
@@ -92,15 +93,16 @@ endfunction()
 # Add level directory
 ##
 function(add_level level_dir)
-    set(work_dir ${PROJECT_BINARY_DIR}/levels-po/${level_dir})
+    set(work_dir ${PROJECT_BINARY_DIR}/levels/po/${level_dir})
 
-    generate_translations(translated_level_files
-        "level"
-        ${CMAKE_CURRENT_SOURCE_DIR}
-        ${level_dir}
-        ${level_dir}/po
-        ${work_dir}
-        ""
+    generate_translations(
+        OUTPUT_VAR      translated_level_files
+        TYPE            "level"
+        WORKING_DIR     ${CMAKE_CURRENT_SOURCE_DIR}
+        INPUT_DIR       ${level_dir}
+        PO_DIR          ${level_dir}/po
+        OUTPUT_DIR      ${work_dir}
+        OUTPUT_SUBDIR   ""
     )
 
     file(GLOB english_help_files ${level_dir}/help/*)

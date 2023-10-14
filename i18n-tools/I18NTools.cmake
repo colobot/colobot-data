@@ -5,7 +5,7 @@
 ##
 # Generate translated files with Python script
 ##
-function(generate_translations
+function(generate_translations_old
          result_output_files # output variable to return file names of translated files
          type                # type of files to process
          working_dir         # working directory for the commands to run
@@ -66,6 +66,34 @@ function(generate_translations
 
     # target to run the command
     add_custom_target(i18n_${target_suffix} ALL DEPENDS ${signal_file})
+endfunction()
+
+function(generate_translations)
+    list(APPEND oneArgs
+        OUTPUT_VAR      # output variable for file names of translated files
+        TYPE            # type of files to process
+        WORKING_DIR     # working directory for the commands to run
+        INPUT_DIR       # directory with source files
+        PO_DIR          # directory with translations
+        OUTPUT_DIR      # directory where to save generated files
+        OUTPUT_SUBDIR   # optional installation subdirectory
+    )
+
+    cmake_parse_arguments(ARG "" "${oneArgs}" "" ${ARGN})
+
+    generate_translations_old(
+        output_files
+        "${ARG_TYPE}"
+        "${ARG_WORKING_DIR}"
+        "${ARG_INPUT_DIR}"
+        "${ARG_PO_DIR}"
+        "${ARG_OUTPUT_DIR}"
+        "${ARG_OUTPUT_SUBDIR}"
+    )
+
+    if(DEFINED ARG_OUTPUT_VAR)
+        set(${ARG_OUTPUT_VAR} "${output_files}" PARENT_SCOPE)
+    endif()
 endfunction()
 
 ##
