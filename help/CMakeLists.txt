@@ -11,20 +11,32 @@ function(add_help_category help_category_dir install_subdir)
 
     # Always install English files
     file(GLOB english_help_files ${help_category_dir}/E/*)
-    install(FILES ${english_help_files} DESTINATION ${HELP_INSTALL_DATA_DIR}/E/${install_subdir})
+
+    if(COLOBOT_DEVELOPMENT_MODE)
+        file(COPY ${english_help_files}
+            DESTINATION ${PROJECT_BINARY_DIR}/help/E/${install_subdir}
+        )
+    endif()
+
+    install(FILES ${english_help_files}
+        DESTINATION ${HELP_INSTALL_DATA_DIR}/E/${install_subdir}
+    )
 
     # If translations are turned on, also generate translated files
     if(TRANSLATIONS)
         message(STATUS "Adding translation targets for help/${help_category_dir}")
 
-        set(work_dir ${DATA_BINARY_DIR}/help-po/${help_category_dir})
-        generate_translations(translated_help_files
-                              "help"
-                              ${CMAKE_CURRENT_SOURCE_DIR}
-                              ${help_category_dir}
-                              ${help_category_dir}/po
-                              ${work_dir}
-                              "${install_subdir}")
+        set(work_dir ${PROJECT_BINARY_DIR}/help/po/${help_category_dir})
+        
+        generate_translations(
+            OUTPUT_VAR      translated_help_files
+            TYPE            "help"
+            WORKING_DIR     ${CMAKE_CURRENT_SOURCE_DIR}
+            INPUT_DIR       ${help_category_dir}
+            PO_DIR          ${help_category_dir}/po
+            OUTPUT_DIR      ${work_dir}
+            OUTPUT_SUBDIR   "${install_subdir}"
+        )
 
         install_preserving_relative_paths("${translated_help_files}"
                                           ${work_dir}
