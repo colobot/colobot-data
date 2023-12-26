@@ -55,7 +55,7 @@ Binary operators below are working with fundamental number types (\c;\l;int\u cb
 \c;-\n;  subtraction
 \c;*\n;  multiplication
 \c;/\n;  division
-\c;%\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
+\c;%\n;  remainder of the division (works for \c;\l;int\u cbot\int;\n; as well as \c;\l;float\u cbot\float;\n;)
 
 \t;Notes
 o The \c;*\n;, \c;/\n;, \c;%\n; are all stronger than \c;+\n; and \c;-\n;.
@@ -74,6 +74,7 @@ o The result \l;type\u cbot\type; is always \c;\l;float\u cbot\float;\n;. If \c;
 \s; 
 \s; int    i = 13 % 5;      // i == 3
 \s; int    i = -8 % 3;      // i == -2
+\s; float  f = -4.5 % 2.75; // f == -1.75
 \s; 
 \s; float  f = sin(90) * i; // f == -2.0
 \s; 
@@ -91,7 +92,7 @@ is equivalent to
 \c;-=\n;  subtraction
 \c;*=\n;  multiplication
 \c;/=\n;  division
-\c;%=\n;  remainder of the division (only for the type \c;\l;int\u cbot\int;\n;)
+\c;%=\n;  remainder of the division
 
 \b;String concatenation
 If at least one of the values used with the \c;+\n; operator is a \l;string\u cbot\string;, then the operation of concatenation is performed. The result of the operator is then a string, which is created by joining end-to-end the string and the other value. If the other value is not a string, then it is converted to string beforehand.
