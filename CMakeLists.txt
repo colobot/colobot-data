@@ -5,7 +5,7 @@ project(Colobot-Data)
 option(TRANSLATIONS "Enable translations of help and level files" ON)
 
 if(TRANSLATIONS)
-    find_package(PythonInterp 2.7 REQUIRED)
+    find_package(PythonInterp 3.0 REQUIRED)
 else()
     message(STATUS "Translations disabled; only English files will be installed")
 endif()
