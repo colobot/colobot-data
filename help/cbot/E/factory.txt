@@ -8,7 +8,7 @@ Starts a construction of a bot of a given \l;category\u cbot\category; and runs 
 \l;Category\u cbot\category; of the robot to construct.
 
 \t;program: \c;\l;string\u cbot\string;\n; (default value: \c;""\n;)
-Program that will be run on the bot after factory finishes the construction. This can be either a \l;public\u cbot\public; \l;function\u cbot\function;, a \l;filename\u cbot\file; or raw code.
+Program that will be run on the bot after factory finishes the construction. This can be either a \l;public\u cbot\public; \l;function\u cbot\function;, a filename or raw code.
 
 \t;\l;object\u cbot\object;
 \l;BotFactory\u object\factory;, nearest by default.
@@ -18,6 +18,46 @@ Normally an error stops the program. You can prevent the program from stopping o
 \c;== 0 \n;The construction successfully started
 \c;!= 0 \n;The construction could not be started (e.g. no \l;Titanium\u object\titan; in the factory, the bot is not researched)
 
+\t;Examples
+
+Raw code:
+\c;
+\s; extern void New()
+\s; {
+\s;     factory(WheeledGrabber, "extern void Say123() { message(123); }");
+\s; }
+\n;
+
+Public function:
+\c;
+\s; extern void New()
+\s; {
+\s;     factory(WheeledGrabber, "SayHello");
+\s; }
+\s;
+\s; public void SayHello()
+\s; {
+\s;     message("hello");
+\s; }
+\n;
+
+File name:
+
+Save this as say-foo.cbot. Note: make sure to check the "Public" checkbox when saving - this will cause say-foo.cbot to be inside the program/ folder.
+\c;
+\s; extern void New()
+\s; {
+\s;     message("Foo");
+\s; }
+\n;
+
+Run factory like this:
+\c;
+\s; extern void New()
+\s; {
+\s;     factory(WheeledGrabber, "program/say-foo.cbot");
+\s; }
+\n;
 \t;See also
 \c;\l;researched\u cbot\researched;\n;, \c;\l;wait\u cbot\wait;\n;.
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
