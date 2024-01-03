@@ -48,6 +48,11 @@ if(MUSIC)
     endif()
 
     find_program(WGET wget)
+    find_program(CURL curl)
+
+    if((NOT WGET) AND (NOT CURL))
+        message(FATAL_ERROR "cannot find wget or curl, music files can't be downloaded!")
+    endif()
 
     foreach(FILE ${MUSIC_FILES})
         get_filename_component(FILENAME ${FILE} NAME_WE)
@@ -63,18 +68,28 @@ if(MUSIC)
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
             add_custom_target(download-${FILENAME}) # no operation
         else()
-            if(NOT WGET)
-                    message(FATAL_ERROR "wget not found, music files can't be downloaded!")
-            endif()
 
             message(STATUS "Adding download target for ${DOWNLOAD_FILE}")
 
-            add_custom_target(
-                download-${FILENAME}
-                ALL
-                ${WGET} -N "http://colobot.info/files/music/${DOWNLOAD_FILE}"
-                COMMENT "Downloading ${DOWNLOAD_FILE}"
-            )
+            if(WGET)
+                add_custom_target(
+                    download-${FILENAME}
+                    ALL
+                    ${WGET} -N "http://colobot.info/files/music/${DOWNLOAD_FILE}"                
+                    COMMENT "Downloading ${DOWNLOAD_FILE}"
+                )
+            elseif(CURL)
+                add_custom_target(
+                    download-${FILENAME}
+                    ALL
+                    # -z produces warnings the first time the file is downloaded
+                    ${CURL} -z "${DOWNLOAD_FILE}" -O "https://colobot.info/files/music/${DOWNLOAD_FILE}"
+                    COMMENT "Downloading ${DOWNLOAD_FILE}"
+                )
+            else()
+                # FATAL_ERROR above should prevent reaching this point
+                message(STATUS "No download program available")
+            endif()
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_BINARY_DIR}/${DOWNLOAD_FILE}")
         endif()
 
