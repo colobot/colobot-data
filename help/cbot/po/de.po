@@ -6030,19 +6030,19 @@ msgstr ""
 #: ../E/factory.txt:1
 #, no-wrap
 msgid "Instruction <code>factory</code>"
-msgstr ""
+msgstr "Anweisung <code>factory</code>"
 
 #. type: Plain text
 #: ../E/factory.txt:8
 #, no-wrap
 msgid "<a cbot|category>Category</a> of the robot to construct."
-msgstr ""
+msgstr "<a cbot|category>Kategorie</a> des zu konstruierenden Roboters."
 
 #. type: \t; header
 #: ../E/factory.txt:10
 #, no-wrap
 msgid "program: <code><a cbot|string>string</a></code> (default value: <code>\"\"</code>)"
-msgstr ""
+msgstr "program: <code><a cbot|string>string</a></code> (Standardwert: <code>\"\"</code>)"
 
 #. type: Plain text
 #: ../E/factory.txt:17
@@ -6052,6 +6052,9 @@ msgid ""
 "<code>== 0 </code>The construction successfully started\n"
 "<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
 msgstr ""
+"Normalerweise bewirkt ein Fehler, dass das Programm angehalten wird. Wenn Sie wollen, dass das Programm durch einen Fehler nicht angehalten wird, benutzen Sie den Befehl <code><a cbot|errmode>errmode</a>(0)</code>. In diesem Fall gibt der Befehl einen Wert verschieden von Null zurück, wenn beim Ausführen von <code>factory()</code> ein Fehler aufgetreten ist.\n"
+"<code>== 0 </code>Der Bau hat erfolgreich begonnen\n"
+"<code>!= 0 </code>Der Bau konnte nicht gestartet werden (z.B. kein <a object|titan>Titan</a> in der Fabrik, der Bot wird nicht erforscht)"
 
 #. type: \b; header
 #: ../E/flatspace.txt:1
@@ -8590,13 +8593,13 @@ msgstr ""
 #: ../E/factory.txt:5
 #, no-wrap
 msgid "Starts a construction of a bot of a given <a cbot|category>category</a> and runs a specified program on it after the construction is finished."
-msgstr ""
+msgstr "Startet die Konstruktion eines Bots einer bestimmten <a cbot|category>Kategorie</a> und führt ein angegebenes Programm darauf aus, nachdem die Konstruktion abgeschlossen ist."
 
 #. type: Plain text
 #: ../E/factory.txt:14
 #, no-wrap
 msgid "<a object|factory>BotFactory</a>, nearest by default."
-msgstr ""
+msgstr "<a object|factory>BotFactory</a>, standardmäßig am nächsten."
 
 #. type: Plain text
 #: ../E/factory.txt:62
@@ -8832,13 +8835,13 @@ msgstr ""
 #: ../E/factory.txt:11
 #, no-wrap
 msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a filename or raw code."
-msgstr ""
+msgstr "Programm, das auf dem Bot ausgeführt wird, nachdem die Fabrik die Konstruktion abgeschlossen hat. Dabei kann es sich entweder um eine <a cbot|public>öffentliche</a> <a cbot|function>Funktion</a>, einen Dateinamen oder einen Codeschnipsel handeln."
 
 #. type: Plain text
 #: ../E/factory.txt:23
 #, no-wrap
 msgid "Raw code:"
-msgstr ""
+msgstr "Codeschnipsel:"
 
 #. type: Source code
 #: ../E/factory.txt:25
@@ -8854,7 +8857,7 @@ msgstr ""
 #: ../E/factory.txt:31
 #, no-wrap
 msgid "Public function:"
-msgstr ""
+msgstr "Öffentliche Funktion:"
 
 #. type: Source code
 #: ../E/factory.txt:33
@@ -8875,13 +8878,13 @@ msgstr ""
 #: ../E/factory.txt:44
 #, no-wrap
 msgid "File name:"
-msgstr ""
+msgstr "Dateinamen:"
 
 #. type: Plain text
 #: ../E/factory.txt:46
 #, no-wrap
 msgid "Save this as say-foo.cbot. Note: make sure to check the \"Public\" checkbox when saving - this will cause say-foo.cbot to be inside the program/ folder."
-msgstr ""
+msgstr "Speichern Sie dies als say-foo.cbot. Hinweis: Stellen Sie sicher, dass Sie beim Speichern das Kontrollkästchen \"Öffentlich\" aktivieren - dies führt dazu, dass sich say-foo.cbot im program/-Ordner befindet."
 
 #. type: Source code
 #: ../E/factory.txt:48
@@ -8897,7 +8900,7 @@ msgstr ""
 #: ../E/factory.txt:54
 #, no-wrap
 msgid "Run factory like this:"
-msgstr ""
+msgstr "Verwenden Sie die Factory-Funktion wie folgt:"
 
 #. type: Source code
 #: ../E/factory.txt:56
