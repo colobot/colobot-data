@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: colobot-data 0.1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2018-05-15 10:14-0300\n"
+"PO-Revision-Date: 2018-05-15 10:12-0300\n"
 "Last-Translator: José Robson Mariano Alves <jose.alves@ifto.edu.br>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_PT\n"
@@ -19,20 +19,26 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Shooting battle - vs other player"
-msgstr "Batalha de tiro - contra outro jogador"
+msgid "ShootingRange"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "Challenge your friend!"
-msgstr "Desafie seu amigo!"
+msgid "Aim & shoot - simple as that!"
+msgstr ""
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (shooting an other player)"
-msgstr "Batalha de código (tiro de outro jogador)"
+msgid "Code Battle (shooting a target)"
+msgstr "Batalha de Código (tiro de um alvo)"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This is <a battles>a code battle</a> level, where you need to shoot a harmless target, in order to learn how to aim properly."
+msgstr "Este é um nível de <a battles>batalhas de código</a> onde você precisa atirar em um alvo inofensivo, a fim de aprender como mirar corretamente."
 
 #. type: \b; header
 #: ../help/help.E.txt:4
@@ -43,23 +49,5 @@ msgstr "Objetivo"
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Destroy the other <a object/botfj>Shooter</a> located on the opposite side of the river."
-msgstr "Destrua o outro <a object/botfj>Atirador</a> localizado no lado oposto do rio."
-
-#. type: \b; header
-#: ../help/help.E.txt:7
-#, no-wrap
-msgid "Notes\\m notes;"
-msgstr "Notas\\m notas;"
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:8
-#, no-wrap
-msgid "You can try to find a program to fight against in the International Colobot Community (<code>http://colobot.info</code>)."
-msgstr "Você pode tentar encontrar um programa para lutar na comunidade internacional de Colobot (<code> http://colobot.info </ code>)."
-
-#. type: Plain text
-#: ../help/help.E.txt:2
-#, no-wrap
-msgid "This is <a battles>a code battle</a> level, where you fight against an other program, presumably written by some other player, in order to improve your aim."
-msgstr "Este é um nível de <a battles>batalha de código </a> onde você luta contra um outro programa, presumivelmente escrito por algum outro jogador, a fim de melhorar sua pontaria."
+msgid "Destroy the target located on the opposite side of the river."
+msgstr "Destrua o alvo localizado no lado oposto do rio."

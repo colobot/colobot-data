@@ -1,0 +1,130 @@
+Title.E text="Poison Hail"
+Resume.E text="Retrieve the second key using only defensive strategies."
+Instructions name="%lvl%/help/help.%lng%.txt"
+Satellite name="%lvl%/help/report.%lng%.txt"
+Loading name="programs/8_ServiceTower1_link.txt"
+HelpFile name="cbot.txt"
+EndingFile win=-1 lost=0
+
+Audio filename="music009.ogg"
+
+#Include file="%chap%/planet.txt"
+TerrainRelief image="relief32.png" factor=1.0
+TerrainResource image="res00.png"
+TerrainWater image="water12.png" level=22.5 moveX=1.0 moveY=0.3
+#Include file="%chap%/terrain.txt"
+TerrainCreate
+
+GroundSpot color=0.000;0.502;1.000 min=-10 max=24 smooth=10
+
+MaxFlyingHeight max=40
+
+BeginObject
+CreateObject pos= 0.00; 0.00 dir=0.0 type=SpaceShip run=1
+CreateObject pos= 0.00;-3.25 dir=1.5 type=Me
+CreateObject pos=-3.25;-3.25 dir=1.5 type=Shielder power=100
+CreateObject pos= 3.25;-3.25 dir=1.5 type=Subber script2="charge2.txt" script1="titan3.txt"
+CreateObject pos=-3.25; 0.15 dir=1.5 type=LeggedBuilder script1="charge2.txt"
+CreateObject pos= 0.00;-2.00 dir=0.5 type=KeyA
+//CreateObject pos=-3.75; 2.50 dir=0.0 type=Titanium
+//CreateObject pos=-2.50; 2.50 dir=0.0 type=Titanium
+//CreateObject pos=-0.62; 2.50 dir=0.0 type=Titanium
+//CreateObject pos= 0.63; 2.50 dir=0.0 type=Titanium
+//CreateObject pos= 2.50; 2.50 dir=0.0 type=Titanium
+//CreateObject pos= 3.75; 2.50 dir=0.0 type=Titanium
+//CreateObject pos=-3.75; 3.75 dir=0.0 type=PowerCell
+//CreateObject pos=-2.50; 3.75 dir=0.0 type=PowerCell
+//CreateObject pos=-0.62; 3.75 dir=0.0 type=PowerCell
+//CreateObject pos= 0.63; 3.75 dir=0.0 type=PowerCell
+//CreateObject pos= 2.50; 3.75 dir=0.0 type=PowerCell
+//CreateObject pos= 3.75; 3.75 dir=0.0 type=PowerCell
+
+CreateObject pos=46;-87 dir=0.0 type=KeyB
+
+//CreateObject pos= 24; 4 cmdline= 24; 4; 29; -2 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
+//CreateObject pos= 23;-16 cmdline= 23;-16; 22;-22 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
+//CreateObject pos= 27;-40 cmdline= 27;-40; 34;-42 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
+//CreateObject pos=-13;-31 cmdline=-13;-31;-19;-39 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
+//CreateObject pos=-29; -8 cmdline=-29; -8;-29; 1 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
+CreateObject pos= 24; 4 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos= 23;-16 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos= 27;-40 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos=-13;-31 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos=-29; -8 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+WaterColor color=-0.3;0.0;0.2
+
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=4
+
+NewScript name="tower1.txt" type=WheeledGrabber
+NewScript name="tower1.txt" type=TrackedGrabber
+NewScript name="tower1.txt" type=WingedGrabber
+NewScript name="tower1.txt" type=LeggedGrabber
+NewScript name="titan3.txt" type=WheeledGrabber
+NewScript name="titan3.txt" type=TrackedGrabber
+NewScript name="titan3.txt" type=WingedGrabber
+NewScript name="titan3.txt" type=LeggedGrabber
+NewScript name="titan3.txt" type=Subber
+NewScript name="charge2.txt" type=All
+NewScript name="exchg1.txt" type=WheeledGrabber
+NewScript name="exchg1.txt" type=TrackedGrabber
+NewScript name="exchg1.txt" type=WingedGrabber
+NewScript name="exchg1.txt" type=LeggedGrabber
+
+EnableBuild type=ResearchCenter
+EnableBuild type=BotFactory
+EnableBuild type=Derrick
+EnableBuild type=Converter
+EnableBuild type=RadarStation
+EnableBuild type=PowerPlant
+EnableBuild type=NuclearPlant
+EnableBuild type=PowerStation
+EnableBuild type=RepairCenter
+EnableBuild type=DefenseTower
+EnableBuild type=ResearchCenter
+//EnableBuild type=AutoLab
+EnableBuild type=ExchangePost
+EnableBuild type=FlatGround
+EnableBuild type=Flag
+
+EnableResearch type=TRACKER
+EnableResearch type=WINGER
+EnableResearch type=SHOOTER
+EnableResearch type=TOWER
+EnableResearch type=ATOMIC
+EnableResearch type=THUMPER
+EnableResearch type=iPAW
+EnableResearch type=iGUN
+EnableResearch type=SHIELDER
+EnableResearch type=BUILDER
+DoneResearch type=TRACKER
+DoneResearch type=WINGER
+DoneResearch type=SHOOTER
+DoneResearch type=TOWER
+DoneResearch type=ATOMIC
+DoneResearch type=THUMPER
+DoneResearch type=iPAW
+DoneResearch type=iGUN
+DoneResearch type=SHIELDER
+DoneResearch type=SUBBER
+DoneResearch type=SNIFFER
+DoneResearch type=RECYCLER
+DoneResearch type=BUILDER
+
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=KeyA lost=0
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=KeyB lost=0
+EndMissionTake pos=0.00;0.00 dist=8.0 type=KeyA min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=KeyB min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=Shielder min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=Subber min=1
+
+Camera eye=0.00;5.00;0.00 lookat=0.00;1.00;0.00 delay=0

@@ -1,0 +1,140 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# next_ghost <next_ghost@quick.cz>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2018-08-11 14:06+02\n"
+"Last-Translator: next_ghost <next_ghost@quick.cz>\n"
+"Language-Team: Czech <next_ghost@quick.cz>\n"
+"Language: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Invasion"
+msgstr "Invaze"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Hold out against a giant ant invasion."
+msgstr "Ubraňte se útoku obřích mravenců."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Zpráva z řídícího střediska"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Eliminate all hostile presence from the region."
+msgstr "Zlikvidujte všechny nepřátelské organizmy v okolí."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
+msgstr "Vaše současná situace nás značně znepokojuje. Satelit objevil velký počet nepřátel postupujících k Vaší raketě ze všech směrů. Rychle zvažte všechny možnosti a zvolte nejrychlejší a nejúčinnější způsob obrany: buď <a object|tower>věže</a>, nebo <a object|botfr>kanóny</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
+msgstr "Abychom Vám pomohli přežít, vyvinuli jsme program pro Váš <a object|botfr>pojízdný kanón</a>, který bude hlídat západní stranu rakety. Podrobnosti najdete v seznamu programů <button 53/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu <button 63/> klávesou <format key><key help/></format>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "Užitečné odkazy"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Ovládání</a> a <a cbot>jazyk CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informace ze satelitu"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Aktuálně na stacionární oběžné dráze Saari."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> POVRCH<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      38.4C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             1.4 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Teplota:           38,4 °C\n"
+"\\tab;Atmosféra:         CO2, kyslík, dusík\n"
+"\\tab;Vítr:              1,4 m/s\n"
+"\\tab;Titanová ruda:     trocha\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> PODZEMNÍ LOŽISKA<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Zdroj energie:     všude\n"
+"\\tab;Titanová ruda:     žádná\n"
+"\\tab;Uranová ruda:      žádná"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> DOPLŇUJÍCÍ INFORMACE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants approaching \n"
+"\\tab;  - Danger:       yes, immediate"
+msgstr ""
+"\\tab;Nalezeno:          blížící se obří mravenci\n"
+"\\tab;  - Nebezpečí:     ano, bezprostřední"

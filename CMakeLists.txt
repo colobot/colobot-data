@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.16)
 
 option(TRANSLATIONS "Enable translations of help and level files" ON)
 
@@ -23,7 +23,8 @@ install(DIRECTORY models     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 # install(DIRECTORY models-new DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY sounds     DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
 install(DIRECTORY textures   DESTINATION ${COLOBOT_INSTALL_DATA_DIR})
-install(DIRECTORY            DESTINATION ${COLOBOT_INSTALL_DATA_DIR}/mods) # Empty directory
+install(DIRECTORY mods       DESTINATION ${COLOBOT_INSTALL_DATA_DIR}
+    PATTERN "AltTextures/textures-src" EXCLUDE)
 
 set(DATA_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(DATA_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})

@@ -1,5 +1,5 @@
-Title.E text="Shooting battle - vs other player"
-Resume.E text="Challenge your friend!"
+Title.E text="ShootingRange"
+Resume.E text="Aim & shoot - simple as that!"
 
 #Include file="%cat%/level_common.txt"
 Level type=CODE_BATTLE magnifyDamage=10
@@ -10,7 +10,10 @@ BeginObject
 CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
 
 // Team "Red" (2)
-CreateObject pos=0;40 dir=0.5 type=WingedShooter range=0 power=100 team=2
+CreateObject pos=0;40 dir=0.5 type=PracticeBot team=2 script1="flash.txt" run=1 selectable=0
 
-EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0 winTeam=1
-EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=0 winTeam=2
+DoneResearch type=WINGER
+DoneResearch type=SHOOTER
+
+EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0

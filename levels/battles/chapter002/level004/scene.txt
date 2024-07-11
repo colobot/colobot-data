@@ -1,0 +1,19 @@
+Title.E text="ShootOut"
+Resume.E text="Challenge the developers! Sharpen your CodeBattle skills."
+
+#Include file="%cat%/level_common.txt"
+Level type=CODE_BATTLE magnifyDamage=10
+
+BeginObject
+
+// Team "Blue" (1)
+CreateObject pos=0;-40 dir=1.5 type=WingedShooter range=0 power=100 team=1 select=true
+
+// Team "Red" (2)
+CreateObject pos=0;40 dir=0.5 type=WingedShooter trainer=1 range=0 power=100 team=2 script1="%lvl%/program.txt" run=1 selectable=0
+
+DoneResearch type=WINGER
+DoneResearch type=SHOOTER
+
+EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=0

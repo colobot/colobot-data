@@ -328,7 +328,7 @@ msgstr "Летающий бот оборудованный реактивным 
 #: ../E/botgj.txt:22
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botgr>wheeled grabber</a> instead."
-msgstr "Крылатые боты могут перелетать через естественные препятствия, такие как горы или озера, но запас их энергии быстро заканчивается. На земле они медленны. На плоской поверхности и для небольших расстояний лучше использовать <a object|botgr>колесный сборщик</a>. "
+msgstr "Летающие боты могут перелетать через естественные препятствия, такие как горы или озера, но запас их энергии быстро заканчивается. На земле они медленны. На плоской поверхности и для небольших расстояний лучше использовать <a object|botgr>колесный сборщик</a>. "
 
 #. type: Plain text
 #: ../E/botgj.txt:32
@@ -412,7 +412,7 @@ msgstr "botoc"
 #: ../E/botoc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with an orgaball cannon."
-msgstr "Гусеничный бот оборудованный пушкой орга-болл."
+msgstr "Гусеничный бот оборудованный органической пушкой."
 
 #. type: Plain text
 #: ../E/botoc.txt:5
@@ -526,13 +526,13 @@ msgstr "botos"
 #: ../E/botos.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with an orgaball cannon."
-msgstr "Пресмыкающийся бот с ногами как у муравья и пушкой орга-болл."
+msgstr "Шагающий бот с ногами, как у муравья и оснащенный органической пушкой."
 
 #. type: Plain text
 #: ../E/botos.txt:5
 #, no-wrap
 msgid "The orgaball cannon is more effective than the <a object|botfs>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
-msgstr "Пушка с органическими шарами более эффективна, чем <a object|botfs>пушка, стреляющая огненными шарами</a>. Она стреляет небольшими сферами едкой <a object|bullet>органической материи</a>. <a object|power>Обычный аккумулятор</a> позволит вам сделать 11 выстрелов оргаболлом."
+msgstr "Органическая пушка более эффективна, чем <a object|botfs>огнестрельная</a>. Она стреляет небольшими сферами едкой <a object|bullet>органической материи</a>. Емкости <a object|power>обычного аккумулятора</a> хватает на 11 выстрелов органикой."
 
 #. type: Plain text
 #: ../E/botos.txt:7
@@ -784,13 +784,13 @@ msgstr "botss"
 #: ../E/botss.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
-msgstr "Пресмыкающийся бот с ногами как у муравья, с оборудованием для изучения геологических структур подпочвы. Если он находит что-то полезное, система разведки разворачивается и ставит следующие отметки:"
+msgstr "Шагающий бот с конечностями как у муравья, с оборудовантем для проведения геологической разведки подземных ископаемых. В случае обнаружения месторождений ископаемых бот устанавливает следующие метки:"
 
 #. type: Plain text
 #: ../E/botss.txt:9
 #, no-wrap
 msgid "A moving legged shooter uses up half as much energy as a <a object|botsr>wheeled sniffer</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr "Передвигающийся шагающий бот использует вполовину меньше энергии, чем <a object|botsr>колесный бот</a>. Шагающий бот также может очень хорошо забираться на самые крутые склоны."
+msgstr "Шагающий бот при передвижении использует в два раза меньше энергии, чем <a object|botsr>колёсный</a>. Также шагающий бот способен забираться на очень крутые склоны."
 
 #. type: Plain text
 #: ../E/botss.txt:17
@@ -814,7 +814,7 @@ msgstr "botsub"
 #: ../E/botsub.txt:3
 #, no-wrap
 msgid "Amphibious tracked bot equipped with an operating claw. The subber is the only bot capable of moving and running operations underwater."
-msgstr "Гусеничный бот-амфибия, оборудованный рабочей рукой. Саббер - это единственный бот, который может передвигаться и работать под водой."
+msgstr "Гусеничный бот-амфибия, оборудованный манипулятором-захватом. Саббер - это единственный бот, который может передвигаться и выполнять операции под водой."
 
 #. type: Plain text
 #: ../E/botsub.txt:5
@@ -952,7 +952,7 @@ msgstr ""
 #: ../E/botbc.txt:1
 #, no-wrap
 msgid "<button 193/> Tracked Builder"
-msgstr ""
+msgstr "<button 193/> Гусеничный Строитель"
 
 #. type: Image filename
 #: ../E/botbc.txt:2
@@ -964,7 +964,7 @@ msgstr ""
 #: ../E/botbc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with a neutron gun."
-msgstr ""
+msgstr "Гусеничный бот, оснащен нейтронной пушкой."
 
 #. type: Plain text
 #: ../E/botbc.txt:5 ../E/botbj.txt:5 ../E/botbr.txt:5 ../E/botbs.txt:5
@@ -997,19 +997,19 @@ msgstr ""
 #: ../E/botbc.txt:26 ../E/botbj.txt:26 ../E/botbr.txt:26 ../E/botbs.txt:26
 #, no-wrap
 msgid "To program the neutron gun, use <code><a cbot|build>build</a></code>."
-msgstr ""
+msgstr "Строительство зданий с помощью нейтронной пушки осуществляется инструкцией <code><a cbot|build>build</a></code>"
 
 #. type: Plain text
 #: ../E/botbc.txt:29
 #, no-wrap
 msgid "<code>TrackedBuilder</code>"
-msgstr ""
+msgstr "<code>TrackedBuilder</code>"
 
 #. type: \b; header
 #: ../E/botbj.txt:1
 #, no-wrap
 msgid "<button 194/> Winged Builder"
-msgstr ""
+msgstr "<button 194/> Летающий Строитель"
 
 #. type: Image filename
 #: ../E/botbj.txt:2
@@ -1021,7 +1021,7 @@ msgstr ""
 #: ../E/botbj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped with a neutron gun."
-msgstr ""
+msgstr "Летающий бот, оснащенный нейтронной пушкой."
 
 #. type: Plain text
 #: ../E/botbj.txt:21
@@ -1033,13 +1033,13 @@ msgstr ""
 #: ../E/botbj.txt:29
 #, no-wrap
 msgid "<code>WingedBuilder</code>"
-msgstr ""
+msgstr "<code>WingedBuilder</code>"
 
 #. type: \b; header
 #: ../E/botbr.txt:1
 #, no-wrap
 msgid "<button 192/> Wheeled Builder"
-msgstr ""
+msgstr "<button 192/> Колёсный Строитель"
 
 #. type: Image filename
 #: ../E/botbr.txt:2
@@ -1051,7 +1051,7 @@ msgstr ""
 #: ../E/botbr.txt:3
 #, no-wrap
 msgid "Wheeled bot equipped with a neutron gun."
-msgstr ""
+msgstr "Колёсный бот оснащенный нейтронной пушкой."
 
 #. type: Plain text
 #: ../E/botbr.txt:21
@@ -1063,13 +1063,13 @@ msgstr ""
 #: ../E/botbr.txt:29
 #, no-wrap
 msgid "<code>WheeledBuilder</code>"
-msgstr ""
+msgstr "<code>WheeledBuilder</code>"
 
 #. type: \b; header
 #: ../E/botbs.txt:1
 #, no-wrap
 msgid "<button 195/> Legged Builder"
-msgstr ""
+msgstr "<button 195/> Шагающий Строитель"
 
 #. type: Image filename
 #: ../E/botbs.txt:2
@@ -1081,7 +1081,7 @@ msgstr ""
 #: ../E/botbs.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with a neutron gun."
-msgstr ""
+msgstr "Шагающий строитель оснащенный нейтронной пушкой."
 
 #. type: Plain text
 #: ../E/botbs.txt:21
@@ -1093,4 +1093,4 @@ msgstr ""
 #: ../E/botbs.txt:29
 #, no-wrap
 msgid "<code>LeggedBuilder</code>"
-msgstr ""
+msgstr "<code>LeggedBuilder</code>"

@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ...
+# B-CE <.>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: BCE <.>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +45,7 @@ msgstr "L'expédition précédente avait transmis des informations sur une <a ob
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your mission is to experiment with the first practical application of this \"green gold\". Build a <a object|botgs>legged grabber bot</a>, load it on the spaceship and take off."
-msgstr "Votre mission consiste à expérimenter une première application de cet \"or vert\": Construisez un <a object|botgs>robot déménageur à pattes</a>, amenez-le sur votre <a object|base>vaisseau spatial</a> puis décollez."
+msgstr "Votre mission consiste à expérimenter une première application de cet \"or vert\": Construisez un <a object|botgs>robot préhenseur à pattes</a>, amenez-le sur votre <a object|base>vaisseau spatial</a> puis décollez."
 
 #. type: \b; header
 #: ../help/help.E.txt:6
@@ -125,8 +126,8 @@ msgstr ""
 "\\tab;Température:      53.1 degrés\n"
 "\\tab;Atmosphère:       CO2, SO2, HCN, HS, CH4, NH3\n"
 "\\tab;Vent:             0.3 m/s\n"
-"\\tab;Minerai titanium: par endroits\n"
-"\\tab;Minerai uranium:  très rare"
+"\\tab;Minerai de titane:par endroits\n"
+"\\tab;Minerai d'uranium:très rare"
 
 #. type: Source code
 #: ../help/report.E.txt:11
@@ -143,14 +144,14 @@ msgid ""
 "\\tab;Uranium ore:      none"
 msgstr ""
 "\\tab;Energie:          partout\n"
-"\\tab;Minerai titanium: aucun\n"
-"\\tab;Minerai uranium:  aucun"
+"\\tab;Minerai de titane:aucun\n"
+"\\tab;Minerai d'uranium:aucun"
 
 #. type: Source code
 #: ../help/report.E.txt:16
 #, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
-msgstr "-> INFORMATIONS SPECIALES<c/>"
+msgstr "-> INFORMATIONS SPÉCIFIQUES<c/>"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -176,31 +177,31 @@ msgstr "Solution"
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Quickly build a <a object|tower>defense tower</a> north of your spaceship.  After you <a object|power>powered</a> it, execute the program <code>ServiceTower1</code> on one of the <a object|botgr>grabbers</a> which will recharge the power cell when it is empty. Place another power cell 2 m north of the tower as a first target for the attacking wasps."
-msgstr "Construisez rapidement une <a object|tower>tour de défense</a> au nord de votre vaisseau, pour vous défendre des <a object|wasp>guêpes géantes</a>. Après l'avoir équipée d'une <a object|power>pile</a>, exécutez le programme <code>ServiceTour</code> sur un des <a object|botgr>robot déménageur</a> qui rechargera la pile quand elle sera vide."
+msgstr "Construisez rapidement une <a object|tower>tour de défense</a> au nord de votre vaisseau, pour vous défendre des <a object|wasp>guêpes géantes</a>. Après l'avoir équipée d'une <a object|power>batterie</a>, exécutez le programme <code>ServiceTour</code> sur un des <a object|botgr>robot préhenseur</a> qui rechargera la batterie quand elle sera vide."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Build a <a object|station>power station</a> close to the defense tower."
-msgstr "Construisez une <a object|station>station de recharge</a> à proximité pour que le <a object|botgr>robot déménageur</a> puisse y recharger la pile."
+msgstr "Construisez une <a object|station>station de recharge</a> à proximité pour que le <a object|botgr>robot préhenseur</a> puisse y recharger la batterie."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Build a <a object|convert>converter</a> south of the spaceship and execute the program <code>CollectTitanium3</code> on the second <a object|botgr>grabber</a> in order to produce some <a object|titan>titanium</a>."
-msgstr "Construisez un <a object|convert>convertisseur</a> au sud de votre vaisseau, et exécutez le programme <code>ApporteTitanium3</code> sur le second <a object|botgr>robot déménageur</a> pour produire du <a object|titan>titanium</a>."
+msgstr "Construisez une <a object|convert>raffinerie</a> au sud de votre vaisseau, et exécutez le programme <code>ApporteTitane3</code> sur le second <a object|botgr>robot préhenseur</a> pour produire du <a object|titan>titane</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> and a <a object|botfj>winged shooter</a> to eliminate the <a object|ant>ants</a>."
-msgstr "Construisez une <a object|factory>fabrique de robots</a> puis un <a object|botfj>robot shooter volant</a>, afin d'éliminer les <a object|ant>fourmis géantes</a>."
+msgstr "Construisez une <a object|factory>usine de robots</a> puis un <a object|botfj>robot tireur volant</a>, afin d'éliminer les <a object|ant>fourmis géantes</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Use a <a object|botgj>winged grabber</a> to bring back some <a object|bullet>organic matter</a> from the island in the middle of the lava lake."
-msgstr "Construisez un <a object|botgj>déménageur volant</a> pour ramener une boule de <a object|bullet>matière organique</a> depuis l'île au milieu du lac de lave."
+msgstr "Construisez un <a object|botgj>préhenseur volant</a> pour ramener une boule de <a object|bullet>matière organique</a> depuis l'île au milieu du lac de lave."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:12
@@ -212,7 +213,7 @@ msgstr "Construisez un <a object|labo>laboratoire</a>, posez-y la <a object|bull
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "As soon as the organic matter has been analyzed, produce a <a object|botgs>legged grabber</a> and bring it aboard the spaceship."
-msgstr "Lorsque la <a object|bullet>matière organique</a> a été analysée, construisez un <a object|botgs>robot déménageur à pattes</a>, amenez-le sur votre <a object|base>vaisseau spatial</a>"
+msgstr "Lorsque la <a object|bullet>matière organique</a> a été analysée, construisez un <a object|botgs>robot préhenseur à pattes</a>, amenez-le sur votre <a object|base>vaisseau spatial</a>"
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16

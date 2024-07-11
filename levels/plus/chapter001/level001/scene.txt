@@ -1,0 +1,188 @@
+Title.E text="Plan B"
+Resume.E text="Equip your spaceship and get ready for takeoff."
+Instructions name="%lvl%/help/help.%lng%.txt"
+HelpFile name="cbot.txt"
+EndingFile win=-1 lost=0
+MessageDelay factor=2
+
+Audio filename="music002.ogg"
+
+#Include file="%chap%/planet.txt"
+TerrainRelief image="relief11.png" factor=1.0
+TerrainResource image="res00.png"
+#Include file="%chap%/terrain.txt"
+TerrainCreate
+
+GroundSpot pos= 0; 0 radius=40 color=0.863;0.667;0.627 // vaisseau
+GroundSpot pos=-25; -8 radius=50 color=0.745;0.902;0.863 // construction
+GroundSpot pos=-20; 30 radius=40 color=0.745;0.863;0.627
+GroundSpot pos=-48; 32 radius=20 color=0.745;0.863;0.627
+GroundSpot pos=-44;-20 radius=20 color=0.745;0.863;0.627
+GroundSpot pos= 10;-60 radius=40 color=0.745;0.863;0.627
+GroundSpot pos=-99;-45 radius=40 color=0.745;0.863;0.627 // bbox
+GroundSpot pos=-99;-22 radius=50 color=0.902;0.824;0.745
+
+MaxFlyingHeight max=27
+
+BeginObject
+CreateObject pos= 0.0; 0.0 dir=0.0 type=SpaceShip run=2
+CreateObject pos= 3.75;-2.50 dir=0.0 type=Titanium
+CreateObject pos= 2.50;-2.50 dir=0.0 type=Titanium
+CreateObject pos= 3.75;-3.75 dir=0.0 type=Titanium
+CreateObject pos= 2.50;-3.75 dir=0.0 type=Titanium
+CreateObject pos= 2.50; 2.50 dir=0.0 type=PowerCell
+CreateObject pos= 3.75; 2.50 dir=0.0 type=PowerCell
+CreateObject pos= 2.50; 3.75 dir=0.0 type=PowerCell
+CreateObject pos= 3.75; 3.75 dir=0.0 type=PowerCell
+CreateObject pos= 0.0; 20.0 dir=0.5 type=Portico run=2
+CreateObject pos=-31.0; 15.0 dir=0.1 type=Me option=1
+CreateObject pos=-29.0; 20.0 dir=0.5 type=WheeledGrabber
+CreateObject pos=-26.0;-14.0 dir=1.0 type=BotFactory
+CreateObject pos=-26.0; 5.0 dir=1.0 type=ResearchCenter
+CreateObject pos=-28.0; -8.0 dir=0.0 type=Titanium
+CreateObject pos=-26.0; -8.0 dir=0.0 type=Titanium
+CreateObject pos=-28.0; -6.0 dir=0.0 type=PowerCell
+CreateObject pos=-26.0; -6.0 dir=0.0 type=PowerCell
+CreateObject pos=-28.0; -4.0 dir=0.0 type=PowerCell
+CreateObject pos=-26.0; -4.0 dir=0.0 type=PowerCell
+CreateObject pos=-47.0; 20.0 dir=0.0 type=Houston
+CreateObject pos=-18.0;-30.0 dir=0.0 type=RadarStation
+CreateObject pos=-108.0;114.0 dir=1.0 type=BotFactory selectable=0
+CreateObject pos=-111.0;114.0 dir=1.0 type=PracticeBot selectable=0
+CreateObject pos=-130.0;105.0 dir=1.0 type=RadarStation selectable=0
+
+CreateObject pos= 37; 47 cmdline=3;-37;47;-37;-47;37;-47 dir=1.0 type=PracticeBot trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
+CreateObject pos= 37;-47 cmdline=3;37;47;-37;47;-37;-47 dir=1.5 type=WheeledSniffer trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
+CreateObject pos=-37;-47 cmdline=5;33;-47;33;-43;-33;-43;-33;43;-37;43 dir=0.0 type=WheeledShooter trainer=1 script1="strain1.txt" run=1 power=100 selectable=0
+
+CreateObject pos=-45;31 dir=1.5 type=Tech option=2 selectable=0 clip=0
+CreateObject pos=-47;24 dir=1.2 type=Tech option=2 selectable=0 clip=0 script1="human02.txt" run=1
+CreateObject pos=-43;28 dir=0.0 type=Tech option=2 selectable=0 clip=0 script1="human01.txt" run=1
+CreateObject pos=-46;14 dir=1.0 type=Tech option=2 selectable=0 clip=0 script1="human03.txt" run=1
+CreateObject pos=-44; 9 dir=1.2 type=Tech option=2 selectable=0 clip=0
+CreateObject pos=-45;10 dir=0.1 type=Tech option=2 selectable=0 clip=0
+
+CreateObject pos=-100.0;-45.0 dir=0.0 type=BlueFlag
+CreateObject pos=-104.0;-45.0 dir=0.0 type=Titanium
+CreateObject pos=-161.0;-62.5 dir=0.0 type=BlackBox
+CreateObject pos=-162.5;-62.5 cmdline=10;-32;-43;-33;45;-111;47;-113;135;-116;136;-117;43;-39;43;-37;-45;43;-47;44;-44 dir=0.0 type=TrackedGrabber script1="%lvl%/carry.txt" run=1 power=90 selectable=0
+CreateObject pos=-109.0;-42.4 dir=0.5 type=Barrier1
+CreateObject pos=-109.0;-47.6 dir=0.5 type=Barrier1
+
+CreateObject pos=48.0;-42.4 dir=0.5 type=Barrier1
+CreateObject pos=48.0;-47.6 dir=0.5 type=Barrier1
+
+CreateObject pos=-32.4;-58.0 dir=0.0 type=Barrier1
+CreateObject pos=-37.6;-58.0 dir=0.0 type=Barrier1
+
+CreateObject pos= -27.8; -37.3 dir=0.0 type=Tree0
+CreateObject pos= -44.0; -51.3 dir=0.2 type=Tree1
+CreateObject pos= -41.5; -26.7 dir=1.7 type=Tree2
+CreateObject pos= -47.5; -7.4 dir=0.5 type=Tree3
+CreateObject pos= -44.7; -3.5 dir=0.5 type=Tree1
+CreateObject pos= 9.6; -36.2 dir=1.1 type=Tree2
+CreateObject pos= 28.7; -12.5 dir=0.0 type=Tree3
+CreateObject pos= 28.3; -7.0 dir=1.4 type=Tree1
+CreateObject pos= 41.6; 12.1 dir=1.5 type=Tree0
+CreateObject pos= 46.9; 56.8 dir=1.1 type=Tree1
+CreateObject pos=-113.5; -42.7 dir=0.3 type=Tree2
+CreateObject pos= -16.3; -77.7 dir=1.1 type=Tree3
+CreateObject pos= -41.9;-109.4 dir=0.0 type=Tree0
+CreateObject pos= -56.0; 38.3 dir=0.6 type=Tree1
+CreateObject pos= -89.8; 52.3 dir=0.0 type=Tree2
+CreateObject pos=-135.6; 39.6 dir=0.4 type=Tree0
+
+CreateObject pos= -47.0;-21.2 dir=0.3 type=Greenery0
+CreateObject pos= -47.6;-17.6 dir=1.9 type=Greenery1
+CreateObject pos= -40.9;-22.3 dir=0.7 type=Greenery4
+CreateObject pos= -16.9;-19.6 dir=0.5 type=Greenery2
+CreateObject pos= -24.5; 0.5 dir=0.1 type=Greenery3
+CreateObject pos= -24.0; 37.2 dir=0.8 type=Greenery2
+CreateObject pos= -18.4; 38.2 dir=1.2 type=Greenery1
+CreateObject pos= 42.7;-35.2 dir=0.2 type=Greenery2
+CreateObject pos= 8.5;-57.7 dir=1.6 type=Greenery4
+CreateObject pos= -47.4;-70.5 dir=0.1 type=Greenery3
+CreateObject pos= -87.1;-39.0 dir=0.5 type=Greenery0
+CreateObject pos= -97.7;-50.2 dir=0.0 type=Greenery1
+CreateObject pos=-104.3;-39.2 dir=1.4 type=Greenery3
+CreateObject pos= -21.3; 22.3 dir=0.3 type=Greenery2
+CreateObject pos= -58.9; 39.9 dir=0.9 type=Greenery0
+CreateObject pos= -60.0; 34.2 dir=0.4 type=Greenery2
+CreateObject pos=-129.4;111.6 dir=0.7 type=Greenery1
+CreateObject pos=-109.0;107.4 dir=0.8 type=Greenery3
+CreateObject pos=-121.6;107.4 dir=0.1 type=Greenery2
+CreateObject pos=-124.6; 97.8 dir=1.2 type=Greenery2
+CreateObject pos=-120.7; 95.4 dir=0.5 type=Greenery3
+CreateObject pos=-109.3; 87.0 dir=0.3 type=Greenery4
+CreateObject pos=-108.1; 55.6 dir=0.6 type=Greenery1
+CreateObject pos= -77.1; 53.1 dir=0.9 type=Greenery0
+
+CreateObject pos=-112.4; 40.3 dir=0.0 type=Barrier1
+CreateObject pos=-117.6; 40.3 dir=0.0 type=Barrier1
+CreateObject pos=-112.4;139.7 dir=0.0 type=Barrier1
+CreateObject pos=-117.6;139.7 dir=0.0 type=Barrier1
+
+CreateObject pos=-149.0; 42.4 dir=0.5 type=Barrier1
+CreateObject pos=-149.0; 47.6 dir=0.5 type=Barrier1
+
+CreateObject pos= 60.0; 42.4 dir=0.5 type=Barrier1
+CreateObject pos= 60.0; 47.6 dir=0.5 type=Barrier1
+
+CreateObject pos= -32.4; 97.0 dir=0.0 type=Barrier1
+CreateObject pos= -37.6; 97.0 dir=0.0 type=Barrier1
+
+CreateFog pos= -30; 36 height=0.2 dim=20 delay=4.0 type=6
+CreateFog pos= -30; 36 height=0.3 dim=20 delay=5.0 type=7
+CreateFog pos= -40; 2 height=0.2 dim=20 delay=4.0 type=6
+CreateFog pos= -40; 2 height=0.3 dim=20 delay=5.0 type=7
+CreateFog pos= 15; -16 height=0.7 dim=20 delay=4.0 type=6
+CreateFog pos= 15; -16 height=0.8 dim=20 delay=5.0 type=7
+CreateFog pos= 7; 20 height=0.2 dim=20 delay=4.0 type=6
+CreateFog pos= 7; 20 height=0.3 dim=20 delay=5.0 type=7
+CreateFog pos= 28; 10 height=10.0 dim=30 delay=4.0 type=6
+CreateFog pos= 28; 10 height=11.0 dim=30 delay=5.0 type=7
+CreateFog pos= -22; -19 height=25.0 dim=50 delay=4.0 type=6
+CreateFog pos= -22; -19 height=26.0 dim=50 delay=5.0 type=7
+CreateFog pos= -48; 26 height=5.0 dim=50 delay=4.0 type=6
+CreateFog pos= -48; 26 height=6.0 dim=50 delay=5.0 type=7
+CreateFog pos= -38; 8 height=2.0 dim=50 delay=4.0 type=6
+CreateFog pos= -38; 8 height=3.0 dim=50 delay=5.0 type=7
+CreateFog pos= -4; 20 height=2.0 dim=20 delay=4.0 type=6
+CreateFog pos= -4; 20 height=2.5 dim=20 delay=5.0 type=7
+CreateFog pos= -35; -39 height=0.2 dim=10 delay=4.0 type=6
+CreateFog pos= -35; -39 height=0.3 dim=10 delay=5.0 type=7
+CreateFog pos= -21; -29 height=0.5 dim=15 delay=4.0 type=6
+CreateFog pos= -21; -29 height=0.9 dim=15 delay=5.0 type=7
+CreateFog pos= -17; -60 height=1.0 dim=20 delay=4.0 type=6
+CreateFog pos= -17; -60 height=2.0 dim=20 delay=5.0 type=7
+CreateFog pos= -45; -37 height=5.0 dim=25 delay=4.0 type=6
+CreateFog pos= -45; -37 height=6.0 dim=25 delay=5.0 type=7
+CreateFog pos= -88; -45 height=4.0 dim=20 delay=4.0 type=6
+CreateFog pos= -88; -45 height=5.0 dim=20 delay=5.0 type=7
+CreateFog pos=-104; -43 height=0.3 dim=10 delay=4.0 type=6
+CreateFog pos=-104; -43 height=0.4 dim=10 delay=5.0 type=7
+
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+
+MapColor floor=0.647;0.557;0.420 water=0.604;0.922;1.000
+MapZoom factor=4
+
+EnableBuild type=ExchangePost
+EnableBuild type=FlatGround
+EnableBuild type=Flag
+
+EnableResearch type=TRACKER
+EnableResearch type=BUILDER
+
+EndMissionTake pos=0.00;0.00 dist=25000.00 type=Me lost=0
+EndMissionTake pos=0.00;0.00 dist=8.0 type=BlackBox min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 type=WheeledGrabber min=1
+EndMissionTake pos=0.00;0.00 dist=8.0 tool=Builder min=1
+
+Camera eye=-18.0;1.0;48.0 lookat=0.0;0.0;0.0 delay=2

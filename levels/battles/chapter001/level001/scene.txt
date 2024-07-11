@@ -1,29 +1,23 @@
-Title.E text="Code battle - vs aliens"
-Resume.E text="A map for begginers! Research all needed technologies and build your infrastructure to kill all the aliens on the opposite side of the river - using programming only!"
+Title.E text="BaseBuilding"
+Resume.E text="Build your base and eliminate your foe!"
 
 #Include file="%cat%/level_common.txt"
-Level type=CODE_BATTLE
+Level type=CODE_BATTLE magnifyDamage=10
 
 BeginObject
+LevelController script="%cat%/deruiner.txt"
 
 // Team "Blue" (1)
-CreateObject pos=0;-40 dir=1.5 type=WheeledGrabber team=1 select=true
-CreateObject pos=0;-38.5 type=Titanium
-CreateObject pos=0;-57.5 dir=1.5 type=Derrick magnifyDamage=0 selectable=false
-CreateObject pos=0;-60 dir=1.5 type=RadarStation magnifyDamage=0 selectable=false
+CreateObject pos=-5;-65 dir=1.5 type=WheeledGrabber team=1 select=1
+CreateObject pos=0;-65 type=Titanium
+CreateObject pos=5;-65 dir=1.5 type=WheeledBuilder team=1
+CreateObject pos=0;-88 dir=1.5 type=Derrick team=1 magnifyDamage=0
 
 // Team "Red" (2)
-// TODO: Write (or find) some better ant scripts for this purpose
-CreateObject pos=0;40 type=AlienNest
-CreateObject pos=-5;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=0;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=5;40 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=-5;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=0;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=5;45 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=-5;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=0;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
-CreateObject pos=5;50 dir=0.5 type=AlienAnt script1="antattsw.txt" run=1
+CreateObject pos=5;65 dir=0.5 type=WheeledGrabber team=2
+CreateObject pos=0;65 type=Titanium
+CreateObject pos=-5;65 dir=0.5 type=WheeledBuilder team=2
+CreateObject pos=0;88 dir=0.5 type=Derrick team=2 magnifyDamage=0
 
-EndMissionTake pos=0;0 dist=10000 type=AlienAnt min=0 max=0
-EndMissionTake pos=0;0 dist=10000 type=Any team=1 lost=0
+EndMissionTake pos=0;0 dist=10000 type=Any team=-1 min=0 max=1 winTeam=1
+EndMissionTake pos=0;0 dist=10000 type=Any team=-2 min=0 max=1 winTeam=2

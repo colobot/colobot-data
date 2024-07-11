@@ -86,13 +86,13 @@ msgid "Specific instructions for bots:"
 msgstr "Příkazy pro ovládání robotů:"
 
 #. type: \t; header
-#: ../E/cbot.txt:54
+#: ../E/cbot.txt:60
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr "Příkazy týkající se terénu:"
 
 #. type: \t; header
-#: ../E/cbot.txt:60
+#: ../E/cbot.txt:66
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr "Příkazy vyhrazené jen pro některé roboty:"
@@ -630,7 +630,7 @@ msgstr ""
 "<code><a cbot|sizeof>sizeof</a>     </code>Počet prvků v poli"
 
 #. type: Plain text
-#: ../E/cbot.txt:55
+#: ../E/cbot.txt:61
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
@@ -642,54 +642,6 @@ msgstr ""
 "<code><a cbot|flatspace>flatspace</a>  </code>Hledá volný rovný terén požadované velikosti\n"
 "<code><a cbot|topo>topo</a>       </code>Vrací nadmořskou výšku terénu\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Vrací poloměr rovného terénu"
-
-#. type: Plain text
-#: ../E/cbot.txt:61
-#, no-wrap
-msgid ""
-"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
-"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
-"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
-"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
-"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
-"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
-"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
-"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
-"<code><a cbot|build>build</a>      </code>Builds a building\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building can be built in the level"
-msgstr ""
-"<code><a cbot|grab>grab</a>       </code>Zvedne předmět\n"
-"<code><a cbot|drop>drop</a>       </code>Položí předmět\n"
-"<code><a cbot|sniff>sniff</a>      </code>Detekce podzemních zdrojů\n"
-"<code><a cbot|thump>thump</a>      </code>Převalí mimozemský hmyz na záda\n"
-"<code><a cbot|recycle>recycle</a>    </code>Zrecykluje vrak robota\n"
-"<code><a cbot|shield>shield</a>     </code>Zapne nebo vypne mobilní štít\n"
-"<code><a cbot|fire>fire</a>       </code>Vystřelí z kanónu\n"
-"<code><a cbot|aim>aim</a>        </code>Zamíří kanón\n"
-"<code><a cbot|build>build</a>      </code>Postaví budovu\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Zjistí, jestli lze budovu postavit\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Zjistí, jestli je stavba dané budovy v aktuální misi povolena"
-
-#. type: \t; header
-#: ../E/cbot.txt:73
-#, no-wrap
-msgid "Instructions specific for some <a cbot|object>objects</a>:"
-msgstr "Příkazy vyhrazené jen pro některé <a cbot|object>objekty</a>:"
-
-#. type: Plain text
-#: ../E/cbot.txt:74
-#, no-wrap
-msgid ""
-"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
-"<code><a cbot|research>research</a>   </code>Starts a research\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Takes off a spaceship\n"
-"<code><a cbot|busy>busy</a>       </code>Checks if object is busy"
-msgstr ""
-"<code><a cbot|factory>factory</a>    </code>Zahájí výrobu robota\n"
-"<code><a cbot|research>research</a>   </code>Zahájí výzkum\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Pokyn raketě k odletu\n"
-"<code><a cbot|busy>busy</a>       </code>Zjistí, jestli je daný objekt zaneprázdněný"
 
 #. type: \t; header
 #: ../E/cbot.txt:115
@@ -1100,58 +1052,6 @@ msgid "One can also switch to the free camera view by clicking somewhere on the 
 msgstr "Dále můžete přepnout na volnou kameru kliknutím někam na mapu. V tomto pohledu se můžete pohybovat pomocí numerické klávesnice a kláves <format key>Page Up</format>/<format key>Page Down</format>."
 
 #. type: Plain text
-#: ../E/cbot.txt:30
-#, no-wrap
-msgid ""
-"<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
-"<code><a cbot|radar>radar</a>      </code>Advanced object detection\n"
-"<code><a cbot|radarall>radarall</a>   </code>Advanced multiple objects detection\n"
-"<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
-"<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
-"<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
-"<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
-"<code><a cbot|wait>wait</a>       </code>Waits\n"
-"<code><a cbot|move>move</a>       </code>Moves forward or backward\n"
-"<code><a cbot|turn>turn</a>       </code>Turns\n"
-"<code><a cbot|goto>goto</a>       </code>Goes to a given position\n"
-"<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
-"<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
-"<code><a cbot|message>message</a>    </code>Displays a message\n"
-"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
-"<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
-"<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time\n"
-"<code><a cbot|pendown>pendown</a>    </code>Starts drawing\n"
-"<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
-"<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
-"<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
-"<code><a cbot|canresearch>canresearch</a> </code>Checks if a technology can be researched\n"
-"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched"
-msgstr ""
-"<code><a cbot|detect>detect</a>     </code>Zjednodušené hledání objektů\n"
-"<code><a cbot|radar>radar</a>      </code>Pokročilé hledání objektů\n"
-"<code><a cbot|radarall>radarall</a>   </code>Pokročilé hledání více objektů\n"
-"<code><a cbot|search>search</a>     </code>Hledání objektů poblíž jiného bodu\n"
-"<code><a cbot|direct>direction</a>  </code>Spočítá úhel pro otočení\n"
-"<code><a cbot|dist>distance</a>   </code>Spočítá vzdálenost\n"
-"<code><a cbot|dist2d>distance2d</a> </code>Spočítá vzdálenost\n"
-"<code><a cbot|wait>wait</a>       </code>Čekání\n"
-"<code><a cbot|move>move</a>       </code>Pohyb vpřed nebo vzad\n"
-"<code><a cbot|turn>turn</a>       </code>Otočení\n"
-"<code><a cbot|goto>goto</a>       </code>Přesun na zadanou pozici\n"
-"<code><a cbot|motor>motor</a>      </code>Přímé ovládání motoru\n"
-"<code><a cbot|jet>jet</a>        </code>Přímé ovládání tryskového motoru\n"
-"<code><a cbot|message>message</a>    </code>Zobrazí zprávu\n"
-"<code><a cbot|retobj>retobject</a>  </code>Hledání objektu podle ID\n"
-"<code><a cbot|errmode>errmode</a>    </code>Nastavení oznamování chyb\n"
-"<code><a cbot|abstime>abstime</a>    </code>Vrací absolutní čas\n"
-"<code><a cbot|pendown>pendown</a>    </code>Zahájí kreslení\n"
-"<code><a cbot|penup>penup</a>      </code>Ukončí kreslení\n"
-"<code><a cbot|pencolor>pencolor</a>   </code>Změní barvu tužky\n"
-"<code><a cbot|penwidth>penwidth</a>   </code>Změní tloušťku čáry\n"
-"<code><a cbot|canresearch>canresearch</a> </code>Zjistí, jestli se daná technologie dá zkoumat\n"
-"<code><a cbot|researched>researched</a> </code>Zjistí, jestli už je daná technologie vyzkoumaná"
-
-#. type: Plain text
 #: ../E/cbot.txt:86
 #, no-wrap
 msgid ""
@@ -1194,3 +1094,55 @@ msgstr ""
 "<format key><key quicksave/></format> = rychlé uložení\n"
 "<format key><key quickload/></format> = rychlé načtení\n"
 "<format key><key quit/></format> = ukončit misi <button 11/>"
+
+#. type: Plain text
+#: ../E/cbot.txt:30
+#, no-wrap
+msgid ""
+"<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
+"<code><a cbot|radar>radar</a>      </code>Advanced object detection\n"
+"<code><a cbot|radarall>radarall</a>   </code>Advanced multiple objects detection\n"
+"<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
+"<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
+"<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
+"<code><a cbot|wait>wait</a>       </code>Waits\n"
+"<code><a cbot|move>move</a>       </code>Moves forward or backward\n"
+"<code><a cbot|turn>turn</a>       </code>Turns\n"
+"<code><a cbot|goto>goto</a>       </code>Goes to a given position\n"
+"<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
+"<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
+"<code><a cbot|message>message</a>    </code>Displays a message\n"
+"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
+"<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
+"<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time\n"
+"<code><a cbot|pendown>pendown</a>    </code>Starts drawing\n"
+"<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
+"<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
+"<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
+"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+"<code><a cbot|research>research</a>   </code>Starts a research\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Launches a spaceship\n"
+"<code><a cbot|isbusy>isbusy</a>     </code>Checks if object is busy\n"
+"<code><a cbot|canresearch>canresearch</a></code>Checks if a technology can be researched\n"
+"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
+msgstr ""
+
+#. type: Plain text
+#: ../E/cbot.txt:67
+#, no-wrap
+msgid ""
+"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
+"<code><a cbot|build>build</a>      </code>Builds a building\n"
+"<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
+"<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
+msgstr ""

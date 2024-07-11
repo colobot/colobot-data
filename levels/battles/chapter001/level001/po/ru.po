@@ -19,89 +19,59 @@ msgstr ""
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
-msgid "Code battle - vs aliens"
-msgstr "Битвы программистов - против пришельцев"
+msgid "BaseBuilding"
+msgstr ""
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
-msgid "A map for begginers! Research all needed technologies and build your infrastructure to kill all the aliens on the opposite side of the river - using programming only!"
-msgstr "Карта для новичков! Изучи все необходимые технологии и построй свою инфраструктуру для того, чтобы убить пришельцев на противоположной стране реки - используя только программирование!"
+msgid "Build your base and eliminate your foe!"
+msgstr "Построй свою базу и уничтожь своего врага!"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
-msgid "Code Battle (vs Aliens)"
-msgstr "Битвы программистов (против Пришельцев)"
+msgid "Code Battle (vs Player)"
+msgstr "Битвы программистов (против Игрока)"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This is a training code battle level, which purpose is to familiarize you with this <a battles>game mode</a>."
-msgstr "Это тренировочная битва программистов, суть которой объяснить вам этот <a battles>режим игры</a>"
+msgid "This is <a battles>a code battle</a> level, where you fight against an other program, presumably written by some other player."
+msgstr "Этот уровень <a battles>битвы программистов</a>, где ты будешь сражаться с другой программой, созданной неким другим игроком."
 
-#. type: \t; header
+#. type: \b; header
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "Brief introduction"
-msgstr "Краткое введение"
+msgid "Objective"
+msgstr "Цель"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Code battle is a completely new game mode featured in Colobot: Gold Edition. There are two or more teams and the one that survives the longest is the winner. As the name suggest, you can only use programming in this game mode."
-msgstr "Битвы программистов совершенно новый игровый режим в Colobot: Gold Edition. Есть две или больше команд и та что выживет будет победителем. Как подсказывает название, в этом игровом режиме ты можешь только программировать."
+msgid "Destroy the other team located on the opposite side of the river."
+msgstr "Уничтожь другую команду которая находится на другой стороне реки."
 
-#. type: Plain text
+#. type: \b; header
 #: ../help/help.E.txt:7
-#, no-wrap
-msgid "It is recommended to read <a %lvl%/help/help.%lng% notes>the notes section</a> below."
-msgstr "Рекомендуется прочитать <a %lvl%/help/help.%lng% notes>раздел заметок</a> сниху"
-
-#. type: \b; header
-#: ../help/help.E.txt:9
-#, no-wrap
-msgid "Your objective"
-msgstr "Твоя цель"
-
-#. type: Plain text
-#: ../help/help.E.txt:10
-#, no-wrap
-msgid "Kill all the aliens located on the other side of the river."
-msgstr "Убей всех инопланетян, находящихся на другой стороне реки."
-
-#. type: \b; header
-#: ../help/help.E.txt:12
 #, no-wrap
 msgid "Notes\\m notes;"
 msgstr "Заметки\\m заметки;"
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:13
-#, no-wrap
-msgid "The <a object/ant>aliens</a> will not attack you, unless you come too close to them."
-msgstr "<a object/ant>Инопланетяне</a> не будут атаковать тебя, пока ты не подберёшься к ним слишком близко."
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:16
-#, no-wrap
-msgid "<a cbot>The CBOT documentation</a> might come in handy."
-msgstr "<a cbot>Документация CBOT</a> может оказаться полезной."
-
-#. type: Bullet: 'o'
-#: ../help/help.E.txt:14
+#: ../help/help.E.txt:8
 #, no-wrap
 msgid "There is <a object/enerspot>an underground power source</a> only under the beginning base areas."
 msgstr "Здесь есть <a object/enerspot>подземный источник энергии</a> только под начальной базой."
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:17
+#: ../help/help.E.txt:9
 #, no-wrap
-msgid "If you have not played Colobot before, it is recommended to read about <a battles production>the basics of production line</a>."
-msgstr "Если вы не играли в Colobot до этого, рекомендуется прочитать <a battles production>основы линии производства</a>"
+msgid "The pre-built <a object|derrick>Derricks</a> and <a |object\\radar>RadarStations</a> are indestructible."
+msgstr "Построенные <a object|derrick>Буровая вышка</a> и <a |object\\radar>радар</a> являются неразрушаемыми."
 
 #. type: Bullet: 'o'
-#: ../help/help.E.txt:15
+#: ../help/help.E.txt:10
 #, no-wrap
-msgid "The pre-built <a object|derrick>Derrick</a> and <a |object\\radar>RadarStation</a> are indestructible."
-msgstr "Построенные <a object|derrick>Буровая вышка</a> и <a |object\\radar>радар</a> являются неразрушаемыми."
+msgid "You can try to find a program to fight against in the International Colobot Community (<code>http://colobot.info</code>)."
+msgstr "Ты можешь попробовать найти программу чтобы сражаться против Международного Сообщества Colobot (<code>http://colobot.info</code>)."

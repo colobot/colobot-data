@@ -1,26 +1,26 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# BCE <.>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-15 18:23+0200\n"
+"Last-Translator: BCE <.>\n"
+"Language-Team: French <>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Exchange posts 1"
-msgstr "Bornes 1"
+msgstr "Station relais 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
@@ -47,14 +47,14 @@ msgid ""
 "Several <a object|exchange>information exchange posts</a> stand in the middle of a <a object|mine>mine</a> field. When the bot is close enough to an exchange post, it can read the information that it contains. Every exchange post contains the angle of the rotation that must be performed in order to reach the next exchange post, without touching a <a object|mine>mine</a>.\n"
 "The exchange posts are distant 20m from each other."
 msgstr ""
-"Des <a object|exchange>bornes d'informations</a> sont placées au milieu d'un champ de <a object|mine>mines</a>. Lorsque le <a object|bottr>robot</a> est proche d'une borne, il peut lire les informations qu'elle contient et qui donnent la direction à prendre pour atteindre la borne suivante, sans heurter les <a object|mine>mines</a>.\n"
-"Les bornes sont distantes de 20 mètres."
+"Des <a object|exchange>station relais</a> sont placées au milieu d'un champ de <a object|mine>mines</a>. Lorsque le <a object|bottr>robot</a> est proche d'une station, il peut lire les informations qu'elle contient et qui donnent la direction à prendre pour atteindre la station suivante, sans heurter les <a object|mine>mines</a>.\n"
+"Les station relais sont distantes de 20 mètres."
 
 #. type: \b; header
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "General principe"
-msgstr "Principe"
+msgstr "Idée générale"
 
 #. type: Plain text
 #: ../help/help.E.txt:6
@@ -72,7 +72,7 @@ msgstr "Avancer de 20 mètres."
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Read the direction of the next <a object|exchange>information exchange post</a>."
-msgstr "Lire la nouvelle direction dans la <a object|exchange>borne</a>."
+msgstr "Lire la nouvelle direction dans la <a object|exchange>station relais</a>."
 
 #. type: Bullet: 'o'
 #: ../help/help.E.txt:9
@@ -111,7 +111,7 @@ msgid ""
 "Use the instruction <c/><a cbot|receive>receive</a>(\"Direction\");<n/> in order to read the information contained in the <a object|exchange>exchange post</a>. This is of course possible only when the bot is close enough to the exchange post.\n"
 "You will need a <a cbot|var>variable</a> to contain the value retrieved from the exchange post. Let us call it <code>dir</code>; you must declare it with the following line:"
 msgstr ""
-"La lecture de la <a object|exchange>borne</a> s'obtient avec <c/><a cbot|receive>receive</a>(\"Direction\");<n/>. Ceci n'est évidemment possible que lorsque le <a object|bottr>robot</a> est proche de la borne. L'orientation du robot n'a pas d'importance.\n"
+"La lecture de la <a object|exchange>station relais</a> s'obtient avec <c/><a cbot|receive>receive</a>(\"Direction\");<n/>. Ceci n'est évidemment possible que lorsque le <a object|bottr>robot</a> est proche de la station. L'orientation du robot n'a pas d'importance.\n"
 "Il faudra définir une <a cbot|var>variable</a> <code>dir</code>, juste avant de l'utiliser ou tout au début du programme, à choix:"
 
 #. type: Source code
@@ -154,7 +154,7 @@ msgstr "Remarque"
 #: ../help/help.E.txt:28
 #, no-wrap
 msgid "You can click on an <a object|exchange>information exchange post</a> in order to read what information it contains. In this exercise, every exchange post contains only one value called <code>\"Direction\"</code>, but it can contain up to 10 different values, as you will see in some of the following exercises."
-msgstr "En cliquant sur une <a object|exchange>borne</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque borne contient une seule information appelée <code>\"Direction\"</code>, mais une borne peut contenir jusqu'à 10 valeurs. Ceci sera utilisé dans des exercices ultérieurs."
+msgstr "En cliquant sur une <a object|exchange>station relais</a> pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque station contient une seule information appelée <code>\"Direction\"</code>, mais une station peut contenir jusqu'à 10 valeurs. Ceci sera utilisé dans des exercices ultérieurs."
 
 #. type: \t; header
 #: ../help/help.E.txt:30
@@ -166,4 +166,4 @@ msgstr "Voir aussi"
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr "<a ttit2>Exercice précédent</a> et <a cbot>programmation</a>."
+msgstr "<a ttit2>Exercice précédent</a>, <a cbot>programmation</a>, <a cbot|type>types</a> et <a cbot|category>catégories</a>."

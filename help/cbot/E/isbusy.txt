@@ -1,0 +1,15 @@
+\b;Instruction \c;isbusy\n;
+Syntax:
+\s;\c;isbusy ( object );\n;
+
+Checks if a given object is busy.
+
+\t;\l;object\u cbot\object;
+Any building which can take some action (e.g. \l;Converter\u cbot\convert;).
+
+\t;Return value: \c;\l;bool\u cbot\bool;\n;
+\c;\const;true\norm;\n; if the object is doing something (e.g. converting)
+\c;\const;false\norm;\n; if the object is not doing anything
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

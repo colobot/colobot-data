@@ -48,8 +48,14 @@ Constants like \l;categories\u cbot\category; are displayed like that: \const;co
 \c;\l;penup\u cbot\penup;      \n;Stops drawing
 \c;\l;pencolor\u cbot\pencolor;   \n;Changes the pen color
 \c;\l;penwidth\u cbot\penwidth;   \n;Changes the pen width
-\c;\l;canresearch\u cbot\canresearch; \n;Checks if a technology can be researched
+\c;\l;factory\u cbot\factory;    \n;Starts construction of a bot
+\c;\l;research\u cbot\research;   \n;Starts a research
+\c;\l;takeoff\u cbot\takeoff;    \n;Launches a spaceship
+\c;\l;isbusy\u cbot\isbusy;     \n;Checks if object is busy
+\c;\l;canresearch\u cbot\canresearch;\n;Checks if a technology can be researched
 \c;\l;researched\u cbot\researched; \n;Checks if a technology is researched
+\c;\l;canbuild\u cbot\canbuild;   \n;Checks if a building can be built
+\c;\l;buildingenabled\u cbot\buildingenabled; \n;Checks if a building is available during current mission
 
 \t;Instructions about topology:
 \c;\l;space\u cbot\space;      \n;Calculates a free space
@@ -67,14 +73,8 @@ Constants like \l;categories\u cbot\category; are displayed like that: \const;co
 \c;\l;fire\u cbot\fire;       \n;Fires the cannon
 \c;\l;aim\u cbot\aim;        \n;Rotates the cannon
 \c;\l;build\u cbot\build;      \n;Builds a building
-\c;\l;canbuild\u cbot\canbuild;   \n;Checks if a building can be built
-\c;\l;buildingenabled\u cbot\buildingenabled; \n;Checks if a building can be built in the level
-
-\t;Instructions specific for some \l;objects\u cbot\object;:
-\c;\l;factory\u cbot\factory;    \n;Starts construction of a bot
-\c;\l;research\u cbot\research;   \n;Starts a research
-\c;\l;takeoff\u cbot\takeoff;    \n;Takes off a spaceship
-\c;\l;busy\u cbot\busy;       \n;Checks if object is busy
+\c;\l;flag\u cbot\flag;       \n;Plants a flag
+\c;\l;deflag\u cbot\deflag;     \n;Removes a flag
 
 \t;Specific instructions for exchange posts:
 \c;\l;receive\u cbot\receive;    \n;Receives an information
