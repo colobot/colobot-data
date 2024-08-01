@@ -6083,7 +6083,7 @@ msgstr "Příkaz <code>factory</code>"
 #: ../E/factory.txt:8
 #, no-wrap
 msgid "<a cbot|category>Category</a> of the robot to construct."
-msgstr "<a cbot|category>Kategorie</a> robota, který se má výrobit."
+msgstr "<a cbot|category>Kategorie</a> robota, který se má vyrobit."
 
 #. type: \t; header
 #: ../E/factory.txt:10
@@ -9099,13 +9099,13 @@ msgstr ""
 #: ../E/build.txt:2
 #, no-wrap
 msgid "The instruction <c/>build();<n/> instructs the bot to build a building of a given <a cbot|category>category</a>."
-msgstr ""
+msgstr "Příkaz <c/>build();<n/> nařizuje robotu postavit budovu dané <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/build.txt:5
 #, no-wrap
 msgid "Here is a program that looks for the nearest <a object|titan>titanium cube</a>, approaches it, and builds a <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Zde je program, který najde nejbližší <a object|titan>kostku titanu</a>, dojede k ní a postaví <a object|factory>továrnu na roboty</a>."
 
 #. type: Plain text
 #: ../E/build.txt:26
@@ -9114,12 +9114,14 @@ msgid ""
 "<code><a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code><a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/buildingenabled.txt:2
 #, no-wrap
 msgid "The instruction <c/>buildingenabled();<n/> lets you know if a building of a given <a cbot|category>category</a> can be built during current mission."
-msgstr ""
+msgstr "Pomocí příkazu <c/>buildingenabled();<n/> můžete zjistit, jestli lze v aktuální misi postavit budovu dané <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/buildingenabled.txt:23
@@ -9128,12 +9130,15 @@ msgid ""
 "<code><a cbot|build>build</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code><a cbot|build>build</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Plain text
+# What's "Tech" and why does it point to astronaut's help file?
 #: ../E/canbuild.txt:2
 #, no-wrap
 msgid "The instruction <c/>canbuild();<n/> lets you know if <a object|botbr>Builders</a>, <a object|human>Me</a> or <a object|human>Tech</a> can build a building of a given <a cbot|category>category</a>."
-msgstr ""
+msgstr "Pomocí příkazu <c/>canbuild();<n/> můžete zjistit, jestli <a object|botbr>stavitelé</a> nebo <a object|human>kosmonaut</a> mohou postavit budovu dané <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/canbuild.txt:23
@@ -9142,12 +9147,14 @@ msgid ""
 "<code><a cbot|build>build</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code><a cbot|build>build</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/canresearch.txt:5
 #, no-wrap
 msgid "Checks if a <a cbot|researches>research</a> can be done during current mission."
-msgstr ""
+msgstr "Zjistí, jestli v aktuální misi lze provést daný <a cbot|researches>výzkum</a>."
 
 #. type: Plain text
 #: ../E/canresearch.txt:15
@@ -9156,30 +9163,32 @@ msgid ""
 "<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|researched>researched</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<a cbot|researches>Názvy technologií</a>, <code><a cbot|research>research</a></code>, <code><a cbot|researched>researched</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Source code
 #: ../E/factory.txt:3
 #, no-wrap
 msgid "<c/>factory ( cat, program, object );<n/>"
-msgstr ""
+msgstr "<c/>factory ( kategorie, program, object );<n/>"
 
 #. type: Plain text
 #: ../E/factory.txt:5
 #, no-wrap
 msgid "Starts a construction of a bot of a given <a cbot|category>category</a> and runs a specified program on it after the construction is finished."
-msgstr ""
+msgstr "Zahájí výrobu robota dané <a cbot|category>kategorie</a> a po dokončení na něm spustí zadaný program."
 
 #. type: Plain text
 #: ../E/factory.txt:11
 #, no-wrap
 msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a <a cbot|file>filename</a> or raw code."
-msgstr ""
+msgstr "Program, který se na robotovi spustí po dokončení výroby. Může to být buď <a cbot|public>public</a> <a cbot|function>funkce</a>, <a cbot|file>název souboru</a>, nebo prostě kus kódu."
 
 #. type: Plain text
 #: ../E/factory.txt:14
 #, no-wrap
 msgid "<a object|factory>BotFactory</a>, nearest by default."
-msgstr ""
+msgstr "<a object|factory>Továrna na roboty</a>. Pokud není zadáno, použije se automaticky ta nejbližší."
 
 #. type: Plain text
 #: ../E/factory.txt:22
@@ -9188,42 +9197,44 @@ msgid ""
 "<code><a cbot|researched>researched</a></code>, <code><a cbot|wait>wait</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<code><a cbot|researched>researched</a></code>, <code><a cbot|wait>wait</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: \b; header
 #: ../E/isbusy.txt:1
 #, no-wrap
 msgid "Instruction <code>isbusy</code>"
-msgstr ""
+msgstr "Příkaz <code>isbusy</code>"
 
 #. type: Source code
 #: ../E/isbusy.txt:3
 #, no-wrap
 msgid "<c/>isbusy ( object );<n/>"
-msgstr ""
+msgstr "<c/>isbusy ( object );<n/>"
 
 #. type: Plain text
 #: ../E/isbusy.txt:5
 #, no-wrap
 msgid "Checks if a given object is busy."
-msgstr ""
+msgstr "Zjistí, jestli daný objekt právě provádí nějakou akci."
 
 #. type: Source code
 #: ../E/research.txt:3
 #, no-wrap
 msgid "<c/>research ( type, object );<n/>"
-msgstr ""
+msgstr "<c/>research ( typ, object );<n/>"
 
 #. type: Plain text
 #: ../E/research.txt:5
 #, no-wrap
 msgid "Starts a <a cbot|researches>research</a> of a given type."
-msgstr ""
+msgstr "Zahájí <a cbot|researches>výzkum</a> daného typu."
 
 #. type: Plain text
 #: ../E/research.txt:11
 #, no-wrap
 msgid "<a object|research>ResearchCenter</a> or <a object|labo>AutoLab</a>. Nearest research center by default."
-msgstr ""
+msgstr "<a object|research>Výzkumná stanice</a> nebo <a object|labo>laboratoř</a>. Pokud není zadáno, použije se automaticky ta nejbližší."
 
 #. type: Plain text
 #: ../E/research.txt:19
@@ -9232,12 +9243,14 @@ msgid ""
 "<a cbot|researches>Research names</a>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|researched>researched</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<a cbot|researches>Názvy technologií</a>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|researched>researched</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/researched.txt:5
 #, no-wrap
 msgid "Checks if a <a cbot|researches>research</a> is done."
-msgstr ""
+msgstr "Zjistí, jestli byl daný <a cbot|researches>výzkum</a> dokončen."
 
 #. type: Plain text
 #: ../E/researched.txt:11
@@ -9246,6 +9259,8 @@ msgid ""
 "<format const>true</format> if the research is done\n"
 "<format const>false</format> if the research is not done"
 msgstr ""
+"<format const>true</format> pokud je výzkum dokončen\n"
+"<format const>false</format> pokud výzkum není dokončen"
 
 #. type: Plain text
 #: ../E/researched.txt:15
@@ -9254,6 +9269,8 @@ msgid ""
 "<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
+"<a cbot|researches>Názvy technologií</a>, <code><a cbot|research>research</a></code>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
+"<a cbot>Programování</a>, <a cbot|type>datové typy</a> a <a cbot|category>kategorie</a>."
 
 #. type: Plain text
 #: ../E/researches.txt:9
@@ -9269,6 +9286,15 @@ msgid ""
 "<code><format const>ResearchPhazerShooter</format> </code><a object|botphaz>Phazer cannon</a>\n"
 "<code><format const>ResearchBuilder</format>       </code><a object|botbr>Neutron gun</a>"
 msgstr ""
+"<code><format const>ResearchTracked</format>       </code>Pásoví roboti (např. <a object|botgc>pásové rameno</a>)\n"
+"<code><format const>ResearchWinged</format>        </code>Létající roboti (např. <a object|botgj>létající rameno</a>)\n"
+"<code><format const>ResearchShooter</format>       </code><a object|botfr>Plazmový kanón</a>\n"
+"<code><format const>ResearchDefenseTower</format>  </code><a object|tower>Obranná věž</a>\n"
+"<code><format const>ResearchNuclearPlant</format>  </code><a object|nuclear>Jaderná elektrárna</a>\n"
+"<code><format const>ResearchThumper</format>       </code><a object|bottump>Buchar</a>\n"
+"<code><format const>ResearchShielder</format>      </code><a object|botshld>Mobilní štít</a>\n"
+"<code><format const>ResearchPhazerShooter</format> </code><a object|botphaz>Fázové dělo</a>\n"
+"<code><format const>ResearchBuilder</format>       </code><a object|botbr>Stavební neutronové dělo</a>"
 
 #. type: Plain text
 #: ../E/researches.txt:20
@@ -9278,6 +9304,9 @@ msgid ""
 "<code><format const>ResearchLegged</format>        </code>Legged bots (e.g. <a object|botgs>legged grabber</a>)\n"
 "<code><format const>ResearchOrgaShooter</format>   </code><a object|botor>Orgaball cannon</a>"
 msgstr ""
+"<code><format const>ResearchTarget</format>        </code><a object|bottarg>Cvičný cíl</a>\n"
+"<code><format const>ResearchLegged</format>        </code>Chodící roboti (např. <a object|botgs>chodící rameno</a>)\n"
+"<code><format const>ResearchOrgaShooter</format>   </code><a object|botor>Biokanón</a>"
 
 #. type: Plain text
 #: ../E/researches.txt:25
@@ -9287,30 +9316,33 @@ msgid ""
 "<code><format const>ResearchSubber</format>        </code><a object|botsub>Subber</a>\n"
 "<code><format const>ResearchRecycler</format>      </code><a object|botrecy>Recycler</a>"
 msgstr ""
+"<code><format const>ResearchSniffer</format>       </code><a object|botsr>Detektor</a>\n"
+"<code><format const>ResearchSubber</format>        </code><a object|botsub>Ponorka</a>\n"
+"<code><format const>ResearchRecycler</format>      </code><a object|botrecy>Recyklátor</a>"
 
 #. type: Plain text
 #: ../E/researches.txt:30
 #, no-wrap
 msgid "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a cbot|category>Categories</a>."
-msgstr ""
+msgstr "<a cbot>Jazyk CBOT</a>, <a cbot|type>proměnné</a> a <a cbot|category>kategorie</a>."
 
 #. type: Source code
 #: ../E/takeoff.txt:3
 #, no-wrap
 msgid "<c/>takeoff ( object );<n/>"
-msgstr ""
+msgstr "<c/>takeoff ( object );<n/>"
 
 #. type: Plain text
 #: ../E/takeoff.txt:5
 #, no-wrap
 msgid "Launch a spaceship."
-msgstr ""
+msgstr "Nařídí raketě odletět."
 
 #. type: Plain text
 #: ../E/takeoff.txt:8
 #, no-wrap
 msgid "<a object|base>SpaceShip</a>, nearest by default."
-msgstr ""
+msgstr "<a object|base>Raketa</a>. Pokud není zadáno, použije se automaticky ta nejbližší."
 
 #. type: Plain text
 #: ../E/switch.txt:5
@@ -9322,7 +9354,7 @@ msgstr "Poznámka: V následujícím příkladu by bylo vhodnější použít p�
 #: ../E/build.txt:15
 #, no-wrap
 msgid "Constructs a building using a titanium cube in front of the <a object|botbr>builder</a>."
-msgstr ""
+msgstr "Postaví budovu z titanové kostky před <a object|botbr>stavitelem</a>."
 
 #. type: Plain text
 #: ../E/category.txt:94
@@ -9339,24 +9371,34 @@ msgid ""
 "       <code><a object|bromush>BrownMushroom</a>   </code>Brown mushroom\n"
 "       <code><a object|gremush>GreenMushroom</a>   </code>Poisonous green mushroom"
 msgstr ""
+"<button 136/>   <code><a object|human>Me</a>              </code>Kosmonaut\n"
+"       <code><a object|mine>Mine</a>            </code>Mina\n"
+"       <code><a object|barrier>Barrier</a>         </code>Zátaras\n"
+"       <code><a object|wreck>Wreck</a>           </code>Vrak robota\n"
+"       <code><a object|ruin>Ruin</a>            </code>Trosky budovy\n"
+"       <code><a object|bush>Bush</a>            </code>Křoví\n"
+"       <code><a object|gravi>GraviPlant</a>      </code>Přízemnice\n"
+"       <code><a object|crystal>Crystal</a>         </code>Krystal\n"
+"       <code><a object|bromush>BrownMushroom</a>   </code>Hnědá houba\n"
+"       <code><a object|gremush>GreenMushroom</a>   </code>Jedovatá zelená houba"
 
 #. type: \b; header
 #: ../E/deflag.txt:1
 #, no-wrap
 msgid "Instruction <code>deflag</code>"
-msgstr ""
+msgstr "Příkaz <code>deflag</code>"
 
 #. type: Source code
 #: ../E/deflag.txt:3
 #, no-wrap
 msgid "<c/>deflag ( );<n/>"
-msgstr ""
+msgstr "<c/>deflag ( );<n/>"
 
 #. type: Plain text
 #: ../E/deflag.txt:5
 #, no-wrap
 msgid "Removes a <a object|flag>colored flag</a> in front of the <a object|botsr>sniffer</a>."
-msgstr ""
+msgstr "Odstraní <a object|flag>barevnou vlajku</a> před <a object|botsr>detektorem</a>."
 
 #. type: Plain text
 #: ../E/deflag.txt:8
@@ -9366,30 +9408,33 @@ msgid ""
 "<code>== 0 </code>removed a flag\n"
 "<code>!= 0 </code>could not remove a flag"
 msgstr ""
+"Chyba při provádění tohoto příkazu obvykle ukončí program. Tomu můžete zabránit pomocí příkazu <code><a cbot|errmode>errmode</a>(0)</code>. Pak bude příkaz <c/>deflag();<n/> v případě chyby vracet nenulovou hodnotu.\n"
+"<code>== 0</code> vlajka byla odstraněna\n"
+"<code>!= 0</code> vlajku se nepodařilo odstranit"
 
 #. type: \b; header
 #: ../E/flag.txt:1
 #, no-wrap
 msgid "Instruction <code>flag</code>"
-msgstr ""
+msgstr "Příkaz <code>flag</code>"
 
 #. type: Source code
 #: ../E/flag.txt:3
 #, no-wrap
 msgid "<c/>flag ( color );<n/>"
-msgstr ""
+msgstr "<c/>flag ( barva );<n/>"
 
 #. type: Plain text
 #: ../E/flag.txt:5
 #, no-wrap
 msgid "Plants a <a object|flag>colored flag</a> in front of the <a object|botsr>sniffer</a>."
-msgstr ""
+msgstr "Umístí <a object|flag>barevnou vlajku</a> před <a object|botsr>detektor</a>."
 
 #. type: \t; header
 #: ../E/flag.txt:7
 #, no-wrap
 msgid "color: <code><a cbot|int>int</a></code> (default value: <code>Blue</code>)"
-msgstr ""
+msgstr "barva: <code><a cbot|int>int</a></code> (výchozí hodnota: <code>Blue</code>)"
 
 #. type: Plain text
 #: ../E/flag.txt:8
@@ -9401,6 +9446,11 @@ msgid ""
 "<code>Yellow</code>\n"
 "<code>Violet</code>"
 msgstr ""
+"<code>Blue</code> - modrá vlajka\n"
+"<code>Red</code> - červená vlajka\n"
+"<code>Green</code> - zelená vlajka\n"
+"<code>Yellow</code> - žlutá vlajka\n"
+"<code>Violet</code> - fialová vlajka"
 
 #. type: Plain text
 #: ../E/flag.txt:15
@@ -9410,3 +9460,6 @@ msgid ""
 "<code>== 0 </code>planted a flag\n"
 "<code>!= 0 </code>could not plant a flag"
 msgstr ""
+"Chyba při provádění tohoto příkazu obvykle ukončí program. Tomu můžete zabránit pomocí příkazu <code><a cbot|errmode>errmode</a>(0)</code>. Pak bude příkaz <c/>flag();<n/> v případě chyby vracet nenulovou hodnotu.\n"
+"<code>== 0</code> vlajka byla umístěna\n"
+"<code>!= 0</code> vlajku se nepodařilo umístit"
