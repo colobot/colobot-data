@@ -3,7 +3,7 @@ Resume.E text="Retrieve a titanium cube."
 ScriptName.E text="Mover"
 Instructions name="%lvl%/help/help.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=1 lost=0
+EndingFile win="other/win001.txt" lost="other/lost000.txt"
 
  
 AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey

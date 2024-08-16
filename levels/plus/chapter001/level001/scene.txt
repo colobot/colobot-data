@@ -2,7 +2,7 @@ Title.E text="Plan B"
 Resume.E text="Equip your spaceship and get ready for takeoff."
 Instructions name="%lvl%/help/help.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=-1 lost=0
+EndingFile lost="other/lost000.txt"
 MessageDelay factor=2
 
 Audio filename="music002.ogg"

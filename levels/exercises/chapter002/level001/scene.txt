@@ -3,7 +3,7 @@ Resume.E text="Set the power of the different motors in order to achieve a barra
 ScriptName.E text="Move"
 Instructions name="%lvl%/help/help.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=3 lost=0
+EndingFile win="other/win003.txt" lost="other/lost000.txt"
 
  
 AmbientColor air=0.533;0.533;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey

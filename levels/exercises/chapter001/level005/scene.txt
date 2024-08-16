@@ -3,7 +3,7 @@ Resume.E text="Power all the winged shooters."
 ScriptName.E text="Spider2"
 Instructions name="%lvl%/help/help.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=2 lost=0
+EndingFile win="other/win002.txt" lost="other/lost000.txt"
 
  
 AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey

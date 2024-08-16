@@ -3,7 +3,7 @@ Resume.E text="Learn how to construct buildings."
 Instructions name="%lvl%/help/help.%lng%.txt"
 SoluceFile name="%lvl%/help/soluce.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=102 lost=0
+EndingFile win="other/win102.txt" lost="other/lost000.txt"
 MessageDelay factor=3
 
 Audio filename="music002.ogg"
