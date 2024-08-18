@@ -3,7 +3,7 @@ Resume.E text="Prepare yourself to embark on mankind's most thrilling adventure 
 Instructions name="%lvl%/help/help.%lng%.txt"
 SoluceFile name="%lvl%/help/soluce.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=101 lost=0
+EndingFile win="other/win101.txt" lost="other/lost000.txt"
 MessageDelay factor=5
 
 Audio filename="music002.ogg"

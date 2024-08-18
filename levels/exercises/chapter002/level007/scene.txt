@@ -3,7 +3,7 @@ Resume.E text="Get better at shooting down the wasps."
 ScriptName.E text="Wasp2"
 Instructions name="%lvl%/help/help.%lng%.txt"
 HelpFile name="cbot.txt"
-EndingFile win=4 lost=0
+EndingFile win="other/win004.txt" lost="other/lost000.txt"
 
  
 AmbientColor air=0.596;0.596;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
