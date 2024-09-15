@@ -57,8 +57,6 @@ if(MUSIC)
         )
     endif()
 
-    find_program(WGET wget)
-
     foreach(FILE ${MUSIC_FILES})
         get_filename_component(FILENAME ${FILE} NAME_WE)
 
@@ -73,14 +71,10 @@ if(MUSIC)
             message(STATUS "Music file ${DOWNLOAD_FILE} already downloaded")
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
         else()
-            if(NOT WGET)
-                message(FATAL_ERROR "wget not found, music files can't be downloaded!")
-            endif()
-
-            execute_process(
-                COMMAND ${CMAKE_COMMAND} -E echo "Downloading ${DOWNLOAD_FILE}..."
-                COMMAND ${WGET} -N "https://colobot.info/files/music/${DOWNLOAD_FILE}"
-                WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+            message(STATUS "Downloading ${DOWNLOAD_FILE}...")
+            file(DOWNLOAD
+                "https://colobot.info/files/music/${DOWNLOAD_FILE}"
+                "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}"
             )
 
             set(DOWNLOAD_FILE_LOC "${CMAKE_CURRENT_SOURCE_DIR}/${DOWNLOAD_FILE}")
