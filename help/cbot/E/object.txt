@@ -15,7 +15,7 @@ Use this type for variables that contain the characteristics of an object, be it
 \c;object object.load         \n;Object carried by the bot
 \c;\l;int\u cbot\int;    object.team         \n;The object's team (see \l;code battles\u battles;)
 \c;\l;point\u cbot\point;  object.velocity     \n;Velocity of the object
-\c;\l;bool\u cbot\bool;   object.dead         \n;Is the alien dead?
+\c;\l;bool\u cbot\bool;   object.dead         \n;Is the object dead?
 
 Also, some objects have additional methods (instructions). See them in \l;the main list\u cbot; in the \c;"Instructions specific for some objects" section.
 
@@ -65,7 +65,7 @@ The bot's team. Used in \l;code battles\u battles;. If the object has no team as
 Current velocity of the object. Should be treated as a three-dimensional vector.
 
 \s;\c;dead\n;
-True if the object is an alien and was recently killed (while the death animation is playing). Note that accessing this property or any other property after the death animation finishes will cause an error that stops the program.
+True if the object was recently killed (while the death animation is playing). Note that accessing this property or any other property after the death animation finishes will cause an error that stops the program.
 
 \b;Examples
 The type \c;object\n; returns the special value \c;\l;null\u cbot\null;\n; when the object does not exist. For example:
