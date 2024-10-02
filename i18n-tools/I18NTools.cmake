@@ -22,7 +22,7 @@ function(generate_translations_old
 
     # first command is used to get list of input and output files when running CMake to
     # execute appropriate CMake install commands and set up dependencies properly
-    execute_process(COMMAND ${PYTHON_EXECUTABLE}
+    execute_process(COMMAND ${Python3_EXECUTABLE}
         ${PROJECT_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
         --mode print_files
         --type ${type}
@@ -48,7 +48,7 @@ function(generate_translations_old
 
     # actual command used to generate translations executed when building project
     add_custom_command(OUTPUT ${signal_file}
-        COMMAND ${PYTHON_EXECUTABLE}
+        COMMAND ${Python3_EXECUTABLE}
         ${PROJECT_SOURCE_DIR}/i18n-tools/scripts/process_translations.py
         --mode generate
         --type ${type}
