@@ -27,7 +27,7 @@ CreateObject pos=29.50;-78.25 dir=1.5 type=WingedGrabber script3="exchg1.txt" sc
 
 // Cratère entrée
 CreateObject pos= 32;103 dir=0.3 type=WreckBotw1
-CreateObject pos= 28; 84 dir=1.2 type=TrackedShooter power=0 proxyActivate=1
+CreateObject pos= 28; 84 dir=1.2 type=TrackedShooter power=-1 proxyActivate=1
 
 // Cratère ouest
 CreateObject pos=-136;200 dir=0.7 type=RuinBotFactory
@@ -37,12 +37,12 @@ CreateObject pos=-136;200 dir=0.1 type=PowerCell power=0.2 proxyActivate=1
 CreateObject pos=-136;205 dir=0.5 type=PowerCell power=0.0 proxyActivate=1
 CreateObject pos=-140;202 dir=0.2 type=PowerCell power=0.0 proxyActivate=1
 CreateObject pos=-142;198 dir=0.3 type=PowerCell power=0.3 proxyActivate=1
-CreateObject pos=-170;278 dir=1.2 type=WingedShooter power=0 proxyActivate=1
+CreateObject pos=-170;278 dir=1.2 type=WingedShooter power=-1 proxyActivate=1
 CreateObject pos=-161;274 dir=0.3 type=WreckBotw2
 CreateObject pos=-171;281 dir=0.7 type=WreckBott1
-CreateObject pos=-163;282 dir=1.8 type=TrackedShooter power=0 proxyActivate=1
+CreateObject pos=-163;282 dir=1.8 type=TrackedShooter power=-1 proxyActivate=1
 CreateObject pos=-166;282 dir=0.3 type=PowerCell power=0.0 proxyActivate=1
-CreateObject pos=-116;197 dir=0.8 type=TrackedShooter power=0 proxyActivate=1
+CreateObject pos=-116;197 dir=0.8 type=TrackedShooter power=-1 proxyActivate=1
 CreateObject pos=-114;200 dir=0.4 type=PowerCell power=0.0 proxyActivate=1
 CreateObject pos=-113;193 dir=0.9 type=Quartz1
 CreateObject pos=-129;212 dir=0.5 type=Quartz3
@@ -66,7 +66,7 @@ CreateObject pos=-149;267 dir=0.1 type=Quartz3
 
 // Cratère est
 CreateObject pos= 79;204 dir=0.7 type=RuinRadar
-CreateObject pos= 105;223 dir=0.8 type=TrackedShooter power=0 proxyActivate=1
+CreateObject pos= 105;223 dir=0.8 type=TrackedShooter power=-1 proxyActivate=1
 CreateObject pos= 97;223 dir=0.9 type=WreckBott2
 CreateObject pos= 116;235 dir=0.5 type=Quartz1
 CreateObject pos= 117;241 dir=0.5 type=Quartz3
@@ -77,7 +77,7 @@ CreateObject pos= 129;256 dir=0.2 type=Quartz1
 CreateObject pos= 130;250 dir=1.0 type=Quartz3
 CreateObject pos= 138;265 dir=0.2 type=Quartz2
 CreateObject pos= 138;298 dir=0.5 type=Quartz1
-CreateObject pos= 163;295 dir=1.0 type=WingedShooter power=0 proxyActivate=1
+CreateObject pos= 163;295 dir=1.0 type=WingedShooter power=-1 proxyActivate=1
 CreateObject pos= 177;288 dir=0.3 type=WreckBott1 h=-1
 CreateObject pos= 181;293 dir=0.9 type=PowerStation proxyActivate=1
 CreateObject pos= 190;300 dir=1.3 type=RuinBotFactory
