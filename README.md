@@ -1,6 +1,6 @@
 # Colobot Data Files
 
-This repository contains the data files for the Colobot project (https://github.com/colobot/colobot).
+This repository contains the data files for the [Colobot project](https://github.com/colobot/colobot).
 It currently includes:
 * mission files
 * textures
