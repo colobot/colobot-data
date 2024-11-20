@@ -21,7 +21,8 @@ Planet mode=1 pos=3.85; 0.10 dim=0.06 image="effect01.png" uv1=0.00;0.50 uv2=0.2
 Planet mode=1 pos=4.00;-0.50 dim=0.02 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
 Planet mode=1 pos=4.20; 0.30 dim=0.03 image="effect01.png" uv1=0.00;0.50 uv2=0.25;0.75
 
-#Include file="%chap%/planet12.txt"
+#Include file="%chap%/planet.txt"
+#Include file="%chap%/clear.txt"
 TerrainRelief image="relief05.png" factor=1.0
 TerrainResource image="res00.png"
 TerrainWater image="lava04.png" level=30.0 moveX=1.0 moveY=0.3 water=TO color=0.000;0.502;1.000;
