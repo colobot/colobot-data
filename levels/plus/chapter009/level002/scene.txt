@@ -41,16 +41,11 @@ CreateObject pos= 0.00;-2.00 dir=0.5 type=KeyA
 
 CreateObject pos=46;-87 dir=0.0 type=KeyB
 
-//CreateObject pos= 24; 4 cmdline= 24; 4; 29; -2 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
-//CreateObject pos= 23;-16 cmdline= 23;-16; 22;-22 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
-//CreateObject pos= 27;-40 cmdline= 27;-40; 34;-42 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
-//CreateObject pos=-13;-31 cmdline=-13;-31;-19;-39 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
-//CreateObject pos=-29; -8 cmdline=-29; -8;-29; 1 dir=0.0 type=AlienAnt script1="ant08.txt" run=1
-CreateObject pos= 24; 4 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
-CreateObject pos= 23;-16 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
-CreateObject pos= 27;-40 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
-CreateObject pos=-13;-31 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
-CreateObject pos=-29; -8 cmdline= 0; 0; 70 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos= 24; 4 cmdline= 0; 0; 70; 25 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos= 23;-16 cmdline= 0; 0; 70; 25 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos= 27;-40 cmdline= 0; 0; 70; 25 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos=-13;-31 cmdline= 0; 0; 70; 25 dir=0.0 type=AlienAnt script1="antics.txt" run=1
+CreateObject pos=-29; -8 cmdline= 0; 0; 70; 25 dir=0.0 type=AlienAnt script1="antics.txt" run=1
 
 CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
 CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
