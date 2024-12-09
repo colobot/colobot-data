@@ -1,95 +1,107 @@
 extern void object::Attack( )
 {
-	int		list[];
-	int		i;
-	object	p;
-	float	dim, dist, prox;
-	point	nav1, nav2, nav3, nav4, dest;
+	int list[] = {
+		WingedGrabber,
+		TrackedGrabber,
+		WheeledGrabber,
+		LeggedGrabber,
+		WingedShooter,
+		TrackedShooter,
+		WheeledShooter,
+		LeggedShooter,
+		WingedOrgaShooter,
+		TrackedOrgaShooter,
+		WheeledOrgaShooter,
+		LeggedOrgaShooter,
+		WingedSniffer,
+		TrackedSniffer,
+		WheeledSniffer,
+		LeggedSniffer,
+		WingedBuilder,
+		TrackedBuilder,
+		WheeledBuilder,
+		LeggedBuilder,
+		Thumper,
+		PhazerShooter,
+		Recycler,
+		Shielder,
+		Subber,
+		TargetBot,
+		RadarStation
+	//	DefenseTower
+	};
 
-	errmode(0);  // ne stoppe pas si erreur
+	errmode(0);
 	while ( ismovie() != 0 )  wait(1);
-
-	i = 0;
-	list[i++] = WingedGrabber;
-	list[i++] = TrackedGrabber;
-	list[i++] = WheeledGrabber;
-	list[i++] = LeggedGrabber;
-	list[i++] = WingedShooter;
-	list[i++] = TrackedShooter;
-	list[i++] = WheeledShooter;
-	list[i++] = LeggedShooter;
-	list[i++] = WingedOrgaShooter;
-	list[i++] = TrackedOrgaShooter;
-	list[i++] = WheeledOrgaShooter;
-	list[i++] = LeggedOrgaShooter;
-	list[i++] = WingedSniffer;
-	list[i++] = TrackedSniffer;
-	list[i++] = WheeledSniffer;
-	list[i++] = LeggedSniffer;
-	list[i++] = WingedBuilder;
-	list[i++] = TrackedBuilder;
-	list[i++] = WheeledBuilder;
-	list[i++] = LeggedBuilder;
-	list[i++] = Thumper;
-	list[i++] = PhazerShooter;
-	list[i++] = Recycler;
-	list[i++] = Shielder;
-	list[i++] = Subber;
-	list[i++] = TargetBot;
-	list[i++] = RadarStation;
-//	list[i++] = DefenseTower;
 
 	while ( true )
 	{
-		p = radar(list, 0, 360, 0, 60);  // cherche cible
-		if ( p == null )
+		object target = radar(list, 0, 360, 0, 60);
+		if ( target != null and distance2d(target.position, position) < 5)
 		{
-			dim = 1+rand()*2;
-			nav1.x = position.x+dim;
-			nav1.y = position.y+dim;
-			nav2.x = position.x+dim;
-			nav2.y = position.y-dim;
-			nav3.x = position.x-dim;
-			nav3.y = position.y-dim;
-			nav4.x = position.x-dim;
-			nav4.y = position.y+dim;
-
-			while ( true )
+			point dest(
+				position.x + (rand() - 0.5) * 8,
+				position.y + (rand() - 0.5) * 8
+			);
+			if ( topo(dest) > 0 ) goto(dest);
+		}
+		else if ( target != null )
+		{
+			point dest = target.position;
+			while (true)
 			{
-				goto(nav1);
-				p = radar(list, 0, 360, 0, 60);
-				if ( p != null )  break;
-
-				goto(nav2);
-				p = radar(list, 0, 360, 0, 60);
-				if ( p != null )  break;
-
-				goto(nav3);
-				p = radar(list, 0, 360, 0, 60);
-				if ( p != null )  break;
-
-				goto(nav4);
-				p = radar(list, 0, 360, 0, 60);
-				if ( p != null )  break;
+				dest.x = (position.x + dest.x) / 2;
+				dest.y = (position.y + dest.y) / 2;
+				if ( distance2d(position, dest) < 1 )
+				{
+					dest.x = position.x + (rand() - 0.5) * 8;
+					dest.y = position.y + (rand() - 0.5) * 8;
+					if ( topo(dest) > 0 ) goto(dest);
+					break;
+				}
+				if ( topo(dest) > 0 )
+				{
+					goto(dest);
+					break;
+				}
 			}
 		}
 		else
 		{
-			dist = distance(p.position, position);
-			prox = dist/2;  // on se rapproche
-			if ( prox < 2.5 )
+			float dim = 1 + rand() * 2;
+			point nav1(position.x + dim, position.y + dim);
+			point nav2(position.x + dim, position.y - dim);
+			point nav3(position.x - dim, position.y - dim);
+			point nav4(position.x - dim, position.y + dim);
+			if (topo(nav1) > 0 and topo(nav2) > 0 and topo(nav3) > 0 and topo(nav4) > 0)
 			{
-				dest.x = position.x+(rand()-0.5)*8;
-				dest.y = position.y+(rand()-0.5)*8;
-				dest.z = position.z;
+				while ( true )
+				{
+					goto(nav1);
+					target = radar(list, 0, 360, 0, 60);
+					if ( target != null )  break;
+	
+					goto(nav2);
+					target = radar(list, 0, 360, 0, 60);
+					if ( target != null )  break;
+	
+					goto(nav3);
+					target = radar(list, 0, 360, 0, 60);
+					if ( target != null )  break;
+	
+					goto(nav4);
+					target = radar(list, 0, 360, 0, 60);
+					if ( target != null )  break;
+				}
 			}
 			else
 			{
-				dest.x = (position.x-p.position.x)*prox/dist + p.position.x;
-				dest.y = (position.y-p.position.y)*prox/dist + p.position.y;
-				dest.z = (position.z-p.position.z)*prox/dist + p.position.z;
+				point dest(
+					position.x + (rand() - 0.5) * 8,
+					position.y + (rand() - 0.5) * 8
+				);
+				if ( topo(dest) > 0 ) goto(dest);
 			}
-			goto(dest);  // va sur la cible
 		}
 	}
 }
