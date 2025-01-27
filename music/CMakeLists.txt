@@ -94,11 +94,11 @@ if(MUSIC)
                 message(STATUS "Adding OGG convert target for ${FILE}")
 
                 execute_process(
-                    COMMAND ${OGGENC} -q ${MUSIC_QUALITY} -o "${FILENAME}.ogg" "${DOWNLOAD_FILE_LOC}"
+                    COMMAND ${OGGENC} -q ${MUSIC_QUALITY} -o "${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg" "${DOWNLOAD_FILE_LOC}"
                 )
 
                 install(FILES
-                    ${CMAKE_CURRENT_SOURCE_DIR}/${FILENAME}.ogg
+                    ${CMAKE_CURRENT_BINARY_DIR}/${FILENAME}.ogg
                     DESTINATION ${COLOBOT_INSTALL_MUSIC_DIR}
                 )
             endif()
