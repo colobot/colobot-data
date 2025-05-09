@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"PO-Revision-Date: 2025-05-09 07:51+0200\n"
 "Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
 "Language-Team: Sinkovics Zsolt\n"
 "Language: hu\n"
@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 "X-Language: hu_HU\n"
-"X-Source-Language: en_US\n"
 "X-POOTLE-MTIME: 1406536037.000000\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Source-Language: en_US\n"
 
 #. type: \b; header
 #: ../E/botfc.txt:1
@@ -28,45 +28,115 @@ msgstr ""
 msgid "<button 144/> Tracked Shooter"
 msgstr "<button 144/> Lánctalpas lövész"
 
+#. type: Plain text
+#: ../E/botfc.txt:3
+#, no-wrap
 msgid "Tracked bot equipped with a fireball cannon."
 msgstr "Lánctalpas robot tűzgolyó ágyúval felszerelve."
 
+#. type: Plain text
+#: ../E/botfc.txt:5 ../E/botfj.txt:5 ../E/botfr.txt:5 ../E/botfs.txt:5
+#, no-wrap
 msgid "The fireball cannon is an efficient weapon against most kinds of <a object|mother>enemies</a>. Use it sparingly though for it requires large amounts of energy. A <a object|power>regular power cell</a> will only allow you to shoot 4 fireball bursts."
 msgstr "A tűzgolyó ágyú hatékony fegyver a legtöbb <a object|mother>ellenség</a> ellen. Használata azonban sok energiát igényel, ezért takarékosan alkalmazd. Egy <a object|power>szokásos energiacella</a> csak 4 tűzgolyó-lövésre elegendő."
 
+#. type: Plain text
+#: ../E/botfc.txt:7 ../E/botfj.txt:7 ../E/botfr.txt:7 ../E/botfs.txt:7
+#, no-wrap
 msgid "Tip : it is possible to move the mouse while shooting, so as to sweep a larger area."
 msgstr "Tipp: Lövés közben is mozgathatod az egeret, így nagyobb területet fedhetsz le."
 
+#. type: Plain text
+#: ../E/botfc.txt:9
+#, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botfr>wheeled shooter</a> is a better option. When it is possible to build <a object|botfj>winged bots</a>, these represent the best solution for long distances."
 msgstr "A lánctalpas robotok meredek emelkedőkön is képesek felmenni, de lassúak és sok energiát fogyasztanak. Sík terepen, rövid távokra jobb választás a <a object|botfr>kerekes lövész</a>. Ha lehetőség van <a object|botfj>szárnyas robotok</a> építésére, azok a legjobbak hosszú távokra."
 
+#. type: \t; header
+#: ../E/botbc.txt:23 ../E/botbj.txt:23 ../E/botbr.txt:23 ../E/botbs.txt:23
+#: ../E/botfc.txt:11 ../E/botfj.txt:13 ../E/botfr.txt:11 ../E/botfs.txt:11
+#: ../E/botgc.txt:24 ../E/botgj.txt:26 ../E/botgr.txt:24 ../E/botgs.txt:24
+#: ../E/botoc.txt:9 ../E/botoj.txt:11 ../E/botor.txt:9 ../E/botos.txt:9
+#: ../E/botphaz.txt:5 ../E/botrecy.txt:5 ../E/botsc.txt:11 ../E/botshld.txt:9
+#: ../E/botsj.txt:13 ../E/botsr.txt:11 ../E/botss.txt:11 ../E/botsub.txt:7
+#, no-wrap
 msgid "Programming"
 msgstr "Programozás"
 
+#. type: Plain text
+#: ../E/botbc.txt:24 ../E/botbr.txt:24 ../E/botbs.txt:24 ../E/botfc.txt:12
+#: ../E/botfr.txt:12 ../E/botfs.txt:12 ../E/botgc.txt:25 ../E/botgj.txt:27
+#: ../E/botgr.txt:25 ../E/botgs.txt:25 ../E/botoc.txt:10 ../E/botor.txt:10
+#: ../E/botos.txt:10 ../E/botphaz.txt:6 ../E/botrecy.txt:6 ../E/botsc.txt:12
+#: ../E/botshld.txt:10 ../E/botsr.txt:12 ../E/botss.txt:12 ../E/botsub.txt:8
+#: ../E/bottump.txt:10
+#, no-wrap
 msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
 msgstr "A robot mozgásának programozásához használd a következő parancsokat: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|goto>goto</a></code>."
 
+#. type: Plain text
+#: ../E/botfc.txt:14 ../E/botfj.txt:16 ../E/botfr.txt:14 ../E/botfs.txt:14
+#, no-wrap
 msgid "To program the fireball cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
 msgstr "A tűzgolyó ágyú használatához használd a <code><a cbot|fire>fire</a></code> parancsot. A célzás emeléséhez vagy süllyesztéséhez használd az <code><a cbot|aim>aim</a></code> parancsot."
 
+#. type: \t; header
+#: ../E/botbc.txt:28 ../E/botbj.txt:28 ../E/botbr.txt:28 ../E/botbs.txt:28
+#: ../E/botfc.txt:16 ../E/botfj.txt:18 ../E/botfr.txt:16 ../E/botfs.txt:16
+#: ../E/botgc.txt:29 ../E/botgj.txt:31 ../E/botgr.txt:29 ../E/botgs.txt:29
+#: ../E/botoc.txt:14 ../E/botoj.txt:16 ../E/botor.txt:14 ../E/botos.txt:14
+#: ../E/botphaz.txt:10 ../E/botrecy.txt:10 ../E/botsc.txt:16
+#: ../E/botshld.txt:14 ../E/botsj.txt:18 ../E/botsr.txt:16 ../E/botss.txt:16
+#: ../E/botsub.txt:12 ../E/bottarg.txt:7 ../E/bottr.txt:8 ../E/bottump.txt:14
+#, no-wrap
 msgid "Object <a cbot|category>Category</a>"
 msgstr "Objektum <a cbot|category>Kategória</a>"
 
+#. type: Plain text
+#: ../E/botfc.txt:17
+#, no-wrap
 msgid "<code>TrackedShooter</code>"
-msgstr "<code>TrackedShooter</code>"
+msgstr "<code>Lánctalpas lövész</code>"
 
+#. type: \t; header
+#: ../E/botbc.txt:31 ../E/botbj.txt:31 ../E/botbr.txt:31 ../E/botbs.txt:31
+#: ../E/botfc.txt:19 ../E/botfj.txt:21 ../E/botfr.txt:19 ../E/botfs.txt:19
+#: ../E/botgc.txt:32 ../E/botgj.txt:34 ../E/botgr.txt:32 ../E/botgs.txt:32
+#: ../E/botoc.txt:17 ../E/botoj.txt:19 ../E/botor.txt:17 ../E/botos.txt:17
+#: ../E/botphaz.txt:13 ../E/botrecy.txt:13 ../E/botsc.txt:19
+#: ../E/botshld.txt:17 ../E/botsj.txt:21 ../E/botsr.txt:19 ../E/botss.txt:19
+#: ../E/botsub.txt:15 ../E/bottarg.txt:10 ../E/bottr.txt:11 ../E/bottump.txt:17
+#, no-wrap
 msgid "See also"
 msgstr "Lásd még"
 
+#. type: Plain text
+#: ../E/botbc.txt:32 ../E/botbj.txt:32 ../E/botbr.txt:32 ../E/botbs.txt:32
+#: ../E/botfc.txt:20 ../E/botfj.txt:22 ../E/botfr.txt:20 ../E/botfs.txt:20
+#: ../E/botgc.txt:33 ../E/botgj.txt:35 ../E/botgr.txt:33 ../E/botgs.txt:33
+#: ../E/botoc.txt:18 ../E/botoj.txt:20 ../E/botor.txt:18 ../E/botos.txt:18
+#: ../E/botphaz.txt:14 ../E/botrecy.txt:14 ../E/botsc.txt:20
+#: ../E/botshld.txt:18 ../E/botsj.txt:22 ../E/botsr.txt:20 ../E/botss.txt:20
+#: ../E/botsub.txt:16 ../E/bottarg.txt:11 ../E/bottr.txt:12 ../E/bottump.txt:18
+#, no-wrap
 msgid "<a cbot>CBOT Language</a>, <a cbot|type>Variables</a> and <a cbot|category>Categories</a>."
 msgstr "<a cbot>CBOT nyelv</a>, <a cbot|type>Változók</a> és <a cbot|category>Kategóriák</a>."
 
+#. type: \b; header
+#: ../E/botfj.txt:1
+#, no-wrap
 msgid "<button 145/> Winged Shooter"
 msgstr "<button 145/> Szárnyas lövész"
 
+#. type: Plain text
+#: ../E/botfj.txt:3
+#, no-wrap
 msgid "Jet propelled flying bot equipped with a fireball cannon."
 msgstr "Sugárhajtású repülő robot tűzgolyó ágyúval felszerelve."
 
+#. type: Plain text
+#: ../E/botfj.txt:9 ../E/botgj.txt:20 ../E/botoj.txt:7
+#, no-wrap
 msgid "The display at the bottom of your screen indicates the temperature of the reactor. Keep an eye on it. If the reactor overheats, the engine will stop and the bot will crash."
 msgstr "A képernyő alján lévő kijelző a reaktor hőmérsékletét mutatja. Figyeld folyamatosan! Ha a reaktor túlmelegszik, a hajtómű leáll, és a robot lezuhan."
 
@@ -76,51 +146,99 @@ msgstr "A képernyő alján lévő kijelző a reaktor hőmérsékletét mutatja.
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botfr>wheeled shooter</a> instead."
 msgstr "A szárnyas robotok át tudnak repülni természetes akadályok, például hegyek vagy tavak fölött, de gyorsan kimerül az energiájuk. A földön lassúak. Ha csak rövid távolságot kell megtenni, ahol a repülés nem szükséges, ajánlott inkább egy <a object|botfr>kerekes lövőt</a> használni."
 
+#. type: Plain text
+#: ../E/botbj.txt:24 ../E/botfj.txt:14 ../E/botoj.txt:12 ../E/botsj.txt:14
+#, no-wrap
 msgid "To program the bot's movements, use the following commands : <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
 msgstr "A robot mozgásának programozásához a következő parancsokat használd: <code><a cbot|move>move</a></code>, <code><a cbot|turn>turn</a></code>, <code><a cbot|motor>motor</a></code>, <code><a cbot|jet>jet</a></code>, <code><a cbot|goto>goto</a></code>."
 
+#. type: Plain text
+#: ../E/botfj.txt:19
+#, no-wrap
 msgid "<code>WingedShooter</code>"
 msgstr "<code>WingedShooter</code>"
 
+#. type: \b; header
+#: ../E/botfr.txt:1
+#, no-wrap
 msgid "<button 143/> Wheeled Shooter"
 msgstr "<button 143/> Kerekes lövő"
 
+#. type: Image filename
+#: ../E/botfr.txt:2
+#, no-wrap
 msgid "botfr"
 msgstr "botfr"
 
+#. type: Plain text
+#: ../E/botfr.txt:3
+#, no-wrap
 msgid "Wheeled bot equipped with a fireball cannon."
 msgstr "Kerekes robot tűzgolyó-ágyúval felszerelve."
 
+#. type: Plain text
+#: ../E/botfr.txt:9 ../E/botgr.txt:20
+#, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botfj>winged shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked shooter</a>."
 msgstr "A kerekek egy szabványos, gyors és energiatakarékos meghajtási módot biztosítanak, amely tökéletesen alkalmas viszonylag sík terepre. Ha a terep meredekké válik, ajánlott inkább egy <a object|botfj>szárnyas lövőt</a> használni, vagy ha ez nem lehetséges, egy <a object|botfc>lánctalpas lövőt</a>."
 
+#. type: Plain text
+#: ../E/botfr.txt:17
+#, no-wrap
 msgid "<code>WheeledShooter</code>"
-msgstr "<code>WheeledShooter</code>"
+msgstr "<code>Kerekes lövő</code>"
 
+#. type: \b; header
+#: ../E/botfs.txt:1
+#, no-wrap
 msgid "<button 151/> Legged Shooter"
 msgstr "<button 151/> Lábakkal mozgó lövő"
 
+#. type: Image filename
+#: ../E/botfs.txt:2
+#, no-wrap
 msgid "botfs"
 msgstr "botfs"
 
+#. type: Plain text
+#: ../E/botfs.txt:3
+#, no-wrap
 msgid "Ant-legged creeping bot equipped with a fireball cannon."
 msgstr "Hangyaszerű lábakkal rendelkező robot, tűzgolyó-ágyúval felszerelve."
 
+#. type: Plain text
+#: ../E/botfs.txt:9
+#, no-wrap
 msgid "A moving legged shooter uses up half as much energy as a <a object|botfr>wheeled shooter</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
 msgstr "Egy lábakkal mozgó lövő feleannyi energiát használ, mint egy <a object|botfr>kerekes lövő</a>. Emellett tökéletesen alkalmas a legmeredekebb emelkedők megmászására is."
 
+#. type: Plain text
+#: ../E/botfs.txt:17
+#, no-wrap
 msgid "<code>LeggedShooter</code>"
-msgstr "<code>LeggedShooter</code>"
+msgstr "<code>Lábas lövő</code>"
 
+#. type: \b; header
+#: ../E/botgc.txt:1
+#, no-wrap
 msgid "<button 138/> Tracked Grabber"
 msgstr "<button 138/> Lánctalpas szállító"
 
+#. type: Image filename
+#: ../E/botgc.txt:2
+#, no-wrap
 msgid "botgc"
 msgstr "botgc"
 
+#. type: Plain text
+#: ../E/botgc.txt:3
+#, no-wrap
 msgid "Tracked bot equipped with an operating arm."
 msgstr "Lánctalpas robot munkakarral felszerelve."
 
+#. type: Plain text
+#: ../E/botgc.txt:5 ../E/botgj.txt:5 ../E/botgr.txt:5 ../E/botgs.txt:5
+#, no-wrap
 msgid ""
 "<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
 "<button 33/> The object is lying in front of the bot, on the ground or on the back of a second bot.\n"
@@ -190,7 +308,7 @@ msgstr "<a object|titan>Átalakított titán</a>."
 #: ../E/botgr.txt:30
 #, no-wrap
 msgid "<code>WheeledGrabber</code>"
-msgstr "<code>WheeledGrabber</code>"
+msgstr "<code>Kerekes fogó</code>"
 
 #. type: \b; header
 #: ../E/botgs.txt:1
@@ -370,7 +488,7 @@ msgstr "A lábakon mozgó orga-lövő feleannyi energiát használ, mint a <a ob
 #: ../E/botos.txt:15
 #, no-wrap
 msgid "<code>LeggedOrgaShooter</code>"
-msgstr "<code>LeggedOrgaShooter</code>"
+msgstr "<code>Lábakon járó orga-lövő</code>"
 
 #. type: \b; header
 #: ../E/botphaz.txt:1
@@ -941,3 +1059,87 @@ msgstr "A mozgó lábazott építő feleannyi energiát használ, mint egy <a ob
 #, no-wrap
 msgid "<code>LeggedBuilder</code>"
 msgstr "<code>LábazottÉpítő</code>"
+
+#. type: Image filename
+#: ../E/botfc.txt:2
+#, no-wrap
+msgid "botfc"
+msgstr "botfc"
+
+#. type: Image filename
+#: ../E/botfj.txt:2
+#, no-wrap
+msgid "botfj"
+msgstr "botfj"
+
+#. type: Plain text
+#: ../E/botgc.txt:20
+#, no-wrap
+msgid "Tracked bots can ascend steep inclinations but they are quite slow and use much energy. On flat ground for short distances, a <a object|botgr>wheeled grabber</a> is a better option. When it is possible to build <a object|botgj>winged bots</a>, these represent the best solution for long distances."
+msgstr "A lánctalpas robotok képesek meredek emelkedőkön felmenni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen, rövid távokra egy <a object|botgr>kerekes megfogó</a> jobb választás. Ha lehetőség van <a object|botgj>szárnyas robotok</a> építésére, azok jelentik a legjobb megoldást hosszú távokra."
+
+#. type: Plain text
+#: ../E/botgc.txt:22 ../E/botgj.txt:24 ../E/botgr.txt:22 ../E/botgs.txt:22
+#, no-wrap
+msgid "A grabber won't function underwater. What you'll need instead is a <a object|botsub>subber</a>."
+msgstr "A megfogó nem működik víz alatt. Helyette egy <a object|botsub>merülő</a> robotra lesz szükséged."
+
+#. type: Plain text
+#: ../E/botgc.txt:27 ../E/botgj.txt:29 ../E/botgr.txt:27 ../E/botgs.txt:27
+#, no-wrap
+msgid "To program the operating arm, use <code><a cbot|grab>grab</a></code> and <code><a cbot|drop>drop</a></code>."
+msgstr "A működő kar programozásához használd a <code><a cbot|grab>grab</a></code> és <code><a cbot|drop>drop</a></code> parancsokat."
+
+#. type: Plain text
+#: ../E/botgc.txt:30
+#, no-wrap
+msgid "<code>TrackedGrabber</code>"
+msgstr "<code>Lánctalpas szállító</code>"
+
+#. type: \b; header
+#: ../E/botgj.txt:1
+#, no-wrap
+msgid "<button 139/> Winged Grabber"
+msgstr "Szárnyas megragadó robot"
+
+#. type: Image filename
+#: ../E/botgj.txt:2
+#, no-wrap
+msgid "botgj"
+msgstr "botgj"
+
+#. type: Plain text
+#: ../E/botgj.txt:3
+#, no-wrap
+msgid "Jet propelled flying bot equipped with an operating arm."
+msgstr "Sugárhajtású repülő robot működtető karral felszerelve."
+
+#. type: Plain text
+#: ../E/botgj.txt:22
+#, no-wrap
+msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botgr>wheeled grabber</a> instead."
+msgstr "A szárnyas robotok képesek természetes akadályok – például hegyek vagy tavak – felett átrepülni, de gyorsan kifogynak az energiából. A földön lassúak. Rövid távolság megtételéhez, ahol nincs szükség repülésre, inkább <a object|botgr>kerekes megragadót</a> ajánlott használni."
+
+#. type: Plain text
+#: ../E/botgj.txt:32
+#, no-wrap
+msgid "<code>WingedGrabber</code>"
+msgstr "<code>WingedGrabber</code>"
+
+#. type: \b; header
+#: ../E/botgr.txt:1
+#, no-wrap
+msgid "<button 137/> Wheeled Grabber"
+msgstr "Kerekes megragadó robot"
+
+#. type: Image filename
+#: ../E/botgr.txt:2
+#, no-wrap
+msgid "botgr"
+msgstr "botgr"
+
+#. type: Plain text
+#: ../E/botgr.txt:3
+#, no-wrap
+msgid "Wheeled bot equipped with an operating arm."
+msgstr "Kerekes robot működtető karral felszerelve."

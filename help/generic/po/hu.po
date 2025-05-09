@@ -1,4 +1,4 @@
-## This file is part of the Colobot: Gold Edition source code
+#  This file is part of the Colobot: Gold Edition source code
 # Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
 # This file is distributed under the same license as the Colobot package.
 # Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 "X-Language: hu_HU\n"
-"X-Source-Language: en_US\n"
 "X-POOTLE-MTIME: 1406536037.000000\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Source-Language: en_US\n"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:2
@@ -51,12 +51,6 @@ msgstr "TerranovaTeam: https://github.com/orgs/colobot/members"
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
 msgstr "Mitarbeiters auf GitHub: https://github.com/colobot/colobot/graphs/contributors"
-
-#. type: Bullet: '-'
-#: ../E/authors.txt:9
-#, no-wrap
-msgid "Contributors on GitHub: https://github.com/Majika007/colobot-data/tree/hungarian-translate"
-msgstr "Fordítás on GitHub: https://github.com/Majika007/colobot-data/tree/hungarian-translate"
 
 #. type: \b; header
 #: ../E/cbot.txt:1
@@ -415,6 +409,7 @@ msgstr ""
 #, no-wrap
 msgid "Remark"
 msgstr "Megjegyzés"
+
 #. type: Plain text
 #: ../E/navig.txt:14
 #, no-wrap
@@ -601,15 +596,13 @@ msgstr "Még több van"
 #: ../E/battles.txt:51
 #, no-wrap
 msgid "There is much more options, but this is the basis. Read documentation, play the game and think creatively to come up with new ideas. Good luck and have fun!"
-msgstr ""
-"Rengeteg más lehetőség van, de ez az alap. Olvasd el a dokumentációt, játssz a játékkal, és gondolkodj kreatívan, hogy új ötletekkel állj elő. Sok szerencsét és jó szórakozást!"
+msgstr "Rengeteg más lehetőség van, de ez az alap. Olvasd el a dokumentációt, játssz a játékkal, és gondolkodj kreatívan, hogy új ötletekkel állj elő. Sok szerencsét és jó szórakozást!"
 
 #. type: Plain text
 #: ../E/battles.txt:54
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-"<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."
 
 #. type: Plain text
 #: ../E/cbot.txt:15
@@ -1173,3 +1166,30 @@ msgstr ""
 "<code><a cbot|canbuild>canbuild</a>   </code>Megnézi, hogy egy épület építhető-e\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Megnézi, hogy egy épület elérhető-e az aktuális küldetés során"
 
+#. type: Plain text
+#: ../E/cbot.txt:67
+#, no-wrap
+msgid ""
+"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+"<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
+"<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
+"<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
+"<code><a cbot|recycle>recycle</a>    </code>Recycles a derelict bot\n"
+"<code><a cbot|shield>shield</a>     </code>Extends or withdraws the shield\n"
+"<code><a cbot|fire>fire</a>       </code>Fires the cannon\n"
+"<code><a cbot|aim>aim</a>        </code>Rotates the cannon\n"
+"<code><a cbot|build>build</a>      </code>Builds a building\n"
+"<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
+"<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
+msgstr ""
+"<code><a cbot|grab>grab</a>       </code>Felvesz egy tárgyat\n"
+"<code><a cbot|drop>drop</a>       </code>Letesz egy tárgyat\n"
+"<code><a cbot|sniff>sniff</a>      </code>Átvizsgálja a talajt\n"
+"<code><a cbot|thump>thump</a>      </code>Felforgatja az idegen rovarokat\n"
+"<code><a cbot|recycle>recycle</a>    </code>Újrahasznosít egy elhagyott robotot\n"
+"<code><a cbot|shield>shield</a>     </code>Kinyújtja vagy visszahúzza a páncélt\n"
+"<code><a cbot|fire>fire</a>       </code>Kilövi a kanócot\n"
+"<code><a cbot|aim>aim</a>        </code>Elforgatja a kanócot\n"
+"<code><a cbot|build>build</a>      </code>Épít egy épületet\n"
+"<code><a cbot|flag>flag</a>       </code>Zászlót ültet el\n"
+"<code><a cbot|deflag>deflag</a>     </code>Eltávolít egy zászlót"
