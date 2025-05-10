@@ -1,0 +1,205 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Uranium"
+msgstr "Urán"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "An attempt to retrieve some uranium ore."
+msgstr "Kísérlet némi uránérc begyűjtésére."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Az irányítóközpontból"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The observation satellite has detected a chunk of <a object|uranore>uranium ore</a> on the summit of the main mountain. You need to bring it back to your spaceship."
+msgstr "A megfigyelő műhold egy darab <a object|uranore>uránércet</a> észlelt a fő hegycsúcson. Vissza kell hoznod az űrhajóhoz."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "A <format key><key help/></format> segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom-on <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:6 ../help/soluce.E.txt:21
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Irányítás</a> és a <a cbot>CBOT nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdjelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Jelenleg geostacionárius pályán kering a Saari körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELSZÍN<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      41.3C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             2.3 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      some (mountain summit)"
+msgstr ""
+"\\tab;Hőmérséklet:     41,3°C\n"
+"\\tab;Légkör:          CO2, oxigén, nitrogén\n"
+"\\tab;Szél:            2,3 m/s\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uránérc:         kevés (hegycsúcson)"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> ALTALAJ<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:   mindenhol\n"
+"\\tab;Titánérc:         nincs\n"
+"\\tab;Uránérc:          nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Észlelve:       újrahasznosítható roncsok \n"
+"\\tab;Észlelve:       óriás hangyák\n"
+"\\tab;  - Veszély:     nem azonnali"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Végigjátszás"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "You'll find a <a object|titan>titanium cube</a> left in a smashed up bot factory. Use it to build a <a object|station>power station</a>."
+msgstr "Egy <a object|titan>titánkockát</a> találhatsz egy lerombolt robotgyárban. Használd fel, hogy építs egy <a object|station>erőművet</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "The <a object|botrecy>recycler</a> is designed to convert derelicts back into usable titanium cubes."
+msgstr "A <a object|botrecy>újrahasznosító</a> a roncsokat használható titánkockákká alakítja vissza."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build both a <a object|repair>repair center</a> and a <a object|radar>radar</a>."
+msgstr "Építs egy <a object|repair>javítóközpontot</a> és egy <a object|radar>radart</a>."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Recharge one of the <a object|power>power cells</a> available and power a <a object|botfj>winged shooter</a>."
+msgstr "Tölts fel egyet az elérhető <a object|power>akkumulátorok</a> közül, és lásd el energiával a <a object|botfj>szárnyas lövőt</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Eliminate all <a object|ant>ants</a>. Note that you should recharge and repair the shooter regularly. Check your levels."
+msgstr "Semmisíts meg minden <a object|ant>hangyát</a>. Ne felejtsd el rendszeresen feltölteni és javítani a lövőt. Figyeld az energiaszintedet."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Fully charge the <a object|botgr>grabber</a>'s power cell, then radio-control it to the summit..."
+msgstr "Töltsd fel teljesen a <a object|botgr>markoló</a> akkumulátorát, majd irányítsd rádión a csúcsra..."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid ""
+"      a) Access the first level by ramp on west;\n"
+"      b) On first level travel east to find second ramp;\n"
+"      c) On second level travel south to find third ramp;\n"
+"      d) On third level travel west for access to summit;\n"
+"...then, with the chunk, straight back to the spaceship by the most direct route so as to save the remaining power."
+msgstr ""
+"      a) Az első szintet a nyugati rámpán keresztül éred el;\n"
+"      b) Az első szinten menj keletre, hogy megtaláld a második rámpát;\n"
+"      c) A második szinten menj délre, hogy megtaláld a harmadik rámpát;\n"
+"      d) A harmadik szinten menj nyugatra, hogy elérd a csúcsot;\n"
+"...ezután a darabbal a lehető legközvetlenebb úton térj vissza az űrhajóhoz, hogy megőrizd a maradék energiát."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:19
+#, no-wrap
+msgid "Climb aboard the ship yourself and take off."
+msgstr "Szállj be az űrhajóba és szállj fel."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:22
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Irányítás</a>"

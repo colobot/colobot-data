@@ -1,0 +1,145 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "The Lost Valley"
+msgstr "Az Elveszett Völgy"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Explore a foggy and perilous valley."
+msgstr "Fedezz fel egy ködös és veszedelmes völgyet."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A Küldetésirányítástól"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This planet has turned out to be a very unlikely candidate for colonization. Better to leave it for good. Retrieve the <a object|bbox>black box</a> from the previous expedition and head towards the next planet."
+msgstr "Ez a bolygó nagyon valószínűtlen jelöltnek bizonyult a kolonizációra. Jobb végleg elhagyni. Szerezd vissza az előző expedíció <a object|bbox>fekete dobozát</a>, és indulj a következő bolygó felé."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The observation satellite has indicated that its present location is at the bottom of a valley. However the pervasive stratum of electromagnetic smog could make all satellite information rather undependable."
+msgstr "A megfigyelő műhold szerint az aktuális helyzete egy völgy alján van. Azonban az elektromágneses szmog sűrű rétege megbízhatatlanná teheti az összes műholdas adatot."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Stay alert."
+msgstr "Légy éber."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "A <format key><key help/></format> segítségével bármikor újra elolvashatod ezeket az utasításokat a személyes SatCom készülékeden <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10 ../help/soluce.E.txt:6
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Irányítás</a> és <a cbot>CBOT nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdjelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr "Jelenleg geostacionárius pályán kering a Crystalium körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELSZÍN<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      1.2C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Hőmérséklet:     1.2C\n"
+"\\tab;Légkör:          nitrogén\n"
+"\\tab;Szél:            0.0 m/s\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uránérc:         nincs"
+
+msgid "-> SUBSOIL<c/>"
+msgstr "-> ALTALAJ<c/>"
+
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:   nincs\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uránérc:         nincs"
+
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> TOVÁBBI INFORMÁCIÓK<c/>"
+
+msgid ""
+"\\tab;Detected:         electromagnetic smog\n"
+"\\tab;Detected:         reusable derelicts"
+msgstr ""
+"\\tab;Észlelve:         elektromágneses szmog\n"
+"\\tab;Észlelve:         újrahasznosítható roncsok"
+
+msgid "Walkthrough"
+msgstr "Végigjátszás"
+
+msgid "Somewhere northeast in the valley itself you should come across a fully functional <a object|station>power station</a>. Northwest you will find several <a object|power>power cells</a>."
+msgstr "Valahol északkeleten, a völgyben egy teljesen működőképes <a object|station>erőművet</a> találhatsz. Északnyugaton több <a object|power>energiaelemet</a> is találsz."
+
+msgid "A few shooters in working condition have been abandoned in and around the same area in the valley; use them to shoot all the ants. With the <a object|botgj>winged grabber</a>, you can then retrieve the <a object|bbox>black box</a> that is located behind the derelict spaceship and take off."
+msgstr "Néhány működőképes lövőt hagytak hátra a völgy azon részén és környékén; használd őket az összes hangya kilövésére. A <a object|botgj>szárnyas markolóval</a> ezután megszerezheted a <a object|bbox>fekete dobozt</a>, amely a roncs űrhajó mögött található, és felszállhatsz."
+
+msgid "<a command>Controls</a>"
+msgstr "<a command>Irányítás</a>"

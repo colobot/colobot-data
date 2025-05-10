@@ -1,0 +1,201 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Transport"
+msgstr "Szállítás"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Develop your nuclear technology in order to increase your operating range."
+msgstr "Fejlessze ki a nukleáris technológiát, hogy növelje működési hatósugarát."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A Küldetésirányítástól"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You need to retrieve an <a object|tnt>explosive device</a> that has been spotted in a deep valley next to a lake of boiling lava."
+msgstr "Egy <a object|tnt>robbanóeszközt</a> kell megszereznie, amit egy mély völgyben és egy forró lávától szomszédos tó közelében láttak."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Because of the high temperatures, reactors no longer function, i.e. flying is impossible. It is a long way there and you should equip your bots with <a object|atomic>nuclear power cells</a>. Nuclear power cells are manufactured from <a object|uranore>uranium ore</a>."
+msgstr "A magas hőmérsékletek miatt a reaktorok már nem működnek, tehát a repülés lehetetlen. Hosszú az út, és robotjait <a object|atomic>nukleáris akkumulátorokkal</a> kell felszerelnie. A nukleáris akkumulátorokat <a object|uranore>uranércből</a> készítik."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "A more efficient program for the gathering of raw materials is attached to this message."
+msgstr "Egy hatékonyabb program a nyersanyagok gyűjtésére mellékelve van ehhez az üzenethez."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "A note of warning: the explosive device is extremely volatile. Use extreme caution."
+msgstr "Figyelmeztetés: a robbanóeszköz rendkívül instabil. Használjon fokozott óvatosságot."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> lehetővé teszi, hogy ezeket az utasításokat bármikor megtekintse személyes SatCom készülékén <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:12 ../help/soluce.E.txt:14
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Parancsok</a> és <a cbot>CBOT Nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdjelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Jelenleg geostacionárius pályán a Volcano körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELÜLET<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      84.6C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             2.2 mps\n"
+"\\tab;Titanium ore:     everywhere\n"
+"\\tab;Uranium ore:      some"
+msgstr ""
+"\\tab;Hőmérséklet:     84.6C\n"
+"\\tab;Atmoszféra:     CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Szél:           2.2 m/s\n"
+"\\tab;Titánérc:       mindenütt\n"
+"\\tab;Uranérc:        néhány"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Földalatti<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiforrás:  mindenhol\n"
+"\\tab;Titaniumérc:  nincs\n"
+"\\tab;Uraniumérc:   nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         unknown organisms\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Felfedezve:     újrahasznosítható roncsok \n"
+"\\tab;Felfedezve:     ismeretlen organizmusok\n"
+"\\tab;  - Veszély:    ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Játékmenet"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Start by recharging a <a object|power>regular power cell</a> and power the <a object|research>research center</a>. Use it to research the technology for the building of a <a object|nuclear>nuclear plant</a> <button 170/>."
+msgstr "Kezdje azzal, hogy feltölti a <a object|power>normál energia cellát</a>, és ellátja vele a <a object|research>kutató központot</a>. Használja ezt a technológia kutatásához, ami szükséges egy <a object|nuclear>atom erőmű</a> felépítéséhez <button 170/>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Produce a <a object|botgr>wheeled grabber</a>."
+msgstr "Készítsen egy <a object|botgr>kerekes markolót</a>."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Find some <a object|uranore>uranium ore</a> northwest of your position. The nuclear plant will then transform it into <a object|atomic>nuclear power cells</a> of a longer duration."
+msgstr "Találjon néhány <a object|uranore>uraniumércet</a> a pozíciója északnyugati részén. Az atom erőmű ezután átalakítja azt <a object|atomic>nukleáris energia cellákká</a>, amelyek hosszabb ideig tartanak."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Power a <a object|botfr>wheeled shooter</a> with one of your new nuclear cells. Dispatch it to kill all intruding <a object|spider>spiders</a> along the way."
+msgstr "Töltse fel az egyik új nukleáris cellájával a <a object|botfr>kerekes lövőt</a>. Küldje el, hogy megölje az összes betolakodó <a object|spider>pókot</a> az útján."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "A <a object|radar>radar</a> is optional but could turn out useful to mark the position of the spiders on your mini map."
+msgstr "Egy <a object|radar>radar</a> opcionális, de hasznos lehet a pókok pozíciójának megjelölésére a minimapján."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "A wheeled grabber should be part of the expedition. It will both clear the way cluttered with <a object|titanore>titanium ore</a> and bring the <a object|tnt>explosive device</a> back."
+msgstr "A kerekes markolónak része kell, hogy legyen az expedíciónak. Tisztítja az utat, amely tele van <a object|titanore>titánérccel</a>, és visszahozza a <a object|tnt>robbanószert</a>."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:15
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Parancsok</a>"

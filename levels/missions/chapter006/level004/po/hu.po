@@ -1,0 +1,185 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Technological Treasure"
+msgstr "Technológiai kincs"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Rediscover a new type of bot."
+msgstr "Fedezzen fel egy új típusú robotot."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "An urgent notification from Mission Control"
+msgstr "Sürgős értesítés a Küldetésirányítótól"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "As you were about to take off, we received from the satellite the following piece of information: a bot of a type yet unknown has been spotted on Volcano. Try to bring it back onto your spaceship for further study."
+msgstr "Amikor éppen felszállni készült, a műholdtól a következő információt kaptuk: egy eddig ismeretlen típusú robotot észleltek a Volcano-n. Próbálja meg visszavinni a űrhajójára további tanulmányozás céljából."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Our engineers on Earth have very recently come up with a formula that should allow reactors to function properly, at least for a short while, despite the high temperatures. The data have been transmitted to you."
+msgstr "Földi mérnökeink nemrégiben kidolgoztak egy formulát, amely lehetővé teszi, hogy a reaktorok megfelelően működjenek, legalábbis rövid ideig, a magas hőmérsékletek ellenére. Az adatokat átküldtük önnek."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> lehetővé teszi, hogy bármikor átnézze ezeket az utasításokat a személyes SatCom <button 63/> eszközén."
+
+#. type: \t; header
+#: ../help/help.E.txt:8 ../help/soluce.E.txt:12
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Vezérlés</a> és <a cbot>CBOT nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műhold jelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Jelenleg a Volcano körüli geostacionárius pályán."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELÜLET<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      96.7C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             2.8 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Hőmérséklet:     96.7C\n"
+"\\tab;Légkör:          CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Szél:            2.8 m/s\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uranérc:         nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Felszín alatti<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:    nincs\n"
+"\\tab;Titániumérc:     nincs\n"
+"\\tab;Uránérc:         nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         bot\n"
+"\\tab;  - Type:         unknown\n"
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Felfedezve:      robot\n"
+"\\tab;  - Típus:       ismeretlen\n"
+"\\tab;Felfedezve:      óriás hangyák\n"
+"\\tab;  - Veszély:     nem közvetlen"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Útmutató"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "A gap in the northwest mountain leads the way to a lake of boiling lava."
+msgstr "Egy rés az északnyugati hegyben vezet el egy forró lávától hemzsegő tóhoz."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Just hop from one rocky island to the next. Keep checking your reactor, let it cool off completely before taking off again. The mini map will help you to figure out where the closest island is."
+msgstr "Csak ugorj egyik sziklás szigetről a másikra. Folyamatosan ellenőrizd a reaktort, hagyd teljesen lehűlni, mielőtt újra felszállsz. A mini térkép segít megtalálni a legközelebbi szigetet."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "In case of an ant attack, don't worry too much. Just take the time for your reactor to cool off, without lingering longer than necessary, and your built-in shield should do its duty. However we advise you to save the game from time to time (key Esc, and \"Save\"), so you will not have to start from the beginning in case of a landing in the lava lake."
+msgstr "Amegasztikus támadás esetén ne aggódj túlzottan. Csak hagyd, hogy a reaktor lehűljön, ne tartózkodj tovább a szükségesnél, és az beépített páncél elvégzi a dolgát. Azonban javasoljuk, hogy időnként mentsd el a játékot (Esc billentyű, majd \"Mentés\"), hogy ne kelljen a kezdettől újraindítani, ha a lávás tóba landolsz."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "The bot is at the westernmost point on your map though you'll have to take a roundabout route to reach it. A <a object|atomic>nuclear power cell</a> lies nearby."
+msgstr "A robot a térképeden a legnyugatibb ponton található, de egy kerülőúton kell odajutnod. Egy <a object|atomic>atomenergia-akkumulátor</a> van a közelben."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "You don't have to radio-control the bot back to the spaceship by the same way you came because its reactor has a greater range than yours. One or two stops may still be needed and watch out for those ants."
+msgstr "Nem kell ugyanazon az úton rádióval irányítani a robotot vissza az űrhajóhoz, mint ahogyan jöttél, mert a reaktora nagyobb hatótávolsággal rendelkezik, mint a tiéd. Egy-két megállóra még szükség lehet, és vigyázz azokra a hangyákra."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Irányítás</a>"

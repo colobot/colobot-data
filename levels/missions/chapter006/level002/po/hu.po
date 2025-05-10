@@ -1,0 +1,233 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Analysis"
+msgstr "Elemzés"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Recover and analyze some organic matter."
+msgstr "Szerezz meg és elemezz egy kis szerves anyagot."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A Misszióirányításból"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The previous expedition provided us with a piece of information about some <a object|bullet>organic matter</a>, which seems to be produced by the <a object|ant>ants</a>, and which opened startling new possibilities. It apparently allows the creation of a new type of mutant bot with enhanced performance through the use of insect parts."
+msgstr "Az előző expedíció néhány információt adott nekünk egy <a object|bullet>szerves anyagról</a>, amely úgy tűnik, hogy az <a object|ant>hangyák</a> által termelt, és amely megdöbbentő új lehetőségeket nyitott meg. Ez látszólag lehetővé teszi egy új típusú mutáns robot létrehozását, amely a rovarrészek felhasználásával fokozott teljesítménnyel bír."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Your mission is to experiment with the first practical application of this \"green gold\". Build a <a object|botgs>legged grabber bot</a>, load it on the spaceship and take off."
+msgstr "A feladatod, hogy kísérletezz a \"zöld arany\" első gyakorlati alkalmazásával. Építs egy <a object|botgs>lábas grabber robotot</a>, tedd fel a űrhajóra és indítsd el."
+
+#. type: \b; header
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Procedure"
+msgstr "Eljárás"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Take a sample of organic matter from a nest of giant ants. The analysis of it will be performed by an <a object|labo>autolab</a>, which will also perform the necessary research to allow a practical application."
+msgstr "Vegyél egy mintát a szerves anyagból egy óriás hangyák fészkéből. Az elemzést egy <a object|labo>autolab</a> végzi el, amely a szükséges kutatásokat is elvégzi a gyakorlati alkalmazás lehetővé tétele érdekében."
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "In order to improve your defense capacity, we have transmitted a program to your <a object|botgr>grabber bots</a> that takes care of recharging the power cell of a <a object|tower>defense tower</a> (see <button 53/> )."
+msgstr "A védelmi képességed javítása érdekében egy programot továbbítottunk a <a object|botgr>grabber robotjaid</a>-nak, amely gondoskodik egy <a object|tower>védőtorony</a> akkumulátorának feltöltéséről (lásd <button 53/> )."
+
+#. type: \b; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Note"
+msgstr "Megjegyzés"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "The temperature has dropped significantly, it should therefore be possible to fly."
+msgstr "A hőmérséklet jelentősen csökkent, ezért most már lehetséges a repülés."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr ""
+
+#. type: \t; header
+#: ../help/help.E.txt:16 ../help/soluce.E.txt:18
+#, no-wrap
+msgid "See also"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "A <a command>Vezérlés</a> és a <a cbot>CBOT Nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műhold Jelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Jelenleg egy geostacionárius pályán a Volcano körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELÜLET<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      53.1C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             0.3 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      little"
+msgstr ""
+"\\tab;Hőmérséklet:     53.1C\n"
+"\\tab;Légkör:          CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Szél:            0.3 m/s\n"
+"\\tab;Titánérc:        néhány\n"
+"\\tab;Uranérc:         kevés"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Földalatti<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:  mindenhol\n"
+"\\tab;Titánérc:       nincs\n"
+"\\tab;Uránérc:       nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       yes, not immediate\n"
+"\\tab;Detected:         unknown flying organisms\n"
+"\\tab;  - Danger:       yes, immediate"
+msgstr ""
+"\\tab;Felfedezve:      óriás hangyák\n"
+"\\tab;  - Veszély:     igen, nem azonnali\n"
+"\\tab;Felfedezve:      ismeretlen repülő organizmusok\n"
+"\\tab;  - Veszély:     igen, azonnali"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Lépésről lépésre"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Quickly build a <a object|tower>defense tower</a> north of your spaceship.  After you <a object|power>powered</a> it, execute the program <code>ServiceTower1</code> on one of the <a object|botgr>grabbers</a> which will recharge the power cell when it is empty. Place another power cell 2 m north of the tower as a first target for the attacking wasps."
+msgstr "Gyorsan építsen egy <a object|tower>védőtornyot</a> északra a hajójától. Miután <a object|power>felhajtotta</a>, futtassa a <code>ServiceTower1</code> programot az egyik <a object|botgr>felvevőn</a>, amely feltölti az akkumulátort, ha az lemerül. Helyezzen el egy másik akkumulátort 2 méterre a torony északi részén, mint első célpontot a támadó darazsak számára."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Build a <a object|station>power station</a> close to the defense tower."
+msgstr "Építsen egy <a object|station>erőművet</a> a védőtornyhoz közel."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build a <a object|convert>converter</a> south of the spaceship and execute the program <code>CollectTitanium3</code> on the second <a object|botgr>grabber</a> in order to produce some <a object|titan>titanium</a>."
+msgstr "Építsen egy <a object|convert>konvertert</a> a hajó déli részén, és futtassa a <code>CollectTitanium3</code> programot a második <a object|botgr>felvevőn</a>, hogy titánt <a object|titan>titaniumot</a> állítson elő."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Build a <a object|factory>bot factory</a> and a <a object|botfj>winged shooter</a> to eliminate the <a object|ant>ants</a>."
+msgstr "Építsen egy <a object|factory>robotgyárat</a> és egy <a object|botfj>szárnyas lövőt</a> az <a object|ant>hangyák</a> eltüntetésére."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Use a <a object|botgj>winged grabber</a> to bring back some <a object|bullet>organic matter</a> from the island in the middle of the lava lake."
+msgstr "Használjon egy <a object|botgj>szárnyas fogót</a>, hogy szerves anyagot <a object|bullet>szerves anyagot</a> hozzon vissza a lávafolyó közepén lévő szigetről."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Build an <a object|labo>autolab</a>, drop the <a object|bullet>organic matter</a> on the platform and click the button <button 109/> in order to develop the blueprints for legged bots."
+msgstr "Építsen egy <a object|labo>autolab</a>-ot, helyezze az <a object|bullet>szerves anyagot</a> a platformra, majd kattintson a <button 109/> gombra a lábakkal rendelkező robotok tervrajzának kifejlesztéséhez."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:14
+#, no-wrap
+msgid "As soon as the organic matter has been analyzed, produce a <a object|botgs>legged grabber</a> and bring it aboard the spaceship."
+msgstr "Miután a szerves anyagot elemezték, készítsen egy <a object|botgs>lábakkal rendelkező fogót</a> és vigye azt a hajóra."
+
+#. type: Bullet: '8)'
+#: ../help/soluce.E.txt:16
+#, no-wrap
+msgid "Take off."
+msgstr "Induljon el."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:19
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Szabályozás</a>"
