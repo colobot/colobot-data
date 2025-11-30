@@ -1,6 +1,6 @@
 public class order
 {
-	int    m_type = nan;
+	int    m_type = 0;
 	float  m_param;
 }
 
@@ -11,7 +11,7 @@ public class exchange
 	// Put an order
 	synchronized bool put(order a)
 	{
-		if ( m_order.m_type == nan )
+		if ( m_order.m_type == 0 )
 		{
 			m_order = a;
 			return true;
@@ -31,7 +31,7 @@ public class exchange
 	// Delete an order.
 	synchronized void remove()
 	{
-		m_order.m_type = nan;
+		m_order.m_type = 0;
 	}
 }
 
@@ -45,7 +45,7 @@ extern void object::Slave4( )
 		while ( true )
 		{
 			todo = list.get();
-			if ( todo.m_type != nan )  break;
+			if ( todo.m_type != 0 )  break;
 			wait(1);
 		}
 
