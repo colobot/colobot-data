@@ -1,0 +1,718 @@
+#  This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-10 09:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../E/1_SwitchCell.txt:1 ../E/10_FollowPhazer.txt:1 ../E/1_SwitchCell1_link.txt:1 ../E/2_Recharge1.txt:1 ../E/2_Recharge1_link.txt:1 ../E/3_Recharge2.txt:1 ../E/3_Recharge2_link.txt:1 ../E/4_CollectTitanium1.txt:1 ../E/5_CollectTitanium2.txt:1 ../E/5_CollectTitanium2_link.txt:1 ../E/6_KillAnt1.txt:1 ../E/6_KillAnt1_link.txt:1 ../E/7_CollectTitanium3.txt:1 ../E/7_CollectTitanium3_link.txt:1 ../E/8_ServiceTower1.txt:1 ../E/8_ServiceTower1_link.txt:1 ../E/9_terranova.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "A Houstontól küldött programok"
+
+#. type: Plain text
+#: ../E/1_SwitchCell1.txt:2
+#, no-wrap
+msgid "Following is a program that has been developed by our engineers. It allows you to switch <a object|power>power cells</a>. A charged cell needs to be placed on the ground in front of the bot."
+msgstr "Ez egy mérnökeink által készített program, amely lehetővé teszi az <a object|power>energia cellák</a> cseréjét. Egy feltöltött cellát a robot elé, a földre kell helyezni."
+
+#. type: Plain text
+#: ../E/1_SwitchCell1.txt:4
+#, no-wrap
+msgid "In order to execute this program, select the program <code>SwitchCell1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>."
+msgstr "A program futtatásához válaszd ki a <code>SwitchCell1</code> programot a roboton elérhető programok listájából (a képernyő bal alsó sarkában), majd kattints a nyíl ikonra <button 21/>."
+
+#. type: Source code
+#: ../E/1_SwitchCell1.txt:6
+#, no-wrap
+msgid "extern void object::SwitchCell1()\n"
+"{\n"
+"\t<a cbot|grab>grab</a>(InFront);     // take the new cell in front\n"
+"\t<a cbot|drop>drop</a>(Behind);      // and drop it behind\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(EnergyCell);  // take the cell from the bot\n"
+"\t<a cbot|drop>drop</a>(InFront);     // and drop it in front\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(Behind);      // take the new cell\n"
+"\t<a cbot|drop>drop</a>(EnergyCell);  // and drop it on the bot\n"
+"}"
+msgstr "extern void object::SwitchCell1()\n"
+"{\n"
+"\t<a cbot|grab>grab</a>(InFront);     // vedd el az új cellát elölről\n"
+"\t<a cbot|drop>drop</a>(Behind);      // és tedd le hátul\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(EnergyCell);  // vedd el a cellát a robotból\n"
+"\t<a cbot|drop>drop</a>(InFront);     // és tedd le előre\n"
+"\t\n"
+"\t<a cbot|grab>grab</a>(Behind);      // vedd el az új cellát\n"
+"\t<a cbot|drop>drop</a>(EnergyCell);  // és tedd vissza a robotba\n"
+"}"
+
+#. type: Plain text
+#: ../E/1_SwitchCell1_link.txt:2 ../E/2_Recharge1_link.txt:2 ../E/3_Recharge2_link.txt:2 ../E/5_CollectTitanium2_link.txt:2 ../E/6_KillAnt1_link.txt:2 ../E/7_CollectTitanium3_link.txt:2 ../E/8_ServiceTower1_link.txt:2
+#, no-wrap
+msgid "We did not develop a specific program for this mission. However, you can develop your own programs if you think it would be useful."
+msgstr "Ehhez a küldetéshez nem fejlesztettünk külön programot. Azonban ha hasznosnak látod, készíthetsz saját programokat."
+
+#. type: \b; header
+#: ../E/10_FollowPhazer.txt:40 ../E/1_SwitchCell1_link.txt:4 ../E/2_Recharge1.txt:20 ../E/2_Recharge1_link.txt:4 ../E/3_Recharge2.txt:23 ../E/3_Recharge2_link.txt:4 ../E/4_CollectTitanium1.txt:24 ../E/5_CollectTitanium2.txt:32 ../E/5_CollectTitanium2_link.txt:4 ../E/6_KillAnt1.txt:23 ../E/6_KillAnt1_link.txt:4 ../E/7_CollectTitanium3.txt:53 ../E/7_CollectTitanium3_link.txt:4 ../E/8_ServiceTower1.txt:43 ../E/8_ServiceTower1_link.txt:4 ../E/9_terranova.txt:20
+#, no-wrap
+msgid "Archives"
+msgstr "Archívum"
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:41 ../E/1_SwitchCell1_link.txt:5 ../E/2_Recharge1.txt:21 ../E/2_Recharge1_link.txt:5 ../E/3_Recharge2.txt:24 ../E/3_Recharge2_link.txt:5 ../E/4_CollectTitanium1.txt:25 ../E/5_CollectTitanium2.txt:33 ../E/5_CollectTitanium2_link.txt:5 ../E/6_KillAnt1.txt:24 ../E/6_KillAnt1_link.txt:5 ../E/7_CollectTitanium3.txt:54 ../E/7_CollectTitanium3_link.txt:5 ../E/8_ServiceTower1.txt:44 ../E/8_ServiceTower1_link.txt:5 ../E/9_terranova.txt:21
+#, no-wrap
+msgid "Index of the programs dispatched in former missions:"
+msgstr "Korábbi küldetésekben használt programok jegyzéke:"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:50 ../E/1_SwitchCell1_link.txt:7 ../E/2_Recharge1.txt:23 ../E/2_Recharge1_link.txt:8 ../E/3_Recharge2.txt:26 ../E/3_Recharge2_link.txt:9 ../E/4_CollectTitanium1.txt:29 ../E/5_CollectTitanium2.txt:38 ../E/5_CollectTitanium2_link.txt:11 ../E/6_KillAnt1.txt:30 ../E/6_KillAnt1_link.txt:12 ../E/7_CollectTitanium3.txt:61 ../E/7_CollectTitanium3_link.txt:13 ../E/8_ServiceTower1.txt:52 ../E/8_ServiceTower1_link.txt:14 ../E/9_terranova.txt:30
+#, no-wrap
+msgid "<code><a programs/1_SwitchCell1>SwitchCell1</a></code>"
+msgstr "<code><a programs/1_SwitchCell1>SwitchCell1</a></code>"
+
+#. type: Plain text
+#: ../E/2_Recharge1.txt:2
+#, no-wrap
+msgid "Below is a program that has been developed by our engineers. It allows you to recharge the <a object|power>power cell</a> of a bot: it goes to the closest <a object|station>power station</a>, waits 5 seconds, and comes back to the initial position."
+msgstr "Az alábbi programot mérnökeink fejlesztették. Lehetővé teszi egy robot <a object|power>energia-cellájának</a> feltöltését: elmegy a legközelebbi <a object|station>töltőállomásra</a>, vár 5 másodpercet, majd visszatér a kiindulási pontra."
+
+#. type: Plain text
+#: ../E/2_Recharge1.txt:4
+#, no-wrap
+msgid "Remark: If you click on an element of the program underlined in blue, your SatCom will display a text that explains this element. The texts that follow a double slash <code>//</code> are not part of the program, but are comments that help you to understand the program."
+msgstr "Megjegyzés: ha rákattintasz a program kék aláhúzott elemeire, a SatCom szöveges magyarázatot ad róluk. A <code>//</code> után álló szövegek nem részei a programnak, csupán megjegyzések, melyek segítik a megértést."
+
+#. type: Source code
+#: ../E/2_Recharge1.txt:6
+#, no-wrap
+msgid "extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
+"\t<a cbot|type>object</a> item;           // info. about power station\n"
+"\t\n"
+"\tstart = position;      // store initial position\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
+"\t<a cbot|wait>wait</a>(5);               // wait 5 seconds\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
+"}"
+msgstr "extern void object::Recharge1()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // változó a kezdőpozícióhoz\n"
+"\t<a cbot|type>object</a> item;           // információ a töltőállomásról\n"
+"\t\n"
+"\tstart = position;      // kezdőpozíció eltárolása\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // töltőállomás keresése\n"
+"\t<a cbot|goto>goto</a>(item.position);   // menj a töltőállomáshoz\n"
+"\t<a cbot|wait>wait</a>(5);               // várj 5 másodpercet\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // menj vissza a kezdőpozícióba\n"
+"}"
+
+#. type: Plain text
+#: ../E/3_Recharge2.txt:2
+#, no-wrap
+msgid "We have improved the recharge program. When it arrives at the <a object|station>power station</a>, the bot does not wait exactly 5 seconds, but only until the <a object|power>power cell</a> is fully charged. After the bot is back at the initial position, it displays a message on the screen."
+msgstr "Fejlesztettük a töltőprogramot. Amikor megérkezik a <a object|station>erőműhöz</a>, a robot nem pontosan 5 másodpercet vár, hanem csak addig, amíg a <a object|power>akkumulátor</a> teljesen fel nem töltődik. Miután a robot visszatér a kezdőpozícióba, üzenetet jelenít meg a képernyőn."
+
+#. type: Source code
+#: ../E/3_Recharge2.txt:4
+#, no-wrap
+msgid "extern void object::Recharge2()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
+"\t<a cbot|type>object</a> item;           // info. about power station\n"
+"\t\n"
+"\tstart = position;      // store initial position\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t<a cbot|goto>goto</a>(item.position);   // go to the power station\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
+"\t{\n"
+"\t\t<a cbot|wait>wait</a>(1);           // wait until recharged\n"
+"\t}\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // go back to initial pos.\n"
+"\t<a cbot|message>message</a>(\"Recharge completed\");\n"
+"}"
+msgstr "extern void object::Recharge2()\n"
+"{\n"
+"\t<a cbot|type>point</a>  start;          // változó a kezdőpozícióhoz\n"
+"\t<a cbot|type>object</a> item;           // információ az erőműről\n"
+"\t\n"
+"\tstart = position;      // kezdőpozíció eltárolása\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // erőmű keresése\n"
+"\t<a cbot|goto>goto</a>(item.position);   // menj az erőműhöz\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( <a cbot|object>energyCell.energyLevel</a> < 1 )\n"
+"\t{\n"
+"\t\t<a cbot|wait>wait</a>(1);           // várakozás a teljes feltöltésig\n"
+"\t}\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(start);           // visszatérés a kezdőpontra\n"
+"\t<a cbot|message>message</a>(\"Töltés befejezve.\"); //üzenet\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:49 ../E/2_Recharge1_link.txt:7 ../E/3_Recharge2.txt:27 ../E/3_Recharge2_link.txt:8 ../E/4_CollectTitanium1.txt:28 ../E/5_CollectTitanium2.txt:37 ../E/5_CollectTitanium2_link.txt:10 ../E/6_KillAnt1.txt:29 ../E/6_KillAnt1_link.txt:11 ../E/7_CollectTitanium3.txt:60 ../E/7_CollectTitanium3_link.txt:12 ../E/8_ServiceTower1.txt:51 ../E/8_ServiceTower1_link.txt:13 ../E/9_terranova.txt:29
+#, no-wrap
+msgid "<code><a programs/2_Recharge1>Recharge1</a></code>"
+msgstr "<code><a programs/2_Recharge1>Feltöltés1</a></code>"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:48 ../E/3_Recharge2_link.txt:7 ../E/4_CollectTitanium1.txt:27 ../E/5_CollectTitanium2.txt:36 ../E/5_CollectTitanium2_link.txt:9 ../E/6_KillAnt1.txt:28 ../E/6_KillAnt1_link.txt:10 ../E/7_CollectTitanium3.txt:59 ../E/7_CollectTitanium3_link.txt:11 ../E/8_ServiceTower1.txt:50 ../E/8_ServiceTower1_link.txt:12 ../E/9_terranova.txt:28
+#, no-wrap
+msgid "<code><a programs/3_Recharge2>Recharge2</a></code>"
+msgstr "<code><a programs/3_Recharge2>Feltöltés2</a></code>"
+
+#. type: Plain text
+#: ../E/4_CollectTitanium1.txt:2
+#, no-wrap
+msgid "Below is one of the programs that has been developed by our engineers.\n"
+"It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of <a object|titanore>titanium ore</a> and place it on the <a object|convert>converter</a>."
+msgstr "Az alábbi programot mérnökeink fejlesztették.\n"
+"Utasítja a <a object|botgr>rakodórobotot</a>, hogy hozza el a legközelebbi <a object|titanore>titánérc</a> darabot, és helyezze azt a <a object|convert>konverterre</a>."
+
+#. type: Plain text
+#: ../E/4_CollectTitanium1.txt:5
+#, no-wrap
+msgid "In order to execute this program, select the program <code>CollectTitanium1</code> in the list of the programs available on the bot (on the lower left-hand corner of your screen), and click on the arrow symbol <button 21/>. At any moment you can stop the program and take over at the controls with the stop button <button 8/>."
+msgstr "A program futtatásához válaszd ki a <code>CollectTitanium1</code> programot a roboton elérhető programok listájából (a képernyő bal alsó sarkában), majd kattints a nyíl szimbólumra <button 21/>. A program bármikor megszakítható, és kézi irányításra válthatsz a stop gombbal <button 8/>."
+
+#. type: Source code
+#: ../E/4_CollectTitanium1.txt:7
+#, no-wrap
+msgid "extern void object::CollectTitanium1()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t// 2) Go to the titanium ore and grab it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\n"
+"\t// 3) Go to the converter and drop it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"}"
+msgstr "extern void object::CollectTitanium1()\n"
+"{\n"
+"\t// 1) Változók definiálása.\n"
+"\t<a cbot|type>object</a>  item;            // információk az objektumokról\n"
+"\t\n"
+"\t// 2) Menj a titániumérchez és vedd fel.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// keresd meg a titániumércet\n"
+"\t<a cbot|goto>goto</a>(item.position);     // menj a helyszínre\n"
+"\t<a cbot|grab>grab</a>();                  // vedd fel a titániumot\n"
+"\t\n"
+"\t// 3) Menj a konverterhez és tedd le.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // keresd meg a konvertert\n"
+"\t<a cbot|goto>goto</a>(item.position);     // menj a helyszínre\n"
+"\t<a cbot|drop>drop</a>();                  // tedd le a titániumot\n"
+"\t<a cbot|move>move</a>(-2.5);              // lépj vissza 2,5 m-t\n"
+"}"
+
+#. type: Plain text
+#: ../E/5_CollectTitanium2.txt:2
+#, no-wrap
+msgid "Below is one of the programs that has been developed by our engineers.\n"
+"An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
+msgstr "Alább látható az egyik program, amelyet mérnökeink fejlesztettek.\n"
+"Ez a korábbi program fejlesztett változata: a <a object|botgr>grabber</a> a konvertertől való visszaúton, szükség esetén, megáll a <a object|station>erőműnél</a>, hogy feltöltse az energiatartályát."
+
+#. type: Plain text
+#: ../E/5_CollectTitanium2.txt:5
+#, no-wrap
+msgid "This program also works on <a object|botgj>winged grabbers</a>, if the <a object|derrick>derrick</a> is on another island than the <a object|convert>converter</a>."
+msgstr "Ez a program <a object|botgj>szárnyas grabber-ekkel</a> is működik, ha a <a object|derrick>torony</a> egy másik szigeten van, mint a <a object|convert>konverter</a>."
+
+#. type: Source code
+#: ../E/5_CollectTitanium2.txt:7
+#, no-wrap
+msgid "extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t// 2) Go to the titanium ore and grab it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium ore\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\n"
+"\t// 3) Go to the converter and drop it.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"\t\t\n"
+"\t// 4) If power cell half empty, recharges.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // if so:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // look for station\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // go there\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // wait\n"
+"\t}\n"
+"}"
+msgstr "extern void object::CollectTitanium2()\n"
+"{\n"
+"\t// 1) Változók definiálása.\n"
+"\t<a cbot|type>object</a>  item;            // információ az objektumokról\n"
+"\t\n"
+"\t// 2) Menj a titánérchez és fogd meg.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// keresd meg a titánércet\n"
+"\t<a cbot|goto>goto</a>(item.position);     // menj a pozícióra\n"
+"\t<a cbot|grab>grab</a>();                  // fogd meg a titánt\n"
+"\t\n"
+"\t// 3) Menj a konverterhez és tedd le.\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // keresd meg a konvertert\n"
+"\t<a cbot|goto>goto</a>(item.position);     // menj a pozícióra\n"
+"\t<a cbot|drop>drop</a>();                  // tedd le a titánt\n"
+"\t<a cbot|move>move</a>(-2.5);              // lépj hátra 2,5 m-t\n"
+"\t\t\n"
+"\t// 4) Ha az energiaforrás félig üres, töltsd fel.\n"
+"\tif ( energyCell.energyLevel < 0.5 )\n"
+"\t{                               // ha igen:\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>); // keresd meg az erőművet\n"
+"\t\t<a cbot|goto>goto</a>(item.position);        // menj oda\n"
+"\t\t<a cbot|wait>wait</a>(5);                    // várj\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:47 ../E/5_CollectTitanium2.txt:35 ../E/5_CollectTitanium2_link.txt:8 ../E/6_KillAnt1.txt:27 ../E/6_KillAnt1_link.txt:9 ../E/7_CollectTitanium3.txt:58 ../E/7_CollectTitanium3_link.txt:10 ../E/8_ServiceTower1.txt:49 ../E/8_ServiceTower1_link.txt:11 ../E/9_terranova.txt:27
+#, no-wrap
+msgid "<code><a programs/4_CollectTitanium1>CollectTitanium1</a></code>"
+msgstr "<code><a programs/4_CollectTitanium1>CollectTitanium1</a></code>"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:46 ../E/5_CollectTitanium2_link.txt:7 ../E/6_KillAnt1.txt:26 ../E/6_KillAnt1_link.txt:8 ../E/7_CollectTitanium3.txt:57 ../E/7_CollectTitanium3_link.txt:9 ../E/8_ServiceTower1.txt:48 ../E/8_ServiceTower1_link.txt:10 ../E/9_terranova.txt:26
+#, no-wrap
+msgid "<code><a programs/5_CollectTitanium2>CollectTitanium2</a></code>"
+msgstr "<code><a programs/5_CollectTitanium2>CollectTitanium2</a></code>"
+
+#. type: Plain text
+#: ../E/6_KillAnt1.txt:2
+#, no-wrap
+msgid "Execute the program <code>KillAnt1</code> immediately on your <a object|botfr>wheeled shooter</a>, it will protect your west flank. Meantime you can elaborate your defense strategy."
+msgstr "Futtassa a <code>KillAnt1</code> programot azonnal a <a object|botfr>kerekes lövegen</a>, hogy megvédje a nyugati szárnyát. Közben kidolgozhatja a védelmi stratégiáját."
+
+#. type: Source code
+#: ../E/6_KillAnt1.txt:4
+#, no-wrap
+msgid "extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // info. about object\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // go west\n"
+"\t<a cbot|aim>aim</a>(0);                  // aim straight\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // repeat forever:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // ant detected ?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // shoot 0.5 s\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // wait 1 second\n"
+"\t}\n"
+"}"
+msgstr "extern void object::KillAnt1()\n"
+"{\n"
+"\t<a cbot|type>object</a> item;             // Objektum információ\n"
+"\t\n"
+"\t<a cbot|goto>goto</a>(-30, 0);            // menjen nyugatra\n"
+"\t<a cbot|aim>aim</a>(0);                  // célozzon egyenesen\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )           // ismételje meg örökké:\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>AlienAnt</a>, 0, 360, 0, 40);\n"
+"\t\t<a cbot|if>if</a> ( item != null )  // észlelte az hangyát?\n"
+"\t\t{\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|fire>fire</a>(0.5);       // lőjön 0,5 másodpercig\n"
+"\t\t}\n"
+"\t\t<a cbot|wait>wait</a>(1);             // várjon 1 másodpercet\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:45 ../E/6_KillAnt1_link.txt:7 ../E/7_CollectTitanium3.txt:56 ../E/7_CollectTitanium3_link.txt:8 ../E/8_ServiceTower1.txt:47 ../E/8_ServiceTower1_link.txt:9 ../E/9_terranova.txt:25
+#, no-wrap
+msgid "<code><a programs/6_KillAnt1>KillAnt1</a></code>"
+msgstr "<code><a programs/6_KillAnt1>KillAnt1</a></code>"
+
+#. type: Plain text
+#: ../E/7_CollectTitanium3.txt:2
+#, no-wrap
+msgid "As you will need lots of titanium for this mission, we have made the program <code>CollectTitanium</code> still more efficient. It gathers a whole series of titanium cubes on a free surface, so you can let it work on its own. It also recharges itself at the <a object|station>power station</a> if necessary."
+msgstr "Mivel erre a küldetésre sok titániumra lesz szükséged, még hatékonyabbá tettük a <code>CollectTitanium</code> programot. Egy sor titánium kockát gyűjt össze egy szabad felületen, így hagyhatod, hogy magától dolgozzon. Szükség esetén az <a object|station>erőműben</a> is feltölti magát."
+
+#. type: Source code
+#: ../E/7_CollectTitanium3.txt:4
+#, no-wrap
+msgid "extern void object::CollectTitanium3()\n"
+"{\n"
+"\t// 1) Variable definition.\n"
+"\t<a cbot|type>object</a>  item;            // info. about objects\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)             // repeat forever\n"
+"\t{\n"
+"\t\t\n"
+"\t\t// 2) Go to the titanium ore and grab it.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// look for titanium\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t\t<a cbot|grab>grab</a>();                  // grab the titanium\n"
+"\t\t\n"
+"\t\t// 3) Go to the converter and drop it.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // look for converter\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // go to the position\n"
+"\t\t<a cbot|drop>drop</a>();                  // drop the titanium\n"
+"\t\t<a cbot|move>move</a>(-2.5);              // step back 2.5 m\n"
+"\t\t\n"
+"\t\t// 4) Wait until titanium converted and grab it\n"
+"\t\t<a cbot|do>do</a>\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);              // wait for cube\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
+"\t\t}\n"
+"\t\t<a cbot|while>while</a> ( item == null );\n"
+"\t\t<a cbot|goto>goto</a>(item.position);\n"
+"\t\t<a cbot|grab>grab</a>();                   // grab it\n"
+"\t\t\n"
+"\t\t// 5) Drop on a free space\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // go to free space\n"
+"\t\t<a cbot|drop>drop</a>();                   // drop titanium\n"
+"\t\t\n"
+"\t\t// 6) If power cell half empty, recharges.\n"
+"\t\t<a cbot|if>if</a> ( energyCell.energyLevel < 0.5 )\n"
+"\t\t{                         // if so:\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);\n"
+"\t\t\t<a cbot|if>if</a> ( item != null )   // station found ?\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|goto>goto</a>(item.position); // go there\n"
+"\t\t\t\t<a cbot|while>while</a> ( energyCell.energyLevel < 1 )\n"
+"\t\t\t\t{                 // until recharged:\n"
+"\t\t\t\t\t<a cbot|wait>wait</a>(1);      // wait\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr "extern void object::CollectTitanium3()\n"
+"{\n"
+"\t// 1) Változók meghatározása.\n"
+"\t<a cbot|type>object</a>  item;            // információk az objektumokkal kapcsolatban\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)             // ismétlődjön örökké\n"
+"\t{\n"
+"\t\t\n"
+"\t\t// 2) Menj a titánérchez és vedd fel.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>TitaniumOre</a>);// keresd a titánt\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // menj a helyszínre\n"
+"\t\t<a cbot|grab>grab</a>();                  // vedd fel a titánt\n"
+"\t\t\n"
+"\t\t// 3) Menj a konverterhez és tedd le.\n"
+"\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Converter</a>); // keresd a konvertert\n"
+"\t\t<a cbot|goto>goto</a>(item.position);     // menj a helyszínre\n"
+"\t\t<a cbot|drop>drop</a>();                  // tedd le a titánt\n"
+"\t\t<a cbot|move>move</a>(-2.5);              // lépj vissza 2.5 m-t\n"
+"\t\t\n"
+"\t\t// 4) Várj, amíg a titán átalakul és vedd fel\n"
+"\t\t<a cbot|do>do</a>\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);              // várj a kockára\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>Titanium</a>, 0, 45, 0, 5);\n"
+"\t\t}\n"
+"\t\t<a cbot|while>while</a> ( item == null );\n"
+"\t\t<a cbot|goto>goto</a>(item.position);\n"
+"\t\t<a cbot|grab>grab</a>();                   // vedd fel\n"
+"\t\t\n"
+"\t\t// 5) Tedd le egy szabad területen\n"
+"\t\t<a cbot|goto>goto</a>(<a cbot|space>space</a>(position));    // menj a szabad területre\n"
+"\t\t<a cbot|drop>drop</a>();                   // tedd le a titánt\n"
+"\t\t\n"
+"\t\t// 6) Ha az energiatöltet félig üres, töltsd fel.\n"
+"\t\t<a cbot|if>if</a> ( energyCell.energyLevel < 0.5 )\n"
+"\t\t{                         // ha így van:\n"
+"\t\t\titem = <a cbot|radar>radar</a>(<a cbot|category>PowerStation</a>);\n"
+"\t\t\t<a cbot|if>if</a> ( item != null )   // megtaláltad az erőművet?\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|goto>goto</a>(item.position); // menj oda\n"
+"\t\t\t\t<a cbot|while>while</a> ( energyCell.energyLevel < 1 )\n"
+"\t\t\t\t{                 // amíg fel nem töltődik:\n"
+"\t\t\t\t\t<a cbot|wait>wait</a>(1);      // várj\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../E/8_ServiceTower1.txt:2
+#, no-wrap
+msgid "We have developed a program that takes care of recharging the power cell of a <a object|tower>defense tower</a>:"
+msgstr "Kifejlesztettünk egy programot, amely gondoskodik a <a object|tower>védőtorony</a> akkumulátorának újratöltéséről:"
+
+#. type: Bullet: '1)'
+#: ../E/8_ServiceTower1.txt:4
+#, no-wrap
+msgid "Go to a <a object|tower>defense tower</a>."
+msgstr "Menj egy <a object|tower>védőtoronyhoz</a>."
+
+#. type: Bullet: '2)'
+#: ../E/8_ServiceTower1.txt:5
+#, no-wrap
+msgid "Wait until the <a object|power>power cell</a> is 80% empty."
+msgstr "Várj, amíg a <a object|power>akkumulátor</a> 80%-ig lemerül."
+
+#. type: Bullet: '3)'
+#: ../E/8_ServiceTower1.txt:6
+#, no-wrap
+msgid "Grab the <a object|power>power cell</a> and recharge it on a <a object|station>power station</a>."
+msgstr "Vedd el az <a object|power>akkumulátort</a> és töltsd fel egy <a object|station>erőműben</a>."
+
+#. type: Bullet: '4)'
+#: ../E/8_ServiceTower1.txt:7
+#, no-wrap
+msgid "Put it back on the <a object|tower>defense tower</a>."
+msgstr "Tedd vissza a <a object|tower>védőtoronyra</a>."
+
+#. type: Plain text
+#: ../E/8_ServiceTower1.txt:9
+#, no-wrap
+msgid "Build the <a object|station>power station</a> as close as possible to the tower in order to reduce the time when the tower has got no power cell. A good trick is to place a power cell on the ground in front of the tower. The wasp will attack the power cell, and if the first shoot misses or a wasp arrives when the defense tower has got no energy, only the power cell is destroyed and not the defense tower."
+msgstr "Építsd az <a object|station>erőművet</a> minél közelebb a toronyhoz, hogy csökkentsd annak az időnek a hosszát, amikor a toronynak nincs akkumulátora. Egy jó trükk, ha az akkumulátort a torony elé a földre helyezed. A darázs megtámadja az akkumulátort, és ha az első lövés elhibázott, vagy ha a darázs akkor érkezik, amikor a védőtoronynak nincs energiája, csak az akkumulátor semmisül meg, nem a védőtorony."
+
+#. type: Source code
+#: ../E/8_ServiceTower1.txt:11
+#, no-wrap
+msgid "extern void object::ServiceTower1()\n"
+"{\n"
+"\t<a cbot|object>object</a>  tower;               // info. about tower\n"
+"\t<a cbot|object>object</a>  station;             // info. about station\n"
+"\t\n"
+"\t// 1) go to the defense tower\n"
+"\ttower = <a cbot|radar>radar</a>(DefenseTower); // look for tower\n"
+"\t<a cbot|goto>goto</a>(tower.position);        // go there\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // repeat forever\n"
+"\t{\n"
+"\t\t// 2) wait until power cell is empty\n"
+"\t\t<a cbot|while>while</a> ( tower.energyCell.energyLevel > 0.2 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(2);\n"
+"\t\t}\n"
+"\t\t<a cbot|grab>grab</a>();                  // grab the power cell\n"
+"\t\t\n"
+"\t\t// 3) go to the power station to recharge\n"
+"\t\tstation = <a cbot|radar>radar</a>(PowerStation);\n"
+"\t\t<a cbot|goto>goto</a>(station.position);  // go there\n"
+"\t\t<a cbot|while>while</a> ( load.energyLevel < 1 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // wait until recharged\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// 4) go back to defense tower\n"
+"\t\t<a cbot|goto>goto</a>(tower.position);    // go to tower\n"
+"\t\t<a cbot|drop>drop</a>();                  // drop the power cell\n"
+"\t}\n"
+"}"
+msgstr "extern void object::ServiceTower1()\n"
+"{\n"
+"\t<a cbot|object>object</a>  tower;              // Információ a védőtoronyról\n"
+"\t<a cbot|object>object</a>  station;            // Információ az erőműről\n"
+"\t\n"
+"\t// 1) menj a védőtoronyhoz\n"
+"\ttower = <a cbot|radar>radar</a>(DefenseTower);// torony keresése\n"
+"\t<a cbot|goto>goto</a>(tower.position);       // menj oda\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )              // ismétlés végtelenül\n"
+"\t{\n"
+"\t\t// 2) várj, amíg az akkumulátor kiürül\n"
+"\t\t<a cbot|while>while</a> ( tower.energyCell.energyLevel > 0.2 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(2);\n"
+"\t\t}\n"
+"\t\t<a cbot|grab>grab</a>();                 // vedd fel az akkumulátort\n"
+"\t\t\n"
+"\t\t// 3) menj az erőműhöz, hogy feltöltsd\n"
+"\t\tstation = <a cbot|radar>radar</a>(PowerStation);\n"
+"\t\t<a cbot|goto>goto</a>(station.position); // menj oda\n"
+"\t\t<a cbot|while>while</a> ( load.energyLevel < 1 )\n"
+"\t\t{\n"
+"\t\t\t<a cbot|wait>wait</a>(1);            // várj, amíg teljesen fel nem töltődik\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// 4) térj vissza a védőtoronyhoz\n"
+"\t\t<a cbot|goto>goto</a>(tower.position);   // menj a toronyhoz\n"
+"\t\t<a cbot|drop>drop</a>();                 // tedd le az akkumulátort\n"
+"\t}\n"
+"}"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:44 ../E/7_CollectTitanium3_link.txt:7 ../E/8_ServiceTower1.txt:46 ../E/8_ServiceTower1_link.txt:8 ../E/9_terranova.txt:24
+#, no-wrap
+msgid "<code><a programs/7_CollectTitanium3>CollectTitanium3</a></code>"
+msgstr "<code><a programs/7_CollectTitanium3>CollectTitanium3</a></code>"
+
+#. type: Bullet: 'o'
+#: ../E/10_FollowPhazer.txt:43 ../E/8_ServiceTower1_link.txt:7 ../E/9_terranova.txt:23
+#, no-wrap
+msgid "<code><a programs/8_ServiceTower1>ServiceTower1</a></code>"
+msgstr "<code><a programs/8_ServiceTower1>ServiceTower1</a></code>"
+
+#. type: Plain text
+#: ../E/9_terranova.txt:2
+#, no-wrap
+msgid "According to the data transmitted by the satellite, our engineers have developed two programs. The first one guides the <a object|botshld>shielder bot</a> through the narrow valley north close to the place where the key has been located. You can follow it without fearing any attack:"
+msgstr "A műhold által továbbított adatok szerint mérnökeink két programot fejlesztettek ki. Az első a <a object|botshld>védő botot</a> vezeti a keskeny völgyön északra, közel ahhoz a helyhez, ahol a kulcs található. Követheti anélkül, hogy bármilyen támadástól kellene tartania:"
+
+#. type: Source code
+#: ../E/9_terranova.txt:4
+#, no-wrap
+msgid "extern void object::Outward()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
+"\t<a cbot|goto>goto</a>(6,160);    // go close to the key\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
+"}"
+msgstr "extern void object::Outward()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // aktiválja a páncélt\n"
+"\t<a cbot|goto>goto</a>(6,160);    // menjen közel a kulcshoz\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deaktiválja a páncélt\n"
+"}"
+
+#. type: Plain text
+#: ../E/9_terranova.txt:11
+#, no-wrap
+msgid "The second program guides the <a object|botshld>shielder bot</a> back to the <a object|base>spaceship</a>:"
+msgstr "A második program a <a object|botshld>védő botot</a> visszavezet a <a object|base>űrhajóhoz</a>:"
+
+#. type: Source code
+#: ../E/9_terranova.txt:13
+#, no-wrap
+msgid "extern void object::Return()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
+"\t<a cbot|goto>goto</a>(8,60);     // go to the spaceship\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
+"}"
+msgstr "extern void object::Return()\n"
+"{\n"
+"\t<a cbot|shield>shield</a>(1,15);   // aktiválja a páncélt\n"
+"\t<a cbot|goto>goto</a>(8,60);     // menjen az űrhajóhoz\n"
+"\t<a cbot|shield>shield</a>(0,15);   // deaktiválja a páncélt\n"
+"}"
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:2
+#, no-wrap
+msgid "Below is a program that has been developed by our engineers."
+msgstr "Alább egy program található, amelyet mérnökeink fejlesztettek."
+
+#. type: Plain text
+#: ../E/10_FollowPhazer.txt:4
+#, no-wrap
+msgid "It instructs the <a object|botshld>shielder</a> to follow and protect the <a object|botphaz>phazer</a>."
+msgstr "Ez utasítja a <a object|botshld>védőpajzs</a>-t, hogy kövesse és védje a <a object|botphaz>phazert</a>."
+
+#. type: Source code
+#: ../E/10_FollowPhazer.txt:6
+#, no-wrap
+msgid "extern void object::FollowPhazer()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;              // info. about phazer\n"
+"\t<a cbot|type>point</a>     dest;              // position where to go\n"
+"\t<a cbot|type>float</a>     dist;              // distance to phazer\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PhazerShooter</a>);\n"
+"\t<a cbot|if>if</a> ( item == null )\n"
+"\t{\n"
+"\t\t<a cbot|message>message</a>(\"No phazer found\");\n"
+"\t\t<a cbot|return>return</a>;                  // stop the program\n"
+"\t}\n"
+"\t<a cbot|shield>shield</a>(1, 25);               // activate the shield\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // repeat forever\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(PhazerShooter);// look for phazer\n"
+"\t\t<a cbot|if>if</a> ( item == null )  break;\n"
+"\t\t\n"
+"\t\tdist = <a cbot|dist>distance</a>(item.position, position);\n"
+"\t\t<a cbot|if>if</a> ( dist < 5 )\n"
+"\t\t{                        // if closer than 5 m:\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // wait\n"
+"\t\t}\n"
+"\t\t<a cbot|if>else</a>                     // otherwise:\n"
+"\t\t{ // Calculate a position 5 m before the phazer\n"
+"\t\t\tdest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;\n"
+"\t\t\tdest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;\n"
+"\t\t\tdest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;\n"
+"\t\t\t<a cbot|goto>goto</a>(dest, 0, 1, 1); // and go there\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr "extern void object::FollowPhazer()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;          // A phazershooter információja\n"
+"\t<a cbot|type>point</a>     dest;          // Célpozíció\n"
+"\t<a cbot|type>float</a>     dist;          // Távolság a phazertől\n"
+"\t\n"
+"\titem = <a cbot|radar>radar</a>(<a cbot|category>PhazerShooter</a>);\n"
+"\t<a cbot|if>if</a> ( item == null )\n"
+"\t{\n"
+"\t\t<a cbot|message>message</a>(\"Nem található phazer.\");\n"
+"\t\t<a cbot|return>return</a>;                  // a program leállítása\n"
+"\t}\n"
+"\t<a cbot|shield>shield</a>(1, 25);               // a pajzs aktiválása\n"
+"\t\n"
+"\t<a cbot|while>while</a> ( true )               // folyamatos ismétlés\n"
+"\t{\n"
+"\t\titem = <a cbot|radar>radar</a>(PhazerShooter);// phazer keresése\n"
+"\t\t<a cbot|if>if</a> ( item == null )  break;\n"
+"\t\t\n"
+"\t\tdist = <a cbot|dist>distance</a>(item.position, position);\n"
+"\t\t<a cbot|if>if</a> ( dist < 5 )\n"
+"\t\t{                        // ha 5 m-nél közelebb van:\n"
+"\t\t\t<a cbot|wait>wait</a>(1);             // várakozás\n"
+"\t\t}\n"
+"\t\t<a cbot|if>else</a>                     // egyébként:\n"
+"\t\t{ // Számíts egy pozíciót 5 m-re a phazertől\n"
+"\t\t\tdest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;\n"
+"\t\t\tdest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;\n"
+"\t\t\tdest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;\n"
+"\t\t\t<a cbot|goto>goto</a>(dest, 0, 1, 1); // és menj oda\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+

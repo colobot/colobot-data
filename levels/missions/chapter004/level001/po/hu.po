@@ -1,0 +1,211 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Viruses"
+msgstr "Vírusok"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "A new bug threatens all your systems."
+msgstr "Egy új hiba fenyegeti az összes rendszerét."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A küldetésirányítástól"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Build a <a object|radar>radar</a> on the highest point in the area. Make sure that the radar will work safely even after your departure to other planets. Your <a object|research>research center</a> should be able to provide a solution."
+msgstr "Építsen egy <a object|radar>radart</a> a környék legmagasabb pontjára. Győződjön meg róla, hogy a radar biztonságosan működik, még akkor is, ha elhagyja a bolygót, és más bolygókra utazik. A <a object|research>kutatóközpontjának</a> képesnek kell lennie megoldást nyújtani."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "It is possible that the organisms detected are in fact the <a object|worm>worms</a> alluded to by the first expedition. If this is indeed the case, don't be excessively alarmed: they seem fairly harmless to living organisms but could cause the programs of bots and buildings to malfunction through the emission of viruses."
+msgstr "Lehetséges, hogy az észlelt organizmusok valójában azok a <a object|worm>férgek</a>, amelyekre az első expedíció utalt. Ha valóban így van, ne essen túlzott pánikba: úgy tűnik, hogy az élő organizmusok számára teljesen ártalmatlanok, de a vírusok kibocsátásával zűrzavart okozhatnak a robotok és épületek programjaiban."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Radars not only give you precious information about objects and organisms present in the region, they also relay information to and from the Earth once you have taken off to other planets. It is highly probable that problems with the radar stations built by the first expedition caused the transmission problems that we are aware of."
+msgstr "A radar nemcsak értékes információkat ad az adott térségben lévő objektumokról és élőlényekről, hanem információkat is közvetít a Föld és a bolygók között, amint Ön más bolygókra indul. Nagyon valószínű, hogy az első expedíció által épített radarállomások problémái okozták a közvetítési problémákat, amikről tudomásunk van."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "In order to help you with the boring task of gathering the necessary raw material, we have developed a program that instructs the <a object|botgr>wheeled grabber</a> to look for <a object|titanore>titanium ore</a> on its own (see the programming page <button 53/>)."
+msgstr "Annak érdekében, hogy megkönnyítsük az unalmas feladatot, hogy összegyűjtse a szükséges nyersanyagot, egy programot fejlesztettünk, amely arra utasítja a <a object|botgr>kerekes grabbert</a>, hogy önállóan keressen <a object|titanore>titánércet</a> (lásd a programozási oldalt <button 53/>)."
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> lehetővé teszi, hogy bármikor újra megtekintse ezeket az utasításokat a saját SatCom <button 63/> eszközén."
+
+#. type: \t; header
+#: ../help/help.E.txt:12 ../help/soluce.E.txt:11
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Parancsok</a> és <a cbot>CBOT nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdjelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr "Jelenleg geostacionárius pályán a Crystalium körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELÜLET<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      5.4C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Hőmérséklet:     5.4C\n"
+"\\tab;Atmoszféra:      nitrogén\n"
+"\\tab;Szél:            0.0 m/s\n"
+"\\tab;Titanium érce:   néhány\n"
+"\\tab;Uranium érce:    nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Földalatti<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    none\n"
+"\\tab;Titanium ore:     data not available\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:   nincs\n"
+"\\tab;Titanium érce:   nincsenek adatok\n"
+"\\tab;Uranium érce:    nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         unidentified organisms\n"
+"\\tab;  - Danger:       ?"
+msgstr ""
+"\\tab;Felfedezve:      azonosítatlan élőlények\n"
+"\\tab;  - Veszély:     ?"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Lépésről lépésre"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Build a <a object|factory>bot factory</a>."
+msgstr "Építsen egy <a object|factory>robotgyárat</a>."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:3
+#, no-wrap
+msgid "Produce a <a object|botgj>winged grabber</a>."
+msgstr "Termeljen egy <a object|botgj>szárnyas fogót</a>."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Carry a <a object|titan>titanium cube</a> to the highest point."
+msgstr "Hozza el egy <a object|titan>titanium kockát</a> a legmagasabb pontra."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:5
+#, no-wrap
+msgid "Build a <a object|radar>radar</a> on the spot."
+msgstr "Építsen egy <a object|radar>radart</a> a helyszínen."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build a <a object|research>research center</a> next to the spaceship."
+msgstr "Építsen egy <a object|research>kutatóközpontot</a> az űrhajó mellett."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:7
+#, no-wrap
+msgid "Initiate the <defense tower research program> <button 68/>."
+msgstr "Indítsa el a <védekező torony kutatási programot> <button 68/>."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Build the <a object|tower>defense tower</a> next to the radar."
+msgstr "Építsen egy <a object|tower>védelmi tornyot</a> a radar mellé."
+
+#. type: Bullet: '8)'
+#: ../help/soluce.E.txt:9
+#, no-wrap
+msgid "When all the worms are destroyed, you can go back to your ship and take off."
+msgstr "Amikor az összes féreg elpusztult, visszatérhetsz a hajódhoz és felszállhatsz."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "A <a command>vezérlés</a>"

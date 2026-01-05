@@ -1,0 +1,169 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mountain Warfare"
+msgstr "Hegyi hadviselés"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use legged bots to fight on broken terrain."
+msgstr "Használjon lábas robotokat a törött terepen való harchoz."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A Misszióirányító Központból"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This planet is obviously unsuited to a long-lasting colonization. Retrieve the <a object|bbox>black box</a> from the previous expedition then take off."
+msgstr "Ez a bolygó nyilvánvalóan alkalmatlan a hosszú távú kolonizációra. Vegye el a <a object|bbox>fekete ládát</a> az előző expedícióból, majd induljon el."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "A <format key><key help/></format> lehetővé teszi, hogy bármikor áttekintse ezeket az utasításokat a személyes SatCom készülékén <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:6 ../help/soluce.E.txt:10
+#, no-wrap
+msgid "See also"
+msgstr "További információk"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Vezérlés</a> és <a cbot>CBOT Nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdjelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Volcano."
+msgstr "Jelenleg geostacionárius pályán a Volcano körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELÜLET<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      83.5C\n"
+"\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Wind:             3.4 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Hőmérséklet:     83.5C\n"
+"\\tab;Légkör:          CO2, SO2, HCN, HS, CH4, NH3\n"
+"\\tab;Szél:            3.4 m/s\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uranérc:         nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> Földalatti<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:  mindenhol\n"
+"\\tab;Titánérc:      nincs\n"
+"\\tab;Uránérc:       nincs"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> További információk<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Felfedezve:     óriás hangyák\n"
+"\\tab;  - Veszély:     nem közvetlen"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Játszási útmutató"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Power a <a object|botfs>legged shooter</a>. There is even a <a object|atomic>nuclear cell</a> left behind the <a object|factory>bot factory</a>."
+msgstr "Töltsön fel egy <a object|botfs>lábú lövőt</a>. Még egy <a object|atomic>atomcellát</a> is hagytak a <a object|factory>robotgyár</a> mögött."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Climb the northern cliff and kill a few <a object|ant>ants</a>. The best access is from the east."
+msgstr "Mászzon fel az északi sziklára és öljön meg néhány <a object|ant>hangyát</a>. A legjobb hozzáférés keletről van."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Keep going until all ants are out of the way."
+msgstr "Folytassa, amíg az összes hangya el nem tűnik az útról."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Climb the northern cliff with a <a object|botgs>legged grabber</a> and retrieve the <a object|bbox>black box</a> that you will find in the derelict bot factory."
+msgstr "Mászzon fel az északi sziklára egy <a object|botgs>lábas megfogóval</a> és hozza el a <a object|bbox>fekete dobozt</a>, amit a romos robotgyárban talál."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Iránymutatás</a>"

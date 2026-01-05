@@ -1,0 +1,187 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2016, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+# Magyar fordítást készítette: Sinkovics Zsolt (FB: Sini Zsolt)
+# Hungarian translate <pondera77@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2025-05-01 12:04+0200\n"
+"Last-Translator: Sinkovics Zsolt <pondera77@gmail.com>\n"
+"Language-Team: Sinkovics Zsolt\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Language: hu_HU\n"
+"X-Source-Language: en_US\n"
+"X-POOTLE-MTIME: 1406536037.000000\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Subterranean strategy"
+msgstr "Földalatti stratégia"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use the planet's resources to combat the virus-spreading worms."
+msgstr "Használja a bolygó erőforrásait a vírusokat terjesztő férgek elleni harcban."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "A küldetésirányítástól"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Cleanse the area of all hostile organisms. The way you accomplish this (<a object|tower>defense tower</a> or <a object|botfj>winged shooter</a>) is up to you."
+msgstr "Tisztítsa meg a területet minden ellenséges organizmustól. Az, hogy hogyan végzi el ezt (<a object|tower>védőtorony</a> vagy <a object|botfj>szárnyas lövész</a>), önön múlik."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The radar seems to be perfectly suited to the detection of worms. Keep in mind though that they only appear when they are on the surface."
+msgstr "A radar úgy tűnik, tökéletesen alkalmas a férgek detektálására. Ne feledje azonban, hogy csak akkor jelennek meg, amikor a felszínen vannak."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "We relayed a transmission to your <a object|factory>bot factory</a>. It concerns a bot designed to detect raw materials in the subsoil: energy sources, ore. We call it a <a object|botsr>sniffer</a> for short. Preliminary analysis leads us to believe that the presence of titanium ore on Crystalium is closely linked to the growth of large blue crystals. If this is indeed the case, this information should allow you to save some precious time. A <a object|derrick>derrick</a> is of course required for the extraction."
+msgstr "Átadtunk egy üzenetet a <a object|factory>robotgyárának</a>. Ez egy olyan robotot érint, amelyet arra terveztek, hogy nyersanyagokat találjon a föld alatt: energiaforrások, érc. Röviden <a object|botsr>szimatolónak</a> nevezzük. Az előzetes elemzés arra a következtetésre juttatott minket, hogy a titánium érc jelenléte a Crystaliumon szorosan összefügg a nagy kék kristályok növekedésével. Ha ez valóban így van, ez az információ segíthet időt megtakarítani. A kitermeléshez természetesen szükséges egy <a object|derrick>olajfúró</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> lehetővé teszi, hogy bármikor átnézze ezeket az utasításokat a személyes SatComján <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10 ../help/soluce.E.txt:16
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Vezérlés</a> és <a cbot>CBOT nyelv</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Műholdas jelentés"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Crystalium."
+msgstr "Jelenleg geostacionárius pályán a Crystalium körül."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> FELSZÍN<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      3.2C\n"
+"\\tab;Atmosphere:       nitrogen\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Hőmérséklet:     3.2C\n"
+"\\tab;Légkör:          nitrogén\n"
+"\\tab;Szél:            0.0 m/s\n"
+"\\tab;Titánérc:        nincs\n"
+"\\tab;Uránérc:         nincs"
+
+msgid "-> SUBSOIL<c/>"
+msgstr "-> ALTALAJ<c/>"
+
+msgid ""
+"\\tab;Energy source:    isolated (close to the spaceship)\n"
+"\\tab;Titanium ore:     scattered\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Energiaforrás:  elszórt (az űrhajó közelében)\n"
+"\\tab;Titánérc:       szétszórva\n"
+"\\tab;Uránérc:        nincs"
+
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> TOVÁBBI INFORMÁCIÓK<c/>"
+
+msgid ""
+"\\tab;Detected:         worms\n"
+"\\tab;  - Danger:       no"
+msgstr ""
+"\\tab;Észlelve:       férgek\n"
+"\\tab;  - Veszély:     nincs"
+
+msgid "Walkthrough"
+msgstr "Végigjátszás"
+
+msgid "Build a <a object|factory>bot factory</a>."
+msgstr "Építs egy <a object|factory>robotgyárat</a>."
+
+msgid "Produce a <a object|botsj>winged sniffer</a>."
+msgstr "Gyárts egy <a object|botsj>szárnyas szimatolót</a>."
+
+msgid "Sniff the ground near the large crystals until you get a <a object|stonspot>red cross</a>."
+msgstr "Szimatold meg a földet a nagy kristályok közelében, amíg egy <a object|stonspot>piros kereszt</a> meg nem jelenik."
+
+msgid "Build a <a object|derrick>derrick</a> near the red cross."
+msgstr "Építs egy <a object|derrick>fúrótornyot</a> a piros kereszt közelében."
+
+msgid "Build a <a object|convert>converter</a>."
+msgstr "Építs egy <a object|convert>átalakítót</a>."
+
+msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
+msgstr "A fúrótorony és az átalakító együttműködése korlátlan <a object|titan>titán</a> ellátást biztosít. Hogy ezt a feladatot egy robot végezze el, futtasd a <code>CollectTitanium2</code> programot."
+
+msgid "Sniff the area at the foot of the spaceship. A <a object|enerspot>green cross</a> means you can build a <a object|station>power station</a> on the spot."
+msgstr "Szimatold meg a talajt az űrhajó lábánál. Egy <a object|enerspot>zöld kereszt</a> azt jelzi, hogy ott építhetsz egy <a object|station>erőművet</a>."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:11
+#, no-wrap
+msgid "Build a <a object|radar>radar</a>."
+msgstr "Építs egy <a object|radar>radart</a>."
+
+#. type: Bullet: '8)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Produce a <a object|botfj>winged shooter</a>."
+msgstr "Gyárts egy <a object|botfj>szárnyas lövőt</a>."
+
+#. type: Bullet: '9)'
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid "Eliminate all worms."
+msgstr "Semmisítsd meg az összes férget."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:14
+#, no-wrap
+msgid "10) Go back to your ship and take off."
+msgstr "10) Térj vissza az űrhajódhoz, és szállj fel."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:17
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Irányítás</a>"
