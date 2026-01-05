@@ -20,6 +20,31 @@ Here is an example:
 \s;	\n;more instructions ...\c;
 \s;}
 \n;
-
+You can give a loop a label like this:
+\s;\c;this_is_a_label: while ( true )
+\s;{
+\s;	\n;Instructions ...\c;
+\s;}
+\n;
+By default when multiple loops are nested inside one another, this instruction affects the innermost loop. If this is not what you want, you can use a label to tell this instruction which loop it should affect:
+\s;\c;string result = "";
+\s;foo: for(int outer = 0; true; ++outer)
+\s;{
+\s;	result += "A";
+\s;	for(int inner = 1; inner < 3; ++inner)
+\s;	{
+\s;		result += "B";
+\s;		if(inner == outer)
+\s;		{
+\s;			result += "*";
+\s;			break foo;
+\s;		}
+\s;		result += "C";
+\s;	}
+\s;	result += "D";
+\s;}
+\s;result += "E";
+\s;message(result);  // Prints: ABCBCDAB*E
+\n;
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.

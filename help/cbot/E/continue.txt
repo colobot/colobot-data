@@ -21,5 +21,30 @@ Here is an example:
 \n;
 The instructions will only be executed for the values of \c;i\n; 1, 2, 4 and 5.
 
+You can give a loop a label like this:
+\s;\c;this_is_a_label: while ( true )
+\s;{
+\s;	\n;Instructions ...\c;
+\s;}
+\n;
+By default when multiple loops are nested inside one another, this instruction affects the innermost loop. If this is not what you want, you can use a label to tell this instruction which loop it should affect:
+\s;\c;string result = "";
+\s;foo: for(int outer = 0; outer < 3; ++outer)
+\s;{
+\s;	result += "A";
+\s;	for(int inner = 0; inner < 2; ++inner)
+\s;	{
+\s;		result += "B";
+\s;		if(inner == outer)
+\s;		{
+\s;			result += "*";
+\s;			continue foo;
+\s;		}
+\s;		result += "C";
+\s;	}
+\s;	result += "D";
+\s;}
+\s;message(result);  // Prints: AB*ABCB*ABCBCD
+\n;
 \t;See also
 \l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
