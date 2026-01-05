@@ -9070,13 +9070,13 @@ msgstr ""
 #: ../E/factory.txt:5
 #, no-wrap
 msgid "Starts a construction of a bot of a given <a cbot|category>category</a> and runs a specified program on it after the construction is finished."
-msgstr "Inicia uma construção de um bot de uma determinada <a cbot|category>categoria</a> e executa um programa especificado nele depois que a construção é concluída."
+msgstr ""
 
 #. type: Plain text
 #: ../E/factory.txt:14
 #, no-wrap
 msgid "<a object|factory>BotFactory</a>, nearest by default."
-msgstr "<a object|factory>BotFactory</a>, mais próximo por padrão."
+msgstr ""
 
 #. type: Plain text
 #: ../E/factory.txt:62
@@ -9312,13 +9312,13 @@ msgstr ""
 #: ../E/factory.txt:11
 #, no-wrap
 msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a filename or raw code."
-msgstr "Programa que será executado no bot após a fábrica terminar a construção. Isso pode ser uma <a cbot|function>função</a> <a cbot|public>pública</a>, um nome de arquivo ou um trecho de código."
+msgstr ""
 
 #. type: Plain text
 #: ../E/factory.txt:23
 #, no-wrap
 msgid "Raw code:"
-msgstr "Trecho de código:"
+msgstr ""
 
 #. type: Source code
 #: ../E/factory.txt:25
@@ -9334,7 +9334,7 @@ msgstr ""
 #: ../E/factory.txt:31
 #, no-wrap
 msgid "Public function:"
-msgstr "Função pública:"
+msgstr ""
 
 #. type: Source code
 #: ../E/factory.txt:33
@@ -9355,13 +9355,13 @@ msgstr ""
 #: ../E/factory.txt:44
 #, no-wrap
 msgid "File name:"
-msgstr "Nome de arquivo:"
+msgstr ""
 
 #. type: Plain text
 #: ../E/factory.txt:46
 #, no-wrap
 msgid "Save this as say-foo.cbot. Note: make sure to check the \"Public\" checkbox when saving - this will cause say-foo.cbot to be inside the program/ folder."
-msgstr "Salve isso como say-foo.cbot. Nota: certifique-se de marcar a caixa de seleção \"Público\" ao salvar - isso fará com que say-foo.cbot esteja dentro do program/ pasta."
+msgstr ""
 
 #. type: Source code
 #: ../E/factory.txt:48
@@ -9377,7 +9377,7 @@ msgstr ""
 #: ../E/factory.txt:54
 #, no-wrap
 msgid "Run factory like this:"
-msgstr "Use a função de factory assim:"
+msgstr ""
 
 #. type: Source code
 #: ../E/factory.txt:56
@@ -9399,11 +9399,6 @@ msgid ""
 "<code>/</code>  division\n"
 "<code>%</code>  remainder of the division (works for <code><a cbot|int>int</a></code> as well as <code><a cbot|float>float</a></code>)"
 msgstr ""
-"<code>+</code>  adição\n"
-"<code>-</code>  subtração\n"
-"<code>*</code>  multiplicação\n"
-"<code>/</code>  divisão\n"
-"<code>%</code>  resto da divisão (funciona para <code><a cbot|int>int</a></code>, bem como <code><a cbot|float>float</a></code>)"
 
 #. type: Source code
 #: ../E/expr.txt:66
@@ -9425,21 +9420,6 @@ msgid ""
 " float  f = sin(90) * i; // f == -2.0\n"
 " "
 msgstr ""
-" int    i = 12 + 3;      // i == 15\n"
-" int    i = 2 - 5;       // i == -3\n"
-" \n"
-" float  f = 3.01 * 10;   // f == 30.1\n"
-" \n"
-" int    i = 5 / 3;       // i == 1 (conversão automática para int)\n"
-" float  f = 5 / 3;       // f == 1.67\n"
-" float  f = 5 / 0;       // retorna erro (divisão por zero)\n"
-" \n"
-" int    i = 13 % 5;      // i == 3\n"
-" int    i = -8 % 3;      // i == -2\n"
-" float  f = -4.5 % 2.75; // f == -1.75\n"
-" \n"
-" float  f = sin(90) * i; // f == -2.0\n"
-" "
 
 #. type: Plain text
 #: ../E/expr.txt:91
@@ -9451,11 +9431,6 @@ msgid ""
 "<code>/=</code>  division\n"
 "<code>%=</code>  remainder of the division"
 msgstr ""
-"<code>+=</code>  adição\n"
-"<code>-=</code>  subtração\n"
-"<code>*=</code>  multiplicação\n"
-"<code>/=</code>  divisão\n"
-"<code>%=</code>  resto da divisão"
 
 #. type: Plain text
 #: ../E/object.txt:4
@@ -9477,21 +9452,6 @@ msgid ""
 "<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object\n"
 "<code><a cbot|bool>bool</a>   object.dead         </code>Is the object dead?"
 msgstr ""
-"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Categoria</a> do objeto\n"
-"<code><a cbot|point>point</a>  object.position     </code>Posição do objeto (x,y,z)\n"
-"<code><a cbot|float>float</a>  object.orientation  </code>Orientação do objeto (0..360)\n"
-"<code><a cbot|float>float</a>  object.pitch        </code>Ângulo de avanço / retrocesso do objeto\n"
-"<code><a cbot|float>float</a>  object.roll         </code>Ângulo direito / esquerdo do objeto \n"
-"<code><a cbot|float>float</a>  object.energyLevel  </code>Nível de energia (0..1)\n"
-"<code><a cbot|float>float</a>  object.shieldLevel  </code>Nível do escudo (0..1)\n"
-"<code><a cbot|float>float</a>  object.temperature  </code>Temperatura do jato (0..1)\n"
-"<code><a cbot|float>float</a>  object.altitude     </code>Altitude acima do chão\n"
-"<code><a cbot|float>float</a>  object.lifeTime     </code>Tempo de vida do objeto\n"
-"<code>object object.energyCell   </code>Célula de energia do robô\n"
-"<code>object object.load         </code>Objeto carregado pelo robô\n"
-"<code><a cbot|int>int</a>    object.team         </code>A equipe do objeto (veja <a battles>códigos de batalhas</a>)\n"
-"<code><a cbot|point>point</a>  object.velocity     </code>Velocidade do objeto\n"
-"<code><a cbot|bool>bool</a>   object.dead         </code>O objeto está morto?"
 
 #. type: Source code
 #: ../E/object.txt:67
@@ -9503,4 +9463,4 @@ msgstr ""
 #: ../E/object.txt:68
 #, no-wrap
 msgid "True if the object was recently killed (while the death animation is playing). Note that accessing this property or any other property after the death animation finishes will cause an error that stops the program."
-msgstr "True se o objeto foi morto recentemente (enquanto a animação de morte está sendo reproduzida). Observe que acessar essa propriedade ou qualquer outra propriedade após a conclusão da animação de morte causará um erro que interromperá o programa."
+msgstr ""

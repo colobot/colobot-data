@@ -9362,13 +9362,13 @@ msgstr ""
 #: ../E/factory.txt:11
 #, no-wrap
 msgid "Program that will be run on the bot after factory finishes the construction. This can be either a <a cbot|public>public</a> <a cbot|function>function</a>, a filename or raw code."
-msgstr "Program, který bude spuštěn na robotovi poté, co továrna dokončí stavbu. Může se jednat o <a cbot|public>veřejnou</a> <a cbot|function>funkci</a>, název souboru nebo nezpracovaný kód."
+msgstr "Program, který se na robotovi spustí po dokončení výroby. Může to být buď <a cbot|public>public</a> <a cbot|function>funkce</a>, název souboru, nebo prostě kus kódu."
 
 #. type: Plain text
 #: ../E/factory.txt:23
 #, no-wrap
 msgid "Raw code:"
-msgstr "Nezpracovaný kód:"
+msgstr "Kus kódu:"
 
 #. type: Source code
 #: ../E/factory.txt:25
@@ -9379,12 +9379,16 @@ msgid ""
 "     factory(WheeledGrabber, \"extern void Say123() { message(123); }\");\n"
 " }"
 msgstr ""
+" extern void New()\n"
+" {\n"
+"     factory(WheeledGrabber, \"extern void Say123() { message(123); }\");\n"
+" }"
 
 #. type: Plain text
 #: ../E/factory.txt:31
 #, no-wrap
 msgid "Public function:"
-msgstr "Veřejnou funkci:"
+msgstr "Public funkce:"
 
 #. type: Source code
 #: ../E/factory.txt:33
@@ -9400,6 +9404,15 @@ msgid ""
 "     message(\"hello\");\n"
 " }"
 msgstr ""
+" extern void New()\n"
+" {\n"
+"     factory(WheeledGrabber, \"SayHello\");\n"
+" }\n"
+"\n"
+" public void SayHello()\n"
+" {\n"
+"     message(\"Ahoj\");\n"
+" }"
 
 #. type: Plain text
 #: ../E/factory.txt:44
@@ -9411,7 +9424,7 @@ msgstr "Název souboru:"
 #: ../E/factory.txt:46
 #, no-wrap
 msgid "Save this as say-foo.cbot. Note: make sure to check the \"Public\" checkbox when saving - this will cause say-foo.cbot to be inside the program/ folder."
-msgstr "Uložte to jako say-foo.cbot. Poznámka: při ukládání nezapomeňte zaškrtnout políčko \"Veřejný\" - to způsobí, že say-foo.cbot bude uvnitř program/ složky."
+msgstr "Tento program uložte do souboru say-foo.cbot. Poznámka: Zkontrolujte si, že jste při ukládání zaškrtli volbu \"Veřejný\" - tím soubor say-foo.cbot uložíte do adresáře program/."
 
 #. type: Source code
 #: ../E/factory.txt:48
@@ -9422,12 +9435,16 @@ msgid ""
 "     message(\"Foo\");\n"
 " }"
 msgstr ""
+" extern void New()\n"
+" {\n"
+"     message(\"Foo\");\n"
+" }"
 
 #. type: Plain text
 #: ../E/factory.txt:54
 #, no-wrap
 msgid "Run factory like this:"
-msgstr "Použijte factory funkci takto:"
+msgstr "Příkaz factory() zavolejte takto:"
 
 #. type: Source code
 #: ../E/factory.txt:56
@@ -9438,6 +9455,10 @@ msgid ""
 "     factory(WheeledGrabber, \"program/say-foo.cbot\");\n"
 " }"
 msgstr ""
+" extern void New()\n"
+" {\n"
+"     factory(WheeledGrabber, \"program/say-foo.cbot\");\n"
+" }"
 
 #. type: Plain text
 #: ../E/expr.txt:54
@@ -9453,7 +9474,7 @@ msgstr ""
 "<code>-</code>  odčítání\n"
 "<code>*</code>  násobení\n"
 "<code>/</code>  dělení\n"
-"<code>%</code>  zbytek po dělení (Pracuje pro <code><a cbot|int>int</a></code> stejně jako <code><a cbot|float>float</a></code>)"
+"<code>%</code>  zbytek po dělení (funguje pro typ <code><a cbot|int>int</a></code> i <code><a cbot|float>float</a></code>)"
 
 #. type: Source code
 #: ../E/expr.txt:66
@@ -9480,14 +9501,13 @@ msgstr ""
 " \n"
 " float  f = 3.01 * 10;   // f == 30.1\n"
 " \n"
-" int    i = 5 / 3;       // i == 1 (automatická konverze na int)\n"
+" int    i = 5 / 3;       // i == 1 (automatické přetypování na int)\n"
 " float  f = 5 / 3;       // f == 1.67\n"
 " float  f = 5 / 0;       // způsobí chybu (dělení nulou)\n"
 " \n"
 " int    i = 13 % 5;      // i == 3\n"
 " int    i = -8 % 3;      // i == -2\n"
 " float  f = -4.5 % 2.75; // f == -1.75\n"
-"\n"
 " \n"
 " float  f = sin(90) * i; // f == -2.0\n"
 " "
@@ -9542,16 +9562,16 @@ msgstr ""
 "<code>object object.load         </code>Náklad v drapáku robota\n"
 "<code><a cbot|int>int</a>    object.team         </code>Tým, do kterého objekt patří (viz <a battles>souboje programátorů</a>)\n"
 "<code><a cbot|point>point</a>  object.velocity     </code>Rychlost a směr pohybu objektu\n"
-"<code><a cbot|bool>bool</a>   object.dead         </code>Je objekt mrtvý?"
+"<code><a cbot|bool>bool</a>   object.dead         </code>Je objekt zničený?"
 
 #. type: Source code
 #: ../E/object.txt:67
 #, no-wrap
 msgid "<code>dead</code>"
-msgstr ""
+msgstr "<code>dead</code>"
 
 #. type: Plain text
 #: ../E/object.txt:68
 #, no-wrap
 msgid "True if the object was recently killed (while the death animation is playing). Note that accessing this property or any other property after the death animation finishes will cause an error that stops the program."
-msgstr "True, pokud byl objekt nedávno zabit (během přehrávání animace smrti). Všimněte si, že přístup k této nebo jakékoli jiné vlastnosti po dokončení animace smrti způsobí chybu, která zastaví program."
+msgstr "Obsahuje hodnotu true, pokud byl objekt před okamžikem zničen (stále se přehrává animace zničení). Pozor, přístup k tomuto nebo kterémukoliv jinému atributu objektu po dokončení jeho animace zničení způsobí chybu a ukončí program."

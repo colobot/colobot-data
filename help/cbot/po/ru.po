@@ -8930,11 +8930,6 @@ msgid ""
 "<code>/</code>  division\n"
 "<code>%</code>  remainder of the division (works for <code><a cbot|int>int</a></code> as well as <code><a cbot|float>float</a></code>)"
 msgstr ""
-"<code>+=</code>  сложение\n"
-"<code>-=</code>  вычитание\n"
-"<code>*=</code>  умножение\n"
-"<code>/=</code>  деление\n"
-"<code>%=</code>  остаток от деления (работает для <code><a cbot|int>int</a></code>, а также для <code><a cbot|float>float</a></code>)"
 
 #. type: Source code
 #: ../E/expr.txt:66
@@ -8967,11 +8962,6 @@ msgid ""
 "<code>/=</code>  division\n"
 "<code>%=</code>  remainder of the division"
 msgstr ""
-"<code>+=</code>  сложение\n"
-"<code>-=</code>  вычитание\n"
-"<code>*=</code>  умножение\n"
-"<code>/=</code>  деление\n"
-"<code>%=</code>  остаток от деления"
 
 #. type: Plain text
 #: ../E/object.txt:4
@@ -8993,21 +8983,6 @@ msgid ""
 "<code><a cbot|point>point</a>  object.velocity     </code>Velocity of the object\n"
 "<code><a cbot|bool>bool</a>   object.dead         </code>Is the object dead?"
 msgstr ""
-"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Категория</a> объекта\n"
-"<code><a cbot|point>point</a>  object.position     </code>Позиция объекта (x,y,z)\n"
-"<code><a cbot|float>float</a>  object.orientation  </code>Ориентация объекта (0..360) (Рысканье)\n"
-"<code><a cbot|float>float</a>  object.pitch        </code>Наклон (Тангаж) объекта вперед/назад\n"
-"<code><a cbot|float>float</a>  object.roll         </code>Наклон (Крен) объекта влево/вправо\n"
-"<code><a cbot|float>float</a>  object.energyLevel  </code>Заряд энергии (0..1)\n"
-"<code><a cbot|float>float</a>  object.shieldLevel  </code>Уровень брони (повреждений) (0..1)\n"
-"<code><a cbot|float>float</a>  object.temperature  </code>Температура реактивного двигателя (0..1)\n"
-"<code><a cbot|float>float</a>  object.altitude     </code>Высота над землей\n"
-"<code><a cbot|float>float</a>  object.lifeTime     </code>Время жизни объекта\n"
-"<code>object object.energyCell   </code>Элемент питания на борту бота\n"
-"<code>object object.load         </code>Объект транспортируемый ботом\n"
-"<code><a cbot|int>int</a>    object.team         </code>Команда объекта (см. <a battles>code battles</a>)\n"
-"<code><a cbot|point>point</a>  object.velocity     </code>Скорость объекта по трем осям\n"
-"<code><a cbot|bool>bool</a>   object.dead         </code>Мертв ли объект?"
 
 #. type: Source code
 #: ../E/object.txt:67
@@ -9019,4 +8994,4 @@ msgstr ""
 #: ../E/object.txt:68
 #, no-wrap
 msgid "True if the object was recently killed (while the death animation is playing). Note that accessing this property or any other property after the death animation finishes will cause an error that stops the program."
-msgstr "True, если объект был недавно убит (во время воспроизведения анимации смерти). Обратите внимание, что доступ к этому свойству или любому другому свойству после завершения анимации смерти вызовет ошибку, которая остановит программу."
+msgstr ""
