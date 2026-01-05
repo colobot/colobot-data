@@ -1,8 +1,8 @@
 \b;Instruction \c;search\n;
 Syntax:
-\s;\c;search ( category, position );\n;
+\s;\c;search ( category, center, min, max, sens, filter );\n;
 
-Detects the object of the given category that is closest to the given position. Similar to \c;\l;radar();\u cbot\radar;\n;, but can search starting from the specific point instead of the actual bot's position.
+Detects an object of the given category in a given radius from a given center. Similar to \c;\l;radar();\u cbot\radar;\n;, but can search starting from the specific point instead of the actual bot's position.
 
 \t;category: \c;\l;int\u cbot\int;\n;
 o \l;Category\u cbot\category; of the objects that should be detected. For example, when you are looking for an ant, write \c;search(AlienAnt)\n;. 
@@ -16,8 +16,31 @@ o \l;Array\u cbot\array; of categories of the objects that should be detected. F
 \s;object grabberNearestThePoint = search(bots, p);\n;
 o Keyword \const;Any\norm; if you are looking for any object (including even plants and so on).
 
-\t;position: \c;\l;point\u cbot\point;\n; (default value: \c;\l;this\u cbot\this;.\l;position\u cbot\object;\n;)
-\c;search\n; returns the object of the given category that is closest to the position indicated here. 
+\t;center: \c;\l;point\u cbot\point;\n; (default value: \c;\l;this\u cbot\this;.\l;position\u cbot\object;\n;)
+The center of the search area.
+
+\t;min: \c;\l;float\u cbot\float;\n; (default value: \c;0\n;)
+Minimum detection distance, in meters. Objects that are closer to the center than the minimum distance will not be detected.
+
+\t;max: \c;\l;float\u cbot\float;\n; (default value: \c;1000\n;)
+Maximum detection distance, in meters. Objects that are farther away from the center than the maximum distance will not be detected.
+
+\t;sens: \c;\l;float\u cbot\float;\n; (default value: \c;1\n;)
+Determines which way the objects are detected. With value \c;1\n;, returns the object closest to the center. With value \c;-1\n;, the farthest object in the area will be returned.
+
+\t;filter: \c;\l;int\u cbot\int;\n; (default value: \c;\const;FilterNone\norm;\n;)
+Determines which type of objects should be detected. Especially useful in use with an \l;array\u cbot\array; or \const;Any\norm;. The following filters are available:
+
+\c;\const;FilterNone\norm;        \n;Detects everything (default)
+\c;\const;FilterOnlyLanding\norm; \n;Detects only objects being on the ground
+\c;\const;FilterOnlyFlying\norm;  \n;Detects only objects not being on the ground
+\c;\const;FilterFriendly\norm;    \n;Detects only allies (objects in the same team)
+\c;\const;FilterEnemy\norm;       \n;Detects only enemies (objects in an other team except neutral)
+\c;\const;FilterNeutral\norm;     \n;Detects only neutral objects (e.g. resources)
+
+The last three are mainly useful in \l;code battles\u battles;. You can also pass a team ID to search only for objects from a specific team. Attention: you should use \const;FilterNeutral\norm; instead of \c;0\n; or else it will not work.
+
+Filters and IDs can be mixed using bitwise OR operator \c;|\n;, for example \c;search(Any, position, 0, 1000, 1, 2 | FilterOnlyLanding);\n; will only detect an object from team \c;2\n; that is on the ground. Attention: you can specify only one team ID at once, but you can specify several filters at once.
 
 \t;Return value: \c;\l;object\u cbot\object;\n;
 Characteristics of the object that has been found. The value \c;\l;null\u cbot\null;\n; means that no object of this category has been found. 
