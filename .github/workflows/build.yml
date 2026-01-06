@@ -21,7 +21,7 @@ jobs:
       working-directory: build
       run: DESTDIR=. make install
     - name: Upload build
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: data
         path: build/install
