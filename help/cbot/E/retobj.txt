@@ -2,10 +2,18 @@
 Syntax:
 \s;\c;retobject ( number );\n;
 
-Returns the object corresponding to the given number.
+Sometimes an object is hidden from the radar() and search() instructions (e.g. by proxyActivate=1). retobject() can be used to get any object - even the hidden ones. Here is how to get all objects:
+\c;
+\s; object result[];
+\s; for(int i = 0; retobject(i) != null; ++i)
+\s; {
+\s;     result[i] = retobject(i);
+\s; }
+\n;
 
 \t;number: \c;\l;int\u cbot\int;\n;
-Number of the object, between 0 and n. "n" represents the total number of objects in the scene. 
+Number of the object, between 0 and n. "n" represents the total number of objects in the scene.
+Note: two retobject() calls with the same number are only guaranteed to return the same object if no objects were created or destroyed between them.
 
 \t;Return value: \c;\l;object\u cbot\object;\n;
 Object corresponding to the number. The return value \c;\l;null\u cbot\null;\n; means that no object corresponds to this number, because the number was too high, and there are not so many objects in the scene. 

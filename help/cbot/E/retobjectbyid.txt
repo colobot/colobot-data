@@ -1,0 +1,21 @@
+\b;Instruction \c;retobjectbyid\n;
+Syntax:
+\s;\c; retobjectbyid ( id );\n;
+
+If you know an id of an object, you can use retobjectbyid to get the object:
+\c;
+\s; object obj1 = ...;
+\s; int id = obj1.id;
+\s; object obj2 = retobjectbyid(id);  // Same as obj1
+\n;
+
+Unlike a variable of type \c;\l;object\u cbot\object;\n;, an id can be communicated via a \c;\l;file\u cbot\file;\n; or an \c;\l;ExchangePost\u object\exchange;.
+
+\t;id: \c;\l;int\u cbot\int;\n;
+The id of the object. The id of an object never changes. The ids of destroyed objects are not reused.
+
+\t;Return value: \c;\l;object\u cbot\object;\n;
+The object with the given id or \c;\l;null\u cbot\null;\n; if there is no such object.
+
+\t;See also
+\l;Programming\u cbot;, \l;types\u cbot\type; and \l;categories\u cbot\category;.
