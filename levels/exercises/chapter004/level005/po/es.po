@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -180,36 +180,6 @@ msgstr ""
 msgid "If the distance to the target is greater than 5m, move towards the target. First calculate the angle necessary to face the target with the instruction <code><a cbot|direct>direction</a></code>. You can then adjust the speed of the right-hand and left-hand motor in order to follow the target:"
 msgstr "Si la distancia al objetivo es mayor de 5m, muévete hacia el objetivo. Primero calcula el ángulo necesario para enfrentar el objetivo con la instrucción <code><a cbot|direct>direction</a></code>. Luego puedes ajustar la velocidad del motor derecho e izquierdo para seguir el objetivo:"
 
-#. type: Source code
-#: ../help/help.E.txt:36
-#, no-wrap
-msgid ""
-"<c/>else\n"
-"{\n"
-"\tdir = direction(target.position);\n"
-"\tif ( dir >= 0 )  // target on the left side?\n"
-"\t{\n"
-"\t\tmotor(1-dir/90, 1);\n"
-"\t}\n"
-"\telse  // target on the right side?\n"
-"\t{\n"
-"\t\t<n/>te toca a ti completarlo<c/>\n"
-"\t}\n"
-"}"
-msgstr ""
-"<c/>else\n"
-"{\n"
-"\tdir = direction(target.position);\n"
-"\tif ( dir >= 0 )  // ¿objetivo a la izquierda?\n"
-"\t{\n"
-"\t\tmotor(1-dir/90, 1);\n"
-"\t}\n"
-"\telse  // ¿objetivo a la derecha?\n"
-"\t{\n"
-"\t\t<n/>te toca a ti completarlo<c/>\n"
-"\t}\n"
-"}"
-
 #. type: Plain text
 #: ../help/help.E.txt:49
 #, no-wrap
@@ -245,3 +215,21 @@ msgstr "Cuando el objetivo está a la derecha, <code>dir</code> es negativo, ent
 #, no-wrap
 msgid "The only task left for you now is to declare the <a cbot|var>variables</a> that you use in the program. <code>target</code> is of type <code>object</code>, whereas <code>dir</code> and <code>len</code> are of type <code>float</code>."
 msgstr "La única tarea que te queda ahora es declarar las <a cbot|var>variables</a> que usas en el programa. <code>target</code> es de tipo <code>object</code>, mientras que <code>dir</code> y <code>len</code> son de tipo <code>float</code>."
+
+#. type: Source code
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // target on the left side?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // target on the right side?\n"
+"\t{\n"
+"\t\t<n/>it is up to you to fill in<c/>\n"
+"\t}\n"
+"}"
+msgstr ""

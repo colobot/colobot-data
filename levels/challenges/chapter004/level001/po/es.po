@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,43 +44,43 @@ msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>cat
 #: ../scene.txt:1
 #, no-wrap
 msgid "Function"
-msgstr ""
+msgstr "Función"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Create a function to move a bot."
-msgstr ""
+msgstr "Crea una función para mover un bot."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr ""
+msgstr "Mover"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "The <a object|bottr>bot</a> must pass over all the <a object|waypoint>blue crosses</a> on the ground. The way that must be covered is made of two squares. The first one measures 15 meters, the second 25 meters."
-msgstr ""
+msgstr "El <a object|bottr>bot</a> debe pasar sobre todas las <a object|waypoint>cruces azules</a> en el suelo. El camino que debe recorrer está formado por dos cuadrados. El primero mide 15 metros, el segundo 25 metros."
 
 #. type: Image filename
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "tproc1a"
-msgstr ""
+msgstr "tproc1a"
 
 #. type: \b; header
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "General principle"
-msgstr ""
+msgstr "Principio general"
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "In order to solve this problem, the most efficient solution consists in creating a <a cbot|function>function</a> that instructs the bot to move on a square shape of a certain size. The main program becomes then very simple:<c/>"
-msgstr ""
+msgstr "Para resolver este problema, la solución más eficiente consiste en crear una <a cbot|function>función</a> que instruya al bot para moverse en forma de cuadrado de un cierto tamaño. El programa principal se vuelve entonces muy simple:<c/>"
 
 #. type: Source code
 #: ../help/help.E.txt:8
@@ -92,6 +92,11 @@ msgid ""
 "\t\tSquare(25);\n"
 "\t}"
 msgstr ""
+"\textern void object::Function3( )\n"
+"\t{\n"
+"\t\tSquare(15);\n"
+"\t\tSquare(25);\n"
+"\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:15
@@ -101,3 +106,6 @@ msgid ""
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
+"<code><a cbot|for>for</a></code> bucle para repetir algunas instrucciones\n"
+"<code><a cbot|move>move</a></code> para mover el bot\n"
+"<code><a cbot|turn>turn</a></code> para girar el bot"

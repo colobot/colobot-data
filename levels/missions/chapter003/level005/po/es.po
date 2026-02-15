@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,13 +128,13 @@ msgstr "<a command>Controles</a>"
 #: ../scene.txt:2
 #, no-wrap
 msgid "Explore the underwater world looking for another black box."
-msgstr ""
+msgstr "Explora el mundo submarino buscando otra caja negra."
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Locate and retrieve another <a object|bbox>black box</a> from the previous expedition."
-msgstr ""
+msgstr "Localiza y recupera otra <a object|bbox>caja negra</a> de la expedición anterior."
 
 #. type: Plain text
 #: ../help/report.E.txt:5
@@ -146,6 +146,11 @@ msgid ""
 "\\tab;Titanium ore:     some\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Temperatura:      29.4C\n"
+"\\tab;Atmósfera:        helio, oxígeno\n"
+"\\tab;Viento:           0.3 m/s\n"
+"\\tab;Mineral de titanio: algo\n"
+"\\tab;Mineral de uranio: ninguno"
 
 #. type: Plain text
 #: ../help/report.E.txt:12
@@ -155,6 +160,9 @@ msgid ""
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
+"\\tab;Fuente de energía: ninguna\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio: ninguno"
 
 #. type: Plain text
 #: ../help/report.E.txt:17
@@ -165,27 +173,31 @@ msgid ""
 "\\tab;Detected:         scattered derelicts\n"
 "\\tab;Detected:         black box (underwater)"
 msgstr ""
+"\\tab;Detectado:        mineral de titanio\n"
+"\\tab;  - Requiere:     convertidor\n"
+"\\tab;Detectado:        restos dispersos\n"
+"\\tab;Detectado:        caja negra (bajo el agua)"
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:3
 #, no-wrap
 msgid "Build a <a object|convert>converter</a> near the chunks of titanium ore. You'll find them in the vicinity of the spaceship to the east."
-msgstr ""
+msgstr "Construye un <a object|convert>convertidor</a> cerca de los trozos de mineral de titanio. Los encontrarás en las cercanías de la nave espacial hacia el este."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Produce two <a object|titan>cubes</a>."
-msgstr ""
+msgstr "Produce dos <a object|titan>cubos</a>."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Build a <a object|factory>bot factory</a> not too far from the black box."
-msgstr ""
+msgstr "Construye una <a object|factory>fábrica de bots</a> no muy lejos de la caja negra."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "You can build the bot factory right beside the lake, on the south bank."
-msgstr ""
+msgstr "Puedes construir la fábrica de bots justo al lado del lago, en la orilla sur."

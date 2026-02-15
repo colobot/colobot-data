@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,25 +87,25 @@ msgid "Specific instructions for bots:"
 msgstr "Instrucciones específicas para bots:"
 
 #. type: \t; header
-#: ../E/cbot.txt:60
+#: ../E/cbot.txt:61
 #, no-wrap
 msgid "Instructions about topology:"
 msgstr "Instrucciones sobre topología:"
 
 #. type: \t; header
-#: ../E/cbot.txt:66
+#: ../E/cbot.txt:67
 #, no-wrap
 msgid "Instructions specific to some bots:"
 msgstr "Instrucciones específicas para algunos bots:"
 
 #. type: \t; header
-#: ../E/cbot.txt:79
+#: ../E/cbot.txt:80
 #, no-wrap
 msgid "Specific instructions for exchange posts:"
 msgstr "Instrucciones específicas para centros de intercambio:"
 
 #. type: Plain text
-#: ../E/cbot.txt:80
+#: ../E/cbot.txt:81
 #, no-wrap
 msgid ""
 "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
@@ -119,19 +119,19 @@ msgstr ""
 "<code><a cbot|delinfo>deleteinfo</a> </code>Borra información existente"
 
 #. type: \t; header
-#: ../E/cbot.txt:85
+#: ../E/cbot.txt:86
 #, no-wrap
 msgid "Specific instructions for classes:"
 msgstr "Instrucciones específicas para clases:"
 
 #. type: \t; header
-#: ../E/cbot.txt:97
+#: ../E/cbot.txt:98
 #, no-wrap
 msgid "Specific instructions for strings:"
 msgstr "Instrucciones específicas para cadenas:"
 
 #. type: Plain text
-#: ../E/cbot.txt:98
+#: ../E/cbot.txt:99
 #, no-wrap
 msgid ""
 "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
@@ -153,13 +153,13 @@ msgstr ""
 "<code><a cbot|strlower>strlower</a>   </code>Convierte a minúsculas"
 
 #. type: \t; header
-#: ../E/cbot.txt:107
+#: ../E/cbot.txt:108
 #, no-wrap
 msgid "Specific instructions for files:"
 msgstr "Instrucciones específicas para archivos:"
 
 #. type: Plain text
-#: ../E/cbot.txt:108
+#: ../E/cbot.txt:109
 #, no-wrap
 msgid ""
 "<code><a cbot|open>open</a>       </code>Opens a file\n"
@@ -177,13 +177,13 @@ msgstr ""
 "<code><a cbot|deletef>deletefile</a> </code>Borra un archivo"
 
 #. type: \t; header
-#: ../E/battles.txt:53 ../E/cbot.txt:131 ../E/freehelp.txt:4
+#: ../E/battles.txt:53 ../E/cbot.txt:132 ../E/freehelp.txt:4
 #, no-wrap
 msgid "See also"
 msgstr "Ver también"
 
 #. type: Plain text
-#: ../E/cbot.txt:132
+#: ../E/cbot.txt:133
 #, no-wrap
 msgid "<a cbot|type>Types</a> and <a cbot|category>categories</a>."
 msgstr "<a cbot|type>Tipos</a> y <a cbot|category>categorías</a>."
@@ -605,7 +605,7 @@ msgstr ""
 "<code><a cbot|sizeof>sizeof</a>     </code>Tamaño de un array"
 
 #. type: Plain text
-#: ../E/cbot.txt:61
+#: ../E/cbot.txt:62
 #, no-wrap
 msgid ""
 "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
@@ -619,13 +619,13 @@ msgstr ""
 "<code><a cbot|flatgrnd>flatground</a> </code>Devuelve radio de área plana"
 
 #. type: \t; header
-#: ../E/cbot.txt:115
+#: ../E/cbot.txt:116
 #, no-wrap
 msgid "Mathematical functions:"
 msgstr "Funciones matemáticas:"
 
 #. type: Plain text
-#: ../E/cbot.txt:116
+#: ../E/cbot.txt:117
 #, no-wrap
 msgid ""
 "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
@@ -1021,7 +1021,7 @@ msgid "One can also switch to the free camera view by clicking somewhere on the 
 msgstr "También puedes cambiar a la vista de cámara libre haciendo clic en algún lugar del mapa. Puedes moverte en esta vista usando el teclado numérico y las teclas <format key>RePág</format>/<format key>AvPág</format>."
 
 #. type: Plain text
-#: ../E/cbot.txt:86
+#: ../E/cbot.txt:87
 #, no-wrap
 msgid ""
 "<code><a cbot|class>class</a>      </code>Class declararion\n"
@@ -1065,71 +1065,7 @@ msgstr ""
 "<format key><key quit/></format> = salir de misión <button 11/>"
 
 #. type: Plain text
-#: ../E/cbot.txt:30
-#, no-wrap
-msgid ""
-"<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
-"<code><a cbot|radar>radar</a>      </code>Advanced object detection\n"
-"<code><a cbot|radarall>radarall</a>   </code>Advanced multiple objects detection\n"
-"<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
-"<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
-"<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
-"<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
-"<code><a cbot|wait>wait</a>       </code>Waits\n"
-"<code><a cbot|move>move</a>       </code>Moves forward or backward\n"
-"<code><a cbot|turn>turn</a>       </code>Turns\n"
-"<code><a cbot|goto>goto</a>       </code>Goes to a given position\n"
-"<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
-"<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
-"<code><a cbot|message>message</a>    </code>Displays a message\n"
-"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
-"<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
-"<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time\n"
-"<code><a cbot|pendown>pendown</a>    </code>Starts drawing\n"
-"<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
-"<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
-"<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
-"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
-"<code><a cbot|research>research</a>   </code>Starts a research\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Launches a spaceship\n"
-"<code><a cbot|isbusy>isbusy</a>     </code>Checks if object is busy\n"
-"<code><a cbot|canresearch>canresearch</a></code>Checks if a technology can be researched\n"
-"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
-msgstr ""
-"<code><a cbot|detect>detect</a>     </code>Detección simple de objetos\n"
-"<code><a cbot|radar>radar</a>      </code>Detección avanzada de objetos\n"
-"<code><a cbot|radarall>radarall</a>   </code>Detección múltiple avanzada\n"
-"<code><a cbot|search>search</a>     </code>Detección desde punto específico\n"
-"<code><a cbot|direct>direction</a>  </code>Calcula ángulo de rotación\n"
-"<code><a cbot|dist>distance</a>   </code>Calcula distancia\n"
-"<code><a cbot|dist2d>distance2d</a> </code>Calcula distancia\n"
-"<code><a cbot|wait>wait</a>       </code>Espera\n"
-"<code><a cbot|move>move</a>       </code>Mueve adelante o atrás\n"
-"<code><a cbot|turn>turn</a>       </code>Gira\n"
-"<code><a cbot|goto>goto</a>       </code>Va a posición dada\n"
-"<code><a cbot|motor>motor</a>      </code>Control directo de motor\n"
-"<code><a cbot|jet>jet</a>        </code>Control directo de reactor\n"
-"<code><a cbot|message>message</a>    </code>Muestra mensaje\n"
-"<code><a cbot|retobj>retobject</a>  </code>Devuelve objeto de función\n"
-"<code><a cbot|errmode>errmode</a>    </code>Control de tratamiento de errores\n"
-"<code><a cbot|abstime>abstime</a>    </code>Devuelve tiempo absoluto\n"
-"<code><a cbot|pendown>pendown</a>    </code>Inicia dibujo\n"
-"<code><a cbot|penup>penup</a>      </code>Detiene dibujo\n"
-"<code><a cbot|pencolor>pencolor</a>   </code>Cambia color del lápiz\n"
-"<code><a cbot|penwidth>penwidth</a>   </code>Cambia ancho del lápiz\n"
-"<code><a cbot|factory>factory</a>    </code>Inicia construcción de bot\n"
-"<code><a cbot|research>research</a>   </code>Inicia investigación\n"
-"<code><a cbot|takeoff>takeoff</a>    </code>Lanza nave espacial\n"
-"<code><a cbot|isbusy>isbusy</a>     </code>Comprueba si objeto está ocupado\n"
-"<code><a cbot|canresearch>canresearch</a></code>Comprueba si tecnología puede investigarse\n"
-"<code><a cbot|researched>researched</a> </code>Comprueba si tecnología está investigada\n"
-"<code><a cbot|canbuild>canbuild</a>   </code>Comprueba si edificio puede construirse\n"
-"<code><a cbot|buildingenabled>buildingenabled</a> </code>Comprueba si edificio disponible en misión"
-
-#. type: Plain text
-#: ../E/cbot.txt:67
+#: ../E/cbot.txt:68
 #, no-wrap
 msgid ""
 "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
@@ -1187,3 +1123,39 @@ msgstr ""
 #, no-wrap
 msgid "<code>trainerpilot </code>You can drive robots which could be previously controlled only by programs"
 msgstr "<code>trainerpilot </code>Puedes controlar bots que anteriormente solo podían ser controlados por programas"
+
+#. type: Plain text
+#: ../E/cbot.txt:30
+#, no-wrap
+msgid ""
+"<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
+"<code><a cbot|radar>radar</a>      </code>Advanced object detection\n"
+"<code><a cbot|radarall>radarall</a>   </code>Advanced multiple objects detection\n"
+"<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
+"<code><a cbot|searchall>searchall</a>     </code>Detection of multiple objects from a specific point\n"
+"<code><a cbot|direct>direction</a>  </code>Calculates a rotation angle\n"
+"<code><a cbot|dist>distance</a>   </code>Calculates a distance\n"
+"<code><a cbot|dist2d>distance2d</a> </code>Calculates a distance\n"
+"<code><a cbot|wait>wait</a>       </code>Waits\n"
+"<code><a cbot|move>move</a>       </code>Moves forward or backward\n"
+"<code><a cbot|turn>turn</a>       </code>Turns\n"
+"<code><a cbot|goto>goto</a>       </code>Goes to a given position\n"
+"<code><a cbot|motor>motor</a>      </code>Direct motor control\n"
+"<code><a cbot|jet>jet</a>        </code>Direct jet engine control\n"
+"<code><a cbot|message>message</a>    </code>Displays a message\n"
+"<code><a cbot|retobj>retobject</a>  </code>Returns an object from a function\n"
+"<code><a cbot|errmode>errmode</a>    </code>Error treatement control\n"
+"<code><a cbot|abstime>abstime</a>    </code>Returns the absolute time\n"
+"<code><a cbot|pendown>pendown</a>    </code>Starts drawing\n"
+"<code><a cbot|penup>penup</a>      </code>Stops drawing\n"
+"<code><a cbot|pencolor>pencolor</a>   </code>Changes the pen color\n"
+"<code><a cbot|penwidth>penwidth</a>   </code>Changes the pen width\n"
+"<code><a cbot|factory>factory</a>    </code>Starts construction of a bot\n"
+"<code><a cbot|research>research</a>   </code>Starts a research\n"
+"<code><a cbot|takeoff>takeoff</a>    </code>Launches a spaceship\n"
+"<code><a cbot|isbusy>isbusy</a>     </code>Checks if object is busy\n"
+"<code><a cbot|canresearch>canresearch</a></code>Checks if a technology can be researched\n"
+"<code><a cbot|researched>researched</a> </code>Checks if a technology is researched\n"
+"<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
+"<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
+msgstr ""

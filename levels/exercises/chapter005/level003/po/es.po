@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -190,6 +190,11 @@ msgid ""
 "}\n"
 "while ( obj == null );"
 msgstr ""
+"do\n"
+"{\n"
+"\tobj = radar(TitaniumOre);\n"
+"}\n"
+"while ( obj == null );"
 
 #. type: Plain text
 #: ../help/help.E.txt:36
@@ -205,7 +210,7 @@ msgstr ""
 #: ../help/help.E.txt:39
 #, no-wrap
 msgid "obj = radar(Converter);"
-msgstr ""
+msgstr "obj = radar(Converter);"
 
 #. type: Plain text
 #: ../help/help.E.txt:41
@@ -227,6 +232,11 @@ msgid ""
 "}\n"
 "while ( obj == null );"
 msgstr ""
+"do\n"
+"{\n"
+"\tobj = radar(Titanium, 0, 360, 0, 5);\n"
+"}\n"
+"while ( obj == null );"
 
 #. type: Plain text
 #: ../help/help.E.txt:50
@@ -241,6 +251,8 @@ msgid ""
 "dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
 
 #. type: Plain text
 #: ../help/help.E.txt:55

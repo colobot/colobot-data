@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -281,3 +281,20 @@ msgid ""
 "}"
 msgstr ""
 
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. You must use a <a cbot|string>string</a> to pass the orders to the slave bot. This string contains the order the slave shoud execute, for exemple <code>\"move(20)\"</code>. You can see that this is the same syntax as used in the CBOT language but we could have chosen any other syntax for exemple something like <code>\"advance=20\"</code>. The string will be a <code><a cbot|static>static</a></code> class member that will be used to communicate from the master to the slave."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as the string <code>m_order</code> is not empty, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing."
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:100
+#, no-wrap
+msgid "<format key><key help/></format> show these instruction at any time."
+msgstr ""

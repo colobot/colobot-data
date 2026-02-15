@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1.11\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2026-02-15 00:00+0000
-"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>
-"Language-Team: Spanish
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Ricardo Rodriguez Garcia <RicardoRdzG>\n"
+"Language-Team: Spanish\n"
 "Language: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +84,7 @@ msgstr ""
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "\t<a cbot|send>send</a>(\"param\", 20, 100);  // distance 20 meters"
-msgstr ""
+msgstr "\t<a cbot|send>send</a>(\"param\", 20, 100);  // distance 20 meters"
 
 #. type: Plain text
 #: ../help/help.E.txt:19
@@ -106,6 +106,9 @@ msgid ""
 "\t\twait(1);\n"
 "\t}"
 msgstr ""
+"\t{\n"
+"\t\twait(1);\n"
+"\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:29
@@ -131,6 +134,15 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"{\n"
+"\tsend(\"param\", param, 100);  // send the parameter\n"
+"\tsend(\"order\", order, 100);  // send the order\n"
+"\n"
+"\twhile ( testinfo(\"order\", 100) )  // wait for end of work\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:41
