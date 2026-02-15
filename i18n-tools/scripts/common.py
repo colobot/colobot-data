@@ -121,7 +121,9 @@ class LanguageFile:
     """
     def language_char(self):
         if self.language == 'pt':
-            return 'B';
+            return 'B'
+        elif self.language == 'es':
+            return 'S'
         else:
             return self.language[0].upper()
 
