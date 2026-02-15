@@ -1,0 +1,283 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \t; header
+#: ../help/help.E.txt:102
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Remote control #3"
+msgstr "Control remoto #3"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Remote control a bot without using an information exchange post by using a string."
+msgstr "Controla remotamente un bot sin usar un puesto de intercambio de información usando una cadena."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Remote3"
+msgstr "Remote3"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercice"
+msgstr "Ejercicio"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The two main actors of this exercise are:"
+msgstr "Los dos actores principales de este ejercicio son:"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave."
+msgstr "El <a object|botgr>recolector con ruedas</a> sin paquete de energía y por lo tanto inmóvil. Este es el maestro que debes programar para que transmita órdenes al esclavo."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "The slave <a object|bottr>practice bot</a> which is already programmed and just waits for orders from the master."
+msgstr "El esclavo <a object|bottr>bot de práctica</a> que ya está programado y simplemente espera órdenes del maestro."
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The slave"
+msgstr "El esclavo"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchaning the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_order</code> which will contain the order to be executed. The word <code>static</code> insures that the member <code>m_order</code> is shared between all instances of the <a cbot|class>class</a> exchange."
+msgstr "Primero debemos entender cómo funciona el programa del esclavo. La <a cbot|class>clase</a> <code>exchange</code> contiene el mecanismo para intercambiar las órdenes. Declaramos un miembro de clase <code><a cbot|static>static</a></code> <code>m_order</code> que contendrá la orden a ejecutar. La palabra <code>static</code> asegura que el miembro <code>m_order</code> se comparta entre todas las instancias de la <a cbot|class>clase</a> exchange."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> exchange"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(string order)"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> <a cbot|bool>bool</a> put(string order)"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tif ( m_order == \"\" )\n"
+"\t\t{\n"
+"\t\t\tm_order = order;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the string contained in <code>m_order</code> and empties it, so a new order can be accepted:"
+msgstr "Otro método <code>get</code> será usado por el esclavo para recuperar las órdenes. Este método devuelve la cadena contenida en <code>m_order</code> y la vacía, para que se pueda aceptar una nueva orden:"
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> string get()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> string get()"
+
+#. type: Source code
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tstring ret = m_order;\n"
+"\t\tm_order = \"\";\n"
+"\t\treturn ret;\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>."
+msgstr "El programa principal del esclavo contiene una instancia de la clase <code>exchange</code> llamada <code>list</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave3( )"
+
+#. type: Source code
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\tstring   todo;"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a non empty string, the while loop stops."
+msgstr "El bucle <code>while</code> exterior dura para siempre. El bucle <code>while</code> interior espera una orden usando el método <code>get</code> de la clase <code>exchange</code>. Tan pronto como <code>get</code> devuelve una cadena no vacía, el bucle while se detiene."
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+
+#. type: Source code
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != \"\" )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "Now we have received the order in the <code>todo</code> variable. All we have to do is execute it:"
+msgstr "Ahora hemos recibido la orden en la variable <code>todo</code>. Todo lo que tenemos que hacer es ejecutarla:"
+
+#. type: Plain text
+#: ../help/help.E.txt:60
+#, no-wrap
+msgid "<c/><s/>\t\tif ( <a cbot|strfind>strfind</a>(todo, \"move\") == 0 )"
+msgstr "<c/><s/>\t\tif ( <a cbot|strfind>strfind</a>(todo, \"move\") == 0 )"
+
+#. type: Source code
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid ""
+"\t\t{\n"
+"\t\t\tmove(<a cbot|strval>strval</a>(<a cbot|strmid>strmid</a>(todo,5)));\n"
+"\t\t}\n"
+"\t\tif ( strfind(todo, \"turn\") == 0 )\n"
+"\t\t{\n"
+"\t\t\tturn(strval(strmid(todo,5)));\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:71
+#, no-wrap
+msgid "The master"
+msgstr "El maestro"
+
+#. type: Plain text
+#: ../help/help.E.txt:103
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>programming</a>."
+msgstr "<a command>Controles</a> y <a cbot>programación</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:72
+#, no-wrap
+msgid "In the master we write an function called <code>SendOrder</code> which will send an order to the slave:"
+msgstr "En el maestro escribimos una función llamada <code>SendOrder</code> que enviará una orden al esclavo:"
+
+#. type: Plain text
+#: ../help/help.E.txt:74
+#, no-wrap
+msgid "<c/><s/>void object::SendOrder(string order)"
+msgstr "<c/><s/>void object::SendOrder(string order)"
+
+#. type: Source code
+#: ../help/help.E.txt:75
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\t\n"
+"\twhile ( list.put(order) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:84
+#, no-wrap
+msgid ""
+"The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method.\n"
+"Now the main program of the master is very simple:"
+msgstr ""
+"El bucle <code>while</code> espera hasta que una orden pendiente haya terminado, es decir, que el esclavo ha salido del método <code>get</code>.\n"
+"Ahora el programa principal del maestro es muy simple:"
+
+#. type: Plain text
+#: ../help/help.E.txt:87
+#, no-wrap
+msgid "<c/><s/>extern void object::Remote3( )"
+msgstr "<c/><s/>extern void object::Remote3( )"
+
+#. type: Source code
+#: ../help/help.E.txt:88
+#, no-wrap
+msgid ""
+"{\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(-90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"}"
+msgstr ""
+

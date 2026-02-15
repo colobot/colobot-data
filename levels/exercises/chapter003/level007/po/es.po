@@ -1,0 +1,171 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:54
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Labyrinth 2"
+msgstr "Laberinto 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Teach your bot to do the same job in a more autonomous way."
+msgstr "Enseña a tu bot a hacer el mismo trabajo de manera más autónoma."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Labyrinth"
+msgstr "Laberinto"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This exercise is very similar to the previous one. This time the bot should find its way alone from the start to the goal; you will have to execute the program only once."
+msgstr "Este ejercicio es muy similar al anterior. Esta vez el bot debería encontrar su camino solo desde el inicio hasta la meta; solo tendrás que ejecutar el programa una vez."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Remark"
+msgstr "Nota"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The labyrinth is not exactly the same, but this should be of no importance, as the program adapts to what it \"sees\"."
+msgstr "El laberinto no es exactamente igual, pero esto no debería tener importancia, ya que el programa se adapta a lo que \"ve\"."
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "tlaby1"
+msgstr "tlaby1"
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "General principle"
+msgstr "Principio general"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Use an infinite <code><a cbot|while>while</a></code> loop in order to execute the previous program several times:"
+msgstr "Usa un bucle <code><a cbot|while>while</a></code> infinito para ejecutar el programa anterior varias veces:"
+
+#. type: Source code
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid ""
+"<code>while ( true )\n"
+"{\n"
+"\t</code>If there is nothing in front, move forward<code>\n"
+"\t</code>If there is nothing on your left hand, turn left<code>\n"
+"\t</code>If there is nothing on your right hand, turn right<c/>\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Inside this <code>while</code> loop, replace the <code>return</code> instructions by <code><a cbot|continue>continue</a></code> instructions. <code>return</code> would quit the program, which is not what we want here. <code>continue</code> will just resume the execution at the beginning of the <code><a cbot|while>while</a></code> loop:"
+msgstr "Dentro de este bucle <code>while</code>, reemplaza las instrucciones <code>return</code> por instrucciones <code><a cbot|continue>continue</a></code>. <code>return</code> saldría del programa, lo cual no es lo que queremos aquí. <code>continue</code> simplemente reanudará la ejecución al principio del bucle <code><a cbot|while>while</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\tcontinue;\n"
+"}"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "Remember"
+msgstr "Recuerda"
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "Here is again the program of the previous exercise :"
+msgstr "Aquí está de nuevo el programa del ejercicio anterior:"
+
+#. type: Source code
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"object   front, left, right;\n"
+"\n"
+"front = radar(Barrier,   0, 45, 0, 5);\n"
+"left  = radar(Barrier,  90, 45, 0, 5);\n"
+"right = radar(Barrier, -90, 45, 0, 5);\n"
+"\n"
+"if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}\n"
+"if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}\n"
+"if ( right == null )\n"
+"{\n"
+"\tturn(-90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+msgstr ""
+
+#. type: \b; header
+#: ../help/help.E.txt:51
+#, no-wrap
+msgid "Help"
+msgstr "Ayuda"
+
+#. type: Plain text
+#: ../help/help.E.txt:52
+#, no-wrap
+msgid "If you need some help, just click on the hyperlinks of the instructions <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> or <code><a cbot|turn>turn</a></code>."
+msgstr "Si necesitas ayuda, simplemente haz clic en los hipervínculos de las instrucciones <code><a cbot|radar>radar</a></code>, <code><a cbot|if>if</a></code>, <code><a cbot|move>move</a></code> o <code><a cbot|turn>turn</a></code>."

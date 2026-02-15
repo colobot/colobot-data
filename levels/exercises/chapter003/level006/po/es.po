@@ -1,0 +1,273 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Labyrinth 1"
+msgstr "Laberinto 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Teach your bot how to find its way out of the labyrinth."
+msgstr "Enseña a tu bot cómo encontrar su salida del laberinto."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Labyrinth"
+msgstr "Laberinto"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Program the bot so that it will find its way without hitting the walls of the labyrinth. We suppose that you do not know the configuration of the labyrinth, but there are no bifurcations, and no dead-ends. The labyrinth is made of squares measuring 5m each."
+msgstr "Programa el bot para que encuentre su camino sin golpear las paredes del laberinto. Suponemos que no conoces la configuración del laberinto, pero no hay bifurcaciones ni callejones sin salida. El laberinto está compuesto por cuadrados de 5m cada uno."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The instruction <code>radar</code>"
+msgstr "La instrucción <code>radar</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The instruction <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> will find any <a object|barrier>barrier</a> in front of the radar that is closer than 5m. Let us take a closer look at the five parameters used:"
+msgstr "La instrucción <c/><a cbot|radar>radar</a>(Barrier, 0, 45, 0, 5);<n/> encontrará cualquier <a object|barrier>barrera</a> frente al radar que esté a menos de 5m. Veamos más de cerca los cinco parámetros utilizados:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<code>Barrier</code>"
+msgstr "<code>Barrier</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<a cbot|category>Category</a> of the object that the radar must look for, i.e. a barrier."
+msgstr "<a cbot|category>Categoría</a> del objeto que el radar debe buscar, es decir, una barrera."
+
+#. type: Source code
+#: ../help/help.E.txt:10 ../help/help.E.txt:16
+#, no-wrap
+msgid "<code>0</code>"
+msgstr "<code>0</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Direction of the radar. <code>0</code> means that the radar must search straight forward."
+msgstr "Dirección del radar. <code>0</code> significa que el radar debe buscar directamente hacia adelante."
+
+#. type: Source code
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<code>45</code>"
+msgstr "<code>45</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "Opening angle in degrees. With an opening angle of 45 degrees, barriers situated between 22.5 degrees to the left and 22.5 degrees to the right will be detected."
+msgstr "Ángulo de apertura en grados. Con un ángulo de apertura de 45 grados, se detectarán barreras situadas entre 22.5 grados a la izquierda y 22.5 grados a la derecha."
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Minimum detection distance. <code>0</code> means that even object that are very close to the bot will be detected."
+msgstr "Distancia mínima de detección. <code>0</code> significa que incluso objetos muy cercanos al bot serán detectados."
+
+#. type: Source code
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "<code>5</code>"
+msgstr "<code>5</code>"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "Maximum detection range. Any barrier situated beyond <code>5</code> meters will not be detected."
+msgstr "Rango de detección máximo. Cualquier barrera situada más allá de <code>5</code> metros no será detectada."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "To take another example, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> will direct the radar 90 degrees to the left, in order to test if the way to the left is free."
+msgstr "Para tomar otro ejemplo, <c/><a cbot|radar>radar</a>(Barrier, 90, 45, 0, 5);<n/> dirigirá el radar 90 grados a la izquierda, para probar si el camino a la izquierda está libre."
+
+#. type: Image filename
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "tlaby1"
+msgstr "tlaby1"
+
+#. type: \b; header
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "General principle"
+msgstr "Principio general"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad."
+msgstr "El programa solo debe ocuparse de una porción cuadrada del laberinto. Tendrás que ejecutarlo varias veces para llegar a la plataforma de meta."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "If there is nothing in front, move forward."
+msgstr "Si no hay nada enfrente, avanza."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "If there is nothing on the left side, quarter turn left, move forward."
+msgstr "Si no hay nada a la izquierda, gira 90 grados a la izquierda y avanza."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "If there is nothing on the right side, quarter turn right, move forward."
+msgstr "Si no hay nada a la derecha, gira 90 grados a la derecha y avanza."
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "First of all declare three <a cbot|var>variables</a> of type <code><a cbot|object>object</a></code>, that we call <code>front</code>, <code>left</code> and <code>right</code>. Variables of this type can contain the description of any object, for example of a barrier found by the radar."
+msgstr "Primero declara tres <a cbot|var>variables</a> de tipo <code><a cbot|object>object</a></code>, que llamamos <code>front</code>, <code>left</code> y <code>right</code>. Las variables de este tipo pueden contener la descripción de cualquier objeto, por ejemplo, una barrera encontrada por el radar."
+
+#. type: Source code
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "<c/>\tobject   front, left, right;<n/>"
+msgstr "<c/>\tobject   front, left, right;<n/>"
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "Look for barriers in all three directions, and put the result of the <code>radar</code> instruction into the three variables defined at point 1). If the radar finds nothing, the variable will contain the value <code><a cbot|null>null</a></code>."
+msgstr "Busca barreras en las tres direcciones y coloca el resultado de la instrucción <code>radar</code> en las tres variables definidas en el punto 1). Si el radar no encuentra nada, la variable contendrá el valor <code><a cbot|null>null</a></code>."
+
+#. type: Source code
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid ""
+"<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
+"\tleft  = radar(Barrier,  90, 45, 0, 5);\n"
+"\tright = radar(Barrier, -90, 45, 0, 5);"
+msgstr ""
+"<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
+"\tleft  = radar(Barrier,  90, 45, 0, 5);\n"
+"\tright = radar(Barrier, -90, 45, 0, 5);"
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "Test if the way is free in front of the bot with the instruction <code><a cbot|if>if</a></code>. If the test is true, the instructions in braces <code>{ }</code> will be executed, otherwise the execution will resume after the closing brace <code>}</code>."
+msgstr "Comprueba si el camino está libre frente al bot con la instrucción <code><a cbot|if>if</a></code>. Si la prueba es verdadera, se ejecutarán las instrucciones entre llaves <code>{ }</code>, de lo contrario la ejecución continuará después de la llave de cierre <code>}</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "The instruction <code>return</code> leaves the program: the job is done."
+msgstr "La instrucción <code>return</code> sale del programa: el trabajo está hecho."
+
+#. type: Source code
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+msgstr ""
+"<c/>if ( front == null )\n"
+"{\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:47
+#, no-wrap
+msgid "Test if it is possible to turn left; if so, turn left with the instruction <code><a cbot|turn>turn</a></code> and move 5m forward."
+msgstr "Comprueba si es posible girar a la izquierda; si es así, gira a la izquierda con la instrucción <code><a cbot|turn>turn</a></code> y avanza 5m."
+
+#. type: Source code
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid ""
+"<c/>if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+msgstr ""
+"<c/>if ( left == null )\n"
+"{\n"
+"\tturn(90);\n"
+"\tmove(5);\n"
+"\treturn;\n"
+"}"
+
+#. type: Bullet: '5)'
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "Test if it is possible to turn right."
+msgstr "Comprueba si es posible girar a la derecha."
+
+#. type: Plain text
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "    ..."
+msgstr "    ..."
+
+#. type: \b; header
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid "Attention"
+msgstr "Atención"
+
+#. type: Plain text
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "The instruction <code>if ( )</code> must never be followed by a <a cbot|term>semicolon</a>."
+msgstr "La instrucción <code>if ( )</code> nunca debe ser seguida de un <a cbot|term>punto y coma</a>."

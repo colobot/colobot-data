@@ -1,0 +1,119 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \b; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Instrucciones útiles"
+
+#. type: \t; header
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Shadow 2"
+msgstr "Sombra 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Sigue un bot, como si fueras su sombra."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Follow"
+msgstr "Seguir"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
+msgstr "Debes seguir al <a object|bottr>bot objetivo</a> con el dispositivo explosivo, pero sin tocarlo, de lo contrario explotará. Cada vez que el bot objetivo se detiene, debes estar cerca (menos de 10m). Después de lograr mantenerse cerca del bot objetivo en 10 paradas sucesivas, te llevará a la plataforma de llegada y el ejercicio termina. En cada parada, el bot objetivo comprueba que estás ahí. Si no estás, debes empezar de nuevo."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Principio general"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Repeat forever:"
+msgstr "Repetir para siempre:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Look for the target bot."
+msgstr "Busca el bot objetivo."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the distance to the bot."
+msgstr "Calcula la distancia hasta el bot."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "if the distance to the target bot is less than 5m, move backward."
+msgstr "si la distancia al bot objetivo es menor de 5m, retrocede."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Otherwise, calculate the direction of the target bot, and move towards it."
+msgstr "De lo contrario, calcula la dirección del bot objetivo, y muévete hacia él."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"<code><a cbot|radar>radar</a></code> to look for the bot (category <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> to detect obstacles\n"
+"<code><a cbot|dist>distance</a></code> to calculate a distance\n"
+"<code><a cbot|direct>direction</a></code> to calculate a direction\n"
+"<code><a cbot|if>if</a></code> to test a condition\n"
+"<code><a cbot|motor>motor</a></code> to set the motor speeds"
+msgstr ""
+"<code><a cbot|radar>radar</a></code> para buscar el bot (categoría <code><a object|bottarg>TargetBot</a></code>)\n"
+"<code><a cbot|radar>radar</a></code> para detectar obstáculos\n"
+"<code><a cbot|dist>distance</a></code> para calcular una distancia\n"
+"<code><a cbot|direct>direction</a></code> para calcular una dirección\n"
+"<code><a cbot|if>if</a></code> para probar una condición\n"
+"<code><a cbot|motor>motor</a></code> para establecer las velocidades del motor"

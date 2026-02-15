@@ -1,0 +1,213 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Black Box"
+msgstr "Caja Negra"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Discover crucial information left behind by the first expedition."
+msgstr "Descubre información crucial dejada por la primera expedición."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Del Control de Misiones"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "We have no way of being sure where the previous expedition was headed when it left the Moon surface nor why it chose to go wherever it was going."
+msgstr "No tenemos forma de asegurarnos hacia dónde se dirigía la expedición anterior cuando dejó la superficie de la Luna ni por qué eligió ir adonde iba."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Locate the <a object|bbox>black box</a> they must have left behind and bring it back aboard your ship. The black box should contain the coordinates of the next planet the expedition was planning to visit."
+msgstr "Localiza la <a object|bbox>caja negra</a> que deben haber dejado atrás y tráela de vuelta a bordo de tu nave. La caja negra debe contener las coordenadas del próximo planeta que la expedición planeaba visitar."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Your bot's <a object|power>power cells</a> are almost entirely empty. Recharging them should be your priority. The observation satellite in orbit indicates that the subsoil in this particular area is loaded with energy. You should therefore be able to build a functional <a object|station>power station</a> on any flat surface."
+msgstr "Las <a object|power>celdas de energía</a> de tu bot están casi completamente vacías. Recargarlas debería ser tu prioridad. El satélite de observación en órbita indica que el subsuelo en esta área particular está cargado de energía. Por lo tanto, deberías poder construir una <a object|station>central eléctrica</a> funcional en cualquier superficie plana."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "We have developed a program that will recharge the <a object|power>power cell</a> of a bot. Refer to the program page of your SatCom <button 53/>."
+msgstr "Hemos desarrollado un programa que recargará la <a object|power>celda de energía</a> de un bot. Consulta la página de programas de tu SatCom <button 53/>."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Procedure"
+msgstr "Procedimiento"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "You first need to build a <a object|convert>converter</a> that converts the chunks of titanium ore already in your possession into usable <a object|titan>titanium cubes</a>."
+msgstr "Primero necesitas construir un <a object|convert>convertidor</a> que convierta los trozo de mineral de titanio que ya posees en <a object|titan>cubos de titanio</a> utilizables."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "You should then build both a <a object|station>power station</a> and a <a object|radar>radar</a> which will indicate the location of the black box on your mini map."
+msgstr "Entonces debes construir tanto una <a object|station>central eléctrica</a> como un <a object|radar>radar</a> que indicará la ubicación de la caja negra en tu mini mapa."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "With your power cells fully charged, retrieve the black box. It needs to be placed on the <a object|base>spaceship</a> platform for you to be able to take off."
+msgstr "Con tus celdas de energía completamente cargadas, recupera la caja negra. Necesita ser colocada en la plataforma de la <a object|base>nave espacial</a> para que puedas despegar."
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en todo momento en tu SatCom personal <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:17 ../help/soluce.E.txt:18
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Controles</a> y <a cbot>Lenguaje CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informe Satelital"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of the Moon."
+msgstr "Actualmente en órbita geoestacionaria de la Luna."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SUPERFICIE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      -38.2°C\n"
+"\\tab;Atmosphere:       none\n"
+"\\tab;Wind:             0.0 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Temperatura:      -38.2°C\n"
+"\\tab;Atmósfera:        ninguna\n"
+"\\tab;Viento:           0.0 mps\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio:  ninguno"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SUBSUELO<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Fuente de energía:  en todas partes\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio:  ninguno"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Guía Paso a Paso"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Build a converter <button 162/> with the only titanium cube available."
+msgstr "Construye un convertidor <button 162/> con el único cubo de titanio disponible."
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Deposit one chunk of titanium ore at a time at the center of the platform and let the converter do the rest."
+msgstr "Deposita un trozo de mineral de titanio a la vez en el centro de la plataforma y deja que el convertidor haga el resto."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build a power station <button 164/> with one of the newly converted titanium cubes."
+msgstr "Construye una central eléctrica <button 164/> con uno de los cubos de titanio recién convertidos."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "If you don't feel like looking for the black box yourself, build a radar <button 168/> and the box will appear on your mini map somewhere north of your present location, at the bottom of a crater, next to a few derelict spacecraft and debris from the previous expedition."
+msgstr "Si no tienes ganas de buscar la caja negra tú mismo, construye un radar <button 168/> y la caja aparecerá en tu mini mapa en algún lugar al norte de tu ubicación actual, en el fondo de un cráter, junto a algunas naves espaciales abandonadas y escombros de la expedición anterior."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Place the grabbers at the center of the power station platform to recharge them. The cells should still have a little power left in them, just enough to radio-control the bots onto the platform."
+msgstr "Coloca los recogedores en el centro de la plataforma de la central eléctrica para recargarlos. Las células aún deberían tener un poco de energía restantes, solo suficiente para controlar por radio los bots hasta la plataforma."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Radio-control the winged grabber to the black box and back."
+msgstr "Controla por radio el recogedor alado hasta la caja negra y de regreso."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:14
+#, no-wrap
+msgid "Gather both grabbers and the black box onto the spaceship platform and climb on board yourself."
+msgstr "Reúne ambos recogedores y la caja negra en la plataforma de la nave espacial y sube a bordo tú mismo."
+
+#. type: Bullet: '8)'
+#: ../help/soluce.E.txt:16
+#, no-wrap
+msgid "Take off."
+msgstr "Despega."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:19
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Controles</a>"

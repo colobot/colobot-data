@@ -1,0 +1,93 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \b; header
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Useful instructions"
+msgstr "Instrucciones útiles"
+
+#. type: \t; header
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Help"
+msgstr "Ayuda"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Defend yourself agains all alien attacks."
+msgstr "Deféndete de todos los ataques alienígenas."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Defense"
+msgstr "Defensa"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Defend against all enemy attacks"
+msgstr "Defiéndete de todos los ataques enemigos"
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General idea"
+msgstr "Idea general"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The range of your cannon is about 40m. The category of the enemies is <code>AlienAnt</code>. Turn towards the closest ant, even if it is still more than 40m away. But shoot only when it is closer than 40m, in order not to waste your energy."
+msgstr "El alcance de tu cañón es de unos 40m. La categoría de los enemigos es <code>AlienAnt</code>. Gira hacia la hormiga más cercana, incluso si está a más de 40m. Pero dispara solo cuando esté a menos de 40m, para no desperdiciar tu energía."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid ""
+"<code><a cbot|radar>radar</a></code> to detect your enemies (category <code><a object|ant>AlienAnt</a></code>)\n"
+"<code><a cbot|direct>direction</a></code> to calculate a direction\n"
+"<code><a cbot|dist>distance</a></code> to calculate a distance\n"
+"<code><a cbot|fire>fire</a></code> to fire your cannon\n"
+"<code><a cbot|wait>wait</a></code> to wait"
+msgstr ""
+"<code><a cbot|radar>radar</a></code> para detectar tus enemigos (categoría <code><a object|ant>AlienAnt</a></code>)\n"
+"<code><a cbot|direct>direction</a></code> para calcular una dirección\n"
+"<code><a cbot|dist>distance</a></code> para calcular una distancia\n"
+"<code><a cbot|fire>fire</a></code> para disparar tu cañón\n"
+"<code><a cbot|wait>wait</a></code> para esperar"

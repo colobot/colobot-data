@@ -1,0 +1,151 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: \t; header
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Flying Tower 2"
+msgstr "Torre Voladora 2"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Program a flying tower that wastes less energy."
+msgstr "Programa una torre voladora que desperdicie menos energía."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Mover"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Adapt the program <code>Tower1</code> in order to avoid wasting energy when shooting at ants that are out of range."
+msgstr "Adapta el programa <code>Tower1</code> para evitar desperdiciar energía cuando dispares a hormigas que están fuera de alcance."
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The program <code>Tower1</code> shoots in the direction of the closest ant, even if it is still out of range:"
+msgstr "El programa <code>Tower1</code> dispara en dirección de la hormiga más cercana, incluso si aún está fuera de alcance:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Tour1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\titem = radar(AlienAnt);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Tour1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\tjet(0.2);\n"
+"\twhile(position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile(true)\n"
+"\t{\n"
+"\t\titem = radar(AlienAnt);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "If the bot must perform the same task than before with only a <a object|power>regular power cell</a>, you can insert a loop that waits until the ant is close enough, i.e. until the ant is at less than 40 meters. Only one burst will be needed for every ant then."
+msgstr "Si el bot debe realizar la misma tarea que antes con solo una <a object|power>celda de energía regular</a>, puedes insertar un bucle que espere hasta que la hormiga esté lo suficientemente cerca, es decir, hasta que la hormiga esté a menos de 40 metros. Solo se necesitará una ráfaga para cada hormiga entonces."
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "You can give the instruction <code><a cbot|radar()>radar</a></code> more parameters (numbers) indicating where the radar should look for the ants. For example <c/>radar(AlienAnt,0,360,0,40);<n/> will only look for ants that are closer than 40 meters. The two first numbers tell the radar to search in all directions, the two last numbers tell the radar to detect only ants that are at a distance between 0 and 40 meters. If no ant is found that is closer than 40 meters, the instruction <code><a cbot|radar()>radar</a></code> returns the value <code>null</code>. We can then write a conditional loop similar to the one written in the last exercise that waits as long as there is no ant closer than 40 meters:"
+msgstr "Puedes dar a la instrucción <code><a cbot|radar()>radar</a></code> más parámetros (números) indicando dónde debe buscar el radar las hormigas. Por ejemplo <c/>radar(AlienAnt,0,360,0,40);<n/> solo buscará hormigas que estén a menos de 40 metros. Los dos primeros números le dicen al radar que busque en todas direcciones, los dos últimos números le dicen al radar que detecte solo hormigas que estén a una distancia entre 0 y 40 metros. Si no se encuentra ninguna hormiga que esté a menos de 40 metros, la instrucción <code><a cbot|radar()>radar</a></code> devuelve el valor <code>null</code>. Entonces podemos escribir un bucle condicional similar al escrito en el último ejercicio que espera mientras no haya ninguna hormiga a menos de 40 metros:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
+msgstr ""
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 40) == null)\n"
+"\t\t{\n"
+"\t\t\twait(0.2);\n"
+"\t\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "Just insert these lines before the instruction <c/>fire(1);<n/>, and the bot will wait before shooting until the ant is closer than 40 meters. Like this a regular power cell is enough to kill all ants. "
+msgstr "Simplemente inserta estas líneas antes de la instrucción <c/>fire(1);<n/>, y el bot esperará antes de disparar hasta que la hormiga esté a menos de 40 metros. De esta manera una celda de energía regular es suficiente para matar todas las hormigas."
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "Notice that two equal signs \"==\" are needed to perform a comparison of equality."
+msgstr "Nota que se necesitan dos signos iguales \"==\" para realizar una comparación de igualdad."

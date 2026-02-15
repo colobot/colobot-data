@@ -1,0 +1,247 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Shadow"
+msgstr "Sombra"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Follow a bot, as if you were its shadow."
+msgstr "Sigue a un bot, como si fueras su sombra."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Follow"
+msgstr "Seguir"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "You must follow the <a object|bottr>target bot</a> with the explosive device, but without touching it, otherwise it will blow up. Every time the target bot stops, you must be close to it (less than 10m). After you managed to stay close to the target bot at 10 successive stops, it will lead you to the finishing pad, and the exercise is over. At every stop, the target bot checks that you are there. If you are not there, you must start over again."
+msgstr "Debes seguir al <a object|bottr>bot objetivo</a> con el dispositivo explosivo, pero sin tocarlo, de lo contrario explotará. Cada vez que el bot objetivo se detenga, debes estar cerca de él (a menos de 10m). Después de lograr permanecer cerca del bot objetivo en 10 paradas sucesivas, te guiará a la plataforma de meta y el ejercicio habrá terminado. En cada parada, el bot objetivo verifica que estés allí. Si no estás allí, debes empezar de nuevo."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "General principle"
+msgstr "Principio general"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Repeat forever :"
+msgstr "Repite para siempre:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Look for the target bot."
+msgstr "Busca el bot objetivo."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Calculate the distance to the bot."
+msgstr "Calcula la distancia al bot."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "if the distance to the target bot is less than 5m, move backward."
+msgstr "si la distancia al bot objetivo es menor de 5m, retrocede."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Otherwise, calculate the direction of the target bot, and move towards it."
+msgstr "De lo contrario, calcula la dirección del bot objetivo y muévete hacia él."
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "As many times before, use <code><a cbot|while>while</a> (true)</code> in order to perform the infinite loop:"
+msgstr "Como muchas veces antes, usa <code><a cbot|while>while</a> (true)</code> para realizar el bucle infinito:"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"<code>while (true)\n"
+"{\n"
+"\t</code>instructions to be repeated ...<c/>\n"
+"}"
+msgstr ""
+"<code>while (true)\n"
+"{\n"
+"\t</code>instrucciones a repetir ...<c/>\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "Look for the target bot with the instruction <code><a cbot|radar>radar</a></code>:"
+msgstr "Busca el bot objetivo con la instrucción <code><a cbot|radar>radar</a></code>:"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "<c/>\ttarget = radar(TargetBot);"
+msgstr "<c/>\ttarget = radar(TargetBot);"
+
+#. type: Plain text
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid "You do not have to test if the radar found a target bot: there must be one."
+msgstr "No tienes que probar si el radar encontró un bot objetivo: debe haber uno."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "Use the instruction <code><a cbot|dist>distance</a>( , )</code> to calculate the distance between two points. The first point will be the position of your own bot, given by <code>position</code>. The second point is the position of the target bot, given by <code>target.position</code>."
+msgstr "Usa la instrucción <code><a cbot|dist>distance</a>( , )</code> para calcular la distancia entre dos puntos. El primer punto será la posición de tu propio bot, dada por <code>position</code>. El segundo punto es la posición del bot objetivo, dada por <code>target.position</code>."
+
+#. type: Source code
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "<c/>len = distance(position, target.position);"
+msgstr "<c/>len = distance(position, target.position);"
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid ""
+"If the distance to the target bot is smaller than 5m, move backward with a speed inversely proportional to the distance: the closer you are to the bot, the faster you must move backward.\n"
+"\tDistance = 5.0 meters -> speed =  0.0\n"
+"\tDistance = 2.5 meters -> speed = -0.5\n"
+"\tDistance = 0.0 meters -> speed = -1.0\n"
+"You can use the <a cbot|expr>expression</a> <code>distance/5-1</code> in order to achieve this, together with the <code><a cbot|if>if</a></code> to test if the target is closer than 5m:"
+msgstr ""
+"Si la distancia al bot objetivo es menor de 5m, retrocede con una velocidad inversamente proporcional a la distancia: cuanto más cerca estás del bot, más rápido debes retroceder.\n"
+"\tDistancia = 5,0 metros -> velocidad =  0,0\n"
+"\tDistancia = 2,5 metros -> velocidad = -0,5\n"
+"\tDistancia = 0,0 metros -> velocidad = -1,0\n"
+"Puedes usar la <a cbot|expr>expresión</a> <code>distance/5-1</code> para lograr esto, junto con <code><a cbot|if>if</a></code> para probar si el objetivo está a menos de 5m:"
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid ""
+"<c/>if ( len < 5 )  // too close ?\n"
+"{\n"
+"\tmotor(len/5-1, len/5-1);  // moves backward\n"
+"}"
+msgstr ""
+"<c/>if ( len < 5 )  // ¿demasiado cerca?\n"
+"{\n"
+"\tmotor(len/5-1, len/5-1);  // retrocede\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "If the distance to the target is greater than 5m, move towards the target. First calculate the angle necessary to face the target with the instruction <code><a cbot|direct>direction</a></code>. You can then adjust the speed of the right-hand and left-hand motor in order to follow the target:"
+msgstr "Si la distancia al objetivo es mayor de 5m, muévete hacia el objetivo. Primero calcula el ángulo necesario para enfrentar el objetivo con la instrucción <code><a cbot|direct>direction</a></code>. Luego puedes ajustar la velocidad del motor derecho e izquierdo para seguir el objetivo:"
+
+#. type: Source code
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // target on the left side?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // target on the right side?\n"
+"\t{\n"
+"\t\t<n/>te toca a ti completarlo<c/>\n"
+"\t}\n"
+"}"
+msgstr ""
+"<c/>else\n"
+"{\n"
+"\tdir = direction(target.position);\n"
+"\tif ( dir >= 0 )  // ¿objetivo a la izquierda?\n"
+"\t{\n"
+"\t\tmotor(1-dir/90, 1);\n"
+"\t}\n"
+"\telse  // ¿objetivo a la derecha?\n"
+"\t{\n"
+"\t\t<n/>te toca a ti completarlo<c/>\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid ""
+"When the target is on your left, <code>dir</code> takes a positive value, ranging between 0 and 180. The <a cbot|expr>expression</a> <code>1-dir/90</code> returns a speed ranging between 1 and -1, according to the direction:\n"
+"\tdirection =   0 -> speed =  1.0\n"
+"\tdirection =  45 -> speed =  0.5\n"
+"\tdirection =  90 -> speed =  0.0\n"
+"\tdirection = 135 -> speed = -0.5\n"
+"\tdirection = 180 -> speed = -1.0"
+msgstr ""
+"Cuando el objetivo está a tu izquierda, <code>dir</code> toma un valor positivo, entre 0 y 180. La <a cbot|expr>expresión</a> <code>1-dir/90</code> devuelve una velocidad entre 1 y -1, según la dirección:\n"
+"\tdirección =   0 -> velocidad =  1,0\n"
+"\tdirección =  45 -> velocidad =  0,5\n"
+"\tdirección =  90 -> velocidad =  0,0\n"
+"\tdirección = 135 -> velocidad = -0,5\n"
+"\tdirección = 180 -> velocidad = -1,0"
+
+#. type: Image filename
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "radar2"
+msgstr "radar2"
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "When the target is on the right side, <code>dir</code> is negative, ranging between 0 and -180."
+msgstr "Cuando el objetivo está a la derecha, <code>dir</code> es negativo, entre 0 y -180."
+
+#. type: Plain text
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "The only task left for you now is to declare the <a cbot|var>variables</a> that you use in the program. <code>target</code> is of type <code>object</code>, whereas <code>dir</code> and <code>len</code> are of type <code>float</code>."
+msgstr "La única tarea que te queda ahora es declarar las <a cbot|var>variables</a> que usas en el programa. <code>target</code> es de tipo <code>object</code>, mientras que <code>dir</code> y <code>len</code> son de tipo <code>float</code>."

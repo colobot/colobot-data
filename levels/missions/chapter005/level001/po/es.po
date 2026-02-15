@@ -1,0 +1,199 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Uranium"
+msgstr "Uranio"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "An attempt to retrieve some uranium ore."
+msgstr "Un intento de recuperar mineral de uranio."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Del Control de Misiones"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "The observation satellite has detected a chunk of <a object|uranore>uranium ore</a> on the summit of the main mountain. You need to bring it back to your spaceship."
+msgstr "El satélite de observación ha detectado un trozo de <a object|uranore>mineral de uranio</a> en la cima de la montaña principal. Necesitas traerlo de vuelta a tu nave espacial."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en todo momento en tu SatCom personal <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:6 ../help/soluce.E.txt:21
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Controles</a> y <a cbot>Lenguaje CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informe del Satélite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Actualmente en una órbita geoestacionaria de Saari."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SUPERFICIE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      41.3C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             2.3 mps\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      some (mountain summit)"
+msgstr ""
+"\\tab;Temperatura:      41.3C\n"
+"\\tab;Atmósfera:        CO2, oxígeno, nitrógeno\n"
+"\\tab;Viento:           2.3 mps\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio:  algo (cima de la montaña)"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SUBSUELO<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Fuente de energía: en todas partes\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio:  ninguno"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMACIÓN ADICIONAL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
+"\\tab;Detected:         giant ants\n"
+"\\tab;  - Danger:       not immediate"
+msgstr ""
+"\\tab;Detectado:        derelicts reutilizables \n"
+"\\tab;Detectado:        hormigas gigantes\n"
+"\\tab;  - Peligro:      no inmediato"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Guía Paso a Paso"
+
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "The <a object|botrecy>recycler</a> is designed to convert derelicts back into usable titanium cubes."
+msgstr "El <a object|botrecy>reciclador</a> está diseñado para convertir derelicts de nuevo en cubos de titanio utilizables."
+
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "Build both a <a object|repair>repair center</a> and a <a object|radar>radar</a>."
+msgstr "Construye tanto un <a object|repair>centro de reparación</a> como un <a object|radar>radar</a>."
+
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:8
+#, no-wrap
+msgid "Recharge one of the <a object|power>power cells</a> available and power a <a object|botfj>winged shooter</a>."
+msgstr "Recarga una de las <a object|power>celdas de energía</a> disponibles y alimenta un <a object|botfj>disparador alado</a>."
+
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
+msgid "Eliminate all <a object|ant>ants</a>. Note that you should recharge and repair the shooter regularly. Check your levels."
+msgstr "Elimina todas las <a object|ant>hormigas</a>. Ten en cuenta que debes recargar y reparar el disparador regularmente. Revisa tus niveles."
+
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:12
+#, no-wrap
+msgid "Fully charge the <a object|botgr>grabber</a>'s power cell, then radio-control it to the summit..."
+msgstr "Carga completamente la celda de energía del <a object|botgr>recogedor</a>, luego contrólalo por radio hasta la cima..."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:13
+#, no-wrap
+msgid ""
+"      a) Access the first level by ramp on west;\n"
+"      b) On first level travel east to find second ramp;\n"
+"      c) On second level travel south to find third ramp;\n"
+"      d) On third level travel west for access to summit;\n"
+"...then, with the chunk, straight back to the spaceship by the most direct route so as to save the remaining power."
+msgstr ""
+"      a) Accede al primer nivel por la rampa al oeste;\n"
+"      b) En el primer nivel viaja al este para encontrar la segunda rampa;\n"
+"      c) En el segundo nivel viaja al sur para encontrar la tercera rampa;\n"
+"      d) En el tercer nivel viaja al oeste para acceder a la cima;\n"
+"...luego, con el trozo, vuelve directamente a la nave espacial por la ruta más directa para ahorrar la energía restante."
+
+#. type: Bullet: '7)'
+#: ../help/soluce.E.txt:19
+#, no-wrap
+msgid "Climb aboard the ship yourself and take off."
+msgstr "Sube a la nave y despega."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:22
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Controles</a>"
+
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "You'll find a <a object|titan>titanium cube</a> left in a smashed up bot factory. Use it to build a <a object|station>power station</a>."
+msgstr ""

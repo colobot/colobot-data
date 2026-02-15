@@ -1,0 +1,264 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:112
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Remote control #5"
+msgstr "Control remoto #5"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Remote control a bot without using an information exchange post by storing the orders."
+msgstr "Controla remotamente un bot sin usar un puesto de intercambio de información almacenando las órdenes."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Remote5"
+msgstr "Remote5"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "The two main actors of this exercise are:"
+msgstr "Los dos actores principales de este ejercicio son:"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The <a object|botgr>wheeled grabber</a> without an energy pack and therefore immobile. This is the master you should program so it will transmit orders to the slave."
+msgstr "El <a object|botgr>recolector con ruedas</a> sin paquete de energía y por lo tanto inmóvil. Este es el maestro que debes programar para que transmita órdenes al esclavo."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "The slave <a object|bottr>practice bot</a> which is already programmed and just waits for orders from the master."
+msgstr "El esclavo <a object|bottr>bot de práctica</a> que ya está programado y simplemente espera órdenes del maestro."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "The orders shall be stored, so the master will be able to transmit several orders without waiting for each order being processed. We use an <a cbot|array>array</a> for this purpose."
+msgstr "Las órdenes deben almacenarse, para que el maestro pueda transmitir varias órdenes sin esperar a que cada orden sea procesada. Usamos un <a cbot|array>arreglo</a> para este propósito."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "The slave"
+msgstr "El esclavo"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "First of all we must understand how the program of the slave works. The <a cbot|class>class</a> <code>order</code> contains two members: <code>m_type</code> is the order to execute (move or turn) and <code>m_param</code> is the distance to move or the rotation angle:"
+msgstr "Primero debemos entender cómo funciona el programa del esclavo. La <a cbot|class>clase</a> <code>order</code> contiene dos miembros: <code>m_type</code> es la orden a ejecutar (mover o girar) y <code>m_param</code> es la distancia a mover o el ángulo de rotación:"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+msgstr "<c/><s/><a cbot|public>public</a> <a cbot|class>class</a> order"
+
+#. type: Source code
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid ""
+"{\n"
+"\t<a cbot|int>int</a>    m_type;\n"
+"\t<a cbot|float>float</a>  m_param;\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "<c/><s/>{"
+msgstr "<c/><s/>{"
+
+#. type: Source code
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "\t<a cbot|static>static</a> <a cbot|private>private</a> order m_fifo[] = null;"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> void put(order a)"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> void put(order a)"
+
+#. type: Source code
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tm_fifo[sizeof(m_fifo)] = a;\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+msgstr "<c/><s/>\t<a cbot|synchro>synchronized</a> order get()"
+
+#. type: Source code
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\tif ( sizeof(m_fifo) == 0 )  return null;\n"
+"\n"
+"\t\torder a = m_fifo[0];\n"
+"\t\torder copy[] = null;\n"
+"\t\tfor ( int i=1 ; i<sizeof(m_fifo) ; i++ )\n"
+"\t\t{\n"
+"\t\t\tcopy[i-1] = m_fifo[i];\n"
+"\t\t}\n"
+"\t\tm_fifo = copy;\n"
+"\t\treturn a;\n"
+"\t}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:49
+#, no-wrap
+msgid "<c/><s/><a cbot|extern>extern</a> void object::Slave5( )"
+msgstr "<c/><s/><a cbot|extern>extern</a> void object::Slave5( )"
+
+#. type: Source code
+#: ../help/help.E.txt:50
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo;"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "<c/><s/>\t<a cbot|while>while</a> ( true )"
+msgstr "<c/><s/>\t<a cbot|while>while</a> ( true )"
+
+#. type: Source code
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != null )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:67
+#, no-wrap
+msgid "<c/><s/>\t\tif ( todo.m_type == 1 )"
+msgstr "<c/><s/>\t\tif ( todo.m_type == 1 )"
+
+#. type: Source code
+#: ../help/help.E.txt:68
+#, no-wrap
+msgid ""
+"\t\t{\n"
+"\t\t\tmove(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse if ( todo.m_type == 2 )\n"
+"\t\t{\n"
+"\t\t\tturn(todo.m_param);\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t}\n"
+"\t}\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:85
+#, no-wrap
+msgid "<c/><s/>void object::SendOrder(float order, float param)"
+msgstr "<c/><s/>void object::SendOrder(float order, float param)"
+
+#. type: Source code
+#: ../help/help.E.txt:86
+#, no-wrap
+msgid ""
+"{\n"
+"\texchange list();\n"
+"\torder    todo();\n"
+"\t\n"
+"\ttodo.m_type = order;\n"
+"\ttodo.m_param = param;\n"
+"\tlist.put(todo);\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:97
+#, no-wrap
+msgid "<c/><s/>extern void object::Remote5( )"
+msgstr "<c/><s/>extern void object::Remote5( )"
+
+#. type: Source code
+#: ../help/help.E.txt:98
+#, no-wrap
+msgid ""
+"{\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 20);  // move(20);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2, 90);  // turn(90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"\tSendOrder(2,-90);  // turn(-90);\n"
+"\tSendOrder(1, 10);  // move(10);\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:110
+#, no-wrap
+msgid "<format key><key help/></format> show these instruction at any time."
+msgstr "<format key><key help/></format> muestra estas instrucciones en cualquier momento."
+
+#. type: Plain text
+#: ../help/help.E.txt:113
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>programming</a>."
+msgstr "<a command>Controles</a> y <a cbot>programación</a>."

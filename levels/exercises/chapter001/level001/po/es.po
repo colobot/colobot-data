@@ -1,0 +1,461 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-13 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Write a small program to kill three spiders."
+msgstr "Escribe un pequeño programa para matar tres arañas."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Procedure"
+msgstr "Procedimiento"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "In order to program the bot, select it."
+msgstr "Para programar el bot, selecciónalo."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "The numbers 1 to 4 corresponding to the programs contained in the bot appear on the lower left-hand corner of your screen. Select the first line."
+msgstr "Los números del 1 al 4 correspondientes a los programas contenidos en el bot aparecen en la esquina inferior izquierda de tu pantalla. Selecciona la primera línea."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Click the button with the braces <button 22/>, and you will arrive in an editor where you can write the program."
+msgstr "Haz clic en el botón con las llaves <button 22/>, y llegarás a un editor donde puedes escribir el programa."
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "While you are writing the program, the key <format key><key help/></format> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
+msgstr "Mientras estás escribiendo el programa, la tecla <format key><key help/></format> mostrará el texto que estás leyendo ahora. Cuando hayas terminado de escribir el programa, haz clic en el botón \"Aceptar\"."
+
+#. type: Bullet: '5)'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "In order to execute the program, click the arrow button <button 21/>."
+msgstr "Para ejecutar el programa, haz clic en el botón de flecha <button 21/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "You must tell the bot exactly step by step what it must do in order to kill the three spiders. The bot understands only precise instructions, which it will execute one after another."
+msgstr "Debes decirle al bot exactamente paso a paso lo que debe hacer para matar las tres arañas. El bot entiende solo instrucciones precisas, que ejecutará una tras otra."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "When you click the braces button <button 22/> in order to write the program, a part of the program will already be there:"
+msgstr "Cuando haces clic en el botón de llaves <button 22/> para escribir el programa, una parte del programa ya estará ahí:"
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "Everything that is already written when you arrive in the editor must not be altered. Just introduce the necessary instructions at the cursor."
+msgstr "Todo lo que ya está escrito cuando llegas al editor no debe alterarse. Solo introduce las instrucciones necesarias en el cursor."
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "You will need the following instructions:"
+msgstr "Necesitarás las siguientes instrucciones:"
+
+#. type: Source code
+#: ../help/help.E.txt:27 ../help/help.S.txt:27
+#, no-wrap
+msgid "aim(0);<n/>"
+msgstr "aim(0);<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "<n/>Puts the cannon straight."
+msgstr "<n/>Pone el cañón recto."
+
+#. type: Source code
+#: ../help/help.E.txt:30 ../help/help.S.txt:30
+#, no-wrap
+msgid "turn();<n/>"
+msgstr "turn();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "<n/>Executes a rotation of a certain angle, given in brackets in degrees. For example <c/>turn(90);<n/> will turn the bot 90 degrees to the left, i.e. a quarter turn to the left. <c/>turn(-90);<n/> will turn the bot 90 degrees to the right (quarter turn right). Positive values turn left, negative values turn right. <c/>turn(180);<n/> will make the bot face in the opposite direction."
+msgstr "<n/>Ejecuta una rotación de un cierto ángulo, dado entre paréntesis en grados. Por ejemplo <c/>turn(90);<n/> girará el bot 90 grados a la izquierda, es decir, un cuarto de vuelta a la izquierda. <c/>turn(-90);<n/> girará el bot 90 grados a la derecha (cuarto de vuelta a la derecha). Los valores positivos giran a la izquierda, los negativos a la derecha. <c/>turn(180);<n/> hará que el bot mire en la dirección opuesta."
+
+#. type: Source code
+#: ../help/help.E.txt:33 ../help/help.S.txt:33
+#, no-wrap
+msgid "fire(1);"
+msgstr "fire(1);"
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<n/>Shoots the cannon. The number in brackets indicates the duration of the burst. In most cases, shoot a burst of 1 second."
+msgstr "<n/>Dispara el cañón. El número entre paréntesis indica la duración de la ráfaga. En la mayoría de los casos, dispara una ráfaga de 1 segundo."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "put the cannon straight with <c/>aim(0);<n/>"
+msgstr "poner el cañón recto con <c/>aim(0);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "shoot the spider straight ahead with <c/>fire(1);<n/>"
+msgstr "disparar a la araña directamente con <c/>fire(1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "turn 90 degrees left with <code>turn(90)</code>"
+msgstr "girar 90 grados a la izquierda con <code>turn(90)</code>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "shoot with <c/>fire(1);<n/>"
+msgstr "disparar con <c/>fire(1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:41 ../help/help.S.txt:41
+#, no-wrap
+msgid "etc."
+msgstr "etc."
+
+#. type: Plain text
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "Here is the program that does all this :"
+msgstr "Aquí está el programa que hace todo esto:"
+
+#. type: Source code
+#: ../help/help.E.txt:45 ../help/help.S.txt:45
+#, no-wrap
+msgid ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\taim(0);\n"
+"\tfire(1);\n"
+"\tturn(90);\n"
+"\tfire(1);\n"
+"\t\n"
+"}"
+msgstr ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\taim(0);\n"
+"\tfire(1);\n"
+"\tturn(90);\n"
+"\tfire(1);\n"
+"\t\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "It is up to you now to write the rest of the program!"
+msgstr "Ahora te corresponde escribir el resto del programa."
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
+msgstr "Si tienes un problema, siempre puedes ver la solución: selecciona el programa <code>Solution</code> en la esquina inferior izquierda de la pantalla, y haz clic en el botón de llaves <button 22/>. Incluso puedes ejecutar el programa de solución con el botón de flecha <button 21/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "Remarks"
+msgstr "Notas"
+
+#. type: Plain text
+#: ../help/help.E.txt:60
+#, no-wrap
+msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
+msgstr "Ten cuidado de escribir las instrucciones con precisión, respetando las letras minúsculas y mayúsculas."
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "Always write one instruction per line, finishing each line with a semicolon."
+msgstr "Siempre escribe una instrucción por línea, terminando cada línea con punto y coma."
+
+#. type: Plain text
+#: ../help/help.E.txt:64
+#, no-wrap
+msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
+msgstr "En caso de que tu programa no haga exactamente lo que querías, puedes volver a colocar el bot en el punto de partida con el botón <button 59/>. También puedes empezar de nuevo desde el principio (presiona la tecla \"Esc\", luego haz clic en \"Reiniciar\"). El programa que has escrito no se perderá."
+
+#. type: Plain text
+#: ../help/help.E.txt:66
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en cualquier momento."
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "Let us see the beginning of the program:"
+msgstr "Veamos el comienzo del programa:"
+
+#. type: Source code
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\t<n/>write your program here ...<c/>\n"
+"\t\n"
+"}"
+msgstr ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\t<n/>escribe tu programa aquí ...<c/>\n"
+"\t\n"
+"}"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Spiders 1"
+msgstr "Arañas 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Kill three spiders with a small program."
+msgstr "Mata tres arañas con un pequeño programa."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Spider1"
+msgstr "Spider1"
+
+#. type: \b; header
+#: ../help/help.S.txt:1
+#, no-wrap
+msgid "Objetivo"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.S.txt:2
+#, no-wrap
+msgid "Escribe un pequeño programa para matar tres arañas."
+msgstr "Escribe un pequeño programa para matar tres arañas."
+
+#. type: \t; header
+#: ../help/help.S.txt:4
+#, no-wrap
+msgid "Procedimiento"
+msgstr "Procedimiento"
+
+#. type: Bullet: '1)'
+#: ../help/help.S.txt:5
+#, no-wrap
+msgid "Para programar el bot, selecciónalo."
+msgstr "Para programar el bot, selecciónalo."
+
+#. type: Bullet: '2)'
+#: ../help/help.S.txt:6
+#, no-wrap
+msgid "Los números del 1 al 4 correspondientes a los programas contenidos en el bot aparecen en la esquina inferior izquierda de tu pantalla. Selecciona la primera línea."
+msgstr "Los números del 1 al 4 correspondientes a los programas contenidos en el bot aparecen en la esquina inferior izquierda de tu pantalla. Selecciona la primera línea."
+
+#. type: Bullet: '3)'
+#: ../help/help.S.txt:7
+#, no-wrap
+msgid "Haz clic en el botón con las llaves <button 22/>, y llegarás a un editor donde puedes escribir el programa."
+msgstr "Haz clic en el botón con las llaves <button 22/>, y llegarás a un editor donde puedes escribir el programa."
+
+#. type: Bullet: '4)'
+#: ../help/help.S.txt:8
+#, no-wrap
+msgid "Mientras estás escribiendo el programa, la tecla <format key><key help/></format> mostrará el texto que estás leyendo ahora. Cuando hayas terminado de escribir el programa, haz clic en el botón \"Aceptar\"."
+msgstr "Mientras estás escribiendo el programa, la tecla <format key><key help/></format> mostrará el texto que estás leyendo ahora. Cuando hayas terminado de escribir el programa, haz clic en el botón \"Aceptar\"."
+
+#. type: Bullet: '5)'
+#: ../help/help.S.txt:9
+#, no-wrap
+msgid "Para ejecutar el programa, haz clic en el botón de flecha <button 21/>."
+msgstr "Para ejecutar el programa, haz clic en el botón de flecha <button 21/>."
+
+#. type: \t; header
+#: ../help/help.S.txt:11
+#, no-wrap
+msgid "Programa"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.S.txt:12
+#, no-wrap
+msgid "Debes decirle al bot exactamente paso a paso lo que debe hacer para matar las tres arañas. El bot entiende solo instrucciones precisas, que ejecutará una tras otra."
+msgstr "Debes decirle al bot exactamente paso a paso lo que debe hacer para matar las tres arañas. El bot entiende solo instrucciones precisas, que ejecutará una tras otra."
+
+#. type: Plain text
+#: ../help/help.S.txt:14
+#, no-wrap
+msgid "Cuando haces clic en el botón de llaves <button 22/> para escribir el programa, una parte del programa ya estará ahí:"
+msgstr "Cuando haces clic en el botón de llaves <button 22/> para escribir el programa, una parte del programa ya estará ahí:"
+
+#. type: Plain text
+#: ../help/help.S.txt:23
+#, no-wrap
+msgid "Todo lo que ya está escrito cuando llegas al editor no debe alterarse. Solo introduce las instrucciones necesarias en el cursor."
+msgstr "Todo lo que ya está escrito cuando llegas al editor no debe alterarse. Solo introduce las instrucciones necesarias en el cursor."
+
+#. type: Plain text
+#: ../help/help.S.txt:25
+#, no-wrap
+msgid "Necesitarás las siguientes instrucciones:"
+msgstr "Necesitarás las siguientes instrucciones:"
+
+#. type: Plain text
+#: ../help/help.S.txt:28
+#, no-wrap
+msgid "<n/>Pone el cañón recto."
+msgstr "<n/>Pone el cañón recto."
+
+#. type: Plain text
+#: ../help/help.S.txt:31
+#, no-wrap
+msgid "<n/>Ejecuta una rotación de un cierto ángulo, dado entre paréntesis en grados. Por ejemplo <c/>turn(90);<n/> girará el bot 90 grados a la izquierda, es decir, un cuarto de vuelta a la izquierda. <c/>turn(-90);<n/> girará el bot 90 grados a la derecha (cuarto de vuelta a la derecha). Los valores positivos giran a la izquierda, los negativos a la derecha. <c/>turn(180);<n/> hará que el bot mire en la dirección opuesta."
+msgstr "<n/>Ejecuta una rotación de un cierto ángulo, dado entre paréntesis en grados. Por ejemplo <c/>turn(90);<n/> girará el bot 90 grados a la izquierda, es decir, un cuarto de vuelta a la izquierda. <c/>turn(-90);<n/> girará el bot 90 grados a la derecha (cuarto de vuelta a la derecha). Los valores positivos giran a la izquierda, los negativos a la derecha. <c/>turn(180);<n/> hará que el bot mire en la dirección opuesta."
+
+#. type: Plain text
+#: ../help/help.S.txt:34
+#, no-wrap
+msgid "<n/>Dispara el cañón. El número entre paréntesis indica la duración de la ráfaga. En la mayoría de los casos, dispara una ráfaga de 1 segundo."
+msgstr "<n/>Dispara el cañón. El número entre paréntesis indica la duración de la ráfaga. En la mayoría de los casos, dispara una ráfaga de 1 segundo."
+
+#. type: Plain text
+#: ../help/help.S.txt:36
+#, no-wrap
+msgid "Veamos el comienzo del programa:"
+msgstr "Veamos el comienzo del programa:"
+
+#. type: Bullet: 'o'
+#: ../help/help.S.txt:37
+#, no-wrap
+msgid "poner el cañón recto con <c/>aim(0);<n/>"
+msgstr "poner el cañón recto con <c/>aim(0);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.S.txt:38
+#, no-wrap
+msgid "disparar a la araña directamente con <c/>fire(1);<n/>"
+msgstr "disparar a la araña directamente con <c/>fire(1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.S.txt:39
+#, no-wrap
+msgid "girar 90 grados a la izquierda con <code>turn(90)</code>"
+msgstr "girar 90 grados a la izquierda con <code>turn(90)</code>"
+
+#. type: Bullet: 'o'
+#: ../help/help.S.txt:40
+#, no-wrap
+msgid "disparar con <c/>fire(1);<n/>"
+msgstr "disparar con <c/>fire(1);<n/>"
+
+#. type: Plain text
+#: ../help/help.S.txt:43
+#, no-wrap
+msgid "Aquí está el programa que hace todo esto:"
+msgstr "Aquí está el programa que hace todo esto:"
+
+#. type: Plain text
+#: ../help/help.S.txt:55
+#, no-wrap
+msgid "Ahora te corresponde escribir el resto del programa."
+msgstr "Ahora te corresponde escribir el resto del programa."
+
+#. type: Plain text
+#: ../help/help.S.txt:57
+#, no-wrap
+msgid "Si tienes un problema, siempre puedes ver la solución: selecciona el programa <code>Solution</code> en la esquina inferior izquierda de la pantalla, y haz clic en el botón de llaves <button 22/>. Incluso puedes ejecutar el programa de solución con el botón de flecha <button 21/>."
+msgstr "Si tienes un problema, siempre puedes ver la solución: selecciona el programa <code>Solution</code> en la esquina inferior izquierda de la pantalla, y haz clic en el botón de llaves <button 22/>. Incluso puedes ejecutar el programa de solución con el botón de flecha <button 21/>."
+
+#. type: \t; header
+#: ../help/help.S.txt:59
+#, no-wrap
+msgid "Notas"
+msgstr "Notas"
+
+#. type: Plain text
+#: ../help/help.S.txt:60
+#, no-wrap
+msgid "Ten cuidado de escribir las instrucciones con precisión, respetando las letras minúsculas y mayúsculas."
+msgstr "Ten cuidado de escribir las instrucciones con precisión, respetando las letras minúsculas y mayúsculas."
+
+#. type: Plain text
+#: ../help/help.S.txt:62
+#, no-wrap
+msgid "Siempre escribe una instrucción por línea, terminando cada línea con punto y coma."
+msgstr "Siempre escribe una instrucción por línea, terminando cada línea con punto y coma."
+
+#. type: Plain text
+#: ../help/help.S.txt:64
+#, no-wrap
+msgid "En caso de que tu programa no haga exactamente lo que querías, puedes volver a colocar el bot en el punto de partida con el botón <button 59/>. También puedes empezar de nuevo desde el principio (presiona la tecla \"Esc\", luego haz clic en \"Reiniciar\"). El programa que has escrito no se perderá."
+msgstr "En caso de que tu programa no haga exactamente lo que querías, puedes volver a colocar el bot en el punto de partida con el botón <button 59/>. También puedes empezar de nuevo desde el principio (presiona la tecla \"Esc\", luego haz clic en \"Reiniciar\"). El programa que has escrito no se perderá."
+
+#. type: Plain text
+#: ../help/help.S.txt:66
+#, no-wrap
+msgid "<format key><key help/></format> te permite revisar estas instrucciones en cualquier momento."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en cualquier momento."
+
+#. type: Source code
+#: ../help/help.S.txt:16
+#, no-wrap
+msgid ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\t<n/>escribe tu programa aquí ...<c/>\n"
+"\t\n"
+"}"
+msgstr ""

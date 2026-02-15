@@ -1,0 +1,191 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Power Cell 1"
+msgstr "Celda de Energía 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Instruct a bot to change the power cell of a nearby winged shooter."
+msgstr "Programa un bot para cambiar la celda de energía de un disparador alado cercano."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Spider2"
+msgstr "Spider2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Objetivo"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Program the <a object|botgr>grabber bot</a> to change the <a object|power>power cell</a> of the <a object|botfj>winged shooter</a>. The winged shooter can then shoot the spiders."
+msgstr "Programa el <a object|botgr>bot recolector</a> para cambiar la <a object|power>celda de energía</a> del <a object|botfj>disparador alado</a>. El disparador alado podrá entonces disparar a las arañas."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Procedure"
+msgstr "Procedimiento"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Program the <a object|botgr>grabber bot</a>."
+msgstr "Programa el <a object|botgr>bot recolector</a>."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Execute the program with the arrow button <button 21/>."
+msgstr "Ejecuta el programa con el botón de flecha <button 21/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "The <a object|botfj>winged shooter</a> is already programmed, it will do its job as soon as it has got a new power cell."
+msgstr "El <a object|botfj>disparador alado</a> ya está programado, hará su trabajo en cuanto tenga una nueva celda de energía."
+
+#. type: \t; header
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Program"
+msgstr "Programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "You will need the following instructions:"
+msgstr "Necesitarás las siguientes instrucciones:"
+
+#. type: Source code
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "grab();<n/>"
+msgstr "grab();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "<n/>Takes whatever there is in front of the bot."
+msgstr "<n/>Toma lo que esté delante del bot."
+
+#. type: Source code
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "drop();<n/>"
+msgstr "drop();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "<n/>Drops whatever the bot is carrying in front."
+msgstr "<n/>Suelta lo que el bot lleva delante."
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "turn();<n/>"
+msgstr "turn();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "<n/>We have seen this instruction already in the previous exercise: it performs a rotation of a certain angle, given in degrees."
+msgstr "<n/>Ya vimos esta instrucción en el ejercicio anterior: realiza una rotación de un ángulo dado en grados."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "pick up the empty power cell with <c/>grab();<n/>"
+msgstr "recoger la celda de energía vacía con <c/>grab();<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "turn left 90 degrees (quarter turn) with <code>turn(90)</code>"
+msgstr "girar 90 grados a la izquierda (un cuarto de vuelta) con <code>turn(90)</code>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "drop the empty cell with <c/>drop();<n/>"
+msgstr "soltar la celda vacía con <c/>drop();<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "etc."
+msgstr "etc."
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "It is up to you now to write the rest of the program!"
+msgstr "¡Ahora te toca escribir el resto del programa!"
+
+#. type: Plain text
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program, and click the braces button <button 22/>."
+msgstr "Si tienes un problema, siempre puedes ver la solución: selecciona el programa <code>Solution</code> y haz clic en el botón de llaves <button 22/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "Remarks"
+msgstr "Observaciones"
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
+msgstr "Ten cuidado de escribir las instrucciones con precisión, respetando las mayúsculas y minúsculas."
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "Always write one instruction per line, finishing each line with a semicolon."
+msgstr "Escribe siempre una instrucción por línea, terminando cada línea con un punto y coma."
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the button <button 59/>. You can also start over again from the beginning (hit the key \"Esc\", the click \"Restart\"). The program you have written will not be lost."
+msgstr "En caso de que tu programa no haga exactamente lo que quieres, puedes volver a poner el bot en el punto de partida con el botón <button 59/>. También puedes empezar de nuevo desde el principio (pulsa la tecla \"Esc\", luego haz clic en \"Restart\"). El programa que has escrito no se perderá."
+
+#. type: Plain text
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en cualquier momento."
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Let us see the beginning of the program:"
+msgstr "Veamos el comienzo del programa:"

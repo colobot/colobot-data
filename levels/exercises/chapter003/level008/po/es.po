@@ -1,0 +1,147 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:42
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "The gold digger"
+msgstr "El buscador de oro"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Instruct your bot to search a zone for subsoil resources."
+msgstr "Ordena a tu bot buscar recursos del subsuelo en una zona."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Digger"
+msgstr "Excavador"
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Description"
+msgstr "Descripción"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The zone inside the barriers is a square of 25 meters. The most efficient way is to check every 5 meters."
+msgstr "La zona dentro de las barreras es un cuadrado de 25 metros. La forma más eficiente es verificar cada 5 metros."
+
+#. type: Image filename
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "sniff1"
+msgstr "sniff1"
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "One way to achieve this is to fit two <code><a cbot|for>for</a></code> loops one into another:"
+msgstr "Una forma de lograr esto es encajar dos bucles <code><a cbot|for>for</a></code> uno dentro de otro:"
+
+#. type: Source code
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>sound the subsoil<code>\n"
+"\t\t</code>move 5m forward<code>\n"
+"\t}\n"
+"\t</code>sound the subsoil<code>\n"
+"\t</code>quarter turn left<code>\n"
+"\t</code>move 5m forward<code>\n"
+"\t</code>quarter turn left<c/>\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid ""
+"This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!\n"
+"You will have noticed that if <code>y</code> is even, the bot must turn left, and if <code>y</code> is odd, the bot must turn right.\n"
+"The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the division of <code>y</code> by <code>2</code>. For example, if <code>y=3</code>, the expression returns <code>1</code>.\n"
+"The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
+msgstr ""
+"Este programa funciona bien solo al principio. Después de la primera línea, el bot gira correctamente a la izquierda y explora la segunda línea. ¡Pero después de la segunda línea, debe girar a la derecha!\n"
+"Habrás notado que si <code>y</code> es par, el bot debe girar a la izquierda, y si <code>y</code> es impar, el bot debe girar a la derecha.\n"
+"La <a cbot|expr>expresión</a> <code>y%2</code> devuelve el resto de la división de <code>y</code> por <code>2</code>. Por ejemplo, si <code>y=3</code>, la expresión devuelve <code>1</code>.\n"
+"La prueba <code><a cbot|if>if</a> { }</code> puede ir seguida de un <code>else { }</code>. Si la prueba es verdadera, se ejecutará el primer <a cbot|bloc>bloque</a> <code>{ }</code>. De lo contrario, se ejecutará el segundo bloque <code>{ }</code>."
+
+#. type: Source code
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>is even<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>is uneven<c/>\n"
+"}"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "It is up to you to finish the program."
+msgstr "Depende de ti terminar el programa."
+
+#. type: \b; header
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "Remark"
+msgstr "Nota"
+
+#. type: Plain text
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "Use the instruction <code><a cbot|sniff>sniff</a>( )</code> to sound the subsoil, and <code><a cbot|move>move</a>( )</code> and <code><a cbot|turn>turn</a>( )</code> to move the bot."
+msgstr "Usa la instrucción <code><a cbot|sniff>sniff</a>( )</code> para explorar el subsuelo, y <code><a cbot|move>move</a>( )</code> y <code><a cbot|turn>turn</a>( )</code> para mover el bot."
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Search the whole zone inside the barriers with the <a object|botsr>sniffer bot</a> for adequate locations for a derrick. When the bot sounds the subsoil and discovers an adequate location for a derrick, it will mark it with a red cross."
+msgstr "Busca toda la zona dentro de las barreras con el <a object|botsr>bot explorador</a> para encontrar ubicaciones adecuadas para un derrick. Cuando el bot explore el subsuelo y descubra una ubicación adecuada para un derrick, la marcará con una cruz roja."

@@ -1,0 +1,169 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Invasion"
+msgstr "Invasion"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Hold out against a giant ant invasion."
+msgstr "Resiste contra una invasión de hormigas gigantes."
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "From Mission Control"
+msgstr "Del Control de Misiones"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Eliminate all hostile presence from the region."
+msgstr "Elimina toda presencia hostil de la región."
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Your current situation is of utmost concern to us. The satellite has detected an extremely strong enemy presence approaching your spaceship from all directions. Use your best judgment and the quickest, most efficient defense: either <a object|tower>towers</a> or <a object|botfr>shooters</a>."
+msgstr "Tu situación actual nos preocupa enormemente. El satélite ha detectado una presencia enemiga extremadamente fuerte acercándose a tu nave espacial desde todas las direcciones. Usa tu mejor juicio y la defensa más rápida y eficiente: ya sea <a object|tower>torres</a> o <a object|botfr>disparadores</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "In order to increase your survival chances, we have developed a program that will protect your west flank if you execute it on your <a object|botfr>wheeled shooter</a>; see the program page <button 53/>."
+msgstr "Para aumentar tus posibilidades de supervivencia, hemos desarrollado un programa que protegerá tu flanco oeste si lo ejecutas en tu <a object|botfr>disparador con ruedas</a>; consulta la página del programa <button 53/>."
+
+#. type: Plain text
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
+msgstr "<format key><key help/></format> te permite revisar estas instrucciones en todo momento en tu SatCom personal <button 63/>."
+
+#. type: \t; header
+#: ../help/help.E.txt:10 ../help/soluce.E.txt:8
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "<a command>Controls</a> and <a cbot>CBOT Language</a>"
+msgstr "<a command>Controles</a> y <a cbot>Lenguaje CBOT</a>"
+
+#. type: \b; header
+#: ../help/report.E.txt:1
+#, no-wrap
+msgid "Satellite Report"
+msgstr "Informe del Satélite"
+
+#. type: Plain text
+#: ../help/report.E.txt:2
+#, no-wrap
+msgid "Currently in a geo-stationary orbit of Saari."
+msgstr "Actualmente en una órbita geoestacionaria de Saari."
+
+#. type: Source code
+#: ../help/report.E.txt:4
+#, no-wrap
+msgid "-> SURFACE<c/>"
+msgstr "-> SUPERFICIE<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:5
+#, no-wrap
+msgid ""
+"\\tab;Temperature:      38.4C\n"
+"\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
+"\\tab;Wind:             1.4 mps\n"
+"\\tab;Titanium ore:     some\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Temperatura:      38.4C\n"
+"\\tab;Atmósfera:        CO2, oxígeno, nitrógeno\n"
+"\\tab;Viento:           1.4 mps\n"
+"\\tab;Mineral de titanio: algo\n"
+"\\tab;Mineral de uranio:  ninguno"
+
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
+msgid "-> SUBSOIL<c/>"
+msgstr "-> SUBSUELO<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
+msgid ""
+"\\tab;Energy source:    everywhere\n"
+"\\tab;Titanium ore:     none\n"
+"\\tab;Uranium ore:      none"
+msgstr ""
+"\\tab;Fuente de energía: en todas partes\n"
+"\\tab;Mineral de titanio: ninguno\n"
+"\\tab;Mineral de uranio:  ninguno"
+
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
+msgid "-> ADDITIONAL INFORMATION<c/>"
+msgstr "-> INFORMACIÓN ADICIONAL<c/>"
+
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
+msgid ""
+"\\tab;Detected:         giant ants approaching \n"
+"\\tab;  - Danger:       yes, immediate"
+msgstr ""
+"\\tab;Detectado:        hormigas gigantes acercándose \n"
+"\\tab;  - Peligro:       sí, inmediato"
+
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
+msgid "Walkthrough"
+msgstr "Guía Paso a Paso"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
+msgid "Execute immediately the program <code>KillAnt1</code> on the <a object|botfr>wheeled shooter</a>; it will take care of the first wave of attack coming from west."
+msgstr "Ejecuta inmediatamente el programa <code>KillAnt1</code> en el <a object|botfr>disparador con ruedas</a>; se ocupará de la primera ola de ataque que viene del oeste."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:4
+#, no-wrap
+msgid "Then build two <a object|tower>defense towers</a> one in the north of the <a object|base>spaceship</a>, the other one in the south (you have to do this VERY quickly). While <a object|human>you</a> are building, use the <a object|botgr>grabber</a> to get a <a object|power>power cell</a>."
+msgstr "Luego construye dos <a object|tower>torres de defensa</a> una al norte de la <a object|base>nave espacial</a> y otra al sur (debes hacer esto MUY rápido). Mientras <a object|human>tú</a> construyes, usa el <a object|botgr>recogedor</a> para obtener una <a object|power>celda de energía</a>."
+
+#. type: Plain text
+#: ../help/soluce.E.txt:9
+#, no-wrap
+msgid "<a command>Controls</a>"
+msgstr "<a command>Controles</a>"
+
+#. type: Plain text
+#: ../help/soluce.E.txt:6
+#, no-wrap
+msgid "As soon as the successive waves of attack, made up of about fifteen <a object|ant>ants</a>, are gone, you have time to take care of the ants that did not attack. Build a <a object|radar>radar</a> in order to spot them, and a <a object|convert>converter</a>, a <a object|factory>bot factory</a>, a <a object|station>power station</a> and a <a object|botfj>winged shooter</a> in order to get rid of them..."
+msgstr ""

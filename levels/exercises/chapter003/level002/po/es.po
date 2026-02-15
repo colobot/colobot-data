@@ -1,0 +1,287 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Follow with variables"
+msgstr "Seguir con variables"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Use variables in order to store the parameters of the path."
+msgstr "Usa variables para almacenar los parámetros del camino."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Movimiento"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid ""
+"This exercise is very similar to the previous one. The bot must move exactly in the same way, but when writing the program, you must use a new concept that is extremely important in programming: <a cbot|var>variables</a>.\n"
+"We saw that all the pads are at a distance form each other of 20 meters. And all the rotations performed consist in 90 degree angles. Instead of rewriting the same values over and over again in the program, we can store them in a variable: "
+msgstr ""
+"Este ejercicio es muy similar al anterior. El bot debe moverse exactamente de la misma manera, pero al escribir el programa, debes usar un nuevo concepto extremadamente importante en programación: <a cbot|var>variables</a>.\n"
+"Vimos que todas las plataformas están a una distancia de 20 metros entre sí. Y todas las rotaciones consisten en ángulos de 90 grados. En lugar de escribir los mismos valores una y otra vez en el programa, podemos almacenarlos en una variable:"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid ""
+"Instead of:\n"
+"<c/><s/>\tmove(20);"
+msgstr ""
+"En lugar de:\n"
+"<c/><s/>\tmove(20);"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"\tturn(90);\n"
+"\tmove(20);\n"
+"\tturn(-90);\n"
+"\t..."
+msgstr ""
+"\tturn(90);\n"
+"\tmove(20);\n"
+"\tturn(-90);\n"
+"\t..."
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid ""
+"We write :\n"
+"<c/><s/>\tdist = 20;"
+msgstr ""
+"Escribimos:\n"
+"<c/><s/>\tdist = 20;"
+
+#. type: Source code
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid ""
+"\tdir = 90;\n"
+"\tmove(dist);\n"
+"\tturn(dir);\n"
+"\tmove(dist);\n"
+"\tturn(-dir);\n"
+"\t..."
+msgstr ""
+"\tdir = 90;\n"
+"\tmove(dist);\n"
+"\tturn(dir);\n"
+"\tmove(dist);\n"
+"\tturn(-dir);\n"
+"\t..."
+
+#. type: \b; header
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "Variables"
+msgstr "Variables"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "The name,"
+msgstr "El nombre,"
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:24
+#, no-wrap
+msgid "The type of the content,"
+msgstr "El tipo de contenido,"
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "The content."
+msgstr "El contenido."
+
+#. type: \t; header
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "The name"
+msgstr "El nombre"
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "Use the name to refer to a variable. For example, instead of writing <c/>move(20);<n/>, write <c/>move(dist);<n/>: \"dist\" is the name of the variable. You can choose almost any name for a variable, for example <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, etc."
+msgstr "Usa el nombre para referirte a una variable. Por ejemplo, en lugar de escribir <c/>move(20);<n/>, escribe <c/>move(dist);<n/>: \"dist\" es el nombre de la variable. Puedes elegir casi cualquier nombre para una variable, por ejemplo <code>dist</code>, <code>dir</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_grab</code>, etc."
+
+#. type: \t; header
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "The type"
+msgstr "El tipo"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "<code><a cbot|int>int</a></code> for a whole number (12, -500, etc.)"
+msgstr "<code><a cbot|int>int</a></code> para un número entero (12, -500, etc.)"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "<code><a cbot|float>float</a></code> for a real number (3.14, 0.2, -99.98, etc.)"
+msgstr "<code><a cbot|float>float</a></code> para un número real (3.14, 0.2, -99.98, etc.)"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<code><a cbot|string>string</a></code> for a character string (\"Hello!\", \"Nothing to grab\", etc.)"
+msgstr "<code><a cbot|string>string</a></code> para una cadena de caracteres (\"¡Hola!\", \"Nada que recoger\", etc.)"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "<code><a cbot|point>point</a></code> for the x,y,z-coordinates of a point in space"
+msgstr "<code><a cbot|point>point</a></code> para las coordenadas x,y,z de un punto en el espacio"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "<code><a cbot|object>object</a></code> for the information about an object (bot, building, etc.) "
+msgstr "<code><a cbot|object>object</a></code> para información sobre un objeto (bot, edificio, etc.)"
+
+#. type: \t; header
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "The content"
+msgstr "El contenido"
+
+#. type: Plain text
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "The content of a variable can be a number, a string, coordinates, etc., according to the type of the variable. The content of a variable can change many times during the execution of a program. "
+msgstr "El contenido de una variable puede ser un número, una cadena, coordenadas, etc., según el tipo de la variable. El contenido de una variable puede cambiar muchas veces durante la ejecución de un programa."
+
+#. type: Plain text
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "Before you can use a variable, you have to declare it. For example, before you can use the two variables <code>dist</code> and <code>dir</code>, you must declare them with the following lines: "
+msgstr "Antes de poder usar una variable, debes declararla. Por ejemplo, antes de usar las dos variables <code>dist</code> y <code>dir</code>, debes declararlas con las siguientes líneas:"
+
+#. type: Source code
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid ""
+"\tfloat  dist;\n"
+"\tfloat  dir;"
+msgstr ""
+"\tfloat  dist;\n"
+"\tfloat  dir;"
+
+#. type: Plain text
+#: ../help/help.E.txt:46
+#, no-wrap
+msgid "Now you can use the two variables. To put the value 20 into <code>dist</code> and 90 into <code>dir</code>, write:"
+msgstr "Ahora puedes usar las dos variables. Para poner el valor 20 en <code>dist</code> y 90 en <code>dir</code>, escribe:"
+
+#. type: Source code
+#: ../help/help.E.txt:48
+#, no-wrap
+msgid ""
+"\tdist = 20;\n"
+"\tdir = 90;"
+msgstr ""
+"\tdist = 20;\n"
+"\tdir = 90;"
+
+#. type: Plain text
+#: ../help/help.E.txt:51
+#, no-wrap
+msgid "Now you can move and turn the bot with the instructions <code><a cbot|move>move</a></code> and <code><a cbot|turn>turn</code></a>:"
+msgstr "Ahora puedes mover y girar el bot con las instrucciones <code><a cbot|move>move</a></code> y <code><a cbot|turn>turn</code></a>:"
+
+#. type: Source code
+#: ../help/help.E.txt:53
+#, no-wrap
+msgid ""
+"\tmove(dist);\n"
+"\tturn(dir);"
+msgstr ""
+"\tmove(dist);\n"
+"\tturn(dir);"
+
+#. type: Plain text
+#: ../help/help.E.txt:56
+#, no-wrap
+msgid "You can also use a whole <a cbot|expr>mathematical expression</a> instead of just the variable:"
+msgstr "También puedes usar una <a cbot|expr>expresión matemática</a> completa en lugar de solo la variable:"
+
+#. type: Source code
+#: ../help/help.E.txt:58
+#, no-wrap
+msgid ""
+"\tmove(dist+100);\n"
+"\tturn(-dir);"
+msgstr ""
+"\tmove(dist+100);\n"
+"\tturn(-dir);"
+
+#. type: Plain text
+#: ../help/help.E.txt:61
+#, no-wrap
+msgid "The latter instruction will be needed to turn the bot right. "
+msgstr "Esta última instrucción será necesaria para girar el bot a la derecha."
+
+#. type: Plain text
+#: ../help/help.E.txt:63
+#, no-wrap
+msgid "Now, rewrite the program of the previous exercise, but use a variable for the distance and another variable for the angle of the rotation. "
+msgstr "Ahora, reescribe el programa del ejercicio anterior, pero usa una variable para la distancia y otra variable para el ángulo de rotación."
+
+#. type: \t; header
+#: ../help/help.E.txt:65
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:66
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Plain text
+#: ../help/help.E.txt:22
+#, no-wrap
+msgid "A <a cbot|var>variable</a> is composed of three elements: "
+msgstr "Una <a cbot|var>variable</a> se compone de tres elementos:"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "The type of a variable determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a character string, the coordinates of a point, etc. Here is a list with the most common variable types: "
+msgstr "El tipo de una variable determina qué tipo de información puede contener la variable. Según el tipo, una variable puede contener un número entero, un número real, una cadena de caracteres, las coordenadas de un punto, etc. Aquí hay una lista con los tipos de variables más comunes:"

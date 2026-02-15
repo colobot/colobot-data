@@ -1,0 +1,161 @@
+# This file is part of the Colobot: Gold Edition source code
+# Copyright (C) 2001-2018, Daniel Roux, EPSITEC SA & TerranovaTeam
+# This file is distributed under the same license as the Colobot package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.11\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2026-02-11 12:00+01:00\n"
+"Last-Translator: Spanish Translation Team\n"
+"Language-Team: Spanish\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: es_ES\n"
+"X-Source-Language: en_US\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Mover 2"
+msgstr "Mover 2"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#. type: \t; header
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "See also"
+msgstr "Ver también"
+
+#. type: Plain text
+#: ../help/help.E.txt:35
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programación</a>, <a cbot|type>tipos</a> y <a cbot|category>categorías</a>."
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Retrieve several titanium cubes."
+msgstr "Recoge varios cubos de titanio."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Mover"
+msgstr "Mover"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "This exercise is very similar to the previous one. There are now three <a object|titan>titanium cubes</a> that you must move to 3 finishing pads. Here are the coordinates of the finishing pads:"
+msgstr "Este ejercicio es muy similar al anterior. Ahora hay tres <a object|titan>cubos de titanio</a> que debes mover a 3 plataformas de meta. Aquí están las coordenadas de las plataformas de meta:"
+
+#. type: Plain text
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
+msgstr ""
+"\tx=10, y=-60\n"
+"\tx=10, y=-65\n"
+"\tx=10, y=-70"
+
+#. type: \b; header
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "General principle"
+msgstr "Principio general"
+
+#. type: Plain text
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "Repeat 3 times:"
+msgstr "Repite 3 veces:"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Look for the most distant titanium cube with <code><a cbot|radar>radar</a></code>."
+msgstr "Busca el cubo de titanio más lejano con <code><a cbot|radar>radar</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Pick it up with <code><a cbot|grab>grab</a></code>."
+msgstr "Recógelo con <code><a cbot|grab>grab</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "Go to one of the pads with <code><a cbot|goto>goto</a></code>."
+msgstr "Ve a una de las plataformas con <code><a cbot|goto>goto</a></code>."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:13
+#, no-wrap
+msgid "Drop the titanium with <code><a cbot|drop>drop</a></code>."
+msgstr "Deja el titanio con <code><a cbot|drop>drop</a></code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:15
+#, no-wrap
+msgid "If you look for the nearest titanium cube, the radar would find one that you already retrieved and dropped on a pad. Therefore you must look for the most distant titanium cube."
+msgstr "Si buscas el cubo de titanio más cercano, el radar encontraría uno que ya recogiste y dejaste en una plataforma. Por lo tanto, debes buscar el cubo de titanio más lejano."
+
+#. type: \b; header
+#: ../help/help.E.txt:17
+#, no-wrap
+msgid "The program"
+msgstr "El programa"
+
+#. type: Plain text
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid "Use a <code><a cbot|for>for</a></code> loop in order to repeat 3 times all the instructions necessary to retrieve the titanium cube. Inside the loop, in order to find the most distant titanium cube, use the instruction <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. The last value <code>-1</code> means that instead of looking for the closest item, the radar will return the most distant that it can find."
+msgstr "Usa un bucle <code><a cbot|for>for</a></code> para repetir 3 veces todas las instrucciones necesarias para recuperar el cubo de titanio. Dentro del bucle, para encontrar el cubo de titanio más lejano, usa la instrucción <c/><a cbot|radar>radar</a>(Titanium, 0, 360, 0, 1000, -1);<n/>. El último valor <code>-1</code> significa que en lugar de buscar el objeto más cercano, el radar devolverá el más lejano que pueda encontrar."
+
+#. type: Source code
+#: ../help/help.E.txt:20
+#, no-wrap
+msgid ""
+"object  metal;\n"
+"metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
+"if ( metal == null )  return;\n"
+"goto(metal.position);"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "The variable <code>metal</code> if of type <code><a cbot|object>object</a></code>. In order to know the position of the object described by the variable, you must write <code>metal.position</code>."
+msgstr "La variable <code>metal</code> es de tipo <code><a cbot|object>object</a></code>. Para conocer la posición del objeto descrito por la variable, debes escribir <code>metal.position</code>."
+
+#. type: Plain text
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "The <code>x</code> coordinates of the 3 pads are all equal to 10. The <code>y</code> coordinates are respectively -60, -65 and -70. The most efficient way to get the coordinates of the pads is to use the value of <code>i</code> of the <code>for</code> loop that will take successively the values 0, 1 and 2:"
+msgstr "Las coordenadas <code>x</code> de las 3 plataformas son todas iguales a 10. Las coordenadas <code>y</code> son respectivamente -60, -65 y -70. La forma más eficiente de obtener las coordenadas de las plataformas es usar el valor de <code>i</code> del bucle <code>for</code> que tomará sucesivamente los valores 0, 1 y 2:"
+
+#. type: Source code
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
+msgstr ""
+
+#. type: Plain text
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "It is up to you now to finish the program."
+msgstr "Ahora depende de ti terminar el programa."
