@@ -133,6 +133,10 @@ msgid ""
 "if ( metal == null )  return;\n"
 "goto(metal.position);"
 msgstr ""
+"object  metal;\n"
+"metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
+"if ( metal == null )  return;\n"
+"goto(metal.position);"
 
 #. type: Plain text
 #: ../help/help.E.txt:25
@@ -153,6 +157,8 @@ msgid ""
 "dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
+"dest.x = 10;\n"
+"dest.y = -60-5*i;"
 
 #. type: Plain text
 #: ../help/help.E.txt:32

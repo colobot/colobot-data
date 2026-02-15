@@ -115,6 +115,10 @@ msgid ""
 "if ( item == null )  return;\n"
 "goto(item.position);"
 msgstr ""
+"object  item;\n"
+"item = radar(Titanium);\n"
+"if ( item == null )  return;\n"
+"goto(item.position);"
 
 #. type: Plain text
 #: ../help/help.E.txt:22

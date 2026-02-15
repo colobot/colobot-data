@@ -93,6 +93,18 @@ msgid ""
 "\t</code>quarter turn left<c/>\n"
 "}"
 msgstr ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
+"{\n"
+"\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
+"\t{\n"
+"\t\t<n/>explorar el subsuelo<code>\n"
+"\t\t</code>avanzar 5m<code>\n"
+"\t}\n"
+"\t</code>explorar el subsuelo<code>\n"
+"\t</code>cuarto de vuelta a la izquierda<code>\n"
+"\t</code>avanzar 5m<code>\n"
+"\t</code>cuarto de vuelta a la izquierda<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:23
@@ -121,6 +133,14 @@ msgid ""
 "\ty </code>is uneven<c/>\n"
 "}"
 msgstr ""
+"if ( y%2 == 0 )\n"
+"{\n"
+"\ty <n/>es par<code>\n"
+"}\n"
+"else\n"
+"{\n"
+"\ty </code>es impar<c/>\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:37

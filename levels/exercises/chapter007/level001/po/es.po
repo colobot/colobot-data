@@ -89,6 +89,8 @@ msgid ""
 "{\n"
 "\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
 msgstr ""
+"{\n"
+"\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
 
 #. type: Plain text
 #: ../help/help.E.txt:17
@@ -112,6 +114,17 @@ msgid ""
 "\t\t}\n"
 "\t}"
 msgstr ""
+"\t{\n"
+"\t\tif ( m_order == \"\" )\n"
+"\t\t{\n"
+"\t\t\tm_order = order;\n"
+"\t\t\treturn true;\n"
+"\t\t}\n"
+"\t\telse\n"
+"\t\t{\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:30
@@ -136,6 +149,12 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"\t{\n"
+"\t\tstring ret = m_order;\n"
+"\t\tm_order = \"\";\n"
+"\t\treturn ret;\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:40
@@ -157,6 +176,9 @@ msgid ""
 "\texchange list();\n"
 "\tstring   todo;"
 msgstr ""
+"{\n"
+"\texchange list();\n"
+"\tstring   todo;"
 
 #. type: Plain text
 #: ../help/help.E.txt:47
@@ -182,6 +204,13 @@ msgid ""
 "\t\t\twait(1);\n"
 "\t\t}"
 msgstr ""
+"\t{\n"
+"\t\t<a cbot|while>while</a> ( true )\n"
+"\t\t{\n"
+"\t\t\ttodo = list.get();\n"
+"\t\t\tif ( todo != \"\" )  break;\n"
+"\t\t\twait(1);\n"
+"\t\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:58
@@ -209,6 +238,15 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"\t\t{\n"
+"\t\t\tmove(<a cbot|strval>strval</a>(<a cbot|strmid>strmid</a>(todo,5)));\n"
+"\t\t}\n"
+"\t\tif ( strfind(todo, \"turn\") == 0 )\n"
+"\t\t{\n"
+"\t\t\tturn(strval(strmid(todo,5)));\n"
+"\t\t}\n"
+"\t}\n"
+"}"
 
 #. type: \b; header
 #: ../help/help.E.txt:71
@@ -247,6 +285,14 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"{\n"
+"\texchange list();\n"
+"\t\n"
+"\twhile ( list.put(order) == false )\n"
+"\t{\n"
+"\t\twait(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:84
@@ -280,21 +326,35 @@ msgid ""
 "\tSendOrder(\"move(10)\");\n"
 "}"
 msgstr ""
+"{\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(20)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"\tSendOrder(\"turn(-90)\");\n"
+"\tSendOrder(\"move(10)\");\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. You must use a <a cbot|string>string</a> to pass the orders to the slave bot. This string contains the order the slave shoud execute, for exemple <code>\"move(20)\"</code>. You can see that this is the same syntax as used in the CBOT language but we could have chosen any other syntax for exemple something like <code>\"advance=20\"</code>. The string will be a <code><a cbot|static>static</a></code> class member that will be used to communicate from the master to the slave."
 msgstr ""
+"Controla remotamente un robot esclavo sin usar un <a object|exchange>puesto de intercambio de información</a>. El robot debe pasar sobre las 6 cruces azules. Debes usar una <a cbot|string>cadena</a> para pasar las órdenes al bot esclavo. Esta cadena contiene la orden que el esclavo debe ejecutar, por ejemplo <code>\"move(20)\"</code>. Puedes ver que esta es la misma sintaxis usada en el lenguaje CBOT pero podríamos haber elegido cualquier otra sintaxis, por ejemplo algo como <code>\"advance=20\"</code>. La cadena será un miembro de clase <code><a cbot|static>static</a></code> que se usará para comunicar desde el maestro al esclavo."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "<n/>The <code>put</code> method will be used by the master robot for transmitting an order. As long as the string <code>m_order</code> is not empty, the slave has not finished the order and the <code>put</code> method will return <code>false</code> and will do nothing."
 msgstr ""
+"<n/>El método <code>put</code> será usado por el robot maestro para transmitir una orden. Mientras la cadena <code>m_order</code> no esté vacía, el esclavo no ha terminado la orden y el método <code>put</code> devolverá <code>false</code> y no hará nada."
 
 #. type: Plain text
 #: ../help/help.E.txt:100
 #, no-wrap
 msgid "<format key><key help/></format> show these instruction at any time."
 msgstr ""
+"<format key><key help/></format> muestra estas instrucciones en cualquier momento."

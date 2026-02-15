@@ -245,7 +245,7 @@ msgstr ""
 "\t\t}\n"
 "\t\telse\n"
 "\t\t{\n"
-"\t\t\tmessage(\"Unknown order\");\n"
+"\t\t\tmessage(\"Orden desconocida\");\n"
 "\t\t}\n"
 "\t}\n"
 "}"
@@ -329,57 +329,66 @@ msgstr "<a command>Controles</a> y <a cbot>programación</a>."
 #, no-wrap
 msgid "Remote control a slave robot without using an <a object|exchange>information exchange post</a>. The robot should pass over the 6 blue crosses. "
 msgstr ""
+"Controla remotamente un robot esclavo sin usar un <a object|exchange>puesto de intercambio de información</a>. El robot debe pasar sobre las 6 cruces azules. "
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "A second <a cbot|class>class</a> <code>exchange</code> contains the mechanism for exchanging the orders. We declare a <code><a cbot|static>static</a></code> class member <code>m_fifo</code> which will contain the list of orders to be executed. The word <code>static</code> insures that the member <code>m_fifo</code> is shared between all instances of the <a cbot|class>class</a> exchange."
 msgstr ""
+"Una segunda <a cbot|class>clase</a> <code>exchange</code> contiene el mecanismo para intercambiar las órdenes. Declaramos un miembro de clase <code><a cbot|static>static</a></code> <code>m_fifo</code> que contendrá la lista de órdenes a ejecutar. La palabra <code>static</code> asegura que el miembro <code>m_fifo</code> se comparta entre todas las instancias de la <a cbot|class>clase</a> exchange."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "The <code>put</code> method will be used by the master robot for transmitting an order. The order will simply be added at the end of the <code>m_fifo</code> array:"
 msgstr ""
+"El método <code>put</code> será usado por el robot maestro para transmitir una orden. La orden simplemente se añadirá al final del arreglo <code>m_fifo</code>:"
 
 #. type: Plain text
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "Another method <code>get</code> will be used by the slave to retrieve the orders. This method returns the order to be executed. If the list is empty, <code>null</code> will be returned and the robot must wait for more orders. Otherwise the first order in the list must be returned and the remaining orders must be \"scrolled up\". As an array can not be \"shortened\" we use a temporary array <code>copy</code>:"
 msgstr ""
+"Otro método <code>get</code> será usado por el esclavo para recuperar las órdenes. Este método devuelve la orden a ejecutar. Si la lista está vacía, se devolverá <code>null</code> y el robot debe esperar más órdenes. De lo contrario, se debe devolver la primera orden de la lista y las órdenes restantes deben \"desplazarse hacia arriba\". Como un arreglo no se puede \"acortar\", usamos un arreglo temporal <code>copy</code>:"
 
 #. type: Plain text
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "The main program of the slave contains an instance of the class <code>exchange</code> called <code>list</code>. We put () after the word <code>list</code> in order to create an instance of the class <code>exchange</code>."
 msgstr ""
+"El programa principal del esclavo contiene una instancia de la clase <code>exchange</code> llamada <code>list</code>. Ponemos () después de la palabra <code>list</code> para crear una instancia de la clase <code>exchange</code>."
 
 #. type: Plain text
 #: ../help/help.E.txt:54
 #, no-wrap
 msgid "The outer <code>while</code> loop lasts for ever. The inner <code>while</code> loop waits for an order by using the <code>get</code> method of the <code>exchange</code> class. As soon as <code>get</code> returns a value different from <code>null</code>, the while loop stops."
 msgstr ""
+"El bucle <code>while</code> exterior dura para siempre. El bucle <code>while</code> interior espera una orden usando el método <code>get</code> de la clase <code>exchange</code>. Tan pronto como <code>get</code> devuelve un valor diferente de <code>null</code>, el bucle while se detiene."
 
 #. type: Plain text
 #: ../help/help.E.txt:65
 #, no-wrap
 msgid "Now we have received the order in the <code>todo</code> variable. All we have to do is execute it:"
 msgstr ""
+"Ahora hemos recibido la orden en la variable <code>todo</code>. Todo lo que tenemos que hacer es ejecutarla:"
 
 #. type: \b; header
 #: ../help/help.E.txt:82
 #, no-wrap
 msgid "The master"
-msgstr ""
+msgstr "El maestro"
 
 #. type: Plain text
 #: ../help/help.E.txt:83
 #, no-wrap
 msgid "In the master we write a function called <code>SendOrder</code> which will send an order to the slave:"
 msgstr ""
+"En el maestro escribimos una función llamada <code>SendOrder</code> que enviará una orden al esclavo:"
 
 #. type: Plain text
 #: ../help/help.E.txt:95
 #, no-wrap
 msgid "Now the main program of the master is very simple:"
 msgstr ""
+"Ahora el programa principal del maestro es muy simple:"

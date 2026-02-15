@@ -89,6 +89,14 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"void object::Part(float length)\n"
+"{\n"
+"\tfor ( int i=0 ; i<2 ; i=i+1 )\n"
+"\t{\n"
+"\t\tmove(length);\n"
+"\t\tturn(90);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:16
@@ -110,6 +118,15 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::Function2( )\n"
+"{\n"
+"\tfloat\trest = 25;\n"
+"\twhile ( rest > 0 )\n"
+"\t{\n"
+"\t\tPart(rest);\n"
+"\t\trest = rest-5;\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:28
